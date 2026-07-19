@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storia Italiana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #009246, #ffffff, #CE2B37); /* Degradado verde-blanco-rojo */
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+        .timeline-content {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.2),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            position: relative;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .timeline-content:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.3),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7); /* Toque más intenso de rojo en hover */
+        }
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: #009246; /* Verde */
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #009246; /* Verde */
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-date {
+            color: #CE2B37; /* Rojo */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ddd; /* Texto claro como en las otras secciones */
+        }
+        .timeline-text {
+            color: #ddd; /* Texto claro como en las otras secciones */
+            line-height: 1.6;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                text-align: left !important;
+            }
+            
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: 10px !important;
+                right: auto !important;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Storia Italiana</h1>
+            <p id="subtitle">Scopri gli eventi più importanti nella storia d'Italia</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date1">753 a.C.</div>
+                    <div class="timeline-title" id="title1">Fondazione di Roma</div>
+                    <div class="timeline-text" id="text1">Secondo la leggenda, Roma fu fondata il 21 aprile 753 a.C. da Romolo e Remo, dando inizio alla civiltà romana.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date2">509 a.C.</div>
+                    <div class="timeline-title" id="title2">Repubblica Romana</div>
+                    <div class="timeline-text" id="text2">Dopo la cacciata dell'ultimo re, Tarquinio il Superbo, nacque la Repubblica Romana, che durò quasi 500 anni.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date3">27 a.C.</div>
+                    <div class="timeline-title" id="title3">Impero Romano</div>
+                    <div class="timeline-text" id="text3">Ottaviano divenne il primo imperatore romano con il nome di Augusto, iniziando un periodo di pace e prosperità noto come Pax Romana.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date4">476 d.C.</div>
+                    <div class="timeline-title" id="title4">Caduta dell'Impero Romano d'Occidente</div>
+                    <div class="timeline-text" id="text4">L'Impero Romano d'Occidente cadde quando Odoacre depose l'ultimo imperatore, Romolo Augustolo, segnando l'inizio del Medioevo.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date5">1861</div>
+                    <div class="timeline-title" id="title5">Unità d'Italia</div>
+                    <div class="timeline-text" id="text5">Il Regno d'Italia fu proclamato con Vittorio Emanuele II come re, completando il processo di unificazione nazionale noto come Risorgimento.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date6">1946</div>
+                    <div class="timeline-title" id="title6">Repubblica Italiana</div>
+                    <div class="timeline-text" id="text6">Dopo la seconda guerra mondiale, un referendum istituzionale abolì la monarchia e nacque la Repubblica Italiana.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Storia Italiana",
+                subtitle: "Scopri gli eventi più importanti nella storia d'Italia",
+                backLink: "← Torna alla selezione argomenti",
+                date1: "753 a.C.",
+                title1: "Fondazione di Roma",
+                text1: "Secondo la leggenda, Roma fu fondata il 21 aprile 753 a.C. da Romolo e Remo, dando inizio alla civiltà romana.",
+                date2: "509 a.C.",
+                title2: "Repubblica Romana",
+                text2: "Dopo la cacciata dell'ultimo re, Tarquinio il Superbo, nacque la Repubblica Romana, che durò quasi 500 anni.",
+                date3: "27 a.C.",
+                title3: "Impero Romano",
+                text3: "Ottaviano divenne il primo imperatore romano con il nome di Augusto, iniziando un periodo di pace e prosperità noto come Pax Romana.",
+                date4: "476 d.C.",
+                title4: "Caduta dell'Impero Romano d'Occidente",
+                text4: "L'Impero Romano d'Occidente cadde quando Odoacre depose l'ultimo imperatore, Romolo Augustolo, segnando l'inizio del Medioevo.",
+                date5: "1861",
+                title5: "Unità d'Italia",
+                text5: "Il Regno d'Italia fu proclamato con Vittorio Emanuele II come re, completando il processo di unificazione nazionale noto come Risorgimento.",
+                date6: "1946",
+                title6: "Repubblica Italiana",
+                text6: "Dopo la seconda guerra mondiale, un referendum istituzionale abolì la monarchia e nacque la Repubblica Italiana."
+            },
+            es: {
+                mainTitle: "Historia Italiana",
+                subtitle: "Descubre los eventos más importantes en la historia de Italia",
+                backLink: "← Volver a la selección de temas",
+                date1: "753 a.C.",
+                title1: "Fundación de Roma",
+                text1: "Según la leyenda, Roma fue fundada el 21 de abril de 753 a.C. por Rómulo y Remo, dando inicio a la civilización romana.",
+                date2: "509 a.C.",
+                title2: "República Romana",
+                text2: "Después de la expulsión del último rey, Tarquinio el Soberbio, nació la República Romana, que duró casi 500 años.",
+                date3: "27 a.C.",
+                title3: "Imperio Romano",
+                text3: "Octavio se convirtió en el primer emperador romano con el nombre de Augusto, iniciando un período de paz y prosperidad conocido como Pax Romana.",
+                date4: "476 d.C.",
+                title4: "Caída del Imperio Romano de Occidente",
+                text4: "El Imperio Romano de Occidente cayó cuando Odoacro depuso al último emperador, Rómulo Augústulo, marcando el inicio de la Edad Media.",
+                date5: "1861",
+                title5: "Unificación de Italia",
+                text5: "El Reino de Italia fue proclamado con Víctor Manuel II como rey, completando el proceso de unificación nacional conocido como Risorgimento.",
+                date6: "1946",
+                title6: "República Italiana",
+                text6: "Después de la Segunda Guerra Mundial, un referéndum institucional abolió la monarquía y nació la República Italiana."
+            },
+            en: {
+                mainTitle: "Italian History",
+                subtitle: "Discover the most important events in the history of Italy",
+                backLink: "← Back to topic selection",
+                date1: "753 BC",
+                title1: "Founding of Rome",
+                text1: "According to legend, Rome was founded on April 21, 753 BC by Romulus and Remus, giving birth to Roman civilization.",
+                date2: "509 BC",
+                title2: "Roman Republic",
+                text2: "After the expulsion of the last king, Tarquin the Proud, the Roman Republic was born, which lasted almost 500 years.",
+                date3: "27 BC",
+                title3: "Roman Empire",
+                text3: "Octavian became the first Roman emperor under the name of Augustus, beginning a period of peace and prosperity known as Pax Romana.",
+                date4: "476 AD",
+                title4: "Fall of the Western Roman Empire",
+                text4: "The Western Roman Empire fell when Odoacer deposed the last emperor, Romulus Augustulus, marking the beginning of the Middle Ages.",
+                date5: "1861",
+                title5: "Unification of Italy",
+                text5: "The Kingdom of Italy was proclaimed with Victor Emmanuel II as king, completing the national unification process known as the Risorgimento.",
+                date6: "1946",
+                title6: "Italian Republic",
+                text6: "After World War II, an institutional referendum abolished the monarchy and the Italian Republic was born."
+            },
+            fr: {
+                mainTitle: "Histoire Italienne",
+                subtitle: "Découvrez les événements les plus importants de l'histoire de l'Italie",
+                backLink: "← Retour à la sélection des sujets",
+                date1: "753 av. J.-C.",
+                title1: "Fondation de Rome",
+                text1: "Selon la légende, Rome a été fondée le 21 avril 753 av. J.-C. par Romulus et Remus, donnant naissance à la civilisation romaine.",
+                date2: "509 av. J.-C.",
+                title2: "République Romaine",
+                text2: "Après l'expulsion du dernier roi, Tarquin le Superbe, la République Romaine est née, qui a duré près de 500 ans.",
+                date3: "27 av. J.-C.",
+                title3: "Empire Romain",
+                text3: "Octave est devenu le premier empereur romain sous le nom d'Auguste, commençant une période de paix et de prospérité connue sous le nom de Pax Romana.",
+                date4: "476 ap. J.-C.",
+                title4: "Chute de l'Empire Romain d'Occident",
+                text4: "L'Empire Romain d'Occident est tombé lorsque Odoacre a déposé le dernier empereur, Romulus Augustule, marquant le début du Moyen Âge.",
+                date5: "1861",
+                title5: "Unification de l'Italie",
+                text5: "Le Royaume d'Italie a été proclamé avec Victor-Emmanuel II comme roi, complétant le processus d'unification nationale connu sous le nom de Risorgimento.",
+                date6: "1946",
+                title6: "République Italienne",
+                text6: "Après la Seconde Guerre mondiale, un référendum institutionnel a aboli la monarchie et la République Italienne est née."
+            },
+            de: {
+                mainTitle: "Italienische Geschichte",
+                subtitle: "Entdecken Sie die wichtigsten Ereignisse in der Geschichte Italiens",
+                backLink: "← Zurück zur Themenauswahl",
+                date1: "753 v. Chr.",
+                title1: "Gründung Roms",
+                text1: "Der Legende nach wurde Rom am 21. April 753 v. Chr. von Romulus und Remus gegründet und damit die römische Zivilisation geboren.",
+                date2: "509 v. Chr.",
+                title2: "Römische Republik",
+                text2: "Nach der Vertreibung des letzten Königs, Tarquinius Superbus, wurde die Römische Republik geboren, die fast 500 Jahre bestand.",
+                date3: "27 v. Chr.",
+                title3: "Römisches Reich",
+                text3: "Octavian wurde unter dem Namen Augustus der erste römische Kaiser und begann eine Periode des Friedens und des Wohlstands, die als Pax Romana bekannt ist.",
+                date4: "476 n. Chr.",
+                title4: "Untergang des Weströmischen Reiches",
+                text4: "Das Weströmische Reich fiel, als Odoaker den letzten Kaiser, Romulus Augustulus, absetzte und den Beginn des Mittelalters markierte.",
+                date5: "1861",
+                title5: "Einigung Italiens",
+                text5: "Das Königreich Italien wurde mit Viktor Emanuel II. als König proklamiert und vervollständigte den nationalen Einigungsprozess, der als Risorgimento bekannt ist.",
+                date6: "1946",
+                title6: "Italienische Republik",
+                text6: "Nach dem Zweiten Weltkrieg schaffte ein Verfassungsreferendum die Monarchie ab und die Italienische Republik wurde geboren."
+            },
+            pt: {
+                mainTitle: "História Italiana",
+                subtitle: "Descubra os eventos mais importantes na história da Itália",
+                backLink: "← Voltar à seleção de tópicos",
+                date1: "753 a.C.",
+                title1: "Fundação de Roma",
+                text1: "Segundo a lenda, Roma foi fundada em 21 de abril de 753 a.C. por Rômulo e Remo, dando início à civilização romana.",
+                date2: "509 a.C.",
+                title2: "República Romana",
+                text2: "Após a expulsão do último rei, Tarquínio, o Soberbo, nasceu a República Romana, que durou quase 500 anos.",
+                date3: "27 a.C.",
+                title3: "Império Romano",
+                text3: "Otaviano tornou-se o primeiro imperador romano com o nome de Augusto, iniciando um período de paz e prosperidade conhecido como Pax Romana.",
+                date4: "476 d.C.",
+                title4: "Queda do Império Romano do Ocidente",
+                text4: "O Império Romano do Ocidente caiu quando Odoacro depôs o último imperador, Rômulo Augusto, marcando o início da Idade Média.",
+                date5: "1861",
+                title5: "Unificação da Itália",
+                text5: "O Reino da Itália foi proclamado com Vítor Emanuel II como rei, completando o processo de unificação nacional conhecido como Risorgimento.",
+                date6: "1946",
+                title6: "República Italiana",
+                text6: "Após a Segunda Guerra Mundial, um referendo institucional aboliu a monarquia e nasceu a República Italiana."
+            },
+            ru: {
+                mainTitle: "Итальянская история",
+                subtitle: "Откройте для себя самые важные события в истории Италии",
+                backLink: "← Вернуться к выбору тем",
+                date1: "753 до н.э.",
+                title1: "Основание Рима",
+                text1: "Согласно легенде, Рим был основан 21 апреля 753 года до н.э. Ромулом и Ремом, положив начало римской цивилизации.",
+                date2: "509 до н.э.",
+                title2: "Римская Республика",
+                text2: "После изгнания последнего царя, Тарквиния Гордого, родилась Римская Республика, которая просуществовала почти 500 лет.",
+                date3: "27 до н.э.",
+                title3: "Римская Империя",
+                text3: "Октавиан стал первым римским императором под именем Август, начав период мира и процветания, известный как Pax Romana.",
+                date4: "476 н.э.",
+                title4: "Падение Западной Римской Империи",
+                text4: "Западная Римская Империя пала, когда Одоакр сверг последнего императора, Ромула Августула, положив начало Средневековью.",
+                date5: "1861",
+                title5: "Объединение Италии",
+                text5: "Королевство Италия было провозглашено с Виктором Эммануилом II в качестве короля, завершив процесс национального объединения, известный как Рисорджименто.",
+                date6: "1946",
+                title6: "Итальянская Республика",
+                text6: "После Второй мировой войны институциональный референдум отменил монархию и родилась Итальянская Республика."
+            },
+            zh: {
+                mainTitle: "意大利历史",
+                subtitle: "发现意大利历史上最重要的事件",
+                backLink: "← 返回主题选择",
+                date1: "公元前753年",
+                title1: "罗马的建立",
+                text1: "根据传说，罗马于公元前753年4月21日由罗穆路斯和雷穆斯建立，开创了罗马文明。",
+                date2: "公元前509年",
+                title2: "罗马共和国",
+                text2: "驱逐最后一位国王塔克文·苏佩布后，罗马共和国诞生，持续了近500年。",
+                date3: "公元前27年",
+                title3: "罗马帝国",
+                text3: "屋大维成为第一位罗马皇帝，名为奥古斯都，开始了被称为罗马和平的和平与繁荣时期。",
+                date4: "公元476年",
+                title4: "西罗马帝国的灭亡",
+                text4: "西罗马帝国在奥多亚塞废黜最后一位皇帝罗慕路斯·奥古斯都路斯后灭亡，标志着中世纪的开始。",
+                date5: "1861年",
+                title5: "意大利统一",
+                text5: "意大利王国由维克托·伊曼纽尔二世作为国王宣布成立，完成了被称为复兴运动的民族统一进程。",
+                date6: "1946年",
+                title6: "意大利共和国",
+                text6: "第二次世界大战后，一场制度性公投废除了君主制，意大利共和国诞生。"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de la línea de tiempo
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`date${i}`).textContent = t[`date${i}`];
+                document.getElementById(`title${i}`).textContent = t[`title${i}`];
+                document.getElementById(`text${i}`).textContent = t[`text${i}`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

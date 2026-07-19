@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos de Uso - Trilex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #000000;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #3C3B6E;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3C3B6E;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .date {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #8B0000;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <h1 id="mainTitle">Términos de Uso</h1>
+        <p class="date" id="updateDate">Fecha de última actualización: 24 de Agosto de 2025</p>
+        
+        <h2 id="section1Title">1. Propiedad Intelectual</h2>
+        <p id="section1Para1">Todo el contenido de Trilex, excepto las imágenes e iconos que tengan mención de su respectiva licencia, incluyendo textos, logos, archivos de audio y software, es propiedad de Trilex y está protegido por las leyes de derechos de autor y propiedad intelectual.</p>
+        <p id="section1Para2">Queda estrictamente prohibido copiar, reproducir, distribuir, modificar, o crear trabajos derivados de cualquier parte de este sitio sin el consentimiento explícito por escrito de Trilex.</p>
+        
+        <h2 id="section2Title">2. Uso Aceptable</h2>
+        <p id="section2Para1">Al acceder y utilizar este sitio web, usted acepta cumplir con los siguientes términos:</p>
+        <ul id="section2List">
+            <li>No utilizar el contenido para fines comerciales sin autorización previa.</li>
+            <li>No intentar obtener acceso no autorizado a ninguna parte del sitio.</li>
+            <li>No utilizar el sitio de manera que pueda dañar, deshabilitar o sobrecargar los servidores.</li>
+            <li>No emplear el sitio para recopilar información de otros usuarios sin su consentimiento.</li>
+        </ul>
+        
+        <h2 id="section3Title">3. Limitación de Responsabilidad</h2>
+        <p id="section3Para1">Trilex no se responsabiliza por ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de este sitio web, incluyendo daños por pérdida de beneficios, datos u otros intangibles.</p>
+        
+        <h2 id="section4Title">4. Modificaciones</h2>
+        <p id="section4Para1">Trilex se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor a los 15 días de su publicación en el sitio. Se recomienda revisar periódicamente estos términos para estar informado de cualquier cambio.</p>
+        
+        <h2 id="section5Title">5. Ley Aplicable</h2>
+        <p id="section5Para1">Estos términos se rigen e interpretan de acuerdo con las leyes de argentina sin tener en cuenta sus principios de conflicto de leyes. Cualquier disputa relacionada con estos términos se resolverá en los tribunales de La Ciudad Autónoma de Buenos Aires (Argentina).</p>
+        
+        <h2 id="section6Title">6. Contacto</h2>
+        <p id="section6Para1">Si requiere solicitar consentimiento para el uso de cierta información (ya sea código o contenido) puede ponerse en contacto a través de: franco.insua3.0@gmail.com</p>
+        
+        <a href="../index.html" class="back-link" id="backLink">← Volver a la página principal</a>
+    </div>
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            es: {
+                mainTitle: "Términos de Uso",
+                updateDate: "Fecha de última actualización: 24 de Agosto de 2025",
+                section1Title: "1. Propiedad Intelectual",
+                section1Para1: "Todo el contenido de Trilex, excepto las imágenes e iconos que tengan mención de su respectiva licencia, incluyendo textos, logos, archivos de audio y software, es propiedad de Trilex y está protegido por las leyes de derechos de autor y propiedad intelectual.",
+                section1Para2: "Queda estrictamente prohibido copiar, reproducir, distribuir, modificar, o crear trabajos derivados de cualquier parte de este sitio sin el consentimiento explícito por escrito de Trilex.",
+                section2Title: "2. Uso Aceptable",
+                section2Para1: "Al acceder y utilizar este sitio web, usted acepta cumplir con los siguientes términos:",
+                section2List: [
+                    "No utilizar el contenido para fines comerciales sin autorización previa.",
+                    "No intentar obtener acceso no autorizado a ninguna parte del sitio.",
+                    "No utilizar el sitio de manera que pueda dañar, deshabilitar o sobrecargar los servidores.",
+                    "No emplear el sitio para recopilar información de otros usuarios sin su consentimiento."
+                ],
+                section3Title: "3. Limitación de Responsabilidad",
+                section3Para1: "Trilex no se responsabiliza por ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de este sitio web, incluyendo daños por pérdida de beneficios, datos u otros intangibles.",
+                section4Title: "4. Modificaciones",
+                section4Para1: "Trilex se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor a los 15 días de su publicación en el sitio. Se recomienda revisar periódicamente estos términos para estar informado de cualquier cambio.",
+                section5Title: "5. Ley Aplicable",
+                section5Para1: "Estos términos se rigen e interpretan de acuerdo con las leyes de argentina sin tener en cuenta sus principios de conflicto de leyes. Cualquier disputa relacionada con estos términos se resolverá en los tribunales de La Ciudad Autónoma de Buenos Aires (Argentina).",
+                section6Title: "6. Contacto",
+                section6Para1: "Si requiere solicitar consentimiento para el uso de cierta información (ya sea código o contenido) puede ponerse en contacto a través de: franco.insua3.0@gmail.com",
+                backLink: "← Volver a la página principal"
+            },
+            en: {
+                mainTitle: "Terms of Use",
+                updateDate: "Last updated: August 24, 2025",
+                section1Title: "1. Intellectual Property",
+                section1Para1: "All content of Trilex, except images and icons that mention their respective license, including texts, logos, audio files and software, is property of Trilex and is protected by copyright and intellectual property laws.",
+                section1Para2: "It is strictly prohibited to copy, reproduce, distribute, modify, or create derivative works of any part of this site without the express written consent of Trilex.",
+                section2Title: "2. Acceptable Use",
+                section2Para1: "By accessing and using this website, you agree to comply with the following terms:",
+                section2List: [
+                    "Do not use the content for commercial purposes without prior authorization.",
+                    "Do not attempt to gain unauthorized access to any part of the site.",
+                    "Do not use the site in a way that may damage, disable or overload the servers.",
+                    "Do not use the site to collect information from other users without their consent."
+                ],
+                section3Title: "3. Limitation of Liability",
+                section3Para1: "Trilex is not responsible for any direct, indirect, incidental, special or consequential damages that may arise from the use or inability to use this website, including damages for loss of profits, data or other intangibles.",
+                section4Title: "4. Modifications",
+                section4Para1: "Trilex reserves the right to modify these terms at any time. Modifications will take effect 15 days after their publication on the site. It is recommended to review these terms periodically to be informed of any changes.",
+                section5Title: "5. Applicable Law",
+                section5Para1: "These terms are governed and interpreted in accordance with the laws of Argentina without regard to its conflict of law principles. Any dispute related to these terms will be resolved in the courts of the Autonomous City of Buenos Aires (Argentina).",
+                section6Title: "6. Contact",
+                section6Para1: "If you need to request consent for the use of certain information (whether code or content) you can contact through: franco.insua3.0@gmail.com",
+                backLink: "← Back to main page"
+            },
+            fr: {
+                mainTitle: "Conditions d'Utilisation",
+                updateDate: "Dernière mise à jour: 24 août 2025",
+                section1Title: "1. Propriété Intellectuelle",
+                section1Para1: "Tout le contenu de Trilex, à l'exception des images et des icônes qui mentionnent leur licence respective, y compris les textes, logos, fichiers audio et logiciels, est la propriété de Trilex et est protégé par les lois sur le droit d'auteur et la propriété intellectuelle.",
+                section1Para2: "Il est strictement interdit de copier, reproduire, distribuer, modifier ou créer des œuvres dérivées de toute partie de ce site sans le consentement écrit exprès de Trilex.",
+                section2Title: "2. Utilisation Acceptable",
+                section2Para1: "En accédant à ce site web et en l'utilisant, vous acceptez de respecter les conditions suivantes:",
+                section2List: [
+                    "Ne pas utiliser le contenu à des fins commerciales sans autorisation préalable.",
+                    "Ne pas tenter d'accéder sans autorisation à une partie du site.",
+                    "Ne pas utiliser le site d'une manière qui pourrait endommager, désactiver ou surcharger les serveurs.",
+                    "Ne pas utiliser le site pour collecter des informations d'autres utilisateurs sans leur consentement."
+                ],
+                section3Title: "3. Limitation de Responsabilité",
+                section3Para1: "Trilex n'est pas responsable des dommages directs, indirects, accessoires, spéciaux ou consécutifs qui pourraient résulter de l'utilisation ou de l'impossibilité d'utiliser ce site web, y compris les dommages pour perte de profits, de données ou d'autres intangibles.",
+                section4Title: "4. Modifications",
+                section4Para1: "Trilex se réserve le droit de modifier ces conditions à tout moment. Les modifications prendront effet 15 jours après leur publication sur le site. Il est recommandé de revoir périodiquement ces conditions pour être informé de tout changement.",
+                section5Title: "5. Loi Applicable",
+                section5Para1: "Ces conditions sont régies et interprétées conformément aux lois de l'Argentine sans égard à ses principes de conflit de lois. Tout litige lié à ces conditions sera résolu dans les tribunaux de la Ville Autonome de Buenos Aires (Argentine).",
+                section6Title: "6. Contact",
+                section6Para1: "Si vous avez besoin de demander le consentement pour l'utilisation de certaines informations (code ou contenu), vous pouvez contacter à l'adresse suivante: franco.insua3.0@gmail.com",
+                backLink: "← Retour à la page principale"
+            },
+            de: {
+                mainTitle: "Nutzungsbedingungen",
+                updateDate: "Zuletzt aktualisiert: 24. August 2025",
+                section1Title: "1. Geistiges Eigentum",
+                section1Para1: "Alle Inhalte von Trilex, mit Ausnahme von Bildern und Symbolen, die auf ihre jeweilige Lizenz hinweisen, einschließlich Texten, Logos, Audiodateien und Software, sind Eigentum von Trilex und durch Urheber- und Eigentumsgesetze geschützt.",
+                section1Para2: "Es ist strengstens verboten, Teile dieser Website ohne ausdrückliche schriftliche Zustimmung von Trilex zu kopieren, zu reproduzieren, zu verteilen, zu ändern oder abgeleitete Werke zu erstellen.",
+                section2Title: "2. Akzeptable Nutzung",
+                section2Para1: "Durch den Zugriff auf und die Nutzung dieser Website erklären Sie sich mit den folgenden Bedingungen einverstanden:",
+                section2List: [
+                    "Die Inhalte nicht ohne vorherige Genehmigung für kommerzielle Zwecke nutzen.",
+                    "Nicht versuchen, unbefugten Zugriff auf Teile der Website zu erhalten.",
+                    "Die Website nicht so nutzen, dass sie die Server beschädigen, deaktivieren oder überlasten könnte.",
+                    "Die Website nicht nutzen, um ohne Zustimmung Informationen von anderen Benutzern zu sammeln."
+                ],
+                section3Title: "3. Haftungsbeschränkung",
+                section3Para1: "Trilex haftet nicht für direkte, indirekte, zufällige, besondere oder Folgeschäden, die aus der Nutzung oder Unfähigkeit zur Nutzung dieser Website entstehen können, einschließlich Schäden durch Gewinn-, Daten- oder andere immaterielle Verluste.",
+                section4Title: "4. Änderungen",
+                section4Para1: "Trilex behält sich das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten 15 Tage nach ihrer Veröffentlichung auf der Website in Kraft. Es wird empfohlen, diese Bedingungen regelmäßig zu überprüfen, um über Änderungen informiert zu bleiben.",
+                section5Title: "5. Anwendbares Recht",
+                section5Para1: "Diese Bedingungen unterliegen und werden gemäß den Gesetzen von Argentinien ausgelegt, ohne dessen Kollisionsrechtsgrundsätze zu berücksichtigen. Jede Streitigkeit im Zusammenhang mit diesen Bedingungen wird vor den Gerichten der Autonomen Stadt Buenos Aires (Argentinien) entschieden.",
+                section6Title: "6. Kontakt",
+                section6Para1: "Wenn Sie die Erlaubnis zur Verwendung bestimmter Informationen (Code oder Inhalt) benötigen, können Sie sich unter folgender E-Mail-Adresse wenden: franco.insua3.0@gmail.com",
+                backLink: "← Zurück zur Hauptseite"
+            },
+            it: {
+                mainTitle: "Termini di Utilizzo",
+                updateDate: "Ultimo aggiornamento: 24 Agosto 2025",
+                section1Title: "1. Proprietà Intellettuale",
+                section1Para1: "Tutto il contenuto di Trilex, ad eccezione delle immagini e delle icone che menzionano la rispettiva licenza, inclusi testi, loghi, file audio e software, è proprietà di Trilex ed è protetto dalle leggi sul diritto d'autore e sulla proprietà intellettuale.",
+                section1Para2: "È severamente vietato copiare, riprodurre, distribuire, modificare o creare opere derivate da qualsiasi parte di questo sito senza il consenso scritto esplicito di Trilex.",
+                section2Title: "2. Uso Accettabile",
+                section2Para1: "Accedendo e utilizzando questo sito web, si accetta di rispettare i seguenti termini:",
+                section2List: [
+                    "Non utilizzare il contenuto per scopi commerciali senza autorizzazione preventiva.",
+                    "Non tentare di ottenere accesso non autorizzato ad alcuna parte del sito.",
+                    "Non utilizzare il sito in modo che possa danneggiare, disabilitare o sovraccaricare i server.",
+                    "Non utilizzare il sito per raccogliere informazioni da altri utenti senza il loro consenso."
+                ],
+                section3Title: "3. Limitazione di Responsabilità",
+                section3Para1: "Trilex non è responsabile per eventuali danni diretti, indiretti, incidentali, speciali o consequenziali che possono derivare dall'uso o dall'impossibilità di utilizzare questo sito web, inclusi danni per perdita di profitti, dati o altri intangibili.",
+                section4Title: "4. Modifiche",
+                section4Para1: "Trilex si riserva il diritto di modificare questi termini in qualsiasi momento. Le modifiche avranno effetto 15 giorni dopo la loro pubblicazione sul sito. Si raccomanda di rivedere periodicamente questi termini per essere informati di eventuali modifiche.",
+                section5Title: "5. Legge Applicabile",
+                section5Para1: "Questi termini sono regolati e interpretati in conformità con le leggi argentine senza tener conto dei suoi principi di diritto internazionale privato. Qualsiasi disputa relativa a questi termini sarà risolta nei tribunali della Città Autonoma di Buenos Aires (Argentina).",
+                section6Title: "6. Contatto",
+                section6Para1: "Se è necessario richiedere il consenso per l'utilizzo di determinate informazioni (sia codice che contenuto), è possibile contattare all'indirizzo: franco.insua3.0@gmail.com",
+                backLink: "← Torna alla pagina principale"
+            },
+            pt: {
+                mainTitle: "Termos de Uso",
+                updateDate: "Última atualização: 24 de Agosto de 2025",
+                section1Title: "1. Propriedade Intelectual",
+                section1Para1: "Todo o conteúdo do Trilex, exceto imagens e ícones que mencionem sua respectiva licença, incluindo textos, logotipos, arquivos de áudio e software, é propriedade do Trilex e está protegido pelas leis de direitos autorais e propriedade intelectual.",
+                section1Para2: "É estritamente proibido copiar, reproduzir, distribuir, modificar ou criar obras derivadas de qualquer parte deste site sem o consentimento expresso por escrito do Trilex.",
+                section2Title: "2. Uso Aceitável",
+                section2Para1: "Ao acessar e usar este site, você concorda em cumprir os seguintes termos:",
+                section2List: [
+                    "Não usar o conteúdo para fins comerciais sem autorização prévia.",
+                    "Não tentar obter acesso não autorizado a qualquer parte do site.",
+                    "Não usar o site de uma forma que possa danificar, desabilitar ou sobrecarregar os servidores.",
+                    "Não usar o site para coletar informações de outros usuários sem seu consentimento."
+                ],
+                section3Title: "3. Limitação de Responsabilidade",
+                section3Para1: "O Trilex não é responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais que possam surgir do uso ou incapacidade de uso deste site, incluindo danos por perda de lucros, dados ou outros intangíveis.",
+                section4Title: "4. Modificações",
+                section4Para1: "O Trilex reserva-se o direito de modificar estes termos a qualquer momento. As modificações entrarão em vigor 15 dias após sua publicação no site. Recomenda-se revisar periodicamente estes termos para estar informado de quaisquer alterações.",
+                section5Title: "5. Lei Aplicável",
+                section5Para1: "Estes termos são regidos e interpretados de acordo com as leis da Argentina sem considerar seus princípios de conflito de leis. Qualquer disputa relacionada a estes termos será resolvida nos tribunais da Cidade Autônoma de Buenos Aires (Argentina).",
+                section6Title: "6. Contato",
+                section6Para1: "Se precisar solicitar consentimento para o uso de certas informações (seja código ou conteúdo), pode entrar em contato através de: franco.insua3.0@gmail.com",
+                backLink: "← Voltar à página principal"
+            },
+            ru: {
+                mainTitle: "Условия использования",
+                updateDate: "Последнее обновление: 24 августа 2025",
+                section1Title: "1. Интеллектуальная собственность",
+                section1Para1: "Весь контент Trilex, за исключением изображений и значков, на которых указана соответствующая лицензия, включая тексты, логотипы, аудиофайлы и программное обеспечение, является собственностью Trilex и защищен законами об авторских правах и интеллектуальной собственности.",
+                section1Para2: "Строго запрещается копировать, воспроизводить, распространять, изменять или создавать производные работы любой части этого сайта без явного письменного согласия Trilex.",
+                section2Title: "2. Приемлемое использование",
+                section2Para1: "Доступ к этому веб-сайту и его использование означает ваше согласие со следующими условиями:",
+                section2List: [
+                    "Не использовать контент в коммерческих целях без предварительного разрешения.",
+                    "Не пытаться получить несанкционированный доступ к любой части сайта.",
+                    "Не использовать сайт таким образом, чтобы повредить, отключить или перегрузить серверы.",
+                    "Не использовать сайт для сбора информации о других пользователях без их согласия."
+                ],
+                section3Title: "3. Ограничение ответственности",
+                section3Para1: "Trilex не несет ответственности за любые прямые, косвенные, случайные, специальные или последующие убытки, которые могут возникнуть в результате использования или невозможности использования этого веб-сайта, включая убытки от потери прибыли, данных или других нематериальных активов.",
+                section4Title: "4. Изменения",
+                section4Para1: "Trilex оставляет за собой право изменять эти условия в любое время. Изменения вступят в силу через 15 дней после их публикации на сайте. Рекомендуется периодически просматривать эти условия, чтобы быть в курсе любых изменений.",
+                section5Title: "5. Применимое право",
+                section5Para1: "Эти условия регулируются и толкуются в соответствии с законодательством Аргентины без учета ее принципов коллизионного права. Любые споры, связанные с этими условиями, будут разрешаться в судах Автономного города Буэнос-Айрес (Аргентина).",
+                section6Title: "6. Контакты",
+                section6Para1: "Если вам необходимо запросить разрешение на использование определенной информации (будь то код или контент), вы можете связаться по адресу: franco.insua3.0@gmail.com",
+                backLink: "← Вернуться на главную страницу"
+            },
+            zh: {
+                mainTitle: "使用条款",
+                updateDate: "最后更新: 2025年8月24日",
+                section1Title: "1. 知识产权",
+                section1Para1: "Trilex的所有内容，除提及相应许可证的图像和图标外，包括文本、标志、音频文件和软件，均为Trilex的财产，受版权和知识产权法保护。",
+                section1Para2: "严禁未经Trilex明确书面同意，复制、再生产、分发、修改或创建本网站任何部分的衍生作品。",
+                section2Title: "2. 可接受的使用",
+                section2Para1: "通过访问和使用本网站，您同意遵守以下条款:",
+                section2List: [
+                    "未经事先授权，不得将内容用于商业目的。",
+                    "不得尝试未经授权访问网站的任何部分。",
+                    "不得以可能损坏、禁用或过载服务器的方式使用网站。",
+                    "不得使用网站在未经同意的情况下收集其他用户的信息。"
+                ],
+                section3Title: "3. 责任限制",
+                section3Para1: "Trilex对因使用或无法使用本网站而产生的任何直接、间接、附带、特殊或后果性损害不承担责任，包括利润、数据或其他无形资产的损失。",
+                section4Title: "4. 修改",
+                section4Para1: "Trilex保留随时修改这些条款的权利。修改将在网站上公布15天后生效。建议定期查看这些条款以了解任何变更。",
+                section5Title: "5. 适用法律",
+                section5Para1: "这些条款根据阿根廷法律进行管辖和解释，不考虑其法律冲突原则。任何与这些条款相关的争议将在布宜诺斯艾利斯自治市（阿根廷）的法院解决。",
+                section6Title: "6. 联系方式",
+                section6Para1: "如果您需要请求使用某些信息（代码或内容）的许可，可以通过以下联系方式: franco.insua3.0@gmail.com",
+                backLink: "← 返回主页"
+            }
+        };
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar título principal y fecha de actualización
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('updateDate').textContent = t.updateDate;
+            
+            // Actualizar títulos de secciones
+            document.getElementById('section1Title').textContent = t.section1Title;
+            document.getElementById('section2Title').textContent = t.section2Title;
+            document.getElementById('section3Title').textContent = t.section3Title;
+            document.getElementById('section4Title').textContent = t.section4Title;
+            document.getElementById('section5Title').textContent = t.section5Title;
+            document.getElementById('section6Title').textContent = t.section6Title;
+            
+            // Actualizar párrafos
+            document.getElementById('section1Para1').textContent = t.section1Para1;
+            document.getElementById('section1Para2').textContent = t.section1Para2;
+            document.getElementById('section2Para1').textContent = t.section2Para1;
+            document.getElementById('section3Para1').textContent = t.section3Para1;
+            document.getElementById('section4Para1').textContent = t.section4Para1;
+            document.getElementById('section5Para1').textContent = t.section5Para1;
+            document.getElementById('section6Para1').textContent = t.section6Para1;
+            
+            // Actualizar lista de la sección 2
+            const listItems = document.querySelectorAll('#section2List li');
+            t.section2List.forEach((item, index) => {
+                if (listItems[index]) {
+                    listItems[index].textContent = item;
+                }
+            });
+            
+            // Actualizar enlace de vuelta
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

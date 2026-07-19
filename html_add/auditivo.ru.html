@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудирование</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de Moscú */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2021/12/29/18/59/st-petersburg-6902540_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera rusa */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.1) 0%,  /* Blanco */
+                rgba(0, 57, 166, 0.3) 33%,     /* Azul */
+                rgba(213, 43, 30, 0.3) 66%,   /* Rojo */
+                rgba(255, 255, 255, 0.1) 100%  /* Blanco */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #fff; /* Borde blanco */
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #fff; /* Blanco */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #D52B1E; /* Rojo ruso */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #D52B1E;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+        .back-link:hover {
+            background-color: #D52B1E;
+            color: #fff;
+        }
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .audio-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.2),    /* Azul ruso */
+                rgba(213, 43, 30, 0.2)    /* Rojo ruso */
+            );
+            border: 1px solid #fff; /* Borde blanco */
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .audio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.3),
+                rgba(213, 43, 30, 0.3)
+            );
+        }
+        .audio-card h3 {
+            color: #fff; /* Blanco */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .audio-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .audio-player {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .play-button {
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.8),    /* Azul ruso */
+                rgba(213, 43, 30, 0.8)   /* Rojo ruso */
+            );
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .progress-container {
+            flex: 1;
+            margin: 0 15px;
+            height: 6px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #0039A6, #D52B1E); /* Azul a rojo */
+            border-radius: 3px;
+            width: 0%;
+        }
+        .time {
+            color: #fff; /* Blanco */
+            font-size: 0.9rem;
+            min-width: 80px;
+            text-align: right;
+        }
+        .audio-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .easy {
+            background-color: rgba(0, 128, 0, 0.7);
+        }
+        .medium {
+            background-color: rgba(255, 165, 0, 0.7);
+        }
+        .hard {
+            background-color: rgba(213, 43, 30, 0.7);
+        }
+        .transcript-button {
+            display: inline-block;
+            margin-top: 10px;
+            color: #fff; /* Blanco */
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        .transcript-button:hover {
+            color: #0039A6; /* Azul ruso */
+            text-decoration: underline;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #D52B1E;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .audio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Аудирование</h1>
+            <p id="subtitle">Тренируйте свой слух с помощью различных русских аудиоматериалов</p>
+            <a href="ruso.html" class="back-link" id="backLink">← Вернуться к выбору темы</a>
+        </div>
+        
+        <div class="audio-grid">
+            <div class="audio-card">
+                <h3 id="audio1Title">Ежедневные диалоги</h3>
+                <p id="audio1Desc">Повседневные диалоги и разговоры в различных ситуациях повседневной жизни.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 3:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy" id="audio1Level">Легко</span>
+                        <span id="audio1Pace">Медленная речь</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio1Transcript">Показать транскрипт</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio2Title">Новости</h3>
+                <p id="audio2Desc">Актуальные новости и репортажи из России и мира на чистом стандартном русском языке.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 5:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium" id="audio2Level">Средне</span>
+                        <span id="audio2Pace">Нормальный темп</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio2Transcript">Показать транскрипт</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio3Title">Подкасты</h3>
+                <p id="audio3Desc">Интересные подкасты на различные темы с носителями русского языка.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 12:30</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium" id="audio3Level">Средне</span>
+                        <span id="audio3Pace">Естественная речь</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio3Transcript">Показать транскрипт</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio4Title">Аудиокниги</h3>
+                <p id="audio4Desc">Отрывки из популярных русских аудиокниг различных жанров.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 8:15</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard" id="audio4Level">Сложно</span>
+                        <span id="audio4Pace">Голос рассказчика</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio4Transcript">Показать транскрипт</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio5Title">Интервью</h3>
+                <p id="audio5Desc">Аутентичные интервью с российскими экспертами по различным областям знаний.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 10:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard" id="audio5Level">Сложно</span>
+                        <span id="audio5Pace">Профессиональная лексика</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio5Transcript">Показать транскрипт</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio6Title">Песни</h3>
+                <p id="audio6Desc">Русская музыка разных эпох с текстами для пения и понимания.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 4:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy" id="audio6Level">Легко</span>
+                        <span id="audio6Pace">Музыкально</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio6Transcript">Показать текст песни</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            ru: {
+                mainTitle: "Аудирование",
+                subtitle: "Тренируйте свой слух с помощью различных русских аудиоматериалов",
+                backLink: "← Вернуться к выбору темы",
+                audio1Title: "Ежедневные диалоги",
+                audio1Desc: "Повседневные диалоги и разговоры в различных ситуациях повседневной жизни.",
+                audio1Level: "Легко",
+                audio1Pace: "Медленная речь",
+                audio1Transcript: "Показать транскрипт",
+                audio2Title: "Новости",
+                audio2Desc: "Актуальные новости и репортажи из России и мира на чистом стандартном русском языке.",
+                audio2Level: "Средне",
+                audio2Pace: "Нормальный темп",
+                audio2Transcript: "Показать транскрипт",
+                audio3Title: "Подкасты",
+                audio3Desc: "Интересные подкасты на различные темы с носителями русского языка.",
+                audio3Level: "Средне",
+                audio3Pace: "Естественная речь",
+                audio3Transcript: "Показать транскрипт",
+                audio4Title: "Аудиокниги",
+                audio4Desc: "Отрывки из популярных русских аудиокниг различных жанров.",
+                audio4Level: "Сложно",
+                audio4Pace: "Голос рассказчика",
+                audio4Transcript: "Показать транскрипт",
+                audio5Title: "Интервью",
+                audio5Desc: "Аутентичные интервью с российскими экспертами по различным областям знаний.",
+                audio5Level: "Сложно",
+                audio5Pace: "Профессиональная лексика",
+                audio5Transcript: "Показать транскрипт",
+                audio6Title: "Песни",
+                audio6Desc: "Русская музыка разных эпох с текстами для пения и понимания.",
+                audio6Level: "Легко",
+                audio6Pace: "Музыкально",
+                audio6Transcript: "Показать текст песни"
+            },
+            es: {
+                mainTitle: "Comprensión Auditiva",
+                subtitle: "Entrena tu oído con diversos materiales de audio en ruso",
+                backLink: "← Volver a la selección de temas",
+                audio1Title: "Diarios Cotidianos",
+                audio1Desc: "Diálogos y conversaciones cotidianas en diversas situaciones de la vida diaria.",
+                audio1Level: "Fácil",
+                audio1Pace: "Habla lenta",
+                audio1Transcript: "Mostrar transcripción",
+                audio2Title: "Noticias",
+                audio2Desc: "Noticias actuales e informes de Rusia y del mundo en ruso estándar puro.",
+                audio2Level: "Medio",
+                audio2Pace: "Ritmo normal",
+                audio2Transcript: "Mostrar transcripción",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts interesantes sobre varios temas con hablantes nativos de ruso.",
+                audio3Level: "Medio",
+                audio3Pace: "Habla natural",
+                audio3Transcript: "Mostrar transcripción",
+                audio4Title: "Audiolibros",
+                audio4Desc: "Fragmentos de populares audiolibros rusos de varios géneros.",
+                audio4Level: "Difícil",
+                audio4Pace: "Voz del narrador",
+                audio4Transcript: "Mostrar transcripción",
+                audio5Title: "Entrevistas",
+                audio5Desc: "Entrevistas auténticas con expertos rusos en diversas áreas del conocimiento.",
+                audio5Level: "Difícil",
+                audio5Pace: "Vocabulario profesional",
+                audio5Transcript: "Mostrar transcripción",
+                audio6Title: "Canciones",
+                audio6Desc: "Música rusa de diferentes épocas con letras para cantar y comprender.",
+                audio6Level: "Fácil",
+                audio6Pace: "Musical",
+                audio6Transcript: "Mostrar letra de la canción"
+            },
+            en: {
+                mainTitle: "Listening Comprehension",
+                subtitle: "Train your ear with various Russian audio materials",
+                backLink: "← Back to topic selection",
+                audio1Title: "Daily Dialogues",
+                audio1Desc: "Everyday dialogues and conversations in various daily life situations.",
+                audio1Level: "Easy",
+                audio1Pace: "Slow speech",
+                audio1Transcript: "Show transcript",
+                audio2Title: "News",
+                audio2Desc: "Current news and reports from Russia and the world in pure standard Russian.",
+                audio2Level: "Medium",
+                audio2Pace: "Normal pace",
+                audio2Transcript: "Show transcript",
+                audio3Title: "Podcasts",
+                audio3Desc: "Interesting podcasts on various topics with native Russian speakers.",
+                audio3Level: "Medium",
+                audio3Pace: "Natural speech",
+                audio3Transcript: "Show transcript",
+                audio4Title: "Audiobooks",
+                audio4Desc: "Excerpts from popular Russian audiobooks of various genres.",
+                audio4Level: "Hard",
+                audio4Pace: "Narrator's voice",
+                audio4Transcript: "Show transcript",
+                audio5Title: "Interviews",
+                audio5Desc: "Authentic interviews with Russian experts in various fields of knowledge.",
+                audio5Level: "Hard",
+                audio5Pace: "Professional vocabulary",
+                audio5Transcript: "Show transcript",
+                audio6Title: "Songs",
+                audio6Desc: "Russian music from different eras with lyrics for singing and understanding.",
+                audio6Level: "Easy",
+                audio6Pace: "Musical",
+                audio6Transcript: "Show song lyrics"
+            },
+            fr: {
+                mainTitle: "Compréhension Auditive",
+                subtitle: "Entraînez votre oreille avec divers supports audio russes",
+                backLink: "← Retour à la sélection des sujets",
+                audio1Title: "Dialogues Quotidiens",
+                audio1Desc: "Dialogues et conversations quotidiennes dans diverses situations de la vie de tous les jours.",
+                audio1Level: "Facile",
+                audio1Pace: "Discours lent",
+                audio1Transcript: "Afficher la transcription",
+                audio2Title: "Actualités",
+                audio2Desc: "Actualités et reportages de Russie et du monde en russe standard pur.",
+                audio2Level: "Moyen",
+                audio2Pace: "Rythme normal",
+                audio2Transcript: "Afficher la transcription",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts intéressants sur divers sujets avec des locuteurs natifs russes.",
+                audio3Level: "Moyen",
+                audio3Pace: "Discours naturel",
+                audio3Transcript: "Afficher la transcription",
+                audio4Title: "Livres Audio",
+                audio4Desc: "Extraits de livres audio russes populaires de divers genres.",
+                audio4Level: "Difficile",
+                audio4Pace: "Voix du narrateur",
+                audio4Transcript: "Afficher la transcription",
+                audio5Title: "Interviews",
+                audio5Desc: "Interviews authentiques avec des experts russes dans divers domaines de connaissance.",
+                audio5Level: "Difficile",
+                audio5Pace: "Vocabulaire professionnel",
+                audio5Transcript: "Afficher la transcription",
+                audio6Title: "Chansons",
+                audio6Desc: "Musique russe de différentes époques avec paroles pour chanter et comprendre.",
+                audio6Level: "Facile",
+                audio6Pace: "Musical",
+                audio6Transcript: "Afficher les paroles"
+            },
+            de: {
+                mainTitle: "Hörverständnis",
+                subtitle: "Trainieren Sie Ihr Gehör mit verschiedenen russischen Audiomaterialien",
+                backLink: "← Zurück zur Themenauswahl",
+                audio1Title: "Tägliche Dialoge",
+                audio1Desc: "Alltägliche Dialoge und Gespräche in verschiedenen Lebenssituationen.",
+                audio1Level: "Einfach",
+                audio1Pace: "Langsame Sprache",
+                audio1Transcript: "Transkript anzeigen",
+                audio2Title: "Nachrichten",
+                audio2Desc: "Aktuelle Nachrichten und Berichte aus Russland und der Welt in reinem Standardrussisch.",
+                audio2Level: "Mittel",
+                audio2Pace: "Normales Tempo",
+                audio2Transcript: "Transkript anzeigen",
+                audio3Title: "Podcasts",
+                audio3Desc: "Interessante Podcasts zu verschiedenen Themen mit russischen Muttersprachlern.",
+                audio3Level: "Mittel",
+                audio3Pace: "Natürliche Sprache",
+                audio3Transcript: "Transkript anzeigen",
+                audio4Title: "Hörbücher",
+                audio4Desc: "Auszüge aus beliebten russischen Hörbüchern verschiedener Genres.",
+                audio4Level: "Schwer",
+                audio4Pace: "Erzählerstimme",
+                audio4Transcript: "Transkript anzeigen",
+                audio5Title: "Interviews",
+                audio5Desc: "Authentische Interviews mit russischen Experten in verschiedenen Wissensgebieten.",
+                audio5Level: "Schwer",
+                audio5Pace: "Fachvokabular",
+                audio5Transcript: "Transkript anzeigen",
+                audio6Title: "Lieder",
+                audio6Desc: "Russische Musik aus verschiedenen Epochen mit Texten zum Singen und Verstehen.",
+                audio6Level: "Einfach",
+                audio6Pace: "Musikalisch",
+                audio6Transcript: "Songtext anzeigen"
+            },
+            pt: {
+                mainTitle: "Compreensão Auditiva",
+                subtitle: "Treine seu ouvido com vários materiais de áudio em russo",
+                backLink: "← Voltar à seleção de tópicos",
+                audio1Title: "Diários Cotidianos",
+                audio1Desc: "Diálogos e conversas cotidianas em várias situações do dia a dia.",
+                audio1Level: "Fácil",
+                audio1Pace: "Fala lenta",
+                audio1Transcript: "Mostrar transcrição",
+                audio2Title: "Notícias",
+                audio2Desc: "Notícias atuais e reportagens da Rússia e do mundo em russo padrão puro.",
+                audio2Level: "Médio",
+                audio2Pace: "Ritmo normal",
+                audio2Transcript: "Mostrar transcrição",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts interessantes sobre vários tópicos com falantes nativos de russo.",
+                audio3Level: "Médio",
+                audio3Pace: "Fala natural",
+                audio3Transcript: "Mostrar transcrição",
+                audio4Title: "Audiolivros",
+                audio4Desc: "Trechos de audiolivros russos populares de vários gêneros.",
+                audio4Level: "Difícil",
+                audio4Pace: "Voz do narrador",
+                audio4Transcript: "Mostrar transcrição",
+                audio5Title: "Entrevistas",
+                audio5Desc: "Entrevistas autênticas com especialistas russos em várias áreas do conhecimento.",
+                audio5Level: "Difícil",
+                audio5Pace: "Vocabulário profissional",
+                audio5Transcript: "Mostrar transcrição",
+                audio6Title: "Músicas",
+                audio6Desc: "Música russa de diferentes épocas com letras para cantar e entender.",
+                audio6Level: "Fácil",
+                audio6Pace: "Musical",
+                audio6Transcript: "Mostrar letra da música"
+            },
+            it: {
+                mainTitle: "Comprensione Orale",
+                subtitle: "Allena il tuo orecchio con vari materiali audio in russo",
+                backLink: "← Torna alla selezione argomenti",
+                audio1Title: "Dialoghi Quotidiani",
+                audio1Desc: "Dialoghi e conversazioni quotidiane in varie situazioni della vita di tutti i giorni.",
+                audio1Level: "Facile",
+                audio1Pace: "Discorso lento",
+                audio1Transcript: "Mostra trascrizione",
+                audio2Title: "Notizie",
+                audio2Desc: "Notizie attuali e reportage dalla Russia e dal mondo in russo standard puro.",
+                audio2Level: "Medio",
+                audio2Pace: "Ritmo normale",
+                audio2Transcript: "Mostra trascrizione",
+                audio3Title: "Podcast",
+                audio3Desc: "Podcast interessanti su vari argomenti con madrelingua russi.",
+                audio3Level: "Medio",
+                audio3Pace: "Discorso naturale",
+                audio3Transcript: "Mostra trascrizione",
+                audio4Title: "Audiolibri",
+                audio4Desc: "Estratti da popolari audiolibri russi di vari generi.",
+                audio4Level: "Difficile",
+                audio4Pace: "Voce del narratore",
+                audio4Transcript: "Mostra trascrizione",
+                audio5Title: "Interviste",
+                audio5Desc: "Interviste autentiche con esperti russi in vari campi del sapere.",
+                audio5Level: "Difficile",
+                audio5Pace: "Vocabolario professionale",
+                audio5Transcript: "Mostra trascrizione",
+                audio6Title: "Canzoni",
+                audio6Desc: "Musica russa di diverse epoche con testi per cantare e capire.",
+                audio6Level: "Facile",
+                audio6Pace: "Musicale",
+                audio6Transcript: "Mostra testo della canzone"
+            },
+            zh: {
+                mainTitle: "听力理解",
+                subtitle: "通过各种俄语音频材料训练您的听力",
+                backLink: "← 返回主题选择",
+                audio1Title: "日常对话",
+                audio1Desc: "日常生活中的各种情境下的日常对话和交谈。",
+                audio1Level: "简单",
+                audio1Pace: "慢速讲话",
+                audio1Transcript: "显示转录",
+                audio2Title: "新闻",
+                audio2Desc: "来自俄罗斯和世界的当前新闻和报道，使用纯正的标准俄语。",
+                audio2Level: "中等",
+                audio2Pace: "正常速度",
+                audio2Transcript: "显示转录",
+                audio3Title: "播客",
+                audio3Desc: "与俄语母语者一起讨论各种主题的有趣播客。",
+                audio3Level: "中等",
+                audio3Pace: "自然讲话",
+                audio3Transcript: "显示转录",
+                audio4Title: "有声读物",
+                audio4Desc: "各种类型的流行俄语有声读物的摘录。",
+                audio4Level: "困难",
+                audio4Pace: "叙述者的声音",
+                audio4Transcript: "显示转录",
+                audio5Title: "采访",
+                audio5Desc: "与俄罗斯各领域专家的真实采访。",
+                audio5Level: "困难",
+                audio5Pace: "专业词汇",
+                audio5Transcript: "显示转录",
+                audio6Title: "歌曲",
+                audio6Desc: "不同时代的俄罗斯音乐，配有歌词供歌唱和理解。",
+                audio6Level: "简单",
+                audio6Pace: "音乐性",
+                audio6Transcript: "显示歌词"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de audio
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`audio${i}Title`).textContent = t[`audio${i}Title`];
+                document.getElementById(`audio${i}Desc`).textContent = t[`audio${i}Desc`];
+                document.getElementById(`audio${i}Level`).textContent = t[`audio${i}Level`];
+                document.getElementById(`audio${i}Pace`).textContent = t[`audio${i}Pace`];
+                document.getElementById(`audio${i}Transcript`).textContent = t[`audio${i}Transcript`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+        
+        // Funcionalidad para los botones de reproducción
+        document.querySelectorAll('.play-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Cambiar el ícono del botón entre play y pause
+                if (this.textContent === '▶') {
+                    this.textContent = '❚❚';
+                } else {
+                    this.textContent = '▶';
+                }
+                
+                // Aquí iría la lógica para reproducir/pausar el audio
+                // Por ahora solo simulamos el cambio de progreso
+                const progressContainer = this.parentElement.querySelector('.progress-container');
+                const progressBar = progressContainer.querySelector('.progress');
+                const timeDisplay = this.parentElement.querySelector('.time');
+                
+                if (this.textContent === '❚❚') {
+                    // Simular reproducción
+                    let width = 0;
+                    const interval = setInterval(() => {
+                        if (width >= 100 || this.textContent === '▶') {
+                            clearInterval(interval);
+                            if (width >= 100) {
+                                this.textContent = '▶';
+                            }
+                            return;
+                        }
+                        width += 0.5;
+                        progressBar.style.width = width + '%';
+                        
+                        // Actualizar el tiempo
+                        const totalTime = timeDisplay.textContent.split(' / ')[1];
+                        const totalSeconds = parseInt(totalTime.split(':')[0]) * 60 + parseInt(totalTime.split(':')[1]);
+                        const currentSeconds = Math.floor(totalSeconds * width / 100);
+                        const minutes = Math.floor(currentSeconds / 60);
+                        const seconds = currentSeconds % 60;
+                        timeDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${totalTime}`;
+                    }, 100);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

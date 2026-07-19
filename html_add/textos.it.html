@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testi in Italiano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .text-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.15),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .text-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7);
+        }
+        .text-card h3 {
+            color: #009246; /* Verde */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .text-card p {
+            line-height: 1.6;
+            color: #ddd;
+        }
+        .text-card .date {
+            color: #CE2B37; /* Rojo */
+            font-size: 0.9rem;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Testi in Italiano</h1>
+            <p id="subtitle">Trova una selezione di testi in italiano da leggere e studiare</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="content">
+            <div class="text-card">
+                <h3 id="card1Title">L'Italia</h3>
+                <p id="card1Text">L'Italia è un paese sovrano nell'Europa meridionale, situato su una penisola che si protende nel Mar Mediterraneo. È una repubblica parlamentare organizzata in 20 regioni...</p>
+                <div class="date" id="card1Date">Aggiornato: 15/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3 id="card2Title">Grammatica Italiana</h3>
+                <p id="card2Text">L'italiano è una lingua romanza derivata dal latino. La sua grammatica include generi maschili e femminili, numeri singolari e plurali, e una varietà di tempi verbali...</p>
+                <div class="date" id="card2Date">Aggiornato: 10/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3 id="card3Title">Letteratura Italiana</h3>
+                <p id="card3Text">La letteratura italiana ha prodotto figure di fama mondiale come Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, e molti altri...</p>
+                <div class="date" id="card3Date">Aggiornato: 05/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3 id="card4Title">Cultura Italiana</h3>
+                <p id="card4Text">La cultura italiana è ricca e diversificata, influenzata da tradizioni europee, indigene e mediterranee. L'arte, la musica, la cucina e la moda sono elementi iconici della sua identità...</p>
+                <div class="date" id="card4Date">Aggiornato: 01/05/2023</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Testi in Italiano",
+                subtitle: "Trova una selezione di testi in italiano da leggere e studiare",
+                backLink: "← Torna alla selezione argomenti",
+                card1Title: "L'Italia",
+                card1Text: "L'Italia è un paese sovrano nell'Europa meridionale, situato su una penisola che si protende nel Mar Mediterraneo. È una repubblica parlamentare organizzata in 20 regioni...",
+                card1Date: "Aggiornato: 15/05/2023",
+                card2Title: "Grammatica Italiana",
+                card2Text: "L'italiano è una lingua romanza derivata dal latino. La sua grammatica include generi maschili e femminili, numeri singolari e plurali, e una varietà di tempi verbali...",
+                card2Date: "Aggiornato: 10/05/2023",
+                card3Title: "Letteratura Italiana",
+                card3Text: "La letteratura italiana ha prodotto figure di fama mondiale come Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, e molti altri...",
+                card3Date: "Aggiornato: 05/05/2023",
+                card4Title: "Cultura Italiana",
+                card4Text: "La cultura italiana è ricca e diversificata, influenzata da tradizioni europee, indigenti e mediterranee. L'arte, la musica, la cucina e la moda sono elementi iconici della sua identità...",
+                card4Date: "Aggiornato: 01/05/2023"
+            },
+            es: {
+                mainTitle: "Textos en Italiano",
+                subtitle: "Encuentra una selección de textos en italiano para leer y estudiar",
+                backLink: "← Volver a la selección de temas",
+                card1Title: "Italia",
+                card1Text: "Italia es un país soberano en el sur de Europa, situado en una península que se adentra en el Mar Mediterráneo. Es una república parlamentaria organizada en 20 regiones...",
+                card1Date: "Actualizado: 15/05/2023",
+                card2Title: "Gramática Italiana",
+                card2Text: "El italiano es una lengua romance derivada del latín. Su gramática incluye géneros masculinos y femeninos, números singulares y plurales, y una variedad de tiempos verbales...",
+                card2Date: "Actualizado: 10/05/2023",
+                card3Title: "Literatura Italiana",
+                card3Text: "La literatura italiana ha producido figuras de fama mundial como Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, y muchos otros...",
+                card3Date: "Actualizado: 05/05/2023",
+                card4Title: "Cultura Italiana",
+                card4Text: "La cultura italiana es rica y diversificada, influenciada por tradiciones europeas, indígenas y mediterráneas. El arte, la música, la cocina y la moda son elementos icónicos de su identidad...",
+                card4Date: "Actualizado: 01/05/2023"
+            },
+            en: {
+                mainTitle: "Texts in Italian",
+                subtitle: "Find a selection of texts in Italian to read and study",
+                backLink: "← Back to topic selection",
+                card1Title: "Italy",
+                card1Text: "Italy is a sovereign country in Southern Europe, located on a peninsula that extends into the Mediterranean Sea. It is a parliamentary republic organized into 20 regions...",
+                card1Date: "Updated: 05/15/2023",
+                card2Title: "Italian Grammar",
+                card2Text: "Italian is a Romance language derived from Latin. Its grammar includes masculine and feminine genders, singular and plural numbers, and a variety of verb tenses...",
+                card2Date: "Updated: 05/10/2023",
+                card3Title: "Italian Literature",
+                card3Text: "Italian literature has produced world-renowned figures such as Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, and many others...",
+                card3Date: "Updated: 05/05/2023",
+                card4Title: "Italian Culture",
+                card4Text: "Italian culture is rich and diverse, influenced by European, indigenous and Mediterranean traditions. Art, music, cuisine and fashion are iconic elements of its identity...",
+                card4Date: "Updated: 05/01/2023"
+            },
+            fr: {
+                mainTitle: "Textes en Italien",
+                subtitle: "Trouvez une sélection de textes en italien à lire et à étudier",
+                backLink: "← Retour à la sélection des sujets",
+                card1Title: "L'Italie",
+                card1Text: "L'Italie est un pays souverain en Europe du Sud, situé sur une péninsule qui s'avance dans la mer Méditerranée. C'est une république parlementaire organisée en 20 régions...",
+                card1Date: "Mis à jour: 15/05/2023",
+                card2Title: "Grammaire Italienne",
+                card2Text: "L'italien est une langue romane dérivée du latin. Sa grammaire comprend les genres masculin et féminin, les nombres singulier et pluriel, et une variété de temps verbaux...",
+                card2Date: "Mis à jour: 10/05/2023",
+                card3Title: "Littérature Italienne",
+                card3Text: "La littérature italienne a produit des figures de renommée mondiale comme Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, et bien d'autres...",
+                card3Date: "Mis à jour: 05/05/2023",
+                card4Title: "Culture Italienne",
+                card4Text: "La culture italienne est riche et diversifiée, influencée par les traditions européennes, indigènes et méditerranéennes. L'art, la musique, la cuisine et la mode sont des éléments emblématiques de son identité...",
+                card4Date: "Mis à jour: 01/05/2023"
+            },
+            de: {
+                mainTitle: "Texte auf Italienisch",
+                subtitle: "Finden Sie eine Auswahl von Texten auf Italienisch zum Lesen und Studieren",
+                backLink: "← Zurück zur Themenauswahl",
+                card1Title: "Italien",
+                card1Text: "Italien ist ein souveränes Land in Südeuropa, gelegen auf einer Halbinsel, die in das Mittelmeer hineinragt. Es ist eine parlamentarische Republik, die in 20 Regionen gegliedert ist...",
+                card1Date: "Aktualisiert: 15.05.2023",
+                card2Title: "Italienische Grammatik",
+                card2Text: "Italienisch ist eine aus dem Lateinischen abgeleitete romanische Sprache. Seine Grammatik umfasst männliche und weibliche Geschlechter, singularische und plurale Zahlen und eine Vielzahl von Zeitformen...",
+                card2Date: "Aktualisiert: 10.05.2023",
+                card3Title: "Italienische Literatur",
+                card3Text: "Die italienische Literatur hat weltberühmte Persönlichkeiten wie Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio und viele andere hervorgebracht...",
+                card3Date: "Aktualisiert: 05.05.2023",
+                card4Title: "Italienische Kultur",
+                card4Text: "Die italienische Kultur ist reich und vielfältig, beeinflusst von europäischen, einheimischen und mediterranen Traditionen. Kunst, Musik, Küche und Mode sind ikonische Elemente ihrer Identität...",
+                card4Date: "Aktualisiert: 01.05.2023"
+            },
+            pt: {
+                mainTitle: "Textos em Italiano",
+                subtitle: "Encontre uma seleção de textos em italiano para ler e estudar",
+                backLink: "← Voltar à seleção de tópicos",
+                card1Title: "Itália",
+                card1Text: "A Itália é um país soberano no sul da Europa, localizado numa península que se estende pelo Mar Mediterrâneo. É uma república parlamentar organizada em 20 regiões...",
+                card1Date: "Atualizado: 15/05/2023",
+                card2Title: "Gramática Italiana",
+                card2Text: "O italiano é uma língua românica derivada do latim. Sua gramática inclui gêneros masculinos e femininos, números singulares e plurais, e uma variedade de tempos verbais...",
+                card2Date: "Atualizado: 10/05/2023",
+                card3Title: "Literatura Italiana",
+                card3Text: "A literatura italiana produziu figuras mundialmente famosas como Dante Alighieri, Francesco Petrarca, Giovanni Boccaccio, e muitos outros...",
+                card3Date: "Atualizado: 05/05/2023",
+                card4Title: "Cultura Italiana",
+                card4Text: "A cultura italiana é rica e diversificada, influenciada por tradições europeias, indígenas e mediterrâneas. A arte, a música, a culinária e a moda são elementos icônicos de sua identidade...",
+                card4Date: "Atualizado: 01/05/2023"
+            },
+            ru: {
+                mainTitle: "Тексты на итальянском",
+                subtitle: "Найдите подборку текстов на итальянском для чтения и изучения",
+                backLink: "← Вернуться к выбору тем",
+                card1Title: "Италия",
+                card1Text: "Италия - суверенное государство в Южной Европе, расположенное на полуострове, выступающем в Средиземное море. Это парламентская республика, разделенная на 20 регионов...",
+                card1Date: "Обновлено: 15.05.2023",
+                card2Title: "Итальянская грамматика",
+                card2Text: "Итальянский - это романский язык, произошедший от латыни. Его грамматика включает мужской и женский роды, единственное и множественное число, а также различные времена глаголов...",
+                card2Date: "Обновлено: 10.05.2023",
+                card3Title: "Итальянская литература",
+                card3Text: "Итальянская литература породила всемирно известных деятелей, таких как Данте Алигьери, Франческо Петрарка, Джованни Боккаччо и многих других...",
+                card3Date: "Обновлено: 05.05.2023",
+                card4Title: "Итальянская культура",
+                card4Text: "Итальянская культура богата и разнообразна, на нее повлияли европейские, коренные и средиземноморские традиции. Искусство, музыка, кухня и мода являются знаковыми элементами ее идентичности...",
+                card4Date: "Обновлено: 01.05.2023"
+            },
+            zh: {
+                mainTitle: "意大利语文本",
+                subtitle: "查找意大利语文本以供阅读和学习",
+                backLink: "← 返回主题选择",
+                card1Title: "意大利",
+                card1Text: "意大利是南欧的一个主权国家，位于伸入地中海的半岛上。它是一个由20个地区组成的议会制共和国...",
+                card1Date: "更新: 2023年5月15日",
+                card2Title: "意大利语法",
+                card2Text: "意大利语是源自拉丁语的罗曼语系语言。其语法包括阳性和阴性，单数和复数，以及各种动词时态...",
+                card2Date: "更新: 2023年5月10日",
+                card3Title: "意大利文学",
+                card3Text: "意大利文学产生了世界知名的人物，如但丁·阿利吉耶里，弗朗切斯科·彼特拉克，乔万尼·薄伽丘等等...",
+                card3Date: "更新: 2023年5月5日",
+                card4Title: "意大利文化",
+                card4Text: "意大利文化丰富多样，受到欧洲，本土和地中海传统的影响。艺术，音乐，美食和时尚是其身份的标志性元素...",
+                card4Date: "更新: 2023年5月1日"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            document.getElementById('card1Title').textContent = t.card1Title;
+            document.getElementById('card1Text').textContent = t.card1Text;
+            document.getElementById('card1Date').textContent = t.card1Date;
+            document.getElementById('card2Title').textContent = t.card2Title;
+            document.getElementById('card2Text').textContent = t.card2Text;
+            document.getElementById('card2Date').textContent = t.card2Date;
+            document.getElementById('card3Title').textContent = t.card3Title;
+            document.getElementById('card3Text').textContent = t.card3Text;
+            document.getElementById('card3Date').textContent = t.card3Date;
+            document.getElementById('card4Title').textContent = t.card4Title;
+            document.getElementById('card4Text').textContent = t.card4Text;
+            document.getElementById('card4Date').textContent = t.card4Date;
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

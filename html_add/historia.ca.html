@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia Argentina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen del Glaciar Perito Moreno */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/01/13/42/argentina-4810395_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera argentina */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 144, 226, 0.3) 0%,    /* Celeste */
+                rgba(255, 255, 255, 0.3) 33%,     /* Blanco */
+                rgba(255, 209, 0, 0.2) 66%,       /* Amarillo */
+                rgba(74, 144, 226, 0.3) 100%      /* Celeste */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #74ACF2; /* Borde celeste */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #74ACF2; /* Celeste */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #74ACF2; /* Celeste */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #74ACF2; /* Borde celeste */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #74ACF2;
+            color: #fff;
+        }
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #74ACF2, #ffffff, #74ACF2); /* Degradado celeste-blanco-celeste */
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+        .timeline-content {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.2),    /* Celeste */
+                rgba(255, 255, 255, 0.3)      /* Blanco */
+            );
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 15px;
+            padding: 20px;
+            position: relative;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .timeline-content:hover {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.3),
+                rgba(255, 255, 255, 0.4)
+            );
+            border-color: rgba(255, 209, 0, 0.7); /* Toque más intenso de amarillo en hover */
+        }
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: #74ACF2; /* Celeste */
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #74ACF2; /* Celeste */
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-date {
+            color: #74ACF2; /* Celeste */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ddd; /* Cambiado de #333 a #ddd para igualar a ejercicios */
+        }
+        .timeline-text {
+            color: #ddd; /* Cambiado de #333 a #ddd para igualar a ejercicios */
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                text-align: left !important;
+            }
+            
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: 10px !important;
+                right: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Historia Argentina</h1>
+            <p>Descubre los eventos más importantes de la historia argentina</p>
+            <a href="castellano.html" class="back-link">← Volver a la selección de temas</a>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1816</div>
+                    <div class="timeline-title">Declaración de la Independencia</div>
+                    <div class="timeline-text">El 9 de julio de 1816, en Tucumán, se declaró la independencia de las Provincias Unidas en Sudamérica, acto fundacional de la Nación Argentina.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1853</div>
+                    <div class="timeline-title">Organización Nacional</div>
+                    <div class="timeline-text">Se sanciona la Constitución Nacional, estableciendo la organización política del país como república representativa y federal.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1880</div>
+                    <div class="timeline-title">Federalización de Buenos Aires</div>
+                    <div class="timeline-text">Después de décadas de conflictos, la ciudad de Buenos Aires se federaliza y se convierte en la capital federal del país.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1946</div>
+                    <div class="timeline-title">Era Peronista</div>
+                    <div class="timeline-text">Juan Domingo Perón es electo presidente, dando inicio a un período de transformación política y social conocido como el peronismo.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1982</div>
+                    <div class="timeline-title">Guerra de las Malvinas</div>
+                    <div class="timeline-text">Argentina y Reino Unido enfrentan un conflicto armado por la soberanía de las Islas Malvinas, un evento crucial en la historia nacional.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1983</div>
+                    <div class="timeline-title">Retorno a la Democracia</div>
+                    <div class="timeline-text">Después de la dictadura militar (1976-1983), Argentina recupera la democracia con la elección de Raúl Alfonsín como presidente.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

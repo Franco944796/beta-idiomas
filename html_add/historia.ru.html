@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История России</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de San Petersburgo */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2021/12/29/18/59/st-petersburg-6902540_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(0, 57, 166, 0.3) 33%,
+                rgba(213, 43, 30, 0.3) 66%,
+                rgba(255, 255, 255, 0.1) 100%
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #0039A6;
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #0039A6;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #D52B1E;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #D52B1E;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+        .back-link:hover {
+            background-color: #D52B1E;
+            color: #fff;
+        }
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #0039A6, #D52B1E);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+        .timeline-content {
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.2),
+                rgba(213, 43, 30, 0.2)
+            );
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: #D52B1E;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #0039A6;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-date {
+            color: #D52B1E;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #0039A6;
+        }
+        .timeline-text {
+            color: #ddd;
+            line-height: 1.6;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #D52B1E;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                text-align: left !important;
+            }
+            
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: 10px !important;
+                right: auto !important;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">История России</h1>
+            <p id="subtitle">Откройте для себя ключевые события в истории России</p>
+            <a href="ruso.html" class="back-link" id="backLink">← Вернуться к выбору темы</a>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date1">862 г. н.э.</div>
+                    <div class="timeline-title" id="title1">Основание Руси</div>
+                    <div class="timeline-text" id="text1">Согласно летописи, князь Рюрик основал государство Русь с центром в Новгороде, положив начало русской государственности.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date2">988 г.</div>
+                    <div class="timeline-title" id="title2">Крещение Руси</div>
+                    <div class="timeline-text" id="text2">Князь Владимир Святославич принял христианство из Византии, что стало поворотным моментом в культурном развитии Руси.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date3">1547 г.</div>
+                    <div class="timeline-title" id="title3">Царство Русское</div>
+                    <div class="timeline-text" id="text3">Иван IV Грозный первым принял титул царя, провозгласив создание Русского царства и начало централизации власти.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date4">1917 г.</div>
+                    <div class="timeline-title" id="title4">Революция</div>
+                    <div class="timeline-text" id="text4">Октябрьская революция привела к свержению Временного правительства и установлению советской власти во главе с Лениным.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date" id="date5">1991 г.</div>
+                    <div class="timeline-title" id="title5">Распад СССР</div>
+                    <div class="timeline-text" id="text5">Распад Советского Союза привел к образованию Российской Федерации как независимого государства.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            ru: {
+                mainTitle: "История России",
+                subtitle: "Откройте для себя ключевые события в истории России",
+                backLink: "← Вернуться к выбору темы",
+                date1: "862 г. н.э.",
+                title1: "Основание Руси",
+                text1: "Согласно летописи, князь Рюрик основал государство Русь с центром в Новгороде, положив начало русской государственности.",
+                date2: "988 г.",
+                title2: "Крещение Руси",
+                text2: "Князь Владимир Святославич принял христианство из Византии, что стало поворотным моментом в культурном развитии Руси.",
+                date3: "1547 г.",
+                title3: "Царство Русское",
+                text3: "Иван IV Грозный первым принял титул царя, провозгласив создание Русского царства и начало централизации власти.",
+                date4: "1917 г.",
+                title4: "Революция",
+                text4: "Октябрьская революция привела к свержению Временного правительства и установлению советской власти во главе с Лениным.",
+                date5: "1991 г.",
+                title5: "Распад СССР",
+                text5: "Распад Советского Союза привел к образованию Российской Федерации как независимого государства."
+            },
+            es: {
+                mainTitle: "Historia de Rusia",
+                subtitle: "Descubre los eventos clave en la historia de Rusia",
+                backLink: "← Volver a la selección de temas",
+                date1: "862 d.C.",
+                title1: "Fundación de la Rus",
+                text1: "Según las crónicas, el príncipe Rurik fundó el estado de la Rus con centro en Nóvgorod, dando inicio a la estatalidad rusa.",
+                date2: "988 d.C.",
+                title2: "Cristianización de la Rus",
+                text2: "El príncipe Vladimiro I de Kiev adoptó el cristianismo de Bizancio, lo que se convirtió en un punto de inflexión en el desarrollo cultural de la Rus.",
+                date3: "1547 d.C.",
+                title3: "Zarato Ruso",
+                text3: "Iván IV el Terrible fue el primero en adoptar el título de zar, proclamando la creación del Zarato ruso y el inicio de la centralización del poder.",
+                date4: "1917 d.C.",
+                title4: "Revolución",
+                text4: "La Revolución de Octubre llevó al derrocamiento del Gobierno Provisional y al establecimiento del poder soviético encabezado por Lenin.",
+                date5: "1991 d.C.",
+                title5: "Desintegración de la URSS",
+                text5: "El colapso de la Unión Soviética llevó a la formación de la Federación Rusa como estado independiente."
+            },
+            en: {
+                mainTitle: "History of Russia",
+                subtitle: "Discover the key events in the history of Russia",
+                backLink: "← Back to topic selection",
+                date1: "862 AD",
+                title1: "Foundation of Rus",
+                text1: "According to chronicles, Prince Rurik founded the state of Rus with its center in Novgorod, marking the beginning of Russian statehood.",
+                date2: "988 AD",
+                title2: "Christianization of Rus",
+                text2: "Prince Vladimir I of Kiev adopted Christianity from Byzantium, which became a turning point in the cultural development of Rus.",
+                date3: "1547 AD",
+                title3: "Tsardom of Russia",
+                text3: "Ivan IV the Terrible was the first to adopt the title of tsar, proclaiming the creation of the Tsardom of Russia and the beginning of centralization of power.",
+                date4: "1917 AD",
+                title4: "Revolution",
+                text4: "The October Revolution led to the overthrow of the Provisional Government and the establishment of Soviet power led by Lenin.",
+                date5: "1991 AD",
+                title5: "Dissolution of the USSR",
+                text5: "The collapse of the Soviet Union led to the formation of the Russian Federation as an independent state."
+            },
+            fr: {
+                mainTitle: "Histoire de la Russie",
+                subtitle: "Découvrez les événements clés de l'histoire de la Russie",
+                backLink: "← Retour à la sélection des sujets",
+                date1: "862 apr. J.-C.",
+                title1: "Fondation de la Rus",
+                text1: "Selon les chroniques, le prince Rurik a fondé l'État de la Rus avec son centre à Novgorod, marquant le début de l'État russe.",
+                date2: "988 apr. J.-C.",
+                title2: "Christianisation de la Rus",
+                text2: "Le prince Vladimir Ier de Kiev a adopté le christianisme de Byzance, ce qui est devenu un tournant dans le développement culturel de la Rus.",
+                date3: "1547 apr. J.-C.",
+                title3: "Tsarat de Russie",
+                text3: "Ivan IV le Terrible a été le premier à adopter le titre de tsar, proclamant la création du Tsarat de Russie et le début de la centralisation du pouvoir.",
+                date4: "1917 apr. J.-C.",
+                title4: "Révolution",
+                text4: "La Révolution d'Octobre a conduit au renversement du Gouvernement provisoire et à l'établissement du pouvoir soviétique dirigé par Lénine.",
+                date5: "1991 apr. J.-C.",
+                title5: "Dissolution de l'URSS",
+                text5: "L'effondrement de l'Union soviétique a conduit à la formation de la Fédération de Russie en tant qu'État indépendant."
+            },
+            de: {
+                mainTitle: "Geschichte Russlands",
+                subtitle: "Entdecken Sie die wichtigsten Ereignisse in der Geschichte Russlands",
+                backLink: "← Zurück zur Themenauswahl",
+                date1: "862 n. Chr.",
+                title1: "Gründung der Rus",
+                text1: "Laut Chroniken gründete Fürst Rurik den Staat Rus mit Zentrum in Nowgorod und markierte damit den Beginn der russischen Staatlichkeit.",
+                date2: "988 n. Chr.",
+                title2: "Christianisierung der Rus",
+                text2: "Fürst Wladimir I. von Kiew übernahm das Christentum aus Byzanz, was zum Wendepunkt in der kulturellen Entwicklung der Rus wurde.",
+                date3: "1547 n. Chr.",
+                title3: "Zarentum Russland",
+                text3: "Iwan IV. der Schreckliche war der erste, der den Titel Zar annahm und die Gründung des Zarentums Russland sowie den Beginn der Zentralisierung der Macht proklamierte.",
+                date4: "1917 n. Chr.",
+                title4: "Revolution",
+                text4: "Die Oktoberrevolution führte zum Sturz der Provisorischen Regierung und zur Etablierung der Sowjetmacht unter Führung Lenins.",
+                date5: "1991 n. Chr.",
+                title5: "Auflösung der UdSSR",
+                text5: "Der Zusammenbruch der Sowjetunion führte zur Bildung der Russischen Föderation als unabhängigen Staat."
+            },
+            pt: {
+                mainTitle: "História da Rússia",
+                subtitle: "Descubra os eventos chave na história da Rússia",
+                backLink: "← Voltar à seleção de tópicos",
+                date1: "862 d.C.",
+                title1: "Fundação da Rúss",
+                text1: "Segundo as crônicas, o príncipe Rurik fundou o estado da Rúss com centro em Novogárdia, marcando o início da estadualidade russa.",
+                date2: "988 d.C.",
+                title2: "Cristianização da Rúss",
+                text2: "O príncipe Vladimir I de Quieve adotou o cristianismo de Bizâncio, o que se tornou um ponto de virada no desenvolvimento cultural da Rúss.",
+                date3: "1547 d.C.",
+                title3: "Czarado da Rússia",
+                text3: "Ivan IV, o Terrível, foi o primeiro a adotar o título de czar, proclamando a criação do Czarado da Rússia e o início da centralização do poder.",
+                date4: "1917 d.C.",
+                title4: "Revolução",
+                text4: "A Revolução de Outubro levou à derrubada do Governo Provisório e ao estabelecimento do poder soviético liderado por Lênin.",
+                date5: "1991 d.C.",
+                title5: "Dissolução da URSS",
+                text5: "O colapso da União Soviética levou à formação da Federação Russa como estado independente."
+            },
+            it: {
+                mainTitle: "Storia della Russia",
+                subtitle: "Scopri gli eventi chiave nella storia della Russia",
+                backLink: "← Torna alla selezione argomenti",
+                date1: "862 d.C.",
+                title1: "Fondazione della Rus'",
+                text1: "Secondo le cronache, il principe Rurik fondò lo stato della Rus' con centro a Novgorod, segnando l'inizio della statualità russa.",
+                date2: "988 d.C.",
+                title2: "Cristianizzazione della Rus'",
+                text2: "Il principe Vladimir I di Kiev adottò il cristianesimo da Bisanzio, che divenne un punto di svolta nello sviluppo culturale della Rus'.",
+                date3: "1547 d.C.",
+                title3: "Zarato di Russia",
+                text3: "Ivan IV il Terribile fu il primo ad adottare il titolo di zar, proclamando la creazione dello Zarato di Russia e l'inizio della centralizzazione del potere.",
+                date4: "1917 d.C.",
+                title4: "Rivoluzione",
+                text4: "La Rivoluzione d'Ottobre portò al rovesciamento del Governo Provvisorio e all'istituzione del potere sovietico guidato da Lenin.",
+                date5: "1991 d.C.",
+                title5: "Dissoluzione dell'URSS",
+                text5: "Il crollo dell'Unione Sovietica portò alla formazione della Federazione Russa come stato indipendente."
+            },
+            zh: {
+                mainTitle: "俄罗斯历史",
+                subtitle: "发现俄罗斯历史上的关键事件",
+                backLink: "← 返回主题选择",
+                date1: "公元862年",
+                title1: "罗斯的建立",
+                text1: "根据编年史，留里克王子以诺夫哥罗德为中心建立了罗斯国，标志着俄罗斯国家地位的开端。",
+                date2: "公元988年",
+                title2: "罗斯受洗",
+                text2: "基辅大公弗拉基米尔一世接受了拜占庭的基督教，这成为罗斯文化发展的转折点。",
+                date3: "公元1547年",
+                title3: "俄罗斯沙皇国",
+                text3: "伊凡四世是第一个采用沙皇称号的人，宣布建立俄罗斯沙皇国并开始权力集中化。",
+                date4: "公元1917年",
+                title4: "革命",
+                text4: "十月革命导致临时政府被推翻，并建立了以列宁为首的苏维埃政权。",
+                date5: "公元1991年",
+                title5: "苏联解体",
+                text5: "苏联的崩溃导致了俄罗斯联邦作为独立国家的形成。"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de la línea de tiempo
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById(`date${i}`).textContent = t[`date${i}`];
+                document.getElementById(`title${i}`).textContent = t[`title${i}`];
+                document.getElementById(`text${i}`).textContent = t[`text${i}`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

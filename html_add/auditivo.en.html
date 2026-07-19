@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listening Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de EE.UU. */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1585022728588-dbbd9a9932da?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera de EE.UU. */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(178, 34, 52, 0.2) 0%,    /* Rojo */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(0, 40, 85, 0.15) 66%,       /* Azul */
+                rgba(178, 34, 52, 0.2) 100%      /* Rojo */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #B22234; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #B22234; /* Rojo */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #B22234; /* Rojo */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #B22234; /* Borde rojo */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #B22234;
+            color: #fff;
+        }
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .audio-card {
+            background: linear-gradient(135deg, 
+                rgba(178, 34, 52, 0.15),    /* Rojo */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .audio-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(178, 34, 52, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(0, 40, 85, 0.7);
+        }
+        .audio-card h3 {
+            color: #B22234; /* Rojo */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .audio-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .audio-player {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .play-button {
+            background: linear-gradient(135deg, 
+                rgba(178, 34, 52, 0.8),    /* Rojo */
+                rgba(255, 255, 255, 0.8)   /* Blanco */
+            );
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.2rem;
+        }
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(178, 34, 52, 0.5);
+        }
+        .progress-container {
+            flex: 1;
+            margin: 0 15px;
+            height: 6px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #B22234, #002855);
+            border-radius: 3px;
+            width: 0%;
+        }
+        .time {
+            color: #002855; /* Azul */
+            font-size: 0.9rem;
+            min-width: 80px;
+            text-align: right;
+        }
+        .audio-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .easy {
+            background-color: rgba(76, 175, 80, 0.7);
+        }
+        .medium {
+            background-color: rgba(255, 152, 0, 0.7);
+        }
+        .hard {
+            background-color: rgba(244, 67, 54, 0.7);
+        }
+        .transcript-button {
+            display: inline-block;
+            margin-top: 10px;
+            color: #002855; /* Azul */
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        .transcript-button:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .audio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Listening Practice</h1>
+            <p>Train your ear with different English content</p>
+            <a href="ingles.html" class="back-link">← Back to topic selection</a>
+        </div>
+        
+        <div class="audio-grid">
+            <div class="audio-card">
+                <h3>Daily Conversations</h3>
+                <p>Everyday dialogues and conversations in various situations of daily life.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 3:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy">Easy</span>
+                        <span>Slow speech</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show transcript</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>News</h3>
+                <p>Current news and reports from the United States and around the world in clear standard English.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 5:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium">Intermediate</span>
+                        <span>Normal pace</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show transcript</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Podcasts</h3>
+                <p>Interesting podcasts on various topics with native English speakers.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 12:30</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium">Intermediate</span>
+                        <span>Natural speech</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show transcript</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Audiobooks</h3>
+                <p>Excerpts from popular English audiobooks from various literary genres.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 8:15</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard">Advanced</span>
+                        <span>Narrator voice</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show transcript</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Interviews</h3>
+                <p>Authentic interviews with English-speaking experts on various subject areas.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 10:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard">Advanced</span>
+                        <span>Technical vocabulary</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show transcript</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Songs</h3>
+                <p>English music from different eras with lyrics to sing along and understand.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 4:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy">Easy</span>
+                        <span>Musical</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Show lyrics</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

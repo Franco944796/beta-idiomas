@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American History</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de EE.UU. */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1585022728588-dbbd9a9932da?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera de EE.UU. */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(178, 34, 52, 0.2) 0%,    /* Rojo */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(0, 40, 85, 0.15) 66%,       /* Azul */
+                rgba(178, 34, 52, 0.2) 100%      /* Rojo */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #B22234; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #B22234; /* Rojo */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #B22234; /* Rojo */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #B22234; /* Borde rojo */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #B22234;
+            color: #fff;
+        }
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #B22234, #ffffff, #B22234); /* Degradado rojo-blanco-rojo */
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+        .timeline-content {
+            background: linear-gradient(135deg, 
+                rgba(178, 34, 52, 0.2),    /* Rojo */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
+            border-radius: 15px;
+            padding: 20px;
+            position: relative;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .timeline-content:hover {
+            background: linear-gradient(135deg, 
+                rgba(178, 34, 52, 0.3),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(0, 40, 85, 0.7); /* Toque más intenso de azul en hover */
+        }
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: #B22234; /* Rojo */
+            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #B22234; /* Rojo */
+            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-date {
+            color: #B22234; /* Rojo */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ddd; /* Texto claro como en las otras secciones */
+        }
+        .timeline-text {
+            color: #ddd; /* Texto claro como en las otras secciones */
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                text-align: left !important;
+            }
+            
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: 10px !important;
+                right: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>American History</h1>
+            <p>Discover the most important events in the history of the United States</p>
+            <a href="ingles.html" class="back-link">← Back to topic selection</a>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1776</div>
+                    <div class="timeline-title">Declaration of Independence</div>
+                    <div class="timeline-text">On July 4, 1776, the thirteen colonies declared their independence from Great Britain, establishing the foundation of the United States of America.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1787</div>
+                    <div class="timeline-title">U.S. Constitution</div>
+                    <div class="timeline-text">The U.S. Constitution was signed, establishing the political organization of the country as a federal republic.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1861-1865</div>
+                    <div class="timeline-title">American Civil War</div>
+                    <div class="timeline-text">The Civil War was fought between the Northern states (Union) and the Southern states (Confederacy) over slavery and states' rights.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1929</div>
+                    <div class="timeline-title">Great Depression</div>
+                    <div class="timeline-text">The stock market crash led to the worst economic crisis in U.S. history, affecting millions of Americans worldwide.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1941-1945</div>
+                    <div class="timeline-title">World War II</div>
+                    <div class="timeline-text">The United States joined World War II after the attack on Pearl Harbor, playing a decisive role in the Allied victory.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1963-1968</div>
+                    <div class="timeline-title">Civil Rights Movement</div>
+                    <div class="timeline-text">Led by figures like Martin Luther King Jr., the movement fought to end racial segregation and discrimination against African Americans.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

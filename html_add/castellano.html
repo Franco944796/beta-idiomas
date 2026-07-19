@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castellano - Selección de temas</title>
+    <style>
+        /* Estilos principales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Glaciar Perito Moreno */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/01/13/42/argentina-4810395_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.7;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera argentina */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 144, 226, 0.3) 0%,    /* Celeste */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(255, 209, 0, 0.2) 66%,       /* Amarillo */
+                rgba(74, 144, 226, 0.3) 100%      /* Celeste */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #fff; /* Blanco */
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #74ACF2; /* Celeste */
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+        /* Burbujas rectangulares */
+        .bubbles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .bubble {
+            width: 100%;
+            height: 180px;
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.85),    /* Celeste */
+                rgba(255, 255, 255, 0.75)      /* Blanco */
+            );
+            border: 3px solid #FFD100; /* Borde amarillo */
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 15px;
+        }
+        .bubble:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.4);
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.95),
+                rgba(255, 255, 255, 0.85)
+            );
+        }
+        .bubble-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .bubble-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        .bubble-desc {
+            font-size: 0.9rem;
+            color: #333;
+            max-width: 90%;
+            line-height: 1.3;
+        }
+        /* Efecto de brillo en hover */
+        .bubble::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .bubble:hover::before {
+            opacity: 1;
+        }
+        /* Botón de navegación superior */
+        .nav-top {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.8),    /* Celeste */
+                rgba(255, 255, 255, 0.8)   /* Blanco */
+            );
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #FFD100; /* Borde amarillo */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .btn-home:hover {
+            background: linear-gradient(135deg, 
+                rgba(255, 255, 255, 0.9),   /* Blanco */
+                rgba(74, 144, 226, 0.9)      /* Celeste */
+            );
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+        }
+        /* Pie de página con atribución */
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.7);
+            z-index: 10;
+            padding: 5px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        /* Diseño responsivo */
+        @media (max-width: 1200px) {
+            .bubbles-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+            .bubble {
+                height: 170px;
+            }
+            .bubble-icon {
+                font-size: 2.2rem;
+            }
+            .bubble-title {
+                font-size: 1.4rem;
+            }
+        }
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+            }
+            
+            .bubbles-container {
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+                gap: 15px;
+            }
+            
+            .bubble {
+                height: 150px;
+                padding: 10px;
+            }
+            
+            .bubble-icon {
+                font-size: 2rem;
+                margin-bottom: 5px;
+            }
+            
+            .bubble-title {
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+            }
+            
+            .bubble-desc {
+                font-size: 0.8rem;
+                line-height: 1.2;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .nav-top {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .btn-home {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+            
+            .footer {
+                font-size: 0.6rem;
+                padding: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Botón para volver a la página principal de idiomas -->
+    <div class="nav-top">
+        <a href="../index.html" class="btn-home">← Idiomas</a>
+    </div>
+    
+    <div class="container">
+        <h1>Castellano</h1>
+        <p class="subtitle">Selecciona un tema para continuar</p>
+        
+        <div class="bubbles-container">
+            <!-- Burbuja para Textos -->
+            <a href="textos.ca.html" class="bubble">
+                <div class="bubble-icon">📝</div>
+                <div class="bubble-title">Textos</div>
+                <div class="bubble-desc">Lee y analiza textos en español</div>
+            </a>
+            
+            <!-- Burbuja para Historia -->
+            <a href="historia.ca.html" class="bubble">
+                <div class="bubble-icon">🏛️</div>
+                <div class="bubble-title">Historia</div>
+                <div class="bubble-desc">Descubre la historia argentina</div>
+            </a>
+            
+            <!-- Burbuja para Ejercicios Prácticos -->
+            <a href="ejercicios.ca.html" class="bubble">
+                <div class="bubble-icon">✏️</div>
+                <div class="bubble-title">Ejercicios</div>
+                <div class="bubble-desc">Mejora tu español con práctica</div>
+            </a>
+            
+            <!-- Burbuja para Evaluaciones -->
+            <a href="evaluaciones.ca.html" class="bubble">
+                <div class="bubble-icon">📊</div>
+                <div class="bubble-title">Evaluaciones</div>
+                <div class="bubble-desc">Mide tu progreso</div>
+            </a>
+            
+            <!-- Burbuja para Aprendizaje Auditivo -->
+            <a href="auditivo.ca.html" class="bubble">
+                <div class="bubble-icon">🎧</div>
+                <div class="bubble-title">Auditivo</div>
+                <div class="bubble-desc">Entrena tu oído</div>
+            </a>
+            
+            <!-- Burbuja para Curso con Temario -->
+            <a href="curso.ca.html" class="bubble">
+                <div class="bubble-icon">📚</div>
+                <div class="bubble-title">Curso</div>
+                <div class="bubble-desc">Estudia todos los niveles</div>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Pie de página con atribución -->
+    <div class="footer">
+        Imagen del Glaciar Perito Moreno, Santa Cruz, Argentina. 
+        <a href="https://pixabay.com/photos/argentina-perito-moreno-glacier-4810395/" target="_blank">Fuente: Pixabay</a> | 
+        <a href="https://pixabay.com/service/license/" target="_blank">Licencia: Pixabay License</a>
+    </div>
+</body>
+</html>

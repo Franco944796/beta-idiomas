@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos en Español</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen del Glaciar Perito Moreno */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/01/13/42/argentina-4810395_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3; /* Misma opacidad que en las otras secciones */
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera argentina */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 144, 226, 0.2) 0%,    /* Celeste */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(255, 209, 0, 0.15) 66%,       /* Amarillo */
+                rgba(74, 144, 226, 0.2) 100%      /* Celeste */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #74ACF2; /* Borde celeste */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #74ACF2; /* Celeste */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #74ACF2; /* Celeste */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #74ACF2; /* Borde celeste */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #74ACF2;
+            color: #fff;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .text-card {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.15),    /* Celeste */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .text-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(255, 209, 0, 0.7);
+        }
+        .text-card h3 {
+            color: #74ACF2; /* Celeste */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .text-card p {
+            line-height: 1.6;
+            color: #ddd;
+        }
+        .text-card .date {
+            color: #74ACF2; /* Celeste */
+            font-size: 0.9rem;
+            margin-top: 10px;
+            text-align: right;
+        }
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Textos en Español</h1>
+            <p>Encuentra una selección de textos en español para leer y estudiar</p>
+            <a href="castellano.html" class="back-link">← Volver a la selección de temas</a>
+        </div>
+        
+        <div class="content">
+            <div class="text-card">
+                <h3>La República Argentina</h3>
+                <p>Argentina es un país soberano de América del Sur, ubicado en el extremo sur de este subcontinente. Es una república federal organizada en 23 provincias y una ciudad autónoma...</p>
+                <div class="date">Actualizado: 15/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3>Gramática Española</h3>
+                <p>El español es una lengua romance que se originó en la Península Ibérica. Su gramática incluye géneros masculino y femenino, números singular y plural, y una variedad de tiempos verbales...</p>
+                <div class="date">Actualizado: 10/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3>Literatura Argentina</h3>
+                <p>La literatura argentina ha producido figuras de renombre internacional como Jorge Luis Borges, Julio Cortázar, Adolfo Bioy Casares y Ernesto Sabato, entre muchos otros...</p>
+                <div class="date">Actualizado: 05/05/2023</div>
+            </div>
+            
+            <div class="text-card">
+                <h3>Cultura Argentina</h3>
+                <p>La cultura argentina es rica y diversa, influenciada por las corrientes europeas, indígenas y africanas. El tango, el asado y el fútbol son elementos icónicos de su identidad...</p>
+                <div class="date">Actualizado: 01/05/2023</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

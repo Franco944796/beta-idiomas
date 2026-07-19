@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оценки</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de San Petersburgo */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2021/12/29/18/59/st-petersburg-6902540_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera rusa */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.1) 0%,  /* Blanco */
+                rgba(0, 57, 166, 0.3) 33%,     /* Azul */
+                rgba(213, 43, 30, 0.3) 66%,   /* Rojo */
+                rgba(255, 255, 255, 0.1) 100%  /* Blanco */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #fff; /* Borde blanco */
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #fff; /* Blanco */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #D52B1E; /* Rojo ruso */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #D52B1E;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+        .back-link:hover {
+            background-color: #D52B1E;
+            color: #fff;
+        }
+        .tests-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .test-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.2),    /* Azul ruso */
+                rgba(213, 43, 30, 0.2)    /* Rojo ruso */
+            );
+            border: 1px solid #fff; /* Borde blanco */
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .test-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.3),
+                rgba(213, 43, 30, 0.3)
+            );
+        }
+        .test-card h3 {
+            color: #fff; /* Blanco */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .test-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .test-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .test-duration, .test-questions {
+            color: #fff; /* Blanco */
+        }
+        .test-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.8),    /* Azul ruso */
+                rgba(213, 43, 30, 0.8)   /* Rojo ruso */
+            );
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s;
+            border: 1px solid #fff;
+        }
+        .test-button:hover {
+            background: linear-gradient(135deg, 
+                rgba(213, 43, 30, 0.9),   /* Rojo ruso */
+                rgba(0, 57, 166, 0.9)      /* Azul ruso */
+            );
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+        }
+        .progress-bar {
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #0039A6, #D52B1E); /* Azul a rojo */
+            border-radius: 4px;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #D52B1E;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .tests-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Оценки</h1>
+            <p id="subtitle">Проверьте свои знания русского языка и отслеживайте свой прогресс</p>
+            <a href="ruso.html" class="back-link" id="backLink">← Вернуться к выбору темы</a>
+        </div>
+        
+        <div class="tests-container">
+            <div class="test-card">
+                <h3 id="test1Title">Тест по грамматике</h3>
+                <p id="test1Desc">Проверьте свои знания русской грамматики с помощью этого комплексного теста.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test1Duration">⏱️ 30 минут</span>
+                    <span class="test-questions" id="test1Questions">❓ 25 вопросов</span>
+                </div>
+                <a href="#" class="test-button" id="test1Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test2Title">Тест на словарный запас</h3>
+                <p id="test2Desc">Измерьте свой русский словарный запас и определите области для улучшения.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test2Duration">⏱️ 20 минут</span>
+                    <span class="test-questions" id="test2Questions">❓ 30 вопросов</span>
+                </div>
+                <a href="#" class="test-button" id="test2Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test3Title">Тест на аудирование</h3>
+                <p id="test3Desc">Проверьте свои навыки аудирования с помощью различных аутентичных русских аудиозаписей.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test3Duration">⏱️ 25 минут</span>
+                    <span class="test-questions" id="test3Questions">❓ 20 вопросов</span>
+                </div>
+                <a href="#" class="test-button" id="test3Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test4Title">Тест на чтение</h3>
+                <p id="test4Desc">Оцените свои способности понимать и анализировать русские тексты.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test4Duration">⏱️ 35 минут</span>
+                    <span class="test-questions" id="test4Questions">❓ 15 вопросов</span>
+                </div>
+                <a href="#" class="test-button" id="test4Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test5Title">Тест на произношение</h3>
+                <p id="test5Desc">Проверьте свое русское произношение с помощью нашей технологии оценки на основе ИИ.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test5Duration">⏱️ 15 минут</span>
+                    <span class="test-questions" id="test5Questions">❓ 10 заданий</span>
+                </div>
+                <a href="#" class="test-button" id="test5Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test6Title">Компетентностный тест</h3>
+                <p id="test6Desc">Комплексный тест для оценки ваших общих знаний русского языка (A1-C1).</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test6Duration">⏱️ 60 минут</span>
+                    <span class="test-questions" id="test6Questions">❓ 50 вопросов</span>
+                </div>
+                <a href="#" class="test-button" id="test6Button">Начать тест</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            ru: {
+                mainTitle: "Оценки",
+                subtitle: "Проверьте свои знания русского языка и отслеживайте свой прогресс",
+                backLink: "← Вернуться к выбору темы",
+                test1Title: "Тест по грамматике",
+                test1Desc: "Проверьте свои знания русской грамматики с помощью этого комплексного теста.",
+                test1Duration: "⏱️ 30 минут",
+                test1Questions: "❓ 25 вопросов",
+                test1Button: "Начать тест",
+                test2Title: "Тест на словарный запас",
+                test2Desc: "Измерьте свой русский словарный запас и определите области для улучшения.",
+                test2Duration: "⏱️ 20 минут",
+                test2Questions: "❓ 30 вопросов",
+                test2Button: "Начать тест",
+                test3Title: "Тест на аудирование",
+                test3Desc: "Проверьте свои навыки аудирования с помощью различных аутентичных русских аудиозаписей.",
+                test3Duration: "⏱️ 25 минут",
+                test3Questions: "❓ 20 вопросов",
+                test3Button: "Начать тест",
+                test4Title: "Тест на чтение",
+                test4Desc: "Оцените свои способности понимать и анализировать русские тексты.",
+                test4Duration: "⏱️ 35 минут",
+                test4Questions: "❓ 15 вопросов",
+                test4Button: "Начать тест",
+                test5Title: "Тест на произношение",
+                test5Desc: "Проверьте свое русское произношение с помощью нашей технологии оценки на основе ИИ.",
+                test5Duration: "⏱️ 15 минут",
+                test5Questions: "❓ 10 заданий",
+                test5Button: "Начать тест",
+                test6Title: "Компетентностный тест",
+                test6Desc: "Комплексный тест для оценки ваших общих знаний русского языка (A1-C1).",
+                test6Duration: "⏱️ 60 минут",
+                test6Questions: "❓ 50 вопросов",
+                test6Button: "Начать тест"
+            },
+            es: {
+                mainTitle: "Evaluaciones",
+                subtitle: "Verifica tus conocimientos del ruso y sigue tu progreso",
+                backLink: "← Volver a la selección de temas",
+                test1Title: "Test de Gramática",
+                test1Desc: "Verifica tus conocimientos de la gramática rusa con este test completo.",
+                test1Duration: "⏱️ 30 minutos",
+                test1Questions: "❓ 25 preguntas",
+                test1Button: "Comenzar test",
+                test2Title: "Test de Vocabulario",
+                test2Desc: "Mide tu vocabulario ruso e identifica áreas para mejorar.",
+                test2Duration: "⏱️ 20 minutos",
+                test2Questions: "❓ 30 preguntas",
+                test2Button: "Comenzar test",
+                test3Title: "Test de Comprensión Auditiva",
+                test3Desc: "Verifica tus habilidades de comprensión auditiva con varias grabaciones de audio rusas auténticas.",
+                test3Duration: "⏱️ 25 minutos",
+                test3Questions: "❓ 20 preguntas",
+                test3Button: "Comenzar test",
+                test4Title: "Test de Comprensión Lectora",
+                test4Desc: "Evalúa tu capacidad para comprender y analizar textos en ruso.",
+                test4Duration: "⏱️ 35 minutos",
+                test4Questions: "❓ 15 preguntas",
+                test4Button: "Comenzar test",
+                test5Title: "Test de Pronunciación",
+                test5Desc: "Verifica tu pronunciación rusa con nuestra tecnología de evaluación basada en IA.",
+                test5Duration: "⏱️ 15 minutos",
+                test5Questions: "❓ 10 ejercicios",
+                test5Button: "Comenzar test",
+                test6Title: "Test de Competencia",
+                test6Desc: "Evaluación integral de tus conocimientos generales del ruso (A1-C1).",
+                test6Duration: "⏱️ 60 minutos",
+                test6Questions: "❓ 50 preguntas",
+                test6Button: "Comenzar test"
+            },
+            en: {
+                mainTitle: "Assessments",
+                subtitle: "Test your Russian knowledge and track your progress",
+                backLink: "← Back to topic selection",
+                test1Title: "Grammar Test",
+                test1Desc: "Test your knowledge of Russian grammar with this comprehensive test.",
+                test1Duration: "⏱️ 30 minutes",
+                test1Questions: "❓ 25 questions",
+                test1Button: "Start test",
+                test2Title: "Vocabulary Test",
+                test2Desc: "Measure your Russian vocabulary and identify areas for improvement.",
+                test2Duration: "⏱️ 20 minutes",
+                test2Questions: "❓ 30 questions",
+                test2Button: "Start test",
+                test3Title: "Listening Test",
+                test3Desc: "Test your listening skills with various authentic Russian audio recordings.",
+                test3Duration: "⏱️ 25 minutes",
+                test3Questions: "❓ 20 questions",
+                test3Button: "Start test",
+                test4Title: "Reading Test",
+                test4Desc: "Evaluate your ability to understand and analyze Russian texts.",
+                test4Duration: "⏱️ 35 minutes",
+                test4Questions: "❓ 15 questions",
+                test4Button: "Start test",
+                test5Title: "Pronunciation Test",
+                test5Desc: "Test your Russian pronunciation with our AI-powered assessment technology.",
+                test5Duration: "⏱️ 15 minutes",
+                test5Questions: "❓ 10 exercises",
+                test5Button: "Start test",
+                test6Title: "Proficiency Test",
+                test6Desc: "Comprehensive assessment of your general Russian knowledge (A1-C1).",
+                test6Duration: "⏱️ 60 minutes",
+                test6Questions: "❓ 50 questions",
+                test6Button: "Start test"
+            },
+            fr: {
+                mainTitle: "Évaluations",
+                subtitle: "Testez vos connaissances en russe et suivez vos progrès",
+                backLink: "← Retour à la sélection des sujets",
+                test1Title: "Test de Grammaire",
+                test1Desc: "Testez vos connaissances de la grammaire russe avec ce test complet.",
+                test1Duration: "⏱️ 30 minutes",
+                test1Questions: "❓ 25 questions",
+                test1Button: "Commencer le test",
+                test2Title: "Test de Vocabulaire",
+                test2Desc: "Mesurez votre vocabulaire russe et identifiez les domaines à améliorer.",
+                test2Duration: "⏱️ 20 minutes",
+                test2Questions: "❓ 30 questions",
+                test2Button: "Commencer le test",
+                test3Title: "Test de Compréhension Orale",
+                test3Desc: "Testez vos compétences en compréhension orale avec divers enregistrements audio russes authentiques.",
+                test3Duration: "⏱️ 25 minutes",
+                test3Questions: "❓ 20 questions",
+                test3Button: "Commencer le test",
+                test4Title: "Test de Compréhension Écrite",
+                test4Desc: "Évaluez votre capacité à comprendre et à analyser des textes en russe.",
+                test4Duration: "⏱️ 35 minutes",
+                test4Questions: "❓ 15 questions",
+                test4Button: "Commencer le test",
+                test5Title: "Test de Prononciation",
+                test5Desc: "Testez votre prononciation russe avec notre technologie d'évaluation basée sur l'IA.",
+                test5Duration: "⏱️ 15 minutes",
+                test5Questions: "❓ 10 exercices",
+                test5Button: "Commencer le test",
+                test6Title: "Test de Compétence",
+                test6Desc: "Évaluation complète de vos connaissances générales du russe (A1-C1).",
+                test6Duration: "⏱️ 60 minutes",
+                test6Questions: "❓ 50 questions",
+                test6Button: "Commencer le test"
+            },
+            de: {
+                mainTitle: "Bewertungen",
+                subtitle: "Testen Sie Ihre Russischkenntnisse und verfolgen Sie Ihre Fortschritte",
+                backLink: "← Zurück zur Themenauswahl",
+                test1Title: "Grammatiktest",
+                test1Desc: "Testen Sie Ihre Kenntnisse der russischen Grammatik mit diesem umfassenden Test.",
+                test1Duration: "⏱️ 30 Minuten",
+                test1Questions: "❓ 25 Fragen",
+                test1Button: "Test beginnen",
+                test2Title: "Wortschatztest",
+                test2Desc: "Messen Sie Ihren russischen Wortschatz und identifizieren Sie Verbesserungsbereiche.",
+                test2Duration: "⏱️ 20 Minuten",
+                test2Questions: "❓ 30 Fragen",
+                test2Button: "Test beginnen",
+                test3Title: "Hörverständnistest",
+                test3Desc: "Testen Sie Ihre Hörverständnisfähigkeiten mit verschiedenen authentischen russischen Audioaufnahmen.",
+                test3Duration: "⏱️ 25 Minuten",
+                test3Questions: "❓ 20 Fragen",
+                test3Button: "Test beginnen",
+                test4Title: "Leseverständnistest",
+                test4Desc: "Bewerten Sie Ihre Fähigkeit, russische Texte zu verstehen und zu analysieren.",
+                test4Duration: "⏱️ 35 Minuten",
+                test4Questions: "❓ 15 Fragen",
+                test4Button: "Test beginnen",
+                test5Title: "Aussprachetest",
+                test5Desc: "Testen Sie Ihre russische Aussprache mit unserer KI-bewerteten Technologie.",
+                test5Duration: "⏱️ 15 Minuten",
+                test5Questions: "❓ 10 Übungen",
+                test5Button: "Test beginnen",
+                test6Title: "Kompetenztest",
+                test6Desc: "Umfassende Bewertung Ihrer allgemeinen Russischkenntnisse (A1-C1).",
+                test6Duration: "⏱️ 60 Minuten",
+                test6Questions: "❓ 50 Fragen",
+                test6Button: "Test beginnen"
+            },
+            pt: {
+                mainTitle: "Avaliações",
+                subtitle: "Teste seu conhecimento de russo e acompanhe seu progresso",
+                backLink: "← Voltar à seleção de tópicos",
+                test1Title: "Teste de Gramática",
+                test1Desc: "Teste seu conhecimento da gramática russa com este teste abrangente.",
+                test1Duration: "⏱️ 30 minutos",
+                test1Questions: "❓ 25 perguntas",
+                test1Button: "Iniciar teste",
+                test2Title: "Teste de Vocabulário",
+                test2Desc: "Meça seu vocabulário russo e identifique áreas para melhorar.",
+                test2Duration: "⏱️ 20 minutos",
+                test2Questions: "❓ 30 perguntas",
+                test2Button: "Iniciar teste",
+                test3Title: "Teste de Compreensão Auditiva",
+                test3Desc: "Teste suas habilidades de compreensão auditiva com várias gravações de áudio russas autênticas.",
+                test3Duration: "⏱️ 25 minutos",
+                test3Questions: "❓ 20 perguntas",
+                test3Button: "Iniciar teste",
+                test4Title: "Teste de Leitura",
+                test4Desc: "Avalie sua capacidade de entender e analisar textos em russo.",
+                test4Duration: "⏱️ 35 minutos",
+                test4Questions: "❓ 15 perguntas",
+                test4Button: "Iniciar teste",
+                test5Title: "Teste de Pronúncia",
+                test5Desc: "Teste sua pronúncia russa com nossa tecnologia de avaliação baseada em IA.",
+                test5Duration: "⏱️ 15 minutos",
+                test5Questions: "❓ 10 exercícios",
+                test5Button: "Iniciar teste",
+                test6Title: "Teste de Proficiência",
+                test6Desc: "Avaliação abrangente de seu conhecimento geral de russo (A1-C1).",
+                test6Duration: "⏱️ 60 minutos",
+                test6Questions: "❓ 50 perguntas",
+                test6Button: "Iniciar teste"
+            },
+            it: {
+                mainTitle: "Valutazioni",
+                subtitle: "Verifica le tue conoscenze del russo e monitora i tuoi progressi",
+                backLink: "← Torna alla selezione argomenti",
+                test1Title: "Test di Grammatica",
+                test1Desc: "Verifica le tue conoscenze della grammatica russa con questo test completo.",
+                test1Duration: "⏱️ 30 minuti",
+                test1Questions: "❓ 25 domande",
+                test1Button: "Inizia test",
+                test2Title: "Test di Vocabolario",
+                test2Desc: "Misura il tuo vocabolario russo e identifica aree di miglioramento.",
+                test2Duration: "⏱️ 20 minuti",
+                test2Questions: "❓ 30 domande",
+                test2Button: "Inizia test",
+                test3Title: "Test di Comprensione Uditiva",
+                test3Desc: "Verifica le tue capacità di comprensione uditiva con varie registrazioni audio russe autentiche.",
+                test3Duration: "⏱️ 25 minuti",
+                test3Questions: "❓ 20 domande",
+                test3Button: "Inizia test",
+                test4Title: "Test di Lettura",
+                test4Desc: "Valuta la tua capacità di capire e analizzare testi in russo.",
+                test4Duration: "⏱️ 35 minuti",
+                test4Questions: "❓ 15 domande",
+                test4Button: "Inizia test",
+                test5Title: "Test di Pronuncia",
+                test5Desc: "Verifica la tua pronuncia russa con la nostra tecnologia di valutazione basata su IA.",
+                test5Duration: "⏱️ 15 minuti",
+                test5Questions: "❓ 10 esercizi",
+                test5Button: "Inizia test",
+                test6Title: "Test di Competenza",
+                test6Desc: "Valutazione completa delle tue conoscenze generali del russo (A1-C1).",
+                test6Duration: "⏱️ 60 minuti",
+                test6Questions: "❓ 50 domande",
+                test6Button: "Inizia test"
+            },
+            zh: {
+                mainTitle: "评估",
+                subtitle: "测试您的俄语知识并跟踪您的进度",
+                backLink: "← 返回主题选择",
+                test1Title: "语法测试",
+                test1Desc: "通过这个综合测试测试您的俄语语法知识。",
+                test1Duration: "⏱️ 30分钟",
+                test1Questions: "❓ 25个问题",
+                test1Button: "开始测试",
+                test2Title: "词汇测试",
+                test2Desc: "衡量您的俄语词汇量并确定需要改进的领域。",
+                test2Duration: "⏱️ 20分钟",
+                test2Questions: "❓ 30个问题",
+                test2Button: "开始测试",
+                test3Title: "听力测试",
+                test3Desc: "通过各种真实的俄语录音测试您的听力技能。",
+                test3Duration: "⏱️ 25分钟",
+                test3Questions: "❓ 20个问题",
+                test3Button: "开始测试",
+                test4Title: "阅读测试",
+                test4Desc: "评估您理解和分析俄语文本的能力。",
+                test4Duration: "⏱️ 35分钟",
+                test4Questions: "❓ 15个问题",
+                test4Button: "开始测试",
+                test5Title: "发音测试",
+                test5Desc: "使用我们基于AI的评估技术测试您的俄语发音。",
+                test5Duration: "⏱️ 15分钟",
+                test5Questions: "❓ 10个练习",
+                test5Button: "开始测试",
+                test6Title: "水平测试",
+                test6Desc: "全面评估您的一般俄语知识（A1-C1）。",
+                test6Duration: "⏱️ 60分钟",
+                test6Questions: "❓ 50个问题",
+                test6Button: "开始测试"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de test
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`test${i}Title`).textContent = t[`test${i}Title`];
+                document.getElementById(`test${i}Desc`).textContent = t[`test${i}Desc`];
+                document.getElementById(`test${i}Duration`).textContent = t[`test${i}Duration`];
+                document.getElementById(`test${i}Questions`).textContent = t[`test${i}Questions`];
+                document.getElementById(`test${i}Button`).textContent = t[`test${i}Button`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

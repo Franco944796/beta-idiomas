@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendizaje Auditivo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen del Glaciar Perito Moreno */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/01/13/42/argentina-4810395_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3; /* Misma opacidad que en las otras secciones */
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera argentina */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 144, 226, 0.2) 0%,    /* Celeste */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(255, 209, 0, 0.15) 66%,       /* Amarillo */
+                rgba(74, 144, 226, 0.2) 100%      /* Celeste */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #74ACF2; /* Borde celeste */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #74ACF2; /* Celeste */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #74ACF2; /* Celeste */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #74ACF2; /* Borde celeste */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #74ACF2;
+            color: #fff;
+        }
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .audio-card {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.15),    /* Celeste */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .audio-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(255, 209, 0, 0.7);
+        }
+        .audio-card h3 {
+            color: #74ACF2; /* Celeste */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .audio-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .audio-player {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .play-button {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.8),    /* Celeste */
+                rgba(255, 255, 255, 0.8)   /* Blanco */
+            );
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.2rem;
+        }
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+        }
+        .progress-container {
+            flex: 1;
+            margin: 0 15px;
+            height: 6px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #74ACF2, #FFD100);
+            border-radius: 3px;
+            width: 0%;
+        }
+        .time {
+            color: #74ACF2;
+            font-size: 0.9rem;
+            min-width: 80px;
+            text-align: right;
+        }
+        .audio-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .easy {
+            background-color: rgba(76, 175, 80, 0.7);
+        }
+        .medium {
+            background-color: rgba(255, 152, 0, 0.7);
+        }
+        .hard {
+            background-color: rgba(244, 67, 54, 0.7);
+        }
+        .transcript-button {
+            display: inline-block;
+            margin-top: 10px;
+            color: #74ACF2;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        .transcript-button:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .audio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Aprendizaje Auditivo</h1>
+            <p>Entrena tu oído con diferentes contenidos en español</p>
+            <a href="castellano.html" class="back-link">← Volver a la selección de temas</a>
+        </div>
+        
+        <div class="audio-grid">
+            <div class="audio-card">
+                <h3>Conversaciones Diarias</h3>
+                <p>Diálogos y conversaciones cotidianas en diferentes situaciones de la vida diaria.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 3:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy">Fácil</span>
+                        <span>Habla lenta</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar transcripción</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Noticieros</h3>
+                <p>Noticias actuales e informes de Argentina y el mundo en español estándar claro.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 5:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium">Intermedio</span>
+                        <span>Ritmo normal</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar transcripción</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Podcasts</h3>
+                <p>Podcasts interesantes sobre diversos temas con hablantes nativos de español.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 12:30</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium">Intermedio</span>
+                        <span>Habla natural</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar transcripción</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Audiolibros</h3>
+                <p>Fragmentos de populares audiolibros españoles de diversos géneros literarios.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 8:15</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard">Difícil</span>
+                        <span>Voz narradora</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar transcripción</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Entrevistas</h3>
+                <p>Entrevistas auténticas con expertos hispanohablantes sobre diversas áreas temáticas.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 10:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard">Difícil</span>
+                        <span>Vocabulario técnico</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar transcripción</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3>Canciones</h3>
+                <p>Música en español de diferentes épocas con letras para cantar y comprender.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 4:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy">Fácil</span>
+                        <span>Musical</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button">Mostrar letra</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

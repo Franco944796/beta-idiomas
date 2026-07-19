@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valutazioni</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .tests-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .test-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.15),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .test-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7);
+        }
+        .test-card h3 {
+            color: #009246; /* Verde */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .test-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .test-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .test-duration, .test-questions {
+            color: #CE2B37; /* Rojo */
+        }
+        .test-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.8),    /* Verde */
+                rgba(255, 255, 255, 0.8)   /* Blanco */
+            );
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s;
+            border: 1px solid rgba(206, 43, 55, 0.5);
+        }
+        .test-button:hover {
+            background: linear-gradient(135deg, 
+                rgba(255, 255, 255, 0.9),   /* Blanco */
+                rgba(0, 146, 70, 0.9)      /* Verde */
+            );
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 146, 70, 0.4);
+        }
+        .progress-bar {
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #009246, #CE2B37);
+            border-radius: 4px;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .tests-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Valutazioni</h1>
+            <p id="subtitle">Metti alla prova la tua conoscenza dell'italiano e monitora i tuoi progressi</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="tests-container">
+            <div class="test-card">
+                <h3 id="test1Title">Test di Grammatica</h3>
+                <p id="test1Desc">Metti alla prova la tua conoscenza della grammatica italiana con questo test completo.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test1Duration">⏱️ 30 minuti</span>
+                    <span class="test-questions" id="test1Questions">❓ 25 domande</span>
+                </div>
+                <a href="#" class="test-button" id="test1Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test2Title">Test di Vocabolario</h3>
+                <p id="test2Desc">Misura il tuo vocabolario italiano e identifica le aree di miglioramento.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test2Duration">⏱️ 20 minuti</span>
+                    <span class="test-questions" id="test2Questions">❓ 30 domande</span>
+                </div>
+                <a href="#" class="test-button" id="test2Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test3Title">Comprensione Auditiva</h3>
+                <p id="test3Desc">Metti alla prova la tua comprensione orale con varie registrazioni audio autentiche in italiano.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test3Duration">⏱️ 25 minuti</span>
+                    <span class="test-questions" id="test3Questions">❓ 20 domande</span>
+                </div>
+                <a href="#" class="test-button" id="test3Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test4Title">Comprensione Lettura</h3>
+                <p id="test4Desc">Valuta la tua capacità di comprendere e analizzare testi in italiano.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test4Duration">⏱️ 35 minuti</span>
+                    <span class="test-questions" id="test4Questions">❓ 15 domande</span>
+                </div>
+                <a href="#" class="test-button" id="test4Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test5Title">Pronuncia</h3>
+                <p id="test5Desc">Metti alla prova la tua pronuncia italiana con la nostra tecnologia di valutazione basata su AI.</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test5Duration">⏱️ 15 minuti</span>
+                    <span class="test-questions" id="test5Questions">❓ 10 esercizi</span>
+                </div>
+                <a href="#" class="test-button" id="test5Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3 id="test6Title">Test di Competenza</h3>
+                <p id="test6Desc">Valutazione completa della tua conoscenza generale dell'italiano (A1-C1).</p>
+                <div class="test-info">
+                    <span class="test-duration" id="test6Duration">⏱️ 60 minuti</span>
+                    <span class="test-questions" id="test6Questions">❓ 50 domande</span>
+                </div>
+                <a href="#" class="test-button" id="test6Button">Inizia test</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Valutazioni",
+                subtitle: "Metti alla prova la tua conoscenza dell'italiano e monitora i tuoi progressi",
+                backLink: "← Torna alla selezione argomenti",
+                test1Title: "Test di Grammatica",
+                test1Desc: "Metti alla prova la tua conoscenza della grammatica italiana con questo test completo.",
+                test1Duration: "⏱️ 30 minuti",
+                test1Questions: "❓ 25 domande",
+                test1Button: "Inizia test",
+                test2Title: "Test di Vocabolario",
+                test2Desc: "Misura il tuo vocabolario italiano e identifica le aree di miglioramento.",
+                test2Duration: "⏱️ 20 minuti",
+                test2Questions: "❓ 30 domande",
+                test2Button: "Inizia test",
+                test3Title: "Comprensione Auditiva",
+                test3Desc: "Metti alla prova la tua comprensione orale con varie registrazioni audio autentiche in italiano.",
+                test3Duration: "⏱️ 25 minuti",
+                test3Questions: "❓ 20 domande",
+                test3Button: "Inizia test",
+                test4Title: "Comprensione Lettura",
+                test4Desc: "Valuta la tua capacità di comprendere e analizzare testi in italiano.",
+                test4Duration: "⏱️ 35 minuti",
+                test4Questions: "❓ 15 domande",
+                test4Button: "Inizia test",
+                test5Title: "Pronuncia",
+                test5Desc: "Metti alla prova la tua pronuncia italiana con la nostra tecnologia di valutazione basata su AI.",
+                test5Duration: "⏱️ 15 minuti",
+                test5Questions: "❓ 10 esercizi",
+                test5Button: "Inizia test",
+                test6Title: "Test di Competenza",
+                test6Desc: "Valutazione completa della tua conoscenza generale dell'italiano (A1-C1).",
+                test6Duration: "⏱️ 60 minuti",
+                test6Questions: "❓ 50 domande",
+                test6Button: "Inizia test"
+            },
+            es: {
+                mainTitle: "Evaluaciones",
+                subtitle: "Pon a prueba tu conocimiento del italiano y sigue tu progreso",
+                backLink: "← Volver a la selección de temas",
+                test1Title: "Test de Gramática",
+                test1Desc: "Pon a prueba tu conocimiento de la gramática italiana con este test completo.",
+                test1Duration: "⏱️ 30 minutos",
+                test1Questions: "❓ 25 preguntas",
+                test1Button: "Comenzar test",
+                test2Title: "Test de Vocabulario",
+                test2Desc: "Mide tu vocabulario italiano e identifica áreas de mejora.",
+                test2Duration: "⏱️ 20 minutos",
+                test2Questions: "❓ 30 preguntas",
+                test2Button: "Comenzar test",
+                test3Title: "Comprensión Auditiva",
+                test3Desc: "Pon a prueba tu comprensión auditiva con varias grabaciones de audio auténticas en italiano.",
+                test3Duration: "⏱️ 25 minutos",
+                test3Questions: "❓ 20 preguntas",
+                test3Button: "Comenzar test",
+                test4Title: "Comprensión Lectora",
+                test4Desc: "Evalúa tu capacidad para comprender y analizar textos en italiano.",
+                test4Duration: "⏱️ 35 minutos",
+                test4Questions: "❓ 15 preguntas",
+                test4Button: "Comenzar test",
+                test5Title: "Pronunciación",
+                test5Desc: "Pon a prueba tu pronunciación italiana con nuestra tecnología de evaluación basada en IA.",
+                test5Duration: "⏱️ 15 minutos",
+                test5Questions: "❓ 10 ejercicios",
+                test5Button: "Comenzar test",
+                test6Title: "Test de Competencia",
+                test6Desc: "Evaluación completa de tu conocimiento general del italiano (A1-C1).",
+                test6Duration: "⏱️ 60 minutos",
+                test6Questions: "❓ 50 preguntas",
+                test6Button: "Comenzar test"
+            },
+            en: {
+                mainTitle: "Assessments",
+                subtitle: "Test your Italian knowledge and track your progress",
+                backLink: "← Back to topic selection",
+                test1Title: "Grammar Test",
+                test1Desc: "Test your knowledge of Italian grammar with this comprehensive test.",
+                test1Duration: "⏱️ 30 minutes",
+                test1Questions: "❓ 25 questions",
+                test1Button: "Start test",
+                test2Title: "Vocabulary Test",
+                test2Desc: "Measure your Italian vocabulary and identify areas for improvement.",
+                test2Duration: "⏱️ 20 minutes",
+                test2Questions: "❓ 30 questions",
+                test2Button: "Start test",
+                test3Title: "Listening Comprehension",
+                test3Desc: "Test your listening comprehension with various authentic Italian audio recordings.",
+                test3Duration: "⏱️ 25 minutes",
+                test3Questions: "❓ 20 questions",
+                test3Button: "Start test",
+                test4Title: "Reading Comprehension",
+                test4Desc: "Evaluate your ability to understand and analyze Italian texts.",
+                test4Duration: "⏱️ 35 minutes",
+                test4Questions: "❓ 15 questions",
+                test4Button: "Start test",
+                test5Title: "Pronunciation",
+                test5Desc: "Test your Italian pronunciation with our AI-powered assessment technology.",
+                test5Duration: "⏱️ 15 minutes",
+                test5Questions: "❓ 10 exercises",
+                test5Button: "Start test",
+                test6Title: "Proficiency Test",
+                test6Desc: "Comprehensive assessment of your general Italian knowledge (A1-C1).",
+                test6Duration: "⏱️ 60 minutes",
+                test6Questions: "❓ 50 questions",
+                test6Button: "Start test"
+            },
+            fr: {
+                mainTitle: "Évaluations",
+                subtitle: "Testez vos connaissances en italien et suivez vos progrès",
+                backLink: "← Retour à la sélection des sujets",
+                test1Title: "Test de Grammaire",
+                test1Desc: "Testez vos connaissances de la grammaire italienne avec ce test complet.",
+                test1Duration: "⏱️ 30 minutes",
+                test1Questions: "❓ 25 questions",
+                test1Button: "Commencer le test",
+                test2Title: "Test de Vocabulaire",
+                test2Desc: "Mesurez votre vocabulaire italien et identifiez les domaines à améliorer.",
+                test2Duration: "⏱️ 20 minutes",
+                test2Questions: "❓ 30 questions",
+                test2Button: "Commencer le test",
+                test3Title: "Compréhension Orale",
+                test3Desc: "Testez votre compréhension orale avec divers enregistrements audio authentiques en italien.",
+                test3Duration: "⏱️ 25 minutes",
+                test3Questions: "❓ 20 questions",
+                test3Button: "Commencer le test",
+                test4Title: "Compréhension Écrite",
+                test4Desc: "Évaluez votre capacité à comprendre et à analyser des textes en italien.",
+                test4Duration: "⏱️ 35 minutes",
+                test4Questions: "❓ 15 questions",
+                test4Button: "Commencer le test",
+                test5Title: "Prononciation",
+                test5Desc: "Testez votre prononciation italienne avec notre technologie d'évaluation basée sur l'IA.",
+                test5Duration: "⏱️ 15 minutes",
+                test5Questions: "❓ 10 exercices",
+                test5Button: "Commencer le test",
+                test6Title: "Test de Compétence",
+                test6Desc: "Évaluation complète de vos connaissances générales en italien (A1-C1).",
+                test6Duration: "⏱️ 60 minutes",
+                test6Questions: "❓ 50 questions",
+                test6Button: "Commencer le test"
+            },
+            de: {
+                mainTitle: "Bewertungen",
+                subtitle: "Testen Sie Ihre Italienischkenntnisse und verfolgen Sie Ihre Fortschritte",
+                backLink: "← Zurück zur Themenauswahl",
+                test1Title: "Grammatiktest",
+                test1Desc: "Testen Sie Ihre Kenntnisse der italienischen Grammatik mit diesem umfassenden Test.",
+                test1Duration: "⏱️ 30 Minuten",
+                test1Questions: "❓ 25 Fragen",
+                test1Button: "Test starten",
+                test2Title: "Vokabeltest",
+                test2Desc: "Messen Sie Ihren italienischen Wortschatz und identifizieren Sie Verbesserungsbereiche.",
+                test2Duration: "⏱️ 20 Minuten",
+                test2Questions: "❓ 30 Fragen",
+                test2Button: "Test starten",
+                test3Title: "Hörverständnis",
+                test3Desc: "Testen Sie Ihr Hörverständnis mit verschiedenen authentischen italienischen Audioaufnahmen.",
+                test3Duration: "⏱️ 25 Minuten",
+                test3Questions: "❓ 20 Fragen",
+                test3Button: "Test starten",
+                test4Title: "Leseverständnis",
+                test4Desc: "Bewerten Sie Ihre Fähigkeit, italienische Texte zu verstehen und zu analysieren.",
+                test4Duration: "⏱️ 35 Minuten",
+                test4Questions: "❓ 15 Fragen",
+                test4Button: "Test starten",
+                test5Title: "Aussprache",
+                test5Desc: "Testen Sie Ihre italienische Aussprache mit unserer KI-basierten Bewertungstechnologie.",
+                test5Duration: "⏱️ 15 Minuten",
+                test5Questions: "❓ 10 Übungen",
+                test5Button: "Test starten",
+                test6Title: "Kompetenztest",
+                test6Desc: "Umfassende Bewertung Ihrer allgemeinen Italienischkenntnisse (A1-C1).",
+                test6Duration: "⏱️ 60 Minuten",
+                test6Questions: "❓ 50 Fragen",
+                test6Button: "Test starten"
+            },
+            pt: {
+                mainTitle: "Avaliações",
+                subtitle: "Teste seu conhecimento de italiano e acompanhe seu progresso",
+                backLink: "← Voltar à seleção de tópicos",
+                test1Title: "Teste de Gramática",
+                test1Desc: "Teste seu conhecimento da gramática italiana com este teste abrangente.",
+                test1Duration: "⏱️ 30 minutos",
+                test1Questions: "❓ 25 perguntas",
+                test1Button: "Iniciar teste",
+                test2Title: "Teste de Vocabulário",
+                test2Desc: "Meça seu vocabulário italiano e identifique áreas para melhoria.",
+                test2Duration: "⏱️ 20 minutos",
+                test2Questions: "❓ 30 perguntas",
+                test2Button: "Iniciar teste",
+                test3Title: "Compreensão Auditiva",
+                test3Desc: "Teste sua compreensão auditiva com várias gravações de áudio autênticas em italiano.",
+                test3Duration: "⏱️ 25 minutos",
+                test3Questions: "❓ 20 perguntas",
+                test3Button: "Iniciar teste",
+                test4Title: "Compreensão Leitora",
+                test4Desc: "Avalie sua capacidade de entender e analisar textos em italiano.",
+                test4Duration: "⏱️ 35 minutos",
+                test4Questions: "❓ 15 perguntas",
+                test4Button: "Iniciar teste",
+                test5Title: "Pronúncia",
+                test5Desc: "Teste sua pronúncia italiana com nossa tecnologia de avaliação baseada em IA.",
+                test5Duration: "⏱️ 15 minutos",
+                test5Questions: "❓ 10 exercícios",
+                test5Button: "Iniciar teste",
+                test6Title: "Teste de Proficiência",
+                test6Desc: "Avaliação abrangente de seu conhecimento geral de italiano (A1-C1).",
+                test6Duration: "⏱️ 60 minutos",
+                test6Questions: "❓ 50 perguntas",
+                test6Button: "Iniciar teste"
+            },
+            ru: {
+                mainTitle: "Оценки",
+                subtitle: "Проверьте свои знания итальянского языка и отслеживайте свой прогресс",
+                backLink: "← Вернуться к выбору тем",
+                test1Title: "Тест по грамматике",
+                test1Desc: "Проверьте свои знания итальянской грамматики с помощью этого комплексного теста.",
+                test1Duration: "⏱️ 30 минут",
+                test1Questions: "❓ 25 вопросов",
+                test1Button: "Начать тест",
+                test2Title: "Тест по словарному запасу",
+                test2Desc: "Оцените свой словарный запас итальянского языка и определите области для улучшения.",
+                test2Duration: "⏱️ 20 минут",
+                test2Questions: "❓ 30 вопросов",
+                test2Button: "Начать тест",
+                test3Title: "Аудирование",
+                test3Desc: "Проверьте свои навыки аудирования с помощью различных аутентичных аудиозаписей на итальянском языке.",
+                test3Duration: "⏱️ 25 минут",
+                test3Questions: "❓ 20 вопросов",
+                test3Button: "Начать тест",
+                test4Title: "Чтение",
+                test4Desc: "Оцените свою способность понимать и анализировать тексты на итальянском языке.",
+                test4Duration: "⏱️ 35 минут",
+                test4Questions: "❓ 15 вопросов",
+                test4Button: "Начать тест",
+                test5Title: "Произношение",
+                test5Desc: "Проверьте свое итальянское произношение с помощью нашей технологии оценки на основе ИИ.",
+                test5Duration: "⏱️ 15 минут",
+                test5Questions: "❓ 10 упражнений",
+                test5Button: "Начать тест",
+                test6Title: "Тест на знание языка",
+                test6Desc: "Комплексная оценка ваших общих знаний итальянского языка (A1-C1).",
+                test6Duration: "⏱️ 60 минут",
+                test6Questions: "❓ 50 вопросов",
+                test6Button: "Начать тест"
+            },
+            zh: {
+                mainTitle: "评估",
+                subtitle: "测试您的意大利语知识并跟踪您的进度",
+                backLink: "← 返回主题选择",
+                test1Title: "语法测试",
+                test1Desc: "通过这个综合测试检验您对意大利语语法的了解。",
+                test1Duration: "⏱️ 30分钟",
+                test1Questions: "❓ 25个问题",
+                test1Button: "开始测试",
+                test2Title: "词汇测试",
+                test2Desc: "衡量您的意大利语词汇量并确定需要改进的领域。",
+                test2Duration: "⏱️ 20分钟",
+                test2Questions: "❓ 30个问题",
+                test2Button: "开始测试",
+                test3Title: "听力理解",
+                test3Desc: "通过各种真实的意大利语录音测试您的听力理解能力。",
+                test3Duration: "⏱️ 25分钟",
+                test3Questions: "❓ 20个问题",
+                test3Button: "开始测试",
+                test4Title: "阅读理解",
+                test4Desc: "评估您理解和分析意大利语文本的能力。",
+                test4Duration: "⏱️ 35分钟",
+                test4Questions: "❓ 15个问题",
+                test4Button: "开始测试",
+                test5Title: "发音",
+                test5Desc: "使用我们基于AI的评估技术测试您的意大利语发音。",
+                test5Duration: "⏱️ 15分钟",
+                test5Questions: "❓ 10个练习",
+                test5Button: "开始测试",
+                test6Title: "水平测试",
+                test6Desc: "全面评估您的一般意大利语知识（A1-C1）。",
+                test6Duration: "⏱️ 60分钟",
+                test6Questions: "❓ 50个问题",
+                test6Button: "开始测试"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de test
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`test${i}Title`).textContent = t[`test${i}Title`];
+                document.getElementById(`test${i}Desc`).textContent = t[`test${i}Desc`];
+                document.getElementById(`test${i}Duration`).textContent = t[`test${i}Duration`];
+                document.getElementById(`test${i}Questions`).textContent = t[`test${i}Questions`];
+                document.getElementById(`test${i}Button`).textContent = t[`test${i}Button`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

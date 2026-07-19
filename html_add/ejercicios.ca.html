@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Prácticos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen del Glaciar Perito Moreno */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/01/13/42/argentina-4810395_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera argentina */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 144, 226, 0.3) 0%,    /* Celeste */
+                rgba(255, 255, 255, 0.3) 33%,     /* Blanco */
+                rgba(255, 209, 0, 0.2) 66%,       /* Amarillo */
+                rgba(74, 144, 226, 0.3) 100%      /* Celeste */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #74ACF2; /* Borde celeste */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #74ACF2; /* Celeste */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #74ACF2; /* Celeste */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #74ACF2; /* Borde celeste */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #74ACF2;
+            color: #fff;
+        }
+        .exercises-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .exercise-card {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.2),    /* Celeste */
+                rgba(255, 255, 255, 0.3)      /* Blanco */
+            );
+            border: 2px solid rgba(255, 209, 0, 0.5); /* Toque sutil de amarillo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .exercise-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(74, 144, 226, 0.3),
+                rgba(255, 255, 255, 0.4)
+            );
+            border-color: rgba(255, 209, 0, 0.7);
+        }
+        .exercise-card h3 {
+            color: #74ACF2; /* Celeste */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .exercise-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .exercise-level {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .beginner {
+            background-color: rgba(76, 175, 80, 0.7); /* Verde */
+        }
+        .intermediate {
+            background-color: rgba(255, 152, 0, 0.7); /* Naranja */
+        }
+        .advanced {
+            background-color: rgba(244, 67, 54, 0.7); /* Rojo */
+        }
+        .exercise-link {
+            display: inline-block;
+            color: #74ACF2; /* Celeste */
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        .exercise-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .exercises-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ejercicios Prácticos</h1>
+            <p>Mejora tu español con estos ejercicios prácticos</p>
+            <a href="castellano.html" class="back-link">← Volver a la selección de temas</a>
+        </div>
+        
+        <div class="exercises-grid">
+            <div class="exercise-card">
+                <span class="exercise-level beginner">Principiante</span>
+                <h3>Gramática Básica</h3>
+                <p>Practica las estructuras gramaticales fundamentales del español con ejercicios interactivos.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level beginner">Principiante</span>
+                <h3>Vocabulario</h3>
+                <p>Amplía tu vocabulario en español con ejercicios temáticos sobre diferentes áreas de la vida.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate">Intermedio</span>
+                <h3>Conversación</h3>
+                <p>Mejora tus habilidades de habla con ejercicios de diálogo y juegos de roles.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate">Intermedio</span>
+                <h3>Formación de Oraciones</h3>
+                <p>Aprende a construir oraciones complejas y usar diferentes estructuras sintácticas.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced">Avanzado</span>
+                <h3>Expresiones Idiomáticas</h3>
+                <p>Domina las expresiones idiomáticas y modismos del español para sonar más natural.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced">Avanzado</span>
+                <h3>Español de Negocios</h3>
+                <p>Ejercicios especializados para el uso del español en entornos profesionales y empresariales.</p>
+                <a href="#" class="exercise-link">Comenzar →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

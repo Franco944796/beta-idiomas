@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El oso ruso - Trilex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de San Petersburgo */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2021/12/29/18/59/st-petersburg-6902540_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(0, 57, 166, 0.3) 33%,
+                rgba(213, 43, 30, 0.3) 66%,
+                rgba(255, 255, 255, 0.1) 100%
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #0039A6;
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #0039A6;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #D52B1E;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #D52B1E;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+        .back-link:hover {
+            background-color: #D52B1E;
+            color: #fff;
+        }
+        .content {
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .content h2 {
+            color: #0039A6;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #ddd;
+            font-size: 1.1rem;
+        }
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .beginner {
+            background-color: rgba(0, 128, 0, 0.7);
+        }
+        .intermediate {
+            background-color: rgba(255, 165, 0, 0.7);
+        }
+        .advanced {
+            background-color: rgba(213, 43, 30, 0.7);
+        }
+        
+        /* Selector de idiomas - Modificado para ser más compacto */
+        .language-selector {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 3px;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            max-width: 150px;
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 12px;
+            padding: 2px 4px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #D52B1E;
+            width: 100px;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        .base-mode-btn {
+            background: #D52B1E;
+            color: white;
+            border: none;
+            padding: 2px 6px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 10px;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .base-mode-btn:hover {
+            background: #a0201f;
+        }
+        
+        /* Palabras destacadas */
+        .highlight {
+            background-color: rgba(213, 43, 30, 0.3);
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        /* Sección de vocabulario */
+        .vocabulary {
+            background: rgba(0, 57, 166, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .vocabulary h3 {
+            color: #0039A6;
+            margin-bottom: 15px;
+        }
+        .vocab-item {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: flex-start;
+        }
+        .vocab-word {
+            font-weight: bold;
+            color: #D52B1E;
+            margin-right: 10px;
+            min-width: 150px;
+        }
+        .vocab-meaning {
+            color: #ddd;
+            flex: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .content p {
+                font-size: 1rem;
+            }
+            
+            .language-selector {
+                top: 5px;
+                left: 5px;
+                max-width: 130px;
+            }
+            
+            .language-selector select {
+                width: 80px;
+                font-size: 11px;
+            }
+            
+            .base-mode-btn {
+                font-size: 9px;
+                padding: 2px 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+        <button id="baseModeBtn" class="base-mode-btn">Español</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">El oso ruso</h1>
+            <p id="subtitle">Conozca más sobre los osos rusos y su importancia en la cultura</p>
+            <a href="../html_add/textos.ru.html" class="back-link" id="backLink">← Volver a la lista de textos</a>
+        </div>
+        
+        <div class="content">
+            <h2 id="contentTitle">Osos en Rusia</h2>
+            
+            <p id="paragraph1">
+                Algunos extranjeros piensan que en Rusia los osos caminan por la calle. ¡Por supuesto, esto no es cierto! Los osos viven en el bosque y no les gusta la gente.
+            </p>
+            
+            <p id="paragraph2">
+                Un encuentro con un oso puede ser muy peligroso. A los rusos les gusta ir por el bosque y recoger setas y moras. Esto lo hacen con cuidado, ya que a los osos también les gustan mucho las moras y pueden atacar a una persona. El oso come de todo: moras, pescado, carne e incluso insectos. En especial, le encanta la miel.
+            </p>
+            
+            <p id="paragraph3">
+                En invierno, los osos generalmente duermen, ya que el tiempo es muy frío y no hay comida. ¡Mientras un oso duerme, este puede adelgazar ochenta kilos! Los rusos son muy parecidos a los osos: en invierno también se vuelven lentos y duermen mucho, porque en la calle hace mucho frío y está oscuro.
+            </p>
+            
+            <p id="paragraph4">
+                Por eso a los rusos les gustan los osos y los llaman "ositos". Misha es la mascota de los Juegos Olímpicos de Moscú de 1980.
+            </p>
+            
+            <!-- Sección de vocabulario -->
+            <div class="vocabulary">
+                <h3 id="vocabTitle">Palabras clave</h3>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab1Word">иностра́нец - иностра́нцы</div>
+                    <div class="vocab-meaning" id="vocab1Meaning">extranjero - extranjeros</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab2Word">гриб</div>
+                    <div class="vocab-meaning" id="vocab2Meaning">seta</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab3Word">я́года</div>
+                    <div class="vocab-meaning" id="vocab3Meaning">mora</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab4Word">с осторо́жностью</div>
+                    <div class="vocab-meaning" id="vocab4Meaning">con cuidado</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab5Word">напада́ть / напа́сть на</div>
+                    <div class="vocab-meaning" id="vocab5Meaning">atacar a (напада́ть - imperfectivo, напа́сть на - perfectivo)</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab6Word">насеко́мое</div>
+                    <div class="vocab-meaning" id="vocab6Meaning">insecto</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab7Word">худе́ть / похуде́ть</div>
+                    <div class="vocab-meaning" id="vocab7Meaning">adelgazar (худе́ть - imperfectivo, похуде́ть - perfectivo)</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab8Word">медли́тельный</div>
+                    <div class="vocab-meaning" id="vocab8Meaning">lento</div>
+                </div>
+                <div class="vocab-item">
+                    <div class="vocab-word" id="vocab9Word">Олимпиа́да</div>
+                    <div class="vocab-meaning" id="vocab9Meaning">Juegos Olímpicos</div>
+                </div>
+            </div>
+            
+            <div class="meta-info">
+                <div>
+                    <span class="difficulty beginner" id="difficulty">Principiante</span>
+                </div>
+                <div id="lastUpdated">Última actualización: 24/08/2025</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Guardar el contenido original del HTML (modo edición)
+        const originalContent = {
+            mainTitle: document.getElementById('mainTitle').textContent,
+            subtitle: document.getElementById('subtitle').textContent,
+            backLink: document.getElementById('backLink').textContent,
+            contentTitle: document.getElementById('contentTitle').textContent,
+            paragraph1: document.getElementById('paragraph1').textContent,
+            paragraph2: document.getElementById('paragraph2').textContent,
+            paragraph3: document.getElementById('paragraph3').textContent,
+            paragraph4: document.getElementById('paragraph4').textContent,
+            vocabTitle: document.getElementById('vocabTitle').textContent,
+            vocab1Word: document.getElementById('vocab1Word').textContent,
+            vocab1Meaning: document.getElementById('vocab1Meaning').textContent,
+            vocab2Word: document.getElementById('vocab2Word').textContent,
+            vocab2Meaning: document.getElementById('vocab2Meaning').textContent,
+            vocab3Word: document.getElementById('vocab3Word').textContent,
+            vocab3Meaning: document.getElementById('vocab3Meaning').textContent,
+            vocab4Word: document.getElementById('vocab4Word').textContent,
+            vocab4Meaning: document.getElementById('vocab4Meaning').textContent,
+            vocab5Word: document.getElementById('vocab5Word').textContent,
+            vocab5Meaning: document.getElementById('vocab5Meaning').textContent,
+            vocab6Word: document.getElementById('vocab6Word').textContent,
+            vocab6Meaning: document.getElementById('vocab6Meaning').textContent,
+            vocab7Word: document.getElementById('vocab7Word').textContent,
+            vocab7Meaning: document.getElementById('vocab7Meaning').textContent,
+            vocab8Word: document.getElementById('vocab8Word').textContent,
+            vocab8Meaning: document.getElementById('vocab8Meaning').textContent,
+            vocab9Word: document.getElementById('vocab9Word').textContent,
+            vocab9Meaning: document.getElementById('vocab9Meaning').textContent,
+            difficulty: document.getElementById('difficulty').textContent,
+            lastUpdated: document.getElementById('lastUpdated').textContent
+        };
+        
+        // Traducciones para los elementos de la página (sin incluir español)
+        const translations = {
+            ru: {
+                mainTitle: "Медведи в России",
+                subtitle: "Узнайте больше о русских медведях и их значении в культуре",
+                backLink: "← Вернуться к списку текстов",
+                contentTitle: "Медведи в России",
+                paragraph1: "Не́ некоторые иностра́нцы ду́мают, что в Росси́и медве́ди хо́дят по у́лицам. Коне́чно, э́то непра́вда! Медве́ди живу́т в лесу́ и не лю́бят люде́й.",
+                paragraph2: "Встре́ча с медве́дем мо́жет быть о́чень опа́сна. Ру́сские лю́ди лю́бят ходи́ть в лес и собира́ть грибы́ и я́годы. Они́ де́лают э́то с осторо́жностью, так как медве́ди то́же о́чень лю́бят я́годы и мо́гут напа́сть на челове́ка. Медве́дь ест всё: я́годы, ры́бу, мя́со и да́же насеко́мых. Осо́бенно он лю́бит мёд.",
+                paragraph3: "Зимо́й медве́ди обы́чно спят, потому́ что пого́да сли́шком холо́дная и нет еды́. Пока́ медве́дь спит, он мо́жет похуде́ть на 80 (во́семьдесят) килогра́мм! Ру́сские лю́ди о́чень похо́жи на медве́дей. Зимо́й они́ то́же стано́вятся медли́тельными и мно́го спят, потому́ что на у́лице сли́шком хо́лодно и темно́.",
+                paragraph4: "Поэ́тому ру́сские лю́бят медве́дей и называ́ют их 'ми́шки'. Ми́ша - э́то талисма́н ле́тней Олимпиа́ды 1980 (ты́сяча девятьсо́т восьмидеся́того) го́да в Москве́.",
+                vocabTitle: "Ключевые слова",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "extranjero - extranjeros",
+                vocab2Word: "гриб",
+                vocab2Meaning: "seta",
+                vocab3Word: "я́года",
+                vocab3Meaning: "mora",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "con cuidado",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "atacar a (напада́ть - imperfectivo, напа́сть на - perfectivo)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "insecto",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "adelgazar (худе́ть - imperfectivo, похуде́ть - perfectivo)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "lento",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Juegos Olímpicos",
+                difficulty: "Начальный",
+                lastUpdated: "Последнее обновление: 24.08.2025"
+            },
+            en: {
+                mainTitle: "Bears in Russia",
+                subtitle: "Learn more about Russian bears and their significance in culture",
+                backLink: "← Back to text list",
+                contentTitle: "Bears in Russia",
+                paragraph1: "Some foreigners think that in Russia bears walk on the streets. Of course, this is not true! Bears live in the forest and don't like people.",
+                paragraph2: "An encounter with a bear can be very dangerous. Russians like to go to the forest and pick mushrooms and berries. They do this carefully, because bears also love berries very much and can attack a person. A bear eats everything: berries, fish, meat and even insects. Especially, it loves honey.",
+                paragraph3: "In winter, bears usually sleep, because the weather is very cold and there is no food. While a bear sleeps, it can lose up to eighty kilograms! Russians are very similar to bears: in winter they also become slow and sleep a lot, because it is very cold and dark outside.",
+                paragraph4: "That's why Russians like bears and call them 'little bears'. Misha is the mascot of the 1980 Moscow Olympics.",
+                vocabTitle: "Key words",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "foreigner - foreigners",
+                vocab2Word: "гриб",
+                vocab2Meaning: "mushroom",
+                vocab3Word: "я́года",
+                vocab3Meaning: "berry",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "carefully",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "to attack (напада́ть - imperfective, напа́сть на - perfective)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "insect",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "to lose weight (худе́ть - imperfective, похуде́ть - perfective)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "slow",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Olympics",
+                difficulty: "Beginner",
+                lastUpdated: "Last updated: 24/08/2025"
+            },
+            fr: {
+                mainTitle: "Les ours en Russie",
+                subtitle: "En savoir plus sur les ours russes et leur importance dans la culture",
+                backLink: "← Retour à la liste de textes",
+                contentTitle: "Les ours en Russie",
+                paragraph1: "Certains étrangers pensent qu'en Russie, les ours marchent dans les rues. Bien sûr, ce n'est pas vrai ! Les ours vivent dans la forêt et n'aiment pas les gens.",
+                paragraph2: "Une rencontre avec un ours peut être très dangereuse. Les Russes aiment aller dans la forêt et cueillir des champignons et des baies. Ils font cela avec prudence, car les ours aiment aussi beaucoup les baies et peuvent attaquer une personne. L'ours mange de tout : des baies, du poisson, de la viande et même des insectes. Il aime particulièrement le miel.",
+                paragraph3: "En hiver, les ours dorment généralement, car le temps est très froid et il n'y a pas de nourriture. Pendant qu'un ours dort, il peut perdre jusqu'à quatre-vingts kilogrammes ! Les Russes sont très similaires aux ours : en hiver, ils deviennent également lents et dorment beaucoup, car il fait très froid et sombre dehors.",
+                paragraph4: "C'est pourquoi les Russes aiment les ours et les appellent « oursons ». Misha est la mascotte des Jeux Olympiques de Moscou de 1980.",
+                vocabTitle: "Mots clés",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "étranger - étrangers",
+                vocab2Word: "гриб",
+                vocab2Meaning: "champignon",
+                vocab3Word: "я́года",
+                vocab3Meaning: "baie",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "avec prudence",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "attaquer (напада́ть - imperfectif, напа́сть на - perfectif)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "insecte",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "maigrir (худе́ть - imperfectif, похуде́ть - perfectif)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "lent",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Jeux Olympiques",
+                difficulty: "Débutant",
+                lastUpdated: "Dernière mise à jour: 24/08/2025"
+            },
+            de: {
+                mainTitle: "Bären in Russland",
+                subtitle: "Erfahren Sie mehr über russische Bären und ihre Bedeutung in der Kultur",
+                backLink: "← Zurück zur Textliste",
+                contentTitle: "Bären in Russland",
+                paragraph1: "Einige Ausländer denken, dass in Russland Bären auf den Straßen spazieren. Natürlich ist das nicht wahr! Bären leben im Wald und mögen keine Menschen.",
+                paragraph2: "Eine Begegnung mit einem Bären kann sehr gefährlich sein. Russen gerne in den Wald gehen und Pilze und Beeren sammeln. Sie tun dies vorsichtig, da Bären auch sehr gerne Beeren mögen und eine Person angreifen können. Der Bären frisst alles: Beeren, Fisch, Fleisch und sogar Insekten. Besonders liebt er Honig.",
+                paragraph3: "Im Winter schlafen Bären normalerweise, weil das Wetter sehr kalt ist und kein Futter da ist. Während ein Bär schläft, kann er bis zu achtzig Kilogramm abnehmen! Russen sind den Bären sehr ähnlich: Im Winter werden sie auch langsam und schlafen viel, weil draußen sehr kalt und dunkel ist.",
+                paragraph4: "Deshalb mögen Russen Bären und nennen sie «Bärenkinder». Misha ist das Maskottchen der Olympischen Spiele von 1980 in Moskau.",
+                vocabTitle: "Schlüsselwörter",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "Ausländer - Ausländer",
+                vocab2Word: "гриб",
+                vocab2Meaning: "Pilz",
+                vocab3Word: "я́года",
+                vocab3Meaning: "Beere",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "vorsichtig",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "angreifen (напада́ть - imperfektiv, напа́сть на - perfektiv)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "Insekt",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "abnehmen (худе́ть - imperfektiv, похуде́ть - perfektiv)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "langsam",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Olympische Spiele",
+                difficulty: "Anfänger",
+                lastUpdated: "Letzte Aktualisierung: 24/08/2025"
+            },
+            pt: {
+                mainTitle: "Ursos na Rússia",
+                subtitle: "Saiba mais sobre os ursos russos e seu significado na cultura",
+                backLink: "← Voltar à lista de textos",
+                contentTitle: "Ursos na Rússia",
+                paragraph1: "Alguns estrangeiros pensam que na Rússia os ursos caminham pelas ruas. Claro, isso não é verdade! Os ursos vivem na floresta e não gostam de pessoas.",
+                paragraph2: "Um encontro com um urso pode ser muito perigoso. Os russos gostam de ir para a floresta e colher cogumelos e frutas silvestres. Eles fazem isso com cuidado, porque os ursos também gostam muito de frutas silvestres e podem atacar uma pessoa. O urso come de tudo: frutas silvestres, peixe, carne e até insetos. Especialmente, ele adora mel.",
+                paragraph3: "No inverno, os ursos geralmente dormem, porque o tempo é muito frio e não há comida. Enquanto um urso dorme, ele pode perder até oitenta quilos! Os russos são muito parecidos com os ursos: no inverno eles também se tornam lentos e dormem muito, porque na rua faz muito frio e está escuro.",
+                paragraph4: "Por isso os russos gostam de ursos e os chamam de \"ursinhos\". Misha é o mascote dos Jogos Olímpicos de Moscou de 1980.",
+                vocabTitle: "Palavras-chave",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "estrangeiro - estrangeiros",
+                vocab2Word: "гриб",
+                vocab2Meaning: "cogumelo",
+                vocab3Word: "я́года",
+                vocab3Meaning: "fruta silvestre",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "com cuidado",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "atacar (напада́ть - imperfectivo, напа́сть на - perfectivo)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "inseto",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "emagrecer (худе́ть - imperfectivo, похуде́ть - perfectivo)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "lento",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Jogos Olímpicos",
+                difficulty: "Principiante",
+                lastUpdated: "Última atualização: 24/08/2025"
+            },
+            it: {
+                mainTitle: "Orsi in Russia",
+                subtitle: "Scopri di più sugli orsi russi e il loro significato nella cultura",
+                backLink: "← Torna alla lista dei testi",
+                contentTitle: "Orsi in Russia",
+                paragraph1: "Alcuni stranieri pensano che in Russia gli orsi camminino per le strade. Naturalmente, questo non è vero! Gli orsi vivono nella foresta e non amano la gente.",
+                paragraph2: "Un incontro con un orso può essere molto pericoloso. Ai russi piace andare nella foresta e raccogliere funghi e bacche. Lo fanno con attenzione, perché anche agli orsi piacciono molto le bacche e possono attaccare una persona. L'orso mangia di tutto: bacche, pesce, carne e persino insetti. Soprattutto, ama il miele.",
+                paragraph3: "In inverno, gli orsi di solito dormono, perché il tempo è molto freddo e non c'è cibo. Mentre un orso dorme, può perdere fino a ottanta chilogrammi! I russi sono molto simili agli orsi: in inverno diventano anche lenti e dormono molto, perché fuori fa molto freddo e scuro.",
+                paragraph4: "Per questo ai russi piacciono gli orsi e li chiamano \"orsacchiotti\". Misha è la mascotte delle Olimpiadi di Mosca del 1980.",
+                vocabTitle: "Parole chiave",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "straniero - stranieri",
+                vocab2Word: "гриб",
+                vocab2Meaning: "fungo",
+                vocab3Word: "я́года",
+                vocab3Meaning: "bacca",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "con attenzione",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "attaccare (напада́ть - imperfetto, напа́сть на - perfetto)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "insetto",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "perdere peso (худе́ть - imperfetto, похуде́ть - perfetto)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "lento",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "Olimpiadi",
+                difficulty: "Principiante",
+                lastUpdated: "Ultimo aggiornamento: 24/08/2025"
+            },
+            zh: {
+                mainTitle: "俄罗斯的熊",
+                subtitle: "了解更多关于俄罗斯熊及其在文化中的意义",
+                backLink: "← 返回文本列表",
+                contentTitle: "俄罗斯的熊",
+                paragraph1: "一些外国人认为在俄罗斯熊在街上行走。当然，这不是真的！熊生活在森林里，不喜欢人。",
+                paragraph2: "遇到熊可能非常危险。俄罗斯人喜欢去森林采摘蘑菇和浆果。他们小心地这样做，因为熊也很喜欢浆果，可能会攻击人。熊什么都吃：浆果、鱼、肉，甚至昆虫。特别是，它喜欢蜂蜜。",
+                paragraph3: "冬天，熊通常睡觉，因为天气很冷，没有食物。当熊睡觉时，它可能会减重多达八十公斤！俄罗斯人非常像熊：在冬天，它们也变得缓慢，睡得很多，因为外面又冷又暗。",
+                paragraph4: "因此，俄罗斯人喜欢熊，并称它们为'小熊'。米沙是1980年莫斯科奥运会的吉祥物。",
+                vocabTitle: "关键词",
+                vocab1Word: "иностра́нец - иностра́нцы",
+                vocab1Meaning: "外国人 - 外国人",
+                vocab2Word: "гриб",
+                vocab2Meaning: "蘑菇",
+                vocab3Word: "я́года",
+                vocab3Meaning: "浆果",
+                vocab4Word: "с осторо́жностью",
+                vocab4Meaning: "小心地",
+                vocab5Word: "напада́ть / напа́сть на",
+                vocab5Meaning: "攻击 (напада́ть - 未完成体, напа́сть на - 完成体)",
+                vocab6Word: "насеко́мое",
+                vocab6Meaning: "昆虫",
+                vocab7Word: "худе́ть / похуде́ть",
+                vocab7Meaning: "减肥 (худе́ть - 未完成体, похуде́ть - 完成体)",
+                vocab8Word: "медли́тельный",
+                vocab8Meaning: "缓慢的",
+                vocab9Word: "Олимпиа́да",
+                vocab9Meaning: "奥运会",
+                difficulty: "初级",
+                lastUpdated: "最后更新: 2025年8月24日"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar el atributo lang del HTML
+            document.documentElement.lang = lang;
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            document.getElementById('contentTitle').textContent = t.contentTitle;
+            document.getElementById('paragraph1').textContent = t.paragraph1;
+            document.getElementById('paragraph2').textContent = t.paragraph2;
+            document.getElementById('paragraph3').textContent = t.paragraph3;
+            document.getElementById('paragraph4').textContent = t.paragraph4;
+            document.getElementById('vocabTitle').textContent = t.vocabTitle;
+            document.getElementById('vocab1Word').textContent = t.vocab1Word;
+            document.getElementById('vocab1Meaning').textContent = t.vocab1Meaning;
+            document.getElementById('vocab2Word').textContent = t.vocab2Word;
+            document.getElementById('vocab2Meaning').textContent = t.vocab2Meaning;
+            document.getElementById('vocab3Word').textContent = t.vocab3Word;
+            document.getElementById('vocab3Meaning').textContent = t.vocab3Meaning;
+            document.getElementById('vocab4Word').textContent = t.vocab4Word;
+            document.getElementById('vocab4Meaning').textContent = t.vocab4Meaning;
+            document.getElementById('vocab5Word').textContent = t.vocab5Word;
+            document.getElementById('vocab5Meaning').textContent = t.vocab5Meaning;
+            document.getElementById('vocab6Word').textContent = t.vocab6Word;
+            document.getElementById('vocab6Meaning').textContent = t.vocab6Meaning;
+            document.getElementById('vocab7Word').textContent = t.vocab7Word;
+            document.getElementById('vocab7Meaning').textContent = t.vocab7Meaning;
+            document.getElementById('vocab8Word').textContent = t.vocab8Word;
+            document.getElementById('vocab8Meaning').textContent = t.vocab8Meaning;
+            document.getElementById('vocab9Word').textContent = t.vocab9Word;
+            document.getElementById('vocab9Meaning').textContent = t.vocab9Meaning;
+            document.getElementById('difficulty').textContent = t.difficulty;
+            document.getElementById('lastUpdated').textContent = t.lastUpdated;
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Función para volver al modo edición (contenido base en español)
+        function returnToBaseMode() {
+            // Restaurar el contenido original
+            document.getElementById('mainTitle').textContent = originalContent.mainTitle;
+            document.getElementById('subtitle').textContent = originalContent.subtitle;
+            document.getElementById('backLink').textContent = originalContent.backLink;
+            document.getElementById('contentTitle').textContent = originalContent.contentTitle;
+            document.getElementById('paragraph1').textContent = originalContent.paragraph1;
+            document.getElementById('paragraph2').textContent = originalContent.paragraph2;
+            document.getElementById('paragraph3').textContent = originalContent.paragraph3;
+            document.getElementById('paragraph4').textContent = originalContent.paragraph4;
+            document.getElementById('vocabTitle').textContent = originalContent.vocabTitle;
+            document.getElementById('vocab1Word').textContent = originalContent.vocab1Word;
+            document.getElementById('vocab1Meaning').textContent = originalContent.vocab1Meaning;
+            document.getElementById('vocab2Word').textContent = originalContent.vocab2Word;
+            document.getElementById('vocab2Meaning').textContent = originalContent.vocab2Meaning;
+            document.getElementById('vocab3Word').textContent = originalContent.vocab3Word;
+            document.getElementById('vocab3Meaning').textContent = originalContent.vocab3Meaning;
+            document.getElementById('vocab4Word').textContent = originalContent.vocab4Word;
+            document.getElementById('vocab4Meaning').textContent = originalContent.vocab4Meaning;
+            document.getElementById('vocab5Word').textContent = originalContent.vocab5Word;
+            document.getElementById('vocab5Meaning').textContent = originalContent.vocab5Meaning;
+            document.getElementById('vocab6Word').textContent = originalContent.vocab6Word;
+            document.getElementById('vocab6Meaning').textContent = originalContent.vocab6Meaning;
+            document.getElementById('vocab7Word').textContent = originalContent.vocab7Word;
+            document.getElementById('vocab7Meaning').textContent = originalContent.vocab7Meaning;
+            document.getElementById('vocab8Word').textContent = originalContent.vocab8Word;
+            document.getElementById('vocab8Meaning').textContent = originalContent.vocab8Meaning;
+            document.getElementById('vocab9Word').textContent = originalContent.vocab9Word;
+            document.getElementById('vocab9Meaning').textContent = originalContent.vocab9Meaning;
+            document.getElementById('difficulty').textContent = originalContent.difficulty;
+            document.getElementById('lastUpdated').textContent = originalContent.lastUpdated;
+            
+            // Actualizar el atributo lang a español
+            document.documentElement.lang = 'es';
+            
+            // Limpiar la preferencia de idioma en localStorage
+            localStorage.removeItem('selectedLanguage');
+            
+            // Restablecer el selector a una opción neutra
+            document.getElementById('languageSelect').value = '';
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            if (this.value) {
+                changeLanguage(this.value);
+            }
+        });
+        
+        // Event listener para el botón de modo edición
+        document.getElementById('baseModeBtn').addEventListener('click', returnToBaseMode);
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

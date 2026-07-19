@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi Pratici</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .exercises-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .exercise-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.15),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .exercise-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7);
+        }
+        .exercise-card h3 {
+            color: #009246; /* Verde */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .exercise-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .exercise-level {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .beginner {
+            background-color: rgba(76, 175, 80, 0.7); /* Verde */
+        }
+        .intermediate {
+            background-color: rgba(255, 152, 0, 0.7); /* Naranja */
+        }
+        .advanced {
+            background-color: rgba(244, 67, 54, 0.7); /* Rojo */
+        }
+        .exercise-link {
+            display: inline-block;
+            color: #CE2B37; /* Rojo */
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        .exercise-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .exercises-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Esercizi Pratici</h1>
+            <p id="subtitle">Migliora il tuo italiano con questi esercizi pratici</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="exercises-grid">
+            <div class="exercise-card">
+                <span class="exercise-level beginner" id="level1">Principiante</span>
+                <h3 id="ex1Title">Grammatica di Base</h3>
+                <p id="ex1Desc">Pratica le strutture grammaticali fondamentali dell'italiano con esercizi interattivi.</p>
+                <a href="#" class="exercise-link" id="ex1Link">Inizia →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level beginner" id="level2">Principiante</span>
+                <h3 id="ex2Title">Vocabolario</h3>
+                <p id="ex2Desc">Espandi il tuo vocabolario italiano con esercizi tematici su diverse aree della vita.</p>
+                <a href="#" class="exercise-link" id="ex2Link">Inizia →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate" id="level3">Intermedio</span>
+                <h3 id="ex3Title">Conversazione</h3>
+                <p id="ex3Desc">Migliora le tue abilità di conversazione con esercizi di dialogo e attività di role-playing.</p>
+                <a href="#" class="exercise-link" id="ex3Link">Inizia →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate" id="level4">Intermedio</span>
+                <h3 id="ex4Title">Formazione delle Frasi</h3>
+                <p id="ex4Desc">Impara a costruire frasi complesse e utilizzare diverse strutture sintattiche.</p>
+                <a href="#" class="exercise-link" id="ex4Link">Inizia →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced" id="level5">Avanzato</span>
+                <h3 id="ex5Title">Modi di Dire ed Espressioni</h3>
+                <p id="ex5Desc">Padroneggia i modi di dire e le espressioni italiane per suonare più naturale.</p>
+                <a href="#" class="exercise-link" id="ex5Link">Inizia →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced" id="level6">Avanzato</span>
+                <h3 id="ex6Title">Italiano Business</h3>
+                <p id="ex6Desc">Esercizi specializzati per l'utilizzo dell'italiano in contesti professionali e aziendali.</p>
+                <a href="#" class="exercise-link" id="ex6Link">Inizia →</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Esercizi Pratici",
+                subtitle: "Migliora il tuo italiano con questi esercizi pratici",
+                backLink: "← Torna alla selezione argomenti",
+                level1: "Principiante",
+                ex1Title: "Grammatica di Base",
+                ex1Desc: "Pratica le strutture grammaticali fondamentali dell'italiano con esercizi interattivi.",
+                ex1Link: "Inizia →",
+                level2: "Principiante",
+                ex2Title: "Vocabolario",
+                ex2Desc: "Espandi il tuo vocabolario italiano con esercizi tematici su diverse aree della vita.",
+                ex2Link: "Inizia →",
+                level3: "Intermedio",
+                ex3Title: "Conversazione",
+                ex3Desc: "Migliora le tue abilità di conversazione con esercizi di dialogo e attività di role-playing.",
+                ex3Link: "Inizia →",
+                level4: "Intermedio",
+                ex4Title: "Formazione delle Frasi",
+                ex4Desc: "Impara a costruire frasi complesse e utilizzare diverse strutture sintattiche.",
+                ex4Link: "Inizia →",
+                level5: "Avanzato",
+                ex5Title: "Modi di Dire ed Espressioni",
+                ex5Desc: "Padroneggia i modi di dire e le espressioni italiane per suonare più naturale.",
+                ex5Link: "Inizia →",
+                level6: "Avanzato",
+                ex6Title: "Italiano Business",
+                ex6Desc: "Esercizi specializzati per l'utilizzo dell'italiano in contesti professionali e aziendali.",
+                ex6Link: "Inizia →"
+            },
+            es: {
+                mainTitle: "Ejercicios Prácticos",
+                subtitle: "Mejora tu italiano con estos ejercicios prácticos",
+                backLink: "← Volver a la selección de temas",
+                level1: "Principiante",
+                ex1Title: "Gramática Básica",
+                ex1Desc: "Practica las estructuras gramaticales fundamentales del italiano con ejercicios interactivos.",
+                ex1Link: "Comenzar →",
+                level2: "Principiante",
+                ex2Title: "Vocabulario",
+                ex2Desc: "Expande tu vocabulario italiano con ejercicios temáticos sobre diferentes áreas de la vida.",
+                ex2Link: "Comenzar →",
+                level3: "Intermedio",
+                ex3Title: "Conversación",
+                ex3Desc: "Mejora tus habilidades de conversación con ejercicios de diálogo y actividades de role-playing.",
+                ex3Link: "Comenzar →",
+                level4: "Intermedio",
+                ex4Title: "Formación de Oraciones",
+                ex4Desc: "Aprende a construir oraciones complejas y usar diferentes estructuras sintácticas.",
+                ex4Link: "Comenzar →",
+                level5: "Avanzado",
+                ex5Title: "Modismos y Expresiones",
+                ex5Desc: "Domina los modismos y expresiones italianas para sonar más natural.",
+                ex5Link: "Comenzar →",
+                level6: "Avanzado",
+                ex6Title: "Italiano de Negocios",
+                ex6Desc: "Ejercicios especializados para usar el italiano en entornos profesionales y empresariales.",
+                ex6Link: "Comenzar →"
+            },
+            en: {
+                mainTitle: "Practical Exercises",
+                subtitle: "Improve your Italian with these practical exercises",
+                backLink: "← Back to topic selection",
+                level1: "Beginner",
+                ex1Title: "Basic Grammar",
+                ex1Desc: "Practice the fundamental grammatical structures of Italian with interactive exercises.",
+                ex1Link: "Start →",
+                level2: "Beginner",
+                ex2Title: "Vocabulary",
+                ex2Desc: "Expand your Italian vocabulary with thematic exercises on different areas of life.",
+                ex2Link: "Start →",
+                level3: "Intermediate",
+                ex3Title: "Conversation",
+                ex3Desc: "Improve your speaking skills with dialogue exercises and role-playing activities.",
+                ex3Link: "Start →",
+                level4: "Intermediate",
+                ex4Title: "Sentence Formation",
+                ex4Desc: "Learn to build complex sentences and use different syntactic structures.",
+                ex4Link: "Start →",
+                level5: "Advanced",
+                ex5Title: "Idioms and Expressions",
+                ex5Desc: "Master Italian idioms and expressions to sound more natural.",
+                ex5Link: "Start →",
+                level6: "Advanced",
+                ex6Title: "Business Italian",
+                ex6Desc: "Specialized exercises for using Italian in professional and business environments.",
+                ex6Link: "Start →"
+            },
+            fr: {
+                mainTitle: "Exercices Pratiques",
+                subtitle: "Améliorez votre italien avec ces exercices pratiques",
+                backLink: "← Retour à la sélection des sujets",
+                level1: "Débutant",
+                ex1Title: "Grammaire de Base",
+                ex1Desc: "Pratiquez les structures grammaticales fondamentales de l'italien avec des exercices interactifs.",
+                ex1Link: "Commencer →",
+                level2: "Débutant",
+                ex2Title: "Vocabulaire",
+                ex2Desc: "Étendez votre vocabulaire italien avec des exercices thématiques sur différents domaines de la vie.",
+                ex2Link: "Commencer →",
+                level3: "Intermédiaire",
+                ex3Title: "Conversation",
+                ex3Desc: "Améliorez vos compétences en conversation avec des exercices de dialogue et des activités de jeu de rôle.",
+                ex3Link: "Commencer →",
+                level4: "Intermédiaire",
+                ex4Title: "Formation de Phrases",
+                ex4Desc: "Apprenez à construire des phrases complexes et à utiliser différentes structures syntaxiques.",
+                ex4Link: "Commencer →",
+                level5: "Avancé",
+                ex5Title: "Expressions Idiomatiques",
+                ex5Desc: "Maîtrisez les expressions idiomatiques italiennes pour paraître plus naturel.",
+                ex5Link: "Commencer →",
+                level6: "Avancé",
+                ex6Title: "Italien des Affaires",
+                ex6Desc: "Exercices spécialisés pour l'utilisation de l'italien dans les environnements professionnels et commerciaux.",
+                ex6Link: "Commencer →"
+            },
+            de: {
+                mainTitle: "Praktische Übungen",
+                subtitle: "Verbessern Sie Ihr Italien mit diesen praktischen Übungen",
+                backLink: "← Zurück zur Themenauswahl",
+                level1: "Anfänger",
+                ex1Title: "Grundgrammatik",
+                ex1Desc: "Üben Sie die grundlegenden grammatikalischen Strukturen des Italienischen mit interaktiven Übungen.",
+                ex1Link: "Starten →",
+                level2: "Anfänger",
+                ex2Title: "Vokabeln",
+                ex2Desc: "Erweitern Sie Ihren italienischen Wortschatz mit thematischen Übungen zu verschiedenen Lebensbereichen.",
+                ex2Link: "Starten →",
+                level3: "Mittelstufe",
+                ex3Title: "Konversation",
+                ex3Desc: "Verbessern Sie Ihre Sprechfähigkeiten mit Dialogübungen und Rollenspielaktivitäten.",
+                ex3Link: "Starten →",
+                level4: "Mittelstufe",
+                ex4Title: "Satzbildung",
+                ex4Desc: "Lernen Sie, komplexe Sätze zu bilden und verschiedene syntaktische Strukturen zu verwenden.",
+                ex4Link: "Starten →",
+                level5: "Fortgeschritten",
+                ex5Title: "Redewendungen und Ausdrücke",
+                ex5Desc: "Meistern Sie italienische Redewendungen und Ausdrücke, um natürlicher zu klingen.",
+                ex5Link: "Starten →",
+                level6: "Fortgeschritten",
+                ex6Title: "Wirtschaftsitalienisch",
+                ex6Desc: "Spezialisierte Übungen für die Verwendung des Italienischen in professionellen und geschäftlichen Umgebungen.",
+                ex6Link: "Starten →"
+            },
+            pt: {
+                mainTitle: "Exercícios Práticos",
+                subtitle: "Melhore seu italiano com estes exercícios práticos",
+                backLink: "← Voltar à seleção de tópicos",
+                level1: "Iniciante",
+                ex1Title: "Gramática Básica",
+                ex1Desc: "Pratique as estruturas gramaticais fundamentais do italiano com exercícios interativos.",
+                ex1Link: "Começar →",
+                level2: "Iniciante",
+                ex2Title: "Vocabulário",
+                ex2Desc: "Expanda seu vocabulário italiano com exercícios temáticos sobre diferentes áreas da vida.",
+                ex2Link: "Começar →",
+                level3: "Intermediário",
+                ex3Title: "Conversação",
+                ex3Desc: "Melhore suas habilidades de conversação com exercícios de diálogo e atividades de role-playing.",
+                ex3Link: "Começar →",
+                level4: "Intermediário",
+                ex4Title: "Formação de Frases",
+                ex4Desc: "Aprenda a construir frases complexas e usar diferentes estruturas sintáticas.",
+                ex4Link: "Começar →",
+                level5: "Avançado",
+                ex5Title: "Expressões Idiomáticas",
+                ex5Desc: "Domine as expressões idiomáticas italianas para soar mais natural.",
+                ex5Link: "Começar →",
+                level6: "Avançado",
+                ex6Title: "Italiano de Negócios",
+                ex6Desc: "Exercícios especializados para usar o italiano em ambientes profissionais e de negócios.",
+                ex6Link: "Começar →"
+            },
+            ru: {
+                mainTitle: "Практические упражнения",
+                subtitle: "Улучшите свой итальянский с помощью этих практических упражнений",
+                backLink: "← Вернуться к выбору тем",
+                level1: "Начинающий",
+                ex1Title: "Базовая грамматика",
+                ex1Desc: "Практикуйте основные грамматические структуры итальянского языка с интерактивными упражнениями.",
+                ex1Link: "Начать →",
+                level2: "Начинающий",
+                ex2Title: "Словарный запас",
+                ex2Desc: "Расширьте свой итальянский словарный запас с помощью тематических упражнений по различным областям жизни.",
+                ex2Link: "Начать →",
+                level3: "Средний уровень",
+                ex3Title: "Разговорная речь",
+                ex3Desc: "Улучшите свои разговорные навыки с помощью упражнений на диалоги и ролевые игры.",
+                ex3Link: "Начать →",
+                level4: "Средний уровень",
+                ex4Title: "Построение предложений",
+                ex4Desc: "Научитесь строить сложные предложения и использовать различные синтаксические структуры.",
+                ex4Link: "Начать →",
+                level5: "Продвинутый",
+                ex5Title: "Идиомы и выражения",
+                ex5Desc: "Освойте итальянские идиомы и выражения, чтобы звучать более естественно.",
+                ex5Link: "Начать →",
+                level6: "Продвинутый",
+                ex6Title: "Деловой итальянский",
+                ex6Desc: "Специализированные упражнения для использования итальянского в профессиональной и деловой среде.",
+                ex6Link: "Начать →"
+            },
+            zh: {
+                mainTitle: "实用练习",
+                subtitle: "通过这些实用练习提高你的意大利语水平",
+                backLink: "← 返回主题选择",
+                level1: "初级",
+                ex1Title: "基础语法",
+                ex1Desc: "通过互动练习掌握意大利语的基本语法结构。",
+                ex1Link: "开始 →",
+                level2: "初级",
+                ex2Title: "词汇",
+                ex2Desc: "通过关于生活不同领域的主题练习扩展你的意大利语词汇量。",
+                ex2Link: "开始 →",
+                level3: "中级",
+                ex3Title: "对话",
+                ex3Desc: "通过对话练习和角色扮演活动提高你的口语技能。",
+                ex3Link: "开始 →",
+                level4: "中级",
+                ex4Title: "句子构建",
+                ex4Desc: "学习构建复杂句子和使用不同的句法结构。",
+                ex4Link: "开始 →",
+                level5: "高级",
+                ex5Title: "习语和表达",
+                ex5Desc: "掌握意大利语习语和表达，使你的语言更自然。",
+                ex5Link: "开始 →",
+                level6: "高级",
+                ex6Title: "商务意大利语",
+                ex6Desc: "在专业和商业环境中使用意大利语的专门练习。",
+                ex6Link: "开始 →"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de ejercicios
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`level${i}`).textContent = t[`level${i}`];
+                document.getElementById(`ex${i}Title`).textContent = t[`ex${i}Title`];
+                document.getElementById(`ex${i}Desc`).textContent = t[`ex${i}Desc`];
+                document.getElementById(`ex${i}Link`).textContent = t[`ex${i}Link`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

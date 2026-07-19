@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практические упражнения</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+        /* Fondo con imagen de San Petersburgo */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2021/12/29/18/59/st-petersburg-6902540_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        /* Degradado con colores de la bandera rusa */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.1) 0%,  /* Blanco */
+                rgba(0, 57, 166, 0.3) 33%,     /* Azul */
+                rgba(213, 43, 30, 0.3) 66%,   /* Rojo */
+                rgba(255, 255, 255, 0.1) 100%  /* Blanco */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #fff; /* Borde blanco */
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header h1 {
+            color: #fff; /* Blanco */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #D52B1E; /* Rojo ruso */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #D52B1E;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+        .back-link:hover {
+            background-color: #D52B1E;
+            color: #fff;
+        }
+        .exercises-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .exercise-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.2),    /* Azul ruso */
+                rgba(213, 43, 30, 0.2)    /* Rojo ruso */
+            );
+            border: 1px solid #fff; /* Borde blanco */
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .exercise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+            background: linear-gradient(135deg, 
+                rgba(0, 57, 166, 0.3),
+                rgba(213, 43, 30, 0.3)
+            );
+        }
+        .exercise-card h3 {
+            color: #fff; /* Blanco */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .exercise-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .exercise-level {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .beginner {
+            background-color: rgba(0, 128, 0, 0.7);
+        }
+        .intermediate {
+            background-color: rgba(255, 165, 0, 0.7);
+        }
+        .advanced {
+            background-color: rgba(213, 43, 30, 0.7);
+        }
+        .exercise-link {
+            display: inline-block;
+            color: #0039A6; /* Azul ruso */
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        .exercise-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #D52B1E;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .exercises-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Практические упражнения</h1>
+            <p id="subtitle">Улучшите свои знания русского языка с помощью этих практических упражнений</p>
+            <a href="ruso.html" class="back-link" id="backLink">← Вернуться к выбору темы</a>
+        </div>
+        
+        <div class="exercises-grid">
+            <div class="exercise-card">
+                <span class="exercise-level beginner" id="level1">Начальный</span>
+                <h3 id="ex1Title">Основы грамматики</h3>
+                <p id="ex1Desc">Практикуйте основные грамматические структуры русского языка с помощью интерактивных упражнений.</p>
+                <a href="#" class="exercise-link" id="ex1Link">Начать практику →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level beginner" id="level2">Начальный</span>
+                <h3 id="ex2Title">Словарный запас</h3>
+                <p id="ex2Desc">Расширьте русский словарный запас с помощью тематических упражнений по различным сферам жизни.</p>
+                <a href="#" class="exercise-link" id="ex2Link">Начать практику →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate" id="level3">Средний</span>
+                <h3 id="ex3Title">Разговорная практика</h3>
+                <p id="ex3Desc">Улучшите свои разговорные навыки с помощью диалогов и ролевых игр.</p>
+                <a href="#" class="exercise-link" id="ex3Link">Начать практику →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level intermediate" id="level4">Средний</span>
+                <h3 id="ex4Title">Построение предложений</h3>
+                <p id="ex4Desc">Научитесь составлять сложные предложения и использовать различные синтаксические конструкции.</p>
+                <a href="#" class="exercise-link" id="ex4Link">Начать практику →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced" id="level5">Продвинутый</span>
+                <h3 id="ex5Title">Идиомы и выражения</h3>
+                <p id="ex5Desc">Освойте русские идиомы и выражения, чтобы звучать более естественно.</p>
+                <a href="#" class="exercise-link" id="ex5Link">Начать практику →</a>
+            </div>
+            
+            <div class="exercise-card">
+                <span class="exercise-level advanced" id="level6">Продвинутый</span>
+                <h3 id="ex6Title">Деловой русский</h3>
+                <p id="ex6Desc">Специализированные упражнения для использования русского языка в профессиональной среде.</p>
+                <a href="#" class="exercise-link" id="ex6Link">Начать практику →</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            ru: {
+                mainTitle: "Практические упражнения",
+                subtitle: "Улучшите свои знания русского языка с помощью этих практических упражнений",
+                backLink: "← Вернуться к выбору темы",
+                level1: "Начальный",
+                ex1Title: "Основы грамматики",
+                ex1Desc: "Практикуйте основные грамматические структуры русского языка с помощью интерактивных упражнений.",
+                ex1Link: "Начать практику →",
+                level2: "Начальный",
+                ex2Title: "Словарный запас",
+                ex2Desc: "Расширьте русский словарный запас с помощью тематических упражнений по различным сферам жизни.",
+                ex2Link: "Начать практику →",
+                level3: "Средний",
+                ex3Title: "Разговорная практика",
+                ex3Desc: "Улучшите свои разговорные навыки с помощью диалогов и ролевых игр.",
+                ex3Link: "Начать практику →",
+                level4: "Средний",
+                ex4Title: "Построение предложений",
+                ex4Desc: "Научитесь составлять сложные предложения и использовать различные синтаксические конструкции.",
+                ex4Link: "Начать практику →",
+                level5: "Продвинутый",
+                ex5Title: "Идиомы и выражения",
+                ex5Desc: "Освойте русские идиомы и выражения, чтобы звучать более естественно.",
+                ex5Link: "Начать практику →",
+                level6: "Продвинутый",
+                ex6Title: "Деловой русский",
+                ex6Desc: "Специализированные упражнения для использования русского языка в профессиональной среде.",
+                ex6Link: "Начать практику →"
+            },
+            es: {
+                mainTitle: "Ejercicios Prácticos",
+                subtitle: "Mejora tu conocimiento del ruso con estos ejercicios prácticos",
+                backLink: "← Volver a la selección de temas",
+                level1: "Principiante",
+                ex1Title: "Gramática Básica",
+                ex1Desc: "Practica las estructuras gramaticales básicas del ruso con ejercicios interactivos.",
+                ex1Link: "Comenzar práctica →",
+                level2: "Principiante",
+                ex2Title: "Vocabulario",
+                ex2Desc: "Expande tu vocabulario ruso con ejercicios temáticos sobre diferentes áreas de la vida.",
+                ex2Link: "Comenzar práctica →",
+                level3: "Intermedio",
+                ex3Title: "Práctica Conversacional",
+                ex3Desc: "Mejora tus habilidades de conversación con diálogos y juegos de roles.",
+                ex3Link: "Comenzar práctica →",
+                level4: "Intermedio",
+                ex4Title: "Construcción de Oraciones",
+                ex4Desc: "Aprende a construir oraciones complejas y usar diferentes construcciones sintácticas.",
+                ex4Link: "Comenzar práctica →",
+                level5: "Avanzado",
+                ex5Title: "Modismos y Expresiones",
+                ex5Desc: "Domina los modismos y expresiones rusas para sonar más natural.",
+                ex5Link: "Comenzar práctica →",
+                level6: "Avanzado",
+                ex6Title: "Ruso de Negocios",
+                ex6Desc: "Ejercicios especializados para usar el ruso en entornos profesionales.",
+                ex6Link: "Comenzar práctica →"
+            },
+            en: {
+                mainTitle: "Practical Exercises",
+                subtitle: "Improve your Russian knowledge with these practical exercises",
+                backLink: "← Back to topic selection",
+                level1: "Beginner",
+                ex1Title: "Basic Grammar",
+                ex1Desc: "Practice the basic grammatical structures of Russian with interactive exercises.",
+                ex1Link: "Start practice →",
+                level2: "Beginner",
+                ex2Title: "Vocabulary",
+                ex2Desc: "Expand your Russian vocabulary with thematic exercises on different areas of life.",
+                ex2Link: "Start practice →",
+                level3: "Intermediate",
+                ex3Title: "Conversational Practice",
+                ex3Desc: "Improve your conversational skills with dialogues and role-playing games.",
+                ex3Link: "Start practice →",
+                level4: "Intermediate",
+                ex4Title: "Sentence Building",
+                ex4Desc: "Learn to build complex sentences and use different syntactic constructions.",
+                ex4Link: "Start practice →",
+                level5: "Advanced",
+                ex5Title: "Idioms and Expressions",
+                ex5Desc: "Master Russian idioms and expressions to sound more natural.",
+                ex5Link: "Start practice →",
+                level6: "Advanced",
+                ex6Title: "Business Russian",
+                ex6Desc: "Specialized exercises for using Russian in professional environments.",
+                ex6Link: "Start practice →"
+            },
+            fr: {
+                mainTitle: "Exercices Pratiques",
+                subtitle: "Améliorez vos connaissances en russe avec ces exercices pratiques",
+                backLink: "← Retour à la sélection des sujets",
+                level1: "Débutant",
+                ex1Title: "Grammaire de Base",
+                ex1Desc: "Pratiquez les structures grammaticales de base du russe avec des exercices interactifs.",
+                ex1Link: "Commencer la pratique →",
+                level2: "Débutant",
+                ex2Title: "Vocabulaire",
+                ex2Desc: "Étendez votre vocabulaire russe avec des exercices thématiques sur différents domaines de la vie.",
+                ex2Link: "Commencer la pratique →",
+                level3: "Intermédiaire",
+                ex3Title: "Pratique Conversationnelle",
+                ex3Desc: "Améliorez vos compétences en conversation avec des dialogues et des jeux de rôle.",
+                ex3Link: "Commencer la pratique →",
+                level4: "Intermédiaire",
+                ex4Title: "Construction de Phrases",
+                ex4Desc: "Apprenez à construire des phrases complexes et à utiliser différentes constructions syntaxiques.",
+                ex4Link: "Commencer la pratique →",
+                level5: "Avancé",
+                ex5Title: "Expressions Idiomatiques",
+                ex5Desc: "Maîtrisez les expressions idiomatiques russes pour paraître plus naturel.",
+                ex5Link: "Commencer la pratique →",
+                level6: "Avancé",
+                ex6Title: "Russe des Affaires",
+                ex6Desc: "Exercices spécialisés pour utiliser le russe dans des environnements professionnels.",
+                ex6Link: "Commencer la pratique →"
+            },
+            de: {
+                mainTitle: "Praktische Übungen",
+                subtitle: "Verbessern Sie Ihre Russischkenntnisse mit diesen praktischen Übungen",
+                backLink: "← Zurück zur Themenauswahl",
+                level1: "Anfänger",
+                ex1Title: "Grundgrammatik",
+                ex1Desc: "Praktizieren Sie die grundlegenden grammatikalischen Strukturen des Russischen mit interaktiven Übungen.",
+                ex1Link: "Übung beginnen →",
+                level2: "Anfänger",
+                ex2Title: "Wortschatz",
+                ex2Desc: "Erweitern Sie Ihren russischen Wortschatz mit thematischen Übungen zu verschiedenen Lebensbereichen.",
+                ex2Link: "Übung beginnen →",
+                level3: "Mittelstufe",
+                ex3Title: "Konversationspraxis",
+                ex3Desc: "Verbessern Sie Ihre Konversationsfähigkeiten mit Dialogen und Rollenspielen.",
+                ex3Link: "Übung beginnen →",
+                level4: "Mittelstufe",
+                ex4Title: "Satzbau",
+                ex4Desc: "Lernen Sie, komplexe Sätze zu bilden und verschiedene syntaktische Konstruktionen zu verwenden.",
+                ex4Link: "Übung beginnen →",
+                level5: "Fortgeschritten",
+                ex5Title: "Redewendungen und Ausdrücke",
+                ex5Desc: "Meistern Sie russische Redewendungen und Ausdrücke, um natürlicher zu klingen.",
+                ex5Link: "Übung beginnen →",
+                level6: "Fortgeschritten",
+                ex6Title: "Wirtschaftsrussisch",
+                ex6Desc: "Spezialisierte Übungen für die Verwendung des Russischen in professionellen Umgebungen.",
+                ex6Link: "Übung beginnen →"
+            },
+            pt: {
+                mainTitle: "Exercícios Práticos",
+                subtitle: "Melhore seu conhecimento de russo com estes exercícios práticos",
+                backLink: "← Voltar à seleção de tópicos",
+                level1: "Iniciante",
+                ex1Title: "Gramática Básica",
+                ex1Desc: "Pratique as estruturas gramaticais básicas do russo com exercícios interativos.",
+                ex1Link: "Começar prática →",
+                level2: "Iniciante",
+                ex2Title: "Vocabulário",
+                ex2Desc: "Expanda seu vocabulário russo com exercícios temáticos sobre diferentes áreas da vida.",
+                ex2Link: "Começar prática →",
+                level3: "Intermediário",
+                ex3Title: "Prática Conversacional",
+                ex3Desc: "Melhore suas habilidades de conversação com diálogos e jogos de interpretação de papéis.",
+                ex3Link: "Começar prática →",
+                level4: "Intermediário",
+                ex4Title: "Construção de Frases",
+                ex4Desc: "Aprenda a construir frases complexas e usar diferentes construções sintáticas.",
+                ex4Link: "Começar prática →",
+                level5: "Avançado",
+                ex5Title: "Expressões Idiomáticas",
+                ex5Desc: "Domine expressões idiomáticas russas para soar mais natural.",
+                ex5Link: "Começar prática →",
+                level6: "Avançado",
+                ex6Title: "Russo Comercial",
+                ex6Desc: "Exercícios especializados para usar o russo em ambientes profissionais.",
+                ex6Link: "Começar prática →"
+            },
+            it: {
+                mainTitle: "Esercizi Pratici",
+                subtitle: "Migliora la tua conoscenza del russo con questi esercizi pratici",
+                backLink: "← Torna alla selezione argomenti",
+                level1: "Principiante",
+                ex1Title: "Grammatica di Base",
+                ex1Desc: "Pratica le strutture grammaticali di base del russo con esercizi interattivi.",
+                ex1Link: "Inizia pratica →",
+                level2: "Principiante",
+                ex2Title: "Vocabolario",
+                ex2Desc: "Espandi il tuo vocabolario russo con esercizi tematici su diverse aree della vita.",
+                ex2Link: "Inizia pratica →",
+                level3: "Intermedio",
+                ex3Title: "Pratica Conversazionale",
+                ex3Desc: "Migliora le tue abilità conversazionali con dialoghi e giochi di ruolo.",
+                ex3Link: "Inizia pratica →",
+                level4: "Intermedio",
+                ex4Title: "Costruzione di Frasi",
+                ex4Desc: "Impara a costruire frasi complesse e usare diverse costruzioni sintattiche.",
+                ex4Link: "Inizia pratica →",
+                level5: "Avanzato",
+                ex5Title: "Modi di Dire ed Espressioni",
+                ex5Desc: "Padroneggia i modi di dire e le espressioni russe per suonare più naturale.",
+                ex5Link: "Inizia pratica →",
+                level6: "Avanzato",
+                ex6Title: "Ruso Commerciale",
+                ex6Desc: "Esercizi specializzati per usare il russo in ambienti professionali.",
+                ex6Link: "Inizia pratica →"
+            },
+            zh: {
+                mainTitle: "实用练习",
+                subtitle: "通过这些实用练习提高您的俄语知识",
+                backLink: "← 返回主题选择",
+                level1: "初级",
+                ex1Title: "基础语法",
+                ex1Desc: "通过互动练习练习俄语的基本语法结构。",
+                ex1Link: "开始练习 →",
+                level2: "初级",
+                ex2Title: "词汇",
+                ex2Desc: "通过不同生活领域的主题练习扩展您的俄语词汇量。",
+                ex2Link: "开始练习 →",
+                level3: "中级",
+                ex3Title: "对话练习",
+                ex3Desc: "通过对话和角色扮演游戏提高您的对话技巧。",
+                ex3Link: "开始练习 →",
+                level4: "中级",
+                ex4Title: "句子构建",
+                ex4Desc: "学习构建复杂句子和使用不同的句法结构。",
+                ex4Link: "开始练习 →",
+                level5: "高级",
+                ex5Title: "习语和表达",
+                ex5Desc: "掌握俄语习语和表达，使您听起来更自然。",
+                ex5Link: "开始练习 →",
+                level6: "高级",
+                ex6Title: "商务俄语",
+                ex6Desc: "在专业环境中使用俄语的专门练习。",
+                ex6Link: "开始练习 →"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de ejercicios
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`level${i}`).textContent = t[`level${i}`];
+                document.getElementById(`ex${i}Title`).textContent = t[`ex${i}Title`];
+                document.getElementById(`ex${i}Desc`).textContent = t[`ex${i}Desc`];
+                document.getElementById(`ex${i}Link`).textContent = t[`ex${i}Link`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

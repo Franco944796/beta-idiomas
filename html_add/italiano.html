@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italiano - Selezione di argomenti</title>
+    <style>
+        /* Estilos principales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #fff; /* Bianco */
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #009246; /* Verde */
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+        /* Burbujas rectangulares */
+        .bubbles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .bubble {
+            width: 100%;
+            height: 180px;
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.85),    /* Verde */
+                rgba(255, 255, 255, 0.75)      /* Bianco */
+            );
+            border: 3px solid #CE2B37; /* Bordo rosso */
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 15px;
+        }
+        .bubble:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.4);
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.95),
+                rgba(255, 255, 255, 0.85)
+            );
+        }
+        .bubble-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .bubble-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        .bubble-desc {
+            font-size: 0.9rem;
+            color: #333;
+            max-width: 90%;
+            line-height: 1.3;
+        }
+        /* Efecto de brillo en hover */
+        .bubble::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .bubble:hover::before {
+            opacity: 1;
+        }
+        /* Botón de navegación superior */
+        .nav-top {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.8),    /* Verde */
+                rgba(255, 255, 255, 0.8)   /* Bianco */
+            );
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #CE2B37; /* Bordo rosso */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .btn-home:hover {
+            background: linear-gradient(135deg, 
+                rgba(255, 255, 255, 0.9),   /* Bianco */
+                rgba(0, 146, 70, 0.9)      /* Verde */
+            );
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        /* Pie de página con atribución */
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.7);
+            z-index: 10;
+            padding: 5px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        /* Diseño responsivo */
+        @media (max-width: 1200px) {
+            .bubbles-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+            .bubble {
+                height: 170px;
+            }
+            .bubble-icon {
+                font-size: 2.2rem;
+            }
+            .bubble-title {
+                font-size: 1.4rem;
+            }
+        }
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+            }
+            
+            .bubbles-container {
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+                gap: 15px;
+            }
+            
+            .bubble {
+                height: 150px;
+                padding: 10px;
+            }
+            
+            .bubble-icon {
+                font-size: 2rem;
+                margin-bottom: 5px;
+            }
+            
+            .bubble-title {
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+            }
+            
+            .bubble-desc {
+                font-size: 0.8rem;
+                line-height: 1.2;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .nav-top {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .btn-home {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+            
+            .footer {
+                font-size: 0.6rem;
+                padding: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <!-- Botón para volver a la página principal de idiomas -->
+    <div class="nav-top">
+        <a href="../index.html" class="btn-home">← Lingue</a>
+    </div>
+    
+    <div class="container">
+        <h1 id="mainTitle">Italiano</h1>
+        <p class="subtitle" id="subtitle">Seleziona un argomento per continuare</p>
+        
+        <div class="bubbles-container">
+            <!-- Burbuja para Textos -->
+            <a href="textos.it.html" class="bubble">
+                <div class="bubble-icon">📝</div>
+                <div class="bubble-title" data-translate="texts">Testi</div>
+                <div class="bubble-desc" data-translate="textsDesc">Leggi e analizza testi in italiano</div>
+            </a>
+            
+            <!-- Burbuja para Historia -->
+            <a href="historia.it.html" class="bubble">
+                <div class="bubble-icon">🏛️</div>
+                <div class="bubble-title" data-translate="history">Storia</div>
+                <div class="bubble-desc" data-translate="historyDesc">Scopri la storia italiana</div>
+            </a>
+            
+            <!-- Burbuja para Ejercicios Prácticos -->
+            <a href="ejercicios.it.html" class="bubble">
+                <div class="bubble-icon">✏️</div>
+                <div class="bubble-title" data-translate="exercises">Esercizi</div>
+                <div class="bubble-desc" data-translate="exercisesDesc">Migliora il tuo italiano con la pratica</div>
+            </a>
+            
+            <!-- Burbuja para Evaluaciones -->
+            <a href="evaluaciones.it.html" class="bubble">
+                <div class="bubble-icon">📊</div>
+                <div class="bubble-title" data-translate="assessments">Valutazioni</div>
+                <div class="bubble-desc" data-translate="assessmentsDesc">Misura i tuoi progressi</div>
+            </a>
+            
+            <!-- Burbuja para Aprendizaje Auditivo -->
+            <a href="auditivo.it.html" class="bubble">
+                <div class="bubble-icon">🎧</div>
+                <div class="bubble-title" data-translate="listening">Ascolto</div>
+                <div class="bubble-desc" data-translate="listeningDesc">Allena il tuo orecchio</div>
+            </a>
+            
+            <!-- Burbuja para Curso con Temario -->
+            <a href="curso.it.html" class="bubble">
+                <div class="bubble-icon">📚</div>
+                <div class="bubble-title" data-translate="course">Corso</div>
+                <div class="bubble-desc" data-translate="courseDesc">Studia tutti i livelli</div>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Pie de página con atribución -->
+    <div class="footer">
+        <span data-translate="footerAttribution">Immagine del Colosseo, Roma, Italia.</span>
+        <a href="https://pixabay.com/photos/colosseum-rome-italy-ancient-422942/" target="_blank">Fonte: Pixabay</a> | 
+        <a href="https://pixabay.com/service/license/" target="_blank">Licenza: Pixabay License</a>
+    </div>
+
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Italiano",
+                subtitle: "Seleziona un argomento per continuare",
+                footerAttribution: "Immagine del Colosseo, Roma, Italia.",
+                texts: "Testi",
+                textsDesc: "Leggi e analizza testi in italiano",
+                history: "Storia",
+                historyDesc: "Scopri la storia italiana",
+                exercises: "Esercizi",
+                exercisesDesc: "Migliora il tuo italiano con la pratica",
+                assessments: "Valutazioni",
+                assessmentsDesc: "Misura i tuoi progressi",
+                listening: "Ascolto",
+                listeningDesc: "Allena il tuo orecchio",
+                course: "Corso",
+                courseDesc: "Studia tutti i livelli"
+            },
+            es: {
+                mainTitle: "Italiano",
+                subtitle: "Selecciona un tema para continuar",
+                footerAttribution: "Imagen del Coliseo, Roma, Italia.",
+                texts: "Textos",
+                textsDesc: "Lee y analiza textos en italiano",
+                history: "Historia",
+                historyDesc: "Descubre la historia italiana",
+                exercises: "Ejercicios",
+                exercisesDesc: "Mejora tu italiano con práctica",
+                assessments: "Evaluaciones",
+                assessmentsDesc: "Mide tu progreso",
+                listening: "Auditivo",
+                listeningDesc: "Entrena tu oído",
+                course: "Curso",
+                courseDesc: "Estudia todos los niveles"
+            },
+            en: {
+                mainTitle: "Italian",
+                subtitle: "Select a topic to continue",
+                footerAttribution: "Image of the Colosseum, Rome, Italy.",
+                texts: "Texts",
+                textsDesc: "Read and analyze texts in Italian",
+                history: "History",
+                historyDesc: "Discover the history of Italy",
+                exercises: "Exercises",
+                exercisesDesc: "Improve your Italian with practice",
+                assessments: "Assessments",
+                assessmentsDesc: "Measure your progress",
+                listening: "Listening",
+                listeningDesc: "Train your ear",
+                course: "Course",
+                courseDesc: "Study all levels"
+            },
+            fr: {
+                mainTitle: "Italien",
+                subtitle: "Sélectionnez un sujet pour continuer",
+                footerAttribution: "Image du Colisée, Rome, Italie.",
+                texts: "Textes",
+                textsDesc: "Lisez et analysez des textes en italien",
+                history: "Histoire",
+                historyDesc: "Découvrez l'histoire italienne",
+                exercises: "Exercices",
+                exercisesDesc: "Améliorez votre italien avec la pratique",
+                assessments: "Évaluations",
+                assessmentsDesc: "Mesurez vos progrès",
+                listening: "Écoute",
+                listeningDesc: "Entraînez votre oreille",
+                course: "Cours",
+                courseDesc: "Étudiez tous les niveaux"
+            },
+            de: {
+                mainTitle: "Italienisch",
+                subtitle: "Wählen Sie ein Thema zum Fortfahren",
+                footerAttribution: "Bild des Kolosseums, Rom, Italien.",
+                texts: "Texte",
+                textsDesc: "Lesen und analysieren Sie Texte auf Italienisch",
+                history: "Geschichte",
+                historyDesc: "Entdecken Sie die italienische Geschichte",
+                exercises: "Übungen",
+                exercisesDesc: "Verbessern Sie Ihr Italienisch durch Übung",
+                assessments: "Bewertungen",
+                assessmentsDesc: "Messen Sie Ihren Fortschritt",
+                listening: "Hören",
+                listeningDesc: "Trainieren Sie Ihr Gehör",
+                course: "Kurs",
+                courseDesc: "Studieren Sie alle Niveaus"
+            },
+            pt: {
+                mainTitle: "Italiano",
+                subtitle: "Selecione um tópico para continuar",
+                footerAttribution: "Imagem do Coliseu, Roma, Itália.",
+                texts: "Textos",
+                textsDesc: "Leia e analise textos em italiano",
+                history: "História",
+                historyDesc: "Descubra a história italiana",
+                exercises: "Exercícios",
+                exercisesDesc: "Melhore seu italiano com prática",
+                assessments: "Avaliações",
+                assessmentsDesc: "Meça seu progresso",
+                listening: "Audição",
+                listeningDesc: "Treine seu ouvido",
+                course: "Curso",
+                courseDesc: "Estude todos os níveis"
+            },
+            ru: {
+                mainTitle: "Итальянский",
+                subtitle: "Выберите тему для продолжения",
+                footerAttribution: "Изображение Колизея, Рим, Италия.",
+                texts: "Тексты",
+                textsDesc: "Читайте и анализируйте тексты на итальянском",
+                history: "История",
+                historyDesc: "Откройте для себя историю Италии",
+                exercises: "Упражнения",
+                exercisesDesc: "Улучшайте свой итальянский с помощью практики",
+                assessments: "Оценки",
+                assessmentsDesc: "Измеряйте свой прогресс",
+                listening: "Аудирование",
+                listeningDesc: "Тренируйте свой слух",
+                course: "Курс",
+                courseDesc: "Изучайте все уровни"
+            },
+            zh: {
+                mainTitle: "意大利语",
+                subtitle: "选择一个主题继续",
+                footerAttribution: "罗马斗兽场图片，意大利罗马。",
+                texts: "文本",
+                textsDesc: "阅读和分析意大利语文本",
+                history: "历史",
+                historyDesc: "发现意大利历史",
+                exercises: "练习",
+                exercisesDesc: "通过练习提高你的意大利语",
+                assessments: "评估",
+                assessmentsDesc: "衡量你的进步",
+                listening: "听力",
+                listeningDesc: "训练你的耳朵",
+                course: "课程",
+                courseDesc: "学习所有级别"
+            }
+        };
+
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar título principal y subtítulo
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            
+            // Actualizar todos los elementos con el atributo data-translate
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+            
+            // Actualizar pie de página
+            document.querySelector('[data-translate="footerAttribution"]').textContent = t.footerAttribution;
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

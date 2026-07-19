@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascolto Pratico</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .audio-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.15),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .audio-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7);
+        }
+        .audio-card h3 {
+            color: #009246; /* Verde */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .audio-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        .audio-player {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .play-button {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.8),    /* Verde */
+                rgba(255, 255, 255, 0.8)   /* Blanco */
+            );
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.2rem;
+        }
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 146, 70, 0.5);
+        }
+        .progress-container {
+            flex: 1;
+            margin: 0 15px;
+            height: 6px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #009246, #CE2B37);
+            border-radius: 3px;
+            width: 0%;
+        }
+        .time {
+            color: #CE2B37; /* Rojo */
+            font-size: 0.9rem;
+            min-width: 80px;
+            text-align: right;
+        }
+        .audio-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .easy {
+            background-color: rgba(76, 175, 80, 0.7);
+        }
+        .medium {
+            background-color: rgba(255, 152, 0, 0.7);
+        }
+        .hard {
+            background-color: rgba(244, 67, 54, 0.7);
+        }
+        .transcript-button {
+            display: inline-block;
+            margin-top: 10px;
+            color: #CE2B37; /* Rojo */
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        .transcript-button:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .audio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Ascolto Pratico</h1>
+            <p id="subtitle">Allena il tuo orecchio con diversi contenuti in italiano</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="audio-grid">
+            <div class="audio-card">
+                <h3 id="audio1Title">Conversazioni Quotidiane</h3>
+                <p id="audio1Desc">Dialoghi e conversazioni di ogni giorno in varie situazioni della vita quotidiana.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 3:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy" id="audio1Level">Facile</span>
+                        <span id="audio1Pace">Lento</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio1Transcript">Mostra trascrizione</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio2Title">Notizie</h3>
+                <p id="audio2Desc">Notizie attuali e reportage dall'Italia e dal mondo in italiano standard chiaro.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 5:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium" id="audio2Level">Intermedio</span>
+                        <span id="audio2Pace">Normale</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio2Transcript">Mostra trascrizione</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio3Title">Podcast</h3>
+                <p id="audio3Desc">Podcast interessanti su vari argomenti con madrelingua italiani.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 12:30</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty medium" id="audio3Level">Intermedio</span>
+                        <span id="audio3Pace">Naturale</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio3Transcript">Mostra trascrizione</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio4Title">Audiolibri</h3>
+                <p id="audio4Desc">Estratti da audiolibri italiani popolari di vari generi letterari.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 8:15</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard" id="audio4Level">Avanzato</span>
+                        <span id="audio4Pace">Voce narrante</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio4Transcript">Mostra trascrizione</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio5Title">Interviste</h3>
+                <p id="audio5Desc">Interviste autentiche con esperti italofoni su varie aree tematiche.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 10:45</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty hard" id="audio5Level">Avanzato</span>
+                        <span id="audio5Pace">Vocabolario tecnico</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio5Transcript">Mostra trascrizione</a>
+            </div>
+            
+            <div class="audio-card">
+                <h3 id="audio6Title">Canzoni</h3>
+                <p id="audio6Desc">Musica italiana di diverse epoche con testi per cantare e capire.</p>
+                
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-button">▶</button>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time">0:00 / 4:20</div>
+                    </div>
+                    <div class="audio-meta">
+                        <span class="difficulty easy" id="audio6Level">Facile</span>
+                        <span id="audio6Pace">Musicale</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="transcript-button" id="audio6Transcript">Mostra testi</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Ascolto Pratico",
+                subtitle: "Allena il tuo orecchio con diversi contenuti in italiano",
+                backLink: "← Torna alla selezione argomenti",
+                audio1Title: "Conversazioni Quotidiane",
+                audio1Desc: "Dialoghi e conversazioni di ogni giorno in varie situazioni della vita quotidiana.",
+                audio1Level: "Facile",
+                audio1Pace: "Lento",
+                audio1Transcript: "Mostra trascrizione",
+                audio2Title: "Notizie",
+                audio2Desc: "Notizie attuali e reportage dall'Italia e dal mondo in italiano standard chiaro.",
+                audio2Level: "Intermedio",
+                audio2Pace: "Normale",
+                audio2Transcript: "Mostra trascrizione",
+                audio3Title: "Podcast",
+                audio3Desc: "Podcast interessanti su vari argomenti con madrelingua italiani.",
+                audio3Level: "Intermedio",
+                audio3Pace: "Naturale",
+                audio3Transcript: "Mostra trascrizione",
+                audio4Title: "Audiolibri",
+                audio4Desc: "Estratti da audiolibri italiani popolari di vari generi letterari.",
+                audio4Level: "Avanzato",
+                audio4Pace: "Voce narrante",
+                audio4Transcript: "Mostra trascrizione",
+                audio5Title: "Interviste",
+                audio5Desc: "Interviste autentiche con esperti italofoni su varie aree tematiche.",
+                audio5Level: "Avanzato",
+                audio5Pace: "Vocabolario tecnico",
+                audio5Transcript: "Mostra trascrizione",
+                audio6Title: "Canzoni",
+                audio6Desc: "Musica italiana di diverse epoche con testi per cantare e capire.",
+                audio6Level: "Facile",
+                audio6Pace: "Musicale",
+                audio6Transcript: "Mostra testi"
+            },
+            es: {
+                mainTitle: "Práctica Auditiva",
+                subtitle: "Entrena tu oído con diferentes contenidos en italiano",
+                backLink: "← Volver a la selección de temas",
+                audio1Title: "Conversaciones Diarias",
+                audio1Desc: "Diálogos y conversaciones cotidianos en varias situaciones de la vida diaria.",
+                audio1Level: "Fácil",
+                audio1Pace: "Lento",
+                audio1Transcript: "Mostrar transcripción",
+                audio2Title: "Noticias",
+                audio2Desc: "Noticias actuales e informes de Italia y del mundo en italiano estándar claro.",
+                audio2Level: "Intermedio",
+                audio2Pace: "Normal",
+                audio2Transcript: "Mostrar transcripción",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts interesantes sobre varios temas con hablantes nativos de italiano.",
+                audio3Level: "Intermedio",
+                audio3Pace: "Natural",
+                audio3Transcript: "Mostrar transcripción",
+                audio4Title: "Audiolibros",
+                audio4Desc: "Extractos de audiolibros italianos populares de varios géneros literarios.",
+                audio4Level: "Avanzado",
+                audio4Pace: "Voz narradora",
+                audio4Transcript: "Mostrar transcripción",
+                audio5Title: "Entrevistas",
+                audio5Desc: "Entrevistas auténticas con expertos italófonos sobre varias áreas temáticas.",
+                audio5Level: "Avanzado",
+                audio5Pace: "Vocabulario técnico",
+                audio5Transcript: "Mostrar transcripción",
+                audio6Title: "Canciones",
+                audio6Desc: "Música italiana de diferentes épocas con letras para cantar y entender.",
+                audio6Level: "Fácil",
+                audio6Pace: "Musical",
+                audio6Transcript: "Mostrar letras"
+            },
+            en: {
+                mainTitle: "Listening Practice",
+                subtitle: "Train your ear with different Italian content",
+                backLink: "← Back to topic selection",
+                audio1Title: "Daily Conversations",
+                audio1Desc: "Everyday dialogues and conversations in various situations of daily life.",
+                audio1Level: "Easy",
+                audio1Pace: "Slow",
+                audio1Transcript: "Show transcript",
+                audio2Title: "News",
+                audio2Desc: "Current news and reports from Italy and around the world in clear standard Italian.",
+                audio2Level: "Intermediate",
+                audio2Pace: "Normal",
+                audio2Transcript: "Show transcript",
+                audio3Title: "Podcasts",
+                audio3Desc: "Interesting podcasts on various topics with native Italian speakers.",
+                audio3Level: "Intermediate",
+                audio3Pace: "Natural speech",
+                audio3Transcript: "Show transcript",
+                audio4Title: "Audiobooks",
+                audio4Desc: "Excerpts from popular Italian audiobooks from various literary genres.",
+                audio4Level: "Advanced",
+                audio4Pace: "Narrator voice",
+                audio4Transcript: "Show transcript",
+                audio5Title: "Interviews",
+                audio5Desc: "Authentic interviews with Italian-speaking experts on various subject areas.",
+                audio5Level: "Advanced",
+                audio5Pace: "Technical vocabulary",
+                audio5Transcript: "Show transcript",
+                audio6Title: "Songs",
+                audio6Desc: "Italian music from different eras with lyrics to sing along and understand.",
+                audio6Level: "Easy",
+                audio6Pace: "Musical",
+                audio6Transcript: "Show lyrics"
+            },
+            fr: {
+                mainTitle: "Pratique d'Écoute",
+                subtitle: "Entraînez votre oreille avec différents contenus en italien",
+                backLink: "← Retour à la sélection des sujets",
+                audio1Title: "Conversations Quotidiennes",
+                audio1Desc: "Dialogues et conversations de tous les jours dans diverses situations de la vie quotidienne.",
+                audio1Level: "Facile",
+                audio1Pace: "Lent",
+                audio1Transcript: "Afficher la transcription",
+                audio2Title: "Actualités",
+                audio2Desc: "Actualités et reportages d'Italie et du monde entier en italien standard clair.",
+                audio2Level: "Intermédiaire",
+                audio2Pace: "Normal",
+                audio2Transcript: "Afficher la transcription",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts intéressants sur divers sujets avec des locuteurs natifs italiens.",
+                audio3Level: "Intermédiaire",
+                audio3Pace: "Discours naturel",
+                audio3Transcript: "Afficher la transcription",
+                audio4Title: "Livres Audio",
+                audio4Desc: "Extraits de livres audio italiens populaires de divers genres littéraires.",
+                audio4Level: "Avancé",
+                audio4Pace: "Voix du narrateur",
+                audio4Transcript: "Afficher la transcription",
+                audio5Title: "Interviews",
+                audio5Desc: "Interviews authentiques avec des experts italophones sur divers domaines thématiques.",
+                audio5Level: "Avancé",
+                audio5Pace: "Vocabulaire technique",
+                audio5Transcript: "Afficher la transcription",
+                audio6Title: "Chansons",
+                audio6Desc: "Musique italienne de différentes époques avec paroles à chanter et à comprendre.",
+                audio6Level: "Facile",
+                audio6Pace: "Musical",
+                audio6Transcript: "Afficher les paroles"
+            },
+            de: {
+                mainTitle: "Hörverständnis-Übung",
+                subtitle: "Trainieren Sie Ihr Gehör mit verschiedenen italienischen Inhalten",
+                backLink: "← Zurück zur Themenauswahl",
+                audio1Title: "Tägliche Gespräche",
+                audio1Desc: "Alltägliche Dialoge und Gespräche in verschiedenen Situationen des täglichen Lebens.",
+                audio1Level: "Einfach",
+                audio1Pace: "Langsam",
+                audio1Transcript: "Transkript anzeigen",
+                audio2Title: "Nachrichten",
+                audio2Desc: "Aktuelle Nachrichten und Berichte aus Italien und der Welt in klarem Standarditalienisch.",
+                audio2Level: "Mittelstufe",
+                audio2Pace: "Normal",
+                audio2Transcript: "Transkript anzeigen",
+                audio3Title: "Podcasts",
+                audio3Desc: "Interessante Podcasts zu verschiedenen Themen mit muttersprachlichen Italienern.",
+                audio3Level: "Mittelstufe",
+                audio3Pace: "Natürliche Sprache",
+                audio3Transcript: "Transkript anzeigen",
+                audio4Title: "Hörbücher",
+                audio4Desc: "Auszüge aus beliebten italienischen Hörbüchern verschiedener literarischer Genres.",
+                audio4Level: "Fortgeschritten",
+                audio4Pace: "Erzählerstimme",
+                audio4Transcript: "Transkript anzeigen",
+                audio5Title: "Interviews",
+                audio5Desc: "Authentische Interviews mit italienischsprachigen Experten zu verschiedenen Fachbereichen.",
+                audio5Level: "Fortgeschritten",
+                audio5Pace: "Fachvokabular",
+                audio5Transcript: "Transkript anzeigen",
+                audio6Title: "Lieder",
+                audio6Desc: "Italienische Musik aus verschiedenen Epochen mit Texten zum Mitsingen und Verstehen.",
+                audio6Level: "Einfach",
+                audio6Pace: "Musikalisch",
+                audio6Transcript: "Texte anzeigen"
+            },
+            pt: {
+                mainTitle: "Prática Auditiva",
+                subtitle: "Treine seu ouvido com diferentes conteúdos em italiano",
+                backLink: "← Voltar à seleção de tópicos",
+                audio1Title: "Conversas Diárias",
+                audio1Desc: "Diálogos e conversas do dia a dia em várias situações da vida cotidiana.",
+                audio1Level: "Fácil",
+                audio1Pace: "Lento",
+                audio1Transcript: "Mostrar transcrição",
+                audio2Title: "Notícias",
+                audio2Desc: "Notícias atuais e reportagens da Itália e do mundo em italiano padrão claro.",
+                audio2Level: "Intermediário",
+                audio2Pace: "Normal",
+                audio2Transcript: "Mostrar transcrição",
+                audio3Title: "Podcasts",
+                audio3Desc: "Podcasts interessantes sobre vários tópicos com falantes nativos de italiano.",
+                audio3Level: "Intermediário",
+                audio3Pace: "Fala natural",
+                audio3Transcript: "Mostrar transcrição",
+                audio4Title: "Audiolivros",
+                audio4Desc: "Excertos de audiolivros italianos populares de vários gêneros literários.",
+                audio4Level: "Avançado",
+                audio4Pace: "Voz do narrador",
+                audio4Transcript: "Mostrar transcrição",
+                audio5Title: "Entrevistas",
+                audio5Desc: "Entrevistas autênticas com experts italianófonos sobre várias áreas temáticas.",
+                audio5Level: "Avançado",
+                audio5Pace: "Vocabulário técnico",
+                audio5Transcript: "Mostrar transcrição",
+                audio6Title: "Músicas",
+                audio6Desc: "Música italiana de diferentes épocas com letras para cantar e entender.",
+                audio6Level: "Fácil",
+                audio6Pace: "Musical",
+                audio6Transcript: "Mostrar letras"
+            },
+            ru: {
+                mainTitle: "Практика аудирования",
+                subtitle: "Тренируйте свой слух с различными материалами на итальянском языке",
+                backLink: "← Вернуться к выбору тем",
+                audio1Title: "Ежедневные разговоры",
+                audio1Desc: "Повседневные диалоги и разговоры в различных ситуациях повседневной жизни.",
+                audio1Level: "Легкий",
+                audio1Pace: "Медленно",
+                audio1Transcript: "Показать транскрипцию",
+                audio2Title: "Новости",
+                audio2Desc: "Текущие новости и репортажи из Италии и со всего мира на ясном стандартном итальянском.",
+                audio2Level: "Средний",
+                audio2Pace: "Нормально",
+                audio2Transcript: "Показать транскрипцию",
+                audio3Title: "Подкасты",
+                audio3Desc: "Интересные подкасты на различные темы с носителями итальянского языка.",
+                audio3Level: "Средний",
+                audio3Pace: "Естественная речь",
+                audio3Transcript: "Показать транскрипцию",
+                audio4Title: "Аудиокниги",
+                audio4Desc: "Отрывки из популярных итальянских аудиокниг различных литературных жанров.",
+                audio4Level: "Продвинутый",
+                audio4Pace: "Голос рассказчика",
+                audio4Transcript: "Показать транскрипцию",
+                audio5Title: "Интервью",
+                audio5Desc: "Аутентичные интервью с италоязычными экспертами по различным темам.",
+                audio5Level: "Продвинутый",
+                audio5Pace: "Техническая лексика",
+                audio5Transcript: "Показать транскрипцию",
+                audio6Title: "Песни",
+                audio6Desc: "Итальянская музыка разных эпох с текстами для пения и понимания.",
+                audio6Level: "Легкий",
+                audio6Pace: "Музыкальный",
+                audio6Transcript: "Показать тексты"
+            },
+            zh: {
+                mainTitle: "听力练习",
+                subtitle: "用不同的意大利语内容训练你的耳朵",
+                backLink: "← 返回主题选择",
+                audio1Title: "日常对话",
+                audio1Desc: "日常生活各种情境中的日常对话和交谈。",
+                audio1Level: "简单",
+                audio1Pace: "慢速",
+                audio1Transcript: "显示文字记录",
+                audio2Title: "新闻",
+                audio2Desc: "来自意大利和世界各地的当前新闻和报道，使用清晰的标准意大利语。",
+                audio2Level: "中级",
+                audio2Pace: "正常",
+                audio2Transcript: "显示文字记录",
+                audio3Title: "播客",
+                audio3Desc: "关于各种主题的有趣播客，由意大利语母语者主持。",
+                audio3Level: "中级",
+                audio3Pace: "自然语音",
+                audio3Transcript: "显示文字记录",
+                audio4Title: "有声读物",
+                audio4Desc: "来自各种文学体裁的流行意大利语有声读物的节选。",
+                audio4Level: "高级",
+                audio4Pace: "叙述者声音",
+                audio4Transcript: "显示文字记录",
+                audio5Title: "访谈",
+                audio5Desc: "与意大利语专家在各个学科领域的真实访谈。",
+                audio5Level: "高级",
+                audio5Pace: "技术词汇",
+                audio5Transcript: "显示文字记录",
+                audio6Title: "歌曲",
+                audio6Desc: "不同时代的意大利音乐，配有歌词供跟唱和理解。",
+                audio6Level: "简单",
+                audio6Pace: "音乐性",
+                audio6Transcript: "显示歌词"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de audio
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`audio${i}Title`).textContent = t[`audio${i}Title`];
+                document.getElementById(`audio${i}Desc`).textContent = t[`audio${i}Desc`];
+                document.getElementById(`audio${i}Level`).textContent = t[`audio${i}Level`];
+                document.getElementById(`audio${i}Pace`).textContent = t[`audio${i}Pace`];
+                document.getElementById(`audio${i}Transcript`).textContent = t[`audio${i}Transcript`];
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>

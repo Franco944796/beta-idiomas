@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewertungen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+
+        /* Fondo con imagen de escuela alemana */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        /* Degradado con colores de la bandera alemana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.4) 0%,      /* Negro */
+                rgba(221, 0, 0, 0.3) 33%,     /* Rojo */
+                rgba(255, 206, 0, 0.2) 66%,   /* Amarillo dorado */
+                rgba(0, 0, 0, 0.4) 100%      /* Negro */
+            );
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #FFCE00; /* Borde amarillo dorado */
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: #FFCE00; /* Amarillo dorado */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #DD0000; /* Rojo alemán */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #DD0000;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+
+        .back-link:hover {
+            background-color: #DD0000;
+            color: #fff;
+        }
+
+        .tests-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .test-card {
+            background: linear-gradient(135deg, 
+                rgba(221, 0, 0, 0.2),    /* Rojo alemán */
+                rgba(0, 0, 0, 0.2)      /* Negro */
+            );
+            border: 1px solid #FFCE00; /* Borde amarillo dorado */
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .test-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 206, 0, 0.3);
+            background: linear-gradient(135deg, 
+                rgba(221, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+            );
+        }
+
+        .test-card h3 {
+            color: #FFCE00; /* Amarillo dorado */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .test-card p {
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+
+        .test-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .test-duration, .test-questions {
+            color: #FFCE00;
+        }
+
+        .test-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, 
+                rgba(221, 0, 0, 0.8),    /* Rojo alemán */
+                rgba(255, 206, 0, 0.8)   /* Amarillo dorado */
+            );
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s;
+            border: 1px solid #FFCE00;
+        }
+
+        .test-button:hover {
+            background: linear-gradient(135deg, 
+                rgba(255, 206, 0, 0.9),   /* Amarillo dorado */
+                rgba(221, 0, 0, 0.9)      /* Rojo alemán */
+            );
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 206, 0, 0.4);
+        }
+
+        .progress-bar {
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background: linear-gradient(to right, #DD0000, #FFCE00);
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .tests-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bewertungen</h1>
+            <p>Testen Sie Ihre Deutschkenntnisse und verfolgen Sie Ihren Fortschritt</p>
+            <a href="aleman.html" class="back-link">← Zurück zur Themenwahl</a>
+        </div>
+        
+        <div class="tests-container">
+            <div class="test-card">
+                <h3>Grammatik Test</h3>
+                <p>Überprüfen Sie Ihre Kenntnisse der deutschen Grammatik mit diesem umfassenden Test.</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 30 Minuten</span>
+                    <span class="test-questions">❓ 25 Fragen</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3>Wortschatz Test</h3>
+                <p>Messen Sie Ihren deutschen Wortschatz und identifizieren Sie Bereiche zur Verbesserung.</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 20 Minuten</span>
+                    <span class="test-questions">❓ 30 Fragen</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3>Hörverständnis Test</h3>
+                <p>Testen Sie Ihr Hörverständnis mit verschiedenen authentischen deutschen Audioaufnahmen.</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 25 Minuten</span>
+                    <span class="test-questions">❓ 20 Fragen</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3>Leseverständnis Test</h3>
+                <p>Bewerten Sie Ihre Fähigkeit, deutsche Texte zu verstehen und zu analysieren.</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 35 Minuten</span>
+                    <span class="test-questions">❓ 15 Fragen</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3>Aussprache Test</h3>
+                <p>Überprüfen Sie Ihre deutsche Aussprache mit unserer KI-gestützten Bewertungstechnologie.</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 15 Minuten</span>
+                    <span class="test-questions">❓ 10 Aufgaben</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%"></div>
+                </div>
+            </div>
+            
+            <div class="test-card">
+                <h3>Kompetenztest</h3>
+                <p>Umfassender Test zur Bewertung Ihrer allgemeinen Deutschkenntnisse (A1-C1).</p>
+                <div class="test-info">
+                    <span class="test-duration">⏱️ 60 Minuten</span>
+                    <span class="test-questions">❓ 50 Fragen</span>
+                </div>
+                <a href="#" class="test-button">Test starten</a>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

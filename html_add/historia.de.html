@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsche Geschichte</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+        }
+
+        /* Fondo con imagen histórica alemana */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        /* Degradado con colores de la bandera alemana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.4) 0%,      /* Negro */
+                rgba(221, 0, 0, 0.3) 33%,     /* Rojo */
+                rgba(255, 206, 0, 0.2) 66%,   /* Amarillo dorado */
+                rgba(0, 0, 0, 0.4) 100%      /* Negro */
+            );
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #FFCE00; /* Borde amarillo dorado */
+            padding-bottom: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: #FFCE00; /* Amarillo dorado */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #DD0000; /* Rojo alemán */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: 1px solid #DD0000;
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(0,0,0,0.5);
+        }
+
+        .back-link:hover {
+            background-color: #DD0000;
+            color: #fff;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #000000, #DD0000, #FFCE00); /* Degradado bandera alemana */
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+
+        .timeline-content {
+            background: linear-gradient(135deg, 
+                rgba(221, 0, 0, 0.2),    /* Rojo alemán */
+                rgba(0, 0, 0, 0.2)      /* Negro */
+            );
+            border: 1px solid #FFCE00; /* Borde amarillo dorado */
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: #DD0000; /* Rojo alemán */
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: #FFCE00; /* Amarillo dorado */
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-date {
+            color: #DD0000; /* Rojo alemán */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #FFCE00; /* Amarillo dorado */
+        }
+
+        .timeline-text {
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                text-align: left !important;
+            }
+            
+            .timeline-item:nth-child(odd) .timeline-content::after,
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: 10px !important;
+                right: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Deutsche Geschichte</h1>
+            <p>Entdecken Sie die wichtigsten Ereignisse der deutschen Geschichte</p>
+            <a href="aleman.html" class="back-link">← Zurück zur Themenwahl</a>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">800 n. Chr.</div>
+                    <div class="timeline-title">Karl der Große</div>
+                    <div class="timeline-text">Karl der Große wird zum Kaiser des Heiligen Römischen Reiches gekrönt und legt den Grundstein für die deutsche Geschichte.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1871</div>
+                    <div class="timeline-title">Reichsgründung</div>
+                    <div class="timeline-text">Otto von Bismarck vereint die deutschen Staaten zum Deutschen Reich. Wilhelm I. wird im Spiegelsaal von Versailles zum Kaiser gekrönt.</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1949</div>
+                    <div class="timeline-title">Zwei Staaten</div>
+                    <div class="timeline-text">Nach dem Zweiten Weltkrieg entstehen die Bundesrepublik Deutschland (West) und die Deutsche Demokratische Republik (Ost).</div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">1990</div>
+                    <div class="timeline-title">Deutsche Wiedervereinigung</div>
+                    <div class="timeline-text">Am 3. Oktober 1990 wird die Deutsche Wiedervereinigung vollzogen. Deutschland wird wieder ein geeintes Land.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

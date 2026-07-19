@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corso con Temario</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            color: #fff;
+            background-color: #333;
+        }
+        /* Fondo con imagen del Coliseo de Italia */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://cdn.pixabay.com/photo/2014/08/20/22/27/colosseum-422942_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        /* Capa con colores de la bandera italiana */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 146, 70, 0.3) 0%,    /* Verde */
+                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
+                rgba(206, 43, 55, 0.2) 66%,       /* Rojo */
+                rgba(0, 146, 70, 0.3) 100%      /* Verde */
+            );
+            z-index: -1;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #CE2B37; /* Borde rojo */
+            padding-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .header h1 {
+            color: #009246; /* Verde */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #009246; /* Verde */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 1px solid #009246; /* Borde verde */
+            border-radius: 5px;
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 20;
+            cursor: pointer;
+            min-width: 200px;
+            text-align: center;
+        }
+        .back-link:hover {
+            background-color: #009246;
+            color: #fff;
+        }
+        .levels-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .level-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.15),    /* Verde */
+                rgba(255, 255, 255, 0.2)      /* Blanco */
+            );
+            border: 2px solid rgba(206, 43, 55, 0.5); /* Toque sutil de rojo */
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .level-card:hover {
+            background: linear-gradient(135deg, 
+                rgba(0, 146, 70, 0.25),
+                rgba(255, 255, 255, 0.3)
+            );
+            border-color: rgba(206, 43, 55, 0.7);
+        }
+        .level-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(206, 43, 55, 0.3);
+            padding-bottom: 10px;
+        }
+        .level-icon {
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+        .level-title {
+            color: #009246; /* Verde */
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .level-content {
+            color: #ddd;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .level-topics {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .topic-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #f0f0f0;
+        }
+        .topic-item:last-child {
+            margin-bottom: 0;
+        }
+        .topic-bullet {
+            color: #CE2B37; /* Rojo */
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .level-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #CE2B37; /* Rojo */
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .level-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        /* Selector de idiomas */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            color: #CE2B37;
+        }
+        .language-selector select option {
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .levels-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .back-link {
+                padding: 10px 20px;
+                min-width: 150px;
+            }
+            
+            .language-selector {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="mainTitle">Corso con Temario</h1>
+            <p id="subtitle">Impara la lingua italiana per livelli da A1 a C1</p>
+            <a href="italiano.html" class="back-link" id="backLink">← Torna alla selezione argomenti</a>
+        </div>
+        
+        <div class="levels-container">
+            <!-- Nivel A1 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <div class="level-icon">🔤</div>
+                    <div class="level-title" id="level1Title">Livello A1</div>
+                </div>
+                <div class="level-content">
+                    <p id="level1Desc">Livello principiante. Impara i fondamenti della lingua italiana: alfabeto, vocabolario di base, frasi semplici e grammatica elementare.</p>
+                    <div class="level-topics">
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level1Topic1">Alfabeto e pronuncia</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level1Topic2">Saluti e presentazioni di base</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level1Topic3">Numeri e date</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level1Topic4">Frasi semplici</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="level-link" id="level1Link">Maggiori informazioni →</a>
+            </div>
+            
+            <!-- Nivel A2 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <div class="level-icon">🗣️</div>
+                    <div class="level-title" id="level2Title">Livello A2</div>
+                </div>
+                <div class="level-content">
+                    <p id="level2Desc">Livello elementare. Espandi il tuo vocabolario, comprendi testi semplici e conversa su argomenti familiari.</p>
+                    <div class="level-topics">
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level2Topic1">Verbi di movimento</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level2Topic2">Casi e declinazioni</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level2Topic3">Tempi passati e futuri</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level2Topic4">Descrizione di persone e oggetti</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="level-link" id="level2Link">Maggiori informazioni →</a>
+            </div>
+            
+            <!-- Nivel B1 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <div class="level-icon">📖</div>
+                    <div class="level-title" id="level3Title">Livello B1</div>
+                </div>
+                <div class="level-content">
+                    <p id="level3Desc">Livello intermedio. Comprendi le idee principali di testi complessi, comunica su vari argomenti ed esprimi la tua opinione.</p>
+                    <div class="level-topics">
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level3Topic1">Verbi frasali</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level3Topic2">Costrutti con proposizioni subordinate</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level3Topic3">Corrispondenza commerciale</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level3Topic4">Cultura e tradizioni</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="level-link" id="level3Link">Maggiori informazioni →</a>
+            </div>
+            
+            <!-- Nivel B2 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <div class="level-icon">💼</div>
+                    <div class="level-title" id="level4Title">Livello B2</div>
+                </div>
+                <div class="level-content">
+                    <p id="level4Desc">Livello avanzato. Comunica in modo fluente, comprendi testi complessi e usa modi di dire ed espressioni.</p>
+                    <div class="level-topics">
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level4Topic1">Stilistica e registri</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level4Topic2">Stile giornalistico</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level4Topic3">Negoziazioni commerciali</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level4Topic4">Analisi testuale</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="level-link" id="level4Link">Maggiori informazioni →</a>
+            </div>
+            
+            <!-- Nivel C1 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <div class="level-icon">🎓</div>
+                    <div class="level-title" id="level5Title">Livello C1</div>
+                </div>
+                <div class="level-content">
+                    <p id="level5Desc">Livello di padronanza. Padroneggia la lingua in varie situazioni e comprendi sfumature e significati impliciti.</p>
+                    <div class="level-topics">
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level5Topic1">Stile scientifico e tecnico</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level5Topic2">Letteratura</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level5Topic3">Traduzione e interpretariato</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-bullet">•</span>
+                            <span id="level5Topic4">Dialetti regionali italiani</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="level-link" id="level5Link">Maggiori informazioni →</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            it: {
+                mainTitle: "Corso con Temario",
+                subtitle: "Impara la lingua italiana per livelli da A1 a C1",
+                backLink: "← Torna alla selezione argomenti",
+                level1Title: "Livello A1",
+                level1Desc: "Livello principiante. Impara i fondamenti della lingua italiana: alfabeto, vocabolario di base, frasi semplici e grammatica elementare.",
+                level1Topic1: "Alfabeto e pronuncia",
+                level1Topic2: "Saluti e presentazioni di base",
+                level1Topic3: "Numeri e date",
+                level1Topic4: "Frasi semplici",
+                level1Link: "Maggiori informazioni →",
+                level2Title: "Livello A2",
+                level2Desc: "Livello elementare. Espandi il tuo vocabolario, comprendi testi semplici e conversa su argomenti familiari.",
+                level2Topic1: "Verbi di movimento",
+                level2Topic2: "Casi e declinazioni",
+                level2Topic3: "Tempi passati e futuri",
+                level2Topic4: "Descrizione di persone e oggetti",
+                level2Link: "Maggiori informazioni →",
+                level3Title: "Livello B1",
+                level3Desc: "Livello intermedio. Comprendi le idee principali di testi complessi, comunica su vari argomenti ed esprimi la tua opinione.",
+                level3Topic1: "Verbi frasali",
+                level3Topic2: "Costrutti con proposizioni subordinate",
+                level3Topic3: "Corrispondenza commerciale",
+                level3Topic4: "Cultura e tradizioni",
+                level3Link: "Maggiori informazioni →",
+                level4Title: "Livello B2",
+                level4Desc: "Livello avanzato. Comunica in modo fluente, comprendi testi complessi e usa modi di dire ed espressioni.",
+                level4Topic1: "Stilistica e registri",
+                level4Topic2: "Stile giornalistico",
+                level4Topic3: "Negoziazioni commerciali",
+                level4Topic4: "Analisi testuale",
+                level4Link: "Maggiori informazioni →",
+                level5Title: "Livello C1",
+                level5Desc: "Livello di padronanza. Padroneggia la lingua in varie situazioni e comprendi sfumature e significati impliciti.",
+                level5Topic1: "Stile scientifico e tecnico",
+                level5Topic2: "Letteratura",
+                level5Topic3: "Traduzione e interpretariato",
+                level5Topic4: "Dialetti regionali italiani",
+                level5Link: "Maggiori informazioni →"
+            },
+            es: {
+                mainTitle: "Curso con Temario",
+                subtitle: "Aprende el idioma italiano por niveles de A1 a C1",
+                backLink: "← Volver a la selección de temas",
+                level1Title: "Nivel A1",
+                level1Desc: "Nivel principiante. Aprende los fundamentos del idioma italiano: alfabeto, vocabulario básico, frases simples y gramática elemental.",
+                level1Topic1: "Alfabeto y pronunciación",
+                level1Topic2: "Saludos y presentaciones básicas",
+                level1Topic3: "Números y fechas",
+                level1Topic4: "Frases simples",
+                level1Link: "Más información →",
+                level2Title: "Nivel A2",
+                level2Desc: "Nivel elemental. Expande tu vocabulario, comprende textos simples y conversa sobre temas familiares.",
+                level2Topic1: "Verbos de movimiento",
+                level2Topic2: "Casos y declinaciones",
+                level2Topic3: "Tiempos pasados y futuros",
+                level2Topic4: "Descripción de personas y objetos",
+                level2Link: "Más información →",
+                level3Title: "Nivel B1",
+                level3Desc: "Nivel intermedio. Comprende las ideas principales de textos complejos, comunica sobre varios temas y expresa tu opinión.",
+                level3Topic1: "Verbos frasales",
+                level3Topic2: "Construcciones con proposiciones subordinadas",
+                level3Topic3: "Correspondencia comercial",
+                level3Topic4: "Cultura y tradiciones",
+                level3Link: "Más información →",
+                level4Title: "Nivel B2",
+                level4Desc: "Nivel avanzado. Comunica con fluidez, comprende textos complejos y usa modismos y expresiones.",
+                level4Topic1: "Estilística y registros",
+                level4Topic2: "Estilo periodístico",
+                level4Topic3: "Negociaciones comerciales",
+                level4Topic4: "Análisis textual",
+                level4Link: "Más información →",
+                level5Title: "Nivel C1",
+                level5Desc: "Nivel de dominio. Domina el idioma en varias situaciones y comprende matices y significados implícitos.",
+                level5Topic1: "Estilo científico y técnico",
+                level5Topic2: "Literatura",
+                level5Topic3: "Traducción e interpretación",
+                level5Topic4: "Dialectos regionales italianos",
+                level5Link: "Más información →"
+            },
+            en: {
+                mainTitle: "Course with Syllabus",
+                subtitle: "Learn the Italian language by levels from A1 to C1",
+                backLink: "← Back to topic selection",
+                level1Title: "Level A1",
+                level1Desc: "Beginner level. Learn the fundamentals of the Italian language: alphabet, basic vocabulary, simple sentences and elementary grammar.",
+                level1Topic1: "Alphabet and pronunciation",
+                level1Topic2: "Basic greetings and introductions",
+                level1Topic3: "Numbers and dates",
+                level1Topic4: "Simple sentences",
+                level1Link: "More information →",
+                level2Title: "Level A2",
+                level2Desc: "Elementary level. Expand your vocabulary, understand simple texts and hold conversations on familiar topics.",
+                level2Topic1: "Movement verbs",
+                level2Topic2: "Cases and declensions",
+                level2Topic3: "Past and future tenses",
+                level2Topic4: "Description of people and objects",
+                level2Link: "More information →",
+                level3Title: "Level B1",
+                level3Desc: "Intermediate level. Understand the main ideas of complex texts, communicate on various topics and express your opinion.",
+                level3Topic1: "Phrasal verbs",
+                level3Topic2: "Subordinate clause constructions",
+                level3Topic3: "Business correspondence",
+                level3Topic4: "Culture and traditions",
+                level3Link: "More information →",
+                level4Title: "Level B2",
+                level4Desc: "Advanced level. Communicate fluently, understand complex texts and use idioms and expressions.",
+                level4Topic1: "Stylistics and registers",
+                level4Topic2: "Journalistic style",
+                level4Topic3: "Business negotiations",
+                level4Topic4: "Text analysis",
+                level4Link: "More information →",
+                level5Title: "Level C1",
+                level5Desc: "Proficiency level. Master the language in various situations and understand nuances and implicit meanings.",
+                level5Topic1: "Scientific and technical style",
+                level5Topic2: "Literature",
+                level5Topic3: "Translation and interpretation",
+                level5Topic4: "Regional dialects of Italian",
+                level5Link: "More information →"
+            },
+            fr: {
+                mainTitle: "Cours avec Programme",
+                subtitle: "Apprenez la langue italienne par niveaux de A1 à C1",
+                backLink: "← Retour à la sélection des sujets",
+                level1Title: "Niveau A1",
+                level1Desc: "Niveau débutant. Apprenez les fondamentaux de la langue italienne : alphabet, vocabulaire de base, phrases simples et grammaire élémentaire.",
+                level1Topic1: "Alphabet et prononciation",
+                level1Topic2: "Salutations et présentations de base",
+                level1Topic3: "Nombres et dates",
+                level1Topic4: "Phrases simples",
+                level1Link: "Plus d'informations →",
+                level2Title: "Niveau A2",
+                level2Desc: "Niveau élémentaire. Étendez votre vocabulaire, comprenez des textes simples et conversez sur des sujets familiers.",
+                level2Topic1: "Verbes de mouvement",
+                level2Topic2: "Cas et déclinaisons",
+                level2Topic3: "Temps passés et futurs",
+                level2Topic4: "Description des personnes et des objets",
+                level2Link: "Plus d'informations →",
+                level3Title: "Niveau B1",
+                level3Desc: "Niveau intermédiaire. Comprenez les idées principales de textes complexes, communiquez sur divers sujets et exprimez votre opinion.",
+                level3Topic1: "Verbes à particules",
+                level3Topic2: "Constructions avec propositions subordonnées",
+                level3Topic3: "Correspondance commerciale",
+                level3Topic4: "Culture et traditions",
+                level3Link: "Plus d'informations →",
+                level4Title: "Niveau B2",
+                level4Desc: "Niveau avancé. Communiquez couramment, comprenez des textes complexes et utilisez des expressions idiomatiques.",
+                level4Topic1: "Stylistique et registres",
+                level4Topic2: "Style journalistique",
+                level4Topic3: "Négociations commerciales",
+                level4Topic4: "Analyse textuelle",
+                level4Link: "Plus d'informations →",
+                level5Title: "Niveau C1",
+                level5Desc: "Niveau de maîtrise. Maîtrisez la langue dans diverses situations et comprenez les nuances et les significations implicites.",
+                level5Topic1: "Style scientifique et technique",
+                level5Topic2: "Littérature",
+                level5Topic3: "Traduction et interprétation",
+                level5Topic4: "Dialectes régionaux italiens",
+                level5Link: "Plus d'informations →"
+            },
+            de: {
+                mainTitle: "Kurs mit Lehrplan",
+                subtitle: "Lerne die italienische Sprache nach Stufen von A1 bis C1",
+                backLink: "← Zurück zur Themenauswahl",
+                level1Title: "Stufe A1",
+                level1Desc: "Anfängerstufe. Lerne die Grundlagen der italienischen Sprache: Alphabet, Grundwortschatz, einfache Sätze und elementare Grammatik.",
+                level1Topic1: "Alphabet und Aussprache",
+                level1Topic2: "Grundlegende Begrüßungen und Vorstellungen",
+                level1Topic3: "Zahlen und Daten",
+                level1Topic4: "Einfache Sätze",
+                level1Link: "Mehr Informationen →",
+                level2Title: "Stufe A2",
+                level2Desc: "Elementarstufe. Erweitere deinen Wortschatz, verstehe einfache Texte und führe Gespräche über vertraute Themen.",
+                level2Topic1: "Bewegungsverben",
+                level2Topic2: "Fälle und Deklinationen",
+                level2Topic3: "Vergangene und zukünftige Zeitformen",
+                level2Topic4: "Beschreibung von Personen und Objekten",
+                level2Link: "Mehr Informationen →",
+                level3Title: "Stufe B1",
+                level3Desc: "Mittelstufe. Verstehe die Hauptideen komplexer Texte, kommuniziere über verschiedene Themen und drücke deine Meinung aus.",
+                level3Topic1: "Phrasalverben",
+                level3Topic2: "Nebensatzkonstruktionen",
+                level3Topic3: "Geschäftskorrespondenz",
+                level3Topic4: "Kultur und Traditionen",
+                level3Link: "Mehr Informationen →",
+                level4Title: "Stufe B2",
+                level4Desc: "Fortgeschrittene Stufe. Kommuniziere fließend, verstehe komplexe Texte und verwende Redewendungen und Ausdrücke.",
+                level4Topic1: "Stilistik und Register",
+                level4Topic2: "Journalistischer Stil",
+                level4Topic3: "Geschäftsverhandlungen",
+                level4Topic4: "Textanalyse",
+                level4Link: "Mehr Informationen →",
+                level5Title: "Stufe C1",
+                level5Desc: "Kompetenzstufe. Beherrsche die Sprache in verschiedenen Situationen und verstehe Nuancen und implizite Bedeutungen.",
+                level5Topic1: "Wissenschaftlicher und technischer Stil",
+                level5Topic2: "Literatur",
+                level5Topic3: "Übersetzung und Dolmetschen",
+                level5Topic4: "Regionale Dialekte des Italienischen",
+                level5Link: "Mehr Informationen →"
+            },
+            pt: {
+                mainTitle: "Curso com Grade Curricular",
+                subtitle: "Aprenda o idioma italiano por níveis de A1 a C1",
+                backLink: "← Voltar à seleção de tópicos",
+                level1Title: "Nível A1",
+                level1Desc: "Nível iniciante. Aprenda os fundamentos do idioma italiano: alfabeto, vocabulário básico, frases simples e gramática elementar.",
+                level1Topic1: "Alfabeto e pronúncia",
+                level1Topic2: "Saudações e apresentações básicas",
+                level1Topic3: "Números e datas",
+                level1Topic4: "Frases simples",
+                level1Link: "Mais informações →",
+                level2Title: "Nível A2",
+                level2Desc: "Nível elementar. Expanda seu vocabulário, compreenda textos simples e converse sobre tópicos familiares.",
+                level2Topic1: "Verbos de movimento",
+                level2Topic2: "Casos e declinações",
+                level2Topic3: "Tempos passados e futuros",
+                level2Topic4: "Descrição de pessoas e objetos",
+                level2Link: "Mais informações →",
+                level3Title: "Nível B1",
+                level3Desc: "Nível intermediário. Compreenda as ideias principais de textos complexos, comunique-se sobre vários tópicos e expresse sua opinião.",
+                level3Topic1: "Verbos frasais",
+                level3Topic2: "Construções com orações subordinadas",
+                level3Topic3: "Correspondência comercial",
+                level3Topic4: "Cultura e tradições",
+                level3Link: "Mais informações →",
+                level4Title: "Nível B2",
+                level4Desc: "Nível avançado. Comunique-se fluentemente, compreenda textos complexos e use expressões e modismos.",
+                level4Topic1: "Estilística e registros",
+                level4Topic2: "Estilo jornalístico",
+                level4Topic3: "Negociações comerciais",
+                level4Topic4: "Análise textual",
+                level4Link: "Mais informações →",
+                level5Title: "Nível C1",
+                level5Desc: "Nível de proficiência. Domine o idioma em várias situações e compreenda nuances e significados implícitos.",
+                level5Topic1: "Estilo científico e técnico",
+                level5Topic2: "Literatura",
+                level5Topic3: "Tradução e interpretação",
+                level5Topic4: "Dialeto regionais italianos",
+                level5Link: "Mais informações →"
+            },
+            ru: {
+                mainTitle: "Курс с программой",
+                subtitle: "Изучайте итальянский язык по уровням от A1 до C1",
+                backLink: "← Вернуться к выбору тем",
+                level1Title: "Уровень A1",
+                level1Desc: "Начальный уровень. Изучите основы итальянского языка: алфавит, базовую лексику, простые предложения и элементарную грамматику.",
+                level1Topic1: "Алфавит и произношение",
+                level1Topic2: "Базовые приветствия и представления",
+                level1Topic3: "Числа и даты",
+                level1Topic4: "Простые предложения",
+                level1Link: "Больше информации →",
+                level2Title: "Уровень A2",
+                level2Desc: "Элементарный уровень. Расширьте свой словарный запас, понимайте простые тексты и ведите разговоры на знакомые темы.",
+                level2Topic1: "Глаголы движения",
+                level2Topic2: "Падежи и склонения",
+                level2Topic3: "Прошедшие и будущие времена",
+                level2Topic4: "Описание людей и предметов",
+                level2Link: "Больше информации →",
+                level3Title: "Уровень B1",
+                level3Desc: "Средний уровень. Понимайте основные идеи сложных текстов, общайтесь на различные темы и выражайте свое мнение.",
+                level3Topic1: "Фразовые глаголы",
+                level3Topic2: "Конструкции с придаточными предложениями",
+                level3Topic3: "Деловая переписка",
+                level3Topic4: "Культура и традиции",
+                level3Link: "Больше информации →",
+                level4Title: "Уровень B2",
+                level4Desc: "Продвинутый уровень. Общайтесь бегло, понимайте сложные тексты и используйте идиомы и выражения.",
+                level4Topic1: "Стилистика и регистры",
+                level4Topic2: "Журналистский стиль",
+                level4Topic3: "Деловые переговоры",
+                level4Topic4: "Анализ текста",
+                level4Link: "Больше информации →",
+                level5Title: "Уровень C1",
+                level5Desc: "Уровень владения. Владейте языком в различных ситуациях и понимайте нюансы и скрытые значения.",
+                level5Topic1: "Научный и технический стиль",
+                level5Topic2: "Литература",
+                level5Topic3: "Перевод и устный перевод",
+                level5Topic4: "Региональные диалекты итальянского",
+                level5Link: "Больше информации →"
+            },
+            zh: {
+                mainTitle: "课程大纲",
+                subtitle: "从A1到C1级别学习意大利语",
+                backLink: "← 返回主题选择",
+                level1Title: "A1级别",
+                level1Desc: "初级水平。学习意大利语的基础知识：字母表、基本词汇、简单句子和基础语法。",
+                level1Topic1: "字母表和发音",
+                level1Topic2: "基本问候和介绍",
+                level1Topic3: "数字和日期",
+                level1Topic4: "简单句子",
+                level1Link: "更多信息 →",
+                level2Title: "A2级别",
+                level2Desc: "基础水平。扩展你的词汇量，理解简单的文本，就熟悉的话题进行对话。",
+                level2Topic1: "动作动词",
+                level2Topic2: "格和变格",
+                level2Topic3: "过去时和将来时",
+                level2Topic4: "人和物的描述",
+                level2Link: "更多信息 →",
+                level3Title: "B1级别",
+                level3Desc: "中级水平。理解复杂文本的主要思想，就各种主题进行交流并表达你的观点。",
+                level3Topic1: "短语动词",
+                level3Topic2: "从句结构",
+                level3Topic3: "商务信函",
+                level3Topic4: "文化和传统",
+                level3Link: "更多信息 →",
+                level4Title: "B2级别",
+                level4Desc: "高级水平。流利交流，理解复杂的文本，使用习语和表达。",
+                level4Topic1: "文体和语域",
+                level4Topic2: "新闻风格",
+                level4Topic3: "商务谈判",
+                level4Topic4: "文本分析",
+                level4Link: "更多信息 →",
+                level5Title: "C1级别",
+                level5Desc: "精通水平。在各种情况下掌握语言，理解细微差别和隐含意义。",
+                level5Topic1: "科学和技术风格",
+                level5Topic2: "文学",
+                level5Topic3: "翻译和口译",
+                level5Topic4: "意大利地区方言",
+                level5Link: "更多信息 →"
+            }
+        };
+        
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+            
+            // Actualizar todos los elementos con IDs específicos
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('backLink').textContent = t.backLink;
+            
+            // Actualizar elementos de las tarjetas de niveles
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById(`level${i}Title`).textContent = t[`level${i}Title`];
+                document.getElementById(`level${i}Desc`).textContent = t[`level${i}Desc`];
+                document.getElementById(`level${i}Link`).textContent = t[`level${i}Link`];
+                
+                // Actualizar los temas de cada nivel
+                for (let j = 1; j <= 4; j++) {
+                    document.getElementById(`level${i}Topic${j}`).textContent = t[`level${i}Topic${j}`];
+                }
+            }
+            
+            // Guardar la preferencia de idioma en localStorage
+            localStorage.setItem('selectedLanguage', lang);
+        }
+        
+        // Event listener para el selector de idioma
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            changeLanguage(this.value);
+        });
+        
+        // Al cargar la página, verificar si hay una preferencia guardada
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+</html>
