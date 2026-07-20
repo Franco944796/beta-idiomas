@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Arial', sans-serif;
             min-height: 100vh;
@@ -22,6 +24,7 @@
             position: relative;
             color: #fff;
         }
+
         /* Fondo con imagen de EE.UU. */
         body::before {
             content: "";
@@ -37,6 +40,7 @@
             opacity: 1;
             z-index: -1;
         }
+
         /* Capa con colores de la bandera de EE.UU. */
         body::after {
             content: "";
@@ -45,13 +49,15 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(
-                135deg,
-                rgba(140, 0, 0, 0.85) 0%,    /* Rojo más oscuro e intenso */
-                rgba(30, 30, 80, 0.85) 100%   /* Azul más oscuro */
-            );
+            background: linear-gradient(135deg,
+                    rgba(140, 0, 0, 0.85) 0%,
+                    /* Rojo más oscuro e intenso */
+                    rgba(30, 30, 80, 0.85) 100%
+                    /* Azul más oscuro */
+                );
             z-index: -1;
         }
+
         .container {
             max-width: 1200px;
             width: 100%;
@@ -59,18 +65,23 @@
             z-index: 1;
             padding: 0 20px;
         }
+
         h1 {
             font-size: 3rem;
-            color: #fff; /* Blanco */
+            color: #fff;
+            /* Blanco */
             margin-bottom: 1.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
+
         .subtitle {
             font-size: 1.2rem;
-            color: #fff; /* Blanco */
+            color: #fff;
+            /* Blanco */
             margin-bottom: 2rem;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         }
+
         /* Burbujas rectangulares */
         .bubbles-container {
             display: grid;
@@ -80,46 +91,61 @@
             margin: 0 auto;
             width: 100%;
         }
+
         .bubble {
             width: 100%;
             height: 180px;
-            background: #fff; /* Fondo blanco sólido */
-            border: 3px solid #8B0000; /* Borde rojo oscuro sólido */
+            background: #fff;
+            /* Fondo blanco sólido */
+            border: 3px solid #8B0000;
+            /* Borde rojo oscuro sólido */
             border-radius: 15px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            color: #1E1E50; /* Texto azul oscuro */
+            color: #1E1E50;
+            /* Texto azul oscuro */
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
             padding: 15px;
         }
+
         .bubble:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(30, 30, 80, 0.6); /* Sombra azul oscuro */
-            background: #f8f8f8; /* Fondo blanco ligeramente grisáceo */
-            border-color: #1E1E50; /* Borde azul oscuro en hover */
+            box-shadow: 0 10px 25px rgba(30, 30, 80, 0.6);
+            /* Sombra azul oscuro */
+            background: #f8f8f8;
+            /* Fondo blanco ligeramente grisáceo */
+            border-color: #1E1E50;
+            /* Borde azul oscuro en hover */
         }
+
         .bubble-icon {
             font-size: 2.5rem;
             margin-bottom: 10px;
-            color: #8B0000; /* Iconos rojos oscuros */
+            color: #8B0000;
+            /* Iconos rojos oscuros */
         }
+
         .bubble-title {
             font-size: 1.5rem;
             font-weight: bold;
             margin-bottom: 8px;
-            color: #1E1E50; /* Títulos azules oscuros */
+            color: #1E1E50;
+            /* Títulos azules oscuros */
         }
+
         .bubble-desc {
             font-size: 0.9rem;
-            color: #8B0000; /* Descripciones rojas oscuras */
+            color: #8B0000;
+            /* Descripciones rojas oscuras */
             max-width: 90%;
             line-height: 1.3;
         }
+
         /* Efecto de brillo en hover */
         .bubble::before {
             content: '';
@@ -132,9 +158,11 @@
             opacity: 0;
             transition: opacity 0.3s ease;
         }
+
         .bubble:hover::before {
             opacity: 1;
         }
+
         /* Botón de navegación superior */
         .nav-top {
             position: fixed;
@@ -142,24 +170,32 @@
             right: 20px;
             z-index: 1000;
         }
+
         .btn-home {
             display: inline-block;
             padding: 10px 20px;
-            background: #fff; /* Fondo blanco sólido */
-            color: #8B0000; /* Texto rojo oscuro */
+            background: #fff;
+            /* Fondo blanco sólido */
+            color: #8B0000;
+            /* Texto rojo oscuro */
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
             transition: all 0.3s ease;
-            border: 2px solid #8B0000; /* Borde rojo oscuro */
+            border: 2px solid #8B0000;
+            /* Borde rojo oscuro */
         }
+
         .btn-home:hover {
-            background: #8B0000; /* Fondo rojo oscuro en hover */
-            color: #fff; /* Texto blanco en hover */
+            background: #8B0000;
+            /* Fondo rojo oscuro en hover */
+            color: #fff;
+            /* Texto blanco en hover */
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(30, 30, 80, 0.4); /* Sombra azul oscuro */
+            box-shadow: 0 5px 15px rgba(30, 30, 80, 0.4);
+            /* Sombra azul oscuro */
         }
-        
+
         /* Selector de idiomas */
         .language-selector {
             position: fixed;
@@ -169,8 +205,9 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 5px;
             border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
+
         .language-selector select {
             border: none;
             background: transparent;
@@ -181,10 +218,11 @@
             font-weight: bold;
             color: #8B0000;
         }
+
         .language-selector select option {
             color: #333;
         }
-        
+
         /* Pie de página con atribución */
         .footer {
             position: fixed;
@@ -200,82 +238,89 @@
             backdrop-filter: blur(5px);
             -webkit-backdrop-filter: blur(5px);
         }
+
         .footer a {
             color: rgba(255, 255, 255, 0.9);
             text-decoration: none;
             font-weight: bold;
         }
+
         .footer a:hover {
             text-decoration: underline;
         }
+
         /* Diseño responsivo */
         @media (max-width: 1200px) {
             .bubbles-container {
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             }
+
             .bubble {
                 height: 170px;
             }
+
             .bubble-icon {
                 font-size: 2.2rem;
             }
+
             .bubble-title {
                 font-size: 1.4rem;
             }
         }
+
         @media (max-width: 768px) {
             .container {
                 max-width: 100%;
             }
-            
+
             .bubbles-container {
                 grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
                 gap: 15px;
             }
-            
+
             .bubble {
                 height: 150px;
                 padding: 10px;
             }
-            
+
             .bubble-icon {
                 font-size: 2rem;
                 margin-bottom: 5px;
             }
-            
+
             .bubble-title {
                 font-size: 1.2rem;
                 margin-bottom: 5px;
             }
-            
+
             .bubble-desc {
                 font-size: 0.8rem;
                 line-height: 1.2;
             }
-            
+
             h1 {
                 font-size: 2.5rem;
             }
-            
+
             .subtitle {
                 font-size: 1rem;
             }
-            
+
             .nav-top {
                 top: 10px;
                 right: 10px;
             }
-            
+
             .btn-home {
                 padding: 8px 15px;
                 font-size: 0.9rem;
             }
-            
+
             .language-selector {
                 top: 10px;
                 left: 10px;
             }
-            
+
             .footer {
                 font-size: 0.6rem;
                 padding: 3px;
@@ -283,6 +328,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Selector de idiomas -->
     <div class="language-selector">
@@ -297,16 +343,16 @@
             <option value="zh">🇨🇳 中文</option>
         </select>
     </div>
-    
+
     <!-- Botón para volver a la página principal de idiomas -->
     <div class="nav-top">
         <a href="../index.html" class="btn-home" data-translate="homeButton">← Languages</a>
     </div>
-    
+
     <div class="container">
         <h1 id="mainTitle">English</h1>
         <p class="subtitle" id="subtitle">Select a topic to continue</p>
-        
+
         <div class="bubbles-container">
             <!-- Burbuja para Textos -->
             <a href="textos.en.html" class="bubble">
@@ -314,35 +360,35 @@
                 <div class="bubble-title" data-translate="texts">Texts</div>
                 <div class="bubble-desc" data-translate="textsDesc">Read and analyze texts in English</div>
             </a>
-            
+
             <!-- Burbuja para Historia -->
             <a href="historia.en.html" class="bubble">
                 <div class="bubble-icon">🏛️</div>
                 <div class="bubble-title" data-translate="history">History</div>
                 <div class="bubble-desc" data-translate="historyDesc">Discover the history of the U.S.</div>
             </a>
-            
+
             <!-- Burbuja para Ejercicios Prácticos -->
             <a href="ejercicios.en.html" class="bubble">
                 <div class="bubble-icon">✏️</div>
                 <div class="bubble-title" data-translate="exercises">Exercises</div>
                 <div class="bubble-desc" data-translate="exercisesDesc">Improve your English with practice</div>
             </a>
-            
+
             <!-- Burbuja para Evaluaciones -->
             <a href="evaluaciones.en.html" class="bubble">
                 <div class="bubble-icon">📊</div>
                 <div class="bubble-title" data-translate="assessments">Assessments</div>
                 <div class="bubble-desc" data-translate="assessmentsDesc">Measure your progress</div>
             </a>
-            
+
             <!-- Burbuja para Aprendizaje Auditivo -->
             <a href="auditivo.en.html" class="bubble">
                 <div class="bubble-icon">🎧</div>
                 <div class="bubble-title" data-translate="listening">Listening</div>
                 <div class="bubble-desc" data-translate="listeningDesc">Train your ear</div>
             </a>
-            
+
             <!-- Burbuja para Curso con Temario -->
             <a href="curso.en.html" class="bubble">
                 <div class="bubble-icon">📚</div>
@@ -351,7 +397,7 @@
             </a>
         </div>
     </div>
-    
+
     <!-- Pie de página con atribución -->
     <div class="footer">
         <span data-translate="footerAttribution">Urban landscape image of New York, United States.</span>
@@ -519,11 +565,11 @@
         // Función para cambiar el idioma
         function changeLanguage(lang) {
             const t = translations[lang];
-            
+
             // Actualizar título principal y subtítulo
             document.getElementById('mainTitle').textContent = t.mainTitle;
             document.getElementById('subtitle').textContent = t.subtitle;
-            
+
             // Actualizar todos los elementos con el atributo data-translate
             document.querySelectorAll('[data-translate]').forEach(element => {
                 const key = element.getAttribute('data-translate');
@@ -531,18 +577,18 @@
                     element.textContent = t[key];
                 }
             });
-            
+
             // Guardar la preferencia de idioma en localStorage
             localStorage.setItem('selectedLanguage', lang);
         }
 
         // Event listener para el selector de idioma
-        document.getElementById('languageSelect').addEventListener('change', function() {
+        document.getElementById('languageSelect').addEventListener('change', function () {
             changeLanguage(this.value);
         });
 
         // Al cargar la página, verificar si hay una preferencia guardada
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const savedLanguage = localStorage.getItem('selectedLanguage');
             if (savedLanguage) {
                 document.getElementById('languageSelect').value = savedLanguage;
@@ -551,4 +597,5 @@
         });
     </script>
 </body>
+
 </html>
