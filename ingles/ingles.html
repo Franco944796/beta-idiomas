@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English - Choose Your Path</title>
+    <link rel="stylesheet" href="shared-topic.css">
+</head>
+
+<body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+
+    <!-- Botón para volver a la página principal de idiomas -->
+    <div class="nav-top">
+        <a href="../index.html" class="btn-home" data-translate="homeButton">← Languages</a>
+    </div>
+
+    <div class="container">
+        <h1 id="mainTitle">English</h1>
+        <p class="subtitle" id="subtitle">Choose your learning path</p>
+
+        <div class="bubbles-container path-container">
+            <!-- Puerta: Autoaprendizaje -->
+            <a href="autoaprendizaje.en.html" class="bubble bubble-path">
+                <div class="bubble-icon">🧭</div>
+                <div class="bubble-title" data-translate="selfLearning">Self-Learning</div>
+                <div class="bubble-desc" data-translate="selfLearningDesc">Explore all topics freely, at your own
+                    pace</div>
+            </a>
+
+            <!-- Puerta: Aprendizaje Guiado -->
+            <a href="aprendizaje-guiado.en.html" class="bubble bubble-path">
+                <div class="bubble-icon">🎯</div>
+                <div class="bubble-title" data-translate="guidedLearning">Guided Learning</div>
+                <div class="bubble-desc" data-translate="guidedLearningDesc">Follow a structured course through every
+                    level, step by step</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Pie de página con atribución -->
+    <div class="footer">
+        <span data-translate="footerAttribution">Urban landscape image of New York, United States.</span>
+        <span data-translate="licenseText">License:</span>
+        <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
+    </div>
+
+    <script>
+        // Traducciones para los elementos de la página
+        const translations = {
+            en: {
+                mainTitle: "English",
+                subtitle: "Choose your learning path",
+                homeButton: "← Languages",
+                footerAttribution: "Urban landscape image of New York, United States.",
+                licenseText: "License:",
+                selfLearning: "Self-Learning",
+                selfLearningDesc: "Explore all topics freely, at your own pace",
+                guidedLearning: "Guided Learning",
+                guidedLearningDesc: "Follow a structured course through every level, step by step"
+            },
+            es: {
+                mainTitle: "Inglés",
+                subtitle: "Elige tu camino de aprendizaje",
+                homeButton: "← Idiomas",
+                footerAttribution: "Imagen de paisaje urbano de Nueva York, Estados Unidos.",
+                licenseText: "Licencia:",
+                selfLearning: "Autoaprendizaje",
+                selfLearningDesc: "Explora todos los temas libremente, a tu propio ritmo",
+                guidedLearning: "Aprendizaje Guiado",
+                guidedLearningDesc: "Sigue un curso estructurado por todos los niveles, paso a paso"
+            },
+            fr: {
+                mainTitle: "Anglais",
+                subtitle: "Choisissez votre parcours d'apprentissage",
+                homeButton: "← Langues",
+                footerAttribution: "Image de paysage urbain de New York, États-Unis.",
+                licenseText: "Licence:",
+                selfLearning: "Autoformation",
+                selfLearningDesc: "Explorez tous les sujets librement, à votre rythme",
+                guidedLearning: "Apprentissage Guidé",
+                guidedLearningDesc: "Suivez un cours structuré à travers tous les niveaux, étape par étape"
+            },
+            de: {
+                mainTitle: "Englisch",
+                subtitle: "Wählen Sie Ihren Lernweg",
+                homeButton: "← Sprachen",
+                footerAttribution: "Stadtbild von New York, Vereinigte Staaten.",
+                licenseText: "Lizenz:",
+                selfLearning: "Selbstlernen",
+                selfLearningDesc: "Erkunden Sie alle Themen frei, in Ihrem eigenen Tempo",
+                guidedLearning: "Geführtes Lernen",
+                guidedLearningDesc: "Folgen Sie einem strukturierten Kurs durch alle Niveaus, Schritt für Schritt"
+            },
+            it: {
+                mainTitle: "Inglese",
+                subtitle: "Scegli il tuo percorso di apprendimento",
+                homeButton: "← Lingue",
+                footerAttribution: "Immagine del paesaggio urbano di New York, Stati Uniti.",
+                licenseText: "Licenza:",
+                selfLearning: "Autoapprendimento",
+                selfLearningDesc: "Esplora tutti gli argomenti liberamente, al tuo ritmo",
+                guidedLearning: "Apprendimento Guidato",
+                guidedLearningDesc: "Segui un corso strutturato attraverso tutti i livelli, passo dopo passo"
+            },
+            pt: {
+                mainTitle: "Inglês",
+                subtitle: "Escolha seu caminho de aprendizagem",
+                homeButton: "← Idiomas",
+                footerAttribution: "Imagem de paisagem urbano de Nova York, Estados Unidos.",
+                licenseText: "Licença:",
+                selfLearning: "Autoaprendizagem",
+                selfLearningDesc: "Explore todos os tópicos livremente, no seu próprio ritmo",
+                guidedLearning: "Aprendizagem Guiada",
+                guidedLearningDesc: "Siga um curso estruturado por todos os níveis, passo a passo"
+            },
+            ru: {
+                mainTitle: "Английский",
+                subtitle: "Выберите свой путь обучения",
+                homeButton: "← Языки",
+                footerAttribution: "Изображение городского пейзажа Нью-Йорка, Соединенные Штаты.",
+                licenseText: "Лицензия:",
+                selfLearning: "Самостоятельное обучение",
+                selfLearningDesc: "Изучайте все темы свободно, в своём темпе",
+                guidedLearning: "Управляемое обучение",
+                guidedLearningDesc: "Следуйте структурированному курсу через все уровни, шаг за шагом"
+            },
+            zh: {
+                mainTitle: "英语",
+                subtitle: "选择你的学习路径",
+                homeButton: "← 语言",
+                footerAttribution: "纽约市城市景观图片，美国。",
+                licenseText: "许可证:",
+                selfLearning: "自主学习",
+                selfLearningDesc: "自由探索所有主题，按照自己的节奏",
+                guidedLearning: "引导式学习",
+                guidedLearningDesc: "循序渐进地学习结构化课程，逐级提升"
+            }
+        };
+
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            const t = translations[lang];
+
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        document.getElementById('languageSelect').addEventListener('change', function () {
+            changeLanguage(this.value);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+</body>
+
+</html>
