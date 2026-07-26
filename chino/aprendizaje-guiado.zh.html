@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese - Guided Learning</title>
+    <link rel="stylesheet" href="shared-topic.css">
+</head>
+
+<body>
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+
+    <!-- Botón para volver al selector de ruta -->
+    <div class="nav-top">
+        <div class="btn-home" data-translate="homeButton" data-target="chino.html" role="link" tabindex="0">← Chinese</div>
+    </div>
+
+    <div class="container">
+        <h1 id="mainTitle">Guided Learning</h1>
+        <p class="subtitle" id="subtitle">Follow a structured path through every level</p>
+
+        <div class="placeholder-box">
+            <div class="placeholder-box-icon">🚧</div>
+            <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+            <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            "en": {
+                        "mainTitle": "Guided Learning",
+                        "subtitle": "Follow a structured path through every level",
+                        "homeButton": "← Chinese",
+                        "placeholderTitle": "Coming Soon",
+                        "placeholderMessage": "This section is still under development. Check back soon!"
+            },
+            "es": {
+                        "mainTitle": "Aprendizaje Guiado",
+                        "subtitle": "Sigue un camino estructurado por todos los niveles",
+                        "homeButton": "← Chino",
+                        "placeholderTitle": "Próximamente",
+                        "placeholderMessage": "Esta sección todavía está en desarrollo. ¡Volvé pronto!"
+            },
+            "fr": {
+                        "mainTitle": "Apprentissage Guidé",
+                        "subtitle": "Suivez un parcours structuré à travers tous les niveaux",
+                        "homeButton": "← Chinois",
+                        "placeholderTitle": "Bientôt disponible",
+                        "placeholderMessage": "Cette section est encore en développement. Revenez bientôt !"
+            },
+            "de": {
+                        "mainTitle": "Geführtes Lernen",
+                        "subtitle": "Folgen Sie einem strukturierten Pfad durch alle Niveaus",
+                        "homeButton": "← Chinesisch",
+                        "placeholderTitle": "Demnächst verfügbar",
+                        "placeholderMessage": "Dieser Bereich befindet sich noch in der Entwicklung. Schauen Sie bald wieder vorbei!"
+            },
+            "it": {
+                        "mainTitle": "Apprendimento Guidato",
+                        "subtitle": "Segui un percorso strutturato attraverso tutti i livelli",
+                        "homeButton": "← Cinese",
+                        "placeholderTitle": "Prossimamente",
+                        "placeholderMessage": "Questa sezione è ancora in fase di sviluppo. Torna presto a trovarci!"
+            },
+            "pt": {
+                        "mainTitle": "Aprendizagem Guiada",
+                        "subtitle": "Siga um caminho estruturado por todos os níveis",
+                        "homeButton": "← Chinês",
+                        "placeholderTitle": "Em breve",
+                        "placeholderMessage": "Esta seção ainda está em desenvolvimento. Volte em breve!"
+            },
+            "ru": {
+                        "mainTitle": "Управляемое обучение",
+                        "subtitle": "Следуйте структурированному пути через все уровни",
+                        "homeButton": "← Китайский",
+                        "placeholderTitle": "Скоро",
+                        "placeholderMessage": "Этот раздел ещё находится в разработке. Загляните позже!"
+            },
+            "zh": {
+                        "mainTitle": "引导式学习",
+                        "subtitle": "循序渐进，逐级学习",
+                        "homeButton": "← 中文",
+                        "placeholderTitle": "即将推出",
+                        "placeholderMessage": "此板块仍在开发中，敬请期待！"
+            }
+};
+
+        function changeLanguage(lang) {
+            const t = translations[lang];
+
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        document.getElementById('languageSelect').addEventListener('change', function () {
+            changeLanguage(this.value);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+
+    </script>
+    <script src="../nav-links.js"></script>
+</body>
+
+</html>

@@ -25,7 +25,7 @@
 
     <!-- Botón para volver a la página principal de idiomas -->
     <div class="nav-top">
-        <a href="../index.html" class="btn-home" data-translate="homeButton">← Languages</a>
+        <div class="btn-home" data-translate="homeButton" data-target="../index.html" role="link" tabindex="0">← Languages</div>
     </div>
 
     <div class="container">
@@ -34,26 +34,26 @@
 
         <div class="bubbles-container path-container">
             <!-- Puerta: Autoaprendizaje -->
-            <a href="autoaprendizaje.en.html" class="bubble bubble-path">
+            <div class="bubble bubble-path" data-target="autoaprendizaje.en.html" role="link" tabindex="0">
                 <div class="bubble-icon">🧭</div>
                 <div class="bubble-title" data-translate="selfLearning">Self-Learning</div>
                 <div class="bubble-desc" data-translate="selfLearningDesc">Explore all topics freely, at your own
                     pace</div>
-            </a>
+            </div>
 
             <!-- Puerta: Aprendizaje Guiado -->
-            <a href="aprendizaje-guiado.en.html" class="bubble bubble-path">
+            <div class="bubble bubble-path" data-target="aprendizaje-guiado.en.html" role="link" tabindex="0">
                 <div class="bubble-icon">🎯</div>
                 <div class="bubble-title" data-translate="guidedLearning">Guided Learning</div>
                 <div class="bubble-desc" data-translate="guidedLearningDesc">Follow a structured course through every
                     level, step by step</div>
-            </a>
+            </div>
         </div>
     </div>
 
     <!-- Pie de página con atribución -->
     <div class="footer">
-        <span data-translate="footerAttribution">Urban landscape image of New York, United States.</span>
+        <span data-translate="footerAttribution">Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
         <span data-translate="licenseText">License:</span>
         <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
     </div>
@@ -65,7 +65,7 @@
                 mainTitle: "English",
                 subtitle: "Choose your learning path",
                 homeButton: "← Languages",
-                footerAttribution: "Urban landscape image of New York, United States.",
+                footerAttribution: "Night skyline of London, United Kingdom. Photo by Jesse Collins.",
                 licenseText: "License:",
                 selfLearning: "Self-Learning",
                 selfLearningDesc: "Explore all topics freely, at your own pace",
@@ -76,7 +76,7 @@
                 mainTitle: "Inglés",
                 subtitle: "Elige tu camino de aprendizaje",
                 homeButton: "← Idiomas",
-                footerAttribution: "Imagen de paisaje urbano de Nueva York, Estados Unidos.",
+                footerAttribution: "Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.",
                 licenseText: "Licencia:",
                 selfLearning: "Autoaprendizaje",
                 selfLearningDesc: "Explora todos los temas libremente, a tu propio ritmo",
@@ -87,7 +87,7 @@
                 mainTitle: "Anglais",
                 subtitle: "Choisissez votre parcours d'apprentissage",
                 homeButton: "← Langues",
-                footerAttribution: "Image de paysage urbain de New York, États-Unis.",
+                footerAttribution: "Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.",
                 licenseText: "Licence:",
                 selfLearning: "Autoformation",
                 selfLearningDesc: "Explorez tous les sujets librement, à votre rythme",
@@ -98,7 +98,7 @@
                 mainTitle: "Englisch",
                 subtitle: "Wählen Sie Ihren Lernweg",
                 homeButton: "← Sprachen",
-                footerAttribution: "Stadtbild von New York, Vereinigte Staaten.",
+                footerAttribution: "Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.",
                 licenseText: "Lizenz:",
                 selfLearning: "Selbstlernen",
                 selfLearningDesc: "Erkunden Sie alle Themen frei, in Ihrem eigenen Tempo",
@@ -109,7 +109,7 @@
                 mainTitle: "Inglese",
                 subtitle: "Scegli il tuo percorso di apprendimento",
                 homeButton: "← Lingue",
-                footerAttribution: "Immagine del paesaggio urbano di New York, Stati Uniti.",
+                footerAttribution: "Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.",
                 licenseText: "Licenza:",
                 selfLearning: "Autoapprendimento",
                 selfLearningDesc: "Esplora tutti gli argomenti liberamente, al tuo ritmo",
@@ -120,7 +120,7 @@
                 mainTitle: "Inglês",
                 subtitle: "Escolha seu caminho de aprendizagem",
                 homeButton: "← Idiomas",
-                footerAttribution: "Imagem de paisagem urbano de Nova York, Estados Unidos.",
+                footerAttribution: "Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.",
                 licenseText: "Licença:",
                 selfLearning: "Autoaprendizagem",
                 selfLearningDesc: "Explore todos os tópicos livremente, no seu próprio ritmo",
@@ -131,7 +131,7 @@
                 mainTitle: "Английский",
                 subtitle: "Выберите свой путь обучения",
                 homeButton: "← Языки",
-                footerAttribution: "Изображение городского пейзажа Нью-Йорка, Соединенные Штаты.",
+                footerAttribution: "Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.",
                 licenseText: "Лицензия:",
                 selfLearning: "Самостоятельное обучение",
                 selfLearningDesc: "Изучайте все темы свободно, в своём темпе",
@@ -142,7 +142,7 @@
                 mainTitle: "英语",
                 subtitle: "选择你的学习路径",
                 homeButton: "← 语言",
-                footerAttribution: "纽约市城市景观图片，美国。",
+                footerAttribution: "英国伦敦夜景天际线。摄影：Jesse Collins。",
                 licenseText: "许可证:",
                 selfLearning: "自主学习",
                 selfLearningDesc: "自由探索所有主题，按照自己的节奏",
@@ -180,6 +180,7 @@
             }
         });
     </script>
+    <script src="../nav-links.js"></script>
 </body>
 
 </html>

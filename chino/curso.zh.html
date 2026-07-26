@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese - Course</title>
+    <link rel="stylesheet" href="shared-topic.css">
+</head>
+
+<body>
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+
+    <!-- Botón para volver a Guided Learning -->
+    <div class="nav-top">
+        <div class="btn-home" data-translate="homeButton" data-target="aprendizaje-guiado.zh.html" role="link" tabindex="0">← Guided Learning</div>
+    </div>
+
+    <div class="container">
+        <h1 id="mainTitle">Course</h1>
+        <p class="subtitle" id="subtitle">Study all levels, from your first words to fluent debate</p>
+        <p class="course-intro" data-translate="courseIntro">This course will be organized by CEFR level, from A1 to C1, once it's available.</p>
+
+        <!-- Tabs de nivel -->
+        <div class="level-tabs">
+            <button class="level-tab-btn active" data-level="a1">A1</button>
+            <button class="level-tab-btn" data-level="a2">A2</button>
+            <button class="level-tab-btn" data-level="b1">B1</button>
+            <button class="level-tab-btn" data-level="b2">B2</button>
+            <button class="level-tab-btn" data-level="c1">C1</button>
+        </div>
+
+        <div class="level-panel active" data-level="a1">
+            <div class="placeholder-box">
+                <div class="placeholder-box-icon">🚧</div>
+                <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+                <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+            </div>
+        </div>
+
+        <div class="level-panel" data-level="a2">
+            <div class="placeholder-box">
+                <div class="placeholder-box-icon">🚧</div>
+                <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+                <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+            </div>
+        </div>
+
+        <div class="level-panel" data-level="b1">
+            <div class="placeholder-box">
+                <div class="placeholder-box-icon">🚧</div>
+                <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+                <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+            </div>
+        </div>
+
+        <div class="level-panel" data-level="b2">
+            <div class="placeholder-box">
+                <div class="placeholder-box-icon">🚧</div>
+                <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+                <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+            </div>
+        </div>
+
+        <div class="level-panel" data-level="c1">
+            <div class="placeholder-box">
+                <div class="placeholder-box-icon">🚧</div>
+                <div class="placeholder-box-title" data-translate="placeholderTitle">Coming Soon</div>
+                <div class="placeholder-box-message" data-translate="placeholderMessage">This section is still under development. Check back soon!</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            "en": {
+                        "mainTitle": "Course",
+                        "subtitle": "Study all levels, from your first words to fluent debate",
+                        "homeButton": "← Guided Learning",
+                        "courseIntro": "This course will be organized by CEFR level, from A1 to C1, once it's available.",
+                        "placeholderTitle": "Coming Soon",
+                        "placeholderMessage": "This section is still under development. Check back soon!"
+            },
+            "es": {
+                        "mainTitle": "Curso",
+                        "subtitle": "Estudia todos los niveles, desde tus primeras palabras hasta el debate fluido",
+                        "homeButton": "← Aprendizaje Guiado",
+                        "courseIntro": "Este curso se organizará por nivel del MCER, de A1 a C1, una vez esté disponible.",
+                        "placeholderTitle": "Próximamente",
+                        "placeholderMessage": "Esta sección todavía está en desarrollo. ¡Volvé pronto!"
+            },
+            "fr": {
+                        "mainTitle": "Cours",
+                        "subtitle": "Étudiez tous les niveaux, de vos premiers mots au débat fluide",
+                        "homeButton": "← Apprentissage Guidé",
+                        "courseIntro": "Ce cours sera organisé par niveau du CECR, de A1 à C1, une fois disponible.",
+                        "placeholderTitle": "Bientôt disponible",
+                        "placeholderMessage": "Cette section est encore en développement. Revenez bientôt !"
+            },
+            "de": {
+                        "mainTitle": "Kurs",
+                        "subtitle": "Studieren Sie alle Niveaus, von den ersten Worten bis zur fließenden Debatte",
+                        "homeButton": "← Geführtes Lernen",
+                        "courseIntro": "Dieser Kurs wird nach GER-Niveau von A1 bis C1 gegliedert sein, sobald er verfügbar ist.",
+                        "placeholderTitle": "Demnächst verfügbar",
+                        "placeholderMessage": "Dieser Bereich befindet sich noch in der Entwicklung. Schauen Sie bald wieder vorbei!"
+            },
+            "it": {
+                        "mainTitle": "Corso",
+                        "subtitle": "Studia tutti i livelli, dalle prime parole al dibattito fluente",
+                        "homeButton": "← Apprendimento Guidato",
+                        "courseIntro": "Questo corso sarà organizzato per livello QCER, da A1 a C1, non appena disponibile.",
+                        "placeholderTitle": "Prossimamente",
+                        "placeholderMessage": "Questa sezione è ancora in fase di sviluppo. Torna presto a trovarci!"
+            },
+            "pt": {
+                        "mainTitle": "Curso",
+                        "subtitle": "Estude todos os níveis, das primeiras palavras ao debate fluente",
+                        "homeButton": "← Aprendizagem Guiada",
+                        "courseIntro": "Este curso será organizado por nível do QECR, de A1 a C1, assim que estiver disponível.",
+                        "placeholderTitle": "Em breve",
+                        "placeholderMessage": "Esta seção ainda está em desenvolvimento. Volte em breve!"
+            },
+            "ru": {
+                        "mainTitle": "Курс",
+                        "subtitle": "Изучайте все уровни, от первых слов до свободной дискуссии",
+                        "homeButton": "← Управляемое обучение",
+                        "courseIntro": "Этот курс будет организован по уровням CEFR, от A1 до C1, как только он станет доступен.",
+                        "placeholderTitle": "Скоро",
+                        "placeholderMessage": "Этот раздел ещё находится в разработке. Загляните позже!"
+            },
+            "zh": {
+                        "mainTitle": "课程",
+                        "subtitle": "学习所有级别，从第一句话到流利辩论",
+                        "homeButton": "← 引导式学习",
+                        "courseIntro": "本课程将按 CEFR 等级组织，从 A1 到 C1，敬请期待。",
+                        "placeholderTitle": "即将推出",
+                        "placeholderMessage": "此板块仍在开发中，敬请期待！"
+            }
+};
+
+        function changeLanguage(lang) {
+            const t = translations[lang];
+
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        document.getElementById('languageSelect').addEventListener('change', function () {
+            changeLanguage(this.value);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+
+    </script>
+    <script src="../level-tabs.js"></script>
+    <script src="../nav-links.js"></script>
+</body>
+
+</html>

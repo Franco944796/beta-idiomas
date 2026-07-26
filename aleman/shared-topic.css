@@ -1,0 +1,339 @@
+/* =========================================================================
+   SHARED-TOPIC.CSS — German
+   Generado a partir del patrón de ingles/shared-topic.css.
+   Fondo: gradiente CSS (sin foto) tematizado con el color de acento
+   #B22222. Tipografía y estructura idénticas a las demás secciones
+   de idioma para mantener consistencia de marca ("Trilex").
+   ========================================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(10,10,10,0.9) 0%, rgba(122,16,16,0.85) 100%);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.course-intro {
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Burbujas rectangulares (tarjetas de navegación) */
+.bubbles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bubble {
+    cursor: pointer;
+    width: 100%;
+    height: 180px;
+    background: #fff;
+    border: 3px solid #B22222;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1E1E50;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.bubble:hover,
+.bubble:focus-visible {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    background: #f8f8f8;
+    border-color: #1E1E50;
+}
+
+.bubble:focus-visible {
+    outline: 3px solid #1E1E50;
+    outline-offset: 3px;
+}
+
+.bubble-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #B22222;
+}
+
+.bubble-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1E1E50;
+}
+
+.bubble-desc {
+    font-size: 0.9rem;
+    color: #B22222;
+    max-width: 90%;
+    line-height: 1.3;
+}
+
+/* Variante "puerta de ruta" (2 opciones grandes) */
+.path-container {
+    max-width: 760px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.bubble-path {
+    height: 260px;
+}
+
+.bubble-path .bubble-icon {
+    font-size: 3.2rem;
+}
+
+.bubble-path .bubble-title {
+    font-size: 1.8rem;
+}
+
+.bubble-path .bubble-desc {
+    font-size: 1rem;
+    max-width: 85%;
+}
+
+/* Caja de contenido pendiente ("Coming Soon") */
+.placeholder-box {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px dashed rgba(255, 255, 255, 0.45);
+    border-radius: 14px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.placeholder-box-icon {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+
+.placeholder-box-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.placeholder-box-message {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.5;
+}
+
+/* Tabs de nivel (A1-C1) */
+.level-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.level-tab-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.level-tab-btn:hover,
+.level-tab-btn:focus-visible {
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.level-tab-btn.active {
+    background: #fff;
+    color: #B22222;
+    border-color: #fff;
+}
+
+.level-panel {
+    display: none;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.level-panel.active {
+    display: block;
+    animation: fadeInLevel 0.35s ease;
+}
+
+@keyframes fadeInLevel {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Botón de navegación superior */
+.nav-top {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.btn-home {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #B22222;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #B22222;
+}
+
+.btn-home:hover,
+.btn-home:focus-visible {
+    background: #B22222;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Selector de idiomas */
+.language-selector {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.language-selector select {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: #B22222;
+}
+
+.language-selector select option {
+    color: #333;
+}
+
+/* Diseño responsivo */
+@media (max-width: 1200px) {
+    .bubbles-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .bubble {
+        height: 170px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .bubbles-container {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 15px;
+    }
+
+    .bubble {
+        height: 150px;
+        padding: 10px;
+    }
+
+    .bubble-path {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .nav-top {
+        top: 10px;
+        right: 10px;
+    }
+
+    .btn-home {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .language-selector {
+        top: 10px;
+        left: 10px;
+    }
+}

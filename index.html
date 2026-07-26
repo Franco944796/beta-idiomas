@@ -24,10 +24,11 @@
         <!-- Selector de idiomas -->
         <div class="language-switch">
             <!-- Inglés (disponible) -->
-            <a href="ingles/ingles.html" class="lang-item" title="English/en">
-                <img src="imgs/estados-unidos.png" alt="Inglés" class="lang-icon">
+            <div class="lang-item" data-target="ingles/ingles.html" role="link" tabindex="0" aria-label="English"
+                title="English/en">
+                <img src="imgs/reino-unido.png" alt="Inglés" class="lang-icon">
                 <span class="lang-text">English</span>
-            </a>
+            </div>
 
             <!-- Alemán (bloqueado) -->
             <div class="lang-item locked" data-lang="de">
@@ -45,12 +46,12 @@
                 <span class="development-message">В разработке</span>
             </div>
 
-            <!-- Italiano (bloqueado) -->
-            <div class="lang-item locked" data-lang="it">
-                <img src="imgs/italia.png" alt="Italiano" class="lang-icon">
-                <span class="lang-text">Italiano</span>
+            <!-- Chino (bloqueado) -->
+            <div class="lang-item locked" data-lang="zh">
+                <img src="imgs/china.png" alt="Chino" class="lang-icon">
+                <span class="lang-text">中文</span>
                 <span class="lock-icon">🔒</span>
-                <span class="development-message">In sviluppo</span>
+                <span class="development-message">开发中</span>
             </div>
 
             <!-- Castellano (bloqueado) -->
@@ -83,17 +84,19 @@
     <!-- Pie de página con derechos de autor -->
     <footer class="footer">
         <p>&copy; 2025 Trilex. Todos los derechos reservados |
-            <a href="terminos.html">Términos de uso</a>
+            <span class="footer-link" data-target="terminos.html" role="link" tabindex="0">Términos de uso</span>
         </p>
     </footer>
 
     <!-- Atribución de iconos de banderas -->
     <div class="attribution">
-        Iconos de banderas: <a href="https://www.flaticon.es/iconos-gratis/italia" title="italia iconos"
-            target="_blank">Freepik - Flaticon</a>
+        <!-- TODO: actualizar el link con la fuente real de imgs/china.png -->
+        Iconos de banderas: <a href="https://www.flaticon.es/" title="banderas iconos" target="_blank">Freepik -
+            Flaticon</a>
     </div>
 
     <script src="script.js"></script>
+    <script src="nav-links.js"></script>
 </body>
 
 </html>

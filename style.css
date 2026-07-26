@@ -183,6 +183,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: white;
+    cursor: pointer;
     transition: all 0.3s ease;
     padding: 8px;
     border-radius: 50%;
@@ -365,13 +366,17 @@ body {
     margin: 2px 0;
 }
 
-.footer a {
+.footer a,
+.footer-link {
     color: #4CAF50;
     text-decoration: none;
     margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
 }
 
-.footer a:hover {
+.footer a:hover,
+.footer-link:hover {
     text-decoration: underline;
 }
 

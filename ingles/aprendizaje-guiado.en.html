@@ -25,7 +25,7 @@
 
     <!-- Botón para volver al selector de ruta -->
     <div class="nav-top">
-        <a href="ingles.html" class="btn-home" data-translate="homeButton">← English</a>
+        <div class="btn-home" data-translate="homeButton" data-target="ingles.html" role="link" tabindex="0">← English</div>
     </div>
 
     <div class="container">
@@ -34,31 +34,31 @@
 
         <div class="bubbles-container">
             <!-- Burbuja para Curso con Temario -->
-            <a href="curso.en.html" class="bubble">
+            <div class="bubble" data-target="curso.en.html" role="link" tabindex="0">
                 <div class="bubble-icon">📚</div>
                 <div class="bubble-title" data-translate="course">Course</div>
                 <div class="bubble-desc" data-translate="courseDesc">Study all levels</div>
-            </a>
+            </div>
 
             <!-- Burbuja para Ejercicios Prácticos -->
-            <a href="ejercicios.en.html" class="bubble">
+            <div class="bubble" data-target="ejercicios.en.html" role="link" tabindex="0">
                 <div class="bubble-icon">✏️</div>
                 <div class="bubble-title" data-translate="exercises">Exercises</div>
                 <div class="bubble-desc" data-translate="exercisesDesc">Improve your English with practice</div>
-            </a>
+            </div>
 
             <!-- Burbuja para Evaluaciones -->
-            <a href="evaluaciones.en.html" class="bubble">
+            <div class="bubble" data-target="evaluaciones.en.html" role="link" tabindex="0">
                 <div class="bubble-icon">📊</div>
                 <div class="bubble-title" data-translate="assessments">Assessments</div>
                 <div class="bubble-desc" data-translate="assessmentsDesc">Measure your progress</div>
-            </a>
+            </div>
         </div>
     </div>
 
     <!-- Pie de página con atribución -->
     <div class="footer">
-        <span data-translate="footerAttribution">Urban landscape image of New York, United States.</span>
+        <span data-translate="footerAttribution">Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
         <span data-translate="licenseText">License:</span>
         <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
     </div>
@@ -69,7 +69,7 @@
                 mainTitle: "Guided Learning",
                 subtitle: "Follow a structured path through every level",
                 homeButton: "← English",
-                footerAttribution: "Urban landscape image of New York, United States.",
+                footerAttribution: "Night skyline of London, United Kingdom. Photo by Jesse Collins.",
                 licenseText: "License:",
                 course: "Course",
                 courseDesc: "Study all levels",
@@ -82,7 +82,7 @@
                 mainTitle: "Aprendizaje Guiado",
                 subtitle: "Sigue un camino estructurado por todos los niveles",
                 homeButton: "← Inglés",
-                footerAttribution: "Imagen de paisaje urbano de Nueva York, Estados Unidos.",
+                footerAttribution: "Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.",
                 licenseText: "Licencia:",
                 course: "Curso",
                 courseDesc: "Estudia todos los niveles",
@@ -95,7 +95,7 @@
                 mainTitle: "Apprentissage Guidé",
                 subtitle: "Suivez un parcours structuré à travers tous les niveaux",
                 homeButton: "← Anglais",
-                footerAttribution: "Image de paysage urbain de New York, États-Unis.",
+                footerAttribution: "Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.",
                 licenseText: "Licence:",
                 course: "Cours",
                 courseDesc: "Étudiez tous les niveaux",
@@ -108,7 +108,7 @@
                 mainTitle: "Geführtes Lernen",
                 subtitle: "Folgen Sie einem strukturierten Pfad durch alle Niveaus",
                 homeButton: "← Englisch",
-                footerAttribution: "Stadtbild von New York, Vereinigte Staaten.",
+                footerAttribution: "Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.",
                 licenseText: "Lizenz:",
                 course: "Kurs",
                 courseDesc: "Studieren Sie alle Niveaus",
@@ -121,7 +121,7 @@
                 mainTitle: "Apprendimento Guidato",
                 subtitle: "Segui un percorso strutturato attraverso tutti i livelli",
                 homeButton: "← Inglese",
-                footerAttribution: "Immagine del paesaggio urbano di New York, Stati Uniti.",
+                footerAttribution: "Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.",
                 licenseText: "Licenza:",
                 course: "Corso",
                 courseDesc: "Studia tutti i livelli",
@@ -134,7 +134,7 @@
                 mainTitle: "Aprendizagem Guiada",
                 subtitle: "Siga um caminho estruturado por todos os níveis",
                 homeButton: "← Inglês",
-                footerAttribution: "Imagem de paisagem urbano de Nova York, Estados Unidos.",
+                footerAttribution: "Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.",
                 licenseText: "Licença:",
                 course: "Curso",
                 courseDesc: "Estude todos os níveis",
@@ -147,7 +147,7 @@
                 mainTitle: "Управляемое обучение",
                 subtitle: "Следуйте структурированному пути через все уровни",
                 homeButton: "← Английский",
-                footerAttribution: "Изображение городского пейзажа Нью-Йорка, Соединенные Штаты.",
+                footerAttribution: "Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.",
                 licenseText: "Лицензия:",
                 course: "Курс",
                 courseDesc: "Изучайте все уровни",
@@ -160,7 +160,7 @@
                 mainTitle: "引导式学习",
                 subtitle: "循序渐进，逐级学习",
                 homeButton: "← 英语",
-                footerAttribution: "纽约市城市景观图片，美国。",
+                footerAttribution: "英国伦敦夜景天际线。摄影：Jesse Collins。",
                 licenseText: "许可证:",
                 course: "课程",
                 courseDesc: "学习所有级别",
@@ -199,6 +199,7 @@
             }
         });
     </script>
+    <script src="../nav-links.js"></script>
 </body>
 
 </html>

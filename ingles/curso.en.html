@@ -1,346 +1,311 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course with Syllabus</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            min-height: 100vh;
-            padding: 20px;
-            position: relative;
-            color: #fff;
-            background-color: #000;
-        }
-        /* Fondo con imagen de EE.UU. */
-        body::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://images.unsplash.com/photo-1585022728588-dbbd9a9932da?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            opacity: 0.4;
-            z-index: -1;
-        }
-        /* Degradado con colores de la bandera de EE.UU. */
-        body::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(
-                to bottom,
-                rgba(178, 34, 52, 0.2) 0%,    /* Rojo */
-                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
-                rgba(0, 40, 85, 0.15) 66%,       /* Azul */
-                rgba(178, 34, 52, 0.2) 100%      /* Rojo */
-            );
-            z-index: -1;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-            position: relative;
-            z-index: 1;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 2px solid #B22234; /* Borde rojo */
-            padding-bottom: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 20px;
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            position: relative;
-        }
-        .header h1 {
-            color: #B22234; /* Rojo */
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 20px;
-            color: #B22234; /* Rojo */
-            text-decoration: none;
-            font-weight: bold;
-            padding: 12px 25px;
-            border: 1px solid #B22234; /* Borde rojo */
-            border-radius: 5px;
-            transition: all 0.3s;
-            background: rgba(255, 255, 255, 0.2);
-            position: relative;
-            z-index: 20;
-            cursor: pointer;
-            min-width: 200px;
-            text-align: center;
-        }
-        .back-link:hover {
-            background-color: #B22234;
-            color: #fff;
-        }
-        .levels-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-        .level-card {
-            background: linear-gradient(135deg, 
-                rgba(178, 34, 52, 0.15),    /* Rojo */
-                rgba(255, 255, 255, 0.2)      /* Blanco */
-            );
-            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
-            border-radius: 15px;
-            padding: 20px;
-            transition: all 0.3s;
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            position: relative;
-        }
-        .level-card:hover {
-            background: linear-gradient(135deg, 
-                rgba(178, 34, 52, 0.25),
-                rgba(255, 255, 255, 0.3)
-            );
-            border-color: rgba(0, 40, 85, 0.7);
-        }
-        .level-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            border-bottom: 1px solid rgba(0, 40, 85, 0.3);
-            padding-bottom: 10px;
-        }
-        .level-icon {
-            font-size: 2rem;
-            margin-right: 15px;
-        }
-        .level-title {
-            color: #B22234; /* Rojo */
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .level-content {
-            color: #ddd;
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-        .level-topics {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 8px;
-            padding: 15px;
-            margin-top: 15px;
-        }
-        .topic-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            color: #f0f0f0;
-        }
-        .topic-item:last-child {
-            margin-bottom: 0;
-        }
-        .topic-bullet {
-            color: #002855; /* Azul */
-            margin-right: 10px;
-            font-weight: bold;
-        }
-        .level-link {
-            display: inline-block;
-            margin-top: 15px;
-            color: #002855; /* Azul */
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-        .level-link:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
-        @media (max-width: 768px) {
-            .levels-container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <title>English - Course</title>
+    <link rel="stylesheet" href="shared-topic.css">
 </head>
+
 <body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+
+    <!-- Botón para volver a Guided Learning -->
+    <div class="nav-top">
+        <div class="btn-home" data-translate="homeButton" data-target="aprendizaje-guiado.en.html" role="link" tabindex="0">← Guided Learning</div>
+    </div>
+
     <div class="container">
-        <div class="header">
-            <h1>Course with Syllabus</h1>
-            <p>Learn the English language by levels from A1 to C1</p>
-            <a href="ingles.html" class="back-link">← Back to topic selection</a>
+        <h1 id="mainTitle">Course</h1>
+        <p class="subtitle" id="subtitle">Study all levels, from your first words to fluent debate</p>
+        <p class="course-intro" data-translate="courseIntro">
+            The course is organized by CEFR level, from A1 to C1. Each level lists its grammar
+            focus and vocabulary focus. Course content stays in English regardless of your
+            interface language, since it's what you're here to practice.
+        </p>
+
+        <!-- Tabs de nivel -->
+        <div class="level-tabs">
+            <button class="level-tab-btn active" data-level="a1">A1</button>
+            <button class="level-tab-btn" data-level="a2">A2</button>
+            <button class="level-tab-btn" data-level="b1">B1</button>
+            <button class="level-tab-btn" data-level="b2">B2</button>
+            <button class="level-tab-btn" data-level="c1">C1</button>
         </div>
-        
-        <div class="levels-container">
-            <!-- Nivel A1 -->
-            <div class="level-card">
-                <div class="level-header">
-                    <div class="level-icon">🔤</div>
-                    <div class="level-title">Level A1</div>
-                </div>
-                <div class="level-content">
-                    <p>Beginner level. Learn the fundamentals of the English language: alphabet, basic vocabulary, simple sentences and elementary grammar.</p>
-                    <div class="level-topics">
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Alphabet and pronunciation</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Basic greetings and introductions</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Numbers and dates</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Simple sentences</span>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="level-link">More information →</a>
+
+        <!-- Panel A1 -->
+        <div class="level-panel active" data-level="a1">
+            <div class="level-can-do">
+                <strong>By the end of A1</strong> you can introduce yourself, ask simple
+                questions, and understand short, everyday phrases spoken slowly.
             </div>
-            
-            <!-- Nivel A2 -->
-            <div class="level-card">
-                <div class="level-header">
-                    <div class="level-icon">🗣️</div>
-                    <div class="level-title">Level A2</div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-card-title">✏️ Grammar Focus</div>
+                    <ul class="topic-list">
+                        <li>The verb "to be" (am / is / are)</li>
+                        <li>Present simple, affirmative and negative</li>
+                        <li>Articles: a, an, the</li>
+                        <li>Singular and plural nouns</li>
+                        <li>Subject pronouns and possessive adjectives</li>
+                    </ul>
                 </div>
-                <div class="level-content">
-                    <p>Elementary level. Expand your vocabulary, understand simple texts and hold conversations on familiar topics.</p>
-                    <div class="level-topics">
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Movement verbs</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Cases and declensions</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Past and future tenses</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Description of people and objects</span>
-                        </div>
-                    </div>
+                <div class="topic-card">
+                    <div class="topic-card-title">💬 Vocabulary Focus</div>
+                    <ul class="topic-list">
+                        <li>Greetings and introductions</li>
+                        <li>Numbers, days, and months</li>
+                        <li>Family members</li>
+                        <li>Colors and everyday objects</li>
+                        <li>Basic food and drink</li>
+                    </ul>
                 </div>
-                <a href="#" class="level-link">More information →</a>
             </div>
-            
-            <!-- Nivel B1 -->
-            <div class="level-card">
-                <div class="level-header">
-                    <div class="level-icon">📖</div>
-                    <div class="level-title">Level B1</div>
-                </div>
-                <div class="level-content">
-                    <p>Intermediate level. Understand the main ideas of complex texts, communicate on various topics and express your opinion.</p>
-                    <div class="level-topics">
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Phrasal verbs</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Subordinate clause constructions</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Business correspondence</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Culture and traditions</span>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="level-link">More information →</a>
+        </div>
+
+        <!-- Panel A2 -->
+        <div class="level-panel" data-level="a2">
+            <div class="level-can-do">
+                <strong>By the end of A2</strong> you can describe your routine, talk about
+                the past, and handle simple exchanges while shopping or traveling.
             </div>
-            
-            <!-- Nivel B2 -->
-            <div class="level-card">
-                <div class="level-header">
-                    <div class="level-icon">💼</div>
-                    <div class="level-title">Level B2</div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-card-title">✏️ Grammar Focus</div>
+                    <ul class="topic-list">
+                        <li>Past simple, regular and irregular verbs</li>
+                        <li>Present continuous</li>
+                        <li>Comparatives and superlatives</li>
+                        <li>There is / there are</li>
+                        <li>Countable and uncountable nouns</li>
+                    </ul>
                 </div>
-                <div class="level-content">
-                    <p>Advanced level. Communicate fluently, understand complex texts and use idioms and expressions.</p>
-                    <div class="level-topics">
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Stylistics and registers</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Journalistic style</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Business negotiations</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Text analysis</span>
-                        </div>
-                    </div>
+                <div class="topic-card">
+                    <div class="topic-card-title">💬 Vocabulary Focus</div>
+                    <ul class="topic-list">
+                        <li>Daily routines</li>
+                        <li>Food and restaurants</li>
+                        <li>Travel and directions</li>
+                        <li>Weather and seasons</li>
+                        <li>Clothes and shopping</li>
+                    </ul>
                 </div>
-                <a href="#" class="level-link">More information →</a>
             </div>
-            
-            <!-- Nivel C1 -->
-            <div class="level-card">
-                <div class="level-header">
-                    <div class="level-icon">🎓</div>
-                    <div class="level-title">Level C1</div>
+        </div>
+
+        <!-- Panel B1 -->
+        <div class="level-panel" data-level="b1">
+            <div class="level-can-do">
+                <strong>By the end of B1</strong> you can talk about experiences, give
+                opinions, and cope with most situations while working or traveling in
+                English.
+            </div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-card-title">✏️ Grammar Focus</div>
+                    <ul class="topic-list">
+                        <li>Present perfect vs. past simple</li>
+                        <li>Future forms: will, going to, present continuous</li>
+                        <li>Modal verbs: should, must, might, can</li>
+                        <li>First conditional</li>
+                        <li>Basic relative clauses (who, which, that)</li>
+                    </ul>
                 </div>
-                <div class="level-content">
-                    <p>Proficiency level. Master the language in various situations and understand nuances and implicit meanings.</p>
-                    <div class="level-topics">
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Scientific and technical style</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Literature</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Translation and interpretation</span>
-                        </div>
-                        <div class="topic-item">
-                            <span class="topic-bullet">•</span>
-                            <span>Regional dialects of English</span>
-                        </div>
-                    </div>
+                <div class="topic-card">
+                    <div class="topic-card-title">💬 Vocabulary Focus</div>
+                    <ul class="topic-list">
+                        <li>Work and studies</li>
+                        <li>Opinions and agreement/disagreement</li>
+                        <li>Health and the body</li>
+                        <li>Technology and social media</li>
+                        <li>Phrasal verbs (common set)</li>
+                    </ul>
                 </div>
-                <a href="#" class="level-link">More information →</a>
+            </div>
+        </div>
+
+        <!-- Panel B2 -->
+        <div class="level-panel" data-level="b2">
+            <div class="level-can-do">
+                <strong>By the end of B2</strong> you can follow complex arguments, write
+                clear detailed text, and interact fluently with native speakers.
+            </div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-card-title">✏️ Grammar Focus</div>
+                    <ul class="topic-list">
+                        <li>Passive voice, all tenses</li>
+                        <li>Reported speech</li>
+                        <li>Second and third conditionals</li>
+                        <li>Relative clauses, defining and non-defining</li>
+                        <li>Modal verbs of deduction (must have, can't have)</li>
+                    </ul>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-card-title">💬 Vocabulary Focus</div>
+                    <ul class="topic-list">
+                        <li>Media and current affairs</li>
+                        <li>Environment and sustainability</li>
+                        <li>Abstract ideas and feelings</li>
+                        <li>Common idioms and collocations</li>
+                        <li>Formal vs. informal register</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel C1 -->
+        <div class="level-panel" data-level="c1">
+            <div class="level-can-do">
+                <strong>By the end of C1</strong> you can express yourself precisely on
+                complex topics, understand implicit meaning, and use the language flexibly
+                for academic or professional purposes.
+            </div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-card-title">✏️ Grammar Focus</div>
+                    <ul class="topic-list">
+                        <li>Inversion for emphasis (Never have I...)</li>
+                        <li>Mixed conditionals</li>
+                        <li>Advanced modal nuance (should have, needn't have)</li>
+                        <li>The subjunctive in formal English</li>
+                        <li>Cleft sentences (What I need is...)</li>
+                    </ul>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-card-title">💬 Vocabulary Focus</div>
+                    <ul class="topic-list">
+                        <li>Academic and formal writing</li>
+                        <li>Nuanced synonyms and connotation</li>
+                        <li>Debate and persuasive language</li>
+                        <li>Advanced collocations and idioms</li>
+                        <li>Field-specific terminology</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Pie de página con atribución -->
+    <div class="footer">
+        <span data-translate="footerAttribution">Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
+        <span data-translate="licenseText">License:</span>
+        <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
+    </div>
+
+    <script>
+        const translations = {
+            en: {
+                mainTitle: "Course",
+                subtitle: "Study all levels, from your first words to fluent debate",
+                homeButton: "← Guided Learning",
+                footerAttribution: "Night skyline of London, United Kingdom. Photo by Jesse Collins.",
+                licenseText: "License:",
+                courseIntro: "The course is organized by CEFR level, from A1 to C1. Each level lists its grammar focus and vocabulary focus. Course content stays in English regardless of your interface language, since it's what you're here to practice."
+            },
+            es: {
+                mainTitle: "Curso",
+                subtitle: "Estudia todos los niveles, desde tus primeras palabras hasta el debate fluido",
+                homeButton: "← Aprendizaje Guiado",
+                footerAttribution: "Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.",
+                licenseText: "Licencia:",
+                courseIntro: "El curso está organizado por nivel del MCER, de A1 a C1. Cada nivel indica su foco gramatical y su foco de vocabulario. El contenido del curso se mantiene en inglés sin importar tu idioma de interfaz, ya que es lo que venís a practicar."
+            },
+            fr: {
+                mainTitle: "Cours",
+                subtitle: "Étudiez tous les niveaux, de vos premiers mots au débat fluide",
+                homeButton: "← Apprentissage Guidé",
+                footerAttribution: "Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.",
+                licenseText: "Licence:",
+                courseIntro: "Le cours est organisé par niveau du CECR, de A1 à C1. Chaque niveau indique son focus grammatical et son focus lexical. Le contenu du cours reste en anglais quelle que soit votre langue d'interface, puisque c'est ce que vous venez pratiquer."
+            },
+            de: {
+                mainTitle: "Kurs",
+                subtitle: "Studieren Sie alle Niveaus, von den ersten Worten bis zur fließenden Debatte",
+                homeButton: "← Geführtes Lernen",
+                footerAttribution: "Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.",
+                licenseText: "Lizenz:",
+                courseIntro: "Der Kurs ist nach GER-Niveau von A1 bis C1 gegliedert. Jedes Niveau listet seinen Grammatik- und Wortschatzfokus auf. Die Kursinhalte bleiben unabhängig von Ihrer Interfacesprache auf Englisch, da Sie genau das üben möchten."
+            },
+            it: {
+                mainTitle: "Corso",
+                subtitle: "Studia tutti i livelli, dalle prime parole al dibattito fluente",
+                homeButton: "← Apprendimento Guidato",
+                footerAttribution: "Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.",
+                licenseText: "Licenza:",
+                courseIntro: "Il corso è organizzato per livello QCER, da A1 a C1. Ogni livello elenca il suo focus grammaticale e lessicale. I contenuti del corso restano in inglese indipendentemente dalla lingua dell'interfaccia, perché è ciò che sei qui a praticare."
+            },
+            pt: {
+                mainTitle: "Curso",
+                subtitle: "Estude todos os níveis, das primeiras palavras ao debate fluente",
+                homeButton: "← Aprendizagem Guiada",
+                footerAttribution: "Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.",
+                licenseText: "Licença:",
+                courseIntro: "O curso é organizado por nível do QECR, de A1 a C1. Cada nível lista seu foco gramatical e de vocabulário. O conteúdo do curso permanece em inglês independentemente do seu idioma de interface, já que é isso que você veio praticar."
+            },
+            ru: {
+                mainTitle: "Курс",
+                subtitle: "Изучайте все уровни, от первых слов до свободной дискуссии",
+                homeButton: "← Управляемое обучение",
+                footerAttribution: "Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.",
+                licenseText: "Лицензия:",
+                courseIntro: "Курс организован по уровням CEFR, от A1 до C1. Для каждого уровня указан грамматический и лексический фокус. Содержание курса остаётся на английском независимо от языка интерфейса, ведь именно его вы пришли практиковать."
+            },
+            zh: {
+                mainTitle: "课程",
+                subtitle: "学习所有级别，从第一句话到流利辩论",
+                homeButton: "← 引导式学习",
+                footerAttribution: "英国伦敦夜景天际线。摄影：Jesse Collins。",
+                licenseText: "许可证:",
+                courseIntro: "课程按欧洲语言共同参考框架（CEFR）等级组织，从 A1 到 C1。每个等级都列出语法重点和词汇重点。无论界面语言是什么，课程内容都保持英语，因为这正是你要练习的内容。"
+            }
+        };
+
+        function changeLanguage(lang) {
+            const t = translations[lang];
+
+            document.getElementById('mainTitle').textContent = t.mainTitle;
+            document.getElementById('subtitle').textContent = t.subtitle;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    element.textContent = t[key];
+                }
+            });
+
+            localStorage.setItem('selectedLanguage', lang);
+        }
+
+        document.getElementById('languageSelect').addEventListener('change', function () {
+            changeLanguage(this.value);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedLanguage = localStorage.getItem('selectedLanguage');
+            if (savedLanguage) {
+                document.getElementById('languageSelect').value = savedLanguage;
+                changeLanguage(savedLanguage);
+            }
+        });
+    </script>
+
+    <!-- Controlador de tabs de nivel (reutilizado del proyecto) -->
+    <script src="../level-tabs.js"></script>
+    <script src="../nav-links.js"></script>
 </body>
+
 </html>

@@ -69,9 +69,9 @@ const MODAL_TRANSLATIONS = {
         title: 'Trilex kündigt an',
         message: 'Dieser Abschnitt befindet sich in der Entwicklung'
     },
-    it: {
-        title: 'Trilex annuncia',
-        message: 'Questa sezione è in sviluppo'
+    zh: {
+        title: 'Trilex 宣布',
+        message: '此板块正在开发中'
     },
     es: {
         title: 'Trilex anuncia',

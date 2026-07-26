@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
             color: #fff;
             background-color: #000;
         }
-        /* Fondo con imagen de EE.UU. */
+
         body::before {
             content: "";
             position: absolute;
@@ -26,14 +26,14 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://images.unsplash.com/photo-1585022728588-dbbd9a9932da?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-image: url('https://images.unsplash.com/photo-1745797967896-4919406ff5e2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
             opacity: 0.4;
             z-index: -1;
         }
-        /* Degradado con colores de la bandera de EE.UU. */
+
         body::after {
             content: "";
             position: absolute;
@@ -43,10 +43,10 @@
             height: 100%;
             background: linear-gradient(
                 to bottom,
-                rgba(178, 34, 52, 0.2) 0%,    /* Rojo */
-                rgba(255, 255, 255, 0.2) 33%,     /* Blanco */
-                rgba(0, 40, 85, 0.15) 66%,       /* Azul */
-                rgba(178, 34, 52, 0.2) 100%      /* Rojo */
+                rgba(178, 34, 52, 0.2) 0%,
+                rgba(255, 255, 255, 0.2) 33%,
+                rgba(0, 40, 85, 0.15) 66%,
+                rgba(178, 34, 52, 0.2) 100%
             );
             z-index: -1;
         }
@@ -60,7 +60,7 @@
         .header {
             text-align: center;
             margin-bottom: 40px;
-            border-bottom: 2px solid #B22234; /* Borde rojo */
+            border-bottom: 2px solid #B22234;
             padding-bottom: 20px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
@@ -70,7 +70,7 @@
             position: relative;
         }
         .header h1 {
-            color: #B22234; /* Rojo */
+            color: #B22234;
             font-size: 2.5rem;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
@@ -78,11 +78,11 @@
         .back-link {
             display: inline-block;
             margin-top: 20px;
-            color: #B22234; /* Rojo */
+            color: #B22234;
             text-decoration: none;
             font-weight: bold;
             padding: 12px 25px;
-            border: 1px solid #B22234; /* Borde rojo */
+            border: 1px solid #B22234;
             border-radius: 5px;
             transition: all 0.3s;
             background: rgba(255, 255, 255, 0.2);
@@ -103,11 +103,11 @@
             margin-top: 30px;
         }
         .text-card {
-            background: linear-gradient(135deg, 
-                rgba(178, 34, 52, 0.15),    /* Rojo */
-                rgba(255, 255, 255, 0.2)      /* Blanco */
+            background: linear-gradient(135deg,
+                rgba(178, 34, 52, 0.15),
+                rgba(255, 255, 255, 0.2)
             );
-            border: 2px solid rgba(0, 40, 85, 0.5); /* Toque sutil de azul */
+            border: 2px solid rgba(0, 40, 85, 0.5);
             border-radius: 15px;
             padding: 20px;
             transition: all 0.3s;
@@ -116,14 +116,14 @@
             position: relative;
         }
         .text-card:hover {
-            background: linear-gradient(135deg, 
+            background: linear-gradient(135deg,
                 rgba(178, 34, 52, 0.25),
                 rgba(255, 255, 255, 0.3)
             );
             border-color: rgba(0, 40, 85, 0.7);
         }
         .text-card h3 {
-            color: #B22234; /* Rojo */
+            color: #B22234;
             margin-bottom: 15px;
             font-size: 1.5rem;
         }
@@ -132,7 +132,7 @@
             color: #ddd;
         }
         .text-card .date {
-            color: #002855; /* Azul */
+            color: #002855;
             font-size: 0.9rem;
             margin-top: 10px;
             text-align: right;
@@ -149,34 +149,35 @@
         <div class="header">
             <h1>Texts in English</h1>
             <p>Find a selection of texts in English to read and study</p>
-            <a href="ingles.html" class="back-link">← Back to topic selection</a>
+            <div class="back-link" data-target="ingles.html" role="link" tabindex="0">← Back to topic selection</div>
         </div>
-        
+
         <div class="content">
             <div class="text-card">
-                <h3>The United States of America</h3>
-                <p>The United States is a sovereign country in North America, located in the southern part of this subcontinent. It is a federal republic organized in 50 states and one federal district...</p>
+                <h3>The United Kingdom</h3>
+                <p>The United Kingdom is a sovereign country in north-western Europe, made up of four nations: England, Scotland, Wales, and Northern Ireland, united under a single monarchy...</p>
                 <div class="date">Updated: 05/15/2023</div>
             </div>
-            
+
             <div class="text-card">
                 <h3>English Grammar</h3>
-                <p>English is a West Germanic language that originated in England. Its grammar includes masculine and feminine genders, singular and plural numbers, and a variety of verb tenses...</p>
+                <p>English is a West Germanic language that originated in England. Unlike Spanish or French, its nouns have no grammatical gender, but it has singular and plural forms and a wide variety of verb tenses...</p>
                 <div class="date">Updated: 05/10/2023</div>
             </div>
-            
+
             <div class="text-card">
-                <h3>American Literature</h3>
-                <p>American literature has produced world-renowned figures such as Mark Twain, Ernest Hemingway, F. Scott Fitzgerald, and many others...</p>
+                <h3>British Literature</h3>
+                <p>British literature has produced world-renowned figures such as William Shakespeare, Jane Austen, Charles Dickens, and George Orwell, among many others...</p>
                 <div class="date">Updated: 05/05/2023</div>
             </div>
-            
+
             <div class="text-card">
-                <h3>American Culture</h3>
-                <p>American culture is rich and diverse, influenced by European, indigenous, African, and other traditions. Jazz, Hollywood, and baseball are iconic elements of its identity...</p>
+                <h3>British Culture</h3>
+                <p>British culture blends centuries-old tradition with modern influence. Afternoon tea, football, the Royal Family, and bands like The Beatles are iconic elements of its identity...</p>
                 <div class="date">Updated: 05/01/2023</div>
             </div>
         </div>
     </div>
+    <script src="../nav-links.js"></script>
 </body>
 </html>
