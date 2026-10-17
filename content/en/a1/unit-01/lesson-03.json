@@ -1,0 +1,465 @@
+{
+  "id": "en-a1-u01-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Numbers 0-20",
+    "es": "Números del 0 al 20 y teléfonos"
+  },
+  "objective": "Al terminar puedes contar del 0 al 20 y dar tu número de teléfono.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo dices tu número de teléfono en español: todo junto o dígito por dígito?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What's your phone number, Lucy?",
+        "es": "¿Cuál es tu número de teléfono, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's five five five, oh one four two.",
+        "es": "Es cinco cinco cinco, cero uno cuatro dos."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Five five five, oh one four two. Thank you!",
+        "es": "Cinco cinco cinco, cero uno cuatro dos. ¡Gracias!"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "You're welcome. Bye!",
+        "es": "De nada. ¡Chao!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-phone-number",
+        "lemma": "phone number",
+        "pos": "noun",
+        "ipa": "/ˈfəʊn ˌnʌmbə/",
+        "es": "número de teléfono",
+        "example": "What's your phone number?"
+      },
+      {
+        "id": "en-you-re-welcome",
+        "lemma": "you're welcome",
+        "pos": "phrase",
+        "ipa": "/jɔː ˈwelkəm/",
+        "es": "de nada",
+        "example": "Thank you! — You're welcome."
+      },
+      {
+        "id": "en-oh",
+        "lemma": "oh",
+        "pos": "num",
+        "ipa": "/əʊ/",
+        "es": "cero (en teléfonos)",
+        "example": "It's oh one four two."
+      },
+      {
+        "id": "en-zero",
+        "lemma": "zero",
+        "pos": "num",
+        "ipa": "/ˈzɪərəʊ/",
+        "es": "cero"
+      },
+      {
+        "id": "en-one",
+        "lemma": "one",
+        "pos": "num",
+        "ipa": "/wʌn/",
+        "es": "uno"
+      },
+      {
+        "id": "en-two",
+        "lemma": "two",
+        "pos": "num",
+        "ipa": "/tuː/",
+        "es": "dos"
+      },
+      {
+        "id": "en-three",
+        "lemma": "three",
+        "pos": "num",
+        "ipa": "/θriː/",
+        "es": "tres"
+      },
+      {
+        "id": "en-four",
+        "lemma": "four",
+        "pos": "num",
+        "ipa": "/fɔː/",
+        "es": "cuatro"
+      },
+      {
+        "id": "en-five",
+        "lemma": "five",
+        "pos": "num",
+        "ipa": "/faɪv/",
+        "es": "cinco"
+      },
+      {
+        "id": "en-six",
+        "lemma": "six",
+        "pos": "num",
+        "ipa": "/sɪks/",
+        "es": "seis"
+      },
+      {
+        "id": "en-seven",
+        "lemma": "seven",
+        "pos": "num",
+        "ipa": "/ˈsevn/",
+        "es": "siete"
+      },
+      {
+        "id": "en-eight",
+        "lemma": "eight",
+        "pos": "num",
+        "ipa": "/eɪt/",
+        "es": "ocho"
+      },
+      {
+        "id": "en-nine",
+        "lemma": "nine",
+        "pos": "num",
+        "ipa": "/naɪn/",
+        "es": "nueve"
+      },
+      {
+        "id": "en-ten",
+        "lemma": "ten",
+        "pos": "num",
+        "ipa": "/ten/",
+        "es": "diez"
+      },
+      {
+        "id": "en-eleven",
+        "lemma": "eleven",
+        "pos": "num",
+        "ipa": "/ɪˈlevn/",
+        "es": "once"
+      },
+      {
+        "id": "en-twelve",
+        "lemma": "twelve",
+        "pos": "num",
+        "ipa": "/twelv/",
+        "es": "doce"
+      },
+      {
+        "id": "en-thirteen",
+        "lemma": "thirteen",
+        "pos": "num",
+        "ipa": "/ˌθɜːˈtiːn/",
+        "es": "trece"
+      },
+      {
+        "id": "en-fourteen",
+        "lemma": "fourteen",
+        "pos": "num",
+        "ipa": "/ˌfɔːˈtiːn/",
+        "es": "catorce"
+      },
+      {
+        "id": "en-fifteen",
+        "lemma": "fifteen",
+        "pos": "num",
+        "ipa": "/ˌfɪfˈtiːn/",
+        "es": "quince"
+      },
+      {
+        "id": "en-sixteen",
+        "lemma": "sixteen",
+        "pos": "num",
+        "ipa": "/ˌsɪksˈtiːn/",
+        "es": "dieciséis"
+      },
+      {
+        "id": "en-seventeen",
+        "lemma": "seventeen",
+        "pos": "num",
+        "ipa": "/ˌsevnˈtiːn/",
+        "es": "diecisiete"
+      },
+      {
+        "id": "en-eighteen",
+        "lemma": "eighteen",
+        "pos": "num",
+        "ipa": "/ˌeɪˈtiːn/",
+        "es": "dieciocho"
+      },
+      {
+        "id": "en-nineteen",
+        "lemma": "nineteen",
+        "pos": "num",
+        "ipa": "/ˌnaɪnˈtiːn/",
+        "es": "diecinueve"
+      },
+      {
+        "id": "en-twenty",
+        "lemma": "twenty",
+        "pos": "num",
+        "ipa": "/ˈtwenti/",
+        "es": "veinte"
+      }
+    ],
+    "audio_script_id": "en-a1-u01-l03-d01"
+  },
+  "explanation": {
+    "md_es": "| 0 zero | 1 one | 2 two | 3 three | 4 four | 5 five | 6 six |\n|---|---|---|---|---|---|---|\n| 7 seven | 8 eight | 9 nine | 10 ten | 11 eleven | 12 twelve | 13 thirteen |\n| 14 fourteen | 15 fifteen | 16 sixteen | 17 seventeen | 18 eighteen | 19 nineteen | 20 twenty |\n\n**Teléfonos:** se dicen dígito por dígito. El 0 suele decirse *oh* (también *zero*).\n\n**13–19** terminan en *-teen* y llevan el acento en *teen* (thir-TEEN). Más adelante verás 30, 40… (*-ty*), con el acento al inicio (THIR-ty).",
+    "common_mistakes_es": [
+      {
+        "wrong": "five → 'faif' (terminando en f)",
+        "right": "five /faɪv/",
+        "note": "Termina en sonido V: apoya los dientes superiores en el labio inferior."
+      },
+      {
+        "wrong": "thirteen y thirty suenan igual",
+        "right": "thir-TEEN (13) vs THIR-ty (30)",
+        "note": "En -teen el acento está al final; en -ty, al inicio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el número con la palabra.",
+      "pairs": [
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "7",
+          "right": "seven"
+        },
+        {
+          "left": "12",
+          "right": "twelve"
+        },
+        {
+          "left": "15",
+          "right": "fifteen"
+        },
+        {
+          "left": "18",
+          "right": "eighteen"
+        },
+        {
+          "left": "20",
+          "right": "twenty"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa la tabla de números.",
+        "incorrect": "Revisa esto: Repasa la tabla de números."
+      }
+    },
+    {
+      "id": "en-a1-u01-l03-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "one, two, ___, four",
+      "answer": [
+        "three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contando: one, two, three, four.",
+        "incorrect": "Revisa esto: Contando: one, two, three, four."
+      }
+    },
+    {
+      "id": "en-a1-u01-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'fourteen'?",
+      "options": [
+        "14",
+        "40",
+        "4",
+        "41"
+      ],
+      "answer": [
+        "14"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! '-teen' indica 13–19: fourteen = 14.",
+        "incorrect": "Revisa esto: '-teen' indica 13–19: fourteen = 14."
+      }
+    },
+    {
+      "id": "en-a1-u01-l03-ex04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "phone"
+      ],
+      "est_seconds": 40,
+      "prompt": "Escucha: ¿cuál es el número de teléfono?",
+      "options": [
+        "555 0142",
+        "555 1042",
+        "550 0142",
+        "555 0124"
+      ],
+      "answer": [
+        "555 0142"
+      ],
+      "audio_text": "My phone number is five five five, oh one four two.",
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste: five five five, oh one four two.",
+        "incorrect": "Revisa esto: Escuchaste: five five five, oh one four two."
+      },
+      "audio_script_id": "en-a1-u01-l03-ex04-a"
+    },
+    {
+      "id": "en-a1-u01-l03-ex05",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "fifteen",
+      "answer": [
+        "fifteen",
+        "15"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! fifteen = 15 (-teen).",
+        "incorrect": "Revisa esto: fifteen = 15 (-teen)."
+      },
+      "audio_script_id": "en-a1-u01-l03-ex05-a"
+    },
+    {
+      "id": "en-a1-u01-l03-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "phone"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "phone",
+        "number",
+        "?",
+        "What's",
+        "your"
+      ],
+      "answer": [
+        "What's",
+        "your",
+        "phone",
+        "number",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Así se pregunta el número de teléfono.",
+        "incorrect": "Revisa esto: Así se pregunta el número de teléfono."
+      }
+    },
+    {
+      "id": "en-a1-u01-l03-ex07",
+      "type": "true_false",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 15,
+      "prompt": "'Seven' viene después de 'eight'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es six, seven, eight: seven va antes de eight.",
+        "incorrect": "Revisa esto: El orden es six, seven, eight: seven va antes de eight."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What's your phone number?",
+      "It's five five five …",
+      "You're welcome.",
+      "zero / oh"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-phone-number"
+    },
+    {
+      "type": "vocab",
+      "id": "en-you-re-welcome"
+    },
+    {
+      "type": "vocab",
+      "id": "en-zero"
+    },
+    {
+      "type": "vocab",
+      "id": "en-five"
+    },
+    {
+      "type": "vocab",
+      "id": "en-seven"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twelve"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thirteen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fifteen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twenty"
+    }
+  ]
+}

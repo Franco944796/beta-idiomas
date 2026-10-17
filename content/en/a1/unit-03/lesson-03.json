@@ -1,0 +1,263 @@
+{
+  "id": "en-a1-u03-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 3,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Anna's brother",
+    "es": "El posesivo 's"
+  },
+  "objective": "Al terminar dices 'el hermano de Anna' con el posesivo 's.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español decimos 'el hermano de Anna'. El inglés cambia el orden: ¿cómo crees que queda?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Who's that?",
+        "es": "¿Quién es ese?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's Ben. He's Laura's brother.",
+        "es": "Es Ben. Es el hermano de Laura."
+      },
+      {
+        "speaker": "Tom",
+        "text": "And who's that woman?",
+        "es": "¿Y quién es esa mujer?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's Laura's mother. Her name is Sue.",
+        "es": "Es la madre de Laura. Se llama Sue."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Is Sue a teacher?",
+        "es": "¿Sue es profesora?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "No, she's a nurse. Sue's a nurse.",
+        "es": "No, es enfermera."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-woman",
+        "lemma": "woman",
+        "pos": "noun",
+        "ipa": "/ˈwʊmən/",
+        "es": "mujer",
+        "example": "That woman is my mother."
+      },
+      {
+        "id": "en-man",
+        "lemma": "man",
+        "pos": "noun",
+        "ipa": "/mæn/",
+        "es": "hombre",
+        "example": "That man is my father."
+      }
+    ],
+    "audio_script_id": "en-a1-u03-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Posesión:** *dueño + 's + cosa/persona* → *Anna's brother* = el hermano de Anna.\n\nEl orden es **inverso** al español: primero el dueño.\n\n**Ojo:** *'s* también puede ser *is*: *Sue's a nurse* (Sue **is**…) frente a *Sue's brother* (el hermano **de** Sue).",
+    "common_mistakes_es": [
+      {
+        "wrong": "The brother of Anna",
+        "right": "Anna's brother",
+        "note": "En inglés el dueño va primero con 's."
+      },
+      {
+        "wrong": "Annas brother",
+        "right": "Anna's brother",
+        "note": "No olvides el apóstrofo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u03-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is Anna. Tom is ___ brother.",
+      "answer": [
+        "Anna's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's: Anna's brother.",
+        "incorrect": "Revisa esto: Dueño + 's: Anna's brother."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 20,
+      "prompt": "'El padre de Ben' en inglés es…",
+      "options": [
+        "Ben's father",
+        "The father of Ben",
+        "Bens father",
+        "Father Ben's"
+      ],
+      "answer": [
+        "Ben's father"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona.",
+        "incorrect": "Revisa esto: Dueño + 's + persona."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The sister of Tom is a nurse.",
+      "answer": [
+        "Tom's sister is a nurse."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Usamos dueño + 's: Tom's sister.",
+        "incorrect": "Revisa esto: Usamos dueño + 's: Tom's sister."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex04",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 15,
+      "prompt": "En 'Sue's a nurse', 's significa 'is'.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí 's = is (Sue is a nurse).",
+        "incorrect": "Revisa esto: Aquí 's = is (Sue is a nurse)."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex05",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 15,
+      "prompt": "En 'Sue's brother', 's significa 'is'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí 's indica posesión (el hermano de Sue).",
+        "incorrect": "Revisa esto: Aquí 's indica posesión (el hermano de Sue)."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El padre de Laura es conductor.",
+      "answer": [
+        "Laura's father is a driver."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura's father = el padre de Laura.",
+        "incorrect": "Revisa esto: Laura's father = el padre de Laura."
+      }
+    },
+    {
+      "id": "en-a1-u03-l03-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "a",
+        "nurse",
+        ".",
+        "Laura's",
+        "mother"
+      ],
+      "answer": [
+        "Laura's",
+        "mother",
+        "is",
+        "a",
+        "nurse",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona + verbo.",
+        "incorrect": "Revisa esto: Dueño + 's + persona + verbo."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Anna's brother",
+      "Laura's mother",
+      "'s = posesión o 'is'"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-woman"
+    },
+    {
+      "type": "vocab",
+      "id": "en-man"
+    },
+    {
+      "type": "grammar",
+      "id": "en-possessive-s"
+    }
+  ]
+}

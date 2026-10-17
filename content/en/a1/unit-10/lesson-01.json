@@ -1,0 +1,492 @@
+{
+  "id": "en-a1-u10-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What's the weather like?",
+    "es": "El clima"
+  },
+  "objective": "Al terminar describes el clima y preguntas cómo está el tiempo en otro lugar.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo está el clima hoy en tu ciudad? Aprende a describirlo en inglés."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What's the weather like in London?",
+        "es": "¿Cómo está el clima en Londres?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's cold and it's raining.",
+        "es": "Hace frío y está lloviendo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Here it's hot and sunny.",
+        "es": "Aquí hace calor y hay sol."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Lucky you! Is it windy?",
+        "es": "¡Qué suerte! ¿Hay viento?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "No, it isn't.",
+        "es": "No."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-weather",
+        "lemma": "weather",
+        "pos": "noun",
+        "ipa": "/ˈweðə/",
+        "es": "clima, tiempo",
+        "example": "What's the weather like?"
+      },
+      {
+        "id": "en-sunny",
+        "lemma": "sunny",
+        "pos": "adj",
+        "ipa": "/ˈsʌni/",
+        "es": "soleado",
+        "example": "It's sunny today."
+      },
+      {
+        "id": "en-cloudy",
+        "lemma": "cloudy",
+        "pos": "adj",
+        "ipa": "/ˈklaʊdi/",
+        "es": "nublado",
+        "example": "It's cloudy."
+      },
+      {
+        "id": "en-windy",
+        "lemma": "windy",
+        "pos": "adj",
+        "ipa": "/ˈwɪndi/",
+        "es": "ventoso",
+        "example": "It's windy."
+      },
+      {
+        "id": "en-rain",
+        "lemma": "rain",
+        "pos": "verb",
+        "ipa": "/reɪn/",
+        "es": "llover",
+        "example": "It's raining."
+      },
+      {
+        "id": "en-snow",
+        "lemma": "snow",
+        "pos": "verb",
+        "ipa": "/snəʊ/",
+        "es": "nevar",
+        "example": "It's snowing."
+      },
+      {
+        "id": "en-hot",
+        "lemma": "hot",
+        "pos": "adj",
+        "ipa": "/hɒt/",
+        "es": "caluroso, caliente",
+        "example": "It's hot in summer."
+      },
+      {
+        "id": "en-warm",
+        "lemma": "warm",
+        "pos": "adj",
+        "ipa": "/wɔːm/",
+        "es": "templado, cálido",
+        "example": "It's warm today."
+      },
+      {
+        "id": "en-cold",
+        "lemma": "cold",
+        "pos": "adj",
+        "ipa": "/kəʊld/",
+        "es": "frío",
+        "example": "It's cold in winter."
+      },
+      {
+        "id": "en-what-s-the-weather-like",
+        "lemma": "what's the weather like?",
+        "pos": "phrase",
+        "ipa": "/ˌwɒts ðə ˈweðə ˈlaɪk/",
+        "es": "¿cómo está el clima?",
+        "example": "What's the weather like in London?"
+      }
+    ],
+    "audio_script_id": "en-a1-u10-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar:** *What's the weather like in London?*\n\n**Responder:** *It's + adjetivo* → *It's sunny / cloudy / windy / hot / warm / cold.*\n**Con lluvia y nieve** se usa el presente continuo: *It's raining. It's snowing.*\n\n**It es obligatorio** aunque en español no haya sujeto: *Hace frío* → *It's cold* (no *Is cold*).\n\n**Ojo:** *It's cold* (hace frío) ≠ *I'm cold* (tengo frío). *I have a cold* significa 'estoy resfriado'.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Is raining.",
+        "right": "It's raining.",
+        "note": "El sujeto it es obligatorio."
+      },
+      {
+        "wrong": "I have cold.",
+        "right": "I'm cold. / I have a cold.",
+        "note": "'I'm cold' = tengo frío; 'a cold' = un resfriado."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "sunny",
+          "right": "soleado"
+        },
+        {
+          "left": "cloudy",
+          "right": "nublado"
+        },
+        {
+          "left": "windy",
+          "right": "ventoso"
+        },
+        {
+          "left": "hot",
+          "right": "caluroso"
+        },
+        {
+          "left": "cold",
+          "right": "frío"
+        },
+        {
+          "left": "warm",
+          "right": "templado"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las palabras básicas del clima.",
+        "incorrect": "Revisa esto: Son las palabras básicas del clima."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ raining.",
+      "answer": [
+        "It's",
+        "It is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto 'it' es obligatorio.",
+        "incorrect": "Revisa esto: El sujeto 'it' es obligatorio."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "weather",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What's the weather ___ in London?",
+      "answer": [
+        "like"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La pregunta es What's the weather like?",
+        "incorrect": "Revisa esto: La pregunta es What's the weather like?"
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío. ¿Cómo se dice?",
+      "options": [
+        "It's cold.",
+        "It makes cold.",
+        "Is cold.",
+        "It has cold."
+      ],
+      "answer": [
+        "It's cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa it + be + adjetivo.",
+        "incorrect": "Revisa esto: Se usa it + be + adjetivo."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is raining now.",
+      "answer": [
+        "It's raining now.",
+        "It is raining now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se omite el sujeto it.",
+        "incorrect": "Revisa esto: No se omite el sujeto it."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It makes hot today.",
+      "answer": [
+        "It's hot today.",
+        "It is hot today."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa be, no make.",
+        "incorrect": "Revisa esto: Se usa be, no make."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "weather",
+        "like",
+        "in",
+        "London",
+        "?",
+        "What's",
+        "the"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "weather",
+        "like",
+        "in",
+        "London",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre el clima.",
+        "incorrect": "Revisa esto: Pregunta sobre el clima."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cómo está el clima en Londres?",
+      "options": [
+        "Cold and raining",
+        "Hot and sunny",
+        "Windy and cloudy",
+        "Warm and sunny"
+      ],
+      "answer": [
+        "Cold and raining"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'It's cold and it's raining'.",
+        "incorrect": "Revisa esto: Lucy dice 'It's cold and it's raining'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo está el clima?",
+      "options": [
+        "Sunny, warm and windy",
+        "Cold and snowing",
+        "Rainy and cloudy",
+        "Hot and cloudy"
+      ],
+      "answer": [
+        "Sunny, warm and windy"
+      ],
+      "audio_text": "It's sunny and warm today, but it's windy.",
+      "feedback": {
+        "correct": "¡Correcto! Dice sunny, warm y windy.",
+        "incorrect": "Revisa esto: Dice sunny, warm y windy."
+      },
+      "audio_script_id": "en-a1-u10-l01-ex09-a"
+    },
+    {
+      "id": "en-a1-u10-l01-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Está lloviendo.",
+      "answer": [
+        "It's raining.",
+        "It is raining."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It + be + raining.",
+        "incorrect": "Revisa esto: It + be + raining."
+      }
+    },
+    {
+      "id": "en-a1-u10-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "weather",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "weather",
+          "ipa": "/ˈweðə/",
+          "tip_es": "th suave, como en 'the'."
+        },
+        {
+          "text": "sunny",
+          "ipa": "/ˈsʌni/",
+          "tip_es": "Primera sílaba como 'san'."
+        },
+        {
+          "text": "cloudy",
+          "ipa": "/ˈklaʊdi/",
+          "tip_es": "Suena 'cláudi'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What's the weather like?",
+      "It's sunny / cloudy / windy / hot / cold",
+      "It's raining. · It's snowing.",
+      "It's cold ≠ I'm cold"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-weather"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sunny"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cloudy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-windy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-snow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hot"
+    },
+    {
+      "type": "vocab",
+      "id": "en-warm"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cold"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-s-the-weather-like"
+    },
+    {
+      "type": "grammar",
+      "id": "en-weather"
+    }
+  ]
+}

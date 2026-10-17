@@ -1,0 +1,352 @@
+{
+  "id": "en-a1-u04-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 4",
+    "es": "Repaso y checkpoint 4"
+  },
+  "objective": "Al terminar demuestras que puedes contar tu rutina, decir la hora y hacer preguntas sobre hábitos.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: cuenta tu día completo."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: actividades diarias, la hora, presente simple (-s / -es), negativas y preguntas con do / does, días y adverbios de frecuencia.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *get up, have breakfast, go to work, go to bed*\n- *It's half past eight · quarter to nine*\n- *I work · she works · he goes · she has*\n- *I don't work · She doesn't work · Do you work? Does he work?*\n- *on Mondays · always · usually · sometimes · never*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l06-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "get up",
+          "right": "levantarse"
+        },
+        {
+          "left": "have breakfast",
+          "right": "desayunar"
+        },
+        {
+          "left": "go to work",
+          "right": "ir al trabajo"
+        },
+        {
+          "left": "go to bed",
+          "right": "irse a la cama"
+        },
+        {
+          "left": "watch TV",
+          "right": "mirar la tele"
+        },
+        {
+          "left": "finish work",
+          "right": "terminar de trabajar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa las actividades.",
+        "incorrect": "Revisa esto: Repasa las actividades."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 7:45. ¿Qué dices?",
+      "options": [
+        "It's quarter to eight.",
+        "It's quarter past seven.",
+        "It's half past seven.",
+        "It's eight o'clock."
+      ],
+      "answer": [
+        "It's quarter to eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 7:45 = quarter to eight.",
+        "incorrect": "Revisa esto: 7:45 = quarter to eight."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ (go) to work by bus.",
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los verbos en -o añaden -es: goes.",
+        "incorrect": "Revisa esto: Los verbos en -o añaden -es: goes."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ work on Sundays. (negativa)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I la negativa es don't.",
+        "incorrect": "Revisa esto: Con I la negativa es don't."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo no lleva -s.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo no lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "do",
+        "you",
+        "get",
+        "up",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "do",
+        "you",
+        "get",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Wh- + do + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She never watches TV.",
+        "She watches never TV.",
+        "She never watch TV.",
+        "Never she watches TV."
+      ],
+      "answer": [
+        "She never watches TV."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio antes del verbo y -es con watch.",
+        "incorrect": "Revisa esto: Adverbio antes del verbo y -es con watch."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora desayuna Sam?",
+      "options": [
+        "6:30",
+        "6:00",
+        "7:30",
+        "5:30"
+      ],
+      "answer": [
+        "6:30"
+      ],
+      "audio_text": "Sam always gets up at six. He has breakfast at half past six.",
+      "feedback": {
+        "correct": "¡Correcto! Half past six = 6:30.",
+        "incorrect": "Revisa esto: Half past six = 6:30."
+      },
+      "audio_script_id": "en-a1-u04-l06-ex08-a"
+    },
+    {
+      "id": "en-a1-u04-l06-ex09",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "She never works on Sundays.",
+      "answer": [
+        "She never works on Sundays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio + verbo con -s.",
+        "incorrect": "Revisa esto: Adverbio + verbo con -s."
+      },
+      "audio_script_id": "en-a1-u04-l06-ex09-a"
+    },
+    {
+      "id": "en-a1-u04-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "routine",
+        "time"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe tu rutina en 4 o 5 frases: qué haces y a qué hora.",
+      "min_words": 18,
+      "self_check_es": [
+        "¿Usaste verbos de rutina (get up, have breakfast…)?",
+        "¿Pusiste la hora con at?",
+        "¿Usaste algún adverbio como always o usually antes del verbo?"
+      ],
+      "model_answer": "I get up at seven. I have breakfast at half past seven. I go to work at eight. I always have lunch at one. I go to bed at eleven.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u04-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "routine",
+        "present-simple"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Preguntas a un compañero por su rutina.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "Hi! What time do you get up?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I get up at seven.",
+            "I gets up at seven.",
+            "I up get at seven."
+          ],
+          "best": 0,
+          "why_es": "Con I el verbo va en forma base."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Do you work on Saturdays?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, I don't.",
+            "No, I doesn't.",
+            "No, I not."
+          ],
+          "best": 0,
+          "why_es": "La respuesta corta usa el auxiliar: No, I don't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What time do you get up?",
+      "I always / usually …",
+      "She doesn't work on Sundays.",
+      "It's half past eight."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-present-simple-affirmative"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-simple-negative-questions"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "id": "en-a1-u05-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 5,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Food and drink",
+    "es": "Comida y bebida"
+  },
+  "objective": "Al terminar nombras comidas y bebidas comunes y las pronuncias bien.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué desayunaste hoy? Veamos cómo se dicen en inglés las comidas y bebidas más comunes."
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-bread",
+        "lemma": "bread",
+        "pos": "noun",
+        "ipa": "/bred/",
+        "es": "pan",
+        "example": "I have bread for breakfast."
+      },
+      {
+        "id": "en-rice",
+        "lemma": "rice",
+        "pos": "noun",
+        "ipa": "/raɪs/",
+        "es": "arroz",
+        "example": "I like rice."
+      },
+      {
+        "id": "en-egg",
+        "lemma": "egg",
+        "pos": "noun",
+        "ipa": "/eɡ/",
+        "es": "huevo",
+        "example": "I have an egg for breakfast."
+      },
+      {
+        "id": "en-cheese",
+        "lemma": "cheese",
+        "pos": "noun",
+        "ipa": "/tʃiːz/",
+        "es": "queso",
+        "example": "Bread and cheese, please."
+      },
+      {
+        "id": "en-chicken",
+        "lemma": "chicken",
+        "pos": "noun",
+        "ipa": "/ˈtʃɪkɪn/",
+        "es": "pollo",
+        "example": "I have chicken and rice for lunch."
+      },
+      {
+        "id": "en-fish",
+        "lemma": "fish",
+        "pos": "noun",
+        "ipa": "/fɪʃ/",
+        "es": "pescado",
+        "example": "I love fish."
+      },
+      {
+        "id": "en-apple",
+        "lemma": "apple",
+        "pos": "noun",
+        "ipa": "/ˈæpl/",
+        "es": "manzana",
+        "example": "An apple is a fruit."
+      },
+      {
+        "id": "en-banana",
+        "lemma": "banana",
+        "pos": "noun",
+        "ipa": "/bəˈnɑːnə/",
+        "es": "banana",
+        "example": "I have a banana for breakfast."
+      },
+      {
+        "id": "en-salad",
+        "lemma": "salad",
+        "pos": "noun",
+        "ipa": "/ˈsæləd/",
+        "es": "ensalada",
+        "example": "I have a salad for lunch."
+      },
+      {
+        "id": "en-pasta",
+        "lemma": "pasta",
+        "pos": "noun",
+        "ipa": "/ˈpæstə/",
+        "es": "pasta, fideos",
+        "example": "We have pasta for dinner."
+      },
+      {
+        "id": "en-sandwich",
+        "lemma": "sandwich",
+        "pos": "noun",
+        "ipa": "/ˈsænwɪdʒ/",
+        "es": "sándwich",
+        "example": "I have a sandwich at one."
+      },
+      {
+        "id": "en-milk",
+        "lemma": "milk",
+        "pos": "noun",
+        "ipa": "/mɪlk/",
+        "es": "leche",
+        "example": "I drink milk in the morning."
+      },
+      {
+        "id": "en-water",
+        "lemma": "water",
+        "pos": "noun",
+        "ipa": "/ˈwɔːtə/",
+        "es": "agua",
+        "example": "Water, please."
+      },
+      {
+        "id": "en-coffee",
+        "lemma": "coffee",
+        "pos": "noun",
+        "ipa": "/ˈkɒfi/",
+        "es": "café",
+        "example": "I drink coffee every day."
+      },
+      {
+        "id": "en-tea",
+        "lemma": "tea",
+        "pos": "noun",
+        "ipa": "/tiː/",
+        "es": "té",
+        "example": "She drinks tea in the evening."
+      },
+      {
+        "id": "en-juice",
+        "lemma": "juice",
+        "pos": "noun",
+        "ipa": "/dʒuːs/",
+        "es": "jugo",
+        "example": "I like orange juice."
+      },
+      {
+        "id": "en-drink",
+        "lemma": "drink",
+        "pos": "verb",
+        "ipa": "/drɪŋk/",
+        "es": "beber; bebida",
+        "example": "I drink water every day."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Comida:** bread · rice · egg · cheese · chicken · fish · apple · banana · salad · pasta · sandwich\n\n**Bebidas:** milk · water · coffee · tea · juice\n\n**Verbos:** *eat* (comer), *drink* (beber), *have* (tomar: *have a coffee*).\n\nPronunciación: *cheese* termina en /z/ · *juice* suena 'yus' · *banana* acentúa la segunda sílaba (ba-NA-na).",
+    "common_mistakes_es": [
+      {
+        "wrong": "juice → 'juis'",
+        "right": "juice /dʒuːs/",
+        "note": "Suena como 'yus'."
+      },
+      {
+        "wrong": "cheese → 'chis'",
+        "right": "cheese /tʃiːz/",
+        "note": "Termina en /z/ y la vocal es larga."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u05-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bread",
+          "right": "pan"
+        },
+        {
+          "left": "rice",
+          "right": "arroz"
+        },
+        {
+          "left": "cheese",
+          "right": "queso"
+        },
+        {
+          "left": "chicken",
+          "right": "pollo"
+        },
+        {
+          "left": "fish",
+          "right": "pescado"
+        },
+        {
+          "left": "apple",
+          "right": "manzana"
+        },
+        {
+          "left": "milk",
+          "right": "leche"
+        },
+        {
+          "left": "water",
+          "right": "agua"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los alimentos más básicos.",
+        "incorrect": "Revisa esto: Son los alimentos más básicos."
+      }
+    },
+    {
+      "id": "en-a1-u05-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál de estas palabras NO es una bebida?",
+      "options": [
+        "bread",
+        "tea",
+        "water",
+        "juice"
+      ],
+      "answer": [
+        "bread"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Bread' es pan; tea, water y juice se beben.",
+        "incorrect": "Revisa esto: 'Bread' es pan; tea, water y juice se beben."
+      }
+    },
+    {
+      "id": "en-a1-u05-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'juice'?",
+      "options": [
+        "jugo",
+        "juego",
+        "justo",
+        "agua"
+      ],
+      "answer": [
+        "jugo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Juice = jugo. Se pronuncia 'yus'.",
+        "incorrect": "Revisa esto: Juice = jugo. Se pronuncia 'yus'."
+      }
+    },
+    {
+      "id": "en-a1-u05-l01-ex04",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "chicken and rice",
+      "answer": [
+        "chicken and rice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'chicken and rice'.",
+        "incorrect": "Revisa esto: Escuchaste 'chicken and rice'."
+      },
+      "audio_script_id": "en-a1-u05-l01-ex04-a"
+    },
+    {
+      "id": "en-a1-u05-l01-ex05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO come la persona?",
+      "options": [
+        "Fish",
+        "Bread",
+        "Cheese",
+        "An apple"
+      ],
+      "answer": [
+        "Fish"
+      ],
+      "audio_text": "I have bread, cheese and an apple for lunch.",
+      "feedback": {
+        "correct": "¡Correcto! No menciona fish.",
+        "incorrect": "Revisa esto: No menciona fish."
+      },
+      "audio_script_id": "en-a1-u05-l01-ex05-a"
+    },
+    {
+      "id": "en-a1-u05-l01-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "bread",
+        "and",
+        "cheese",
+        "for",
+        "lunch",
+        ".",
+        "I",
+        "have"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "bread",
+        "and",
+        "cheese",
+        "for",
+        "lunch",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estructura: I have + comida + for + comida del día.",
+        "incorrect": "Revisa esto: Estructura: I have + comida + for + comida del día."
+      }
+    },
+    {
+      "id": "en-a1-u05-l01-ex07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Pan y queso.",
+      "answer": [
+        "Bread and cheese."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bread = pan; cheese = queso.",
+        "incorrect": "Revisa esto: Bread = pan; cheese = queso."
+      }
+    },
+    {
+      "id": "en-a1-u05-l01-ex08",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "food",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "cheese",
+          "ipa": "/tʃiːz/",
+          "tip_es": "Termina en sonido z."
+        },
+        {
+          "text": "banana",
+          "ipa": "/bəˈnɑːnə/",
+          "tip_es": "El acento va en la segunda sílaba."
+        },
+        {
+          "text": "juice",
+          "ipa": "/dʒuːs/",
+          "tip_es": "Suena 'yus'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "bread, rice, cheese, chicken, fish",
+      "milk, water, coffee, tea, juice",
+      "eat · drink · have"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-bread"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-egg"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cheese"
+    },
+    {
+      "type": "vocab",
+      "id": "en-chicken"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fish"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apple"
+    },
+    {
+      "type": "vocab",
+      "id": "en-banana"
+    },
+    {
+      "type": "vocab",
+      "id": "en-salad"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pasta"
+    }
+  ]
+}

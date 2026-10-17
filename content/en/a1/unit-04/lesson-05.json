@@ -1,0 +1,436 @@
+{
+  "id": "en-a1-u04-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Days and how often",
+    "es": "Días de la semana y frecuencia"
+  },
+  "objective": "Al terminar dices los días de la semana y con qué frecuencia haces cosas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cuántas veces a la semana haces ejercicio? En inglés hay palabras para esa frecuencia."
+  },
+  "input": {
+    "type": "text",
+    "text": "Lucy always gets up at seven. She usually has breakfast at home. On Mondays and Wednesdays she works in the shop. She sometimes watches TV in the evening. She never works on Sundays.",
+    "es": "Lucy siempre se levanta a las siete. Normalmente desayuna en casa. Los lunes y miércoles trabaja en la tienda. A veces mira la tele por la noche. Nunca trabaja los domingos.",
+    "glossary": [
+      {
+        "id": "en-monday",
+        "lemma": "Monday",
+        "pos": "noun",
+        "ipa": "/ˈmʌndeɪ/",
+        "es": "lunes",
+        "example": "I work on Monday."
+      },
+      {
+        "id": "en-tuesday",
+        "lemma": "Tuesday",
+        "pos": "noun",
+        "ipa": "/ˈtjuːzdeɪ/",
+        "es": "martes",
+        "example": "The class is on Tuesday."
+      },
+      {
+        "id": "en-wednesday",
+        "lemma": "Wednesday",
+        "pos": "noun",
+        "ipa": "/ˈwenzdeɪ/",
+        "es": "miércoles",
+        "example": "On Wednesday I play football."
+      },
+      {
+        "id": "en-thursday",
+        "lemma": "Thursday",
+        "pos": "noun",
+        "ipa": "/ˈθɜːzdeɪ/",
+        "es": "jueves",
+        "example": "Thursday is my favourite day."
+      },
+      {
+        "id": "en-friday",
+        "lemma": "Friday",
+        "pos": "noun",
+        "ipa": "/ˈfraɪdeɪ/",
+        "es": "viernes",
+        "example": "I finish work early on Friday."
+      },
+      {
+        "id": "en-sunday",
+        "lemma": "Sunday",
+        "pos": "noun",
+        "ipa": "/ˈsʌndeɪ/",
+        "es": "domingo",
+        "example": "She never works on Sundays."
+      },
+      {
+        "id": "en-weekend",
+        "lemma": "weekend",
+        "pos": "noun",
+        "ipa": "/ˌwiːkˈend/",
+        "es": "fin de semana",
+        "example": "I relax at the weekend."
+      },
+      {
+        "id": "en-always",
+        "lemma": "always",
+        "pos": "adv",
+        "ipa": "/ˈɔːlweɪz/",
+        "es": "siempre",
+        "example": "She always gets up at seven."
+      },
+      {
+        "id": "en-usually",
+        "lemma": "usually",
+        "pos": "adv",
+        "ipa": "/ˈjuːʒuəli/",
+        "es": "normalmente",
+        "example": "She usually has breakfast at home."
+      },
+      {
+        "id": "en-often",
+        "lemma": "often",
+        "pos": "adv",
+        "ipa": "/ˈɒfn/",
+        "es": "a menudo",
+        "example": "I often watch TV."
+      },
+      {
+        "id": "en-sometimes",
+        "lemma": "sometimes",
+        "pos": "adv",
+        "ipa": "/ˈsʌmtaɪmz/",
+        "es": "a veces",
+        "example": "She sometimes watches TV."
+      },
+      {
+        "id": "en-never",
+        "lemma": "never",
+        "pos": "adv",
+        "ipa": "/ˈnevə/",
+        "es": "nunca",
+        "example": "She never works on Sundays."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Días:** Monday · Tuesday · Wednesday · Thursday · Friday · Saturday · Sunday. Siempre con **mayúscula**.\n\n**on + día:** *on Monday(s)* (sin artículo).\n\n| Adverbio | Frecuencia |\n|---|---|\n| always | 100 % |\n| usually | ~80 % |\n| often | ~60 % |\n| sometimes | ~30 % |\n| never | 0 % |\n\n**Posición:** antes del verbo principal (*She always gets up*) y después de *to be* (*She is always late*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I go always to work.",
+        "right": "I always go to work.",
+        "note": "El adverbio va antes del verbo principal."
+      },
+      {
+        "wrong": "monday / on the Monday",
+        "right": "on Monday",
+        "note": "Los días llevan mayúscula y no llevan artículo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adverbio con su frecuencia aproximada.",
+      "pairs": [
+        {
+          "left": "always",
+          "right": "100 %"
+        },
+        {
+          "left": "usually",
+          "right": "~80 %"
+        },
+        {
+          "left": "often",
+          "right": "~60 %"
+        },
+        {
+          "left": "sometimes",
+          "right": "~30 %"
+        },
+        {
+          "left": "never",
+          "right": "0 %"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza la escala de frecuencia.",
+        "incorrect": "Revisa esto: Memoriza la escala de frecuencia."
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "days"
+      ],
+      "est_seconds": 25,
+      "prompt": "The day after Monday is ___.",
+      "answer": [
+        "Tuesday"
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Lunes → martes: Tuesday (con mayúscula).",
+        "incorrect": "Revisa esto: Lunes → martes: Tuesday (con mayúscula)."
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I always go to work.",
+        "I go always to work.",
+        "Always I go to work.",
+        "I go to work always."
+      ],
+      "answer": [
+        "I always go to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio de frecuencia va antes del verbo.",
+        "incorrect": "Revisa esto: El adverbio de frecuencia va antes del verbo."
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "gets",
+        "up",
+        "at",
+        "seven",
+        ".",
+        "She",
+        "always"
+      ],
+      "answer": [
+        "She",
+        "always",
+        "gets",
+        "up",
+        "at",
+        "seven",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio antes del verbo principal.",
+        "incorrect": "Revisa esto: Adverbio antes del verbo principal."
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She goes always to work by bus.",
+      "answer": [
+        "She always goes to work by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio va antes del verbo.",
+        "incorrect": "Revisa esto: El adverbio va antes del verbo."
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿qué NO hace Lucy los domingos?",
+      "options": [
+        "Trabajar",
+        "Mirar la tele",
+        "Levantarse",
+        "Desayunar"
+      ],
+      "answer": [
+        "Trabajar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'She never works on Sundays.'",
+        "incorrect": "Revisa esto: El texto dice 'She never works on Sundays.'"
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "days"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué días trabaja?",
+      "options": [
+        "Mon, Wed, Fri",
+        "Tue, Thu, Sat",
+        "Sat, Sun",
+        "Mon to Fri"
+      ],
+      "answer": [
+        "Mon, Wed, Fri"
+      ],
+      "audio_text": "I work on Monday, Wednesday and Friday.",
+      "feedback": {
+        "correct": "¡Correcto! Escuchas Monday, Wednesday and Friday.",
+        "incorrect": "Revisa esto: Escuchas Monday, Wednesday and Friday."
+      },
+      "audio_script_id": "en-a1-u04-l05-ex07-a"
+    },
+    {
+      "id": "en-a1-u04-l05-ex08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Siempre desayuno en casa.",
+      "answer": [
+        "I always have breakfast at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio antes del verbo: I always have…",
+        "incorrect": "Revisa esto: Adverbio antes del verbo: I always have…"
+      }
+    },
+    {
+      "id": "en-a1-u04-l05-ex09",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "days",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "Tuesday",
+          "ipa": "/ˈtjuːzdeɪ/",
+          "tip_es": "Empieza como 'tiu'."
+        },
+        {
+          "text": "Wednesday",
+          "ipa": "/ˈwenzdeɪ/",
+          "tip_es": "La primera d no se pronuncia: wenz-dei."
+        },
+        {
+          "text": "Thursday",
+          "ipa": "/ˈθɜːzdeɪ/",
+          "tip_es": "th = lengua entre los dientes."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Monday … Sunday (con mayúscula)",
+      "on Mondays",
+      "always · usually · often · sometimes · never",
+      "She always gets up…"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-monday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tuesday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wednesday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thursday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-friday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sunday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-weekend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-always"
+    },
+    {
+      "type": "vocab",
+      "id": "en-usually"
+    },
+    {
+      "type": "vocab",
+      "id": "en-often"
+    },
+    {
+      "type": "grammar",
+      "id": "en-adverbs-of-frequency"
+    }
+  ]
+}

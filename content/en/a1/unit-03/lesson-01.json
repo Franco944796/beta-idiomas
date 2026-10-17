@@ -1,0 +1,445 @@
+{
+  "id": "en-a1-u03-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 3,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My family",
+    "es": "Miembros de la familia"
+  },
+  "objective": "Al terminar nombras a los miembros de tu familia y presentas a alguien en una foto.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Piensa en una foto de tu familia: ¿cómo dirías 'esta es mi madre' en inglés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Who's that in the photo?",
+        "es": "¿Quién es ese de la foto?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's my father. And that's my mother.",
+        "es": "Ese es mi padre. Y esa es mi madre."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Is that your brother?",
+        "es": "¿Ese es tu hermano?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "Yes, he is. And that's my sister.",
+        "es": "Sí. Y esa es mi hermana."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-family",
+        "lemma": "family",
+        "pos": "noun",
+        "ipa": "/ˈfæməli/",
+        "es": "familia",
+        "example": "This is my family."
+      },
+      {
+        "id": "en-photo",
+        "lemma": "photo",
+        "pos": "noun",
+        "ipa": "/ˈfəʊtəʊ/",
+        "es": "foto",
+        "example": "Who's that in the photo?"
+      },
+      {
+        "id": "en-my",
+        "lemma": "my",
+        "pos": "det",
+        "ipa": "/maɪ/",
+        "es": "mi",
+        "example": "This is my mother."
+      },
+      {
+        "id": "en-mother",
+        "lemma": "mother",
+        "pos": "noun",
+        "ipa": "/ˈmʌðə/",
+        "es": "madre",
+        "example": "My mother is a nurse."
+      },
+      {
+        "id": "en-father",
+        "lemma": "father",
+        "pos": "noun",
+        "ipa": "/ˈfɑːðə/",
+        "es": "padre",
+        "example": "My father is a driver."
+      },
+      {
+        "id": "en-mum",
+        "lemma": "mum",
+        "pos": "noun",
+        "ipa": "/mʌm/",
+        "es": "mamá (inglés británico)",
+        "example": "My mum is a doctor."
+      },
+      {
+        "id": "en-dad",
+        "lemma": "dad",
+        "pos": "noun",
+        "ipa": "/dæd/",
+        "es": "papá",
+        "example": "My dad is a driver."
+      },
+      {
+        "id": "en-brother",
+        "lemma": "brother",
+        "pos": "noun",
+        "ipa": "/ˈbrʌðə/",
+        "es": "hermano",
+        "example": "This is my brother."
+      },
+      {
+        "id": "en-sister",
+        "lemma": "sister",
+        "pos": "noun",
+        "ipa": "/ˈsɪstə/",
+        "es": "hermana",
+        "example": "That's my sister."
+      },
+      {
+        "id": "en-parents",
+        "lemma": "parents",
+        "pos": "noun",
+        "ipa": "/ˈpeərənts/",
+        "es": "padres (madre y padre)",
+        "example": "My parents are English."
+      },
+      {
+        "id": "en-grandmother",
+        "lemma": "grandmother",
+        "pos": "noun",
+        "ipa": "/ˈɡrænmʌðə/",
+        "es": "abuela",
+        "example": "My grandmother is old."
+      },
+      {
+        "id": "en-grandfather",
+        "lemma": "grandfather",
+        "pos": "noun",
+        "ipa": "/ˈɡrænfɑːðə/",
+        "es": "abuelo",
+        "example": "My grandfather is kind."
+      },
+      {
+        "id": "en-son",
+        "lemma": "son",
+        "pos": "noun",
+        "ipa": "/sʌn/",
+        "es": "hijo",
+        "example": "He's my son."
+      },
+      {
+        "id": "en-daughter",
+        "lemma": "daughter",
+        "pos": "noun",
+        "ipa": "/ˈdɔːtə/",
+        "es": "hija",
+        "example": "She's my daughter."
+      },
+      {
+        "id": "en-husband",
+        "lemma": "husband",
+        "pos": "noun",
+        "ipa": "/ˈhʌzbənd/",
+        "es": "esposo, marido",
+        "example": "He's my husband."
+      },
+      {
+        "id": "en-wife",
+        "lemma": "wife",
+        "pos": "noun",
+        "ipa": "/waɪf/",
+        "es": "esposa, mujer",
+        "example": "She's my wife."
+      }
+    ],
+    "audio_script_id": "en-a1-u03-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Familia:** mother (mum) · father (dad) · brother · sister · son · daughter · husband · wife · grandmother · grandfather · parents.\n\n**mum** es inglés británico; en americano se dice *mom*.\n\n**Plural:** se añade *-s*: *brother → brothers*, *sister → sisters*.\n\n**Falso amigo:** *parents* = padres (mamá y papá). *Parientes* = *relatives*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Tom and Sam are brother.",
+        "right": "Tom and Sam are brothers.",
+        "note": "Con más de uno se añade -s."
+      },
+      {
+        "wrong": "my parents = mis parientes",
+        "right": "parents = padres; relatives = parientes",
+        "note": "Es un falso amigo."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "parents",
+        "es_false": "parientes",
+        "real": "padres",
+        "note": "'Parientes' se dice relatives."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u03-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "mother",
+          "right": "madre"
+        },
+        {
+          "left": "father",
+          "right": "padre"
+        },
+        {
+          "left": "brother",
+          "right": "hermano"
+        },
+        {
+          "left": "sister",
+          "right": "hermana"
+        },
+        {
+          "left": "grandmother",
+          "right": "abuela"
+        },
+        {
+          "left": "parents",
+          "right": "padres"
+        },
+        {
+          "left": "son",
+          "right": "hijo"
+        },
+        {
+          "left": "daughter",
+          "right": "hija"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los miembros de la familia más frecuentes.",
+        "incorrect": "Revisa esto: Son los miembros de la familia más frecuentes."
+      }
+    },
+    {
+      "id": "en-a1-u03-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 20,
+      "prompt": "Your mother's mother is your…",
+      "options": [
+        "grandmother",
+        "sister",
+        "daughter",
+        "wife"
+      ],
+      "answer": [
+        "grandmother"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La madre de tu madre es tu abuela: grandmother.",
+        "incorrect": "Revisa esto: La madre de tu madre es tu abuela: grandmother."
+      }
+    },
+    {
+      "id": "en-a1-u03-l01-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 25,
+      "prompt": "My father and my mother are my ___.",
+      "answer": [
+        "parents"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Madre y padre juntos = parents.",
+        "incorrect": "Revisa esto: Madre y padre juntos = parents."
+      }
+    },
+    {
+      "id": "en-a1-u03-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'parents'?",
+      "options": [
+        "padres",
+        "parientes",
+        "abuelos",
+        "hermanos"
+      ],
+      "answer": [
+        "padres"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falso amigo: 'parents' = padres; 'parientes' = relatives.",
+        "incorrect": "Revisa esto: Falso amigo: 'parents' = padres; 'parientes' = relatives."
+      }
+    },
+    {
+      "id": "en-a1-u03-l01-ex05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi hermana.",
+      "answer": [
+        "My sister."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Mi' = my.",
+        "incorrect": "Revisa esto: 'Mi' = my."
+      }
+    },
+    {
+      "id": "en-a1-u03-l01-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family",
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica el padre?",
+      "options": [
+        "Driver",
+        "Doctor",
+        "Teacher",
+        "Waiter"
+      ],
+      "answer": [
+        "Driver"
+      ],
+      "audio_text": "This is my family. My mother is a doctor. My father is a driver.",
+      "feedback": {
+        "correct": "¡Correcto! El padre es 'a driver'.",
+        "incorrect": "Revisa esto: El padre es 'a driver'."
+      },
+      "audio_script_id": "en-a1-u03-l01-ex06-a"
+    },
+    {
+      "id": "en-a1-u03-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "brother",
+        ".",
+        "This",
+        "is"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "my",
+        "brother",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! This is + my + familiar.",
+        "incorrect": "Revisa esto: This is + my + familiar."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "This is my mother / father.",
+      "brother, sister, son, daughter",
+      "parents = padres",
+      "mum (UK) / mom (US)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-family"
+    },
+    {
+      "type": "vocab",
+      "id": "en-photo"
+    },
+    {
+      "type": "vocab",
+      "id": "en-my"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mother"
+    },
+    {
+      "type": "vocab",
+      "id": "en-father"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mum"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dad"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brother"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sister"
+    },
+    {
+      "type": "vocab",
+      "id": "en-parents"
+    }
+  ]
+}

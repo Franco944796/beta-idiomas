@@ -1,0 +1,382 @@
+{
+  "id": "en-a1-u03-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 3,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Describing people",
+    "es": "Describir personas"
+  },
+  "objective": "Al terminar describes personas con adjetivos y los colocas bien en la frase.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo es alguien de tu familia? En español decimos 'un hombre alto': ¿cambia el orden en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "My sister Anna is tall and funny. My brother Tom is short and quiet. My father is old, but he is kind. My mother is young and friendly.",
+    "es": "Mi hermana Anna es alta y divertida. Mi hermano Tom es bajo y callado. Mi padre es mayor, pero es amable. Mi madre es joven y simpática.",
+    "glossary": [
+      {
+        "id": "en-tall",
+        "lemma": "tall",
+        "pos": "adj",
+        "ipa": "/tɔːl/",
+        "es": "alto/a",
+        "example": "Anna is tall."
+      },
+      {
+        "id": "en-short",
+        "lemma": "short",
+        "pos": "adj",
+        "ipa": "/ʃɔːt/",
+        "es": "bajo/a",
+        "example": "Tom is short."
+      },
+      {
+        "id": "en-old",
+        "lemma": "old",
+        "pos": "adj",
+        "ipa": "/əʊld/",
+        "es": "mayor, viejo/a",
+        "example": "My father is old."
+      },
+      {
+        "id": "en-young",
+        "lemma": "young",
+        "pos": "adj",
+        "ipa": "/jʌŋ/",
+        "es": "joven",
+        "example": "My mother is young."
+      },
+      {
+        "id": "en-kind",
+        "lemma": "kind",
+        "pos": "adj",
+        "ipa": "/kaɪnd/",
+        "es": "amable",
+        "example": "He is kind."
+      },
+      {
+        "id": "en-funny",
+        "lemma": "funny",
+        "pos": "adj",
+        "ipa": "/ˈfʌni/",
+        "es": "divertido/a",
+        "example": "She is funny."
+      },
+      {
+        "id": "en-quiet",
+        "lemma": "quiet",
+        "pos": "adj",
+        "ipa": "/ˈkwaɪət/",
+        "es": "callado/a, tranquilo/a",
+        "example": "My brother is quiet."
+      },
+      {
+        "id": "en-friendly",
+        "lemma": "friendly",
+        "pos": "adj",
+        "ipa": "/ˈfrendli/",
+        "es": "simpático/a, amistoso/a",
+        "example": "She is friendly."
+      },
+      {
+        "id": "en-but",
+        "lemma": "but",
+        "pos": "conj",
+        "ipa": "/bʌt/",
+        "es": "pero",
+        "example": "He is old, but he is kind."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Los adjetivos no cambian** con el género ni con el número: *a tall man, a tall woman, tall people*.\n\n**Posición:**\n- después de *to be*: *She is tall.*\n- **antes** del sustantivo: *a tall woman* (nunca *a woman tall*).\n\nNo se añade *-s*: *They are tall* (no *talls*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "a woman tall",
+        "right": "a tall woman",
+        "note": "En inglés el adjetivo va antes del sustantivo."
+      },
+      {
+        "wrong": "They are talls.",
+        "right": "They are tall.",
+        "note": "Los adjetivos no cambian en plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u03-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su significado.",
+      "pairs": [
+        {
+          "left": "tall",
+          "right": "alto/a"
+        },
+        {
+          "left": "short",
+          "right": "bajo/a"
+        },
+        {
+          "left": "young",
+          "right": "joven"
+        },
+        {
+          "left": "old",
+          "right": "mayor, viejo/a"
+        },
+        {
+          "left": "kind",
+          "right": "amable"
+        },
+        {
+          "left": "funny",
+          "right": "divertido/a"
+        },
+        {
+          "left": "quiet",
+          "right": "callado/a, tranquilo/a"
+        },
+        {
+          "left": "friendly",
+          "right": "simpático/a, amistoso/a"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los adjetivos de la lección.",
+        "incorrect": "Revisa esto: Son los adjetivos de la lección."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cómo es Tom?",
+      "options": [
+        "Short and quiet",
+        "Tall and funny",
+        "Old and kind",
+        "Young and friendly"
+      ],
+      "answer": [
+        "Short and quiet"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'My brother Tom is short and quiet.'",
+        "incorrect": "Revisa esto: El texto dice 'My brother Tom is short and quiet.'"
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna is ___. She isn't short.",
+      "answer": [
+        "tall"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lo contrario de short es tall.",
+        "incorrect": "Revisa esto: Lo contrario de short es tall."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "tall",
+        "and",
+        "funny",
+        ".",
+        "My",
+        "sister"
+      ],
+      "answer": [
+        "My",
+        "sister",
+        "is",
+        "tall",
+        "and",
+        "funny",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + to be + adjetivos.",
+        "incorrect": "Revisa esto: Sujeto + to be + adjetivos."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is a woman tall.",
+      "answer": [
+        "She is a tall woman.",
+        "She's a tall woman."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el adjetivo va antes del sustantivo.",
+        "incorrect": "Revisa esto: En inglés el adjetivo va antes del sustantivo."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are talls.",
+      "answer": [
+        "They are tall.",
+        "They're tall."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los adjetivos no llevan -s.",
+        "incorrect": "Revisa esto: Los adjetivos no llevan -s."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi padre es amable.",
+      "answer": [
+        "My father is kind.",
+        "My father's kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Padre = father; amable = kind.",
+        "incorrect": "Revisa esto: Padre = father; amable = kind."
+      }
+    },
+    {
+      "id": "en-a1-u03-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es la hermana?",
+      "options": [
+        "Tall and friendly",
+        "Short and quiet",
+        "Young and funny",
+        "Tall and quiet"
+      ],
+      "answer": [
+        "Tall and friendly"
+      ],
+      "audio_text": "My brother is young and quiet. My sister is tall and friendly.",
+      "feedback": {
+        "correct": "¡Correcto! La hermana es 'tall and friendly'.",
+        "incorrect": "Revisa esto: La hermana es 'tall and friendly'."
+      },
+      "audio_script_id": "en-a1-u03-l05-ex08-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He / She is tall, funny, kind…",
+      "a tall woman (adjetivo antes del sustantivo)",
+      "They are tall (sin -s)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-tall"
+    },
+    {
+      "type": "vocab",
+      "id": "en-short"
+    },
+    {
+      "type": "vocab",
+      "id": "en-old"
+    },
+    {
+      "type": "vocab",
+      "id": "en-young"
+    },
+    {
+      "type": "vocab",
+      "id": "en-kind"
+    },
+    {
+      "type": "vocab",
+      "id": "en-funny"
+    },
+    {
+      "type": "vocab",
+      "id": "en-quiet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-friendly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-but"
+    },
+    {
+      "type": "grammar",
+      "id": "en-adjectives-position"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "en-a1-u05-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 5,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I like...",
+    "es": "Gustos: like, love, hate"
+  },
+  "objective": "Al terminar dices lo que te gusta y lo que no con like, love y hate.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español decimos 'me gusta el pescado'. ¿Quién es el sujeto en inglés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lucy",
+        "text": "Do you like fish, Sam?",
+        "es": "¿Te gusta el pescado, Sam?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes, I do. I love fish. But I don't like chicken.",
+        "es": "Sí. Me encanta el pescado. Pero no me gusta el pollo."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Really? I like chicken, but I hate rice!",
+        "es": "¿En serio? A mí me gusta el pollo, ¡pero odio el arroz!"
+      },
+      {
+        "speaker": "Sam",
+        "text": "I don't like coffee. I like tea.",
+        "es": "No me gusta el café. Me gusta el té."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-like",
+        "lemma": "like",
+        "pos": "verb",
+        "ipa": "/laɪk/",
+        "es": "gustar",
+        "example": "I like fish."
+      },
+      {
+        "id": "en-love",
+        "lemma": "love",
+        "pos": "verb",
+        "ipa": "/lʌv/",
+        "es": "encantar, amar",
+        "example": "I love chicken."
+      },
+      {
+        "id": "en-hate",
+        "lemma": "hate",
+        "pos": "verb",
+        "ipa": "/heɪt/",
+        "es": "odiar",
+        "example": "I hate rice."
+      },
+      {
+        "id": "en-favourite",
+        "lemma": "favourite",
+        "pos": "adj",
+        "ipa": "/ˈfeɪvərɪt/",
+        "es": "favorito/a",
+        "example": "What's your favourite food?"
+      }
+    ],
+    "audio_script_id": "en-a1-u05-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**like + sustantivo:** *I like fish. I like apples.* (sin artículo cuando hablamos en general)\n\nEn español el sujeto de 'gustar' es la cosa; en inglés el sujeto es **quien** siente: *I like fish* (yo + gusto + pescado).\n\n**Escala:** love > like > don't like > hate.\n\n**Con he/she/it:** *She likes tea.* · *He doesn't like coffee.*\n\n**Pregunta:** *Do you like fish? — Yes, I do. / No, I don't.* · *What's your favourite food?*",
+    "common_mistakes_es": [
+      {
+        "wrong": "Me like fish.",
+        "right": "I like fish.",
+        "note": "En inglés el sujeto es quien siente: I."
+      },
+      {
+        "wrong": "She like tea.",
+        "right": "She likes tea.",
+        "note": "Con he/she/it el verbo lleva -s."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u05-l03-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ fish. (me encanta)",
+      "answer": [
+        "love"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Love = encantar, amar.",
+        "incorrect": "Revisa esto: Love = encantar, amar."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ like coffee. (no le gusta)",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she la negativa es doesn't.",
+        "incorrect": "Revisa esto: Con she la negativa es doesn't."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "fish",
+        "?",
+        "Do",
+        "you"
+      ],
+      "answer": [
+        "Do",
+        "you",
+        "like",
+        "fish",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do + sujeto + like + comida.",
+        "incorrect": "Revisa esto: Do + sujeto + like + comida."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Me like chicken.",
+      "answer": [
+        "I like chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto es 'I', no 'me'.",
+        "incorrect": "Revisa esto: El sujeto es 'I', no 'me'."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He like rice.",
+      "answer": [
+        "He likes rice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s: likes.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s: likes."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me gusta el pescado.",
+      "answer": [
+        "I like fish."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo y con 'I' como sujeto.",
+        "incorrect": "Revisa esto: Sin artículo y con 'I' como sujeto."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué odia la persona que habla?",
+      "options": [
+        "Fish",
+        "Chicken",
+        "Rice",
+        "Milk"
+      ],
+      "answer": [
+        "Fish"
+      ],
+      "audio_text": "I love chicken, but I hate fish.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I hate fish'.",
+        "incorrect": "Revisa esto: Dice 'I hate fish'."
+      },
+      "audio_script_id": "en-a1-u05-l03-ex07-a"
+    },
+    {
+      "id": "en-a1-u05-l03-ex08",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "like",
+        "food"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 3 frases: algo que te encanta, algo que te gusta y algo que no te gusta (comida o bebida).",
+      "min_words": 10,
+      "self_check_es": [
+        "¿Usaste love, like y don't like?",
+        "¿Usaste 'I' como sujeto?",
+        "¿Pusiste la comida sin artículo?"
+      ],
+      "model_answer": "I love pasta. I like chicken. I don't like fish.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u05-l03-ex09",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "like",
+        "food"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás almorzando con un amigo.",
+      "turns": [
+        {
+          "speaker": "Lucy",
+          "text": "Do you like fish?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I do. I like fish.",
+            "Yes, I like do.",
+            "Yes, I'm like fish."
+          ],
+          "best": 0,
+          "why_es": "Respuesta corta con do y luego la frase."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "What's your favourite food?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I love pasta.",
+            "Me love pasta.",
+            "I'm love pasta."
+          ],
+          "best": 0,
+          "why_es": "El sujeto es 'I' y el verbo love."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I like / love / hate …",
+      "I don't like …",
+      "Do you like …? — Yes, I do.",
+      "She likes …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-like"
+    },
+    {
+      "type": "vocab",
+      "id": "en-love"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-favourite"
+    },
+    {
+      "type": "grammar",
+      "id": "en-like-love-hate"
+    }
+  ]
+}

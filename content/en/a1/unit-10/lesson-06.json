@@ -1,0 +1,339 @@
+{
+  "id": "en-a1-u10-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de A1"
+  },
+  "objective": "Al terminar demuestras el nivel A1: presentarte, hablar de tu vida diaria, tu entorno, tus gustos y tus planes.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Último checkpoint de A1: reúne todo lo que aprendiste."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repaso final de A1: to be, posesivos y have got, presente simple, there is / are, can, presente continuo, precios, fechas, clima y planes.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso final de A1**\n\n- *I'm / She's from … · Where are you from?*\n- *my / his / her · Anna's brother · I've got …*\n- *I get up · She works · Do you like …? · I don't work*\n- *There is / are · in · on · next to · Turn left*\n- *How much is it? · these / those · I'd like …, please.*\n- *I can swim · Can I …? · I'm cooking · Would you like to …?*\n- *It's cold · the fifth of May · I'm going to … tomorrow.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l06-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde: Good afternoon.",
+        "incorrect": "Revisa esto: Por la tarde: Good afternoon."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ from Brazil.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa is.",
+        "incorrect": "Revisa esto: Con she se usa is."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (work) in a shop.",
+      "answer": [
+        "works"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ two chairs in the kitchen.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the shoes?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: How much are…?",
+        "incorrect": "Revisa esto: Shoes es plural: How much are…?"
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ in winter. (frío)",
+      "answer": [
+        "cold"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frío = cold.",
+        "incorrect": "Revisa esto: Frío = cold."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día es un ordinal: fifth.",
+        "incorrect": "Revisa esto: El día es un ordinal: fifth."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Planes: presente continuo.",
+        "incorrect": "Revisa esto: Planes: presente continuo."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "weather",
+        "like",
+        "today",
+        "?",
+        "What's",
+        "the"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "weather",
+        "like",
+        "today",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre el clima.",
+        "incorrect": "Revisa esto: Pregunta sobre el clima."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora empieza la película?",
+      "options": [
+        "8:00",
+        "7:00",
+        "9:00",
+        "8:30"
+      ],
+      "answer": [
+        "8:00"
+      ],
+      "audio_text": "Tomorrow I'm going to the cinema with Anna. The film starts at eight o'clock.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'at eight o'clock'.",
+        "incorrect": "Revisa esto: Dice 'at eight o'clock'."
+      },
+      "audio_script_id": "en-a1-u10-l06-ex10-a"
+    },
+    {
+      "id": "en-a1-u10-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "greetings",
+        "plans"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases: preséntate, di dónde vives, qué haces en tu tiempo libre y un plan para el fin de semana.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Te presentaste con I'm…?",
+        "¿Dijiste dónde vives con I live in…?",
+        "¿Usaste presente simple o can para tu tiempo libre?",
+        "¿Usaste presente continuo para el plan?"
+      ],
+      "model_answer": "Hello! I'm Ana. I live in a flat in Rosario. I play football on Saturdays. I can cook. Next weekend I'm visiting my parents.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u10-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "invitations"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tu fin de semana.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "What are you doing this weekend?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm visiting my parents.",
+            "I visit my parents tomorrow.",
+            "I'm visit my parents."
+          ],
+          "best": 0,
+          "why_es": "Plan futuro: I'm visiting…"
+        },
+        {
+          "speaker": "Sam",
+          "text": "Would you like to go to the cinema on Sunday?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd love to!",
+            "I love go.",
+            "Yes, I would go."
+          ],
+          "best": 0,
+          "why_es": "Aceptas con I'd love to."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm … · I live in … · I can …",
+      "How much is it? · It's cold",
+      "I'm going to … tomorrow.",
+      "Would you like to …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-present-continuous-future"
+    },
+    {
+      "type": "grammar",
+      "id": "en-weather"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "id": "en-a1-u09-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Free time",
+    "es": "Tiempo libre y pasatiempos"
+  },
+  "objective": "Al terminar hablas de tus pasatiempos y de qué haces en tu tiempo libre.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué te gusta hacer cuando no trabajas ni estudias? Aprende cómo se dice en inglés."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What do you do in your free time, Lucy?",
+        "es": "¿Qué haces en tu tiempo libre, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I play football on Saturdays and I read books in the evening.",
+        "es": "Juego al fútbol los sábados y leo libros por la noche."
+      },
+      {
+        "speaker": "Sam",
+        "text": "I like music. I listen to music and I play the guitar.",
+        "es": "A mí me gusta la música. Escucho música y toco la guitarra."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Cool! I often watch films with my friends.",
+        "es": "¡Qué bueno! Yo suelo mirar películas con mis amigos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-free-time",
+        "lemma": "free time",
+        "pos": "noun",
+        "ipa": "/ˌfriː ˈtaɪm/",
+        "es": "tiempo libre",
+        "example": "What do you do in your free time?"
+      },
+      {
+        "id": "en-hobby",
+        "lemma": "hobby",
+        "pos": "noun",
+        "ipa": "/ˈhɒbi/",
+        "es": "pasatiempo",
+        "example": "My hobby is music."
+      },
+      {
+        "id": "en-play-football",
+        "lemma": "play football",
+        "pos": "phrase",
+        "ipa": "/ˌpleɪ ˈfʊtbɔːl/",
+        "es": "jugar al fútbol",
+        "example": "I play football on Saturdays."
+      },
+      {
+        "id": "en-play-the-guitar",
+        "lemma": "play the guitar",
+        "pos": "phrase",
+        "ipa": "/ˌpleɪ ðə ɡɪˈtɑː/",
+        "es": "tocar la guitarra",
+        "example": "He plays the guitar."
+      },
+      {
+        "id": "en-read-books",
+        "lemma": "read books",
+        "pos": "phrase",
+        "ipa": "/ˌriːd ˈbʊks/",
+        "es": "leer libros",
+        "example": "I read books in the evening."
+      },
+      {
+        "id": "en-listen-to-music",
+        "lemma": "listen to music",
+        "pos": "phrase",
+        "ipa": "/ˌlɪsn tə ˈmjuːzɪk/",
+        "es": "escuchar música",
+        "example": "I listen to music."
+      },
+      {
+        "id": "en-watch-films",
+        "lemma": "watch films",
+        "pos": "phrase",
+        "ipa": "/ˌwɒtʃ ˈfɪlmz/",
+        "es": "mirar películas",
+        "example": "We watch films on Fridays."
+      },
+      {
+        "id": "en-swim",
+        "lemma": "swim",
+        "pos": "verb",
+        "ipa": "/swɪm/",
+        "es": "nadar",
+        "example": "I swim on Mondays."
+      },
+      {
+        "id": "en-cook",
+        "lemma": "cook",
+        "pos": "verb",
+        "ipa": "/kʊk/",
+        "es": "cocinar",
+        "example": "I cook on Sundays."
+      },
+      {
+        "id": "en-dance",
+        "lemma": "dance",
+        "pos": "verb",
+        "ipa": "/dɑːns/",
+        "es": "bailar",
+        "example": "She dances every weekend."
+      },
+      {
+        "id": "en-sing",
+        "lemma": "sing",
+        "pos": "verb",
+        "ipa": "/sɪŋ/",
+        "es": "cantar",
+        "example": "He sings in the shower."
+      },
+      {
+        "id": "en-go-for-a-walk",
+        "lemma": "go for a walk",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ fər ə ˈwɔːk/",
+        "es": "dar un paseo",
+        "example": "I go for a walk in the park."
+      }
+    ],
+    "audio_script_id": "en-a1-u09-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Con *play*:** deportes sin artículo → *play football, play tennis*. Instrumentos con *the* → *play the guitar, play the piano*.\n\n**Con otros verbos:** *read books · watch films · swim · cook · dance · sing · go for a walk*.\n\n**Ojo:** *listen **to** music* (siempre con *to*).\n\n**Pregunta:** *What do you do in your free time?*\n\nPronunciación: *guitar* → gi-TAR · *music* → MIÚ-sik.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I play the football.",
+        "right": "I play football.",
+        "note": "Los deportes no llevan artículo."
+      },
+      {
+        "wrong": "I listen music.",
+        "right": "I listen to music.",
+        "note": "Listen siempre lleva 'to'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada actividad con su significado.",
+      "pairs": [
+        {
+          "left": "play football",
+          "right": "jugar al fútbol"
+        },
+        {
+          "left": "listen to music",
+          "right": "escuchar música"
+        },
+        {
+          "left": "watch films",
+          "right": "mirar películas"
+        },
+        {
+          "left": "swim",
+          "right": "nadar"
+        },
+        {
+          "left": "cook",
+          "right": "cocinar"
+        },
+        {
+          "left": "read books",
+          "right": "leer libros"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los pasatiempos más comunes.",
+        "incorrect": "Revisa esto: Son los pasatiempos más comunes."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 25,
+      "prompt": "I listen ___ music.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con listen siempre se usa to.",
+        "incorrect": "Revisa esto: Con listen siempre se usa to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 25,
+      "prompt": "I play ___ guitar.",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con instrumentos se usa the.",
+        "incorrect": "Revisa esto: Con instrumentos se usa the."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'jugar al fútbol'?",
+      "options": [
+        "play football",
+        "play the football",
+        "do football",
+        "make football"
+      ],
+      "answer": [
+        "play football"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con deportes se usa play, sin artículo.",
+        "incorrect": "Revisa esto: Con deportes se usa play, sin artículo."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I play the football on Saturdays.",
+      "answer": [
+        "I play football on Saturdays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los deportes no llevan artículo.",
+        "incorrect": "Revisa esto: Los deportes no llevan artículo."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I listen music in the evening.",
+      "answer": [
+        "I listen to music in the evening."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen siempre lleva to.",
+        "incorrect": "Revisa esto: Listen siempre lleva to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué hace Lucy los sábados?",
+      "options": [
+        "Juega al fútbol",
+        "Lee libros",
+        "Toca la guitarra",
+        "Nada"
+      ],
+      "answer": [
+        "Juega al fútbol"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'I play football on Saturdays'.",
+        "incorrect": "Revisa esto: Lucy dice 'I play football on Saturdays'."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace la persona los viernes?",
+      "options": [
+        "Cooks",
+        "Swims",
+        "Dances",
+        "Reads"
+      ],
+      "answer": [
+        "Cooks"
+      ],
+      "audio_text": "I swim on Mondays and I cook on Fridays.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I cook on Fridays'.",
+        "incorrect": "Revisa esto: Dice 'I cook on Fridays'."
+      },
+      "audio_script_id": "en-a1-u09-l01-ex08-a"
+    },
+    {
+      "id": "en-a1-u09-l01-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "do",
+        "in",
+        "your",
+        "free",
+        "time",
+        "?",
+        "What",
+        "do"
+      ],
+      "answer": [
+        "What",
+        "do",
+        "you",
+        "do",
+        "in",
+        "your",
+        "free",
+        "time",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre el tiempo libre.",
+        "incorrect": "Revisa esto: Pregunta sobre el tiempo libre."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Escucho música.",
+      "answer": [
+        "I listen to music."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to + música.",
+        "incorrect": "Revisa esto: Listen to + música."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hobbies",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "guitar",
+          "ipa": "/ɡɪˈtɑː/",
+          "tip_es": "El acento va en la segunda sílaba."
+        },
+        {
+          "text": "music",
+          "ipa": "/ˈmjuːzɪk/",
+          "tip_es": "Empieza como 'miu'."
+        },
+        {
+          "text": "football",
+          "ipa": "/ˈfʊtbɔːl/",
+          "tip_es": "Primera sílaba corta: 'fut'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "play football · play the guitar",
+      "listen to music · watch films · read books",
+      "What do you do in your free time?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-free-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hobby"
+    },
+    {
+      "type": "vocab",
+      "id": "en-play-football"
+    },
+    {
+      "type": "vocab",
+      "id": "en-play-the-guitar"
+    },
+    {
+      "type": "vocab",
+      "id": "en-read-books"
+    },
+    {
+      "type": "vocab",
+      "id": "en-listen-to-music"
+    },
+    {
+      "type": "vocab",
+      "id": "en-watch-films"
+    },
+    {
+      "type": "vocab",
+      "id": "en-swim"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cook"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dance"
+    }
+  ]
+}

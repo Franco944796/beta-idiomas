@@ -1,0 +1,320 @@
+{
+  "id": "en-a1-u02-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Are you...?",
+    "es": "Negativas, preguntas y respuestas cortas"
+  },
+  "objective": "Al terminar haces negativas y preguntas con to be, y respondes con respuestas cortas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Piensa: ¿cómo preguntas 'eres español?' y cómo respondes 'no, no lo soy'?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Are you Spanish, Carlos?",
+        "es": "¿Eres español, Carlos?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "No, I'm not. I'm Argentinian.",
+        "es": "No. Soy argentino."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Is Laura Argentinian, too?",
+        "es": "¿Laura también es argentina?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "No, she isn't. She's Italian.",
+        "es": "No. Es italiana."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Are you friends?",
+        "es": "¿Son amigos?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Yes, we are.",
+        "es": "Sí, lo somos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-isn-t",
+        "lemma": "isn't",
+        "pos": "verb",
+        "ipa": "/ˈɪznt/",
+        "es": "no es",
+        "example": "She isn't Spanish."
+      },
+      {
+        "id": "en-aren-t",
+        "lemma": "aren't",
+        "pos": "verb",
+        "ipa": "/ɑːnt/",
+        "es": "no son / no eres",
+        "example": "They aren't teachers."
+      },
+      {
+        "id": "en-i-m-not",
+        "lemma": "I'm not",
+        "pos": "phrase",
+        "ipa": "/aɪm ˈnɒt/",
+        "es": "no soy",
+        "example": "I'm not Spanish."
+      },
+      {
+        "id": "en-yes-i-am",
+        "lemma": "yes, I am",
+        "pos": "phrase",
+        "ipa": "/jes aɪ ˈæm/",
+        "es": "sí, lo soy",
+        "example": "Are you a student? Yes, I am."
+      },
+      {
+        "id": "en-no-i-m-not",
+        "lemma": "no, I'm not",
+        "pos": "phrase",
+        "ipa": "/nəʊ aɪm ˈnɒt/",
+        "es": "no, no lo soy",
+        "example": "Are you English? No, I'm not."
+      }
+    ],
+    "audio_script_id": "en-a1-u02-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Negativa:** to be + **not** → *I'm not · you aren't · he isn't · she isn't · it isn't · we aren't · they aren't*.\n\n**Pregunta:** se invierte el orden → *Are you…? Is she…? Are they…?*\n\n**Respuestas cortas:** *Yes, I am. / No, I'm not. · Yes, he is. / No, he isn't. · Yes, we are. / No, we aren't.*\n\nEn la respuesta corta **afirmativa no se contrae**: *Yes, I am* (no *Yes, I'm*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Yes, I'm.",
+        "right": "Yes, I am.",
+        "note": "En respuestas cortas afirmativas no se contrae."
+      },
+      {
+        "wrong": "You are Spanish? (por escrito)",
+        "right": "Are you Spanish?",
+        "note": "En preguntas se invierte: verbo antes del sujeto."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you Spanish? — No, I'm not.",
+      "answer": [
+        "Are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you' la pregunta empieza con 'Are'.",
+        "incorrect": "Revisa esto: Con 'you' la pregunta empieza con 'Are'."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura ___ Argentinian. She's Italian.",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con 'she': isn't (is not).",
+        "incorrect": "Revisa esto: Negativa con 'she': isn't (is not)."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "student",
+        "?",
+        "Are",
+        "you"
+      ],
+      "answer": [
+        "Are",
+        "you",
+        "a",
+        "student",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas con to be, el verbo va antes del sujeto.",
+        "incorrect": "Revisa esto: En preguntas con to be, el verbo va antes del sujeto."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 20,
+      "prompt": "Is Tom English? — ___",
+      "options": [
+        "Yes, he is.",
+        "Yes, he's.",
+        "Yes, is.",
+        "Yes, I am."
+      ],
+      "answer": [
+        "Yes, he is."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae: Yes, he is.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae: Yes, he is."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yes, I'm.",
+      "answer": [
+        "Yes, I am."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En la respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: En la respuesta corta afirmativa no se contrae."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pregunta con su respuesta.",
+      "pairs": [
+        {
+          "left": "Are you Spanish?",
+          "right": "No, I'm not."
+        },
+        {
+          "left": "Is she Italian?",
+          "right": "Yes, she is."
+        },
+        {
+          "left": "Are they friends?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is it a phone?",
+          "right": "No, it isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta repite el sujeto y el verbo.",
+        "incorrect": "Revisa esto: La respuesta repite el sujeto y el verbo."
+      }
+    },
+    {
+      "id": "en-a1-u02-l04-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona que responde?",
+      "options": [
+        "Mexico",
+        "Brazil",
+        "Spain",
+        "Italy"
+      ],
+      "answer": [
+        "Mexico"
+      ],
+      "audio_text": "Are you from Brazil? No, I'm not. I'm from Mexico.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I'm not. I'm from Mexico.'",
+        "incorrect": "Revisa esto: Responde 'No, I'm not. I'm from Mexico.'"
+      },
+      "audio_script_id": "en-a1-u02-l04-ex07-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm not / he isn't / they aren't",
+      "Are you …? Is she …?",
+      "Yes, I am. / No, I'm not."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-isn-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-aren-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-m-not"
+    },
+    {
+      "type": "vocab",
+      "id": "en-yes-i-am"
+    },
+    {
+      "type": "vocab",
+      "id": "en-no-i-m-not"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-negative-questions"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "id": "en-a1-u10-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Months and seasons",
+    "es": "Meses y estaciones"
+  },
+  "objective": "Al terminar nombras los meses y las estaciones y dices cuándo ocurren con in.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿En qué mes empieza el verano donde vives? Aprende los meses y las estaciones en inglés."
+  },
+  "input": {
+    "type": "text",
+    "text": "There are twelve months in a year. In the UK, spring is in March, April and May. Summer is in June, July and August. In Argentina, summer is in December, January and February. It's hot in summer and cold in winter.",
+    "es": "Hay doce meses en un año. En el Reino Unido, la primavera es en marzo, abril y mayo. El verano es en junio, julio y agosto. En Argentina, el verano es en diciembre, enero y febrero. Hace calor en verano y frío en invierno.",
+    "glossary": [
+      {
+        "id": "en-month",
+        "lemma": "month",
+        "pos": "noun",
+        "ipa": "/mʌnθ/",
+        "es": "mes",
+        "example": "There are twelve months in a year."
+      },
+      {
+        "id": "en-year",
+        "lemma": "year",
+        "pos": "noun",
+        "ipa": "/jɪə/",
+        "es": "año",
+        "example": "There are twelve months in a year."
+      },
+      {
+        "id": "en-january",
+        "lemma": "January",
+        "pos": "noun",
+        "ipa": "/ˈdʒænjuəri/",
+        "es": "enero",
+        "example": "It's cold in January."
+      },
+      {
+        "id": "en-february",
+        "lemma": "February",
+        "pos": "noun",
+        "ipa": "/ˈfebruəri/",
+        "es": "febrero",
+        "example": "February is a short month."
+      },
+      {
+        "id": "en-march",
+        "lemma": "March",
+        "pos": "noun",
+        "ipa": "/mɑːtʃ/",
+        "es": "marzo",
+        "example": "Spring starts in March."
+      },
+      {
+        "id": "en-april",
+        "lemma": "April",
+        "pos": "noun",
+        "ipa": "/ˈeɪprəl/",
+        "es": "abril",
+        "example": "It rains in April."
+      },
+      {
+        "id": "en-may",
+        "lemma": "May",
+        "pos": "noun",
+        "ipa": "/meɪ/",
+        "es": "mayo",
+        "example": "May is warm."
+      },
+      {
+        "id": "en-june",
+        "lemma": "June",
+        "pos": "noun",
+        "ipa": "/dʒuːn/",
+        "es": "junio",
+        "example": "Summer starts in June."
+      },
+      {
+        "id": "en-july",
+        "lemma": "July",
+        "pos": "noun",
+        "ipa": "/dʒuˈlaɪ/",
+        "es": "julio",
+        "example": "July is hot."
+      },
+      {
+        "id": "en-august",
+        "lemma": "August",
+        "pos": "noun",
+        "ipa": "/ˈɔːɡəst/",
+        "es": "agosto",
+        "example": "August is a summer month."
+      },
+      {
+        "id": "en-september",
+        "lemma": "September",
+        "pos": "noun",
+        "ipa": "/sepˈtembə/",
+        "es": "septiembre",
+        "example": "School starts in September."
+      },
+      {
+        "id": "en-october",
+        "lemma": "October",
+        "pos": "noun",
+        "ipa": "/ɒkˈtəʊbə/",
+        "es": "octubre",
+        "example": "October is cool."
+      },
+      {
+        "id": "en-november",
+        "lemma": "November",
+        "pos": "noun",
+        "ipa": "/nəʊˈvembə/",
+        "es": "noviembre",
+        "example": "It's cold in November."
+      },
+      {
+        "id": "en-december",
+        "lemma": "December",
+        "pos": "noun",
+        "ipa": "/dɪˈsembə/",
+        "es": "diciembre",
+        "example": "Winter starts in December."
+      },
+      {
+        "id": "en-spring",
+        "lemma": "spring",
+        "pos": "noun",
+        "ipa": "/sprɪŋ/",
+        "es": "primavera",
+        "example": "Spring is in March."
+      },
+      {
+        "id": "en-summer",
+        "lemma": "summer",
+        "pos": "noun",
+        "ipa": "/ˈsʌmə/",
+        "es": "verano",
+        "example": "Summer is hot."
+      },
+      {
+        "id": "en-autumn",
+        "lemma": "autumn",
+        "pos": "noun",
+        "ipa": "/ˈɔːtəm/",
+        "es": "otoño (inglés británico)",
+        "example": "Autumn is in October."
+      },
+      {
+        "id": "en-winter",
+        "lemma": "winter",
+        "pos": "noun",
+        "ipa": "/ˈwɪntə/",
+        "es": "invierno",
+        "example": "Winter is cold."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Meses:** January · February · March · April · May · June · July · August · September · October · November · December. Siempre con **mayúscula**.\n\n**Estaciones:** spring · summer · autumn (*fall* en inglés americano) · winter. En minúscula.\n\n**in + mes / estación:** *in January · in summer.*\n\n**Ojo:** el hemisferio sur tiene las estaciones invertidas: el verano de Argentina es en diciembre-febrero; el del Reino Unido, en junio-agosto.",
+    "common_mistakes_es": [
+      {
+        "wrong": "in january",
+        "right": "in January",
+        "note": "Los meses llevan mayúscula."
+      },
+      {
+        "wrong": "on winter",
+        "right": "in winter",
+        "note": "Con meses y estaciones se usa in."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l02-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada mes con su traducción.",
+      "pairs": [
+        {
+          "left": "January",
+          "right": "enero"
+        },
+        {
+          "left": "March",
+          "right": "marzo"
+        },
+        {
+          "left": "June",
+          "right": "junio"
+        },
+        {
+          "left": "August",
+          "right": "agosto"
+        },
+        {
+          "left": "October",
+          "right": "octubre"
+        },
+        {
+          "left": "December",
+          "right": "diciembre"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los meses clave.",
+        "incorrect": "Revisa esto: Son los meses clave."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 25,
+      "prompt": "The month after May is ___.",
+      "answer": [
+        "June"
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Mayo → junio: June.",
+        "incorrect": "Revisa esto: Mayo → junio: June."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's cold ___ winter.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con estaciones se usa in.",
+        "incorrect": "Revisa esto: Con estaciones se usa in."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'otoño' en inglés británico?",
+      "options": [
+        "autumn",
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "answer": [
+        "autumn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, otoño = autumn.",
+        "incorrect": "Revisa esto: En inglés británico, otoño = autumn."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My class is in january.",
+      "answer": [
+        "My class is in January."
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Los meses llevan mayúscula.",
+        "incorrect": "Revisa esto: Los meses llevan mayúscula."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's cold on winter.",
+      "answer": [
+        "It's cold in winter."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con estaciones se usa in.",
+        "incorrect": "Revisa esto: Con estaciones se usa in."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿en qué meses es el verano en Argentina?",
+      "options": [
+        "December, January and February",
+        "June, July and August",
+        "March, April and May",
+        "September, October and November"
+      ],
+      "answer": [
+        "December, January and February"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'In Argentina, summer is in December, January and February'.",
+        "incorrect": "Revisa esto: El texto dice 'In Argentina, summer is in December, January and February'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo termina la clase?",
+      "options": [
+        "October",
+        "April",
+        "September",
+        "November"
+      ],
+      "answer": [
+        "October"
+      ],
+      "audio_text": "The class starts in April and finishes in October.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'finishes in October'.",
+        "incorrect": "Revisa esto: Dice 'finishes in October'."
+      },
+      "audio_script_id": "en-a1-u10-l02-ex08-a"
+    },
+    {
+      "id": "en-a1-u10-l02-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "in",
+        "December",
+        "in",
+        "Argentina",
+        ".",
+        "Summer",
+        "is"
+      ],
+      "answer": [
+        "Summer",
+        "is",
+        "in",
+        "December",
+        "in",
+        "Argentina",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estación + is + in + mes.",
+        "incorrect": "Revisa esto: Estación + is + in + mes."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "months",
+        "weather"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "En invierno hace frío.",
+      "answer": [
+        "It's cold in winter."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's + adjetivo + in + estación.",
+        "incorrect": "Revisa esto: It's + adjetivo + in + estación."
+      }
+    },
+    {
+      "id": "en-a1-u10-l02-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "months",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "February",
+          "ipa": "/ˈfebruəri/",
+          "tip_es": "Se pronuncia la r: 'fébruari'."
+        },
+        {
+          "text": "August",
+          "ipa": "/ˈɔːɡəst/",
+          "tip_es": "Empieza como 'oo'."
+        },
+        {
+          "text": "October",
+          "ipa": "/ɒkˈtəʊbə/",
+          "tip_es": "El acento va en la segunda sílaba."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "January … December (mayúscula)",
+      "spring · summer · autumn · winter",
+      "in January · in summer"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-month"
+    },
+    {
+      "type": "vocab",
+      "id": "en-year"
+    },
+    {
+      "type": "vocab",
+      "id": "en-january"
+    },
+    {
+      "type": "vocab",
+      "id": "en-february"
+    },
+    {
+      "type": "vocab",
+      "id": "en-march"
+    },
+    {
+      "type": "vocab",
+      "id": "en-april"
+    },
+    {
+      "type": "vocab",
+      "id": "en-may"
+    },
+    {
+      "type": "vocab",
+      "id": "en-june"
+    },
+    {
+      "type": "vocab",
+      "id": "en-july"
+    },
+    {
+      "type": "vocab",
+      "id": "en-august"
+    }
+  ]
+}

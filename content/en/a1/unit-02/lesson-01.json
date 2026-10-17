@@ -1,0 +1,472 @@
+{
+  "id": "en-a1-u02-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where are you from?",
+    "es": "Países y nacionalidades"
+  },
+  "objective": "Al terminar puedes decir de qué país eres y cuál es tu nacionalidad, y preguntar lo mismo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿De dónde eres? Piensa cómo lo dirías en inglés con lo que ya sabes de I'm."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Hi, I'm Anna. Where are you from?",
+        "es": "Hola, soy Anna. ¿De dónde eres?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "I'm from Argentina. I'm Argentinian.",
+        "es": "Soy de Argentina. Soy argentino."
+      },
+      {
+        "speaker": "Anna",
+        "text": "Oh, nice! I'm from England. I'm English.",
+        "es": "¡Qué bueno! Soy de Inglaterra. Soy inglesa."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Nice to meet you, Anna.",
+        "es": "Mucho gusto, Anna."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-country",
+        "lemma": "country",
+        "pos": "noun",
+        "ipa": "/ˈkʌntri/",
+        "es": "país",
+        "example": "What country are you from?"
+      },
+      {
+        "id": "en-from",
+        "lemma": "from",
+        "pos": "prep",
+        "ipa": "/frɒm/",
+        "es": "de, desde",
+        "example": "I'm from Spain."
+      },
+      {
+        "id": "en-where",
+        "lemma": "where",
+        "pos": "adv",
+        "ipa": "/weə/",
+        "es": "dónde",
+        "example": "Where are you from?"
+      },
+      {
+        "id": "en-argentina",
+        "lemma": "Argentina",
+        "pos": "proper noun",
+        "ipa": "/ˌɑːdʒənˈtiːnə/",
+        "es": "Argentina",
+        "example": "I'm from Argentina."
+      },
+      {
+        "id": "en-argentinian",
+        "lemma": "Argentinian",
+        "pos": "adj",
+        "ipa": "/ˌɑːdʒənˈtɪniən/",
+        "es": "argentino/a",
+        "example": "She's Argentinian."
+      },
+      {
+        "id": "en-spain",
+        "lemma": "Spain",
+        "pos": "proper noun",
+        "ipa": "/speɪn/",
+        "es": "España",
+        "example": "He's from Spain."
+      },
+      {
+        "id": "en-spanish",
+        "lemma": "Spanish",
+        "pos": "adj",
+        "ipa": "/ˈspænɪʃ/",
+        "es": "español/a",
+        "example": "I'm Spanish."
+      },
+      {
+        "id": "en-brazil",
+        "lemma": "Brazil",
+        "pos": "proper noun",
+        "ipa": "/brəˈzɪl/",
+        "es": "Brasil",
+        "example": "She's from Brazil."
+      },
+      {
+        "id": "en-brazilian",
+        "lemma": "Brazilian",
+        "pos": "adj",
+        "ipa": "/brəˈzɪliən/",
+        "es": "brasileño/a",
+        "example": "He's Brazilian."
+      },
+      {
+        "id": "en-mexico",
+        "lemma": "Mexico",
+        "pos": "proper noun",
+        "ipa": "/ˈmeksɪkəʊ/",
+        "es": "México",
+        "example": "I'm from Mexico."
+      },
+      {
+        "id": "en-mexican",
+        "lemma": "Mexican",
+        "pos": "adj",
+        "ipa": "/ˈmeksɪkən/",
+        "es": "mexicano/a",
+        "example": "She's Mexican."
+      },
+      {
+        "id": "en-england",
+        "lemma": "England",
+        "pos": "proper noun",
+        "ipa": "/ˈɪŋɡlənd/",
+        "es": "Inglaterra",
+        "example": "I'm from England."
+      },
+      {
+        "id": "en-english",
+        "lemma": "English",
+        "pos": "adj",
+        "ipa": "/ˈɪŋɡlɪʃ/",
+        "es": "inglés/a",
+        "example": "Tom is English."
+      },
+      {
+        "id": "en-france",
+        "lemma": "France",
+        "pos": "proper noun",
+        "ipa": "/frɑːns/",
+        "es": "Francia",
+        "example": "She's from France."
+      },
+      {
+        "id": "en-french",
+        "lemma": "French",
+        "pos": "adj",
+        "ipa": "/frentʃ/",
+        "es": "francés/a",
+        "example": "He's French."
+      },
+      {
+        "id": "en-italy",
+        "lemma": "Italy",
+        "pos": "proper noun",
+        "ipa": "/ˈɪtəli/",
+        "es": "Italia",
+        "example": "Laura is from Italy."
+      },
+      {
+        "id": "en-italian",
+        "lemma": "Italian",
+        "pos": "adj",
+        "ipa": "/ɪˈtæliən/",
+        "es": "italiano/a",
+        "example": "She's Italian."
+      },
+      {
+        "id": "en-germany",
+        "lemma": "Germany",
+        "pos": "proper noun",
+        "ipa": "/ˈdʒɜːməni/",
+        "es": "Alemania",
+        "example": "He's from Germany."
+      },
+      {
+        "id": "en-german",
+        "lemma": "German",
+        "pos": "adj",
+        "ipa": "/ˈdʒɜːmən/",
+        "es": "alemán/a",
+        "example": "She's German."
+      },
+      {
+        "id": "en-china",
+        "lemma": "China",
+        "pos": "proper noun",
+        "ipa": "/ˈtʃaɪnə/",
+        "es": "China",
+        "example": "I'm from China."
+      },
+      {
+        "id": "en-chinese",
+        "lemma": "Chinese",
+        "pos": "adj",
+        "ipa": "/ˌtʃaɪˈniːz/",
+        "es": "chino/a",
+        "example": "He's Chinese."
+      }
+    ],
+    "audio_script_id": "en-a1-u02-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Where are you from?** → *I'm from + país.* (soy de…)\n\n**Nationality:** *I'm + nacionalidad.* (soy …)\n\n| País | Nacionalidad |\n|---|---|\n| Argentina | Argentinian |\n| Spain | Spanish |\n| Brazil | Brazilian |\n| Mexico | Mexican |\n| England | English |\n| Italy | Italian |\n| France | French |\n\n**Mayúsculas:** en inglés los países, las nacionalidades y los idiomas se escriben con mayúscula. Muchas nacionalidades (Spanish, English, French, Italian…) son también el nombre del idioma.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm from argentina. I'm argentinian.",
+        "right": "I'm from Argentina. I'm Argentinian.",
+        "note": "En inglés países y nacionalidades llevan mayúscula."
+      },
+      {
+        "wrong": "I'm of Spain.",
+        "right": "I'm from Spain.",
+        "note": "Se usa 'from', no 'of'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada país con su nacionalidad.",
+      "pairs": [
+        {
+          "left": "Spain",
+          "right": "Spanish"
+        },
+        {
+          "left": "Brazil",
+          "right": "Brazilian"
+        },
+        {
+          "left": "Mexico",
+          "right": "Mexican"
+        },
+        {
+          "left": "Italy",
+          "right": "Italian"
+        },
+        {
+          "left": "France",
+          "right": "French"
+        },
+        {
+          "left": "China",
+          "right": "Chinese"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende país y nacionalidad en pares.",
+        "incorrect": "Revisa esto: Aprende país y nacionalidad en pares."
+      }
+    },
+    {
+      "id": "en-a1-u02-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from Italy. She's ___.",
+      "options": [
+        "Italian",
+        "Italy",
+        "Italien",
+        "Italiano"
+      ],
+      "answer": [
+        "Italian"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: Italy. Nacionalidad: Italian.",
+        "incorrect": "Revisa esto: País: Italy. Nacionalidad: Italian."
+      }
+    },
+    {
+      "id": "en-a1-u02-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ you from?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you' usamos 'are': Where are you from?",
+        "incorrect": "Revisa esto: Con 'you' usamos 'are': Where are you from?"
+      }
+    },
+    {
+      "id": "en-a1-u02-l01-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm from argentina.",
+      "answer": [
+        "I'm from Argentina.",
+        "I am from Argentina."
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Los países llevan mayúscula en inglés.",
+        "incorrect": "Revisa esto: Los países llevan mayúscula en inglés."
+      }
+    },
+    {
+      "id": "en-a1-u02-l01-ex05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy de España.",
+      "answer": [
+        "I'm from Spain.",
+        "I am from Spain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Soy de…' = I'm from…",
+        "incorrect": "Revisa esto: 'Soy de…' = I'm from…"
+      }
+    },
+    {
+      "id": "en-a1-u02-l01-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona?",
+      "options": [
+        "Brazil",
+        "Spain",
+        "Mexico",
+        "France"
+      ],
+      "answer": [
+        "Brazil"
+      ],
+      "audio_text": "I'm from Brazil. I'm Brazilian.",
+      "feedback": {
+        "correct": "¡Correcto! La persona dice 'I'm from Brazil'.",
+        "incorrect": "Revisa esto: La persona dice 'I'm from Brazil'."
+      },
+      "audio_script_id": "en-a1-u02-l01-ex06-a"
+    },
+    {
+      "id": "en-a1-u02-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "countries"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "from",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "you",
+        "from",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de origen.",
+        "incorrect": "Revisa esto: Pregunta de origen."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Where are you from?",
+      "I'm from … ",
+      "I'm + nationality",
+      "Mayúscula en países y nacionalidades"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-country"
+    },
+    {
+      "type": "vocab",
+      "id": "en-from"
+    },
+    {
+      "type": "vocab",
+      "id": "en-where"
+    },
+    {
+      "type": "vocab",
+      "id": "en-argentina"
+    },
+    {
+      "type": "vocab",
+      "id": "en-argentinian"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spanish"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brazil"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brazilian"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mexico"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-i-am"
+    }
+  ]
+}

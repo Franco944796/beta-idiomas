@@ -1,0 +1,332 @@
+{
+  "id": "en-a1-u02-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 2",
+    "es": "Repaso y checkpoint 2"
+  },
+  "objective": "Al terminar demuestras que puedes hablar de origen, nacionalidad y profesión con to be.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: usa to be, países y profesiones en situaciones reales."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: Where are you from?, nacionalidades, he/she/it/we/they, negativas y preguntas con to be, y a/an con profesiones.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *Where are you from? I'm from …* · *I'm + nationality*\n- *he's / she's / it's · we're / you're / they're*\n- *I'm not · he isn't · they aren't* · *Are you…? Yes, I am.*\n- *What do you do? I'm a / an …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ you from?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you': are.",
+        "incorrect": "Revisa esto: Con 'you': are."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from France. She's ___.",
+      "options": [
+        "French",
+        "France",
+        "Fransh",
+        "Frencher"
+      ],
+      "answer": [
+        "French"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: France. Nacionalidad: French.",
+        "incorrect": "Revisa esto: País: France. Nacionalidad: French."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom is a student. ___ is English.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tom es un hombre: he.",
+        "incorrect": "Revisa esto: Tom es un hombre: he."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and I are teachers. ___ are from London.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Anna and I' = we.",
+        "incorrect": "Revisa esto: 'Anna and I' = we."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He is engineer.",
+      "answer": [
+        "He's an engineer.",
+        "He is an engineer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el artículo: an engineer.",
+        "incorrect": "Revisa esto: Falta el artículo: an engineer."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Mexico",
+        "?",
+        "Are",
+        "they"
+      ],
+      "answer": [
+        "Are",
+        "they",
+        "from",
+        "Mexico",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con to be y 'they'.",
+        "incorrect": "Revisa esto: Pregunta con to be y 'they'."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "jobs",
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica la persona y de dónde es?",
+      "options": [
+        "Nurse, Brazil",
+        "Teacher, Brazil",
+        "Nurse, Spain",
+        "Doctor, Mexico"
+      ],
+      "answer": [
+        "Nurse, Brazil"
+      ],
+      "audio_text": "She's a nurse. She's from Brazil.",
+      "feedback": {
+        "correct": "¡Correcto! Escuchas 'a nurse' y 'from Brazil'.",
+        "incorrect": "Revisa esto: Escuchas 'a nurse' y 'from Brazil'."
+      },
+      "audio_script_id": "en-a1-u02-l06-ex07-a"
+    },
+    {
+      "id": "en-a1-u02-l06-ex08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la pregunta con la respuesta.",
+      "pairs": [
+        {
+          "left": "Where are you from?",
+          "right": "I'm from Spain."
+        },
+        {
+          "left": "What do you do?",
+          "right": "I'm a waiter."
+        },
+        {
+          "left": "Is she Italian?",
+          "right": "No, she isn't."
+        },
+        {
+          "left": "Are you students?",
+          "right": "Yes, we are."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada pregunta pide un dato distinto.",
+        "incorrect": "Revisa esto: Cada pregunta pide un dato distinto."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex09",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 15,
+      "prompt": "'They is from Brazil.' es una frase correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'they' se usa 'are': They are from Brazil.",
+        "incorrect": "Revisa esto: Con 'they' se usa 'are': They are from Brazil."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "to-be",
+        "jobs"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 4 frases sobre un amigo o amiga: nombre, país, nacionalidad y profesión (puedes inventarlo).",
+      "min_words": 12,
+      "self_check_es": [
+        "¿Usaste he o she según corresponda?",
+        "¿Escribiste país y nacionalidad con mayúscula?",
+        "¿Pusiste a/an antes de la profesión?"
+      ],
+      "model_answer": "This is Laura. She's from Italy. She's Italian. She's a doctor.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u02-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "countries",
+        "jobs"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Conoces a alguien en un curso de inglés.",
+      "turns": [
+        {
+          "speaker": "Anna",
+          "text": "Hi! Where are you from?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm from Argentina. I'm Argentinian.",
+            "I'm of Argentina.",
+            "Argentina I'm."
+          ],
+          "best": 0,
+          "why_es": "Origen con 'from' y nacionalidad con 'I'm'."
+        },
+        {
+          "speaker": "Anna",
+          "text": "What do you do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm a nurse.",
+            "I'm nurse.",
+            "I nurse."
+          ],
+          "best": 0,
+          "why_es": "Profesión: I'm + a/an + trabajo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Where are you from? I'm from …",
+      "What do you do? I'm a / an …",
+      "Are you …? Yes, I am."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-to-be-negative-questions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-articles-a-an"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

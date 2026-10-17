@@ -1,0 +1,402 @@
+{
+  "id": "en-a1-u08-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "How much is it?",
+    "es": "Precios y dinero"
+  },
+  "objective": "Al terminar preguntas precios y dices cantidades de dinero.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En un mercado, ¿cómo preguntas cuánto cuesta algo? ¿Y cómo dices el precio?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Excuse me, how much is the sandwich?",
+        "es": "Disculpe, ¿cuánto cuesta el sándwich?"
+      },
+      {
+        "speaker": "Seller",
+        "text": "It's three pounds.",
+        "es": "Son tres libras."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And how much are the bananas?",
+        "es": "¿Y cuánto cuestan las bananas?"
+      },
+      {
+        "speaker": "Seller",
+        "text": "They're two pounds fifty.",
+        "es": "Son dos libras con cincuenta."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-how-much-is",
+        "lemma": "how much is...?",
+        "pos": "phrase",
+        "ipa": "/haʊ ˈmʌtʃ ɪz/",
+        "es": "¿cuánto cuesta...?",
+        "example": "How much is the sandwich?"
+      },
+      {
+        "id": "en-how-much-are",
+        "lemma": "how much are...?",
+        "pos": "phrase",
+        "ipa": "/haʊ ˈmʌtʃ ɑː/",
+        "es": "¿cuánto cuestan...?",
+        "example": "How much are the bananas?"
+      },
+      {
+        "id": "en-price",
+        "lemma": "price",
+        "pos": "noun",
+        "ipa": "/praɪs/",
+        "es": "precio",
+        "example": "What's the price?"
+      },
+      {
+        "id": "en-cheap",
+        "lemma": "cheap",
+        "pos": "adj",
+        "ipa": "/tʃiːp/",
+        "es": "barato/a",
+        "example": "The sandwich is cheap."
+      },
+      {
+        "id": "en-expensive",
+        "lemma": "expensive",
+        "pos": "adj",
+        "ipa": "/ɪkˈspensɪv/",
+        "es": "caro/a",
+        "example": "The jacket is expensive."
+      },
+      {
+        "id": "en-euro",
+        "lemma": "euro",
+        "pos": "noun",
+        "ipa": "/ˈjʊərəʊ/",
+        "es": "euro",
+        "example": "It's ten euros."
+      },
+      {
+        "id": "en-dollar",
+        "lemma": "dollar",
+        "pos": "noun",
+        "ipa": "/ˈdɒlə/",
+        "es": "dólar",
+        "example": "It's five dollars."
+      }
+    ],
+    "audio_script_id": "en-a1-u08-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar:** *How much is the sandwich?* (singular) · *How much are the bananas?* (plural)\n\n**Responder:** *It's three pounds.* · *They're two pounds fifty.*\n\n**Precios:** £2.50 = *two pounds fifty* (o *two fifty*) · $5.99 = *five ninety-nine*\n\n**Monedas con -s:** *pounds, euros, dollars* (*two pounds*, no *two pound*).\n\n**cheap** = barato · **expensive** = caro.",
+    "common_mistakes_es": [
+      {
+        "wrong": "How much cost the bag?",
+        "right": "How much is the bag?",
+        "note": "Se usa 'is' o 'are', no 'cost'."
+      },
+      {
+        "wrong": "two pound",
+        "right": "two pounds",
+        "note": "La moneda lleva -s en plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the sandwich?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: How much is…?",
+        "incorrect": "Revisa esto: Singular: How much is…?"
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the bananas?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: How much are…?",
+        "incorrect": "Revisa esto: Plural: How much are…?"
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 20,
+      "prompt": "£2.50 se dice…",
+      "options": [
+        "two pounds fifty",
+        "two fifty pounds hundred",
+        "two and fifty pound",
+        "two point fifty pounds"
+      ],
+      "answer": [
+        "two pounds fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Libras + centavos: two pounds fifty.",
+        "incorrect": "Revisa esto: Libras + centavos: two pounds fifty."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How much cost the bag?",
+      "answer": [
+        "How much is the bag?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se pregunta con 'is', no con 'cost'.",
+        "incorrect": "Revisa esto: Se pregunta con 'is', no con 'cost'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's ten pound.",
+      "answer": [
+        "It's ten pounds."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las monedas llevan -s en plural.",
+        "incorrect": "Revisa esto: Las monedas llevan -s en plural."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta?",
+      "options": [
+        "£25",
+        "£15",
+        "£50",
+        "£52"
+      ],
+      "answer": [
+        "£25"
+      ],
+      "audio_text": "It's twenty-five pounds.",
+      "feedback": {
+        "correct": "¡Correcto! Twenty-five = 25.",
+        "incorrect": "Revisa esto: Twenty-five = 25."
+      },
+      "audio_script_id": "en-a1-u08-l02-ex06-a"
+    },
+    {
+      "id": "en-a1-u08-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cuánto cuestan las bananas?",
+      "options": [
+        "£2.50",
+        "£2.15",
+        "£5.20",
+        "£12.50"
+      ],
+      "answer": [
+        "£2.50"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El vendedor dice 'two pounds fifty'.",
+        "incorrect": "Revisa esto: El vendedor dice 'two pounds fifty'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "cheap",
+          "right": "barato"
+        },
+        {
+          "left": "expensive",
+          "right": "caro"
+        },
+        {
+          "left": "price",
+          "right": "precio"
+        },
+        {
+          "left": "dollar",
+          "right": "dólar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son palabras básicas para hablar de dinero.",
+        "incorrect": "Revisa esto: Son palabras básicas para hablar de dinero."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "the",
+        "bananas",
+        "?",
+        "How",
+        "much"
+      ],
+      "answer": [
+        "How",
+        "much",
+        "are",
+        "the",
+        "bananas",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much + are + sustantivo plural.",
+        "incorrect": "Revisa esto: How much + are + sustantivo plural."
+      }
+    },
+    {
+      "id": "en-a1-u08-l02-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Cuánto cuesta el sándwich?",
+      "answer": [
+        "How much is the sandwich?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: how much is…?",
+        "incorrect": "Revisa esto: Singular: how much is…?"
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How much is it? / How much are they?",
+      "It's three pounds. · two pounds fifty",
+      "cheap · expensive"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-how-much-is"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-much-are"
+    },
+    {
+      "type": "vocab",
+      "id": "en-price"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cheap"
+    },
+    {
+      "type": "vocab",
+      "id": "en-expensive"
+    },
+    {
+      "type": "vocab",
+      "id": "en-euro"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dollar"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prices-money"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": "en-alphabet",
+      "kind": "pronunciation",
+      "title_es": "El alfabeto inglés y deletreo",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u01-l02"
+    },
+    {
+      "id": "en-to-be-i-am",
+      "kind": "grammar",
+      "title_es": "To be: I am / you are",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u01-l01"
+    },
+    {
+      "id": "en-to-be-he-she-it",
+      "kind": "grammar",
+      "title_es": "To be: he / she / it",
+      "prerequisites": [
+        "en-to-be-i-am"
+      ],
+      "introduced_in": "en-a1-u02-l02"
+    },
+    {
+      "id": "en-to-be-we-you-they",
+      "kind": "grammar",
+      "title_es": "To be: we / you / they",
+      "prerequisites": [
+        "en-to-be-he-she-it"
+      ],
+      "introduced_in": "en-a1-u02-l03"
+    },
+    {
+      "id": "en-to-be-negative-questions",
+      "kind": "grammar",
+      "title_es": "To be: negativas, preguntas y respuestas cortas",
+      "prerequisites": [
+        "en-to-be-we-you-they"
+      ],
+      "introduced_in": "en-a1-u02-l04"
+    },
+    {
+      "id": "en-articles-a-an",
+      "kind": "grammar",
+      "title_es": "Artículos a / an",
+      "prerequisites": [
+        "en-to-be-i-am"
+      ],
+      "introduced_in": "en-a1-u02-l05"
+    },
+    {
+      "id": "en-possessive-adjectives",
+      "kind": "grammar",
+      "title_es": "Adjetivos posesivos: my, your, his, her, our, their",
+      "prerequisites": [
+        "en-to-be-we-you-they"
+      ],
+      "introduced_in": "en-a1-u03-l02"
+    },
+    {
+      "id": "en-possessive-s",
+      "kind": "grammar",
+      "title_es": "El posesivo 's",
+      "prerequisites": [
+        "en-possessive-adjectives"
+      ],
+      "introduced_in": "en-a1-u03-l03"
+    },
+    {
+      "id": "en-have-got",
+      "kind": "grammar",
+      "title_es": "Have got (tener, inglés británico)",
+      "prerequisites": [
+        "en-to-be-negative-questions"
+      ],
+      "introduced_in": "en-a1-u03-l04"
+    },
+    {
+      "id": "en-adjectives-position",
+      "kind": "grammar",
+      "title_es": "Adjetivos: posición y sin plural",
+      "prerequisites": [
+        "en-to-be-he-she-it"
+      ],
+      "introduced_in": "en-a1-u03-l05"
+    },
+    {
+      "id": "en-telling-time",
+      "kind": "function",
+      "title_es": "Decir la hora",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u04-l02"
+    },
+    {
+      "id": "en-present-simple-affirmative",
+      "kind": "grammar",
+      "title_es": "Presente simple: afirmativo (-s / -es)",
+      "prerequisites": [
+        "en-to-be-he-she-it"
+      ],
+      "introduced_in": "en-a1-u04-l03"
+    },
+    {
+      "id": "en-present-simple-negative-questions",
+      "kind": "grammar",
+      "title_es": "Presente simple: negativas, preguntas y respuestas cortas",
+      "prerequisites": [
+        "en-present-simple-affirmative"
+      ],
+      "introduced_in": "en-a1-u04-l04"
+    },
+    {
+      "id": "en-adverbs-of-frequency",
+      "kind": "grammar",
+      "title_es": "Adverbios de frecuencia y días de la semana",
+      "prerequisites": [
+        "en-present-simple-affirmative"
+      ],
+      "introduced_in": "en-a1-u04-l05"
+    },
+    {
+      "id": "en-plurals",
+      "kind": "grammar",
+      "title_es": "Plurales regulares e irregulares",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u05-l02"
+    },
+    {
+      "id": "en-like-love-hate",
+      "kind": "grammar",
+      "title_es": "Like, love, hate + sustantivo",
+      "prerequisites": [
+        "en-present-simple-negative-questions"
+      ],
+      "introduced_in": "en-a1-u05-l03"
+    },
+    {
+      "id": "en-some-any",
+      "kind": "grammar",
+      "title_es": "Some y any",
+      "prerequisites": [
+        "en-have-got"
+      ],
+      "introduced_in": "en-a1-u05-l04"
+    },
+    {
+      "id": "en-polite-requests",
+      "kind": "function",
+      "title_es": "Pedir educadamente: I'd like / Can I have...?",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u05-l05"
+    },
+    {
+      "id": "en-there-is-are",
+      "kind": "grammar",
+      "title_es": "There is / There are",
+      "prerequisites": [
+        "en-some-any"
+      ],
+      "introduced_in": "en-a1-u06-l02"
+    },
+    {
+      "id": "en-prepositions-place",
+      "kind": "grammar",
+      "title_es": "Preposiciones de lugar",
+      "prerequisites": [
+        "en-there-is-are"
+      ],
+      "introduced_in": "en-a1-u06-l03"
+    },
+    {
+      "id": "en-directions",
+      "kind": "function",
+      "title_es": "Pedir y dar direcciones",
+      "prerequisites": [
+        "en-prepositions-place"
+      ],
+      "introduced_in": "en-a1-u07-l03"
+    },
+    {
+      "id": "en-imperatives",
+      "kind": "grammar",
+      "title_es": "Imperativo y pedidos educados",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u07-l05"
+    },
+    {
+      "id": "en-numbers-21-1000",
+      "kind": "function",
+      "title_es": "Números del 21 al 1000",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u08-l01"
+    },
+    {
+      "id": "en-prices-money",
+      "kind": "function",
+      "title_es": "Precios y dinero: How much...?",
+      "prerequisites": [
+        "en-numbers-21-1000"
+      ],
+      "introduced_in": "en-a1-u08-l02"
+    },
+    {
+      "id": "en-this-that-these-those",
+      "kind": "grammar",
+      "title_es": "This, that, these, those",
+      "prerequisites": [
+        "en-plurals"
+      ],
+      "introduced_in": "en-a1-u08-l04"
+    },
+    {
+      "id": "en-shopping-requests",
+      "kind": "function",
+      "title_es": "En la tienda: Can I try it on? / I'll take it",
+      "prerequisites": [
+        "en-polite-requests"
+      ],
+      "introduced_in": "en-a1-u08-l05"
+    },
+    {
+      "id": "en-can-ability",
+      "kind": "grammar",
+      "title_es": "Can / can't: habilidad",
+      "prerequisites": [],
+      "introduced_in": "en-a1-u09-l02"
+    },
+    {
+      "id": "en-can-requests",
+      "kind": "function",
+      "title_es": "Can I...? / Can you...?: pedir y permitir",
+      "prerequisites": [
+        "en-can-ability"
+      ],
+      "introduced_in": "en-a1-u09-l03"
+    },
+    {
+      "id": "en-present-continuous",
+      "kind": "grammar",
+      "title_es": "Presente continuo (be + -ing)",
+      "prerequisites": [
+        "en-to-be-we-you-they"
+      ],
+      "introduced_in": "en-a1-u09-l04"
+    },
+    {
+      "id": "en-invitations",
+      "kind": "function",
+      "title_es": "Invitar y aceptar: Would you like to...? / Let's...",
+      "prerequisites": [
+        "en-polite-requests"
+      ],
+      "introduced_in": "en-a1-u09-l05"
+    },
+    {
+      "id": "en-weather",
+      "kind": "function",
+      "title_es": "Hablar del clima: It's sunny / It's raining",
+      "prerequisites": [
+        "en-present-continuous"
+      ],
+      "introduced_in": "en-a1-u10-l01"
+    },
+    {
+      "id": "en-dates-ordinals",
+      "kind": "function",
+      "title_es": "Fechas y números ordinales",
+      "prerequisites": [
+        "en-numbers-21-1000"
+      ],
+      "introduced_in": "en-a1-u10-l03"
+    },
+    {
+      "id": "en-present-continuous-future",
+      "kind": "grammar",
+      "title_es": "Presente continuo para planes futuros",
+      "prerequisites": [
+        "en-present-continuous"
+      ],
+      "introduced_in": "en-a1-u10-l04"
+    }
+  ]
+}

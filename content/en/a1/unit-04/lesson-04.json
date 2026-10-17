@@ -1,0 +1,350 @@
+{
+  "id": "en-a1-u04-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Present simple: negatives and questions",
+    "es": "Presente simple: negativas y preguntas"
+  },
+  "objective": "Al terminar haces negativas y preguntas en presente simple con do / does.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "En to be invertíamos el verbo. Con otros verbos hace falta un ayudante: ¿cuál crees que es?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Do you work on Saturdays, Lucy?",
+        "es": "¿Trabajas los sábados, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, I don't. I don't work on Saturdays.",
+        "es": "No. No trabajo los sábados."
+      },
+      {
+        "speaker": "Sam",
+        "text": "What time do you get up?",
+        "es": "¿A qué hora te levantas?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I get up at eight. Does your brother get up early?",
+        "es": "Me levanto a las ocho. ¿Tu hermano se levanta temprano?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "No, he doesn't. He gets up late.",
+        "es": "No. Se levanta tarde."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-do",
+        "lemma": "do",
+        "pos": "aux",
+        "ipa": "/duː/",
+        "es": "(auxiliar de preguntas y negativas)",
+        "example": "Do you work?"
+      },
+      {
+        "id": "en-does",
+        "lemma": "does",
+        "pos": "aux",
+        "ipa": "/dʌz/",
+        "es": "(auxiliar con he/she/it)",
+        "example": "Does she work?"
+      },
+      {
+        "id": "en-don-t",
+        "lemma": "don't",
+        "pos": "aux",
+        "ipa": "/dəʊnt/",
+        "es": "no (I/you/we/they)",
+        "example": "I don't work on Sundays."
+      },
+      {
+        "id": "en-doesn-t",
+        "lemma": "doesn't",
+        "pos": "aux",
+        "ipa": "/ˈdʌznt/",
+        "es": "no (he/she/it)",
+        "example": "She doesn't work on Sundays."
+      },
+      {
+        "id": "en-early",
+        "lemma": "early",
+        "pos": "adv",
+        "ipa": "/ˈɜːli/",
+        "es": "temprano",
+        "example": "I get up early."
+      },
+      {
+        "id": "en-late",
+        "lemma": "late",
+        "pos": "adv",
+        "ipa": "/leɪt/",
+        "es": "tarde",
+        "example": "He gets up late."
+      },
+      {
+        "id": "en-saturday",
+        "lemma": "Saturday",
+        "pos": "noun",
+        "ipa": "/ˈsætədeɪ/",
+        "es": "sábado",
+        "example": "I don't work on Saturdays."
+      }
+    ],
+    "audio_script_id": "en-a1-u04-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Negativa:** sujeto + **don't / doesn't** + verbo base.\n*I don't work. She doesn't work.*\n\n**Pregunta:** **Do / Does** + sujeto + verbo base.\n*Do you work? Does she work?*\n\n**Respuestas cortas:** *Yes, I do. / No, I don't. · Yes, she does. / No, she doesn't.*\n\n**Con preguntas Wh-:** *What time do you get up?*\n\nDespués de *does / doesn't* el verbo **no lleva -s**: *She doesn't work* (no *works*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "She doesn't works.",
+        "right": "She doesn't work.",
+        "note": "Con does/doesn't el verbo no lleva -s."
+      },
+      {
+        "wrong": "I no work on Sundays.",
+        "right": "I don't work on Sundays.",
+        "note": "La negativa se forma con don't, no con 'no'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ work on Sundays. (negativa)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I la negativa es don't.",
+        "incorrect": "Revisa esto: Con I la negativa es don't."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ work on Saturdays. (negativa)",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she la negativa es doesn't.",
+        "incorrect": "Revisa esto: Con she la negativa es doesn't."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "present-simple"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "do",
+        "you",
+        "get",
+        "up",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "do",
+        "you",
+        "get",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Wh- + do + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "Does he work? — ___",
+      "options": [
+        "Yes, he does.",
+        "Yes, he works.",
+        "Yes, he do.",
+        "Yes, does."
+      ],
+      "answer": [
+        "Yes, he does."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta usa el auxiliar: Yes, he does.",
+        "incorrect": "Revisa esto: La respuesta corta usa el auxiliar: Yes, he does."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo va en forma base.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo va en forma base."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Does she gets up early?",
+      "answer": [
+        "Does she get up early?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de does el verbo va en forma base.",
+        "incorrect": "Revisa esto: Después de does el verbo va en forma base."
+      }
+    },
+    {
+      "id": "en-a1-u04-l04-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora se levanta la persona?",
+      "options": [
+        "9:00",
+        "8:00",
+        "7:00",
+        "6:00"
+      ],
+      "answer": [
+        "9:00"
+      ],
+      "audio_text": "I don't get up early. I get up at nine.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I get up at nine'.",
+        "incorrect": "Revisa esto: Dice 'I get up at nine'."
+      },
+      "audio_script_id": "en-a1-u04-l04-ex08-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I don't work · She doesn't work",
+      "Do you work? Does she work?",
+      "Yes, I do. / No, she doesn't."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-do"
+    },
+    {
+      "type": "vocab",
+      "id": "en-does"
+    },
+    {
+      "type": "vocab",
+      "id": "en-don-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-doesn-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-early"
+    },
+    {
+      "type": "vocab",
+      "id": "en-late"
+    },
+    {
+      "type": "vocab",
+      "id": "en-saturday"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-simple-negative-questions"
+    }
+  ]
+}

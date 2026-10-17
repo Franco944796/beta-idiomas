@@ -1,0 +1,443 @@
+{
+  "id": "en-a1-u07-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Directions",
+    "es": "Cómo llegar: direcciones"
+  },
+  "objective": "Al terminar pides y das direcciones para llegar a un lugar.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un turista te pregunta cómo llegar a la estación. ¿Qué le dices?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tourist",
+        "text": "Excuse me, how do I get to the station?",
+        "es": "Disculpe, ¿cómo llego a la estación?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Go straight on. Turn left at the traffic lights.",
+        "es": "Siga recto. Gire a la izquierda en el semáforo."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Turn left. And then?",
+        "es": "A la izquierda. ¿Y luego?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Take the second right. The station is on your left.",
+        "es": "Tome la segunda a la derecha. La estación está a su izquierda."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-how-do-i-get-to",
+        "lemma": "how do I get to...?",
+        "pos": "phrase",
+        "ipa": "/haʊ də aɪ ˈɡet tə/",
+        "es": "¿cómo llego a...?",
+        "example": "How do I get to the park?"
+      },
+      {
+        "id": "en-go-straight-on",
+        "lemma": "go straight on",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ ˌstreɪt ˈɒn/",
+        "es": "siga recto",
+        "example": "Go straight on."
+      },
+      {
+        "id": "en-turn-left",
+        "lemma": "turn left",
+        "pos": "phrase",
+        "ipa": "/ˌtɜːn ˈleft/",
+        "es": "gire a la izquierda",
+        "example": "Turn left at the corner."
+      },
+      {
+        "id": "en-turn-right",
+        "lemma": "turn right",
+        "pos": "phrase",
+        "ipa": "/ˌtɜːn ˈraɪt/",
+        "es": "gire a la derecha",
+        "example": "Turn right at the lights."
+      },
+      {
+        "id": "en-take-the-second-right",
+        "lemma": "take the second right",
+        "pos": "phrase",
+        "ipa": "/teɪk ðə ˈsekənd ˈraɪt/",
+        "es": "tome la segunda a la derecha",
+        "example": "Take the second right."
+      },
+      {
+        "id": "en-traffic-lights",
+        "lemma": "traffic lights",
+        "pos": "noun",
+        "ipa": "/ˈtræfɪk laɪts/",
+        "es": "semáforo",
+        "example": "Turn left at the traffic lights."
+      },
+      {
+        "id": "en-corner",
+        "lemma": "corner",
+        "pos": "noun",
+        "ipa": "/ˈkɔːnə/",
+        "es": "esquina",
+        "example": "The bank is on the corner."
+      },
+      {
+        "id": "en-first",
+        "lemma": "first",
+        "pos": "adj",
+        "ipa": "/fɜːst/",
+        "es": "primero/a",
+        "example": "Take the first left."
+      },
+      {
+        "id": "en-second",
+        "lemma": "second",
+        "pos": "adj",
+        "ipa": "/ˈsekənd/",
+        "es": "segundo/a",
+        "example": "Take the second right."
+      },
+      {
+        "id": "en-third",
+        "lemma": "third",
+        "pos": "adj",
+        "ipa": "/θɜːd/",
+        "es": "tercero/a",
+        "example": "Take the third left."
+      }
+    ],
+    "audio_script_id": "en-a1-u07-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar:** *How do I get to the station?* (¿cómo llego a la estación?)\n\n**Dar direcciones (imperativo):**\n- *Go straight on.* (siga recto)\n- *Turn left / right.* (gire a la izquierda / derecha)\n- *Take the first / second / third left / right.* (tome la primera, segunda… calle a la izquierda / derecha)\n- *at the traffic lights / at the corner*\n\n**Ubicar:** *It's on your left / on your right.* (con **on**, no *in*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Turn to left.",
+        "right": "Turn left.",
+        "note": "No se usa 'to' con left / right."
+      },
+      {
+        "wrong": "It's in the left.",
+        "right": "It's on the left.",
+        "note": "La posición izquierda / derecha va con 'on'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Go straight on.",
+          "right": "Siga recto."
+        },
+        {
+          "left": "Turn left.",
+          "right": "Gire a la izquierda."
+        },
+        {
+          "left": "Turn right.",
+          "right": "Gire a la derecha."
+        },
+        {
+          "left": "Take the second right.",
+          "right": "Tome la segunda a la derecha."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las instrucciones básicas.",
+        "incorrect": "Revisa esto: Son las instrucciones básicas."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Gira a la derecha' en inglés:",
+      "options": [
+        "Turn right.",
+        "Turn to right.",
+        "Go to right.",
+        "Right turn."
+      ],
+      "answer": [
+        "Turn right."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin 'to': Turn right.",
+        "incorrect": "Revisa esto: Sin 'to': Turn right."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Turn ___ at the traffic lights. (izquierda)",
+      "answer": [
+        "left"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Izquierda = left.",
+        "incorrect": "Revisa esto: Izquierda = left."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The station is ___ your right.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice on your right / on your left.",
+        "incorrect": "Revisa esto: Se dice on your right / on your left."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to left at the corner.",
+      "answer": [
+        "Turn left at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa 'to' con left / right.",
+        "incorrect": "Revisa esto: No se usa 'to' con left / right."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para pedir direcciones.",
+        "incorrect": "Revisa esto: Pregunta para pedir direcciones."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el banco?",
+      "options": [
+        "On the left",
+        "On the right",
+        "Behind the lights",
+        "Opposite the station"
+      ],
+      "answer": [
+        "On the left"
+      ],
+      "audio_text": "Go straight on. Turn right at the traffic lights. The bank is on your left.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The bank is on your left'.",
+        "incorrect": "Revisa esto: Dice 'The bank is on your left'."
+      },
+      "audio_script_id": "en-a1-u07-l03-ex07-a"
+    },
+    {
+      "id": "en-a1-u07-l03-ex08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Gire a la derecha.",
+      "answer": [
+        "Turn right."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Gire = turn.",
+        "incorrect": "Revisa esto: Gire = turn."
+      }
+    },
+    {
+      "id": "en-a1-u07-l03-ex09",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un turista te pide ayuda para llegar al parque.",
+      "turns": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, how do I get to the park?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Go straight on and turn left.",
+            "Go straight and left turn.",
+            "You are straight."
+          ],
+          "best": 0,
+          "why_es": "Imperativo: Go straight on and turn left."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Is it far?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, it's near.",
+            "No, it near.",
+            "Not far is."
+          ],
+          "best": 0,
+          "why_es": "Respuesta con it's + near."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How do I get to …?",
+      "Go straight on. · Turn left / right.",
+      "Take the second right.",
+      "It's on your left."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-how-do-i-get-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-straight-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turn-left"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turn-right"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-the-second-right"
+    },
+    {
+      "type": "vocab",
+      "id": "en-traffic-lights"
+    },
+    {
+      "type": "vocab",
+      "id": "en-corner"
+    },
+    {
+      "type": "vocab",
+      "id": "en-first"
+    },
+    {
+      "type": "vocab",
+      "id": "en-second"
+    },
+    {
+      "type": "vocab",
+      "id": "en-third"
+    },
+    {
+      "type": "grammar",
+      "id": "en-directions"
+    }
+  ]
+}

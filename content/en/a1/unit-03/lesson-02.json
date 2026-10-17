@@ -1,0 +1,316 @@
+{
+  "id": "en-a1-u03-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 3,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My, your, his, her",
+    "es": "Adjetivos posesivos"
+  },
+  "objective": "Al terminar usas my, your, his, her, our y their para indicar a quién pertenece algo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español 'su' puede ser de él, de ella o de ellos. ¿Cómo lo distingue el inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "My name is Anna. This is my brother. His name is Tom. This is my mother. Her name is Sue. Tom and I are students. Our mother is a nurse. Our father is a driver. Their names are Sue and Paul.",
+    "es": "Me llamo Anna. Este es mi hermano. Su nombre es Tom. Esta es mi madre. Su nombre es Sue. Tom y yo somos estudiantes. Nuestra madre es enfermera. Nuestro padre es conductor. Sus nombres son Sue y Paul.",
+    "glossary": [
+      {
+        "id": "en-my",
+        "lemma": "my",
+        "pos": "det",
+        "ipa": "/maɪ/",
+        "es": "mi",
+        "example": "This is my brother."
+      },
+      {
+        "id": "en-your",
+        "lemma": "your",
+        "pos": "det",
+        "ipa": "/jɔː/",
+        "es": "tu",
+        "example": "What's your name?"
+      },
+      {
+        "id": "en-his",
+        "lemma": "his",
+        "pos": "det",
+        "ipa": "/hɪz/",
+        "es": "su (de él)",
+        "example": "His name is Tom."
+      },
+      {
+        "id": "en-her",
+        "lemma": "her",
+        "pos": "det",
+        "ipa": "/hɜː/",
+        "es": "su (de ella)",
+        "example": "Her name is Sue."
+      },
+      {
+        "id": "en-our",
+        "lemma": "our",
+        "pos": "det",
+        "ipa": "/ˈaʊə/",
+        "es": "nuestro/a",
+        "example": "Our mother is a nurse."
+      },
+      {
+        "id": "en-their",
+        "lemma": "their",
+        "pos": "det",
+        "ipa": "/ðeə/",
+        "es": "su (de ellos/as)",
+        "example": "Their names are Sue and Paul."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "| Sujeto | Posesivo |\n|---|---|\n| I | my |\n| you | your |\n| he | his |\n| she | her |\n| it | its |\n| we | our |\n| they | their |\n\n**Regla clave:** el posesivo depende de **quién es el dueño**, no de la cosa: *Tom's sister* → *his sister*; *Anna's brother* → *her brother*.\n\nLos posesivos **no cambian** con el plural: *my brothers*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Anna is my sister. She name is Anna.",
+        "right": "Her name is Anna.",
+        "note": "Se usa el posesivo (her), no el pronombre (she)."
+      },
+      {
+        "wrong": "mys brothers",
+        "right": "my brothers",
+        "note": "Los posesivos no cambian en plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u03-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom is my brother. ___ name is Tom.",
+      "answer": [
+        "His"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es un hombre (Tom): his.",
+        "incorrect": "Revisa esto: El dueño es un hombre (Tom): his."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna is my sister. ___ name is Anna.",
+      "answer": [
+        "Her"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es una mujer: her.",
+        "incorrect": "Revisa esto: El dueño es una mujer: her."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "We are students. ___ teacher is Anna.",
+      "answer": [
+        "Our"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'we' el posesivo es 'our'.",
+        "incorrect": "Revisa esto: Para 'we' el posesivo es 'our'."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Sue and Paul are my parents. ___ names are Sue and Paul.",
+      "options": [
+        "Their",
+        "Her",
+        "His",
+        "Our"
+      ],
+      "answer": [
+        "Their"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'they' el posesivo es 'their'.",
+        "incorrect": "Revisa esto: Para 'they' el posesivo es 'their'."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cómo se llama el hermano de Anna?",
+      "options": [
+        "Tom",
+        "Paul",
+        "Sue",
+        "Anna"
+      ],
+      "answer": [
+        "Tom"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'This is my brother. His name is Tom.'",
+        "incorrect": "Revisa esto: El texto dice 'This is my brother. His name is Tom.'"
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pronombre con su posesivo.",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "my"
+        },
+        {
+          "left": "you",
+          "right": "your"
+        },
+        {
+          "left": "he",
+          "right": "his"
+        },
+        {
+          "left": "she",
+          "right": "her"
+        },
+        {
+          "left": "we",
+          "right": "our"
+        },
+        {
+          "left": "they",
+          "right": "their"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza los pares sujeto-posesivo.",
+        "incorrect": "Revisa esto: Memoriza los pares sujeto-posesivo."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Anna is my sister. She name is Anna.",
+      "answer": [
+        "Anna is my sister. Her name is Anna."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del posesivo va el nombre: 'her name', no 'she name'.",
+        "incorrect": "Revisa esto: Después del posesivo va el nombre: 'her name', no 'she name'."
+      }
+    },
+    {
+      "id": "en-a1-u03-l02-ex08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Su madre (de él) es médica.",
+      "answer": [
+        "His mother is a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño masculino = his.",
+        "incorrect": "Revisa esto: Dueño masculino = his."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "my · your · his · her · our · their",
+      "depende del dueño",
+      "my brothers (sin plural)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-my"
+    },
+    {
+      "type": "vocab",
+      "id": "en-your"
+    },
+    {
+      "type": "vocab",
+      "id": "en-his"
+    },
+    {
+      "type": "vocab",
+      "id": "en-her"
+    },
+    {
+      "type": "vocab",
+      "id": "en-our"
+    },
+    {
+      "type": "vocab",
+      "id": "en-their"
+    },
+    {
+      "type": "grammar",
+      "id": "en-possessive-adjectives"
+    }
+  ]
+}

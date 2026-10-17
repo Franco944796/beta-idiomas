@@ -1,0 +1,377 @@
+{
+  "id": "en-a1-u09-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What are you doing?",
+    "es": "Presente continuo"
+  },
+  "objective": "Al terminar dices qué estás haciendo ahora con el presente continuo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Alguien te llama y pregunta '¿qué estás haciendo?'. ¿Cómo lo dirías en inglés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Hi, Lucy! What are you doing?",
+        "es": "¡Hola, Lucy! ¿Qué estás haciendo?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'm cooking dinner. What are you doing?",
+        "es": "Estoy preparando la cena. ¿Y tú?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "I'm watching TV. Tom is playing football.",
+        "es": "Estoy mirando la tele. Tom está jugando al fútbol."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Are Anna and Tom with you?",
+        "es": "¿Anna y Tom están contigo?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "No, they aren't. They're studying at the library.",
+        "es": "No. Están estudiando en la biblioteca."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-now",
+        "lemma": "now",
+        "pos": "adv",
+        "ipa": "/naʊ/",
+        "es": "ahora",
+        "example": "I'm cooking now."
+      },
+      {
+        "id": "en-right-now",
+        "lemma": "right now",
+        "pos": "phrase",
+        "ipa": "/ˌraɪt ˈnaʊ/",
+        "es": "ahora mismo",
+        "example": "I'm working right now."
+      },
+      {
+        "id": "en-study",
+        "lemma": "study",
+        "pos": "verb",
+        "ipa": "/ˈstʌdi/",
+        "es": "estudiar",
+        "example": "They're studying at the library."
+      },
+      {
+        "id": "en-with",
+        "lemma": "with",
+        "pos": "prep",
+        "ipa": "/wɪð/",
+        "es": "con",
+        "example": "Are they with you?"
+      }
+    ],
+    "audio_script_id": "en-a1-u09-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Presente continuo** = acciones que pasan **ahora**: *be* + verbo + **-ing**.\n\n| + | I'm cooking · she's cooking · they're cooking |\n|---|---|\n| − | I'm not cooking · he isn't cooking · we aren't cooking |\n| ? | Are you cooking? · Is she cooking? |\n\n**Respuestas cortas:** *Yes, I am. / No, I'm not.*\n\n**Ortografía de -ing:**\n- normal: *work → working*\n- termina en -e (se pierde): *make → making*\n- vocal corta + consonante (se duplica): *swim → swimming, run → running*\n\n**Hábito vs ahora:** *I play football on Saturdays* (siempre) · *I'm playing football now* (ahora).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I cooking.",
+        "right": "I'm cooking.",
+        "note": "Falta el verbo to be."
+      },
+      {
+        "wrong": "She is work.",
+        "right": "She is working.",
+        "note": "Después de be el verbo lleva -ing."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ dinner now. (cook)",
+      "answer": [
+        "'m cooking",
+        "am cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking: I'm cooking.",
+        "incorrect": "Revisa esto: be + cooking: I'm cooking."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is ___ now. (work)",
+      "answer": [
+        "working"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo + -ing: working.",
+        "incorrect": "Revisa esto: Verbo + -ing: working."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "They are ___. (swim)",
+      "answer": [
+        "swimming"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se duplica la m: swimming.",
+        "incorrect": "Revisa esto: Se duplica la m: swimming."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ watching TV. (negativa)",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con he: isn't watching.",
+        "incorrect": "Revisa esto: Negativa con he: isn't watching."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I cooking dinner.",
+      "answer": [
+        "I'm cooking dinner.",
+        "I am cooking dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: I'm cooking.",
+        "incorrect": "Revisa esto: Falta el verbo to be: I'm cooking."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is work now.",
+      "answer": [
+        "She is working now.",
+        "She's working now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de is va el verbo con -ing.",
+        "incorrect": "Revisa esto: Después de is va el verbo con -ing."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ahora mismo estás estudiando. ¿Qué dices?",
+      "options": [
+        "I'm studying right now.",
+        "I study right now.",
+        "I studying now.",
+        "I am study now."
+      ],
+      "answer": [
+        "I'm studying right now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'ahora': be + verbo-ing.",
+        "incorrect": "Revisa esto: Para 'ahora': be + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "doing",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "you",
+        "doing",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre lo que haces ahora.",
+        "incorrect": "Revisa esto: Pregunta sobre lo que haces ahora."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué está haciendo Tom?",
+      "options": [
+        "Jugando al fútbol",
+        "Cocinando",
+        "Mirando la tele",
+        "Estudiando"
+      ],
+      "answer": [
+        "Jugando al fútbol"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Sam dice 'Tom is playing football'.",
+        "incorrect": "Revisa esto: Sam dice 'Tom is playing football'."
+      }
+    },
+    {
+      "id": "en-a1-u09-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué está haciendo la persona?",
+      "options": [
+        "Watching TV",
+        "Working",
+        "Cooking",
+        "Swimming"
+      ],
+      "answer": [
+        "Watching TV"
+      ],
+      "audio_text": "I'm not working. I'm watching TV.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'm watching TV'.",
+        "incorrect": "Revisa esto: Dice 'I'm watching TV'."
+      },
+      "audio_script_id": "en-a1-u09-l04-ex10-a"
+    },
+    {
+      "id": "en-a1-u09-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy cocinando.",
+      "answer": [
+        "I'm cooking.",
+        "I am cooking."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking.",
+        "incorrect": "Revisa esto: be + cooking."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm cooking · she's working",
+      "I'm not … · Are you …?",
+      "What are you doing?",
+      "swimming · making · running"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-now"
+    },
+    {
+      "type": "vocab",
+      "id": "en-right-now"
+    },
+    {
+      "type": "vocab",
+      "id": "en-study"
+    },
+    {
+      "type": "vocab",
+      "id": "en-with"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-continuous"
+    }
+  ]
+}

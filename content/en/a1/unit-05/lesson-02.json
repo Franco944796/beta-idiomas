@@ -1,0 +1,326 @@
+{
+  "id": "en-a1-u05-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 5,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Plurals",
+    "es": "Los plurales"
+  },
+  "objective": "Al terminar formas plurales regulares e irregulares.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Un huevo, dos huevos: ¿cómo cambia la palabra en inglés cuando hay más de uno?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Sam's got two apples, three bananas and two sandwiches. Lucy's got four tomatoes, three potatoes and ten strawberries.",
+    "es": "Sam tiene dos manzanas, tres bananas y dos sándwiches. Lucy tiene cuatro tomates, tres papas y diez frutillas.",
+    "glossary": [
+      {
+        "id": "en-tomato",
+        "lemma": "tomato",
+        "pos": "noun",
+        "ipa": "/təˈmɑːtəʊ/",
+        "es": "tomate",
+        "example": "I like tomatoes."
+      },
+      {
+        "id": "en-potato",
+        "lemma": "potato",
+        "pos": "noun",
+        "ipa": "/pəˈteɪtəʊ/",
+        "es": "papa, patata",
+        "example": "She has three potatoes."
+      },
+      {
+        "id": "en-strawberry",
+        "lemma": "strawberry",
+        "pos": "noun",
+        "ipa": "/ˈstrɔːbəri/",
+        "es": "frutilla, fresa",
+        "example": "I love strawberries."
+      },
+      {
+        "id": "en-orange",
+        "lemma": "orange",
+        "pos": "noun",
+        "ipa": "/ˈɒrɪndʒ/",
+        "es": "naranja",
+        "example": "I have an orange."
+      },
+      {
+        "id": "en-child",
+        "lemma": "child",
+        "pos": "noun",
+        "ipa": "/tʃaɪld/",
+        "es": "niño/a",
+        "example": "She's a child."
+      },
+      {
+        "id": "en-children",
+        "lemma": "children",
+        "pos": "noun",
+        "ipa": "/ˈtʃɪldrən/",
+        "es": "niños/as",
+        "example": "They are children."
+      },
+      {
+        "id": "en-people",
+        "lemma": "people",
+        "pos": "noun",
+        "ipa": "/ˈpiːpl/",
+        "es": "gente, personas",
+        "example": "Many people drink tea."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Plural regular:** + **s** → *apple → apples, banana → bananas*.\n\n**+ es** si termina en *-s, -sh, -ch, -x, -o*: *sandwich → sandwiches, tomato → tomatoes, potato → potatoes*.\n\n**Consonante + y → -ies:** *strawberry → strawberries*.\n\n**Irregulares:** man → men · woman → women · child → children · person → people · foot → feet.\n\nPronunciación de la -s: /s/ (cats), /z/ (bananas), /ɪz/ (sandwiches).",
+    "common_mistakes_es": [
+      {
+        "wrong": "two sandwichs",
+        "right": "two sandwiches",
+        "note": "Después de -ch se añade -es."
+      },
+      {
+        "wrong": "three childs / peoples",
+        "right": "three children / people",
+        "note": "Son plurales irregulares."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u05-l02-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one tomato → two ___",
+      "answer": [
+        "tomatoes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las palabras en -o suelen añadir -es.",
+        "incorrect": "Revisa esto: Las palabras en -o suelen añadir -es."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one strawberry → ten ___",
+      "answer": [
+        "strawberries"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ies.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ies."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one sandwich → two ___",
+      "answer": [
+        "sandwiches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Plural de 'child':",
+      "options": [
+        "children",
+        "childs",
+        "childrens",
+        "childes"
+      ],
+      "answer": [
+        "children"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Child es irregular: children.",
+        "incorrect": "Revisa esto: Child es irregular: children."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el singular con su plural.",
+      "pairs": [
+        {
+          "left": "man",
+          "right": "men"
+        },
+        {
+          "left": "woman",
+          "right": "women"
+        },
+        {
+          "left": "child",
+          "right": "children"
+        },
+        {
+          "left": "person",
+          "right": "people"
+        },
+        {
+          "left": "foot",
+          "right": "feet"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son plurales irregulares: hay que memorizarlos.",
+        "incorrect": "Revisa esto: Son plurales irregulares: hay que memorizarlos."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got two sandwichs.",
+      "answer": [
+        "I've got two sandwiches.",
+        "I have got two sandwiches."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She's got three childs.",
+      "answer": [
+        "She's got three children.",
+        "She has got three children."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Child es irregular: children.",
+        "incorrect": "Revisa esto: Child es irregular: children."
+      }
+    },
+    {
+      "id": "en-a1-u05-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cuántas bananas tiene Sam?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "10"
+      ],
+      "answer": [
+        "3"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'three bananas'.",
+        "incorrect": "Revisa esto: El texto dice 'three bananas'."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "apple → apples",
+      "sandwich → sandwiches · tomato → tomatoes",
+      "strawberry → strawberries",
+      "man → men · child → children"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-tomato"
+    },
+    {
+      "type": "vocab",
+      "id": "en-potato"
+    },
+    {
+      "type": "vocab",
+      "id": "en-strawberry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-orange"
+    },
+    {
+      "type": "vocab",
+      "id": "en-child"
+    },
+    {
+      "type": "vocab",
+      "id": "en-children"
+    },
+    {
+      "type": "vocab",
+      "id": "en-people"
+    },
+    {
+      "type": "grammar",
+      "id": "en-plurals"
+    }
+  ]
+}

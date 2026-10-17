@@ -1,0 +1,489 @@
+{
+  "id": "en-a1-u06-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Rooms and furniture",
+    "es": "Habitaciones y muebles"
+  },
+  "objective": "Al terminar nombras las habitaciones y los muebles de una casa y presentas tu casa.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Imagina que un amigo visita tu casa por primera vez: ¿qué le muestras?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lucy",
+        "text": "Welcome to my flat!",
+        "es": "¡Bienvenido a mi piso!"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Thanks! It's nice.",
+        "es": "¡Gracias! Es lindo."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "This is the living room. That's the kitchen.",
+        "es": "Esta es la sala. Esa es la cocina."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And where's the bathroom?",
+        "es": "¿Y dónde está el baño?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's here.",
+        "es": "Está aquí."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-house",
+        "lemma": "house",
+        "pos": "noun",
+        "ipa": "/haʊs/",
+        "es": "casa",
+        "example": "I live in a house."
+      },
+      {
+        "id": "en-flat",
+        "lemma": "flat",
+        "pos": "noun",
+        "ipa": "/flæt/",
+        "es": "piso, departamento (inglés británico)",
+        "example": "I live in a small flat."
+      },
+      {
+        "id": "en-room",
+        "lemma": "room",
+        "pos": "noun",
+        "ipa": "/ruːm/",
+        "es": "habitación, cuarto",
+        "example": "There are three rooms."
+      },
+      {
+        "id": "en-living-room",
+        "lemma": "living room",
+        "pos": "noun",
+        "ipa": "/ˈlɪvɪŋ ruːm/",
+        "es": "sala de estar",
+        "example": "We watch TV in the living room."
+      },
+      {
+        "id": "en-kitchen",
+        "lemma": "kitchen",
+        "pos": "noun",
+        "ipa": "/ˈkɪtʃɪn/",
+        "es": "cocina",
+        "example": "I cook in the kitchen."
+      },
+      {
+        "id": "en-bedroom",
+        "lemma": "bedroom",
+        "pos": "noun",
+        "ipa": "/ˈbedruːm/",
+        "es": "dormitorio",
+        "example": "My bedroom is small."
+      },
+      {
+        "id": "en-bathroom",
+        "lemma": "bathroom",
+        "pos": "noun",
+        "ipa": "/ˈbɑːθruːm/",
+        "es": "baño",
+        "example": "The bathroom is next to the kitchen."
+      },
+      {
+        "id": "en-garden",
+        "lemma": "garden",
+        "pos": "noun",
+        "ipa": "/ˈɡɑːdn/",
+        "es": "jardín",
+        "example": "There's a garden behind the house."
+      },
+      {
+        "id": "en-bed",
+        "lemma": "bed",
+        "pos": "noun",
+        "ipa": "/bed/",
+        "es": "cama",
+        "example": "I go to bed at eleven."
+      },
+      {
+        "id": "en-table",
+        "lemma": "table",
+        "pos": "noun",
+        "ipa": "/ˈteɪbl/",
+        "es": "mesa",
+        "example": "The table is in the kitchen."
+      },
+      {
+        "id": "en-chair",
+        "lemma": "chair",
+        "pos": "noun",
+        "ipa": "/tʃeə/",
+        "es": "silla",
+        "example": "There are four chairs."
+      },
+      {
+        "id": "en-sofa",
+        "lemma": "sofa",
+        "pos": "noun",
+        "ipa": "/ˈsəʊfə/",
+        "es": "sofá",
+        "example": "The sofa is in the living room."
+      },
+      {
+        "id": "en-window",
+        "lemma": "window",
+        "pos": "noun",
+        "ipa": "/ˈwɪndəʊ/",
+        "es": "ventana",
+        "example": "The window is big."
+      },
+      {
+        "id": "en-door",
+        "lemma": "door",
+        "pos": "noun",
+        "ipa": "/dɔː/",
+        "es": "puerta",
+        "example": "Close the door, please."
+      },
+      {
+        "id": "en-lamp",
+        "lemma": "lamp",
+        "pos": "noun",
+        "ipa": "/læmp/",
+        "es": "lámpara",
+        "example": "The lamp is on the table."
+      },
+      {
+        "id": "en-welcome",
+        "lemma": "welcome",
+        "pos": "interj",
+        "ipa": "/ˈwelkəm/",
+        "es": "bienvenido/a",
+        "example": "Welcome to my flat!"
+      },
+      {
+        "id": "en-here",
+        "lemma": "here",
+        "pos": "adv",
+        "ipa": "/hɪə/",
+        "es": "aquí",
+        "example": "The bathroom is here."
+      }
+    ],
+    "audio_script_id": "en-a1-u06-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Habitaciones:** kitchen · living room · bedroom · bathroom · garden\n\n**Muebles y objetos:** bed · table · chair · sofa · lamp · window · door\n\n**house** (casa) y **flat** (piso, inglés británico; en americano se dice *apartment*).\n\n**Ojo:** *toilet* es el inodoro o el aseo; *bathroom* es el baño de la casa.\n\nPronunciación: *sofa* → 'sóufa' · *kitchen* → 'kíchen' · *chair* → 'cheə'.",
+    "common_mistakes_es": [
+      {
+        "wrong": "toilet = baño de la casa",
+        "right": "bathroom = baño; toilet = inodoro",
+        "note": "Son cosas distintas."
+      },
+      {
+        "wrong": "sofa → 'sofa' con o corta",
+        "right": "sofa /ˈsəʊfə/",
+        "note": "La primera vocal suena 'ou'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "cocina"
+        },
+        {
+          "left": "bedroom",
+          "right": "dormitorio"
+        },
+        {
+          "left": "bathroom",
+          "right": "baño"
+        },
+        {
+          "left": "window",
+          "right": "ventana"
+        },
+        {
+          "left": "chair",
+          "right": "silla"
+        },
+        {
+          "left": "garden",
+          "right": "jardín"
+        },
+        {
+          "left": "table",
+          "right": "mesa"
+        },
+        {
+          "left": "sofa",
+          "right": "sofá"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las palabras básicas de la casa.",
+        "incorrect": "Revisa esto: Son las palabras básicas de la casa."
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué habitación cocinas?",
+      "options": [
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "garden"
+      ],
+      "answer": [
+        "kitchen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se cocina en la kitchen.",
+        "incorrect": "Revisa esto: Se cocina en la kitchen."
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué habitación duermes?",
+      "options": [
+        "bedroom",
+        "kitchen",
+        "garden",
+        "living room"
+      ],
+      "answer": [
+        "bedroom"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se duerme en la bedroom.",
+        "incorrect": "Revisa esto: Se duerme en la bedroom."
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 25,
+      "prompt": "We watch TV in the living ___.",
+      "answer": [
+        "room"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Living room' = sala de estar.",
+        "incorrect": "Revisa esto: 'Living room' = sala de estar."
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué le muestra Lucy a Sam?",
+      "options": [
+        "Su piso",
+        "Su jardín",
+        "Su escuela",
+        "Su oficina"
+      ],
+      "answer": [
+        "Su piso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'Welcome to my flat!'",
+        "incorrect": "Revisa esto: Lucy dice 'Welcome to my flat!'"
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué cosa NO hay en el dormitorio?",
+      "options": [
+        "Sofa",
+        "Bed",
+        "Lamp",
+        "Window"
+      ],
+      "answer": [
+        "Sofa"
+      ],
+      "audio_text": "This is my bedroom. It's got a bed, a lamp and a window.",
+      "feedback": {
+        "correct": "¡Correcto! Menciona bed, lamp y window; no sofa.",
+        "incorrect": "Revisa esto: Menciona bed, lamp y window; no sofa."
+      },
+      "audio_script_id": "en-a1-u06-l01-ex06-a"
+    },
+    {
+      "id": "en-a1-u06-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "kitchen",
+        ".",
+        "This",
+        "is"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "the",
+        "kitchen",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! This is + the + habitación.",
+        "incorrect": "Revisa esto: This is + the + habitación."
+      }
+    },
+    {
+      "id": "en-a1-u06-l01-ex08",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "home",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "kitchen",
+          "ipa": "/ˈkɪtʃɪn/",
+          "tip_es": "Suena 'kíchen'."
+        },
+        {
+          "text": "bathroom",
+          "ipa": "/ˈbɑːθruːm/",
+          "tip_es": "th = lengua entre los dientes."
+        },
+        {
+          "text": "window",
+          "ipa": "/ˈwɪndəʊ/",
+          "tip_es": "Termina en 'ou'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "kitchen · living room · bedroom · bathroom",
+      "bed · table · chair · sofa · lamp",
+      "house / flat"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-house"
+    },
+    {
+      "type": "vocab",
+      "id": "en-flat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-living-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-kitchen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bedroom"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bathroom"
+    },
+    {
+      "type": "vocab",
+      "id": "en-garden"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-table"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "en-a1-u06-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 6",
+    "es": "Repaso y checkpoint 6"
+  },
+  "objective": "Al terminar demuestras que puedes nombrar partes de la casa, decir qué hay y dónde está.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: describe una habitación completa."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: habitaciones y muebles, there is / there are, preposiciones de lugar, colores y cómo describir tu casa.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *kitchen, bedroom, bathroom, sofa, lamp, window*\n- *There's a … / There are two … / Is there a …?*\n- *in · on · under · next to · behind · in front of · between*\n- *a red lamp · The sofa is blue.*\n- *I live in a flat in …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l06-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "cocina"
+        },
+        {
+          "left": "bedroom",
+          "right": "dormitorio"
+        },
+        {
+          "left": "bathroom",
+          "right": "baño"
+        },
+        {
+          "left": "window",
+          "right": "ventana"
+        },
+        {
+          "left": "chair",
+          "right": "silla"
+        },
+        {
+          "left": "garden",
+          "right": "jardín"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario.",
+        "incorrect": "Revisa esto: Repasa el vocabulario."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ three chairs in the kitchen.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ there a sofa in the living room? — Yes, there is.",
+      "answer": [
+        "Is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en singular: Is there…?",
+        "incorrect": "Revisa esto: Pregunta en singular: Is there…?"
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The keys are ___ the bag. (dentro de)",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "between"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dentro de = in.",
+        "incorrect": "Revisa esto: Dentro de = in."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got a lamp red.",
+      "answer": [
+        "I've got a red lamp.",
+        "I have got a red lamp."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo va antes del sustantivo.",
+        "incorrect": "Revisa esto: El adjetivo va antes del sustantivo."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "any",
+        "windows",
+        "in",
+        "the",
+        "bathroom",
+        ".",
+        "There",
+        "aren't"
+      ],
+      "answer": [
+        "There",
+        "aren't",
+        "any",
+        "windows",
+        "in",
+        "the",
+        "bathroom",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa plural: there aren't any…",
+        "incorrect": "Revisa esto: Negativa plural: there aren't any…"
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está la lámpara?",
+      "options": [
+        "On the table",
+        "Under the table",
+        "On the sofa",
+        "Next to the sofa"
+      ],
+      "answer": [
+        "On the table"
+      ],
+      "audio_text": "The sofa is grey and the table is brown. The lamp is on the table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The lamp is on the table'.",
+        "incorrect": "Revisa esto: Dice 'The lamp is on the table'."
+      },
+      "audio_script_id": "en-a1-u06-l06-ex07-a"
+    },
+    {
+      "id": "en-a1-u06-l06-ex08",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 15,
+      "prompt": "'There is two bedrooms.' es una frase correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con plural se usa there are: There are two bedrooms.",
+        "incorrect": "Revisa esto: Con plural se usa there are: There are two bedrooms."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex09",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "The lamp is next to the sofa.",
+      "answer": [
+        "The lamp is next to the sofa."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Next to = al lado de.",
+        "incorrect": "Revisa esto: Next to = al lado de."
+      },
+      "audio_script_id": "en-a1-u06-l06-ex09-a"
+    },
+    {
+      "id": "en-a1-u06-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "home",
+        "prepositions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe tu habitación o tu casa en 4 frases: qué hay, dónde está y de qué color.",
+      "min_words": 18,
+      "self_check_es": [
+        "¿Usaste there is / there are?",
+        "¿Usaste una preposición de lugar?",
+        "¿Pusiste algún color?"
+      ],
+      "model_answer": "There's a bed and a small table in my bedroom. The bed is blue. The lamp is on the table. There isn't a sofa.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u06-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo visita tu casa.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "Wow, nice flat! Where's the bathroom?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It's next to the kitchen.",
+            "It's in the next kitchen.",
+            "Is next at kitchen."
+          ],
+          "best": 0,
+          "why_es": "Next to = al lado de."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Is there a garden?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, there isn't.",
+            "No, there not.",
+            "No, is not."
+          ],
+          "best": 0,
+          "why_es": "Respuesta corta: No, there isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "There's a … / There are …",
+      "in · on · under · next to",
+      "a red lamp",
+      "I live in …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-there-is-are"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prepositions-place"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

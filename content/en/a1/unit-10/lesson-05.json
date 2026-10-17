@@ -1,0 +1,410 @@
+{
+  "id": "en-a1-u10-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A weekend away",
+    "es": "Integración: un fin de semana fuera"
+  },
+  "objective": "Al terminar cuentas un plan completo de fin de semana: adónde vas, cómo viajas, dónde te quedas y qué clima hace.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Reúne todo lo aprendido para contar un viaje de fin de semana."
+  },
+  "input": {
+    "type": "text",
+    "text": "Next weekend Sam and Lucy are going to Brighton. It's a town by the sea in the south of England. They're taking the train on Saturday at nine o'clock. They're staying in a small hotel near the beach. On Saturday morning they're walking on the beach, and in the evening they're having dinner at a restaurant. It's sunny and warm there at the weekend.",
+    "es": "El fin de semana que viene Sam y Lucy van a Brighton. Es una ciudad junto al mar en el sur de Inglaterra. Toman el tren el sábado a las nueve en punto. Se quedan en un hotel pequeño cerca de la playa. El sábado por la mañana caminan por la playa y por la noche cenan en un restaurante. Allí hace sol y calor el fin de semana.",
+    "glossary": [
+      {
+        "id": "en-beach",
+        "lemma": "beach",
+        "pos": "noun",
+        "ipa": "/biːtʃ/",
+        "es": "playa",
+        "example": "They're walking on the beach."
+      },
+      {
+        "id": "en-sea",
+        "lemma": "sea",
+        "pos": "noun",
+        "ipa": "/siː/",
+        "es": "mar",
+        "example": "It's a town by the sea."
+      },
+      {
+        "id": "en-hotel",
+        "lemma": "hotel",
+        "pos": "noun",
+        "ipa": "/həʊˈtel/",
+        "es": "hotel",
+        "example": "They're staying in a small hotel."
+      },
+      {
+        "id": "en-stay",
+        "lemma": "stay",
+        "pos": "verb",
+        "ipa": "/steɪ/",
+        "es": "quedarse, alojarse",
+        "example": "They're staying in a hotel."
+      },
+      {
+        "id": "en-south",
+        "lemma": "south",
+        "pos": "noun",
+        "ipa": "/saʊθ/",
+        "es": "sur",
+        "example": "It's in the south of England."
+      },
+      {
+        "id": "en-ticket",
+        "lemma": "ticket",
+        "pos": "noun",
+        "ipa": "/ˈtɪkɪt/",
+        "es": "billete, entrada",
+        "example": "I've got a train ticket."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cómo contar un plan:**\n1. Adónde: *We're going to Brighton.*\n2. Cuándo: *next weekend · on Saturday · at nine o'clock.*\n3. Cómo: *We're taking the train.*\n4. Dónde: *We're staying in a small hotel.*\n5. Clima: *It's sunny and warm.*\n\n**Preposiciones de tiempo:** *on Saturday · in the morning / evening · at nine · in June.*\n\n**Sin artículo:** *next weekend* (no *the next weekend*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "the next weekend",
+        "right": "next weekend",
+        "note": "Next no lleva artículo en expresiones de tiempo."
+      },
+      {
+        "wrong": "in Saturday",
+        "right": "on Saturday",
+        "note": "Con días se usa on."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cómo viajan Sam y Lucy a Brighton?",
+      "options": [
+        "By train",
+        "By car",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By train"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'They're taking the train'.",
+        "incorrect": "Revisa esto: El texto dice 'They're taking the train'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿dónde se quedan?",
+      "options": [
+        "In a small hotel near the beach",
+        "In a flat in the city",
+        "In a big house",
+        "With friends"
+      ],
+      "answer": [
+        "In a small hotel near the beach"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'They're staying in a small hotel near the beach'.",
+        "incorrect": "Revisa esto: El texto dice 'They're staying in a small hotel near the beach'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "They're taking the train ___ Saturday.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ the evening they're having dinner.",
+      "answer": [
+        "In"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con partes del día se usa in.",
+        "incorrect": "Revisa esto: Con partes del día se usa in."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are going to Brighton the next weekend.",
+      "answer": [
+        "They are going to Brighton next weekend.",
+        "They're going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We're meeting in Saturday.",
+      "answer": [
+        "We're meeting on Saturday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "in",
+        "a",
+        "small",
+        "hotel",
+        ".",
+        "They're",
+        "staying"
+      ],
+      "answer": [
+        "They're",
+        "staying",
+        "in",
+        "a",
+        "small",
+        "hotel",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + be + staying + lugar.",
+        "incorrect": "Revisa esto: Sujeto + be + staying + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "weather"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hacen el sábado?",
+      "options": [
+        "Walking on the beach",
+        "Taking the train",
+        "Having dinner",
+        "Visiting parents"
+      ],
+      "answer": [
+        "Walking on the beach"
+      ],
+      "audio_text": "On Saturday it's sunny and warm. We're walking on the beach.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'We're walking on the beach'.",
+        "incorrect": "Revisa esto: Dice 'We're walking on the beach'."
+      },
+      "audio_script_id": "en-a1-u10-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u10-l05-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El fin de semana que viene voy a Brighton.",
+      "answer": [
+        "Next weekend I'm going to Brighton.",
+        "I'm going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "plans",
+        "weather"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre un plan de fin de semana: adónde vas, cómo viajas, dónde te quedas y qué clima hay.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Usaste be + verbo-ing para los planes?",
+        "¿Pusiste una expresión de tiempo (next weekend, on Saturday)?",
+        "¿Dijiste el clima con It's…?",
+        "¿Usaste las preposiciones on / at / in correctamente?"
+      ],
+      "model_answer": "Next weekend I'm going to Brighton. I'm taking the train on Saturday at nine o'clock. I'm staying in a small hotel. It's sunny and warm. I'm walking on the beach.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u10-l05-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tus planes.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "What are you doing this weekend?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm going to Brighton.",
+            "I go to Brighton.",
+            "I'm go Brighton."
+          ],
+          "best": 0,
+          "why_es": "Plan futuro: I'm going to…"
+        },
+        {
+          "speaker": "Sam",
+          "text": "How are you going?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm taking the train.",
+            "I take the train tomorrow.",
+            "By the train I go."
+          ],
+          "best": 0,
+          "why_es": "Plan con -ing: I'm taking the train."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "We're going to … next weekend.",
+      "We're taking the train / staying in a hotel.",
+      "It's sunny and warm.",
+      "on Saturday · in the evening · at nine"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-beach"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sea"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hotel"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stay"
+    },
+    {
+      "type": "vocab",
+      "id": "en-south"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ticket"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-continuous-future"
+    }
+  ]
+}

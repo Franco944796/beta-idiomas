@@ -1,0 +1,390 @@
+{
+  "id": "en-a1-u07-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Excuse me, please",
+    "es": "Imperativos y pedidos educados"
+  },
+  "objective": "Al terminar das órdenes y pedidos educados con el imperativo y pides ayuda.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo llamas la atención de un desconocido para pedirle ayuda en la calle?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Excuse me. Can you help me, please? Where's the museum?",
+        "es": "Disculpe. ¿Puede ayudarme, por favor? ¿Dónde está el museo?"
+      },
+      {
+        "speaker": "Officer",
+        "text": "Sure. Don't turn left. Turn right at the park.",
+        "es": "Claro. No gire a la izquierda. Gire a la derecha en el parque."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Thank you very much!",
+        "es": "¡Muchas gracias!"
+      },
+      {
+        "speaker": "Officer",
+        "text": "You're welcome. Be careful!",
+        "es": "De nada. ¡Tenga cuidado!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-help",
+        "lemma": "help",
+        "pos": "verb",
+        "ipa": "/help/",
+        "es": "ayudar",
+        "example": "Can you help me, please?"
+      },
+      {
+        "id": "en-can-you-help-me",
+        "lemma": "can you help me?",
+        "pos": "phrase",
+        "ipa": "/kæn ju ˈhelp miː/",
+        "es": "¿puede ayudarme?",
+        "example": "Excuse me, can you help me?"
+      },
+      {
+        "id": "en-sure",
+        "lemma": "sure",
+        "pos": "interj",
+        "ipa": "/ʃɔː/",
+        "es": "claro, por supuesto",
+        "example": "Sure! Go straight on."
+      },
+      {
+        "id": "en-be-careful",
+        "lemma": "be careful",
+        "pos": "phrase",
+        "ipa": "/bi ˈkeəfl/",
+        "es": "ten cuidado",
+        "example": "Be careful!"
+      },
+      {
+        "id": "en-stop",
+        "lemma": "stop",
+        "pos": "verb",
+        "ipa": "/stɒp/",
+        "es": "parar",
+        "example": "Stop here, please."
+      },
+      {
+        "id": "en-wait",
+        "lemma": "wait",
+        "pos": "verb",
+        "ipa": "/weɪt/",
+        "es": "esperar",
+        "example": "Wait here, please."
+      }
+    ],
+    "audio_script_id": "en-a1-u07-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Imperativo** = verbo en forma base, **sin sujeto**: *Turn left. Wait here. Stop.*\n\n**Negativo:** **Don't** + verbo → *Don't turn left. Don't run.*\n\n**Más educado:** añade *please* → *Please wait here.* o usa *Can you…?* → *Can you help me, please?*\n\n**Excuse me** = para llamar la atención o pasar. **Sorry** = para disculparte.",
+    "common_mistakes_es": [
+      {
+        "wrong": "No turn left.",
+        "right": "Don't turn left.",
+        "note": "La negativa del imperativo usa Don't."
+      },
+      {
+        "wrong": "You turn left. (como orden)",
+        "right": "Turn left.",
+        "note": "El imperativo no lleva sujeto."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ turn left. (no gires)",
+      "answer": [
+        "Don't",
+        "Do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo negativo: Don't + verbo.",
+        "incorrect": "Revisa esto: Imperativo negativo: Don't + verbo."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Para llamar la atención de alguien en la calle dices…",
+      "options": [
+        "Excuse me.",
+        "Goodbye.",
+        "Nice to meet you.",
+        "I'm fine."
+      ],
+      "answer": [
+        "Excuse me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Excuse me sirve para llamar la atención.",
+        "incorrect": "Revisa esto: Excuse me sirve para llamar la atención."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you help me, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can you…? para pedir ayuda.",
+        "incorrect": "Revisa esto: Can you…? para pedir ayuda."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "No turn left.",
+      "answer": [
+        "Don't turn left."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El imperativo negativo usa Don't.",
+        "incorrect": "Revisa esto: El imperativo negativo usa Don't."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You wait here.",
+      "answer": [
+        "Wait here.",
+        "Please wait here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El imperativo no lleva sujeto.",
+        "incorrect": "Revisa esto: El imperativo no lleva sujeto."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "left",
+        "at",
+        "the",
+        "park",
+        ".",
+        "Don't",
+        "turn"
+      ],
+      "answer": [
+        "Don't",
+        "turn",
+        "left",
+        "at",
+        "the",
+        "park",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't + verbo base + lugar.",
+        "incorrect": "Revisa esto: Don't + verbo base + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿dónde debe girar Sam?",
+      "options": [
+        "Right at the park",
+        "Left at the park",
+        "Left at the station",
+        "Right at the museum"
+      ],
+      "answer": [
+        "Right at the park"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El oficial dice 'Turn right at the park'.",
+        "incorrect": "Revisa esto: El oficial dice 'Turn right at the park'."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debe hacer la persona?",
+      "options": [
+        "Wait here",
+        "Go home",
+        "Turn left",
+        "Go straight on"
+      ],
+      "answer": [
+        "Wait here"
+      ],
+      "audio_text": "Wait here, please. Don't go home.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Wait here, please'.",
+        "incorrect": "Revisa esto: Dice 'Wait here, please'."
+      },
+      "audio_script_id": "en-a1-u07-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u07-l05-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Por favor, espere aquí.",
+      "answer": [
+        "Please wait here.",
+        "Wait here, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Please + imperativo.",
+        "incorrect": "Revisa esto: Please + imperativo."
+      }
+    },
+    {
+      "id": "en-a1-u07-l05-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "imperatives",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "Excuse me!",
+          "ipa": "/ɪkˈskjuːz miː/",
+          "tip_es": "El acento va en 'skjuz'."
+        },
+        {
+          "text": "Can you help me, please?",
+          "ipa": "/kæn ju ˈhelp mi pliːz/",
+          "tip_es": "'help' suena 'help', con h aspirada."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Excuse me. Can you help me, please?",
+      "Turn left. · Wait here.",
+      "Don't turn left.",
+      "Please + imperativo"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-help"
+    },
+    {
+      "type": "vocab",
+      "id": "en-can-you-help-me"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-careful"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wait"
+    },
+    {
+      "type": "grammar",
+      "id": "en-imperatives"
+    }
+  ]
+}

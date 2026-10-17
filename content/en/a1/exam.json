@@ -1,0 +1,748 @@
+{
+  "id": "en-a1-exam-v1",
+  "language": "en",
+  "level": "A1",
+  "version": 1,
+  "title": {
+    "es": "Examen final de A1"
+  },
+  "pass_score": 0.75,
+  "instructions_es": "30 preguntas. Necesitas el 75 % (23 aciertos) para pasar a A2. Las dos tareas finales (escritura y rol) son opcionales y se autoevalúan: no cuentan en la nota.",
+  "scoring": {
+    "scored": "exercises",
+    "optional_not_scored": "optional_tasks",
+    "weak_areas": "group wrong answers by tags"
+  },
+  "exercises": [
+    {
+      "id": "en-a1-exam-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 8 de la noche y llegas a una fiesta. ¿Qué dices?",
+      "options": [
+        "Good evening!",
+        "Good night!",
+        "Good morning!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good evening!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Al llegar de noche: Good evening.",
+        "incorrect": "Revisa esto: Al llegar de noche: Good evening."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pregunta la edad?",
+      "options": [
+        "How old are you?",
+        "How many years have you?",
+        "What age you are?",
+        "How are you old?"
+      ],
+      "answer": [
+        "How old are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se pregunta con How old…?",
+        "incorrect": "Revisa esto: La edad se pregunta con How old…?"
+      }
+    },
+    {
+      "id": "en-a1-exam-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's from Germany. He's ___.",
+      "options": [
+        "German",
+        "Germany",
+        "Germaner",
+        "Germanish"
+      ],
+      "answer": [
+        "German"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: Germany. Nacionalidad: German.",
+        "incorrect": "Revisa esto: País: Germany. Nacionalidad: German."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 20,
+      "prompt": "'El hermano de Laura' en inglés:",
+      "options": [
+        "Laura's brother",
+        "The brother of Laura",
+        "Lauras brother",
+        "Brother Laura's"
+      ],
+      "answer": [
+        "Laura's brother"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + cosa.",
+        "incorrect": "Revisa esto: Dueño + 's + cosa."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I always have breakfast at home.",
+        "I have always breakfast at home.",
+        "I always has breakfast at home.",
+        "Always I have breakfast at home."
+      ],
+      "answer": [
+        "I always have breakfast at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio va antes del verbo principal.",
+        "incorrect": "Revisa esto: El adverbio va antes del verbo principal."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pides un té con educación en un café.",
+      "options": [
+        "I'd like a tea, please.",
+        "I want tea.",
+        "Give me tea.",
+        "Tea!"
+      ],
+      "answer": [
+        "I'd like a tea, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forma educada: I'd like… please.",
+        "incorrect": "Revisa esto: Forma educada: I'd like… please."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The keys are ___ the bag. (dentro de)",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dentro de = in.",
+        "incorrect": "Revisa esto: Dentro de = in."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Gira a la izquierda en el semáforo:",
+      "options": [
+        "Turn left at the traffic lights.",
+        "Turn to left at traffic lights.",
+        "Go left turn at lights.",
+        "Left turn at the lights go."
+      ],
+      "answer": [
+        "Turn left at the traffic lights."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo sin 'to'.",
+        "incorrect": "Revisa esto: Imperativo sin 'to'."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo preguntas el precio de unos zapatos?",
+      "options": [
+        "How much are the shoes?",
+        "How much is the shoes?",
+        "How many cost the shoes?",
+        "How much cost shoes?"
+      ],
+      "answer": [
+        "How much are the shoes?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: How much are…?",
+        "incorrect": "Revisa esto: Plural: How much are…?"
+      }
+    },
+    {
+      "id": "en-a1-exam-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 20,
+      "prompt": "Aceptas una invitación con entusiasmo:",
+      "options": [
+        "I'd love to!",
+        "I can't.",
+        "Goodbye.",
+        "I'm fine."
+      ],
+      "answer": [
+        "I'd love to!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para aceptar con ganas: I'd love to.",
+        "incorrect": "Revisa esto: Para aceptar con ganas: I'd love to."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ students.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they se usa are.",
+        "incorrect": "Revisa esto: Con they se usa are."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna is my sister. ___ name is Anna.",
+      "answer": [
+        "Her"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es una mujer: her.",
+        "incorrect": "Revisa esto: El dueño es una mujer: her."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ got two brothers.",
+      "answer": [
+        "has",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he: has got.",
+        "incorrect": "Revisa esto: Con he: has got."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (get) up at seven.",
+      "answer": [
+        "gets"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you like fish? — Yes, I do.",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en presente simple: Do you…?",
+        "incorrect": "Revisa esto: Pregunta en presente simple: Do you…?"
+      }
+    },
+    {
+      "id": "en-a1-exam-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ a sofa in the living room.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: there is.",
+        "incorrect": "Revisa esto: Singular: there is."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex17",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ swim, but I can't dance. (puedo)",
+      "answer": [
+        "can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can es igual para todas las personas.",
+        "incorrect": "Revisa esto: Can es igual para todas las personas."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex18",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ taking a taxi tomorrow.",
+      "answer": [
+        "'m",
+        "am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: be + verbo-ing.",
+        "incorrect": "Revisa esto: Plan futuro: be + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 20 years.",
+      "answer": [
+        "I'm 20.",
+        "I am 20.",
+        "I'm 20 years old.",
+        "I am 20 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con to be.",
+        "incorrect": "Revisa esto: La edad se dice con to be."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm teacher.",
+      "answer": [
+        "I'm a teacher.",
+        "I am a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El artículo es obligatorio.",
+        "incorrect": "Revisa esto: El artículo es obligatorio."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Sundays.",
+      "answer": [
+        "She doesn't work on Sundays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't va el verbo base.",
+        "incorrect": "Revisa esto: Después de doesn't va el verbo base."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex22",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I haven't got some milk.",
+      "answer": [
+        "I haven't got any milk."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En negativas se usa any.",
+        "incorrect": "Revisa esto: En negativas se usa any."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex23",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to left at the corner.",
+      "answer": [
+        "Turn left at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa 'to' con left.",
+        "incorrect": "Revisa esto: No se usa 'to' con left."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex24",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál es el número de teléfono?",
+      "options": [
+        "555 0137",
+        "555 0173",
+        "555 1037",
+        "550 0137"
+      ],
+      "answer": [
+        "555 0137"
+      ],
+      "audio_text": "My phone number is five five five, oh one three seven.",
+      "feedback": {
+        "correct": "¡Correcto! Five five five, oh one three seven.",
+        "incorrect": "Revisa esto: Five five five, oh one three seven."
+      },
+      "audio_script_id": "en-a1-exam-ex24-a"
+    },
+    {
+      "id": "en-a1-exam-ex25",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hora es?",
+      "options": [
+        "8:45",
+        "9:15",
+        "8:15",
+        "9:45"
+      ],
+      "answer": [
+        "8:45"
+      ],
+      "audio_text": "It's quarter to nine. The class starts at nine o'clock.",
+      "feedback": {
+        "correct": "¡Correcto! Quarter to nine = 8:45.",
+        "incorrect": "Revisa esto: Quarter to nine = 8:45."
+      },
+      "audio_script_id": "en-a1-exam-ex25-a"
+    },
+    {
+      "id": "en-a1-exam-ex26",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántos dormitorios hay?",
+      "options": [
+        "Two",
+        "Three",
+        "One",
+        "Four"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "I live in a small flat. There are two bedrooms and a big kitchen.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'two bedrooms'.",
+        "incorrect": "Revisa esto: Dice 'two bedrooms'."
+      },
+      "audio_script_id": "en-a1-exam-ex26-a"
+    },
+    {
+      "id": "en-a1-exam-ex27",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta el abrigo?",
+      "options": [
+        "£90",
+        "£19",
+        "£50",
+        "£15"
+      ],
+      "answer": [
+        "£90"
+      ],
+      "audio_text": "These shoes are fifty pounds, and that coat is ninety pounds.",
+      "feedback": {
+        "correct": "¡Correcto! Ninety = 90.",
+        "incorrect": "Revisa esto: Ninety = 90."
+      },
+      "audio_script_id": "en-a1-exam-ex27-a"
+    },
+    {
+      "id": "en-a1-exam-ex28",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Would you like to go to the cinema on Saturday?",
+      "answer": [
+        "Would you like to go to the cinema on Saturday?",
+        "Would you like to go to the cinema on Saturday"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Invitación con Would you like to…?",
+        "incorrect": "Revisa esto: Invitación con Would you like to…?"
+      },
+      "audio_script_id": "en-a1-exam-ex28-a"
+    },
+    {
+      "id": "en-a1-exam-ex29",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reading"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'I'm Tom. I'm from England. I'm a nurse. I've got one sister. She's a teacher.' ¿A qué se dedica la hermana de Tom?",
+      "options": [
+        "A teacher",
+        "A nurse",
+        "A doctor",
+        "A waiter"
+      ],
+      "answer": [
+        "A teacher"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'She's a teacher'.",
+        "incorrect": "Revisa esto: El texto dice 'She's a teacher'."
+      }
+    },
+    {
+      "id": "en-a1-exam-ex30",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reading"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Anna gets up at seven. She has breakfast at half past seven. She goes to work by bus.' ¿Cómo va Anna al trabajo?",
+      "options": [
+        "By bus",
+        "On foot",
+        "By car",
+        "By train"
+      ],
+      "answer": [
+        "By bus"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'by bus'.",
+        "incorrect": "Revisa esto: El texto dice 'by bus'."
+      }
+    }
+  ],
+  "optional_tasks": [
+    {
+      "id": "en-a1-exam-opt01",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases: preséntate, di dónde vives, qué haces en tu tiempo libre y un plan para el fin de semana.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Te presentaste con I'm…?",
+        "¿Dijiste dónde vives?",
+        "¿Usaste presente simple para tus hábitos?",
+        "¿Usaste presente continuo para el plan?"
+      ],
+      "model_answer": "Hello! I'm Ana. I live in a flat in Rosario. I play football on Saturdays. Next weekend I'm visiting my parents.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-exam-opt02",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "greetings",
+        "countries"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Conoces a alguien en una fiesta.",
+      "turns": [
+        {
+          "speaker": "Anna",
+          "text": "Hi! I'm Anna. What's your name?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Hi, Anna. I'm Tom. Nice to meet you.",
+            "Good night, Anna.",
+            "Am Tom."
+          ],
+          "best": 0,
+          "why_es": "Saludas y dices tu nombre."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Where are you from?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm from Argentina. I'm Argentinian.",
+            "I'm of Argentina.",
+            "Argentina I'm."
+          ],
+          "best": 0,
+          "why_es": "Origen con from y nacionalidad con I'm."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "en-a1-u09-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Would you like to...?",
+    "es": "Invitar y aceptar"
+  },
+  "objective": "Al terminar invitas a alguien, aceptas o rechazas con cortesía y propones planes.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo invitas a un amigo al cine? ¿Y cómo dices que no puedes sin sonar descortés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Would you like to go to the cinema on Friday?",
+        "es": "¿Te gustaría ir al cine el viernes?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'd love to, but I can't. I work on Fridays.",
+        "es": "Me encantaría, pero no puedo. Trabajo los viernes."
+      },
+      {
+        "speaker": "Sam",
+        "text": "What about Saturday?",
+        "es": "¿Y el sábado?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Great! Let's meet at seven.",
+        "es": "¡Genial! Quedemos a las siete."
+      },
+      {
+        "speaker": "Sam",
+        "text": "OK. See you on Saturday!",
+        "es": "Bien. ¡Nos vemos el sábado!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-would-you-like-to",
+        "lemma": "would you like to...?",
+        "pos": "phrase",
+        "ipa": "/wʊd ju ˈlaɪk tuː/",
+        "es": "¿te gustaría...?",
+        "example": "Would you like to go to the cinema?"
+      },
+      {
+        "id": "en-i-d-love-to",
+        "lemma": "I'd love to",
+        "pos": "phrase",
+        "ipa": "/aɪd ˈlʌv tuː/",
+        "es": "me encantaría",
+        "example": "Would you like to dance? I'd love to!"
+      },
+      {
+        "id": "en-let-s",
+        "lemma": "let's",
+        "pos": "phrase",
+        "ipa": "/lets/",
+        "es": "hagamos / vamos a",
+        "example": "Let's meet at seven."
+      },
+      {
+        "id": "en-meet",
+        "lemma": "meet",
+        "pos": "verb",
+        "ipa": "/miːt/",
+        "es": "encontrarse, quedar",
+        "example": "Let's meet at seven."
+      },
+      {
+        "id": "en-great-idea",
+        "lemma": "great idea",
+        "pos": "phrase",
+        "ipa": "/ˌɡreɪt aɪˈdɪə/",
+        "es": "buena idea",
+        "example": "Let's go to the park. — Great idea!"
+      }
+    ],
+    "audio_script_id": "en-a1-u09-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Invitar:**\n- *Would you like to + verbo…?* → *Would you like to go to the cinema?*\n- *Let's + verbo* → *Let's meet at seven.* (sin *to*)\n- *What about + día/plan?* → *What about Saturday?*\n\n**Aceptar:** *I'd love to! · Great idea! · Yes, please.*\n\n**Rechazar con cortesía:** *Sorry, I can't. I work on Fridays.* (da un motivo).\n\n**Tiempo:** *on Friday · at seven.*",
+    "common_mistakes_es": [
+      {
+        "wrong": "Would you like go?",
+        "right": "Would you like to go?",
+        "note": "Después de Would you like va to."
+      },
+      {
+        "wrong": "Let's to go.",
+        "right": "Let's go.",
+        "note": "Después de Let's no va to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 25,
+      "prompt": "Would you like ___ go to the cinema?",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like + to + verbo.",
+        "incorrect": "Revisa esto: Would you like + to + verbo."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ meet at seven.",
+      "answer": [
+        "Let's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let's + verbo base.",
+        "incorrect": "Revisa esto: Let's + verbo base."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 20,
+      "prompt": "Aceptas una invitación con entusiasmo. ¿Qué dices?",
+      "options": [
+        "I'd love to!",
+        "I can't.",
+        "Goodbye.",
+        "I'm fine."
+      ],
+      "answer": [
+        "I'd love to!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para aceptar con ganas: I'd love to.",
+        "incorrect": "Revisa esto: Para aceptar con ganas: I'd love to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Would you like go to the cinema?",
+      "answer": [
+        "Would you like to go to the cinema?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta to después de Would you like.",
+        "incorrect": "Revisa esto: Falta to después de Would you like."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Let's to go.",
+      "answer": [
+        "Let's go."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de Let's no va to.",
+        "incorrect": "Revisa esto: Después de Let's no va to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?",
+        "Would",
+        "you"
+      ],
+      "answer": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like to + verbo + lugar.",
+        "incorrect": "Revisa esto: Would you like to + verbo + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué día aceptan para ir al cine?",
+      "options": [
+        "Saturday",
+        "Friday",
+        "Sunday",
+        "Monday"
+      ],
+      "answer": [
+        "Saturday"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy acepta 'What about Saturday?'.",
+        "incorrect": "Revisa esto: Lucy acepta 'What about Saturday?'."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué responde la segunda persona?",
+      "options": [
+        "Sorry, I can't",
+        "I'd love to",
+        "Let's go",
+        "Great idea"
+      ],
+      "answer": [
+        "Sorry, I can't"
+      ],
+      "audio_text": "Would you like to play football on Sunday? Sorry, I can't.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Sorry, I can't'.",
+        "incorrect": "Revisa esto: Dice 'Sorry, I can't'."
+      },
+      "audio_script_id": "en-a1-u09-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u09-l05-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Te gustaría ir al cine?",
+      "answer": [
+        "Would you like to go to the cinema?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like to + verbo.",
+        "incorrect": "Revisa esto: Would you like to + verbo."
+      }
+    },
+    {
+      "id": "en-a1-u09-l05-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te invita al cine.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "Would you like to go to the cinema on Friday?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd love to!",
+            "I love go.",
+            "Yes, I would go."
+          ],
+          "best": 0,
+          "why_es": "Aceptas con I'd love to."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Great! Let's meet at seven."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "OK, see you at seven!",
+            "OK, see you in seven.",
+            "Yes, seven at."
+          ],
+          "best": 0,
+          "why_es": "Despedida con see you at + hora."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Would you like to …?",
+      "I'd love to! · Great idea!",
+      "Sorry, I can't.",
+      "Let's meet at seven."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-would-you-like-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-d-love-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-let-s"
+    },
+    {
+      "type": "vocab",
+      "id": "en-meet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-great-idea"
+    },
+    {
+      "type": "grammar",
+      "id": "en-invitations"
+    }
+  ]
+}

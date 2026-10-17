@@ -1,0 +1,408 @@
+{
+  "id": "en-a1-u06-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "In, on, under...",
+    "es": "Preposiciones de lugar"
+  },
+  "objective": "Al terminar dices dónde están las cosas con preposiciones de lugar.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Dónde dejaste tus llaves? Cuéntalo en inglés: sobre, debajo, al lado de…"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Where's my phone?",
+        "es": "¿Dónde está mi teléfono?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's on the table, next to the lamp.",
+        "es": "Está sobre la mesa, al lado de la lámpara."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And my keys?",
+        "es": "¿Y mis llaves?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "They're in the bag, under the chair.",
+        "es": "Están en la bolsa, debajo de la silla."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-in",
+        "lemma": "in",
+        "pos": "prep",
+        "ipa": "/ɪn/",
+        "es": "en, dentro de",
+        "example": "The keys are in the bag."
+      },
+      {
+        "id": "en-on",
+        "lemma": "on",
+        "pos": "prep",
+        "ipa": "/ɒn/",
+        "es": "sobre, encima de",
+        "example": "The phone is on the table."
+      },
+      {
+        "id": "en-under",
+        "lemma": "under",
+        "pos": "prep",
+        "ipa": "/ˈʌndə/",
+        "es": "debajo de",
+        "example": "The bag is under the chair."
+      },
+      {
+        "id": "en-next-to",
+        "lemma": "next to",
+        "pos": "prep",
+        "ipa": "/ˈnekst tə/",
+        "es": "al lado de",
+        "example": "The lamp is next to the sofa."
+      },
+      {
+        "id": "en-behind",
+        "lemma": "behind",
+        "pos": "prep",
+        "ipa": "/bɪˈhaɪnd/",
+        "es": "detrás de",
+        "example": "The garden is behind the house."
+      },
+      {
+        "id": "en-in-front-of",
+        "lemma": "in front of",
+        "pos": "prep",
+        "ipa": "/ɪn ˈfrʌnt əv/",
+        "es": "delante de",
+        "example": "The sofa is in front of the TV."
+      },
+      {
+        "id": "en-between",
+        "lemma": "between",
+        "pos": "prep",
+        "ipa": "/bɪˈtwiːn/",
+        "es": "entre",
+        "example": "The lamp is between the sofa and the window."
+      },
+      {
+        "id": "en-bag",
+        "lemma": "bag",
+        "pos": "noun",
+        "ipa": "/bæɡ/",
+        "es": "bolsa, bolso",
+        "example": "The keys are in the bag."
+      },
+      {
+        "id": "en-key",
+        "lemma": "key",
+        "pos": "noun",
+        "ipa": "/kiː/",
+        "es": "llave",
+        "example": "Where are my keys?"
+      }
+    ],
+    "audio_script_id": "en-a1-u06-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**in** (dentro) · **on** (encima, en contacto) · **under** (debajo) · **next to** (al lado de) · **behind** (detrás de) · **in front of** (delante de) · **between** (entre dos cosas)\n\n**Pregunta:** *Where's my phone?* (= Where is) · *Where are my keys?*\n\nCuidado: *on the table* (sobre la mesa, no *in the table*) y *next to* lleva **to**.",
+    "common_mistakes_es": [
+      {
+        "wrong": "in the table",
+        "right": "on the table",
+        "note": "Sobre una superficie se usa 'on'."
+      },
+      {
+        "wrong": "next the lamp / in front the sofa",
+        "right": "next to the lamp / in front of the sofa",
+        "note": "No olvides 'to' ni 'of'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "dentro de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "in front of",
+          "right": "delante de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza estas siete preposiciones.",
+        "incorrect": "Revisa esto: Memoriza estas siete preposiciones."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ___ the table. (sobre)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie: on.",
+        "incorrect": "Revisa esto: Sobre una superficie: on."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The keys are ___ the bag. (dentro)",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dentro de algo: in.",
+        "incorrect": "Revisa esto: Dentro de algo: in."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lamp is ___ the sofa and the window. (entre)",
+      "options": [
+        "between",
+        "behind",
+        "under",
+        "on"
+      ],
+      "answer": [
+        "between"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Entre dos cosas: between.",
+        "incorrect": "Revisa esto: Entre dos cosas: between."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The phone is in the table.",
+      "answer": [
+        "The phone is on the table."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie se usa on.",
+        "incorrect": "Revisa esto: Sobre una superficie se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The lamp is next the sofa.",
+      "answer": [
+        "The lamp is next to the sofa."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es 'next to'.",
+        "incorrect": "Revisa esto: Es 'next to'."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "in",
+        "the",
+        "bag",
+        ".",
+        "The",
+        "keys"
+      ],
+      "answer": [
+        "The",
+        "keys",
+        "are",
+        "in",
+        "the",
+        "bag",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + are + in + lugar.",
+        "incorrect": "Revisa esto: Sujeto + are + in + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u06-l03-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el teléfono?",
+      "options": [
+        "On the table",
+        "Under the table",
+        "In the bag",
+        "Behind the lamp"
+      ],
+      "answer": [
+        "On the table"
+      ],
+      "audio_text": "The phone is on the table, next to the lamp.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on the table'.",
+        "incorrect": "Revisa esto: Dice 'on the table'."
+      },
+      "audio_script_id": "en-a1-u06-l03-ex08-a"
+    },
+    {
+      "id": "en-a1-u06-l03-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El teléfono está debajo de la silla.",
+      "answer": [
+        "The phone is under the chair."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Debajo de = under.",
+        "incorrect": "Revisa esto: Debajo de = under."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "in · on · under",
+      "next to · behind · in front of · between",
+      "Where's my phone?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-under"
+    },
+    {
+      "type": "vocab",
+      "id": "en-next-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-behind"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-front-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-between"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bag"
+    },
+    {
+      "type": "vocab",
+      "id": "en-key"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prepositions-place"
+    }
+  ]
+}

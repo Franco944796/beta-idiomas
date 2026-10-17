@@ -1,0 +1,49 @@
+/* Trilex – estilos del reproductor de curso (se suma a shared-topic.css) */
+.tx{max-width:860px;text-align:left}
+.tx h1{font-size:2.2rem;text-align:center;margin-bottom:1.2rem}
+.tx-card{background:#fff;color:#1E1E50;border:3px solid #8B0000;border-radius:15px;padding:22px;margin-bottom:18px;line-height:1.5}
+.tx-card h2{font-size:1.4rem;margin-bottom:12px}
+.tx-card h3{font-size:1.05rem;color:#8B0000;margin:16px 0 6px}
+.tx-card small,.tx-card h2 small{color:#555;font-weight:normal;font-size:.85em}
+.tx-card p{margin:8px 0}.tx-card ul,.tx-card ol{margin:8px 0 8px 22px}
+.tx-prog{height:8px;background:#e3e3ee;border-radius:4px;margin-bottom:14px}
+.tx-prog span{display:block;height:100%;background:#8B0000;border-radius:4px}
+.tx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-bottom:18px}
+.tx-tile{background:#fff;color:#1E1E50;border:3px solid #8B0000;border-radius:15px;padding:16px;text-align:left;font:inherit;cursor:pointer}
+.tx-tile:hover:not(:disabled){border-color:#1E1E50;background:#f4f4fb}
+.tx-tile:disabled{opacity:.6;cursor:not-allowed}
+.tx-tile b{display:block;font-size:1.1rem;margin-bottom:4px}.tx-tile small{color:#8B0000}
+.tx-lesson{display:flex;gap:10px;align-items:center;width:100%;background:#fff;color:#1E1E50;border:2px solid #c9c9dd;border-radius:10px;padding:10px 12px;margin-top:8px;font:inherit;text-align:left;cursor:pointer}
+.tx-lesson:hover:not(:disabled){border-color:#8B0000}.tx-lesson:disabled{opacity:.55;cursor:not-allowed}
+.tx-lesson.done{border-color:#1b7a3a;background:#e6f4ea}.tx-lesson span:last-child{margin-left:auto;font-size:.85rem}
+.tx-btn{background:#1E1E50;color:#fff;border:2px solid #1E1E50;border-radius:10px;padding:10px 18px;font:inherit;cursor:pointer;margin:4px 6px 4px 0}
+.tx-btn:hover{background:#8B0000;border-color:#8B0000}
+.tx-opt,.tx-chip,.tx-alt{background:#fff;color:#1E1E50;border:2px solid #1E1E50}
+.tx-chip:hover,.tx-alt:hover{background:#eef;border-color:#8B0000}
+.tx-opt:hover:not(:disabled){background:#eef;border-color:#8B0000}
+.tx-alt{padding:4px 10px;font-size:.9rem;border-radius:8px}.tx-chip{padding:6px 12px;border-radius:20px}
+.tx-opts{display:grid;gap:10px}.tx-opt{text-align:left;margin:0}
+.tx-opt.ok,.tx-pair.ok{border-color:#1b7a3a;background:#e6f4ea;color:#1E1E50}
+.tx-opt.bad,.tx-pair.bad{border-color:#8B0000;background:#fde8e8;color:#1E1E50}
+.tx-btn:disabled{cursor:default}
+.tx-q{font-size:1.15rem;font-weight:bold;margin-bottom:12px}
+.tx-in{font:inherit;padding:8px 10px;border:2px solid #1E1E50;border-radius:8px;min-width:200px;max-width:100%}
+.tx-ta{width:100%}.tx-slot{display:inline-block;vertical-align:middle}
+.tx-wrong{background:#fde8e8;border-radius:8px;padding:8px 12px;margin-bottom:10px}
+.tx-tray{display:flex;flex-wrap:wrap;gap:8px;min-height:48px;padding:8px;border:2px dashed #9a9ab8;border-radius:10px;margin-bottom:10px}
+.tx-pool{border-style:solid;border-color:#e3e3ee}
+.tx-cols{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tx-pair{display:block;width:100%;margin:0 0 8px;text-align:left}
+.tx-pair.sel{border-color:#8B0000;background:#fff3f3;color:#1E1E50}
+.tx-fb{margin-top:12px;border-radius:10px;padding:0}.tx-fb.ok,.tx-fb.bad,.tx-fb.half{padding:10px 14px}
+.tx-fb.ok{background:#e6f4ea;border-left:5px solid #1b7a3a}.tx-fb.bad{background:#fde8e8;border-left:5px solid #8B0000}
+.tx-fb.half{background:#fff6dd;border-left:5px solid #c58a00}
+.tx-act{margin-top:12px}.tx-row{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px}
+.tx-turn{margin:10px 0 4px}.tx-sit,.tx-warm{background:#eef;border-radius:8px;padding:10px 12px}
+.tx-why{color:#555;font-size:.9rem}.tx-line{margin:8px 0}.tx-ipa{color:#8B0000}
+.tx-ref{margin-bottom:12px}.tx-scroll{overflow-x:auto;margin:8px 0}
+.tx-table{border-collapse:collapse;width:100%}.tx-table th,.tx-table td{border:1px solid #c9c9dd;padding:6px 8px;text-align:left;vertical-align:top}
+.tx-table th{background:#eef}.tx-check{list-style:none;margin-left:0!important}
+.tx-big{font-size:2.2rem;font-weight:bold;color:#8B0000}.tx-foot{font-size:.85rem;color:#fff;text-align:center;margin-top:8px}
+.tx-foot button{background:none;border:0;color:#fff;text-decoration:underline;cursor:pointer;font:inherit;margin:0 8px}
+.tx button:focus-visible,.tx input:focus-visible,.tx textarea:focus-visible{outline:3px solid #8B0000;outline-offset:2px}
+@media(max-width:560px){.tx h1{font-size:1.7rem}.tx-cols{grid-template-columns:1fr}.tx-card{padding:16px}}

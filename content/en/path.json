@@ -1,0 +1,794 @@
+{
+  "language": "en",
+  "variety": "British English (American differences noted)",
+  "ui_language": "es",
+  "version": 1,
+  "levels": [
+    {
+      "id": "en-a1",
+      "cefr": "A1",
+      "status": "ready",
+      "est_guided_hours_cumulative": "90-100",
+      "vocab_target_cumulative": 700,
+      "unit_count_target": 10,
+      "lesson_count_target": 60,
+      "can_do": {
+        "listening": "Entiendes palabras y frases muy básicas y pronunciadas despacio sobre ti, tu familia y tu entorno.",
+        "reading": "Entiendes nombres, palabras y frases muy simples en carteles y mensajes cortos.",
+        "interaction": "Participas en conversaciones simples si la otra persona habla despacio y colabora.",
+        "production": "Usas frases simples para presentarte y hablar de tu familia y de dónde vives.",
+        "writing": "Escribes frases cortas y rellenas formularios con tus datos personales."
+      },
+      "grammar_syllabus": [
+        "to be",
+        "presente simple",
+        "artículos",
+        "plurales",
+        "there is/are",
+        "can",
+        "imperativo",
+        "presente continuo"
+      ],
+      "units": [
+        {
+          "id": "en-a1-u01",
+          "order": 1,
+          "title_es": "Saludos y presentaciones",
+          "title_target": "Hello and introductions",
+          "theme": "greetings",
+          "lessons": [
+            {
+              "id": "en-a1-u01-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Hello!",
+              "title_es": "¡Hola!",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u01-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "The alphabet",
+              "title_es": "El alfabeto y cómo deletrear",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u01-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Numbers 0-20",
+              "title_es": "Números del 0 al 20 y teléfonos",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u01-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "How are you?",
+              "title_es": "¿Cómo estás? Saludos del día",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u01-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "How old are you?",
+              "title_es": "¿Cuántos años tienes?",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u01-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 1",
+              "title_es": "Repaso y checkpoint 1",
+              "status": "ready",
+              "file": "a1/unit-01/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u02",
+          "order": 2,
+          "title_es": "Países, nacionalidades y profesiones",
+          "title_target": "Countries and jobs",
+          "theme": "countries-jobs",
+          "lessons": [
+            {
+              "id": "en-a1-u02-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Where are you from?",
+              "title_es": "Países y nacionalidades",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u02-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "He, she, it",
+              "title_es": "He, she, it: el verbo to be",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u02-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "We, you, they",
+              "title_es": "We, you, they: to be completo",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u02-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Are you...?",
+              "title_es": "Negativas, preguntas y respuestas cortas",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u02-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "What do you do?",
+              "title_es": "Profesiones y a/an",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u02-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 2",
+              "title_es": "Repaso y checkpoint 2",
+              "status": "ready",
+              "file": "a1/unit-02/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u03",
+          "order": 3,
+          "title_es": "Familia",
+          "title_target": "Family",
+          "theme": "family",
+          "lessons": [
+            {
+              "id": "en-a1-u03-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "My family",
+              "title_es": "Miembros de la familia",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u03-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "My, your, his, her",
+              "title_es": "Adjetivos posesivos",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u03-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Anna's brother",
+              "title_es": "El posesivo 's",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u03-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "I've got a sister",
+              "title_es": "Have got: tener",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u03-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Describing people",
+              "title_es": "Describir personas",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u03-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 3",
+              "title_es": "Repaso y checkpoint 3",
+              "status": "ready",
+              "file": "a1/unit-03/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u04",
+          "order": 4,
+          "title_es": "Rutina diaria",
+          "title_target": "Daily routine",
+          "theme": "routine",
+          "lessons": [
+            {
+              "id": "en-a1-u04-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Daily activities",
+              "title_es": "Actividades diarias",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u04-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "What time is it?",
+              "title_es": "¿Qué hora es?",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u04-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Present simple: affirmative",
+              "title_es": "Presente simple: afirmativo",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u04-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Present simple: negatives and questions",
+              "title_es": "Presente simple: negativas y preguntas",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u04-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Days and how often",
+              "title_es": "Días de la semana y frecuencia",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u04-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 4",
+              "title_es": "Repaso y checkpoint 4",
+              "status": "ready",
+              "file": "a1/unit-04/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u05",
+          "order": 5,
+          "title_es": "Comida y bebida",
+          "title_target": "Food and drink",
+          "theme": "food",
+          "lessons": [
+            {
+              "id": "en-a1-u05-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Food and drink",
+              "title_es": "Comida y bebida",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u05-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Plurals",
+              "title_es": "Los plurales",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u05-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "I like...",
+              "title_es": "Gustos: like, love, hate",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u05-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Meals, some and any",
+              "title_es": "Las comidas: some y any",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u05-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "At the cafe",
+              "title_es": "En el café: pedir y pagar",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u05-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 5",
+              "title_es": "Repaso y checkpoint 5",
+              "status": "ready",
+              "file": "a1/unit-05/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u06",
+          "order": 6,
+          "title_es": "La casa",
+          "title_target": "Home",
+          "theme": "home",
+          "lessons": [
+            {
+              "id": "en-a1-u06-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Rooms and furniture",
+              "title_es": "Habitaciones y muebles",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u06-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "There is, there are",
+              "title_es": "There is / There are",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u06-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "In, on, under...",
+              "title_es": "Preposiciones de lugar",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u06-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Colours and adjectives",
+              "title_es": "Colores y adjetivos",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u06-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "My home",
+              "title_es": "Describe tu casa",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u06-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 6",
+              "title_es": "Repaso y checkpoint 6",
+              "status": "ready",
+              "file": "a1/unit-06/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u07",
+          "order": 7,
+          "title_es": "La ciudad y direcciones",
+          "title_target": "Town and directions",
+          "theme": "town",
+          "lessons": [
+            {
+              "id": "en-a1-u07-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Places in town",
+              "title_es": "Lugares de la ciudad",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u07-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Where is...?",
+              "title_es": "¿Dónde está...?",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u07-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Directions",
+              "title_es": "Cómo llegar: direcciones",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u07-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Transport",
+              "title_es": "Medios de transporte",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u07-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Excuse me, please",
+              "title_es": "Imperativos y pedidos educados",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u07-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 7",
+              "title_es": "Repaso y checkpoint 7",
+              "status": "ready",
+              "file": "a1/unit-07/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u08",
+          "order": 8,
+          "title_es": "Compras, números y dinero",
+          "title_target": "Shopping and money",
+          "theme": "shopping",
+          "lessons": [
+            {
+              "id": "en-a1-u08-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Numbers 21-1000",
+              "title_es": "Números del 21 al 1000",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u08-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "How much is it?",
+              "title_es": "Precios y dinero",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u08-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Clothes",
+              "title_es": "La ropa",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u08-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "This, that, these, those",
+              "title_es": "This, that, these, those",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u08-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "In the shop",
+              "title_es": "En la tienda",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u08-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 8",
+              "title_es": "Repaso y checkpoint 8",
+              "status": "ready",
+              "file": "a1/unit-08/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u09",
+          "order": 9,
+          "title_es": "Pasatiempos y habilidades",
+          "title_target": "Hobbies and abilities",
+          "theme": "hobbies",
+          "lessons": [
+            {
+              "id": "en-a1-u09-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Free time",
+              "title_es": "Tiempo libre y pasatiempos",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u09-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "I can, I can't",
+              "title_es": "Habilidades: can / can't",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u09-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Can I...? Can you...?",
+              "title_es": "Pedir y permitir con can",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u09-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "What are you doing?",
+              "title_es": "Presente continuo",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u09-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Would you like to...?",
+              "title_es": "Invitar y aceptar",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u09-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 9",
+              "title_es": "Repaso y checkpoint 9",
+              "status": "ready",
+              "file": "a1/unit-09/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u10",
+          "order": 10,
+          "title_es": "Clima y planes",
+          "title_target": "Weather and plans",
+          "theme": "weather-plans",
+          "lessons": [
+            {
+              "id": "en-a1-u10-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "What's the weather like?",
+              "title_es": "El clima",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u10-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Months and seasons",
+              "title_es": "Meses y estaciones",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u10-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Dates",
+              "title_es": "Fechas y ordinales",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u10-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "My plans",
+              "title_es": "Planes con el presente continuo",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u10-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A weekend away",
+              "title_es": "Integración: un fin de semana fuera",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u10-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Final checkpoint",
+              "title_es": "Checkpoint final de A1",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-06.json"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "id": "en-a1-exam-v1",
+        "file": "a1/exam.json",
+        "pass_score": 0.75,
+        "status": "ready"
+      }
+    },
+    {
+      "id": "en-a2",
+      "cefr": "A2",
+      "status": "planned",
+      "est_guided_hours_cumulative": "180-200",
+      "vocab_target_cumulative": 1500,
+      "unit_count_target": 12,
+      "lesson_count_target": 72,
+      "can_do": {
+        "listening": "Entiendes frases y expresiones frecuentes sobre compras, trabajo y entorno cercano.",
+        "reading": "Entiendes textos cortos y sencillos: menús, horarios, mensajes personales.",
+        "interaction": "Te comunicas en tareas simples y rutinarias que requieren un intercambio directo de información.",
+        "production": "Describes tu rutina, tu entorno y experiencias pasadas con frases enlazadas.",
+        "writing": "Escribes notas y mensajes breves y una carta personal sencilla."
+      },
+      "grammar_syllabus": [
+        "pasado simple",
+        "comparativos y superlativos",
+        "going to / will",
+        "contables e incontables",
+        "have to / must",
+        "intro al present perfect"
+      ],
+      "units": []
+    },
+    {
+      "id": "en-b1",
+      "cefr": "B1",
+      "status": "planned",
+      "est_guided_hours_cumulative": "350-400",
+      "vocab_target_cumulative": 2800,
+      "unit_count_target": 14,
+      "lesson_count_target": 84,
+      "can_do": {
+        "listening": "Entiendes los puntos principales de conversaciones claras sobre temas conocidos.",
+        "reading": "Entiendes textos sobre temas cotidianos o de tu interés.",
+        "interaction": "Te desenvuelves en casi cualquier situación de viaje.",
+        "production": "Cuentas experiencias y planes, y justificas brevemente tus opiniones.",
+        "writing": "Escribes textos sencillos y coherentes sobre temas familiares."
+      },
+      "grammar_syllabus": [
+        "present perfect vs pasado simple",
+        "pasado continuo",
+        "condicionales 1 y 2",
+        "pasiva",
+        "relative clauses",
+        "estilo indirecto"
+      ],
+      "units": []
+    },
+    {
+      "id": "en-b2",
+      "cefr": "B2",
+      "status": "planned",
+      "est_guided_hours_cumulative": "500-600",
+      "vocab_target_cumulative": 4500,
+      "unit_count_target": 14,
+      "lesson_count_target": 84,
+      "can_do": {
+        "listening": "Entiendes discursos largos y conferencias si el tema te resulta familiar.",
+        "reading": "Lees artículos y textos sobre problemas contemporáneos.",
+        "interaction": "Conversas con fluidez y espontaneidad con hablantes nativos.",
+        "production": "Presentas descripciones claras y detalladas, y defiendes un punto de vista.",
+        "writing": "Escribes textos claros y detallados, como redacciones e informes."
+      },
+      "grammar_syllabus": [
+        "condicional 3 y mixtos",
+        "pasiva avanzada",
+        "wish / if only",
+        "modales de deducción",
+        "conectores",
+        "phrasal verbs"
+      ],
+      "units": []
+    },
+    {
+      "id": "en-c1",
+      "cefr": "C1",
+      "status": "planned",
+      "est_guided_hours_cumulative": "700-800",
+      "vocab_target_cumulative": 7000,
+      "unit_count_target": 12,
+      "lesson_count_target": 72,
+      "can_do": {
+        "listening": "Entiendes discursos extensos, incluso poco estructurados.",
+        "reading": "Entiendes textos largos y complejos, y captas matices.",
+        "interaction": "Te expresas con fluidez y espontaneidad sin buscar mucho las palabras.",
+        "production": "Presentas descripciones detalladas sobre temas complejos.",
+        "writing": "Escribes textos bien estructurados, claros y detallados."
+      },
+      "grammar_syllabus": [
+        "inversión",
+        "cleft sentences",
+        "matices de registro",
+        "colocaciones",
+        "subjuntivo"
+      ],
+      "units": []
+    },
+    {
+      "id": "en-c2",
+      "cefr": "C2",
+      "status": "planned",
+      "est_guided_hours_cumulative": "1000-1200",
+      "vocab_target_cumulative": 9000,
+      "unit_count_target": 10,
+      "lesson_count_target": 60,
+      "can_do": {
+        "listening": "Entiendes prácticamente todo lo que oyes, incluso a velocidad nativa.",
+        "reading": "Lees con facilidad prácticamente todo tipo de textos.",
+        "interaction": "Te expresas con precisión y matices finos en situaciones complejas.",
+        "production": "Presentas argumentos de forma clara y fluida, con estructura lógica eficaz.",
+        "writing": "Escribes textos claros, fluidos y con estilo adecuado."
+      },
+      "grammar_syllabus": [
+        "modismos",
+        "estilo y precisión",
+        "ambigüedad",
+        "textos académicos y literarios"
+      ],
+      "units": []
+    }
+  ]
+}

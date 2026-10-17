@@ -1,0 +1,409 @@
+{
+  "id": "en-a1-u04-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Daily activities",
+    "es": "Actividades diarias"
+  },
+  "objective": "Al terminar nombras las actividades de un día normal y dices cuándo las haces.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Piensa en tu día: ¿qué es lo primero que haces al despertar y lo último antes de dormir?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What do you do every day, Lucy?",
+        "es": "¿Qué haces todos los días, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I get up, I have breakfast and I go to work.",
+        "es": "Me levanto, desayuno y voy al trabajo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And in the evening?",
+        "es": "¿Y por la noche?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I have dinner, I watch TV and I go to bed.",
+        "es": "Ceno, miro televisión y me voy a dormir."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-get-up",
+        "lemma": "get up",
+        "pos": "verb",
+        "ipa": "/ˌɡet ˈʌp/",
+        "es": "levantarse",
+        "example": "I get up at seven."
+      },
+      {
+        "id": "en-have-breakfast",
+        "lemma": "have breakfast",
+        "pos": "phrase",
+        "ipa": "/hæv ˈbrekfəst/",
+        "es": "desayunar",
+        "example": "I have breakfast at home."
+      },
+      {
+        "id": "en-have-lunch",
+        "lemma": "have lunch",
+        "pos": "phrase",
+        "ipa": "/hæv ˈlʌntʃ/",
+        "es": "almorzar",
+        "example": "I have lunch at one."
+      },
+      {
+        "id": "en-have-dinner",
+        "lemma": "have dinner",
+        "pos": "phrase",
+        "ipa": "/hæv ˈdɪnə/",
+        "es": "cenar",
+        "example": "I have dinner at eight."
+      },
+      {
+        "id": "en-go-to-work",
+        "lemma": "go to work",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ tə ˈwɜːk/",
+        "es": "ir al trabajo",
+        "example": "I go to work at eight."
+      },
+      {
+        "id": "en-go-to-school",
+        "lemma": "go to school",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ tə ˈskuːl/",
+        "es": "ir a la escuela",
+        "example": "Tom goes to school."
+      },
+      {
+        "id": "en-go-home",
+        "lemma": "go home",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ ˈhəʊm/",
+        "es": "volver a casa",
+        "example": "I go home at six."
+      },
+      {
+        "id": "en-watch-tv",
+        "lemma": "watch TV",
+        "pos": "phrase",
+        "ipa": "/ˌwɒtʃ ˌtiː ˈviː/",
+        "es": "mirar la tele",
+        "example": "I watch TV in the evening."
+      },
+      {
+        "id": "en-go-to-bed",
+        "lemma": "go to bed",
+        "pos": "phrase",
+        "ipa": "/ˌɡəʊ tə ˈbed/",
+        "es": "irse a la cama",
+        "example": "I go to bed at eleven."
+      },
+      {
+        "id": "en-every-day",
+        "lemma": "every day",
+        "pos": "phrase",
+        "ipa": "/ˈevri deɪ/",
+        "es": "todos los días",
+        "example": "I walk every day."
+      },
+      {
+        "id": "en-in-the-morning",
+        "lemma": "in the morning",
+        "pos": "phrase",
+        "ipa": "/ɪn ðə ˈmɔːnɪŋ/",
+        "es": "por la mañana",
+        "example": "I get up in the morning."
+      },
+      {
+        "id": "en-in-the-evening",
+        "lemma": "in the evening",
+        "pos": "phrase",
+        "ipa": "/ɪn ði ˈiːvnɪŋ/",
+        "es": "por la noche (temprano)",
+        "example": "I watch TV in the evening."
+      },
+      {
+        "id": "en-at-night",
+        "lemma": "at night",
+        "pos": "phrase",
+        "ipa": "/æt ˈnaɪt/",
+        "es": "de noche",
+        "example": "I sleep at night."
+      }
+    ],
+    "audio_script_id": "en-a1-u04-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Verbos de rutina** (casi todos con *have* o *go*):\n\n- *have breakfast / lunch / dinner* (no *take breakfast*)\n- *go to work / school / bed* · *go home* (sin *to*)\n- *get up, watch TV*\n\n**Momentos del día:** *in the morning · in the afternoon · in the evening · at night*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I take breakfast.",
+        "right": "I have breakfast.",
+        "note": "Las comidas se usan con 'have'."
+      },
+      {
+        "wrong": "I go to home.",
+        "right": "I go home.",
+        "note": "Con 'home' no se usa 'to'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "get up",
+          "right": "levantarse"
+        },
+        {
+          "left": "have breakfast",
+          "right": "desayunar"
+        },
+        {
+          "left": "go to work",
+          "right": "ir al trabajo"
+        },
+        {
+          "left": "go to bed",
+          "right": "irse a la cama"
+        },
+        {
+          "left": "watch TV",
+          "right": "mirar la tele"
+        },
+        {
+          "left": "have dinner",
+          "right": "cenar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las acciones básicas de la rutina.",
+        "incorrect": "Revisa esto: Son las acciones básicas de la rutina."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'desayunar' en inglés?",
+      "options": [
+        "have breakfast",
+        "take breakfast",
+        "eat breakfast to",
+        "do breakfast"
+      ],
+      "answer": [
+        "have breakfast"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: En inglés se usa 'have': have breakfast."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ breakfast at home.",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: Con las comidas se usa 'have': have breakfast."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to home at six.",
+      "answer": [
+        "I go home at six."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'home' no se usa 'to': go home.",
+        "incorrect": "Revisa esto: Con 'home' no se usa 'to': go home."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "up",
+        "and",
+        "I",
+        "have",
+        "breakfast",
+        ".",
+        "I",
+        "get"
+      ],
+      "answer": [
+        "I",
+        "get",
+        "up",
+        "and",
+        "I",
+        "have",
+        "breakfast",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos acciones unidas con 'and'.",
+        "incorrect": "Revisa esto: Dos acciones unidas con 'and'."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy al trabajo.",
+      "answer": [
+        "I go to work.",
+        "I'm going to work."
+      ],
+      "accepted_alternatives": [
+        "I am going to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ir al trabajo = go to work.",
+        "incorrect": "Revisa esto: Ir al trabajo = go to work."
+      }
+    },
+    {
+      "id": "en-a1-u04-l01-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace la persona después de desayunar?",
+      "options": [
+        "Goes to work",
+        "Watches TV",
+        "Goes to bed",
+        "Has dinner"
+      ],
+      "answer": [
+        "Goes to work"
+      ],
+      "audio_text": "I get up, I have breakfast and I go to work.",
+      "feedback": {
+        "correct": "¡Correcto! Después de 'have breakfast' dice 'I go to work'.",
+        "incorrect": "Revisa esto: Después de 'have breakfast' dice 'I go to work'."
+      },
+      "audio_script_id": "en-a1-u04-l01-ex07-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "get up · have breakfast / lunch / dinner",
+      "go to work / school / bed · go home",
+      "in the morning / afternoon / evening · at night"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-get-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-have-breakfast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-have-lunch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-have-dinner"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-to-work"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-to-school"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-home"
+    },
+    {
+      "type": "vocab",
+      "id": "en-watch-tv"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-to-bed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-every-day"
+    }
+  ]
+}

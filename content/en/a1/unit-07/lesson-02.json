@@ -1,0 +1,344 @@
+{
+  "id": "en-a1-u07-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where is...?",
+    "es": "¿Dónde está...?"
+  },
+  "objective": "Al terminar preguntas dónde está un lugar y respondes con preposiciones y distancias.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Estás en una ciudad nueva y buscas un banco: ¿cómo preguntas dónde está?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tourist",
+        "text": "Excuse me, where's the bank?",
+        "es": "Disculpe, ¿dónde está el banco?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's next to the supermarket.",
+        "es": "Está al lado del supermercado."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Is it far?",
+        "es": "¿Está lejos?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, it's near. It's opposite the park.",
+        "es": "No, está cerca. Está enfrente del parque."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-where-s",
+        "lemma": "where's",
+        "pos": "phrase",
+        "ipa": "/weəz/",
+        "es": "¿dónde está? (where is)",
+        "example": "Where's the bank?"
+      },
+      {
+        "id": "en-far",
+        "lemma": "far",
+        "pos": "adv",
+        "ipa": "/fɑː/",
+        "es": "lejos",
+        "example": "Is it far?"
+      },
+      {
+        "id": "en-opposite",
+        "lemma": "opposite",
+        "pos": "prep",
+        "ipa": "/ˈɒpəzɪt/",
+        "es": "enfrente de",
+        "example": "The bank is opposite the park."
+      },
+      {
+        "id": "en-near-here",
+        "lemma": "near here",
+        "pos": "phrase",
+        "ipa": "/nɪə ˈhɪə/",
+        "es": "cerca de aquí",
+        "example": "Is there a bank near here?"
+      }
+    ],
+    "audio_script_id": "en-a1-u07-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar:** *Where's the bank?* (= *Where is…*) · *Is there a bank near here?*\n\n**Responder:** *It's + preposición + lugar* → *It's next to the supermarket.*\n\nNuevas palabras de lugar: **opposite** (enfrente de), **near** (cerca de), **far from** (lejos de).\n\n**Es lejos / cerca:** *Is it far? — No, it's near.*\n\nNo omitas el sujeto: *It's next to…* (no *Is next to…*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Where the bank is?",
+        "right": "Where is the bank?",
+        "note": "En preguntas el verbo va antes del sujeto."
+      },
+      {
+        "wrong": "Is next to the park.",
+        "right": "It's next to the park.",
+        "note": "En inglés el sujeto no se omite."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ the bank?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un solo lugar: Where is…?",
+        "incorrect": "Revisa esto: Con un solo lugar: Where is…?"
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ the park. (enfrente de)",
+      "options": [
+        "opposite",
+        "behind",
+        "under",
+        "between"
+      ],
+      "answer": [
+        "opposite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enfrente de = opposite.",
+        "incorrect": "Revisa esto: Enfrente de = opposite."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Is it ___? — No, it's near.",
+      "answer": [
+        "far"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lo contrario de near es far.",
+        "incorrect": "Revisa esto: Lo contrario de near es far."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "station",
+        "?",
+        "Where",
+        "is"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + is + lugar.",
+        "incorrect": "Revisa esto: Where + is + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where the bank is?",
+      "answer": [
+        "Where is the bank?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas el verbo va antes del sujeto.",
+        "incorrect": "Revisa esto: En preguntas el verbo va antes del sujeto."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is next to the park.",
+      "answer": [
+        "It's next to the park.",
+        "It is next to the park."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay que decir el sujeto: it.",
+        "incorrect": "Revisa esto: Hay que decir el sujeto: it."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿dónde está el banco?",
+      "options": [
+        "Next to the supermarket",
+        "Behind the park",
+        "In front of the school",
+        "Far from here"
+      ],
+      "answer": [
+        "Next to the supermarket"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'It's next to the supermarket'.",
+        "incorrect": "Revisa esto: Lucy dice 'It's next to the supermarket'."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada expresión con su significado.",
+      "pairs": [
+        {
+          "left": "opposite",
+          "right": "enfrente de"
+        },
+        {
+          "left": "near",
+          "right": "cerca de"
+        },
+        {
+          "left": "far from",
+          "right": "lejos de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las expresiones de ubicación de la lección.",
+        "incorrect": "Revisa esto: Son las expresiones de ubicación de la lección."
+      }
+    },
+    {
+      "id": "en-a1-u07-l02-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el correo?",
+      "options": [
+        "Opposite the station",
+        "Next to the station",
+        "Behind the station",
+        "Far from the station"
+      ],
+      "answer": [
+        "Opposite the station"
+      ],
+      "audio_text": "The post office is opposite the station.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'opposite the station'.",
+        "incorrect": "Revisa esto: Dice 'opposite the station'."
+      },
+      "audio_script_id": "en-a1-u07-l02-ex09-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Where's the bank?",
+      "It's next to / opposite / near …",
+      "Is it far? — No, it's near."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-where-s"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opposite"
+    },
+    {
+      "type": "vocab",
+      "id": "en-near-here"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prepositions-place"
+    }
+  ]
+}

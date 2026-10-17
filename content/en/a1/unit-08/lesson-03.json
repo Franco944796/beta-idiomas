@@ -1,0 +1,445 @@
+{
+  "id": "en-a1-u08-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Clothes",
+    "es": "La ropa"
+  },
+  "objective": "Al terminar nombras prendas de ropa y dices qué llevas puesto con wear.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué ropa llevas hoy? Aprende cómo se dice cada prenda en inglés."
+  },
+  "input": {
+    "type": "text",
+    "text": "Anna usually wears blue jeans, a white T-shirt and black shoes. Tom wears trousers and a grey jacket. He always wears a red hat.",
+    "es": "Anna normalmente lleva jeans azules, una remera blanca y zapatos negros. Tom lleva pantalones y una chaqueta gris. Siempre lleva un sombrero rojo.",
+    "glossary": [
+      {
+        "id": "en-wear",
+        "lemma": "wear",
+        "pos": "verb",
+        "ipa": "/weə/",
+        "es": "llevar puesto",
+        "example": "She wears a white T-shirt."
+      },
+      {
+        "id": "en-shirt",
+        "lemma": "shirt",
+        "pos": "noun",
+        "ipa": "/ʃɜːt/",
+        "es": "camisa",
+        "example": "He wears a blue shirt."
+      },
+      {
+        "id": "en-t-shirt",
+        "lemma": "T-shirt",
+        "pos": "noun",
+        "ipa": "/ˈtiː ʃɜːt/",
+        "es": "remera, camiseta",
+        "example": "She wears a white T-shirt."
+      },
+      {
+        "id": "en-trousers",
+        "lemma": "trousers",
+        "pos": "noun",
+        "ipa": "/ˈtraʊzəz/",
+        "es": "pantalones",
+        "example": "He wears grey trousers."
+      },
+      {
+        "id": "en-jeans",
+        "lemma": "jeans",
+        "pos": "noun",
+        "ipa": "/dʒiːnz/",
+        "es": "jeans, vaqueros",
+        "example": "I wear blue jeans."
+      },
+      {
+        "id": "en-dress",
+        "lemma": "dress",
+        "pos": "noun",
+        "ipa": "/dres/",
+        "es": "vestido",
+        "example": "She wears a red dress."
+      },
+      {
+        "id": "en-skirt",
+        "lemma": "skirt",
+        "pos": "noun",
+        "ipa": "/skɜːt/",
+        "es": "falda, pollera",
+        "example": "She wears a black skirt."
+      },
+      {
+        "id": "en-jacket",
+        "lemma": "jacket",
+        "pos": "noun",
+        "ipa": "/ˈdʒækɪt/",
+        "es": "chaqueta, campera",
+        "example": "He wears a grey jacket."
+      },
+      {
+        "id": "en-coat",
+        "lemma": "coat",
+        "pos": "noun",
+        "ipa": "/kəʊt/",
+        "es": "abrigo",
+        "example": "I wear a coat in winter."
+      },
+      {
+        "id": "en-shoes",
+        "lemma": "shoes",
+        "pos": "noun",
+        "ipa": "/ʃuːz/",
+        "es": "zapatos",
+        "example": "She wears black shoes."
+      },
+      {
+        "id": "en-socks",
+        "lemma": "socks",
+        "pos": "noun",
+        "ipa": "/sɒks/",
+        "es": "medias, calcetines",
+        "example": "I've got white socks."
+      },
+      {
+        "id": "en-hat",
+        "lemma": "hat",
+        "pos": "noun",
+        "ipa": "/hæt/",
+        "es": "sombrero, gorro",
+        "example": "He wears a red hat."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Ropa:** shirt · T-shirt · trousers · jeans · dress · skirt · jacket · coat · shoes · socks · hat\n\n**wear** = llevar puesto: *She wears a dress.* (no *use*)\n\n**Plurales de pares:** *trousers, jeans, shoes, socks* siempre van en plural: *My jeans are blue.* Para uno solo: *a pair of jeans / trousers / shoes*.\n\n**Mayoría de la ropa** va antes del color: *blue jeans, a white T-shirt.*",
+    "common_mistakes_es": [
+      {
+        "wrong": "I use jeans.",
+        "right": "I wear jeans.",
+        "note": "Para ropa se usa wear."
+      },
+      {
+        "wrong": "a trousers",
+        "right": "a pair of trousers",
+        "note": "Trousers, jeans y shoes son plurales."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada prenda con su significado.",
+      "pairs": [
+        {
+          "left": "shirt",
+          "right": "camisa"
+        },
+        {
+          "left": "trousers",
+          "right": "pantalones"
+        },
+        {
+          "left": "dress",
+          "right": "vestido"
+        },
+        {
+          "left": "skirt",
+          "right": "falda"
+        },
+        {
+          "left": "jacket",
+          "right": "chaqueta"
+        },
+        {
+          "left": "coat",
+          "right": "abrigo"
+        },
+        {
+          "left": "shoes",
+          "right": "zapatos"
+        },
+        {
+          "left": "hat",
+          "right": "sombrero"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las prendas más comunes.",
+        "incorrect": "Revisa esto: Son las prendas más comunes."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ a white T-shirt. (wear)",
+      "answer": [
+        "wears"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s: wears.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s: wears."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "My jeans ___ blue.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Jeans es plural: are.",
+        "incorrect": "Revisa esto: Jeans es plural: are."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué prenda llevas en los pies?",
+      "options": [
+        "shoes",
+        "hat",
+        "jacket",
+        "skirt"
+      ],
+      "answer": [
+        "shoes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los shoes se llevan en los pies.",
+        "incorrect": "Revisa esto: Los shoes se llevan en los pies."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I use jeans every day.",
+      "answer": [
+        "I wear jeans every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para ropa se usa wear, no use.",
+        "incorrect": "Revisa esto: Para ropa se usa wear, no use."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got a trousers.",
+      "answer": [
+        "I've got a pair of trousers.",
+        "I have got a pair of trousers."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trousers es plural: a pair of trousers.",
+        "incorrect": "Revisa esto: Trousers es plural: a pair of trousers."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿qué lleva Tom en la cabeza?",
+      "options": [
+        "A hat",
+        "A jacket",
+        "Shoes",
+        "A T-shirt"
+      ],
+      "answer": [
+        "A hat"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'He always wears a red hat'.",
+        "incorrect": "Revisa esto: El texto dice 'He always wears a red hat'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "clothes",
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué color son los jeans?",
+      "options": [
+        "Black",
+        "Red",
+        "Blue",
+        "White"
+      ],
+      "answer": [
+        "Black"
+      ],
+      "audio_text": "I wear a red jacket and black jeans.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'black jeans'.",
+        "incorrect": "Revisa esto: Dice 'black jeans'."
+      },
+      "audio_script_id": "en-a1-u08-l03-ex08-a"
+    },
+    {
+      "id": "en-a1-u08-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "wears",
+        "blue",
+        "jeans",
+        ".",
+        "Anna",
+        "usually"
+      ],
+      "answer": [
+        "Anna",
+        "usually",
+        "wears",
+        "blue",
+        "jeans",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + adverbio + wears + ropa.",
+        "incorrect": "Revisa esto: Sujeto + adverbio + wears + ropa."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ella lleva una falda negra.",
+      "answer": [
+        "She wears a black skirt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Llevar puesto = wear.",
+        "incorrect": "Revisa esto: Llevar puesto = wear."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "shirt · trousers · jeans · dress · jacket · shoes",
+      "She wears …",
+      "a pair of trousers"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-wear"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shirt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-t-shirt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trousers"
+    },
+    {
+      "type": "vocab",
+      "id": "en-jeans"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dress"
+    },
+    {
+      "type": "vocab",
+      "id": "en-skirt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-jacket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shoes"
+    }
+  ]
+}

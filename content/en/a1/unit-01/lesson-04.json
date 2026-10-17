@@ -1,0 +1,410 @@
+{
+  "id": "en-a1-u01-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "How are you?",
+    "es": "¿Cómo estás? Saludos del día"
+  },
+  "objective": "Al terminar puedes saludar según la hora del día, preguntar cómo está alguien y responder.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué dices en español por la mañana, por la tarde y por la noche? En inglés también cambia."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mr Brown",
+        "text": "Good morning, Emma. How are you?",
+        "es": "Buenos días, Emma. ¿Cómo estás?"
+      },
+      {
+        "speaker": "Emma",
+        "text": "I'm fine, thanks. And you?",
+        "es": "Bien, gracias. ¿Y usted?"
+      },
+      {
+        "speaker": "Mr Brown",
+        "text": "Not bad, thank you.",
+        "es": "No está mal, gracias."
+      },
+      {
+        "speaker": "Emma",
+        "text": "See you tomorrow!",
+        "es": "¡Hasta mañana!"
+      },
+      {
+        "speaker": "Mr Brown",
+        "text": "Goodbye, Emma!",
+        "es": "¡Adiós, Emma!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-good-morning",
+        "lemma": "good morning",
+        "pos": "phrase",
+        "ipa": "/ɡʊd ˈmɔːnɪŋ/",
+        "es": "buenos días",
+        "example": "Good morning, Mr Brown."
+      },
+      {
+        "id": "en-good-afternoon",
+        "lemma": "good afternoon",
+        "pos": "phrase",
+        "ipa": "/ɡʊd ˌɑːftəˈnuːn/",
+        "es": "buenas tardes",
+        "example": "Good afternoon, Emma."
+      },
+      {
+        "id": "en-good-evening",
+        "lemma": "good evening",
+        "pos": "phrase",
+        "ipa": "/ɡʊd ˈiːvnɪŋ/",
+        "es": "buenas tardes/noches (al llegar)",
+        "example": "Good evening, everyone."
+      },
+      {
+        "id": "en-good-night",
+        "lemma": "good night",
+        "pos": "phrase",
+        "ipa": "/ɡʊd ˈnaɪt/",
+        "es": "buenas noches (al despedirse)",
+        "example": "Good night, Tom."
+      },
+      {
+        "id": "en-how-are-you",
+        "lemma": "how are you?",
+        "pos": "phrase",
+        "ipa": "/ˌhaʊ ə ˈjuː/",
+        "es": "¿cómo estás?",
+        "example": "Hello! How are you?"
+      },
+      {
+        "id": "en-fine",
+        "lemma": "fine",
+        "pos": "adj",
+        "ipa": "/faɪn/",
+        "es": "bien",
+        "example": "I'm fine, thanks."
+      },
+      {
+        "id": "en-great",
+        "lemma": "great",
+        "pos": "adj",
+        "ipa": "/ɡreɪt/",
+        "es": "genial",
+        "example": "I'm great, thanks!"
+      },
+      {
+        "id": "en-not-bad",
+        "lemma": "not bad",
+        "pos": "phrase",
+        "ipa": "/ˌnɒt ˈbæd/",
+        "es": "no está mal",
+        "example": "Not bad, thanks."
+      },
+      {
+        "id": "en-thanks",
+        "lemma": "thanks",
+        "pos": "interj",
+        "ipa": "/θæŋks/",
+        "es": "gracias (informal)",
+        "example": "Thanks!"
+      },
+      {
+        "id": "en-see-you-tomorrow",
+        "lemma": "see you tomorrow",
+        "pos": "phrase",
+        "ipa": "/ˌsiː ju təˈmɒrəʊ/",
+        "es": "hasta mañana",
+        "example": "Bye! See you tomorrow."
+      }
+    ],
+    "audio_script_id": "en-a1-u01-l04-d01"
+  },
+  "explanation": {
+    "md_es": "| Momento | Saludo |\n|---|---|\n| Mañana (hasta el mediodía) | Good morning |\n| Tarde (mediodía – ~18 h) | Good afternoon |\n| Tarde-noche, al llegar | Good evening |\n| Al despedirse o ir a dormir | Good night |\n\n**How are you?** es un saludo. Responde: *I'm fine, thanks. And you?* (también *great* o *not bad*).\n\nEs cortés devolver la pregunta con **And you?**",
+    "common_mistakes_es": [
+      {
+        "wrong": "Good night! (al llegar a las 9 pm)",
+        "right": "Good evening!",
+        "note": "'Good night' solo se usa para despedirse o antes de dormir."
+      },
+      {
+        "wrong": "I'm fine, thanks. (sin devolver la pregunta)",
+        "right": "I'm fine, thanks. And you?",
+        "note": "Es cortés devolver la pregunta."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 9 de la mañana. ¿Qué dices al saludar?",
+      "options": [
+        "Good morning!",
+        "Good evening!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good morning!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la mañana se dice 'Good morning'.",
+        "incorrect": "Revisa esto: Por la mañana se dice 'Good morning'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Llegas a una fiesta a las 8 de la noche. ¿Qué dices?",
+      "options": [
+        "Good evening!",
+        "Good night!",
+        "Good morning!",
+        "See you tomorrow!"
+      ],
+      "answer": [
+        "Good evening!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Al llegar por la noche se dice 'Good evening'. 'Good night' es para despedirse.",
+        "incorrect": "Revisa esto: Al llegar por la noche se dice 'Good evening'. 'Good night' es para despedirse."
+      }
+    },
+    {
+      "id": "en-a1-u01-l04-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Good ___, Mr Brown! (son las 09:00)",
+      "answer": [
+        "morning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A las 9 de la mañana: Good morning.",
+        "incorrect": "Revisa esto: A las 9 de la mañana: Good morning."
+      }
+    },
+    {
+      "id": "en-a1-u01-l04-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        ",",
+        "thanks",
+        ".",
+        "And",
+        "you",
+        "?",
+        "I'm",
+        "fine"
+      ],
+      "answer": [
+        "I'm",
+        "fine",
+        ",",
+        "thanks",
+        ".",
+        "And",
+        "you",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta completa y cortés a 'How are you?'.",
+        "incorrect": "Revisa esto: Respuesta completa y cortés a 'How are you?'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l04-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su respuesta.",
+      "pairs": [
+        {
+          "left": "How are you?",
+          "right": "I'm fine, thanks."
+        },
+        {
+          "left": "Thank you.",
+          "right": "You're welcome."
+        },
+        {
+          "left": "See you tomorrow!",
+          "right": "Bye!"
+        },
+        {
+          "left": "Nice to meet you.",
+          "right": "Nice to meet you, too."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son pares pregunta-respuesta muy frecuentes.",
+        "incorrect": "Revisa esto: Son pares pregunta-respuesta muy frecuentes."
+      }
+    },
+    {
+      "id": "en-a1-u01-l04-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo está Emma?",
+      "options": [
+        "Great",
+        "Fine",
+        "Not bad",
+        "Bad"
+      ],
+      "answer": [
+        "Great"
+      ],
+      "audio_text": "Good evening, Emma. How are you? I'm great, thanks. And you? Not bad, thank you.",
+      "feedback": {
+        "correct": "¡Correcto! Emma dice 'I'm great'.",
+        "incorrect": "Revisa esto: Emma dice 'I'm great'."
+      },
+      "audio_script_id": "en-a1-u01-l04-ex06-a"
+    },
+    {
+      "id": "en-a1-u01-l04-ex07",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Encuentras a tu profesora a las 8 de la mañana.",
+      "turns": [
+        {
+          "speaker": "Teacher",
+          "text": "Good morning!"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Good morning! How are you?",
+            "Good night!",
+            "Goodbye!"
+          ],
+          "best": 0,
+          "why_es": "Por la mañana: Good morning, y puedes preguntar How are you?"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "I'm fine, thanks. And you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm great, thanks!",
+            "I'm Anna.",
+            "Nice to meet you."
+          ],
+          "best": 0,
+          "why_es": "Respondes a 'And you?' diciendo cómo estás."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Good morning / afternoon / evening",
+      "Good night (al despedirse)",
+      "How are you? — I'm fine, thanks. And you?",
+      "See you tomorrow!"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-good-morning"
+    },
+    {
+      "type": "vocab",
+      "id": "en-good-afternoon"
+    },
+    {
+      "type": "vocab",
+      "id": "en-good-evening"
+    },
+    {
+      "type": "vocab",
+      "id": "en-good-night"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-are-you"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fine"
+    },
+    {
+      "type": "vocab",
+      "id": "en-great"
+    },
+    {
+      "type": "vocab",
+      "id": "en-not-bad"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thanks"
+    },
+    {
+      "type": "vocab",
+      "id": "en-see-you-tomorrow"
+    }
+  ]
+}

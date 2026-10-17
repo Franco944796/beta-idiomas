@@ -1,0 +1,385 @@
+{
+  "id": "en-a1-u04-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What time is it?",
+    "es": "¿Qué hora es?"
+  },
+  "objective": "Al terminar preguntas y dices la hora, y dices a qué hora son las cosas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo preguntas la hora en español? Ahora vamos a ver cómo se hace en inglés."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Excuse me, what time is it?",
+        "es": "Disculpa, ¿qué hora es?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's half past eight.",
+        "es": "Son las ocho y media."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Thanks. What time is the class?",
+        "es": "Gracias. ¿A qué hora es la clase?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's at nine o'clock.",
+        "es": "Es a las nueve en punto."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-excuse-me",
+        "lemma": "excuse me",
+        "pos": "phrase",
+        "ipa": "/ɪkˈskjuːz miː/",
+        "es": "disculpa, perdón (para llamar la atención)",
+        "example": "Excuse me, what time is it?"
+      },
+      {
+        "id": "en-what-time-is-it",
+        "lemma": "what time is it?",
+        "pos": "phrase",
+        "ipa": "/ˌwɒt ˈtaɪm ɪz ɪt/",
+        "es": "¿qué hora es?",
+        "example": "What time is it?"
+      },
+      {
+        "id": "en-o-clock",
+        "lemma": "o'clock",
+        "pos": "adv",
+        "ipa": "/əˈklɒk/",
+        "es": "en punto",
+        "example": "It's nine o'clock."
+      },
+      {
+        "id": "en-half-past",
+        "lemma": "half past",
+        "pos": "phrase",
+        "ipa": "/ˌhɑːf ˈpɑːst/",
+        "es": "y media",
+        "example": "It's half past eight."
+      },
+      {
+        "id": "en-quarter-past",
+        "lemma": "quarter past",
+        "pos": "phrase",
+        "ipa": "/ˌkwɔːtə ˈpɑːst/",
+        "es": "y cuarto",
+        "example": "It's quarter past seven."
+      },
+      {
+        "id": "en-quarter-to",
+        "lemma": "quarter to",
+        "pos": "phrase",
+        "ipa": "/ˌkwɔːtə ˈtuː/",
+        "es": "menos cuarto",
+        "example": "It's quarter to nine."
+      },
+      {
+        "id": "en-past",
+        "lemma": "past",
+        "pos": "prep",
+        "ipa": "/pɑːst/",
+        "es": "y (pasadas las…)",
+        "example": "It's ten past two."
+      },
+      {
+        "id": "en-to",
+        "lemma": "to",
+        "pos": "prep",
+        "ipa": "/tuː/",
+        "es": "menos (faltan para…)",
+        "example": "It's ten to two."
+      },
+      {
+        "id": "en-at",
+        "lemma": "at",
+        "pos": "prep",
+        "ipa": "/æt/",
+        "es": "a (la hora)",
+        "example": "The class is at nine."
+      }
+    ],
+    "audio_script_id": "en-a1-u04-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar:** *What time is it?* (¿qué hora es?) · *What time is the class?* (¿a qué hora es la clase?)\n\n**Responder:** *It's + hora.*\n\n| Hora | Se dice |\n|---|---|\n| 8:00 | It's eight o'clock. |\n| 8:10 | It's ten past eight. |\n| 8:15 | It's quarter past eight. |\n| 8:20 | It's twenty past eight. |\n| 8:30 | It's half past eight. |\n| 8:40 | It's twenty to nine. |\n| 8:45 | It's quarter to nine. |\n\n- Hasta y media se usa **past**; después de y media, **to** (la hora siguiente).\n- También se puede decir como en un reloj digital: *eight forty*.\n- Para eventos: **at** + hora → *at nine o'clock*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It's the eight.",
+        "right": "It's eight o'clock.",
+        "note": "En español 'son las ocho'; en inglés no hay artículo."
+      },
+      {
+        "wrong": "It are eight o'clock.",
+        "right": "It's eight o'clock.",
+        "note": "Siempre 'it is', aunque sean varias horas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l02-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada hora con cómo se dice.",
+      "pairs": [
+        {
+          "left": "8:30",
+          "right": "half past eight"
+        },
+        {
+          "left": "9:00",
+          "right": "nine o'clock"
+        },
+        {
+          "left": "7:15",
+          "right": "quarter past seven"
+        },
+        {
+          "left": "6:45",
+          "right": "quarter to seven"
+        },
+        {
+          "left": "2:10",
+          "right": "ten past two"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Revisa la tabla de horas.",
+        "incorrect": "Revisa esto: Revisa la tabla de horas."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3:30. ¿Qué dices?",
+      "options": [
+        "It's half past three.",
+        "It's half to three.",
+        "It's three and half.",
+        "It's three o'clock."
+      ],
+      "answer": [
+        "It's half past three."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Y media = half past.",
+        "incorrect": "Revisa esto: Y media = half past."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's quarter ___ five. (4:45)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de y media se usa 'to': quarter to five.",
+        "incorrect": "Revisa esto: Después de y media se usa 'to': quarter to five."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 25,
+      "prompt": "The class is ___ nine o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la hora de un evento: at.",
+        "incorrect": "Revisa esto: Para la hora de un evento: at."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hora es?",
+      "options": [
+        "7:15",
+        "7:45",
+        "7:30",
+        "6:15"
+      ],
+      "answer": [
+        "7:15"
+      ],
+      "audio_text": "It's quarter past seven.",
+      "feedback": {
+        "correct": "¡Correcto! Quarter past seven = 7:15.",
+        "incorrect": "Revisa esto: Quarter past seven = 7:15."
+      },
+      "audio_script_id": "en-a1-u04-l02-ex05-a"
+    },
+    {
+      "id": "en-a1-u04-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It are eight o'clock.",
+      "answer": [
+        "It's eight o'clock.",
+        "It is eight o'clock."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la hora siempre se usa 'it is' (it's).",
+        "incorrect": "Revisa esto: Para la hora siempre se usa 'it is' (it's)."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "it",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta básica de la hora.",
+        "incorrect": "Revisa esto: Pregunta básica de la hora."
+      }
+    },
+    {
+      "id": "en-a1-u04-l02-ex08",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "It's half past ten.",
+      "answer": [
+        "It's half past ten.",
+        "It is half past ten.",
+        "It's ten thirty."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Half past ten = 10:30.",
+        "incorrect": "Revisa esto: Half past ten = 10:30."
+      },
+      "audio_script_id": "en-a1-u04-l02-ex08-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What time is it? — It's …",
+      "o'clock · quarter past / to · half past",
+      "at + hora para eventos"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-excuse-me"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-time-is-it"
+    },
+    {
+      "type": "vocab",
+      "id": "en-o-clock"
+    },
+    {
+      "type": "vocab",
+      "id": "en-half-past"
+    },
+    {
+      "type": "vocab",
+      "id": "en-quarter-past"
+    },
+    {
+      "type": "vocab",
+      "id": "en-quarter-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-past"
+    },
+    {
+      "type": "vocab",
+      "id": "en-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-at"
+    },
+    {
+      "type": "grammar",
+      "id": "en-telling-time"
+    }
+  ]
+}

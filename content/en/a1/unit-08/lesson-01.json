@@ -1,0 +1,471 @@
+{
+  "id": "en-a1-u08-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Numbers 21-1000",
+    "es": "Números del 21 al 1000"
+  },
+  "objective": "Al terminar cuentas del 21 al 1000 y preguntas cuántos hay con how many.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Ya cuentas hasta veinte. ¿Cómo dirías treinta y cinco, noventa o ciento cincuenta?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "How many people are in the class?",
+        "es": "¿Cuántas personas hay en la clase?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "There are thirty-five.",
+        "es": "Hay treinta y cinco."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And how many people are in the school?",
+        "es": "¿Y cuántas personas hay en la escuela?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "About two hundred and fifty.",
+        "es": "Unas doscientas cincuenta."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-forty",
+        "lemma": "forty",
+        "pos": "num",
+        "ipa": "/ˈfɔːti/",
+        "es": "cuarenta",
+        "example": "I'm forty."
+      },
+      {
+        "id": "en-fifty",
+        "lemma": "fifty",
+        "pos": "num",
+        "ipa": "/ˈfɪfti/",
+        "es": "cincuenta",
+        "example": "There are fifty people."
+      },
+      {
+        "id": "en-sixty",
+        "lemma": "sixty",
+        "pos": "num",
+        "ipa": "/ˈsɪksti/",
+        "es": "sesenta",
+        "example": "It's sixty pounds."
+      },
+      {
+        "id": "en-seventy",
+        "lemma": "seventy",
+        "pos": "num",
+        "ipa": "/ˈsevnti/",
+        "es": "setenta",
+        "example": "My grandmother is seventy."
+      },
+      {
+        "id": "en-eighty",
+        "lemma": "eighty",
+        "pos": "num",
+        "ipa": "/ˈeɪti/",
+        "es": "ochenta",
+        "example": "It's eighty pounds."
+      },
+      {
+        "id": "en-ninety",
+        "lemma": "ninety",
+        "pos": "num",
+        "ipa": "/ˈnaɪnti/",
+        "es": "noventa",
+        "example": "There are ninety people."
+      },
+      {
+        "id": "en-hundred",
+        "lemma": "hundred",
+        "pos": "num",
+        "ipa": "/ˈhʌndrəd/",
+        "es": "cien",
+        "example": "It's one hundred pounds."
+      },
+      {
+        "id": "en-thousand",
+        "lemma": "thousand",
+        "pos": "num",
+        "ipa": "/ˈθaʊznd/",
+        "es": "mil",
+        "example": "It's one thousand pounds."
+      },
+      {
+        "id": "en-how-many",
+        "lemma": "how many",
+        "pos": "phrase",
+        "ipa": "/haʊ ˈmeni/",
+        "es": "cuántos/as",
+        "example": "How many people are in the class?"
+      },
+      {
+        "id": "en-about",
+        "lemma": "about",
+        "pos": "adv",
+        "ipa": "/əˈbaʊt/",
+        "es": "aproximadamente",
+        "example": "About two hundred."
+      }
+    ],
+    "audio_script_id": "en-a1-u08-l01-d01"
+  },
+  "explanation": {
+    "md_es": "| 20 twenty | 30 thirty | 40 forty | 50 fifty |\n|---|---|---|---|\n| 60 sixty | 70 seventy | 80 eighty | 90 ninety |\n\n**Compuestos:** decena + unidad con guion → *twenty-one, thirty-five, ninety-nine*.\n\n**100 = a / one hundred · 1,000 = a / one thousand.** En inglés británico se añade *and* tras *hundred*: *one hundred and fifty* (150).\n\n**Sin plural:** *two hundred* (no *two hundreds*).\n\n**Cuidado con el acento:** thir**TEEN** (13) / **THIR**ty (30), fif**TEEN** (15) / **FIF**ty (50).\n\n**Pregunta:** *How many people are in the class?*",
+    "common_mistakes_es": [
+      {
+        "wrong": "two hundreds",
+        "right": "two hundred",
+        "note": "Hundred no lleva -s después de un número."
+      },
+      {
+        "wrong": "thirteen = thirty",
+        "right": "thir-TEEN (13) vs THIR-ty (30)",
+        "note": "Se distinguen por el acento y por la terminación."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fíjate en la diferencia entre -teen y -ty.",
+        "incorrect": "Revisa esto: Fíjate en la diferencia entre -teen y -ty."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'eighty'?",
+      "options": [
+        "80",
+        "18",
+        "8",
+        "88"
+      ],
+      "answer": [
+        "80"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eighty = 80; eighteen = 18.",
+        "incorrect": "Revisa esto: Eighty = 80; eighteen = 18."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "twenty-one, twenty-two, ___",
+      "answer": [
+        "twenty-three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de twenty-two viene twenty-three.",
+        "incorrect": "Revisa esto: Después de twenty-two viene twenty-three."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There are two hundreds people.",
+      "answer": [
+        "There are two hundred people."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hundred no lleva -s después de un número.",
+        "incorrect": "Revisa esto: Hundred no lleva -s después de un número."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas personas hay?",
+      "options": [
+        "19",
+        "90",
+        "99",
+        "9"
+      ],
+      "answer": [
+        "90"
+      ],
+      "audio_text": "There are ninety people in the room.",
+      "feedback": {
+        "correct": "¡Correcto! 'ninety' = 90; 'nineteen' = 19.",
+        "incorrect": "Revisa esto: 'ninety' = 90; 'nineteen' = 19."
+      },
+      "audio_script_id": "en-a1-u08-l01-ex05-a"
+    },
+    {
+      "id": "en-a1-u08-l01-ex06",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "one hundred and fifty",
+      "answer": [
+        "one hundred and fifty",
+        "150",
+        "one hundred fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 150 = one hundred and fifty.",
+        "incorrect": "Revisa esto: 150 = one hundred and fifty."
+      },
+      "audio_script_id": "en-a1-u08-l01-ex06-a"
+    },
+    {
+      "id": "en-a1-u08-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?",
+        "How",
+        "many"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many + sustantivo plural + are + lugar.",
+        "incorrect": "Revisa esto: How many + sustantivo plural + are + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cuántas personas hay en la clase?",
+      "options": [
+        "35",
+        "15",
+        "50",
+        "250"
+      ],
+      "answer": [
+        "35"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'thirty-five'.",
+        "incorrect": "Revisa esto: Lucy dice 'thirty-five'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Hay treinta y cinco personas.",
+      "answer": [
+        "There are thirty-five people.",
+        "There are 35 people."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Thirty-five se escribe con guion.",
+        "incorrect": "Revisa esto: Thirty-five se escribe con guion."
+      }
+    },
+    {
+      "id": "en-a1-u08-l01-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "thirteen",
+          "ipa": "/ˌθɜːˈtiːn/",
+          "tip_es": "El acento va al final: thir-TEEN."
+        },
+        {
+          "text": "thirty",
+          "ipa": "/ˈθɜːti/",
+          "tip_es": "El acento va al inicio: THIR-ty."
+        },
+        {
+          "text": "fifteen",
+          "ipa": "/ˌfɪfˈtiːn/",
+          "tip_es": "Acento final."
+        },
+        {
+          "text": "fifty",
+          "ipa": "/ˈfɪfti/",
+          "tip_es": "Acento inicial."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "twenty-one … ninety-nine",
+      "one hundred and fifty · one thousand",
+      "How many people …?",
+      "-teen (final) vs -ty (inicio)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-forty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fifty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sixty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-seventy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-eighty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ninety"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hundred"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thousand"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-many"
+    },
+    {
+      "type": "vocab",
+      "id": "en-about"
+    },
+    {
+      "type": "grammar",
+      "id": "en-numbers-21-1000"
+    }
+  ]
+}

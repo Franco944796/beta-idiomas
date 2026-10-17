@@ -1,0 +1,397 @@
+{
+  "id": "en-a1-u08-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "This, that, these, those",
+    "es": "This, that, these, those"
+  },
+  "objective": "Al terminar señalas cosas cercanas y lejanas con this, that, these y those.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español 'este', 'ese' y 'aquel' marcan la distancia. ¿Cómo lo hace el inglés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lucy",
+        "text": "Look at this jacket. It's nice!",
+        "es": "Mira esta chaqueta. ¡Es linda!"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes. And what about those shoes over there?",
+        "es": "Sí. ¿Y qué tal esos zapatos de allá?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "These shoes are black. Those shoes are brown.",
+        "es": "Estos zapatos son negros. Esos zapatos son marrones."
+      },
+      {
+        "speaker": "Sam",
+        "text": "I like these.",
+        "es": "Me gustan estos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-this",
+        "lemma": "this",
+        "pos": "pron",
+        "ipa": "/ðɪs/",
+        "es": "este, esta (cerca, singular)",
+        "example": "This jacket is nice."
+      },
+      {
+        "id": "en-these",
+        "lemma": "these",
+        "pos": "pron",
+        "ipa": "/ðiːz/",
+        "es": "estos, estas (cerca, plural)",
+        "example": "These shoes are black."
+      },
+      {
+        "id": "en-those",
+        "lemma": "those",
+        "pos": "pron",
+        "ipa": "/ðəʊz/",
+        "es": "esos, aquellos (lejos, plural)",
+        "example": "Those shoes are brown."
+      },
+      {
+        "id": "en-over-there",
+        "lemma": "over there",
+        "pos": "phrase",
+        "ipa": "/ˌəʊvə ˈðeə/",
+        "es": "allá",
+        "example": "The hat is over there."
+      },
+      {
+        "id": "en-look-at",
+        "lemma": "look at",
+        "pos": "phrase",
+        "ipa": "/ˈlʊk æt/",
+        "es": "mirar",
+        "example": "Look at this jacket."
+      },
+      {
+        "id": "en-what-about",
+        "lemma": "what about...?",
+        "pos": "phrase",
+        "ipa": "/wɒt əˈbaʊt/",
+        "es": "¿qué tal...?",
+        "example": "What about those shoes?"
+      }
+    ],
+    "audio_script_id": "en-a1-u08-l04-d01"
+  },
+  "explanation": {
+    "md_es": "| | Singular | Plural |\n|---|---|---|\n| **Cerca** | this (este/a) | these (estos/as) |\n| **Lejos** | that (ese/a) | those (esos/as) |\n\n**Con sustantivo:** *this jacket, these shoes, that hat, those socks.*\n**Solos:** *This is my bag. These are my keys.*\n\n**Concordancia:** this/that + singular · these/those + plural: *these shoes* (no *this shoes*).\n\nPronunciación: *this* /ðɪs/ (i corta) vs *these* /ðiːz/ (i larga).",
+    "common_mistakes_es": [
+      {
+        "wrong": "this shoes",
+        "right": "these shoes",
+        "note": "Con plural se usa these."
+      },
+      {
+        "wrong": "those is my hat",
+        "right": "that is my hat",
+        "note": "Singular lejano: that."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ shoes are black. (cerca, plural)",
+      "options": [
+        "These",
+        "This",
+        "That",
+        "Those"
+      ],
+      "answer": [
+        "These"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cerca y plural: these.",
+        "incorrect": "Revisa esto: Cerca y plural: these."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ jacket is nice. (lejos, singular)",
+      "answer": [
+        "That"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lejos y singular: that.",
+        "incorrect": "Revisa esto: Lejos y singular: that."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ are my keys. (cerca, plural)",
+      "answer": [
+        "These"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cerca y plural: these.",
+        "incorrect": "Revisa esto: Cerca y plural: these."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su uso.",
+      "pairs": [
+        {
+          "left": "this",
+          "right": "cerca, singular"
+        },
+        {
+          "left": "these",
+          "right": "cerca, plural"
+        },
+        {
+          "left": "that",
+          "right": "lejos, singular"
+        },
+        {
+          "left": "those",
+          "right": "lejos, plural"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La distancia y el número definen la palabra.",
+        "incorrect": "Revisa esto: La distancia y el número definen la palabra."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This shoes are black.",
+      "answer": [
+        "These shoes are black."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: these.",
+        "incorrect": "Revisa esto: Shoes es plural: these."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "That are my keys.",
+      "answer": [
+        "Those are my keys."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural lejano: those.",
+        "incorrect": "Revisa esto: Plural lejano: those."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO le gusta a la persona?",
+      "options": [
+        "Those shoes",
+        "This jacket",
+        "These shoes",
+        "That hat"
+      ],
+      "answer": [
+        "Those shoes"
+      ],
+      "audio_text": "I like this jacket, but I don't like those shoes.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I don't like those shoes'.",
+        "incorrect": "Revisa esto: Dice 'I don't like those shoes'."
+      },
+      "audio_script_id": "en-a1-u08-l04-ex07-a"
+    },
+    {
+      "id": "en-a1-u08-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué dice Lucy que es lindo?",
+      "options": [
+        "The jacket",
+        "The shoes",
+        "The hat",
+        "The bag"
+      ],
+      "answer": [
+        "The jacket"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'Look at this jacket. It's nice!'",
+        "incorrect": "Revisa esto: Lucy dice 'Look at this jacket. It's nice!'"
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estos zapatos son negros.",
+      "answer": [
+        "These shoes are black."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cerca y plural: these.",
+        "incorrect": "Revisa esto: Cerca y plural: these."
+      }
+    },
+    {
+      "id": "en-a1-u08-l04-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "this-that",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "this",
+          "ipa": "/ðɪs/",
+          "tip_es": "Vocal corta, como 'dis'."
+        },
+        {
+          "text": "these",
+          "ipa": "/ðiːz/",
+          "tip_es": "Vocal larga: 'diis'."
+        },
+        {
+          "text": "that",
+          "ipa": "/ðæt/",
+          "tip_es": "Suena 'dat' con th suave."
+        },
+        {
+          "text": "those",
+          "ipa": "/ðəʊz/",
+          "tip_es": "Suena 'dous'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "this / these (cerca)",
+      "that / those (lejos)",
+      "this jacket · these shoes",
+      "What about those shoes?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-this"
+    },
+    {
+      "type": "vocab",
+      "id": "en-these"
+    },
+    {
+      "type": "vocab",
+      "id": "en-those"
+    },
+    {
+      "type": "vocab",
+      "id": "en-over-there"
+    },
+    {
+      "type": "vocab",
+      "id": "en-look-at"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-about"
+    },
+    {
+      "type": "grammar",
+      "id": "en-this-that-these-those"
+    }
+  ]
+}

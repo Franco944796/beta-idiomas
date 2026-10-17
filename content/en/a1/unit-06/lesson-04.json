@@ -1,0 +1,427 @@
+{
+  "id": "en-a1-u06-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Colours and adjectives",
+    "es": "Colores y adjetivos"
+  },
+  "objective": "Al terminar nombras colores y describes objetos con adjetivos en el orden correcto.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿De qué color es tu cuarto? Aprende los colores y dónde ubicarlos en la frase."
+  },
+  "input": {
+    "type": "text",
+    "text": "My flat is small but nice. The sofa is blue. The table is brown. The kitchen is small and white. My bedroom is green and yellow. The lamp is red.",
+    "es": "Mi piso es pequeño pero lindo. El sofá es azul. La mesa es marrón. La cocina es pequeña y blanca. Mi dormitorio es verde y amarillo. La lámpara es roja.",
+    "glossary": [
+      {
+        "id": "en-red",
+        "lemma": "red",
+        "pos": "adj",
+        "ipa": "/red/",
+        "es": "rojo/a",
+        "example": "The lamp is red."
+      },
+      {
+        "id": "en-blue",
+        "lemma": "blue",
+        "pos": "adj",
+        "ipa": "/bluː/",
+        "es": "azul",
+        "example": "The sofa is blue."
+      },
+      {
+        "id": "en-green",
+        "lemma": "green",
+        "pos": "adj",
+        "ipa": "/ɡriːn/",
+        "es": "verde",
+        "example": "My bedroom is green."
+      },
+      {
+        "id": "en-yellow",
+        "lemma": "yellow",
+        "pos": "adj",
+        "ipa": "/ˈjeləʊ/",
+        "es": "amarillo/a",
+        "example": "The door is yellow."
+      },
+      {
+        "id": "en-black",
+        "lemma": "black",
+        "pos": "adj",
+        "ipa": "/blæk/",
+        "es": "negro/a",
+        "example": "I've got a black bag."
+      },
+      {
+        "id": "en-white",
+        "lemma": "white",
+        "pos": "adj",
+        "ipa": "/waɪt/",
+        "es": "blanco/a",
+        "example": "The kitchen is white."
+      },
+      {
+        "id": "en-brown",
+        "lemma": "brown",
+        "pos": "adj",
+        "ipa": "/braʊn/",
+        "es": "marrón, café",
+        "example": "The table is brown."
+      },
+      {
+        "id": "en-grey",
+        "lemma": "grey",
+        "pos": "adj",
+        "ipa": "/ɡreɪ/",
+        "es": "gris",
+        "example": "The sofa is grey."
+      },
+      {
+        "id": "en-pink",
+        "lemma": "pink",
+        "pos": "adj",
+        "ipa": "/pɪŋk/",
+        "es": "rosa",
+        "example": "She's got a pink bag."
+      },
+      {
+        "id": "en-nice",
+        "lemma": "nice",
+        "pos": "adj",
+        "ipa": "/naɪs/",
+        "es": "lindo/a, agradable",
+        "example": "My flat is nice."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Colores:** red · blue · green · yellow · black · white · brown · grey · pink · orange\n\n**El adjetivo va antes del sustantivo** y no cambia: *a red lamp, two red lamps* (no *a lamp red*, no *reds lamps*).\n\nCon *to be* va después: *The lamp is red.*\n\n*grey* (británico) = *gray* (americano) · *colour* (británico) = *color* (americano).",
+    "common_mistakes_es": [
+      {
+        "wrong": "a lamp red",
+        "right": "a red lamp",
+        "note": "El adjetivo va antes del sustantivo."
+      },
+      {
+        "wrong": "reds lamps",
+        "right": "red lamps",
+        "note": "Los adjetivos no cambian en plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l04-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada color con su significado.",
+      "pairs": [
+        {
+          "left": "red",
+          "right": "rojo"
+        },
+        {
+          "left": "blue",
+          "right": "azul"
+        },
+        {
+          "left": "green",
+          "right": "verde"
+        },
+        {
+          "left": "yellow",
+          "right": "amarillo"
+        },
+        {
+          "left": "black",
+          "right": "negro"
+        },
+        {
+          "left": "white",
+          "right": "blanco"
+        },
+        {
+          "left": "brown",
+          "right": "marrón"
+        },
+        {
+          "left": "grey",
+          "right": "gris"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los colores básicos.",
+        "incorrect": "Revisa esto: Son los colores básicos."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 25,
+      "prompt": "The sofa is ___. (azul)",
+      "answer": [
+        "blue"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Azul = blue.",
+        "incorrect": "Revisa esto: Azul = blue."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got a table brown.",
+      "answer": [
+        "I've got a brown table.",
+        "I have got a brown table."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo va antes del sustantivo.",
+        "incorrect": "Revisa esto: El adjetivo va antes del sustantivo."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are two reds chairs.",
+      "answer": [
+        "They are two red chairs."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los adjetivos no llevan -s.",
+        "incorrect": "Revisa esto: Los adjetivos no llevan -s."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "green",
+        "and",
+        "white",
+        ".",
+        "My",
+        "bedroom"
+      ],
+      "answer": [
+        "My",
+        "bedroom",
+        "is",
+        "green",
+        "and",
+        "white",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + is + adjetivos.",
+        "incorrect": "Revisa esto: Sujeto + is + adjetivos."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿de qué color es el sofá?",
+      "options": [
+        "Blue",
+        "Brown",
+        "Green",
+        "Red"
+      ],
+      "answer": [
+        "Blue"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'The sofa is blue'.",
+        "incorrect": "Revisa esto: El texto dice 'The sofa is blue'."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué color es la mesa?",
+      "options": [
+        "Brown",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "answer": [
+        "Brown"
+      ],
+      "audio_text": "I've got a big green sofa and a small brown table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a small brown table'.",
+        "incorrect": "Revisa esto: Dice 'a small brown table'."
+      },
+      "audio_script_id": "en-a1-u06-l04-ex07-a"
+    },
+    {
+      "id": "en-a1-u06-l04-ex08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "colours",
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Una lámpara roja.",
+      "answer": [
+        "A red lamp."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo antes del sustantivo: a red lamp.",
+        "incorrect": "Revisa esto: Adjetivo antes del sustantivo: a red lamp."
+      }
+    },
+    {
+      "id": "en-a1-u06-l04-ex09",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "colours",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "red",
+          "ipa": "/red/",
+          "tip_es": "Vocal corta: 'red'."
+        },
+        {
+          "text": "yellow",
+          "ipa": "/ˈjeləʊ/",
+          "tip_es": "Empieza con sonido 'y'."
+        },
+        {
+          "text": "brown",
+          "ipa": "/braʊn/",
+          "tip_es": "Suena 'braun'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "red, blue, green, yellow, black, white, brown, grey",
+      "a red lamp (adjetivo antes del sustantivo)",
+      "The sofa is blue."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-red"
+    },
+    {
+      "type": "vocab",
+      "id": "en-blue"
+    },
+    {
+      "type": "vocab",
+      "id": "en-green"
+    },
+    {
+      "type": "vocab",
+      "id": "en-yellow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-black"
+    },
+    {
+      "type": "vocab",
+      "id": "en-white"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brown"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grey"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pink"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nice"
+    },
+    {
+      "type": "grammar",
+      "id": "en-adjectives-position"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "en-a1-u05-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 5,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "At the cafe",
+    "es": "En el café: pedir y pagar"
+  },
+  "objective": "Al terminar pides comida y bebida en un café con educación y preguntas el precio.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En un café, ¿cómo pides algo con educación en español? En inglés hay frases fijas muy útiles."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Waiter",
+        "text": "Good morning! What would you like?",
+        "es": "¡Buenos días! ¿Qué desea?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'd like a coffee, please. And a sandwich.",
+        "es": "Quisiera un café, por favor. Y un sándwich."
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Anything else?",
+        "es": "¿Algo más?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Can I have some water, please?",
+        "es": "¿Me trae agua, por favor?"
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Of course. That's six pounds.",
+        "es": "Claro. Son seis libras."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Here you are. Thank you!",
+        "es": "Aquí tiene. ¡Gracias!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-i-d-like",
+        "lemma": "I'd like",
+        "pos": "phrase",
+        "ipa": "/aɪd ˈlaɪk/",
+        "es": "quisiera, me gustaría",
+        "example": "I'd like a coffee, please."
+      },
+      {
+        "id": "en-what-would-you-like",
+        "lemma": "what would you like?",
+        "pos": "phrase",
+        "ipa": "/ˌwɒt wʊd ju ˈlaɪk/",
+        "es": "¿qué desea?",
+        "example": "What would you like?"
+      },
+      {
+        "id": "en-can-i-have",
+        "lemma": "can I have...?",
+        "pos": "phrase",
+        "ipa": "/kæn aɪ ˈhæv/",
+        "es": "¿me da...?, ¿puedo tomar...?",
+        "example": "Can I have a tea, please?"
+      },
+      {
+        "id": "en-anything-else",
+        "lemma": "anything else?",
+        "pos": "phrase",
+        "ipa": "/ˌeniθɪŋ ˈels/",
+        "es": "¿algo más?",
+        "example": "Anything else?"
+      },
+      {
+        "id": "en-of-course",
+        "lemma": "of course",
+        "pos": "phrase",
+        "ipa": "/əv ˈkɔːs/",
+        "es": "claro, por supuesto",
+        "example": "Of course!"
+      },
+      {
+        "id": "en-here-you-are",
+        "lemma": "here you are",
+        "pos": "phrase",
+        "ipa": "/ˌhɪə ju ˈɑː/",
+        "es": "aquí tiene",
+        "example": "Here you are."
+      },
+      {
+        "id": "en-pound",
+        "lemma": "pound",
+        "pos": "noun",
+        "ipa": "/paʊnd/",
+        "es": "libra (moneda británica)",
+        "example": "It's six pounds."
+      },
+      {
+        "id": "en-menu",
+        "lemma": "menu",
+        "pos": "noun",
+        "ipa": "/ˈmenjuː/",
+        "es": "carta, menú",
+        "example": "Can I see the menu, please?"
+      }
+    ],
+    "audio_script_id": "en-a1-u05-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Pedir:** *I'd like a coffee, please.* o *Can I have a coffee, please?*\n\n**I'd like** = *I would like* (quisiera). Es más educado que *I want* (quiero), que suena brusco.\n\n**Siempre con *please*.**\n\n**Camarero:** *What would you like? · Anything else?*\n\n**Pagar:** *Here you are.* · *That's six pounds.* · *Thank you!*",
+    "common_mistakes_es": [
+      {
+        "wrong": "I want a coffee.",
+        "right": "I'd like a coffee, please.",
+        "note": "I want suena brusco al pedir."
+      },
+      {
+        "wrong": "Give me water.",
+        "right": "Can I have some water, please?",
+        "note": "Give me es una orden; mejor pedir con Can I have…?"
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u05-l05-ex01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "coffee",
+        ",",
+        "please",
+        ".",
+        "I'd",
+        "like"
+      ],
+      "answer": [
+        "I'd",
+        "like",
+        "a",
+        "coffee",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase educada para pedir.",
+        "incorrect": "Revisa esto: Frase educada para pedir."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I ___ a sandwich, please?",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I have…? para pedir algo.",
+        "incorrect": "Revisa esto: Can I have…? para pedir algo."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pides un café con educación. ¿Qué dices?",
+      "options": [
+        "I'd like a coffee, please.",
+        "I want coffee.",
+        "Give me coffee.",
+        "Coffee now."
+      ],
+      "answer": [
+        "I'd like a coffee, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'I'd like… please' es la forma educada.",
+        "incorrect": "Revisa esto: 'I'd like… please' es la forma educada."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "I'd like a tea.",
+          "right": "Quisiera un té."
+        },
+        {
+          "left": "Anything else?",
+          "right": "¿Algo más?"
+        },
+        {
+          "left": "Here you are.",
+          "right": "Aquí tiene."
+        },
+        {
+          "left": "Of course.",
+          "right": "Claro."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases fijas para el café.",
+        "incorrect": "Revisa esto: Son frases fijas para el café."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué pide Lucy?",
+      "options": [
+        "A coffee, a sandwich and some water",
+        "A tea and cheese",
+        "Water and bread",
+        "Juice and rice"
+      ],
+      "answer": [
+        "A coffee, a sandwich and some water"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Pide café, sándwich y agua.",
+        "incorrect": "Revisa esto: Pide café, sándwich y agua."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "polite-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta?",
+      "options": [
+        "£6",
+        "£16",
+        "£15",
+        "£5"
+      ],
+      "answer": [
+        "£6"
+      ],
+      "audio_text": "That's six pounds, please.",
+      "feedback": {
+        "correct": "¡Correcto! 'six' = 6 (no 'sixteen').",
+        "incorrect": "Revisa esto: 'six' = 6 (no 'sixteen')."
+      },
+      "audio_script_id": "en-a1-u05-l05-ex06-a"
+    },
+    {
+      "id": "en-a1-u05-l05-ex07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Quisiera un café, por favor.",
+      "answer": [
+        "I'd like a coffee, please.",
+        "I would like a coffee, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like… please.",
+        "incorrect": "Revisa esto: I'd like… please."
+      }
+    },
+    {
+      "id": "en-a1-u05-l05-ex08",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en un café.",
+      "turns": [
+        {
+          "speaker": "Waiter",
+          "text": "Good morning! What would you like?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like a tea, please.",
+            "I want tea.",
+            "Tea!"
+          ],
+          "best": 0,
+          "why_es": "Pide con 'I'd like… please'."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Anything else?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, thank you.",
+            "No, I'm not.",
+            "Not else."
+          ],
+          "best": 0,
+          "why_es": "Respuesta educada: No, thank you."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd like … , please.",
+      "Can I have …, please?",
+      "Anything else? — No, thank you.",
+      "Here you are."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-i-d-like"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-would-you-like"
+    },
+    {
+      "type": "vocab",
+      "id": "en-can-i-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-anything-else"
+    },
+    {
+      "type": "vocab",
+      "id": "en-of-course"
+    },
+    {
+      "type": "vocab",
+      "id": "en-here-you-are"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pound"
+    },
+    {
+      "type": "vocab",
+      "id": "en-menu"
+    },
+    {
+      "type": "grammar",
+      "id": "en-polite-requests"
+    }
+  ]
+}

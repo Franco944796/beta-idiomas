@@ -1,0 +1,377 @@
+{
+  "id": "en-a1-u10-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My plans",
+    "es": "Planes con el presente continuo"
+  },
+  "objective": "Al terminar hablas de tus planes con el presente continuo y una expresión de tiempo futuro.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español dices 'mañana voy al cine'. En inglés, para planes ya arreglados, se usa -ing con una palabra de tiempo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What are you doing this weekend, Lucy?",
+        "es": "¿Qué haces este fin de semana, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'm visiting my parents on Saturday. On Sunday I'm playing football.",
+        "es": "El sábado visito a mis padres. El domingo juego al fútbol."
+      },
+      {
+        "speaker": "Sam",
+        "text": "I'm meeting Anna and Tom on Saturday. We're going to the cinema.",
+        "es": "El sábado me encuentro con Anna y Tom. Vamos al cine."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "What time is the film?",
+        "es": "¿A qué hora es la película?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "It starts at eight.",
+        "es": "Empieza a las ocho."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-this-weekend",
+        "lemma": "this weekend",
+        "pos": "phrase",
+        "ipa": "/ðɪs ˌwiːkˈend/",
+        "es": "este fin de semana",
+        "example": "What are you doing this weekend?"
+      },
+      {
+        "id": "en-tomorrow",
+        "lemma": "tomorrow",
+        "pos": "adv",
+        "ipa": "/təˈmɒrəʊ/",
+        "es": "mañana",
+        "example": "I'm working tomorrow."
+      },
+      {
+        "id": "en-next-week",
+        "lemma": "next week",
+        "pos": "phrase",
+        "ipa": "/ˌnekst ˈwiːk/",
+        "es": "la semana que viene",
+        "example": "We're travelling next week."
+      },
+      {
+        "id": "en-visit",
+        "lemma": "visit",
+        "pos": "verb",
+        "ipa": "/ˈvɪzɪt/",
+        "es": "visitar",
+        "example": "I'm visiting my parents."
+      },
+      {
+        "id": "en-film",
+        "lemma": "film",
+        "pos": "noun",
+        "ipa": "/fɪlm/",
+        "es": "película",
+        "example": "The film starts at eight."
+      }
+    ],
+    "audio_script_id": "en-a1-u10-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Planes ya decididos:** presente continuo + palabra de tiempo futuro → *I'm meeting Anna on Saturday.*\n\n**Palabras de tiempo:** *tomorrow · this weekend · next week · on Saturday · at eight*.\n\n**Pregunta:** *What are you doing this weekend?*\n\n**Comparación:** *I'm cooking now.* (ahora) · *I'm cooking tomorrow.* (plan futuro). Sin palabra de tiempo, se entiende 'ahora'.\n\nEn español usamos el presente simple (*mañana voy*); en inglés, para planes, **-ing**: *I'm going to the cinema tomorrow*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Tomorrow I visit my parents.",
+        "right": "Tomorrow I'm visiting my parents.",
+        "note": "Los planes se dicen con presente continuo."
+      },
+      {
+        "wrong": "I'm go to the cinema.",
+        "right": "I'm going to the cinema.",
+        "note": "Después de be va el verbo con -ing."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ my parents on Saturday. (visit)",
+      "answer": [
+        "'m visiting",
+        "am visiting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: be + verbo-ing.",
+        "incorrect": "Revisa esto: Plan futuro: be + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ to the cinema tomorrow. (go)",
+      "answer": [
+        "'re going",
+        "are going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: are going.",
+        "incorrect": "Revisa esto: Plan futuro: are going."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ you doing this weekend?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con are + you.",
+        "incorrect": "Revisa esto: Pregunta con are + you."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir 'Mañana voy al cine' (plan).",
+      "options": [
+        "I'm going to the cinema tomorrow.",
+        "I go cinema tomorrow.",
+        "I'm go to cinema tomorrow.",
+        "I going to the cinema tomorrow."
+      ],
+      "answer": [
+        "I'm going to the cinema tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para planes: be + verbo-ing + tiempo.",
+        "incorrect": "Revisa esto: Para planes: be + verbo-ing + tiempo."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para planes se usa el presente continuo.",
+        "incorrect": "Revisa esto: Para planes se usa el presente continuo."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm go to the cinema.",
+      "answer": [
+        "I'm going to the cinema.",
+        "I am going to the cinema."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de be el verbo lleva -ing.",
+        "incorrect": "Revisa esto: Después de be el verbo lleva -ing."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta por tus planes.",
+        "incorrect": "Revisa esto: Pregunta por tus planes."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué hace Lucy el domingo?",
+      "options": [
+        "Juega al fútbol",
+        "Visita a sus padres",
+        "Va al cine",
+        "Cocina"
+      ],
+      "answer": [
+        "Juega al fútbol"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'On Sunday I'm playing football'.",
+        "incorrect": "Revisa esto: Lucy dice 'On Sunday I'm playing football'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l04-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hacen mañana?",
+      "options": [
+        "Going to the cinema",
+        "Playing football",
+        "Visiting parents",
+        "Cooking dinner"
+      ],
+      "answer": [
+        "Going to the cinema"
+      ],
+      "audio_text": "I'm meeting my friends tomorrow. We're going to the cinema.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'We're going to the cinema'.",
+        "incorrect": "Revisa esto: Dice 'We're going to the cinema'."
+      },
+      "audio_script_id": "en-a1-u10-l04-ex09-a"
+    },
+    {
+      "id": "en-a1-u10-l04-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mañana voy al cine.",
+      "answer": [
+        "I'm going to the cinema tomorrow.",
+        "I am going to the cinema tomorrow.",
+        "Tomorrow I'm going to the cinema."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: be + going + tiempo.",
+        "incorrect": "Revisa esto: Plan futuro: be + going + tiempo."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What are you doing this weekend?",
+      "I'm meeting … on Saturday.",
+      "I'm going to … tomorrow.",
+      "tomorrow · next week · this weekend"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-this-weekend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tomorrow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-next-week"
+    },
+    {
+      "type": "vocab",
+      "id": "en-visit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-film"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-continuous-future"
+    }
+  ]
+}

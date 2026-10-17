@@ -1,0 +1,348 @@
+{
+  "id": "en-a1-u01-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Hello!",
+    "es": "¡Hola!"
+  },
+  "objective": "Al terminar puedes saludar, decir tu nombre y preguntar el nombre de otra persona.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo saludas a alguien nuevo en español? Ahora veamos cómo se hace en inglés."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Hello! I'm Anna. What's your name?",
+        "es": "¡Hola! Soy Anna. ¿Cómo te llamas?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Hi, Anna. I'm Tom. Nice to meet you.",
+        "es": "Hola, Anna. Soy Tom. Mucho gusto."
+      },
+      {
+        "speaker": "Anna",
+        "text": "Nice to meet you, too. Goodbye!",
+        "es": "Igualmente. ¡Adiós!"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Bye!",
+        "es": "¡Chao!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-hello",
+        "lemma": "hello",
+        "pos": "interj",
+        "ipa": "/həˈləʊ/",
+        "es": "hola",
+        "example": "Hello! I'm Anna."
+      },
+      {
+        "id": "en-hi",
+        "lemma": "hi",
+        "pos": "interj",
+        "ipa": "/haɪ/",
+        "es": "hola (informal)",
+        "example": "Hi, Tom!"
+      },
+      {
+        "id": "en-name",
+        "lemma": "name",
+        "pos": "noun",
+        "ipa": "/neɪm/",
+        "es": "nombre",
+        "example": "What's your name?"
+      },
+      {
+        "id": "en-my-name-is",
+        "lemma": "my name is",
+        "pos": "phrase",
+        "ipa": "/maɪ ˈneɪm ɪz/",
+        "es": "me llamo",
+        "example": "My name is Anna."
+      },
+      {
+        "id": "en-nice-to-meet-you",
+        "lemma": "nice to meet you",
+        "pos": "phrase",
+        "ipa": "/ˌnaɪs tə ˈmiːt juː/",
+        "es": "mucho gusto",
+        "example": "Nice to meet you, Tom."
+      },
+      {
+        "id": "en-goodbye",
+        "lemma": "goodbye",
+        "pos": "interj",
+        "ipa": "/ˌɡʊdˈbaɪ/",
+        "es": "adiós",
+        "example": "Goodbye, Anna!"
+      },
+      {
+        "id": "en-bye",
+        "lemma": "bye",
+        "pos": "interj",
+        "ipa": "/baɪ/",
+        "es": "chao",
+        "example": "Bye! See you."
+      }
+    ],
+    "audio_script_id": "en-a1-u01-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**I'm = I am** (yo soy). En inglés el sujeto es obligatorio: *I'm Anna*, no *Am Anna*.\n\n**What's your name?** = *What is your name?* (¿Cómo te llamas?). Puedes responder *I'm Anna* o *My name is Anna*.\n\n| Informal | Más formal |\n|---|---|\n| Hi! | Hello! |\n| Bye! | Goodbye. |",
+    "common_mistakes_es": [
+      {
+        "wrong": "Am Anna.",
+        "right": "I'm Anna.",
+        "note": "En español omitimos el sujeto (soy Anna); en inglés siempre se dice."
+      },
+      {
+        "wrong": "name → 'nam'",
+        "right": "name → 'neim' /neɪm/",
+        "note": "La 'a' de name suena como 'ei'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l01-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase para decir al conocer a alguien por primera vez.",
+      "options": [
+        "Nice to meet you.",
+        "See you later.",
+        "Good night.",
+        "Thank you."
+      ],
+      "answer": [
+        "Nice to meet you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Nice to meet you' se usa al conocer a alguien.",
+        "incorrect": "Revisa esto: 'Nice to meet you' se usa al conocer a alguien."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hello! ___ Tom.",
+      "answer": [
+        "I'm",
+        "I am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm = I am. El sujeto es obligatorio.",
+        "incorrect": "Revisa esto: I'm = I am. El sujeto es obligatorio."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "name",
+        "?",
+        "What's",
+        "your"
+      ],
+      "answer": [
+        "What's",
+        "your",
+        "name",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En una pregunta, la palabra interrogativa va primero.",
+        "incorrect": "Revisa esto: En una pregunta, la palabra interrogativa va primero."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Hello",
+          "right": "Hola"
+        },
+        {
+          "left": "Goodbye",
+          "right": "Adiós"
+        },
+        {
+          "left": "Nice to meet you",
+          "right": "Mucho gusto"
+        },
+        {
+          "left": "What's your name?",
+          "right": "¿Cómo te llamas?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las frases básicas de presentación.",
+        "incorrect": "Revisa esto: Son las frases básicas de presentación."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me llamo Laura.",
+      "answer": [
+        "My name is Laura.",
+        "I'm Laura.",
+        "I am Laura."
+      ],
+      "accepted_alternatives": [
+        "My name's Laura."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Puedes decir 'My name is…' o 'I'm…'.",
+        "incorrect": "Revisa esto: Puedes decir 'My name is…' o 'I'm…'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Am Tom.",
+      "answer": [
+        "I'm Tom.",
+        "I am Tom."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: I'm Tom.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: I'm Tom."
+      }
+    },
+    {
+      "id": "en-a1-u01-l01-ex07",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "Hello!",
+          "ipa": "/həˈləʊ/",
+          "tip_es": "El acento va en la segunda sílaba: he-LOU."
+        },
+        {
+          "text": "What's your name?",
+          "ipa": "/ˌwɒts jə ˈneɪm/",
+          "tip_es": "'name' suena 'neim'."
+        },
+        {
+          "text": "Nice to meet you.",
+          "ipa": "/ˌnaɪs tə ˈmiːt juː/",
+          "tip_es": "'meet' tiene una i larga: miit."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Hello! / Hi!",
+      "I'm … / My name is …",
+      "What's your name?",
+      "Nice to meet you.",
+      "Goodbye! / Bye!"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-hello"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hi"
+    },
+    {
+      "type": "vocab",
+      "id": "en-name"
+    },
+    {
+      "type": "vocab",
+      "id": "en-my-name-is"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nice-to-meet-you"
+    },
+    {
+      "type": "vocab",
+      "id": "en-goodbye"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bye"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-i-am"
+    }
+  ]
+}

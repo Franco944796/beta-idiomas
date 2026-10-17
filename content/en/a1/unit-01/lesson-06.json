@@ -1,0 +1,325 @@
+{
+  "id": "en-a1-u01-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 1",
+    "es": "Repaso y checkpoint 1"
+  },
+  "objective": "Al terminar demuestras que puedes presentarte, deletrear, usar números y saludar en inglés.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Último paso de la unidad: pon a prueba todo lo que aprendiste."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: saludos (Hello, Good morning…), I'm / My name is, el alfabeto, números 0–20, How are you? y How old are you?",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- Saludos: *Hello / Hi · Good morning / afternoon / evening · Goodbye*\n- Presentarte: *I'm … / My name is …* y *Nice to meet you.*\n- Deletrear: *How do you spell …?*\n- Números 0–20 y teléfonos (dígito por dígito)\n- Edad: *I'm 20.* (con *to be*)",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l06-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde se dice 'Good afternoon'.",
+        "incorrect": "Revisa esto: Por la tarde se dice 'Good afternoon'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hi! My name ___ Sam.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'My name is…' para decir tu nombre.",
+        "incorrect": "Revisa esto: 'My name is…' para decir tu nombre."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "meet",
+        "you",
+        ",",
+        "too",
+        ".",
+        "Nice",
+        "to"
+      ],
+      "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you",
+        ",",
+        "too",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Nice to meet you.'",
+        "incorrect": "Revisa esto: Respuesta a 'Nice to meet you.'"
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Escucha las letras. ¿Qué nombre se deletrea?",
+      "options": [
+        "Will",
+        "Wall",
+        "Well",
+        "Wheel"
+      ],
+      "answer": [
+        "Will"
+      ],
+      "audio_text": "W, I, L, L.",
+      "feedback": {
+        "correct": "¡Correcto! W-I-L-L = Will.",
+        "incorrect": "Revisa esto: W-I-L-L = Will."
+      },
+      "audio_script_id": "en-a1-u01-l06-ex04-a"
+    },
+    {
+      "id": "en-a1-u01-l06-ex05",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "twelve",
+      "answer": [
+        "twelve",
+        "12"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! twelve = 12.",
+        "incorrect": "Revisa esto: twelve = 12."
+      },
+      "audio_script_id": "en-a1-u01-l06-ex05-a"
+    },
+    {
+      "id": "en-a1-u01-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 30 years.",
+      "answer": [
+        "I'm 30.",
+        "I am 30.",
+        "I'm 30 years old.",
+        "I am 30 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be'.",
+        "incorrect": "Revisa esto: La edad se dice con 'to be'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la pregunta con la respuesta.",
+      "pairs": [
+        {
+          "left": "What's your name?",
+          "right": "I'm Tom."
+        },
+        {
+          "left": "How are you?",
+          "right": "I'm fine, thanks."
+        },
+        {
+          "left": "How old are you?",
+          "right": "I'm twenty."
+        },
+        {
+          "left": "How do you spell 'Ben'?",
+          "right": "B, E, N."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada pregunta pide un dato distinto.",
+        "incorrect": "Revisa esto: Cada pregunta pide un dato distinto."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu amigo dice 'Thank you'. ¿Qué respondes?",
+      "options": [
+        "You're welcome.",
+        "Good night.",
+        "Nice to meet you.",
+        "I'm fine."
+      ],
+      "answer": [
+        "You're welcome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Thank you' = 'You're welcome'.",
+        "incorrect": "Revisa esto: Respuesta a 'Thank you' = 'You're welcome'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex09",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "greetings",
+        "age"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Conoces a una persona nueva en una clase de inglés.",
+      "turns": [
+        {
+          "speaker": "Anna",
+          "text": "Hello! I'm Anna. What's your name?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Hi, Anna. I'm Tom. Nice to meet you.",
+            "Good night, Anna.",
+            "Am Tom."
+          ],
+          "best": 0,
+          "why_es": "Saludas, dices tu nombre y respondes con cortesía."
+        },
+        {
+          "speaker": "Anna",
+          "text": "How old are you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm twenty.",
+            "I have twenty years.",
+            "I'm fine, thanks."
+          ],
+          "best": 0,
+          "why_es": "La edad se dice con 'to be': I'm twenty."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a1-u01-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "greetings",
+        "age"
+      ],
+      "est_seconds": 180,
+      "prompt": "Preséntate en 3 frases: saludo, nombre y edad. Añade cómo se deletrea tu nombre.",
+      "min_words": 12,
+      "self_check_es": [
+        "¿Hay un saludo?",
+        "¿Dices tu nombre con 'I'm' o 'My name is'?",
+        "¿Dices tu edad con 'I'm'?",
+        "¿Deletreaste tu nombre con las letras en inglés?"
+      ],
+      "model_answer": "Hello! I'm Ana. I'm 28 years old. A, N, A.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Hello! I'm … How old are you? I'm …",
+      "How do you spell …?",
+      "Numbers 0–20",
+      "Good morning / afternoon / evening"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-to-be-i-am"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

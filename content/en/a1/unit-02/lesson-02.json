@@ -1,0 +1,330 @@
+{
+  "id": "en-a1-u02-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "He, she, it",
+    "es": "He, she, it: el verbo to be"
+  },
+  "objective": "Al terminar puedes hablar de otra persona o cosa con he, she e it.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Mira una foto de unos amigos: ¿cómo dirías 'él es de…' y 'ella es de…'?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Who's that?",
+        "es": "¿Quién es ese?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's Carlos. He's from Argentina.",
+        "es": "Es Carlos. Es de Argentina."
+      },
+      {
+        "speaker": "Tom",
+        "text": "And who's that?",
+        "es": "¿Y quién es esa?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's Laura. She's from Italy. She's my friend.",
+        "es": "Es Laura. Es de Italia. Es mi amiga."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-he",
+        "lemma": "he",
+        "pos": "pron",
+        "ipa": "/hiː/",
+        "es": "él",
+        "example": "He's from Argentina."
+      },
+      {
+        "id": "en-she",
+        "lemma": "she",
+        "pos": "pron",
+        "ipa": "/ʃiː/",
+        "es": "ella",
+        "example": "She's from Italy."
+      },
+      {
+        "id": "en-it",
+        "lemma": "it",
+        "pos": "pron",
+        "ipa": "/ɪt/",
+        "es": "ello (cosas, animales)",
+        "example": "It's a phone."
+      },
+      {
+        "id": "en-who",
+        "lemma": "who",
+        "pos": "pron",
+        "ipa": "/huː/",
+        "es": "quién",
+        "example": "Who's that?"
+      },
+      {
+        "id": "en-that",
+        "lemma": "that",
+        "pos": "pron",
+        "ipa": "/ðæt/",
+        "es": "ese, esa, eso",
+        "example": "That's Carlos."
+      },
+      {
+        "id": "en-friend",
+        "lemma": "friend",
+        "pos": "noun",
+        "ipa": "/frend/",
+        "es": "amigo/a",
+        "example": "Laura is my friend."
+      },
+      {
+        "id": "en-phone",
+        "lemma": "phone",
+        "pos": "noun",
+        "ipa": "/fəʊn/",
+        "es": "teléfono",
+        "example": "It's a phone."
+      }
+    ],
+    "audio_script_id": "en-a1-u02-l02-d01"
+  },
+  "explanation": {
+    "md_es": "| Sujeto | to be | Forma corta |\n|---|---|---|\n| he | is | he's |\n| she | is | she's |\n| it | is | it's |\n\n- **he** = un hombre · **she** = una mujer · **it** = una cosa o un animal.\n- El sujeto no se omite: *He's a teacher.* (no *Is a teacher*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Is from Spain.",
+        "right": "He's from Spain. / She's from Spain.",
+        "note": "No se omite el sujeto."
+      },
+      {
+        "wrong": "Anna is my friend. He is from Italy.",
+        "right": "She is from Italy.",
+        "note": "he = hombre, she = mujer."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 20,
+      "prompt": "Anna is from Italy. ___ is Italian.",
+      "options": [
+        "She",
+        "He",
+        "It",
+        "They"
+      ],
+      "answer": [
+        "She"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Anna es una mujer: she.",
+        "incorrect": "Revisa esto: Anna es una mujer: she."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 20,
+      "prompt": "What's this? — ___'s a phone.",
+      "options": [
+        "It",
+        "He",
+        "She",
+        "I"
+      ],
+      "answer": [
+        "It"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para cosas usamos 'it'.",
+        "incorrect": "Revisa esto: Para cosas usamos 'it'."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Carlos is my friend. ___ from Argentina.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carlos es un hombre: he is (he's).",
+        "incorrect": "Revisa esto: Carlos es un hombre: he is (he's)."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura is my friend. ___ from Italy.",
+      "answer": [
+        "She's",
+        "She is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura es una mujer: she is (she's).",
+        "incorrect": "Revisa esto: Laura es una mujer: she is (she's)."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Italy",
+        ".",
+        "She",
+        "is"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "from",
+        "Italy",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + verbo + from + país.",
+        "incorrect": "Revisa esto: Sujeto + verbo + from + país."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Carlos is from Mexico. Is my friend.",
+      "answer": [
+        "Carlos is from Mexico. He's my friend.",
+        "Carlos is from Mexico. He is my friend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: He's my friend.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: He's my friend."
+      }
+    },
+    {
+      "id": "en-a1-u02-l02-ex07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con el pronombre correcto.",
+      "pairs": [
+        {
+          "left": "Tom",
+          "right": "he"
+        },
+        {
+          "left": "my sister",
+          "right": "she"
+        },
+        {
+          "left": "a phone",
+          "right": "it"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! he = hombre, she = mujer, it = cosa.",
+        "incorrect": "Revisa esto: he = hombre, she = mujer, it = cosa."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He's / She's / It's",
+      "Who's that?",
+      "That's …",
+      "No omitas el sujeto"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-he"
+    },
+    {
+      "type": "vocab",
+      "id": "en-she"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it"
+    },
+    {
+      "type": "vocab",
+      "id": "en-who"
+    },
+    {
+      "type": "vocab",
+      "id": "en-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-friend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-phone"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-he-she-it"
+    }
+  ]
+}

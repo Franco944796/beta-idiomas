@@ -1,0 +1,334 @@
+{
+  "id": "en-a1-u06-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My home",
+    "es": "Describe tu casa"
+  },
+  "objective": "Al terminar describes dónde vives y cómo es tu casa en 4 o 5 frases.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cuéntale a alguien nuevo dónde vives y cómo es tu casa. Reúne todo lo aprendido en la unidad."
+  },
+  "input": {
+    "type": "text",
+    "text": "I live in a small flat in the city. There are three rooms: a bedroom, a bathroom and a living room with a kitchen. There's a big window in the living room. The sofa is grey and the table is brown. My flat isn't big, but I love it.",
+    "es": "Vivo en un piso pequeño en la ciudad. Hay tres habitaciones: un dormitorio, un baño y una sala con cocina. Hay una ventana grande en la sala. El sofá es gris y la mesa es marrón. Mi piso no es grande, pero me encanta.",
+    "glossary": [
+      {
+        "id": "en-live",
+        "lemma": "live",
+        "pos": "verb",
+        "ipa": "/lɪv/",
+        "es": "vivir",
+        "example": "I live in a flat."
+      },
+      {
+        "id": "en-city",
+        "lemma": "city",
+        "pos": "noun",
+        "ipa": "/ˈsɪti/",
+        "es": "ciudad",
+        "example": "I live in the city."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Dónde vives:** *I live in + ciudad* (sin artículo): *I live in Buenos Aires.* · *I live in a flat / a house.*\n\n**Cuántas habitaciones:** *There are three rooms.*\n\n**Cómo son:** *The sofa is grey. The kitchen is small.*\n\n**Pregunta:** *Where do you live?*\n\n**Un truco:** une frases con *and* y *but*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I live in the London.",
+        "right": "I live in London.",
+        "note": "Las ciudades no llevan artículo."
+      },
+      {
+        "wrong": "I live at a flat.",
+        "right": "I live in a flat.",
+        "note": "Con casas y pisos se usa 'in'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l05-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ in a small flat.",
+      "answer": [
+        "live"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vivir = live.",
+        "incorrect": "Revisa esto: Vivir = live."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ three rooms in my flat.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live in the London.",
+      "answer": [
+        "I live in London."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las ciudades no llevan artículo.",
+        "incorrect": "Revisa esto: Las ciudades no llevan artículo."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My flat have two bedrooms.",
+      "answer": [
+        "My flat has two bedrooms.",
+        "My flat has got two bedrooms.",
+        "There are two bedrooms in my flat."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'my flat' (it) se usa has; o mejor 'There are…'.",
+        "incorrect": "Revisa esto: Con 'my flat' (it) se usa has; o mejor 'There are…'."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿de qué color es el sofá?",
+      "options": [
+        "Grey",
+        "Brown",
+        "Blue",
+        "White"
+      ],
+      "answer": [
+        "Grey"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'The sofa is grey'.",
+        "incorrect": "Revisa esto: El texto dice 'The sofa is grey'."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "home"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "live",
+        "?",
+        "Where",
+        "do"
+      ],
+      "answer": [
+        "Where",
+        "do",
+        "you",
+        "live",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de residencia.",
+        "incorrect": "Revisa esto: Pregunta de residencia."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Vivo en un piso pequeño.",
+      "answer": [
+        "I live in a small flat.",
+        "I live in a small apartment."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Live in + a small flat.",
+        "incorrect": "Revisa esto: Live in + a small flat."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué tiene la casa?",
+      "options": [
+        "Three bedrooms and a garden",
+        "Two bedrooms and a garden",
+        "Three bedrooms, no garden",
+        "One bedroom and a garden"
+      ],
+      "answer": [
+        "Three bedrooms and a garden"
+      ],
+      "audio_text": "I live in a house. There are three bedrooms and a garden.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'three bedrooms and a garden'.",
+        "incorrect": "Revisa esto: Dice 'three bedrooms and a garden'."
+      },
+      "audio_script_id": "en-a1-u06-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u06-l05-ex09",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "home",
+        "colours"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe tu casa en 4 o 5 frases: dónde vives, cuántas habitaciones hay y de qué color son algunas cosas.",
+      "min_words": 20,
+      "self_check_es": [
+        "¿Usaste I live in …?",
+        "¿Usaste there is / there are?",
+        "¿Pusiste algún color antes del sustantivo o después de is?"
+      ],
+      "model_answer": "I live in a flat in the city. There are three rooms. There's a big window in the living room. The sofa is blue. I love my flat.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u06-l05-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un compañero te pregunta por tu casa.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "Where do you live?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I live in a flat in the city.",
+            "I live at a flat.",
+            "I am live in a flat."
+          ],
+          "best": 0,
+          "why_es": "Live in + lugar."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Is there a garden?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, there isn't.",
+            "No, there not.",
+            "No, is not."
+          ],
+          "best": 0,
+          "why_es": "Respuesta corta: No, there isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I live in …",
+      "There are three rooms.",
+      "The sofa is grey.",
+      "Where do you live?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-live"
+    },
+    {
+      "type": "vocab",
+      "id": "en-city"
+    },
+    {
+      "type": "grammar",
+      "id": "en-there-is-are"
+    }
+  ]
+}

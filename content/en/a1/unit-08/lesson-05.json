@@ -1,0 +1,503 @@
+{
+  "id": "en-a1-u08-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "In the shop",
+    "es": "En la tienda"
+  },
+  "objective": "Al terminar compras ropa en una tienda: preguntas, pruebas y pagas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás en una tienda de ropa. ¿Qué dirías para pedir ayuda, probarte algo y pagar?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Assistant",
+        "text": "Can I help you?",
+        "es": "¿Puedo ayudarle?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, please. I'm looking for a jacket.",
+        "es": "Sí, por favor. Estoy buscando una chaqueta."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "What size are you?",
+        "es": "¿Qué talle usa?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'm medium. Can I try it on?",
+        "es": "Soy talle mediano. ¿Puedo probármela?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Of course. The changing room is over there.",
+        "es": "Claro. El probador está allá."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's very nice. How much is it?",
+        "es": "Es muy linda. ¿Cuánto cuesta?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "It's forty pounds.",
+        "es": "Son cuarenta libras."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "OK, I'll take it.",
+        "es": "Bien, me la llevo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-can-i-help-you",
+        "lemma": "can I help you?",
+        "pos": "phrase",
+        "ipa": "/kæn aɪ ˈhelp ju/",
+        "es": "¿puedo ayudarle?",
+        "example": "Can I help you?"
+      },
+      {
+        "id": "en-i-m-looking-for",
+        "lemma": "I'm looking for",
+        "pos": "phrase",
+        "ipa": "/aɪm ˈlʊkɪŋ fɔː/",
+        "es": "estoy buscando",
+        "example": "I'm looking for a jacket."
+      },
+      {
+        "id": "en-size",
+        "lemma": "size",
+        "pos": "noun",
+        "ipa": "/saɪz/",
+        "es": "talle, talla",
+        "example": "What size are you?"
+      },
+      {
+        "id": "en-medium",
+        "lemma": "medium",
+        "pos": "adj",
+        "ipa": "/ˈmiːdiəm/",
+        "es": "mediano",
+        "example": "I'm medium."
+      },
+      {
+        "id": "en-large",
+        "lemma": "large",
+        "pos": "adj",
+        "ipa": "/lɑːdʒ/",
+        "es": "grande (talle)",
+        "example": "Have you got this in large?"
+      },
+      {
+        "id": "en-try-on",
+        "lemma": "try on",
+        "pos": "verb",
+        "ipa": "/traɪ ˈɒn/",
+        "es": "probarse",
+        "example": "Can I try it on?"
+      },
+      {
+        "id": "en-changing-room",
+        "lemma": "changing room",
+        "pos": "noun",
+        "ipa": "/ˈtʃeɪndʒɪŋ ruːm/",
+        "es": "probador",
+        "example": "The changing room is over there."
+      },
+      {
+        "id": "en-i-ll-take-it",
+        "lemma": "I'll take it",
+        "pos": "phrase",
+        "ipa": "/aɪl ˈteɪk ɪt/",
+        "es": "me lo llevo",
+        "example": "OK, I'll take it."
+      },
+      {
+        "id": "en-cash",
+        "lemma": "cash",
+        "pos": "noun",
+        "ipa": "/kæʃ/",
+        "es": "efectivo",
+        "example": "Can I pay in cash?"
+      },
+      {
+        "id": "en-card",
+        "lemma": "card",
+        "pos": "noun",
+        "ipa": "/kɑːd/",
+        "es": "tarjeta",
+        "example": "Can I pay by card?"
+      }
+    ],
+    "audio_script_id": "en-a1-u08-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Vendedor:** *Can I help you? · What size are you? · It's forty pounds.*\n\n**Cliente:**\n- *I'm looking for a jacket.* (busco una chaqueta)\n- *Can I try it on?* (¿puedo probármelo?)\n- *Have you got this in medium?* (¿lo tiene en talle mediano?)\n- *How much is it?* · *I'll take it.* (me lo llevo)\n- *Can I pay by card / in cash?*\n\n**Talles:** small · medium · large.\n\n**Solo mirando:** *I'm just looking, thanks.*",
+    "common_mistakes_es": [
+      {
+        "wrong": "I look for a jacket.",
+        "right": "I'm looking for a jacket.",
+        "note": "Para 'estoy buscando' se usa I'm looking for."
+      },
+      {
+        "wrong": "I take it.",
+        "right": "I'll take it.",
+        "note": "Al decidir comprar se usa I'll take it."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres probarte una chaqueta. ¿Qué preguntas?",
+      "options": [
+        "Can I try it on?",
+        "Can I test it?",
+        "Can I use it?",
+        "Can I wear?"
+      ],
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Probarse = try on.",
+        "incorrect": "Revisa esto: Probarse = try on."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 25,
+      "prompt": "OK, I'll ___ it. (me lo llevo)",
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'll take it = me lo llevo.",
+        "incorrect": "Revisa esto: I'll take it = me lo llevo."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I pay by ___?",
+      "answer": [
+        "card"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pagar con tarjeta: by card.",
+        "incorrect": "Revisa esto: Pagar con tarjeta: by card."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "for",
+        "a",
+        "jacket",
+        ".",
+        "I'm",
+        "looking"
+      ],
+      "answer": [
+        "I'm",
+        "looking",
+        "for",
+        "a",
+        "jacket",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm looking for + prenda.",
+        "incorrect": "Revisa esto: I'm looking for + prenda."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Can I help you?",
+          "right": "¿Puedo ayudarle?"
+        },
+        {
+          "left": "Can I try it on?",
+          "right": "¿Puedo probármelo?"
+        },
+        {
+          "left": "I'll take it.",
+          "right": "Me lo llevo."
+        },
+        {
+          "left": "What size are you?",
+          "right": "¿Qué talle usa?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases clave para comprar.",
+        "incorrect": "Revisa esto: Son frases clave para comprar."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cuánto cuesta la chaqueta?",
+      "options": [
+        "£40",
+        "£14",
+        "£60",
+        "£4"
+      ],
+      "answer": [
+        "£40"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El vendedor dice 'forty pounds'.",
+        "incorrect": "Revisa esto: El vendedor dice 'forty pounds'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere hacer la persona?",
+      "options": [
+        "Try on a jacket",
+        "Buy shoes",
+        "Pay in cash",
+        "Find the station"
+      ],
+      "answer": [
+        "Try on a jacket"
+      ],
+      "audio_text": "Can I try this jacket on, please? What size is it?",
+      "feedback": {
+        "correct": "¡Correcto! Pregunta si puede probarse la chaqueta.",
+        "incorrect": "Revisa esto: Pregunta si puede probarse la chaqueta."
+      },
+      "audio_script_id": "en-a1-u08-l05-ex07-a"
+    },
+    {
+      "id": "en-a1-u08-l05-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I look for a jacket.",
+      "answer": [
+        "I'm looking for a jacket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'estoy buscando' se usa I'm looking for.",
+        "incorrect": "Revisa esto: Para 'estoy buscando' se usa I'm looking for."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I take it.",
+      "answer": [
+        "I'll take it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para decidir comprar se usa I'll take it.",
+        "incorrect": "Revisa esto: Para decidir comprar se usa I'll take it."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Puedo probármelo?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Probarse = try on.",
+        "incorrect": "Revisa esto: Probarse = try on."
+      }
+    },
+    {
+      "id": "en-a1-u08-l05-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una tienda de ropa.",
+      "turns": [
+        {
+          "speaker": "Assistant",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. I'm looking for a jacket.",
+            "Yes, I look for jacket.",
+            "Yes, I want jacket."
+          ],
+          "best": 0,
+          "why_es": "I'm looking for + prenda."
+        },
+        {
+          "speaker": "Assistant",
+          "text": "What size are you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm medium.",
+            "I have medium.",
+            "I medium."
+          ],
+          "best": 0,
+          "why_es": "El talle se dice con to be: I'm medium."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Can I help you? — I'm looking for …",
+      "Can I try it on?",
+      "How much is it? — I'll take it.",
+      "Can I pay by card?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-can-i-help-you"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-m-looking-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-size"
+    },
+    {
+      "type": "vocab",
+      "id": "en-medium"
+    },
+    {
+      "type": "vocab",
+      "id": "en-large"
+    },
+    {
+      "type": "vocab",
+      "id": "en-try-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-changing-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-ll-take-it"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cash"
+    },
+    {
+      "type": "vocab",
+      "id": "en-card"
+    },
+    {
+      "type": "grammar",
+      "id": "en-shopping-requests"
+    }
+  ]
+}

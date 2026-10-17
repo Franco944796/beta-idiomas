@@ -1,0 +1,463 @@
+{
+  "id": "en-a1-u10-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 10,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Dates",
+    "es": "Fechas y ordinales"
+  },
+  "objective": "Al terminar usas los números ordinales para decir y preguntar fechas y cumpleaños.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cuándo es tu cumpleaños? En inglés se dicen los días con números ordinales (primero, segundo…)."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What's the date today?",
+        "es": "¿Qué fecha es hoy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's the fifth of May.",
+        "es": "Es 5 de mayo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "When's your birthday?",
+        "es": "¿Cuándo es tu cumpleaños?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "It's on the twenty-first of June.",
+        "es": "Es el 21 de junio."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Mine is on the third of March.",
+        "es": "El mío es el 3 de marzo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-date",
+        "lemma": "date",
+        "pos": "noun",
+        "ipa": "/deɪt/",
+        "es": "fecha",
+        "example": "What's the date today?"
+      },
+      {
+        "id": "en-birthday",
+        "lemma": "birthday",
+        "pos": "noun",
+        "ipa": "/ˈbɜːθdeɪ/",
+        "es": "cumpleaños",
+        "example": "My birthday is in June."
+      },
+      {
+        "id": "en-when",
+        "lemma": "when",
+        "pos": "adv",
+        "ipa": "/wen/",
+        "es": "cuándo",
+        "example": "When's your birthday?"
+      },
+      {
+        "id": "en-fourth",
+        "lemma": "fourth",
+        "pos": "adj",
+        "ipa": "/fɔːθ/",
+        "es": "cuarto/a",
+        "example": "It's the fourth of July."
+      },
+      {
+        "id": "en-fifth",
+        "lemma": "fifth",
+        "pos": "adj",
+        "ipa": "/fɪfθ/",
+        "es": "quinto/a",
+        "example": "It's the fifth of May."
+      },
+      {
+        "id": "en-eighth",
+        "lemma": "eighth",
+        "pos": "adj",
+        "ipa": "/eɪtθ/",
+        "es": "octavo/a",
+        "example": "It's the eighth of March."
+      },
+      {
+        "id": "en-ninth",
+        "lemma": "ninth",
+        "pos": "adj",
+        "ipa": "/naɪnθ/",
+        "es": "noveno/a",
+        "example": "It's the ninth of November."
+      },
+      {
+        "id": "en-twelfth",
+        "lemma": "twelfth",
+        "pos": "adj",
+        "ipa": "/twelfθ/",
+        "es": "duodécimo/a",
+        "example": "It's the twelfth of December."
+      },
+      {
+        "id": "en-twenty-first",
+        "lemma": "twenty-first",
+        "pos": "adj",
+        "ipa": "/ˌtwenti ˈfɜːst/",
+        "es": "vigésimo primero (21.º)",
+        "example": "It's the twenty-first of June."
+      }
+    ],
+    "audio_script_id": "en-a1-u10-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Ordinales:** 1st first · 2nd second · 3rd third · 4th fourth · 5th **fifth** · 6th sixth · 7th seventh · 8th **eighth** · 9th **ninth** · 10th tenth · 12th **twelfth** · 20th twentieth · 21st twenty-first\n\n**Regla:** número + **-th**, salvo 1.º, 2.º y 3.º. Cuidado con los cambios: *five → fifth, eight → eighth, nine → ninth, twelve → twelfth*.\n\n**Fechas (inglés británico):** *the fifth of May* (5 May). Se escribe *5th May* o *5 May*. En inglés americano: *May fifth*.\n\n**Preposición:** *on the fifth of May* · *in May*.\n\n**Preguntar:** *What's the date today? · When's your birthday?*",
+    "common_mistakes_es": [
+      {
+        "wrong": "the five of May",
+        "right": "the fifth of May",
+        "note": "El día es un número ordinal."
+      },
+      {
+        "wrong": "in the 21st of June",
+        "right": "on the 21st of June",
+        "note": "Con un día concreto se usa on."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u10-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada ordinal en cifras con su palabra.",
+      "pairs": [
+        {
+          "left": "1st",
+          "right": "first"
+        },
+        {
+          "left": "2nd",
+          "right": "second"
+        },
+        {
+          "left": "3rd",
+          "right": "third"
+        },
+        {
+          "left": "5th",
+          "right": "fifth"
+        },
+        {
+          "left": "9th",
+          "right": "ninth"
+        },
+        {
+          "left": "12th",
+          "right": "twelfth"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los ordinales irregulares hay que memorizarlos.",
+        "incorrect": "Revisa esto: Los ordinales irregulares hay que memorizarlos."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "5th = ___",
+      "answer": [
+        "fifth"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Five cambia a fifth.",
+        "incorrect": "Revisa esto: Five cambia a fifth."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 20,
+      "prompt": "'21 de junio' en inglés británico:",
+      "options": [
+        "the twenty-first of June",
+        "June twenty-one the",
+        "twenty-one of the June",
+        "the twenty-one June"
+      ],
+      "answer": [
+        "the twenty-first of June"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día va con ordinal y 'of' antes del mes.",
+        "incorrect": "Revisa esto: El día va con ordinal y 'of' antes del mes."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "My birthday is ___ the third of March.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con fechas completas se usa on.",
+        "incorrect": "Revisa esto: Con fechas completas se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día debe ser ordinal: fifth.",
+        "incorrect": "Revisa esto: El día debe ser ordinal: fifth."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My birthday is in the twenty-first of June.",
+      "answer": [
+        "My birthday is on the twenty-first of June."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un día concreto se usa on.",
+        "incorrect": "Revisa esto: Con un día concreto se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cuándo es el cumpleaños de Lucy?",
+      "options": [
+        "21 June",
+        "5 May",
+        "3 March",
+        "12 December"
+      ],
+      "answer": [
+        "21 June"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'the twenty-first of June'.",
+        "incorrect": "Revisa esto: Lucy dice 'the twenty-first of June'."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo es el cumpleaños?",
+      "options": [
+        "9 November",
+        "19 November",
+        "9 October",
+        "11 September"
+      ],
+      "answer": [
+        "9 November"
+      ],
+      "audio_text": "My birthday is on the ninth of November.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'the ninth of November'.",
+        "incorrect": "Revisa esto: Dice 'the ninth of November'."
+      },
+      "audio_script_id": "en-a1-u10-l03-ex08-a"
+    },
+    {
+      "id": "en-a1-u10-l03-ex09",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "the fifth of May",
+      "answer": [
+        "the fifth of May",
+        "5th May",
+        "the 5th of May"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fifth = quinto.",
+        "incorrect": "Revisa esto: Fifth = quinto."
+      },
+      "audio_script_id": "en-a1-u10-l03-ex09-a"
+    },
+    {
+      "id": "en-a1-u10-l03-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi cumpleaños es el 3 de marzo.",
+      "answer": [
+        "My birthday is on the third of March."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On + the third of March.",
+        "incorrect": "Revisa esto: On + the third of March."
+      }
+    },
+    {
+      "id": "en-a1-u10-l03-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "dates",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "fifth",
+          "ipa": "/fɪfθ/",
+          "tip_es": "Termina con f + th."
+        },
+        {
+          "text": "eighth",
+          "ipa": "/eɪtθ/",
+          "tip_es": "Suena 'eitz'."
+        },
+        {
+          "text": "twelfth",
+          "ipa": "/twelfθ/",
+          "tip_es": "Termina en lf + th."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "first · second · third · fifth · ninth · twelfth",
+      "the fifth of May",
+      "on the twenty-first of June",
+      "When's your birthday?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-date"
+    },
+    {
+      "type": "vocab",
+      "id": "en-birthday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-when"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fourth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fifth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-eighth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ninth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twelfth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twenty-first"
+    },
+    {
+      "type": "grammar",
+      "id": "en-dates-ordinals"
+    }
+  ]
+}

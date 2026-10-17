@@ -1,0 +1,385 @@
+{
+  "id": "en-a1-u09-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I can, I can't",
+    "es": "Habilidades: can / can't"
+  },
+  "objective": "Al terminar dices qué puedes y qué no puedes hacer con can y can't.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Sabes nadar? ¿Sabes tocar la guitarra? En inglés se pregunta con una sola palabra: can."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Can you swim, Lucy?",
+        "es": "¿Sabes nadar, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, I can. I can swim very well. But I can't play the guitar.",
+        "es": "Sí. Nado muy bien. Pero no sé tocar la guitarra."
+      },
+      {
+        "speaker": "Sam",
+        "text": "I can't swim, but I can play the guitar. Can you sing?",
+        "es": "Yo no sé nadar, pero sé tocar la guitarra. ¿Sabes cantar?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, I can't. Can you dance?",
+        "es": "No. ¿Sabes bailar?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes, I can!",
+        "es": "¡Sí!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-can",
+        "lemma": "can",
+        "pos": "aux",
+        "ipa": "/kæn/",
+        "es": "poder, saber (habilidad)",
+        "example": "I can swim."
+      },
+      {
+        "id": "en-can-t",
+        "lemma": "can't",
+        "pos": "aux",
+        "ipa": "/kɑːnt/",
+        "es": "no poder, no saber",
+        "example": "I can't dance."
+      },
+      {
+        "id": "en-well",
+        "lemma": "well",
+        "pos": "adv",
+        "ipa": "/wel/",
+        "es": "bien",
+        "example": "I can swim very well."
+      },
+      {
+        "id": "en-very",
+        "lemma": "very",
+        "pos": "adv",
+        "ipa": "/ˈveri/",
+        "es": "muy",
+        "example": "She can sing very well."
+      }
+    ],
+    "audio_script_id": "en-a1-u09-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**can** = poder / saber (hacer algo). Es igual para todas las personas y **no lleva -s**.\n\n| | Ejemplo |\n|---|---|\n| + | I can swim. · She can swim. |\n| − | I can't swim. (can't = cannot) |\n| ? | Can you swim? |\n\n**Respuestas cortas:** *Yes, I can. / No, I can't.*\n\nDespués de *can* va el verbo en forma base: **sin *to***: *I can cook* (no *I can to cook*).\n\nPronunciación: *can* suena débil /kən/; *can't* suena fuerte y largo /kɑːnt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She cans swim.",
+        "right": "She can swim.",
+        "note": "Can no cambia ni lleva -s."
+      },
+      {
+        "wrong": "I can to swim.",
+        "right": "I can swim.",
+        "note": "Después de can no va to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ swim. (puede)",
+      "answer": [
+        "can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can es igual para todas las personas.",
+        "incorrect": "Revisa esto: Can es igual para todas las personas."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ play the guitar. (no puedo)",
+      "answer": [
+        "can't",
+        "cannot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: can't.",
+        "incorrect": "Revisa esto: Negativa: can't."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "swim",
+        "?",
+        "Can",
+        "you"
+      ],
+      "answer": [
+        "Can",
+        "you",
+        "swim",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Can + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you sing? — ___",
+      "options": [
+        "No, I can't.",
+        "No, I don't.",
+        "No, I'm not.",
+        "No, I can't to."
+      ],
+      "answer": [
+        "No, I can't."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta repite can / can't.",
+        "incorrect": "Revisa esto: La respuesta corta repite can / can't."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He cans dance.",
+      "answer": [
+        "He can dance."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can no lleva -s.",
+        "incorrect": "Revisa esto: Can no lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I can to cook.",
+      "answer": [
+        "I can cook."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de can no va to.",
+        "incorrect": "Revisa esto: Después de can no va to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué NO sabe hacer Lucy?",
+      "options": [
+        "Tocar la guitarra",
+        "Nadar",
+        "Cocinar",
+        "Leer"
+      ],
+      "answer": [
+        "Tocar la guitarra"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'I can't play the guitar'.",
+        "incorrect": "Revisa esto: Lucy dice 'I can't play the guitar'."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO sabe hacer la persona?",
+      "options": [
+        "Dance",
+        "Swim",
+        "Sing",
+        "Cook"
+      ],
+      "answer": [
+        "Dance"
+      ],
+      "audio_text": "I can swim, but I can't dance.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I can't dance'.",
+        "incorrect": "Revisa esto: Dice 'I can't dance'."
+      },
+      "audio_script_id": "en-a1-u09-l02-ex08-a"
+    },
+    {
+      "id": "en-a1-u09-l02-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Puedo cocinar.",
+      "answer": [
+        "I can cook."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can + verbo base.",
+        "incorrect": "Revisa esto: Can + verbo base."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 3 frases: dos cosas que puedes hacer y una que no puedes hacer.",
+      "min_words": 8,
+      "self_check_es": [
+        "¿Usaste can + verbo base?",
+        "¿Usaste can't en la frase negativa?",
+        "¿Evitaste poner 'to' después de can?"
+      ],
+      "model_answer": "I can swim. I can cook. I can't dance.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u09-l02-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "can",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "I can swim.",
+          "ipa": "/aɪ kən ˈswɪm/",
+          "tip_es": "Can se debilita: 'kən'."
+        },
+        {
+          "text": "I can't swim.",
+          "ipa": "/aɪ ˈkɑːnt ˈswɪm/",
+          "tip_es": "Can't suena fuerte y largo: 'kaant'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I can swim. · I can't dance.",
+      "Can you swim? — Yes, I can.",
+      "can + verbo base (sin to, sin -s)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-can"
+    },
+    {
+      "type": "vocab",
+      "id": "en-can-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-well"
+    },
+    {
+      "type": "vocab",
+      "id": "en-very"
+    },
+    {
+      "type": "grammar",
+      "id": "en-can-ability"
+    }
+  ]
+}

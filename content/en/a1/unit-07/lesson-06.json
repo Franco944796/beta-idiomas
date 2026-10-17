@@ -1,0 +1,337 @@
+{
+  "id": "en-a1-u07-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 7",
+    "es": "Repaso y checkpoint 7"
+  },
+  "objective": "Al terminar demuestras que puedes pedir y dar direcciones y moverte por una ciudad en inglés.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: ayuda a un turista a llegar a su destino."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: lugares de la ciudad, Where is…?, direcciones, transportes con by / on foot y el imperativo.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *bank, library, station, post office, cinema*\n- *Where's the bank? · It's next to / opposite / near …*\n- *How do I get to …? · Go straight on · Turn left · Take the second right*\n- *by bus · by car · on foot*\n- *Excuse me · Don't turn left · Please wait here*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l06-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bank",
+          "right": "banco"
+        },
+        {
+          "left": "library",
+          "right": "biblioteca"
+        },
+        {
+          "left": "station",
+          "right": "estación"
+        },
+        {
+          "left": "park",
+          "right": "parque"
+        },
+        {
+          "left": "school",
+          "right": "escuela"
+        },
+        {
+          "left": "post office",
+          "right": "correo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa los lugares.",
+        "incorrect": "Revisa esto: Repasa los lugares."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ the bank?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un solo lugar: Where is…?",
+        "incorrect": "Revisa esto: Con un solo lugar: Where is…?"
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Turn ___ at the traffic lights. (a la derecha)",
+      "answer": [
+        "right"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Derecha = right.",
+        "incorrect": "Revisa esto: Derecha = right."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to left at the corner.",
+      "answer": [
+        "Turn left at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa 'to'.",
+        "incorrect": "Revisa esto: No se usa 'to'."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "I go to work ___ bus.",
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con transporte se usa by.",
+        "incorrect": "Revisa esto: Con transporte se usa by."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He goes to school by foot.",
+      "answer": [
+        "He goes to school on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para pedir direcciones.",
+        "incorrect": "Revisa esto: Pregunta para pedir direcciones."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el museo?",
+      "options": [
+        "On the right",
+        "On the left",
+        "Behind the lights",
+        "Next to the bank"
+      ],
+      "answer": [
+        "On the right"
+      ],
+      "audio_text": "Go straight on. Turn left at the traffic lights. The museum is on your right.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The museum is on your right'.",
+        "incorrect": "Revisa esto: Dice 'The museum is on your right'."
+      },
+      "audio_script_id": "en-a1-u07-l06-ex08-a"
+    },
+    {
+      "id": "en-a1-u07-l06-ex09",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 15,
+      "prompt": "'No turn left' es una orden correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa Don't: Don't turn left.",
+        "incorrect": "Revisa esto: Se usa Don't: Don't turn left."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Explica en 4 frases cómo llegar desde tu casa a un lugar cercano (banco, parque, estación…).",
+      "min_words": 15,
+      "self_check_es": [
+        "¿Usaste verbos en imperativo (Go, Turn, Take)?",
+        "¿Usaste left / right con 'on your'?",
+        "¿Nombraste un lugar de la ciudad?"
+      ],
+      "model_answer": "Go straight on. Turn left at the traffic lights. Take the second right. The park is on your left.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u07-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un turista te pide ayuda.",
+      "turns": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, how do I get to the station?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Go straight on and turn left.",
+            "Go straight and left turn.",
+            "You are straight."
+          ],
+          "best": 0,
+          "why_es": "Imperativo: Go straight on and turn left."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Is it far?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, it's near.",
+            "No, it near.",
+            "No, is far not."
+          ],
+          "best": 0,
+          "why_es": "Respuesta con it's + near."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How do I get to …?",
+      "Go straight on · Turn left / right",
+      "by bus · on foot",
+      "Don't turn left."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-directions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-imperatives"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

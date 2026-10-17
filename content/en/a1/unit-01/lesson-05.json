@@ -1,0 +1,385 @@
+{
+  "id": "en-a1-u01-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "How old are you?",
+    "es": "¿Cuántos años tienes?"
+  },
+  "objective": "Al terminar puedes preguntar y decir la edad, y conoces I am / you are.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español 'tenemos' años. ¿Qué verbo crees que usa el inglés para la edad?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "How old are you, Lucy?",
+        "es": "¿Cuántos años tienes, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I'm twenty-five. How old are you?",
+        "es": "Tengo veinticinco. ¿Y tú?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "I'm twenty.",
+        "es": "Tengo veinte."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "You're young! My brother is thirty.",
+        "es": "¡Eres joven! Mi hermano tiene treinta."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-old",
+        "lemma": "old",
+        "pos": "adj",
+        "ipa": "/əʊld/",
+        "es": "viejo; (edad) de años",
+        "example": "How old are you?"
+      },
+      {
+        "id": "en-how-old-are-you",
+        "lemma": "how old are you?",
+        "pos": "phrase",
+        "ipa": "/ˌhaʊ ˈəʊld ə ju/",
+        "es": "¿cuántos años tienes?",
+        "example": "How old are you, Lucy?"
+      },
+      {
+        "id": "en-years-old",
+        "lemma": "years old",
+        "pos": "phrase",
+        "ipa": "/jɪəz əʊld/",
+        "es": "años de edad",
+        "example": "I'm twenty years old."
+      },
+      {
+        "id": "en-young",
+        "lemma": "young",
+        "pos": "adj",
+        "ipa": "/jʌŋ/",
+        "es": "joven",
+        "example": "You're young!"
+      },
+      {
+        "id": "en-twenty-five",
+        "lemma": "twenty-five",
+        "pos": "num",
+        "ipa": "/ˌtwenti ˈfaɪv/",
+        "es": "veinticinco",
+        "example": "I'm twenty-five."
+      },
+      {
+        "id": "en-thirty",
+        "lemma": "thirty",
+        "pos": "num",
+        "ipa": "/ˈθɜːti/",
+        "es": "treinta",
+        "example": "My brother is thirty."
+      }
+    ],
+    "audio_script_id": "en-a1-u01-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**La edad se dice con *to be*, no con *have*:** *I'm 20* (literalmente 'soy 20').\n\n| Sujeto | to be | Forma corta |\n|---|---|---|\n| I | am | I'm |\n| you | are | you're |\n\n**Pregunta:** *How old are you?* **Respuesta:** *I'm 20.* o *I'm 20 years old.*\n\nNúmeros compuestos: *twenty-one, twenty-two… twenty-nine*. Verás todos los números en la Unidad 8.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have 25 years.",
+        "right": "I'm 25. / I'm 25 years old.",
+        "note": "La edad se dice con 'to be' (ser/estar), no con 'tener'."
+      },
+      {
+        "wrong": "How many years do you have?",
+        "right": "How old are you?",
+        "note": "Es una traducción literal que en inglés no se usa."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pregunta la edad?",
+      "options": [
+        "How old are you?",
+        "How many years have you?",
+        "What age are you?",
+        "How are you old?"
+      ],
+      "answer": [
+        "How old are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La pregunta natural es 'How old are you?'.",
+        "incorrect": "Revisa esto: La pregunta natural es 'How old are you?'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿cuántos años tiene Lucy?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "15"
+      ],
+      "answer": [
+        "25"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'I'm twenty-five'.",
+        "incorrect": "Revisa esto: Lucy dice 'I'm twenty-five'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be",
+        "age"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ twenty years old.",
+      "answer": [
+        "am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be': I am (I'm).",
+        "incorrect": "Revisa esto: La edad se dice con 'to be': I am (I'm)."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 20 years.",
+      "answer": [
+        "I'm 20.",
+        "I am 20.",
+        "I'm 20 years old.",
+        "I am 20 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés la edad se dice con 'to be', no con 'have'.",
+        "incorrect": "Revisa esto: En inglés la edad se dice con 'to be', no con 'have'."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "age"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "you",
+        "?",
+        "How",
+        "old"
+      ],
+      "answer": [
+        "How",
+        "old",
+        "are",
+        "you",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de la edad.",
+        "incorrect": "Revisa esto: Pregunta de la edad."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo 18 años.",
+      "answer": [
+        "I'm 18.",
+        "I am 18.",
+        "I'm eighteen.",
+        "I am eighteen.",
+        "I'm 18 years old.",
+        "I am 18 years old.",
+        "I'm eighteen years old.",
+        "I am eighteen years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Edad = to be + número.",
+        "incorrect": "Revisa esto: Edad = to be + número."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "age"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué edad tiene la persona?",
+      "options": [
+        "13",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": [
+        "16"
+      ],
+      "audio_text": "I'm sixteen years old.",
+      "feedback": {
+        "correct": "¡Correcto! 'sixteen' = 16; el acento está en -teen.",
+        "incorrect": "Revisa esto: 'sixteen' = 16; el acento está en -teen."
+      },
+      "audio_script_id": "en-a1-u01-l05-ex07-a"
+    },
+    {
+      "id": "en-a1-u01-l05-ex08",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 2 frases: tu nombre y tu edad (puedes inventarlos).",
+      "min_words": 8,
+      "self_check_es": [
+        "¿Empiezas con un saludo?",
+        "¿Usaste 'My name is…' o 'I'm…'?",
+        "¿Usaste 'I'm' (no 'I have') para la edad?"
+      ],
+      "model_answer": "Hi! My name is Ana. I'm 28 years old.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u01-l05-ex09",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "How old are you?",
+          "ipa": "/haʊ əʊld ə juː/",
+          "tip_es": "'old' suena 'ould'."
+        },
+        {
+          "text": "I'm sixteen.",
+          "ipa": "/aɪm ˌsɪksˈtiːn/",
+          "tip_es": "El acento va en -teen."
+        },
+        {
+          "text": "You're young!",
+          "ipa": "/jɔː ˈjʌŋ/",
+          "tip_es": "'young' suena 'yang'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How old are you?",
+      "I'm … (years old).",
+      "I am / I'm · you are / you're",
+      "twenty-one … twenty-nine, thirty"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-old"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-old-are-you"
+    },
+    {
+      "type": "vocab",
+      "id": "en-years-old"
+    },
+    {
+      "type": "vocab",
+      "id": "en-young"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twenty-five"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thirty"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-i-am"
+    }
+  ]
+}

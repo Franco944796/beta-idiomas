@@ -1,0 +1,342 @@
+{
+  "id": "en-a1-u08-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 8,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 8",
+    "es": "Repaso y checkpoint 8"
+  },
+  "objective": "Al terminar demuestras que puedes comprar ropa y hablar de precios y cantidades en inglés.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: compra, paga y pregunta como en una tienda real."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: números del 21 al 1000, How much is / are…?, ropa y wear, this / that / these / those, y frases de tienda.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *thirty-five · ninety · one hundred and fifty · one thousand*\n- *How much is it? · How much are they? · two pounds fifty*\n- *shirt, trousers, jeans, dress · She wears …*\n- *this / these (cerca) · that / those (lejos)*\n- *I'm looking for … · Can I try it on? · I'll take it.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u08-l06-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa -teen y -ty.",
+        "incorrect": "Revisa esto: Repasa -teen y -ty."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'eighty'?",
+      "options": [
+        "80",
+        "18",
+        "8",
+        "88"
+      ],
+      "answer": [
+        "80"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eighty = 80.",
+        "incorrect": "Revisa esto: Eighty = 80."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the shoes?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: How much are…?",
+        "incorrect": "Revisa esto: Shoes es plural: How much are…?"
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's ten pound.",
+      "answer": [
+        "It's ten pounds."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las monedas llevan -s.",
+        "incorrect": "Revisa esto: Las monedas llevan -s."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ shoes are black. (cerca, plural)",
+      "options": [
+        "These",
+        "This",
+        "That",
+        "Those"
+      ],
+      "answer": [
+        "These"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cerca y plural: these.",
+        "incorrect": "Revisa esto: Cerca y plural: these."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I use jeans every day.",
+      "answer": [
+        "I wear jeans every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para ropa se usa wear.",
+        "incorrect": "Revisa esto: Para ropa se usa wear."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "try",
+        "it",
+        "on",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "try",
+        "it",
+        "on",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para probarse ropa.",
+        "incorrect": "Revisa esto: Pregunta para probarse ropa."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta la chaqueta?",
+      "options": [
+        "£60",
+        "£16",
+        "£40",
+        "£14"
+      ],
+      "answer": [
+        "£60"
+      ],
+      "audio_text": "These shoes are forty pounds, and that jacket is sixty pounds.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'that jacket is sixty pounds'.",
+        "incorrect": "Revisa esto: Dice 'that jacket is sixty pounds'."
+      },
+      "audio_script_id": "en-a1-u08-l06-ex08-a"
+    },
+    {
+      "id": "en-a1-u08-l06-ex09",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 15,
+      "prompt": "'How much costs this bag?' es una pregunta correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice 'How much is this bag?'.",
+        "incorrect": "Revisa esto: Se dice 'How much is this bag?'."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "clothes",
+        "shopping"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 4 frases: qué ropa llevas hoy, de qué color es y qué quieres comprar.",
+      "min_words": 18,
+      "self_check_es": [
+        "¿Usaste wear para la ropa?",
+        "¿Pusiste colores antes del sustantivo?",
+        "¿Usaste I'm looking for o un precio?"
+      ],
+      "model_answer": "I wear blue jeans and a white T-shirt. My shoes are black. I'm looking for a grey jacket. It's forty pounds.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u08-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una tienda de ropa.",
+      "turns": [
+        {
+          "speaker": "Assistant",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. I'm looking for a jacket.",
+            "Yes, I look for jacket.",
+            "Yes, I want jacket."
+          ],
+          "best": 0,
+          "why_es": "I'm looking for + prenda."
+        },
+        {
+          "speaker": "Assistant",
+          "text": "What size are you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm medium.",
+            "I have medium.",
+            "I medium."
+          ],
+          "best": 0,
+          "why_es": "El talle se dice con to be: I'm medium."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How much is it? / How much are they?",
+      "this / these · that / those",
+      "I'm looking for … · I'll take it.",
+      "thirty vs thirteen"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-numbers-21-1000"
+    },
+    {
+      "type": "grammar",
+      "id": "en-this-that-these-those"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

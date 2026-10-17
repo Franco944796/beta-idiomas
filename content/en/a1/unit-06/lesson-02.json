@@ -1,0 +1,316 @@
+{
+  "id": "en-a1-u06-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 6,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "There is, there are",
+    "es": "There is / There are"
+  },
+  "objective": "Al terminar dices qué hay (y qué no hay) en un lugar con there is y there are.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "En español usamos 'hay' para todo. ¿Cómo distingue el inglés entre uno y varios?"
+  },
+  "input": {
+    "type": "text",
+    "text": "There's a big kitchen in my flat. There are two bedrooms. There isn't a garden, but there are two windows in the living room. Is there a sofa? Yes, there is.",
+    "es": "Hay una cocina grande en mi piso. Hay dos dormitorios. No hay jardín, pero hay dos ventanas en la sala. ¿Hay un sofá? Sí, hay.",
+    "glossary": [
+      {
+        "id": "en-there-is",
+        "lemma": "there is",
+        "pos": "phrase",
+        "ipa": "/ðeər ˈɪz/",
+        "es": "hay (singular)",
+        "example": "There's a sofa."
+      },
+      {
+        "id": "en-there-are",
+        "lemma": "there are",
+        "pos": "phrase",
+        "ipa": "/ðeər ˈɑː/",
+        "es": "hay (plural)",
+        "example": "There are two chairs."
+      },
+      {
+        "id": "en-big",
+        "lemma": "big",
+        "pos": "adj",
+        "ipa": "/bɪɡ/",
+        "es": "grande",
+        "example": "There's a big kitchen."
+      },
+      {
+        "id": "en-small",
+        "lemma": "small",
+        "pos": "adj",
+        "ipa": "/smɔːl/",
+        "es": "pequeño/a",
+        "example": "The bedroom is small."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**There is** (there's) + singular → *There's a sofa.*\n**There are** + plural → *There are two chairs.*\n\n| | Singular | Plural |\n|---|---|---|\n| + | There is a lamp. | There are two lamps. |\n| − | There isn't a lamp. | There aren't any lamps. |\n| ? | Is there a lamp? | Are there any lamps? |\n\n**Respuestas cortas:** *Yes, there is. / No, there isn't. · Yes, there are. / No, there aren't.*\n\nEn español 'hay' es un solo verbo; en inglés **no se omite there** y **no se usa *have***: *There are two bedrooms* (no *Have two bedrooms*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "In my flat have two bedrooms.",
+        "right": "There are two bedrooms in my flat.",
+        "note": "'Hay' = there is / there are, no 'have'."
+      },
+      {
+        "wrong": "There is two chairs.",
+        "right": "There are two chairs.",
+        "note": "Con plural, there are."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u06-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ a sofa in the living room.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: there is (there's).",
+        "incorrect": "Revisa esto: Singular: there is (there's)."
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ two chairs in the kitchen.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ there a garden? — No, there isn't.",
+      "answer": [
+        "Is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en singular: Is there…?",
+        "incorrect": "Revisa esto: Pregunta en singular: Is there…?"
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 20,
+      "prompt": "There ___ any windows in the bathroom.",
+      "options": [
+        "aren't",
+        "isn't",
+        "not",
+        "don't"
+      ],
+      "answer": [
+        "aren't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural negativo: there aren't any…",
+        "incorrect": "Revisa esto: Plural negativo: there aren't any…"
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In my flat have two bedrooms.",
+      "answer": [
+        "There are two bedrooms in my flat.",
+        "In my flat there are two bedrooms."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'hay' se usa there are, no have.",
+        "incorrect": "Revisa esto: Para 'hay' se usa there are, no have."
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There is two chairs.",
+      "answer": [
+        "There are two chairs."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con plural se usa there are.",
+        "incorrect": "Revisa esto: Con plural se usa there are."
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "garden",
+        "in",
+        "your",
+        "flat",
+        "?",
+        "Is",
+        "there"
+      ],
+      "answer": [
+        "Is",
+        "there",
+        "a",
+        "garden",
+        "in",
+        "your",
+        "flat",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is there + sustantivo singular?",
+        "incorrect": "Revisa esto: Is there + sustantivo singular?"
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cuántos dormitorios hay?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": [
+        "2"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'There are two bedrooms'.",
+        "incorrect": "Revisa esto: El texto dice 'There are two bedrooms'."
+      }
+    },
+    {
+      "id": "en-a1-u06-l02-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas sillas hay?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "There's a lamp and there are two chairs in the room.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'there are two chairs'.",
+        "incorrect": "Revisa esto: Dice 'there are two chairs'."
+      },
+      "audio_script_id": "en-a1-u06-l02-ex09-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "There's a … / There are two …",
+      "There isn't a … / There aren't any …",
+      "Is there a …? Yes, there is."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-there-is"
+    },
+    {
+      "type": "vocab",
+      "id": "en-there-are"
+    },
+    {
+      "type": "vocab",
+      "id": "en-big"
+    },
+    {
+      "type": "vocab",
+      "id": "en-small"
+    },
+    {
+      "type": "grammar",
+      "id": "en-there-is-are"
+    }
+  ]
+}

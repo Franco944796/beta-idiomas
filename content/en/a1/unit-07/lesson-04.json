@@ -1,0 +1,428 @@
+{
+  "id": "en-a1-u07-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Transport",
+    "es": "Medios de transporte"
+  },
+  "objective": "Al terminar dices cómo vas a los lugares con by y on foot.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo vas al trabajo o a la escuela? Aprende cómo se dice en inglés."
+  },
+  "input": {
+    "type": "text",
+    "text": "Lucy goes to work by bus. Sam goes by train. Tom goes by car. Anna goes by bike. I walk to school.",
+    "es": "Lucy va al trabajo en autobús. Sam va en tren. Tom va en auto. Anna va en bicicleta. Yo camino a la escuela.",
+    "glossary": [
+      {
+        "id": "en-bus",
+        "lemma": "bus",
+        "pos": "noun",
+        "ipa": "/bʌs/",
+        "es": "autobús",
+        "example": "I go to work by bus."
+      },
+      {
+        "id": "en-train",
+        "lemma": "train",
+        "pos": "noun",
+        "ipa": "/treɪn/",
+        "es": "tren",
+        "example": "She goes by train."
+      },
+      {
+        "id": "en-car",
+        "lemma": "car",
+        "pos": "noun",
+        "ipa": "/kɑː/",
+        "es": "auto, coche",
+        "example": "He goes by car."
+      },
+      {
+        "id": "en-taxi",
+        "lemma": "taxi",
+        "pos": "noun",
+        "ipa": "/ˈtæksi/",
+        "es": "taxi",
+        "example": "We go to the station by taxi."
+      },
+      {
+        "id": "en-bike",
+        "lemma": "bike",
+        "pos": "noun",
+        "ipa": "/baɪk/",
+        "es": "bicicleta",
+        "example": "Anna goes by bike."
+      },
+      {
+        "id": "en-underground",
+        "lemma": "underground",
+        "pos": "noun",
+        "ipa": "/ˈʌndəɡraʊnd/",
+        "es": "metro (inglés británico)",
+        "example": "I go by underground."
+      },
+      {
+        "id": "en-walk",
+        "lemma": "walk",
+        "pos": "verb",
+        "ipa": "/wɔːk/",
+        "es": "caminar",
+        "example": "I walk to school."
+      },
+      {
+        "id": "en-on-foot",
+        "lemma": "on foot",
+        "pos": "phrase",
+        "ipa": "/ɒn ˈfʊt/",
+        "es": "a pie",
+        "example": "I go to school on foot."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**by + transporte** (sin artículo): *by bus · by train · by car · by taxi · by bike · by underground*.\n\n**A pie:** *on foot* o *walk*: *I go to school on foot.* = *I walk to school.*\n\n**Pregunta:** *How do you go to work?*\n\nNo se dice *by the bus* ni *by foot*.\n\nPronunciación: *walk* → 'uók' (la l no se pronuncia).",
+    "common_mistakes_es": [
+      {
+        "wrong": "by the bus",
+        "right": "by bus",
+        "note": "Con by no se usa artículo."
+      },
+      {
+        "wrong": "by foot",
+        "right": "on foot",
+        "note": "A pie se dice 'on foot'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l04-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada medio de transporte con su significado.",
+      "pairs": [
+        {
+          "left": "bus",
+          "right": "autobús"
+        },
+        {
+          "left": "train",
+          "right": "tren"
+        },
+        {
+          "left": "car",
+          "right": "auto"
+        },
+        {
+          "left": "bike",
+          "right": "bicicleta"
+        },
+        {
+          "left": "underground",
+          "right": "metro"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los transportes más comunes.",
+        "incorrect": "Revisa esto: Son los transportes más comunes."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "I go to work ___ bus.",
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con transporte se usa by.",
+        "incorrect": "Revisa esto: Con transporte se usa by."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "She goes to school ___ foot.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'ir en bicicleta'?",
+      "options": [
+        "go by bike",
+        "go with bike",
+        "go on bike",
+        "go in bike"
+      ],
+      "answer": [
+        "go by bike"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By + transporte: go by bike.",
+        "incorrect": "Revisa esto: By + transporte: go by bike."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to work by the bus.",
+      "answer": [
+        "I go to work by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con by no se usa artículo.",
+        "incorrect": "Revisa esto: Con by no se usa artículo."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He goes to school by foot.",
+      "answer": [
+        "He goes to school on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿cómo va Sam al trabajo?",
+      "options": [
+        "By train",
+        "By bus",
+        "By car",
+        "By bike"
+      ],
+      "answer": [
+        "By train"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Sam goes by train'.",
+        "incorrect": "Revisa esto: El texto dice 'Sam goes by train'."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo va el hermano?",
+      "options": [
+        "By car",
+        "By train",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By car"
+      ],
+      "audio_text": "I go to work by train, but my brother goes by car.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my brother goes by car'.",
+        "incorrect": "Revisa esto: Dice 'my brother goes by car'."
+      },
+      "audio_script_id": "en-a1-u07-l04-ex08-a"
+    },
+    {
+      "id": "en-a1-u07-l04-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "go",
+        "to",
+        "work",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "you",
+        "go",
+        "to",
+        "work",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How + do + sujeto + go?",
+        "incorrect": "Revisa esto: How + do + sujeto + go?"
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy al trabajo en autobús.",
+      "answer": [
+        "I go to work by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En autobús = by bus.",
+        "incorrect": "Revisa esto: En autobús = by bus."
+      }
+    },
+    {
+      "id": "en-a1-u07-l04-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "transport",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "bus",
+          "ipa": "/bʌs/",
+          "tip_es": "Vocal corta: 'bas'."
+        },
+        {
+          "text": "train",
+          "ipa": "/treɪn/",
+          "tip_es": "Suena 'trein'."
+        },
+        {
+          "text": "walk",
+          "ipa": "/wɔːk/",
+          "tip_es": "La l no se pronuncia."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "by bus · by train · by car · by bike",
+      "on foot / walk",
+      "How do you go to work?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-bus"
+    },
+    {
+      "type": "vocab",
+      "id": "en-train"
+    },
+    {
+      "type": "vocab",
+      "id": "en-car"
+    },
+    {
+      "type": "vocab",
+      "id": "en-taxi"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bike"
+    },
+    {
+      "type": "vocab",
+      "id": "en-underground"
+    },
+    {
+      "type": "vocab",
+      "id": "en-walk"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-foot"
+    }
+  ]
+}

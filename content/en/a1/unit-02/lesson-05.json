@@ -1,0 +1,373 @@
+{
+  "id": "en-a1-u02-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What do you do?",
+    "es": "Profesiones y a/an"
+  },
+  "objective": "Al terminar preguntas y dices tu profesión usando a / an.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español decimos 'soy médico'. ¿Crees que en inglés falta o sobra algo?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "What do you do, Carlos?",
+        "es": "¿A qué te dedicas, Carlos?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "I'm an engineer. And you?",
+        "es": "Soy ingeniero. ¿Y tú?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "I'm a teacher. Tom is a nurse.",
+        "es": "Soy profesora. Tom es enfermero."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Really? Nice!",
+        "es": "¿En serio? ¡Qué bien!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-job",
+        "lemma": "job",
+        "pos": "noun",
+        "ipa": "/dʒɒb/",
+        "es": "trabajo, empleo",
+        "example": "What's your job?"
+      },
+      {
+        "id": "en-what-do-you-do",
+        "lemma": "what do you do?",
+        "pos": "phrase",
+        "ipa": "/ˌwɒt də ju ˈduː/",
+        "es": "¿a qué te dedicas?",
+        "example": "What do you do?"
+      },
+      {
+        "id": "en-doctor",
+        "lemma": "doctor",
+        "pos": "noun",
+        "ipa": "/ˈdɒktə/",
+        "es": "médico/a",
+        "example": "She's a doctor."
+      },
+      {
+        "id": "en-nurse",
+        "lemma": "nurse",
+        "pos": "noun",
+        "ipa": "/nɜːs/",
+        "es": "enfermero/a",
+        "example": "Tom is a nurse."
+      },
+      {
+        "id": "en-engineer",
+        "lemma": "engineer",
+        "pos": "noun",
+        "ipa": "/ˌendʒɪˈnɪə/",
+        "es": "ingeniero/a",
+        "example": "I'm an engineer."
+      },
+      {
+        "id": "en-waiter",
+        "lemma": "waiter",
+        "pos": "noun",
+        "ipa": "/ˈweɪtə/",
+        "es": "camarero/a",
+        "example": "He's a waiter."
+      },
+      {
+        "id": "en-driver",
+        "lemma": "driver",
+        "pos": "noun",
+        "ipa": "/ˈdraɪvə/",
+        "es": "conductor/a",
+        "example": "My father is a driver."
+      },
+      {
+        "id": "en-really",
+        "lemma": "really",
+        "pos": "adv",
+        "ipa": "/ˈrɪəli/",
+        "es": "¿en serio?; realmente",
+        "example": "Really? That's nice!"
+      },
+      {
+        "id": "en-a",
+        "lemma": "a",
+        "pos": "det",
+        "ipa": "/ə/",
+        "es": "un, una",
+        "example": "She's a teacher."
+      },
+      {
+        "id": "en-an",
+        "lemma": "an",
+        "pos": "det",
+        "ipa": "/ən/",
+        "es": "un, una (antes de vocal)",
+        "example": "I'm an engineer."
+      }
+    ],
+    "audio_script_id": "en-a1-u02-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**What do you do?** = ¿A qué te dedicas? Respuesta: *I'm a / an + profesión.*\n\n**a** antes de sonido de consonante: *a teacher, a nurse*.\n**an** antes de sonido de vocal: *an engineer*.\n\nImporta el **sonido**, no la letra: *a university* (empieza con sonido /j/), *an hour* (la h no se pronuncia).\n\nEn español omitimos el artículo (*soy médico*); en inglés es obligatorio: *I'm a doctor*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm teacher.",
+        "right": "I'm a teacher.",
+        "note": "En español omitimos el artículo; en inglés es obligatorio."
+      },
+      {
+        "wrong": "I'm a engineer.",
+        "right": "I'm an engineer.",
+        "note": "Antes de sonido de vocal se usa 'an'."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ engineer.",
+      "answer": [
+        "an"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'engineer' empieza con sonido de vocal: an.",
+        "incorrect": "Revisa esto: 'engineer' empieza con sonido de vocal: an."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's ___ teacher.",
+      "answer": [
+        "a"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'teacher' empieza con sonido de consonante: a.",
+        "incorrect": "Revisa esto: 'teacher' empieza con sonido de consonante: a."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She's a nurse.",
+        "She's nurse.",
+        "She's an nurse.",
+        "She nurse."
+      ],
+      "answer": [
+        "She's a nurse."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se necesita el artículo 'a' antes de una profesión.",
+        "incorrect": "Revisa esto: Se necesita el artículo 'a' antes de una profesión."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm teacher.",
+      "answer": [
+        "I'm a teacher.",
+        "I am a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el artículo es obligatorio.",
+        "incorrect": "Revisa esto: En inglés el artículo es obligatorio."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada profesión con su significado.",
+      "pairs": [
+        {
+          "left": "teacher",
+          "right": "profesor/a"
+        },
+        {
+          "left": "doctor",
+          "right": "médico/a"
+        },
+        {
+          "left": "nurse",
+          "right": "enfermero/a"
+        },
+        {
+          "left": "waiter",
+          "right": "camarero/a"
+        },
+        {
+          "left": "driver",
+          "right": "conductor/a"
+        },
+        {
+          "left": "engineer",
+          "right": "ingeniero/a"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las profesiones de la lección.",
+        "incorrect": "Revisa esto: Son las profesiones de la lección."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "jobs"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "do",
+        "?",
+        "What",
+        "do"
+      ],
+      "answer": [
+        "What",
+        "do",
+        "you",
+        "do",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre la profesión.",
+        "incorrect": "Revisa esto: Pregunta sobre la profesión."
+      }
+    },
+    {
+      "id": "en-a1-u02-l05-ex07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "jobs"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy médico.",
+      "answer": [
+        "I'm a doctor.",
+        "I am a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Profesión: I'm + a/an + trabajo.",
+        "incorrect": "Revisa esto: Profesión: I'm + a/an + trabajo."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What do you do?",
+      "I'm a teacher. / I'm an engineer.",
+      "a + consonante · an + vocal"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-job"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-do-you-do"
+    },
+    {
+      "type": "vocab",
+      "id": "en-doctor"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nurse"
+    },
+    {
+      "type": "vocab",
+      "id": "en-engineer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-waiter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-driver"
+    },
+    {
+      "type": "vocab",
+      "id": "en-really"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a"
+    },
+    {
+      "type": "vocab",
+      "id": "en-an"
+    },
+    {
+      "type": "grammar",
+      "id": "en-articles-a-an"
+    }
+  ]
+}

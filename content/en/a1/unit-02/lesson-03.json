@@ -1,0 +1,292 @@
+{
+  "id": "en-a1-u02-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 2,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "We, you, they",
+    "es": "We, you, they: to be completo"
+  },
+  "objective": "Al terminar conjugas to be completo y usas we, you y they.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Ya sabes I, you, he, she, it. ¿Cómo dirías 'nosotros somos' y 'ellos son'?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Hi! I'm Carlos and this is Laura. We're friends. We're students. Anna and Tom are English. They're teachers. And you? You're a student, too!",
+    "es": "¡Hola! Soy Carlos y esta es Laura. Somos amigos. Somos estudiantes. Anna y Tom son ingleses. Son profesores. ¿Y tú? ¡Tú también eres estudiante!",
+    "glossary": [
+      {
+        "id": "en-we",
+        "lemma": "we",
+        "pos": "pron",
+        "ipa": "/wiː/",
+        "es": "nosotros/as",
+        "example": "We're friends."
+      },
+      {
+        "id": "en-they",
+        "lemma": "they",
+        "pos": "pron",
+        "ipa": "/ðeɪ/",
+        "es": "ellos/as",
+        "example": "They're teachers."
+      },
+      {
+        "id": "en-and",
+        "lemma": "and",
+        "pos": "conj",
+        "ipa": "/ænd/",
+        "es": "y",
+        "example": "Anna and Tom are English."
+      },
+      {
+        "id": "en-too",
+        "lemma": "too",
+        "pos": "adv",
+        "ipa": "/tuː/",
+        "es": "también",
+        "example": "I'm a student, too."
+      },
+      {
+        "id": "en-student",
+        "lemma": "student",
+        "pos": "noun",
+        "ipa": "/ˈstjuːdnt/",
+        "es": "estudiante",
+        "example": "She's a student."
+      },
+      {
+        "id": "en-teacher",
+        "lemma": "teacher",
+        "pos": "noun",
+        "ipa": "/ˈtiːtʃə/",
+        "es": "profesor/a",
+        "example": "He's a teacher."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "| Sujeto | to be | Forma corta |\n|---|---|---|\n| I | am | I'm |\n| you | are | you're |\n| he / she / it | is | he's / she's / it's |\n| we | are | we're |\n| you | are | you're |\n| they | are | they're |\n\n**you** sirve para una persona o para varias: no existe 'ustedes/vosotros' en inglés.\n\nPronunciación: *we're* /wɪə/ · *you're* /jɔː/ · *they're* /ðeə/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "They is from Brazil.",
+        "right": "They are from Brazil.",
+        "note": "'they' va con 'are'."
+      },
+      {
+        "wrong": "Buscar un 'ustedes' o 'vosotros' en inglés",
+        "right": "you are (una persona o varias)",
+        "note": "En inglés 'you' sirve para una persona o para varias."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u02-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are English. ___ are teachers.",
+      "answer": [
+        "They"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos personas ajenas a la conversación: they.",
+        "incorrect": "Revisa esto: Dos personas ajenas a la conversación: they."
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura and I are friends. ___ are students.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Laura and I' = we.",
+        "incorrect": "Revisa esto: 'Laura and I' = we."
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 20,
+      "prompt": "You and Ben are my friends. ___ are my friends.",
+      "options": [
+        "You",
+        "We",
+        "They",
+        "He"
+      ],
+      "answer": [
+        "You"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'You and Ben' = you (plural): 'you' sirve para uno o varios.",
+        "incorrect": "Revisa esto: 'You and Ben' = you (plural): 'you' sirve para uno o varios."
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿quiénes son profesores?",
+      "options": [
+        "Anna and Tom",
+        "Carlos and Laura",
+        "Carlos",
+        "Laura"
+      ],
+      "answer": [
+        "Anna and Tom"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Anna and Tom are English. They're teachers.'",
+        "incorrect": "Revisa esto: El texto dice 'Anna and Tom are English. They're teachers.'"
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la forma completa con la forma corta.",
+      "pairs": [
+        {
+          "left": "I am",
+          "right": "I'm"
+        },
+        {
+          "left": "you are",
+          "right": "you're"
+        },
+        {
+          "left": "we are",
+          "right": "we're"
+        },
+        {
+          "left": "they are",
+          "right": "they're"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las formas cortas son muy frecuentes al hablar.",
+        "incorrect": "Revisa esto: Las formas cortas son muy frecuentes al hablar."
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Nosotros somos amigos.",
+      "answer": [
+        "We're friends.",
+        "We are friends."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! we + are.",
+        "incorrect": "Revisa esto: we + are."
+      }
+    },
+    {
+      "id": "en-a1-u02-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They is from Brazil.",
+      "answer": [
+        "They are from Brazil.",
+        "They're from Brazil."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'they' va con 'are'.",
+        "incorrect": "Revisa esto: 'they' va con 'are'."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "We're / You're / They're",
+      "you = uno o varios",
+      "to be completo"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-we"
+    },
+    {
+      "type": "vocab",
+      "id": "en-they"
+    },
+    {
+      "type": "vocab",
+      "id": "en-and"
+    },
+    {
+      "type": "vocab",
+      "id": "en-too"
+    },
+    {
+      "type": "vocab",
+      "id": "en-student"
+    },
+    {
+      "type": "vocab",
+      "id": "en-teacher"
+    },
+    {
+      "type": "grammar",
+      "id": "en-to-be-we-you-they"
+    }
+  ]
+}

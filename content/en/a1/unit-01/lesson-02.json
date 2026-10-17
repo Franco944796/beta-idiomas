@@ -1,0 +1,363 @@
+{
+  "id": "en-a1-u01-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 1,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "The alphabet",
+    "es": "El alfabeto y cómo deletrear"
+  },
+  "objective": "Al terminar puedes decir las letras del alfabeto y deletrear tu nombre.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Sabes deletrear tu nombre en español? En inglés las letras suenan diferente: vamos a practicarlas."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Receptionist",
+        "text": "Hello! What's your name, please?",
+        "es": "¡Hola! ¿Cómo se llama, por favor?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "I'm Jane Smith.",
+        "es": "Soy Jane Smith."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "How do you spell your surname?",
+        "es": "¿Cómo se escribe su apellido?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "S, M, I, T, H.",
+        "es": "S, M, I, T, H."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Thank you, Jane.",
+        "es": "Gracias, Jane."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-spell",
+        "lemma": "spell",
+        "pos": "verb",
+        "ipa": "/spel/",
+        "es": "deletrear",
+        "example": "How do you spell your name?"
+      },
+      {
+        "id": "en-how-do-you-spell",
+        "lemma": "how do you spell...?",
+        "pos": "phrase",
+        "ipa": "/ˌhaʊ də ju ˈspel/",
+        "es": "¿cómo se escribe...?",
+        "example": "How do you spell 'Smith'?"
+      },
+      {
+        "id": "en-letter",
+        "lemma": "letter",
+        "pos": "noun",
+        "ipa": "/ˈletə/",
+        "es": "letra",
+        "example": "A is the first letter."
+      },
+      {
+        "id": "en-surname",
+        "lemma": "surname",
+        "pos": "noun",
+        "ipa": "/ˈsɜːneɪm/",
+        "es": "apellido",
+        "example": "My surname is Smith."
+      },
+      {
+        "id": "en-thank-you",
+        "lemma": "thank you",
+        "pos": "phrase",
+        "ipa": "/ˈθæŋk juː/",
+        "es": "gracias",
+        "example": "Thank you, Jane."
+      },
+      {
+        "id": "en-please",
+        "lemma": "please",
+        "pos": "adv",
+        "ipa": "/pliːz/",
+        "es": "por favor",
+        "example": "What's your name, please?"
+      },
+      {
+        "id": "en-double",
+        "lemma": "double",
+        "pos": "adj",
+        "ipa": "/ˈdʌbl/",
+        "es": "doble",
+        "example": "Anna is A, double N, A."
+      }
+    ],
+    "audio_script_id": "en-a1-u01-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**El alfabeto** (pronunciación aproximada para hispanohablantes):\n\nA (ei) · B (bi) · C (si) · D (di) · E (i) · F (ef) · G (yi) · H (eich) · I (ai) · J (yei) · K (kei) · L (el) · M (em) · N (en) · O (ou) · P (pi) · Q (kiu) · R (ar) · S (es) · T (ti) · U (iu) · V (vi) · W (dábliu) · X (eks) · Y (uai) · Z (zed)\n\nEn inglés británico la Z es *zed*; en americano, *zee*.\n\n**Pares que se confunden:** E / I, G / J, A / H.\n\n**double** + letra = dos letras iguales: *Anna* = A, double N, A.",
+    "common_mistakes_es": [
+      {
+        "wrong": "E = 'e' (como en español)",
+        "right": "E = 'i'",
+        "note": "La E inglesa suena 'i' y la I suena 'ai'."
+      },
+      {
+        "wrong": "G = 'je' / 'ye'",
+        "right": "G = 'yi' /dʒiː/, J = 'yei' /dʒeɪ/",
+        "note": "G y J se confunden mucho: practícalas juntas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u01-l02-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 25,
+      "prompt": "A, B, C, D, ___, F",
+      "answer": [
+        "E"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es A, B, C, D, E, F.",
+        "incorrect": "Revisa esto: El orden es A, B, C, D, E, F."
+      }
+    },
+    {
+      "id": "en-a1-u01-l02-ex02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha las letras y escribe el nombre.",
+      "audio_text": "J, A, N, E.",
+      "answer": [
+        "Jane",
+        "J A N E",
+        "J-A-N-E",
+        "J, A, N, E."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste J-A-N-E: Jane.",
+        "incorrect": "Revisa esto: Escuchaste J-A-N-E: Jane."
+      },
+      "audio_script_id": "en-a1-u01-l02-ex02-a"
+    },
+    {
+      "id": "en-a1-u01-l02-ex03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Escucha las letras. ¿Qué nombre se deletrea?",
+      "options": [
+        "Ben",
+        "Bin",
+        "Been",
+        "Bean"
+      ],
+      "answer": [
+        "Ben"
+      ],
+      "audio_text": "B, E, N.",
+      "feedback": {
+        "correct": "¡Correcto! B-E-N: la E suena 'i' y la N suena 'en'.",
+        "incorrect": "Revisa esto: B-E-N: la E suena 'i' y la N suena 'en'."
+      },
+      "audio_script_id": "en-a1-u01-l02-ex03-a"
+    },
+    {
+      "id": "en-a1-u01-l02-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada letra con su sonido.",
+      "pairs": [
+        {
+          "left": "G",
+          "right": "/dʒiː/"
+        },
+        {
+          "left": "J",
+          "right": "/dʒeɪ/"
+        },
+        {
+          "left": "E",
+          "right": "/iː/"
+        },
+        {
+          "left": "I",
+          "right": "/aɪ/"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! G y J, y también E e I, se confunden mucho: practícalas juntas.",
+        "incorrect": "Revisa esto: G y J, y también E e I, se confunden mucho: practícalas juntas."
+      }
+    },
+    {
+      "id": "en-a1-u01-l02-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Así se pide que deletreen una palabra.",
+        "incorrect": "Revisa esto: Así se pide que deletreen una palabra."
+      }
+    },
+    {
+      "id": "en-a1-u01-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escuchas: 'A, double N, A'. ¿Qué nombre es?",
+      "options": [
+        "Anna",
+        "Ana",
+        "Ann",
+        "Anne"
+      ],
+      "answer": [
+        "Anna"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Double N' significa dos N seguidas: A-N-N-A.",
+        "incorrect": "Revisa esto: 'Double N' significa dos N seguidas: A-N-N-A."
+      }
+    },
+    {
+      "id": "en-a1-u01-l02-ex07",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "alphabet",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "A, B, C, D, E",
+          "ipa": "/eɪ biː siː diː iː/",
+          "tip_es": "La E suena 'i', no 'e'."
+        },
+        {
+          "text": "G, J",
+          "ipa": "/dʒiː dʒeɪ/",
+          "tip_es": "G = yi, J = yei."
+        },
+        {
+          "text": "How do you spell it?",
+          "ipa": "/ˌhaʊ də ju ˈspel ɪt/",
+          "tip_es": "'spell' suena 'spel'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How do you spell …?",
+      "A, B, C, …",
+      "double L",
+      "Thank you."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-spell"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-do-you-spell"
+    },
+    {
+      "type": "vocab",
+      "id": "en-letter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-surname"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thank-you"
+    },
+    {
+      "type": "vocab",
+      "id": "en-please"
+    },
+    {
+      "type": "vocab",
+      "id": "en-double"
+    },
+    {
+      "type": "grammar",
+      "id": "en-alphabet"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "en-a1-u09-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 9",
+    "es": "Repaso y checkpoint 9"
+  },
+  "objective": "Al terminar demuestras que puedes hablar de pasatiempos, habilidades, pedidos, acciones del momento e invitaciones.",
+  "est_minutes": 20,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cierre de la unidad: usa todo en conversaciones reales."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: pasatiempos, can / can't, Can I…? / Can you…?, el presente continuo y las invitaciones con Would you like to…?",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso rápido**\n\n- *play football · play the guitar · listen to music*\n- *I can swim · I can't dance · Can you sing?*\n- *Can I open the window? · Can you help me?*\n- *I'm cooking · She isn't working · What are you doing?*\n- *Would you like to …? · I'd love to · Let's meet at seven.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l06-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada actividad con su significado.",
+      "pairs": [
+        {
+          "left": "play football",
+          "right": "jugar al fútbol"
+        },
+        {
+          "left": "listen to music",
+          "right": "escuchar música"
+        },
+        {
+          "left": "watch films",
+          "right": "mirar películas"
+        },
+        {
+          "left": "swim",
+          "right": "nadar"
+        },
+        {
+          "left": "cook",
+          "right": "cocinar"
+        },
+        {
+          "left": "read books",
+          "right": "leer libros"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa los pasatiempos.",
+        "incorrect": "Revisa esto: Repasa los pasatiempos."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 25,
+      "prompt": "I listen ___ music in the evening.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen siempre lleva to.",
+        "incorrect": "Revisa esto: Listen siempre lleva to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ swim. (puede)",
+      "answer": [
+        "can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can no cambia: She can swim.",
+        "incorrect": "Revisa esto: Can no cambia: She can swim."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He cans dance.",
+      "answer": [
+        "He can dance."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can no lleva -s.",
+        "incorrect": "Revisa esto: Can no lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I open the window, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir permiso: Can I…?",
+        "incorrect": "Revisa esto: Pedir permiso: Can I…?"
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ dinner now. (cook)",
+      "answer": [
+        "'m cooking",
+        "am cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking: I'm cooking.",
+        "incorrect": "Revisa esto: be + cooking: I'm cooking."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is work now.",
+      "answer": [
+        "She is working now.",
+        "She's working now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + verbo-ing.",
+        "incorrect": "Revisa esto: be + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?",
+        "Would",
+        "you"
+      ],
+      "answer": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like to + verbo + lugar.",
+        "incorrect": "Revisa esto: Would you like to + verbo + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué está haciendo la persona?",
+      "options": [
+        "Playing the guitar",
+        "Working",
+        "Swimming",
+        "Cooking"
+      ],
+      "answer": [
+        "Playing the guitar"
+      ],
+      "audio_text": "I'm not working now. I'm playing the guitar.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'm playing the guitar'.",
+        "incorrect": "Revisa esto: Dice 'I'm playing the guitar'."
+      },
+      "audio_script_id": "en-a1-u09-l06-ex09-a"
+    },
+    {
+      "id": "en-a1-u09-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hobbies",
+        "can",
+        "present-continuous"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 4 frases: qué haces en tu tiempo libre, qué puedes hacer y qué estás haciendo ahora.",
+      "min_words": 18,
+      "self_check_es": [
+        "¿Usaste un verbo de pasatiempo (play, listen to…)?",
+        "¿Usaste can / can't + verbo base?",
+        "¿Usaste be + verbo-ing para ahora?"
+      ],
+      "model_answer": "I play football on Saturdays. I can swim, but I can't dance. I'm writing now.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u09-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te invita al cine.",
+      "turns": [
+        {
+          "speaker": "Sam",
+          "text": "Would you like to go to the cinema on Friday?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd love to!",
+            "I love go.",
+            "Yes, I would go."
+          ],
+          "best": 0,
+          "why_es": "Aceptas con I'd love to."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Great! Let's meet at seven."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "OK, see you at seven!",
+            "OK, see you in seven.",
+            "Yes, seven at."
+          ],
+          "best": 0,
+          "why_es": "Despedida con see you at + hora."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "play football · listen to music",
+      "I can / can't + verbo",
+      "Can I …? Can you …?",
+      "I'm cooking · Would you like to …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-can-ability"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-continuous"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.7
+  }
+}

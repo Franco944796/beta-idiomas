@@ -1,0 +1,418 @@
+{
+  "id": "en-a1-u09-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 9,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Can I...? Can you...?",
+    "es": "Pedir y permitir con can"
+  },
+  "objective": "Al terminar pides permiso y pides favores con Can I…? y Can you…?",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Cómo pides permiso para abrir una ventana o le pides a alguien que cierre la puerta?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Can I open the window, please?",
+        "es": "¿Puedo abrir la ventana, por favor?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, of course. Can you close the door, please?",
+        "es": "Sí, claro. ¿Puedes cerrar la puerta, por favor?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Sure. Can I use your phone?",
+        "es": "Claro. ¿Puedo usar tu teléfono?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Sorry, you can't. I need it.",
+        "es": "Lo siento, no puedes. Lo necesito."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-open",
+        "lemma": "open",
+        "pos": "verb",
+        "ipa": "/ˈəʊpən/",
+        "es": "abrir",
+        "example": "Can I open the window?"
+      },
+      {
+        "id": "en-close",
+        "lemma": "close",
+        "pos": "verb",
+        "ipa": "/kləʊz/",
+        "es": "cerrar",
+        "example": "Can you close the door?"
+      },
+      {
+        "id": "en-use",
+        "lemma": "use",
+        "pos": "verb",
+        "ipa": "/juːz/",
+        "es": "usar",
+        "example": "Can I use your phone?"
+      },
+      {
+        "id": "en-borrow",
+        "lemma": "borrow",
+        "pos": "verb",
+        "ipa": "/ˈbɒrəʊ/",
+        "es": "pedir prestado",
+        "example": "Can I borrow your pen?"
+      },
+      {
+        "id": "en-need",
+        "lemma": "need",
+        "pos": "verb",
+        "ipa": "/niːd/",
+        "es": "necesitar",
+        "example": "I need my phone."
+      }
+    ],
+    "audio_script_id": "en-a1-u09-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Can I…?** = ¿puedo…? (pido permiso) → *Can I open the window?*\n**Can you…?** = ¿puedes…? (pido un favor) → *Can you close the door?*\n\n**Añade *please*** para sonar más amable.\n\n**Responder:** *Yes, of course. / Sure. / Sorry, you can't.*\n\nDespués de *can* va el verbo base: *Can you help me?* (no *Can you me help?*, ni *Can I to open…?*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Can you me help?",
+        "right": "Can you help me?",
+        "note": "El verbo va justo después del sujeto."
+      },
+      {
+        "wrong": "Can I to open?",
+        "right": "Can I open?",
+        "note": "Después de can no va to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u09-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pides permiso para abrir la ventana. ¿Qué dices?",
+      "options": [
+        "Can I open the window, please?",
+        "Can you open I the window?",
+        "I can open window.",
+        "Open the window me."
+      ],
+      "answer": [
+        "Can I open the window, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I… sirve para pedir permiso.",
+        "incorrect": "Revisa esto: Can I… sirve para pedir permiso."
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Le pides a alguien que cierre la puerta. ¿Qué dices?",
+      "options": [
+        "Can you close the door, please?",
+        "Can I close the door you?",
+        "You close door?",
+        "Close can you?"
+      ],
+      "answer": [
+        "Can you close the door, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can you… sirve para pedir un favor.",
+        "incorrect": "Revisa esto: Can you… sirve para pedir un favor."
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I use your phone?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir permiso: Can I…?",
+        "incorrect": "Revisa esto: Pedir permiso: Can I…?"
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you help me, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir un favor: Can you…?",
+        "incorrect": "Revisa esto: Pedir un favor: Can you…?"
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can you me help?",
+      "answer": [
+        "Can you help me?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El verbo va justo después del sujeto.",
+        "incorrect": "Revisa esto: El verbo va justo después del sujeto."
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I to open the window?",
+      "answer": [
+        "Can I open the window?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de can no va to.",
+        "incorrect": "Revisa esto: Después de can no va to."
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "open",
+        "the",
+        "window",
+        ",",
+        "please",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "open",
+        "the",
+        "window",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I + verbo + objeto + please.",
+        "incorrect": "Revisa esto: Can I + verbo + objeto + please."
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué le pide Lucy a Sam?",
+      "options": [
+        "Cerrar la puerta",
+        "Abrir la ventana",
+        "Usar su teléfono",
+        "Cocinar"
+      ],
+      "answer": [
+        "Cerrar la puerta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'Can you close the door, please?'",
+        "incorrect": "Revisa esto: Lucy dice 'Can you close the door, please?'"
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere la persona?",
+      "options": [
+        "To borrow a pen",
+        "To open a window",
+        "To use a phone",
+        "To close a door"
+      ],
+      "answer": [
+        "To borrow a pen"
+      ],
+      "audio_text": "Can I borrow your pen, please? Sure, here you are.",
+      "feedback": {
+        "correct": "¡Correcto! Pide 'borrow your pen'.",
+        "incorrect": "Revisa esto: Pide 'borrow your pen'."
+      },
+      "audio_script_id": "en-a1-u09-l03-ex09-a"
+    },
+    {
+      "id": "en-a1-u09-l03-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Puedo usar tu teléfono?",
+      "answer": [
+        "Can I use your phone?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Permiso: Can I…?",
+        "incorrect": "Revisa esto: Permiso: Can I…?"
+      }
+    },
+    {
+      "id": "en-a1-u09-l03-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Quieres abrir una ventana en casa de un amigo.",
+      "turns": [
+        {
+          "speaker": "Lucy",
+          "text": "Hi! Come in."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thanks! Can I open the window, please?",
+            "Thanks! I can open window.",
+            "Thanks! Open the window."
+          ],
+          "best": 0,
+          "why_es": "Para pedir permiso: Can I…?"
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Sure. Can you close the door, please?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, of course.",
+            "Yes, I'm.",
+            "No, I'm not."
+          ],
+          "best": 0,
+          "why_es": "Respuesta educada a un favor: Yes, of course."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Can I …? (permiso)",
+      "Can you …? (favor)",
+      "Yes, of course. · Sorry, you can't.",
+      "Can you help me, please?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-open"
+    },
+    {
+      "type": "vocab",
+      "id": "en-close"
+    },
+    {
+      "type": "vocab",
+      "id": "en-use"
+    },
+    {
+      "type": "vocab",
+      "id": "en-borrow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-need"
+    },
+    {
+      "type": "grammar",
+      "id": "en-can-requests"
+    }
+  ]
+}

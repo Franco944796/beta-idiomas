@@ -1,0 +1,590 @@
+{
+  "id": "en-placement-v1",
+  "language": "en",
+  "version": 1,
+  "title": {
+    "es": "Prueba de nivel de inglés"
+  },
+  "instructions_es": "Responde sin ayuda ni traductor. Si no sabes una respuesta, elige «No lo sé»: no resta puntos extra, pero cuenta como incorrecta. La prueba se detiene cuando un bloque de nivel no se supera.",
+  "dont_know_option": true,
+  "algorithm": {
+    "type": "staircase",
+    "blocks_in_order": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "pass_min_correct": {
+      "A1": 4,
+      "A2": 4,
+      "B1": 4,
+      "B2": 3,
+      "C1": 3
+    },
+    "stop_on_first_fail": true,
+    "shuffle_options": true,
+    "result_rule": "start_level = first block not passed; if all blocks passed, start_level = C2",
+    "levels_passed_are_marked": "skipped (optional review available)"
+  },
+  "blocks": [
+    {
+      "level": "A1",
+      "items": [
+        {
+          "id": "pt-a1-01",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "to-be"
+          ],
+          "prompt": "She ___ from Brazil.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "answer": [
+            "is"
+          ]
+        },
+        {
+          "id": "pt-a1-02",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "age"
+          ],
+          "prompt": "How old are you? — I ___ twenty.",
+          "options": [
+            "have",
+            "am",
+            "are",
+            "has"
+          ],
+          "answer": [
+            "am"
+          ]
+        },
+        {
+          "id": "pt-a1-03",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "to-be"
+          ],
+          "prompt": "They ___ students.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "answer": [
+            "are"
+          ]
+        },
+        {
+          "id": "pt-a1-04",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "questions"
+          ],
+          "prompt": "___ is your name?",
+          "options": [
+            "What",
+            "Where",
+            "How",
+            "When"
+          ],
+          "answer": [
+            "What"
+          ]
+        },
+        {
+          "id": "pt-a1-05",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "possessives"
+          ],
+          "prompt": "This is my sister. ___ name is Laura.",
+          "options": [
+            "She",
+            "Her",
+            "His",
+            "Hers"
+          ],
+          "answer": [
+            "Her"
+          ]
+        },
+        {
+          "id": "pt-a1-06",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 2,
+          "tags": [
+            "there-is"
+          ],
+          "prompt": "There ___ two books on the table.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "answer": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "items": [
+        {
+          "id": "pt-a2-01",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "past-simple"
+          ],
+          "prompt": "Yesterday I ___ to the cinema.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "answer": [
+            "went"
+          ]
+        },
+        {
+          "id": "pt-a2-02",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "comparatives"
+          ],
+          "prompt": "My brother is ___ than me.",
+          "options": [
+            "tall",
+            "taller",
+            "tallest",
+            "more tall"
+          ],
+          "answer": [
+            "taller"
+          ]
+        },
+        {
+          "id": "pt-a2-03",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "going-to"
+          ],
+          "prompt": "I'm ___ to visit my grandparents next weekend.",
+          "options": [
+            "go",
+            "going",
+            "goes",
+            "went"
+          ],
+          "answer": [
+            "going"
+          ]
+        },
+        {
+          "id": "pt-a2-04",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "some-any"
+          ],
+          "prompt": "There isn't ___ milk in the fridge.",
+          "options": [
+            "some",
+            "any",
+            "a",
+            "an"
+          ],
+          "answer": [
+            "any"
+          ]
+        },
+        {
+          "id": "pt-a2-05",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 3,
+          "tags": [
+            "modals"
+          ],
+          "prompt": "You ___ wear a seatbelt in the car. It's the law.",
+          "options": [
+            "can",
+            "must",
+            "might",
+            "would"
+          ],
+          "answer": [
+            "must"
+          ]
+        },
+        {
+          "id": "pt-a2-06",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "quantity"
+          ],
+          "prompt": "How ___ water do you drink every day?",
+          "options": [
+            "many",
+            "much",
+            "long",
+            "often"
+          ],
+          "answer": [
+            "much"
+          ]
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "items": [
+        {
+          "id": "pt-b1-01",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "present-perfect"
+          ],
+          "prompt": "I ___ in this city since 2015.",
+          "options": [
+            "live",
+            "lived",
+            "have lived",
+            "am living"
+          ],
+          "answer": [
+            "have lived"
+          ]
+        },
+        {
+          "id": "pt-b1-02",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "first-conditional"
+          ],
+          "prompt": "If it rains tomorrow, we ___ at home.",
+          "options": [
+            "stay",
+            "would stay",
+            "will stay",
+            "stayed"
+          ],
+          "answer": [
+            "will stay"
+          ]
+        },
+        {
+          "id": "pt-b1-03",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "past-continuous"
+          ],
+          "prompt": "While I ___ TV, the lights went out.",
+          "options": [
+            "watched",
+            "was watching",
+            "have watched",
+            "watch"
+          ],
+          "answer": [
+            "was watching"
+          ]
+        },
+        {
+          "id": "pt-b1-04",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "passive"
+          ],
+          "prompt": "This bridge ___ in 1932.",
+          "options": [
+            "built",
+            "was built",
+            "is built",
+            "has built"
+          ],
+          "answer": [
+            "was built"
+          ]
+        },
+        {
+          "id": "pt-b1-05",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "relative-clauses"
+          ],
+          "prompt": "The man ___ lives next door is a doctor.",
+          "options": [
+            "which",
+            "who",
+            "whose",
+            "what"
+          ],
+          "answer": [
+            "who"
+          ]
+        },
+        {
+          "id": "pt-b1-06",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 4,
+          "tags": [
+            "reported-speech"
+          ],
+          "prompt": "He asked me where ___.",
+          "options": [
+            "did I live",
+            "I lived",
+            "do I live",
+            "I live"
+          ],
+          "answer": [
+            "I lived"
+          ]
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "items": [
+        {
+          "id": "pt-b2-01",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "third-conditional"
+          ],
+          "prompt": "If she ___ harder, she would have passed the exam.",
+          "options": [
+            "studied",
+            "had studied",
+            "would study",
+            "has studied"
+          ],
+          "answer": [
+            "had studied"
+          ]
+        },
+        {
+          "id": "pt-b2-02",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "wish"
+          ],
+          "prompt": "I wish I ___ speak French.",
+          "options": [
+            "can",
+            "could",
+            "would",
+            "will"
+          ],
+          "answer": [
+            "could"
+          ]
+        },
+        {
+          "id": "pt-b2-03",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "modal-deduction"
+          ],
+          "prompt": "He must ___ the message, because he replied straight away.",
+          "options": [
+            "receive",
+            "have received",
+            "had received",
+            "be received"
+          ],
+          "answer": [
+            "have received"
+          ]
+        },
+        {
+          "id": "pt-b2-04",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "gerunds"
+          ],
+          "prompt": "I'm looking forward ___ you.",
+          "options": [
+            "to see",
+            "to seeing",
+            "seeing",
+            "for seeing"
+          ],
+          "answer": [
+            "to seeing"
+          ]
+        },
+        {
+          "id": "pt-b2-05",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "linking"
+          ],
+          "prompt": "___ the bad weather, the match went ahead.",
+          "options": [
+            "Although",
+            "Despite",
+            "However",
+            "Because"
+          ],
+          "answer": [
+            "Despite"
+          ]
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "items": [
+        {
+          "id": "pt-c1-01",
+          "type": "multiple_choice",
+          "level": "C1",
+          "difficulty": 5,
+          "tags": [
+            "inversion"
+          ],
+          "prompt": "Hardly ___ arrived when it started to rain.",
+          "options": [
+            "we had",
+            "had we",
+            "did we",
+            "have we"
+          ],
+          "answer": [
+            "had we"
+          ]
+        },
+        {
+          "id": "pt-c1-02",
+          "type": "multiple_choice",
+          "level": "C1",
+          "difficulty": 5,
+          "tags": [
+            "subjunctive"
+          ],
+          "prompt": "It's high time you ___ a decision.",
+          "options": [
+            "make",
+            "made",
+            "making",
+            "will make"
+          ],
+          "answer": [
+            "made"
+          ]
+        },
+        {
+          "id": "pt-c1-03",
+          "type": "multiple_choice",
+          "level": "C1",
+          "difficulty": 5,
+          "tags": [
+            "would-rather"
+          ],
+          "prompt": "I'd rather you ___ tell anyone about this.",
+          "options": [
+            "don't",
+            "didn't",
+            "won't",
+            "wouldn't"
+          ],
+          "answer": [
+            "didn't"
+          ]
+        },
+        {
+          "id": "pt-c1-04",
+          "type": "multiple_choice",
+          "level": "C1",
+          "difficulty": 5,
+          "tags": [
+            "non-defining"
+          ],
+          "prompt": "The proposal, ___ was widely criticised, was eventually withdrawn.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "who"
+          ],
+          "answer": [
+            "which"
+          ]
+        },
+        {
+          "id": "pt-c1-05",
+          "type": "multiple_choice",
+          "level": "C1",
+          "difficulty": 5,
+          "tags": [
+            "inversion"
+          ],
+          "prompt": "Not only ___ late, but he also forgot the documents.",
+          "options": [
+            "he was",
+            "was he",
+            "did he",
+            "he is"
+          ],
+          "answer": [
+            "was he"
+          ]
+        }
+      ]
+    }
+  ]
+}

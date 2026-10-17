@@ -1,0 +1,302 @@
+{
+  "id": "en-a1-u03-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 3,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I've got a sister",
+    "es": "Have got: tener"
+  },
+  "objective": "Al terminar hablas de lo que tienes (hermanos, familia) con have got.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Ya sabes decir 'soy' y 'es'. ¿Cómo dirías 'tengo un hermano' en inglés británico?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Have you got any brothers or sisters?",
+        "es": "¿Tienes hermanos o hermanas?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "Yes, I've got one brother and two sisters. Have you got any?",
+        "es": "Sí, tengo un hermano y dos hermanas. ¿Y tú?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "No, I haven't. I'm an only child.",
+        "es": "No. Soy hijo único."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-have-got",
+        "lemma": "have got",
+        "pos": "verb",
+        "ipa": "/hæv ˈɡɒt/",
+        "es": "tener",
+        "example": "I've got a sister."
+      },
+      {
+        "id": "en-any",
+        "lemma": "any",
+        "pos": "det",
+        "ipa": "/ˈeni/",
+        "es": "algún, alguno (en preguntas)",
+        "example": "Have you got any brothers?"
+      },
+      {
+        "id": "en-haven-t",
+        "lemma": "haven't",
+        "pos": "verb",
+        "ipa": "/ˈhævnt/",
+        "es": "no tengo",
+        "example": "No, I haven't."
+      },
+      {
+        "id": "en-hasn-t",
+        "lemma": "hasn't",
+        "pos": "verb",
+        "ipa": "/ˈhæznt/",
+        "es": "no tiene",
+        "example": "He hasn't got a sister."
+      },
+      {
+        "id": "en-only-child",
+        "lemma": "only child",
+        "pos": "noun",
+        "ipa": "/ˌəʊnli ˈtʃaɪld/",
+        "es": "hijo/a único/a",
+        "example": "I'm an only child."
+      }
+    ],
+    "audio_script_id": "en-a1-u03-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Have got** = tener (inglés británico).\n\n| Sujeto | Afirmativa | Negativa |\n|---|---|---|\n| I / you / we / they | have got (I've got) | haven't got |\n| he / she / it | has got (she's got) | hasn't got |\n\n**Pregunta:** *Have you got…? Has she got…?* **Respuesta:** *Yes, I have. / No, I haven't.*\n\nEn inglés americano se usa más *I have* y *Do you have…?*; ambas formas se entienden. *'s got* = *has got*, no *is*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She have got two sisters.",
+        "right": "She has got two sisters. / She's got two sisters.",
+        "note": "Con he/she/it se usa has."
+      },
+      {
+        "wrong": "Yes, I've.",
+        "right": "Yes, I have.",
+        "note": "En la respuesta corta afirmativa no se contrae."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u03-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ got a sister.",
+      "answer": [
+        "have",
+        "'ve"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I: have got (I've got).",
+        "incorrect": "Revisa esto: Con I: have got (I've got)."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom ___ got two brothers.",
+      "answer": [
+        "has",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he: has got (he's got).",
+        "incorrect": "Revisa esto: Con he: has got (he's got)."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "got",
+        "a",
+        "brother",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "got",
+        "a",
+        "brother",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con have got.",
+        "incorrect": "Revisa esto: Pregunta con have got."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you got a sister? — ___",
+      "options": [
+        "Yes, I have.",
+        "Yes, I've.",
+        "Yes, I am.",
+        "Yes, I got."
+      ],
+      "answer": [
+        "Yes, I have."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo una hermana.",
+      "answer": [
+        "I've got a sister.",
+        "I have got a sister."
+      ],
+      "accepted_alternatives": [
+        "I have a sister."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tener = have got.",
+        "incorrect": "Revisa esto: Tener = have got."
+      }
+    },
+    {
+      "id": "en-a1-u03-l04-ex07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-got",
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas hermanas tiene la persona que habla?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "None"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "I've got one brother and two sisters.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'two sisters'.",
+        "incorrect": "Revisa esto: Dice 'two sisters'."
+      },
+      "audio_script_id": "en-a1-u03-l04-ex07-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've got … / She's got …",
+      "Have you got any …?",
+      "Yes, I have. / No, I haven't."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-have-got"
+    },
+    {
+      "type": "vocab",
+      "id": "en-any"
+    },
+    {
+      "type": "vocab",
+      "id": "en-haven-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hasn-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-only-child"
+    },
+    {
+      "type": "grammar",
+      "id": "en-have-got"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": "en-a1-u05-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 5,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Meals, some and any",
+    "es": "Las comidas: some y any"
+  },
+  "objective": "Al terminar nombras las comidas del día y usas some y any.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Tenemos leche? ¿Hay algo de pan? Veamos cómo se dice 'algo de' y 'ningún' en inglés."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Have we got any bread?",
+        "es": "¿Tenemos pan?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, we've got some bread. And we've got some cheese.",
+        "es": "Sí, tenemos algo de pan. Y tenemos algo de queso."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Have we got any milk?",
+        "es": "¿Tenemos leche?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, we haven't got any milk. Sorry!",
+        "es": "No, no tenemos leche. ¡Perdón!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-breakfast",
+        "lemma": "breakfast",
+        "pos": "noun",
+        "ipa": "/ˈbrekfəst/",
+        "es": "desayuno",
+        "example": "I have toast for breakfast."
+      },
+      {
+        "id": "en-lunch",
+        "lemma": "lunch",
+        "pos": "noun",
+        "ipa": "/lʌntʃ/",
+        "es": "almuerzo",
+        "example": "We have lunch at one."
+      },
+      {
+        "id": "en-dinner",
+        "lemma": "dinner",
+        "pos": "noun",
+        "ipa": "/ˈdɪnə/",
+        "es": "cena",
+        "example": "Dinner is at eight."
+      },
+      {
+        "id": "en-meal",
+        "lemma": "meal",
+        "pos": "noun",
+        "ipa": "/miːl/",
+        "es": "comida (cada una del día)",
+        "example": "Dinner is my favourite meal."
+      },
+      {
+        "id": "en-some",
+        "lemma": "some",
+        "pos": "det",
+        "ipa": "/sʌm/",
+        "es": "algo de, unos",
+        "example": "I've got some bread."
+      },
+      {
+        "id": "en-any",
+        "lemma": "any",
+        "pos": "det",
+        "ipa": "/ˈeni/",
+        "es": "algún, ningún (en preguntas y negativas)",
+        "example": "Have you got any milk?"
+      },
+      {
+        "id": "en-sorry",
+        "lemma": "sorry",
+        "pos": "adj",
+        "ipa": "/ˈsɒri/",
+        "es": "perdón, lo siento",
+        "example": "Sorry, I haven't got any."
+      }
+    ],
+    "audio_script_id": "en-a1-u05-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**some** → frases **afirmativas**: *I've got some bread.*\n\n**any** → **negativas y preguntas**: *We haven't got any milk. Have we got any bread?*\n\nSe usan con plurales (*some apples*) y con cosas que no se cuentan (*some milk*).\n\n**Excepción útil:** en ofrecimientos y pedidos se usa *some*: *Would you like some tea?*\n\n**Comidas del día:** breakfast · lunch · dinner (*for breakfast* = de desayuno).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I haven't got some milk.",
+        "right": "I haven't got any milk.",
+        "note": "En negativas se usa any."
+      },
+      {
+        "wrong": "I've got any bread.",
+        "right": "I've got some bread.",
+        "note": "En afirmativas se usa some."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u05-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We've got ___ bread.",
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En frases afirmativas se usa some.",
+        "incorrect": "Revisa esto: En frases afirmativas se usa some."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't got ___ milk.",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En frases negativas se usa any.",
+        "incorrect": "Revisa esto: En frases negativas se usa any."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you got ___ cheese?",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas se usa any.",
+        "incorrect": "Revisa esto: En preguntas se usa any."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 20,
+      "prompt": "Would you like ___ tea? (ofrecimiento)",
+      "options": [
+        "some",
+        "any",
+        "an",
+        "a"
+      ],
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En ofrecimientos se usa some.",
+        "incorrect": "Revisa esto: En ofrecimientos se usa some."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I haven't got some water.",
+      "answer": [
+        "I haven't got any water."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En negativas se usa any.",
+        "incorrect": "Revisa esto: En negativas se usa any."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "some-any",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "got",
+        "any",
+        "milk",
+        "?",
+        "Have",
+        "we"
+      ],
+      "answer": [
+        "Have",
+        "we",
+        "got",
+        "any",
+        "milk",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con have got + any.",
+        "incorrect": "Revisa esto: Pregunta con have got + any."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿qué NO tienen?",
+      "options": [
+        "Milk",
+        "Bread",
+        "Cheese",
+        "Water"
+      ],
+      "answer": [
+        "Milk"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'we haven't got any milk'.",
+        "incorrect": "Revisa esto: Lucy dice 'we haven't got any milk'."
+      }
+    },
+    {
+      "id": "en-a1-u05-l04-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "meals"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué desayuna la persona?",
+      "options": [
+        "Bread and coffee",
+        "Eggs and tea",
+        "Rice and fish",
+        "Cheese and milk"
+      ],
+      "answer": [
+        "Bread and coffee"
+      ],
+      "audio_text": "For breakfast I have some bread and some coffee.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'some bread and some coffee'.",
+        "incorrect": "Revisa esto: Dice 'some bread and some coffee'."
+      },
+      "audio_script_id": "en-a1-u05-l04-ex08-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "breakfast · lunch · dinner",
+      "I've got some … / I haven't got any …",
+      "Have we got any …?",
+      "Would you like some …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-breakfast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lunch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dinner"
+    },
+    {
+      "type": "vocab",
+      "id": "en-meal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-some"
+    },
+    {
+      "type": "vocab",
+      "id": "en-any"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sorry"
+    },
+    {
+      "type": "grammar",
+      "id": "en-some-any"
+    }
+  ]
+}

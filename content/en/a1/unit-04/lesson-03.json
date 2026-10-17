@@ -1,0 +1,264 @@
+{
+  "id": "en-a1-u04-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 4,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Present simple: affirmative",
+    "es": "Presente simple: afirmativo"
+  },
+  "objective": "Al terminar describes rutinas con el presente simple, incluida la forma con -s de he / she / it.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Fíjate en el texto: ¿qué le pasa al verbo cuando hablamos de Lucy y no de nosotros?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Lucy gets up at seven. She has breakfast at half past seven. She goes to work. She works in a shop. She finishes work at five. In the evening she watches TV. She goes to bed at eleven.",
+    "es": "Lucy se levanta a las siete. Desayuna a las siete y media. Va al trabajo. Trabaja en una tienda. Termina de trabajar a las cinco. Por la noche mira la tele. Se acuesta a las once.",
+    "glossary": [
+      {
+        "id": "en-work",
+        "lemma": "work",
+        "pos": "verb",
+        "ipa": "/wɜːk/",
+        "es": "trabajar",
+        "example": "She works in a shop."
+      },
+      {
+        "id": "en-shop",
+        "lemma": "shop",
+        "pos": "noun",
+        "ipa": "/ʃɒp/",
+        "es": "tienda",
+        "example": "She works in a shop."
+      },
+      {
+        "id": "en-finish",
+        "lemma": "finish",
+        "pos": "verb",
+        "ipa": "/ˈfɪnɪʃ/",
+        "es": "terminar",
+        "example": "She finishes work at five."
+      },
+      {
+        "id": "en-start",
+        "lemma": "start",
+        "pos": "verb",
+        "ipa": "/stɑːt/",
+        "es": "empezar",
+        "example": "I start work at nine."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Presente simple** = hábitos y rutinas.\n\n- **I / you / we / they** → verbo base: *I work, they work*.\n- **he / she / it** → verbo + **-s**: *she works, he gets up*.\n\n| Terminación del verbo | Cambio | Ejemplo |\n|---|---|---|\n| normal | + s | works, gets |\n| -s, -sh, -ch, -x, -o | + es | finishes, watches, goes |\n| have | has (irregular) | she has |\n\nPronunciación de la -s: /s/ (works), /z/ (gets… *plays*), /ɪz/ (watches, finishes).",
+    "common_mistakes_es": [
+      {
+        "wrong": "She work in a shop.",
+        "right": "She works in a shop.",
+        "note": "Con he/she/it el verbo lleva -s."
+      },
+      {
+        "wrong": "He haves breakfast.",
+        "right": "He has breakfast.",
+        "note": "Have es irregular: has."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u04-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "Lucy ___ (get) up at seven.",
+      "answer": [
+        "gets"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'she/Lucy' se añade -s: gets.",
+        "incorrect": "Revisa esto: Con 'she/Lucy' se añade -s: gets."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (go) to work.",
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los verbos en -o añaden -es: goes.",
+        "incorrect": "Revisa esto: Los verbos en -o añaden -es: goes."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ (have) lunch at one.",
+      "answer": [
+        "has"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Have' es irregular: he has.",
+        "incorrect": "Revisa esto: 'Have' es irregular: he has."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ (watch) TV in the evening.",
+      "answer": [
+        "watch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'they' no se añade -s.",
+        "incorrect": "Revisa esto: Con 'they' no se añade -s."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She work in a shop.",
+      "answer": [
+        "She works in a shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He haves breakfast at eight.",
+      "answer": [
+        "He has breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Have' pasa a 'has', no 'haves'.",
+        "incorrect": "Revisa esto: 'Have' pasa a 'has', no 'haves'."
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿a qué hora se levanta Lucy?",
+      "options": [
+        "7:00",
+        "7:30",
+        "5:00",
+        "11:00"
+      ],
+      "answer": [
+        "7:00"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Lucy gets up at seven.'",
+        "incorrect": "Revisa esto: El texto dice 'Lucy gets up at seven.'"
+      }
+    },
+    {
+      "id": "en-a1-u04-l03-ex08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ella trabaja en una tienda.",
+      "answer": [
+        "She works in a shop.",
+        "She works in a store."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'she' el verbo lleva -s: works.",
+        "incorrect": "Revisa esto: Con 'she' el verbo lleva -s: works."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I / you / we / they work",
+      "he / she / it works",
+      "-es: goes, watches, finishes · has"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-work"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-finish"
+    },
+    {
+      "type": "vocab",
+      "id": "en-start"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-simple-affirmative"
+    }
+  ]
+}

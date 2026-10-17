@@ -1,0 +1,452 @@
+{
+  "id": "en-a1-u07-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 7,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Places in town",
+    "es": "Lugares de la ciudad"
+  },
+  "objective": "Al terminar nombras los lugares principales de una ciudad y dices qué hay cerca.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué lugares hay en tu barrio? Aprende cómo se dicen en inglés."
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-town",
+        "lemma": "town",
+        "pos": "noun",
+        "ipa": "/taʊn/",
+        "es": "pueblo, ciudad pequeña",
+        "example": "I live in a small town."
+      },
+      {
+        "id": "en-street",
+        "lemma": "street",
+        "pos": "noun",
+        "ipa": "/striːt/",
+        "es": "calle",
+        "example": "My street is quiet."
+      },
+      {
+        "id": "en-bank",
+        "lemma": "bank",
+        "pos": "noun",
+        "ipa": "/bæŋk/",
+        "es": "banco",
+        "example": "The bank is in the High Street."
+      },
+      {
+        "id": "en-supermarket",
+        "lemma": "supermarket",
+        "pos": "noun",
+        "ipa": "/ˈsuːpəmɑːkɪt/",
+        "es": "supermercado",
+        "example": "I buy bread at the supermarket."
+      },
+      {
+        "id": "en-restaurant",
+        "lemma": "restaurant",
+        "pos": "noun",
+        "ipa": "/ˈrestrɒnt/",
+        "es": "restaurante",
+        "example": "We have dinner at a restaurant."
+      },
+      {
+        "id": "en-caf",
+        "lemma": "café",
+        "pos": "noun",
+        "ipa": "/ˈkæfeɪ/",
+        "es": "café, cafetería",
+        "example": "Let's have a coffee at the café."
+      },
+      {
+        "id": "en-hospital",
+        "lemma": "hospital",
+        "pos": "noun",
+        "ipa": "/ˈhɒspɪtl/",
+        "es": "hospital",
+        "example": "She's a nurse at the hospital."
+      },
+      {
+        "id": "en-school",
+        "lemma": "school",
+        "pos": "noun",
+        "ipa": "/skuːl/",
+        "es": "escuela",
+        "example": "The school is next to the park."
+      },
+      {
+        "id": "en-park",
+        "lemma": "park",
+        "pos": "noun",
+        "ipa": "/pɑːk/",
+        "es": "parque",
+        "example": "There's a park near my house."
+      },
+      {
+        "id": "en-station",
+        "lemma": "station",
+        "pos": "noun",
+        "ipa": "/ˈsteɪʃn/",
+        "es": "estación",
+        "example": "The station is in the city centre."
+      },
+      {
+        "id": "en-post-office",
+        "lemma": "post office",
+        "pos": "noun",
+        "ipa": "/ˈpəʊst ɒfɪs/",
+        "es": "correo",
+        "example": "The post office is opposite the bank."
+      },
+      {
+        "id": "en-cinema",
+        "lemma": "cinema",
+        "pos": "noun",
+        "ipa": "/ˈsɪnəmə/",
+        "es": "cine",
+        "example": "We watch films at the cinema."
+      },
+      {
+        "id": "en-library",
+        "lemma": "library",
+        "pos": "noun",
+        "ipa": "/ˈlaɪbrəri/",
+        "es": "biblioteca",
+        "example": "I borrow books at the library."
+      },
+      {
+        "id": "en-museum",
+        "lemma": "museum",
+        "pos": "noun",
+        "ipa": "/mjuˈziːəm/",
+        "es": "museo",
+        "example": "The museum is open on Sundays."
+      },
+      {
+        "id": "en-near",
+        "lemma": "near",
+        "pos": "adv",
+        "ipa": "/nɪə/",
+        "es": "cerca",
+        "example": "The bank is near here."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Lugares:** bank · supermarket · restaurant · café · hospital · school · park · station · post office · cinema · library · museum\n\n**Falso amigo:** *library* = **biblioteca** (no librería). Una librería es *bookshop* (o *bookstore* en americano).\n\n**Hay…:** *There's a park near my house.*\n\nPronunciación: *museum* → mi-u-SÍ-am · *library* → LÁI-bre-ri · *station* → STÉI-shn.",
+    "common_mistakes_es": [
+      {
+        "wrong": "library = librería",
+        "right": "library = biblioteca; bookshop = librería",
+        "note": "Es un falso amigo."
+      },
+      {
+        "wrong": "museum → 'museum' leído en español",
+        "right": "museum /mjuˈziːəm/",
+        "note": "Suena 'miuSÍam', con acento en la segunda sílaba."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "library",
+        "es_false": "librería",
+        "real": "biblioteca",
+        "note": "Librería = bookshop."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u07-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bank",
+          "right": "banco"
+        },
+        {
+          "left": "school",
+          "right": "escuela"
+        },
+        {
+          "left": "park",
+          "right": "parque"
+        },
+        {
+          "left": "station",
+          "right": "estación"
+        },
+        {
+          "left": "post office",
+          "right": "correo"
+        },
+        {
+          "left": "cinema",
+          "right": "cine"
+        },
+        {
+          "left": "library",
+          "right": "biblioteca"
+        },
+        {
+          "left": "museum",
+          "right": "museo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los lugares más frecuentes de la ciudad.",
+        "incorrect": "Revisa esto: Son los lugares más frecuentes de la ciudad."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Dónde pides libros prestados?",
+      "options": [
+        "library",
+        "bank",
+        "station",
+        "cinema"
+      ],
+      "answer": [
+        "library"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se piden prestados en la library.",
+        "incorrect": "Revisa esto: Se piden prestados en la library."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'library'?",
+      "options": [
+        "biblioteca",
+        "librería",
+        "libro",
+        "librito"
+      ],
+      "answer": [
+        "biblioteca"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falso amigo: library = biblioteca; librería = bookshop.",
+        "incorrect": "Revisa esto: Falso amigo: library = biblioteca; librería = bookshop."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can see a film at the ___.",
+      "answer": [
+        "cinema"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las películas se ven en el cinema.",
+        "incorrect": "Revisa esto: Las películas se ven en el cinema."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hay al lado del supermercado?",
+      "options": [
+        "A bank",
+        "A park",
+        "A school",
+        "A station"
+      ],
+      "answer": [
+        "A bank"
+      ],
+      "audio_text": "There's a bank next to the supermarket.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a bank next to the supermarket'.",
+        "incorrect": "Revisa esto: Dice 'a bank next to the supermarket'."
+      },
+      "audio_script_id": "en-a1-u07-l01-ex05-a"
+    },
+    {
+      "id": "en-a1-u07-l01-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "park",
+        "near",
+        "my",
+        "house",
+        ".",
+        "There",
+        "is"
+      ],
+      "answer": [
+        "There",
+        "is",
+        "a",
+        "park",
+        "near",
+        "my",
+        "house",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! There is + lugar + near + lugar.",
+        "incorrect": "Revisa esto: There is + lugar + near + lugar."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex07",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "post office",
+      "answer": [
+        "post office"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Post office = correo.",
+        "incorrect": "Revisa esto: Post office = correo."
+      },
+      "audio_script_id": "en-a1-u07-l01-ex07-a"
+    },
+    {
+      "id": "en-a1-u07-l01-ex08",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "town",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "supermarket",
+          "ipa": "/ˈsuːpəmɑːkɪt/",
+          "tip_es": "El acento va en la primera sílaba."
+        },
+        {
+          "text": "library",
+          "ipa": "/ˈlaɪbrəri/",
+          "tip_es": "Empieza como 'lái'."
+        },
+        {
+          "text": "museum",
+          "ipa": "/mjuˈziːəm/",
+          "tip_es": "El acento va en la segunda sílaba."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "bank · supermarket · hospital · school · park",
+      "post office · cinema · library · museum",
+      "library = biblioteca"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-town"
+    },
+    {
+      "type": "vocab",
+      "id": "en-street"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bank"
+    },
+    {
+      "type": "vocab",
+      "id": "en-supermarket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-restaurant"
+    },
+    {
+      "type": "vocab",
+      "id": "en-caf"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hospital"
+    },
+    {
+      "type": "vocab",
+      "id": "en-school"
+    },
+    {
+      "type": "vocab",
+      "id": "en-park"
+    },
+    {
+      "type": "vocab",
+      "id": "en-station"
+    }
+  ]
+}
