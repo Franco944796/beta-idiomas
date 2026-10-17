@@ -1,9 +1,3 @@
-/**
- * =========================================================================
- * TRILEX - Script principal
- * =========================================================================
- */
-
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Página cargada correctamente');
 
@@ -11,14 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initLockedLanguageModal();
 });
 
-
-/**
- * =========================================================================
- * Protección básica contra copia
- * (deshabilita clic derecho, selección de texto, arrastre de imágenes
- * y algunos atajos de teclado como Ctrl+S, Ctrl+U y F12)
- * =========================================================================
- */
 function initContentProtection() {
     document.addEventListener('contextmenu', (e) => {
         e.preventDefault();
@@ -51,13 +37,6 @@ function initContentProtection() {
         }
     });
 }
-
-
-/**
- * =========================================================================
- * Modal "en desarrollo" para los idiomas bloqueados
- * =========================================================================
- */
 
 // Traducciones para el modal según el idioma bloqueado que se haya clickeado
 const MODAL_TRANSLATIONS = {
