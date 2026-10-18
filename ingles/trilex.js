@@ -13,7 +13,8 @@ const sent = a => a.join(' ').replace(/ ([.,?!;:])/g, '$1');
 
 /* ---------- progreso ---------- */
 let S = {}; try { S = JSON.parse(localStorage.getItem(K)) || {}; } catch (e) {}
-S = Object.assign({ done: {}, srs: {}, exam: null, placement: null, open: false }, S);
+S = Object.assign({ done: {}, srs: {}, exams: null, placement: null, open: false }, S);
+if (!S.exams) S.exams = S.exam ? { A1: S.exam } : {};   // migra el examen único antiguo (A1)
 const save = () => { try { localStorage.setItem(K, JSON.stringify(S)); } catch (e) {} };
 
 /* ---------- audio (Web Speech API) ---------- */
@@ -59,6 +60,7 @@ const R = {};
 function runEx(e, box, next, o = {}) {
   box.innerHTML = '';
   const q = h('div', 'tx-q', esc(e.prompt)), b = h('div', 'tx-body'), fb = h('div', 'tx-fb'), act = h('div', 'tx-act');
+  if (e.passage) box.append(h('div', 'tx-sit', esc(e.passage)));
   box.append(q);
   if (e.refers_to_input && o.input) box.append(h('details', 'tx-ref', '<summary>Ver el texto</summary>' + inputHTML(o.input, true)));
   box.append(b, fb, act);
@@ -166,27 +168,34 @@ R.roleplay = (e, b, fin) => {
 };
 
 /* ---------- vistas ---------- */
-let P, flat = [];
+let P, LV = [], flat = [];
 const view = (html, cls = 'tx-card') => { app.innerHTML = `<div class="${cls}">${html}</div>`; scrollTo(0, 0); return app.firstChild; };
 const stepCard = (title, i, n) => { const c = view(`<div class="tx-prog"><span style="width:${i / n * 100}%"></span></div><h2>${title}</h2><div id="step"></div>`); return $('#step'); };
 const dueItems = () => Object.keys(S.srs).filter(k => S.srs[k].due <= day());
-const unlocked = l => { const k = flat.indexOf(l); return S.open || k === 0 || !!S.done[flat[k - 1].id]; };
-const examOpen = () => S.open || flat.every(l => S.done[l.id]);
+const free = c => !!(S.placement && S.placement.passed && S.placement.passed.includes(c));          // nivel superado en la prueba de nivel
+const unlocked = l => { const k = flat.indexOf(l), p = flat[k - 1]; return S.open || k === 0 || free(l.cefr) || !!S.done[p.id] || (p.cefr !== l.cefr && free(p.cefr)); };
+const examOpen = lv => lv.exam && lv.exam.status === 'ready' && (S.open || free(lv.cefr) || flat.filter(l => l.cefr === lv.cefr).length === lvTotal(lv) && flat.filter(l => l.cefr === lv.cefr).every(l => S.done[l.id]));
+const lvTotal = lv => lv.units.reduce((a, u) => a + u.lessons.length, 0);
 
 function home() {
-  const A1 = P.levels.find(l => l.cefr === 'A1'), due = dueItems().length, nd = flat.filter(l => S.done[l.id]).length;
-  const ex = S.exam, pl = S.placement;
-  let s = `<div class="tx-card"><h2>Nivel A1 <small>${nd} de ${flat.length} lecciones completadas</small></h2><div class="tx-prog"><span style="width:${nd / flat.length * 100}%"></span></div>
-  <p><small>Desbloqueas cada lección con ≥ 70 %. Las demás etapas (${P.levels.filter(l => l.status !== 'ready').map(l => l.cefr).join(', ')}) llegarán próximamente.</small></p></div>
+  const due = dueItems().length, pl = S.placement, soon = P.levels.filter(l => !LV.includes(l)).map(l => l.cefr);
+  let s = `<div class="tx-card"><h2>Curso de inglés <small>${soon.length ? 'Próximamente: ' + soon.join(', ') : ''}</small></h2>
+  <p><small>Desbloqueas cada lección con ≥ 70 % en la anterior. Si haces la prueba de nivel, los niveles que superes quedan abiertos.</small></p></div>
   <div class="tx-grid">
-   <button class="tx-tile" data-go="placement"><b>🎯 Prueba de nivel</b><small>${pl ? 'Tu resultado: ' + esc(pl.level) : '28 preguntas, se detiene sola'}</small></button>
-   <button class="tx-tile" data-go="review" ${due ? '' : 'disabled'}><b>🔁 Repaso</b><small>${due ? due + ' palabras pendientes' : 'Nada pendiente hoy'}</small></button>
-   <button class="tx-tile" data-go="exam" ${examOpen() ? '' : 'disabled'}><b>📝 Examen final A1</b><small>${ex ? (ex.passed ? '✓ Aprobado ' : 'Último intento ') + Math.round(ex.pct * 100) + ' %' : examOpen() ? '30 preguntas · aprueba con 75 %' : 'Completa las 60 lecciones'}</small></button></div>`;
-  A1.units.forEach(u => {
-    s += `<div class="tx-card"><h2>Unidad ${u.order}: ${esc(u.title_target)} <small>${esc(u.title_es)}</small></h2>` + u.lessons.map(l => {
-      const d = S.done[l.id], ok = unlocked(l);
-      return `<button class="tx-lesson ${d ? 'done' : ''}" data-go="lesson:${l.id}" ${ok ? '' : 'disabled'}><span>${d ? '✓' : ok ? '▶' : '🔒'}</span><span>${l.kind === 'checkpoint' ? '⭐ ' : ''}${esc(l.title_target)} <small>${esc(l.title_es)}</small></span><span>${d ? Math.round(d.score * 100) + ' %' : ''}</span></button>`;
-    }).join('') + '</div>';
+   <button class="tx-tile" data-go="placement"><b>🎯 Prueba de nivel</b><small>${pl ? 'Tu resultado: ' + esc(pl.level) : 'Hasta 68 preguntas · se adapta a tu nivel'}</small></button>
+   <button class="tx-tile" data-go="review" ${due ? '' : 'disabled'}><b>🔁 Repaso</b><small>${due ? due + ' palabras pendientes' : 'Nada pendiente hoy'}</small></button></div>`;
+  LV.forEach(lv => {
+    const ls = flat.filter(l => l.cefr === lv.cefr), nd = ls.filter(l => S.done[l.id]).length, tot = lvTotal(lv), ex = S.exams[lv.cefr], open = examOpen(lv);
+    s += `<div class="tx-card"><h2>Nivel ${lv.cefr} <small>${nd} de ${tot} lecciones completadas</small></h2><div class="tx-prog"><span style="width:${nd / tot * 100}%"></span></div>` +
+      (free(lv.cefr) ? '<p><small>✓ Nivel superado en la prueba de nivel: las lecciones están abiertas para repasar.</small></p>' : '') +
+      (ls.length < tot ? `<p><small>Las unidades se publican por etapas: ${ls.length} de ${tot} lecciones disponibles por ahora.</small></p>` : '') + '</div>' +
+      `<div class="tx-grid"><button class="tx-tile" data-go="exam:${lv.cefr}" ${open ? '' : 'disabled'}><b>📝 Examen final ${lv.cefr}</b><small>${ex ? (ex.passed ? '✓ Aprobado ' : 'Último intento ') + Math.round(ex.pct * 100) + ' %' : !(lv.exam && lv.exam.status === 'ready') ? 'Se habilita cuando esté todo el nivel' : open ? '30 preguntas · aprueba con 75 %' : 'Completa las ' + tot + ' lecciones'}</small></button></div>`;
+    lv.units.filter(u => u.lessons.some(x => x.status === 'ready')).forEach(u => {
+      s += `<div class="tx-card"><h2>Unidad ${u.order}: ${esc(u.title_target)} <small>${esc(u.title_es)}</small></h2>` + u.lessons.filter(l => l.status === 'ready').map(l => {
+        const d = S.done[l.id], ok = unlocked(l);
+        return `<button class="tx-lesson ${d ? 'done' : ''}" data-go="lesson:${l.id}" ${ok ? '' : 'disabled'}><span>${d ? '✓' : ok ? '▶' : '🔒'}</span><span>${l.kind === 'checkpoint' ? '⭐ ' : ''}${esc(l.title_target)} <small>${esc(l.title_es)}</small></span><span>${d ? Math.round(d.score * 100) + ' %' : ''}</span></button>`;
+      }).join('') + '</div>';
+    });
   });
   s += `<div class="tx-foot"><label><input type="checkbox" id="tx-open" ${S.open ? 'checked' : ''}> Modo prueba: desbloquear todo</label><button data-go="reset">Borrar progreso</button></div>`;
   app.innerHTML = s; scrollTo(0, 0);
@@ -224,7 +233,7 @@ async function lesson(ent) {
 }
 
 async function review() {
-  const V = await J('vocab/a1.json'), map = Object.fromEntries(V.items.map(v => [v.id, v]));
+  const Vs = await Promise.all(LV.map(l => J('vocab/' + l.cefr.toLowerCase() + '.json'))), map = Object.fromEntries(Vs.flatMap(V => V.items).map(v => [v.id, v]));
   const q = shuffle(dueItems().filter(k => map[k])); let i = 0, ok = 0;
   const card = () => {
     if (i >= q.length) { const c = view(`<h2>Repaso terminado</h2><p>Acertaste ${ok} de ${q.length}.</p>`); c.append(btn('Volver al curso', home)); return; }
@@ -240,17 +249,17 @@ async function review() {
   card();
 }
 
-async function exam() {
-  const E = await J('a1/exam.json'), n = E.exercises.length, wrong = {}; let i = 0, sc = 0;
+async function exam(cefr) {
+  const lv = LV.find(l => l.cefr === cefr), E = await J(lv.exam.file), n = E.exercises.length, wrong = {}; let i = 0, sc = 0;
   const step = () => {
     if (i >= n) return result();
     const s = stepCard(`${esc(E.title.es)} <small>${i + 1}/${n}</small>`, i, n);
     runEx(E.exercises[i], s, (v, e) => { sc += v; if (v < 1) (e.tags || []).forEach(t => wrong[t] = (wrong[t] || 0) + 1); i++; step(); });
   };
   const result = () => {
-    const pct = sc / n, ok = pct >= E.pass_score; S.exam = { pct, passed: ok, at: Date.now() }; save();
+    const pct = sc / n, ok = pct >= E.pass_score; S.exams[cefr] = { pct, passed: ok, at: Date.now() }; save();
     const weak = Object.entries(wrong).sort((a, b) => b[1] - a[1]);
-    const c = view(`<h2>${esc(E.title.es)}</h2><p class="tx-big">${Math.round(sc)} / ${n} · ${Math.round(pct * 100)} %</p><p>${ok ? '¡Aprobado! A1 completado.' : 'Necesitas ' + Math.ceil(E.pass_score * n) + ' aciertos. Repasa los temas débiles e inténtalo de nuevo.'}</p>` +
+    const c = view(`<h2>${esc(E.title.es)}</h2><p class="tx-big">${Math.round(sc)} / ${n} · ${Math.round(pct * 100)} %</p><p>${ok ? '¡Aprobado! ' + cefr + ' completado.' : 'Necesitas ' + Math.ceil(E.pass_score * n) + ' aciertos. Repasa los temas débiles e inténtalo de nuevo.'}</p>` +
       (weak.length ? '<h3>Temas para reforzar</h3><ul>' + weak.map(([t, k]) => `<li>${esc(t)} (${k})</li>`).join('') + '</ul>' : '') + `<p><small>${esc(E.instructions_es)}</small></p>`);
     c.append(btn('Tareas opcionales (sin nota)', () => opt(0)), btn('Volver al curso', home));
   };
@@ -259,18 +268,32 @@ async function exam() {
 }
 
 async function placement() {
-  const T = await J('placement-test.json'), A = T.algorithm; let bi = 0, ii = 0, ok = 0, done = 0;
-  const count = T.blocks.reduce((a, b) => a + b.items.length, 0);
-  const end = lv => {
-    S.placement = { level: lv, at: Date.now() }; save();
-    const c = view(`<h2>${esc(T.title.es)}</h2><p class="tx-big">${esc(lv)}</p><p>Este es tu nivel de inicio.${lv === 'A1' ? '' : ' Los niveles anteriores se marcan como superados; ahora solo está disponible el contenido de A1, que puedes usar para repasar.'}</p>`);
-    c.append(btn('Ir al curso', home));
+  const T = await J('placement-test.json'), A = T.algorithm, res = {}, last = T.blocks.length - 1;
+  let bi = 0, ii = 0, ok = 0;
+  const pct = r => Math.round(r.ok / r.n * 100);
+  const end = () => {
+    const done = T.blocks.filter(B => res[B.level]), passed = done.filter(B => res[B.level].ok / res[B.level].n >= A.pass_ratio);
+    const lv = passed.length ? passed[passed.length - 1].level : 'A1';
+    const fail = done.find(B => !passed.includes(B));
+    S.placement = { level: lv, passed: passed.map(B => B.level), scores: Object.fromEntries(done.map(B => [B.level, pct(res[B.level])])), at: Date.now() }; save();
+    const need = Math.round(A.pass_ratio * 100);
+    const msg = !passed.length ? `No llegaste al ${need} % en A1, así que lo mejor es empezar por el principio.`
+      : !fail ? `Superaste el nivel ${lv}, el más alto que cubre este curso.`
+      : `Superaste hasta ${lv}. En ${fail.level} acertaste ${pct(res[fail.level])} %${pct(res[fail.level]) >= 50 ? ': estás cerca, ese es tu siguiente objetivo' : ''}.`;
+    const c = view(`<h2>${esc(T.title.es)}</h2><p class="tx-big">${esc(lv)}</p><p>${passed.length ? 'Tu nivel estimado es <b>' + esc(lv) + '</b>.' : 'Tu punto de partida es <b>A1</b>.'} ${msg}</p>
+      <div class="tx-scroll"><table class="tx-table"><tr><th>Nivel</th><th>Aciertos</th><th>Resultado</th></tr>${done.map(B => `<tr><td>${B.level}</td><td>${res[B.level].ok}/${res[B.level].n} (${pct(res[B.level])} %)</td><td>${passed.includes(B) ? '✓ superado' : '✗ no superado'}</td></tr>`).join('')}</table></div>
+      <p><small>Se supera un nivel con al menos ${need} % de aciertos. ${!passed.length ? '' : LV.every(l => passed.some(B => B.level === l.cefr)) ? 'Ya superaste todo el contenido publicado (' + LV.map(l => l.cefr).join(', ') + '); los siguientes niveles llegarán pronto.' : 'Los niveles que superaste quedan abiertos para repasar y puedes continuar desde el siguiente.'}</small></p>`);
+    c.append(btn('Ir al curso', home), btn('Repetir la prueba', () => placement().catch(fail)));
   };
   const next = () => {
     const B = T.blocks[bi];
-    if (ii >= B.items.length) { if (ok < A.pass_min_correct[B.level]) return end(B.level); bi++; ii = 0; ok = 0; return bi >= T.blocks.length ? end('C2') : next(); }
-    const s = stepCard(`${esc(T.title.es)} <small>${done + 1}/${count}</small>`, done, count);
-    runEx(B.items[ii], s, v => { ok += v; ii++; done++; next(); }, { quiet: true, dk: true });
+    if (ii >= B.items.length) {
+      res[B.level] = { ok, n: B.items.length };
+      if (ok / B.items.length < A.pass_ratio || bi === last) return end();
+      bi++; ii = 0; ok = 0; return next();
+    }
+    const s = stepCard(`${esc(T.title.es)} <small>· ${B.level} · pregunta ${ii + 1}/${B.items.length}</small>`, ii, B.items.length);
+    runEx(B.items[ii], s, v => { ok += v; ii++; next(); }, { quiet: true, dk: true });
   };
   const c = view(`<h2>${esc(T.title.es)}</h2><p>${esc(T.instructions_es)}</p>`); c.append(btn('Empezar', next), btn('Cancelar', home));
 }
@@ -282,11 +305,15 @@ app.onclick = ev => {
   const [a, id] = t.dataset.go.split(':');
   if (a === 'lesson') lesson(flat.find(l => l.id === id)).catch(fail);
   else if (a === 'review') review().catch(fail);
-  else if (a === 'exam') exam().catch(fail);
+  else if (a === 'exam') exam(id).catch(fail);
   else if (a === 'placement') placement().catch(fail);
-  else if (a === 'reset' && confirm('¿Borrar todo tu progreso en este navegador?')) { S = { done: {}, srs: {}, exam: null, placement: null, open: false }; save(); home(); }
+  else if (a === 'reset' && confirm('¿Borrar todo tu progreso en este navegador?')) { S = { done: {}, srs: {}, exams: {}, placement: null, open: false }; save(); home(); }
 };
 
 window.Trilex = { runEx, norm };
-J('path.json').then(p => { P = p; flat = p.levels.find(l => l.cefr === 'A1').units.flatMap(u => u.lessons.filter(l => l.status === 'ready')); home(); }).catch(fail);
+J('path.json').then(p => {
+  P = p; LV = p.levels.filter(l => l.units.some(u => u.lessons.some(x => x.status === 'ready')));
+  flat = LV.flatMap(lv => lv.units.flatMap(u => u.lessons.filter(l => l.status === 'ready').map(l => Object.assign(l, { cefr: lv.cefr }))));
+  home();
+}).catch(fail);
 })();

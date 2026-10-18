@@ -58,7 +58,7 @@ Campos comunes: `id`, `type`, `skill`, `difficulty` (1–5), `tags`, `est_second
 
 ## Placement test
 
-Escalera por bloques A1 → A2 → B1 → B2 → C1. Mínimo de aciertos para superar cada bloque: A1 4/6, A2 4/6, B1 4/6, B2 3/5, C1 3/5. Se detiene en el primer bloque no superado; ese es el nivel de inicio (si se superan todos, C2). Los niveles superados se marcan como «saltados» con repaso opcional. Se muestra una opción «No lo sé» (cuenta como incorrecta).
+Escalera por bloques A1 → A2 → B1 → B2 (68 preguntas: 12, 16, 20 y 20; incluye gramática, vocabulario, lectura con texto y audio). Se supera un bloque con al menos el 75 % de aciertos (`algorithm.pass_ratio`). Se detiene en el primer bloque no superado; el nivel estimado es el último bloque superado (si no se supera A1, se empieza en A1; si se supera B2, el resultado es B2, el máximo del sitio). Al final se muestra el porcentaje por nivel. Se ofrece una opción «No lo sé» (cuenta como incorrecta). Las preguntas de lectura llevan un campo `passage` con el texto; las de audio, `audio_text`.
 
 ## Audio
 

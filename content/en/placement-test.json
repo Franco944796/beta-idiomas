@@ -1,11 +1,11 @@
 {
-  "id": "en-placement-v1",
+  "id": "en-placement-v2",
   "language": "en",
-  "version": 1,
+  "version": 2,
   "title": {
     "es": "Prueba de nivel de inglés"
   },
-  "instructions_es": "Responde sin ayuda ni traductor. Si no sabes una respuesta, elige «No lo sé»: no resta puntos extra, pero cuenta como incorrecta. La prueba se detiene cuando un bloque de nivel no se supera.",
+  "instructions_es": "Responde sin ayuda ni traductor. Son hasta 68 preguntas (unos 25-30 minutos) repartidas en cuatro niveles, de A1 a B2. La prueba se detiene cuando un nivel no se supera, así que si resulta muy difícil terminará antes. Puedes escuchar los audios las veces que quieras. Si no sabes una respuesta, elige «No lo sé» en lugar de adivinar: cuenta como incorrecta, pero no resta puntos extra.",
   "dont_know_option": true,
   "algorithm": {
     "type": "staircase",
@@ -13,20 +13,13 @@
       "A1",
       "A2",
       "B1",
-      "B2",
-      "C1"
+      "B2"
     ],
-    "pass_min_correct": {
-      "A1": 4,
-      "A2": 4,
-      "B1": 4,
-      "B2": 3,
-      "C1": 3
-    },
+    "pass_ratio": 0.75,
     "stop_on_first_fail": true,
     "shuffle_options": true,
-    "result_rule": "start_level = first block not passed; if all blocks passed, start_level = C2",
-    "levels_passed_are_marked": "skipped (optional review available)"
+    "result_rule": "level = last block passed with >= pass_ratio correct; if A1 is not passed, level = A1 (beginner); if B2 is passed, level = B2 (maximum covered)",
+    "report": "percentage per block is shown at the end"
   },
   "blocks": [
     {
@@ -40,7 +33,7 @@
           "tags": [
             "to-be"
           ],
-          "prompt": "She ___ from Brazil.",
+          "prompt": "My brother ___ a teacher.",
           "options": [
             "am",
             "is",
@@ -57,17 +50,17 @@
           "level": "A1",
           "difficulty": 1,
           "tags": [
-            "age"
+            "articles"
           ],
-          "prompt": "How old are you? — I ___ twenty.",
+          "prompt": "She has ___ umbrella.",
           "options": [
-            "have",
-            "am",
-            "are",
-            "has"
+            "a",
+            "an",
+            "the",
+            "some"
           ],
           "answer": [
-            "am"
+            "an"
           ]
         },
         {
@@ -76,17 +69,17 @@
           "level": "A1",
           "difficulty": 1,
           "tags": [
-            "to-be"
+            "plurals"
           ],
-          "prompt": "They ___ students.",
+          "prompt": "There are three ___ in the garden.",
           "options": [
-            "is",
-            "am",
-            "are",
-            "be"
+            "childs",
+            "children",
+            "childrens",
+            "child"
           ],
           "answer": [
-            "are"
+            "children"
           ]
         },
         {
@@ -95,17 +88,17 @@
           "level": "A1",
           "difficulty": 1,
           "tags": [
-            "questions"
+            "present-simple"
           ],
-          "prompt": "___ is your name?",
+          "prompt": "He ___ football every Saturday.",
           "options": [
-            "What",
-            "Where",
-            "How",
-            "When"
+            "play",
+            "plays",
+            "playing",
+            "is play"
           ],
           "answer": [
-            "What"
+            "plays"
           ]
         },
         {
@@ -116,12 +109,12 @@
           "tags": [
             "possessives"
           ],
-          "prompt": "This is my sister. ___ name is Laura.",
+          "prompt": "This is Maria. ___ husband is a doctor.",
           "options": [
             "She",
             "Her",
-            "His",
-            "Hers"
+            "Hers",
+            "His"
           ],
           "answer": [
             "Her"
@@ -131,20 +124,138 @@
           "id": "pt-a1-06",
           "type": "multiple_choice",
           "level": "A1",
-          "difficulty": 2,
+          "difficulty": 1,
           "tags": [
-            "there-is"
+            "prepositions"
           ],
-          "prompt": "There ___ two books on the table.",
+          "prompt": "I live ___ Madrid.",
           "options": [
-            "is",
-            "are",
-            "be",
-            "am"
+            "in",
+            "on",
+            "at",
+            "to"
           ],
           "answer": [
-            "are"
+            "in"
           ]
+        },
+        {
+          "id": "pt-a1-07",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "question-words"
+          ],
+          "prompt": "___ old are you?",
+          "options": [
+            "What",
+            "Who",
+            "Where",
+            "How"
+          ],
+          "answer": [
+            "How"
+          ]
+        },
+        {
+          "id": "pt-a1-08",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "there-is-are"
+          ],
+          "prompt": "___ two bananas on the table.",
+          "options": [
+            "There is",
+            "There are",
+            "It is",
+            "They are"
+          ],
+          "answer": [
+            "There are"
+          ]
+        },
+        {
+          "id": "pt-a1-09",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "can"
+          ],
+          "prompt": "—Can you swim? —Yes, I ___.",
+          "options": [
+            "can",
+            "do",
+            "am",
+            "are"
+          ],
+          "answer": [
+            "can"
+          ]
+        },
+        {
+          "id": "pt-a1-10",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "vocabulary",
+            "food"
+          ],
+          "prompt": "¿Qué significa «breakfast»?",
+          "options": [
+            "desayuno",
+            "cena",
+            "merienda",
+            "postre"
+          ],
+          "answer": [
+            "desayuno"
+          ]
+        },
+        {
+          "id": "pt-a1-11",
+          "type": "listening",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "listening",
+            "numbers-time"
+          ],
+          "prompt": "Escucha el audio. ¿A qué hora abre la tienda?",
+          "options": [
+            "A las 8",
+            "A las 9",
+            "A las 10",
+            "A las 7"
+          ],
+          "answer": [
+            "A las 9"
+          ],
+          "audio_text": "The shop opens at nine o'clock every morning."
+        },
+        {
+          "id": "pt-a1-12",
+          "type": "multiple_choice",
+          "level": "A1",
+          "difficulty": 1,
+          "tags": [
+            "reading"
+          ],
+          "prompt": "What does Tom's sister do?",
+          "options": [
+            "She is a nurse.",
+            "She works in a café.",
+            "She is 25.",
+            "She lives in Paris."
+          ],
+          "answer": [
+            "She is a nurse."
+          ],
+          "passage": "Hi! My name is Tom. I'm 25 years old. I live in London with my sister. She is a nurse. I work in a café near our house."
         }
       ]
     },
@@ -159,12 +270,12 @@
           "tags": [
             "past-simple"
           ],
-          "prompt": "Yesterday I ___ to the cinema.",
+          "prompt": "We ___ to the beach last summer.",
           "options": [
             "go",
-            "goes",
             "went",
-            "going"
+            "gone",
+            "goes"
           ],
           "answer": [
             "went"
@@ -176,17 +287,17 @@
           "level": "A2",
           "difficulty": 2,
           "tags": [
-            "comparatives"
+            "past-simple"
           ],
-          "prompt": "My brother is ___ than me.",
+          "prompt": "She ___ her homework yesterday.",
           "options": [
-            "tall",
-            "taller",
-            "tallest",
-            "more tall"
+            "didn't do",
+            "doesn't do",
+            "didn't did",
+            "not did"
           ],
           "answer": [
-            "taller"
+            "didn't do"
           ]
         },
         {
@@ -195,17 +306,17 @@
           "level": "A2",
           "difficulty": 2,
           "tags": [
-            "going-to"
+            "comparatives"
           ],
-          "prompt": "I'm ___ to visit my grandparents next weekend.",
+          "prompt": "My new phone is ___ than my old one.",
           "options": [
-            "go",
-            "going",
-            "goes",
-            "went"
+            "more good",
+            "gooder",
+            "better",
+            "best"
           ],
           "answer": [
-            "going"
+            "better"
           ]
         },
         {
@@ -214,36 +325,36 @@
           "level": "A2",
           "difficulty": 2,
           "tags": [
-            "some-any"
+            "superlatives"
           ],
-          "prompt": "There isn't ___ milk in the fridge.",
+          "prompt": "It's the ___ restaurant in town.",
           "options": [
-            "some",
-            "any",
-            "a",
-            "an"
+            "most expensive",
+            "more expensive",
+            "expensivest",
+            "much expensive"
           ],
           "answer": [
-            "any"
+            "most expensive"
           ]
         },
         {
           "id": "pt-a2-05",
           "type": "multiple_choice",
           "level": "A2",
-          "difficulty": 3,
+          "difficulty": 2,
           "tags": [
-            "modals"
+            "going-to"
           ],
-          "prompt": "You ___ wear a seatbelt in the car. It's the law.",
+          "prompt": "Look at those black clouds! It ___ rain.",
           "options": [
-            "can",
-            "must",
-            "might",
-            "would"
+            "is going to",
+            "goes to",
+            "is going",
+            "will be to"
           ],
           "answer": [
-            "must"
+            "is going to"
           ]
         },
         {
@@ -252,17 +363,211 @@
           "level": "A2",
           "difficulty": 2,
           "tags": [
-            "quantity"
+            "countable-uncountable"
           ],
-          "prompt": "How ___ water do you drink every day?",
+          "prompt": "How ___ money do you have?",
           "options": [
             "many",
             "much",
-            "long",
-            "often"
+            "lot",
+            "few"
           ],
           "answer": [
             "much"
+          ]
+        },
+        {
+          "id": "pt-a2-07",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "present-continuous"
+          ],
+          "prompt": "Be quiet! The baby ___.",
+          "options": [
+            "sleeps",
+            "is sleeping",
+            "sleep",
+            "slept"
+          ],
+          "answer": [
+            "is sleeping"
+          ]
+        },
+        {
+          "id": "pt-a2-08",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "modals"
+          ],
+          "prompt": "You ___ park here. It is forbidden.",
+          "options": [
+            "don't have to",
+            "mustn't",
+            "haven't to",
+            "not must"
+          ],
+          "answer": [
+            "mustn't"
+          ]
+        },
+        {
+          "id": "pt-a2-09",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "object-pronouns"
+          ],
+          "prompt": "I like Anna, so I often talk to ___.",
+          "options": [
+            "she",
+            "her",
+            "hers",
+            "herself"
+          ],
+          "answer": [
+            "her"
+          ]
+        },
+        {
+          "id": "pt-a2-10",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "prepositions-time"
+          ],
+          "prompt": "My birthday is ___ March.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "by"
+          ],
+          "answer": [
+            "in"
+          ]
+        },
+        {
+          "id": "pt-a2-11",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "adverbs-frequency"
+          ],
+          "prompt": "She ___ late for work. She is always on time.",
+          "options": [
+            "never is",
+            "is never",
+            "does never",
+            "never be"
+          ],
+          "answer": [
+            "is never"
+          ]
+        },
+        {
+          "id": "pt-a2-12",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "vocabulary"
+          ],
+          "prompt": "¿Qué significa «to borrow»?",
+          "options": [
+            "prestar",
+            "pedir prestado",
+            "tomar",
+            "comprar"
+          ],
+          "answer": [
+            "pedir prestado"
+          ]
+        },
+        {
+          "id": "pt-a2-13",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "vocabulary",
+            "travel"
+          ],
+          "prompt": "Our flight was ___, so we waited at the airport for three hours.",
+          "options": [
+            "delayed",
+            "closed",
+            "lost",
+            "borrowed"
+          ],
+          "answer": [
+            "delayed"
+          ]
+        },
+        {
+          "id": "pt-a2-14",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "reading"
+          ],
+          "prompt": "Why did Kate leave the Colosseum after an hour?",
+          "options": [
+            "It was raining.",
+            "It was too crowded.",
+            "She was tired.",
+            "It closed early."
+          ],
+          "answer": [
+            "It was too crowded."
+          ],
+          "passage": "Hi Sam, I'm writing to tell you about my trip. We arrived in Rome on Monday and the weather was great. Yesterday we visited the Colosseum, but it was very crowded, so we left after an hour. Tomorrow we're going to take a train to Florence. Wish you were here! Kate"
+        },
+        {
+          "id": "pt-a2-15",
+          "type": "listening",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "listening",
+            "travel"
+          ],
+          "prompt": "Escucha el audio. ¿De qué andén sale el tren a Manchester?",
+          "options": [
+            "Del 2",
+            "Del 4",
+            "Del 6",
+            "Del 10"
+          ],
+          "answer": [
+            "Del 4"
+          ],
+          "audio_text": "The next train to Manchester leaves from platform four at ten past six."
+        },
+        {
+          "id": "pt-a2-16",
+          "type": "multiple_choice",
+          "level": "A2",
+          "difficulty": 2,
+          "tags": [
+            "first-conditional"
+          ],
+          "prompt": "If it rains tomorrow, we ___ at home.",
+          "options": [
+            "stay",
+            "would stay",
+            "will stay",
+            "stayed"
+          ],
+          "answer": [
+            "will stay"
           ]
         }
       ]
@@ -278,15 +583,15 @@
           "tags": [
             "present-perfect"
           ],
-          "prompt": "I ___ in this city since 2015.",
+          "prompt": "She has worked here ___ five years.",
           "options": [
-            "live",
-            "lived",
-            "have lived",
-            "am living"
+            "since",
+            "for",
+            "from",
+            "during"
           ],
           "answer": [
-            "have lived"
+            "for"
           ]
         },
         {
@@ -295,17 +600,17 @@
           "level": "B1",
           "difficulty": 3,
           "tags": [
-            "first-conditional"
+            "present-perfect"
           ],
-          "prompt": "If it rains tomorrow, we ___ at home.",
+          "prompt": "Have you ever ___ sushi?",
           "options": [
-            "stay",
-            "would stay",
-            "will stay",
-            "stayed"
+            "ate",
+            "eaten",
+            "eating",
+            "eat"
           ],
           "answer": [
-            "will stay"
+            "eaten"
           ]
         },
         {
@@ -314,17 +619,17 @@
           "level": "B1",
           "difficulty": 3,
           "tags": [
-            "past-continuous"
+            "second-conditional"
           ],
-          "prompt": "While I ___ TV, the lights went out.",
+          "prompt": "If I ___ more money, I would travel the world.",
           "options": [
-            "watched",
-            "was watching",
-            "have watched",
-            "watch"
+            "have",
+            "had",
+            "would have",
+            "will have"
           ],
           "answer": [
-            "was watching"
+            "had"
           ]
         },
         {
@@ -335,7 +640,7 @@
           "tags": [
             "passive"
           ],
-          "prompt": "This bridge ___ in 1932.",
+          "prompt": "This bridge ___ in 1890.",
           "options": [
             "built",
             "was built",
@@ -352,37 +657,307 @@
           "level": "B1",
           "difficulty": 3,
           "tags": [
-            "relative-clauses"
+            "reported-speech"
           ],
-          "prompt": "The man ___ lives next door is a doctor.",
+          "prompt": "\"I am tired,\" he said. → He said that he ___ tired.",
           "options": [
-            "which",
-            "who",
-            "whose",
-            "what"
+            "is",
+            "was",
+            "has been",
+            "will be"
           ],
           "answer": [
-            "who"
+            "was"
           ]
         },
         {
           "id": "pt-b1-06",
           "type": "multiple_choice",
           "level": "B1",
-          "difficulty": 4,
+          "difficulty": 3,
           "tags": [
-            "reported-speech"
+            "relative-clauses"
           ],
-          "prompt": "He asked me where ___.",
+          "prompt": "The woman ___ lives next door is a doctor.",
           "options": [
-            "did I live",
-            "I lived",
-            "do I live",
-            "I live"
+            "which",
+            "who",
+            "whose",
+            "where"
           ],
           "answer": [
-            "I lived"
+            "who"
           ]
+        },
+        {
+          "id": "pt-b1-07",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "modals-deduction"
+          ],
+          "prompt": "The lights are on, so they ___ be at home.",
+          "options": [
+            "can't",
+            "must",
+            "mustn't",
+            "needn't"
+          ],
+          "answer": [
+            "must"
+          ]
+        },
+        {
+          "id": "pt-b1-08",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "used-to"
+          ],
+          "prompt": "When I was a child, I ___ play outside all day.",
+          "options": [
+            "use to",
+            "used to",
+            "was used to",
+            "am used to"
+          ],
+          "answer": [
+            "used to"
+          ]
+        },
+        {
+          "id": "pt-b1-09",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "gerund-infinitive"
+          ],
+          "prompt": "I'm looking forward to ___ you next week.",
+          "options": [
+            "see",
+            "seeing",
+            "saw",
+            "to see"
+          ],
+          "answer": [
+            "seeing"
+          ]
+        },
+        {
+          "id": "pt-b1-10",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "too-enough"
+          ],
+          "prompt": "He isn't ___ to drive a car.",
+          "options": [
+            "enough old",
+            "too old",
+            "old enough",
+            "so old"
+          ],
+          "answer": [
+            "old enough"
+          ]
+        },
+        {
+          "id": "pt-b1-11",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "phrasal-verbs"
+          ],
+          "prompt": "She decided to ___ smoking because of her health.",
+          "options": [
+            "give in",
+            "give up",
+            "give out",
+            "give off"
+          ],
+          "answer": [
+            "give up"
+          ]
+        },
+        {
+          "id": "pt-b1-12",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "linkers"
+          ],
+          "prompt": "___ it was raining, we went for a walk.",
+          "options": [
+            "Despite",
+            "Because",
+            "Although",
+            "However"
+          ],
+          "answer": [
+            "Although"
+          ]
+        },
+        {
+          "id": "pt-b1-13",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "quantifiers"
+          ],
+          "prompt": "I have ___ friends here, so I often feel lonely.",
+          "options": [
+            "a few",
+            "few",
+            "little",
+            "a little"
+          ],
+          "answer": [
+            "few"
+          ]
+        },
+        {
+          "id": "pt-b1-14",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "vocabulary",
+            "work"
+          ],
+          "prompt": "I'm applying for a job, so I need to update my ___.",
+          "options": [
+            "diploma",
+            "CV",
+            "salary",
+            "contract"
+          ],
+          "answer": [
+            "CV"
+          ]
+        },
+        {
+          "id": "pt-b1-15",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "vocabulary"
+          ],
+          "prompt": "A ___ person is someone you can trust to do what they say.",
+          "options": [
+            "reliable",
+            "reluctant",
+            "rare",
+            "ridiculous"
+          ],
+          "answer": [
+            "reliable"
+          ]
+        },
+        {
+          "id": "pt-b1-16",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "word-formation"
+          ],
+          "prompt": "She gave a very ___ performance. Everyone loved it.",
+          "options": [
+            "impress",
+            "impression",
+            "impressive",
+            "impressively"
+          ],
+          "answer": [
+            "impressive"
+          ]
+        },
+        {
+          "id": "pt-b1-17",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "question-tags"
+          ],
+          "prompt": "You haven't seen my keys, ___?",
+          "options": [
+            "do you",
+            "have you",
+            "haven't you",
+            "did you"
+          ],
+          "answer": [
+            "have you"
+          ]
+        },
+        {
+          "id": "pt-b1-18",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "reading"
+          ],
+          "prompt": "What is a \"hybrid\" model?",
+          "options": [
+            "Working only from home.",
+            "Working partly at home and partly in the office.",
+            "Working fewer hours each week.",
+            "Working in a different city."
+          ],
+          "answer": [
+            "Working partly at home and partly in the office."
+          ],
+          "passage": "Since the pandemic, more companies have allowed employees to work from home. Many workers say they are more productive because there are fewer interruptions and no long commute. However, some people feel isolated and miss chatting with their colleagues. As a result, a number of firms now offer a \"hybrid\" model, in which staff spend part of the week at home and part in the office."
+        },
+        {
+          "id": "pt-b1-19",
+          "type": "multiple_choice",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "reading"
+          ],
+          "prompt": "Why do some people dislike working from home?",
+          "options": [
+            "They feel lonely.",
+            "They earn less money.",
+            "They have long commutes.",
+            "They are less productive."
+          ],
+          "answer": [
+            "They feel lonely."
+          ],
+          "passage": "Since the pandemic, more companies have allowed employees to work from home. Many workers say they are more productive because there are fewer interruptions and no long commute. However, some people feel isolated and miss chatting with their colleagues. As a result, a number of firms now offer a \"hybrid\" model, in which staff spend part of the week at home and part in the office."
+        },
+        {
+          "id": "pt-b1-20",
+          "type": "listening",
+          "level": "B1",
+          "difficulty": 3,
+          "tags": [
+            "listening"
+          ],
+          "prompt": "Escucha el audio. ¿Por qué va a conducir el hablante?",
+          "options": [
+            "Porque hay huelga de trenes",
+            "Porque el tren es más caro",
+            "Porque perdió el tren",
+            "Porque no le gusta la estación"
+          ],
+          "answer": [
+            "Porque hay huelga de trenes"
+          ],
+          "audio_text": "I was going to take the train, but there's a strike tomorrow, so I've decided to drive instead. It'll take longer, but at least I won't be stuck at the station."
         }
       ]
     },
@@ -397,15 +972,15 @@
           "tags": [
             "third-conditional"
           ],
-          "prompt": "If she ___ harder, she would have passed the exam.",
+          "prompt": "If she ___ the bus, she wouldn't have been late.",
           "options": [
-            "studied",
-            "had studied",
-            "would study",
-            "has studied"
+            "didn't miss",
+            "hadn't missed",
+            "wouldn't miss",
+            "hasn't missed"
           ],
           "answer": [
-            "had studied"
+            "hadn't missed"
           ]
         },
         {
@@ -414,17 +989,17 @@
           "level": "B2",
           "difficulty": 4,
           "tags": [
-            "wish"
+            "mixed-conditionals"
           ],
-          "prompt": "I wish I ___ speak French.",
+          "prompt": "If I had studied medicine, I ___ a doctor now.",
           "options": [
-            "can",
-            "could",
-            "would",
-            "will"
+            "would have been",
+            "would be",
+            "will be",
+            "was"
           ],
           "answer": [
-            "could"
+            "would be"
           ]
         },
         {
@@ -433,17 +1008,17 @@
           "level": "B2",
           "difficulty": 4,
           "tags": [
-            "modal-deduction"
+            "wish"
           ],
-          "prompt": "He must ___ the message, because he replied straight away.",
+          "prompt": "I wish I ___ the answer when the teacher asked me yesterday.",
           "options": [
-            "receive",
-            "have received",
-            "had received",
-            "be received"
+            "knew",
+            "had known",
+            "would know",
+            "know"
           ],
           "answer": [
-            "have received"
+            "had known"
           ]
         },
         {
@@ -452,17 +1027,17 @@
           "level": "B2",
           "difficulty": 4,
           "tags": [
-            "gerunds"
+            "passive-reporting"
           ],
-          "prompt": "I'm looking forward ___ you.",
+          "prompt": "The company is said ___ millions of euros last year.",
           "options": [
-            "to see",
-            "to seeing",
-            "seeing",
-            "for seeing"
+            "to lose",
+            "losing",
+            "to have lost",
+            "that lost"
           ],
           "answer": [
-            "to seeing"
+            "to have lost"
           ]
         },
         {
@@ -471,118 +1046,307 @@
           "level": "B2",
           "difficulty": 4,
           "tags": [
-            "linking"
+            "inversion"
           ],
-          "prompt": "___ the bad weather, the match went ahead.",
+          "prompt": "Not only ___ late, but he also forgot the documents.",
+          "options": [
+            "he arrived",
+            "did he arrive",
+            "he did arrive",
+            "arrived he"
+          ],
+          "answer": [
+            "did he arrive"
+          ]
+        },
+        {
+          "id": "pt-b2-06",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "causative"
+          ],
+          "prompt": "We ___ the kitchen painted last month.",
+          "options": [
+            "have",
+            "had",
+            "made",
+            "did"
+          ],
+          "answer": [
+            "had"
+          ]
+        },
+        {
+          "id": "pt-b2-07",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "past-modals"
+          ],
+          "prompt": "You look exhausted. You ___ stayed up so late.",
+          "options": [
+            "shouldn't have",
+            "mustn't have",
+            "can't have",
+            "couldn't have"
+          ],
+          "answer": [
+            "shouldn't have"
+          ]
+        },
+        {
+          "id": "pt-b2-08",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "relative-clauses"
+          ],
+          "prompt": "My brother, ___ lives in Canada, is visiting us next week.",
+          "options": [
+            "that",
+            "who",
+            "which",
+            "whom"
+          ],
+          "answer": [
+            "who"
+          ]
+        },
+        {
+          "id": "pt-b2-09",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "reported-questions"
+          ],
+          "prompt": "She asked me ___.",
+          "options": [
+            "where did I buy the tickets",
+            "where I had bought the tickets",
+            "where had I bought the tickets",
+            "that where I had bought the tickets"
+          ],
+          "answer": [
+            "where I had bought the tickets"
+          ]
+        },
+        {
+          "id": "pt-b2-10",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "future-perfect"
+          ],
+          "prompt": "By this time next year, I ___ my degree.",
+          "options": [
+            "will finish",
+            "will have finished",
+            "am finishing",
+            "have finished"
+          ],
+          "answer": [
+            "will have finished"
+          ]
+        },
+        {
+          "id": "pt-b2-11",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "phrasal-verbs"
+          ],
+          "prompt": "I can't ___ the noise from the street any longer.",
+          "options": [
+            "put up to",
+            "put up with",
+            "put away with",
+            "put on with"
+          ],
+          "answer": [
+            "put up with"
+          ]
+        },
+        {
+          "id": "pt-b2-12",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "collocations"
+          ],
+          "prompt": "The government has decided to ___ a ban on plastic bags.",
+          "options": [
+            "do",
+            "make",
+            "impose",
+            "perform"
+          ],
+          "answer": [
+            "impose"
+          ]
+        },
+        {
+          "id": "pt-b2-13",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "dependent-prepositions"
+          ],
+          "prompt": "She insisted ___ paying for the meal.",
+          "options": [
+            "in",
+            "on",
+            "to",
+            "for"
+          ],
+          "answer": [
+            "on"
+          ]
+        },
+        {
+          "id": "pt-b2-14",
+          "type": "multiple_choice",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "linkers"
+          ],
+          "prompt": "___ the heavy traffic, we arrived on time.",
           "options": [
             "Although",
             "Despite",
             "However",
-            "Because"
+            "Even though"
           ],
           "answer": [
             "Despite"
           ]
-        }
-      ]
-    },
-    {
-      "level": "C1",
-      "items": [
+        },
         {
-          "id": "pt-c1-01",
+          "id": "pt-b2-15",
           "type": "multiple_choice",
-          "level": "C1",
-          "difficulty": 5,
+          "level": "B2",
+          "difficulty": 4,
           "tags": [
-            "inversion"
+            "vocabulary"
           ],
-          "prompt": "Hardly ___ arrived when it started to rain.",
+          "prompt": "Her explanation was so ___ that nobody could follow it.",
           "options": [
-            "we had",
-            "had we",
-            "did we",
-            "have we"
+            "concise",
+            "coherent",
+            "convoluted",
+            "straightforward"
           ],
           "answer": [
-            "had we"
+            "convoluted"
           ]
         },
         {
-          "id": "pt-c1-02",
+          "id": "pt-b2-16",
           "type": "multiple_choice",
-          "level": "C1",
-          "difficulty": 5,
+          "level": "B2",
+          "difficulty": 4,
           "tags": [
-            "subjunctive"
+            "it-is-time"
           ],
-          "prompt": "It's high time you ___ a decision.",
+          "prompt": "It's high time we ___ a decision.",
           "options": [
             "make",
             "made",
-            "making",
-            "will make"
+            "will make",
+            "are making"
           ],
           "answer": [
             "made"
           ]
         },
         {
-          "id": "pt-c1-03",
+          "id": "pt-b2-17",
           "type": "multiple_choice",
-          "level": "C1",
-          "difficulty": 5,
+          "level": "B2",
+          "difficulty": 4,
           "tags": [
-            "would-rather"
+            "cleft-sentences"
           ],
-          "prompt": "I'd rather you ___ tell anyone about this.",
+          "prompt": "___ I need right now is a good night's sleep.",
           "options": [
-            "don't",
-            "didn't",
-            "won't",
-            "wouldn't"
+            "That",
+            "What",
+            "Which",
+            "It"
           ],
           "answer": [
-            "didn't"
+            "What"
           ]
         },
         {
-          "id": "pt-c1-04",
+          "id": "pt-b2-18",
           "type": "multiple_choice",
-          "level": "C1",
-          "difficulty": 5,
+          "level": "B2",
+          "difficulty": 4,
           "tags": [
-            "non-defining"
+            "reading"
           ],
-          "prompt": "The proposal, ___ was widely criticised, was eventually withdrawn.",
+          "prompt": "According to the passage, who tends to be happier with their decisions?",
           "options": [
-            "that",
-            "which",
-            "what",
-            "who"
+            "People who research every possible option",
+            "People who accept an option that is good enough",
+            "People who avoid making decisions",
+            "People who choose the cheapest product"
           ],
           "answer": [
-            "which"
-          ]
+            "People who accept an option that is good enough"
+          ],
+          "passage": "The psychologist Barry Schwartz argues that an abundance of options, far from liberating us, can leave us anxious and dissatisfied. When faced with dozens of varieties of a single product, consumers tend to worry that they have made the wrong choice and to imagine how much better an alternative might have been. Paradoxically, those who settle for a \"good enough\" option often report greater satisfaction than those who strive to find the very best."
         },
         {
-          "id": "pt-c1-05",
+          "id": "pt-b2-19",
           "type": "multiple_choice",
-          "level": "C1",
-          "difficulty": 5,
+          "level": "B2",
+          "difficulty": 4,
           "tags": [
-            "inversion"
+            "reading",
+            "inference"
           ],
-          "prompt": "Not only ___ late, but he also forgot the documents.",
+          "prompt": "The word \"Paradoxically\" signals that the result is ___.",
           "options": [
-            "he was",
-            "was he",
-            "did he",
-            "he is"
+            "exactly what we would expect",
+            "contrary to what we might expect",
+            "completely unimportant",
+            "caused by the consumers' age"
           ],
           "answer": [
-            "was he"
-          ]
+            "contrary to what we might expect"
+          ],
+          "passage": "The psychologist Barry Schwartz argues that an abundance of options, far from liberating us, can leave us anxious and dissatisfied. When faced with dozens of varieties of a single product, consumers tend to worry that they have made the wrong choice and to imagine how much better an alternative might have been. Paradoxically, those who settle for a \"good enough\" option often report greater satisfaction than those who strive to find the very best."
+        },
+        {
+          "id": "pt-b2-20",
+          "type": "listening",
+          "level": "B2",
+          "difficulty": 4,
+          "tags": [
+            "listening"
+          ],
+          "prompt": "Escucha el audio. ¿Por qué repitieron el experimento los investigadores?",
+          "options": [
+            "Porque los resultados eran malos",
+            "Porque la muestra era demasiado pequeña para sacar conclusiones",
+            "Porque el equipo falló",
+            "Porque faltaba dinero"
+          ],
+          "answer": [
+            "Porque la muestra era demasiado pequeña para sacar conclusiones"
+          ],
+          "audio_text": "Although the initial results looked promising, the researchers decided to repeat the experiment, as the sample size had been too small to draw any firm conclusions."
         }
       ]
     }
