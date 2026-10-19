@@ -1,0 +1,367 @@
+{
+  "id": "en-a2-u07-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 7,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 7",
+    "es": "Repaso y checkpoint 7"
+  },
+  "objective": "Al terminar hablas de tu trabajo y estudios, describes tu horario, respondes una entrevista simple y escribes con el tono correcto.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 7: junta trabajo, presente simple y continuo, horarios, entrevista y comunicación formal."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: profesiones y lugares de trabajo, presente simple vs continuo, horarios y rutinas, entrevista de trabajo y correos y llamadas formales e informales.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 7**\n\n- *What do you do? · I work as a chef · I work for a company · I'm a student.*\n- *I work in the office every day. · I'm working from home this week. · I know / I want (sin -ing).*\n- *from Monday to Friday · until four · quarter past eight · I never work on Sundays.*\n- *I'm good at … · I don't mind … · I'd like to … · I worked as … for two years.*\n- *Dear Ms Taylor, … I would be grateful if … Yours sincerely, · Could I speak to …?*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u07-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 25,
+      "prompt": "She works ___ a nurse in a large hospital.",
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Work as + profesión.",
+        "incorrect": "Revisa esto: Work as + profesión."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I usually ___ (take) the bus, but today I'm walking.",
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito: presente simple.",
+        "incorrect": "Revisa esto: Hábito: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ (study) at the library at the moment.",
+      "answer": [
+        "studying",
+        "'m studying"
+      ],
+      "accepted_alternatives": [
+        "am studying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora: presente continuo.",
+        "incorrect": "Revisa esto: Ahora: presente continuo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "I work ___ Monday to Friday.",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! From … to … indica un periodo.",
+        "incorrect": "Revisa esto: From … to … indica un periodo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm good ___ talking to customers.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I want a coffee.",
+        "I'm wanting a coffee.",
+        "I wanting a coffee.",
+        "I'm want a coffee."
+      ],
+      "answer": [
+        "I want a coffee."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want es un verbo de estado.",
+        "incorrect": "Revisa esto: Want es un verbo de estado."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escribes a la gerente Ms Taylor, a quien conoces por nombre. ¿Cómo terminas?",
+      "options": [
+        "Yours sincerely,",
+        "Yours faithfully,",
+        "See ya,",
+        "Love,"
+      ],
+      "answer": [
+        "Yours sincerely,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dear + nombre → Yours sincerely.",
+        "incorrect": "Revisa esto: Dear + nombre → Yours sincerely."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is going to work by bus every day.",
+      "answer": [
+        "She goes to work by bus every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every day indica rutina: presente simple (goes).",
+        "incorrect": "Revisa esto: Every day indica rutina: presente simple (goes)."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am writing for ask about the course.",
+      "answer": [
+        "I am writing to ask about the course.",
+        "I'm writing to ask about the course."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To + verbo para el motivo.",
+        "incorrect": "Revisa esto: To + verbo para el motivo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué sale hoy temprano?",
+      "options": [
+        "Because of an interview",
+        "Because he is ill",
+        "Because it's Friday",
+        "Because of a class"
+      ],
+      "answer": [
+        "Because of an interview"
+      ],
+      "audio_text": "I work from nine to five, but today I'm finishing early because I have a job interview at four.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I have a job interview at four'.",
+        "incorrect": "Revisa esto: Dice 'I have a job interview at four'."
+      },
+      "audio_script_id": "en-a2-u07-l06-ex10-a"
+    },
+    {
+      "id": "en-a2-u07-l06-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me gustaría trabajar en una empresa grande y soy bueno trabajando en equipo.",
+      "answer": [
+        "I'd like to work for a big company and I'm good at working in a team.",
+        "I would like to work for a big company and I'm good at working in a team.",
+        "I'd like to work in a big company and I'm good at working in a team."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like to + verbo; be good at + -ing.",
+        "incorrect": "Revisa esto: I'd like to + verbo; be good at + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "present-simple-continuous",
+        "jobs-workplaces"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre ti: a qué te dedicas o qué estudias, cuál es tu horario habitual, qué estás haciendo esta semana de distinto y qué puntos fuertes tienes.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Dijiste tu trabajo o estudios?",
+        "¿Usaste presente simple para tu rutina?",
+        "¿Usaste presente continuo para algo de esta semana?",
+        "¿Usaste be good at o I don't mind?"
+      ],
+      "model_answer": "I work as an accountant for a small company. I usually start at nine and finish at five. This week I'm working from home. I'm good at solving problems and I don't mind working late.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u07-l06-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Una persona nueva te hace preguntas sobre tu trabajo.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What do you do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I work as a teacher. I work in a primary school.",
+            "I am work teacher in school.",
+            "I teacher in school."
+          ],
+          "best": 0,
+          "why_es": "Work as + profesión; work in + lugar."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you like it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I do. I love working with children.",
+            "Yes, I like. I love work children.",
+            "Yes. I am loving the children."
+          ],
+          "best": 0,
+          "why_es": "Respuesta corta + love + -ing."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What do you do? · I work as … · I work for …",
+      "usually work / am working now",
+      "from … to … · until · quarter to",
+      "Dear … Yours sincerely, · Could I speak to …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-jobs-workplaces"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-simple-continuous"
+    },
+    {
+      "type": "grammar",
+      "id": "en-timetable-routines"
+    },
+    {
+      "type": "grammar",
+      "id": "en-job-interview"
+    },
+    {
+      "type": "grammar",
+      "id": "en-formal-informal"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

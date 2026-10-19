@@ -1,0 +1,465 @@
+{
+  "id": "en-a2-u09-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 9,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "When and while",
+    "es": "When y while: dos acciones en el pasado"
+  },
+  "objective": "Al terminar cuentas una acción interrumpida (pasado continuo + pasado simple) con when y while.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Estaba caminando cuando vi un accidente.' ¿Qué acción es larga, cuál es corta y qué palabra las une?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Yesterday I was cycling to work when it started to rain. While I was looking for shelter, my phone rang. It was my boss. She was waiting for me in a meeting, but I was stuck in the rain! In the end, I arrived late while everybody was having coffee.",
+    "es": "Ayer iba en bicicleta al trabajo cuando empezó a llover. Mientras buscaba refugio, sonó mi teléfono. Era mi jefa. Me estaba esperando en una reunión, ¡pero yo estaba atrapado bajo la lluvia! Al final, llegué tarde mientras todos tomaban café.",
+    "glossary": [
+      {
+        "id": "en-cycle",
+        "lemma": "cycle",
+        "pos": "verb",
+        "ipa": "/ˈsaɪkl/",
+        "es": "ir en bicicleta",
+        "example": "I was cycling to work."
+      },
+      {
+        "id": "en-shelter",
+        "lemma": "shelter",
+        "pos": "noun",
+        "ipa": "/ˈʃeltə/",
+        "es": "refugio, resguardo",
+        "example": "I was looking for shelter."
+      },
+      {
+        "id": "en-ring",
+        "lemma": "ring",
+        "pos": "verb",
+        "ipa": "/rɪŋ/",
+        "es": "sonar (pasado: rang)",
+        "example": "My phone rang."
+      },
+      {
+        "id": "en-stuck",
+        "lemma": "stuck",
+        "pos": "adj",
+        "ipa": "/stʌk/",
+        "es": "atascado/a, atrapado/a",
+        "example": "I was stuck in the rain."
+      },
+      {
+        "id": "en-meeting",
+        "lemma": "meeting",
+        "pos": "noun",
+        "ipa": "/ˈmiːtɪŋ/",
+        "es": "reunión",
+        "example": "She was in a meeting."
+      },
+      {
+        "id": "en-in-the-end",
+        "lemma": "in the end",
+        "pos": "phrase",
+        "ipa": "/ɪn ði end/",
+        "es": "al final",
+        "example": "In the end, I arrived late."
+      },
+      {
+        "id": "en-while",
+        "lemma": "while",
+        "pos": "conj",
+        "ipa": "/waɪl/",
+        "es": "mientras",
+        "example": "While I was walking, I saw a dog."
+      },
+      {
+        "id": "en-when",
+        "lemma": "when",
+        "pos": "conj",
+        "ipa": "/wen/",
+        "es": "cuando",
+        "example": "I was walking when I saw a dog."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Combinar pasado continuo y pasado simple**\n\n- Acción **larga** (continuo) + acción **corta que la interrumpe** (simple):\n  *I was cycling **when** it started to rain.* · *While I was looking for shelter, my phone **rang**.*\n- **Dos acciones largas a la vez:** *While I was reading, my brother **was watching** TV.*\n- **Dos acciones cortas una tras otra:** pasado simple + pasado simple: *When I arrived, she left.*\n\n| Palabra | Suele ir con |\n|---|---|\n| **when** | la acción corta (pasado simple) | *…when it started to rain.* |\n| **while** | la acción larga (pasado continuo) | *While I was looking…* |\n\n**Puntuación:** si la frase empieza con *when / while*, lleva coma: *While I was walking, I saw an accident.* Si no, sin coma: *I saw an accident while I was walking.*\n\n**Ojo:** *while* + pasado continuo; no se usa con verbos de estado (*while I knew*). Para 'mientras' = *while*, no *when*.\n\nPronunciación: *while* /waɪl/ · *rang* /ræŋ/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I was cooking when the phone was ringing.",
+        "right": "I was cooking when the phone rang.",
+        "note": "La interrupción es una acción corta."
+      },
+      {
+        "wrong": "When I was cooking, he was watching TV.",
+        "right": "While I was cooking, he was watching TV.",
+        "note": "Mientras = while."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u09-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ to work when it started to rain.",
+      "options": [
+        "was cycling",
+        "cycled",
+        "have cycled",
+        "cycle"
+      ],
+      "answer": [
+        "was cycling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acción larga interrumpida: pasado continuo.",
+        "incorrect": "Revisa esto: Acción larga interrumpida: pasado continuo."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was cycling to work when it ___ to rain.",
+      "options": [
+        "started",
+        "was starting",
+        "has started",
+        "starts"
+      ],
+      "answer": [
+        "started"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acción corta que interrumpe: pasado simple.",
+        "incorrect": "Revisa esto: Acción corta que interrumpe: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ I was cooking, the phone rang.",
+      "options": [
+        "While",
+        "When",
+        "Because",
+        "So"
+      ],
+      "answer": [
+        "While"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While + pasado continuo (acción larga).",
+        "incorrect": "Revisa esto: While + pasado continuo (acción larga)."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 25,
+      "prompt": "My phone rang ___ I was having a shower. (mientras)",
+      "answer": [
+        "while"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While introduce la acción larga.",
+        "incorrect": "Revisa esto: While introduce la acción larga."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 25,
+      "prompt": "She was sleeping ___ the alarm went off. (cuando)",
+      "answer": [
+        "when"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When introduce la acción corta.",
+        "incorrect": "Revisa esto: When introduce la acción corta."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was cooking when the phone was ringing.",
+      "answer": [
+        "I was cooking when the phone rang."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La acción corta que interrumpe va en pasado simple.",
+        "incorrect": "Revisa esto: La acción corta que interrumpe va en pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "While I walked, I was seeing a dog.",
+      "answer": [
+        "While I was walking, I saw a dog."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Larga en continuo, corta en simple.",
+        "incorrect": "Revisa esto: Larga en continuo, corta en simple."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "was",
+        "reading",
+        ",",
+        "my",
+        "brother",
+        "was",
+        "watching",
+        "TV",
+        ".",
+        "While",
+        "I"
+      ],
+      "answer": [
+        "While",
+        "I",
+        "was",
+        "reading",
+        ",",
+        "my",
+        "brother",
+        "was",
+        "watching",
+        "TV",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos acciones largas simultáneas.",
+        "incorrect": "Revisa esto: Dos acciones largas simultáneas."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué estaba haciendo la persona cuando empezó a llover?",
+      "options": [
+        "Cycling to work",
+        "Waiting for a meeting",
+        "Having coffee",
+        "Looking for her phone"
+      ],
+      "answer": [
+        "Cycling to work"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I was cycling to work when it started to rain'.",
+        "incorrect": "Revisa esto: El texto dice 'I was cycling to work when it started to rain'."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién llamó por teléfono?",
+      "options": [
+        "Her boss",
+        "Her sister",
+        "A friend",
+        "Her brother"
+      ],
+      "answer": [
+        "Her boss"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'It was my boss'.",
+        "incorrect": "Revisa esto: El texto dice 'It was my boss'."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hicieron cuando empezó a llover?",
+      "options": [
+        "They ran into a café",
+        "They went home",
+        "They kept walking",
+        "They took a taxi"
+      ],
+      "answer": [
+        "They ran into a café"
+      ],
+      "audio_text": "I was walking home when I saw an old friend. While we were talking, it started to rain, so we ran into a café.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'we ran into a café'.",
+        "incorrect": "Revisa esto: Dice 'we ran into a café'."
+      },
+      "audio_script_id": "en-a2-u09-l03-ex11-a"
+    },
+    {
+      "id": "en-a2-u09-l03-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estaba caminando cuando vi un accidente.",
+      "answer": [
+        "I was walking when I saw an accident."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Larga (was walking) + corta (saw).",
+        "incorrect": "Revisa esto: Larga (was walking) + corta (saw)."
+      }
+    },
+    {
+      "id": "en-a2-u09-l03-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "when-while",
+        "past-continuous"
+      ],
+      "est_seconds": 180,
+      "prompt": "Cuenta una pequeña historia (4 o 5 frases) de algo que te pasó mientras hacías otra cosa. Usa when y while y combina pasado continuo con pasado simple.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste pasado continuo para la acción larga?",
+        "¿Usaste pasado simple para la acción corta?",
+        "¿Usaste when y while?",
+        "¿Contaste una historia con orden?"
+      ],
+      "model_answer": "Last week I was waiting for the bus when I saw my old teacher. While we were talking, the bus arrived, so I got on and waved to her. It was a lovely surprise.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I was walking when I saw …",
+      "While I was cooking, the phone rang.",
+      "when → acción corta · while → acción larga",
+      "dos acciones largas: while … was …ing, … was …ing"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-cycle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shelter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ring"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stuck"
+    },
+    {
+      "type": "vocab",
+      "id": "en-meeting"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-the-end"
+    },
+    {
+      "type": "vocab",
+      "id": "en-while"
+    },
+    {
+      "type": "vocab",
+      "id": "en-when"
+    },
+    {
+      "type": "grammar",
+      "id": "en-when-while"
+    }
+  ]
+}

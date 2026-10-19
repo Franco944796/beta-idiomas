@@ -1,0 +1,421 @@
+{
+  "id": "en-a2-u09-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 9,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What was happening?",
+    "es": "Pasado continuo"
+  },
+  "objective": "Al terminar cuentas qué estaba pasando en un momento del pasado con el pasado continuo (was / were + -ing).",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Te llamé a las nueve, pero no atendiste'. '¿Qué estabas haciendo?'. Para describir acciones en curso en el pasado se usa el pasado continuo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "I called you at nine last night, but you didn't answer.",
+        "es": "Te llamé a las nueve anoche, pero no atendiste."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Sorry, I was having a shower.",
+        "es": "Perdón, me estaba duchando."
+      },
+      {
+        "speaker": "Tom",
+        "text": "And at ten? I sent you a message.",
+        "es": "¿Y a las diez? Te mandé un mensaje."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I was talking to my sister on the phone. We were planning a trip.",
+        "es": "Estaba hablando por teléfono con mi hermana. Estábamos planeando un viaje."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Was she travelling alone?",
+        "es": "¿Ella viajaba sola?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, she wasn't. Her friends were coming too.",
+        "es": "No. Sus amigos también iban."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-have-a-shower",
+        "lemma": "have a shower",
+        "pos": "phrase",
+        "ipa": "/hæv ə ˈʃaʊə/",
+        "es": "ducharse",
+        "example": "I was having a shower."
+      },
+      {
+        "id": "en-send",
+        "lemma": "send",
+        "pos": "verb",
+        "ipa": "/send/",
+        "es": "enviar (pasado: sent)",
+        "example": "I sent you a message."
+      },
+      {
+        "id": "en-plan",
+        "lemma": "plan",
+        "pos": "verb",
+        "ipa": "/plæn/",
+        "es": "planear, planificar",
+        "example": "We were planning a trip."
+      },
+      {
+        "id": "en-alone",
+        "lemma": "alone",
+        "pos": "adv",
+        "ipa": "/əˈləʊn/",
+        "es": "solo/a",
+        "example": "She wasn't travelling alone."
+      },
+      {
+        "id": "en-answer",
+        "lemma": "answer",
+        "pos": "verb",
+        "ipa": "/ˈɑːnsə/",
+        "es": "contestar, atender",
+        "example": "You didn't answer."
+      },
+      {
+        "id": "en-trip",
+        "lemma": "trip",
+        "pos": "noun",
+        "ipa": "/trɪp/",
+        "es": "viaje, excursión",
+        "example": "We were planning a trip."
+      }
+    ],
+    "audio_script_id": "en-a2-u09-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Pasado continuo = was / were + verbo-ing** → acción **en curso** en un momento del pasado.\n\n| | Forma | Ejemplo |\n|---|---|---|\n| Afirmativa | I / he / she / it **was** · you / we / they **were** + -ing | *I was having a shower.* · *We were planning a trip.* |\n| Negativa | **wasn't / weren't** + -ing | *She wasn't travelling alone.* |\n| Pregunta | **Was / Were** + sujeto + -ing? | *What were you doing at ten?* |\n| Respuesta corta | Yes, I **was**. / No, they **weren't**. | *Was she travelling alone? — No, she wasn't.* |\n\n**Momento concreto:** *at nine last night · at 8 o'clock yesterday · this time last week*. Describes lo que estaba pasando en ese instante.\n\n**Ortografía de -ing:** *have → having · plan → planning · travel → travelling (UK) · sit → sitting*.\n\n**Ojo:** los verbos de estado (*know, like, want*) no se usan en continuo: *I knew the answer* (no *I was knowing*).\n\nPronunciación: *was* /wɒz/ (débil /wəz/) · *were* /wɜː/ (débil /wə/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I was watch TV.",
+        "right": "I was watching TV.",
+        "note": "Was + verbo en -ing."
+      },
+      {
+        "wrong": "We was playing.",
+        "right": "We were playing.",
+        "note": "Con we se usa were."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u09-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "At nine I ___ (watch) TV.",
+      "answer": [
+        "was watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: was + -ing.",
+        "incorrect": "Revisa esto: Pasado continuo: was + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ (play) football at six.",
+      "answer": [
+        "were playing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they: were + -ing.",
+        "incorrect": "Revisa esto: Con they: were + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you doing at ten last night?",
+      "options": [
+        "were",
+        "was",
+        "did",
+        "are"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you se usa were.",
+        "incorrect": "Revisa esto: Con you se usa were."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la respuesta correcta a 'Was she working?'",
+      "options": [
+        "No, she wasn't.",
+        "No, she didn't.",
+        "No, she weren't.",
+        "No, she doesn't."
+      ],
+      "answer": [
+        "No, she wasn't."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta con was / wasn't.",
+        "incorrect": "Revisa esto: Respuesta corta con was / wasn't."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ortografía: 'plan' en pasado continuo →",
+      "options": [
+        "was planning",
+        "was planing",
+        "was plan",
+        "was planed"
+      ],
+      "answer": [
+        "was planning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante-vocal-consonante: se duplica la n.",
+        "incorrect": "Revisa esto: Consonante-vocal-consonante: se duplica la n."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was watch TV when you called.",
+      "answer": [
+        "I was watching TV when you called."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de was va el verbo en -ing.",
+        "incorrect": "Revisa esto: Después de was va el verbo en -ing."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She were sleeping at midnight.",
+      "answer": [
+        "She was sleeping at midnight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa was.",
+        "incorrect": "Revisa esto: Con she se usa was."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "doing",
+        "at",
+        "ten",
+        "last",
+        "night",
+        "?",
+        "What",
+        "were"
+      ],
+      "answer": [
+        "What",
+        "were",
+        "you",
+        "doing",
+        "at",
+        "ten",
+        "last",
+        "night",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + were + sujeto + -ing.",
+        "incorrect": "Revisa esto: Wh- + were + sujeto + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué estaba haciendo Lucy a las diez?",
+      "options": [
+        "Talking to her sister",
+        "Having a shower",
+        "Sleeping",
+        "Watching TV"
+      ],
+      "answer": [
+        "Talking to her sister"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'I was talking to my sister on the phone'.",
+        "incorrect": "Revisa esto: Lucy dice 'I was talking to my sister on the phone'."
+      }
+    },
+    {
+      "id": "en-a2-u09-l02-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hacía el hermano a las ocho?",
+      "options": [
+        "Watching a film",
+        "Cooking",
+        "Sleeping",
+        "Having a shower"
+      ],
+      "answer": [
+        "Watching a film"
+      ],
+      "audio_text": "At eight o'clock yesterday I was cooking dinner and my brother was watching a film.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my brother was watching a film'.",
+        "incorrect": "Revisa esto: Dice 'my brother was watching a film'."
+      },
+      "audio_script_id": "en-a2-u09-l02-ex10-a"
+    },
+    {
+      "id": "en-a2-u09-l02-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "A las ocho estábamos cenando.",
+      "answer": [
+        "At eight we were having dinner.",
+        "At eight we were eating dinner.",
+        "We were having dinner at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: were + having.",
+        "incorrect": "Revisa esto: Pasado continuo: were + having."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I was working · they were playing",
+      "I wasn't sleeping · Were you watching?",
+      "What were you doing at nine?",
+      "at nine last night · this time yesterday"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-have-a-shower"
+    },
+    {
+      "type": "vocab",
+      "id": "en-send"
+    },
+    {
+      "type": "vocab",
+      "id": "en-plan"
+    },
+    {
+      "type": "vocab",
+      "id": "en-alone"
+    },
+    {
+      "type": "vocab",
+      "id": "en-answer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trip"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-continuous"
+    }
+  ]
+}

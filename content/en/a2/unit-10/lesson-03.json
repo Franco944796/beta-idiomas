@@ -1,0 +1,538 @@
+{
+  "id": "en-a2-u10-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I think that...",
+    "es": "Dar opiniones y estar de acuerdo"
+  },
+  "objective": "Al terminar das tu opinión, pides la de otros y expresas acuerdo o desacuerdo con educación.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un debate amistoso sobre la tarea o las redes sociales: ¿cómo dices lo que piensas y cómo respondes al otro sin ofender?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "I think that students should have less homework.",
+        "es": "Creo que los estudiantes deberían tener menos tarea."
+      },
+      {
+        "speaker": "Ben",
+        "text": "I don't agree. In my opinion, homework helps us learn.",
+        "es": "No estoy de acuerdo. En mi opinión, la tarea nos ayuda a aprender."
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's true, but students are tired after school. Don't you think they need free time?",
+        "es": "Es cierto, pero los estudiantes están cansados después de la escuela. ¿No crees que necesitan tiempo libre?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "Yes, I suppose so. Maybe they should have less, but not none.",
+        "es": "Sí, supongo que sí. Quizás deberían tener menos, pero no nada."
+      },
+      {
+        "speaker": "Anna",
+        "text": "I agree with that. What do you think about group projects?",
+        "es": "Estoy de acuerdo. ¿Qué piensas de los proyectos en grupo?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "I'm not sure. It depends on the group!",
+        "es": "No estoy seguro. ¡Depende del grupo!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-i-think-that",
+        "lemma": "I think that",
+        "pos": "phrase",
+        "ipa": "/aɪ θɪŋk ðæt/",
+        "es": "creo que",
+        "example": "I think that homework is useful."
+      },
+      {
+        "id": "en-in-my-opinion",
+        "lemma": "in my opinion",
+        "pos": "phrase",
+        "ipa": "/ɪn maɪ əˈpɪnjən/",
+        "es": "en mi opinión",
+        "example": "In my opinion, it's a good idea."
+      },
+      {
+        "id": "en-i-agree",
+        "lemma": "I agree",
+        "pos": "phrase",
+        "ipa": "/aɪ əˈɡriː/",
+        "es": "estoy de acuerdo",
+        "example": "I agree with you."
+      },
+      {
+        "id": "en-i-don-t-agree",
+        "lemma": "I don't agree",
+        "pos": "phrase",
+        "ipa": "/aɪ dəʊnt əˈɡriː/",
+        "es": "no estoy de acuerdo",
+        "example": "I don't agree with that."
+      },
+      {
+        "id": "en-i-m-not-sure",
+        "lemma": "I'm not sure",
+        "pos": "phrase",
+        "ipa": "/aɪm nɒt ʃɔː/",
+        "es": "no estoy seguro/a",
+        "example": "I'm not sure about that."
+      },
+      {
+        "id": "en-it-depends",
+        "lemma": "it depends",
+        "pos": "phrase",
+        "ipa": "/ɪt dɪˈpendz/",
+        "es": "depende",
+        "example": "It depends on the group."
+      },
+      {
+        "id": "en-i-suppose-so",
+        "lemma": "I suppose so",
+        "pos": "phrase",
+        "ipa": "/aɪ səˈpəʊz səʊ/",
+        "es": "supongo que sí",
+        "example": "Yes, I suppose so."
+      },
+      {
+        "id": "en-opinion",
+        "lemma": "opinion",
+        "pos": "noun",
+        "ipa": "/əˈpɪnjən/",
+        "es": "opinión",
+        "example": "What's your opinion?"
+      }
+    ],
+    "audio_script_id": "en-a2-u10-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Dar una opinión:** *I think (that) … · I don't think (that) … · In my opinion, … · For me, … · I believe …*\n(en inglés se niega el verbo: *I don't think it's a good idea*, no *I think it isn't a good idea*).\n\n**Pedir una opinión:** *What do you think about …? · Do you agree? · Don't you think …?*\n\n**Estar de acuerdo:** *I agree. · You're right. · Exactly! · That's true. · I think so too.*\n**Estar en desacuerdo (con educación):** *I'm not sure. · I don't agree. · I see your point, but … · That's true, but …*\n\n**Respuestas cortas:** *I think so. / I don't think so.* · *I hope so. / I hope not.*\n\n**Ojo:** 'Opino que' no se dice *I opine*; se dice *I think*. Y *I agree* es un verbo (no *I am agree*): *I agree with you.*\n\nPronunciación: *opinion* /əˈpɪnjən/ · *agree* /əˈɡriː/ · *suppose* /səˈpəʊz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I am agree.",
+        "right": "I agree.",
+        "note": "Agree es verbo."
+      },
+      {
+        "wrong": "I think it isn't a good idea.",
+        "right": "I don't think it's a good idea.",
+        "note": "En inglés se niega think."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres dar tu opinión con educación:",
+      "options": [
+        "In my opinion, it's a good idea.",
+        "You're wrong, it's a good idea.",
+        "Of course I know better.",
+        "It's good, period."
+      ],
+      "answer": [
+        "In my opinion, it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In my opinion es una fórmula educada.",
+        "incorrect": "Revisa esto: In my opinion es una fórmula educada."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Estás de acuerdo con tu amigo. Dices:",
+      "options": [
+        "I agree with you.",
+        "I am agree.",
+        "I'm agree with you.",
+        "I agree to you."
+      ],
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es un verbo: I agree with you.",
+        "incorrect": "Revisa esto: Agree es un verbo: I agree with you."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "No estás de acuerdo, pero quieres ser amable:",
+      "options": [
+        "I see your point, but I don't agree.",
+        "You're wrong.",
+        "I'm never agree.",
+        "Silence, please."
+      ],
+      "answer": [
+        "I see your point, but I don't agree."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reconoces su punto antes de discrepar.",
+        "incorrect": "Revisa esto: Reconoces su punto antes de discrepar."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "No crees que sea buena idea. ¿Cómo lo dices?",
+      "options": [
+        "I don't think it's a good idea.",
+        "I think it isn't a good idea.",
+        "I not think good idea.",
+        "I don't think that is not good."
+      ],
+      "answer": [
+        "I don't think it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés se niega el verbo think.",
+        "incorrect": "Revisa esto: En inglés se niega el verbo think."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What do you ___ about group projects?",
+      "answer": [
+        "think"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What do you think about …?",
+        "incorrect": "Revisa esto: What do you think about …?"
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ with you. You're right. (estoy de acuerdo)",
+      "answer": [
+        "agree"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I agree with you.",
+        "incorrect": "Revisa esto: I agree with you."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 25,
+      "prompt": "—Is it a good idea? —I ___ so. (no lo creo)",
+      "answer": [
+        "don't think",
+        "do not think"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I don't think so.",
+        "incorrect": "Revisa esto: I don't think so."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am agree with you.",
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es un verbo, no se usa con am.",
+        "incorrect": "Revisa esto: Agree es un verbo, no se usa con am."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I think that it isn't a good idea.",
+      "answer": [
+        "I don't think it's a good idea.",
+        "I don't think that it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se niega el verbo think.",
+        "incorrect": "Revisa esto: Se niega el verbo think."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex10",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "opinion",
+        ",",
+        "homework",
+        "helps",
+        "us",
+        "learn",
+        ".",
+        "In",
+        "my"
+      ],
+      "answer": [
+        "In",
+        "my",
+        "opinion",
+        ",",
+        "homework",
+        "helps",
+        "us",
+        "learn",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In my opinion + frase.",
+        "incorrect": "Revisa esto: In my opinion + frase."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la opinión final de Ben sobre la tarea?",
+      "options": [
+        "Students should have less, but not none",
+        "Students should have no homework",
+        "Students should have more",
+        "Homework is useless"
+      ],
+      "answer": [
+        "Students should have less, but not none"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Ben dice 'Maybe they should have less, but not none'.",
+        "incorrect": "Revisa esto: Ben dice 'Maybe they should have less, but not none'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué piensa la amiga?",
+      "options": [
+        "Students should choose their clothes",
+        "Uniforms are a great idea",
+        "Students should wear the same clothes",
+        "School is useless"
+      ],
+      "answer": [
+        "Students should choose their clothes"
+      ],
+      "audio_text": "I think that school uniforms are a good idea because they are simple. But my friend doesn't agree. She thinks students should choose their own clothes.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'She thinks students should choose their own clothes'.",
+        "incorrect": "Revisa esto: Dice 'She thinks students should choose their own clothes'."
+      },
+      "audio_script_id": "en-a2-u10-l03-ex12-a"
+    },
+    {
+      "id": "en-a2-u10-l03-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Debates con un amigo sobre las redes sociales.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I think social media is bad for young people."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I see your point, but I don't agree. In my opinion, it can be useful too.",
+            "I am agree. In my opinion not.",
+            "You are wrong. Social media good."
+          ],
+          "best": 0,
+          "why_es": "Reconoces el punto y das tu opinión."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Really? Why do you think so?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Because we can talk to friends and learn new things.",
+            "Because talk friends.",
+            "For talk and for learn."
+          ],
+          "best": 0,
+          "why_es": "Because + razón."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u10-l03-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe tu opinión (5 frases) sobre un tema simple (por ejemplo, 'las clases online' o 'la comida rápida'). Usa I think, In my opinion y una razón.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Diste tu opinión con I think / In my opinion?",
+        "¿Diste una razón?",
+        "¿Usaste I don't think … correctamente?",
+        "¿Hiciste una pregunta para pedir la opinión del otro?"
+      ],
+      "model_answer": "I think that online classes are useful because we can study from home. In my opinion, they are good for people who work. However, I don't think they are better than classes in a school. What do you think?",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I think (that) … · In my opinion, …",
+      "I don't think … (niega el verbo)",
+      "I agree. · I don't agree. · I see your point, but …",
+      "What do you think about …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-i-think-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-my-opinion"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-agree"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-don-t-agree"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-m-not-sure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-depends"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-suppose-so"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opinion"
+    },
+    {
+      "type": "grammar",
+      "id": "en-opinions"
+    }
+  ]
+}

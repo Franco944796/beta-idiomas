@@ -1,0 +1,473 @@
+{
+  "id": "en-a2-u09-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 9,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Mine, yours, whose?",
+    "es": "Pronombres posesivos y whose"
+  },
+  "objective": "Al terminar dices de quién es algo con pronombres posesivos (mine, yours…), 's y whose, y usas a friend of mine.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Encuentras un teléfono olvidado en la oficina: '¿De quién es?' 'Es mío.' 'Es de Ana.'"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Kate",
+        "text": "Whose phone is this? It's on my desk.",
+        "es": "¿De quién es este teléfono? Está en mi escritorio."
+      },
+      {
+        "speaker": "Dan",
+        "text": "It's not mine. Mine is in my bag.",
+        "es": "No es mío. El mío está en mi mochila."
+      },
+      {
+        "speaker": "Kate",
+        "text": "Is it yours, Mia?",
+        "es": "¿Es tuyo, Mia?"
+      },
+      {
+        "speaker": "Mia",
+        "text": "No, it isn't. Maybe it's Anna's. She has a phone like that.",
+        "es": "No. Quizás sea de Anna. Ella tiene un teléfono así."
+      },
+      {
+        "speaker": "Kate",
+        "text": "And whose are these keys?",
+        "es": "¿Y de quién son estas llaves?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "They're ours! Oh, and that umbrella is hers, I think. She's a friend of mine.",
+        "es": "¡Son nuestras! Ah, y ese paraguas es de ella, creo. Es una amiga mía."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-whose",
+        "lemma": "whose",
+        "pos": "pron",
+        "ipa": "/huːz/",
+        "es": "¿de quién?",
+        "example": "Whose phone is this?"
+      },
+      {
+        "id": "en-mine",
+        "lemma": "mine",
+        "pos": "pron",
+        "ipa": "/maɪn/",
+        "es": "mío/a",
+        "example": "It's mine."
+      },
+      {
+        "id": "en-yours",
+        "lemma": "yours",
+        "pos": "pron",
+        "ipa": "/jɔːz/",
+        "es": "tuyo/a, suyo/a (de usted/es)",
+        "example": "Is it yours?"
+      },
+      {
+        "id": "en-hers",
+        "lemma": "hers",
+        "pos": "pron",
+        "ipa": "/hɜːz/",
+        "es": "de ella",
+        "example": "That umbrella is hers."
+      },
+      {
+        "id": "en-ours",
+        "lemma": "ours",
+        "pos": "pron",
+        "ipa": "/ˈaʊəz/",
+        "es": "nuestro/a",
+        "example": "They're ours."
+      },
+      {
+        "id": "en-theirs",
+        "lemma": "theirs",
+        "pos": "pron",
+        "ipa": "/ðeəz/",
+        "es": "de ellos/as",
+        "example": "The car is theirs."
+      },
+      {
+        "id": "en-desk",
+        "lemma": "desk",
+        "pos": "noun",
+        "ipa": "/desk/",
+        "es": "escritorio",
+        "example": "It's on my desk."
+      },
+      {
+        "id": "en-maybe",
+        "lemma": "maybe",
+        "pos": "adv",
+        "ipa": "/ˈmeɪbi/",
+        "es": "quizás",
+        "example": "Maybe it's Anna's."
+      }
+    ],
+    "audio_script_id": "en-a2-u09-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Adjetivo posesivo + sustantivo** → *my phone, your phone, his phone, her phone, our phone, their phone*.\n**Pronombre posesivo (sin sustantivo)** → *mine, yours, his, hers, ours, theirs*.\n\n| Adjetivo | Pronombre | Ejemplo |\n|---|---|---|\n| my | **mine** | *It's my phone. → It's **mine**.* |\n| your | **yours** | *Is that your bag? → Is that **yours**?* |\n| his | **his** | *It's his. (igual)* |\n| her | **hers** | *It's her coat. → It's **hers**.* |\n| our | **ours** | *The keys are **ours**.* |\n| their | **theirs** | *The car is **theirs**.* |\n\n**'s posesivo solo:** *Whose phone is it? — It's Anna's.* (sin repetir *phone*).\n\n**Whose + sustantivo + to be?** → *Whose phone is this? · Whose keys are these?*\n\n**a friend of mine / yours / hers:** *She's a friend of mine.* (una amiga mía) — no se dice *a friend of me*.\n\n**Ojo:** nunca se usa el sustantivo con el pronombre: *This is mine phone* ✗ → *This is mine* ✓ / *This is my phone* ✓. Y *its* no lleva apóstrofo.\n\nPronunciación: *whose* /huːz/ (suena como *who's*) · *hers* /hɜːz/ · *ours* /ˈaʊəz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "This is mine bag.",
+        "right": "This is my bag. / This bag is mine.",
+        "note": "No se usan juntos mine y el sustantivo."
+      },
+      {
+        "wrong": "Who's phone is this?",
+        "right": "Whose phone is this?",
+        "note": "Whose pregunta por el dueño."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u09-l04-ex01",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo posesivo con su pronombre.",
+      "pairs": [
+        {
+          "left": "my",
+          "right": "mine"
+        },
+        {
+          "left": "your",
+          "right": "yours"
+        },
+        {
+          "left": "her",
+          "right": "hers"
+        },
+        {
+          "left": "our",
+          "right": "ours"
+        },
+        {
+          "left": "their",
+          "right": "theirs"
+        },
+        {
+          "left": "his",
+          "right": "his"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Excepto his, todos los pronombres terminan en -s.",
+        "incorrect": "Revisa esto: Excepto his, todos los pronombres terminan en -s."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is my phone. → This phone is ___.",
+      "answer": [
+        "mine"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre posesivo de I: mine.",
+        "incorrect": "Revisa esto: Pronombre posesivo de I: mine."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "Whose bag is that? — It's ___. (de ella)",
+      "answer": [
+        "hers"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre posesivo de she: hers.",
+        "incorrect": "Revisa esto: Pronombre posesivo de she: hers."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "Is this umbrella ___? (tuyo)",
+      "answer": [
+        "yours"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre posesivo de you: yours.",
+        "incorrect": "Revisa esto: Pronombre posesivo de you: yours."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿De quién son estas llaves? →",
+      "options": [
+        "Whose keys are these?",
+        "Who's keys are these?",
+        "Whose are keys these?",
+        "Of whom are these keys?"
+      ],
+      "answer": [
+        "Whose keys are these?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose + sustantivo + to be.",
+        "incorrect": "Revisa esto: Whose + sustantivo + to be."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las llaves de Anna. Respondes: 'They're ___.'",
+      "options": [
+        "Anna's",
+        "Annas",
+        "Anna",
+        "of Anna"
+      ],
+      "answer": [
+        "Anna's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 's indica posesión: Anna's.",
+        "incorrect": "Revisa esto: 's indica posesión: Anna's."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This is mine phone.",
+      "answer": [
+        "This is my phone.",
+        "This phone is mine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con el sustantivo se usa my; sin sustantivo, mine.",
+        "incorrect": "Revisa esto: Con el sustantivo se usa my; sin sustantivo, mine."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is a friend of me.",
+      "answer": [
+        "She is a friend of mine.",
+        "She's a friend of mine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A friend of + pronombre posesivo.",
+        "incorrect": "Revisa esto: A friend of + pronombre posesivo."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "these",
+        "?",
+        "Whose",
+        "keys"
+      ],
+      "answer": [
+        "Whose",
+        "keys",
+        "are",
+        "these",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose + sustantivo + be + demostrativo.",
+        "incorrect": "Revisa esto: Whose + sustantivo + be + demostrativo."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De quién es el paraguas, según Dan?",
+      "options": [
+        "Hers",
+        "His",
+        "Mine",
+        "Theirs"
+      ],
+      "answer": [
+        "Hers"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dan dice 'that umbrella is hers'.",
+        "incorrect": "Revisa esto: Dan dice 'that umbrella is hers'."
+      }
+    },
+    {
+      "id": "en-a2-u09-l04-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De quién cree que es el portátil?",
+      "options": [
+        "Mark's",
+        "The speaker's",
+        "Anna's",
+        "Nobody's"
+      ],
+      "answer": [
+        "Mark's"
+      ],
+      "audio_text": "—Is this your laptop? —No, it's not mine. I think it's Mark's. Mine is red.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I think it's Mark's'.",
+        "incorrect": "Revisa esto: Dice 'I think it's Mark's'."
+      },
+      "audio_script_id": "en-a2-u09-l04-ex11-a"
+    },
+    {
+      "id": "en-a2-u09-l04-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿De quién es este teléfono? Es mío.",
+      "answer": [
+        "Whose phone is this? It's mine.",
+        "Whose phone is this? It is mine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose + sustantivo; mine.",
+        "incorrect": "Revisa esto: Whose + sustantivo; mine."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "my → mine · your → yours · her → hers",
+      "our → ours · their → theirs · his → his",
+      "Whose phone is this? — It's Anna's.",
+      "a friend of mine"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-whose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mine"
+    },
+    {
+      "type": "vocab",
+      "id": "en-yours"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hers"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ours"
+    },
+    {
+      "type": "vocab",
+      "id": "en-theirs"
+    },
+    {
+      "type": "vocab",
+      "id": "en-desk"
+    },
+    {
+      "type": "vocab",
+      "id": "en-maybe"
+    },
+    {
+      "type": "grammar",
+      "id": "en-possessive-pronouns"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": "en-a2-u10-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Adverbs of manner",
+    "es": "Adverbios de modo"
+  },
+  "objective": "Al terminar describes cómo se hacen las cosas con adverbios de modo (slowly, carefully, well, hard) y los distingues de los adjetivos.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Conduce despacio', 'habla en voz baja', 'trabaja duro'. Para decir cómo se hace algo, el inglés usa adverbios, casi siempre con -ly."
+  },
+  "input": {
+    "type": "text",
+    "text": "My brother drives carefully but slowly. My sister drives fast and sometimes dangerously. I think she should listen more carefully when our dad talks to her! She works hard and plays tennis well. He speaks quietly, and she talks loudly. They both cook happily, but they don't clean the kitchen very well.",
+    "es": "Mi hermano conduce con cuidado pero despacio. Mi hermana conduce rápido y a veces de forma peligrosa. ¡Creo que debería escuchar con más atención cuando nuestro papá le habla! Ella trabaja duro y juega bien al tenis. Él habla en voz baja y ella habla fuerte. Los dos cocinan felices, pero no limpian muy bien la cocina.",
+    "glossary": [
+      {
+        "id": "en-carefully",
+        "lemma": "carefully",
+        "pos": "adv",
+        "ipa": "/ˈkeəfəli/",
+        "es": "con cuidado",
+        "example": "He drives carefully."
+      },
+      {
+        "id": "en-slowly",
+        "lemma": "slowly",
+        "pos": "adv",
+        "ipa": "/ˈsləʊli/",
+        "es": "despacio, lentamente",
+        "example": "Please speak slowly."
+      },
+      {
+        "id": "en-dangerously",
+        "lemma": "dangerously",
+        "pos": "adv",
+        "ipa": "/ˈdeɪndʒərəsli/",
+        "es": "de forma peligrosa",
+        "example": "She drives dangerously."
+      },
+      {
+        "id": "en-quietly",
+        "lemma": "quietly",
+        "pos": "adv",
+        "ipa": "/ˈkwaɪətli/",
+        "es": "en voz baja, silenciosamente",
+        "example": "He speaks quietly."
+      },
+      {
+        "id": "en-loudly",
+        "lemma": "loudly",
+        "pos": "adv",
+        "ipa": "/ˈlaʊdli/",
+        "es": "en voz alta, fuerte",
+        "example": "She talks loudly."
+      },
+      {
+        "id": "en-well",
+        "lemma": "well",
+        "pos": "adv",
+        "ipa": "/wel/",
+        "es": "bien",
+        "example": "She plays tennis well."
+      },
+      {
+        "id": "en-hard",
+        "lemma": "hard",
+        "pos": "adv",
+        "ipa": "/hɑːd/",
+        "es": "duro, mucho (con esfuerzo)",
+        "example": "She works hard."
+      },
+      {
+        "id": "en-happily",
+        "lemma": "happily",
+        "pos": "adv",
+        "ipa": "/ˈhæpɪli/",
+        "es": "felizmente",
+        "example": "They cook happily."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Adverbios de modo** (responden a *¿cómo?*): se forman con **adjetivo + -ly**.\n\n| Adjetivo | Adverbio | Regla |\n|---|---|---|\n| careful | **carefully** | + -ly |\n| slow | **slowly** | + -ly |\n| happy | **happily** | y → -ily |\n| dangerous | **dangerously** | + -ly |\n| quiet | **quietly** | + -ly |\n\n**Irregulares:**\n\n- **good → well**: *She plays tennis **well**.* (no *plays good*)\n- **fast → fast**, **hard → hard**, **late → late**, **early → early** (igual forma)\n- Ojo: *hardly* significa 'apenas' (*I hardly know him*), *lately* = últimamente.\n\n**Posición:** después del verbo o del objeto: *He drives **carefully**. · She speaks English **well**.* (no *She speaks well English*).\n\n**Adjetivo vs adverbio:** *She is a careful driver.* (adj. con sustantivo) ≠ *She drives carefully.* (adv. con verbo). Con *be / look / feel / sound* se usa adjetivo: *You look happy.*\n\nPronunciación: *carefully* /ˈkeəfəli/ · *dangerously* /ˈdeɪndʒərəsli/ · *quietly* /ˈkwaɪətli/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She speaks very good English. She sings good.",
+        "right": "She speaks very good English. She sings well.",
+        "note": "Después de un verbo usa well."
+      },
+      {
+        "wrong": "He drives careful.",
+        "right": "He drives carefully.",
+        "note": "Para describir cómo conduce, usa el adverbio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l01-ex01",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su adverbio.",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        },
+        {
+          "left": "fast",
+          "right": "fast"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Casi todos añaden -ly; good y fast son especiales.",
+        "incorrect": "Revisa esto: Casi todos añaden -ly; good y fast son especiales."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "She sings very ___. (bien)",
+      "answer": [
+        "well"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio de good es well.",
+        "incorrect": "Revisa esto: El adverbio de good es well."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "He drives ___ because the road is wet. (con cuidado)",
+      "answer": [
+        "carefully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Careful + -ly: carefully.",
+        "incorrect": "Revisa esto: Careful + -ly: carefully."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "They work ___ every day. (duro)",
+      "answer": [
+        "hard"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hard no cambia: work hard.",
+        "incorrect": "Revisa esto: Hard no cambia: work hard."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 20,
+      "prompt": "My sister is a ___ driver.",
+      "options": [
+        "careful",
+        "carefully",
+        "care",
+        "carefulness"
+      ],
+      "answer": [
+        "careful"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Antes de un sustantivo va un adjetivo.",
+        "incorrect": "Revisa esto: Antes de un sustantivo va un adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 20,
+      "prompt": "He speaks English ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "more good"
+      ],
+      "answer": [
+        "well"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Speaks + adverbio: well.",
+        "incorrect": "Revisa esto: Speaks + adverbio: well."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the piano good.",
+      "answer": [
+        "She plays the piano well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de un verbo se usa el adverbio well.",
+        "incorrect": "Revisa esto: Después de un verbo se usa el adverbio well."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He speaks well English.",
+      "answer": [
+        "He speaks English well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio va después del objeto.",
+        "incorrect": "Revisa esto: El adverbio va después del objeto."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "carefully",
+        "but",
+        "slowly",
+        ".",
+        "He",
+        "drives"
+      ],
+      "answer": [
+        "He",
+        "drives",
+        "carefully",
+        "but",
+        "slowly",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo + adverbios de modo.",
+        "incorrect": "Revisa esto: Verbo + adverbios de modo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo conduce la hermana?",
+      "options": [
+        "Fast and dangerously",
+        "Carefully and slowly",
+        "Quietly and well",
+        "Hard and late"
+      ],
+      "answer": [
+        "Fast and dangerously"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'drives fast and sometimes dangerously'.",
+        "incorrect": "Revisa esto: El texto dice 'drives fast and sometimes dangerously'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué pide la persona?",
+      "options": [
+        "Speak slowly and clearly",
+        "Speak loudly",
+        "Speak quietly",
+        "Speak more quickly"
+      ],
+      "answer": [
+        "Speak slowly and clearly"
+      ],
+      "audio_text": "Please speak slowly and clearly. I don't understand when you talk quickly.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'speak slowly and clearly'.",
+        "incorrect": "Revisa esto: Dice 'speak slowly and clearly'."
+      },
+      "audio_script_id": "en-a2-u10-l01-ex11-a"
+    },
+    {
+      "id": "en-a2-u10-l01-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ella canta muy bien y trabaja duro.",
+      "answer": [
+        "She sings very well and works hard.",
+        "She sings really well and works hard."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Well y hard.",
+        "incorrect": "Revisa esto: Well y hard."
+      }
+    },
+    {
+      "id": "en-a2-u10-l01-ex13",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "adverbs-manner"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "carefully",
+          "ipa": "/ˈkeəfəli/",
+          "tip_es": "Tres sílabas: CARE-fu-ly."
+        },
+        {
+          "text": "quietly",
+          "ipa": "/ˈkwaɪətli/",
+          "tip_es": "Quiet suena /ˈkwaɪət/ y se añade -ly."
+        },
+        {
+          "text": "dangerously",
+          "ipa": "/ˈdeɪndʒərəsli/",
+          "tip_es": "Cuatro sílabas; acento en DAN."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "careful → carefully · slow → slowly · happy → happily",
+      "good → well · fast → fast · hard → hard",
+      "He speaks English well. (verbo + objeto + adverbio)",
+      "adjetivo + sustantivo · adverbio + verbo"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-carefully"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slowly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dangerously"
+    },
+    {
+      "type": "vocab",
+      "id": "en-quietly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-loudly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-well"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hard"
+    },
+    {
+      "type": "vocab",
+      "id": "en-happily"
+    },
+    {
+      "type": "grammar",
+      "id": "en-adverbs-manner"
+    }
+  ]
+}

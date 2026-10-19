@@ -1,0 +1,473 @@
+{
+  "id": "en-a2-u07-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 7,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My timetable",
+    "es": "Horarios y rutinas de trabajo y estudio"
+  },
+  "objective": "Al terminar describes tus horarios y rutinas de trabajo o estudio con from … to, until, before y after, y preguntas los de otra persona.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Tu semana tiene un patrón: clases, trabajo, descanso. ¿Cómo lo cuentas con precisión en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "I study at university from Monday to Thursday. My classes start at nine and finish at one. After lunch I go to the library until four. On Fridays I work in a café from ten to six. At the weekend I don't study: I usually see friends or play football. I never work on Sundays.",
+    "es": "Estudio en la universidad de lunes a jueves. Mis clases empiezan a las nueve y terminan a la una. Después del almuerzo voy a la biblioteca hasta las cuatro. Los viernes trabajo en una cafetería de diez a seis. El fin de semana no estudio: normalmente veo a mis amigos o juego al fútbol. Nunca trabajo los domingos.",
+    "glossary": [
+      {
+        "id": "en-timetable",
+        "lemma": "timetable",
+        "pos": "noun",
+        "ipa": "/ˈtaɪmteɪbl/",
+        "es": "horario (de clases o transporte)",
+        "example": "My timetable is very busy."
+      },
+      {
+        "id": "en-class",
+        "lemma": "class",
+        "pos": "noun",
+        "ipa": "/klɑːs/",
+        "es": "clase",
+        "example": "My classes start at nine."
+      },
+      {
+        "id": "en-library",
+        "lemma": "library",
+        "pos": "noun",
+        "ipa": "/ˈlaɪbrəri/",
+        "es": "biblioteca",
+        "example": "I study in the library."
+      },
+      {
+        "id": "en-from-to",
+        "lemma": "from … to",
+        "pos": "phrase",
+        "ipa": "/frɒm … tuː/",
+        "es": "de … a …",
+        "example": "from Monday to Thursday"
+      },
+      {
+        "id": "en-until",
+        "lemma": "until",
+        "pos": "prep",
+        "ipa": "/ənˈtɪl/",
+        "es": "hasta",
+        "example": "I stay in the library until four."
+      },
+      {
+        "id": "en-finish",
+        "lemma": "finish",
+        "pos": "verb",
+        "ipa": "/ˈfɪnɪʃ/",
+        "es": "terminar",
+        "example": "My classes finish at one."
+      },
+      {
+        "id": "en-weekdays",
+        "lemma": "weekdays",
+        "pos": "noun",
+        "ipa": "/ˈwiːkdeɪz/",
+        "es": "días de semana",
+        "example": "I work on weekdays."
+      },
+      {
+        "id": "en-deadline",
+        "lemma": "deadline",
+        "pos": "noun",
+        "ipa": "/ˈdedlaɪn/",
+        "es": "fecha límite",
+        "example": "The deadline is on Friday."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Horarios y rutinas: expresiones útiles**\n\n- **from … to …** → *from Monday to Thursday · from ten to six* (de… a…)\n- **until** → *until four* (hasta las cuatro; la acción dura hasta ese momento)\n- **before / after** → *before work · after lunch*\n- **at the weekend · on weekdays · on Fridays · in the morning · at night**\n- **every day · twice a week · once a month**\n\n**Horas:** *8:00 eight o'clock · 8:15 quarter past eight · 8:30 half past eight · 8:45 quarter to nine · 8:10 ten past eight · 8:50 ten to nine.*\n\n**Preguntas:** *What time do you start / finish work? · How many hours do you work a week? · What do you do on Fridays? · When is your first class?*\n\n**Adverbios de frecuencia** (antes del verbo, después de *to be*): *I never work on Sundays. · She is always on time.*\n\n**Ojo, falso amigo:** *library* es **biblioteca**; librería = *bookshop* (UK) / *bookstore* (US).\n\nPronunciación: *library* /ˈlaɪbrəri/ · *until* /ənˈtɪl/ · *timetable* /ˈtaɪmteɪbl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I work of Monday to Friday.",
+        "right": "I work from Monday to Friday.",
+        "note": "De … a … = from … to …"
+      },
+      {
+        "wrong": "I never am late.",
+        "right": "I am never late.",
+        "note": "Después de to be."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "library",
+        "es_false": "librería",
+        "real": "biblioteca",
+        "note": "Librería se dice bookshop (UK) o bookstore (US)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u07-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "I work ___ Monday to Friday. (de … a …)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! From … to … indica un periodo.",
+        "incorrect": "Revisa esto: From … to … indica un periodo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "My classes start at nine and finish ___ one o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con horas se usa at.",
+        "incorrect": "Revisa esto: Con horas se usa at."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "I stay at the library ___ four. (hasta)",
+      "answer": [
+        "until"
+      ],
+      "accepted_alternatives": [
+        "till"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Until = hasta.",
+        "incorrect": "Revisa esto: Until = hasta."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "I don't work ___ Sundays.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "from"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "8:45 se dice…",
+      "options": [
+        "quarter to nine",
+        "quarter past nine",
+        "half past eight",
+        "eight and half"
+      ],
+      "answer": [
+        "quarter to nine"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quarter to nine = nueve menos cuarto.",
+        "incorrect": "Revisa esto: Quarter to nine = nueve menos cuarto."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber a qué hora empieza alguien a trabajar:",
+      "options": [
+        "What time do you start work?",
+        "What hour you start work?",
+        "When start you work?",
+        "What time start you work?"
+      ],
+      "answer": [
+        "What time do you start work?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What time + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: What time + do + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I never am late for class.",
+      "answer": [
+        "I am never late for class.",
+        "I'm never late for class."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los adverbios de frecuencia van después del verbo to be.",
+        "incorrect": "Revisa esto: Los adverbios de frecuencia van después del verbo to be."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to the library for buy books.",
+      "answer": [
+        "I go to the library to buy books."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para expresar finalidad: to + verbo.",
+        "incorrect": "Revisa esto: Para expresar finalidad: to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "start",
+        "at",
+        "nine",
+        "and",
+        "finish",
+        "at",
+        "one",
+        ".",
+        "My",
+        "classes"
+      ],
+      "answer": [
+        "My",
+        "classes",
+        "start",
+        "at",
+        "nine",
+        "and",
+        "finish",
+        "at",
+        "one",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos acciones unidas con and.",
+        "incorrect": "Revisa esto: Dos acciones unidas con and."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Hasta qué hora está la persona en la biblioteca?",
+      "options": [
+        "Until four",
+        "Until six",
+        "Until one",
+        "Until ten"
+      ],
+      "answer": [
+        "Until four"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'until four'.",
+        "incorrect": "Revisa esto: El texto dice 'until four'."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hace los viernes?",
+      "options": [
+        "Works in a café",
+        "Studies at university",
+        "Plays football",
+        "Visits the library"
+      ],
+      "answer": [
+        "Works in a café"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'On Fridays I work in a café'.",
+        "incorrect": "Revisa esto: El texto dice 'On Fridays I work in a café'."
+      }
+    },
+    {
+      "id": "en-a2-u07-l03-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora empieza la clase?",
+      "options": [
+        "9:10",
+        "9:45",
+        "10:15",
+        "10:30"
+      ],
+      "answer": [
+        "9:10"
+      ],
+      "audio_text": "The lesson starts at ten past nine and finishes at quarter to eleven. There's a break at half past ten.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'ten past nine'.",
+        "incorrect": "Revisa esto: Dice 'ten past nine'."
+      },
+      "audio_script_id": "en-a2-u07-l03-ex12-a"
+    },
+    {
+      "id": "en-a2-u07-l03-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe tu semana de trabajo o estudio en 4 frases: días, horarios y qué haces el fin de semana. Usa from … to, until y un adverbio de frecuencia.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste from … to … para días u horas?",
+        "¿Usaste until o before / after?",
+        "¿Usaste un adverbio de frecuencia en su lugar correcto?",
+        "¿Mencionaste el fin de semana?"
+      ],
+      "model_answer": "I work from Monday to Friday. I start at eight and I finish at four. I usually have lunch at twelve. At the weekend I never work: I see friends or go for a walk.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "from Monday to Friday · from ten to six",
+      "until four · before / after lunch",
+      "quarter past · half past · quarter to",
+      "What time do you start / finish?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-timetable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-class"
+    },
+    {
+      "type": "vocab",
+      "id": "en-library"
+    },
+    {
+      "type": "vocab",
+      "id": "en-from-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-until"
+    },
+    {
+      "type": "vocab",
+      "id": "en-finish"
+    },
+    {
+      "type": "vocab",
+      "id": "en-weekdays"
+    },
+    {
+      "type": "vocab",
+      "id": "en-deadline"
+    },
+    {
+      "type": "grammar",
+      "id": "en-timetable-routines"
+    }
+  ]
+}

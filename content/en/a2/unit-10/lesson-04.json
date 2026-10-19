@@ -1,0 +1,478 @@
+{
+  "id": "en-a2-u10-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Because, so, but",
+    "es": "Conectores: because, so, but, although"
+  },
+  "objective": "Al terminar explicas razones, resultados y contrastes con because, so, but, although y because of.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Dar una opinión es más convincente con una razón: 'porque…', 'así que…', 'pero…', 'aunque…'."
+  },
+  "input": {
+    "type": "text",
+    "text": "I like living in the city because there's always something to do. It's noisy, so I sometimes go to the countryside at the weekend. Although I love the countryside, I wouldn't live there because it's too quiet. My flat is small but cheap, and it's near my work. I often stay at home because of the weather, but I never feel bored.",
+    "es": "Me gusta vivir en la ciudad porque siempre hay algo para hacer. Es ruidosa, así que a veces voy al campo el fin de semana. Aunque amo el campo, no viviría allí porque es demasiado tranquilo. Mi departamento es pequeño pero barato, y queda cerca de mi trabajo. Muchas veces me quedo en casa por el clima, pero nunca me aburro.",
+    "glossary": [
+      {
+        "id": "en-because",
+        "lemma": "because",
+        "pos": "conj",
+        "ipa": "/bɪˈkɒz/",
+        "es": "porque",
+        "example": "I like the city because there's always something to do."
+      },
+      {
+        "id": "en-so",
+        "lemma": "so",
+        "pos": "conj",
+        "ipa": "/səʊ/",
+        "es": "así que, por eso",
+        "example": "It's noisy, so I go to the countryside."
+      },
+      {
+        "id": "en-but",
+        "lemma": "but",
+        "pos": "conj",
+        "ipa": "/bʌt/",
+        "es": "pero",
+        "example": "It's small but cheap."
+      },
+      {
+        "id": "en-although",
+        "lemma": "although",
+        "pos": "conj",
+        "ipa": "/ɔːlˈðəʊ/",
+        "es": "aunque",
+        "example": "Although I love it, I wouldn't live there."
+      },
+      {
+        "id": "en-because-of",
+        "lemma": "because of",
+        "pos": "phrase",
+        "ipa": "/bɪˈkɒz əv/",
+        "es": "a causa de, por",
+        "example": "I stay at home because of the weather."
+      },
+      {
+        "id": "en-countryside",
+        "lemma": "countryside",
+        "pos": "noun",
+        "ipa": "/ˈkʌntrisaɪd/",
+        "es": "campo",
+        "example": "I go to the countryside."
+      },
+      {
+        "id": "en-bored",
+        "lemma": "bored",
+        "pos": "adj",
+        "ipa": "/bɔːd/",
+        "es": "aburrido/a (la persona)",
+        "example": "I never feel bored."
+      },
+      {
+        "id": "en-wouldn-t",
+        "lemma": "wouldn't",
+        "pos": "modal",
+        "ipa": "/ˈwʊdnt/",
+        "es": "no (haría)",
+        "example": "I wouldn't live there."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "| Conector | Función | Ejemplo |\n|---|---|---|\n| **because** + frase | razón | *I like the city **because** there's always something to do.* |\n| **because of** + sustantivo | razón (con un sustantivo) | *I stay at home **because of** the weather.* |\n| **so** + resultado | consecuencia | *It's noisy, **so** I go to the countryside.* |\n| **but** | contraste | *It's small **but** cheap.* |\n| **although** + frase | contraste (aunque) | ***Although** I love it, I wouldn't live there.* |\n\n**Pistas:**\n\n- *because* responde a *why?*; *so* introduce el resultado. *I was tired, so I went to bed. = I went to bed because I was tired.*\n- *Although* **nunca** se combina con *but*: *Although it was raining, we went out.* (no *Although it was raining, but we went out*).\n- *because of* + sustantivo / pronombre: *because of the rain · because of him*.\n\n**Puntuación:** coma antes de *so* y *but*; coma después de una cláusula con *although* al inicio.\n\nPronunciación: *although* /ɔːlˈðəʊ/ · *because* /bɪˈkɒz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Although it was cold, but we went out.",
+        "right": "Although it was cold, we went out.",
+        "note": "No se usan juntos although y but."
+      },
+      {
+        "wrong": "because the weather",
+        "right": "because of the weather",
+        "note": "Sustantivo → because of."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "I stayed at home ___ it was raining. (porque)",
+      "answer": [
+        "because"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Because + frase.",
+        "incorrect": "Revisa esto: Because + frase."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was cold, ___ I wore a coat. (así que)",
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So introduce el resultado.",
+        "incorrect": "Revisa esto: So introduce el resultado."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ it was raining, we went for a walk. (aunque)",
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + frase de contraste.",
+        "incorrect": "Revisa esto: Although + frase de contraste."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "We cancelled the picnic because ___ the weather. (por el)",
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Because of + sustantivo.",
+        "incorrect": "Revisa esto: Because of + sustantivo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was very tired, ___ I went to bed early.",
+      "options": [
+        "so",
+        "because",
+        "although",
+        "but"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Result: so.",
+        "incorrect": "Revisa esto: Result: so."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "The flat is small, ___ it's very comfortable.",
+      "options": [
+        "but",
+        "because",
+        "so",
+        "although"
+      ],
+      "answer": [
+        "but"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste simple: but.",
+        "incorrect": "Revisa esto: Contraste simple: but."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "Although I was tired, I went out.",
+        "Although I was tired, but I went out.",
+        "Although I was tired, so I went out.",
+        "Because I was tired, but I went out."
+      ],
+      "answer": [
+        "Although I was tired, I went out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although no se combina con but.",
+        "incorrect": "Revisa esto: Although no se combina con but."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Although it was raining, but we went out.",
+      "answer": [
+        "Although it was raining, we went out.",
+        "It was raining, but we went out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although y but no van juntos.",
+        "incorrect": "Revisa esto: Although y but no van juntos."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I stayed at home because the rain.",
+      "answer": [
+        "I stayed at home because of the rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un sustantivo se usa because of.",
+        "incorrect": "Revisa esto: Con un sustantivo se usa because of."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex10",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "tired",
+        ",",
+        "so",
+        "I",
+        "went",
+        "to",
+        "bed",
+        "early",
+        ".",
+        "I",
+        "was"
+      ],
+      "answer": [
+        "I",
+        "was",
+        "tired",
+        ",",
+        "so",
+        "I",
+        "went",
+        "to",
+        "bed",
+        "early",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Razón y resultado con so.",
+        "incorrect": "Revisa esto: Razón y resultado con so."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué la persona no viviría en el campo?",
+      "options": [
+        "Because it's too quiet",
+        "Because it's expensive",
+        "Because of the weather",
+        "Because it's noisy"
+      ],
+      "answer": [
+        "Because it's too quiet"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I wouldn't live there because it's too quiet'.",
+        "incorrect": "Revisa esto: El texto dice 'I wouldn't live there because it's too quiet'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué le gusta su trabajo?",
+      "options": [
+        "Because it's creative",
+        "Because it's easy",
+        "Because it's well paid",
+        "Because it's short"
+      ],
+      "answer": [
+        "Because it's creative"
+      ],
+      "audio_text": "I like my job because it's creative. Although it's tiring, I never feel bored. It's not well paid, but I enjoy it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I like my job because it's creative'.",
+        "incorrect": "Revisa esto: Dice 'I like my job because it's creative'."
+      },
+      "audio_script_id": "en-a2-u10-l04-ex12-a"
+    },
+    {
+      "id": "en-a2-u10-l04-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Aunque es pequeño, me gusta mi departamento porque es barato.",
+      "answer": [
+        "Although it's small, I like my flat because it's cheap.",
+        "Although it is small, I like my flat because it is cheap.",
+        "Although it's small, I like my apartment because it's cheap."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + because.",
+        "incorrect": "Revisa esto: Although + because."
+      }
+    },
+    {
+      "id": "en-a2-u10-l04-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 180,
+      "prompt": "Explica en 5 frases por qué te gusta (o no) vivir donde vives. Usa because, so, but y although.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste because con una razón?",
+        "¿Usaste so con un resultado?",
+        "¿Usaste but o although para un contraste?",
+        "¿Usaste because of con un sustantivo?"
+      ],
+      "model_answer": "I like living in my town because it's quiet. It's small, so everybody knows each other. Although there isn't much to do, I never feel bored. Because of the beautiful park, I walk every day.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "because + frase · because of + sustantivo",
+      "so + resultado · but + contraste",
+      "although + frase (sin but)",
+      "I was tired, so I went to bed."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-because"
+    },
+    {
+      "type": "vocab",
+      "id": "en-so"
+    },
+    {
+      "type": "vocab",
+      "id": "en-but"
+    },
+    {
+      "type": "vocab",
+      "id": "en-although"
+    },
+    {
+      "type": "vocab",
+      "id": "en-because-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-countryside"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bored"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wouldn-t"
+    },
+    {
+      "type": "grammar",
+      "id": "en-connectors"
+    }
+  ]
+}

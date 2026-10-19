@@ -1,0 +1,744 @@
+{
+  "id": "en-a2-exam-v1",
+  "language": "en",
+  "level": "A2",
+  "version": 1,
+  "title": {
+    "es": "Examen final de A2"
+  },
+  "pass_score": 0.75,
+  "instructions_es": "30 preguntas que cubren las 10 unidades de A2. Necesitas el 75 % (23 aciertos) para superar el nivel. Las dos tareas finales (escritura y rol) son opcionales y se autoevalúan: no cuentan en la nota.",
+  "scoring": {
+    "scored": "exercises",
+    "optional_not_scored": "optional_tasks",
+    "weak_areas": "group wrong answers by tags"
+  },
+  "exercises": [
+    {
+      "id": "en-a2-exam-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time-expressions"
+      ],
+      "est_seconds": 20,
+      "prompt": "We were in Rome three weeks ___.",
+      "options": [
+        "ago",
+        "before",
+        "last",
+        "yesterday"
+      ],
+      "answer": [
+        "ago"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ago va después del tiempo: three weeks ago.",
+        "incorrect": "Revisa esto: Ago va después del tiempo: three weeks ago."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Estás en un hotel y quieres pedir la llave con educación:",
+      "options": [
+        "Could I have the key, please?",
+        "Give me the key.",
+        "I want the key.",
+        "Key now."
+      ],
+      "answer": [
+        "Could I have the key, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could I have…? es una petición educada.",
+        "incorrect": "Revisa esto: Could I have…? es una petición educada."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Trains are ___ than buses.",
+      "options": [
+        "faster",
+        "more fast",
+        "fastest",
+        "the faster"
+      ],
+      "answer": [
+        "faster"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fast es corto: faster + than.",
+        "incorrect": "Revisa esto: Fast es corto: faster + than."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "How ___ sugar do you want in your coffee?",
+      "options": [
+        "much",
+        "many",
+        "a lot",
+        "few"
+      ],
+      "answer": [
+        "much"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sugar es incontable: how much.",
+        "incorrect": "Revisa esto: Sugar es incontable: how much."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "The phone is ringing. — I ___ get it.",
+      "options": [
+        "'ll",
+        "'m going to",
+        "might to",
+        "will to"
+      ],
+      "answer": [
+        "'ll"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: will.",
+        "incorrect": "Revisa esto: Decisión en el momento: will."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ smoke in the hospital. It's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "aren't must",
+        "not must"
+      ],
+      "answer": [
+        "mustn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibido: mustn't.",
+        "incorrect": "Revisa esto: Prohibido: mustn't."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Sara usually ___ the bus, but today she's walking.",
+      "options": [
+        "takes",
+        "is taking",
+        "take",
+        "taking"
+      ],
+      "answer": [
+        "takes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito (usually): presente simple.",
+        "incorrect": "Revisa esto: Hábito (usually): presente simple."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 20,
+      "prompt": "She has lived here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "from"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento de inicio.",
+        "incorrect": "Revisa esto: Since + momento de inicio."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ I was cooking, the phone rang.",
+      "options": [
+        "While",
+        "When",
+        "Because",
+        "So"
+      ],
+      "answer": [
+        "While"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While + acción larga en pasado continuo.",
+        "incorrect": "Revisa esto: While + acción larga en pasado continuo."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was raining, ___ we stayed at home.",
+      "options": [
+        "so",
+        "because",
+        "although",
+        "but"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So introduce el resultado.",
+        "incorrect": "Revisa esto: So introduce el resultado."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ ill yesterday. (negativa)",
+      "answer": [
+        "wasn't",
+        "was not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con she: wasn't.",
+        "incorrect": "Revisa esto: Negativa con she: wasn't."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you go out last night?",
+      "answer": [
+        "Did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasado: Did + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Pregunta en pasado: Did + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "My flight is ___ Friday.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's the ___ (big) city in the country.",
+      "answer": [
+        "biggest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo corto: the + -est (se duplica la g).",
+        "incorrect": "Revisa esto: Superlativo corto: the + -est (se duplica la g)."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ to visit my grandmother tomorrow.",
+      "answer": [
+        "going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan: be going to + verbo.",
+        "incorrect": "Revisa esto: Plan: be going to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ see a doctor. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo: should + verbo base.",
+        "incorrect": "Revisa esto: Consejo: should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex17",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm good ___ solving problems.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex18",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever ___ (be) to Italy?",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de be: been.",
+        "incorrect": "Revisa esto: Participio de be: been."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How many money do you have?",
+      "answer": [
+        "How much money do you have?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Money es incontable: how much.",
+        "incorrect": "Revisa esto: Money es incontable: how much."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I need an advice.",
+      "answer": [
+        "I need some advice.",
+        "I need advice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice es incontable: sin an.",
+        "incorrect": "Revisa esto: Advice es incontable: sin an."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have seen him yesterday.",
+      "answer": [
+        "I saw him yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yesterday exige pasado simple.",
+        "incorrect": "Revisa esto: Yesterday exige pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex22",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the guitar good.",
+      "answer": [
+        "She plays the guitar well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del verbo: well.",
+        "incorrect": "Revisa esto: Después del verbo: well."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex23",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was cooking when the phone was ringing.",
+      "answer": [
+        "I was cooking when the phone rang."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La interrupción va en pasado simple.",
+        "incorrect": "Revisa esto: La interrupción va en pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex24",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO hizo el fin de semana?",
+      "options": [
+        "Go out in the evening",
+        "Visit his grandmother",
+        "Cook lunch",
+        "Watch a film"
+      ],
+      "answer": [
+        "Go out in the evening"
+      ],
+      "audio_text": "Last weekend I visited my grandmother. We cooked lunch and watched a film. I didn't go out in the evening.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I didn't go out in the evening'.",
+        "incorrect": "Revisa esto: Dice 'I didn't go out in the evening'."
+      },
+      "audio_script_id": "en-a2-exam-ex24-a"
+    },
+    {
+      "id": "en-a2-exam-ex25",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto es el total?",
+      "options": [
+        "£6.40",
+        "£6.04",
+        "£4.60",
+        "£16.40"
+      ],
+      "answer": [
+        "£6.40"
+      ],
+      "audio_text": "A kilo of apples and a litre of milk, please. That's six pounds forty altogether.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'six pounds forty'.",
+        "incorrect": "Revisa esto: Dice 'six pounds forty'."
+      },
+      "audio_script_id": "en-a2-exam-ex25-a"
+    },
+    {
+      "id": "en-a2-exam-ex26",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es seguro?",
+      "options": [
+        "He is going to meet Anna",
+        "They will go to the cinema",
+        "They will have dinner",
+        "He will call Anna"
+      ],
+      "answer": [
+        "He is going to meet Anna"
+      ],
+      "audio_text": "I'm going to meet Anna at six. We might go to the cinema, or we might have dinner.",
+      "feedback": {
+        "correct": "¡Correcto! 'Going to' marca el plan seguro; 'might' marca posibilidades.",
+        "incorrect": "Revisa esto: 'Going to' marca el plan seguro; 'might' marca posibilidades."
+      },
+      "audio_script_id": "en-a2-exam-ex26-a"
+    },
+    {
+      "id": "en-a2-exam-ex27",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas veces al día debe tomar la pastilla?",
+      "options": [
+        "Three times",
+        "Twice",
+        "Once",
+        "Five times"
+      ],
+      "answer": [
+        "Three times"
+      ],
+      "audio_text": "Take one tablet three times a day for five days, and drink lots of water.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'three times a day'.",
+        "incorrect": "Revisa esto: Dice 'three times a day'."
+      },
+      "audio_script_id": "en-a2-exam-ex27-a"
+    },
+    {
+      "id": "en-a2-exam-ex28",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "I've lived in this city for five years and I work for a small company.",
+      "answer": [
+        "I've lived in this city for five years and I work for a small company.",
+        "I have lived in this city for five years and I work for a small company."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect con for + presente simple.",
+        "incorrect": "Revisa esto: Present perfect con for + presente simple."
+      },
+      "audio_script_id": "en-a2-exam-ex28-a"
+    },
+    {
+      "id": "en-a2-exam-ex29",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reading"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Hi Mum, Greetings from Lisbon! We arrived on Monday and the weather is fantastic. Yesterday we visited the castle. Tomorrow we're going to the beach. Love, Ella.' ¿Qué harán mañana?",
+      "options": [
+        "Go to the beach",
+        "Visit the castle",
+        "Arrive in Lisbon",
+        "Go home"
+      ],
+      "answer": [
+        "Go to the beach"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Tomorrow we're going to the beach'.",
+        "incorrect": "Revisa esto: El texto dice 'Tomorrow we're going to the beach'."
+      }
+    },
+    {
+      "id": "en-a2-exam-ex30",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reading"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Dear Ms Taylor, I am writing to ask about the job advertised on your website. I would be grateful if you could send me more information. Yours sincerely, Laura Green.' ¿Para qué escribe Laura?",
+      "options": [
+        "To ask about a job",
+        "To complain about a product",
+        "To cancel a meeting",
+        "To thank a friend"
+      ],
+      "answer": [
+        "To ask about a job"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I am writing to ask about the job'.",
+        "incorrect": "Revisa esto: El texto dice 'I am writing to ask about the job'."
+      }
+    }
+  ],
+  "optional_tasks": [
+    {
+      "id": "en-a2-exam-opt01",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo de 7 u 8 frases sobre ti: tus últimas vacaciones (pasado), tu trabajo o estudios (presente), tus planes (futuro) y una opinión con because.",
+      "min_words": 50,
+      "self_check_es": [
+        "¿Usaste pasado simple para las vacaciones?",
+        "¿Usaste presente simple y present perfect para tu situación actual?",
+        "¿Usaste going to o I'd like to para el futuro?",
+        "¿Diste una opinión con I think … because …?",
+        "¿Usaste conectores (so, but, although)?"
+      ],
+      "model_answer": "Last summer I went to the coast with my family. We swam every day and ate a lot of fish. I work as a teacher and I've worked at the same school for four years. Next year I'm going to take a course in English. I think that learning languages is important because it opens many doors.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-exam-opt02",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "restaurant",
+        "could-requests"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en un restaurante y la comida llega fría.",
+      "turns": [
+        {
+          "speaker": "Waiter",
+          "text": "Is everything OK with your meal?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Excuse me, the soup is cold. Could you heat it up, please?",
+            "Your soup is bad.",
+            "Cold soup. Change."
+          ],
+          "best": 0,
+          "why_es": "Queja educada: Excuse me + problema + Could you…?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "I'm so sorry. I'll bring you another one."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you very much. And could we have the bill, please?",
+            "Thanks. The account.",
+            "Thank you. Bill me."
+          ],
+          "best": 0,
+          "why_es": "Agradece y pide la cuenta con Could we…?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ]
+}

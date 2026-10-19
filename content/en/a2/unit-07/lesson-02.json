@@ -1,0 +1,467 @@
+{
+  "id": "en-a2-u07-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 7,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Now or every day?",
+    "es": "Presente simple vs presente continuo"
+  },
+  "objective": "Al terminar distingues presente simple (rutinas y hechos) y presente continuo (ahora o algo temporal) y no usas verbos de estado en continuo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Trabajo en una oficina' y 'estoy trabajando desde casa esta semana' no son lo mismo. En inglés, el tiempo verbal cambia el significado."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Jack",
+        "text": "Hi Sara, where are you? Are you at the office?",
+        "es": "Hola Sara, ¿dónde estás? ¿Estás en la oficina?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "No, I'm working from home this week. The office is closed for repairs.",
+        "es": "No, esta semana trabajo desde casa. La oficina está cerrada por reparaciones."
+      },
+      {
+        "speaker": "Jack",
+        "text": "Do you usually work from home?",
+        "es": "¿Normalmente trabajas desde casa?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "No, I don't. I usually work in the office. I take the bus at eight and I start at nine.",
+        "es": "No. Normalmente trabajo en la oficina. Tomo el autobús a las ocho y empiezo a las nueve."
+      },
+      {
+        "speaker": "Jack",
+        "text": "And what are you doing now?",
+        "es": "¿Y qué estás haciendo ahora?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "I'm writing a report. And my cat is sitting on the keyboard!",
+        "es": "Estoy escribiendo un informe. ¡Y mi gato está sentado sobre el teclado!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-usually",
+        "lemma": "usually",
+        "pos": "adv",
+        "ipa": "/ˈjuːʒuəli/",
+        "es": "normalmente",
+        "example": "I usually work in the office."
+      },
+      {
+        "id": "en-from-home",
+        "lemma": "from home",
+        "pos": "phrase",
+        "ipa": "/frɒm həʊm/",
+        "es": "desde casa",
+        "example": "I'm working from home."
+      },
+      {
+        "id": "en-repairs",
+        "lemma": "repairs",
+        "pos": "noun",
+        "ipa": "/rɪˈpeəz/",
+        "es": "reparaciones",
+        "example": "The office is closed for repairs."
+      },
+      {
+        "id": "en-report",
+        "lemma": "report",
+        "pos": "noun",
+        "ipa": "/rɪˈpɔːt/",
+        "es": "informe",
+        "example": "I'm writing a report."
+      },
+      {
+        "id": "en-keyboard",
+        "lemma": "keyboard",
+        "pos": "noun",
+        "ipa": "/ˈkiːbɔːd/",
+        "es": "teclado",
+        "example": "The cat is on the keyboard."
+      },
+      {
+        "id": "en-at-the-moment",
+        "lemma": "at the moment",
+        "pos": "phrase",
+        "ipa": "/ət ðə ˈməʊmənt/",
+        "es": "en este momento",
+        "example": "I'm busy at the moment."
+      },
+      {
+        "id": "en-this-week",
+        "lemma": "this week",
+        "pos": "phrase",
+        "ipa": "/ðɪs wiːk/",
+        "es": "esta semana",
+        "example": "I'm working from home this week."
+      }
+    ],
+    "audio_script_id": "en-a2-u07-l02-d01"
+  },
+  "explanation": {
+    "md_es": "| | Presente simple | Presente continuo |\n|---|---|---|\n| **Cuándo** | rutinas, hábitos, hechos permanentes | ahora, algo temporal o que está en curso |\n| **Forma** | sujeto + verbo (he **works**) · do/does + verbo en preguntas | **am / is / are + verbo-ing** |\n| **Palabras** | always, usually, often, sometimes, never, every day, on Mondays | now, at the moment, today, this week, currently |\n| **Ejemplo** | *I usually work in the office.* | *I'm working from home this week.* |\n\n**Preguntas:** *Do you work from home? — No, I don't.* · *What are you doing? — I'm writing a report.*\n\n**Verbos de estado (casi nunca en continuo):** *know, like, love, hate, want, need, understand, believe, prefer, have (poseer)*. → *I know the answer.* (no *I'm knowing*) · *I want a coffee.* (no *I'm wanting*).\n\n**Ortografía de -ing:** *write → writing · sit → sitting · run → running · work → working*.\n\nPronunciación: *usually* /ˈjuːʒuəli/ (la -s- suena /ʒ/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm knowing the answer.",
+        "right": "I know the answer.",
+        "note": "Los verbos de estado no se usan en continuo."
+      },
+      {
+        "wrong": "I work from home this week.",
+        "right": "I'm working from home this week.",
+        "note": "Algo temporal: presente continuo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u07-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ to work by bus every day.",
+      "options": [
+        "goes",
+        "is going",
+        "go",
+        "going"
+      ],
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito (every day): presente simple.",
+        "incorrect": "Revisa esto: Hábito (every day): presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Look! The manager ___ a new project at the moment.",
+      "options": [
+        "is presenting",
+        "presents",
+        "present",
+        "presenting"
+      ],
+      "answer": [
+        "is presenting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At the moment: presente continuo.",
+        "incorrect": "Revisa esto: At the moment: presente continuo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I know the answer.",
+        "I'm knowing the answer.",
+        "I knowing the answer.",
+        "I am know the answer."
+      ],
+      "answer": [
+        "I know the answer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Know es un verbo de estado: presente simple.",
+        "incorrect": "Revisa esto: Know es un verbo de estado: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I usually ___ (start) work at nine.",
+      "answer": [
+        "start"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito: presente simple.",
+        "incorrect": "Revisa esto: Hábito: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "Sara ___ (write) a report now.",
+      "answer": [
+        "is writing",
+        "'s writing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora: am/is/are + verbo-ing.",
+        "incorrect": "Revisa esto: Ahora: am/is/are + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "He doesn't ___ (work) on Sundays.",
+      "answer": [
+        "work"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con doesn't va el verbo base.",
+        "incorrect": "Revisa esto: Con doesn't va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm wanting a coffee.",
+      "answer": [
+        "I want a coffee."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want es un verbo de estado: presente simple.",
+        "incorrect": "Revisa esto: Want es un verbo de estado: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is working every day in the shop.",
+      "answer": [
+        "She works every day in the shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every day indica rutina: presente simple.",
+        "incorrect": "Revisa esto: Every day indica rutina: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What do you do now?",
+      "answer": [
+        "What are you doing now?",
+        "What are you doing at the moment?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora: presente continuo.",
+        "incorrect": "Revisa esto: Ahora: presente continuo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex10",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "home",
+        "this",
+        "week",
+        ".",
+        "I'm",
+        "working"
+      ],
+      "answer": [
+        "I'm",
+        "working",
+        "from",
+        "home",
+        "this",
+        "week",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo para algo temporal.",
+        "incorrect": "Revisa esto: Presente continuo para algo temporal."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde trabaja normalmente Sara?",
+      "options": [
+        "In the office",
+        "At home",
+        "In a factory",
+        "In a café"
+      ],
+      "answer": [
+        "In the office"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Sara dice 'I usually work in the office'.",
+        "incorrect": "Revisa esto: Sara dice 'I usually work in the office'."
+      }
+    },
+    {
+      "id": "en-a2-u07-l02-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo va hoy al trabajo?",
+      "options": [
+        "By car",
+        "By train",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By car"
+      ],
+      "audio_text": "I usually go to work by train, but today I'm driving because there's a strike.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'today I'm driving'.",
+        "incorrect": "Revisa esto: Dice 'today I'm driving'."
+      },
+      "audio_script_id": "en-a2-u07-l02-ex12-a"
+    },
+    {
+      "id": "en-a2-u07-l02-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Normalmente trabajo en una oficina, pero esta semana trabajo desde casa.",
+      "answer": [
+        "I usually work in an office, but this week I'm working from home.",
+        "I usually work in an office, but I'm working from home this week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente simple (usually) y continuo (this week).",
+        "incorrect": "Revisa esto: Presente simple (usually) y continuo (this week)."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "usually · every day → presente simple",
+      "now · at the moment · this week → presente continuo",
+      "know · like · want · need → NO -ing",
+      "I work / I'm working"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-usually"
+    },
+    {
+      "type": "vocab",
+      "id": "en-from-home"
+    },
+    {
+      "type": "vocab",
+      "id": "en-repairs"
+    },
+    {
+      "type": "vocab",
+      "id": "en-report"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keyboard"
+    },
+    {
+      "type": "vocab",
+      "id": "en-at-the-moment"
+    },
+    {
+      "type": "vocab",
+      "id": "en-this-week"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-simple-continuous"
+    }
+  ]
+}

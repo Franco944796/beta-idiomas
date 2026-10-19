@@ -1,0 +1,460 @@
+{
+  "id": "en-a2-u08-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Never and ever",
+    "es": "Experiencias: ever y never"
+  },
+  "objective": "Al terminar cuentas experiencias con ever, never, once, twice y how many times, y dices 'lo mejor que he visto'.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué has hecho en tu vida y qué nunca has hecho? Contarlo bien depende de ever, never y de cuántas veces."
+  },
+  "input": {
+    "type": "text",
+    "text": "I've done many things in my life. I've lived in three countries, I've climbed a mountain and I've met a famous singer. But I've never flown in a helicopter and I've never swum with dolphins. I've been to Spain four times, but I've never been to Italy. Rome is the best city I've ever visited, and it's the only one I've seen in winter!",
+    "es": "He hecho muchas cosas en mi vida. Viví en tres países, subí una montaña y conocí a un cantante famoso. Pero nunca volé en helicóptero y nunca nadé con delfines. Estuve en España cuatro veces, pero nunca estuve en Italia. ¡Roma es la mejor ciudad que he visitado, y es la única que he visto en invierno!",
+    "glossary": [
+      {
+        "id": "en-climb",
+        "lemma": "climb",
+        "pos": "verb",
+        "ipa": "/klaɪm/",
+        "es": "escalar, subir",
+        "example": "I've climbed a mountain."
+      },
+      {
+        "id": "en-helicopter",
+        "lemma": "helicopter",
+        "pos": "noun",
+        "ipa": "/ˈhelɪkɒptə/",
+        "es": "helicóptero",
+        "example": "I've never flown in a helicopter."
+      },
+      {
+        "id": "en-dolphin",
+        "lemma": "dolphin",
+        "pos": "noun",
+        "ipa": "/ˈdɒlfɪn/",
+        "es": "delfín",
+        "example": "I've never swum with dolphins."
+      },
+      {
+        "id": "en-famous",
+        "lemma": "famous",
+        "pos": "adj",
+        "ipa": "/ˈfeɪməs/",
+        "es": "famoso/a",
+        "example": "I've met a famous singer."
+      },
+      {
+        "id": "en-four-times",
+        "lemma": "four times",
+        "pos": "phrase",
+        "ipa": "/fɔː taɪmz/",
+        "es": "cuatro veces",
+        "example": "I've been to Spain four times."
+      },
+      {
+        "id": "en-once",
+        "lemma": "once",
+        "pos": "adv",
+        "ipa": "/wʌns/",
+        "es": "una vez",
+        "example": "I've been there once."
+      },
+      {
+        "id": "en-never",
+        "lemma": "never",
+        "pos": "adv",
+        "ipa": "/ˈnevə/",
+        "es": "nunca",
+        "example": "I've never been to Italy."
+      },
+      {
+        "id": "en-so-far",
+        "lemma": "so far",
+        "pos": "phrase",
+        "ipa": "/səʊ fɑː/",
+        "es": "hasta ahora",
+        "example": "I've visited ten countries so far."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**ever / never**\n\n- **Have you ever + participio …?** (preguntas, 'alguna vez') → *Have you ever climbed a mountain?*\n- **I've never + participio** (nunca; ya es negativa, no se usa *not*) → *I've never been to Italy.*\n- Con **not … ever** también: *I haven't ever been to Italy.* (menos frecuente)\n\n**Cuántas veces:** *once (1) · twice (2) · three times (3) · four times (4)…* — *How many times have you been to Spain?*\n\n**Superlativo + ever:** *It's the best film I've ever seen.* · *She's the nicest person I've ever met.* (se usa present perfect después del superlativo).\n\n**Ojo:** no se dice *haven't never* (doble negación). Y *never* va entre *have* y el participio.\n\nPronunciación: *climb* /klaɪm/ (la b es muda) · *once* /wʌns/ · *twice* /twaɪs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I haven't never been there.",
+        "right": "I've never been there.",
+        "note": "No se usa doble negación."
+      },
+      {
+        "wrong": "I've been two times.",
+        "right": "I've been twice.",
+        "note": "Dos veces = twice."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ eaten sushi. (nunca)",
+      "answer": [
+        "never"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nunca = never, entre have y el participio.",
+        "incorrect": "Revisa esto: Nunca = never, entre have y el participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 25,
+      "prompt": "How many ___ have you been to Spain?",
+      "answer": [
+        "times"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many times…?",
+        "incorrect": "Revisa esto: How many times…?"
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you ___ climbed a mountain?",
+      "options": [
+        "ever",
+        "never",
+        "yet",
+        "since"
+      ],
+      "answer": [
+        "ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas: ever (alguna vez).",
+        "incorrect": "Revisa esto: En preguntas: ever (alguna vez)."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's the best film I ___ seen.",
+      "options": [
+        "'ve ever",
+        "ever",
+        "have never",
+        "did ever"
+      ],
+      "answer": [
+        "'ve ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo + I've ever + participio.",
+        "incorrect": "Revisa esto: Superlativo + I've ever + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "Has estado una sola vez en París. Dices: 'I've been to Paris ___.'",
+      "options": [
+        "once",
+        "one",
+        "first",
+        "single"
+      ],
+      "answer": [
+        "once"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Once = una vez.",
+        "incorrect": "Revisa esto: Once = una vez."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I haven't never been to Rome.",
+      "answer": [
+        "I've never been to Rome.",
+        "I haven't ever been to Rome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa doble negación.",
+        "incorrect": "Revisa esto: No se usa doble negación."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've been to Spain four time.",
+      "answer": [
+        "I've been to Spain four times."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con cuatro: times en plural.",
+        "incorrect": "Revisa esto: Con cuatro: times en plural."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "flown",
+        "in",
+        "a",
+        "helicopter",
+        ".",
+        "I've",
+        "never"
+      ],
+      "answer": [
+        "I've",
+        "never",
+        "flown",
+        "in",
+        "a",
+        "helicopter",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I've never + participio.",
+        "incorrect": "Revisa esto: I've never + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántas veces estuvo la persona en España?",
+      "options": [
+        "Four times",
+        "Once",
+        "Never",
+        "Twice"
+      ],
+      "answer": [
+        "Four times"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I've been to Spain four times'.",
+        "incorrect": "Revisa esto: El texto dice 'I've been to Spain four times'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la mejor ciudad que visitó?",
+      "options": [
+        "Rome",
+        "Madrid",
+        "Paris",
+        "London"
+      ],
+      "answer": [
+        "Rome"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Rome is the best city I've ever visited'.",
+        "incorrect": "Revisa esto: El texto dice 'Rome is the best city I've ever visited'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué nunca ha hecho?",
+      "options": [
+        "Travelled by plane",
+        "Travelled by train",
+        "Visited three countries",
+        "Travelled abroad"
+      ],
+      "answer": [
+        "Travelled by plane"
+      ],
+      "audio_text": "I've never been on a plane, but I've travelled by train across three countries. It was amazing!",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I've never been on a plane'.",
+        "incorrect": "Revisa esto: Dice 'I've never been on a plane'."
+      },
+      "audio_script_id": "en-a2-u08-l02-ex11-a"
+    },
+    {
+      "id": "en-a2-u08-l02-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Nunca he estado en Italia.",
+      "answer": [
+        "I've never been to Italy.",
+        "I have never been to Italy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Never va entre have y el participio.",
+        "incorrect": "Revisa esto: Never va entre have y el participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l02-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "ever-never",
+        "present-perfect"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre tus experiencias: tres cosas que has hecho, dos que nunca has hecho y una 'lo mejor que he visto'.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste el present perfect con participios correctos?",
+        "¿Usaste never en al menos una frase?",
+        "¿Usaste once, twice o three times?",
+        "¿Incluiste una frase con the best … I've ever …?"
+      ],
+      "model_answer": "I've visited five countries and I've climbed a small mountain. I've met a famous actor once. I've never flown in a helicopter and I've never tried sushi. It's the best film I've ever seen.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Have you ever …? · I've never …",
+      "once · twice · three times",
+      "How many times have you …?",
+      "the best … I've ever seen"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-climb"
+    },
+    {
+      "type": "vocab",
+      "id": "en-helicopter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dolphin"
+    },
+    {
+      "type": "vocab",
+      "id": "en-famous"
+    },
+    {
+      "type": "vocab",
+      "id": "en-four-times"
+    },
+    {
+      "type": "vocab",
+      "id": "en-once"
+    },
+    {
+      "type": "vocab",
+      "id": "en-never"
+    },
+    {
+      "type": "vocab",
+      "id": "en-so-far"
+    },
+    {
+      "type": "grammar",
+      "id": "en-ever-never"
+    }
+  ]
+}

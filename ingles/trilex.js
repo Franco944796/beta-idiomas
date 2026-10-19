@@ -179,6 +179,7 @@ const lvTotal = lv => lv.units.reduce((a, u) => a + u.lessons.length, 0);
 
 function home() {
   const due = dueItems().length, pl = S.placement, soon = P.levels.filter(l => !LV.includes(l)).map(l => l.cefr);
+  const cur = (LV.find(l => flat.some(x => x.cefr === l.cefr && !S.done[x.id])) || LV[LV.length - 1]).cefr;
   let s = `<div class="tx-card"><h2>Curso de inglés <small>${soon.length ? 'Próximamente: ' + soon.join(', ') : ''}</small></h2>
   <p><small>Desbloqueas cada lección con ≥ 70 % en la anterior. Si haces la prueba de nivel, los niveles que superes quedan abiertos.</small></p></div>
   <div class="tx-grid">
@@ -190,12 +191,14 @@ function home() {
       (free(lv.cefr) ? '<p><small>✓ Nivel superado en la prueba de nivel: las lecciones están abiertas para repasar.</small></p>' : '') +
       (ls.length < tot ? `<p><small>Las unidades se publican por etapas: ${ls.length} de ${tot} lecciones disponibles por ahora.</small></p>` : '') + '</div>' +
       `<div class="tx-grid"><button class="tx-tile" data-go="exam:${lv.cefr}" ${open ? '' : 'disabled'}><b>📝 Examen final ${lv.cefr}</b><small>${ex ? (ex.passed ? '✓ Aprobado ' : 'Último intento ') + Math.round(ex.pct * 100) + ' %' : !(lv.exam && lv.exam.status === 'ready') ? 'Se habilita cuando esté todo el nivel' : open ? '30 preguntas · aprueba con 75 %' : 'Completa las ' + tot + ' lecciones'}</small></button></div>`;
+    s += `<details class="tx-level" ${lv.cefr === cur ? 'open' : ''}><summary>Unidades de ${lv.cefr}</summary>`;
     lv.units.filter(u => u.lessons.some(x => x.status === 'ready')).forEach(u => {
       s += `<div class="tx-card"><h2>Unidad ${u.order}: ${esc(u.title_target)} <small>${esc(u.title_es)}</small></h2>` + u.lessons.filter(l => l.status === 'ready').map(l => {
         const d = S.done[l.id], ok = unlocked(l);
         return `<button class="tx-lesson ${d ? 'done' : ''}" data-go="lesson:${l.id}" ${ok ? '' : 'disabled'}><span>${d ? '✓' : ok ? '▶' : '🔒'}</span><span>${l.kind === 'checkpoint' ? '⭐ ' : ''}${esc(l.title_target)} <small>${esc(l.title_es)}</small></span><span>${d ? Math.round(d.score * 100) + ' %' : ''}</span></button>`;
       }).join('') + '</div>';
     });
+    s += '</details>';
   });
   s += `<div class="tx-foot"><label><input type="checkbox" id="tx-open" ${S.open ? 'checked' : ''}> Modo prueba: desbloquear todo</label><button data-go="reset">Borrar progreso</button></div>`;
   app.innerHTML = s; scrollTo(0, 0);

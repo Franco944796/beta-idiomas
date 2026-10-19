@@ -1,0 +1,457 @@
+{
+  "id": "en-a2-u08-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Present perfect or past simple?",
+    "es": "Present perfect o pasado simple"
+  },
+  "objective": "Al terminar eliges entre present perfect y pasado simple según si dices cuándo ocurrió la acción.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Estuve en Roma' y 'Estuve en Roma el año pasado': ¿por qué en inglés el segundo cambia de tiempo verbal?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Have you ever been to Scotland?",
+        "es": "¿Alguna vez estuviste en Escocia?"
+      },
+      {
+        "speaker": "Jess",
+        "text": "Yes, I have. I went there in 2022.",
+        "es": "Sí. Fui en 2022."
+      },
+      {
+        "speaker": "Sam",
+        "text": "What did you do there?",
+        "es": "¿Qué hiciste allí?"
+      },
+      {
+        "speaker": "Jess",
+        "text": "We visited Edinburgh Castle and walked in the mountains. It was fantastic!",
+        "es": "Visitamos el castillo de Edimburgo y caminamos por las montañas. ¡Fue fantástico!"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Have you been to London too?",
+        "es": "¿Estuviste también en Londres?"
+      },
+      {
+        "speaker": "Jess",
+        "text": "Yes, I've been twice. I went last summer and in 2019.",
+        "es": "Sí, estuve dos veces. Fui el verano pasado y en 2019."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-castle",
+        "lemma": "castle",
+        "pos": "noun",
+        "ipa": "/ˈkɑːsl/",
+        "es": "castillo",
+        "example": "We visited Edinburgh Castle."
+      },
+      {
+        "id": "en-mountains",
+        "lemma": "mountains",
+        "pos": "noun",
+        "ipa": "/ˈmaʊntɪnz/",
+        "es": "montañas",
+        "example": "We walked in the mountains."
+      },
+      {
+        "id": "en-fantastic",
+        "lemma": "fantastic",
+        "pos": "adj",
+        "ipa": "/fænˈtæstɪk/",
+        "es": "fantástico/a",
+        "example": "It was fantastic!"
+      },
+      {
+        "id": "en-last-summer",
+        "lemma": "last summer",
+        "pos": "phrase",
+        "ipa": "/lɑːst ˈsʌmə/",
+        "es": "el verano pasado",
+        "example": "I went last summer."
+      },
+      {
+        "id": "en-in-2022",
+        "lemma": "in 2022",
+        "pos": "phrase",
+        "ipa": "/ɪn tuː θaʊzənd ənd ˈtwenti tuː/",
+        "es": "en 2022",
+        "example": "I went there in 2022."
+      },
+      {
+        "id": "en-twice",
+        "lemma": "twice",
+        "pos": "adv",
+        "ipa": "/twaɪs/",
+        "es": "dos veces",
+        "example": "I've been twice."
+      }
+    ],
+    "audio_script_id": "en-a2-u08-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Present perfect** → experiencia **sin decir cuándo**, o resultado actual.\n*Have you ever been to Scotland? — Yes, I have.* (no importa cuándo)\n\n**Pasado simple** → acción **terminada con un momento concreto** (dicho o implícito).\n*I went there in 2022.* · *What did you do there?* · *It was fantastic.*\n\n**Pistas de tiempo**\n\n| Present perfect | Pasado simple |\n|---|---|\n| ever · never · just · already · yet · so far · this week / this year (aún en curso) | yesterday · last night / week / year · in 2020 · two days ago · when · what time … |\n\n**Patrón muy frecuente:** abrir con present perfect (¿has…?) y dar los detalles en pasado simple: *Have you been to Rome? — Yes, I have. I went in 2022. We stayed for a week.*\n\n**Ojo:** nunca *present perfect + tiempo terminado*: *I've seen him yesterday* ✗ → *I saw him yesterday* ✓. Y *When have you…?* ✗ → *When did you …?* ✓.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have seen him yesterday.",
+        "right": "I saw him yesterday.",
+        "note": "Con yesterday: pasado simple."
+      },
+      {
+        "wrong": "When have you been there?",
+        "right": "When did you go there?",
+        "note": "Con when: pasado simple."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ him last night.",
+      "options": [
+        "saw",
+        "have seen",
+        "have saw",
+        "see"
+      ],
+      "answer": [
+        "saw"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last night es tiempo terminado: pasado simple.",
+        "incorrect": "Revisa esto: Last night es tiempo terminado: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ never ___ sushi. (en toda mi vida)",
+      "options": [
+        "have / eaten",
+        "did / eat",
+        "have / ate",
+        "am / eating"
+      ],
+      "answer": [
+        "have / eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Experiencia de vida: present perfect.",
+        "incorrect": "Revisa esto: Experiencia de vida: present perfect."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I went to Paris in 2019.",
+        "I have gone to Paris in 2019.",
+        "I've been to Paris in 2019.",
+        "I have went to Paris in 2019."
+      ],
+      "answer": [
+        "I went to Paris in 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con in 2019 (tiempo terminado) se usa pasado simple.",
+        "incorrect": "Revisa esto: Con in 2019 (tiempo terminado) se usa pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever been to Rome? — Yes, I have. I ___ there last year. (go)",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con last year: pasado simple.",
+        "incorrect": "Revisa esto: Con last year: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever ___ (eat) snails?",
+      "answer": [
+        "eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect: participio eaten.",
+        "incorrect": "Revisa esto: Present perfect: participio eaten."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 25,
+      "prompt": "When ___ you arrive? (llegar)",
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When + did + sujeto + verbo base.",
+        "incorrect": "Revisa esto: When + did + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have seen him yesterday.",
+      "answer": [
+        "I saw him yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yesterday exige pasado simple.",
+        "incorrect": "Revisa esto: Yesterday exige pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When have you arrived?",
+      "answer": [
+        "When did you arrive?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con when se usa pasado simple.",
+        "incorrect": "Revisa esto: Con when se usa pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "ever",
+        "been",
+        "to",
+        "Scotland",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "Scotland",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Experiencia de vida: present perfect.",
+        "incorrect": "Revisa esto: Experiencia de vida: present perfect."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo fue Jess a Escocia?",
+      "options": [
+        "In 2022",
+        "Last summer",
+        "In 2019",
+        "Never"
+      ],
+      "answer": [
+        "In 2022"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Jess dice 'I went there in 2022'.",
+        "incorrect": "Revisa esto: Jess dice 'I went there in 2022'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo fue la primera vez?",
+      "options": [
+        "In 2018",
+        "Last year",
+        "In 2020",
+        "Never"
+      ],
+      "answer": [
+        "In 2018"
+      ],
+      "audio_text": "I've been to Italy twice. I went there in 2018 for a week, and then I went again last year with my family.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I went there in 2018'.",
+        "incorrect": "Revisa esto: Dice 'I went there in 2018'."
+      },
+      "audio_script_id": "en-a2-u08-l04-ex11-a"
+    },
+    {
+      "id": "en-a2-u08-l04-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estuve en Roma el año pasado.",
+      "answer": [
+        "I went to Rome last year.",
+        "I was in Rome last year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con last year: pasado simple.",
+        "incorrect": "Revisa esto: Con last year: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l04-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 180,
+      "prompt": "Cuenta una experiencia: empieza con una frase en present perfect (Have you ever…? / I've …) y da dos detalles en pasado simple (cuándo y qué hiciste).",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Abriste con present perfect?",
+        "¿Diste detalles en pasado simple?",
+        "¿Incluiste un tiempo terminado (in 2021, last year)?",
+        "¿Evitaste present perfect con tiempo terminado?"
+      ],
+      "model_answer": "I've been to Cusco. I went there in 2021 with my sister. We visited Machu Picchu and ate delicious food. It was an amazing trip.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've been to Rome. (¿cuándo? no importa)",
+      "I went to Rome in 2022. (tiempo terminado)",
+      "ever · never · just · yet → present perfect",
+      "yesterday · last year · ago → pasado simple"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-castle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mountains"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fantastic"
+    },
+    {
+      "type": "vocab",
+      "id": "en-last-summer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-2022"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twice"
+    },
+    {
+      "type": "grammar",
+      "id": "en-pp-vs-ps"
+    }
+  ]
+}

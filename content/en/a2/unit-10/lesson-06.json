@@ -1,0 +1,403 @@
+{
+  "id": "en-a2-u10-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de A2"
+  },
+  "objective": "Al terminar demuestras el nivel A2: hablas de tu vida, das opiniones con razones, describes cómo haces las cosas y usas los tiempos verbales aprendidos.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint final de A2: integra adverbios, verbos + -ing / to, opiniones, conectores y tu historia de vida."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: adverbios de modo, verbos + -ing o to + verbo, dar y pedir opiniones, because / so / but / although y cómo contar tu vida con varios tiempos.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 10**\n\n- *carefully · slowly · well · hard · fast* — *He speaks English well.*\n- *enjoy / finish / mind + -ing · want / hope / decide + to + verbo*\n- *I think … · In my opinion … · I agree / I don't agree · I don't think …*\n- *because · because of · so · but · although*\n- *I was born … · I've lived here for … · Next year I'm going to … · One day I'd like to …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "She speaks English very ___. (bien)",
+      "answer": [
+        "well"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio de good es well.",
+        "incorrect": "Revisa esto: El adverbio de good es well."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "He drives ___ because the road is icy. (con cuidado)",
+      "answer": [
+        "carefully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Careful + -ly.",
+        "incorrect": "Revisa esto: Careful + -ly."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "I enjoy ___ (swim) in the sea.",
+      "answer": [
+        "swimming"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing.",
+        "incorrect": "Revisa esto: Enjoy + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "We decided ___ (go) by train.",
+      "answer": [
+        "to go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decide + to + verbo.",
+        "incorrect": "Revisa esto: Decide + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I don't ___ that it's a good idea. (no creo)",
+      "answer": [
+        "think"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I don't think …",
+        "incorrect": "Revisa esto: I don't think …"
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was raining, ___ we stayed at home. (así que)",
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So introduce el resultado.",
+        "incorrect": "Revisa esto: So introduce el resultado."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "Although it was late, we went out.",
+        "Although it was late, but we went out.",
+        "Although it was late, so we went out.",
+        "Because it was late, but we went out."
+      ],
+      "answer": [
+        "Although it was late, we went out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although no se combina con but.",
+        "incorrect": "Revisa esto: Although no se combina con but."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I was born in 1995 and I've lived here since 2019.",
+        "I am born in 1995 and I live here since 2019.",
+        "I born in 1995 and I've lived here for 2019.",
+        "I was born in 1995 and I live here since 2019."
+      ],
+      "answer": [
+        "I was born in 1995 and I've lived here since 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Was born + present perfect con since.",
+        "incorrect": "Revisa esto: Was born + present perfect con since."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the guitar good.",
+      "answer": [
+        "She plays the guitar well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del verbo: well.",
+        "incorrect": "Revisa esto: Después del verbo: well."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want learning English.",
+      "answer": [
+        "I want to learn English."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want + to + verbo.",
+        "incorrect": "Revisa esto: Want + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I stayed home because the rain.",
+      "answer": [
+        "I stayed home because of the rain.",
+        "I stayed at home because of the rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo → because of.",
+        "incorrect": "Revisa esto: Sustantivo → because of."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué disfruta la persona?",
+      "options": [
+        "Studying every day",
+        "Travelling",
+        "Working hard",
+        "Teaching"
+      ],
+      "answer": [
+        "Studying every day"
+      ],
+      "audio_text": "I think that learning English is useful because I can travel more easily. Although it's difficult, I enjoy studying every day.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I enjoy studying every day'.",
+        "incorrect": "Revisa esto: Dice 'I enjoy studying every day'."
+      },
+      "audio_script_id": "en-a2-u10-l06-ex12-a"
+    },
+    {
+      "id": "en-a2-u10-l06-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "opinions",
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Creo que es una buena idea porque es barato, aunque es un poco lejos.",
+      "answer": [
+        "I think it's a good idea because it's cheap, although it's a bit far.",
+        "I think it is a good idea because it is cheap, although it is a bit far.",
+        "I think it's a good idea because it's cheap, although it's a little far."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Opinión + because + although.",
+        "incorrect": "Revisa esto: Opinión + because + although."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "life-story",
+        "opinions",
+        "connectors"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo de 6 a 8 frases presentándote como si fuera el final de A2: de dónde eres, qué hiciste, qué haces ahora, qué opinas de aprender inglés y qué quieres hacer en el futuro.",
+      "min_words": 60,
+      "self_check_es": [
+        "¿Usaste pasado simple y present perfect?",
+        "¿Usaste verbos + -ing / to + verbo?",
+        "¿Diste tu opinión con una razón (because)?",
+        "¿Usaste although, so o but?",
+        "¿Hablaste del futuro (going to / I'd like to)?"
+      ],
+      "model_answer": "I was born in Santa Fe and I studied business. I've worked in an office for two years. I enjoy working with people, but I'm not very good at maths. I think that English is important because I want to travel. Although it's difficult, I study every day. Next year I'm going to take a course, and one day I'd like to work abroad.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u10-l06-ex15",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "opinions",
+        "verb-patterns"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tu futuro.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What are you going to do next year?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm going to study English. I want to travel, so I think it's important.",
+            "Next year I study English. I want travel so important.",
+            "I will to study English because travelling."
+          ],
+          "best": 0,
+          "why_es": "Going to + want to + so."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you enjoy learning languages?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I do. Although it's difficult, I enjoy it.",
+            "Yes, I enjoy to learn. Although it's difficult but I enjoy.",
+            "Yes. I enjoy learn languages."
+          ],
+          "best": 0,
+          "why_es": "Enjoy + -ing; although sin but."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "carefully · well · hard · fast",
+      "enjoy doing · want to do",
+      "I think … · In my opinion … · I agree",
+      "because · so · but · although · because of"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-adverbs-manner"
+    },
+    {
+      "type": "grammar",
+      "id": "en-verb-patterns"
+    },
+    {
+      "type": "grammar",
+      "id": "en-opinions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-connectors"
+    },
+    {
+      "type": "grammar",
+      "id": "en-life-story"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

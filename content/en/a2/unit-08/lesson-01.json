@@ -1,0 +1,464 @@
+{
+  "id": "en-a2-u08-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Have you ever...?",
+    "es": "Present perfect: forma y participios"
+  },
+  "objective": "Al terminar formas el present perfect (have / has + participio) y preguntas por experiencias con Have you ever…?",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'¿Alguna vez has estado en Londres?' No importa cuándo: importa la experiencia. Para eso el inglés usa el present perfect."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "Have you ever been to London?",
+        "es": "¿Alguna vez estuviste en Londres?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "Yes, I have. I've been there twice.",
+        "es": "Sí. Estuve dos veces."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Have you ever eaten fish and chips?",
+        "es": "¿Alguna vez comiste fish and chips?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "No, I haven't. But I've tried Indian food there. It was delicious!",
+        "es": "No. Pero probé comida india allí. ¡Estaba deliciosa!"
+      },
+      {
+        "speaker": "Ben",
+        "text": "Have you ever visited the UK, Ana?",
+        "es": "¿Alguna vez visitaste el Reino Unido, Ana?"
+      },
+      {
+        "speaker": "Ana",
+        "text": "No, I haven't. I've seen lots of photos, but I've never been there.",
+        "es": "No. He visto muchas fotos, pero nunca estuve allí."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-been",
+        "lemma": "been",
+        "pos": "verb",
+        "ipa": "/biːn/",
+        "es": "participio de be (estar, ser)",
+        "example": "I've been to London."
+      },
+      {
+        "id": "en-eaten",
+        "lemma": "eaten",
+        "pos": "verb",
+        "ipa": "/ˈiːtn/",
+        "es": "participio de eat",
+        "example": "Have you ever eaten fish and chips?"
+      },
+      {
+        "id": "en-seen",
+        "lemma": "seen",
+        "pos": "verb",
+        "ipa": "/siːn/",
+        "es": "participio de see",
+        "example": "I've seen lots of photos."
+      },
+      {
+        "id": "en-tried",
+        "lemma": "tried",
+        "pos": "verb",
+        "ipa": "/traɪd/",
+        "es": "probado (participio de try)",
+        "example": "I've tried Indian food."
+      },
+      {
+        "id": "en-twice",
+        "lemma": "twice",
+        "pos": "adv",
+        "ipa": "/twaɪs/",
+        "es": "dos veces",
+        "example": "I've been there twice."
+      },
+      {
+        "id": "en-ever",
+        "lemma": "ever",
+        "pos": "adv",
+        "ipa": "/ˈevə/",
+        "es": "alguna vez",
+        "example": "Have you ever been to London?"
+      },
+      {
+        "id": "en-fish-and-chips",
+        "lemma": "fish and chips",
+        "pos": "noun",
+        "ipa": "/fɪʃ ən tʃɪps/",
+        "es": "pescado frito con papas fritas (plato británico)",
+        "example": "Have you ever eaten fish and chips?"
+      }
+    ],
+    "audio_script_id": "en-a2-u08-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Present perfect = have / has + participio pasado**\n\n| | Forma | Ejemplo |\n|---|---|---|\n| Afirmativa | I / you / we / they **have** · he / she / it **has** + participio | *I've seen it. · She has been there.* |\n| Negativa | **haven't / hasn't** + participio | *I haven't eaten sushi.* |\n| Pregunta | **Have / Has** + sujeto + participio? | *Have you ever been to Spain?* |\n| Respuesta corta | Yes, I **have**. / No, I **haven't**. | *Yes, she has.* |\n\n**Participios:** regulares = *-ed* (*visited, tried, worked*). Irregulares (hay que aprenderlos): *be → **been** · go → **gone** · see → **seen** · eat → **eaten** · do → **done** · write → **written** · take → **taken** · have → **had** · make → **made** · meet → **met** · buy → **bought** · fly → **flown** · drive → **driven***.\n\n**Been vs gone:** *She has been to Paris* (fue y ya volvió) ≠ *She has gone to Paris* (está allí ahora).\n\n**Usamos el present perfect** para experiencias de la vida sin decir cuándo: *I've been to London.* Si dices cuándo (*last year*), usas pasado simple (lo vemos en la lección 4).\n\nPronunciación: *been* /biːn/ · *seen* /siːn/ · *eaten* /ˈiːtn/ · contracciones *I've* /aɪv/, *she's* /ʃiːz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have went to London.",
+        "right": "I have been to London.",
+        "note": "Went es pasado; el participio de go es gone y para visitas se usa been."
+      },
+      {
+        "wrong": "Did you ever eat sushi?",
+        "right": "Have you ever eaten sushi?",
+        "note": "Para experiencias de vida se usa el present perfect."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l01-ex01",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo con su participio.",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        },
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son participios irregulares muy frecuentes.",
+        "incorrect": "Revisa esto: Son participios irregulares muy frecuentes."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ (see) that film three times.",
+      "answer": [
+        "seen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de see: seen.",
+        "incorrect": "Revisa esto: Participio de see: seen."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (not / eat) sushi before. (nunca ha comido)",
+      "answer": [
+        "hasn't eaten",
+        "has not eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con she: hasn't + participio.",
+        "incorrect": "Revisa esto: Negativa con she: hasn't + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever ___ (be) to Japan?",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de be: been.",
+        "incorrect": "Revisa esto: Participio de be: been."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ to Paris. He's in the hotel now. (está allí ahora)",
+      "options": [
+        "has gone",
+        "has been",
+        "went",
+        "was going"
+      ],
+      "answer": [
+        "has gone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Gone = fue y sigue allí.",
+        "incorrect": "Revisa esto: Gone = fue y sigue allí."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la pregunta correcta.",
+      "options": [
+        "Have you ever eaten snails?",
+        "Did you ever eaten snails?",
+        "Have you ever ate snails?",
+        "Are you ever eaten snails?"
+      ],
+      "answer": [
+        "Have you ever eaten snails?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + sujeto + participio.",
+        "incorrect": "Revisa esto: Have + sujeto + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have eat sushi.",
+      "answer": [
+        "I have eaten sushi.",
+        "I've eaten sushi."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El participio de eat es eaten.",
+        "incorrect": "Revisa esto: El participio de eat es eaten."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Have you ever visit Rome?",
+      "answer": [
+        "Have you ever visited Rome?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de have va el participio: visited.",
+        "incorrect": "Revisa esto: Después de have va el participio: visited."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "ever",
+        "been",
+        "to",
+        "London",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "London",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + sujeto + ever + participio.",
+        "incorrect": "Revisa esto: Have + sujeto + ever + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántas veces estuvo Ben en Londres?",
+      "options": [
+        "Twice",
+        "Once",
+        "Never",
+        "Three times"
+      ],
+      "answer": [
+        "Twice"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Ben dice 'I've been there twice'.",
+        "incorrect": "Revisa esto: Ben dice 'I've been there twice'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l01-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice la persona sobre su examen de conducir?",
+      "options": [
+        "She hasn't passed it",
+        "She has passed it",
+        "She failed it twice",
+        "She never took it"
+      ],
+      "answer": [
+        "She hasn't passed it"
+      ],
+      "audio_text": "Have you ever driven a car? — Yes, I have. I've driven my dad's car, but I haven't passed my test yet.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I haven't passed my test yet'.",
+        "incorrect": "Revisa esto: Dice 'I haven't passed my test yet'."
+      },
+      "audio_script_id": "en-a2-u08-l01-ex11-a"
+    },
+    {
+      "id": "en-a2-u08-l01-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Alguna vez has comido sushi?",
+      "answer": [
+        "Have you ever eaten sushi?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have you ever + eaten.",
+        "incorrect": "Revisa esto: Have you ever + eaten."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've seen · she has been · they haven't eaten",
+      "Have you ever been to …? — Yes, I have. / No, I haven't.",
+      "go → gone · see → seen · eat → eaten · do → done",
+      "been (volvió) ≠ gone (sigue allí)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-been"
+    },
+    {
+      "type": "vocab",
+      "id": "en-eaten"
+    },
+    {
+      "type": "vocab",
+      "id": "en-seen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tried"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ever"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fish-and-chips"
+    },
+    {
+      "type": "grammar",
+      "id": "en-present-perfect"
+    }
+  ]
+}

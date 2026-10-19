@@ -1,0 +1,441 @@
+{
+  "id": "en-a2-u08-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Just, already, yet",
+    "es": "Just, already y yet"
+  },
+  "objective": "Al terminar hablas de acciones recientes y de lo que ya se hizo o aún no con just, already y yet.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás por salir de viaje: ¿ya hiciste la maleta? ¿ya compraste los pasajes? Para eso están just, already y yet."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mum",
+        "text": "Have you packed your suitcase yet?",
+        "es": "¿Ya hiciste la maleta?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Yes, I've already packed it. I've just finished!",
+        "es": "Sí, ya la hice. ¡Acabo de terminar!"
+      },
+      {
+        "speaker": "Mum",
+        "text": "Have you bought the tickets?",
+        "es": "¿Compraste los pasajes?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Not yet. I haven't bought them yet. I'm going to buy them online now.",
+        "es": "Todavía no. Aún no los compré. Los voy a comprar en línea ahora."
+      },
+      {
+        "speaker": "Mum",
+        "text": "Hurry up! The taxi has just arrived.",
+        "es": "¡Apúrate! El taxi acaba de llegar."
+      },
+      {
+        "speaker": "Tom",
+        "text": "OK, I'm coming. I've already locked the door!",
+        "es": "Bien, ya voy. ¡Ya cerré la puerta con llave!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-just",
+        "lemma": "just",
+        "pos": "adv",
+        "ipa": "/dʒʌst/",
+        "es": "acabo de, acaba de",
+        "example": "I've just finished."
+      },
+      {
+        "id": "en-already",
+        "lemma": "already",
+        "pos": "adv",
+        "ipa": "/ɔːlˈredi/",
+        "es": "ya",
+        "example": "I've already packed it."
+      },
+      {
+        "id": "en-yet",
+        "lemma": "yet",
+        "pos": "adv",
+        "ipa": "/jet/",
+        "es": "todavía no / ya (en preguntas)",
+        "example": "I haven't bought them yet."
+      },
+      {
+        "id": "en-pack",
+        "lemma": "pack",
+        "pos": "verb",
+        "ipa": "/pæk/",
+        "es": "hacer la maleta",
+        "example": "Have you packed yet?"
+      },
+      {
+        "id": "en-hurry-up",
+        "lemma": "hurry up",
+        "pos": "phrasal verb",
+        "ipa": "/ˈhʌri ʌp/",
+        "es": "apurarse",
+        "example": "Hurry up! We're late."
+      },
+      {
+        "id": "en-lock",
+        "lemma": "lock",
+        "pos": "verb",
+        "ipa": "/lɒk/",
+        "es": "cerrar con llave",
+        "example": "I've locked the door."
+      },
+      {
+        "id": "en-taxi",
+        "lemma": "taxi",
+        "pos": "noun",
+        "ipa": "/ˈtæksi/",
+        "es": "taxi",
+        "example": "The taxi has just arrived."
+      }
+    ],
+    "audio_script_id": "en-a2-u08-l03-d01"
+  },
+  "explanation": {
+    "md_es": "| Palabra | Significado | Dónde va | Ejemplo |\n|---|---|---|---|\n| **just** | hace un momento | entre *have* y el participio | *I've **just** finished.* |\n| **already** | ya (antes de lo esperado) | entre *have* y el participio, o al final | *I've **already** packed it.* · *I've packed it **already**.* |\n| **yet** | todavía no (negativas) / ya (preguntas) | al final de la frase | *I haven't bought them **yet**.* · *Have you packed **yet**?* |\n\n**Respuestas:** *Yes, I've already done it. · Not yet. · No, I haven't finished yet.*\n\n**Ojo:** *yet* no se usa en afirmativas (en afirmativas se usa *already*). *Already* no se usa normalmente en preguntas de 'ya': *Have you finished yet?*\n\nCon *just*, el inglés americano a veces usa pasado simple (*I just finished*), pero en inglés británico se usa present perfect.\n\nPronunciación: *already* /ɔːlˈredi/ · *yet* /jet/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I didn't finish yet.",
+        "right": "I haven't finished yet.",
+        "note": "Con yet se usa present perfect en inglés británico."
+      },
+      {
+        "wrong": "I have finished yet.",
+        "right": "I have already finished.",
+        "note": "En afirmativas: already."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ finished. (acabo de)",
+      "answer": [
+        "just"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Just = acabo de.",
+        "incorrect": "Revisa esto: Just = acabo de."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ packed my suitcase. (ya)",
+      "answer": [
+        "already"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Already = ya (afirmativa).",
+        "incorrect": "Revisa esto: Already = ya (afirmativa)."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I haven't bought the tickets ___.",
+      "answer": [
+        "yet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet = todavía, al final de la negativa.",
+        "incorrect": "Revisa esto: Yet = todavía, al final de la negativa."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you finished ___? (ya)",
+      "answer": [
+        "yet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas, yet va al final.",
+        "incorrect": "Revisa esto: En preguntas, yet va al final."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 20,
+      "prompt": "The taxi ___ arrived. It's outside the door.",
+      "options": [
+        "has just",
+        "just has",
+        "just have",
+        "have already"
+      ],
+      "answer": [
+        "has just"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Has + just + participio.",
+        "incorrect": "Revisa esto: Has + just + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "I haven't finished yet.",
+        "I have finished yet.",
+        "I haven't yet finished it already.",
+        "I yet haven't finished."
+      ],
+      "answer": [
+        "I haven't finished yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet va al final de la negativa.",
+        "incorrect": "Revisa esto: Yet va al final de la negativa."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have yet finished my homework.",
+      "answer": [
+        "I have already finished my homework.",
+        "I've already finished my homework."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En afirmativa se usa already, no yet.",
+        "incorrect": "Revisa esto: En afirmativa se usa already, no yet."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She has packed already her suitcase.",
+      "answer": [
+        "She has already packed her suitcase.",
+        "She has packed her suitcase already."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Already va entre has y el participio, o al final.",
+        "incorrect": "Revisa esto: Already va entre has y el participio, o al final."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "packed",
+        "your",
+        "suitcase",
+        "yet",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "packed",
+        "your",
+        "suitcase",
+        "yet",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + sujeto + participio + objeto + yet.",
+        "incorrect": "Revisa esto: Have + sujeto + participio + objeto + yet."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Ya compró Tom los pasajes?",
+      "options": [
+        "No, not yet",
+        "Yes, already",
+        "Yes, he has just bought them",
+        "He doesn't need them"
+      ],
+      "answer": [
+        "No, not yet"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Tom dice 'I haven't bought them yet'.",
+        "incorrect": "Revisa esto: Tom dice 'I haven't bought them yet'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l03-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué no ha hecho todavía?",
+      "options": [
+        "Called Mum",
+        "Had lunch",
+        "Eaten",
+        "Finished work"
+      ],
+      "answer": [
+        "Called Mum"
+      ],
+      "audio_text": "—Have you eaten yet? —Yes, I've just had lunch. —Have you called Mum? —Not yet, I'm going to call her now.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Not yet, I'm going to call her now'.",
+        "incorrect": "Revisa esto: Dice 'Not yet, I'm going to call her now'."
+      },
+      "audio_script_id": "en-a2-u08-l03-ex11-a"
+    },
+    {
+      "id": "en-a2-u08-l03-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Todavía no hemos terminado el informe.",
+      "answer": [
+        "We haven't finished the report yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con yet al final.",
+        "incorrect": "Revisa esto: Negativa con yet al final."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've just finished. (acabo de)",
+      "I've already packed it. (ya)",
+      "I haven't finished yet. · Have you finished yet?",
+      "just / already entre have y participio · yet al final"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-just"
+    },
+    {
+      "type": "vocab",
+      "id": "en-already"
+    },
+    {
+      "type": "vocab",
+      "id": "en-yet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pack"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hurry-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lock"
+    },
+    {
+      "type": "vocab",
+      "id": "en-taxi"
+    },
+    {
+      "type": "grammar",
+      "id": "en-just-already-yet"
+    }
+  ]
+}

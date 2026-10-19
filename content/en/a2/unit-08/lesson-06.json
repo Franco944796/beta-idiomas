@@ -1,0 +1,358 @@
+{
+  "id": "en-a2-u08-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 8",
+    "es": "Repaso y checkpoint 8"
+  },
+  "objective": "Al terminar hablas de tus experiencias y de cuánto tiempo llevas haciendo algo, y eliges bien entre present perfect y pasado simple.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 8: junta el present perfect con ever, never, just, already, yet, for y since."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: have / has + participio, ever y never, just / already / yet, present perfect o pasado simple, y for / since.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 8**\n\n- *I've seen · she hasn't eaten · Have you ever been to …? — Yes, I have.*\n- *I've never flown. · once · twice · three times · the best … I've ever seen*\n- *I've just finished · I've already packed · I haven't finished yet*\n- *I've been to Rome. (¿cuándo? no importa) · I went in 2022. (tiempo terminado)*\n- *How long have you lived here? — For five years. / Since 2020.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've never ___ (be) to Italy.",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de be: been.",
+        "incorrect": "Revisa esto: Participio de be: been."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has ___ (eat) sushi twice.",
+      "answer": [
+        "eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de eat: eaten.",
+        "incorrect": "Revisa esto: Participio de eat: eaten."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ arrived. I'm at the door. (acabo de)",
+      "answer": [
+        "just"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Just = acabo de.",
+        "incorrect": "Revisa esto: Just = acabo de."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't finished the project ___.",
+      "answer": [
+        "yet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet al final de la negativa.",
+        "incorrect": "Revisa esto: Yet al final de la negativa."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've worked here ___ 2019.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + año.",
+        "incorrect": "Revisa esto: Since + año."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived in this house ___ ten years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo.",
+        "incorrect": "Revisa esto: For + periodo."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I saw her last week.",
+        "I have seen her last week.",
+        "I've seen her last week.",
+        "I have saw her last week."
+      ],
+      "answer": [
+        "I saw her last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last week es tiempo terminado: pasado simple.",
+        "incorrect": "Revisa esto: Last week es tiempo terminado: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live here since 2020.",
+      "answer": [
+        "I've lived here since 2020.",
+        "I have lived here since 2020."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con since: present perfect.",
+        "incorrect": "Revisa esto: Con since: present perfect."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have went to Paris twice.",
+      "answer": [
+        "I've been to Paris twice.",
+        "I have been to Paris twice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para visitas se usa been.",
+        "incorrect": "Revisa esto: Para visitas se usa been."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo estuvo en Japón?",
+      "options": [
+        "Two weeks",
+        "Two years",
+        "One week",
+        "Two months"
+      ],
+      "answer": [
+        "Two weeks"
+      ],
+      "audio_text": "I've been to Japan once. I went in 2019 and stayed for two weeks. I haven't been back yet, but I'd love to go again.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'stayed for two weeks'.",
+        "incorrect": "Revisa esto: Dice 'stayed for two weeks'."
+      },
+      "audio_script_id": "en-a2-u08-l06-ex10-a"
+    },
+    {
+      "id": "en-a2-u08-l06-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "for-since",
+        "ever-never"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "He vivido en esta ciudad durante diez años y nunca he estado en el museo.",
+      "answer": [
+        "I've lived in this city for ten years and I've never been to the museum.",
+        "I have lived in this city for ten years and I have never been to the museum."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect con for y never.",
+        "incorrect": "Revisa esto: Present perfect con for y never."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "present-perfect",
+        "for-since"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre ti: dos experiencias (present perfect), algo que nunca has hecho, cuánto tiempo llevas en tu ciudad o trabajo (for / since) y un detalle en pasado simple.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste present perfect para experiencias?",
+        "¿Usaste never?",
+        "¿Usaste for o since?",
+        "¿Usaste pasado simple con un tiempo terminado?"
+      ],
+      "model_answer": "I've visited Spain twice. I've never eaten snails. I've lived in this city for six years and I've worked here since 2021. I went to Madrid last year and I loved it.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u08-l06-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps",
+        "for-since"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tus viajes.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Have you ever been to another country?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I have. I've been to Spain twice. I went there last year.",
+            "Yes, I have went to Spain. I have gone last year.",
+            "Yes, I did Spain."
+          ],
+          "best": 0,
+          "why_es": "Present perfect + pasado simple para detalles."
+        },
+        {
+          "speaker": "Friend",
+          "text": "How long have you studied English?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've studied it for three years.",
+            "I study it since three years.",
+            "I studied it three years."
+          ],
+          "best": 0,
+          "why_es": "Present perfect + for."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "have / has + participio · Have you ever …?",
+      "never · once · twice · the best … I've ever …",
+      "just · already · yet",
+      "for + periodo · since + momento · pasado simple + tiempo terminado"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-present-perfect"
+    },
+    {
+      "type": "grammar",
+      "id": "en-ever-never"
+    },
+    {
+      "type": "grammar",
+      "id": "en-just-already-yet"
+    },
+    {
+      "type": "grammar",
+      "id": "en-pp-vs-ps"
+    },
+    {
+      "type": "grammar",
+      "id": "en-for-since"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "id": "en-a2-u08-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 8,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "For and since",
+    "es": "For y since: cuánto tiempo"
+  },
+  "objective": "Al terminar dices cuánto tiempo hace que haces algo con for y since y preguntas How long have you…?",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En español decimos 'vivo aquí hace cinco años'. En inglés no se usa el presente: se usa el present perfect con for o since."
+  },
+  "input": {
+    "type": "text",
+    "text": "I've lived in Madrid for five years. I've worked at the same company since 2020. My brother has known his wife since school. How long have you studied English? Maria has studied it for two years, but Jon has studied it since 2023. They've been friends for a long time. I moved here five years ago.",
+    "es": "Vivo en Madrid hace cinco años. Trabajo en la misma empresa desde 2020. Mi hermano conoce a su esposa desde el colegio. ¿Cuánto hace que estudias inglés? María lo estudia hace dos años, pero Jon lo estudia desde 2023. Son amigos desde hace mucho tiempo. Me mudé aquí hace cinco años.",
+    "glossary": [
+      {
+        "id": "en-for",
+        "lemma": "for",
+        "pos": "prep",
+        "ipa": "/fɔː/",
+        "es": "durante, desde hace (un periodo)",
+        "example": "I've lived here for five years."
+      },
+      {
+        "id": "en-since",
+        "lemma": "since",
+        "pos": "prep",
+        "ipa": "/sɪns/",
+        "es": "desde (un momento)",
+        "example": "I've worked here since 2020."
+      },
+      {
+        "id": "en-how-long",
+        "lemma": "how long",
+        "pos": "phrase",
+        "ipa": "/haʊ lɒŋ/",
+        "es": "cuánto tiempo",
+        "example": "How long have you studied English?"
+      },
+      {
+        "id": "en-a-long-time",
+        "lemma": "a long time",
+        "pos": "phrase",
+        "ipa": "/ə lɒŋ taɪm/",
+        "es": "mucho tiempo",
+        "example": "They've been friends for a long time."
+      },
+      {
+        "id": "en-move",
+        "lemma": "move",
+        "pos": "verb",
+        "ipa": "/muːv/",
+        "es": "mudarse",
+        "example": "I moved here five years ago."
+      },
+      {
+        "id": "en-known",
+        "lemma": "known",
+        "pos": "verb",
+        "ipa": "/nəʊn/",
+        "es": "participio de know",
+        "example": "I've known her for years."
+      },
+      {
+        "id": "en-same",
+        "lemma": "same",
+        "pos": "adj",
+        "ipa": "/seɪm/",
+        "es": "mismo/a",
+        "example": "I work at the same company."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**How long have you …?** → ¿desde hace cuánto tiempo…?\n\n| | Se usa con | Ejemplos |\n|---|---|---|\n| **for** | un **periodo** de tiempo | for two hours · for a week · for five years · for a long time |\n| **since** | un **momento de inicio** | since 2020 · since Monday · since I was ten · since last week |\n\n**Present perfect para situaciones que empezaron en el pasado y siguen ahora:**\n*I've lived here **for** five years.* (y todavía vivo aquí)\n*I've worked here **since** 2020.*\n\n**Ojo, error muy común para hispanohablantes:** *I live here since 2019* ✗ → *I've lived here since 2019* ✓. No se usa el presente.\n\n**For / since vs ago:** *I moved here five years **ago*** (pasado simple, un momento) ≠ *I've lived here **for** five years* (present perfect, hasta ahora).\n\n**Verbos de estado** (be, know, live, work, have) son los más comunes aquí: *I've known her for years. · We've been married since 2018.*\n\nPronunciación: *for* /fə/ (débil) · *since* /sɪns/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I live here since 2019.",
+        "right": "I've lived here since 2019.",
+        "note": "No se usa el presente con since."
+      },
+      {
+        "wrong": "I've known her since two years.",
+        "right": "I've known her for two years.",
+        "note": "Un periodo lleva for."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u08-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived here ___ five years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo de tiempo.",
+        "incorrect": "Revisa esto: For + periodo de tiempo."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has worked here ___ 2020.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento de inicio.",
+        "incorrect": "Revisa esto: Since + momento de inicio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ have you studied English?",
+      "answer": [
+        "long"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long have you…?",
+        "incorrect": "Revisa esto: How long have you…?"
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 20,
+      "prompt": "They've been friends ___ they were children.",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento: since they were children.",
+        "incorrect": "Revisa esto: Since + momento: since they were children."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've known him ___ a long time.",
+      "options": [
+        "for",
+        "since",
+        "ago",
+        "from"
+      ],
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A long time es un periodo: for.",
+        "incorrect": "Revisa esto: A long time es un periodo: for."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live here since 2019.",
+      "answer": [
+        "I've lived here since 2019.",
+        "I have lived here since 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con since se usa present perfect.",
+        "incorrect": "Revisa esto: Con since se usa present perfect."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've known her since three years.",
+      "answer": [
+        "I've known her for three years.",
+        "I have known her for three years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tres años es un periodo: for.",
+        "incorrect": "Revisa esto: Tres años es un periodo: for."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "you",
+        "lived",
+        "here",
+        "?",
+        "How",
+        "long"
+      ],
+      "answer": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "lived",
+        "here",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long + have + sujeto + participio.",
+        "incorrect": "Revisa esto: How long + have + sujeto + participio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Desde cuándo trabaja la persona en la misma empresa?",
+      "options": [
+        "Since 2020",
+        "For five years",
+        "Since school",
+        "For two years"
+      ],
+      "answer": [
+        "Since 2020"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'since 2020'.",
+        "incorrect": "Revisa esto: El texto dice 'since 2020'."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Desde cuándo tiene su teléfono la hermana?",
+      "options": [
+        "Since last Christmas",
+        "For three years",
+        "Since last year",
+        "For two months"
+      ],
+      "answer": [
+        "Since last Christmas"
+      ],
+      "audio_text": "I've had this phone for three years. My sister has had hers since last Christmas.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'since last Christmas'.",
+        "incorrect": "Revisa esto: Dice 'since last Christmas'."
+      },
+      "audio_script_id": "en-a2-u08-l05-ex10-a"
+    },
+    {
+      "id": "en-a2-u08-l05-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Vivo aquí desde 2018.",
+      "answer": [
+        "I've lived here since 2018.",
+        "I have lived here since 2018."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + since.",
+        "incorrect": "Revisa esto: Present perfect + since."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex12",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "for-since"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "I've lived here for five years",
+          "ipa": "/aɪv lɪvd hɪə fə faɪv jɪəz/",
+          "tip_es": "For suena débil: /fə/."
+        },
+        {
+          "text": "How long have you studied?",
+          "ipa": "/haʊ lɒŋ həv juː ˈstʌdid/",
+          "tip_es": "Have suena débil: /həv/."
+        },
+        {
+          "text": "since 2020",
+          "ipa": "/sɪns ˈtwenti ˈtwenti/",
+          "tip_es": "Since termina en /s/ sorda."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u08-l05-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Hablas con un compañero nuevo en la oficina.",
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "text": "How long have you worked here?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've worked here for two years.",
+            "I work here since two years.",
+            "I have work here two years ago."
+          ],
+          "best": 0,
+          "why_es": "Present perfect + for + periodo."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "And how long have you lived in this city?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've lived here since 2021.",
+            "I live here since 2021.",
+            "I am living here for 2021."
+          ],
+          "best": 0,
+          "why_es": "Present perfect + since + momento."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How long have you …? · I've lived here for five years.",
+      "for + periodo (two years) · since + momento (2020)",
+      "I live here since ✗ → I've lived here since ✓",
+      "five years ago (pasado simple)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-since"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-long"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-long-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-move"
+    },
+    {
+      "type": "vocab",
+      "id": "en-known"
+    },
+    {
+      "type": "vocab",
+      "id": "en-same"
+    },
+    {
+      "type": "grammar",
+      "id": "en-for-since"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "en-a2-u10-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "My life so far",
+    "es": "Integración: cuenta tu vida"
+  },
+  "objective": "Al terminar cuentas tu vida combinando pasado, presente perfecto, presente y futuro, y conversas con otra persona sobre la suya.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Presentarte de verdad en inglés: de dónde eres, qué has hecho, qué haces ahora y qué quieres hacer. Hoy juntamos casi todo el nivel A2."
+  },
+  "input": {
+    "type": "text",
+    "text": "I was born in Córdoba in 1995. I studied architecture and I moved to Barcelona in 2019. I've lived here for five years and I work for a design company. I love my job because it's creative, but it's very tiring. In my free time I enjoy cycling. Next year I'm going to travel to Japan, and one day I'd like to open my own studio.",
+    "es": "Nací en Córdoba en 1995. Estudié arquitectura y me mudé a Barcelona en 2019. Vivo aquí desde hace cinco años y trabajo para una empresa de diseño. Me encanta mi trabajo porque es creativo, pero es muy agotador. En mi tiempo libre disfruto andar en bicicleta. El año que viene voy a viajar a Japón y algún día me gustaría abrir mi propio estudio.",
+    "glossary": [
+      {
+        "id": "en-be-born",
+        "lemma": "be born",
+        "pos": "phrase",
+        "ipa": "/biː bɔːn/",
+        "es": "nacer",
+        "example": "I was born in Córdoba."
+      },
+      {
+        "id": "en-architecture",
+        "lemma": "architecture",
+        "pos": "noun",
+        "ipa": "/ˈɑːkɪtektʃə/",
+        "es": "arquitectura",
+        "example": "I studied architecture."
+      },
+      {
+        "id": "en-move",
+        "lemma": "move",
+        "pos": "verb",
+        "ipa": "/muːv/",
+        "es": "mudarse",
+        "example": "I moved to Barcelona."
+      },
+      {
+        "id": "en-creative",
+        "lemma": "creative",
+        "pos": "adj",
+        "ipa": "/kriˈeɪtɪv/",
+        "es": "creativo/a",
+        "example": "My job is creative."
+      },
+      {
+        "id": "en-tiring",
+        "lemma": "tiring",
+        "pos": "adj",
+        "ipa": "/ˈtaɪərɪŋ/",
+        "es": "agotador",
+        "example": "It's very tiring."
+      },
+      {
+        "id": "en-studio",
+        "lemma": "studio",
+        "pos": "noun",
+        "ipa": "/ˈstjuːdiəʊ/",
+        "es": "estudio",
+        "example": "I'd like to open my own studio."
+      },
+      {
+        "id": "en-one-day",
+        "lemma": "one day",
+        "pos": "phrase",
+        "ipa": "/wʌn deɪ/",
+        "es": "algún día",
+        "example": "One day I'd like to live abroad."
+      },
+      {
+        "id": "en-free-time",
+        "lemma": "free time",
+        "pos": "noun",
+        "ipa": "/friː taɪm/",
+        "es": "tiempo libre",
+        "example": "I enjoy cycling in my free time."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Plantilla para contar tu vida**\n\n1. **Nacimiento y origen (pasado simple):** *I was born in … in … · I grew up in …*\n2. **Estudios y trabajos pasados (pasado simple):** *I studied … · I worked as … for two years · I moved to … in 2019.*\n3. **Situación actual (presente simple / present perfect):** *I work for … · I've lived here for five years.*\n4. **Gustos y opinión:** *I love my job because … · In my free time I enjoy cycling.*\n5. **Futuro:** *Next year I'm going to … · One day I'd like to … · I might …*\n\n**Preguntas para conocer a alguien**\n\n- *Where were you born? · Where did you grow up?*\n- *What did you study? · When did you move here?*\n- *How long have you lived / worked here?*\n- *What do you do? · What do you enjoy doing?*\n- *What are you going to do next year? · What would you like to do one day?*\n\n**Conectores útiles:** *because, so, but, although, then, after that, now, at the moment*.\n\nPronunciación: *born* /bɔːn/ · *architecture* /ˈɑːkɪtektʃə/ · *creative* /kriˈeɪtɪv/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I am born in 1995.",
+        "right": "I was born in 1995.",
+        "note": "Born siempre en pasado."
+      },
+      {
+        "wrong": "I live here since 2019.",
+        "right": "I've lived here since 2019.",
+        "note": "Since → present perfect."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que naciste en 1995. ¿Cuál es correcta?",
+      "options": [
+        "I was born in 1995.",
+        "I born in 1995.",
+        "I am born in 1995.",
+        "I have been born in 1995."
+      ],
+      "answer": [
+        "I was born in 1995."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be born se usa en pasado: was born.",
+        "incorrect": "Revisa esto: Be born se usa en pasado: was born."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que vives en Barcelona desde hace cinco años:",
+      "options": [
+        "I've lived in Barcelona for five years.",
+        "I live in Barcelona since five years.",
+        "I lived in Barcelona for five years now.",
+        "I am living in Barcelona five years ago."
+      ],
+      "answer": [
+        "I've lived in Barcelona for five years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + for.",
+        "incorrect": "Revisa esto: Present perfect + for."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres contar un plan firme para el año próximo:",
+      "options": [
+        "Next year I'm going to travel to Japan.",
+        "Next year I travel to Japan.",
+        "Next year I will to travel to Japan.",
+        "Next year I travelled to Japan."
+      ],
+      "answer": [
+        "Next year I'm going to travel to Japan."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan decidido: going to.",
+        "incorrect": "Revisa esto: Plan decidido: going to."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ born in Córdoba in 1995.",
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be born en pasado: was born.",
+        "incorrect": "Revisa esto: Be born en pasado: was born."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 25,
+      "prompt": "I moved to Barcelona ___ 2019.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con años se usa in.",
+        "incorrect": "Revisa esto: Con años se usa in."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 25,
+      "prompt": "One day I'd ___ to open my own studio.",
+      "answer": [
+        "like"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like to + verbo.",
+        "incorrect": "Revisa esto: I'd like to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am born in Córdoba.",
+      "answer": [
+        "I was born in Córdoba."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be born: pasado, was born.",
+        "incorrect": "Revisa esto: Be born: pasado, was born."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live here since five years.",
+      "answer": [
+        "I've lived here for five years.",
+        "I have lived here for five years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + for.",
+        "incorrect": "Revisa esto: Present perfect + for."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?",
+        "Where",
+        "were"
+      ],
+      "answer": [
+        "Where",
+        "were",
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos preguntas en pasado unidas con and.",
+        "incorrect": "Revisa esto: Dos preguntas en pasado unidas con and."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué estudió la persona?",
+      "options": [
+        "Architecture",
+        "Design",
+        "Tourism",
+        "Cooking"
+      ],
+      "answer": [
+        "Architecture"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I studied architecture'.",
+        "incorrect": "Revisa esto: El texto dice 'I studied architecture'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué quiere hacer algún día?",
+      "options": [
+        "Open its own studio",
+        "Move to Japan",
+        "Study again",
+        "Work from home"
+      ],
+      "answer": [
+        "Open its own studio"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'one day I'd like to open my own studio'.",
+        "incorrect": "Revisa esto: El texto dice 'one day I'd like to open my own studio'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere ser?",
+      "options": [
+        "A surgeon",
+        "A nurse",
+        "A teacher",
+        "A pilot"
+      ],
+      "answer": [
+        "A surgeon"
+      ],
+      "audio_text": "I was born in a small town. I studied medicine and I've worked in a hospital for six years. Next year I'm going to move to another city, and I'd like to become a surgeon.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'd like to become a surgeon'.",
+        "incorrect": "Revisa esto: Dice 'I'd like to become a surgeon'."
+      },
+      "audio_script_id": "en-a2-u10-l05-ex12-a"
+    },
+    {
+      "id": "en-a2-u10-l05-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Nací en Rosario, estudié arquitectura y vivo en Barcelona desde 2019.",
+      "answer": [
+        "I was born in Rosario, I studied architecture and I've lived in Barcelona since 2019.",
+        "I was born in Rosario, I studied architecture and I have lived in Barcelona since 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado simple y present perfect.",
+        "incorrect": "Revisa esto: Pasado simple y present perfect."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un compañero nuevo te pregunta por tu vida.",
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "text": "Where were you born?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I was born in Rosario, but I've lived here for five years.",
+            "I born in Rosario, but I live here five years.",
+            "I am born in Rosario."
+          ],
+          "best": 0,
+          "why_es": "Was born + present perfect con for."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "What are you going to do next year?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm going to travel to Japan. One day I'd like to open my own business.",
+            "Next year I go to Japan. I want open business.",
+            "I will going to Japan."
+          ],
+          "best": 0,
+          "why_es": "Going to + I'd like to."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u10-l05-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe tu historia de vida en 7 u 8 frases: dónde naciste, qué estudiaste o dónde trabajaste, cuánto hace que vives donde vives, qué te gusta y qué planes tienes.",
+      "min_words": 50,
+      "self_check_es": [
+        "¿Usaste pasado simple para tu pasado?",
+        "¿Usaste present perfect con for o since?",
+        "¿Mencionaste lo que te gusta con because?",
+        "¿Incluiste un plan con going to o I'd like to?"
+      ],
+      "model_answer": "I was born in La Plata in 1998. I studied design and I worked as a freelancer for two years. I've lived in Buenos Aires for three years and I work for a small company. I love my job because it's creative. In my free time I enjoy cooking. Next year I'm going to travel to Italy and one day I'd like to open my own studio.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I was born in … · I studied … · I moved to …",
+      "I've lived here for … / since …",
+      "I love … because … · I enjoy …ing",
+      "Next year I'm going to … · One day I'd like to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-be-born"
+    },
+    {
+      "type": "vocab",
+      "id": "en-architecture"
+    },
+    {
+      "type": "vocab",
+      "id": "en-move"
+    },
+    {
+      "type": "vocab",
+      "id": "en-creative"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tiring"
+    },
+    {
+      "type": "vocab",
+      "id": "en-studio"
+    },
+    {
+      "type": "vocab",
+      "id": "en-one-day"
+    },
+    {
+      "type": "vocab",
+      "id": "en-free-time"
+    },
+    {
+      "type": "grammar",
+      "id": "en-life-story"
+    }
+  ]
+}

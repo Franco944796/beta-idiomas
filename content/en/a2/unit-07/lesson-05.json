@@ -1,0 +1,464 @@
+{
+  "id": "en-a2-u07-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 7,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Emails and phone calls",
+    "es": "Correos y llamadas: formal e informal"
+  },
+  "objective": "Al terminar escribes correos formales e informales y manejas una llamada telefónica de trabajo con frases adecuadas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un correo para tu jefe no se escribe igual que uno para un compañero. ¿Cómo cambia el tono y cómo funciona una llamada profesional?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Informal: Hi Tom, Can you send me the report today? Thanks! Ana.\nFormal: Dear Ms Taylor, I am writing to ask about the job advertised on your website. I would be grateful if you could send me more information. I look forward to hearing from you. Yours sincerely, Laura Green.",
+    "es": "Informal: Hola Tom, ¿puedes enviarme el informe hoy? ¡Gracias! Ana.\nFormal: Estimada Sra. Taylor: Le escribo para preguntar por el puesto publicado en su sitio web. Le agradecería que pudiera enviarme más información. Quedo a la espera de su respuesta. Atentamente, Laura Green.",
+    "glossary": [
+      {
+        "id": "en-dear",
+        "lemma": "dear",
+        "pos": "adj",
+        "ipa": "/dɪə/",
+        "es": "estimado/a",
+        "example": "Dear Ms Taylor,"
+      },
+      {
+        "id": "en-i-am-writing-to",
+        "lemma": "I am writing to",
+        "pos": "phrase",
+        "ipa": "/aɪ əm ˈraɪtɪŋ tuː/",
+        "es": "le escribo para…",
+        "example": "I am writing to ask about the job."
+      },
+      {
+        "id": "en-i-would-be-grateful-if",
+        "lemma": "I would be grateful if",
+        "pos": "phrase",
+        "ipa": "/aɪ wʊd biː ˈɡreɪtfl ɪf/",
+        "es": "le agradecería que…",
+        "example": "I would be grateful if you could send me information."
+      },
+      {
+        "id": "en-look-forward-to",
+        "lemma": "look forward to",
+        "pos": "phrase",
+        "ipa": "/lʊk ˈfɔːwəd tuː/",
+        "es": "esperar con interés",
+        "example": "I look forward to hearing from you."
+      },
+      {
+        "id": "en-yours-sincerely",
+        "lemma": "yours sincerely",
+        "pos": "phrase",
+        "ipa": "/jɔːz sɪnˈsɪəli/",
+        "es": "atentamente (si conoces el nombre)",
+        "example": "Yours sincerely, Laura Green"
+      },
+      {
+        "id": "en-advertised",
+        "lemma": "advertised",
+        "pos": "adj",
+        "ipa": "/ˈædvətaɪzd/",
+        "es": "publicado, anunciado",
+        "example": "the job advertised on your website"
+      },
+      {
+        "id": "en-website",
+        "lemma": "website",
+        "pos": "noun",
+        "ipa": "/ˈwebsaɪt/",
+        "es": "sitio web",
+        "example": "I saw it on your website."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Correo informal vs formal**\n\n| | Informal (compañeros, amigos) | Formal (jefes, empresas, desconocidos) |\n|---|---|---|\n| Saludo | *Hi Tom,* | *Dear Ms Taylor,* / *Dear Mr Hill,* |\n| Pedido | *Can you send me …?* | *I would be grateful if you could send me …* · *Could you please …?* |\n| Motivo | *I'm writing about …* | *I am writing to ask about …* |\n| Cierre | *Thanks! · See you · Best wishes* | *I look forward to hearing from you.* |\n| Despedida | *Best, Ana* | *Yours sincerely,* (conoces el nombre) · *Yours faithfully,* (*Dear Sir or Madam*) |\n\n**Llamada telefónica**\n\n- *Hello, this is Laura Green. Could I speak to Mr Hill, please?*\n- *Speaking.* (soy yo) · *Who's calling?* (¿con quién hablo?) · *Hold on, please.* (espere) · *I'll put you through.* (le comunico)\n- *I'm afraid he isn't available. Can I take a message?* (lo siento, no está disponible)\n- *Could you ask him to call me back?* · *Could you spell your name, please?*\n- *Thank you for calling.*\n\n**Ojo:** *I am writing to + verbo* (para indicar el motivo): *I am writing to ask…* (no *for ask*).\n\nPronunciación: *grateful* /ˈɡreɪtfl/ · *sincerely* /sɪnˈsɪəli/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Hi Mr Taylor, send me information.",
+        "right": "Dear Mr Taylor, I would be grateful if you could send me information.",
+        "note": "Con jefes o desconocidos usa un tono formal."
+      },
+      {
+        "wrong": "I am writing for to ask.",
+        "right": "I am writing to ask.",
+        "note": "To + verbo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u07-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el saludo más adecuado para un correo formal a la Sra. Taylor?",
+      "options": [
+        "Dear Ms Taylor,",
+        "Hi Taylor!",
+        "Hey Ms,",
+        "Yo Taylor,"
+      ],
+      "answer": [
+        "Dear Ms Taylor,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dear + título + apellido es formal.",
+        "incorrect": "Revisa esto: Dear + título + apellido es formal."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escribes 'Dear Sir or Madam'. ¿Cómo cierras?",
+      "options": [
+        "Yours faithfully,",
+        "Yours sincerely,",
+        "See you!",
+        "Cheers,"
+      ],
+      "answer": [
+        "Yours faithfully,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dear Sir or Madam (sin nombre) → Yours faithfully.",
+        "incorrect": "Revisa esto: Dear Sir or Madam (sin nombre) → Yours faithfully."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir algo a tu jefe con formalidad:",
+      "options": [
+        "I would be grateful if you could send me the document.",
+        "Send me the document.",
+        "Give me the document now.",
+        "You send the document."
+      ],
+      "answer": [
+        "I would be grateful if you could send me the document."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fórmula formal para pedir.",
+        "incorrect": "Revisa esto: Fórmula formal para pedir."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase telefónica con su función.",
+      "pairs": [
+        {
+          "left": "Hold on, please.",
+          "right": "Pedir que esperen"
+        },
+        {
+          "left": "Speaking.",
+          "right": "Decir 'soy yo'"
+        },
+        {
+          "left": "I'll put you through.",
+          "right": "Pasar la llamada"
+        },
+        {
+          "left": "Can I take a message?",
+          "right": "Ofrecer anotar un recado"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases muy frecuentes en una llamada.",
+        "incorrect": "Revisa esto: Son frases muy frecuentes en una llamada."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 25,
+      "prompt": "Could I ___ to Mr Hill, please?",
+      "answer": [
+        "speak"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could I speak to…? es la fórmula estándar.",
+        "incorrect": "Revisa esto: Could I speak to…? es la fórmula estándar."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ he isn't available at the moment.",
+      "answer": [
+        "afraid"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm afraid… = lo siento, pero…",
+        "incorrect": "Revisa esto: I'm afraid… = lo siento, pero…"
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am writing for ask about the job.",
+      "answer": [
+        "I am writing to ask about the job.",
+        "I'm writing to ask about the job."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para indicar finalidad: to + verbo.",
+        "incorrect": "Revisa esto: Para indicar finalidad: to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "forward",
+        "to",
+        "hearing",
+        "from",
+        "you",
+        ".",
+        "I",
+        "look"
+      ],
+      "answer": [
+        "I",
+        "look",
+        "forward",
+        "to",
+        "hearing",
+        "from",
+        "you",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Para qué escribe Laura Green?",
+      "options": [
+        "To ask about a job",
+        "To complain about a product",
+        "To cancel a meeting",
+        "To thank a friend"
+      ],
+      "answer": [
+        "To ask about a job"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I am writing to ask about the job'.",
+        "incorrect": "Revisa esto: Dice 'I am writing to ask about the job'."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le ofrecen a Anna?",
+      "options": [
+        "To take a message",
+        "To call back later",
+        "To send an email",
+        "To wait"
+      ],
+      "answer": [
+        "To take a message"
+      ],
+      "audio_text": "Hello, this is Anna Lopez from Green Travel. Could I speak to Mr Hill, please? — I'm afraid he isn't available. Can I take a message?",
+      "feedback": {
+        "correct": "¡Correcto! Dicen 'Can I take a message?'",
+        "incorrect": "Revisa esto: Dicen 'Can I take a message?'"
+      },
+      "audio_script_id": "en-a2-u07-l05-ex10-a"
+    },
+    {
+      "id": "en-a2-u07-l05-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Llamas a una empresa y preguntas por un gerente.",
+      "turns": [
+        {
+          "speaker": "Receptionist",
+          "text": "Good morning, Green Travel. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Good morning. Could I speak to Mr Hill, please?",
+            "Hello. I want Mr Hill.",
+            "Mr Hill. Now."
+          ],
+          "best": 0,
+          "why_es": "Could I speak to…, please?"
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "I'm afraid he isn't available. Can I take a message?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. Could you ask him to call me back?",
+            "Yes. Tell him call me.",
+            "Yes. He call me back."
+          ],
+          "best": 0,
+          "why_es": "Could you ask him to call me back?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u07-l05-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un correo formal corto (4 o 5 líneas) para preguntar por un curso de inglés: saludo, motivo, pedido, cierre y despedida.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste un saludo formal (Dear…)?",
+        "¿Indicaste el motivo con I am writing to…?",
+        "¿Usaste I would be grateful if you could…?",
+        "¿Cerraste con I look forward… y Yours faithfully/sincerely?"
+      ],
+      "model_answer": "Dear Sir or Madam, I am writing to ask about your English courses. I would be grateful if you could send me information about prices and timetables. I look forward to hearing from you. Yours faithfully, Maria Lopez",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Dear Ms Taylor, … Yours sincerely,",
+      "I am writing to ask … · I would be grateful if you could …",
+      "Could I speak to …? · Hold on, please.",
+      "I'm afraid he isn't available."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-dear"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-am-writing-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-would-be-grateful-if"
+    },
+    {
+      "type": "vocab",
+      "id": "en-look-forward-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-yours-sincerely"
+    },
+    {
+      "type": "vocab",
+      "id": "en-advertised"
+    },
+    {
+      "type": "vocab",
+      "id": "en-website"
+    },
+    {
+      "type": "grammar",
+      "id": "en-formal-informal"
+    }
+  ]
+}

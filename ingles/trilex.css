@@ -47,3 +47,11 @@
 .tx-foot button{background:none;border:0;color:#fff;text-decoration:underline;cursor:pointer;font:inherit;margin:0 8px}
 .tx button:focus-visible,.tx input:focus-visible,.tx textarea:focus-visible{outline:3px solid #8B0000;outline-offset:2px}
 @media(max-width:560px){.tx h1{font-size:1.7rem}.tx-cols{grid-template-columns:1fr}.tx-card{padding:16px}}
+
+/* Unidades de cada nivel plegables */
+.tx-level{margin-bottom:18px}
+.tx-level>summary{cursor:pointer;background:#fff;color:#1E1E50;border:3px solid #8B0000;border-radius:15px;padding:12px 18px;font-weight:bold;list-style:none;margin-bottom:12px}
+.tx-level>summary::-webkit-details-marker{display:none}
+.tx-level>summary::before{content:"▸ ";color:#8B0000}
+.tx-level[open]>summary::before{content:"▾ "}
+.tx-level>summary:hover{background:#f4f4fb}

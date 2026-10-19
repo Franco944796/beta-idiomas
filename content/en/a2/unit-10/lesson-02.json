@@ -1,0 +1,486 @@
+{
+  "id": "en-a2-u10-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 10,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Like doing, want to do",
+    "es": "Verbo + -ing / to + verbo"
+  },
+  "objective": "Al terminar combinas verbos con -ing o to + verbo (enjoy doing, want to do) y hablas de gustos y planes.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Disfruto cocinando', 'quiero aprender a tocar la guitarra'. ¿Cuándo va -ing y cuándo to + verbo después de un verbo?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "What do you enjoy doing in your free time?",
+        "es": "¿Qué disfrutas hacer en tu tiempo libre?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "I enjoy cooking and I love listening to music. I hate getting up early!",
+        "es": "Disfruto cocinar y me encanta escuchar música. ¡Odio levantarme temprano!"
+      },
+      {
+        "speaker": "Ana",
+        "text": "Do you want to learn an instrument?",
+        "es": "¿Quieres aprender un instrumento?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Yes, I want to learn the guitar. I hope to join a band one day.",
+        "es": "Sí, quiero aprender guitarra. Espero unirme a una banda algún día."
+      },
+      {
+        "speaker": "Ana",
+        "text": "That's great! Have you decided to take lessons?",
+        "es": "¡Genial! ¿Decidiste tomar clases?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Yes, I've decided to practise every day. I don't mind paying for lessons.",
+        "es": "Sí, decidí practicar todos los días. No me molesta pagar las clases."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-enjoy",
+        "lemma": "enjoy",
+        "pos": "verb",
+        "ipa": "/ɪnˈdʒɔɪ/",
+        "es": "disfrutar",
+        "example": "I enjoy cooking."
+      },
+      {
+        "id": "en-hate",
+        "lemma": "hate",
+        "pos": "verb",
+        "ipa": "/heɪt/",
+        "es": "odiar",
+        "example": "I hate getting up early."
+      },
+      {
+        "id": "en-hope",
+        "lemma": "hope",
+        "pos": "verb",
+        "ipa": "/həʊp/",
+        "es": "esperar, tener la esperanza de",
+        "example": "I hope to join a band."
+      },
+      {
+        "id": "en-decide",
+        "lemma": "decide",
+        "pos": "verb",
+        "ipa": "/dɪˈsaɪd/",
+        "es": "decidir",
+        "example": "I've decided to practise."
+      },
+      {
+        "id": "en-instrument",
+        "lemma": "instrument",
+        "pos": "noun",
+        "ipa": "/ˈɪnstrəmənt/",
+        "es": "instrumento",
+        "example": "Do you play an instrument?"
+      },
+      {
+        "id": "en-band",
+        "lemma": "band",
+        "pos": "noun",
+        "ipa": "/bænd/",
+        "es": "banda, grupo de música",
+        "example": "I want to join a band."
+      },
+      {
+        "id": "en-practise",
+        "lemma": "practise",
+        "pos": "verb",
+        "ipa": "/ˈpræktɪs/",
+        "es": "practicar",
+        "example": "I practise every day."
+      },
+      {
+        "id": "en-lesson",
+        "lemma": "lesson",
+        "pos": "noun",
+        "ipa": "/ˈlesn/",
+        "es": "clase, lección",
+        "example": "I take guitar lessons."
+      }
+    ],
+    "audio_script_id": "en-a2-u10-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Verbo + verbo: ¿-ing o to + verbo?** Depende del primer verbo.\n\n| + **-ing** | + **to + verbo** |\n|---|---|\n| enjoy · finish · stop · avoid · mind · keep · suggest | want · need · hope · plan · decide · learn · would like · promise · agree |\n| *I enjoy cooking.* · *She finished working.* · *I don't mind waiting.* | *I want to learn the guitar.* · *I hope to join a band.* · *We decided to go.* |\n\n**Con ambos (casi igual):** *like, love, hate, prefer* → *I like swimming. / I like to swim.* (en inglés británico, *-ing* para gustos generales; *to* para costumbres o elecciones).\n\n**Después de preposición** siempre -ing: *I'm good at cooking. · She's interested in learning.*\n\n**Ojo:** *want* y *need* nunca con -ing: *I want to go* (no *I want going*). *Enjoy* nunca con *to*: *I enjoy swimming* (no *I enjoy to swim*).\n\n**Would like to** (querría): *I'd like to travel.* — educado y habitual para deseos.\n\nPronunciación: *enjoy* /ɪnˈdʒɔɪ/ · *decide* /dɪˈsaɪd/ · *practise* /ˈpræktɪs/ (verbo, UK).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I enjoy to cook.",
+        "right": "I enjoy cooking.",
+        "note": "Enjoy + -ing."
+      },
+      {
+        "wrong": "I want cooking.",
+        "right": "I want to cook.",
+        "note": "Want + to + verbo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u10-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I enjoy ___ in the evening.",
+      "options": [
+        "cooking",
+        "to cook",
+        "cook",
+        "cooked"
+      ],
+      "answer": [
+        "cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing.",
+        "incorrect": "Revisa esto: Enjoy + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I want ___ the guitar.",
+      "options": [
+        "to learn",
+        "learning",
+        "learn",
+        "learned"
+      ],
+      "answer": [
+        "to learn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want + to + verbo.",
+        "incorrect": "Revisa esto: Want + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 20,
+      "prompt": "She decided ___ a new job.",
+      "options": [
+        "to look for",
+        "looking for",
+        "look for",
+        "looked for"
+      ],
+      "answer": [
+        "to look for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decide + to + verbo.",
+        "incorrect": "Revisa esto: Decide + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 20,
+      "prompt": "We finished ___ at six.",
+      "options": [
+        "working",
+        "to work",
+        "work",
+        "worked"
+      ],
+      "answer": [
+        "working"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finish + -ing.",
+        "incorrect": "Revisa esto: Finish + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "I don't mind ___ (wait). I'm not in a hurry.",
+      "answer": [
+        "waiting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mind + -ing.",
+        "incorrect": "Revisa esto: Mind + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "I hope ___ (see) you soon.",
+      "answer": [
+        "to see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hope + to + verbo.",
+        "incorrect": "Revisa esto: Hope + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's good at ___ (draw).",
+      "answer": [
+        "drawing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de una preposición (at) va -ing.",
+        "incorrect": "Revisa esto: Después de una preposición (at) va -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I enjoy to swim in the sea.",
+      "answer": [
+        "I enjoy swimming in the sea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy va con -ing.",
+        "incorrect": "Revisa esto: Enjoy va con -ing."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want going to the cinema.",
+      "answer": [
+        "I want to go to the cinema."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want va con to + verbo.",
+        "incorrect": "Revisa esto: Want va con to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex10",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "to",
+        "join",
+        "a",
+        "band",
+        "one",
+        "day",
+        ".",
+        "I",
+        "hope"
+      ],
+      "answer": [
+        "I",
+        "hope",
+        "to",
+        "join",
+        "a",
+        "band",
+        "one",
+        "day",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! hope + to + verbo.",
+        "incorrect": "Revisa esto: hope + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué quiere aprender Leo?",
+      "options": [
+        "The guitar",
+        "The piano",
+        "The violin",
+        "Cooking"
+      ],
+      "answer": [
+        "The guitar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Leo dice 'I want to learn the guitar'.",
+        "incorrect": "Revisa esto: Leo dice 'I want to learn the guitar'."
+      }
+    },
+    {
+      "id": "en-a2-u10-l02-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué odia?",
+      "options": [
+        "Waking up early",
+        "Dancing",
+        "Joining a class",
+        "Deciding"
+      ],
+      "answer": [
+        "Waking up early"
+      ],
+      "audio_text": "I love dancing, but I hate waking up early. I'd like to join a dance class, but I can't decide which one.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I hate waking up early'.",
+        "incorrect": "Revisa esto: Dice 'I hate waking up early'."
+      },
+      "audio_script_id": "en-a2-u10-l02-ex12-a"
+    },
+    {
+      "id": "en-a2-u10-l02-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Disfruto cocinando y quiero aprender a tocar la guitarra.",
+      "answer": [
+        "I enjoy cooking and I want to learn to play the guitar.",
+        "I enjoy cooking and I want to learn how to play the guitar."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing; want + to + verbo.",
+        "incorrect": "Revisa esto: Enjoy + -ing; want + to + verbo."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "enjoy · finish · mind · avoid + -ing",
+      "want · need · hope · decide · plan + to + verbo",
+      "like / love / hate + -ing o to",
+      "preposición + -ing (good at cooking)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-enjoy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hope"
+    },
+    {
+      "type": "vocab",
+      "id": "en-decide"
+    },
+    {
+      "type": "vocab",
+      "id": "en-instrument"
+    },
+    {
+      "type": "vocab",
+      "id": "en-band"
+    },
+    {
+      "type": "vocab",
+      "id": "en-practise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lesson"
+    },
+    {
+      "type": "grammar",
+      "id": "en-verb-patterns"
+    }
+  ]
+}
