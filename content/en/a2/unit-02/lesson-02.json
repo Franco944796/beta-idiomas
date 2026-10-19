@@ -1,0 +1,429 @@
+{
+  "id": "en-a2-u02-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where did you go?",
+    "es": "Preguntas en pasado con Wh-"
+  },
+  "objective": "Al terminar haces preguntas sobre un viaje pasado con Where, Who, How, How long y What + did.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un amigo vuelve de vacaciones. ¿Qué le preguntas para que te cuente todo?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "text": "Where did you go on holiday, Kim?",
+        "es": "¿Adónde fuiste de vacaciones, Kim?"
+      },
+      {
+        "speaker": "Kim",
+        "text": "We went to Italy.",
+        "es": "Fuimos a Italia."
+      },
+      {
+        "speaker": "Paul",
+        "text": "Who did you go with?",
+        "es": "¿Con quién fuiste?"
+      },
+      {
+        "speaker": "Kim",
+        "text": "With my sister.",
+        "es": "Con mi hermana."
+      },
+      {
+        "speaker": "Paul",
+        "text": "How did you travel?",
+        "es": "¿Cómo viajaron?"
+      },
+      {
+        "speaker": "Kim",
+        "text": "We flew to Rome and then took a train to Florence.",
+        "es": "Volamos a Roma y luego tomamos un tren a Florencia."
+      },
+      {
+        "speaker": "Paul",
+        "text": "How long did you stay?",
+        "es": "¿Cuánto tiempo se quedaron?"
+      },
+      {
+        "speaker": "Kim",
+        "text": "Ten days. We loved the food! We ate pasta every day.",
+        "es": "Diez días. ¡Nos encantó la comida! Comimos pasta todos los días."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-flew",
+        "lemma": "flew",
+        "pos": "verb",
+        "ipa": "/fluː/",
+        "es": "volé, volamos… (pasado de fly)",
+        "example": "We flew to Rome."
+      },
+      {
+        "id": "en-how-long",
+        "lemma": "how long",
+        "pos": "phrase",
+        "ipa": "/haʊ lɒŋ/",
+        "es": "cuánto tiempo",
+        "example": "How long did you stay?"
+      },
+      {
+        "id": "en-on-holiday",
+        "lemma": "on holiday",
+        "pos": "phrase",
+        "ipa": "/ɒn ˈhɒlədeɪ/",
+        "es": "de vacaciones",
+        "example": "Where did you go on holiday?"
+      },
+      {
+        "id": "en-every-day",
+        "lemma": "every day",
+        "pos": "phrase",
+        "ipa": "/ˈevri deɪ/",
+        "es": "todos los días",
+        "example": "We ate pasta every day."
+      },
+      {
+        "id": "en-love",
+        "lemma": "love",
+        "pos": "verb",
+        "ipa": "/lʌv/",
+        "es": "encantar",
+        "example": "We loved the food."
+      }
+    ],
+    "audio_script_id": "en-a2-u02-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Pregunta en pasado con Wh-:** palabra interrogativa + **did** + sujeto + **verbo base**.\n\n| Pregunta | Respuesta típica |\n|---|---|\n| **Where** did you go? | To Italy. |\n| **Who** did you go with? | With my sister. |\n| **How** did you travel? | By train. / We flew. |\n| **How long** did you stay? | Ten days. |\n| **When** did you arrive? | On Monday. |\n| **What** did you do? | We visited museums. |\n| **Why** did you choose Rome? | Because I love history. |\n\nRecuerda: después de **did** el verbo va en base (*go*, no *went*).\n\n**Ojo:** si el interrogativo es el sujeto, no se usa did: *Who went with you?* (¿quién fue contigo?).\n\nPronunciación: en la pregunta, la voz baja al final: *Where did you go? ↘*",
+    "common_mistakes_es": [
+      {
+        "wrong": "Where you went?",
+        "right": "Where did you go?",
+        "note": "Falta did."
+      },
+      {
+        "wrong": "What did you ate?",
+        "right": "What did you eat?",
+        "note": "Después de did el verbo va en base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l02-ex01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "go",
+        "on",
+        "holiday",
+        "?",
+        "Where",
+        "did"
+      ],
+      "answer": [
+        "Where",
+        "did",
+        "you",
+        "go",
+        "on",
+        "holiday",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + did + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Wh- + did + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ you stay in Rome?",
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasado: Wh- + did + sujeto.",
+        "incorrect": "Revisa esto: Pregunta en pasado: Wh- + did + sujeto."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "How ___ you travel to Florence?",
+      "options": [
+        "did",
+        "do",
+        "were",
+        "does"
+      ],
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para preguntar por el pasado se usa did.",
+        "incorrect": "Revisa esto: Para preguntar por el pasado se usa did."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where you went last summer?",
+      "answer": [
+        "Where did you go last summer?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta did y el verbo va en base.",
+        "incorrect": "Revisa esto: Falta did y el verbo va en base."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What did you did yesterday?",
+      "answer": [
+        "What did you do yesterday?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did el verbo va en base: do.",
+        "incorrect": "Revisa esto: Después de did el verbo va en base: do."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex06",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pregunta con su respuesta.",
+      "pairs": [
+        {
+          "left": "Where did you go?",
+          "right": "To Italy."
+        },
+        {
+          "left": "Who did you go with?",
+          "right": "With my sister."
+        },
+        {
+          "left": "How long did you stay?",
+          "right": "Ten days."
+        },
+        {
+          "left": "How did you travel?",
+          "right": "By train."
+        },
+        {
+          "left": "When did you arrive?",
+          "right": "On Monday."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada palabra interrogativa pide un tipo de dato.",
+        "incorrect": "Revisa esto: Cada palabra interrogativa pide un tipo de dato."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo viajaron Kim y su hermana de Roma a Florencia?",
+      "options": [
+        "By train",
+        "By plane",
+        "By car",
+        "On foot"
+      ],
+      "answer": [
+        "By train"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'took a train to Florence'.",
+        "incorrect": "Revisa esto: Dice 'took a train to Florence'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo se quedó la persona?",
+      "options": [
+        "Three days",
+        "Five days",
+        "Ten days",
+        "One day"
+      ],
+      "answer": [
+        "Three days"
+      ],
+      "audio_text": "—When did you arrive? —On Friday evening. —How long did you stay? —Only three days.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'Only three days'.",
+        "incorrect": "Revisa esto: Responde 'Only three days'."
+      },
+      "audio_script_id": "en-a2-u02-l02-ex08-a"
+    },
+    {
+      "id": "en-a2-u02-l02-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Cuánto tiempo te quedaste en Roma?",
+      "answer": [
+        "How long did you stay in Rome?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long + did + you + stay.",
+        "incorrect": "Revisa esto: How long + did + you + stay."
+      }
+    },
+    {
+      "id": "en-a2-u02-l02-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un compañero de trabajo vuelve de vacaciones y te cuenta.",
+      "turns": [
+        {
+          "speaker": "Maria",
+          "text": "I was in Greece last week!"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Where did you stay?",
+            "Where you stayed?",
+            "Where did you stayed?"
+          ],
+          "best": 0,
+          "why_es": "Wh- + did + sujeto + verbo base."
+        },
+        {
+          "speaker": "Maria",
+          "text": "In a small hotel near the beach."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "How long did you stay?",
+            "How long you stay?",
+            "How long stayed you?"
+          ],
+          "best": 0,
+          "why_es": "How long + did + you + stay."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Where did you go? · Who did you go with?",
+      "How did you travel? · How long did you stay?",
+      "What did you do? · When did you arrive?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-flew"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-long"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-holiday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-every-day"
+    },
+    {
+      "type": "vocab",
+      "id": "en-love"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-wh-questions"
+    }
+  ]
+}

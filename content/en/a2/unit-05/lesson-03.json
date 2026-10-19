@@ -1,0 +1,428 @@
+{
+  "id": "en-a2-u05-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Will",
+    "es": "Will: decisiones, promesas y ofrecimientos"
+  },
+  "objective": "Al terminar usas will y won't para decidir en el momento, ofrecer ayuda, prometer y dar tu opinión sobre el futuro.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Suena el teléfono y tienes las manos ocupadas: '¡yo atiendo!'. Esa decisión instantánea en inglés usa will."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mum",
+        "text": "Oh no, the phone is ringing and my hands are wet!",
+        "es": "¡Oh no, el teléfono suena y tengo las manos mojadas!"
+      },
+      {
+        "speaker": "Tom",
+        "text": "I'll get it!",
+        "es": "¡Yo atiendo!"
+      },
+      {
+        "speaker": "Mum",
+        "text": "Thanks. And will you help me with the shopping later?",
+        "es": "Gracias. ¿Y me ayudas con las compras más tarde?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Of course I will. I promise I won't forget.",
+        "es": "Claro que sí. Prometo que no me voy a olvidar."
+      },
+      {
+        "speaker": "Mum",
+        "text": "I think it will rain this afternoon.",
+        "es": "Creo que va a llover esta tarde."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Then I'll take an umbrella.",
+        "es": "Entonces llevo un paraguas."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-will",
+        "lemma": "will",
+        "pos": "modal",
+        "ipa": "/wɪl/",
+        "es": "verbo auxiliar del futuro (decisiones, promesas, ofertas)",
+        "example": "I'll help you."
+      },
+      {
+        "id": "en-won-t",
+        "lemma": "won't",
+        "pos": "modal",
+        "ipa": "/wəʊnt/",
+        "es": "no (will not)",
+        "example": "I won't forget."
+      },
+      {
+        "id": "en-promise",
+        "lemma": "promise",
+        "pos": "verb",
+        "ipa": "/ˈprɒmɪs/",
+        "es": "prometer",
+        "example": "I promise I won't forget."
+      },
+      {
+        "id": "en-forget",
+        "lemma": "forget",
+        "pos": "verb",
+        "ipa": "/fəˈɡet/",
+        "es": "olvidar",
+        "example": "Don't forget your keys."
+      },
+      {
+        "id": "en-ring",
+        "lemma": "ring",
+        "pos": "verb",
+        "ipa": "/rɪŋ/",
+        "es": "sonar (el teléfono)",
+        "example": "The phone is ringing."
+      },
+      {
+        "id": "en-get-it",
+        "lemma": "get it",
+        "pos": "phrase",
+        "ipa": "/ɡet ɪt/",
+        "es": "atender (el teléfono o la puerta)",
+        "example": "I'll get it!"
+      },
+      {
+        "id": "en-probably",
+        "lemma": "probably",
+        "pos": "adv",
+        "ipa": "/ˈprɒbəbli/",
+        "es": "probablemente",
+        "example": "It will probably rain."
+      }
+    ],
+    "audio_script_id": "en-a2-u05-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Will + verbo base** (sin to). Forma corta: **'ll**. Negativa: **won't** (will not).\n\n**Cuatro usos principales**\n\n1. **Decisión en el momento:** *The phone is ringing. — I'll get it.*\n2. **Ofrecimiento:** *I'll help you with the bags.*\n3. **Promesa:** *I promise I won't tell anyone.*\n4. **Predicción / opinión:** *I think it will rain. · It will probably be cold.*\n\n**Preguntas:** *Will you help me? — Yes, I will. / No, I won't.* (también es un pedido amable)\n\n**Con la opinión:** *I think …* · *I don't think …* (no *I think … won't*): *I don't think it will rain.*\n\n**Ojo:** nunca *will to* ni *will + verbo conjugado*: *I'll help* (no *I'll to help* ni *I'll helps*).\n\nPronunciación: *I'll* /aɪl/ · *won't* /wəʊnt/ (no se confunde con *want* /wɒnt/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I will to open the window.",
+        "right": "I'll open the window.",
+        "note": "Will no lleva to."
+      },
+      {
+        "wrong": "I think it won't rain.",
+        "right": "I don't think it will rain.",
+        "note": "En inglés se niega el verbo think."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "El teléfono suena y tienes las manos libres. Dices:",
+      "options": [
+        "I'll get it.",
+        "I'm going to get it.",
+        "I get it.",
+        "I'll to get it."
+      ],
+      "answer": [
+        "I'll get it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: I'll + verbo.",
+        "incorrect": "Revisa esto: Decisión en el momento: I'll + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío en la sala. Ofreces cerrar la ventana:",
+      "options": [
+        "I'll close the window.",
+        "I close the window.",
+        "I'm going to the window.",
+        "I will to close the window."
+      ],
+      "answer": [
+        "I'll close the window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + verbo.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "I promise I ___ tell anyone. (no)",
+      "answer": [
+        "won't"
+      ],
+      "accepted_alternatives": [
+        "will not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Promesa negativa: won't + verbo base.",
+        "incorrect": "Revisa esto: Promesa negativa: won't + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "Will you help me? — Yes, I ___.",
+      "answer": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta afirmativa: Yes, I will.",
+        "incorrect": "Revisa esto: Respuesta corta afirmativa: Yes, I will."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "I don't think it ___ rain tomorrow.",
+      "answer": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I don't think + will + verbo.",
+        "incorrect": "Revisa esto: I don't think + will + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to help you.",
+      "answer": [
+        "I'll help you.",
+        "I will help you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de will va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de will va el verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She will goes to the party.",
+      "answer": [
+        "She will go to the party.",
+        "She'll go to the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will + verbo base, sin -s.",
+        "incorrect": "Revisa esto: Will + verbo base, sin -s."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "it",
+        "will",
+        "rain",
+        "tomorrow",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "it",
+        "will",
+        "rain",
+        "tomorrow",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + sujeto + will + verbo base.",
+        "incorrect": "Revisa esto: I think + sujeto + will + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué promete Tom?",
+      "options": [
+        "That he won't forget the shopping",
+        "That he will cook",
+        "That he will call",
+        "That he will go out"
+      ],
+      "answer": [
+        "That he won't forget the shopping"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Tom dice 'I promise I won't forget'.",
+        "incorrect": "Revisa esto: Tom dice 'I promise I won't forget'."
+      }
+    },
+    {
+      "id": "en-a2-u05-l03-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué ofrece la segunda persona?",
+      "options": [
+        "To help with the bags",
+        "To buy bags",
+        "To call a taxi",
+        "To open the door"
+      ],
+      "answer": [
+        "To help with the bags"
+      ],
+      "audio_text": "—I can't carry all these bags. —Don't worry, I'll help you.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'll help you'.",
+        "incorrect": "Revisa esto: Dice 'I'll help you'."
+      },
+      "audio_script_id": "en-a2-u05-l03-ex10-a"
+    },
+    {
+      "id": "en-a2-u05-l03-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Te ayudo con las maletas.",
+      "answer": [
+        "I'll help you with the suitcases.",
+        "I will help you with the suitcases.",
+        "I'll help you with your suitcases."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + help.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + help."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'll get it. · I'll help you.",
+      "I promise I won't forget.",
+      "I think it will rain.",
+      "Will you help me? — Yes, I will."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-will"
+    },
+    {
+      "type": "vocab",
+      "id": "en-won-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-promise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-forget"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ring"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-it"
+    },
+    {
+      "type": "vocab",
+      "id": "en-probably"
+    },
+    {
+      "type": "grammar",
+      "id": "en-will"
+    }
+  ]
+}

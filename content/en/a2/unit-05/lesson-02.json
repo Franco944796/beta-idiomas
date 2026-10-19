@@ -1,0 +1,451 @@
+{
+  "id": "en-a2-u05-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Going to: predictions",
+    "es": "Be going to: predicciones y preguntas"
+  },
+  "objective": "Al terminar haces predicciones basadas en lo que ves (It's going to rain) y preguntas con Wh- + going to.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Miras el cielo, ves nubes negras y dices '¡va a llover!'. Esa predicción con evidencia también usa be going to."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Look at those black clouds. It's going to rain.",
+        "es": "Mira esas nubes negras. Va a llover."
+      },
+      {
+        "speaker": "Ben",
+        "text": "Oh no! We're going to get wet. Let's take umbrellas.",
+        "es": "¡Oh no! Nos vamos a mojar. Llevemos paraguas."
+      },
+      {
+        "speaker": "Anna",
+        "text": "And look at the traffic! We're going to be late.",
+        "es": "¡Y mira el tráfico! Vamos a llegar tarde."
+      },
+      {
+        "speaker": "Ben",
+        "text": "Don't worry. The match isn't going to start until eight.",
+        "es": "No te preocupes. El partido no va a empezar hasta las ocho."
+      },
+      {
+        "speaker": "Anna",
+        "text": "What are you going to wear?",
+        "es": "¿Qué te vas a poner?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "My raincoat. Are you going to bring a hat?",
+        "es": "Mi impermeable. ¿Vas a llevar un gorro?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-cloud",
+        "lemma": "cloud",
+        "pos": "noun",
+        "ipa": "/klaʊd/",
+        "es": "nube",
+        "example": "Look at those black clouds."
+      },
+      {
+        "id": "en-get-wet",
+        "lemma": "get wet",
+        "pos": "phrase",
+        "ipa": "/ɡet wet/",
+        "es": "mojarse",
+        "example": "We're going to get wet."
+      },
+      {
+        "id": "en-umbrella",
+        "lemma": "umbrella",
+        "pos": "noun",
+        "ipa": "/ʌmˈbrelə/",
+        "es": "paraguas",
+        "example": "Let's take umbrellas."
+      },
+      {
+        "id": "en-traffic",
+        "lemma": "traffic",
+        "pos": "noun",
+        "ipa": "/ˈtræfɪk/",
+        "es": "tráfico",
+        "example": "Look at the traffic!"
+      },
+      {
+        "id": "en-raincoat",
+        "lemma": "raincoat",
+        "pos": "noun",
+        "ipa": "/ˈreɪnkəʊt/",
+        "es": "impermeable",
+        "example": "I'm going to wear my raincoat."
+      },
+      {
+        "id": "en-match",
+        "lemma": "match",
+        "pos": "noun",
+        "ipa": "/mætʃ/",
+        "es": "partido",
+        "example": "The match starts at eight."
+      },
+      {
+        "id": "en-don-t-worry",
+        "lemma": "don't worry",
+        "pos": "phrase",
+        "ipa": "/dəʊnt ˈwʌri/",
+        "es": "no te preocupes",
+        "example": "Don't worry, we have time."
+      }
+    ],
+    "audio_script_id": "en-a2-u05-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Predicción con evidencia:** cuando **ves** algo ahora que indica lo que va a pasar → **be going to**.\n\n*Look at those clouds! It's **going to rain**.* · *Careful! You're **going to fall**.* · *She's **going to have** a baby.*\n\n**Preguntas con Wh-**\n\n- *What are you going to wear?* · *Where are they going to stay?*\n- *When is the match going to start?* · *Who is going to cook?*\n- *How are you going to get there?*\n\n**Negativa:** *It isn't going to rain. · We aren't going to be late.*\n\n**Con el verbo go:** se puede decir *I'm going to go* o, más natural, *I'm going to the cinema* (presente continuo con go).\n\n**There is → There's going to be:** *There's going to be a storm.*\n\nPronunciación: *umbrella* /ʌmˈbrelə/ · *raincoat* /ˈreɪnkəʊt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It will to rain.",
+        "right": "It's going to rain.",
+        "note": "Will no se usa con to y aquí hay evidencia: going to."
+      },
+      {
+        "wrong": "What you are going to do?",
+        "right": "What are you going to do?",
+        "note": "El verbo to be va antes del sujeto en las preguntas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ves nubes negras. Dices:",
+      "options": [
+        "It's going to rain.",
+        "It rains.",
+        "It will to rain.",
+        "It going to rain."
+      ],
+      "answer": [
+        "It's going to rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Predicción con evidencia: It's going to + verbo.",
+        "incorrect": "Revisa esto: Predicción con evidencia: It's going to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un niño está subido en una silla que se mueve. Dices: 'Careful! You ___ fall!'",
+      "options": [
+        "are going to",
+        "go to",
+        "will to",
+        "are go to"
+      ],
+      "answer": [
+        "are going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: you're going to fall.",
+        "incorrect": "Revisa esto: Evidencia ahora: you're going to fall."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ you going to wear tonight?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + are + you + going to.",
+        "incorrect": "Revisa esto: Wh- + are + you + going to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 25,
+      "prompt": "It isn't going to ___ tomorrow. The sky is clear. (llover)",
+      "answer": [
+        "rain"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Going to + verbo base.",
+        "incorrect": "Revisa esto: Going to + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "they",
+        "going",
+        "to",
+        "stay",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "they",
+        "going",
+        "to",
+        "stay",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + be + sujeto + going to + base.",
+        "incorrect": "Revisa esto: Wh- + be + sujeto + going to + base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Look at the sky! It going to snow.",
+      "answer": [
+        "Look at the sky! It's going to snow.",
+        "Look at the sky! It is going to snow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: It's going to…",
+        "incorrect": "Revisa esto: Falta el verbo to be: It's going to…"
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What you are going to do?",
+      "answer": [
+        "What are you going to do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En pregunta, el verbo to be va antes del sujeto.",
+        "incorrect": "Revisa esto: En pregunta, el verbo to be va antes del sujeto."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Anna cree que van a llegar tarde?",
+      "options": [
+        "Because of the traffic",
+        "Because of the rain",
+        "Because of the match",
+        "Because of Ben"
+      ],
+      "answer": [
+        "Because of the traffic"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Anna dice 'look at the traffic! We're going to be late'.",
+        "incorrect": "Revisa esto: Anna dice 'look at the traffic! We're going to be late'."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué predice el hablante?",
+      "options": [
+        "Someone is going to win",
+        "Someone is going to fall",
+        "It's going to rain",
+        "The race is going to stop"
+      ],
+      "answer": [
+        "Someone is going to win"
+      ],
+      "audio_text": "Look at him! He's running very fast. He's going to win the race.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'He's going to win the race'.",
+        "incorrect": "Revisa esto: Dice 'He's going to win the race'."
+      },
+      "audio_script_id": "en-a2-u05-l02-ex09-a"
+    },
+    {
+      "id": "en-a2-u05-l02-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Dónde te vas a quedar en Londres?",
+      "answer": [
+        "Where are you going to stay in London?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + are + you + going to + stay.",
+        "incorrect": "Revisa esto: Where + are + you + going to + stay."
+      }
+    },
+    {
+      "id": "en-a2-u05-l02-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Hablas con un amigo antes de salir.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Look at the sky. Is it going to rain?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I think it's going to rain. Let's take an umbrella.",
+            "Yes, it rains.",
+            "Yes, it going to rain."
+          ],
+          "best": 0,
+          "why_es": "Evidencia + it's going to rain."
+        },
+        {
+          "speaker": "Friend",
+          "text": "What are you going to wear?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm going to wear my raincoat.",
+            "I wear going to raincoat.",
+            "I'm go to wear raincoat."
+          ],
+          "best": 0,
+          "why_es": "I'm going to + wear."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Look! It's going to rain.",
+      "You're going to fall.",
+      "What are you going to wear?",
+      "There's going to be a storm."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-cloud"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-wet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-umbrella"
+    },
+    {
+      "type": "vocab",
+      "id": "en-traffic"
+    },
+    {
+      "type": "vocab",
+      "id": "en-raincoat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-match"
+    },
+    {
+      "type": "vocab",
+      "id": "en-don-t-worry"
+    },
+    {
+      "type": "grammar",
+      "id": "en-going-to-predictions"
+    }
+  ]
+}

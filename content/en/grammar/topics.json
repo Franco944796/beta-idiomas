@@ -281,6 +281,254 @@
         "en-present-continuous"
       ],
       "introduced_in": "en-a1-u10-l04"
+    },
+    {
+      "id": "en-was-were",
+      "kind": "grammar",
+      "title_es": "Pasado de to be: was / were y expresiones de tiempo",
+      "prerequisites": [
+        "en-to-be-negative-questions"
+      ],
+      "introduced_in": "en-a2-u01-l01"
+    },
+    {
+      "id": "en-past-simple-regular",
+      "kind": "grammar",
+      "title_es": "Pasado simple regular (-ed) y su pronunciación",
+      "prerequisites": [
+        "en-was-were"
+      ],
+      "introduced_in": "en-a2-u01-l02"
+    },
+    {
+      "id": "en-past-simple-irregular",
+      "kind": "grammar",
+      "title_es": "Verbos irregulares frecuentes en pasado",
+      "prerequisites": [
+        "en-past-simple-regular"
+      ],
+      "introduced_in": "en-a2-u01-l03"
+    },
+    {
+      "id": "en-past-simple-negative-questions",
+      "kind": "grammar",
+      "title_es": "Pasado simple: negativas, preguntas y respuestas cortas",
+      "prerequisites": [
+        "en-past-simple-irregular"
+      ],
+      "introduced_in": "en-a2-u01-l04"
+    },
+    {
+      "id": "en-sequencing",
+      "kind": "function",
+      "title_es": "Contar una historia: first, then, after that, finally",
+      "prerequisites": [
+        "en-past-simple-regular"
+      ],
+      "introduced_in": "en-a2-u01-l05"
+    },
+    {
+      "id": "en-past-wh-questions",
+      "kind": "grammar",
+      "title_es": "Preguntas en pasado con Wh- + did",
+      "prerequisites": [
+        "en-past-simple-negative-questions"
+      ],
+      "introduced_in": "en-a2-u02-l02"
+    },
+    {
+      "id": "en-could-requests",
+      "kind": "function",
+      "title_es": "Pedir con cortesía: Could you…? / Could I…? / I'd like to…",
+      "prerequisites": [
+        "en-polite-requests"
+      ],
+      "introduced_in": "en-a2-u02-l03"
+    },
+    {
+      "id": "en-prepositions-time-movement",
+      "kind": "grammar",
+      "title_es": "Preposiciones de tiempo (in/on/at) y de movimiento (to, through, across, by)",
+      "prerequisites": [
+        "en-prepositions-place"
+      ],
+      "introduced_in": "en-a2-u02-l04"
+    },
+    {
+      "id": "en-postcard-writing",
+      "kind": "function",
+      "title_es": "Escribir una postal o un correo informal de viaje",
+      "prerequisites": [
+        "en-sequencing"
+      ],
+      "introduced_in": "en-a2-u02-l05"
+    },
+    {
+      "id": "en-comparatives",
+      "kind": "grammar",
+      "title_es": "Comparativos: -er, more… than y formas irregulares",
+      "prerequisites": [
+        "en-adjectives-position"
+      ],
+      "introduced_in": "en-a2-u03-l02"
+    },
+    {
+      "id": "en-superlatives",
+      "kind": "grammar",
+      "title_es": "Superlativos: the -est, the most y formas irregulares",
+      "prerequisites": [
+        "en-comparatives"
+      ],
+      "introduced_in": "en-a2-u03-l03"
+    },
+    {
+      "id": "en-as-as-too-enough",
+      "kind": "grammar",
+      "title_es": "As … as, too y enough",
+      "prerequisites": [
+        "en-comparatives"
+      ],
+      "introduced_in": "en-a2-u03-l04"
+    },
+    {
+      "id": "en-comparing-choosing",
+      "kind": "function",
+      "title_es": "Comparar opciones y elegir: prefer, I think…",
+      "prerequisites": [
+        "en-superlatives",
+        "en-as-as-too-enough"
+      ],
+      "introduced_in": "en-a2-u03-l05"
+    },
+    {
+      "id": "en-countable-uncountable",
+      "kind": "grammar",
+      "title_es": "Contables, incontables y envases (a bottle of…)",
+      "prerequisites": [
+        "en-plurals",
+        "en-some-any"
+      ],
+      "introduced_in": "en-a2-u04-l01"
+    },
+    {
+      "id": "en-quantifiers",
+      "kind": "grammar",
+      "title_es": "How much / how many, a lot of, a few, a little, too much / too many",
+      "prerequisites": [
+        "en-countable-uncountable"
+      ],
+      "introduced_in": "en-a2-u04-l02"
+    },
+    {
+      "id": "en-restaurant-language",
+      "kind": "function",
+      "title_es": "En el restaurante: pedir, preguntar y reclamar con educación",
+      "prerequisites": [
+        "en-could-requests"
+      ],
+      "introduced_in": "en-a2-u04-l03"
+    },
+    {
+      "id": "en-shopping-quantities",
+      "kind": "function",
+      "title_es": "Comprar con cantidades y precios: a kilo of…, how much…?",
+      "prerequisites": [
+        "en-prices-money",
+        "en-quantifiers"
+      ],
+      "introduced_in": "en-a2-u04-l04"
+    },
+    {
+      "id": "en-recipes-imperatives",
+      "kind": "function",
+      "title_es": "Recetas: imperativos, verbos de cocina y secuencia",
+      "prerequisites": [
+        "en-imperatives",
+        "en-sequencing"
+      ],
+      "introduced_in": "en-a2-u04-l05"
+    },
+    {
+      "id": "en-going-to-plans",
+      "kind": "grammar",
+      "title_es": "Be going to: planes e intenciones",
+      "prerequisites": [
+        "en-present-continuous-future"
+      ],
+      "introduced_in": "en-a2-u05-l01"
+    },
+    {
+      "id": "en-going-to-predictions",
+      "kind": "grammar",
+      "title_es": "Be going to: predicciones con evidencia y preguntas con Wh-",
+      "prerequisites": [
+        "en-going-to-plans"
+      ],
+      "introduced_in": "en-a2-u05-l02"
+    },
+    {
+      "id": "en-will",
+      "kind": "grammar",
+      "title_es": "Will / won't: decisiones, ofrecimientos, promesas y opiniones",
+      "prerequisites": [
+        "en-going-to-plans"
+      ],
+      "introduced_in": "en-a2-u05-l03"
+    },
+    {
+      "id": "en-future-forms",
+      "kind": "grammar",
+      "title_es": "Will, be going to o might: elegir la forma de futuro",
+      "prerequisites": [
+        "en-will",
+        "en-going-to-predictions"
+      ],
+      "introduced_in": "en-a2-u05-l04"
+    },
+    {
+      "id": "en-suggestions",
+      "kind": "function",
+      "title_es": "Proponer y acordar planes: Let's, Shall we, Why don't we, How about",
+      "prerequisites": [
+        "en-future-forms"
+      ],
+      "introduced_in": "en-a2-u05-l05"
+    },
+    {
+      "id": "en-health-dialogue",
+      "kind": "function",
+      "title_es": "Describir síntomas, ir al médico y a la farmacia",
+      "prerequisites": [
+        "en-have-got"
+      ],
+      "introduced_in": "en-a2-u06-l02"
+    },
+    {
+      "id": "en-should",
+      "kind": "grammar",
+      "title_es": "Should / shouldn't: consejos y opiniones",
+      "prerequisites": [
+        "en-can-ability"
+      ],
+      "introduced_in": "en-a2-u06-l03"
+    },
+    {
+      "id": "en-have-to-must",
+      "kind": "grammar",
+      "title_es": "Have to, don't have to, must y mustn't: obligación y prohibición",
+      "prerequisites": [
+        "en-should"
+      ],
+      "introduced_in": "en-a2-u06-l04"
+    },
+    {
+      "id": "en-permission-prohibition",
+      "kind": "function",
+      "title_es": "Permiso y prohibición: can, can't, allowed to; carteles y normas",
+      "prerequisites": [
+        "en-have-to-must"
+      ],
+      "introduced_in": "en-a2-u06-l05"
     }
   ]
 }

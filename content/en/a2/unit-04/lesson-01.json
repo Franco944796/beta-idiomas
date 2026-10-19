@@ -1,0 +1,497 @@
+{
+  "id": "en-a2-u04-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 4,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Countable and uncountable",
+    "es": "Contables e incontables y envases"
+  },
+  "objective": "Al terminar distingues sustantivos contables e incontables y usas envases y medidas (a bottle of, a loaf of…).",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "En español decimos 'dos panes' y 'una información'. En inglés es al revés: bread es incontable e information también. ¿Cómo se cuentan entonces?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "What do we need from the supermarket?",
+        "es": "¿Qué necesitamos del supermercado?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "We need some milk, a loaf of bread and a bottle of olive oil.",
+        "es": "Necesitamos leche, un pan y una botella de aceite de oliva."
+      },
+      {
+        "speaker": "Sam",
+        "text": "What about vegetables? We've got some carrots, but we haven't got any onions.",
+        "es": "¿Y las verduras? Tenemos zanahorias, pero no tenemos cebollas."
+      },
+      {
+        "speaker": "Lucy",
+        "text": "OK. And a packet of rice, a tin of tomatoes and a carton of juice.",
+        "es": "Bien. Y un paquete de arroz, una lata de tomates y una caja de jugo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Anything else?",
+        "es": "¿Algo más?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, a jar of jam, please!",
+        "es": "Sí, ¡un frasco de mermelada, por favor!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-loaf",
+        "lemma": "loaf",
+        "pos": "noun",
+        "ipa": "/ləʊf/",
+        "es": "pan (la pieza entera)",
+        "example": "a loaf of bread"
+      },
+      {
+        "id": "en-bottle",
+        "lemma": "bottle",
+        "pos": "noun",
+        "ipa": "/ˈbɒtl/",
+        "es": "botella",
+        "example": "a bottle of olive oil"
+      },
+      {
+        "id": "en-packet",
+        "lemma": "packet",
+        "pos": "noun",
+        "ipa": "/ˈpækɪt/",
+        "es": "paquete",
+        "example": "a packet of rice"
+      },
+      {
+        "id": "en-tin",
+        "lemma": "tin",
+        "pos": "noun",
+        "ipa": "/tɪn/",
+        "es": "lata (inglés británico)",
+        "example": "a tin of tomatoes"
+      },
+      {
+        "id": "en-carton",
+        "lemma": "carton",
+        "pos": "noun",
+        "ipa": "/ˈkɑːtn/",
+        "es": "caja, envase de cartón",
+        "example": "a carton of juice"
+      },
+      {
+        "id": "en-jar",
+        "lemma": "jar",
+        "pos": "noun",
+        "ipa": "/dʒɑː/",
+        "es": "frasco",
+        "example": "a jar of jam"
+      },
+      {
+        "id": "en-carrot",
+        "lemma": "carrot",
+        "pos": "noun",
+        "ipa": "/ˈkærət/",
+        "es": "zanahoria",
+        "example": "We've got some carrots."
+      },
+      {
+        "id": "en-onion",
+        "lemma": "onion",
+        "pos": "noun",
+        "ipa": "/ˈʌnjən/",
+        "es": "cebolla",
+        "example": "We haven't got any onions."
+      },
+      {
+        "id": "en-vegetables",
+        "lemma": "vegetables",
+        "pos": "noun",
+        "ipa": "/ˈvedʒtəblz/",
+        "es": "verduras",
+        "example": "I eat vegetables every day."
+      },
+      {
+        "id": "en-supermarket",
+        "lemma": "supermarket",
+        "pos": "noun",
+        "ipa": "/ˈsuːpəmɑːkɪt/",
+        "es": "supermercado",
+        "example": "We need to go to the supermarket."
+      }
+    ],
+    "audio_script_id": "en-a2-u04-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Contables** → se cuentan: *an apple, two apples, three carrots*. Tienen plural y admiten *a/an*, números y *many*.\n\n**Incontables** → no se cuentan: *milk, bread, rice, water, money, sugar, information, advice*. No tienen plural, no llevan *a/an* y van con *some / any / much*.\n\n**Ojo, son incontables en inglés:** *bread, information, advice, news, furniture, luggage, homework*. → *I need some advice.* (no *an advice*) · *The news is good.*\n\n**Cómo 'contar' lo incontable: envase + of**\n\n| Envase | Ejemplo |\n|---|---|\n| a **bottle** of | water, olive oil, milk |\n| a **carton** of | juice, milk |\n| a **packet** of | rice, pasta, crisps |\n| a **tin / can** of | tomatoes, tuna |\n| a **jar** of | jam, honey |\n| a **loaf** of | bread |\n| a **slice** of | bread, cheese, pizza |\n| a **glass / cup** of | water / tea |\n\nPlural del envase: *two bottles of water, three loaves of bread*.\n\nPronunciación: *loaf* /ləʊf/ (plural *loaves* /ləʊvz/) · *onion* /ˈʌnjən/ · *vegetables* /ˈvedʒtəblz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I need an advice.",
+        "right": "I need some advice. / I need a piece of advice.",
+        "note": "Advice es incontable."
+      },
+      {
+        "wrong": "The news are good.",
+        "right": "The news is good.",
+        "note": "News es incontable y va con is."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u04-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada envase con lo que contiene.",
+      "pairs": [
+        {
+          "left": "a bottle of",
+          "right": "water"
+        },
+        {
+          "left": "a loaf of",
+          "right": "bread"
+        },
+        {
+          "left": "a carton of",
+          "right": "juice"
+        },
+        {
+          "left": "a packet of",
+          "right": "rice"
+        },
+        {
+          "left": "a tin of",
+          "right": "tomatoes"
+        },
+        {
+          "left": "a jar of",
+          "right": "jam"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada alimento se vende en un envase típico.",
+        "incorrect": "Revisa esto: Cada alimento se vende en un envase típico."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál de estas palabras es incontable?",
+      "options": [
+        "milk",
+        "apple",
+        "banana",
+        "sandwich"
+      ],
+      "answer": [
+        "milk"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Milk no se cuenta: se usa un envase (a carton of milk).",
+        "incorrect": "Revisa esto: Milk no se cuenta: se usa un envase (a carton of milk)."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I need some advice.",
+        "I need an advice.",
+        "I need some advices.",
+        "I need advices."
+      ],
+      "answer": [
+        "I need some advice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice es incontable: sin a/an y sin plural.",
+        "incorrect": "Revisa esto: Advice es incontable: sin a/an y sin plural."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like a ___ of bread, please. (una pieza entera)",
+      "answer": [
+        "loaf"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un pan entero se cuenta como a loaf of bread.",
+        "incorrect": "Revisa esto: Un pan entero se cuenta como a loaf of bread."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have a ___ of water, please? (un vaso)",
+      "answer": [
+        "glass"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para agua en un vaso: a glass of water.",
+        "incorrect": "Revisa esto: Para agua en un vaso: a glass of water."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She gave me an information.",
+      "answer": [
+        "She gave me some information.",
+        "She gave me information."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Information es incontable: sin an.",
+        "incorrect": "Revisa esto: Information es incontable: sin an."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I bought two breads.",
+      "answer": [
+        "I bought two loaves of bread.",
+        "I bought two loaves of bread"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bread es incontable: se cuenta con loaf.",
+        "incorrect": "Revisa esto: Bread es incontable: se cuenta con loaf."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "packet",
+        "of",
+        "rice",
+        ".",
+        "We",
+        "need"
+      ],
+      "answer": [
+        "We",
+        "need",
+        "a",
+        "packet",
+        "of",
+        "rice",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! need + envase + of + alimento.",
+        "incorrect": "Revisa esto: need + envase + of + alimento."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no tienen en casa, según el diálogo?",
+      "options": [
+        "Onions",
+        "Carrots",
+        "Milk",
+        "Jam"
+      ],
+      "answer": [
+        "Onions"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'we haven't got any onions'.",
+        "incorrect": "Revisa esto: Dice 'we haven't got any onions'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l01-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO pide la persona?",
+      "options": [
+        "Rice",
+        "Water",
+        "Bread",
+        "Orange juice"
+      ],
+      "answer": [
+        "Rice"
+      ],
+      "audio_text": "I'd like a bottle of water, a loaf of bread and a carton of orange juice, please.",
+      "feedback": {
+        "correct": "¡Correcto! No menciona rice.",
+        "incorrect": "Revisa esto: No menciona rice."
+      },
+      "audio_script_id": "en-a2-u04-l01-ex10-a"
+    },
+    {
+      "id": "en-a2-u04-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "countable-uncountable"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "loaf",
+          "ipa": "/ləʊf/",
+          "tip_es": "Rima con 'oh': la f es final y suave."
+        },
+        {
+          "text": "onion",
+          "ipa": "/ˈʌnjən/",
+          "tip_es": "Suena 'a-nyen', no 'o-nion'."
+        },
+        {
+          "text": "vegetables",
+          "ipa": "/ˈvedʒtəblz/",
+          "tip_es": "Solo tres sílabas: VEDJ-ta-blz."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "a bottle / carton / packet / jar / tin of …",
+      "a loaf of bread · a slice of cheese",
+      "advice, information, news = incontables",
+      "some milk · any onions"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-loaf"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bottle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-packet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tin"
+    },
+    {
+      "type": "vocab",
+      "id": "en-carton"
+    },
+    {
+      "type": "vocab",
+      "id": "en-jar"
+    },
+    {
+      "type": "vocab",
+      "id": "en-carrot"
+    },
+    {
+      "type": "vocab",
+      "id": "en-onion"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vegetables"
+    },
+    {
+      "type": "vocab",
+      "id": "en-supermarket"
+    },
+    {
+      "type": "grammar",
+      "id": "en-countable-uncountable"
+    }
+  ]
+}

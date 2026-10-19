@@ -1,0 +1,314 @@
+{
+  "id": "en-a2-u01-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 1",
+    "es": "Repaso y checkpoint 1"
+  },
+  "objective": "Al terminar cuentas lo que hiciste en el pasado: dónde estabas, qué hiciste y qué no hiciste, y lo ordenas en una historia.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad: junta was / were, el pasado regular e irregular, didn't, Did…? y los conectores."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: was / were, expresiones de tiempo (yesterday, last night, ago), verbos regulares (-ed), irregulares (went, saw, bought…), didn't y Did…?, y first / then / finally.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 1**\n\n- *I was at home. They weren't ill. Were you there?*\n- *yesterday · last week · two days ago*\n- Regulares: *visited, studied, stopped*\n- Irregulares: *went, had, saw, bought, ate, met, came, wrote*\n- *I didn't go. · Did you see it? — Yes, I did.*\n- *First, … Then … After that, … Finally, …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ in Paris last year. (to be)",
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they se usa were.",
+        "incorrect": "Revisa esto: Con they se usa were."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo regular: watched.",
+        "incorrect": "Revisa esto: Verbo regular: watched."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ (go) to the beach last summer.",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de go.",
+        "incorrect": "Revisa esto: Pasado irregular de go."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ see him. (negativa)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: didn't + base.",
+        "incorrect": "Revisa esto: Negativa: didn't + base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ they stay at home on Sunday?",
+      "answer": [
+        "Did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta: Did + sujeto + base.",
+        "incorrect": "Revisa esto: Pregunta: Did + sujeto + base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday I buyed a new bag.",
+      "answer": [
+        "Yesterday I bought a new bag."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Buy es irregular: bought.",
+        "incorrect": "Revisa esto: Buy es irregular: bought."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Did you went to school yesterday?",
+      "answer": [
+        "Did you go to school yesterday?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did va el verbo base.",
+        "incorrect": "Revisa esto: Después de did va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo la persona anoche?",
+      "options": [
+        "Ordered a pizza",
+        "Cooked dinner",
+        "Went to a restaurant",
+        "Studied"
+      ],
+      "answer": [
+        "Ordered a pizza"
+      ],
+      "audio_text": "Last night I didn't cook. I ordered a pizza and watched a film with my sister.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I ordered a pizza'.",
+        "incorrect": "Revisa esto: Dice 'I ordered a pizza'."
+      },
+      "audio_script_id": "en-a2-u01-l06-ex08-a"
+    },
+    {
+      "id": "en-a2-u01-l06-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "past-simple-negative-questions",
+        "was-were"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ayer no fui al trabajo porque estaba enferma.",
+      "answer": [
+        "I didn't go to work yesterday because I was ill.",
+        "Yesterday I didn't go to work because I was ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con didn't + go; was ill para el estado.",
+        "incorrect": "Revisa esto: Negativa con didn't + go; was ill para el estado."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "past-simple-regular",
+        "past-simple-irregular"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre lo que hiciste el fin de semana pasado. Usa al menos un verbo regular, uno irregular y una negativa.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Usaste un verbo regular (-ed)?",
+        "¿Usaste un verbo irregular (went, saw, ate…)?",
+        "¿Incluiste una negativa con didn't?",
+        "¿Ordenaste con then o finally?"
+      ],
+      "model_answer": "Last weekend I visited my aunt. We cooked lunch and ate together. I didn't go out in the evening. I watched a film at home. It was great.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u01-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tu fin de semana.",
+      "turns": [
+        {
+          "speaker": "Ben",
+          "text": "What did you do last weekend?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I visited my grandmother.",
+            "I visit my grandmother.",
+            "I did visited my grandmother."
+          ],
+          "best": 0,
+          "why_es": "Respondes en pasado: visited."
+        },
+        {
+          "speaker": "Ben",
+          "text": "Did you go out on Saturday night?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, I didn't. I stayed at home.",
+            "No, I didn't went out.",
+            "No, I not stayed."
+          ],
+          "best": 0,
+          "why_es": "Respuesta corta con didn't y luego pasado."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I was at home. · They weren't ill.",
+      "I visited · I went · I didn't go",
+      "Did you …? — Yes, I did.",
+      "First, … Then … Finally, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-was-were"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-regular"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-irregular"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-negative-questions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-sequencing"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

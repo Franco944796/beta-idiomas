@@ -1,0 +1,443 @@
+{
+  "id": "en-a2-u05-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Going to: plans",
+    "es": "Be going to: planes e intenciones"
+  },
+  "objective": "Al terminar cuentas tus planes e intenciones con be going to y usas tomorrow, next week y this weekend.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Qué vas a hacer este verano? En inglés, los planes que ya decidiste se dicen con be going to."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Jon",
+        "text": "What are you going to do this summer, Ella?",
+        "es": "¿Qué vas a hacer este verano, Ella?"
+      },
+      {
+        "speaker": "Ella",
+        "text": "I'm going to learn to surf. My sister is going to visit me, and we're going to travel along the coast.",
+        "es": "Voy a aprender a surfear. Mi hermana va a visitarme y vamos a viajar por la costa."
+      },
+      {
+        "speaker": "Jon",
+        "text": "That sounds great! Are you going to stay in hotels?",
+        "es": "¡Suena genial! ¿Se van a quedar en hoteles?"
+      },
+      {
+        "speaker": "Ella",
+        "text": "No, we aren't. We're going to camp. It's cheaper!",
+        "es": "No. Vamos a acampar. ¡Es más barato!"
+      },
+      {
+        "speaker": "Jon",
+        "text": "I'm not going to travel this year. I'm going to save money for a new laptop.",
+        "es": "Yo no voy a viajar este año. Voy a ahorrar dinero para una laptop nueva."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-going-to",
+        "lemma": "going to",
+        "pos": "phrase",
+        "ipa": "/ˈɡəʊɪŋ tuː/",
+        "es": "ir a (plan o intención)",
+        "example": "I'm going to learn to surf."
+      },
+      {
+        "id": "en-surf",
+        "lemma": "surf",
+        "pos": "verb",
+        "ipa": "/sɜːf/",
+        "es": "surfear",
+        "example": "I'm going to learn to surf."
+      },
+      {
+        "id": "en-coast",
+        "lemma": "coast",
+        "pos": "noun",
+        "ipa": "/kəʊst/",
+        "es": "costa",
+        "example": "We're going to travel along the coast."
+      },
+      {
+        "id": "en-camp",
+        "lemma": "camp",
+        "pos": "verb",
+        "ipa": "/kæmp/",
+        "es": "acampar",
+        "example": "We're going to camp."
+      },
+      {
+        "id": "en-save",
+        "lemma": "save",
+        "pos": "verb",
+        "ipa": "/seɪv/",
+        "es": "ahorrar",
+        "example": "I'm going to save money."
+      },
+      {
+        "id": "en-laptop",
+        "lemma": "laptop",
+        "pos": "noun",
+        "ipa": "/ˈlæptɒp/",
+        "es": "computadora portátil",
+        "example": "I'm going to buy a new laptop."
+      },
+      {
+        "id": "en-tomorrow",
+        "lemma": "tomorrow",
+        "pos": "adv",
+        "ipa": "/təˈmɒrəʊ/",
+        "es": "mañana",
+        "example": "I'm going to rest tomorrow."
+      },
+      {
+        "id": "en-next-week",
+        "lemma": "next week",
+        "pos": "phrase",
+        "ipa": "/nekst wiːk/",
+        "es": "la semana que viene",
+        "example": "She's going to visit us next week."
+      }
+    ],
+    "audio_script_id": "en-a2-u05-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Be going to + verbo base** → planes e intenciones que ya decidiste.\n\n| | Forma | Ejemplo |\n|---|---|---|\n| Afirmativa | I'**m** / you're / he's / we're **going to** + base | *I'm going to learn to surf.* |\n| Negativa | I'm **not** / isn't / aren't **going to** + base | *We aren't going to stay in hotels.* |\n| Pregunta | **Am / Is / Are** + sujeto + **going to** + base? | *Are you going to travel?* |\n| Respuesta corta | Yes, I **am**. / No, I'm **not**. | *Yes, we are.* |\n\n**Con Wh-:** *What are you going to do? · Where is she going to stay?*\n\n**Expresiones de futuro:** *tomorrow · tonight · this weekend · next week / month / year · in two days*.\n\nEn conversación informal se oye *gonna* (*I'm gonna learn…*), pero no se escribe en textos formales.\n\nPronunciación: *going to* suena /ˈɡəʊɪŋ tə/ (la 'to' es débil).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I going to travel.",
+        "right": "I'm going to travel.",
+        "note": "No olvides el verbo to be."
+      },
+      {
+        "wrong": "She is going to travels.",
+        "right": "She is going to travel.",
+        "note": "Después de going to va el verbo base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l01-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ going to learn to surf this summer.",
+      "answer": [
+        "am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I se usa am: I'm going to…",
+        "incorrect": "Revisa esto: Con I se usa am: I'm going to…"
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ going to visit us next week.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa is.",
+        "incorrect": "Revisa esto: Con she se usa is."
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "We aren't ___ to stay in a hotel.",
+      "answer": [
+        "going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: aren't going to + base.",
+        "incorrect": "Revisa esto: Negativa: aren't going to + base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you going to travel this summer?",
+      "options": [
+        "Are",
+        "Do",
+        "Will",
+        "Is"
+      ],
+      "answer": [
+        "Are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con be going to: Are you going to…?",
+        "incorrect": "Revisa esto: Pregunta con be going to: Are you going to…?"
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "going",
+        "to",
+        "do",
+        "tomorrow",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "you",
+        "going",
+        "to",
+        "do",
+        "tomorrow",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + be + sujeto + going to + base.",
+        "incorrect": "Revisa esto: Wh- + be + sujeto + going to + base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I going to buy a new phone.",
+      "answer": [
+        "I'm going to buy a new phone.",
+        "I am going to buy a new phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: I'm going to…",
+        "incorrect": "Revisa esto: Falta el verbo to be: I'm going to…"
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is going to visits her aunt.",
+      "answer": [
+        "She is going to visit her aunt.",
+        "She's going to visit her aunt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de going to va el verbo base.",
+        "incorrect": "Revisa esto: Después de going to va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué van a acampar Ella y su hermana?",
+      "options": [
+        "Because it's cheaper",
+        "Because they love hotels",
+        "Because it's warmer",
+        "Because Jon asked them"
+      ],
+      "answer": [
+        "Because it's cheaper"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Ella dice 'We're going to camp. It's cheaper!'",
+        "incorrect": "Revisa esto: Ella dice 'We're going to camp. It's cheaper!'"
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué van a hacer?",
+      "options": [
+        "Have a picnic",
+        "Stay at home",
+        "Go to the cinema",
+        "Travel abroad"
+      ],
+      "answer": [
+        "Have a picnic"
+      ],
+      "audio_text": "Next weekend I'm going to visit my grandparents. We aren't going to stay at home, we're going to have a picnic.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'we're going to have a picnic'.",
+        "incorrect": "Revisa esto: Dice 'we're going to have a picnic'."
+      },
+      "audio_script_id": "en-a2-u05-l01-ex09-a"
+    },
+    {
+      "id": "en-a2-u05-l01-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy a estudiar inglés el año que viene.",
+      "answer": [
+        "I'm going to study English next year.",
+        "I am going to study English next year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm + going to + study.",
+        "incorrect": "Revisa esto: I'm + going to + study."
+      }
+    },
+    {
+      "id": "en-a2-u05-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "going-to-plans"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "I'm going to learn",
+          "ipa": "/aɪm ˈɡəʊɪŋ tə lɜːn/",
+          "tip_es": "En 'going to' la 'to' es muy débil."
+        },
+        {
+          "text": "What are you going to do?",
+          "ipa": "/wɒt ə juː ˈɡəʊɪŋ tə duː/",
+          "tip_es": "La voz baja al final."
+        },
+        {
+          "text": "We aren't going to stay",
+          "ipa": "/wiː ɑːnt ˈɡəʊɪŋ tə steɪ/",
+          "tip_es": "Aren't suena /ɑːnt/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm going to … · She's going to …",
+      "I'm not going to … · We aren't going to …",
+      "Are you going to …? — Yes, I am.",
+      "tomorrow · next week · this weekend"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-going-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-surf"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-camp"
+    },
+    {
+      "type": "vocab",
+      "id": "en-save"
+    },
+    {
+      "type": "vocab",
+      "id": "en-laptop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tomorrow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-next-week"
+    },
+    {
+      "type": "grammar",
+      "id": "en-going-to-plans"
+    }
+  ]
+}

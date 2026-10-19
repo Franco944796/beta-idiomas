@@ -1,0 +1,479 @@
+{
+  "id": "en-a2-u06-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "At the doctor's",
+    "es": "En el médico y la farmacia"
+  },
+  "objective": "Al terminar describes tus síntomas a un médico o en una farmacia y entiendes sus instrucciones.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás enfermo en otro país y vas al médico. ¿Cómo explicas qué te pasa y cómo entiendes lo que te indica?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Doctor",
+        "text": "Good morning. What's the matter?",
+        "es": "Buenos días. ¿Qué le pasa?"
+      },
+      {
+        "speaker": "Patient",
+        "text": "I've got a sore throat and a cough. I feel terrible.",
+        "es": "Tengo dolor de garganta y tos. Me siento fatal."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "When did it start?",
+        "es": "¿Cuándo empezó?"
+      },
+      {
+        "speaker": "Patient",
+        "text": "Two days ago. And I've got a bit of a temperature.",
+        "es": "Hace dos días. Y tengo un poco de fiebre."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Let me have a look. It's a cold. Take these tablets twice a day and drink lots of water.",
+        "es": "Déjeme ver. Es un resfrío. Tome estas pastillas dos veces al día y beba mucha agua."
+      },
+      {
+        "speaker": "Patient",
+        "text": "Should I stay in bed?",
+        "es": "¿Debería quedarme en cama?"
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Yes, you should rest for a few days.",
+        "es": "Sí, debería descansar unos días."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-what-s-the-matter",
+        "lemma": "what's the matter",
+        "pos": "phrase",
+        "ipa": "/wɒts ðə ˈmætə/",
+        "es": "¿qué le pasa? ¿qué ocurre?",
+        "example": "What's the matter?"
+      },
+      {
+        "id": "en-sore-throat",
+        "lemma": "sore throat",
+        "pos": "noun",
+        "ipa": "/sɔː θrəʊt/",
+        "es": "dolor de garganta",
+        "example": "I've got a sore throat."
+      },
+      {
+        "id": "en-temperature",
+        "lemma": "temperature",
+        "pos": "noun",
+        "ipa": "/ˈtemprətʃə/",
+        "es": "fiebre, temperatura",
+        "example": "I've got a temperature."
+      },
+      {
+        "id": "en-tablets",
+        "lemma": "tablets",
+        "pos": "noun",
+        "ipa": "/ˈtæblɪts/",
+        "es": "pastillas, comprimidos",
+        "example": "Take these tablets."
+      },
+      {
+        "id": "en-twice-a-day",
+        "lemma": "twice a day",
+        "pos": "phrase",
+        "ipa": "/twaɪs ə deɪ/",
+        "es": "dos veces al día",
+        "example": "Take it twice a day."
+      },
+      {
+        "id": "en-rest",
+        "lemma": "rest",
+        "pos": "verb",
+        "ipa": "/rest/",
+        "es": "descansar",
+        "example": "You should rest."
+      },
+      {
+        "id": "en-pharmacy",
+        "lemma": "pharmacy",
+        "pos": "noun",
+        "ipa": "/ˈfɑːməsi/",
+        "es": "farmacia",
+        "example": "I went to the pharmacy."
+      },
+      {
+        "id": "en-prescription",
+        "lemma": "prescription",
+        "pos": "noun",
+        "ipa": "/prɪˈskrɪpʃn/",
+        "es": "receta médica",
+        "example": "You need a prescription."
+      }
+    ],
+    "audio_script_id": "en-a2-u06-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Describir lo que te pasa**\n\n- *I've got a sore throat / a cough / a headache.*\n- *My stomach hurts.* · *I've got a pain in my back.*\n- **I feel + adjetivo**: *I feel ill / tired / dizzy / terrible / sick.*\n- *I've got a temperature.* (fiebre)\n\n**Preguntas del médico:** *What's the matter? · When did it start? · Do you have a temperature? · Are you allergic to anything?*\n\n**Instrucciones:** *Take these tablets twice a day. · Drink lots of water. · Stay in bed. · Come back in a week.*\n\n**Frecuencia:** *once a day (1) · twice a day (2) · three times a day (3) · every four hours.*\n\n**En la farmacia:** *Have you got anything for a cough? · Do I need a prescription? · How often should I take it?*\n\n**Ojo:** en inglés británico, *I feel sick* = tengo náuseas. Para 'estoy enfermo' usa *I'm ill*.\n\nPronunciación: *temperature* /ˈtemprətʃə/ (tres sílabas) · *twice* /twaɪs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have pain in the head.",
+        "right": "I've got a headache.",
+        "note": "Usa la palabra headache."
+      },
+      {
+        "wrong": "Take it two times in the day.",
+        "right": "Take it twice a day.",
+        "note": "Twice a day = dos veces al día."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 20,
+      "prompt": "El médico te pregunta '¿Qué le pasa?'. ¿Cuál es la pregunta?",
+      "options": [
+        "What's the matter?",
+        "What is your name?",
+        "Where are you from?",
+        "How old are you?"
+      ],
+      "answer": [
+        "What's the matter?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es la pregunta habitual del médico.",
+        "incorrect": "Revisa esto: Es la pregunta habitual del médico."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'dos veces al día'?",
+      "options": [
+        "twice a day",
+        "two time day",
+        "second a day",
+        "double day"
+      ],
+      "answer": [
+        "twice a day"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Twice = dos veces.",
+        "incorrect": "Revisa esto: Twice = dos veces."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 25,
+      "prompt": "Take these tablets three ___ a day.",
+      "answer": [
+        "times"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con tres: three times a day.",
+        "incorrect": "Revisa esto: Con tres: three times a day."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a ___. My head is very hot. (fiebre)",
+      "answer": [
+        "temperature"
+      ],
+      "accepted_alternatives": [
+        "fever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Temperature también significa fiebre.",
+        "incorrect": "Revisa esto: Temperature también significa fiebre."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "tablets",
+        "twice",
+        "a",
+        "day",
+        ".",
+        "Take",
+        "these"
+      ],
+      "answer": [
+        "Take",
+        "these",
+        "tablets",
+        "twice",
+        "a",
+        "day",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo + objeto + frecuencia.",
+        "incorrect": "Revisa esto: Imperativo + objeto + frecuencia."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain in the head. I feel ill.",
+      "answer": [
+        "I've got a headache. I feel ill.",
+        "I have a headache. I feel ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la cabeza: headache.",
+        "incorrect": "Revisa esto: Para la cabeza: headache."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos días hace que la paciente se siente mal?",
+      "options": [
+        "Two",
+        "Three",
+        "Ten",
+        "One"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La paciente dice 'Two days ago'.",
+        "incorrect": "Revisa esto: La paciente dice 'Two days ago'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le recomienda el médico además de las pastillas?",
+      "options": [
+        "Drink lots of water",
+        "Go for a run",
+        "Go to work",
+        "Eat lots of sweets"
+      ],
+      "answer": [
+        "Drink lots of water"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El médico dice 'drink lots of water'.",
+        "incorrect": "Revisa esto: El médico dice 'drink lots of water'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas pastillas puede tomar como máximo en un día?",
+      "options": [
+        "Four",
+        "Six",
+        "Two",
+        "Eight"
+      ],
+      "answer": [
+        "Four"
+      ],
+      "audio_text": "Take one tablet every four hours. Don't take more than four tablets a day.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'not more than four tablets a day'.",
+        "incorrect": "Revisa esto: Dice 'not more than four tablets a day'."
+      },
+      "audio_script_id": "en-a2-u06-l02-ex09-a"
+    },
+    {
+      "id": "en-a2-u06-l02-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me duele la garganta y tengo tos.",
+      "answer": [
+        "I've got a sore throat and a cough.",
+        "My throat hurts and I've got a cough.",
+        "I have a sore throat and a cough."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: sore throat + cough.",
+        "incorrect": "Revisa esto: Dos síntomas: sore throat + cough."
+      }
+    },
+    {
+      "id": "en-a2-u06-l02-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Vas a la farmacia con tos.",
+      "turns": [
+        {
+          "speaker": "Pharmacist",
+          "text": "Good afternoon. Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I've got a cough. Have you got anything for it?",
+            "Yes, I have cough. Give me something.",
+            "Yes, my cough hurts. Medicine?"
+          ],
+          "best": 0,
+          "why_es": "Describes el síntoma y preguntas con Have you got anything for…?"
+        },
+        {
+          "speaker": "Pharmacist",
+          "text": "Take this syrup three times a day."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. Do I need a prescription?",
+            "Thank you. I need prescription?",
+            "Thanks. Receta?"
+          ],
+          "best": 0,
+          "why_es": "Do I need … ? en forma completa."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What's the matter? · I've got a sore throat.",
+      "I feel ill / tired / dizzy.",
+      "Take it twice a day.",
+      "Have you got anything for a cough?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-what-s-the-matter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sore-throat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-temperature"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tablets"
+    },
+    {
+      "type": "vocab",
+      "id": "en-twice-a-day"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pharmacy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-prescription"
+    },
+    {
+      "type": "grammar",
+      "id": "en-health-dialogue"
+    }
+  ]
+}

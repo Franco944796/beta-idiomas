@@ -1,0 +1,528 @@
+{
+  "id": "en-a2-u04-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 4,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "At the restaurant",
+    "es": "En el restaurante: pedir y quejarse con educación"
+  },
+  "objective": "Al terminar pides comida en un restaurante, preguntas por el menú y haces una queja con educación.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Estás en un restaurante en el extranjero: ¿cómo pides, qué te preguntan y cómo reclamas sin ser grosero?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Waiter",
+        "text": "Good evening. Are you ready to order?",
+        "es": "Buenas noches. ¿Están listos para pedir?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "Yes, I'd like the chicken soup to start, please. And then the grilled fish with vegetables.",
+        "es": "Sí, quisiera la sopa de pollo de entrada, por favor. Y luego el pescado a la parrilla con verduras."
+      },
+      {
+        "speaker": "Waiter",
+        "text": "Would you like something to drink?",
+        "es": "¿Desea algo para beber?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "Just water, please.",
+        "es": "Solo agua, por favor."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Excuse me, I'm sorry, but this soup is cold. Could you heat it up, please?",
+        "es": "Disculpe, perdone, pero esta sopa está fría. ¿Podría calentarla, por favor?"
+      },
+      {
+        "speaker": "Waiter",
+        "text": "I'm so sorry. I'll bring you another one.",
+        "es": "Lo siento mucho. Le traigo otra."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Thank you. And could we have the bill, please?",
+        "es": "Gracias. ¿Y podríamos pedir la cuenta, por favor?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-order",
+        "lemma": "order",
+        "pos": "verb",
+        "ipa": "/ˈɔːdə/",
+        "es": "pedir (comida), ordenar",
+        "example": "Are you ready to order?"
+      },
+      {
+        "id": "en-starter",
+        "lemma": "starter",
+        "pos": "noun",
+        "ipa": "/ˈstɑːtə/",
+        "es": "entrada",
+        "example": "I'd like soup as a starter."
+      },
+      {
+        "id": "en-main-course",
+        "lemma": "main course",
+        "pos": "noun",
+        "ipa": "/meɪn kɔːs/",
+        "es": "plato principal",
+        "example": "The main course was fish."
+      },
+      {
+        "id": "en-dessert",
+        "lemma": "dessert",
+        "pos": "noun",
+        "ipa": "/dɪˈzɜːt/",
+        "es": "postre",
+        "example": "Would you like a dessert?"
+      },
+      {
+        "id": "en-bill",
+        "lemma": "bill",
+        "pos": "noun",
+        "ipa": "/bɪl/",
+        "es": "cuenta (inglés británico)",
+        "example": "Could we have the bill, please?"
+      },
+      {
+        "id": "en-waiter",
+        "lemma": "waiter",
+        "pos": "noun",
+        "ipa": "/ˈweɪtə/",
+        "es": "camarero, mozo",
+        "example": "The waiter was very friendly."
+      },
+      {
+        "id": "en-grilled",
+        "lemma": "grilled",
+        "pos": "adj",
+        "ipa": "/ɡrɪld/",
+        "es": "a la parrilla",
+        "example": "grilled fish"
+      },
+      {
+        "id": "en-heat-up",
+        "lemma": "heat up",
+        "pos": "phrasal verb",
+        "ipa": "/hiːt ʌp/",
+        "es": "calentar",
+        "example": "Could you heat it up, please?"
+      },
+      {
+        "id": "en-menu",
+        "lemma": "menu",
+        "pos": "noun",
+        "ipa": "/ˈmenjuː/",
+        "es": "carta (de un restaurante)",
+        "example": "Could I see the menu, please?"
+      }
+    ],
+    "audio_script_id": "en-a2-u04-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Frases del cliente**\n\n- *Could I see the menu, please?* · *What do you recommend?*\n- *I'd like the soup, please.* / *I'll have the fish.* (decisión al momento)\n- *Could we have the bill, please?* (UK: *bill*; US: *check*)\n\n**Frases del camarero:** *Are you ready to order? · Would you like something to drink? · Anything else? · Enjoy your meal.*\n\n**Reclamar con educación:** *Excuse me, … is cold / there's a mistake. · I ordered … but … · Could you … , please?* · y agradece: *Thank you very much.*\n\n**Partes de la comida:** *starter* (entrada) → *main course* → *dessert*.\n\n**Ojo:** *menu* en inglés es la **carta**. El menú del día se dice *set menu*. Y *Could you …?* siempre con verbo base.\n\nPronunciación: *dessert* /dɪˈzɜːt/ (el acento va en la segunda sílaba; *desert* /ˈdezət/ es 'desierto').",
+    "common_mistakes_es": [
+      {
+        "wrong": "I want a coffee.",
+        "right": "I'd like a coffee, please.",
+        "note": "I want suena demasiado directo."
+      },
+      {
+        "wrong": "The account, please.",
+        "right": "The bill, please.",
+        "note": "Cuenta (restaurante) = bill; account es cuenta bancaria."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "menu",
+        "es_false": "menú (del día)",
+        "real": "carta",
+        "note": "El menú del día se dice set menu."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u04-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 20,
+      "prompt": "El camarero pregunta: 'Are you ready to order?'. Quieres pedir una sopa. ¿Qué dices?",
+      "options": [
+        "I'd like the soup, please.",
+        "Give me soup.",
+        "Soup now.",
+        "I want to soup."
+      ],
+      "answer": [
+        "I'd like the soup, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like + comida es una forma cortés de pedir.",
+        "incorrect": "Revisa esto: I'd like + comida es una forma cortés de pedir."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu comida llega fría. ¿Qué dices con educación?",
+      "options": [
+        "Excuse me, this soup is cold. Could you heat it up, please?",
+        "This soup is terrible!",
+        "Take it away.",
+        "I don't like you."
+      ],
+      "answer": [
+        "Excuse me, this soup is cold. Could you heat it up, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Una queja educada empieza con Excuse me y pide una solución.",
+        "incorrect": "Revisa esto: Una queja educada empieza con Excuse me y pide una solución."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 25,
+      "prompt": "Could we have the ___, please? (la cuenta)",
+      "answer": [
+        "bill"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, la cuenta es the bill.",
+        "incorrect": "Revisa esto: En inglés británico, la cuenta es the bill."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd ___ the chicken soup, please. (me gustaría)",
+      "answer": [
+        "like"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like = I would like.",
+        "incorrect": "Revisa esto: I'd like = I would like."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Are you ready to order?",
+          "right": "¿Están listos para pedir?"
+        },
+        {
+          "left": "Anything else?",
+          "right": "¿Algo más?"
+        },
+        {
+          "left": "Enjoy your meal.",
+          "right": "Que disfrute la comida."
+        },
+        {
+          "left": "What do you recommend?",
+          "right": "¿Qué recomienda?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases muy frecuentes en un restaurante.",
+        "incorrect": "Revisa esto: Son frases muy frecuentes en un restaurante."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "see",
+        "the",
+        "menu",
+        ",",
+        "please",
+        "?",
+        "Could",
+        "I"
+      ],
+      "answer": [
+        "Could",
+        "I",
+        "see",
+        "the",
+        "menu",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could I + verbo base + please.",
+        "incorrect": "Revisa esto: Could I + verbo base + please."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want a coffee.",
+      "answer": [
+        "I'd like a coffee, please.",
+        "I'd like a coffee please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I want suena brusco; usa I'd like … please.",
+        "incorrect": "Revisa esto: I want suena brusco; usa I'd like … please."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pasó con la sopa?",
+      "options": [
+        "It was cold.",
+        "It was too salty.",
+        "It was not ordered.",
+        "It was very hot."
+      ],
+      "answer": [
+        "It was cold."
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El cliente dice 'this soup is cold'.",
+        "incorrect": "Revisa esto: El cliente dice 'this soup is cold'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué pide de postre?",
+      "options": [
+        "A coffee",
+        "A cake",
+        "Nothing",
+        "Ice cream"
+      ],
+      "answer": [
+        "A coffee"
+      ],
+      "audio_text": "I'll have the pasta, please, and a glass of red wine. — And for dessert? — Just a coffee, thanks.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Just a coffee, thanks'.",
+        "incorrect": "Revisa esto: Dice 'Just a coffee, thanks'."
+      },
+      "audio_script_id": "en-a2-u04-l03-ex09-a"
+    },
+    {
+      "id": "en-a2-u04-l03-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Pides en un restaurante.",
+      "turns": [
+        {
+          "speaker": "Waiter",
+          "text": "Are you ready to order?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I'd like the fish, please.",
+            "Yes, I want fish.",
+            "Yes, give me the fish."
+          ],
+          "best": 0,
+          "why_es": "I'd like … please es cortés."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Would you like something to drink?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Just water, please.",
+            "I drink water.",
+            "Water, you."
+          ],
+          "best": 0,
+          "why_es": "Respuesta breve y cortés."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u04-l03-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 90,
+      "situation_es": "La comida llega fría y reclamas con educación.",
+      "turns": [
+        {
+          "speaker": "Waiter",
+          "text": "Is everything OK with your meal?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Excuse me, the soup is cold. Could you heat it up, please?",
+            "Your soup is bad.",
+            "Cold soup. Change."
+          ],
+          "best": 0,
+          "why_es": "Excuse me + problema + Could you…?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "I'm so sorry. I'll bring you another one."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you very much.",
+            "Finally.",
+            "It's too late."
+          ],
+          "best": 0,
+          "why_es": "Agradece con cortesía."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd like … please. · I'll have …",
+      "Could we have the bill, please?",
+      "Excuse me, … is cold. Could you …?",
+      "starter · main course · dessert"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-order"
+    },
+    {
+      "type": "vocab",
+      "id": "en-starter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-main-course"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dessert"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bill"
+    },
+    {
+      "type": "vocab",
+      "id": "en-waiter"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grilled"
+    },
+    {
+      "type": "vocab",
+      "id": "en-heat-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-menu"
+    },
+    {
+      "type": "grammar",
+      "id": "en-restaurant-language"
+    }
+  ]
+}

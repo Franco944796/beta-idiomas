@@ -1,0 +1,370 @@
+{
+  "id": "en-a2-u01-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Yesterday, last week, ago",
+    "es": "Pasado de to be: was / were y expresiones de tiempo"
+  },
+  "objective": "Al terminar dices dónde estabas y cómo estabas en el pasado con was / were y usas yesterday, last week y ago.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Dónde estabas ayer a las ocho de la noche? En inglés, hablar del pasado empieza con el verbo to be."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Where were you yesterday, Lucy?",
+        "es": "¿Dónde estabas ayer, Lucy?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "I was at home. I was ill.",
+        "es": "Estaba en casa. Estaba enferma."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Oh no! Were you in bed all day?",
+        "es": "¡Oh no! ¿Estuviste en la cama todo el día?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "Yes, I was. My brother was at home too, but he wasn't ill.",
+        "es": "Sí. Mi hermano también estaba en casa, pero él no estaba enfermo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "And last week? Were you and your brother in Wales?",
+        "es": "¿Y la semana pasada? ¿Tú y tu hermano estaban en Gales?"
+      },
+      {
+        "speaker": "Lucy",
+        "text": "No, we weren't. We were in Spain two weeks ago.",
+        "es": "No. Estuvimos en España hace dos semanas."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-yesterday",
+        "lemma": "yesterday",
+        "pos": "adv",
+        "ipa": "/ˈjestədeɪ/",
+        "es": "ayer",
+        "example": "I was at home yesterday."
+      },
+      {
+        "id": "en-ago",
+        "lemma": "ago",
+        "pos": "adv",
+        "ipa": "/əˈɡəʊ/",
+        "es": "hace (tiempo)",
+        "example": "We were in Spain two weeks ago."
+      },
+      {
+        "id": "en-last-week",
+        "lemma": "last week",
+        "pos": "phrase",
+        "ipa": "/lɑːst wiːk/",
+        "es": "la semana pasada",
+        "example": "Where were you last week?"
+      },
+      {
+        "id": "en-ill",
+        "lemma": "ill",
+        "pos": "adj",
+        "ipa": "/ɪl/",
+        "es": "enfermo/a",
+        "example": "She was ill yesterday."
+      },
+      {
+        "id": "en-bed",
+        "lemma": "bed",
+        "pos": "noun",
+        "ipa": "/bed/",
+        "es": "cama",
+        "example": "I was in bed all day."
+      },
+      {
+        "id": "en-all-day",
+        "lemma": "all day",
+        "pos": "phrase",
+        "ipa": "/ɔːl deɪ/",
+        "es": "todo el día",
+        "example": "He was at work all day."
+      }
+    ],
+    "audio_script_id": "en-a2-u01-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**To be en pasado**\n\n| Persona | Afirmativa | Negativa |\n|---|---|---|\n| I / he / she / it | **was** | **wasn't** (was not) |\n| you / we / they | **were** | **weren't** (were not) |\n\n**Preguntas:** *Was he ill? — Yes, he was. / No, he wasn't.* · *Were you at home? — Yes, I was.*\n\n**Expresiones de tiempo pasado:** *yesterday* (yesterday morning / afternoon / evening) · *last night / week / month / year* · *two days ago, three years ago* · *in 2019*.\n\nOjo: se dice *last night*, no *yesterday night*; y *ago* va **después** del tiempo: *two weeks ago*.\n\nPronunciación: *was* /wɒz/ (suelta: /wəz/) · *were* /wɜː/ (suelta: /wə/) · *wasn't* /ˈwɒznt/ · *weren't* /wɜːnt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Yesterday night I was at home.",
+        "right": "Last night I was at home.",
+        "note": "Se dice last night, no yesterday night."
+      },
+      {
+        "wrong": "I was ill two days before.",
+        "right": "I was ill two days ago.",
+        "note": "Hace dos días = two days ago."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l01-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ at home yesterday.",
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I se usa was.",
+        "incorrect": "Revisa esto: Con I se usa was."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ in London last week.",
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they se usa were.",
+        "incorrect": "Revisa esto: Con they se usa were."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ ill on Monday. (negativa)",
+      "answer": [
+        "wasn't",
+        "was not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con she: wasn't.",
+        "incorrect": "Revisa esto: Negativa con she: wasn't."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "time-expressions"
+      ],
+      "est_seconds": 20,
+      "prompt": "We were in Paris three years ___.",
+      "options": [
+        "ago",
+        "before",
+        "last",
+        "yesterday"
+      ],
+      "answer": [
+        "ago"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ago se coloca después de la expresión de tiempo: three years ago.",
+        "incorrect": "Revisa esto: Ago se coloca después de la expresión de tiempo: three years ago."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "at",
+        "the",
+        "party",
+        "last",
+        "night",
+        "?",
+        "Were",
+        "you"
+      ],
+      "answer": [
+        "Were",
+        "you",
+        "at",
+        "the",
+        "party",
+        "last",
+        "night",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta: Were + sujeto + lugar + tiempo.",
+        "incorrect": "Revisa esto: Pregunta: Were + sujeto + lugar + tiempo."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time-expressions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was in Madrid ago two years.",
+      "answer": [
+        "I was in Madrid two years ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ago va después: two years ago.",
+        "incorrect": "Revisa esto: Ago va después: two years ago."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el diálogo, ¿dónde estaba Lucy ayer?",
+      "options": [
+        "At home",
+        "In Wales",
+        "In Spain",
+        "At work"
+      ],
+      "answer": [
+        "At home"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lucy dice 'I was at home'.",
+        "incorrect": "Revisa esto: Lucy dice 'I was at home'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l01-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién estaba enferma?",
+      "options": [
+        "The speaker's sister",
+        "The speaker",
+        "Both of them",
+        "Nobody"
+      ],
+      "answer": [
+        "The speaker's sister"
+      ],
+      "audio_text": "I was at school yesterday, but my sister wasn't. She was ill.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my sister wasn't (at school). She was ill'.",
+        "incorrect": "Revisa esto: Dice 'my sister wasn't (at school). She was ill'."
+      },
+      "audio_script_id": "en-a2-u01-l01-ex08-a"
+    },
+    {
+      "id": "en-a2-u01-l01-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "was-were",
+        "time-expressions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estuvimos en Roma hace dos semanas.",
+      "answer": [
+        "We were in Rome two weeks ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! We + were; ago después de two weeks.",
+        "incorrect": "Revisa esto: We + were; ago después de two weeks."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I was / you were / he was",
+      "I wasn't · we weren't",
+      "Were you at home? — Yes, I was.",
+      "yesterday · last week · two days ago"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-yesterday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ago"
+    },
+    {
+      "type": "vocab",
+      "id": "en-last-week"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ill"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-all-day"
+    },
+    {
+      "type": "grammar",
+      "id": "en-was-were"
+    }
+  ]
+}

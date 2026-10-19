@@ -2,7 +2,7 @@
   "language": "en",
   "variety": "British English (American differences noted)",
   "ui_language": "es",
-  "version": 1,
+  "version": 2,
   "levels": [
     {
       "id": "en-a1",
@@ -671,11 +671,11 @@
     {
       "id": "en-a2",
       "cefr": "A2",
-      "status": "planned",
+      "status": "in_progress",
       "est_guided_hours_cumulative": "180-200",
       "vocab_target_cumulative": 1500,
-      "unit_count_target": 12,
-      "lesson_count_target": 72,
+      "unit_count_target": 10,
+      "lesson_count_target": 60,
       "can_do": {
         "listening": "Entiendes frases y expresiones frecuentes sobre compras, trabajo y entorno cercano.",
         "reading": "Entiendes textos cortos y sencillos: menús, horarios, mensajes personales.",
@@ -691,7 +691,644 @@
         "have to / must",
         "intro al present perfect"
       ],
-      "units": []
+      "units": [
+        {
+          "id": "en-a2-u01",
+          "order": 1,
+          "title_es": "Pasado simple: lo que hiciste",
+          "title_target": "Last weekend",
+          "theme": "past-simple",
+          "lessons": [
+            {
+              "id": "en-a2-u01-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Yesterday, last week, ago",
+              "title_es": "Pasado de to be: was / were y expresiones de tiempo",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u01-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Regular verbs in the past",
+              "title_es": "Pasado simple regular: -ed y su pronunciación",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u01-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Irregular verbs",
+              "title_es": "Verbos irregulares frecuentes en pasado",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u01-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "I didn't go. Did you go?",
+              "title_es": "Pasado simple: negativas y preguntas",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u01-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Tell a story",
+              "title_es": "Contar una historia: first, then, after that",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u01-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 1",
+              "title_es": "Repaso y checkpoint 1",
+              "status": "ready",
+              "file": "a2/unit-01/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u02",
+          "order": 2,
+          "title_es": "Viajes y vacaciones",
+          "title_target": "Holidays and travel",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "en-a2-u02-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Travel words",
+              "title_es": "Vocabulario de viajes y vacaciones",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u02-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Where did you go?",
+              "title_es": "Preguntas en pasado con Wh-",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u02-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "At the airport and hotel",
+              "title_es": "En el aeropuerto y el hotel: Could you...?",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u02-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "In, on, at, to",
+              "title_es": "Preposiciones de tiempo y de movimiento",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u02-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A postcard from...",
+              "title_es": "Escribir una postal o un correo sobre un viaje",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u02-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 2",
+              "title_es": "Repaso y checkpoint 2",
+              "status": "ready",
+              "file": "a2/unit-02/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u03",
+          "order": 3,
+          "title_es": "Comparar personas y lugares",
+          "title_target": "Comparing",
+          "theme": "comparing",
+          "lessons": [
+            {
+              "id": "en-a2-u03-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Describing places",
+              "title_es": "Adjetivos para describir lugares y personas",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u03-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Comparatives",
+              "title_es": "Comparativos: -er y more",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u03-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Superlatives",
+              "title_es": "Superlativos: the -est y the most",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u03-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "as ... as, too, enough",
+              "title_es": "As...as, too y enough",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u03-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Which is better?",
+              "title_es": "Comparar y elegir: integración",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u03-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 3",
+              "title_es": "Repaso y checkpoint 3",
+              "status": "ready",
+              "file": "a2/unit-03/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u04",
+          "order": 4,
+          "title_es": "Comida, compras y cantidades",
+          "title_target": "Food and quantities",
+          "theme": "quantities",
+          "lessons": [
+            {
+              "id": "en-a2-u04-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Countable and uncountable",
+              "title_es": "Contables e incontables y envases",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u04-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Much, many, a lot of",
+              "title_es": "Much, many, a lot of, a few, a little",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u04-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "At the restaurant",
+              "title_es": "En el restaurante: pedir y quejarse con educación",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u04-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "At the supermarket",
+              "title_es": "En el supermercado: cantidades y precios",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u04-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A recipe",
+              "title_es": "Recetas: verbos de cocina y secuencia",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u04-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 4",
+              "title_es": "Repaso y checkpoint 4",
+              "status": "ready",
+              "file": "a2/unit-04/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u05",
+          "order": 5,
+          "title_es": "Planes y futuro",
+          "title_target": "Plans and the future",
+          "theme": "future",
+          "lessons": [
+            {
+              "id": "en-a2-u05-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Going to: plans",
+              "title_es": "Be going to: planes e intenciones",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u05-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Going to: predictions",
+              "title_es": "Be going to: predicciones y preguntas",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u05-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Will",
+              "title_es": "Will: decisiones, promesas y ofrecimientos",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u05-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Will, going to or might?",
+              "title_es": "Will, going to o might: elegir",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u05-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Let's make plans",
+              "title_es": "Proponer y organizar planes: Why don't we...?",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u05-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 5",
+              "title_es": "Repaso y checkpoint 5",
+              "status": "ready",
+              "file": "a2/unit-05/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u06",
+          "order": 6,
+          "title_es": "Salud, consejos y reglas",
+          "title_target": "Health and rules",
+          "theme": "health-rules",
+          "lessons": [
+            {
+              "id": "en-a2-u06-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "The body",
+              "title_es": "El cuerpo y la salud",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u06-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "At the doctor's",
+              "title_es": "En el médico y la farmacia",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u06-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "You should...",
+              "title_es": "Consejos con should / shouldn't",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u06-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Have to and must",
+              "title_es": "Obligación: have to, don't have to, must, mustn't",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u06-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Signs and rules",
+              "title_es": "Carteles y normas: can, can't, allowed to",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u06-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 6",
+              "title_es": "Repaso y checkpoint 6",
+              "status": "ready",
+              "file": "a2/unit-06/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u07",
+          "order": 7,
+          "title_es": "Trabajo y estudios",
+          "title_target": "Work and study",
+          "theme": "work-study",
+          "lessons": [
+            {
+              "id": "en-a2-u07-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Jobs and workplaces",
+              "title_es": "Trabajos y lugares de trabajo",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u07-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Now or every day?",
+              "title_es": "Presente simple vs presente continuo",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u07-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "My timetable",
+              "title_es": "Horarios y rutinas de trabajo y estudio",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u07-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "A job interview",
+              "title_es": "Una entrevista de trabajo",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u07-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Emails and phone calls",
+              "title_es": "Correos y llamadas: formal e informal",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u07-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 7",
+              "title_es": "Repaso y checkpoint 7",
+              "status": "planned",
+              "file": "a2/unit-07/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u08",
+          "order": 8,
+          "title_es": "Experiencias de vida",
+          "title_target": "Life experiences",
+          "theme": "experiences",
+          "lessons": [
+            {
+              "id": "en-a2-u08-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Have you ever...?",
+              "title_es": "Present perfect: forma y participios",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u08-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Never and ever",
+              "title_es": "Experiencias: ever y never",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u08-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Just, already, yet",
+              "title_es": "Just, already y yet",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u08-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Present perfect or past simple?",
+              "title_es": "Present perfect o pasado simple",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u08-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "For and since",
+              "title_es": "For y since: cuánto tiempo",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u08-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 8",
+              "title_es": "Repaso y checkpoint 8",
+              "status": "planned",
+              "file": "a2/unit-08/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u09",
+          "order": 9,
+          "title_es": "Tecnología y comunicación",
+          "title_target": "Technology and messages",
+          "theme": "technology",
+          "lessons": [
+            {
+              "id": "en-a2-u09-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Tech words",
+              "title_es": "Vocabulario de tecnología",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u09-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "What was happening?",
+              "title_es": "Pasado continuo",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u09-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "When and while",
+              "title_es": "When y while: dos acciones en el pasado",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u09-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Mine, yours, whose?",
+              "title_es": "Pronombres posesivos y whose",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u09-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Texts and messages",
+              "title_es": "Mensajes y redes sociales",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u09-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 9",
+              "title_es": "Repaso y checkpoint 9",
+              "status": "planned",
+              "file": "a2/unit-09/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u10",
+          "order": 10,
+          "title_es": "Opiniones, gustos y sentimientos",
+          "title_target": "Opinions and feelings",
+          "theme": "opinions",
+          "lessons": [
+            {
+              "id": "en-a2-u10-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Adverbs of manner",
+              "title_es": "Adverbios de modo",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u10-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Like doing, want to do",
+              "title_es": "Verbo + -ing / to + verbo",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u10-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "I think that...",
+              "title_es": "Dar opiniones y estar de acuerdo",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u10-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Because, so, but",
+              "title_es": "Conectores: because, so, but, although",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u10-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "My life so far",
+              "title_es": "Integración: cuenta tu vida",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u10-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Final checkpoint",
+              "title_es": "Checkpoint final de A2",
+              "status": "planned",
+              "file": "a2/unit-10/lesson-06.json"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "id": "en-a2-exam-v1",
+        "file": "a2/exam.json",
+        "pass_score": 0.75,
+        "status": "planned"
+      }
     },
     {
       "id": "en-b1",

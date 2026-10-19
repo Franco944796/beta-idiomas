@@ -1,0 +1,487 @@
+{
+  "id": "en-a2-u04-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 4,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A recipe",
+    "es": "Recetas: verbos de cocina y secuencia"
+  },
+  "objective": "Al terminar entiendes y escribes una receta sencilla usando verbos de cocina, imperativos y conectores de secuencia.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cuando lees una receta, casi todas las frases empiezan con un verbo. ¿Qué forma usan en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Tomato pasta. Ingredients: 200 g of pasta, 2 tomatoes, 1 onion, olive oil, salt. First, boil the pasta in water for ten minutes. Meanwhile, chop the onion and slice the tomatoes. Then fry the onion in a pan with a little olive oil for five minutes. Add the tomatoes and stir. After that, drain the pasta and mix it with the sauce. Finally, add some salt. Enjoy!",
+    "es": "Pasta con tomate. Ingredientes: 200 g de pasta, 2 tomates, 1 cebolla, aceite de oliva, sal. Primero, hierve la pasta en agua durante diez minutos. Mientras tanto, pica la cebolla y corta los tomates en rodajas. Luego fríe la cebolla en una sartén con un poco de aceite de oliva durante cinco minutos. Agrega los tomates y revuelve. Después, escurre la pasta y mézclala con la salsa. Por último, agrega un poco de sal. ¡Buen provecho!",
+    "glossary": [
+      {
+        "id": "en-ingredient",
+        "lemma": "ingredient",
+        "pos": "noun",
+        "ipa": "/ɪnˈɡriːdiənt/",
+        "es": "ingrediente",
+        "example": "What are the ingredients?"
+      },
+      {
+        "id": "en-boil",
+        "lemma": "boil",
+        "pos": "verb",
+        "ipa": "/bɔɪl/",
+        "es": "hervir",
+        "example": "Boil the pasta for ten minutes."
+      },
+      {
+        "id": "en-chop",
+        "lemma": "chop",
+        "pos": "verb",
+        "ipa": "/tʃɒp/",
+        "es": "picar, cortar en trozos",
+        "example": "Chop the onion."
+      },
+      {
+        "id": "en-slice",
+        "lemma": "slice",
+        "pos": "verb",
+        "ipa": "/slaɪs/",
+        "es": "cortar en rodajas, en láminas",
+        "example": "Slice the tomatoes."
+      },
+      {
+        "id": "en-fry",
+        "lemma": "fry",
+        "pos": "verb",
+        "ipa": "/fraɪ/",
+        "es": "freír",
+        "example": "Fry the onion in a pan."
+      },
+      {
+        "id": "en-add",
+        "lemma": "add",
+        "pos": "verb",
+        "ipa": "/æd/",
+        "es": "agregar",
+        "example": "Add the tomatoes."
+      },
+      {
+        "id": "en-stir",
+        "lemma": "stir",
+        "pos": "verb",
+        "ipa": "/stɜː/",
+        "es": "revolver",
+        "example": "Stir the sauce."
+      },
+      {
+        "id": "en-mix",
+        "lemma": "mix",
+        "pos": "verb",
+        "ipa": "/mɪks/",
+        "es": "mezclar",
+        "example": "Mix the pasta with the sauce."
+      },
+      {
+        "id": "en-drain",
+        "lemma": "drain",
+        "pos": "verb",
+        "ipa": "/dreɪn/",
+        "es": "escurrir",
+        "example": "Drain the pasta."
+      },
+      {
+        "id": "en-pan",
+        "lemma": "pan",
+        "pos": "noun",
+        "ipa": "/pæn/",
+        "es": "sartén, cacerola",
+        "example": "Fry the onion in a pan."
+      },
+      {
+        "id": "en-meanwhile",
+        "lemma": "meanwhile",
+        "pos": "adv",
+        "ipa": "/ˈmiːnwaɪl/",
+        "es": "mientras tanto",
+        "example": "Meanwhile, chop the onion."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Las recetas usan el imperativo:** el verbo en base, sin sujeto → *Boil the pasta. Chop the onion. Add some salt.*\n\n**Orden de los pasos:** *First, … · Then … · Next, … · After that, … · Meanwhile, … · Finally, …*\n\n**Tiempo y cantidad:** *for ten minutes · for five minutes* (durante) · *a little olive oil · 200 g of pasta · two tomatoes*.\n\n**Verbos de cocina:** *boil* (hervir) · *fry* (freír) · *bake* (hornear) · *chop* (picar) · *slice* (cortar en rodajas) · *add* (agregar) · *stir* (revolver) · *mix* (mezclar) · *pour* (verter) · *drain* (escurrir).\n\n**Ojo:** el imperativo negativo: *Don't add too much salt.* · *Minutes* lleva -s: *ten minutes*.\n\nPronunciación: *ingredient* /ɪnˈɡriːdiənt/ · *boil* /bɔɪl/ · *fry* /fraɪ/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "First, you boiling the pasta.",
+        "right": "First, boil the pasta.",
+        "note": "En las recetas se usa el imperativo."
+      },
+      {
+        "wrong": "Fry it for five minute.",
+        "right": "Fry it for five minutes.",
+        "note": "Minutes lleva -s."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u04-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo de cocina con su significado.",
+      "pairs": [
+        {
+          "left": "boil",
+          "right": "hervir"
+        },
+        {
+          "left": "fry",
+          "right": "freír"
+        },
+        {
+          "left": "chop",
+          "right": "picar"
+        },
+        {
+          "left": "stir",
+          "right": "revolver"
+        },
+        {
+          "left": "drain",
+          "right": "escurrir"
+        },
+        {
+          "left": "add",
+          "right": "agregar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los verbos más frecuentes de una receta.",
+        "incorrect": "Revisa esto: Son los verbos más frecuentes de una receta."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ the onion into small pieces. (pícalo)",
+      "answer": [
+        "Chop"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El imperativo usa el verbo en base.",
+        "incorrect": "Revisa esto: El imperativo usa el verbo en base."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 25,
+      "prompt": "Boil the pasta for ten ___.",
+      "answer": [
+        "minutes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Minutos en plural: minutes.",
+        "incorrect": "Revisa esto: Minutos en plural: minutes."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el último paso de una receta?",
+      "options": [
+        "Finally, add some salt.",
+        "First, add some salt.",
+        "Meanwhile, add some salt.",
+        "Next, add some salt."
+      ],
+      "answer": [
+        "Finally, add some salt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finally indica el último paso.",
+        "incorrect": "Revisa esto: Finally indica el último paso."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "boil",
+        "the",
+        "pasta",
+        "for",
+        "ten",
+        "minutes",
+        ".",
+        "First",
+        ","
+      ],
+      "answer": [
+        "First",
+        ",",
+        "boil",
+        "the",
+        "pasta",
+        "for",
+        "ten",
+        "minutes",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector + coma + imperativo + tiempo.",
+        "incorrect": "Revisa esto: Conector + coma + imperativo + tiempo."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Boil the pasta for ten minute.",
+      "answer": [
+        "Boil the pasta for ten minutes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con diez, minute va en plural.",
+        "incorrect": "Revisa esto: Con diez, minute va en plural."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You must adding the tomatoes.",
+      "answer": [
+        "Add the tomatoes.",
+        "You must add the tomatoes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El imperativo es el verbo en base: Add.",
+        "incorrect": "Revisa esto: El imperativo es el verbo en base: Add."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Durante cuánto tiempo se fríe la cebolla?",
+      "options": [
+        "Five minutes",
+        "Ten minutes",
+        "One minute",
+        "Twenty minutes"
+      ],
+      "answer": [
+        "Five minutes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'for five minutes'.",
+        "incorrect": "Revisa esto: El texto dice 'for five minutes'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué se hace justo antes de mezclar la pasta con la salsa?",
+      "options": [
+        "Drain the pasta",
+        "Boil the pasta",
+        "Slice the tomatoes",
+        "Add some salt"
+      ],
+      "answer": [
+        "Drain the pasta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'After that, drain the pasta and mix it with the sauce'.",
+        "incorrect": "Revisa esto: Dice 'After that, drain the pasta and mix it with the sauce'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo se hornean las manzanas?",
+      "options": [
+        "Twenty minutes",
+        "Ten minutes",
+        "Two minutes",
+        "An hour"
+      ],
+      "answer": [
+        "Twenty minutes"
+      ],
+      "audio_text": "First, slice the apples. Then add a little sugar and bake them for twenty minutes.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'for twenty minutes'.",
+        "incorrect": "Revisa esto: Dice 'for twenty minutes'."
+      },
+      "audio_script_id": "en-a2-u04-l05-ex10-a"
+    },
+    {
+      "id": "en-a2-u04-l05-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Corta la cebolla y fríela durante cinco minutos.",
+      "answer": [
+        "Chop the onion and fry it for five minutes.",
+        "Slice the onion and fry it for five minutes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos imperativos y for five minutes.",
+        "incorrect": "Revisa esto: Dos imperativos y for five minutes."
+      }
+    },
+    {
+      "id": "en-a2-u04-l05-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una receta muy sencilla (por ejemplo, una ensalada o un sándwich) con ingredientes y 4 pasos. Usa imperativos y First, Then, Finally.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Listaste los ingredientes?",
+        "¿Usaste imperativos (verbo en base)?",
+        "¿Usaste First, Then y Finally?",
+        "¿Pusiste cantidades o tiempos?"
+      ],
+      "model_answer": "Cheese sandwich. Ingredients: two slices of bread, cheese, a little butter. First, put butter on the bread. Then slice the cheese. After that, put the cheese between the slices. Finally, cut the sandwich in half. Enjoy!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "boil · fry · chop · slice · stir · add",
+      "First, … Then … After that, … Finally, …",
+      "for ten minutes · a little oil · 200 g of …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-ingredient"
+    },
+    {
+      "type": "vocab",
+      "id": "en-boil"
+    },
+    {
+      "type": "vocab",
+      "id": "en-chop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-add"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stir"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mix"
+    },
+    {
+      "type": "vocab",
+      "id": "en-drain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pan"
+    },
+    {
+      "type": "grammar",
+      "id": "en-recipes-imperatives"
+    }
+  ]
+}

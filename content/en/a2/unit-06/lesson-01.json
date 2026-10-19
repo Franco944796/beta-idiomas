@@ -1,0 +1,512 @@
+{
+  "id": "en-a2-u06-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "The body",
+    "es": "El cuerpo y la salud"
+  },
+  "objective": "Al terminar nombras las partes del cuerpo y los problemas de salud más comunes y dices qué te duele.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Si te enfermas en otro país, necesitas decir qué te duele. Empecemos por el cuerpo y los síntomas."
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-head",
+        "lemma": "head",
+        "pos": "noun",
+        "ipa": "/hed/",
+        "es": "cabeza",
+        "example": "My head hurts."
+      },
+      {
+        "id": "en-throat",
+        "lemma": "throat",
+        "pos": "noun",
+        "ipa": "/θrəʊt/",
+        "es": "garganta",
+        "example": "I've got a sore throat."
+      },
+      {
+        "id": "en-stomach",
+        "lemma": "stomach",
+        "pos": "noun",
+        "ipa": "/ˈstʌmək/",
+        "es": "estómago, barriga",
+        "example": "My stomach hurts."
+      },
+      {
+        "id": "en-back",
+        "lemma": "back",
+        "pos": "noun",
+        "ipa": "/bæk/",
+        "es": "espalda",
+        "example": "My back hurts."
+      },
+      {
+        "id": "en-arm",
+        "lemma": "arm",
+        "pos": "noun",
+        "ipa": "/ɑːm/",
+        "es": "brazo",
+        "example": "I hurt my arm."
+      },
+      {
+        "id": "en-hand",
+        "lemma": "hand",
+        "pos": "noun",
+        "ipa": "/hænd/",
+        "es": "mano",
+        "example": "Wash your hands."
+      },
+      {
+        "id": "en-leg",
+        "lemma": "leg",
+        "pos": "noun",
+        "ipa": "/leɡ/",
+        "es": "pierna",
+        "example": "My leg hurts."
+      },
+      {
+        "id": "en-foot",
+        "lemma": "foot",
+        "pos": "noun",
+        "ipa": "/fʊt/",
+        "es": "pie (plural: feet)",
+        "example": "My foot hurts."
+      },
+      {
+        "id": "en-tooth",
+        "lemma": "tooth",
+        "pos": "noun",
+        "ipa": "/tuːθ/",
+        "es": "diente (plural: teeth)",
+        "example": "I brush my teeth twice a day."
+      },
+      {
+        "id": "en-eye",
+        "lemma": "eye",
+        "pos": "noun",
+        "ipa": "/aɪ/",
+        "es": "ojo",
+        "example": "My eyes are tired."
+      },
+      {
+        "id": "en-headache",
+        "lemma": "headache",
+        "pos": "noun",
+        "ipa": "/ˈhedeɪk/",
+        "es": "dolor de cabeza",
+        "example": "I've got a headache."
+      },
+      {
+        "id": "en-toothache",
+        "lemma": "toothache",
+        "pos": "noun",
+        "ipa": "/ˈtuːθeɪk/",
+        "es": "dolor de muelas",
+        "example": "She's got toothache."
+      },
+      {
+        "id": "en-cold",
+        "lemma": "cold",
+        "pos": "noun",
+        "ipa": "/kəʊld/",
+        "es": "resfrío",
+        "example": "I've got a cold."
+      },
+      {
+        "id": "en-cough",
+        "lemma": "cough",
+        "pos": "noun",
+        "ipa": "/kɒf/",
+        "es": "tos",
+        "example": "He's got a bad cough."
+      },
+      {
+        "id": "en-fever",
+        "lemma": "fever",
+        "pos": "noun",
+        "ipa": "/ˈfiːvə/",
+        "es": "fiebre",
+        "example": "The child has a fever."
+      },
+      {
+        "id": "en-hurt",
+        "lemma": "hurt",
+        "pos": "verb",
+        "ipa": "/hɜːt/",
+        "es": "doler, lastimar",
+        "example": "My back hurts."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cuerpo:** *head, eye, ear, nose, mouth, tooth (teeth), throat, neck, shoulder, arm, hand, finger, back, stomach, leg, knee, foot (feet)*.\n\n**Plurales irregulares:** *tooth → teeth · foot → feet*.\n\n**Decir que algo duele**\n\n- **My + parte + hurts**: *My back hurts.* (plural: *My legs hurt.*)\n- **I've got a + dolencia**: *a headache, a toothache, a cold, a cough, a fever, a sore throat.*\n- **I've got a pain in my** + parte: *I've got a pain in my chest.*\n\n**Ojo, falso amigo:** *constipated* significa **estreñido**, no resfriado. 'Estoy resfriado' = *I've got a cold.*\n\nPronunciación: *stomach* /ˈstʌmək/ (la ch suena /k/) · *throat* /θrəʊt/ · *cough* /kɒf/ (rima con *off*) · *headache* /ˈhedeɪk/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I am constipated.",
+        "right": "I've got a cold.",
+        "note": "Constipated significa estreñido."
+      },
+      {
+        "wrong": "I have pain in the head.",
+        "right": "I've got a headache.",
+        "note": "Para la cabeza se usa headache."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "constipated",
+        "es_false": "constipado (resfriado)",
+        "real": "estreñido",
+        "note": "Resfriado se dice have a cold."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada parte del cuerpo con su traducción.",
+      "pairs": [
+        {
+          "left": "throat",
+          "right": "garganta"
+        },
+        {
+          "left": "stomach",
+          "right": "estómago"
+        },
+        {
+          "left": "back",
+          "right": "espalda"
+        },
+        {
+          "left": "tooth",
+          "right": "diente"
+        },
+        {
+          "left": "foot",
+          "right": "pie"
+        },
+        {
+          "left": "arm",
+          "right": "brazo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las partes del cuerpo más frecuentes en una consulta.",
+        "incorrect": "Revisa esto: Son las partes del cuerpo más frecuentes en una consulta."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el plural de 'tooth'?",
+      "options": [
+        "teeth",
+        "tooths",
+        "teeths",
+        "toothes"
+      ],
+      "answer": [
+        "teeth"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tooth → teeth (plural irregular).",
+        "incorrect": "Revisa esto: Tooth → teeth (plural irregular)."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tienes dolor de cabeza. Dices:",
+      "options": [
+        "I've got a headache.",
+        "I have a head pain.",
+        "My head is painful.",
+        "I'm headache."
+      ],
+      "answer": [
+        "I've got a headache."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es la forma natural: I've got a headache.",
+        "incorrect": "Revisa esto: Es la forma natural: I've got a headache."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 25,
+      "prompt": "My back ___. (me duele la espalda)",
+      "answer": [
+        "hurts"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un sujeto singular: hurts.",
+        "incorrect": "Revisa esto: Con un sujeto singular: hurts."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a sore ___. I can't swallow. (garganta)",
+      "answer": [
+        "throat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sore throat = dolor de garganta.",
+        "incorrect": "Revisa esto: Sore throat = dolor de garganta."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a constipated.",
+      "answer": [
+        "I have a cold.",
+        "I've got a cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Constipated = estreñido; resfriado = a cold.",
+        "incorrect": "Revisa esto: Constipated = estreñido; resfriado = a cold."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My legs hurts.",
+      "answer": [
+        "My legs hurt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Legs es plural: hurt (sin -s).",
+        "incorrect": "Revisa esto: Legs es plural: hurt (sin -s)."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "hurts",
+        "and",
+        "I've",
+        "got",
+        "a",
+        "cough",
+        ".",
+        "My",
+        "throat"
+      ],
+      "answer": [
+        "My",
+        "throat",
+        "hurts",
+        "and",
+        "I've",
+        "got",
+        "a",
+        "cough",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos frases unidas con and.",
+        "incorrect": "Revisa esto: Dos frases unidas con and."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO tiene?",
+      "options": [
+        "A stomachache",
+        "A fever",
+        "A cough",
+        "A headache"
+      ],
+      "answer": [
+        "A stomachache"
+      ],
+      "audio_text": "I can't go to work today. I've got a high fever, a cough and a terrible headache.",
+      "feedback": {
+        "correct": "¡Correcto! No menciona dolor de estómago.",
+        "incorrect": "Revisa esto: No menciona dolor de estómago."
+      },
+      "audio_script_id": "en-a2-u06-l01-ex09-a"
+    },
+    {
+      "id": "en-a2-u06-l01-ex10",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "My stomach hurts and I feel sick.",
+      "answer": [
+        "My stomach hurts and I feel sick."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: stomach hurts + feel sick.",
+        "incorrect": "Revisa esto: Dos síntomas: stomach hurts + feel sick."
+      },
+      "audio_script_id": "en-a2-u06-l01-ex10-a"
+    },
+    {
+      "id": "en-a2-u06-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "body-health"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "stomach",
+          "ipa": "/ˈstʌmək/",
+          "tip_es": "La ch suena /k/, y la o suena /ʌ/."
+        },
+        {
+          "text": "throat",
+          "ipa": "/θrəʊt/",
+          "tip_es": "Empieza con la th sorda."
+        },
+        {
+          "text": "cough",
+          "ipa": "/kɒf/",
+          "tip_es": "Se escribe con ough, pero suena /f/ al final."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "head · throat · stomach · back · teeth · feet",
+      "My back hurts. · My legs hurt.",
+      "I've got a headache / a cold / a cough.",
+      "constipated ≠ resfriado"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-head"
+    },
+    {
+      "type": "vocab",
+      "id": "en-throat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stomach"
+    },
+    {
+      "type": "vocab",
+      "id": "en-back"
+    },
+    {
+      "type": "vocab",
+      "id": "en-arm"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hand"
+    },
+    {
+      "type": "vocab",
+      "id": "en-leg"
+    },
+    {
+      "type": "vocab",
+      "id": "en-foot"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tooth"
+    },
+    {
+      "type": "vocab",
+      "id": "en-eye"
+    }
+  ]
+}

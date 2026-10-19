@@ -1,0 +1,439 @@
+{
+  "id": "en-a2-u05-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Will, going to or might?",
+    "es": "Will, going to o might: elegir"
+  },
+  "objective": "Al terminar eliges entre will, be going to y might según si es un plan, una decisión del momento o una posibilidad.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Voy a ir al cine' (ya lo decidí), 'ah, entonces compro las entradas' (lo decido ahora), 'quizás vea una comedia' (no estoy seguro). Cada caso pide una forma distinta."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Kim",
+        "text": "What are you doing after class? Are you going to see Max?",
+        "es": "¿Qué haces después de la clase? ¿Vas a ver a Max?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes, I'm going to meet him at six. We're going to see a film.",
+        "es": "Sí, me voy a encontrar con él a las seis. Vamos a ver una película."
+      },
+      {
+        "speaker": "Kim",
+        "text": "Which one?",
+        "es": "¿Cuál?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "I don't know yet. I might choose a comedy, or I might choose a thriller.",
+        "es": "Todavía no sé. Quizás elija una comedia, o quizás un thriller."
+      },
+      {
+        "speaker": "Kim",
+        "text": "I think you'll love the new comedy.",
+        "es": "Creo que te va a encantar la comedia nueva."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Oh, I haven't got the tickets! I know, I'll buy them online.",
+        "es": "¡Oh, no tengo las entradas! Ya sé, las compro en línea."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-might",
+        "lemma": "might",
+        "pos": "modal",
+        "ipa": "/maɪt/",
+        "es": "quizás, puede que (posibilidad)",
+        "example": "I might choose a comedy."
+      },
+      {
+        "id": "en-probably",
+        "lemma": "probably",
+        "pos": "adv",
+        "ipa": "/ˈprɒbəbli/",
+        "es": "probablemente",
+        "example": "I'll probably stay home."
+      },
+      {
+        "id": "en-comedy",
+        "lemma": "comedy",
+        "pos": "noun",
+        "ipa": "/ˈkɒmədi/",
+        "es": "comedia",
+        "example": "I like comedies."
+      },
+      {
+        "id": "en-thriller",
+        "lemma": "thriller",
+        "pos": "noun",
+        "ipa": "/ˈθrɪlə/",
+        "es": "película o novela de suspenso",
+        "example": "I'd like to see a thriller."
+      },
+      {
+        "id": "en-online",
+        "lemma": "online",
+        "pos": "adv",
+        "ipa": "/ˌɒnˈlaɪn/",
+        "es": "en línea",
+        "example": "I'll buy the tickets online."
+      },
+      {
+        "id": "en-i-don-t-know-yet",
+        "lemma": "I don't know yet",
+        "pos": "phrase",
+        "ipa": "/aɪ dəʊnt nəʊ jet/",
+        "es": "todavía no sé",
+        "example": "I don't know yet."
+      },
+      {
+        "id": "en-i-know",
+        "lemma": "I know!",
+        "pos": "phrase",
+        "ipa": "/aɪ nəʊ/",
+        "es": "¡ya sé! (se me ocurrió algo)",
+        "example": "I know! I'll buy them online."
+      }
+    ],
+    "audio_script_id": "en-a2-u05-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**¿Cuál uso?**\n\n| Forma | Cuándo | Ejemplo |\n|---|---|---|\n| **be going to** | plan ya decidido / predicción con evidencia | *I'm going to meet Max at six.* · *It's going to rain.* |\n| **will** | decisión en el momento, ofrecimiento, promesa, opinión | *I haven't got tickets! I'll buy them online.* · *I think you'll love it.* |\n| **might** | posibilidad (no estoy seguro) | *I might choose a comedy.* |\n\n**Might + verbo base** (igual para todas las personas): *She might come.* · Negativa: *It might not rain.* (no *mightn't*). **No** se dice *might to* ni *will might*.\n\n**Con probably:** *I'll probably stay home.* (el adverbio va entre will y el verbo) · *I probably won't go.*\n\n**Truco:** si lo pensaste antes de hablar → *going to*. Si lo decides mientras hablas → *will*. Si no estás seguro → *might*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It will might rain.",
+        "right": "It might rain.",
+        "note": "No se combinan will y might."
+      },
+      {
+        "wrong": "I'll to buy them.",
+        "right": "I'll buy them.",
+        "note": "Will y might van con verbo base, sin to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Compraste ya las entradas y le cuentas tu plan a una amiga:",
+      "options": [
+        "I'm going to see a film tonight.",
+        "I'll see a film tonight.",
+        "I might to see a film.",
+        "I see going film."
+      ],
+      "answer": [
+        "I'm going to see a film tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan ya decidido: be going to.",
+        "incorrect": "Revisa esto: Plan ya decidido: be going to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "No tienes dinero y alguien te lo ofrece. Decides en ese momento: 'Thanks! I ___ take it.'",
+      "options": [
+        "'ll",
+        "'m going to",
+        "might to",
+        "am"
+      ],
+      "answer": [
+        "'ll"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: will.",
+        "incorrect": "Revisa esto: Decisión en el momento: will."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "No estás seguro de si saldrás esta noche. Dices:",
+      "options": [
+        "I might go out tonight.",
+        "I will might go out tonight.",
+        "I might to go out tonight.",
+        "I mights go out tonight."
+      ],
+      "answer": [
+        "I might go out tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ves un coche que viene muy rápido hacia un niño. Gritas: 'Look out! The car ___ hit him!'",
+      "options": [
+        "is going to",
+        "will to",
+        "might to",
+        "goes to"
+      ],
+      "answer": [
+        "is going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: going to.",
+        "incorrect": "Revisa esto: Evidencia ahora: going to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's very cloudy. It ___ rain this afternoon. (quizás)",
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It might to rain tomorrow.",
+      "answer": [
+        "It might rain tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might va con verbo base, sin to.",
+        "incorrect": "Revisa esto: Might va con verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She will might come to the party.",
+      "answer": [
+        "She might come to the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se combinan will y might.",
+        "incorrect": "Revisa esto: No se combinan will y might."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "choose",
+        "a",
+        "comedy",
+        ",",
+        "or",
+        "a",
+        "thriller",
+        ".",
+        "I",
+        "might"
+      ],
+      "answer": [
+        "I",
+        "might",
+        "choose",
+        "a",
+        "comedy",
+        ",",
+        "or",
+        "a",
+        "thriller",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! might + verbo base para posibilidades.",
+        "incorrect": "Revisa esto: might + verbo base para posibilidades."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué decide Lena en el momento?",
+      "options": [
+        "To buy the tickets online",
+        "To see Max",
+        "To see a thriller",
+        "To go home"
+      ],
+      "answer": [
+        "To buy the tickets online"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Lena dice 'I know, I'll buy them online'.",
+        "incorrect": "Revisa esto: Lena dice 'I know, I'll buy them online'."
+      }
+    },
+    {
+      "id": "en-a2-u05-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice la persona sobre esta noche?",
+      "options": [
+        "She isn't sure",
+        "She will study",
+        "She will watch a film",
+        "She will go out"
+      ],
+      "answer": [
+        "She isn't sure"
+      ],
+      "audio_text": "—Are you going to study tonight? —I don't know. I might study, or I might watch a film. I'll probably decide later.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I don't know. I might…'",
+        "incorrect": "Revisa esto: Dice 'I don't know. I might…'"
+      },
+      "audio_script_id": "en-a2-u05-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u05-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Quizás llueva mañana.",
+      "answer": [
+        "It might rain tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm going to … (plan)",
+      "I'll … (decisión ahora)",
+      "I might … (posibilidad)",
+      "I think it will … · I'll probably …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-might"
+    },
+    {
+      "type": "vocab",
+      "id": "en-probably"
+    },
+    {
+      "type": "vocab",
+      "id": "en-comedy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thriller"
+    },
+    {
+      "type": "vocab",
+      "id": "en-online"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-don-t-know-yet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-know"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-forms"
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": "en-a2-u01-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Irregular verbs",
+    "es": "Verbos irregulares frecuentes en pasado"
+  },
+  "objective": "Al terminar usas en pasado los verbos irregulares más frecuentes: went, had, saw, bought, ate y otros.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking"
+  ],
+  "warmup": {
+    "prompt_es": "En español 'fui, tuve, vi'... En inglés muchos verbos muy comunes cambian por completo en pasado."
+  },
+  "input": {
+    "type": "text",
+    "text": "On Saturday I got up late and had a big breakfast. I went to the market and bought some fruit. Then I met my friend Kim. We ate pizza and saw a film. I came home at ten and wrote a message to my mother.",
+    "es": "El sábado me levanté tarde y tomé un gran desayuno. Fui al mercado y compré fruta. Luego me encontré con mi amiga Kim. Comimos pizza y vimos una película. Volví a casa a las diez y le escribí un mensaje a mi madre.",
+    "glossary": [
+      {
+        "id": "en-went",
+        "lemma": "went",
+        "pos": "verb",
+        "ipa": "/went/",
+        "es": "fui, fue, fuimos… (pasado de go)",
+        "example": "We went to the market."
+      },
+      {
+        "id": "en-had",
+        "lemma": "had",
+        "pos": "verb",
+        "ipa": "/hæd/",
+        "es": "tuve, tomé (pasado de have)",
+        "example": "I had a big breakfast."
+      },
+      {
+        "id": "en-saw",
+        "lemma": "saw",
+        "pos": "verb",
+        "ipa": "/sɔː/",
+        "es": "vi, vio, vimos… (pasado de see)",
+        "example": "We saw a film."
+      },
+      {
+        "id": "en-bought",
+        "lemma": "bought",
+        "pos": "verb",
+        "ipa": "/bɔːt/",
+        "es": "compré, compró… (pasado de buy)",
+        "example": "I bought some fruit."
+      },
+      {
+        "id": "en-ate",
+        "lemma": "ate",
+        "pos": "verb",
+        "ipa": "/et/",
+        "es": "comí, comió… (pasado de eat)",
+        "example": "We ate pizza."
+      },
+      {
+        "id": "en-met",
+        "lemma": "met",
+        "pos": "verb",
+        "ipa": "/met/",
+        "es": "conocí, me encontré con (pasado de meet)",
+        "example": "I met my friend Kim."
+      },
+      {
+        "id": "en-came",
+        "lemma": "came",
+        "pos": "verb",
+        "ipa": "/keɪm/",
+        "es": "vine, volví (pasado de come)",
+        "example": "I came home at ten."
+      },
+      {
+        "id": "en-wrote",
+        "lemma": "wrote",
+        "pos": "verb",
+        "ipa": "/rəʊt/",
+        "es": "escribí, escribió… (pasado de write)",
+        "example": "I wrote a message."
+      },
+      {
+        "id": "en-market",
+        "lemma": "market",
+        "pos": "noun",
+        "ipa": "/ˈmɑːkɪt/",
+        "es": "mercado",
+        "example": "I went to the market."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Verbos irregulares:** no llevan -ed; cada uno tiene su propia forma, igual para todas las personas.\n\n| Infinitivo | Pasado | Infinitivo | Pasado |\n|---|---|---|---|\n| go | **went** | buy | **bought** |\n| have | **had** | eat | **ate** |\n| see | **saw** | meet | **met** |\n| do | **did** | come | **came** |\n| get | **got** | write | **wrote** |\n| make | **made** | take | **took** |\n\nHay que memorizarlos poco a poco, en frases: *I went to the market. We ate pizza.*\n\nPronunciación: *bought* /bɔːt/ y *saw* /sɔː/ riman · *ate* /et/ (también se oye /eɪt/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I goed to the cinema.",
+        "right": "I went to the cinema.",
+        "note": "Los irregulares no llevan -ed."
+      },
+      {
+        "wrong": "We eated pizza.",
+        "right": "We ate pizza.",
+        "note": "Eat es irregular: ate."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l03-ex01",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el infinitivo con su pasado.",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "meet",
+          "right": "met"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son verbos irregulares muy frecuentes.",
+        "incorrect": "Revisa esto: Son verbos irregulares muy frecuentes."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (go) to the cinema last night.",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de go: went.",
+        "incorrect": "Revisa esto: Pasado irregular de go: went."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ (buy) some bread yesterday.",
+      "answer": [
+        "bought"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de buy: bought.",
+        "incorrect": "Revisa esto: Pasado irregular de buy: bought."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (see) her friends on Sunday.",
+      "answer": [
+        "saw"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de see: saw.",
+        "incorrect": "Revisa esto: Pasado irregular de see: saw."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el pasado de 'take'?",
+      "options": [
+        "took",
+        "taked",
+        "taken",
+        "tooked"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take → took.",
+        "incorrect": "Revisa esto: Take → took."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I goed to school by bus.",
+      "answer": [
+        "I went to school by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go es irregular: went.",
+        "incorrect": "Revisa esto: Go es irregular: went."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He buyed a new phone.",
+      "answer": [
+        "He bought a new phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Buy es irregular: bought.",
+        "incorrect": "Revisa esto: Buy es irregular: bought."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "bus",
+        "to",
+        "work",
+        ".",
+        "She",
+        "took"
+      ],
+      "answer": [
+        "She",
+        "took",
+        "the",
+        "bus",
+        "to",
+        "work",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + pasado irregular + resto de la frase.",
+        "incorrect": "Revisa esto: Sujeto + pasado irregular + resto de la frase."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué compró la persona en el mercado?",
+      "options": [
+        "Fruit",
+        "Bread",
+        "Pizza",
+        "A phone"
+      ],
+      "answer": [
+        "Fruit"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'bought some fruit'.",
+        "incorrect": "Revisa esto: Dice 'bought some fruit'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l03-ex10",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "We ate pizza and saw a film.",
+      "answer": [
+        "We ate pizza and saw a film."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos irregulares: ate y saw.",
+        "incorrect": "Revisa esto: Dos irregulares: ate y saw."
+      },
+      "audio_script_id": "en-a2-u01-l03-ex10-a"
+    },
+    {
+      "id": "en-a2-u01-l03-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "past-simple-irregular"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "bought",
+          "ipa": "/bɔːt/",
+          "tip_es": "Rima con 'thought' y 'saw' (vocal larga)."
+        },
+        {
+          "text": "saw",
+          "ipa": "/sɔː/",
+          "tip_es": "No se pronuncia la w final."
+        },
+        {
+          "text": "ate",
+          "ipa": "/et/",
+          "tip_es": "En inglés británico suele oírse /et/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "went · had · saw · bought · ate",
+      "met · came · wrote · took · made",
+      "I went to the market and bought fruit."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-went"
+    },
+    {
+      "type": "vocab",
+      "id": "en-had"
+    },
+    {
+      "type": "vocab",
+      "id": "en-saw"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bought"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-met"
+    },
+    {
+      "type": "vocab",
+      "id": "en-came"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wrote"
+    },
+    {
+      "type": "vocab",
+      "id": "en-market"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-irregular"
+    }
+  ]
+}

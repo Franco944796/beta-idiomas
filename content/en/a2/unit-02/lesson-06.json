@@ -1,0 +1,317 @@
+{
+  "id": "en-a2-u02-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 2",
+    "es": "Repaso y checkpoint 2"
+  },
+  "objective": "Al terminar demuestras que puedes hablar de un viaje: vocabulario, preguntas en pasado, pedidos educados, preposiciones y una postal.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 2: junta todo lo de viajes y vacaciones."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de viaje (flight, passport, luggage), preguntas con did, Could you…?, in / on / at / to / by y cómo escribir una postal.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 2**\n\n- *book · pack · flight · passport · luggage (incontable)*\n- *Where did you go? · How long did you stay? · Who did you go with?*\n- *Could you help me, please? · I'd like to check in. · Here you are.*\n- *at six · on Friday · in July · by train · to Rome*\n- Postal: *Greetings from … · Yesterday we … · Tomorrow we're going to … · Love, …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l06-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 25,
+      "prompt": "We booked a ___ to Rome. (vuelo)",
+      "answer": [
+        "flight"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vuelo = flight.",
+        "incorrect": "Revisa esto: Vuelo = flight."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "How long ___ you stay in Paris?",
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasado: How long + did + sujeto.",
+        "incorrect": "Revisa esto: Pregunta en pasado: How long + did + sujeto."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you open the window, please?",
+      "answer": [
+        "Could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Petición educada: Could you…?",
+        "incorrect": "Revisa esto: Petición educada: Could you…?"
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "We arrived at the airport ___ six o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con horas se usa at.",
+        "incorrect": "Revisa esto: Con horas se usa at."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "My ___ is very heavy.",
+      "options": [
+        "luggage",
+        "luggages",
+        "a luggage",
+        "luggage are"
+      ],
+      "answer": [
+        "luggage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage es incontable.",
+        "incorrect": "Revisa esto: Luggage es incontable."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where you went on holiday?",
+      "answer": [
+        "Where did you go on holiday?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta did y el verbo va en base.",
+        "incorrect": "Revisa esto: Falta did y el verbo va en base."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll see you in Friday.",
+      "answer": [
+        "I'll see you on Friday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántos días se quedaron?",
+      "options": [
+        "Five",
+        "Three",
+        "Seven",
+        "Ten"
+      ],
+      "answer": [
+        "Five"
+      ],
+      "audio_text": "We arrived in Athens on Tuesday. We stayed at a small hotel near the beach for five days and ate fish every night.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'for five days'.",
+        "incorrect": "Revisa esto: Dice 'for five days'."
+      },
+      "audio_script_id": "en-a2-u02-l06-ex08-a"
+    },
+    {
+      "id": "en-a2-u02-l06-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Podría ver su pasaporte, por favor?",
+      "answer": [
+        "Could I see your passport, please?",
+        "Could I see your passport please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido cortés: Could I see…?",
+        "incorrect": "Revisa esto: Pedido cortés: Could I see…?"
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "postcard",
+        "past-simple-regular"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una postal corta (3-4 frases) desde un viaje: qué hiciste ayer, cómo es el lugar y qué harás mañana.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Empezaste con un saludo?",
+        "¿Usaste pasado para lo que hiciste?",
+        "¿Describiste el lugar en presente?",
+        "¿Contaste un plan?",
+        "¿Te despediste con Love…?"
+      ],
+      "model_answer": "Hi Mum, Greetings from Cusco! Yesterday we visited a market and ate local food. The people are very friendly. Tomorrow we're going to visit Machu Picchu. Love, Ana",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u02-l06-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "could-requests",
+        "travel"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en la recepción de un hotel.",
+      "turns": [
+        {
+          "speaker": "Receptionist",
+          "text": "Good evening. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like to check in, please. I have a reservation.",
+            "I want check in.",
+            "I reservation."
+          ],
+          "best": 0,
+          "why_es": "I'd like to + verbo base es cortés."
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "Of course. What name is it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It's Silva. Is breakfast included?",
+            "Silva. Breakfast is include?",
+            "Is Silva. Breakfast included you?"
+          ],
+          "best": 0,
+          "why_es": "Is breakfast included? es la pregunta natural."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "book · pack · luggage",
+      "Where did you go? · How long did you stay?",
+      "Could you …? · I'd like to …",
+      "at six · on Friday · in July · by train"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-past-wh-questions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-could-requests"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prepositions-time-movement"
+    },
+    {
+      "type": "grammar",
+      "id": "en-postcard-writing"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

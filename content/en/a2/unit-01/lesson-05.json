@@ -1,0 +1,366 @@
+{
+  "id": "en-a2-u01-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Tell a story",
+    "es": "Contar una historia: first, then, after that"
+  },
+  "objective": "Al terminar cuentas una historia corta en pasado ordenando los hechos con first, then, after that y finally.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cuando cuentas tu día, ¿qué palabras usas para ordenar lo que pasó primero y lo que pasó después?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Last Saturday I woke up late. First, I had a shower. Then I made breakfast. After that, I met my friend Tom and we went to the market. Later we had lunch in a small café. Finally, we took the bus home.",
+    "es": "El sábado pasado me desperté tarde. Primero, me di una ducha. Luego preparé el desayuno. Después, me encontré con mi amigo Tom y fuimos al mercado. Más tarde almorzamos en un pequeño café. Por último, tomamos el autobús a casa.",
+    "glossary": [
+      {
+        "id": "en-woke-up",
+        "lemma": "woke up",
+        "pos": "phrasal verb",
+        "ipa": "/wəʊk ʌp/",
+        "es": "me desperté (pasado de wake up)",
+        "example": "I woke up late."
+      },
+      {
+        "id": "en-shower",
+        "lemma": "shower",
+        "pos": "noun",
+        "ipa": "/ˈʃaʊə/",
+        "es": "ducha",
+        "example": "I had a shower."
+      },
+      {
+        "id": "en-first",
+        "lemma": "first",
+        "pos": "adv",
+        "ipa": "/fɜːst/",
+        "es": "primero",
+        "example": "First, I had a shower."
+      },
+      {
+        "id": "en-then",
+        "lemma": "then",
+        "pos": "adv",
+        "ipa": "/ðen/",
+        "es": "luego, entonces",
+        "example": "Then I made breakfast."
+      },
+      {
+        "id": "en-after-that",
+        "lemma": "after that",
+        "pos": "phrase",
+        "ipa": "/ˈɑːftə ðæt/",
+        "es": "después de eso",
+        "example": "After that, I met Tom."
+      },
+      {
+        "id": "en-later",
+        "lemma": "later",
+        "pos": "adv",
+        "ipa": "/ˈleɪtə/",
+        "es": "más tarde",
+        "example": "Later we had lunch."
+      },
+      {
+        "id": "en-finally",
+        "lemma": "finally",
+        "pos": "adv",
+        "ipa": "/ˈfaɪnəli/",
+        "es": "por último, al final",
+        "example": "Finally, we took the bus home."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Palabras para ordenar una historia**\n\n1. **First,** … (primero)\n2. **Then** … (luego)\n3. **After that,** … (después de eso)\n4. **Later,** … (más tarde)\n5. **Finally,** … (por último)\n\nOtras útiles: *next* (a continuación), *suddenly* (de repente), *at the end* (al final).\n\n**Puntuación:** después de *First, / After that, / Later, / Finally,* se escribe coma. Con *then* normalmente no: *Then I made breakfast.*\n\n**Consejo:** usa pasado simple para todas las acciones de la historia y cambia de conector en cada frase.",
+    "common_mistakes_es": [
+      {
+        "wrong": "First I woke up, after I had breakfast.",
+        "right": "First I woke up, then I had breakfast.",
+        "note": "After no sirve como 'luego': usa then o after that."
+      },
+      {
+        "wrong": "Finally I went to the market and bought.",
+        "right": "Finally, I went to the market and bought some fruit.",
+        "note": "Después de bought falta lo que compras."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, I opened the door. Then I saw a cat.",
+      "options": [
+        "First",
+        "Finally",
+        "Later",
+        "Yesterday"
+      ],
+      "answer": [
+        "First"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! First indica el primer paso de la historia.",
+        "incorrect": "Revisa esto: First indica el primer paso de la historia."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Completa: 'We had lunch. ___, we went home.'",
+      "options": [
+        "After that",
+        "First",
+        "Ago",
+        "Because"
+      ],
+      "answer": [
+        "After that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! After that indica lo que ocurre a continuación.",
+        "incorrect": "Revisa esto: After that indica lo que ocurre a continuación."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "had",
+        "a",
+        "shower",
+        ".",
+        "First",
+        ","
+      ],
+      "answer": [
+        "First",
+        ",",
+        "I",
+        "had",
+        "a",
+        "shower",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector + coma + sujeto + verbo en pasado.",
+        "incorrect": "Revisa esto: Conector + coma + sujeto + verbo en pasado."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 25,
+      "prompt": "Last, I took the bus home. → ___, I took the bus home.",
+      "answer": [
+        "Finally"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finally marca el último paso.",
+        "incorrect": "Revisa esto: Finally marca el último paso."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Then, I woked up late.",
+      "answer": [
+        "I woke up late.",
+        "Then I woke up late.",
+        "Then, I woke up late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wake up es irregular: woke up.",
+        "incorrect": "Revisa esto: Wake up es irregular: woke up."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo la persona después de la ducha?",
+      "options": [
+        "Made breakfast",
+        "Took the bus",
+        "Had lunch",
+        "Went to the market"
+      ],
+      "answer": [
+        "Made breakfast"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Después de 'First, I had a shower' viene 'Then I made breakfast'.",
+        "incorrect": "Revisa esto: Después de 'First, I had a shower' viene 'Then I made breakfast'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo volvieron a casa?",
+      "options": [
+        "By bus",
+        "By taxi",
+        "On foot",
+        "By train"
+      ],
+      "answer": [
+        "By bus"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'we took the bus home'.",
+        "incorrect": "Revisa esto: El texto dice 'we took the bus home'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l05-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo justo antes de ir a trabajar?",
+      "options": [
+        "Had breakfast",
+        "Woke up",
+        "Came home",
+        "Had a shower"
+      ],
+      "answer": [
+        "Had breakfast"
+      ],
+      "audio_text": "First, I woke up. Then I had breakfast. After that, I went to work. Finally, I came home at six.",
+      "feedback": {
+        "correct": "¡Correcto! Antes de 'After that, I went to work' está 'Then I had breakfast'.",
+        "incorrect": "Revisa esto: Antes de 'After that, I went to work' está 'Then I had breakfast'."
+      },
+      "audio_script_id": "en-a2-u01-l05-ex08-a"
+    },
+    {
+      "id": "en-a2-u01-l05-ex09",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "sequencing",
+        "past-simple-regular"
+      ],
+      "est_seconds": 180,
+      "prompt": "Cuenta en 5 frases qué hiciste el sábado pasado. Usa first, then, after that y finally.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Usaste verbos en pasado?",
+        "¿Usaste first, then, after that y finally?",
+        "¿Pusiste coma después de First y After that?"
+      ],
+      "model_answer": "Last Saturday I woke up at nine. First, I had breakfast. Then I cleaned my room. After that, I met my friends. Finally, we watched a film.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "First, … · Then … · After that, …",
+      "Later, … · Finally, …",
+      "woke up · had a shower · took the bus"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-woke-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shower"
+    },
+    {
+      "type": "vocab",
+      "id": "en-first"
+    },
+    {
+      "type": "vocab",
+      "id": "en-then"
+    },
+    {
+      "type": "vocab",
+      "id": "en-after-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-later"
+    },
+    {
+      "type": "vocab",
+      "id": "en-finally"
+    },
+    {
+      "type": "grammar",
+      "id": "en-sequencing"
+    }
+  ]
+}

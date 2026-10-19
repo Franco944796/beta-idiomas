@@ -1,0 +1,464 @@
+{
+  "id": "en-a2-u03-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 3,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Which is better?",
+    "es": "Comparar y elegir: integración"
+  },
+  "objective": "Al terminar comparas dos opciones y justificas cuál elegís usando comparativos, superlativos, as … as, too y enough.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Vas a viajar y puedes ir en tren o en autobús. ¿Cómo comparas y decides en inglés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mia",
+        "text": "How should we get to Edinburgh, train or bus?",
+        "es": "¿Cómo vamos a Edimburgo, en tren o en autobús?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "The bus is cheaper, but it's slower. The train is more comfortable.",
+        "es": "El autobús es más barato, pero es más lento. El tren es más cómodo."
+      },
+      {
+        "speaker": "Mia",
+        "text": "How much is the train?",
+        "es": "¿Cuánto cuesta el tren?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "It's £60. The bus is only £25. That's the cheapest option.",
+        "es": "£60. El autobús solo £25. Esa es la opción más barata."
+      },
+      {
+        "speaker": "Mia",
+        "text": "Hmm. The bus takes eight hours. That's too long for me.",
+        "es": "Mmm. El autobús tarda ocho horas. Es demasiado para mí."
+      },
+      {
+        "speaker": "Dan",
+        "text": "OK, the train is the best choice. It's faster and it isn't as tiring.",
+        "es": "Bien, el tren es la mejor opción. Es más rápido y no es tan agotador."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-comfortable",
+        "lemma": "comfortable",
+        "pos": "adj",
+        "ipa": "/ˈkʌmftəbl/",
+        "es": "cómodo/a",
+        "example": "The train is comfortable."
+      },
+      {
+        "id": "en-slow",
+        "lemma": "slow",
+        "pos": "adj",
+        "ipa": "/sləʊ/",
+        "es": "lento/a",
+        "example": "The bus is slow."
+      },
+      {
+        "id": "en-fast",
+        "lemma": "fast",
+        "pos": "adj",
+        "ipa": "/fɑːst/",
+        "es": "rápido/a",
+        "example": "The train is fast."
+      },
+      {
+        "id": "en-tiring",
+        "lemma": "tiring",
+        "pos": "adj",
+        "ipa": "/ˈtaɪərɪŋ/",
+        "es": "agotador, cansador",
+        "example": "It's a tiring journey."
+      },
+      {
+        "id": "en-option",
+        "lemma": "option",
+        "pos": "noun",
+        "ipa": "/ˈɒpʃn/",
+        "es": "opción",
+        "example": "It's the cheapest option."
+      },
+      {
+        "id": "en-choice",
+        "lemma": "choice",
+        "pos": "noun",
+        "ipa": "/tʃɔɪs/",
+        "es": "elección, opción",
+        "example": "The train is the best choice."
+      },
+      {
+        "id": "en-journey",
+        "lemma": "journey",
+        "pos": "noun",
+        "ipa": "/ˈdʒɜːni/",
+        "es": "viaje (trayecto)",
+        "example": "The journey takes two hours."
+      }
+    ],
+    "audio_script_id": "en-a2-u03-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Comparar y elegir: plantilla**\n\n1. Presenta las opciones: *The bus is cheaper, but the train is more comfortable.*\n2. Usa superlativos para el extremo: *That's the cheapest option.*\n3. Justifica con **too / enough / as … as**: *It's too long. It isn't as tiring.*\n4. Decide: *I think the train is the best choice.* · *I prefer the bus because it's cheaper.*\n\n**Conectores útiles:** *but* (pero) · *because* (porque) · *so* (así que) · *however* (sin embargo).\n\n**Pedir y dar opiniones:** *Which is better, A or B?* · *I think … is better than …* · *In my opinion, …*\n\n**Ojo:** *prefer* va con *to*: *I prefer trains to buses.* (no *than*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I prefer trains than buses.",
+        "right": "I prefer trains to buses.",
+        "note": "Prefer + to."
+      },
+      {
+        "wrong": "The train is more fast.",
+        "right": "The train is faster.",
+        "note": "Fast es corto: faster."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u03-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que el tren es más cómodo que el autobús.",
+      "options": [
+        "The train is more comfortable than the bus.",
+        "The train is comfortabler than the bus.",
+        "The train is most comfortable than the bus.",
+        "The train is more comfortable that the bus."
+      ],
+      "answer": [
+        "The train is more comfortable than the bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 20,
+      "prompt": "'La opción más barata' = ___.",
+      "options": [
+        "the cheapest option",
+        "the most cheap option",
+        "the cheaper option",
+        "the cheap option most"
+      ],
+      "answer": [
+        "the cheapest option"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: the + -est.",
+        "incorrect": "Revisa esto: Adjetivo corto: the + -est."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "The bus takes eight hours. That's ___ long for me.",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "I prefer trains ___ buses.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prefer + to: I prefer A to B.",
+        "incorrect": "Revisa esto: Prefer + to: I prefer A to B."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I prefer trains than buses.",
+      "answer": [
+        "I prefer trains to buses."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con prefer se usa to, no than.",
+        "incorrect": "Revisa esto: Con prefer se usa to, no than."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + frase con superlativo.",
+        "incorrect": "Revisa esto: I think + frase con superlativo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto cuesta el autobús a Edimburgo?",
+      "options": [
+        "£25",
+        "£60",
+        "£8",
+        "£15"
+      ],
+      "answer": [
+        "£25"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dan dice 'The bus is only £25'.",
+        "incorrect": "Revisa esto: Dan dice 'The bus is only £25'."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Mia no quiere ir en autobús?",
+      "options": [
+        "It takes too long",
+        "It's too expensive",
+        "It's dirty",
+        "It's too small"
+      ],
+      "answer": [
+        "It takes too long"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Mia dice 'That's too long for me'.",
+        "incorrect": "Revisa esto: Mia dice 'That's too long for me'."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué teléfono elige?",
+      "options": [
+        "The black one",
+        "The blue one",
+        "Both",
+        "Neither"
+      ],
+      "answer": [
+        "The black one"
+      ],
+      "audio_text": "Between the two phones, the blue one is cheaper, but the black one is faster and has a better camera. I'll take the black one.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'll take the black one'.",
+        "incorrect": "Revisa esto: Dice 'I'll take the black one'."
+      },
+      "audio_script_id": "en-a2-u03-l05-ex09-a"
+    },
+    {
+      "id": "en-a2-u03-l05-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparing-choosing",
+        "comparatives"
+      ],
+      "est_seconds": 180,
+      "prompt": "Compara dos opciones (por ejemplo, vivir en una ciudad o en un pueblo, o viajar en tren o en bus) y di cuál elegís. Usa al menos un comparativo, un superlativo y too o enough.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usaste un comparativo con than?",
+        "¿Usaste un superlativo con the?",
+        "¿Usaste too o enough?",
+        "¿Terminaste diciendo qué eliges y por qué?"
+      ],
+      "model_answer": "I prefer living in a small town to living in a big city. A town is quieter and cleaner than a city. It's also cheaper. A city is more exciting, but it's too noisy for me. For me, a small town is the best choice.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u03-l05-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás eligiendo con un amigo entre dos restaurantes.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Which restaurant is better, Luigi's or the Garden Café?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Luigi's is better, but it's more expensive.",
+            "Luigi's is more good, but expensiver.",
+            "Luigi's is best than the Garden Café."
+          ],
+          "best": 0,
+          "why_es": "better + but + more expensive."
+        },
+        {
+          "speaker": "Friend",
+          "text": "How about the Garden Café?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It isn't as expensive as Luigi's, but it's too noisy for me.",
+            "It no is so expensive than Luigi's.",
+            "It's too much noisy as Luigi's."
+          ],
+          "best": 0,
+          "why_es": "not as … as + too + adjetivo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "A is cheaper than B, but B is more …",
+      "That's the cheapest / the best option.",
+      "It's too … · It isn't … enough",
+      "I prefer A to B."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-comfortable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tiring"
+    },
+    {
+      "type": "vocab",
+      "id": "en-option"
+    },
+    {
+      "type": "vocab",
+      "id": "en-choice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-journey"
+    },
+    {
+      "type": "grammar",
+      "id": "en-comparing-choosing"
+    }
+  ]
+}

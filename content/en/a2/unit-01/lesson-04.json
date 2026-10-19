@@ -1,0 +1,371 @@
+{
+  "id": "en-a2-u01-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I didn't go. Did you go?",
+    "es": "Pasado simple: negativas y preguntas"
+  },
+  "objective": "Al terminar niegas y preguntas en pasado con didn't y Did…? y das respuestas cortas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'¿Fuiste?' 'No fui.' En inglés el trabajo de marcar el pasado lo hace un solo auxiliar: did."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "Did you go out last night?",
+        "es": "¿Saliste anoche?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "Yes, I did. I went to the cinema.",
+        "es": "Sí. Fui al cine."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Did you see a good film?",
+        "es": "¿Viste una buena película?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "No, I didn't. It wasn't very good.",
+        "es": "No. No era muy buena."
+      },
+      {
+        "speaker": "Tom",
+        "text": "What a pity! Did your friends come with you?",
+        "es": "¡Qué pena! ¿Tus amigos fueron contigo?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "No, they didn't. They stayed at home.",
+        "es": "No. Se quedaron en casa."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-go-out",
+        "lemma": "go out",
+        "pos": "phrasal verb",
+        "ipa": "/ɡəʊ aʊt/",
+        "es": "salir (de casa, con amigos)",
+        "example": "Did you go out last night?"
+      },
+      {
+        "id": "en-pity",
+        "lemma": "pity",
+        "pos": "noun",
+        "ipa": "/ˈpɪti/",
+        "es": "lástima, pena",
+        "example": "What a pity!"
+      },
+      {
+        "id": "en-stay",
+        "lemma": "stay",
+        "pos": "verb",
+        "ipa": "/steɪ/",
+        "es": "quedarse",
+        "example": "They stayed at home."
+      },
+      {
+        "id": "en-with",
+        "lemma": "with",
+        "pos": "prep",
+        "ipa": "/wɪð/",
+        "es": "con",
+        "example": "Did your friends come with you?"
+      },
+      {
+        "id": "en-film",
+        "lemma": "film",
+        "pos": "noun",
+        "ipa": "/fɪlm/",
+        "es": "película",
+        "example": "Did you see a good film?"
+      }
+    ],
+    "audio_script_id": "en-a2-u01-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Negativa:** sujeto + **didn't** (did not) + **verbo base** → *I didn't go. She didn't like it.*\n\n**Pregunta:** **Did** + sujeto + **verbo base** → *Did you see Tom? Did they stay at home?*\n\n**Respuestas cortas:** *Yes, I did. / No, I didn't.*\n\nLa clave: el pasado ya lo marca **did**, así que el verbo principal vuelve a su forma base: *didn't go* (no *didn't went*), *Did you go?* (no *Did you went?*).\n\n**Con to be** no se usa did: *I wasn't ill. Were you at home?*\n\nPronunciación: *didn't* /ˈdɪdnt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I didn't saw him.",
+        "right": "I didn't see him.",
+        "note": "Con didn't el verbo va en base."
+      },
+      {
+        "wrong": "You went to the party?",
+        "right": "Did you go to the party?",
+        "note": "En una pregunta formal se necesita did."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ go to school yesterday. (negativa)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa en pasado: didn't + verbo base.",
+        "incorrect": "Revisa esto: Negativa en pasado: didn't + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you see the film last night?",
+      "answer": [
+        "Did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasado: Did + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Pregunta en pasado: Did + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "She didn't ___ the news.",
+      "options": [
+        "watch",
+        "watched",
+        "watches",
+        "watching"
+      ],
+      "answer": [
+        "watch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de didn't va el verbo base.",
+        "incorrect": "Revisa esto: Después de didn't va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I didn't went to work.",
+      "answer": [
+        "I didn't go to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de didn't, el verbo va en base: go.",
+        "incorrect": "Revisa esto: Después de didn't, el verbo va en base: go."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Did she liked the film?",
+      "answer": [
+        "Did she like the film?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did, el verbo va en base: like.",
+        "incorrect": "Revisa esto: Después de did, el verbo va en base: like."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "play",
+        "football",
+        "yesterday",
+        "?",
+        "Did",
+        "you"
+      ],
+      "answer": [
+        "Did",
+        "you",
+        "play",
+        "football",
+        "yesterday",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Did + sujeto + verbo base + resto.",
+        "incorrect": "Revisa esto: Did + sujeto + verbo base + resto."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex07",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 15,
+      "prompt": "Se dice 'Did you went to the party?'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did, el verbo se queda en base: Did you go?",
+        "incorrect": "Revisa esto: Después de did, el verbo se queda en base: Did you go?"
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Anna no vio una buena película?",
+      "options": [
+        "It wasn't very good.",
+        "She stayed at home.",
+        "She was ill.",
+        "The cinema was closed."
+      ],
+      "answer": [
+        "It wasn't very good."
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Anna dice 'It wasn't very good'.",
+        "incorrect": "Revisa esto: Anna dice 'It wasn't very good'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l04-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo la persona?",
+      "options": [
+        "Sent a message",
+        "Called Mark",
+        "Visited Mark",
+        "Nothing"
+      ],
+      "answer": [
+        "Sent a message"
+      ],
+      "audio_text": "—Did you call Mark? —No, I didn't. I sent him a message.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I didn't. I sent him a message'.",
+        "incorrect": "Revisa esto: Responde 'No, I didn't. I sent him a message'."
+      },
+      "audio_script_id": "en-a2-u01-l04-ex09-a"
+    },
+    {
+      "id": "en-a2-u01-l04-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Viste a Tom ayer?",
+      "answer": [
+        "Did you see Tom yesterday?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Did + you + see (base).",
+        "incorrect": "Revisa esto: Did + you + see (base)."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I didn't go. · She didn't like it.",
+      "Did you see it? — Yes, I did. / No, I didn't.",
+      "didn't + base · Did + sujeto + base"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-go-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pity"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stay"
+    },
+    {
+      "type": "vocab",
+      "id": "en-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-film"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-negative-questions"
+    }
+  ]
+}

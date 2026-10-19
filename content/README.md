@@ -1,18 +1,24 @@
-# Trilex – contenido de aprendizaje (Etapa 2)
+# Trilex – contenido de aprendizaje
 
 Contenido en JSON estático (Fase 1, compatible con GitHub Pages). Idioma objetivo: `en` (inglés británico, con notas del americano). Idioma de la interfaz: `es`.
+
+## Niveles
+
+Solo se cubren A1, A2, B1 y B2. A1 está completo; A2 se publica por unidades (ver `path.json`, campo `status` de cada lección).
 
 ## Estructura
 
 ```text
 content/en/
   path.json                  índice de niveles → unidades → lecciones (status: ready | planned)
-  placement-test.json        prueba de nivel adaptativa (28 ítems)
-  vocab/a1.json              vocabulario (id, lemma, pos, ipa, translation_es, ejemplo)
+  placement-test.json        prueba de nivel A1-B2 (hasta 68 ítems)
+  vocab/a1.json, a2.json     vocabulario por nivel (id, lemma, pos, ipa, translation_es, ejemplo)
   grammar/topics.json        temas de gramática y prerrequisitos
   a1/unit-NN/lesson-NN.json  una lección por archivo (la 06 de cada unidad es el checkpoint)
+  a1/exam.json               examen final del nivel (cada nivel tendrá el suyo: a2/exam.json…)
+  a2/unit-NN/lesson-NN.json  igual que A1 (se publica por unidades; path.json marca cada lección ready | planned)
 audio-scripts/en/<id>.txt    textos para TTS (diálogos y ejercicios de audio)
-tools/                       scripts Python que generan y validan todo (python3 build.py)
+tools/                       scripts Python que generan y validan todo (python3 build.py); NO va en el repositorio de la web
 ```
 
 Para otro idioma (alemán, ruso, chino) se usa la misma estructura bajo `content/<lang>/` y se añade `romanization` en las entradas de vocabulario.

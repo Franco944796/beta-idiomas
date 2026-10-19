@@ -1,0 +1,386 @@
+{
+  "id": "en-a2-u02-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "In, on, at, to",
+    "es": "Preposiciones de tiempo y de movimiento"
+  },
+  "objective": "Al terminar usas in, on, at y to para hablar de cuándo y adónde, y by para el medio de transporte.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading"
+  ],
+  "warmup": {
+    "prompt_es": "'En lunes, a las ocho, en julio, en tren': en español no siempre usamos la misma palabra. ¿Y en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Our flight was on Friday. We left home at six o'clock in the morning and arrived at the airport at seven. We flew to Madrid and stayed there in July. On Saturday we went to the beach. We walked along the river, through the old town, and across the bridge. We travelled by train to Seville.",
+    "es": "Nuestro vuelo fue el viernes. Salimos de casa a las seis de la mañana y llegamos al aeropuerto a las siete. Volamos a Madrid y nos quedamos allí en julio. El sábado fuimos a la playa. Caminamos a lo largo del río, por el casco antiguo y cruzando el puente. Viajamos en tren a Sevilla.",
+    "glossary": [
+      {
+        "id": "en-along",
+        "lemma": "along",
+        "pos": "prep",
+        "ipa": "/əˈlɒŋ/",
+        "es": "a lo largo de",
+        "example": "We walked along the river."
+      },
+      {
+        "id": "en-through",
+        "lemma": "through",
+        "pos": "prep",
+        "ipa": "/θruː/",
+        "es": "a través de, por",
+        "example": "We walked through the old town."
+      },
+      {
+        "id": "en-across",
+        "lemma": "across",
+        "pos": "prep",
+        "ipa": "/əˈkrɒs/",
+        "es": "cruzando, al otro lado de",
+        "example": "We walked across the bridge."
+      },
+      {
+        "id": "en-bridge",
+        "lemma": "bridge",
+        "pos": "noun",
+        "ipa": "/brɪdʒ/",
+        "es": "puente",
+        "example": "The bridge is very old."
+      },
+      {
+        "id": "en-river",
+        "lemma": "river",
+        "pos": "noun",
+        "ipa": "/ˈrɪvə/",
+        "es": "río",
+        "example": "We walked along the river."
+      },
+      {
+        "id": "en-leave",
+        "lemma": "leave",
+        "pos": "verb",
+        "ipa": "/liːv/",
+        "es": "salir, irse, dejar",
+        "example": "We left home at six."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Tiempo**\n\n| Preposición | Se usa con | Ejemplos |\n|---|---|---|\n| **at** | horas y momentos | at six o'clock · at night · at the weekend |\n| **on** | días y fechas | on Friday · on 5 May · on Saturday morning |\n| **in** | meses, años, estaciones, partes del día | in July · in 2024 · in summer · in the morning |\n\n**Movimiento**\n\n- **to** → destino: *We went to the beach. We flew to Madrid.*\n- **from … to …** → de… a…: *from London to Paris*\n- **through** (a través de) · **along** (a lo largo de) · **across** (cruzando)\n\n**Medio de transporte:** **by** + transporte: *by train, by bus, by plane* · *on foot* (a pie).\n\n**Lugar:** *at the airport* · *in Madrid* · *on the train / bus / plane*.\n\nOjo: no se usa preposición con *last / next / this / every*: *last Friday*, no *in last Friday*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'll see you in Monday.",
+        "right": "I'll see you on Monday.",
+        "note": "Con días se usa on."
+      },
+      {
+        "wrong": "I go to work with bus.",
+        "right": "I go to work by bus.",
+        "note": "Transporte: by."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "We arrived ___ nine o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con horas se usa at.",
+        "incorrect": "Revisa esto: Con horas se usa at."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "My flight is ___ Friday.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "I was born ___ 1998.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con años se usa in.",
+        "incorrect": "Revisa esto: Con años se usa in."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 20,
+      "prompt": "We went ___ the beach by bus.",
+      "options": [
+        "to",
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para destinos se usa to.",
+        "incorrect": "Revisa esto: Para destinos se usa to."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 20,
+      "prompt": "We walked ___ the bridge to the other side.",
+      "options": [
+        "across",
+        "along",
+        "at",
+        "by"
+      ],
+      "answer": [
+        "across"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Across = cruzando de un lado a otro.",
+        "incorrect": "Revisa esto: Across = cruzando de un lado a otro."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 20,
+      "prompt": "She travels to work ___ train.",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "with"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con el medio de transporte se usa by (excepto on foot).",
+        "incorrect": "Revisa esto: Con el medio de transporte se usa by (excepto on foot)."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll see you in Monday.",
+      "answer": [
+        "I'll see you on Monday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We went at Rome by train.",
+      "answer": [
+        "We went to Rome by train."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para destinos se usa to.",
+        "incorrect": "Revisa esto: Para destinos se usa to."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex09",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada expresión de tiempo con su forma correcta.",
+      "pairs": [
+        {
+          "left": "July",
+          "right": "in July"
+        },
+        {
+          "left": "Monday",
+          "right": "on Monday"
+        },
+        {
+          "left": "8 o'clock",
+          "right": "at 8 o'clock"
+        },
+        {
+          "left": "the morning",
+          "right": "in the morning"
+        },
+        {
+          "left": "night",
+          "right": "at night"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In: meses y partes del día; on: días; at: horas y 'night'.",
+        "incorrect": "Revisa esto: In: meses y partes del día; on: días; at: horas y 'night'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo viajaron a Sevilla?",
+      "options": [
+        "By train",
+        "By plane",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By train"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'We travelled by train to Seville'.",
+        "incorrect": "Revisa esto: El texto dice 'We travelled by train to Seville'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l04-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo sale el tren?",
+      "options": [
+        "On Monday at 7:10",
+        "On Tuesday at 7:10",
+        "On Monday at 10:07",
+        "On Sunday at 7:00"
+      ],
+      "answer": [
+        "On Monday at 7:10"
+      ],
+      "audio_text": "The train to Oxford leaves at ten past seven on Monday morning.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'ten past seven on Monday morning'.",
+        "incorrect": "Revisa esto: Dice 'ten past seven on Monday morning'."
+      },
+      "audio_script_id": "en-a2-u02-l04-ex11-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "at six o'clock · at night",
+      "on Friday · on 5 May",
+      "in July · in 2024 · in the morning",
+      "go to · by train · on foot"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-along"
+    },
+    {
+      "type": "vocab",
+      "id": "en-through"
+    },
+    {
+      "type": "vocab",
+      "id": "en-across"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bridge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-river"
+    },
+    {
+      "type": "vocab",
+      "id": "en-leave"
+    },
+    {
+      "type": "grammar",
+      "id": "en-prepositions-time-movement"
+    }
+  ]
+}

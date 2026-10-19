@@ -1,0 +1,413 @@
+{
+  "id": "en-a2-u06-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Signs and rules",
+    "es": "Carteles y normas: can, can't, allowed to"
+  },
+  "objective": "Al terminar entiendes carteles y normas y dices lo que se puede, no se puede o está permitido con can, can't y allowed to.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Entras a una piscina, a un museo o a un hospital: hay carteles que explican las reglas. ¿Cómo se dicen y se entienden?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Rules at the swimming pool: Children under ten must be with an adult. You can't run near the pool. No diving. Please have a shower before you swim. You aren't allowed to take photos. You can use the lockers for free, but you mustn't leave valuable things in them. No smoking. Silence, please, after 9 p.m.",
+    "es": "Normas de la piscina: Los menores de diez años deben estar con un adulto. No se puede correr cerca de la piscina. Prohibido zambullirse. Por favor, dúchese antes de nadar. No está permitido sacar fotos. Se pueden usar los casilleros gratis, pero no se deben dejar objetos de valor. Prohibido fumar. Silencio, por favor, después de las 21 h.",
+    "glossary": [
+      {
+        "id": "en-allowed",
+        "lemma": "allowed",
+        "pos": "adj",
+        "ipa": "/əˈlaʊd/",
+        "es": "permitido/a",
+        "example": "You aren't allowed to take photos."
+      },
+      {
+        "id": "en-diving",
+        "lemma": "diving",
+        "pos": "noun",
+        "ipa": "/ˈdaɪvɪŋ/",
+        "es": "zambullirse, saltar de cabeza",
+        "example": "No diving."
+      },
+      {
+        "id": "en-locker",
+        "lemma": "locker",
+        "pos": "noun",
+        "ipa": "/ˈlɒkə/",
+        "es": "casillero",
+        "example": "You can use the lockers for free."
+      },
+      {
+        "id": "en-valuable",
+        "lemma": "valuable",
+        "pos": "adj",
+        "ipa": "/ˈvæljuəbl/",
+        "es": "valioso/a",
+        "example": "Don't leave valuable things."
+      },
+      {
+        "id": "en-adult",
+        "lemma": "adult",
+        "pos": "noun",
+        "ipa": "/ˈædʌlt/",
+        "es": "adulto/a",
+        "example": "Children must be with an adult."
+      },
+      {
+        "id": "en-for-free",
+        "lemma": "for free",
+        "pos": "phrase",
+        "ipa": "/fɔː friː/",
+        "es": "gratis",
+        "example": "The lockers are for free."
+      },
+      {
+        "id": "en-silence",
+        "lemma": "silence",
+        "pos": "noun",
+        "ipa": "/ˈsaɪləns/",
+        "es": "silencio",
+        "example": "Silence, please."
+      },
+      {
+        "id": "en-no-smoking",
+        "lemma": "no smoking",
+        "pos": "phrase",
+        "ipa": "/nəʊ ˈsməʊkɪŋ/",
+        "es": "prohibido fumar",
+        "example": "No smoking in the building."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Permitido:** *You can use the lockers.* · *You're allowed to take your phone.* · *Visitors may enter.*\n**Prohibido:** *You can't run.* · *You aren't allowed to take photos.* · *You mustn't smoke.* · *No smoking. / No diving.* (*No* + sustantivo o -ing)\n**Obligatorio:** *You must wear a helmet.* · *Children must be with an adult.*\n\n**Carteles típicos:** *Wet floor* (piso mojado) · *Keep off the grass* (no pisar el césped) · *Keep out* (prohibido el paso) · *Exit* (salida) · *Push / Pull* (empujar / tirar) · *Out of order* (fuera de servicio).\n\n**Be allowed to + verbo base:** *Are we allowed to take photos? — Yes, we are. / No, we aren't.*\n\n**Ojo:** *can / can't* y *must / mustn't* van con verbo base (sin *to*); *allowed* sí lleva **to**.\n\nPronunciación: *allowed* /əˈlaʊd/ (suena igual que *aloud*) · *valuable* /ˈvæljuəbl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It is not allowed take photos.",
+        "right": "You aren't allowed to take photos.",
+        "note": "Allowed lleva to + verbo."
+      },
+      {
+        "wrong": "You must not to run.",
+        "right": "You mustn't run.",
+        "note": "Must / mustn't no llevan to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada cartel con su significado.",
+      "pairs": [
+        {
+          "left": "Wet floor",
+          "right": "Piso mojado"
+        },
+        {
+          "left": "Keep off the grass",
+          "right": "No pisar el césped"
+        },
+        {
+          "left": "Out of order",
+          "right": "Fuera de servicio"
+        },
+        {
+          "left": "No smoking",
+          "right": "Prohibido fumar"
+        },
+        {
+          "left": "Keep out",
+          "right": "Prohibido el paso"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son carteles muy comunes.",
+        "incorrect": "Revisa esto: Son carteles muy comunes."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un cartel dice 'No diving'. Significa:",
+      "options": [
+        "Está prohibido zambullirse.",
+        "Es obligatorio zambullirse.",
+        "Se puede zambullir gratis.",
+        "Hay que nadar rápido."
+      ],
+      "answer": [
+        "Está prohibido zambullirse."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No + -ing = prohibido.",
+        "incorrect": "Revisa esto: No + -ing = prohibido."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ run near the pool. (no se puede)",
+      "answer": [
+        "can't"
+      ],
+      "accepted_alternatives": [
+        "cannot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se puede: can't + verbo base.",
+        "incorrect": "Revisa esto: No se puede: can't + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 25,
+      "prompt": "You aren't allowed ___ take photos.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Allowed siempre va con to.",
+        "incorrect": "Revisa esto: Allowed siempre va con to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 25,
+      "prompt": "Are we ___ to use our phones here?",
+      "answer": [
+        "allowed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to + verbo base.",
+        "incorrect": "Revisa esto: Be allowed to + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You aren't allowed take photos.",
+      "answer": [
+        "You aren't allowed to take photos."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con allowed se usa to.",
+        "incorrect": "Revisa esto: Con allowed se usa to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You mustn't to smoke here.",
+      "answer": [
+        "You mustn't smoke here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mustn't va con verbo base, sin to.",
+        "incorrect": "Revisa esto: Mustn't va con verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pueden usar gratis los visitantes?",
+      "options": [
+        "The lockers",
+        "The showers",
+        "The pool",
+        "The photos"
+      ],
+      "answer": [
+        "The lockers"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'You can use the lockers for free'.",
+        "incorrect": "Revisa esto: Dice 'You can use the lockers for free'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no está permitido hacer?",
+      "options": [
+        "Take photos",
+        "Have a shower",
+        "Swim",
+        "Use the lockers"
+      ],
+      "answer": [
+        "Take photos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'You aren't allowed to take photos'.",
+        "incorrect": "Revisa esto: Dice 'You aren't allowed to take photos'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l05-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde puede estacionar?",
+      "options": [
+        "In the car park behind the building",
+        "Here",
+        "In front of the staff door",
+        "On the street"
+      ],
+      "answer": [
+        "In the car park behind the building"
+      ],
+      "audio_text": "Excuse me, you can't park here. It's only for staff. You can park in the car park behind the building.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'in the car park behind the building'.",
+        "incorrect": "Revisa esto: Dice 'in the car park behind the building'."
+      },
+      "audio_script_id": "en-a2-u06-l05-ex10-a"
+    },
+    {
+      "id": "en-a2-u06-l05-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No se permite sacar fotos en el museo.",
+      "answer": [
+        "You aren't allowed to take photos in the museum.",
+        "You are not allowed to take photos in the museum.",
+        "Photos aren't allowed in the museum."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to + verbo base.",
+        "incorrect": "Revisa esto: Be allowed to + verbo base."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You can't … · You aren't allowed to …",
+      "You mustn't … · No smoking · No diving",
+      "Wet floor · Keep off the grass · Out of order",
+      "Are we allowed to …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-allowed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-diving"
+    },
+    {
+      "type": "vocab",
+      "id": "en-locker"
+    },
+    {
+      "type": "vocab",
+      "id": "en-valuable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-adult"
+    },
+    {
+      "type": "vocab",
+      "id": "en-for-free"
+    },
+    {
+      "type": "vocab",
+      "id": "en-silence"
+    },
+    {
+      "type": "vocab",
+      "id": "en-no-smoking"
+    },
+    {
+      "type": "grammar",
+      "id": "en-permission-prohibition"
+    }
+  ]
+}

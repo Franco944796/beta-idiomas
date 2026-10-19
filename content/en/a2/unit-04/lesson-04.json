@@ -1,0 +1,489 @@
+{
+  "id": "en-a2-u04-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 4,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "At the supermarket",
+    "es": "En el supermercado: cantidades y precios"
+  },
+  "objective": "Al terminar compras alimentos pidiendo cantidades (a kilo of, half a litre), preguntas precios y entiendes el total y el cambio.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "En el mercado o en el supermercado no basta con saber el nombre de lo que compras: hay que pedir cantidades y entender el precio."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Seller",
+        "text": "Good morning. What can I get you?",
+        "es": "Buenos días. ¿Qué le sirvo?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Can I have a kilo of apples and half a kilo of grapes, please?",
+        "es": "¿Me da un kilo de manzanas y medio kilo de uvas, por favor?"
+      },
+      {
+        "speaker": "Seller",
+        "text": "Of course. Anything else?",
+        "es": "Por supuesto. ¿Algo más?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "How much are the strawberries?",
+        "es": "¿Cuánto cuestan las frutillas?"
+      },
+      {
+        "speaker": "Seller",
+        "text": "They're three pounds fifty a kilo.",
+        "es": "Tres libras con cincuenta el kilo."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Lovely. Two hundred grams, please. That's all, thanks.",
+        "es": "Genial. Doscientos gramos, por favor. Eso es todo, gracias."
+      },
+      {
+        "speaker": "Seller",
+        "text": "That's six pounds forty altogether. Here's your change.",
+        "es": "Son seis libras con cuarenta en total. Aquí tiene su vuelto."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-kilo",
+        "lemma": "kilo",
+        "pos": "noun",
+        "ipa": "/ˈkiːləʊ/",
+        "es": "kilo",
+        "example": "a kilo of apples"
+      },
+      {
+        "id": "en-gram",
+        "lemma": "gram",
+        "pos": "noun",
+        "ipa": "/ɡræm/",
+        "es": "gramo",
+        "example": "two hundred grams"
+      },
+      {
+        "id": "en-litre",
+        "lemma": "litre",
+        "pos": "noun",
+        "ipa": "/ˈliːtə/",
+        "es": "litro",
+        "example": "a litre of milk"
+      },
+      {
+        "id": "en-half-a-kilo",
+        "lemma": "half a kilo",
+        "pos": "phrase",
+        "ipa": "/hɑːf ə ˈkiːləʊ/",
+        "es": "medio kilo",
+        "example": "half a kilo of grapes"
+      },
+      {
+        "id": "en-grapes",
+        "lemma": "grapes",
+        "pos": "noun",
+        "ipa": "/ɡreɪps/",
+        "es": "uvas",
+        "example": "half a kilo of grapes"
+      },
+      {
+        "id": "en-altogether",
+        "lemma": "altogether",
+        "pos": "adv",
+        "ipa": "/ˌɔːltəˈɡeðə/",
+        "es": "en total",
+        "example": "That's six pounds altogether."
+      },
+      {
+        "id": "en-change",
+        "lemma": "change",
+        "pos": "noun",
+        "ipa": "/tʃeɪndʒ/",
+        "es": "vuelto, cambio",
+        "example": "Here's your change."
+      },
+      {
+        "id": "en-receipt",
+        "lemma": "receipt",
+        "pos": "noun",
+        "ipa": "/rɪˈsiːt/",
+        "es": "ticket, comprobante",
+        "example": "Can I have a receipt, please?"
+      }
+    ],
+    "audio_script_id": "en-a2-u04-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Pedir cantidades:** *Can I have a kilo of apples, please?* · *half a kilo of grapes* · *200 grams of cheese* · *a litre of milk*. Con el artículo: **a** kilo, **a** litre.\n\n**Medidas:** *kilo (kg) · gram (g) · litre (l) · half a kilo = 500 g · a quarter of a kilo = 250 g.*\n\n**Precios:** *£3.50* se lee *three pounds fifty*; *£6.40* = *six pounds forty*; *50p* = *fifty pence*. **Por unidad:** *£3.50 **a** kilo* / *per kilo*.\n\n**Frases del vendedor:** *What can I get you? · Anything else? · That's £6.40 altogether. · Here's your change.*\n**Frases del cliente:** *How much is it? / How much are they? · That's all, thanks. · Can I have a bag / a receipt, please?*\n\n**Ojo:** *change* es 'vuelto' (el dinero que te devuelven) y también 'cambio'. *How much is it?* (singular) / *How much are they?* (plural).\n\nPronunciación: *kilo* /ˈkiːləʊ/ · *gram* /ɡræm/ · *receipt* /rɪˈsiːt/ (la p no se pronuncia).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Can I have one kilo apples?",
+        "right": "Can I have a kilo of apples?",
+        "note": "Falta of."
+      },
+      {
+        "wrong": "How much costs it?",
+        "right": "How much is it?",
+        "note": "Se pregunta con to be, no con cost en el orden español."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u04-l04-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have a ___ of apples, please? (un kilo)",
+      "answer": [
+        "kilo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Kilo es el nombre de la medida.",
+        "incorrect": "Revisa esto: Kilo es el nombre de la medida."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ are the strawberries?",
+      "answer": [
+        "much"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para preguntar el precio: How much…?",
+        "incorrect": "Revisa esto: Para preguntar el precio: How much…?"
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 20,
+      "prompt": "£3.50 se lee…",
+      "options": [
+        "three pounds fifty",
+        "three fifty pounds",
+        "three point five pounds",
+        "thirty-five pounds"
+      ],
+      "answer": [
+        "three pounds fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primero las libras y luego los peniques: three pounds fifty.",
+        "incorrect": "Revisa esto: Primero las libras y luego los peniques: three pounds fifty."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 20,
+      "prompt": "Terminaste de comprar. ¿Qué le dices al vendedor?",
+      "options": [
+        "That's all, thanks.",
+        "That's nothing.",
+        "I have all.",
+        "Finish."
+      ],
+      "answer": [
+        "That's all, thanks."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es la forma natural de indicar que no quieres nada más.",
+        "incorrect": "Revisa esto: Es la forma natural de indicar que no quieres nada más."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada medida con su equivalencia.",
+      "pairs": [
+        {
+          "left": "a kilo",
+          "right": "1000 grams"
+        },
+        {
+          "left": "half a kilo",
+          "right": "500 grams"
+        },
+        {
+          "left": "a quarter of a kilo",
+          "right": "250 grams"
+        },
+        {
+          "left": "a litre",
+          "right": "1000 ml"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay que conocer las equivalencias para pedir bien.",
+        "incorrect": "Revisa esto: Hay que conocer las equivalencias para pedir bien."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I have one kilo apples?",
+      "answer": [
+        "Can I have a kilo of apples?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta of y es más natural a kilo.",
+        "incorrect": "Revisa esto: Falta of y es más natural a kilo."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "half",
+        "a",
+        "kilo",
+        "of",
+        "grapes",
+        ",",
+        "please",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "have",
+        "half",
+        "a",
+        "kilo",
+        "of",
+        "grapes",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I have + cantidad + of + alimento.",
+        "incorrect": "Revisa esto: Can I have + cantidad + of + alimento."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto cuesta el kilo de frutillas?",
+      "options": [
+        "£3.50",
+        "£6.40",
+        "£2.00",
+        "£3.05"
+      ],
+      "answer": [
+        "£3.50"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El vendedor dice 'three pounds fifty a kilo'.",
+        "incorrect": "Revisa esto: El vendedor dice 'three pounds fifty a kilo'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l04-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto es el total?",
+      "options": [
+        "£4.60",
+        "£4.06",
+        "£6.40",
+        "£14.60"
+      ],
+      "answer": [
+        "£4.60"
+      ],
+      "audio_text": "Two kilos of potatoes and a kilo of carrots. That's four pounds sixty, please.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'four pounds sixty'.",
+        "incorrect": "Revisa esto: Dice 'four pounds sixty'."
+      },
+      "audio_script_id": "en-a2-u04-l04-ex09-a"
+    },
+    {
+      "id": "en-a2-u04-l04-ex10",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Can I have a litre of milk, please?",
+      "answer": [
+        "Can I have a litre of milk, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido de cantidad: a litre of milk.",
+        "incorrect": "Revisa esto: Pedido de cantidad: a litre of milk."
+      },
+      "audio_script_id": "en-a2-u04-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u04-l04-ex11",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Compras fruta en un mercado.",
+      "turns": [
+        {
+          "speaker": "Seller",
+          "text": "Good morning. What can I get you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Can I have a kilo of oranges, please?",
+            "I want one kilo oranges.",
+            "Give me oranges one kilo."
+          ],
+          "best": 0,
+          "why_es": "Can I have a kilo of … , please? es lo natural."
+        },
+        {
+          "speaker": "Seller",
+          "text": "Anything else?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, that's all, thanks. How much is that?",
+            "No, that's nothing.",
+            "Is all."
+          ],
+          "best": 0,
+          "why_es": "That's all, thanks + How much is that?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Can I have a kilo of …, please?",
+      "How much is it? · How much are they?",
+      "That's all, thanks.",
+      "£3.50 = three pounds fifty"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-kilo"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gram"
+    },
+    {
+      "type": "vocab",
+      "id": "en-litre"
+    },
+    {
+      "type": "vocab",
+      "id": "en-half-a-kilo"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grapes"
+    },
+    {
+      "type": "vocab",
+      "id": "en-altogether"
+    },
+    {
+      "type": "vocab",
+      "id": "en-change"
+    },
+    {
+      "type": "vocab",
+      "id": "en-receipt"
+    },
+    {
+      "type": "grammar",
+      "id": "en-shopping-quantities"
+    }
+  ]
+}

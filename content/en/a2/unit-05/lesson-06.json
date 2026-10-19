@@ -1,0 +1,344 @@
+{
+  "id": "en-a2-u05-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 5",
+    "es": "Repaso y checkpoint 5"
+  },
+  "objective": "Al terminar hablas del futuro con going to, will y might, haces predicciones y organizas un plan con un amigo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 5: junta todo lo de planes y futuro."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: be going to (planes y predicciones), will y won't, might, cuándo usar cada forma y cómo proponer y acordar un plan.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 5**\n\n- *I'm going to … · Are you going to …? · It's going to rain.*\n- *I'll help you. · I promise I won't … · I think it will …*\n- *I might go. · It might not rain.*\n- *Let's … · Why don't we …? · How about …ing? · Shall we …?*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ going to visit us next month.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa is.",
+        "incorrect": "Revisa esto: Con she se usa is."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Look at those clouds! It's going to ___.",
+      "answer": [
+        "rain"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Going to + verbo base.",
+        "incorrect": "Revisa esto: Going to + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ringing. — I ___ get it.",
+      "answer": [
+        "'ll"
+      ],
+      "accepted_alternatives": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: I'll.",
+        "incorrect": "Revisa esto: Decisión en el momento: I'll."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm not sure. I ___ go to the party. (quizás)",
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la mejor frase para un plan ya decidido.",
+      "options": [
+        "We're going to travel to Italy in July.",
+        "We will might travel to Italy.",
+        "We travel to going Italy.",
+        "We'll to travel to Italy."
+      ],
+      "answer": [
+        "We're going to travel to Italy in July."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan decidido: be going to.",
+        "incorrect": "Revisa esto: Plan decidido: be going to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to call you tomorrow.",
+      "answer": [
+        "I'll call you tomorrow.",
+        "I will call you tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will + verbo base, sin to.",
+        "incorrect": "Revisa esto: Will + verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How about to go to the beach?",
+      "answer": [
+        "How about going to the beach?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What you are going to do tonight?",
+      "answer": [
+        "What are you going to do tonight?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En pregunta: be + sujeto.",
+        "incorrect": "Revisa esto: En pregunta: be + sujeto."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es seguro?",
+      "options": [
+        "He is going to meet Anna",
+        "They will go to the cinema",
+        "They will have dinner",
+        "He will call at six"
+      ],
+      "answer": [
+        "He is going to meet Anna"
+      ],
+      "audio_text": "I'm going to meet Anna at six. We might go to the cinema, or we might have dinner. I'll call you later.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'm going to meet Anna at six'; lo demás es might.",
+        "incorrect": "Revisa esto: Dice 'I'm going to meet Anna at six'; lo demás es might."
+      },
+      "audio_script_id": "en-a2-u05-l06-ex09-a"
+    },
+    {
+      "id": "en-a2-u05-l06-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mañana voy a visitar a mi abuela, pero quizás llueva.",
+      "answer": [
+        "Tomorrow I'm going to visit my grandmother, but it might rain.",
+        "Tomorrow I am going to visit my grandmother, but it might rain.",
+        "I'm going to visit my grandmother tomorrow, but it might rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan con going to y posibilidad con might.",
+        "incorrect": "Revisa esto: Plan con going to y posibilidad con might."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-forms",
+        "suggestions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases sobre tus planes del próximo fin de semana: dos planes seguros (going to), una posibilidad (might) y una propuesta para un amigo (Let's / Why don't we).",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste going to para planes seguros?",
+        "¿Usaste might para una posibilidad?",
+        "¿Hiciste una propuesta con Let's o Why don't we?",
+        "¿Usaste el verbo base después de going to y might?"
+      ],
+      "model_answer": "This weekend I'm going to visit my cousin. I'm going to cook lunch for him. I might go to the cinema in the evening. Why don't we meet on Sunday?",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u05-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "future-forms",
+        "suggestions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por el fin de semana.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What are you going to do this weekend?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm going to visit my parents. I might go to the cinema too.",
+            "I visit my parents going. I might to go.",
+            "I will going to visit my parents."
+          ],
+          "best": 0,
+          "why_es": "going to para el plan, might para la duda."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Why don't we meet on Sunday?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Good idea! What time shall we meet?",
+            "Good idea! What time we meet?",
+            "Idea good. Time?"
+          ],
+          "best": 0,
+          "why_es": "Aceptas y preguntas la hora con shall we."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm going to … · It's going to …",
+      "I'll … · I won't … · I think it will …",
+      "I might … · It might not …",
+      "Let's … · Why don't we …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-going-to-plans"
+    },
+    {
+      "type": "grammar",
+      "id": "en-going-to-predictions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-will"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-forms"
+    },
+    {
+      "type": "grammar",
+      "id": "en-suggestions"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

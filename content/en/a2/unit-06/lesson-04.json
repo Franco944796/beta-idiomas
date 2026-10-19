@@ -1,0 +1,402 @@
+{
+  "id": "en-a2-u06-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Have to and must",
+    "es": "Obligación: have to, don't have to, must, mustn't"
+  },
+  "objective": "Al terminar expresas obligación y prohibición con have to, don't have to, must y mustn't y no los confundes.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No tienes que ir' y 'no debes ir' no significan lo mismo, y en inglés tampoco: don't have to ≠ mustn't."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mr Hill",
+        "text": "Welcome, Sara. Here are the main rules. You have to wear a uniform at work.",
+        "es": "Bienvenida, Sara. Estas son las reglas principales. Tienes que usar uniforme en el trabajo."
+      },
+      {
+        "speaker": "Sara",
+        "text": "Do I have to buy it?",
+        "es": "¿Tengo que comprarlo?"
+      },
+      {
+        "speaker": "Mr Hill",
+        "text": "No, you don't have to. The company gives it to you. But you mustn't wear it outside work.",
+        "es": "No, no tienes que hacerlo. La empresa te lo da. Pero no debes usarlo fuera del trabajo."
+      },
+      {
+        "speaker": "Sara",
+        "text": "OK. Do I have to work on Saturdays?",
+        "es": "Bien. ¿Tengo que trabajar los sábados?"
+      },
+      {
+        "speaker": "Mr Hill",
+        "text": "No, you don't. But you have to start at eight every day, and you must be on time.",
+        "es": "No. Pero tienes que empezar a las ocho todos los días, y debes ser puntual."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-have-to",
+        "lemma": "have to",
+        "pos": "phrase",
+        "ipa": "/ˈhæv tə/",
+        "es": "tener que (obligación)",
+        "example": "You have to wear a uniform."
+      },
+      {
+        "id": "en-don-t-have-to",
+        "lemma": "don't have to",
+        "pos": "phrase",
+        "ipa": "/dəʊnt ˈhæv tə/",
+        "es": "no tener que (no es necesario)",
+        "example": "You don't have to buy it."
+      },
+      {
+        "id": "en-must",
+        "lemma": "must",
+        "pos": "modal",
+        "ipa": "/mʌst/",
+        "es": "deber (obligación fuerte)",
+        "example": "You must be on time."
+      },
+      {
+        "id": "en-mustn-t",
+        "lemma": "mustn't",
+        "pos": "modal",
+        "ipa": "/ˈmʌsnt/",
+        "es": "no se debe (prohibido)",
+        "example": "You mustn't wear it outside."
+      },
+      {
+        "id": "en-uniform",
+        "lemma": "uniform",
+        "pos": "noun",
+        "ipa": "/ˈjuːnɪfɔːm/",
+        "es": "uniforme",
+        "example": "You have to wear a uniform."
+      },
+      {
+        "id": "en-rule",
+        "lemma": "rule",
+        "pos": "noun",
+        "ipa": "/ruːl/",
+        "es": "regla, norma",
+        "example": "Here are the main rules."
+      },
+      {
+        "id": "en-on-time",
+        "lemma": "on time",
+        "pos": "phrase",
+        "ipa": "/ɒn taɪm/",
+        "es": "a tiempo, puntual",
+        "example": "You must be on time."
+      }
+    ],
+    "audio_script_id": "en-a2-u06-l04-d01"
+  },
+  "explanation": {
+    "md_es": "| Expresión | Significado | Ejemplo |\n|---|---|---|\n| **have to** | obligación (por una regla o situación externa) | *You have to wear a uniform.* |\n| **don't have to** | **no es necesario** (tienes libertad) | *You don't have to buy it.* |\n| **must** | obligación fuerte (personal o en reglas escritas) | *You must be on time.* |\n| **mustn't** | **prohibido** | *You mustn't wear it outside work.* |\n\n**¡Cuidado!** *don't have to* = no hace falta; *mustn't* = está prohibido. *You don't have to come* (puedes no venir) ≠ *You mustn't come* (no debes venir).\n\n**Preguntas:** *Do I have to work on Saturdays? — Yes, you do. / No, you don't.* (con *have to* se usa *do*; con *must* no: *Must I …?* suena formal).\n\n**Pasado:** *must* no tiene pasado; se usa **had to**: *I had to wait for an hour.*\n\nPronunciación: *have to* /ˈhæf tə/ (la v suena /f/) · *mustn't* /ˈmʌsnt/ (la t no se pronuncia).",
+    "common_mistakes_es": [
+      {
+        "wrong": "You mustn't come if you don't want.",
+        "right": "You don't have to come if you don't want to.",
+        "note": "Para 'no hace falta' usa don't have to."
+      },
+      {
+        "wrong": "I must to go.",
+        "right": "I must go. / I have to go.",
+        "note": "Must va con verbo base, sin to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 20,
+      "prompt": "En el trabajo, el uniforme es gratis y no es necesario comprarlo. Dices:",
+      "options": [
+        "I don't have to buy it.",
+        "I mustn't buy it.",
+        "I haven't to buy it.",
+        "I not must buy it."
+      ],
+      "answer": [
+        "I don't have to buy it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No es necesario = don't have to.",
+        "incorrect": "Revisa esto: No es necesario = don't have to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un cartel dice que no se puede fumar. Dices:",
+      "options": [
+        "You mustn't smoke here.",
+        "You don't have to smoke here.",
+        "You haven't smoke here.",
+        "You mustn't to smoke here."
+      ],
+      "answer": [
+        "You mustn't smoke here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibido = mustn't.",
+        "incorrect": "Revisa esto: Prohibido = mustn't."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ to wear a seat belt in the car. It's the law. (tienes que)",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obligación externa: have to.",
+        "incorrect": "Revisa esto: Obligación externa: have to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I have to bring my passport? — Yes, you do.",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con have to: Do + sujeto + have to.",
+        "incorrect": "Revisa esto: Pregunta con have to: Do + sujeto + have to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "Yesterday I ___ to wait for an hour. (tuve que)",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado de have to: had to.",
+        "incorrect": "Revisa esto: Pasado de have to: had to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You must to be on time.",
+      "answer": [
+        "You must be on time."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de must va el verbo base.",
+        "incorrect": "Revisa esto: Después de must va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't has to work today.",
+      "answer": [
+        "She doesn't have to work today."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't va el verbo base: have.",
+        "incorrect": "Revisa esto: Después de doesn't va el verbo base: have."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex08",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 15,
+      "prompt": "'You don't have to come' significa que está prohibido venir.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't have to = no es necesario; prohibido = mustn't.",
+        "incorrect": "Revisa esto: Don't have to = no es necesario; prohibido = mustn't."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Tiene que comprar el uniforme Sara?",
+      "options": [
+        "No, the company gives it",
+        "Yes, in a shop",
+        "Yes, online",
+        "Only on Saturdays"
+      ],
+      "answer": [
+        "No, the company gives it"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Mr Hill dice 'you don't have to. The company gives it to you'.",
+        "incorrect": "Revisa esto: Mr Hill dice 'you don't have to. The company gives it to you'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es obligatorio?",
+      "options": [
+        "Not being late",
+        "Bringing food",
+        "Staying at home",
+        "Paying at the door"
+      ],
+      "answer": [
+        "Not being late"
+      ],
+      "audio_text": "You don't have to bring food, but you mustn't be late. The film starts at eight.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'you mustn't be late'.",
+        "incorrect": "Revisa esto: Dice 'you mustn't be late'."
+      },
+      "audio_script_id": "en-a2-u06-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u06-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No tienes que venir, pero no debes llegar tarde.",
+      "answer": [
+        "You don't have to come, but you mustn't be late.",
+        "You don't have to come but you mustn't be late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No es necesario = don't have to; prohibido = mustn't.",
+        "incorrect": "Revisa esto: No es necesario = don't have to; prohibido = mustn't."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You have to … · I had to …",
+      "You don't have to … (no hace falta)",
+      "You must … · You mustn't … (prohibido)",
+      "Do I have to …? — Yes, you do."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-have-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-don-t-have-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-must"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mustn-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-uniform"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rule"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-time"
+    },
+    {
+      "type": "grammar",
+      "id": "en-have-to-must"
+    }
+  ]
+}

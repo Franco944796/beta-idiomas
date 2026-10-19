@@ -1,0 +1,435 @@
+{
+  "id": "en-a2-u02-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "At the airport and hotel",
+    "es": "En el aeropuerto y el hotel: Could you...?"
+  },
+  "objective": "Al terminar haces pedidos corteses en un aeropuerto o un hotel con Could you…? y I'd like to… y entiendes las respuestas.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab"
+  ],
+  "warmup": {
+    "prompt_es": "Estás en la recepción de un hotel en otro país. ¿Cómo pides lo que necesitas de manera cortés?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Receptionist",
+        "text": "Good evening. How can I help you?",
+        "es": "Buenas noches. ¿En qué puedo ayudarlo?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "Hello. I have a reservation under the name Garcia.",
+        "es": "Hola. Tengo una reserva a nombre de García."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, a double room for three nights. Could I see your passport, please?",
+        "es": "Sí, una habitación doble por tres noches. ¿Podría ver su pasaporte, por favor?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "Of course. Here you are. Is breakfast included?",
+        "es": "Por supuesto. Aquí tiene. ¿El desayuno está incluido?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, it is. It's from seven to ten.",
+        "es": "Sí. Es de siete a diez."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Great. Could you tell me the Wi-Fi password, please?",
+        "es": "Perfecto. ¿Podría decirme la contraseña del wifi, por favor?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-reservation",
+        "lemma": "reservation",
+        "pos": "noun",
+        "ipa": "/ˌrezəˈveɪʃn/",
+        "es": "reserva",
+        "example": "I have a reservation."
+      },
+      {
+        "id": "en-double-room",
+        "lemma": "double room",
+        "pos": "noun",
+        "ipa": "/ˈdʌbl ruːm/",
+        "es": "habitación doble",
+        "example": "A double room for two nights."
+      },
+      {
+        "id": "en-check-in",
+        "lemma": "check in",
+        "pos": "phrasal verb",
+        "ipa": "/tʃek ɪn/",
+        "es": "registrarse (en un hotel o aeropuerto)",
+        "example": "What time can we check in?"
+      },
+      {
+        "id": "en-included",
+        "lemma": "included",
+        "pos": "adj",
+        "ipa": "/ɪnˈkluːdɪd/",
+        "es": "incluido/a",
+        "example": "Is breakfast included?"
+      },
+      {
+        "id": "en-password",
+        "lemma": "password",
+        "pos": "noun",
+        "ipa": "/ˈpɑːswɜːd/",
+        "es": "contraseña",
+        "example": "What's the Wi-Fi password?"
+      },
+      {
+        "id": "en-here-you-are",
+        "lemma": "Here you are",
+        "pos": "phrase",
+        "ipa": "/hɪə juː ɑː/",
+        "es": "aquí tiene",
+        "example": "Here you are. This is my passport."
+      },
+      {
+        "id": "en-of-course",
+        "lemma": "of course",
+        "pos": "phrase",
+        "ipa": "/əv kɔːs/",
+        "es": "por supuesto",
+        "example": "Of course. Here you are."
+      }
+    ],
+    "audio_script_id": "en-a2-u02-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Pedir con cortesía**\n\n- **Could you** + verbo base + *please*? → *Could you help me, please?* (¿podría ayudarme?)\n- **Could I** + verbo base…? → *Could I see your passport?* (¿podría ver…?)\n- **I'd like to** + verbo base → *I'd like to check in.* (quisiera…)\n- **Is / Are … included?** → *Is breakfast included?*\n\n**Responder:** *Of course. / Certainly. / Sure. / Sorry, I can't.* · Al entregar algo: *Here you are.*\n\n**Más frases útiles:** *What time is check-out?* · *Where is the lift?* · *Can I have the key, please?*\n\nCould es más educado que can. Después de could va el **verbo base** (sin to): *Could you help…* (no *Could you to help…*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Could you to open the door?",
+        "right": "Could you open the door?",
+        "note": "Could no lleva to."
+      },
+      {
+        "wrong": "I want a room.",
+        "right": "I'd like a room, please.",
+        "note": "I want suena demasiado directo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir amablemente que te ayuden. ¿Qué dices?",
+      "options": [
+        "Could you help me, please?",
+        "You help me.",
+        "Help me now.",
+        "Do you help?"
+      ],
+      "answer": [
+        "Could you help me, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could you… + please es una petición educada.",
+        "incorrect": "Revisa esto: Could you… + please es una petición educada."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I see your passport, please?",
+      "answer": [
+        "Could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para pedir permiso con cortesía: Could I…?",
+        "incorrect": "Revisa esto: Para pedir permiso con cortesía: Could I…?"
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like ___ check in.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like + to + verbo.",
+        "incorrect": "Revisa esto: I'd like + to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "tell",
+        "me",
+        "the",
+        "password",
+        ",",
+        "please",
+        "?",
+        "Could",
+        "you"
+      ],
+      "answer": [
+        "Could",
+        "you",
+        "tell",
+        "me",
+        "the",
+        "password",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could you + verbo base + please.",
+        "incorrect": "Revisa esto: Could you + verbo base + please."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you to help me?",
+      "answer": [
+        "Could you help me?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de could va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de could va el verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Alguien te pide el pasaporte. Se lo das y dices:",
+      "options": [
+        "Here you are.",
+        "Of course not.",
+        "No problem.",
+        "I'm sorry."
+      ],
+      "answer": [
+        "Here you are."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí tiene = Here you are.",
+        "incorrect": "Revisa esto: Aquí tiene = Here you are."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántas noches reservó la persona?",
+      "options": [
+        "Three",
+        "Two",
+        "One",
+        "Five"
+      ],
+      "answer": [
+        "Three"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La recepcionista dice 'for three nights'.",
+        "incorrect": "Revisa esto: La recepcionista dice 'for three nights'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l03-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le piden a la otra persona?",
+      "options": [
+        "To take a photo",
+        "To book a hotel",
+        "To carry a bag",
+        "To open a door"
+      ],
+      "answer": [
+        "To take a photo"
+      ],
+      "audio_text": "Could you take a photo of us, please? — Of course. Smile!",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Could you take a photo of us?'",
+        "incorrect": "Revisa esto: Dice 'Could you take a photo of us?'"
+      },
+      "audio_script_id": "en-a2-u02-l03-ex08-a"
+    },
+    {
+      "id": "en-a2-u02-l03-ex09",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Could I have the key, please?",
+      "answer": [
+        "Could I have the key, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido educado con Could I have…?",
+        "incorrect": "Revisa esto: Pedido educado con Could I have…?"
+      },
+      "audio_script_id": "en-a2-u02-l03-ex09-a"
+    },
+    {
+      "id": "en-a2-u02-l03-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Llegas a un hotel y haces el check-in.",
+      "turns": [
+        {
+          "speaker": "Receptionist",
+          "text": "Good afternoon. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like to check in, please.",
+            "I want check in.",
+            "I like checking in."
+          ],
+          "best": 0,
+          "why_es": "I'd like to + verbo base es cortés."
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "Your name, please?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It's Lopez. Could I have a quiet room?",
+            "Lopez. Give me a room.",
+            "I Lopez. Room quiet."
+          ],
+          "best": 0,
+          "why_es": "Could I have…? es una petición educada."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Could you help me, please?",
+      "Could I see …? · I'd like to …",
+      "Here you are. · Of course.",
+      "Is breakfast included?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-reservation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-double-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-check-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-included"
+    },
+    {
+      "type": "vocab",
+      "id": "en-password"
+    },
+    {
+      "type": "vocab",
+      "id": "en-here-you-are"
+    },
+    {
+      "type": "vocab",
+      "id": "en-of-course"
+    },
+    {
+      "type": "grammar",
+      "id": "en-could-requests"
+    }
+  ]
+}

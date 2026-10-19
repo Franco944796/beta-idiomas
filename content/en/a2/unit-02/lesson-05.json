@@ -1,0 +1,380 @@
+{
+  "id": "en-a2-u02-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A postcard from...",
+    "es": "Escribir una postal o un correo sobre un viaje"
+  },
+  "objective": "Al terminar escribes una postal o un correo informal contando qué hiciste, cómo estás y qué harás.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás de viaje y quieres contarle a un amigo cómo va todo. ¿Cómo empiezas y cómo te despides?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Hi Mum, Greetings from Lisbon! We arrived on Monday and the weather is fantastic. Yesterday we visited the castle and walked around the old town. The food is delicious and the people are very friendly. Tomorrow we're going to the beach. Wish you were here! Love, Ella",
+    "es": "Hola mamá, ¡saludos desde Lisboa! Llegamos el lunes y el clima es fantástico. Ayer visitamos el castillo y caminamos por el casco antiguo. La comida es deliciosa y la gente es muy amable. Mañana vamos a la playa. ¡Ojalá estuvieras aquí! Con cariño, Ella",
+    "glossary": [
+      {
+        "id": "en-greetings",
+        "lemma": "greetings",
+        "pos": "noun",
+        "ipa": "/ˈɡriːtɪŋz/",
+        "es": "saludos",
+        "example": "Greetings from Lisbon!"
+      },
+      {
+        "id": "en-castle",
+        "lemma": "castle",
+        "pos": "noun",
+        "ipa": "/ˈkɑːsl/",
+        "es": "castillo",
+        "example": "We visited the castle."
+      },
+      {
+        "id": "en-old-town",
+        "lemma": "old town",
+        "pos": "noun",
+        "ipa": "/əʊld taʊn/",
+        "es": "casco antiguo",
+        "example": "We walked around the old town."
+      },
+      {
+        "id": "en-delicious",
+        "lemma": "delicious",
+        "pos": "adj",
+        "ipa": "/dɪˈlɪʃəs/",
+        "es": "delicioso/a",
+        "example": "The food is delicious."
+      },
+      {
+        "id": "en-friendly",
+        "lemma": "friendly",
+        "pos": "adj",
+        "ipa": "/ˈfrendli/",
+        "es": "amable, simpático",
+        "example": "The people are very friendly."
+      },
+      {
+        "id": "en-wish-you-were-here",
+        "lemma": "wish you were here",
+        "pos": "phrase",
+        "ipa": "/wɪʃ juː wɜː hɪə/",
+        "es": "ojalá estuvieras aquí",
+        "example": "Wish you were here!"
+      },
+      {
+        "id": "en-love",
+        "lemma": "love",
+        "pos": "noun",
+        "ipa": "/lʌv/",
+        "es": "con cariño (al despedirse)",
+        "example": "Love, Ella"
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de una postal o correo informal**\n\n1. **Saludo:** *Hi Mum, / Dear Anna, / Hello Sam,*\n2. **Apertura:** *Greetings from Lisbon! / We're having a great time.*\n3. **Qué hiciste (pasado):** *Yesterday we visited the castle.*\n4. **Cómo es / cómo estás (presente):** *The weather is fantastic. The people are friendly.*\n5. **Qué harás (futuro cercano):** *Tomorrow we're going to the beach.*\n6. **Despedida:** *See you soon! / Wish you were here! / Love, Ella* (con amigos y familia) · *Best wishes,* (más neutro).\n\n**Adjetivos útiles:** *fantastic, delicious, beautiful, friendly, amazing, crowded, expensive*.\n\n**Consejo:** combina los tiempos: pasado para lo que hiciste, presente para cómo es, y *we're going to* o presente continuo para lo que sigue.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Dear friend, I am writing to inform you of my trip.",
+        "right": "Hi Tom, Greetings from Rome!",
+        "note": "Una postal informal no suena como una carta formal."
+      },
+      {
+        "wrong": "The weather was fantastic now.",
+        "right": "The weather is fantastic.",
+        "note": "Para describir el presente usa is."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo Ella ayer?",
+      "options": [
+        "Visited the castle",
+        "Went to the beach",
+        "Arrived in Lisbon",
+        "Took a plane"
+      ],
+      "answer": [
+        "Visited the castle"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Yesterday we visited the castle'.",
+        "incorrect": "Revisa esto: Dice 'Yesterday we visited the castle'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo es la comida según Ella?",
+      "options": [
+        "Delicious",
+        "Expensive",
+        "Boring",
+        "Terrible"
+      ],
+      "answer": [
+        "Delicious"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'The food is delicious'.",
+        "incorrect": "Revisa esto: El texto dice 'The food is delicious'."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo te despides con cariño en una postal a un amigo?",
+      "options": [
+        "Love, Ella",
+        "Yours faithfully, Ella",
+        "To whom it may concern",
+        "Goodbye, Mr Ella"
+      ],
+      "answer": [
+        "Love, Ella"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Love' es informal y afectuoso.",
+        "incorrect": "Revisa esto: 'Love' es informal y afectuoso."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres empezar tu postal. ¿Qué escribes?",
+      "options": [
+        "Greetings from Rome!",
+        "Dear Sir or Madam,",
+        "I am writing to complain.",
+        "Subject: Meeting"
+      ],
+      "answer": [
+        "Greetings from Rome!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es el saludo típico de una postal.",
+        "incorrect": "Revisa esto: Es el saludo típico de una postal."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "Yesterday we ___ (walk) around the old town.",
+      "answer": [
+        "walked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado regular: walked.",
+        "incorrect": "Revisa esto: Pasado regular: walked."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 25,
+      "prompt": "The people ___ very friendly.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Describir cómo es algo ahora: presente con are.",
+        "incorrect": "Revisa esto: Describir cómo es algo ahora: presente con are."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday we visit the castle.",
+      "answer": [
+        "Yesterday we visited the castle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con yesterday: pasado simple.",
+        "incorrect": "Revisa esto: Con yesterday: pasado simple."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "were",
+        "here",
+        "!",
+        "Wish",
+        "you"
+      ],
+      "answer": [
+        "Wish",
+        "you",
+        "were",
+        "here",
+        "!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase final típica de una postal.",
+        "incorrect": "Revisa esto: Frase final típica de una postal."
+      }
+    },
+    {
+      "id": "en-a2-u02-l05-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Adónde irán mañana?",
+      "options": [
+        "To the lake",
+        "To the castle",
+        "To the old town",
+        "To the airport"
+      ],
+      "answer": [
+        "To the lake"
+      ],
+      "audio_text": "Hi Dan! We're in Prague. Yesterday we saw the castle. Tomorrow we're going to the lake. See you soon!",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Tomorrow we're going to the lake'.",
+        "incorrect": "Revisa esto: Dice 'Tomorrow we're going to the lake'."
+      },
+      "audio_script_id": "en-a2-u02-l05-ex09-a"
+    },
+    {
+      "id": "en-a2-u02-l05-ex10",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "postcard",
+        "past-simple-regular"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una postal a un amigo desde un lugar que visitaste (real o imaginario). Cuenta qué hiciste ayer, cómo es el lugar y qué harás mañana.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Empezaste con un saludo y 'Greetings from…'?",
+        "¿Usaste pasado para lo que hiciste?",
+        "¿Describiste el lugar en presente?",
+        "¿Contaste un plan con going to o presente continuo?",
+        "¿Te despediste con Love / See you soon?"
+      ],
+      "model_answer": "Hi Tom, Greetings from Venice! The weather is beautiful. Yesterday we walked along the canals and ate pizza. The people are very friendly. Tomorrow we're going to visit a small island. Wish you were here! Love, Sara",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Hi …, Greetings from …!",
+      "Yesterday we visited … · The food is …",
+      "Tomorrow we're going to …",
+      "Wish you were here! · Love, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-greetings"
+    },
+    {
+      "type": "vocab",
+      "id": "en-castle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-old-town"
+    },
+    {
+      "type": "vocab",
+      "id": "en-delicious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-friendly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wish-you-were-here"
+    },
+    {
+      "type": "vocab",
+      "id": "en-love"
+    },
+    {
+      "type": "grammar",
+      "id": "en-postcard-writing"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "en-a2-u03-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 3,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "as ... as, too, enough",
+    "es": "As...as, too y enough"
+  },
+  "objective": "Al terminar usas (not) as … as, too y enough para comparar igualdades y decir que algo es demasiado o suficiente.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Tan caro como', 'demasiado ruidoso', 'lo bastante grande': tres formas más de comparar."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Shall we eat here or at the Italian place?",
+        "es": "¿Comemos aquí o en el restaurante italiano?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "This one isn't as expensive as the Italian place.",
+        "es": "Este no es tan caro como el italiano."
+      },
+      {
+        "speaker": "Anna",
+        "text": "True, but it's too noisy. I can't hear you!",
+        "es": "Cierto, pero es demasiado ruidoso. ¡No te oigo!"
+      },
+      {
+        "speaker": "Ben",
+        "text": "The food here is as good as the food there.",
+        "es": "La comida de aquí es tan buena como la de allá."
+      },
+      {
+        "speaker": "Anna",
+        "text": "Is this table big enough for four people?",
+        "es": "¿Esta mesa es lo bastante grande para cuatro personas?"
+      },
+      {
+        "speaker": "Ben",
+        "text": "I think so. Let's stay. We don't have enough time to go anywhere else.",
+        "es": "Creo que sí. Quedémonos. No tenemos suficiente tiempo para ir a otro lado."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-as-as",
+        "lemma": "as … as",
+        "pos": "phrase",
+        "ipa": "/æz … æz/",
+        "es": "tan … como",
+        "example": "It's as good as that one."
+      },
+      {
+        "id": "en-too",
+        "lemma": "too",
+        "pos": "adv",
+        "ipa": "/tuː/",
+        "es": "demasiado (con sentido negativo)",
+        "example": "It's too noisy."
+      },
+      {
+        "id": "en-enough",
+        "lemma": "enough",
+        "pos": "adv",
+        "ipa": "/ɪˈnʌf/",
+        "es": "suficiente, lo bastante",
+        "example": "It's big enough."
+      },
+      {
+        "id": "en-shall-we",
+        "lemma": "shall we",
+        "pos": "phrase",
+        "ipa": "/ʃæl wiː/",
+        "es": "¿quieres que… / ¿vamos a…?",
+        "example": "Shall we eat here?"
+      },
+      {
+        "id": "en-true",
+        "lemma": "true",
+        "pos": "adj",
+        "ipa": "/truː/",
+        "es": "cierto, verdad",
+        "example": "True, but it's noisy."
+      },
+      {
+        "id": "en-anywhere-else",
+        "lemma": "anywhere else",
+        "pos": "phrase",
+        "ipa": "/ˈeniweə els/",
+        "es": "a otro lugar",
+        "example": "We can't go anywhere else."
+      }
+    ],
+    "audio_script_id": "en-a2-u03-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**as … as** (igualdad): *It's as good as that one.* (tan bueno como…)\n**not as … as** (menos que): *This isn't as expensive as that.* (no es tan caro como…)\n\n**too** + adjetivo = **demasiado** (con idea negativa): *It's too noisy. It's too expensive for me.*\n\n**enough**\n\n- **Después** del adjetivo: *The table is big **enough**.* (lo bastante grande)\n- **Antes** del sustantivo: *We have **enough** time.* · *We don't have **enough** money.*\n\n**Compara:** *too* (demasiado) ≠ *very* (muy): *The soup is very hot* (solo lo describes) vs *The soup is too hot* (no se puede comer).\n\n**Con verbo:** *too/enough + to + verbo*: *It's too cold to swim. She's old enough to drive.*",
+    "common_mistakes_es": [
+      {
+        "wrong": "It's very expensive for me, I can't buy it.",
+        "right": "It's too expensive for me.",
+        "note": "Too expresa 'demasiado' (problema)."
+      },
+      {
+        "wrong": "enough big",
+        "right": "big enough",
+        "note": "Enough va después del adjetivo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u03-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "This phone is ___ expensive as that one. (tan caro como)",
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Igualdad: as + adjetivo + as.",
+        "incorrect": "Revisa esto: Igualdad: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ noisy. I can't sleep. (demasiado)",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too = demasiado, con sentido negativo.",
+        "incorrect": "Revisa esto: Too = demasiado, con sentido negativo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "The room isn't big ___ for six people.",
+      "answer": [
+        "enough"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough va después del adjetivo.",
+        "incorrect": "Revisa esto: Enough va después del adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 20,
+      "prompt": "We don't have ___ money to buy a car.",
+      "options": [
+        "enough",
+        "too",
+        "as",
+        "very"
+      ],
+      "answer": [
+        "enough"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough va antes del sustantivo.",
+        "incorrect": "Revisa esto: Enough va antes del sustantivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 20,
+      "prompt": "The soup is ___ hot. I can't eat it.",
+      "options": [
+        "too",
+        "very",
+        "enough",
+        "as"
+      ],
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too = demasiado (no se puede comer).",
+        "incorrect": "Revisa esto: Too = demasiado (no se puede comer)."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She isn't enough old to drive.",
+      "answer": [
+        "She isn't old enough to drive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough va después del adjetivo.",
+        "incorrect": "Revisa esto: Enough va después del adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This bag is so much expensive for me.",
+      "answer": [
+        "This bag is too expensive for me.",
+        "This bag is too expensive for me"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "as",
+        "expensive",
+        "as",
+        "that",
+        "one",
+        ".",
+        "This",
+        "isn't"
+      ],
+      "answer": [
+        "This",
+        "isn't",
+        "as",
+        "expensive",
+        "as",
+        "that",
+        "one",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! not as + adjetivo + as.",
+        "incorrect": "Revisa esto: not as + adjetivo + as."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Anna dice que no quiere comer allí?",
+      "options": [
+        "It's too noisy",
+        "It's too expensive",
+        "It's too small",
+        "It's too far"
+      ],
+      "answer": [
+        "It's too noisy"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Anna dice 'it's too noisy'.",
+        "incorrect": "Revisa esto: Anna dice 'it's too noisy'."
+      }
+    },
+    {
+      "id": "en-a2-u03-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué no compra la chaqueta?",
+      "options": [
+        "It's too expensive",
+        "It's too big",
+        "It's too old",
+        "It isn't warm enough"
+      ],
+      "answer": [
+        "It's too expensive"
+      ],
+      "audio_text": "I'd love to buy this jacket, but it's too expensive. I don't have enough money.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it's too expensive'.",
+        "incorrect": "Revisa esto: Dice 'it's too expensive'."
+      },
+      "audio_script_id": "en-a2-u03-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u03-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Esta mesa no es lo bastante grande.",
+      "answer": [
+        "This table isn't big enough.",
+        "This table is not big enough."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough después del adjetivo.",
+        "incorrect": "Revisa esto: Enough después del adjetivo."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "as good as · not as expensive as",
+      "too noisy · too expensive",
+      "big enough · enough money"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-as-as"
+    },
+    {
+      "type": "vocab",
+      "id": "en-too"
+    },
+    {
+      "type": "vocab",
+      "id": "en-enough"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shall-we"
+    },
+    {
+      "type": "vocab",
+      "id": "en-true"
+    },
+    {
+      "type": "vocab",
+      "id": "en-anywhere-else"
+    },
+    {
+      "type": "grammar",
+      "id": "en-as-as-too-enough"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "en-a2-u03-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 3,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 3",
+    "es": "Repaso y checkpoint 3"
+  },
+  "objective": "Al terminar comparas personas, lugares y cosas con comparativos, superlativos, as … as, too y enough.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 3: demuestra que puedes comparar y elegir."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: adjetivos y opuestos, comparativos (-er / more … than), superlativos (the -est / the most), as … as, too y enough.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 3**\n\n- *quiet ↔ noisy · clean ↔ dirty · safe ↔ dangerous*\n- *taller than · bigger than · more expensive than · better · worse*\n- *the tallest · the biggest · the most interesting · the best · the worst*\n- *as good as · not as expensive as · too noisy · big enough · enough money*\n- *I prefer A to B. · I think … is the best choice.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u03-l06-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "My brother is ___ (tall) than me.",
+      "answer": [
+        "taller"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: taller than.",
+        "incorrect": "Revisa esto: Adjetivo corto: taller than."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the ___ (good) cake in town.",
+      "answer": [
+        "best"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: the best.",
+        "incorrect": "Revisa esto: Good es irregular: the best."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "The hotel is ___ expensive. I can't pay for it. (demasiado)",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "Is the room big ___ for three people?",
+      "answer": [
+        "enough"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough va después del adjetivo.",
+        "incorrect": "Revisa esto: Enough va después del adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She is more intelligent than her brother.",
+        "She is intelligenter than her brother.",
+        "She is more intelligent that her brother.",
+        "She is the more intelligent than her brother."
+      ],
+      "answer": [
+        "She is more intelligent than her brother."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "It's the most beautiful city in the country.",
+        "It's the more beautiful city in the country.",
+        "It's most beautiful city in the country.",
+        "It's the beautifulest city in the country."
+      ],
+      "answer": [
+        "It's the most beautiful city in the country."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo largo: the most + adjetivo.",
+        "incorrect": "Revisa esto: Superlativo largo: the most + adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This street is more noisy than that one.",
+      "answer": [
+        "This street is noisier than that one."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos sílabas en -y: noisier.",
+        "incorrect": "Revisa esto: Dos sílabas en -y: noisier."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He isn't enough tall to play basketball.",
+      "answer": [
+        "He isn't tall enough to play basketball."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough después del adjetivo.",
+        "incorrect": "Revisa esto: Enough después del adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué ventaja tiene el departamento del centro?",
+      "options": [
+        "It's cheaper and closer to work",
+        "It's bigger",
+        "It's quieter",
+        "It has a garden"
+      ],
+      "answer": [
+        "It's cheaper and closer to work"
+      ],
+      "audio_text": "The flat in the city centre is smaller than the one near the park, but it's cheaper and closer to my work.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'cheaper and closer to my work'.",
+        "incorrect": "Revisa esto: Dice 'cheaper and closer to my work'."
+      },
+      "audio_script_id": "en-a2-u03-l06-ex09-a"
+    },
+    {
+      "id": "en-a2-u03-l06-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Esta ciudad es más cara que mi pueblo, pero es más emocionante.",
+      "answer": [
+        "This city is more expensive than my town, but it's more exciting.",
+        "This city is more expensive than my town, but it is more exciting."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos comparativos largos con more … than.",
+        "incorrect": "Revisa esto: Dos comparativos largos con more … than."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparatives",
+        "superlatives"
+      ],
+      "est_seconds": 180,
+      "prompt": "Compara dos lugares que conoces (dos ciudades, dos barrios o dos tiendas). Usa un comparativo, un superlativo y too o enough.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste un comparativo con than?",
+        "¿Usaste un superlativo con the?",
+        "¿Usaste too o enough?",
+        "¿Diste tu opinión?"
+      ],
+      "model_answer": "Madrid is bigger than Valencia, but Valencia is quieter. The beach in Valencia is the best in Spain for me. Madrid is too crowded in summer. I prefer Valencia.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u03-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "comparatives",
+        "as-as-too-enough"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Comparas dos móviles con un vendedor.",
+      "turns": [
+        {
+          "speaker": "Seller",
+          "text": "This phone is more expensive, but it has the best camera."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It's too expensive for me. Is the other one cheaper?",
+            "It's too much expensive. The other is more cheap?",
+            "It's very for me. The other cheaper?"
+          ],
+          "best": 0,
+          "why_es": "too + adjetivo; Is the other one cheaper?"
+        },
+        {
+          "speaker": "Seller",
+          "text": "Yes, it's cheaper, but the battery isn't as good."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'll take the cheaper one. It's good enough for me.",
+            "I take the more cheap. Enough good.",
+            "I'll take cheaper. Good enough than me."
+          ],
+          "best": 0,
+          "why_es": "the cheaper one + good enough."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "taller than · more expensive than",
+      "the biggest · the most interesting · the best",
+      "as … as · too noisy · big enough",
+      "I prefer A to B."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-comparatives"
+    },
+    {
+      "type": "grammar",
+      "id": "en-superlatives"
+    },
+    {
+      "type": "grammar",
+      "id": "en-as-as-too-enough"
+    },
+    {
+      "type": "grammar",
+      "id": "en-comparing-choosing"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

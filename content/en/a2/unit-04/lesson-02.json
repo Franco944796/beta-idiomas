@@ -1,0 +1,453 @@
+{
+  "id": "en-a2-u04-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 4,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Much, many, a lot of",
+    "es": "Much, many, a lot of, a few, a little"
+  },
+  "objective": "Al terminar preguntas y hablas de cantidades con how much / how many, a lot of, a few y a little.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿'Cuánto' y 'cuántos' son iguales en inglés? No: depende de si puedes contar lo que preguntas."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mia",
+        "text": "How many people are coming to the party?",
+        "es": "¿Cuánta gente viene a la fiesta?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "About twenty. A lot of them are bringing friends.",
+        "es": "Unas veinte. Muchos traen amigos."
+      },
+      {
+        "speaker": "Mia",
+        "text": "How much food do we need?",
+        "es": "¿Cuánta comida necesitamos?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Not much. We've got a lot of crisps, but only a little cheese.",
+        "es": "No mucha. Tenemos muchas papas fritas, pero solo un poco de queso."
+      },
+      {
+        "speaker": "Mia",
+        "text": "And drinks? How many bottles of water have we got?",
+        "es": "¿Y bebidas? ¿Cuántas botellas de agua tenemos?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Only a few. I'll buy some more. I don't want too much fizzy drink.",
+        "es": "Solo unas pocas. Compraré más. No quiero demasiada gaseosa."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-a-lot-of",
+        "lemma": "a lot of",
+        "pos": "phrase",
+        "ipa": "/ə lɒt əv/",
+        "es": "mucho/a(s)",
+        "example": "We've got a lot of crisps."
+      },
+      {
+        "id": "en-a-few",
+        "lemma": "a few",
+        "pos": "phrase",
+        "ipa": "/ə fjuː/",
+        "es": "unos pocos (contables)",
+        "example": "We've got a few bottles."
+      },
+      {
+        "id": "en-a-little",
+        "lemma": "a little",
+        "pos": "phrase",
+        "ipa": "/ə ˈlɪtl/",
+        "es": "un poco (incontables)",
+        "example": "We've got a little cheese."
+      },
+      {
+        "id": "en-too-much",
+        "lemma": "too much",
+        "pos": "phrase",
+        "ipa": "/tuː mʌtʃ/",
+        "es": "demasiado (incontable)",
+        "example": "I don't want too much fizzy drink."
+      },
+      {
+        "id": "en-crisps",
+        "lemma": "crisps",
+        "pos": "noun",
+        "ipa": "/krɪsps/",
+        "es": "papas fritas de bolsa (UK)",
+        "example": "We've got a lot of crisps."
+      },
+      {
+        "id": "en-fizzy-drink",
+        "lemma": "fizzy drink",
+        "pos": "noun",
+        "ipa": "/ˈfɪzi drɪŋk/",
+        "es": "gaseosa, bebida con gas",
+        "example": "I don't like fizzy drinks."
+      },
+      {
+        "id": "en-party",
+        "lemma": "party",
+        "pos": "noun",
+        "ipa": "/ˈpɑːti/",
+        "es": "fiesta",
+        "example": "Are you coming to the party?"
+      }
+    ],
+    "audio_script_id": "en-a2-u04-l02-d01"
+  },
+  "explanation": {
+    "md_es": "| | Contables (plural) | Incontables |\n|---|---|---|\n| Preguntar | **How many** apples? | **How much** milk? |\n| Mucho/a | a lot of / **many** (en pregunta y negativa) | a lot of / **much** (en pregunta y negativa) |\n| Unos pocos | **a few** | **a little** |\n| Casi ninguno | **few** | **little** |\n| Demasiado | **too many** | **too much** |\n\n**Ojo:** en frases afirmativas se prefiere **a lot of**: *We've got a lot of crisps.* (no *much crisps*). *Much* y *many* se usan sobre todo en preguntas y negativas: *We haven't got much time. How many people are coming?*\n\n**a few / a little** = hay algunos (tono positivo). **few / little** (sin a) = casi no hay (tono negativo): *I've got a few friends here.* vs *I've got few friends here.*\n\nPronunciación: *a few* /ə fjuː/ · *a little* /ə ˈlɪtl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "How many water do you drink?",
+        "right": "How much water do you drink?",
+        "note": "Water es incontable."
+      },
+      {
+        "wrong": "We have much people.",
+        "right": "We have a lot of people.",
+        "note": "Much casi no se usa en afirmativas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u04-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ water do you drink every day?",
+      "answer": [
+        "much"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Water es incontable: how much.",
+        "incorrect": "Revisa esto: Water es incontable: how much."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ eggs do we need?",
+      "answer": [
+        "many"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eggs es contable: how many.",
+        "incorrect": "Revisa esto: Eggs es contable: how many."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "There are ___ of people in the park today. (muchísimos)",
+      "answer": [
+        "lots"
+      ],
+      "accepted_alternatives": [
+        "a lot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lots of / a lot of: mucho/a(s).",
+        "incorrect": "Revisa esto: Lots of / a lot of: mucho/a(s)."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "We have ___ milk, enough for two coffees.",
+      "options": [
+        "a little",
+        "a few",
+        "many",
+        "too many"
+      ],
+      "answer": [
+        "a little"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Milk es incontable: a little.",
+        "incorrect": "Revisa esto: Milk es incontable: a little."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've got ___ friends in this city, so we can have a small party.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "too much"
+      ],
+      "answer": [
+        "a few"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Friends es contable: a few.",
+        "incorrect": "Revisa esto: Friends es contable: a few."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ noisy in here. I can't hear you.",
+      "options": [
+        "too",
+        "too much",
+        "too many",
+        "many"
+      ],
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un adjetivo se usa too: too noisy.",
+        "incorrect": "Revisa esto: Con un adjetivo se usa too: too noisy."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How many money do you have?",
+      "answer": [
+        "How much money do you have?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Money es incontable: how much.",
+        "incorrect": "Revisa esto: Money es incontable: how much."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I eat much vegetables.",
+      "answer": [
+        "I eat a lot of vegetables."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En afirmativas se usa a lot of, no much.",
+        "incorrect": "Revisa esto: En afirmativas se usa a lot of, no much."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "people",
+        "are",
+        "coming",
+        "to",
+        "the",
+        "party",
+        "?",
+        "How",
+        "many"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "people",
+        "are",
+        "coming",
+        "to",
+        "the",
+        "party",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many + sustantivo contable plural.",
+        "incorrect": "Revisa esto: How many + sustantivo contable plural."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto queso tienen para la fiesta?",
+      "options": [
+        "Only a little",
+        "A lot",
+        "None",
+        "Too much"
+      ],
+      "answer": [
+        "Only a little"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Tom dice 'only a little cheese'.",
+        "incorrect": "Revisa esto: Tom dice 'only a little cheese'."
+      }
+    },
+    {
+      "id": "en-a2-u04-l02-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hay poco?",
+      "options": [
+        "Sandwiches",
+        "Crisps",
+        "Drinks",
+        "Cheese"
+      ],
+      "answer": [
+        "Sandwiches"
+      ],
+      "audio_text": "We've got a lot of crisps, but only a few sandwiches. I think we need more food.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'only a few sandwiches'.",
+        "incorrect": "Revisa esto: Dice 'only a few sandwiches'."
+      },
+      "audio_script_id": "en-a2-u04-l02-ex11-a"
+    },
+    {
+      "id": "en-a2-u04-l02-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Cuánto azúcar quieres?",
+      "answer": [
+        "How much sugar do you want?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Azúcar es incontable: how much.",
+        "incorrect": "Revisa esto: Azúcar es incontable: how much."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "How many + contable · How much + incontable",
+      "a lot of · too many · too much",
+      "a few (contables) · a little (incontables)",
+      "few · little (casi nada)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-a-lot-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-few"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-little"
+    },
+    {
+      "type": "vocab",
+      "id": "en-too-much"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crisps"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fizzy-drink"
+    },
+    {
+      "type": "vocab",
+      "id": "en-party"
+    },
+    {
+      "type": "grammar",
+      "id": "en-quantifiers"
+    }
+  ]
+}

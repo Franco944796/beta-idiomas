@@ -1,0 +1,412 @@
+{
+  "id": "en-a2-u06-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "You should...",
+    "es": "Consejos con should / shouldn't"
+  },
+  "objective": "Al terminar das y pides consejos con should / shouldn't y expresas tu opinión con I think you should….",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un amigo duerme mal, otro no estudia lo suficiente: ¿cómo les das un consejo sin sonar autoritario?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Dear Jo, I can't sleep well. I go to bed at midnight, I drink a lot of coffee and I look at my phone in bed. I feel tired all day. What should I do? — Alex.\nDear Alex, I think you should go to bed earlier and you shouldn't drink coffee in the evening. You should also turn off your phone an hour before bed. Why don't you read a book or take a warm shower? You shouldn't worry too much. — Jo.",
+    "es": "Querida Jo: No duermo bien. Me acuesto a medianoche, tomo mucho café y miro el celular en la cama. Estoy cansado todo el día. ¿Qué debería hacer? — Alex.\nQuerido Alex: Creo que deberías acostarte más temprano y no deberías tomar café por la noche. También deberías apagar el celular una hora antes de dormir. ¿Por qué no lees un libro o te das una ducha tibia? No deberías preocuparte demasiado. — Jo.",
+    "glossary": [
+      {
+        "id": "en-should",
+        "lemma": "should",
+        "pos": "modal",
+        "ipa": "/ʃʊd/",
+        "es": "deberías (consejo)",
+        "example": "You should go to bed earlier."
+      },
+      {
+        "id": "en-shouldn-t",
+        "lemma": "shouldn't",
+        "pos": "modal",
+        "ipa": "/ˈʃʊdnt/",
+        "es": "no deberías",
+        "example": "You shouldn't drink coffee at night."
+      },
+      {
+        "id": "en-advice",
+        "lemma": "advice",
+        "pos": "noun",
+        "ipa": "/ədˈvaɪs/",
+        "es": "consejo(s) (incontable)",
+        "example": "Can I give you some advice?"
+      },
+      {
+        "id": "en-turn-off",
+        "lemma": "turn off",
+        "pos": "phrasal verb",
+        "ipa": "/tɜːn ɒf/",
+        "es": "apagar",
+        "example": "Turn off your phone."
+      },
+      {
+        "id": "en-sleep",
+        "lemma": "sleep",
+        "pos": "verb",
+        "ipa": "/sliːp/",
+        "es": "dormir",
+        "example": "I can't sleep well."
+      },
+      {
+        "id": "en-worry",
+        "lemma": "worry",
+        "pos": "verb",
+        "ipa": "/ˈwʌri/",
+        "es": "preocuparse",
+        "example": "Don't worry too much."
+      },
+      {
+        "id": "en-earlier",
+        "lemma": "earlier",
+        "pos": "adv",
+        "ipa": "/ˈɜːliə/",
+        "es": "más temprano",
+        "example": "Go to bed earlier."
+      },
+      {
+        "id": "en-midnight",
+        "lemma": "midnight",
+        "pos": "noun",
+        "ipa": "/ˈmɪdnaɪt/",
+        "es": "medianoche",
+        "example": "I go to bed at midnight."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Should / shouldn't + verbo base** → consejos y opiniones (*deberías / no deberías*). Igual para todas las personas.\n\n| | Ejemplo |\n|---|---|\n| Afirmativa | *You should go to bed earlier.* |\n| Negativa | *You shouldn't drink coffee at night.* |\n| Pregunta | *Should I see a doctor? — Yes, you should. / No, you shouldn't.* |\n\n**Cómo suavizar un consejo:** *I think you should …* · *Why don't you …?* · *If I were you, I'd …* · *Maybe you should …*\n\n**Para pedir un consejo:** *What should I do? · Can you give me some advice?* (*advice* es incontable: *some advice*, *a piece of advice*).\n\n**Ojo:** *should* no lleva *to* ni -s: *She should rest.* (no *She shoulds to rest*). **Advice** es el sustantivo; **advise** (/ədˈvaɪz/) es el verbo.\n\nPronunciación: *should* /ʃʊd/ (la l no suena) · *advice* /ədˈvaɪs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "You should to go.",
+        "right": "You should go.",
+        "note": "Should + verbo base."
+      },
+      {
+        "wrong": "I need an advice.",
+        "right": "I need some advice.",
+        "note": "Advice es incontable."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ go to bed earlier. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo: should + verbo base.",
+        "incorrect": "Revisa esto: Consejo: should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ drink so much coffee. (no deberías)",
+      "answer": [
+        "shouldn't",
+        "should not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo negativo: shouldn't + verbo base.",
+        "incorrect": "Revisa esto: Consejo negativo: shouldn't + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir un consejo a un amigo:",
+      "options": [
+        "What should I do?",
+        "What I should do?",
+        "What do I should?",
+        "What should I to do?"
+      ],
+      "answer": [
+        "What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con should: What should I do?",
+        "incorrect": "Revisa esto: Pregunta con should: What should I do?"
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige el consejo más amable:",
+      "options": [
+        "I think you should see a doctor.",
+        "You see a doctor now.",
+        "See doctor!",
+        "You must go, I say."
+      ],
+      "answer": [
+        "I think you should see a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think you should… suaviza el consejo.",
+        "incorrect": "Revisa esto: I think you should… suaviza el consejo."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to rest.",
+      "answer": [
+        "You should rest."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de should va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de should va el verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She shoulds drink more water.",
+      "answer": [
+        "She should drink more water."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should no cambia ni lleva -s.",
+        "incorrect": "Revisa esto: Should no cambia ni lleva -s."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "should",
+        "see",
+        "a",
+        "doctor",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "you",
+        "should",
+        "see",
+        "a",
+        "doctor",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + sujeto + should + verbo base.",
+        "incorrect": "Revisa esto: I think + sujeto + should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Jo hacer una hora antes de dormir?",
+      "options": [
+        "Turn off the phone",
+        "Drink coffee",
+        "Go for a run",
+        "Watch TV"
+      ],
+      "answer": [
+        "Turn off the phone"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Jo dice 'turn off your phone an hour before bed'.",
+        "incorrect": "Revisa esto: Jo dice 'turn off your phone an hour before bed'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le aconseja el hablante?",
+      "options": [
+        "To take a day off",
+        "To work more",
+        "To go on holiday",
+        "To change jobs"
+      ],
+      "answer": [
+        "To take a day off"
+      ],
+      "audio_text": "You look very tired. I think you should take a day off and rest. You shouldn't work so much.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'you should take a day off and rest'.",
+        "incorrect": "Revisa esto: Dice 'you should take a day off and rest'."
+      },
+      "audio_script_id": "en-a2-u06-l03-ex09-a"
+    },
+    {
+      "id": "en-a2-u06-l03-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Deberías descansar más.",
+      "answer": [
+        "You should rest more.",
+        "You should get more rest."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + verbo base.",
+        "incorrect": "Revisa esto: Should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l03-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 180,
+      "prompt": "Un amigo te escribe: 'Me duele la espalda y paso todo el día frente a la computadora. ¿Qué debería hacer?'. Responde con 3 consejos usando should y shouldn't.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste should o shouldn't al menos 3 veces?",
+        "¿Usaste el verbo base después de should?",
+        "¿Suavizaste con I think… o Why don't you…?",
+        "¿Diste consejos útiles y distintos?"
+      ],
+      "model_answer": "I think you should take a short break every hour and walk a little. You shouldn't sit all day. Why don't you try some stretching exercises? You should also see a doctor if it hurts a lot.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You should … · You shouldn't …",
+      "Should I …? — Yes, you should.",
+      "I think you should … · Why don't you …?",
+      "some advice (incontable)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-should"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shouldn-t"
+    },
+    {
+      "type": "vocab",
+      "id": "en-advice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turn-off"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sleep"
+    },
+    {
+      "type": "vocab",
+      "id": "en-worry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-earlier"
+    },
+    {
+      "type": "vocab",
+      "id": "en-midnight"
+    },
+    {
+      "type": "grammar",
+      "id": "en-should"
+    }
+  ]
+}

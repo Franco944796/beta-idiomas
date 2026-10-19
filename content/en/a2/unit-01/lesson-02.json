@@ -1,0 +1,416 @@
+{
+  "id": "en-a2-u01-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 1,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Regular verbs in the past",
+    "es": "Pasado simple regular: -ed y su pronunciación"
+  },
+  "objective": "Al terminar formas el pasado simple de verbos regulares y pronuncias bien la terminación -ed.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Ayer cocinaste, caminaste, miraste una película... ¿Cómo se cuentan esas acciones terminadas en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Last weekend I visited my grandmother. We cooked lunch together and watched a film. In the afternoon I walked in the park and played football with my cousin. Then I stopped at a café and studied for my exam.",
+    "es": "El fin de semana pasado visité a mi abuela. Cocinamos juntas el almuerzo y miramos una película. Por la tarde caminé por el parque y jugué al fútbol con mi primo. Después paré en un café y estudié para mi examen.",
+    "glossary": [
+      {
+        "id": "en-visit",
+        "lemma": "visit",
+        "pos": "verb",
+        "ipa": "/ˈvɪzɪt/",
+        "es": "visitar",
+        "example": "I visit my grandmother on Sundays."
+      },
+      {
+        "id": "en-cook",
+        "lemma": "cook",
+        "pos": "verb",
+        "ipa": "/kʊk/",
+        "es": "cocinar",
+        "example": "We cook lunch together."
+      },
+      {
+        "id": "en-walk",
+        "lemma": "walk",
+        "pos": "verb",
+        "ipa": "/wɔːk/",
+        "es": "caminar",
+        "example": "I walk in the park."
+      },
+      {
+        "id": "en-stop",
+        "lemma": "stop",
+        "pos": "verb",
+        "ipa": "/stɒp/",
+        "es": "parar, detenerse",
+        "example": "I stop at a café."
+      },
+      {
+        "id": "en-study",
+        "lemma": "study",
+        "pos": "verb",
+        "ipa": "/ˈstʌdi/",
+        "es": "estudiar",
+        "example": "I study English."
+      },
+      {
+        "id": "en-cousin",
+        "lemma": "cousin",
+        "pos": "noun",
+        "ipa": "/ˈkʌzn/",
+        "es": "primo/a",
+        "example": "My cousin plays football."
+      },
+      {
+        "id": "en-grandmother",
+        "lemma": "grandmother",
+        "pos": "noun",
+        "ipa": "/ˈɡrænmʌðə/",
+        "es": "abuela",
+        "example": "I visit my grandmother."
+      },
+      {
+        "id": "en-exam",
+        "lemma": "exam",
+        "pos": "noun",
+        "ipa": "/ɪɡˈzæm/",
+        "es": "examen",
+        "example": "I have an exam tomorrow."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Pasado simple regular:** verbo + **-ed**, igual para todas las personas: *I / she / they visited*.\n\n**Ortografía**\n\n- Termina en -e: solo **-d** → *like → liked, dance → danced*.\n- Consonante + y: **-ied** → *study → studied*.\n- Una sílaba con consonante-vocal-consonante: se duplica → *stop → stopped, plan → planned*.\n- Vocal + y: solo -ed → *play → played*.\n\n**Pronunciación de -ed**\n\n| Sonido | Cuándo | Ejemplos |\n|---|---|---|\n| /t/ | tras sonidos sordos | walked, watched, stopped, cooked |\n| /d/ | tras sonidos sonoros | played, cleaned, called |\n| /ɪd/ | tras t o d | visited, wanted, needed |\n\nTruco: la -ed solo añade una sílaba cuando el verbo ya termina en t o d.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I studyed English.",
+        "right": "I studied English.",
+        "note": "Consonante + y cambia a -ied."
+      },
+      {
+        "wrong": "I stoped at a café.",
+        "right": "I stopped at a café.",
+        "note": "Se duplica la consonante final."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u01-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (play) football yesterday.",
+      "answer": [
+        "played"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocal + y: solo se añade -ed.",
+        "incorrect": "Revisa esto: Vocal + y: solo se añade -ed."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ied.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ied."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ (stop) at a café.",
+      "answer": [
+        "stopped"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante-vocal-consonante: se duplica la p.",
+        "incorrect": "Revisa esto: Consonante-vocal-consonante: se duplica la p."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex04",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo con su pasado.",
+      "pairs": [
+        {
+          "left": "walk",
+          "right": "walked"
+        },
+        {
+          "left": "dance",
+          "right": "danced"
+        },
+        {
+          "left": "study",
+          "right": "studied"
+        },
+        {
+          "left": "stop",
+          "right": "stopped"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada verbo sigue una regla de ortografía distinta.",
+        "incorrect": "Revisa esto: Cada verbo sigue una regla de ortografía distinta."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué palabra la terminación -ed suena /ɪd/?",
+      "options": [
+        "wanted",
+        "walked",
+        "played",
+        "cooked"
+      ],
+      "answer": [
+        "wanted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de t o d, -ed se pronuncia /ɪd/.",
+        "incorrect": "Revisa esto: Después de t o d, -ed se pronuncia /ɪd/."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday I walk to work.",
+      "answer": [
+        "Yesterday I walked to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con yesterday el verbo va en pasado: walked.",
+        "incorrect": "Revisa esto: Con yesterday el verbo va en pasado: walked."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She studyed all night.",
+      "answer": [
+        "She studied all night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y → -ied.",
+        "incorrect": "Revisa esto: Consonante + y → -ied."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A quién visitó la persona el fin de semana pasado?",
+      "options": [
+        "Her grandmother",
+        "Her cousin",
+        "Her teacher",
+        "Her sister"
+      ],
+      "answer": [
+        "Her grandmother"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I visited my grandmother'.",
+        "incorrect": "Revisa esto: El texto dice 'I visited my grandmother'."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo después de limpiar la casa?",
+      "options": [
+        "Watched TV",
+        "Cooked lunch",
+        "Visited a friend",
+        "Studied"
+      ],
+      "answer": [
+        "Watched TV"
+      ],
+      "audio_text": "I cleaned the house and then I watched TV.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'then I watched TV'.",
+        "incorrect": "Revisa esto: Dice 'then I watched TV'."
+      },
+      "audio_script_id": "en-a2-u01-l02-ex09-a"
+    },
+    {
+      "id": "en-a2-u01-l02-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "past-simple-regular"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "walked",
+          "ipa": "/wɔːkt/",
+          "tip_es": "La -ed suena /t/."
+        },
+        {
+          "text": "played",
+          "ipa": "/pleɪd/",
+          "tip_es": "La -ed suena /d/."
+        },
+        {
+          "text": "wanted",
+          "ipa": "/ˈwɒntɪd/",
+          "tip_es": "La -ed suena /ɪd/ y es una sílaba más."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u01-l02-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ayer cociné y miré una película.",
+      "answer": [
+        "Yesterday I cooked and watched a film.",
+        "Yesterday I cooked and watched a movie."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos verbos regulares: cooked y watched.",
+        "incorrect": "Revisa esto: Dos verbos regulares: cooked y watched."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I visited / she cooked / we walked",
+      "like → liked · study → studied · stop → stopped",
+      "walked /t/ · played /d/ · wanted /ɪd/"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-visit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cook"
+    },
+    {
+      "type": "vocab",
+      "id": "en-walk"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-study"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cousin"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grandmother"
+    },
+    {
+      "type": "vocab",
+      "id": "en-exam"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-simple-regular"
+    }
+  ]
+}

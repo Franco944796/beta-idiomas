@@ -1,0 +1,454 @@
+{
+  "id": "en-a2-u03-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 3,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Describing places",
+    "es": "Adjetivos para describir lugares y personas"
+  },
+  "objective": "Al terminar describes lugares y personas con adjetivos útiles y conoces sus opuestos.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Tu barrio es tranquilo o ruidoso? ¿Y la ciudad donde trabajas? Aprende a describirlos con precisión."
+  },
+  "input": {
+    "type": "text",
+    "text": "I live in a small town. It's quiet and clean, and the people are friendly. But there isn't much to do. My cousin lives in a big city. It's noisy and crowded, but there are lots of shops and restaurants. It's more expensive, but it's very exciting.",
+    "es": "Vivo en un pueblo pequeño. Es tranquilo y limpio, y la gente es amable. Pero no hay mucho para hacer. Mi primo vive en una ciudad grande. Es ruidosa y está llena de gente, pero hay muchas tiendas y restaurantes. Es más cara, pero es muy emocionante.",
+    "glossary": [
+      {
+        "id": "en-quiet",
+        "lemma": "quiet",
+        "pos": "adj",
+        "ipa": "/ˈkwaɪət/",
+        "es": "tranquilo/a, silencioso/a",
+        "example": "It's a quiet town."
+      },
+      {
+        "id": "en-noisy",
+        "lemma": "noisy",
+        "pos": "adj",
+        "ipa": "/ˈnɔɪzi/",
+        "es": "ruidoso/a",
+        "example": "The city is noisy."
+      },
+      {
+        "id": "en-crowded",
+        "lemma": "crowded",
+        "pos": "adj",
+        "ipa": "/ˈkraʊdɪd/",
+        "es": "lleno/a de gente",
+        "example": "The beach was crowded."
+      },
+      {
+        "id": "en-clean",
+        "lemma": "clean",
+        "pos": "adj",
+        "ipa": "/kliːn/",
+        "es": "limpio/a",
+        "example": "The streets are clean."
+      },
+      {
+        "id": "en-dirty",
+        "lemma": "dirty",
+        "pos": "adj",
+        "ipa": "/ˈdɜːti/",
+        "es": "sucio/a",
+        "example": "The river is dirty."
+      },
+      {
+        "id": "en-safe",
+        "lemma": "safe",
+        "pos": "adj",
+        "ipa": "/seɪf/",
+        "es": "seguro/a",
+        "example": "It's a safe place."
+      },
+      {
+        "id": "en-dangerous",
+        "lemma": "dangerous",
+        "pos": "adj",
+        "ipa": "/ˈdeɪndʒərəs/",
+        "es": "peligroso/a",
+        "example": "That road is dangerous."
+      },
+      {
+        "id": "en-expensive",
+        "lemma": "expensive",
+        "pos": "adj",
+        "ipa": "/ɪkˈspensɪv/",
+        "es": "caro/a",
+        "example": "Hotels are expensive here."
+      },
+      {
+        "id": "en-cheap",
+        "lemma": "cheap",
+        "pos": "adj",
+        "ipa": "/tʃiːp/",
+        "es": "barato/a",
+        "example": "The food is cheap."
+      },
+      {
+        "id": "en-exciting",
+        "lemma": "exciting",
+        "pos": "adj",
+        "ipa": "/ɪkˈsaɪtɪŋ/",
+        "es": "emocionante",
+        "example": "The city is exciting."
+      },
+      {
+        "id": "en-lots-of",
+        "lemma": "lots of",
+        "pos": "phrase",
+        "ipa": "/lɒts əv/",
+        "es": "muchos/as",
+        "example": "There are lots of shops."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Adjetivos para describir lugares y personas (con su opuesto)**\n\n| Adjetivo | Opuesto |\n|---|---|\n| quiet (tranquilo) | noisy (ruidoso) |\n| clean (limpio) | dirty (sucio) |\n| safe (seguro) | dangerous (peligroso) |\n| cheap (barato) | expensive (caro) |\n| big (grande) | small (pequeño) |\n| old (viejo, antiguo) | new (nuevo) / modern (moderno) |\n\n**Más adjetivos:** *beautiful, ugly, friendly, boring, exciting, crowded, popular, lovely*.\n\n**Ojo:** los adjetivos no cambian por género ni número: *a quiet town, quiet towns*. Van **antes** del sustantivo o después de *to be*: *It's a clean city. The city is clean.*\n\nPronunciación: *dangerous* /ˈdeɪndʒərəs/ · *expensive* /ɪkˈspensɪv/ (acento en -pen-) · *crowded* /ˈkraʊdɪd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It's a noise city.",
+        "right": "It's a noisy city.",
+        "note": "Para describir se necesita el adjetivo noisy."
+      },
+      {
+        "wrong": "The streets are cleans.",
+        "right": "The streets are clean.",
+        "note": "El adjetivo no lleva -s en plural."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "sensible",
+        "es_false": "sensible",
+        "real": "sensato/a",
+        "note": "Sensible = sensato. Sensible (emocional) se dice sensitive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u03-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su opuesto.",
+      "pairs": [
+        {
+          "left": "quiet",
+          "right": "noisy"
+        },
+        {
+          "left": "clean",
+          "right": "dirty"
+        },
+        {
+          "left": "safe",
+          "right": "dangerous"
+        },
+        {
+          "left": "cheap",
+          "right": "expensive"
+        },
+        {
+          "left": "old",
+          "right": "new"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprenderlos en pares ayuda a recordarlos.",
+        "incorrect": "Revisa esto: Aprenderlos en pares ayuda a recordarlos."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 20,
+      "prompt": "'The streets are full of people' → The streets are ___.",
+      "options": [
+        "crowded",
+        "quiet",
+        "empty",
+        "clean"
+      ],
+      "answer": [
+        "crowded"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Crowded = lleno de gente.",
+        "incorrect": "Revisa esto: Crowded = lleno de gente."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'safe'?",
+      "options": [
+        "seguro",
+        "sucio",
+        "salvaje",
+        "triste"
+      ],
+      "answer": [
+        "seguro"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Safe = seguro (sin peligro).",
+        "incorrect": "Revisa esto: Safe = seguro (sin peligro)."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's a very ___ city. There are people and cars everywhere. (ruidosa)",
+      "answer": [
+        "noisy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Noisy = ruidosa.",
+        "incorrect": "Revisa esto: Noisy = ruidosa."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The beach was very crowd.",
+      "answer": [
+        "The beach was very crowded."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo es crowded.",
+        "incorrect": "Revisa esto: El adjetivo es crowded."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "quiet",
+        "and",
+        "clean",
+        ".",
+        "My",
+        "town"
+      ],
+      "answer": [
+        "My",
+        "town",
+        "is",
+        "quiet",
+        "and",
+        "clean",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + to be + adjetivos.",
+        "incorrect": "Revisa esto: Sujeto + to be + adjetivos."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo es el pueblo de la persona?",
+      "options": [
+        "Quiet and clean",
+        "Noisy and crowded",
+        "Big and exciting",
+        "Dirty and cheap"
+      ],
+      "answer": [
+        "Quiet and clean"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'It's quiet and clean'.",
+        "incorrect": "Revisa esto: El texto dice 'It's quiet and clean'."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO es el barrio?",
+      "options": [
+        "Exciting",
+        "Safe",
+        "Friendly",
+        "Nice"
+      ],
+      "answer": [
+        "Exciting"
+      ],
+      "audio_text": "I love my neighbourhood. It's safe and friendly, but it isn't very exciting.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it isn't very exciting'.",
+        "incorrect": "Revisa esto: Dice 'it isn't very exciting'."
+      },
+      "audio_script_id": "en-a2-u03-l01-ex08-a"
+    },
+    {
+      "id": "en-a2-u03-l01-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi ciudad es grande pero muy tranquila.",
+      "answer": [
+        "My city is big but very quiet.",
+        "My town is big but very quiet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los adjetivos no cambian y van después de to be.",
+        "incorrect": "Revisa esto: Los adjetivos no cambian y van después de to be."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "adjectives",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "dangerous",
+          "ipa": "/ˈdeɪndʒərəs/",
+          "tip_es": "Tres sílabas: DAN-ye-rus."
+        },
+        {
+          "text": "expensive",
+          "ipa": "/ɪkˈspensɪv/",
+          "tip_es": "El acento va en -pen-."
+        },
+        {
+          "text": "crowded",
+          "ipa": "/ˈkraʊdɪd/",
+          "tip_es": "Termina en /ɪd/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "quiet ↔ noisy · clean ↔ dirty",
+      "safe ↔ dangerous · cheap ↔ expensive",
+      "crowded · exciting · friendly"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-quiet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-noisy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crowded"
+    },
+    {
+      "type": "vocab",
+      "id": "en-clean"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dirty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-safe"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dangerous"
+    },
+    {
+      "type": "vocab",
+      "id": "en-expensive"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cheap"
+    },
+    {
+      "type": "vocab",
+      "id": "en-exciting"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "id": "en-a2-u05-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 5,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Let's make plans",
+    "es": "Proponer y organizar planes: Why don't we...?"
+  },
+  "objective": "Al terminar propones, aceptas o rechazas un plan y acuerdas hora y lugar con Let's, Why don't we…? y How about…?",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Quieres salir con un amigo: ¿cómo propones un plan, cómo respondes y cómo fijan la hora?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ella",
+        "text": "What shall we do on Saturday?",
+        "es": "¿Qué hacemos el sábado?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Why don't we go to the beach?",
+        "es": "¿Por qué no vamos a la playa?"
+      },
+      {
+        "speaker": "Ella",
+        "text": "Sorry, I can't in the morning. I'm visiting my grandmother.",
+        "es": "Perdón, a la mañana no puedo. Voy a visitar a mi abuela."
+      },
+      {
+        "speaker": "Tom",
+        "text": "How about going in the afternoon?",
+        "es": "¿Y si vamos a la tarde?"
+      },
+      {
+        "speaker": "Ella",
+        "text": "Good idea! What time shall we meet?",
+        "es": "¡Buena idea! ¿A qué hora nos encontramos?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Let's meet at the station at two. Shall I bring some sandwiches?",
+        "es": "Encontrémonos en la estación a las dos. ¿Llevo sándwiches?"
+      },
+      {
+        "speaker": "Ella",
+        "text": "Yes, please. See you on Saturday!",
+        "es": "Sí, por favor. ¡Nos vemos el sábado!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-shall-we",
+        "lemma": "shall we",
+        "pos": "phrase",
+        "ipa": "/ʃæl wiː/",
+        "es": "¿hacemos…? (proponer)",
+        "example": "What shall we do?"
+      },
+      {
+        "id": "en-why-don-t-we",
+        "lemma": "why don't we",
+        "pos": "phrase",
+        "ipa": "/waɪ dəʊnt wiː/",
+        "es": "¿por qué no…?",
+        "example": "Why don't we go to the beach?"
+      },
+      {
+        "id": "en-how-about",
+        "lemma": "how about",
+        "pos": "phrase",
+        "ipa": "/haʊ əˈbaʊt/",
+        "es": "¿qué tal si…?",
+        "example": "How about going in the afternoon?"
+      },
+      {
+        "id": "en-let-s",
+        "lemma": "let's",
+        "pos": "phrase",
+        "ipa": "/lets/",
+        "es": "hagamos…",
+        "example": "Let's meet at two."
+      },
+      {
+        "id": "en-good-idea",
+        "lemma": "good idea",
+        "pos": "phrase",
+        "ipa": "/ɡʊd aɪˈdɪə/",
+        "es": "buena idea",
+        "example": "Good idea!"
+      },
+      {
+        "id": "en-station",
+        "lemma": "station",
+        "pos": "noun",
+        "ipa": "/ˈsteɪʃn/",
+        "es": "estación",
+        "example": "Let's meet at the station."
+      },
+      {
+        "id": "en-see-you",
+        "lemma": "see you",
+        "pos": "phrase",
+        "ipa": "/ˈsiː juː/",
+        "es": "nos vemos",
+        "example": "See you on Saturday!"
+      }
+    ],
+    "audio_script_id": "en-a2-u05-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Proponer**\n\n- **Let's** + verbo base → *Let's go to the beach.*\n- **Shall we** + verbo base? → *Shall we meet at two?*\n- **Why don't we** + verbo base? → *Why don't we go to the cinema?*\n- **How about** + verbo-**ing**? → *How about going on Sunday?*\n- **What shall we do?** (pedir ideas) · **Shall I** + verbo? (ofrecerse: *Shall I bring sandwiches?*)\n\n**Aceptar:** *Good idea! · Sure! · That sounds great. · OK, let's do that.*\n**Rechazar con educación:** *Sorry, I can't. I'm busy. · I'd love to, but I'm working. · Maybe another time.*\n\n**Acordar hora y lugar:** *What time shall we meet? · Let's meet at the station at two. · See you on Saturday.*\n\n**Planes ya acordados:** presente continuo → *I'm visiting my grandmother on Saturday morning.*\n\n**Ojo:** después de *Let's / Shall we / Why don't we* va el verbo **base** (sin *to* ni *-ing*); después de *How about* va **-ing**.",
+    "common_mistakes_es": [
+      {
+        "wrong": "How about go to the cinema?",
+        "right": "How about going to the cinema?",
+        "note": "How about + -ing."
+      },
+      {
+        "wrong": "Let's to meet at two.",
+        "right": "Let's meet at two.",
+        "note": "Let's + verbo base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u05-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada propuesta con una respuesta natural.",
+      "pairs": [
+        {
+          "left": "Why don't we go to the beach?",
+          "right": "Good idea!"
+        },
+        {
+          "left": "Shall we meet at two?",
+          "right": "Sure, see you then."
+        },
+        {
+          "left": "How about going to the cinema?",
+          "right": "Sorry, I can't. I'm busy."
+        },
+        {
+          "left": "Let's have lunch together.",
+          "right": "That sounds great."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son respuestas habituales a una propuesta.",
+        "incorrect": "Revisa esto: Son respuestas habituales a una propuesta."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Why don't we ___ to the cinema? (ir)",
+      "answer": [
+        "go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de Why don't we va el verbo base.",
+        "incorrect": "Revisa esto: Después de Why don't we va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 25,
+      "prompt": "How about ___ a walk in the park? (dar)",
+      "answer": [
+        "taking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de How about va el verbo + -ing.",
+        "incorrect": "Revisa esto: Después de How about va el verbo + -ing."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres rechazar con educación una invitación porque trabajas:",
+      "options": [
+        "I'd love to, but I'm working.",
+        "No.",
+        "I don't want.",
+        "Not possible, bye."
+      ],
+      "answer": [
+        "I'd love to, but I'm working."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rechazo cortés: I'd love to, but …",
+        "incorrect": "Revisa esto: Rechazo cortés: I'd love to, but …"
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Why don't we to go to the beach?",
+      "answer": [
+        "Why don't we go to the beach?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de Why don't we va el verbo base.",
+        "incorrect": "Revisa esto: Después de Why don't we va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How about to go to the cinema?",
+      "answer": [
+        "How about going to the cinema?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de How about va -ing.",
+        "incorrect": "Revisa esto: Después de How about va -ing."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "at",
+        "the",
+        "station",
+        "at",
+        "two",
+        ".",
+        "Let's",
+        "meet"
+      ],
+      "answer": [
+        "Let's",
+        "meet",
+        "at",
+        "the",
+        "station",
+        "at",
+        "two",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let's + verbo base + lugar + hora.",
+        "incorrect": "Revisa esto: Let's + verbo base + lugar + hora."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Ella no puede ir a la playa por la mañana?",
+      "options": [
+        "She is visiting her grandmother",
+        "She is working",
+        "She is ill",
+        "She doesn't like the beach"
+      ],
+      "answer": [
+        "She is visiting her grandmother"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Ella dice 'I'm visiting my grandmother'.",
+        "incorrect": "Revisa esto: Ella dice 'I'm visiting my grandmother'."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde se encuentran?",
+      "options": [
+        "Outside the cinema",
+        "At the station",
+        "At the beach",
+        "At home"
+      ],
+      "answer": [
+        "Outside the cinema"
+      ],
+      "audio_text": "Shall we meet outside the cinema at seven? — Sure. Shall I buy the tickets? — Yes, please.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'meet outside the cinema at seven'.",
+        "incorrect": "Revisa esto: Dice 'meet outside the cinema at seven'."
+      },
+      "audio_script_id": "en-a2-u05-l05-ex09-a"
+    },
+    {
+      "id": "en-a2-u05-l05-ex10",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Propones un plan a un amigo.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What shall we do on Sunday?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Why don't we go to the park?",
+            "Why we go to the park?",
+            "Why don't we to go to the park?"
+          ],
+          "best": 0,
+          "why_es": "Why don't we + verbo base."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Good idea! What time shall we meet?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Let's meet at the gate at three.",
+            "Let's to meet at three.",
+            "We meeting three."
+          ],
+          "best": 0,
+          "why_es": "Let's meet + lugar + hora."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u05-l05-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un mensaje corto a un amigo para proponerle un plan: qué hacer, cuándo y dónde encontrarse.",
+      "min_words": 25,
+      "self_check_es": [
+        "¿Propusiste con Why don't we / Let's / How about?",
+        "¿Pusiste día, hora y lugar?",
+        "¿Usaste el verbo base después de Let's y Why don't we?",
+        "¿Te despediste con See you…?"
+      ],
+      "model_answer": "Hi Tom! Why don't we go to the cinema on Friday? Let's meet outside the cinema at seven. Shall I buy the tickets? See you on Friday! Ella",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Let's … · Shall we …? · Why don't we …?",
+      "How about + -ing?",
+      "Good idea! · Sorry, I can't.",
+      "What time shall we meet? · See you on …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-shall-we"
+    },
+    {
+      "type": "vocab",
+      "id": "en-why-don-t-we"
+    },
+    {
+      "type": "vocab",
+      "id": "en-how-about"
+    },
+    {
+      "type": "vocab",
+      "id": "en-let-s"
+    },
+    {
+      "type": "vocab",
+      "id": "en-good-idea"
+    },
+    {
+      "type": "vocab",
+      "id": "en-station"
+    },
+    {
+      "type": "vocab",
+      "id": "en-see-you"
+    },
+    {
+      "type": "grammar",
+      "id": "en-suggestions"
+    }
+  ]
+}

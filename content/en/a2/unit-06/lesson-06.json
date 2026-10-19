@@ -1,0 +1,344 @@
+{
+  "id": "en-a2-u06-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 6,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 6",
+    "es": "Repaso y checkpoint 6"
+  },
+  "objective": "Al terminar hablas de salud, das consejos y explicas reglas y prohibiciones en inglés.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 6: junta el vocabulario de salud, should, have to / must y las normas."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: partes del cuerpo y síntomas, hablar con un médico, should / shouldn't, have to / don't have to / must / mustn't y can't / allowed to.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 6**\n\n- *My back hurts. · I've got a sore throat and a cough.*\n- *What's the matter? · Take it twice a day.*\n- *You should rest. · You shouldn't drink coffee at night.*\n- *You have to wear a uniform. · You don't have to buy it. · You must be on time. · You mustn't smoke.*\n- *You can't park here. · You aren't allowed to take photos.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u06-l06-ex01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a sore ___ and a cough.",
+      "answer": [
+        "throat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sore throat = dolor de garganta.",
+        "incorrect": "Revisa esto: Sore throat = dolor de garganta."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ see a doctor. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo: should + verbo base.",
+        "incorrect": "Revisa esto: Consejo: should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ have to bring food. It's free. (no hace falta)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No es necesario: don't have to.",
+        "incorrect": "Revisa esto: No es necesario: don't have to."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ smoke in the hospital. (prohibido)",
+      "answer": [
+        "mustn't",
+        "must not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibido: mustn't.",
+        "incorrect": "Revisa esto: Prohibido: mustn't."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "You aren't allowed to park here.",
+        "You aren't allowed park here.",
+        "You mustn't to park here.",
+        "You don't allowed to park here."
+      ],
+      "answer": [
+        "You aren't allowed to park here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to + verbo base.",
+        "incorrect": "Revisa esto: Be allowed to + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu amigo está resfriado. Le dices con educación:",
+      "options": [
+        "I think you should stay in bed.",
+        "You stay in bed.",
+        "Stay bed you.",
+        "You should to bed stay."
+      ],
+      "answer": [
+        "I think you should stay in bed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think you should… suaviza el consejo.",
+        "incorrect": "Revisa esto: I think you should… suaviza el consejo."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a constipated.",
+      "answer": [
+        "I've got a cold.",
+        "I have a cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resfriado = a cold; constipated = estreñido.",
+        "incorrect": "Revisa esto: Resfriado = a cold; constipated = estreñido."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to drink more water.",
+      "answer": [
+        "You should drink more water."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + verbo base.",
+        "incorrect": "Revisa esto: Should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Tiene que pagar por el casco?",
+      "options": [
+        "No",
+        "Yes",
+        "Only on Sundays",
+        "Only for children"
+      ],
+      "answer": [
+        "No"
+      ],
+      "audio_text": "You must wear a helmet, but you don't have to pay for it. You can borrow one at the entrance.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'you don't have to pay for it'.",
+        "incorrect": "Revisa esto: Dice 'you don't have to pay for it'."
+      },
+      "audio_script_id": "en-a2-u06-l06-ex09-a"
+    },
+    {
+      "id": "en-a2-u06-l06-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "body-health",
+        "should"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me duele el estómago y no debo comer.",
+      "answer": [
+        "My stomach hurts and I mustn't eat.",
+        "My stomach hurts and I must not eat.",
+        "My stomach hurts and I shouldn't eat."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hurts para el dolor; mustn't / shouldn't para 'no debo'.",
+        "incorrect": "Revisa esto: Hurts para el dolor; mustn't / shouldn't para 'no debo'."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "should",
+        "have-to-must"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 frases: qué síntoma tienes, un consejo para ti mismo y una regla que tienes que cumplir en tu trabajo o estudio.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Describiste un síntoma?",
+        "¿Diste un consejo con should?",
+        "¿Usaste have to o don't have to?",
+        "¿Usaste must o mustn't para una regla?"
+      ],
+      "model_answer": "I've got a headache and a cough. I think I should go to bed early. I have to wear a uniform at work, but I don't have to start early. I mustn't use my phone in class.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u06-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Vas al médico.",
+      "turns": [
+        {
+          "speaker": "Doctor",
+          "text": "Good morning. What's the matter?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've got a sore throat and a cough. I feel terrible.",
+            "I have sore of throat and cough.",
+            "My throat is cough."
+          ],
+          "best": 0,
+          "why_es": "Describes los síntomas con I've got…"
+        },
+        {
+          "speaker": "Doctor",
+          "text": "You should rest and drink lots of water."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. Do I have to take any tablets?",
+            "Thank you. I must tablets?",
+            "Thanks. Tablets have?"
+          ],
+          "best": 0,
+          "why_es": "Do I have to…? pregunta bien la obligación."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "My back hurts · a sore throat · a cough",
+      "You should … · You shouldn't …",
+      "You have to … · You don't have to … · You mustn't …",
+      "You can't … · You aren't allowed to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-health-dialogue"
+    },
+    {
+      "type": "grammar",
+      "id": "en-should"
+    },
+    {
+      "type": "grammar",
+      "id": "en-have-to-must"
+    },
+    {
+      "type": "grammar",
+      "id": "en-permission-prohibition"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

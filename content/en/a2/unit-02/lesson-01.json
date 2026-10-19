@@ -1,0 +1,504 @@
+{
+  "id": "en-a2-u02-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 2,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Travel words",
+    "es": "Vocabulario de viajes y vacaciones"
+  },
+  "objective": "Al terminar nombras lo necesario para viajar (vuelo, pasaporte, equipaje, hotel) y cuentas qué reservaste y qué hiciste.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Piensa en tu último viaje: ¿cómo se dicen en inglés las cosas que llevaste y los lugares donde estuviste?"
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-holiday",
+        "lemma": "holiday",
+        "pos": "noun",
+        "ipa": "/ˈhɒlədeɪ/",
+        "es": "vacaciones (inglés británico)",
+        "example": "We went on holiday in July."
+      },
+      {
+        "id": "en-trip",
+        "lemma": "trip",
+        "pos": "noun",
+        "ipa": "/trɪp/",
+        "es": "viaje, excursión",
+        "example": "It was a great trip."
+      },
+      {
+        "id": "en-flight",
+        "lemma": "flight",
+        "pos": "noun",
+        "ipa": "/flaɪt/",
+        "es": "vuelo",
+        "example": "Our flight was two hours late."
+      },
+      {
+        "id": "en-airport",
+        "lemma": "airport",
+        "pos": "noun",
+        "ipa": "/ˈeəpɔːt/",
+        "es": "aeropuerto",
+        "example": "We arrived at the airport at six."
+      },
+      {
+        "id": "en-passport",
+        "lemma": "passport",
+        "pos": "noun",
+        "ipa": "/ˈpɑːspɔːt/",
+        "es": "pasaporte",
+        "example": "Don't forget your passport."
+      },
+      {
+        "id": "en-ticket",
+        "lemma": "ticket",
+        "pos": "noun",
+        "ipa": "/ˈtɪkɪt/",
+        "es": "billete, pasaje, entrada",
+        "example": "I bought two tickets."
+      },
+      {
+        "id": "en-luggage",
+        "lemma": "luggage",
+        "pos": "noun",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "es": "equipaje (incontable)",
+        "example": "My luggage is very heavy."
+      },
+      {
+        "id": "en-suitcase",
+        "lemma": "suitcase",
+        "pos": "noun",
+        "ipa": "/ˈsuːtkeɪs/",
+        "es": "maleta, valija",
+        "example": "I packed my suitcase."
+      },
+      {
+        "id": "en-hotel",
+        "lemma": "hotel",
+        "pos": "noun",
+        "ipa": "/həʊˈtel/",
+        "es": "hotel",
+        "example": "We stayed at a small hotel."
+      },
+      {
+        "id": "en-beach",
+        "lemma": "beach",
+        "pos": "noun",
+        "ipa": "/biːtʃ/",
+        "es": "playa",
+        "example": "The beach was beautiful."
+      },
+      {
+        "id": "en-sightseeing",
+        "lemma": "sightseeing",
+        "pos": "noun",
+        "ipa": "/ˈsaɪtsiːɪŋ/",
+        "es": "turismo, visitar lugares",
+        "example": "We went sightseeing in Rome."
+      },
+      {
+        "id": "en-tourist",
+        "lemma": "tourist",
+        "pos": "noun",
+        "ipa": "/ˈtʊərɪst/",
+        "es": "turista",
+        "example": "There were a lot of tourists."
+      },
+      {
+        "id": "en-map",
+        "lemma": "map",
+        "pos": "noun",
+        "ipa": "/mæp/",
+        "es": "mapa",
+        "example": "We looked at the map."
+      },
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "verb",
+        "ipa": "/bʊk/",
+        "es": "reservar",
+        "example": "I booked a hotel online."
+      },
+      {
+        "id": "en-pack",
+        "lemma": "pack",
+        "pos": "verb",
+        "ipa": "/pæk/",
+        "es": "hacer la maleta",
+        "example": "I packed my suitcase last night."
+      },
+      {
+        "id": "en-abroad",
+        "lemma": "abroad",
+        "pos": "adv",
+        "ipa": "/əˈbrɔːd/",
+        "es": "en el extranjero",
+        "example": "They went abroad last summer."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Antes del viaje:** *book* (reservar) a flight / a hotel · *pack* (hacer la maleta) · *a passport, a ticket, a map*.\n\n**En el lugar:** *go sightseeing* (hacer turismo) · *a tourist* · *the beach*.\n\n**Ojo con luggage:** es **incontable**: *My luggage is heavy.* (no *luggages*). Para contar: *a suitcase, two suitcases*.\n\n**Holiday vs vacation:** en inglés británico *holiday* = vacaciones; en inglés americano *vacation*. *Go on holiday / be on holiday*.\n\nPronunciación: *luggage* /ˈlʌɡɪdʒ/ · *passport* /ˈpɑːspɔːt/ (la t final es suave) · *sightseeing* /ˈsaɪtsiːɪŋ/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have three luggages.",
+        "right": "I have three suitcases. / I have a lot of luggage.",
+        "note": "Luggage no tiene plural."
+      },
+      {
+        "wrong": "We made a trip with the plane.",
+        "right": "We went on a trip by plane.",
+        "note": "Se dice go on a trip y by plane."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "actually",
+        "es_false": "actualmente",
+        "real": "en realidad",
+        "note": "Actualmente se dice at the moment / currently."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u02-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "airport",
+          "right": "aeropuerto"
+        },
+        {
+          "left": "passport",
+          "right": "pasaporte"
+        },
+        {
+          "left": "suitcase",
+          "right": "maleta"
+        },
+        {
+          "left": "ticket",
+          "right": "billete"
+        },
+        {
+          "left": "beach",
+          "right": "playa"
+        },
+        {
+          "left": "flight",
+          "right": "vuelo"
+        },
+        {
+          "left": "map",
+          "right": "mapa"
+        },
+        {
+          "left": "tourist",
+          "right": "turista"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es el vocabulario básico de un viaje.",
+        "incorrect": "Revisa esto: Es el vocabulario básico de un viaje."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "Necesitas un ___ para viajar a otro país.",
+      "options": [
+        "passport",
+        "suitcase",
+        "beach",
+        "map"
+      ],
+      "answer": [
+        "passport"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El pasaporte identifica a la persona en la frontera.",
+        "incorrect": "Revisa esto: El pasaporte identifica a la persona en la frontera."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "My luggage is heavy.",
+        "My luggages are heavy.",
+        "My luggage are heavy.",
+        "My luggages is heavy."
+      ],
+      "answer": [
+        "My luggage is heavy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage es incontable: va con is y sin -s.",
+        "incorrect": "Revisa esto: Luggage es incontable: va con is y sin -s."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'to pack'?",
+      "options": [
+        "hacer la maleta",
+        "reservar",
+        "viajar",
+        "perder"
+      ],
+      "answer": [
+        "hacer la maleta"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pack = empacar, hacer la maleta.",
+        "incorrect": "Revisa esto: Pack = empacar, hacer la maleta."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 25,
+      "prompt": "We stayed at a nice ___ near the beach.",
+      "answer": [
+        "hotel"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El lugar donde dormís en un viaje es un hotel.",
+        "incorrect": "Revisa esto: El lugar donde dormís en un viaje es un hotel."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "past-simple-regular"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "suitcase",
+        "last",
+        "night",
+        ".",
+        "I",
+        "packed"
+      ],
+      "answer": [
+        "I",
+        "packed",
+        "my",
+        "suitcase",
+        "last",
+        "night",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + pasado + objeto + tiempo.",
+        "incorrect": "Revisa esto: Sujeto + pasado + objeto + tiempo."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex07",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "We booked a flight to Rome.",
+      "answer": [
+        "We booked a flight to Rome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'booked a flight'.",
+        "incorrect": "Revisa esto: Escuchaste 'booked a flight'."
+      },
+      "audio_script_id": "en-a2-u02-l01-ex07-a"
+    },
+    {
+      "id": "en-a2-u02-l01-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora deben estar en el aeropuerto?",
+      "options": [
+        "At six",
+        "At eight",
+        "At seven",
+        "At nine"
+      ],
+      "answer": [
+        "At six"
+      ],
+      "audio_text": "Our flight leaves at eight, so we need to be at the airport at six.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'at the airport at six'.",
+        "incorrect": "Revisa esto: Dice 'at the airport at six'."
+      },
+      "audio_script_id": "en-a2-u02-l01-ex08-a"
+    },
+    {
+      "id": "en-a2-u02-l01-ex09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Reservamos un hotel cerca de la playa.",
+      "answer": [
+        "We booked a hotel near the beach."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reservar = book; cerca de = near.",
+        "incorrect": "Revisa esto: Reservar = book; cerca de = near."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex10",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "travel",
+        "pronunciation"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "luggage",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "tip_es": "Termina en /dʒ/, como 'jeans'."
+        },
+        {
+          "text": "passport",
+          "ipa": "/ˈpɑːspɔːt/",
+          "tip_es": "El acento va en la primera sílaba."
+        },
+        {
+          "text": "sightseeing",
+          "ipa": "/ˈsaɪtsiːɪŋ/",
+          "tip_es": "Se lee 'sait-si-ing'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "book a hotel · pack a suitcase",
+      "airport · flight · passport · ticket",
+      "luggage = incontable",
+      "holiday (UK) · vacation (US)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-holiday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trip"
+    },
+    {
+      "type": "vocab",
+      "id": "en-flight"
+    },
+    {
+      "type": "vocab",
+      "id": "en-airport"
+    },
+    {
+      "type": "vocab",
+      "id": "en-passport"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ticket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-luggage"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suitcase"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hotel"
+    },
+    {
+      "type": "vocab",
+      "id": "en-beach"
+    }
+  ]
+}

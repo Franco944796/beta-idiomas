@@ -1,0 +1,387 @@
+{
+  "id": "en-a2-u03-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 3,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Superlatives",
+    "es": "Superlativos: the -est y the most"
+  },
+  "objective": "Al terminar dices cuál es el más grande, el mejor o el más interesante con the + superlativo.",
+  "est_minutes": 25,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'La ciudad más grande del país', 'el mejor café del barrio'. ¿Cómo se dice lo más de todo en inglés?"
+  },
+  "input": {
+    "type": "text",
+    "text": "Here are some facts. Russia is the biggest country in the world, and Vatican City is the smallest. Mount Everest is the highest mountain in the world. The Nile is one of the longest rivers. Antarctica is the coldest continent. And for many people, Italy has the best food!",
+    "es": "Aquí van algunos datos. Rusia es el país más grande del mundo, y la Ciudad del Vaticano es el más pequeño. El monte Everest es la montaña más alta del mundo. El Nilo es uno de los ríos más largos. La Antártida es el continente más frío. ¡Y para mucha gente, Italia tiene la mejor comida!",
+    "glossary": [
+      {
+        "id": "en-biggest",
+        "lemma": "biggest",
+        "pos": "adj",
+        "ipa": "/ˈbɪɡɪst/",
+        "es": "el/la más grande",
+        "example": "Russia is the biggest country."
+      },
+      {
+        "id": "en-smallest",
+        "lemma": "smallest",
+        "pos": "adj",
+        "ipa": "/ˈsmɔːlɪst/",
+        "es": "el/la más pequeño/a",
+        "example": "Vatican City is the smallest."
+      },
+      {
+        "id": "en-highest",
+        "lemma": "highest",
+        "pos": "adj",
+        "ipa": "/ˈhaɪɪst/",
+        "es": "el/la más alto/a (montaña)",
+        "example": "Everest is the highest mountain."
+      },
+      {
+        "id": "en-longest",
+        "lemma": "longest",
+        "pos": "adj",
+        "ipa": "/ˈlɒŋɡɪst/",
+        "es": "el/la más largo/a",
+        "example": "The Nile is one of the longest rivers."
+      },
+      {
+        "id": "en-coldest",
+        "lemma": "coldest",
+        "pos": "adj",
+        "ipa": "/ˈkəʊldɪst/",
+        "es": "el/la más frío/a",
+        "example": "Antarctica is the coldest continent."
+      },
+      {
+        "id": "en-best",
+        "lemma": "best",
+        "pos": "adj",
+        "ipa": "/best/",
+        "es": "el/la mejor",
+        "example": "Italy has the best food."
+      },
+      {
+        "id": "en-mountain",
+        "lemma": "mountain",
+        "pos": "noun",
+        "ipa": "/ˈmaʊntɪn/",
+        "es": "montaña",
+        "example": "Everest is a mountain."
+      },
+      {
+        "id": "en-continent",
+        "lemma": "continent",
+        "pos": "noun",
+        "ipa": "/ˈkɒntɪnənt/",
+        "es": "continente",
+        "example": "Asia is a continent."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Superlativo:** **the** + adjetivo + **-est** / **the most** + adjetivo largo.\n\n| Adjetivo | Superlativo |\n|---|---|\n| tall | the tall**est** |\n| big | the big**gest** |\n| nice | the nic**est** |\n| easy | the eas**iest** |\n| expensive | the **most** expensive |\n| interesting | the **most** interesting |\n| good | the **best** |\n| bad | the **worst** |\n\n**Siempre con the:** *She is the tallest girl.* (no *She is tallest.*)\n\n**Para delimitar el grupo:** **in** + lugar o grupo (*in the world, in the class, in town*) y **of** + conjunto (*of all, of the three*).\n*It's the biggest city **in** the country.* · *He's the youngest **of** the three brothers.*\n\n**One of the + superlativo + plural:** *The Nile is one of the longest rivers.*\n\nPronunciación: *-est* /ɪst/: *biggest* /ˈbɪɡɪst/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She is tallest.",
+        "right": "She is the tallest.",
+        "note": "Falta the."
+      },
+      {
+        "wrong": "the most cheap",
+        "right": "the cheapest",
+        "note": "Adjetivos cortos: -est."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u03-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's the ___ (big) city in the country.",
+      "answer": [
+        "biggest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo corto: the + -est (y se duplica la g).",
+        "incorrect": "Revisa esto: Superlativo corto: the + -est (y se duplica la g)."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is the ___ (tall) girl in the class.",
+      "answer": [
+        "tallest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! the + adjetivo + -est.",
+        "incorrect": "Revisa esto: the + adjetivo + -est."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the ___ (good) pizza in town.",
+      "answer": [
+        "best"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: the best.",
+        "incorrect": "Revisa esto: Good es irregular: the best."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's the ___ expensive hotel in the city.",
+      "options": [
+        "most",
+        "more",
+        "much",
+        "very"
+      ],
+      "answer": [
+        "most"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivos largos: the most + adjetivo.",
+        "incorrect": "Revisa esto: Adjetivos largos: the most + adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's the youngest ___ the three brothers.",
+      "options": [
+        "of",
+        "in",
+        "at",
+        "than"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un conjunto de personas o cosas se usa of.",
+        "incorrect": "Revisa esto: Con un conjunto de personas o cosas se usa of."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is the most tallest girl.",
+      "answer": [
+        "She is the tallest girl."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Altura es corta: tallest, sin most.",
+        "incorrect": "Revisa esto: Altura es corta: tallest, sin most."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the more beautiful place in town.",
+      "answer": [
+        "It's the most beautiful place in town."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo largo: the most beautiful.",
+        "incorrect": "Revisa esto: Superlativo largo: the most beautiful."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex08",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 15,
+      "prompt": "Se dice 'She is tallest in the class'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El superlativo siempre lleva the: the tallest.",
+        "incorrect": "Revisa esto: El superlativo siempre lleva the: the tallest."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el país más grande del mundo, según el texto?",
+      "options": [
+        "Russia",
+        "Italy",
+        "Vatican City",
+        "Antarctica"
+      ],
+      "answer": [
+        "Russia"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Russia is the biggest country'.",
+        "incorrect": "Revisa esto: El texto dice 'Russia is the biggest country'."
+      }
+    },
+    {
+      "id": "en-a2-u03-l03-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice de la playa?",
+      "options": [
+        "It's the most beautiful he has seen",
+        "It's the smallest",
+        "It's the most crowded",
+        "It's the cheapest"
+      ],
+      "answer": [
+        "It's the most beautiful he has seen"
+      ],
+      "audio_text": "This is the most beautiful beach I've ever seen, and the water is the clearest in the area.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'the most beautiful beach I've ever seen'.",
+        "incorrect": "Revisa esto: Dice 'the most beautiful beach I've ever seen'."
+      },
+      "audio_script_id": "en-a2-u03-l03-ex10-a"
+    },
+    {
+      "id": "en-a2-u03-l03-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Es la ciudad más grande del país.",
+      "answer": [
+        "It's the biggest city in the country."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! the + biggest + in.",
+        "incorrect": "Revisa esto: the + biggest + in."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "the biggest · the tallest · the nicest",
+      "the most expensive · the most interesting",
+      "the best · the worst",
+      "in the world · of the three"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-biggest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-smallest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-highest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-longest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coldest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-best"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mountain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-continent"
+    },
+    {
+      "type": "grammar",
+      "id": "en-superlatives"
+    }
+  ]
+}
