@@ -5,6 +5,7 @@ TXI.add({
   colWord: ['Word', 'Palabra', 'Mot', 'Wort', 'Parola', 'Palavra', 'Слово', '单词'],
   colIPA: ['IPA', 'IPA', 'API', 'IPA', 'IPA', 'AFI', 'МФА', '音标'],
   colMeaning: ['Meaning (Spanish)', 'Significado', 'Sens (espagnol)', 'Bedeutung (Spanisch)', 'Significato (spagnolo)', 'Significado (espanhol)', 'Значение (исп.)', '释义（西语）'],
+  colMeaningTr: ['Meaning', 'Significado', 'Sens', 'Bedeutung', 'Significato', 'Significado', 'Значение', '释义'],
   colExample: ['Example', 'Ejemplo', 'Exemple', 'Beispiel', 'Esempio', 'Exemplo', 'Пример', '例句'],
   colLevel: ['Level', 'Nivel', 'Niveau', 'Niveau', 'Livello', 'Nível', 'Уровень', '级别'],
   reviewTheory: ['review the theory of this topic in the course.', 'repasa la teoría de este tema en el curso.', 'révisez la théorie de ce thème dans le cours.', 'wiederholen Sie die Theorie zu diesem Thema im Kurs.', 'ripassa la teoria di questo argomento nel corso.', 'revise a teoria deste tema no curso.', 'повторите теорию по этой теме в курсе.', '请复习课程中该主题的讲解。'],
@@ -193,7 +194,7 @@ TXI.add({
   explanationH: ['Explanation', 'Explicación', 'Explication', 'Erklärung', 'Spiegazione', 'Explicação', 'Объяснение', '讲解'],
   failTitle: ['The content could not be loaded', 'No se pudo cargar el contenido', 'Impossible de charger le contenu', 'Der Inhalt konnte nicht geladen werden', 'Impossibile caricare il contenuto', 'Não foi possível carregar o conteúdo', 'Не удалось загрузить содержимое', '无法加载内容'],
   failHelp: ['Check that the <b>content/</b> folder is at the root of the site. If you open the file with a double click (file://), the browser blocks loading: use GitHub Pages or a local server.', 'Comprueba que la carpeta <b>content/</b> está en la raíz del sitio. Si abres el archivo con doble clic (file://), el navegador bloquea la carga: usa GitHub Pages o un servidor local.', 'Vérifiez que le dossier <b>content/</b> est à la racine du site. En ouvrant le fichier par double-clic (file://), le navigateur bloque le chargement : utilisez GitHub Pages ou un serveur local.', 'Prüfen Sie, ob der Ordner <b>content/</b> im Stammverzeichnis liegt. Per Doppelklick (file://) blockiert der Browser das Laden: Nutzen Sie GitHub Pages oder einen lokalen Server.', 'Controlla che la cartella <b>content/</b> sia nella radice del sito. Aprendo il file con doppio clic (file://) il browser blocca il caricamento: usa GitHub Pages o un server locale.', 'Verifique se a pasta <b>content/</b> está na raiz do site. Ao abrir o arquivo com duplo clique (file://), o navegador bloqueia o carregamento: use o GitHub Pages ou um servidor local.', 'Проверьте, что папка <b>content/</b> лежит в корне сайта. При открытии файла двойным щелчком (file://) браузер блокирует загрузку: используйте GitHub Pages или локальный сервер.', '请确认 <b>content/</b> 文件夹位于网站根目录。双击打开文件（file://）时浏览器会阻止加载：请使用 GitHub Pages 或本地服务器。'],
-  contentNote: ['Lesson explanations, glossaries and translation exercises are written in Spanish.', 'Las explicaciones, glosarios y ejercicios de traducción están en español.', 'Les explications, glossaires et exercices de traduction sont en espagnol.', 'Erklärungen, Glossare und Übersetzungsübungen sind auf Spanisch.', 'Spiegazioni, glossari ed esercizi di traduzione sono in spagnolo.', 'As explicações, glossários e exercícios de tradução estão em espanhol.', 'Объяснения, глоссарии и упражнения на перевод — на испанском.', '课程讲解、词汇表和翻译练习为西班牙语。'],
+  contentNote: ['Lessons that are not yet translated show their explanations and glossaries in Spanish.', 'Las explicaciones, glosarios y ejercicios de traducción están en español.', 'Les leçons pas encore traduites affichent leurs explications et glossaires en espagnol.', 'Noch nicht übersetzte Lektionen zeigen Erklärungen und Glossare auf Spanisch.', 'Le lezioni non ancora tradotte mostrano spiegazioni e glossari in spagnolo.', 'As lições ainda não traduzidas mostram explicações e glossários em espanhol.', 'В ещё не переведённых уроках объяснения и глоссарии на испанском.', '尚未翻译的课程，其讲解和词汇表仍为西班牙语。'],
   topicLv: ['Topic', 'Tema', 'Thème', 'Thema', 'Argomento', 'Tema', 'Тема', '主题']
 });
 
@@ -213,7 +214,7 @@ TXI.FAQ = {
     ['Can I do the lessons on paper?', 'Yes. Use “🖨 Print” inside a lesson, “Print unit (PDF)” in each unit or “Exam sheet”. Choose whether to include the explanation and the answer key, then select “Save as PDF” or your printer.'],
     ['What does “Test mode” do?', 'It unlocks all lessons and exams so you can explore the content. It does not delete your progress.'],
     ['How do I delete my progress?', 'With “Delete progress” at the bottom of the course’s main page. Everything in this browser is deleted, except your daily goal.'],
-    ['Why are the explanations in Spanish?', 'The lessons were written for Spanish speakers. The interface follows the language you choose, but explanations, glossaries and translation exercises are in Spanish.'],
+    ['Why are the explanations in Spanish?', 'The course was written for Spanish speakers. Level A1 is already translated (explanations, dialogues and glossary); other levels are being translated and show Spanish until then. Translation exercises stay in Spanish.'],
     ['I found a mistake in a lesson', 'Note the code of the lesson or exercise (for example en-a2-u03-l02) and tell the site administrator.'],
     ['How far does the course go?', 'Up to B2. Levels A1, A2, B1 and B2 are available, each with its final exam.']
   ],
@@ -249,7 +250,7 @@ TXI.FAQ = {
     ['Puis-je travailler sur papier ?', 'Oui : « 🖨 Imprimer » dans une leçon, « Imprimer l’unité (PDF) » ou « Feuille d’examen ».'],
     ['Que fait le « Mode test » ?', 'Il débloque tout pour explorer le contenu. Il n’efface pas votre progression.'],
     ['Comment effacer ma progression ?', 'Avec « Effacer la progression » en bas de la page du cours.'],
-    ['Pourquoi les explications sont-elles en espagnol ?', 'Les leçons ont été écrites pour des hispanophones. L’interface suit votre langue, mais les explications, glossaires et traductions sont en espagnol.'],
+    ['Pourquoi les explications sont-elles en espagnol ?', 'Le cours a été écrit pour des hispanophones. Le niveau A1 est déjà traduit (explications, dialogues et glossaire) ; les autres niveaux sont en cours de traduction et s’affichent en espagnol en attendant. Les exercices de traduction restent en espagnol.'],
     ['J’ai trouvé une erreur', 'Notez le code de la leçon (par ex. en-a2-u03-l02) et prévenez l’administrateur du site.'],
     ['Jusqu’à quel niveau va le cours ?', 'Jusqu’à B2. A1, A2, B1 et B2 sont disponibles, chacun avec son examen final.']
   ],
@@ -267,7 +268,7 @@ TXI.FAQ = {
     ['Kann ich auf Papier arbeiten?', 'Ja: „🖨 Drucken“ in der Lektion, „Einheit drucken (PDF)“ oder „Prüfungsbogen“.'],
     ['Was macht der „Testmodus“?', 'Er schaltet alles frei, ohne Ihren Fortschritt zu löschen.'],
     ['Wie lösche ich meinen Fortschritt?', 'Mit „Fortschritt löschen“ unten auf der Kursseite.'],
-    ['Warum sind die Erklärungen auf Spanisch?', 'Die Lektionen wurden für Spanischsprachige geschrieben. Die Oberfläche folgt Ihrer Sprache, Erklärungen und Glossare sind auf Spanisch.'],
+    ['Warum sind die Erklärungen auf Spanisch?', 'Der Kurs wurde für Spanischsprachige geschrieben. Niveau A1 ist bereits übersetzt (Erklärungen, Dialoge und Glossar); die anderen Niveaus werden gerade übersetzt und erscheinen bis dahin auf Spanisch. Übersetzungsübungen bleiben auf Spanisch.'],
     ['Ich habe einen Fehler gefunden', 'Notieren Sie den Code der Lektion (z. B. en-a2-u03-l02) und melden Sie ihn dem Administrator.'],
     ['Bis zu welchem Niveau geht der Kurs?', 'Bis B2. A1, A2, B1 und B2 sind verfügbar, jeweils mit Abschlussprüfung.']
   ],
@@ -285,7 +286,7 @@ TXI.FAQ = {
     ['Posso lavorare su carta?', 'Sì: «🖨 Stampa» nella lezione, «Stampa unità (PDF)» o «Foglio d’esame».'],
     ['Cosa fa la «Modalità prova»?', 'Sblocca tutto senza cancellare i progressi.'],
     ['Come cancello i progressi?', 'Con «Cancella progressi» in fondo alla pagina del corso.'],
-    ['Perché le spiegazioni sono in spagnolo?', 'Le lezioni sono state scritte per ispanofoni. L’interfaccia segue la tua lingua, ma spiegazioni e glossari sono in spagnolo.'],
+    ['Perché le spiegazioni sono in spagnolo?', 'Il corso è stato scritto per ispanofoni. Il livello A1 è già tradotto (spiegazioni, dialoghi e glossario); gli altri livelli sono in traduzione e nel frattempo appaiono in spagnolo. Gli esercizi di traduzione restano in spagnolo.'],
     ['Ho trovato un errore', 'Annota il codice della lezione (es. en-a2-u03-l02) e avvisa l’amministratore.'],
     ['Fino a che livello arriva il corso?', 'Fino a B2. A1, A2, B1 e B2 sono disponibili, ciascuno con esame finale.']
   ],
@@ -303,7 +304,7 @@ TXI.FAQ = {
     ['Posso fazer em papel?', 'Sim: “🖨 Imprimir” na lição, “Imprimir unidade (PDF)” ou “Folha do exame”.'],
     ['O que faz o “Modo teste”?', 'Desbloqueia tudo sem apagar seu progresso.'],
     ['Como apago meu progresso?', 'Com “Apagar progresso” no fim da página do curso.'],
-    ['Por que as explicações estão em espanhol?', 'As lições foram escritas para hispanofalantes. A interface segue seu idioma, mas explicações e glossários estão em espanhol.'],
+    ['Por que as explicações estão em espanhol?', 'O curso foi escrito para hispanofalantes. O nível A1 já está traduzido (explicações, diálogos e glossário); os outros níveis estão sendo traduzidos e aparecem em espanhol até lá. Os exercícios de tradução continuam em espanhol.'],
     ['Encontrei um erro', 'Anote o código da lição (ex.: en-a2-u03-l02) e avise o administrador.'],
     ['Até que nível vai o curso?', 'Até o B2. A1, A2, B1 e B2 estão disponíveis, cada um com exame final.']
   ],
@@ -321,7 +322,7 @@ TXI.FAQ = {
     ['Можно ли заниматься на бумаге?', 'Да: «🖨 Печать» в уроке, «Распечатать раздел (PDF)» или «Лист экзамена».'],
     ['Что делает «Тестовый режим»?', 'Открывает всё, не удаляя прогресс.'],
     ['Как удалить прогресс?', 'Кнопкой «Удалить прогресс» внизу страницы курса.'],
-    ['Почему объяснения на испанском?', 'Уроки написаны для испаноговорящих. Интерфейс следует вашему языку, но объяснения и глоссарии — на испанском.'],
+    ['Почему объяснения на испанском?', 'Курс написан для испаноговорящих. Уровень A1 уже переведён (объяснения, диалоги и глоссарий); остальные уровни переводятся и пока показываются на испанском. Упражнения на перевод остаются на испанском.'],
     ['Я нашёл ошибку', 'Запишите код урока (например, en-a2-u03-l02) и сообщите администратору.'],
     ['До какого уровня доходит курс?', 'До B2. Доступны A1, A2, B1 и B2, у каждого есть итоговый экзамен.']
   ],
@@ -339,7 +340,7 @@ TXI.FAQ = {
     ['可以在纸上学习吗？', '可以：使用课程中的“🖨 打印”、单元的“打印单元（PDF）”或“试卷”。'],
     ['“测试模式”有什么用？', '解锁全部内容，不会删除你的进度。'],
     ['如何清除进度？', '点击课程主页底部的“清除进度”。'],
-    ['为什么讲解是西班牙语？', '课程是为西班牙语使用者编写的。界面会跟随你选择的语言，但讲解和词汇表为西班牙语。'],
+    ['为什么讲解是西班牙语？', '本课程原为西班牙语使用者编写。A1 级别已翻译完成（讲解、对话和词汇表）；其他级别正在翻译中，在此之前显示西班牙语。翻译练习仍为西班牙语。'],
     ['我发现了一个错误', '记下课程代码（例如 en-a2-u03-l02）并告知网站管理员。'],
     ['课程到哪个级别？', '到 B2。A1、A2、B1、B2 均已上线，每级都有结业考试。']
   ]

@@ -12,6 +12,43 @@ const J = u => fetch(C + u).then(r => { if (!r.ok) throw new Error(u + ' (' + r.
 const sent = a => a.join(' ').replace(/ ([.,?!;:])/g, '$1');
 const T = (k, v) => (window.TXI ? TXI.t(k, v) : k), ES = () => !window.TXI || TXI.lang === 'es';
 const esSub = x => (ES() && x ? x : '');                     // subtítulo en español solo si la interfaz está en español
+/* ---------- traducciones del contenido (content/en/i18n/<idioma>/<nivel>.json) ---------- */
+let OV = {}, OVlang = null;
+const lvOf = id => (String(id).match(/^en-(a1|a2|b1|b2)/) || [])[1];
+const ovPack = id => (OV[lvOf(id)] || null);
+const ovL = id => { const p = ovPack(id); return p && p.lessons[id] || null; };
+const ovU = id => { const p = ovPack(id); return p && p.units[id] || null; };
+const ovV = id => { const p = ovPack(id); return p && p.vocab[id] || null; };
+async function loadOv() {
+  const lg = window.TXI ? TXI.lang : 'es';
+  if (lg === OVlang) return; OVlang = lg; OV = {};
+  if (lg === 'es') return;
+  try {
+    const ix = await J('i18n/index.json'), lvls = (ix.langs || {})[lg] || [];
+    const packs = await Promise.all(lvls.map(l => J('i18n/' + lg + '/' + l + '.json').catch(() => null)));
+    lvls.forEach((l, i) => { if (packs[i]) OV[l] = packs[i]; });
+  } catch (e) {}
+}
+const subTitle = (id, es, target) => { if (ES()) return es || ''; const t = id && id.includes('-l') ? (ovL(id) || {}).title : ovU(id); return t && t !== target ? t : ''; };
+const meaning = w => (ES() ? w.translation_es || w.es : ovV(w.id) || w.translation_es || w.es) || '';
+function localize(L) {                                 // copia de la lección con los textos traducidos (si existen)
+  if (ES()) return L;
+  const o = ovL(L.id), C = JSON.parse(JSON.stringify(L)), en = TXI.lang === 'en';
+  const n = C.input || {};
+  (n.glossary || []).forEach(g => { g.es = meaning(g); });
+  if (n.lines) n.lines.forEach((l, i) => { l.es = en ? '' : (o && o.lines ? o.lines[i] : l.es); });
+  if (n.text) n.es = en ? '' : (o && o.text ? o.text : n.es);
+  if (o) {
+    C.title.es = o.title && o.title !== C.title.target ? o.title : '';
+    if (o.objective) C.objective = o.objective;
+    if (o.warmup && C.warmup) C.warmup.prompt_es = o.warmup;
+    if (o.recap) n.recap_es = o.recap;
+    if (o.md) C.explanation.md_es = o.md;
+    if (o.mist) C.explanation.common_mistakes_es = (C.explanation.common_mistakes_es || []).map((m, i) => Object.assign(m, { note: o.mist[i] || m.note }));
+    C.explanation.false_friends = [];                  // los falsos amigos son específicos del español
+  } else C.title.es = '';
+  return C;
+}
 const fbTxt = x => String(x || '').replace(/^¡Correcto!/, T('correctEx')).replace(/^Revisa esto:/, T('reviewThis'));
 
 /* ---------- progreso ---------- */
@@ -65,8 +102,9 @@ const md = t => {
 };
 
 /* ---------- entrada de la lección (diálogo / texto / glosario) ---------- */
-const gloss = g => g && g.length ? `<h3>${T('vocabH')}</h3><div class="tx-scroll"><table class="tx-table"><tr><th></th><th>${T('colWord')}</th><th>${T('colIPA')}</th><th>${T('colMeaning')}</th><th>${T('colExample')}</th></tr>` +
-  g.map(w => `<tr><td>${sayBtn(w.lemma)}</td><td><b>${esc(w.lemma)}</b> <small>${esc(w.pos)}</small></td><td>${esc(w.ipa)}</td><td>${esc(w.es)}</td><td>${esc(w.example)}</td></tr>`).join('') + '</table></div>' : '';
+const allTr = g => ES() || g.every(w => ovV(w.id));
+const gloss = g => g && g.length ? `<h3>${T('vocabH')}</h3><div class="tx-scroll"><table class="tx-table"><tr><th></th><th>${T('colWord')}</th><th>${T('colIPA')}</th><th>${T(allTr(g) ? 'colMeaningTr' : 'colMeaning')}</th><th>${T('colExample')}</th></tr>` +
+  g.map(w => `<tr><td>${sayBtn(w.lemma)}</td><td><b>${esc(w.lemma)}</b> <small>${esc(w.pos)}</small></td><td>${esc(w.ipa)}</td><td>${esc(meaning(w))}</td><td>${esc(w.example)}</td></tr>`).join('') + '</table></div>' : '';
 const inputHTML = (n, plain) => {
   let s = '';
   if (n.type === 'dialogue') s = n.lines.map(l => `<div class="tx-line">${plain ? '' : sayBtn(l.text) + ' '}<b>${esc(l.speaker)}:</b> ${esc(l.text)}<br><small>${esc(l.es)}</small></div>`).join('');
@@ -79,7 +117,8 @@ const inputHTML = (n, plain) => {
 const R = {};
 const reviewHTML = e => {                              // tema que hay que repasar para esta pregunta (sin dar la respuesta)
   const r = e.review; if (!r) return T('reviewTheory');
-  return '<b>' + esc(r.topic_es) + '</b>' + (r.lesson ? ' <small>· ' + T('unitLesson', { u: r.unit, l: r.order }) + ': ' + esc(r.lesson_es) + '</small>' : '');
+  const o = r.lesson && !ES() ? ovL(r.lesson) : null;
+  return '<b>' + esc(o ? o.topic || o.title : r.topic_es) + '</b>' + (r.lesson ? ' <small>· ' + T('unitLesson', { u: r.unit, l: r.order }) + ': ' + esc(o ? o.title : r.lesson_es) + '</small>' : '');
 };
 function runEx(e, box, next, o = {}) {
   box.innerHTML = '';
@@ -248,6 +287,7 @@ R.roleplay = (e, b, fin) => {
 
 /* ---------- vistas ---------- */
 let P, LV = [], flat = [];
+let redraw = null;                                       // vuelve a dibujar la pantalla actual (cambio de idioma)
 const view = (html, cls = 'tx-card') => { app.innerHTML = `<div class="${cls}">${html}</div>`; scrollTo(0, 0); return app.firstChild; };
 const stepCard = (title, i, n) => {
   view(`<div class="tx-stephead"><button type="button" class="tx-x" aria-label="${T('exitMap')}">✕</button><div class="tx-prog"><span style="width:${i / n * 100}%"></span></div></div><h2>${title}</h2><div id="step"></div>`);
@@ -313,7 +353,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') { closePop()
 function pop(id) {
   closePop();
   const l = flat.find(x => x.id === id), lv = LV.find(v => v.cefr === l.cefr), u = lv.units.find(u => u.lessons.includes(l)), dn = S.done[id], st = dn ? starsOf(dn.score) : 0;
-  const p = h('div', 'tx-pop lv-' + l.cefr.toLowerCase(), `<small>${l.cefr} · ${T('unitN', { n: u.order })} · ${l.kind === 'checkpoint' ? '🎁 Checkpoint' : T('lessonN', { n: l.order })}</small><b>${esc(l.title_target)}</b><span>${esc(esSub(l.title_es))}</span>` +
+  const p = h('div', 'tx-pop lv-' + l.cefr.toLowerCase(), `<small>${l.cefr} · ${T('unitN', { n: u.order })} · ${l.kind === 'checkpoint' ? '🎁 Checkpoint' : T('lessonN', { n: l.order })}</small><b>${esc(l.title_target)}</b><span>${esc(subTitle(l.id, l.title_es, l.title_target))}</span>` +
     (dn ? `<span class="tx-stars big">${'<i>★</i>'.repeat(st)}${'<i class="off">★</i>'.repeat(3 - st)}</span><small>${T('bestResult', { p: Math.round(dn.score * 100) })}${st < 3 ? T('moreStar', { p: st === 2 ? 95 : 85 }) : ''}</small>` : `<small>${T(l.kind === 'checkpoint' ? 'cpHint' : 'upTo3')}</small>`));
   p.setAttribute('role', 'dialog'); p.setAttribute('aria-label', l.title_target);
   const row = h('div', 'tx-pop-row');
@@ -323,7 +363,7 @@ function pop(id) {
 }
 
 function home() {
-  closePop();
+  closePop(); redraw = home;
   const due = dueItems().length, pl = S.placement, soon = P.levels.filter(l => !LV.includes(l));
   const nextL = flat.find(l => !S.done[l.id] && unlocked(l)), curLv = nextL ? nextL.cefr : LV[LV.length - 1].cefr;
   const mt = minsToday(), g = S.goal, stk = streak(), xp = xpOf(), rk = rank(xp);
@@ -356,7 +396,7 @@ function home() {
     lv.units.filter(u => u.lessons.some(x => x.status === 'ready')).forEach(u => {
       const L = u.lessons.filter(l => l.status === 'ready'), ud = L.filter(l => S.done[l.id]).length, us = L.reduce((a, l) => a + (S.done[l.id] ? starsOf(S.done[l.id].score) : 0), 0), cleared = ud === L.length;
       s += `<section class="tx-unit ${cleared ? 'cleared' : ''}"><div class="tx-unit-head"><span class="tx-unit-ico" aria-hidden="true">${ICON[u.theme] || '📘'}</span>
-        <div class="tx-unit-name"><small>${T('unitN', { n: u.order })}</small><b>${esc(u.title_target)}</b><small>${esc(esSub(u.title_es))}</small></div>
+        <div class="tx-unit-name"><small>${T('unitN', { n: u.order })}</small><b>${esc(u.title_target)}</b><small>${esc(subTitle(u.id, u.title_es, u.title_target))}</small></div>
         <div class="tx-unit-side">${cleared ? `<span class="tx-medal" title="${T('unitDone')}">🏅</span>` : `<span class="tx-unit-count">${ud}/${L.length}</span>`}<small>⭐ ${us}/${L.length * 3}</small></div>
         <button class="tx-btn tx-alt tx-printu" data-go="print:unit:${u.id}" title="${T('printUnit')}" aria-label="${T('printUnitN', { n: u.order })}">🖨</button></div>`;
       const H = L.length * ROW + 44, pts = L.map((l, i) => [160 + OFF[(k + i) % OFF.length] * 52, i * ROW + 80]);
@@ -393,11 +433,15 @@ function home() {
 
 async function lesson(ent) {
   closePop();
-  const L = await J(ent.file), exs = L.exercises, pass = L.checkpoint?.pass_score ?? .7, total = 3 + exs.length, title = `${esc(L.title.target)} <small>${esc(esSub(L.title.es))}</small>`;
+  const raw = await J(ent.file); let L = localize(raw);
+  const exs = L.exercises, pass = L.checkpoint?.pass_score ?? .7, total = 3 + exs.length;
+  let title = `${esc(L.title.target)} <small>${esc(L.title.es || '')}</small>`;
+  const here = f => { redraw = () => { L = localize(raw); title = `${esc(L.title.target)} <small>${esc(L.title.es || '')}</small>`; f(); }; };
   let sc = 0, combo = 0, best = 0;
-  const intro = () => { const s = stepCard(title, 0, total); s.innerHTML = `<p>${esc(L.objective)}</p><p><small>${T('minExercises', { m: L.est_minutes, n: exs.length })}</small></p>` + (L.warmup ? `<p class="tx-warm">${esc(L.warmup.prompt_es)}</p>` : ''); s.append(btn(T('start'), input), btn(T('print'), () => printView('lesson', ent.id).catch(fail), 'tx-alt')); };
-  const input = () => { const s = stepCard(title, 1, total); s.innerHTML = inputHTML(L.input); s.append(btn(T('continue'), explain)); };
+  const intro = () => { here(intro); const s = stepCard(title, 0, total); s.innerHTML = `<p>${esc(L.objective)}</p><p><small>${T('minExercises', { m: L.est_minutes, n: exs.length })}</small></p>` + (L.warmup ? `<p class="tx-warm">${esc(L.warmup.prompt_es)}</p>` : ''); s.append(btn(T('start'), input), btn(T('print'), () => printView('lesson', ent.id).catch(fail), 'tx-alt')); };
+  const input = () => { here(input); const s = stepCard(title, 1, total); s.innerHTML = inputHTML(L.input); s.append(btn(T('continue'), explain)); };
   const explain = () => {
+    here(explain);
     const s = stepCard(title, 2, total), x = L.explanation;
     s.innerHTML = md(x.md_es) +
       (x.common_mistakes_es?.length ? '<h3>' + T('commonMistakes') + '</h3><ul>' + x.common_mistakes_es.map(m => `<li>❌ <s>${esc(m.wrong)}</s> → ✅ <b>${esc(m.right)}</b><br><small>${esc(m.note)}</small></li>`).join('') + '</ul>' : '') +
@@ -406,10 +450,12 @@ async function lesson(ent) {
   };
   const ex = i => {
     if (i >= exs.length) return end();
+    here(() => ex(i));
     const s = stepCard(`${title} <small>${T('exerciseN', { i: i + 1, n: exs.length })}</small>${combo >= 2 ? `<span class="tx-combo">🔥 ×${combo}</span>` : ''}`, 3 + i, total);
     runEx(exs[i], s, v => { sc += v; combo = v >= 1 ? combo + 1 : 0; best = Math.max(best, combo); ex(i + 1); }, { input: L.input });
   };
-  const end = () => {
+  const end = again => {
+    here(() => end(true));
     const pct = sc / exs.length, ok = pct >= pass, k = flat.findIndex(l => l.id === ent.id), nx = flat[k + 1];
     const lv = LV.find(v => v.cefr === ent.cefr), unit = lv.units.find(u => u.lessons.some(x => x.id === ent.id)), UL = unit.lessons.filter(x => x.status === 'ready');
     const prev = S.done[L.id], prevSt = prev ? starsOf(prev.score) : 0, xp0 = xpOf(), unitWas = UL.every(x => S.done[x.id]), examWas = examOpen(lv), nxWas = nx ? unlocked(nx) : true;
@@ -424,11 +470,11 @@ async function lesson(ent) {
       (L.summary?.key_phrases?.length ? '<h3>' + T('keyPhrases') + '</h3><ul>' + L.summary.key_phrases.map(p => `<li>${esc(p)} ${sayBtn(p)}</li>`).join('') + '</ul>' : '');
     if (ok && nx) s.append(btn(T('nextLesson'), () => lesson(nx).catch(fail)));
     s.append(btn(T('backMap'), () => { if (ok && nx && !nxWas) fresh = nx.id; home(); }), btn(T('repeat'), () => lesson(ent).catch(fail), 'tx-alt'));
-    if (ok) { SFX.win(); for (let i = 0; i < st; i++) setTimeout(() => SFX.star(i), 450 + i * 350); confetti(40 + st * 45); } else SFX.bad();
+    if (again) {} else if (ok) { SFX.win(); for (let i = 0; i < st; i++) setTimeout(() => SFX.star(i), 450 + i * 350); confetti(40 + st * 45); } else SFX.bad();
     const unitNow = UL.every(x => S.done[x.id]), examNow = examOpen(lv);
     if (ok && unitNow && !unitWas) {
       const us = UL.reduce((a, x) => a + starsOf(S.done[x.id].score), 0);
-      setTimeout(() => celebrate('🏅', T('unitCompleted', { n: unit.order }), `<b>${esc(unit.title_target)}</b><br>${esc(esSub(unit.title_es))}${ES() ? '<br>' : ''}${T('starsOfN', { s: us, t: UL.length * 3 })}` +
+      setTimeout(() => celebrate('🏅', T('unitCompleted', { n: unit.order }), `<b>${esc(unit.title_target)}</b><br>${esc(subTitle(unit.id, unit.title_es, unit.title_target))}${subTitle(unit.id, unit.title_es, unit.title_target) ? '<br>' : ''}${T('starsOfN', { s: us, t: UL.length * 3 })}` +
         (examNow && !examWas ? `<br><br>🏰 <b>${T('examUnlocked', { l: lv.cefr })}</b>` : ''), [[T('seeMap'), () => { if (nx && !nxWas) fresh = nx.id; home(); }], [T('stayHere'), null]]), 1500);
     }
   };
@@ -446,6 +492,7 @@ const TOPIC_ES = { greetings: 'Saludos', alphabet: 'Alfabeto', numbers: 'Número
   'life-stories': 'Historias de vida', places: 'Lugares', careers: 'Carreras', lifestyle: 'Estilo de vida', media: 'Medios', tourism: 'Turismo', money: 'Dinero', education: 'Educación', environment: 'Medio ambiente', culture: 'Cultura y tradiciones', relationships: 'Relaciones', achievements: 'Retos y logros', identity: 'Identidad', workplace: 'Mundo laboral', news: 'Noticias y medios', science: 'Ciencia', wellbeing: 'Bienestar', 'culture-travel': 'Viajes y culturas', economy: 'Economía', society: 'Sociedad', planet: 'Planeta', arts: 'Arte y cultura', law: 'Ley y sociedad', communication: 'Comunicación', adventure: 'Aventura y riesgo', global: 'Temas globales' };
 
 async function vocab() {
+  redraw = () => vocab().catch(fail);
   const lists = await Promise.all(LV.map(l => J('vocab/' + l.cefr.toLowerCase() + '.json')));
   const all = lists.flatMap((v, i) => v.items.map(x => Object.assign({ lv: LV[i].cefr }, x)));
   const name = t => (ES() && TOPIC_ES[t]) || (t === 'otros' || !t ? T('others') : String(t).replace(/-/g, ' ').replace(/^./, c => c.toUpperCase()));
@@ -455,10 +502,10 @@ async function vocab() {
   $('#v-back').append(btn(T('backMapArrow'), home));
   const draw = () => {
     const lvl = $('#v-lv').value, q = $('#v-q').value.trim().toLowerCase(), by = {};
-    all.filter(w => (!lvl || w.lv === lvl) && (!q || (w.lemma + ' ' + w.translation_es).toLowerCase().includes(q))).forEach(w => (by[w.topic || 'otros'] = by[w.topic || 'otros'] || []).push(w));
+    all.filter(w => (!lvl || w.lv === lvl) && (!q || (w.lemma + ' ' + meaning(w)).toLowerCase().includes(q))).forEach(w => (by[w.topic || 'otros'] = by[w.topic || 'otros'] || []).push(w));
     $('#v-list').innerHTML = Object.keys(by).sort((a, b) => name(a).localeCompare(name(b), TXI.lang)).map(tp =>
-      `<details class="tx-level" ${q ? 'open' : ''}><summary>${esc(name(tp))} <small>(${by[tp].length})</small></summary><div class="tx-scroll"><table class="tx-table"><tr><th></th><th>${T('colWord')}</th><th>${T('colIPA')}</th><th>${T('colMeaning')}</th><th>${T('colExample')}</th><th>${T('colLevel')}</th></tr>` +
-      by[tp].map(w => `<tr><td>${sayBtn(w.lemma)}</td><td><b>${esc(w.lemma)}</b> <small>${esc(w.pos)}</small></td><td>${esc(w.ipa)}</td><td>${esc(w.translation_es)}</td><td>${esc(w.example)}</td><td>${w.lv}</td></tr>`).join('') +
+      `<details class="tx-level" ${q ? 'open' : ''}><summary>${esc(name(tp))} <small>(${by[tp].length})</small></summary><div class="tx-scroll"><table class="tx-table"><tr><th></th><th>${T('colWord')}</th><th>${T('colIPA')}</th><th>${T(allTr(by[tp]) ? 'colMeaningTr' : 'colMeaning')}</th><th>${T('colExample')}</th><th>${T('colLevel')}</th></tr>` +
+      by[tp].map(w => `<tr><td>${sayBtn(w.lemma)}</td><td><b>${esc(w.lemma)}</b> <small>${esc(w.pos)}</small></td><td>${esc(w.ipa)}</td><td>${esc(meaning(w))}</td><td>${esc(w.example)}</td><td>${w.lv}</td></tr>`).join('') +
       '</table></div></details>').join('') || '<p>' + T('noResults') + '</p>';
   };
   $('#v-lv').onchange = draw; $('#v-q').oninput = draw; draw();
@@ -468,11 +515,12 @@ async function review() {
   const Vs = await Promise.all(LV.map(l => J('vocab/' + l.cefr.toLowerCase() + '.json'))), map = Object.fromEntries(Vs.flatMap(V => V.items).map(v => [v.id, v]));
   const q = shuffle(dueItems().filter(k => map[k])); let i = 0, ok = 0;
   const card = () => {
+    redraw = card;
     if (i >= q.length) { const c = view(`<h2>${T('reviewDone')}</h2><p>${T('gotNofM', { o: ok, n: q.length })}</p>`); c.append(btn(T('backMap'), home)); return; }
     const v = map[q[i]], it = S.srs[q[i]], s = stepCard(`${T('reviewT')} <small>${i + 1}/${q.length}</small>`, i, q.length);
     s.innerHTML = `<p class="tx-big">${esc(v.lemma)} ${sayBtn(v.lemma)}</p><p class="tx-ipa">${esc(v.ipa)}</p>`;
     s.append(btn(T('showAnswer'), () => {
-      s.innerHTML += `<p><b>${esc(v.translation_es)}</b></p><p><small>${esc(v.example)}</small></p>`;
+      s.innerHTML += `<p><b>${esc(meaning(v))}</b></p><p><small>${esc(v.example)}</small></p>`;
       const grade = good => { if (good) { ok++; it.box = Math.min(6, it.box + 1); } else { it.box = 1; it.lapses++; } it.due = day() + INT[it.box - 1]; save(); i++; card(); };
       s.append(btn(T('didntKnow'), () => grade(0)), btn(T('knewIt'), () => grade(1)));
       s.querySelector('.tx-btn:not([data-say])').remove();
@@ -485,6 +533,7 @@ async function exam(cefr) {
   const lv = LV.find(l => l.cefr === cefr), E = await J(lv.exam.file), n = E.exercises.length, wrong = {}; let i = 0, sc = 0;
   const step = () => {
     if (i >= n) return result();
+    redraw = step;
     const s = stepCard(`${T('examTitle', { l: cefr })} <small>${i + 1}/${n}</small>`, i, n);
     runEx(E.exercises[i], s, (v, e) => {
       sc += v;
@@ -493,6 +542,7 @@ async function exam(cefr) {
     }, { exam: true });
   };
   const result = () => {
+    redraw = result;
     const pct = sc / n, ok = pct >= E.pass_score, before = S.exams[cefr]; S.exams[cefr] = { pct, passed: ok || !!(before && before.passed), at: Date.now() }; save();
     if (ok && !(before && before.passed)) setTimeout(() => celebrate('🏆', T('levelPassed', { l: cefr }), T('passedWith', { p: Math.round(pct * 100) }) + '<br>+150 XP', [[T('seeMap'), home], [T('seeResults'), null]]), 400);
     const weak = Object.values(wrong).sort((a, b) => b.n - a.n);
@@ -500,7 +550,7 @@ async function exam(cefr) {
       (weak.length ? '<h3>' + T('topicsReview') + '</h3><ul>' + weak.map(w => `<li>${reviewHTML({ review: w.r })} <small>(${w.n} ${T(w.n === 1 ? 'question1' : 'questionsW')})</small>` + (w.r.lesson ? ` <button class="tx-btn tx-alt" data-go="lesson:${w.r.lesson}">${T('goLesson')}</button>` : '') + '</li>').join('') + '</ul>' : '') + `<p><small>${examInstr(E, lv)}</small></p>`);
     c.append(btn(T('optTasks'), () => opt(0)), btn(T('backMap'), home));
   };
-  const opt = k => { if (k >= E.optional_tasks.length) return home(); const s = stepCard(T('optTask'), k, E.optional_tasks.length); runEx(E.optional_tasks[k], s, () => opt(k + 1), { optional: true }); };
+  const opt = k => { if (k >= E.optional_tasks.length) return home(); redraw = () => opt(k); const s = stepCard(T('optTask'), k, E.optional_tasks.length); runEx(E.optional_tasks[k], s, () => opt(k + 1), { optional: true }); };
   step();
 }
 
@@ -510,6 +560,7 @@ async function placement() {
   let bi = 0, ii = 0, ok = 0;
   const pct = r => Math.round(r.ok / r.n * 100);
   const end = () => {
+    redraw = end;
     const done = T.blocks.filter(B => res[B.level]), passed = done.filter(B => res[B.level].ok / res[B.level].n >= A.pass_ratio);
     const lv = passed.length ? passed[passed.length - 1].level : 'A1';
     const fail = done.find(B => !passed.includes(B));
@@ -524,6 +575,7 @@ async function placement() {
     c.append(btn(tr('goCourse'), home), btn(tr('repeatTest'), () => placement().catch(fail)));
   };
   const next = () => {
+    redraw = next;
     const B = T.blocks[bi];
     if (ii >= B.items.length) {
       res[B.level] = { ok, n: B.items.length };
@@ -533,7 +585,8 @@ async function placement() {
     const s = stepCard(`${tr('placementT')} <small>${tr('plQuestion', { l: B.level, i: ii + 1, n: B.items.length })}</small>`, ii, B.items.length);
     runEx(B.items[ii], s, v => { ok += v; ii++; next(); }, { quiet: true, dk: true });
   };
-  const c = view(`<h2>${tr('placementT')}</h2><p>${tr('plInstr')}</p>`); c.append(btn(tr('start'), next), btn(tr('cancel'), home));
+  const intro = () => { redraw = intro; const c = view(`<h2>${tr('placementT')}</h2><p>${tr('plInstr')}</p>`); c.append(btn(tr('start'), next), btn(tr('cancel'), home)); };
+  intro();
 }
 
 /* ---------- preguntas frecuentes ---------- */
@@ -555,6 +608,7 @@ const FAQ = [
   ['¿Hasta qué nivel llega el curso?', 'Hasta B2. Los niveles A1, A2, B1 y B2 ya están disponibles, cada uno con su examen final.']
 ];
 function faq() {
+  redraw = faq;
   const F = (window.TXI && TXI.FAQ && TXI.FAQ[TXI.lang]) || FAQ;
   const c = view(`<h2>${T('faqTitle')}</h2><div id="faq">${F.map(([q, a]) => `<details class="tx-level"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`);
   c.append(btn(T('backMapArrow'), home));
@@ -614,6 +668,7 @@ function printDoc(parts, opt) {                         // parts: [{head, intro,
   return html;
 }
 async function printView(kind, id) {
+  redraw = () => printView(kind, id).catch(fail);
   const ent = kind === 'unit' ? LV.flatMap(l => l.units).find(u => u.id === id) : kind === 'lesson' ? flat.find(l => l.id === id) : LV.find(l => l.cefr === id);
   const name = kind === 'unit' ? T('unitTitle', { n: ent.order, t: ent.title_target }) : kind === 'lesson' ? ent.title_target : T('finalExam', { l: id });
   const c = view(`<h2>${T('printTitle')}</h2><p><b>${esc(name)}</b></p>
@@ -627,9 +682,9 @@ async function printView(kind, id) {
       const E = await J(ent.exam.file);
       parts = [{ head: T('examTitle', { l: id }), intro: '<p>' + examInstr(E, ent) + '</p>', exercises: E.exercises.concat(E.optional_tasks) }];
     } else {
-      const files = kind === 'unit' ? ent.lessons.filter(l => l.status === 'ready') : [ent], Ls = await Promise.all(files.map(f => J(f.file)));
+      const files = kind === 'unit' ? ent.lessons.filter(l => l.status === 'ready') : [ent], Ls = (await Promise.all(files.map(f => J(f.file)))).map(localize);
       parts = Ls.map(L => ({
-        head: esc(L.title.target) + ' <small>' + esc(esSub(L.title.es)) + '</small>',
+        head: esc(L.title.target) + ' <small>' + esc(L.title.es || '') + '</small>',
         intro: '<p><i>' + esc(L.objective) + '</i></p>' + inputHTML(L.input, true) + (opt.exp ? '<h2>' + T('explanationH') + '</h2>' + md(L.explanation.md_es) +
           (L.explanation.common_mistakes_es?.length ? '<h3>' + T('commonMistakes') + '</h3><ul>' + L.explanation.common_mistakes_es.map(m => `<li>✗ ${esc(m.wrong)} → ✓ <b>${esc(m.right)}</b> <small>${esc(m.note)}</small></li>`).join('') + '</ul>' : '') : ''),
         exercises: L.exercises
@@ -659,11 +714,11 @@ app.onclick = ev => {
   else if (a === 'reset' && confirm(T('resetConfirm'))) { S = { done: {}, srs: {}, exams: {}, placement: null, open: false, secs: {}, goal: S.goal || 20 }; save(); home(); }
 };
 
-window.addEventListener('tx-lang', () => { if (app.querySelector('.tx-hud')) home(); else if (app.querySelector('#v-list')) vocab().catch(fail); else if (app.querySelector('#faq')) faq(); });
+window.addEventListener('tx-lang', async () => { await loadOv(); closePop(); if (redraw) redraw(); });
 window.Trilex = { runEx, norm, printEx, starsOf, rank, celebrate };
 J('path.json').then(p => {
   P = p; LV = p.levels.filter(l => l.units.some(u => u.lessons.some(x => x.status === 'ready')));
   flat = LV.flatMap(lv => lv.units.flatMap(u => u.lessons.filter(l => l.status === 'ready').map(l => Object.assign(l, { cefr: lv.cefr }))));
-  home();
+  return loadOv().then(home);
 }).catch(fail);
 })();
