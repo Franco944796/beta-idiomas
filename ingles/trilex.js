@@ -13,7 +13,7 @@ const sent = a => a.join(' ').replace(/ ([.,?!;:])/g, '$1');
 
 /* ---------- progreso ---------- */
 let S = {}; try { S = JSON.parse(localStorage.getItem(K)) || {}; } catch (e) {}
-S = Object.assign({ done: {}, srs: {}, exams: null, placement: null, open: false, secs: {}, goal: 20 }, S);
+S = Object.assign({ done: {}, srs: {}, exams: null, placement: null, open: false, secs: {}, goal: 20, mute: false }, S);
 if (!S.exams) S.exams = S.exam ? { A1: S.exam } : {};   // migra el examen único antiguo (A1)
 const save = () => { try { localStorage.setItem(K, JSON.stringify(S)); } catch (e) {} };
 
@@ -96,6 +96,7 @@ function runEx(e, box, next, o = {}) {
     else if (o.optional || e.type === 'writing' || e.type === 'pronunciation') head = why ? '<b>' + esc(why) + '</b>' : '';       // autoevaluación: sin veredicto
     else head = e.feedback ? '<b>' + esc(s >= 1 ? e.feedback.correct : e.feedback.incorrect) + '</b>' : '';
     fb.innerHTML = head + x;
+    if (!o.optional && e.type !== 'writing' && e.type !== 'pronunciation') (s >= 1 ? SFX.ok : SFX.bad)();
     act.replaceChildren(btn('Continuar', () => next(s, e)));
   };
   const ask = (fn, l = 'Comprobar') => act.replaceChildren(btn(l, fn));
@@ -245,52 +246,152 @@ R.roleplay = (e, b, fin) => {
 /* ---------- vistas ---------- */
 let P, LV = [], flat = [];
 const view = (html, cls = 'tx-card') => { app.innerHTML = `<div class="${cls}">${html}</div>`; scrollTo(0, 0); return app.firstChild; };
-const stepCard = (title, i, n) => { const c = view(`<div class="tx-prog"><span style="width:${i / n * 100}%"></span></div><h2>${title}</h2><div id="step"></div>`); return $('#step'); };
+const stepCard = (title, i, n) => {
+  view(`<div class="tx-stephead"><button type="button" class="tx-x" aria-label="Salir al mapa">✕</button><div class="tx-prog"><span style="width:${i / n * 100}%"></span></div></div><h2>${title}</h2><div id="step"></div>`);
+  $('.tx-x').onclick = () => { if (i === 0 || i >= n || confirm('¿Salir al mapa? Se pierde el avance de esta actividad.')) home(); };
+  return $('#step');
+};
 const dueItems = () => Object.keys(S.srs).filter(k => S.srs[k].due <= day());
 const free = c => !!(S.placement && S.placement.passed && S.placement.passed.includes(c));          // nivel superado en la prueba de nivel
 const unlocked = l => { const k = flat.indexOf(l), p = flat[k - 1]; return S.open || k === 0 || free(l.cefr) || !!S.done[p.id] || (p.cefr !== l.cefr && free(p.cefr)); };
 const examOpen = lv => lv.exam && lv.exam.status === 'ready' && (S.open || free(lv.cefr) || flat.filter(l => l.cefr === lv.cefr).length === lvTotal(lv) && flat.filter(l => l.cefr === lv.cefr).every(l => S.done[l.id]));
 const lvTotal = lv => lv.units.reduce((a, u) => a + u.lessons.length, 0);
 
+/* ---------- modo juego: estrellas, XP, sonido, confeti, celebraciones ---------- */
+const LVNAME = { A1: 'Principiante', A2: 'Elemental', B1: 'Intermedio', B2: 'Intermedio alto' };
+const ICON = { greetings: '👋', 'countries-jobs': '🌍', family: '👨‍👩‍👧', routine: '⏰', food: '🍎', home: '🏠', town: '🗺️', shopping: '🛍️', hobbies: '🎸',
+  'weather-plans': '☀️', objects: '🎒', 'past-simple': '📸', travel: '✈️', comparing: '⚖️', quantities: '🥕', future: '🔮', 'health-rules': '🩺',
+  'work-study': '💼', experiences: '🏔️', technology: '📱', opinions: '💬', clothes: '👕', 'getting-around': '🚇', leisure: '🎬' };
+const starsOf = s => s >= .95 ? 3 : s >= .85 ? 2 : s > 0 ? 1 : 0;
+const xpOf = () => Object.entries(S.done).reduce((a, [id, d]) => a + (10 + Math.round(d.score * 10)) * (/-l06$/.test(id) ? 2 : 1), 0) +
+  Object.values(S.exams || {}).filter(e => e && e.passed).length * 150;
+const rank = xp => { let n = 1, need = 60, acc = 0; while (xp >= acc + need) { acc += need; n++; need = Math.round(need * 1.15); } return { n, cur: xp - acc, need }; };
+const reduced = () => !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+let AC = null;
+const tone = seq => {
+  if (S.mute) return;
+  try {
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)(); const t0 = AC.currentTime + .01;
+    seq.forEach(([f, d, at]) => { const o = AC.createOscillator(), g = AC.createGain(); o.type = 'triangle'; o.frequency.value = f;
+      g.gain.setValueAtTime(.0001, t0 + at); g.gain.exponentialRampToValueAtTime(.16, t0 + at + .02); g.gain.exponentialRampToValueAtTime(.0001, t0 + at + d);
+      o.connect(g); g.connect(AC.destination); o.start(t0 + at); o.stop(t0 + at + d + .05); });
+  } catch (e) {}
+};
+const SFX = { ok: () => tone([[660, .12, 0], [990, .2, .09]]), bad: () => tone([[196, .22, 0], [174, .25, .12]]),
+  win: () => tone([[523, .14, 0], [659, .14, .12], [784, .14, .24], [1047, .45, .36]]), star: i => tone([[784 + i * 196, .18, 0]]) };
+function confetti(n = 140) {
+  if (reduced() || !window.requestAnimationFrame) return;
+  const c = h('canvas', 'tx-confetti'); let x = null; try { x = c.getContext('2d'); } catch (e) {}
+  if (!x) return; document.body.append(c);
+  const W = c.width = innerWidth, H = c.height = innerHeight, cols = ['#f2b705', '#8B0000', '#2a9d8f', '#3a7bd5', '#ffffff', '#e76f51', '#8e44ad'];
+  const P = Array.from({ length: n }, () => ({ x: W / 2 + (Math.random() - .5) * W * .25, y: H * .38, vx: (Math.random() - .5) * 16, vy: -Math.random() * 15 - 5,
+    r: Math.random() * 7 + 5, c: cols[Math.random() * cols.length | 0], a: Math.random() * 6, va: (Math.random() - .5) * .35 }));
+  let t = 0;
+  const step = () => { x.clearRect(0, 0, W, H);
+    P.forEach(p => { p.vy += .38; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.a += p.va; x.save(); x.translate(p.x, p.y); x.rotate(p.a); x.fillStyle = p.c; x.fillRect(-p.r / 2, -p.r / 4, p.r, p.r / 2); x.restore(); });
+    if (++t < 170) requestAnimationFrame(step); else c.remove(); };
+  requestAnimationFrame(step);
+}
+function celebrate(icon, title, sub, btns) {
+  document.querySelectorAll('.tx-modal').forEach(m => m.remove());
+  const o = h('div', 'tx-modal'), b = h('div', 'tx-modal-box', `<div class="tx-modal-icon">${icon}</div><h2>${title}</h2><p>${sub}</p>`);
+  o.setAttribute('role', 'dialog'); o.setAttribute('aria-modal', 'true'); o.append(b);
+  const close = () => o.remove();
+  (btns || [['¡Genial!', null]]).forEach(([l, fn], i) => b.append(btn(l, () => { close(); if (fn) fn(); }, i ? 'tx-alt' : '')));
+  o.onclick = e => { if (e.target === o) close(); };
+  document.body.append(o); const f = b.querySelector('.tx-btn'); if (f) f.focus();
+  SFX.win(); confetti(180);
+}
+let fresh = null;                                       // lección recién desbloqueada: se anima en el mapa
+const closePop = () => document.querySelectorAll('.tx-pop').forEach(p => p.remove());
+document.addEventListener('click', e => { if (!e.target.closest('.tx-pop,[data-pop]')) closePop(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closePop(); document.querySelectorAll('.tx-modal').forEach(m => m.remove()); } });
+function pop(id) {
+  closePop();
+  const l = flat.find(x => x.id === id), lv = LV.find(v => v.cefr === l.cefr), u = lv.units.find(u => u.lessons.includes(l)), dn = S.done[id], st = dn ? starsOf(dn.score) : 0;
+  const p = h('div', 'tx-pop lv-' + l.cefr.toLowerCase(), `<small>${l.cefr} · Unidad ${u.order} · ${l.kind === 'checkpoint' ? '🎁 Checkpoint' : 'Lección ' + l.order}</small><b>${esc(l.title_target)}</b><span>${esc(l.title_es)}</span>` +
+    (dn ? `<span class="tx-stars big">${'<i>★</i>'.repeat(st)}${'<i class="off">★</i>'.repeat(3 - st)}</span><small>Mejor resultado: ${Math.round(dn.score * 100)} %${st < 3 ? ' · consigue ' + (st === 2 ? '95' : '85') + ' % para otra estrella' : ''}</small>` : `<small>${l.kind === 'checkpoint' ? 'Repaso de la unidad: supéralo para abrir el cofre' : 'Gana hasta 3 estrellas'}</small>`));
+  p.setAttribute('role', 'dialog'); p.setAttribute('aria-label', l.title_target);
+  const row = h('div', 'tx-pop-row');
+  row.append(btn(dn ? '↻ Repetir' : '▶ Empezar', () => { closePop(); lesson(l).catch(fail); }, 'tx-go'), btn('🖨', () => { closePop(); printView('lesson', id).catch(fail); }, 'tx-alt'), btn('✕', closePop, 'tx-alt'));
+  row.lastChild.setAttribute('aria-label', 'Cerrar'); row.children[1].setAttribute('aria-label', 'Imprimir lección');
+  p.append(row); document.body.append(p); p.querySelector('.tx-go').focus();
+}
+
 function home() {
-  const due = dueItems().length, pl = S.placement, soon = P.levels.filter(l => !LV.includes(l)).map(l => l.cefr);
-  const cur = (LV.find(l => flat.some(x => x.cefr === l.cefr && !S.done[x.id])) || LV[LV.length - 1]).cefr;
-  const mt = minsToday(), g = S.goal, stk = streak();
-  const goalCard = `<div class="tx-card"><h2>Tu constancia <small>meta: ${g} min al día</small></h2><div class="tx-prog"><span style="width:${Math.min(100, mt / g * 100)}%"></span></div>
-  <p>Hoy: <b>${mt}</b> de ${g} min ${mt >= g ? '✓ ¡Meta cumplida!' : ''} · 🔥 Racha: <b>${stk}</b> ${stk === 1 ? 'día' : 'días'}</p>
-  <p><small>Estudiar un poco cada día rinde más que mucho un solo día. <label>Mi meta: <select id="tx-goal">${[10, 20, 30].map(m => `<option value="${m}" ${m === g ? 'selected' : ''}>${m} min</option>`).join('')}</select></label></small></p></div>`;
-  let s = `<div class="tx-card"><h2>Curso de inglés <small>${soon.length ? 'Próximamente: ' + soon.join(', ') : ''}</small></h2>
-  <p><small>Desbloqueas cada lección con ≥ 70 % en la anterior. Si haces la prueba de nivel, los niveles que superes quedan abiertos.</small></p></div>${goalCard}
-  <div class="tx-grid">
-   <button class="tx-tile" data-go="placement"><b>🎯 Prueba de nivel</b><small>${pl ? 'Tu resultado: ' + esc(pl.level) : 'Hasta 68 preguntas · se adapta a tu nivel'}</small></button>
-   <button class="tx-tile" data-go="review" ${due ? '' : 'disabled'}><b>🔁 Repaso</b><small>${due ? due + ' palabras pendientes' : 'Nada pendiente hoy'}</small></button>
-   <button class="tx-tile" data-go="vocab"><b>📚 Vocabulario</b><small>Listas por temas, con audio</small></button>
-   <button class="tx-tile" data-go="faq"><b>❓ Preguntas frecuentes</b><small>Cómo funciona la plataforma</small></button></div>`;
+  closePop();
+  const due = dueItems().length, pl = S.placement, soon = P.levels.filter(l => !LV.includes(l));
+  const nextL = flat.find(l => !S.done[l.id] && unlocked(l)), curLv = nextL ? nextL.cefr : LV[LV.length - 1].cefr;
+  const mt = minsToday(), g = S.goal, stk = streak(), xp = xpOf(), rk = rank(xp);
+  const totStars = Object.keys(S.done).filter(id => flat.some(l => l.id === id)).reduce((a, id) => a + starsOf(S.done[id].score), 0);
+  const C = 2 * Math.PI * 16;
+  let s = `<div class="tx-hud">
+    <div class="tx-stat" title="Días seguidos cumpliendo tu meta"><span class="tx-fire ${stk ? 'on' : ''}">🔥</span><b>${stk}</b><small>${stk === 1 ? 'día' : 'días'}</small></div>
+    <div class="tx-stat" title="Estrellas conseguidas"><span>⭐</span><b>${totStars}</b><small>/ ${flat.length * 3}</small></div>
+    <div class="tx-stat tx-rank" title="Experiencia"><span class="tx-badge">${rk.n}</span><div><small>Nivel de jugador · <b>${xp}</b> XP</small><div class="tx-xpbar"><span style="width:${rk.cur / rk.need * 100}%"></span></div></div></div>
+    <div class="tx-stat tx-goal" title="Meta diaria"><svg viewBox="0 0 40 40" class="tx-ring" aria-hidden="true"><circle cx="20" cy="20" r="16"/><circle cx="20" cy="20" r="16" style="stroke-dasharray:${C};stroke-dashoffset:${C * (1 - Math.min(1, mt / g))}"/></svg>
+      <div><b>${mt}/${g}</b> <small>min hoy${mt >= g ? ' ✓' : ''}</small><br><select id="tx-goal" aria-label="Meta diaria">${[10, 20, 30].map(m => `<option value="${m}" ${m === g ? 'selected' : ''}>meta ${m} min</option>`).join('')}</select></div></div>
+    <button type="button" class="tx-mute" id="tx-mute" aria-label="${S.mute ? 'Activar sonido' : 'Silenciar'}">${S.mute ? '🔇' : '🔊'}</button>
+  </div>
+  <div class="tx-tools">
+    <button class="tx-tool" data-go="placement"><span>🎯</span><b>Prueba de nivel</b><small>${pl ? 'Resultado: ' + esc(pl.level) : 'Descubre tu nivel'}</small></button>
+    <button class="tx-tool" data-go="review" ${due ? '' : 'disabled'}><span>🔁</span><b>Repaso</b><small>${due ? due + ' palabras pendientes' : 'Nada pendiente hoy'}</small>${due ? `<i class="tx-dot">${due}</i>` : ''}</button>
+    <button class="tx-tool" data-go="vocab"><span>📚</span><b>Vocabulario</b><small>Por temas, con audio</small></button>
+    <button class="tx-tool" data-go="faq"><span>❓</span><b>Ayuda</b><small>Preguntas frecuentes</small></button>
+  </div>`;
+  const OFF = [0, .95, 1.55, .95, 0, -.95, -1.55, -.95], ROW = 108;
   LV.forEach(lv => {
     const ls = flat.filter(l => l.cefr === lv.cefr), nd = ls.filter(l => S.done[l.id]).length, tot = lvTotal(lv), ex = S.exams[lv.cefr], open = examOpen(lv);
-    s += `<div class="tx-card"><h2>Nivel ${lv.cefr} <small>${nd} de ${tot} lecciones completadas</small></h2><div class="tx-prog"><span style="width:${nd / tot * 100}%"></span></div>` +
-      (free(lv.cefr) ? '<p><small>✓ Nivel superado en la prueba de nivel: las lecciones están abiertas para repasar.</small></p>' : '') +
-      (ls.length < tot ? `<p><small>Las unidades se publican por etapas: ${ls.length} de ${tot} lecciones disponibles por ahora.</small></p>` : '') + '</div>' +
-      `<div class="tx-grid"><button class="tx-tile" data-go="exam:${lv.cefr}" ${open ? '' : 'disabled'}><b>📝 Examen final ${lv.cefr}</b><small>${ex ? (ex.passed ? '✓ Aprobado ' : 'Último intento ') + Math.round(ex.pct * 100) + ' %' : !(lv.exam && lv.exam.status === 'ready') ? 'Se habilita cuando esté todo el nivel' : open ? (lv.exam.items || 30) + ' preguntas · aprueba con 75 %' : 'Completa las ' + tot + ' lecciones'}</small></button><button class="tx-tile" data-go="print:exam:${lv.cefr}" ${open ? '' : 'disabled'}><b>🖨 Hoja del examen ${lv.cefr}</b><small>Para hacerlo en papel</small></button></div>`;
-    s += `<details class="tx-level" ${lv.cefr === cur ? 'open' : ''}><summary>Unidades de ${lv.cefr}</summary>`;
+    const lvStars = ls.reduce((a, l) => a + (S.done[l.id] ? starsOf(S.done[l.id].score) : 0), 0);
+    s += `<details class="tx-region lv-${lv.cefr.toLowerCase()} ${ex && ex.passed ? 'cleared' : ''}" ${lv.cefr === curLv ? 'open' : ''}><summary class="tx-region-head">
+      <span class="tx-lvbadge">${lv.cefr}${ex && ex.passed ? '<i>🏆</i>' : ''}</span><span class="tx-region-title"><b>Nivel ${lv.cefr} · ${LVNAME[lv.cefr] || ''}</b>
+      <small>${nd} de ${tot} lecciones · ⭐ ${lvStars}/${tot * 3}${ex && ex.passed ? ' · examen aprobado' : ''}${free(lv.cefr) ? ' · superado en la prueba de nivel' : ''}</small>
+      <span class="tx-prog"><span style="width:${nd / tot * 100}%"></span></span></span><span class="tx-chev" aria-hidden="true">▾</span></summary><div class="tx-map">` +
+      (ls.length < tot ? `<p class="tx-map-note">Las unidades se publican por etapas: ${ls.length} de ${tot} lecciones disponibles.</p>` : '');
+    let k = 0;
     lv.units.filter(u => u.lessons.some(x => x.status === 'ready')).forEach(u => {
-      s += `<div class="tx-card"><h2>Unidad ${u.order}: ${esc(u.title_target)} <small>${esc(u.title_es)}</small></h2><p><button class="tx-btn tx-alt" data-go="print:unit:${u.id}">🖨 Imprimir unidad (PDF)</button></p>` + u.lessons.filter(l => l.status === 'ready').map(l => {
-        const d = S.done[l.id], ok = unlocked(l);
-        return `<button class="tx-lesson ${d ? 'done' : ''}" data-go="lesson:${l.id}" ${ok ? '' : 'disabled'}><span>${d ? '✓' : ok ? '▶' : '🔒'}</span><span>${l.kind === 'checkpoint' ? '⭐ ' : ''}${esc(l.title_target)} <small>${esc(l.title_es)}</small></span><span>${d ? Math.round(d.score * 100) + ' %' : ''}</span></button>`;
-      }).join('') + '</div>';
+      const L = u.lessons.filter(l => l.status === 'ready'), ud = L.filter(l => S.done[l.id]).length, us = L.reduce((a, l) => a + (S.done[l.id] ? starsOf(S.done[l.id].score) : 0), 0), cleared = ud === L.length;
+      s += `<section class="tx-unit ${cleared ? 'cleared' : ''}"><div class="tx-unit-head"><span class="tx-unit-ico" aria-hidden="true">${ICON[u.theme] || '📘'}</span>
+        <div class="tx-unit-name"><small>Unidad ${u.order}</small><b>${esc(u.title_target)}</b><small>${esc(u.title_es)}</small></div>
+        <div class="tx-unit-side">${cleared ? '<span class="tx-medal" title="Unidad completada">🏅</span>' : `<span class="tx-unit-count">${ud}/${L.length}</span>`}<small>⭐ ${us}/${L.length * 3}</small></div>
+        <button class="tx-btn tx-alt tx-printu" data-go="print:unit:${u.id}" title="Imprimir unidad (PDF)" aria-label="Imprimir unidad ${u.order} (PDF)">🖨</button></div>`;
+      const H = L.length * ROW + 44, pts = L.map((l, i) => [160 + OFF[(k + i) % OFF.length] * 52, i * ROW + 80]);
+      let d = '', dd = '';
+      pts.forEach((p, i) => { if (!i) return; const q = pts[i - 1], my = (q[1] + p[1]) / 2, seg = ` M${q[0]},${q[1]} C${q[0]},${my} ${p[0]},${my} ${p[0]},${p[1]}`; d += seg; if (S.done[L[i - 1].id]) dd += seg; });
+      s += `<div class="tx-path" style="height:${H}px"><svg viewBox="0 0 320 ${H}" preserveAspectRatio="none" aria-hidden="true"><path class="tx-road" d="${d}"/><path class="tx-road done" d="${dd}"/></svg>`;
+      L.forEach((l, i) => {
+        const dn = S.done[l.id], ok = unlocked(l), cur = !!nextL && l.id === nextL.id, st = dn ? starsOf(dn.score) : 0, cp = l.kind === 'checkpoint';
+        const icon = !ok ? '🔒' : cp ? (dn ? '🏅' : '🎁') : dn ? '✔' : cur ? '★' : '▶';
+        s += `<div class="tx-spot" style="left:${pts[i][0] / 320 * 100}%;top:${pts[i][1]}px">` +
+          (cur ? `<span class="tx-here">${nd || Object.keys(S.done).length ? '¡SIGUE AQUÍ!' : '¡EMPIEZA!'}</span>` : '') +
+          `<button type="button" class="tx-node ${dn ? 'done' : ''} ${cur ? 'current' : ''} ${cp ? 'chest' : ''} ${fresh === l.id ? 'fresh' : ''}" data-pop="${l.id}" ${ok ? '' : 'disabled'}
+            aria-label="${esc((cp ? 'Checkpoint: ' : 'Lección: ') + l.title_target)}${dn ? ', completada, ' + st + ' estrellas' : ok ? '' : ', bloqueada'}"><span class="tx-node-ico">${icon}</span></button>
+          <span class="tx-stars" aria-hidden="true">${dn ? '<i>★</i>'.repeat(st) + '<i class="off">★</i>'.repeat(3 - st) : ''}</span></div>`;
+      });
+      s += '</div></section>';
+      k += L.length;
     });
-    s += '</details>';
+    const examTxt = ex ? (ex.passed ? '✓ Aprobado ' : 'Último intento ') + Math.round(ex.pct * 100) + ' %' : !(lv.exam && lv.exam.status === 'ready') ? 'Se habilita cuando esté todo el nivel' : open ? (lv.exam.items || 30) + ' preguntas · aprueba con 75 %' : 'Completa las ' + tot + ' lecciones';
+    s += `<div class="tx-castle ${ex && ex.passed ? 'won' : ''} ${open ? 'open' : ''}"><button type="button" class="tx-node tx-exam" data-go="exam:${lv.cefr}" ${open ? '' : 'disabled'} aria-label="Examen final ${lv.cefr}"><span class="tx-node-ico">${ex && ex.passed ? '🏆' : open ? '🏰' : '🔒'}</span></button>
+      <b>Examen final ${lv.cefr}</b><small class="tx-exam-txt">${examTxt}</small><button class="tx-btn tx-alt" data-go="print:exam:${lv.cefr}" ${open ? '' : 'disabled'}>🖨 Hoja del examen</button></div></div></details>`;
   });
+  soon.forEach(l => { s += `<div class="tx-region tx-fog lv-${l.cefr.toLowerCase()}"><div class="tx-region-head"><span class="tx-lvbadge">${l.cefr}</span><span class="tx-region-title"><b>Nivel ${l.cefr} · ${LVNAME[l.cefr] || ''}</b><small>🔒 Próximamente: nuevas unidades en camino</small></span></div><div class="tx-fogmap" aria-hidden="true">☁️ ☁️ ☁️</div></div>`; });
   s += `<div class="tx-foot"><label><input type="checkbox" id="tx-open" ${S.open ? 'checked' : ''}> Modo prueba: desbloquear todo</label><button data-go="reset">Borrar progreso</button></div>`;
-  app.innerHTML = s; scrollTo(0, 0);
+  app.innerHTML = s;
   $('#tx-open').onchange = e => { S.open = e.target.checked; save(); home(); };
   $('#tx-goal').onchange = e => { S.goal = +e.target.value; save(); home(); };
+  $('#tx-mute').onclick = () => { S.mute = !S.mute; save(); home(); };
+  const target = app.querySelector('.tx-node.fresh') || app.querySelector('.tx-node.current');
+  if (target && target.scrollIntoView) setTimeout(() => target.scrollIntoView({ behavior: reduced() ? 'auto' : 'smooth', block: 'center' }), 200); else scrollTo(0, 0);
+  if (fresh) setTimeout(() => SFX.star(1), 300);
+  fresh = null;
 }
 
 async function lesson(ent) {
+  closePop();
   const L = await J(ent.file), exs = L.exercises, pass = L.checkpoint?.pass_score ?? .7, total = 3 + exs.length, title = `${esc(L.title.target)} <small>${esc(L.title.es)}</small>`;
-  let sc = 0;
-  const intro = () => { const s = stepCard(title, 0, total); s.innerHTML = `<p>${esc(L.objective)}</p><p><small>≈ ${L.est_minutes} min</small></p>` + (L.warmup ? `<p class="tx-warm">${esc(L.warmup.prompt_es)}</p>` : ''); s.append(btn('Empezar', input), btn('🖨 Imprimir', () => printView('lesson', ent.id).catch(fail), 'tx-alt')); };
+  let sc = 0, combo = 0, best = 0;
+  const intro = () => { const s = stepCard(title, 0, total); s.innerHTML = `<p>${esc(L.objective)}</p><p><small>≈ ${L.est_minutes} min · ${exs.length} ejercicios</small></p>` + (L.warmup ? `<p class="tx-warm">${esc(L.warmup.prompt_es)}</p>` : ''); s.append(btn('Empezar', input), btn('🖨 Imprimir', () => printView('lesson', ent.id).catch(fail), 'tx-alt')); };
   const input = () => { const s = stepCard(title, 1, total); s.innerHTML = inputHTML(L.input); s.append(btn('Continuar', explain)); };
   const explain = () => {
     const s = stepCard(title, 2, total), x = L.explanation;
@@ -301,18 +402,31 @@ async function lesson(ent) {
   };
   const ex = i => {
     if (i >= exs.length) return end();
-    const s = stepCard(`${title} <small>· ejercicio ${i + 1}/${exs.length}</small>`, 3 + i, total);
-    runEx(exs[i], s, v => { sc += v; ex(i + 1); }, { input: L.input });
+    const s = stepCard(`${title} <small>· ejercicio ${i + 1}/${exs.length}</small>${combo >= 2 ? `<span class="tx-combo">🔥 ×${combo}</span>` : ''}`, 3 + i, total);
+    runEx(exs[i], s, v => { sc += v; combo = v >= 1 ? combo + 1 : 0; best = Math.max(best, combo); ex(i + 1); }, { input: L.input });
   };
   const end = () => {
     const pct = sc / exs.length, ok = pct >= pass, k = flat.findIndex(l => l.id === ent.id), nx = flat[k + 1];
-    if (ok) { if (!S.done[L.id] || S.done[L.id].score < pct) S.done[L.id] = { score: pct, at: Date.now() };
+    const lv = LV.find(v => v.cefr === ent.cefr), unit = lv.units.find(u => u.lessons.some(x => x.id === ent.id)), UL = unit.lessons.filter(x => x.status === 'ready');
+    const prev = S.done[L.id], prevSt = prev ? starsOf(prev.score) : 0, xp0 = xpOf(), unitWas = UL.every(x => S.done[x.id]), examWas = examOpen(lv), nxWas = nx ? unlocked(nx) : true;
+    if (ok) { if (!prev || prev.score < pct) S.done[L.id] = { score: pct, at: Date.now() };
       (L.srs_items || []).forEach(i => { if (!S.srs[i.id]) S.srs[i.id] = { box: 1, due: day() + 1, lapses: 0 }; }); save(); }
+    const st = ok ? starsOf(pct) : 0, gain = xpOf() - xp0;
     const s = stepCard(title, total, total);
-    s.innerHTML = `<p class="tx-big">${Math.round(pct * 100)} %</p><p>${ok ? '¡Lección superada!' : 'Necesitas ' + Math.round(pass * 100) + ' % para continuar. Repasa la explicación e inténtalo otra vez.'}</p>` +
+    s.innerHTML = `<div class="tx-result ${ok ? 'win' : 'lose'}"><div class="tx-bigstars" aria-label="${st} de 3 estrellas">${[0, 1, 2].map(i => `<span class="${i < st ? 'on' : ''}" style="animation-delay:${.2 + i * .35}s">★</span>`).join('')}</div>
+      <p class="tx-big">${Math.round(pct * 100)} %</p><p class="tx-res-msg">${ok ? (st === 3 ? '¡Perfecto!' : st === 2 ? '¡Muy bien!' : '¡Lección superada!') : 'Casi… necesitas ' + Math.round(pass * 100) + ' % para avanzar.'}</p>
+      ${ok ? '' : '<p>Repasa la explicación e inténtalo otra vez: cada intento suma.</p>'}
+      ${gain > 0 ? `<p><span class="tx-xpgain">+${gain} XP</span></p>` : ''}${ok && prev && st > prevSt ? '<p><b>¡Nueva estrella!</b></p>' : ''}${best >= 3 ? `<p><small>Mejor racha de aciertos: 🔥 ${best}</small></p>` : ''}</div>` +
       (L.summary?.key_phrases?.length ? '<h3>Frases clave</h3><ul>' + L.summary.key_phrases.map(p => `<li>${esc(p)} ${sayBtn(p)}</li>`).join('') + '</ul>' : '');
-    if (ok && nx) s.append(btn('Siguiente lección', () => lesson(nx).catch(fail)));
-    s.append(btn('Repetir', () => lesson(ent).catch(fail)), btn('Volver al curso', home));
+    if (ok && nx) s.append(btn('Siguiente lección ▶', () => lesson(nx).catch(fail)));
+    s.append(btn('Volver al mapa', () => { if (ok && nx && !nxWas) fresh = nx.id; home(); }), btn('Repetir', () => lesson(ent).catch(fail), 'tx-alt'));
+    if (ok) { SFX.win(); for (let i = 0; i < st; i++) setTimeout(() => SFX.star(i), 450 + i * 350); confetti(40 + st * 45); } else SFX.bad();
+    const unitNow = UL.every(x => S.done[x.id]), examNow = examOpen(lv);
+    if (ok && unitNow && !unitWas) {
+      const us = UL.reduce((a, x) => a + starsOf(S.done[x.id].score), 0);
+      setTimeout(() => celebrate('🏅', `¡Unidad ${unit.order} completada!`, `<b>${esc(unit.title_target)}</b><br>${esc(unit.title_es)}<br>⭐ ${us} de ${UL.length * 3} estrellas` +
+        (examNow && !examWas ? `<br><br>🏰 <b>¡Se desbloqueó el examen final de ${lv.cefr}!</b>` : ''), [['Ver el mapa', () => { if (nx && !nxWas) fresh = nx.id; home(); }], ['Seguir aquí', null]]), 1500);
+    }
   };
   intro();
 }
@@ -333,7 +447,7 @@ async function vocab() {
   const c = view(`<h2>📚 Vocabulario por temas <small>${all.length} palabras</small></h2><div id="v-back"></div>
     <p><label>Nivel <select id="v-lv"><option value="">Todos</option>${LV.map(l => `<option>${l.cefr}</option>`).join('')}</select></label>
     <label>Buscar <input id="v-q" class="tx-in" placeholder="palabra o significado" aria-label="Buscar palabra"></label></p><div id="v-list"></div>`);
-  $('#v-back').append(btn('← Volver al curso', home));
+  $('#v-back').append(btn('← Volver al mapa', home));
   const draw = () => {
     const lvl = $('#v-lv').value, q = $('#v-q').value.trim().toLowerCase(), by = {};
     all.filter(w => (!lvl || w.lv === lvl) && (!q || (w.lemma + ' ' + w.translation_es).toLowerCase().includes(q))).forEach(w => (by[w.topic || 'otros'] = by[w.topic || 'otros'] || []).push(w));
@@ -349,7 +463,7 @@ async function review() {
   const Vs = await Promise.all(LV.map(l => J('vocab/' + l.cefr.toLowerCase() + '.json'))), map = Object.fromEntries(Vs.flatMap(V => V.items).map(v => [v.id, v]));
   const q = shuffle(dueItems().filter(k => map[k])); let i = 0, ok = 0;
   const card = () => {
-    if (i >= q.length) { const c = view(`<h2>Repaso terminado</h2><p>Acertaste ${ok} de ${q.length}.</p>`); c.append(btn('Volver al curso', home)); return; }
+    if (i >= q.length) { const c = view(`<h2>Repaso terminado</h2><p>Acertaste ${ok} de ${q.length}.</p>`); c.append(btn('Volver al mapa', home)); return; }
     const v = map[q[i]], it = S.srs[q[i]], s = stepCard(`Repaso <small>${i + 1}/${q.length}</small>`, i, q.length);
     s.innerHTML = `<p class="tx-big">${esc(v.lemma)} ${sayBtn(v.lemma)}</p><p class="tx-ipa">${esc(v.ipa)}</p>`;
     s.append(btn('Mostrar respuesta', () => {
@@ -374,11 +488,12 @@ async function exam(cefr) {
     }, { exam: true });
   };
   const result = () => {
-    const pct = sc / n, ok = pct >= E.pass_score; S.exams[cefr] = { pct, passed: ok, at: Date.now() }; save();
+    const pct = sc / n, ok = pct >= E.pass_score, before = S.exams[cefr]; S.exams[cefr] = { pct, passed: ok || !!(before && before.passed), at: Date.now() }; save();
+    if (ok && !(before && before.passed)) setTimeout(() => celebrate('🏆', `¡Nivel ${cefr} superado!`, `Aprobaste el examen final con ${Math.round(pct * 100)} %.<br>+150 XP`, [['Ver el mapa', home], ['Ver resultados', null]]), 400);
     const weak = Object.values(wrong).sort((a, b) => b.n - a.n);
     const c = view(`<h2>${esc(E.title.es)}</h2><p class="tx-big">${Math.round(sc)} / ${n} · ${Math.round(pct * 100)} %</p><p>${ok ? '¡Aprobado! ' + cefr + ' completado.' : 'Necesitas ' + Math.ceil(E.pass_score * n) + ' aciertos. Repasa los temas débiles e inténtalo de nuevo.'}</p>` +
       (weak.length ? '<h3>Temas para repasar</h3><ul>' + weak.map(w => `<li>${reviewHTML({ review: w.r })} <small>(${w.n} ${w.n === 1 ? 'pregunta' : 'preguntas'})</small>` + (w.r.lesson ? ` <button class="tx-btn tx-alt" data-go="lesson:${w.r.lesson}">Ir a la lección</button>` : '') + '</li>').join('') + '</ul>' : '') + `<p><small>${esc(E.instructions_es)}</small></p>`);
-    c.append(btn('Tareas opcionales (sin nota)', () => opt(0)), btn('Volver al curso', home));
+    c.append(btn('Tareas opcionales (sin nota)', () => opt(0)), btn('Volver al mapa', home));
   };
   const opt = k => { if (k >= E.optional_tasks.length) return home(); const s = stepCard('Tarea opcional <small>sin nota</small>', k, E.optional_tasks.length); runEx(E.optional_tasks[k], s, () => opt(k + 1), { optional: true }); };
   step();
@@ -435,7 +550,7 @@ const FAQ = [
 ];
 function faq() {
   const c = view(`<h2>❓ Preguntas frecuentes</h2><div id="faq">${FAQ.map(([q, a]) => `<details class="tx-level"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`);
-  c.append(btn('← Volver al curso', home));
+  c.append(btn('← Volver al mapa', home));
 }
 
 /* ---------- imprimir / guardar como PDF ---------- */
@@ -523,6 +638,7 @@ async function printView(kind, id) {
 const fail = e => view(`<h2>No se pudo cargar el contenido</h2><p>${esc(e.message)}</p><p><small>Comprueba que la carpeta <b>content/</b> está en la raíz del sitio. Si abres el archivo con doble clic (file://), el navegador bloquea la carga: usa GitHub Pages o un servidor local.</small></p>`);
 
 app.onclick = ev => {
+  const pn = ev.target.closest('[data-pop]'); if (pn) { if (!pn.disabled) pop(pn.dataset.pop); return; }
   const t = ev.target.closest('[data-go]'); if (!t || t.disabled) return;
   const [a, id, id2] = t.dataset.go.split(':');
   if (a === 'lesson') lesson(flat.find(l => l.id === id)).catch(fail);
@@ -535,7 +651,7 @@ app.onclick = ev => {
   else if (a === 'reset' && confirm('¿Borrar todo tu progreso en este navegador?')) { S = { done: {}, srs: {}, exams: {}, placement: null, open: false, secs: {}, goal: S.goal || 20 }; save(); home(); }
 };
 
-window.Trilex = { runEx, norm, printEx };
+window.Trilex = { runEx, norm, printEx, starsOf, rank, celebrate };
 J('path.json').then(p => {
   P = p; LV = p.levels.filter(l => l.units.some(u => u.lessons.some(x => x.status === 'ready')));
   flat = LV.flatMap(lv => lv.units.flatMap(u => u.lessons.filter(l => l.status === 'ready').map(l => Object.assign(l, { cefr: lv.cefr }))));
