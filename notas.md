@@ -6,6 +6,12 @@ N. Modificar la interfaz para que sea interactiva, como un "juego". (?)
 
 ### Notas para correccion o implementacion:
 
+! claudio - Que en la parte de "aprendizaje guiado" donde aparece para elegir "curso" haya 2 opciones, una con curso interactivo (o parecido a un "juego") y en el otro uno mas metodico, que se pueda descargar tambien en formato de libro (es decir, todos los ejercicios, textos, explicaciones, separados por categoria y haciendo referencia a cada ejercicio. Uno por cada unidad o varios para una sola unidad en caso de ser muy grande (ej mas de 300 paginas)).
+
+- Ajustar el diseno de la web para que las transiciones de pagina a pagina (ej de guided learning a curso) no tarden mas de 150ms y que en el intervalo del medio se muestre algo (por ejemplo "cargando") para dar una sensacion de que cargo casi instantaneamente.
+
+- Que la opcion "no lo se" no reste puntos extra es poco realista en una web con foco academico/de aprendizaje, debe restar lo mismo que las incorrectas.
+
 - Al momento de dar la correccion en los examenes, que mencione el tema a repasar requerido para resolver el enunciado/pregunta...Pero que no muestre la respuesta directamente.
     Es decir, el apartado de "Revisa esto" es correcto, pero que se muestre la respuesta no.
 

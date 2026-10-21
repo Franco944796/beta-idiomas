@@ -10,22 +10,38 @@
 </head>
 
 <body>
+    <!-- Selector de idiomas -->
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="pt">🇵🇹 Português</option>
+            <option value="ru">🇷🇺 Русский</option>
+            <option value="zh">🇨🇳 中文</option>
+        </select>
+    </div>
+
     <div class="nav-top">
-        <div class="btn-home" data-target="curso.en.html" role="link" tabindex="0">← Curso</div>
+        <div class="btn-home" data-i18n="backCourse" data-target="curso.en.html" role="link" tabindex="0">← Course</div>
     </div>
 
     <div class="container tx">
-        <h1>Curso guiado de inglés</h1>
-        <div id="app"><div class="tx-card">Cargando contenido…</div></div>
+        <h1 data-i18n="courseTitle">Guided English course</h1>
+        <div id="app"><div class="tx-card" data-i18n="loading">Loading…</div></div>
     </div>
 
     <div class="footer">
-        <span>Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
-        <span>License:</span>
+        <span data-i18n="footer">Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
+        <span data-i18n="license">License:</span>
         <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
     </div>
 
     <script src="../nav-links.js"></script>
+    <script src="trilex-i18n.js"></script>
+    <script src="trilex-i18n-curso.js"></script>
     <script src="trilex.js"></script>
 </body>
 

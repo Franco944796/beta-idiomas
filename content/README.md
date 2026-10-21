@@ -88,3 +88,18 @@ Reproducir con `speechSynthesis` (Web Speech API) usando `audio_text` o los arch
 ## Tareas de escritura
 
 `write(...)` ajusta `min_words` para que nunca supere las palabras del modelo (build.py lo valida). La web exige ese mínimo de palabras reales y no acepta texto repetido.
+
+## Autoaprendizaje: lectura (`content/en/reading/`)
+
+```text
+reading/index.json               catálogo: lecturas graduadas y libros
+reading/texts/<id>.json          lectura graduada: párrafos, glosario, preguntas, tarea opcional
+reading/books/<id>/book.json     ficha del libro (sinopsis en 8 idiomas) y lista de capítulos
+reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosario + preguntas
+```
+
+- Lecturas graduadas: `tools/reading_graded.py` (24 textos originales, 6 por nivel A1–B2).
+- Libros: textos de dominio público en `tools/books_src/`, divididos por `tools/books.py`; fichas en `tools/reading_books.py`; glosario y preguntas de cada capítulo en `tools/bookq_<id>.py`.
+- Solo autores fallecidos hace más de 70 años (dominio público también en Argentina y la UE).
+- `build.py` valida todo (respuestas presentes en las opciones, palabras del glosario y respuestas de completar que aparecen en el texto) y lo regenera.
+- Tipos de pregunta: `mc` (opción múltiple), `tf` (verdadero/falso), `fill` (escribir una palabra del texto).
