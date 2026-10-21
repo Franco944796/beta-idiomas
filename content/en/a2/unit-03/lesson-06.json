@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 3"
   },
   "objective": "Al terminar comparas personas, lugares y cosas con comparativos, superlativos, as … as, too y enough.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -69,6 +69,26 @@
       }
     },
     {
+      "id": "en-a2-u03-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I haven't got some water.",
+      "answer": [
+        "I haven't got any water."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En negativas se usa any.",
+        "incorrect": "Revisa esto: En negativas se usa any."
+      },
+      "review_of": "en-a1-u05-l04-ex05"
+    },
+    {
       "id": "en-a2-u03-l06-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -85,6 +105,25 @@
         "correct": "¡Correcto! Demasiado = too.",
         "incorrect": "Revisa esto: Demasiado = too."
       }
+    },
+    {
+      "id": "en-a2-u03-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna is my sister. ___ name is Anna.",
+      "answer": [
+        "Her"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es una mujer: her.",
+        "incorrect": "Revisa esto: El dueño es una mujer: her."
+      },
+      "review_of": "en-a1-u03-l02-ex02"
     },
     {
       "id": "en-a2-u03-l06-ex04",
@@ -153,6 +192,45 @@
       }
     },
     {
+      "id": "en-a2-u03-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the shoes?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: How much are…?",
+        "incorrect": "Revisa esto: Shoes es plural: How much are…?"
+      },
+      "review_of": "en-a1-u10-l06-ex05"
+    },
+    {
+      "id": "en-a2-u03-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo no lleva -s.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo no lleva -s."
+      },
+      "review_of": "en-a1-u04-l06-ex05"
+    },
+    {
       "id": "en-a2-u03-l06-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -217,6 +295,58 @@
       "audio_script_id": "en-a2-u03-l06-ex09-a"
     },
     {
+      "id": "en-a2-u03-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el banco?",
+      "options": [
+        "On the left",
+        "On the right",
+        "Behind the lights",
+        "Opposite the station"
+      ],
+      "answer": [
+        "On the left"
+      ],
+      "audio_text": "Go straight on. Turn right at the traffic lights. The bank is on your left.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The bank is on your left'.",
+        "incorrect": "Revisa esto: Dice 'The bank is on your left'."
+      },
+      "audio_script_id": "en-a2-u03-l06-rv05-a",
+      "review_of": "en-a1-u07-l03-ex07"
+    },
+    {
+      "id": "en-a2-u03-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 20,
+      "prompt": "Is this your phone? — No, it ___.",
+      "options": [
+        "isn't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": [
+        "isn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta negativa en singular: No, it isn't.",
+        "incorrect": "Revisa esto: Respuesta corta negativa en singular: No, it isn't."
+      },
+      "review_of": "en-a1-u11-l02-ex03"
+    },
+    {
       "id": "en-a2-u03-l06-ex10",
       "type": "translation",
       "skill": "writing",
@@ -247,7 +377,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Compara dos lugares que conoces (dos ciudades, dos barrios o dos tiendas). Usa un comparativo, un superlativo y too o enough.",
-      "min_words": 30,
+      "min_words": 24,
       "self_check_es": [
         "¿Usaste un comparativo con than?",
         "¿Usaste un superlativo con the?",

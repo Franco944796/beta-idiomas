@@ -11,7 +11,7 @@
     "es": "El cuerpo y la salud"
   },
   "objective": "Al terminar nombras las partes del cuerpo y los problemas de salud más comunes y dices qué te duele.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -244,6 +244,31 @@
       }
     },
     {
+      "id": "en-a2-u06-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber el significado de 'wallet'. Preguntas:",
+      "options": [
+        "What does 'wallet' mean?",
+        "What is mean wallet?",
+        "How you say wallet?",
+        "Wallet is what?"
+      ],
+      "answer": [
+        "What does 'wallet' mean?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What does … mean? = ¿qué significa…?",
+        "incorrect": "Revisa esto: What does … mean? = ¿qué significa…?"
+      },
+      "review_of": "en-a1-u11-l05-ex03"
+    },
+    {
       "id": "en-a2-u06-l01-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -268,6 +293,25 @@
       }
     },
     {
+      "id": "en-a2-u06-l01-rv02",
+      "type": "true_false",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 15,
+      "prompt": "'Seven' viene después de 'eight'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es six, seven, eight: seven va antes de eight.",
+        "incorrect": "Revisa esto: El orden es six, seven, eight: seven va antes de eight."
+      },
+      "review_of": "en-a1-u01-l03-ex07"
+    },
+    {
       "id": "en-a2-u06-l01-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -284,6 +328,44 @@
         "correct": "¡Correcto! Con un sujeto singular: hurts.",
         "incorrect": "Revisa esto: Con un sujeto singular: hurts."
       }
+    },
+    {
+      "id": "en-a2-u06-l01-rv03",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada expresión de tiempo con su forma correcta.",
+      "pairs": [
+        {
+          "left": "July",
+          "right": "in July"
+        },
+        {
+          "left": "Monday",
+          "right": "on Monday"
+        },
+        {
+          "left": "8 o'clock",
+          "right": "at 8 o'clock"
+        },
+        {
+          "left": "the morning",
+          "right": "in the morning"
+        },
+        {
+          "left": "night",
+          "right": "at night"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In: meses y partes del día; on: días; at: horas y 'night'.",
+        "incorrect": "Revisa esto: In: meses y partes del día; on: días; at: horas y 'night'."
+      },
+      "review_of": "en-a2-u02-l04-ex09"
     },
     {
       "id": "en-a2-u06-l01-ex05",
@@ -456,6 +538,117 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u06-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I need some advice.",
+        "I need an advice.",
+        "I need some advices.",
+        "I need advices."
+      ],
+      "answer": [
+        "I need some advice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice es incontable: sin a/an y sin plural.",
+        "incorrect": "Revisa esto: Advice es incontable: sin a/an y sin plural."
+      },
+      "review_of": "en-a2-u04-l01-ex03"
+    },
+    {
+      "id": "en-a2-u06-l01-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Su madre (de él) es médica.",
+      "answer": [
+        "His mother is a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño masculino = his.",
+        "incorrect": "Revisa esto: Dueño masculino = his."
+      },
+      "review_of": "en-a1-u03-l02-ex08"
+    },
+    {
+      "id": "en-a2-u06-l01-ex12",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Body parts",
+        "Pain and illness"
+      ],
+      "items": [
+        {
+          "text": "head",
+          "category": "Body parts"
+        },
+        {
+          "text": "throat",
+          "category": "Body parts"
+        },
+        {
+          "text": "stomach",
+          "category": "Body parts"
+        },
+        {
+          "text": "back",
+          "category": "Body parts"
+        },
+        {
+          "text": "arm",
+          "category": "Body parts"
+        },
+        {
+          "text": "leg",
+          "category": "Body parts"
+        },
+        {
+          "text": "headache",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "toothache",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "cold",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "cough",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "fever",
+          "category": "Pain and illness"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
       }
     }
   ],

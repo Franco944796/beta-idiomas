@@ -11,7 +11,7 @@
     "es": "Invitar y aceptar"
   },
   "objective": "Al terminar invitas a alguien, aceptas o rechazas con cortesía y propones planes.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -150,6 +150,53 @@
       }
     },
     {
+      "id": "en-a1-u09-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ the bank?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un solo lugar: Where is…?",
+        "incorrect": "Revisa esto: Con un solo lugar: Where is…?"
+      },
+      "review_of": "en-a1-u07-l02-ex01"
+    },
+    {
+      "id": "en-a1-u09-l05-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué color es la mesa?",
+      "options": [
+        "Brown",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "answer": [
+        "Brown"
+      ],
+      "audio_text": "I've got a big green sofa and a small brown table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a small brown table'.",
+        "incorrect": "Revisa esto: Dice 'a small brown table'."
+      },
+      "audio_script_id": "en-a1-u09-l05-rv02-a",
+      "review_of": "en-a1-u06-l04-ex07"
+    },
+    {
       "id": "en-a1-u09-l05-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -172,6 +219,25 @@
         "correct": "¡Correcto! Para aceptar con ganas: I'd love to.",
         "incorrect": "Revisa esto: Para aceptar con ganas: I'd love to."
       }
+    },
+    {
+      "id": "en-a1-u09-l05-rv03",
+      "type": "true_false",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 15,
+      "prompt": "'Seven' viene después de 'eight'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es six, seven, eight: seven va antes de eight.",
+        "incorrect": "Revisa esto: El orden es six, seven, eight: seven va antes de eight."
+      },
+      "review_of": "en-a1-u01-l03-ex07"
     },
     {
       "id": "en-a1-u09-l05-ex04",
@@ -274,6 +340,25 @@
       }
     },
     {
+      "id": "en-a1-u09-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ a white T-shirt. (wear)",
+      "answer": [
+        "wears"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s: wears.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s: wears."
+      },
+      "review_of": "en-a1-u08-l03-ex02"
+    },
+    {
       "id": "en-a1-u09-l05-ex08",
       "type": "listening",
       "skill": "listening",
@@ -298,6 +383,31 @@
         "incorrect": "Revisa esto: Dice 'Sorry, I can't'."
       },
       "audio_script_id": "en-a1-u09-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u09-l05-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 7:45. ¿Qué dices?",
+      "options": [
+        "It's quarter to eight.",
+        "It's quarter past seven.",
+        "It's half past seven.",
+        "It's eight o'clock."
+      ],
+      "answer": [
+        "It's quarter to eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 7:45 = quarter to eight.",
+        "incorrect": "Revisa esto: 7:45 = quarter to eight."
+      },
+      "review_of": "en-a1-u04-l06-ex02"
     },
     {
       "id": "en-a1-u09-l05-ex09",

@@ -11,7 +11,7 @@
     "es": "¿Qué hora es?"
   },
   "objective": "Al terminar preguntas y dices la hora, y dices a qué hora son las cosas.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -217,6 +217,25 @@
       }
     },
     {
+      "id": "en-a1-u04-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are my friends. ___ names are Anna and Tom.",
+      "answer": [
+        "Their"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'they': their.",
+        "incorrect": "Revisa esto: Para 'they': their."
+      },
+      "review_of": "en-a1-u03-l06-ex03"
+    },
+    {
       "id": "en-a1-u04-l02-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -233,6 +252,27 @@
         "correct": "¡Correcto! Para la hora de un evento: at.",
         "incorrect": "Revisa esto: Para la hora de un evento: at."
       }
+    },
+    {
+      "id": "en-a1-u04-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He is engineer.",
+      "answer": [
+        "He's an engineer.",
+        "He is an engineer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el artículo: an engineer.",
+        "incorrect": "Revisa esto: Falta el artículo: an engineer."
+      },
+      "review_of": "en-a1-u02-l06-ex05"
     },
     {
       "id": "en-a1-u04-l02-ex05",
@@ -309,6 +349,61 @@
         "correct": "¡Correcto! Pregunta básica de la hora.",
         "incorrect": "Revisa esto: Pregunta básica de la hora."
       }
+    },
+    {
+      "id": "en-a1-u04-l02-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They is from Brazil.",
+      "answer": [
+        "They are from Brazil.",
+        "They're from Brazil."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'they' va con 'are'.",
+        "incorrect": "Revisa esto: 'they' va con 'are'."
+      },
+      "review_of": "en-a1-u02-l03-ex07"
+    },
+    {
+      "id": "en-a1-u04-l02-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la pregunta con la respuesta.",
+      "pairs": [
+        {
+          "left": "What's your name?",
+          "right": "I'm Tom."
+        },
+        {
+          "left": "How are you?",
+          "right": "I'm fine, thanks."
+        },
+        {
+          "left": "How old are you?",
+          "right": "I'm twenty."
+        },
+        {
+          "left": "How do you spell 'Ben'?",
+          "right": "B, E, N."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada pregunta pide un dato distinto.",
+        "incorrect": "Revisa esto: Cada pregunta pide un dato distinto."
+      },
+      "review_of": "en-a1-u01-l06-ex07"
     },
     {
       "id": "en-a1-u04-l02-ex08",

@@ -11,7 +11,7 @@
     "es": "La ropa"
   },
   "objective": "Al terminar nombras prendas de ropa y dices qué llevas puesto con wear.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -228,6 +228,65 @@
       }
     },
     {
+      "id": "en-a1-u08-l03-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "a",
+        "nurse",
+        ".",
+        "Laura's",
+        "mother"
+      ],
+      "answer": [
+        "Laura's",
+        "mother",
+        "is",
+        "a",
+        "nurse",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona + verbo.",
+        "incorrect": "Revisa esto: Dueño + 's + persona + verbo."
+      },
+      "review_of": "en-a1-u03-l03-ex07"
+    },
+    {
+      "id": "en-a1-u08-l03-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO le gusta a la persona?",
+      "options": [
+        "Chicken",
+        "Fish",
+        "Rice",
+        "Milk"
+      ],
+      "answer": [
+        "Chicken"
+      ],
+      "audio_text": "I love fish, but I don't like chicken.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I don't like chicken'.",
+        "incorrect": "Revisa esto: Dice 'I don't like chicken'."
+      },
+      "audio_script_id": "en-a1-u08-l03-rv02-a",
+      "review_of": "en-a1-u05-l06-ex08"
+    },
+    {
       "id": "en-a1-u08-l03-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -316,6 +375,41 @@
       }
     },
     {
+      "id": "en-a1-u08-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "present-simple"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "do",
+        "you",
+        "get",
+        "up",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "do",
+        "you",
+        "get",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh- + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Wh- + do + sujeto + verbo base."
+      },
+      "review_of": "en-a1-u04-l04-ex04"
+    },
+    {
       "id": "en-a1-u08-l03-ex08",
       "type": "listening",
       "skill": "listening",
@@ -341,6 +435,26 @@
         "incorrect": "Revisa esto: Dice 'black jeans'."
       },
       "audio_script_id": "en-a1-u08-l03-ex08-a"
+    },
+    {
+      "id": "en-a1-u08-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to work by the bus.",
+      "answer": [
+        "I go to work by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con by no se usa artículo.",
+        "incorrect": "Revisa esto: Con by no se usa artículo."
+      },
+      "review_of": "en-a1-u07-l04-ex05"
     },
     {
       "id": "en-a1-u08-l03-ex09",
@@ -390,6 +504,106 @@
       "feedback": {
         "correct": "¡Correcto! Llevar puesto = wear.",
         "incorrect": "Revisa esto: Llevar puesto = wear."
+      }
+    },
+    {
+      "id": "en-a1-u08-l03-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "garden",
+        "in",
+        "your",
+        "flat",
+        "?",
+        "Is",
+        "there"
+      ],
+      "answer": [
+        "Is",
+        "there",
+        "a",
+        "garden",
+        "in",
+        "your",
+        "flat",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is there + sustantivo singular?",
+        "incorrect": "Revisa esto: Is there + sustantivo singular?"
+      },
+      "review_of": "en-a1-u06-l02-ex07"
+    },
+    {
+      "id": "en-a1-u08-l03-ex11",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada prenda.",
+      "categories": [
+        "Top",
+        "Bottom",
+        "Feet and head"
+      ],
+      "items": [
+        {
+          "text": "shirt",
+          "category": "Top"
+        },
+        {
+          "text": "T-shirt",
+          "category": "Top"
+        },
+        {
+          "text": "jacket",
+          "category": "Top"
+        },
+        {
+          "text": "coat",
+          "category": "Top"
+        },
+        {
+          "text": "trousers",
+          "category": "Bottom"
+        },
+        {
+          "text": "jeans",
+          "category": "Bottom"
+        },
+        {
+          "text": "skirt",
+          "category": "Bottom"
+        },
+        {
+          "text": "shoes",
+          "category": "Feet and head"
+        },
+        {
+          "text": "socks",
+          "category": "Feet and head"
+        },
+        {
+          "text": "hat",
+          "category": "Feet and head"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar la ropa por zona del cuerpo ayuda a recordarla.",
+        "incorrect": "Revisa esto: Clasificar la ropa por zona del cuerpo ayuda a recordarla."
       }
     }
   ],

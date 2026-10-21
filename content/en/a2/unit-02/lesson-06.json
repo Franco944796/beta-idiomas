@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 2"
   },
   "objective": "Al terminar demuestras que puedes hablar de un viaje: vocabulario, preguntas en pasado, pedidos educados, preposiciones y una postal.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -88,6 +88,25 @@
       }
     },
     {
+      "id": "en-a2-u02-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ied.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ied."
+      },
+      "review_of": "en-a2-u01-l02-ex02"
+    },
+    {
       "id": "en-a2-u02-l06-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -104,6 +123,61 @@
         "correct": "¡Correcto! Con horas se usa at.",
         "incorrect": "Revisa esto: Con horas se usa at."
       }
+    },
+    {
+      "id": "en-a2-u02-l06-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "keys",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "my",
+        "keys",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + are + sujeto plural.",
+        "incorrect": "Revisa esto: Where + are + sujeto plural."
+      },
+      "review_of": "en-a1-u11-l04-ex08"
+    },
+    {
+      "id": "en-a2-u02-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde se dice 'Good afternoon'.",
+        "incorrect": "Revisa esto: Por la tarde se dice 'Good afternoon'."
+      },
+      "review_of": "en-a1-u01-l06-ex01"
     },
     {
       "id": "en-a2-u02-l06-ex05",
@@ -128,6 +202,51 @@
         "correct": "¡Correcto! Luggage es incontable.",
         "incorrect": "Revisa esto: Luggage es incontable."
       }
+    },
+    {
+      "id": "en-a2-u02-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'eighty'?",
+      "options": [
+        "80",
+        "18",
+        "8",
+        "88"
+      ],
+      "answer": [
+        "80"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eighty = 80.",
+        "incorrect": "Revisa esto: Eighty = 80."
+      },
+      "review_of": "en-a1-u08-l06-ex02"
+    },
+    {
+      "id": "en-a2-u02-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
     },
     {
       "id": "en-a2-u02-l06-ex06",
@@ -224,7 +343,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe una postal corta (3-4 frases) desde un viaje: qué hiciste ayer, cómo es el lugar y qué harás mañana.",
-      "min_words": 30,
+      "min_words": 23,
       "self_check_es": [
         "¿Empezaste con un saludo?",
         "¿Usaste pasado para lo que hiciste?",
@@ -283,6 +402,36 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a2-u02-l06-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Italy",
+        ".",
+        "She",
+        "is"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "from",
+        "Italy",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + verbo + from + país.",
+        "incorrect": "Revisa esto: Sujeto + verbo + from + país."
+      },
+      "review_of": "en-a1-u02-l02-ex05"
     }
   ],
   "summary": {

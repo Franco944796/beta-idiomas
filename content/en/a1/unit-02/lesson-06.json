@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 2"
   },
   "objective": "Al terminar demuestras que puedes hablar de origen, nacionalidad y profesión con to be.",
-  "est_minutes": 20,
+  "est_minutes": 23,
   "skills": [
     "grammar",
     "listening",
@@ -93,6 +93,40 @@
         "correct": "¡Correcto! Tom es un hombre: he.",
         "incorrect": "Revisa esto: Tom es un hombre: he."
       }
+    },
+    {
+      "id": "en-a1-u02-l06-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "meet",
+        "you",
+        ",",
+        "too",
+        ".",
+        "Nice",
+        "to"
+      ],
+      "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you",
+        ",",
+        "too",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Nice to meet you.'",
+        "incorrect": "Revisa esto: Respuesta a 'Nice to meet you.'"
+      },
+      "review_of": "en-a1-u01-l06-ex03"
     },
     {
       "id": "en-a1-u02-l06-ex04",
@@ -222,6 +256,31 @@
       }
     },
     {
+      "id": "en-a1-u02-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde se dice 'Good afternoon'.",
+        "incorrect": "Revisa esto: Por la tarde se dice 'Good afternoon'."
+      },
+      "review_of": "en-a1-u01-l06-ex01"
+    },
+    {
       "id": "en-a1-u02-l06-ex09",
       "type": "true_false",
       "skill": "grammar",
@@ -240,6 +299,31 @@
       }
     },
     {
+      "id": "en-a1-u02-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pregunta la edad?",
+      "options": [
+        "How old are you?",
+        "How many years have you?",
+        "What age are you?",
+        "How are you old?"
+      ],
+      "answer": [
+        "How old are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La pregunta natural es 'How old are you?'.",
+        "incorrect": "Revisa esto: La pregunta natural es 'How old are you?'."
+      },
+      "review_of": "en-a1-u01-l05-ex01"
+    },
+    {
       "id": "en-a1-u02-l06-ex10",
       "type": "writing",
       "skill": "writing",
@@ -250,7 +334,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 4 frases sobre un amigo o amiga: nombre, país, nacionalidad y profesión (puedes inventarlo).",
-      "min_words": 12,
+      "min_words": 9,
       "self_check_es": [
         "¿Usaste he o she según corresponda?",
         "¿Escribiste país y nacionalidad con mayúscula?",
@@ -261,6 +345,25 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a1-u02-l06-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "one, two, ___, four",
+      "answer": [
+        "three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contando: one, two, three, four.",
+        "incorrect": "Revisa esto: Contando: one, two, three, four."
+      },
+      "review_of": "en-a1-u01-l03-ex02"
     },
     {
       "id": "en-a1-u02-l06-ex11",
@@ -307,6 +410,26 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a1-u02-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hello! ___ Tom.",
+      "answer": [
+        "I'm",
+        "I am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm = I am. El sujeto es obligatorio.",
+        "incorrect": "Revisa esto: I'm = I am. El sujeto es obligatorio."
+      },
+      "review_of": "en-a1-u01-l01-ex02"
     }
   ],
   "summary": {

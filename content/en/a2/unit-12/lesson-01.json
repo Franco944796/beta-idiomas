@@ -1,0 +1,717 @@
+{
+  "id": "en-a2-u12-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Public transport",
+    "es": "Transporte público y billetes"
+  },
+  "objective": "Al terminar compras billetes de tren o autobús, preguntas por andenes y horarios y hablas de cuánto dura un trayecto.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Viajas en tren por otra ciudad: ¿cómo pides el billete, cómo preguntas por el andén y cómo entiendes el horario?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Clerk",
+        "text": "Good morning. How can I help you?",
+        "es": "Buenos días. ¿En qué puedo ayudarlo?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Two return tickets to Oxford, please.",
+        "es": "Dos billetes de ida y vuelta a Oxford, por favor."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "When are you travelling?",
+        "es": "¿Cuándo viajan?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Tomorrow morning, around nine.",
+        "es": "Mañana por la mañana, alrededor de las nueve."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "The 9:10 train leaves from platform 4. That's £42 for two.",
+        "es": "El tren de las 9:10 sale del andén 4. Son £42 por los dos."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Do I need to change trains?",
+        "es": "¿Tengo que hacer transbordo?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "No, it's direct. It takes about an hour.",
+        "es": "No, es directo. Tarda alrededor de una hora."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Great. Which platform did you say?",
+        "es": "Genial. ¿Qué andén dijo?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Platform 4.",
+        "es": "El andén 4."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-return-ticket",
+        "lemma": "return ticket",
+        "pos": "noun",
+        "ipa": "/rɪˈtɜːn ˈtɪkɪt/",
+        "es": "billete de ida y vuelta",
+        "example": "Two return tickets, please."
+      },
+      {
+        "id": "en-single-ticket",
+        "lemma": "single ticket",
+        "pos": "noun",
+        "ipa": "/ˈsɪŋɡl ˈtɪkɪt/",
+        "es": "billete de ida",
+        "example": "A single ticket to London."
+      },
+      {
+        "id": "en-platform",
+        "lemma": "platform",
+        "pos": "noun",
+        "ipa": "/ˈplætfɔːm/",
+        "es": "andén",
+        "example": "The train leaves from platform 4."
+      },
+      {
+        "id": "en-direct",
+        "lemma": "direct",
+        "pos": "adj",
+        "ipa": "/dəˈrekt/",
+        "es": "directo (sin transbordo)",
+        "example": "It's a direct train."
+      },
+      {
+        "id": "en-change-trains",
+        "lemma": "change trains",
+        "pos": "phrase",
+        "ipa": "/tʃeɪndʒ treɪnz/",
+        "es": "hacer transbordo",
+        "example": "Do I need to change trains?"
+      },
+      {
+        "id": "en-ticket-office",
+        "lemma": "ticket office",
+        "pos": "noun",
+        "ipa": "/ˈtɪkɪt ˈɒfɪs/",
+        "es": "boletería, taquilla",
+        "example": "The ticket office is open."
+      },
+      {
+        "id": "en-leave",
+        "lemma": "leave",
+        "pos": "verb",
+        "ipa": "/liːv/",
+        "es": "salir, partir",
+        "example": "The train leaves at nine."
+      },
+      {
+        "id": "en-it-takes",
+        "lemma": "it takes",
+        "pos": "phrase",
+        "ipa": "/ɪt teɪks/",
+        "es": "tarda (tiempo)",
+        "example": "It takes about an hour."
+      }
+    ],
+    "audio_script_id": "en-a2-u12-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Comprar un billete:** *A single / return ticket to Oxford, please.* · *Single or return?* · *When are you travelling?* · *That's £42.*\n\n**Preguntas útiles:** *Which platform does it leave from? · What time does it leave / arrive? · Do I need to change trains? · Is it direct? · How long does it take?*\n\n**Respuestas:** *It leaves from platform 4. · It takes about an hour. · It's direct.*\n\n**Presente simple para horarios:** aunque hable del futuro, un horario fijo se dice en presente simple → *The train **leaves** at 9:10. The shop **opens** at nine.* (no *is leaving* para un horario).\n\n**Verbos de transporte:** *take a bus / train* · *catch / miss the train* (tomar / perder) · *get on / get off* (subir / bajar de un bus o tren) · *get in / get out of* (un coche o taxi).\n\n**Otro vocabulario:** *timetable (horario) · departure / arrival · ticket machine · rush hour (hora pico) · tram · ferry · coach (autobús de larga distancia)*.\n\n**Ojo, falso amigo:** *coach* es autobús de larga distancia, no 'coche' (= *car*).\n\nPronunciación: *platform* /ˈplætfɔːm/ · *return* /rɪˈtɜːn/ · *direct* /dəˈrekt/ (también /daɪˈrekt/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "The train is leaving at nine every day.",
+        "right": "The train leaves at nine every day.",
+        "note": "Horario fijo: presente simple."
+      },
+      {
+        "wrong": "I take off the bus here.",
+        "right": "I get off the bus here.",
+        "note": "Bajar: get off."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "coach",
+        "es_false": "coche",
+        "real": "autobús de larga distancia",
+        "note": "Coche se dice car."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "single ticket",
+          "right": "billete de ida"
+        },
+        {
+          "left": "return ticket",
+          "right": "ida y vuelta"
+        },
+        {
+          "left": "platform",
+          "right": "andén"
+        },
+        {
+          "left": "direct",
+          "right": "sin transbordo"
+        },
+        {
+          "left": "timetable",
+          "right": "horario"
+        },
+        {
+          "left": "ticket office",
+          "right": "boletería"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las palabras básicas para viajar en tren.",
+        "incorrect": "Revisa esto: Son las palabras básicas para viajar en tren."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada medio de transporte.",
+      "categories": [
+        "On rails",
+        "On the road",
+        "Air and water"
+      ],
+      "items": [
+        {
+          "text": "train",
+          "category": "On rails"
+        },
+        {
+          "text": "tram",
+          "category": "On rails"
+        },
+        {
+          "text": "underground",
+          "category": "On rails"
+        },
+        {
+          "text": "bus",
+          "category": "On the road"
+        },
+        {
+          "text": "coach",
+          "category": "On the road"
+        },
+        {
+          "text": "taxi",
+          "category": "On the road"
+        },
+        {
+          "text": "plane",
+          "category": "Air and water"
+        },
+        {
+          "text": "ferry",
+          "category": "Air and water"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar medios de transporte por categoría.",
+        "incorrect": "Revisa esto: Clasificar medios de transporte por categoría."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un billete para ir y volver es un ___ ticket.",
+      "options": [
+        "return",
+        "single",
+        "direct",
+        "double"
+      ],
+      "answer": [
+        "return"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Return = ida y vuelta.",
+        "incorrect": "Revisa esto: Return = ida y vuelta."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "Horario fijo: 'The train ___ at 9:10.'",
+      "options": [
+        "leaves",
+        "is leaving",
+        "leave",
+        "leaving"
+      ],
+      "answer": [
+        "leaves"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para horarios se usa presente simple.",
+        "incorrect": "Revisa esto: Para horarios se usa presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "How long does the journey ___? (tarda)",
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long does it take?",
+        "incorrect": "Revisa esto: How long does it take?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "I missed the 8:00 train, so I'm going to ___ the next one. (tomar, alcanzar)",
+      "answer": [
+        "catch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Catch = alcanzar / tomar un transporte.",
+        "incorrect": "Revisa esto: Catch = alcanzar / tomar un transporte."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 20,
+      "prompt": "El azul te queda muy bien de color. La vendedora dice:",
+      "options": [
+        "Blue suits you.",
+        "Blue fits you.",
+        "Blue matches you.",
+        "Blue wears you."
+      ],
+      "answer": [
+        "Blue suits you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suit = favorece, queda bien de estilo.",
+        "incorrect": "Revisa esto: Suit = favorece, queda bien de estilo."
+      },
+      "review_of": "en-a2-u11-l02-ex03"
+    },
+    {
+      "id": "en-a2-u12-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The train is leaving at 9:10 every day.",
+      "answer": [
+        "The train leaves at 9:10 every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Horario fijo: presente simple.",
+        "incorrect": "Revisa esto: Horario fijo: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I need to take off the train at Oxford.",
+      "answer": [
+        "I need to get off the train at Oxford."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bajar de un tren: get off.",
+        "incorrect": "Revisa esto: Bajar de un tren: get off."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Puedo probármelo?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Probarse = try on.",
+        "incorrect": "Revisa esto: Probarse = try on."
+      },
+      "review_of": "en-a1-u08-l05-ex10"
+    },
+    {
+      "id": "en-a2-u12-l01-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "tickets",
+        "to",
+        "Oxford",
+        ",",
+        "please",
+        ".",
+        "Two",
+        "return"
+      ],
+      "answer": [
+        "Two",
+        "return",
+        "tickets",
+        "to",
+        "Oxford",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido: cantidad + tipo de billete + destino + please.",
+        "incorrect": "Revisa esto: Pedido: cantidad + tipo de billete + destino + please."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué andén sale el tren a Oxford?",
+      "options": [
+        "Platform 4",
+        "Platform 1",
+        "Platform 9",
+        "Platform 10"
+      ],
+      "answer": [
+        "Platform 4"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El empleado dice 'platform 4'.",
+        "incorrect": "Revisa esto: El empleado dice 'platform 4'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have seen him yesterday.",
+      "answer": [
+        "I saw him yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yesterday exige pasado simple.",
+        "incorrect": "Revisa esto: Yesterday exige pasado simple."
+      },
+      "review_of": "en-a2-u08-l04-ex07"
+    },
+    {
+      "id": "en-a2-u12-l01-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ breakfast at home.",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: Con las comidas se usa 'have': have breakfast."
+      },
+      "review_of": "en-a1-u04-l01-ex03"
+    },
+    {
+      "id": "en-a2-u12-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "I don't work ___ Sundays.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "from"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      },
+      "review_of": "en-a2-u07-l03-ex04"
+    },
+    {
+      "id": "en-a2-u12-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ jacket is nice. (lejos, singular)",
+      "answer": [
+        "That"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lejos y singular: that.",
+        "incorrect": "Revisa esto: Lejos y singular: that."
+      },
+      "review_of": "en-a1-u08-l04-ex02"
+    },
+    {
+      "id": "en-a2-u12-l01-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tarda el viaje?",
+      "options": [
+        "Two hours",
+        "One hour",
+        "Six hours",
+        "Twenty-five minutes"
+      ],
+      "answer": [
+        "Two hours"
+      ],
+      "audio_text": "The next train to Bristol leaves from platform six at 10:25. It's direct and it takes two hours.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it takes two hours'.",
+        "incorrect": "Revisa esto: Dice 'it takes two hours'."
+      },
+      "audio_script_id": "en-a2-u12-l01-ex11-a"
+    },
+    {
+      "id": "en-a2-u12-l01-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿De qué andén sale el tren a Londres?",
+      "answer": [
+        "Which platform does the train to London leave from?",
+        "What platform does the train to London leave from?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Which platform + does + leave from.",
+        "incorrect": "Revisa esto: Which platform + does + leave from."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-ex13",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "public-transport"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "tip_es": "El acento va en 'plat'."
+        },
+        {
+          "text": "return",
+          "ipa": "/rɪˈtɜːn/",
+          "tip_es": "El acento va en 'turn'."
+        },
+        {
+          "text": "direct",
+          "ipa": "/dəˈrekt/",
+          "tip_es": "También se oye /daɪˈrekt/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u12-l01-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has ___ (eat) sushi twice.",
+      "answer": [
+        "eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de eat: eaten.",
+        "incorrect": "Revisa esto: Participio de eat: eaten."
+      },
+      "review_of": "en-a2-u08-l06-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "A return ticket to … · Single or return?",
+      "Which platform? · Is it direct? · How long does it take?",
+      "The train leaves at … (presente simple)",
+      "catch / miss the train · get on / get off"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-return-ticket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-single-ticket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-platform"
+    },
+    {
+      "type": "vocab",
+      "id": "en-direct"
+    },
+    {
+      "type": "vocab",
+      "id": "en-change-trains"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ticket-office"
+    },
+    {
+      "type": "vocab",
+      "id": "en-leave"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-takes"
+    },
+    {
+      "type": "grammar",
+      "id": "en-public-transport"
+    }
+  ]
+}

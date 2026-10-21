@@ -11,7 +11,7 @@
     "es": "Dar opiniones y estar de acuerdo"
   },
   "objective": "Al terminar das tu opinión, pides la de otros y expresas acuerdo o desacuerdo con educación.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -215,6 +215,42 @@
       }
     },
     {
+      "id": "en-a2-u10-l03-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para pedir direcciones.",
+        "incorrect": "Revisa esto: Pregunta para pedir direcciones."
+      },
+      "review_of": "en-a1-u07-l06-ex07"
+    },
+    {
       "id": "en-a2-u10-l03-ex04",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -275,6 +311,25 @@
       }
     },
     {
+      "id": "en-a2-u10-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "She goes to school ___ foot.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      },
+      "review_of": "en-a1-u07-l04-ex03"
+    },
+    {
       "id": "en-a2-u10-l03-ex07",
       "type": "fill_blank",
       "skill": "grammar",
@@ -294,6 +349,42 @@
       }
     },
     {
+      "id": "en-a2-u10-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "any",
+        "windows",
+        "in",
+        "the",
+        "bathroom",
+        ".",
+        "There",
+        "aren't"
+      ],
+      "answer": [
+        "There",
+        "aren't",
+        "any",
+        "windows",
+        "in",
+        "the",
+        "bathroom",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa plural: there aren't any…",
+        "incorrect": "Revisa esto: Negativa plural: there aren't any…"
+      },
+      "review_of": "en-a1-u06-l06-ex06"
+    },
+    {
       "id": "en-a2-u10-l03-ex08",
       "type": "error_correction",
       "skill": "grammar",
@@ -311,6 +402,67 @@
         "correct": "¡Correcto! Agree es un verbo, no se usa con am.",
         "incorrect": "Revisa esto: Agree es un verbo, no se usa con am."
       }
+    },
+    {
+      "id": "en-a2-u10-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has ___ (eat) sushi twice.",
+      "answer": [
+        "eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de eat: eaten.",
+        "incorrect": "Revisa esto: Participio de eat: eaten."
+      },
+      "review_of": "en-a2-u08-l06-ex02"
+    },
+    {
+      "id": "en-a2-u10-l03-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "sunny",
+          "right": "soleado"
+        },
+        {
+          "left": "cloudy",
+          "right": "nublado"
+        },
+        {
+          "left": "windy",
+          "right": "ventoso"
+        },
+        {
+          "left": "hot",
+          "right": "caluroso"
+        },
+        {
+          "left": "cold",
+          "right": "frío"
+        },
+        {
+          "left": "warm",
+          "right": "templado"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las palabras básicas del clima.",
+        "incorrect": "Revisa esto: Son las palabras básicas del clima."
+      },
+      "review_of": "en-a1-u10-l01-ex01"
     },
     {
       "id": "en-a2-u10-l03-ex09",
@@ -395,6 +547,60 @@
       }
     },
     {
+      "id": "en-a2-u10-l03-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice la persona sobre su examen de conducir?",
+      "options": [
+        "She hasn't passed it",
+        "She has passed it",
+        "She failed it twice",
+        "She never took it"
+      ],
+      "answer": [
+        "She hasn't passed it"
+      ],
+      "audio_text": "Have you ever driven a car? — Yes, I have. I've driven my dad's car, but I haven't passed my test yet.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I haven't passed my test yet'.",
+        "incorrect": "Revisa esto: Dice 'I haven't passed my test yet'."
+      },
+      "audio_script_id": "en-a2-u10-l03-rv06-a",
+      "review_of": "en-a2-u08-l01-ex11"
+    },
+    {
+      "id": "en-a2-u10-l03-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde están las llaves?",
+      "options": [
+        "In the bag",
+        "On the table",
+        "Under the newspaper",
+        "Next to the lamp"
+      ],
+      "answer": [
+        "In the bag"
+      ],
+      "audio_text": "My phone is on the table, next to the lamp. My keys are in the bag, and my glasses are under the newspaper.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'My keys are in the bag'.",
+        "incorrect": "Revisa esto: Dice 'My keys are in the bag'."
+      },
+      "audio_script_id": "en-a2-u10-l03-rv07-a",
+      "review_of": "en-a1-u11-l04-ex10"
+    },
+    {
       "id": "en-a2-u10-l03-ex12",
       "type": "listening",
       "skill": "listening",
@@ -475,7 +681,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe tu opinión (5 frases) sobre un tema simple (por ejemplo, 'las clases online' o 'la comida rápida'). Usa I think, In my opinion y una razón.",
-      "min_words": 35,
+      "min_words": 33,
       "self_check_es": [
         "¿Diste tu opinión con I think / In my opinion?",
         "¿Diste una razón?",

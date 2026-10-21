@@ -11,7 +11,7 @@
     "es": "Just, already y yet"
   },
   "objective": "Al terminar hablas de acciones recientes y de lo que ya se hizo o aún no con just, already y yet.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -187,6 +187,86 @@
       }
     },
     {
+      "id": "en-a2-u08-l03-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ drink so much coffee. (no deberías)",
+      "answer": [
+        "shouldn't",
+        "should not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo negativo: shouldn't + verbo base.",
+        "incorrect": "Revisa esto: Consejo negativo: shouldn't + verbo base."
+      },
+      "review_of": "en-a2-u06-l03-ex02"
+    },
+    {
+      "id": "en-a2-u08-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 25,
+      "prompt": "I listen ___ music in the evening.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen siempre lleva to.",
+        "incorrect": "Revisa esto: Listen siempre lleva to."
+      },
+      "review_of": "en-a1-u09-l06-ex02"
+    },
+    {
+      "id": "en-a2-u08-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She work in a shop.",
+      "answer": [
+        "She works in a shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s."
+      },
+      "review_of": "en-a1-u04-l03-ex05"
+    },
+    {
+      "id": "en-a2-u08-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am work in a hospital.",
+      "answer": [
+        "I work in a hospital.",
+        "I'm working in a hospital."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con work no se usa am: I work in…",
+        "incorrect": "Revisa esto: Con work no se usa am: I work in…"
+      },
+      "review_of": "en-a2-u07-l01-ex07"
+    },
+    {
       "id": "en-a2-u08-l03-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -293,6 +373,33 @@
       }
     },
     {
+      "id": "en-a2-u08-l03-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está la lámpara?",
+      "options": [
+        "On the table",
+        "Under the table",
+        "On the sofa",
+        "Next to the sofa"
+      ],
+      "answer": [
+        "On the table"
+      ],
+      "audio_text": "The sofa is grey and the table is brown. The lamp is on the table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The lamp is on the table'.",
+        "incorrect": "Revisa esto: Dice 'The lamp is on the table'."
+      },
+      "audio_script_id": "en-a2-u08-l03-rv05-a",
+      "review_of": "en-a1-u06-l06-ex07"
+    },
+    {
       "id": "en-a2-u08-l03-ex09",
       "type": "word_order",
       "skill": "grammar",
@@ -394,6 +501,25 @@
         "correct": "¡Correcto! Negativa con yet al final.",
         "incorrect": "Revisa esto: Negativa con yet al final."
       }
+    },
+    {
+      "id": "en-a2-u08-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "The bus takes eight hours. That's ___ long for me.",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      },
+      "review_of": "en-a2-u03-l05-ex03"
     }
   ],
   "summary": {

@@ -11,7 +11,7 @@
     "es": "Medios de transporte"
   },
   "objective": "Al terminar dices cómo vas a los lugares con by y on foot.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -247,6 +247,27 @@
       }
     },
     {
+      "id": "en-a1-u07-l04-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
+    },
+    {
       "id": "en-a1-u07-l04-ex07",
       "type": "multiple_choice",
       "skill": "reading",
@@ -270,6 +291,50 @@
         "correct": "¡Correcto! El texto dice 'Sam goes by train'.",
         "incorrect": "Revisa esto: El texto dice 'Sam goes by train'."
       }
+    },
+    {
+      "id": "en-a1-u07-l04-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one strawberry → ten ___",
+      "answer": [
+        "strawberries"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ies.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ies."
+      },
+      "review_of": "en-a1-u05-l02-ex02"
+    },
+    {
+      "id": "en-a1-u07-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué significa 'parents'?",
+      "options": [
+        "padres",
+        "parientes",
+        "abuelos",
+        "hermanos"
+      ],
+      "answer": [
+        "padres"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falso amigo: 'parents' = padres; 'parientes' = relatives.",
+        "incorrect": "Revisa esto: Falso amigo: 'parents' = padres; 'parientes' = relatives."
+      },
+      "review_of": "en-a1-u03-l01-ex04"
     },
     {
       "id": "en-a1-u07-l04-ex08",
@@ -296,6 +361,64 @@
         "incorrect": "Revisa esto: Dice 'my brother goes by car'."
       },
       "audio_script_id": "en-a1-u07-l04-ex08-a"
+    },
+    {
+      "id": "en-a1-u07-l04-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el singular con su plural.",
+      "pairs": [
+        {
+          "left": "man",
+          "right": "men"
+        },
+        {
+          "left": "woman",
+          "right": "women"
+        },
+        {
+          "left": "child",
+          "right": "children"
+        },
+        {
+          "left": "person",
+          "right": "people"
+        },
+        {
+          "left": "foot",
+          "right": "feet"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son plurales irregulares: hay que memorizarlos.",
+        "incorrect": "Revisa esto: Son plurales irregulares: hay que memorizarlos."
+      },
+      "review_of": "en-a1-u05-l02-ex05"
+    },
+    {
+      "id": "en-a1-u07-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
     },
     {
       "id": "en-a1-u07-l04-ex09",

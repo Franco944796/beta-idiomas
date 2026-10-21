@@ -11,7 +11,7 @@
     "es": "Be going to: planes e intenciones"
   },
   "objective": "Al terminar cuentas tus planes e intenciones con be going to y usas tomorrow, next week y this weekend.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -173,6 +173,27 @@
       }
     },
     {
+      "id": "en-a2-u05-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She gave me an information.",
+      "answer": [
+        "She gave me some information.",
+        "She gave me information."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Information es incontable: sin an.",
+        "incorrect": "Revisa esto: Information es incontable: sin an."
+      },
+      "review_of": "en-a2-u04-l01-ex06"
+    },
+    {
       "id": "en-a2-u05-l01-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -189,6 +210,26 @@
         "correct": "¡Correcto! Negativa: aren't going to + base.",
         "incorrect": "Revisa esto: Negativa: aren't going to + base."
       }
+    },
+    {
+      "id": "en-a2-u05-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I eat much vegetables.",
+      "answer": [
+        "I eat a lot of vegetables."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En afirmativas se usa a lot of, no much.",
+        "incorrect": "Revisa esto: En afirmativas se usa a lot of, no much."
+      },
+      "review_of": "en-a2-u04-l02-ex08"
     },
     {
       "id": "en-a2-u05-l01-ex04",
@@ -341,6 +382,53 @@
       "audio_script_id": "en-a2-u05-l01-ex09-a"
     },
     {
+      "id": "en-a2-u05-l01-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Qué es esto? Es una cámara.",
+      "answer": [
+        "What's this? It's a camera.",
+        "What is this? It's a camera.",
+        "What is this? It is a camera."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What's this? + It's a …",
+        "incorrect": "Revisa esto: What's this? + It's a …"
+      },
+      "review_of": "en-a1-u11-l02-ex11"
+    },
+    {
+      "id": "en-a2-u05-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde: Good afternoon.",
+        "incorrect": "Revisa esto: Por la tarde: Good afternoon."
+      },
+      "review_of": "en-a1-u10-l06-ex01"
+    },
+    {
       "id": "en-a2-u05-l01-ex10",
       "type": "translation",
       "skill": "writing",
@@ -392,6 +480,26 @@
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
       }
+    },
+    {
+      "id": "en-a2-u05-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Me like chicken.",
+      "answer": [
+        "I like chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto es 'I', no 'me'.",
+        "incorrect": "Revisa esto: El sujeto es 'I', no 'me'."
+      },
+      "review_of": "en-a1-u05-l03-ex04"
     }
   ],
   "summary": {

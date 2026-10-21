@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 9"
   },
   "objective": "Al terminar manejas el vocabulario de tecnología, cuentas qué estaba pasando en el pasado, usas posesivos y escribes mensajes informales.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -70,6 +70,46 @@
       }
     },
     {
+      "id": "en-a2-u09-l06-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "choose",
+        "a",
+        "comedy",
+        ",",
+        "or",
+        "a",
+        "thriller",
+        ".",
+        "I",
+        "might"
+      ],
+      "answer": [
+        "I",
+        "might",
+        "choose",
+        "a",
+        "comedy",
+        ",",
+        "or",
+        "a",
+        "thriller",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! might + verbo base para posibilidades.",
+        "incorrect": "Revisa esto: might + verbo base para posibilidades."
+      },
+      "review_of": "en-a2-u05-l04-ex08"
+    },
+    {
       "id": "en-a2-u09-l06-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -86,6 +126,25 @@
         "correct": "¡Correcto! When introduce la acción corta.",
         "incorrect": "Revisa esto: When introduce la acción corta."
       }
+    },
+    {
+      "id": "en-a2-u09-l06-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ breakfast at home.",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: Con las comidas se usa 'have': have breakfast."
+      },
+      "review_of": "en-a1-u04-l01-ex03"
     },
     {
       "id": "en-a2-u09-l06-ex04",
@@ -148,6 +207,31 @@
       }
     },
     {
+      "id": "en-a2-u09-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "No entendiste. Quieres que lo repitan. Dices:",
+      "options": [
+        "Can you repeat that, please?",
+        "Repeat you.",
+        "I not know.",
+        "What? Again!"
+      ],
+      "answer": [
+        "Can you repeat that, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Petición cortés para repetir.",
+        "incorrect": "Revisa esto: Petición cortés para repetir."
+      },
+      "review_of": "en-a1-u11-l05-ex02"
+    },
+    {
       "id": "en-a2-u09-l06-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -165,6 +249,26 @@
         "correct": "¡Correcto! La interrupción va en pasado simple.",
         "incorrect": "Revisa esto: La interrupción va en pasado simple."
       }
+    },
+    {
+      "id": "en-a2-u09-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The beach was very crowd.",
+      "answer": [
+        "The beach was very crowded."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo es crowded.",
+        "incorrect": "Revisa esto: El adjetivo es crowded."
+      },
+      "review_of": "en-a2-u03-l01-ex05"
     },
     {
       "id": "en-a2-u09-l06-ex08",
@@ -185,6 +289,59 @@
         "correct": "¡Correcto! Con el sustantivo se usa my; sin sustantivo, mine.",
         "incorrect": "Revisa esto: Con el sustantivo se usa my; sin sustantivo, mine."
       }
+    },
+    {
+      "id": "en-a2-u09-l06-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "the",
+        "bananas",
+        "?",
+        "How",
+        "much"
+      ],
+      "answer": [
+        "How",
+        "much",
+        "are",
+        "the",
+        "bananas",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much + are + sustantivo plural.",
+        "incorrect": "Revisa esto: How much + are + sustantivo plural."
+      },
+      "review_of": "en-a1-u08-l02-ex09"
+    },
+    {
+      "id": "en-a2-u09-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday I walk to work.",
+      "answer": [
+        "Yesterday I walked to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con yesterday el verbo va en pasado: walked.",
+        "incorrect": "Revisa esto: Con yesterday el verbo va en pasado: walked."
+      },
+      "review_of": "en-a2-u01-l02-ex06"
     },
     {
       "id": "en-a2-u09-l06-ex09",
@@ -245,7 +402,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe un mensaje a un amigo (4 o 5 frases) contando qué estabas haciendo cuando algo pasó (un problema con el móvil, el wifi, etc.). Usa when o while.",
-      "min_words": 35,
+      "min_words": 26,
       "self_check_es": [
         "¿Usaste pasado continuo para la acción larga?",
         "¿Usaste pasado simple para la interrupción?",
@@ -257,6 +414,44 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u09-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever been to Rome? — Yes, I have. I ___ there last year. (go)",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con last year: pasado simple.",
+        "incorrect": "Revisa esto: Con last year: pasado simple."
+      },
+      "review_of": "en-a2-u08-l04-ex04"
+    },
+    {
+      "id": "en-a2-u09-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ___ the table. (sobre)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie: on.",
+        "incorrect": "Revisa esto: Sobre una superficie: on."
+      },
+      "review_of": "en-a1-u06-l03-ex02"
     },
     {
       "id": "en-a2-u09-l06-ex12",

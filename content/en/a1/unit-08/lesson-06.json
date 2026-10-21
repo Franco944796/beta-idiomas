@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 8"
   },
   "objective": "Al terminar demuestras que puedes comprar ropa y hablar de precios y cantidades en inglés.",
-  "est_minutes": 20,
+  "est_minutes": 24,
   "skills": [
     "grammar",
     "listening",
@@ -93,6 +93,44 @@
         "correct": "¡Correcto! Eighty = 80.",
         "incorrect": "Revisa esto: Eighty = 80."
       }
+    },
+    {
+      "id": "en-a1-u08-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's ___ teacher.",
+      "answer": [
+        "a"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'teacher' empieza con sonido de consonante: a.",
+        "incorrect": "Revisa esto: 'teacher' empieza con sonido de consonante: a."
+      },
+      "review_of": "en-a1-u02-l05-ex02"
+    },
+    {
+      "id": "en-a1-u08-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The station is ___ your right.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice on your right / on your left.",
+        "incorrect": "Revisa esto: Se dice on your right / on your left."
+      },
+      "review_of": "en-a1-u07-l03-ex04"
     },
     {
       "id": "en-a1-u08-l06-ex03",
@@ -250,6 +288,25 @@
       }
     },
     {
+      "id": "en-a1-u08-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you help me, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can you…? para pedir ayuda.",
+        "incorrect": "Revisa esto: Can you…? para pedir ayuda."
+      },
+      "review_of": "en-a1-u07-l05-ex03"
+    },
+    {
       "id": "en-a1-u08-l06-ex10",
       "type": "writing",
       "skill": "writing",
@@ -260,7 +317,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 4 frases: qué ropa llevas hoy, de qué color es y qué quieres comprar.",
-      "min_words": 18,
+      "min_words": 17,
       "self_check_es": [
         "¿Usaste wear para la ropa?",
         "¿Pusiste colores antes del sustantivo?",
@@ -271,6 +328,104 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a1-u08-l06-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can see a film at the ___.",
+      "answer": [
+        "cinema"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las películas se ven en el cinema.",
+        "incorrect": "Revisa esto: Las películas se ven en el cinema."
+      },
+      "review_of": "en-a1-u07-l01-ex04"
+    },
+    {
+      "id": "en-a1-u08-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Para llamar la atención de alguien en la calle dices…",
+      "options": [
+        "Excuse me.",
+        "Goodbye.",
+        "Nice to meet you.",
+        "I'm fine."
+      ],
+      "answer": [
+        "Excuse me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Excuse me sirve para llamar la atención.",
+        "incorrect": "Revisa esto: Excuse me sirve para llamar la atención."
+      },
+      "review_of": "en-a1-u07-l05-ex02"
+    },
+    {
+      "id": "en-a1-u08-l06-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo va el hermano?",
+      "options": [
+        "By car",
+        "By train",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By car"
+      ],
+      "audio_text": "I go to work by train, but my brother goes by car.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my brother goes by car'.",
+        "incorrect": "Revisa esto: Dice 'my brother goes by car'."
+      },
+      "audio_script_id": "en-a1-u08-l06-rv06-a",
+      "review_of": "en-a1-u07-l04-ex08"
+    },
+    {
+      "id": "en-a1-u08-l06-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué tiene la casa?",
+      "options": [
+        "Three bedrooms and a garden",
+        "Two bedrooms and a garden",
+        "Three bedrooms, no garden",
+        "One bedroom and a garden"
+      ],
+      "answer": [
+        "Three bedrooms and a garden"
+      ],
+      "audio_text": "I live in a house. There are three bedrooms and a garden.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'three bedrooms and a garden'.",
+        "incorrect": "Revisa esto: Dice 'three bedrooms and a garden'."
+      },
+      "audio_script_id": "en-a1-u08-l06-rv07-a",
+      "review_of": "en-a1-u06-l05-ex08"
     },
     {
       "id": "en-a1-u08-l06-ex11",

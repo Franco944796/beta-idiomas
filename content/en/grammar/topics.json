@@ -283,6 +283,43 @@
       "introduced_in": "en-a1-u10-l04"
     },
     {
+      "id": "en-whats-this",
+      "kind": "grammar",
+      "title_es": "What's this? / What are these? y Is this your…?",
+      "prerequisites": [
+        "en-this-that-these-those",
+        "en-plurals"
+      ],
+      "introduced_in": "en-a1-u11-l02"
+    },
+    {
+      "id": "en-articles-the",
+      "kind": "grammar",
+      "title_es": "Artículos: a, an, the y cuándo no se usa artículo",
+      "prerequisites": [
+        "en-articles-a-an"
+      ],
+      "introduced_in": "en-a1-u11-l03"
+    },
+    {
+      "id": "en-where-objects",
+      "kind": "function",
+      "title_es": "Preguntar y decir dónde están los objetos",
+      "prerequisites": [
+        "en-prepositions-place"
+      ],
+      "introduced_in": "en-a1-u11-l04"
+    },
+    {
+      "id": "en-classroom-instructions",
+      "kind": "function",
+      "title_es": "Instrucciones de clase, frases de supervivencia y mensajes cortos",
+      "prerequisites": [
+        "en-imperatives"
+      ],
+      "introduced_in": "en-a1-u11-l05"
+    },
+    {
       "id": "en-was-were",
       "kind": "grammar",
       "title_es": "Pasado de to be: was / were y expresiones de tiempo",
@@ -713,6 +750,150 @@
         "en-future-forms"
       ],
       "introduced_in": "en-a2-u10-l05"
+    },
+    {
+      "id": "en-adjective-order",
+      "kind": "grammar",
+      "title_es": "Orden de los adjetivos, colores, estampados y materiales",
+      "prerequisites": [
+        "en-adjectives-position"
+      ],
+      "introduced_in": "en-a2-u11-l01"
+    },
+    {
+      "id": "en-trying-on",
+      "kind": "function",
+      "title_es": "Probarse ropa: try on, size, fit, suit, too + adjetivo",
+      "prerequisites": [
+        "en-could-requests",
+        "en-as-as-too-enough"
+      ],
+      "introduced_in": "en-a2-u11-l02"
+    },
+    {
+      "id": "en-describing-clothes",
+      "kind": "grammar",
+      "title_es": "Describir lo que alguien lleva puesto: is wearing y with / in",
+      "prerequisites": [
+        "en-present-continuous"
+      ],
+      "introduced_in": "en-a2-u11-l03"
+    },
+    {
+      "id": "en-returns-complaints",
+      "kind": "function",
+      "title_es": "Cambios, devoluciones y quejas con educación",
+      "prerequisites": [
+        "en-restaurant-language"
+      ],
+      "introduced_in": "en-a2-u11-l04"
+    },
+    {
+      "id": "en-dress-advice",
+      "kind": "function",
+      "title_es": "Qué ponerse: should, formal y casual, comparar prendas",
+      "prerequisites": [
+        "en-should",
+        "en-comparatives"
+      ],
+      "introduced_in": "en-a2-u11-l05"
+    },
+    {
+      "id": "en-public-transport",
+      "kind": "function",
+      "title_es": "Transporte público: billetes, andenes, horarios",
+      "prerequisites": [
+        "en-could-requests",
+        "en-prepositions-time-movement"
+      ],
+      "introduced_in": "en-a2-u12-l01"
+    },
+    {
+      "id": "en-asking-directions",
+      "kind": "function",
+      "title_es": "Pedir indicaciones con cortesía y entender la respuesta",
+      "prerequisites": [
+        "en-directions",
+        "en-could-requests"
+      ],
+      "introduced_in": "en-a2-u12-l02"
+    },
+    {
+      "id": "en-giving-directions",
+      "kind": "function",
+      "title_es": "Dar indicaciones: go past, along, across, roundabout, crossroads",
+      "prerequisites": [
+        "en-directions",
+        "en-prepositions-time-movement"
+      ],
+      "introduced_in": "en-a2-u12-l03"
+    },
+    {
+      "id": "en-travel-problems",
+      "kind": "function",
+      "title_es": "Retrasos y problemas de viaje: anuncios y soluciones",
+      "prerequisites": [
+        "en-past-continuous",
+        "en-will"
+      ],
+      "introduced_in": "en-a2-u12-l04"
+    },
+    {
+      "id": "en-planning-journey",
+      "kind": "function",
+      "title_es": "Planear un trayecto y comparar rutas",
+      "prerequisites": [
+        "en-comparatives",
+        "en-asking-directions"
+      ],
+      "introduced_in": "en-a2-u12-l05"
+    },
+    {
+      "id": "en-play-go-do",
+      "kind": "grammar",
+      "title_es": "Play, go y do con deportes y aficiones",
+      "prerequisites": [
+        "en-verb-patterns"
+      ],
+      "introduced_in": "en-a2-u13-l01"
+    },
+    {
+      "id": "en-how-often",
+      "kind": "grammar",
+      "title_es": "How often, once a week, twice a month y adverbios de frecuencia",
+      "prerequisites": [
+        "en-adverbs-of-frequency"
+      ],
+      "introduced_in": "en-a2-u13-l02"
+    },
+    {
+      "id": "en-joining-club",
+      "kind": "function",
+      "title_es": "Apuntarse a un club: preguntas sobre precio, horarios y material",
+      "prerequisites": [
+        "en-could-requests",
+        "en-restaurant-language"
+      ],
+      "introduced_in": "en-a2-u13-l03"
+    },
+    {
+      "id": "en-hobby-talk",
+      "kind": "function",
+      "title_es": "Hablar de una afición: tiempo, motivos y beneficios",
+      "prerequisites": [
+        "en-for-since",
+        "en-verb-patterns"
+      ],
+      "introduced_in": "en-a2-u13-l04"
+    },
+    {
+      "id": "en-ed-ing-adjectives",
+      "kind": "grammar",
+      "title_es": "Adjetivos -ed / -ing: bored / boring, excited / exciting",
+      "prerequisites": [
+        "en-adjectives-position"
+      ],
+      "introduced_in": "en-a2-u13-l05"
     }
   ]
 }

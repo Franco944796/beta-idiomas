@@ -11,7 +11,7 @@
     "es": "Recetas: verbos de cocina y secuencia"
   },
   "objective": "Al terminar entiendes y escribes una receta sencilla usando verbos de cocina, imperativos y conectores de secuencia.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -212,6 +212,53 @@
       }
     },
     {
+      "id": "en-a2-u04-l05-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "phone"
+      ],
+      "est_seconds": 40,
+      "prompt": "Escucha: ¿cuál es el número de teléfono?",
+      "options": [
+        "555 0142",
+        "555 1042",
+        "550 0142",
+        "555 0124"
+      ],
+      "answer": [
+        "555 0142"
+      ],
+      "audio_text": "My phone number is five five five, oh one four two.",
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste: five five five, oh one four two.",
+        "incorrect": "Revisa esto: Escuchaste: five five five, oh one four two."
+      },
+      "audio_script_id": "en-a2-u04-l05-rv01-a",
+      "review_of": "en-a1-u01-l03-ex04"
+    },
+    {
+      "id": "en-a2-u04-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's cold ___ winter.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con estaciones se usa in.",
+        "incorrect": "Revisa esto: Con estaciones se usa in."
+      },
+      "review_of": "en-a1-u10-l02-ex03"
+    },
+    {
       "id": "en-a2-u04-l05-ex04",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -271,6 +318,84 @@
         "correct": "¡Correcto! Conector + coma + imperativo + tiempo.",
         "incorrect": "Revisa esto: Conector + coma + imperativo + tiempo."
       }
+    },
+    {
+      "id": "en-a2-u04-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the ___ (good) cake in town.",
+      "answer": [
+        "best"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: the best.",
+        "incorrect": "Revisa esto: Good es irregular: the best."
+      },
+      "review_of": "en-a2-u03-l06-ex02"
+    },
+    {
+      "id": "en-a2-u04-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Alguien te pide el pasaporte. Se lo das y dices:",
+      "options": [
+        "Here you are.",
+        "Of course not.",
+        "No problem.",
+        "I'm sorry."
+      ],
+      "answer": [
+        "Here you are."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí tiene = Here you are.",
+        "incorrect": "Revisa esto: Aquí tiene = Here you are."
+      },
+      "review_of": "en-a2-u02-l03-ex06"
+    },
+    {
+      "id": "en-a2-u04-l05-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la forma completa con la forma corta.",
+      "pairs": [
+        {
+          "left": "I am",
+          "right": "I'm"
+        },
+        {
+          "left": "you are",
+          "right": "you're"
+        },
+        {
+          "left": "we are",
+          "right": "we're"
+        },
+        {
+          "left": "they are",
+          "right": "they're"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las formas cortas son muy frecuentes al hablar.",
+        "incorrect": "Revisa esto: Las formas cortas son muy frecuentes al hablar."
+      },
+      "review_of": "en-a1-u02-l03-ex05"
     },
     {
       "id": "en-a2-u04-l05-ex06",

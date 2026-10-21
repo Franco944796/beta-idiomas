@@ -11,7 +11,7 @@
     "es": "Adjetivos posesivos"
   },
   "objective": "Al terminar usas my, your, his, her, our y their para indicar a quién pertenece algo.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "reading",
@@ -172,6 +172,46 @@
       }
     },
     {
+      "id": "en-a1-u03-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura ___ Argentinian. She's Italian.",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con 'she': isn't (is not).",
+        "incorrect": "Revisa esto: Negativa con 'she': isn't (is not)."
+      },
+      "review_of": "en-a1-u02-l04-ex02"
+    },
+    {
+      "id": "en-a1-u03-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Carlos is my friend. ___ from Argentina.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carlos es un hombre: he is (he's).",
+        "incorrect": "Revisa esto: Carlos es un hombre: he is (he's)."
+      },
+      "review_of": "en-a1-u02-l02-ex03"
+    },
+    {
       "id": "en-a1-u03-l02-ex05",
       "type": "multiple_choice",
       "skill": "reading",
@@ -274,6 +314,31 @@
         "correct": "¡Correcto! Dueño masculino = his.",
         "incorrect": "Revisa esto: Dueño masculino = his."
       }
+    },
+    {
+      "id": "en-a1-u03-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase para decir al conocer a alguien por primera vez.",
+      "options": [
+        "Nice to meet you.",
+        "See you later.",
+        "Good night.",
+        "Thank you."
+      ],
+      "answer": [
+        "Nice to meet you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Nice to meet you' se usa al conocer a alguien.",
+        "incorrect": "Revisa esto: 'Nice to meet you' se usa al conocer a alguien."
+      },
+      "review_of": "en-a1-u01-l01-ex01"
     }
   ],
   "summary": {

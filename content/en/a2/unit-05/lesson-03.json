@@ -11,7 +11,7 @@
     "es": "Will: decisiones, promesas y ofrecimientos"
   },
   "objective": "Al terminar usas will y won't para decidir en el momento, ofrecer ayuda, prometer y dar tu opinión sobre el futuro.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -202,6 +202,26 @@
       }
     },
     {
+      "id": "en-a2-u05-l03-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is taller that me.",
+      "answer": [
+        "She is taller than me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del comparativo se usa than.",
+        "incorrect": "Revisa esto: Después del comparativo se usa than."
+      },
+      "review_of": "en-a2-u03-l02-ex07"
+    },
+    {
       "id": "en-a2-u05-l03-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -236,6 +256,31 @@
         "correct": "¡Correcto! I don't think + will + verbo.",
         "incorrect": "Revisa esto: I don't think + will + verbo."
       }
+    },
+    {
+      "id": "en-a2-u05-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 20,
+      "prompt": "The soup is ___ hot. I can't eat it.",
+      "options": [
+        "too",
+        "very",
+        "enough",
+        "as"
+      ],
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too = demasiado (no se puede comer).",
+        "incorrect": "Revisa esto: Too = demasiado (no se puede comer)."
+      },
+      "review_of": "en-a2-u03-l04-ex05"
     },
     {
       "id": "en-a2-u05-l03-ex06",
@@ -276,6 +321,31 @@
         "correct": "¡Correcto! Will + verbo base, sin -s.",
         "incorrect": "Revisa esto: Will + verbo base, sin -s."
       }
+    },
+    {
+      "id": "en-a2-u05-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you got a sister? — ___",
+      "options": [
+        "Yes, I have.",
+        "Yes, I've.",
+        "Yes, I am.",
+        "Yes, I got."
+      ],
+      "answer": [
+        "Yes, I have."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u03-l04-ex04"
     },
     {
       "id": "en-a2-u05-l03-ex08",
@@ -336,6 +406,65 @@
       }
     },
     {
+      "id": "en-a2-u05-l03-rv04",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada objeto en su categoría.",
+      "categories": [
+        "School",
+        "Electronics",
+        "Personal things"
+      ],
+      "items": [
+        {
+          "text": "pen",
+          "category": "School"
+        },
+        {
+          "text": "notebook",
+          "category": "School"
+        },
+        {
+          "text": "pencil",
+          "category": "School"
+        },
+        {
+          "text": "phone",
+          "category": "Electronics"
+        },
+        {
+          "text": "computer",
+          "category": "Electronics"
+        },
+        {
+          "text": "camera",
+          "category": "Electronics"
+        },
+        {
+          "text": "wallet",
+          "category": "Personal things"
+        },
+        {
+          "text": "keys",
+          "category": "Personal things"
+        },
+        {
+          "text": "glasses",
+          "category": "Personal things"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u11-l01-ex02"
+    },
+    {
       "id": "en-a2-u05-l03-ex10",
       "type": "listening",
       "skill": "listening",
@@ -381,6 +510,25 @@
         "correct": "¡Correcto! Ofrecimiento: I'll + help.",
         "incorrect": "Revisa esto: Ofrecimiento: I'll + help."
       }
+    },
+    {
+      "id": "en-a2-u05-l03-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura and I are friends. ___ are students.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Laura and I' = we.",
+        "incorrect": "Revisa esto: 'Laura and I' = we."
+      },
+      "review_of": "en-a1-u02-l03-ex02"
     }
   ],
   "summary": {

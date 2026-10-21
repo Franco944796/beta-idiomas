@@ -11,7 +11,7 @@
     "es": "Pasado simple: negativas y preguntas"
   },
   "objective": "Al terminar niegas y preguntas en pasado con didn't y Did…? y das respuestas cortas.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -178,6 +178,27 @@
       }
     },
     {
+      "id": "en-a2-u01-l04-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy cocinando.",
+      "answer": [
+        "I'm cooking.",
+        "I am cooking."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking.",
+        "incorrect": "Revisa esto: be + cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex11"
+    },
+    {
       "id": "en-a2-u01-l04-ex04",
       "type": "error_correction",
       "skill": "grammar",
@@ -216,6 +237,27 @@
       }
     },
     {
+      "id": "en-a2-u01-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is raining now.",
+      "answer": [
+        "It's raining now.",
+        "It is raining now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se omite el sujeto it.",
+        "incorrect": "Revisa esto: No se omite el sujeto it."
+      },
+      "review_of": "en-a1-u10-l01-ex05"
+    },
+    {
       "id": "en-a2-u01-l04-ex06",
       "type": "word_order",
       "skill": "grammar",
@@ -245,6 +287,74 @@
         "correct": "¡Correcto! Did + sujeto + verbo base + resto.",
         "incorrect": "Revisa esto: Did + sujeto + verbo base + resto."
       }
+    },
+    {
+      "id": "en-a2-u01-l04-rv03",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Rooms",
+        "Furniture",
+        "Other parts"
+      ],
+      "items": [
+        {
+          "text": "living room",
+          "category": "Rooms"
+        },
+        {
+          "text": "kitchen",
+          "category": "Rooms"
+        },
+        {
+          "text": "bedroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bathroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bed",
+          "category": "Furniture"
+        },
+        {
+          "text": "table",
+          "category": "Furniture"
+        },
+        {
+          "text": "chair",
+          "category": "Furniture"
+        },
+        {
+          "text": "sofa",
+          "category": "Furniture"
+        },
+        {
+          "text": "window",
+          "category": "Other parts"
+        },
+        {
+          "text": "door",
+          "category": "Other parts"
+        },
+        {
+          "text": "garden",
+          "category": "Other parts"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u06-l01-ex09"
     },
     {
       "id": "en-a2-u01-l04-ex07",
@@ -288,6 +398,25 @@
         "correct": "¡Correcto! Anna dice 'It wasn't very good'.",
         "incorrect": "Revisa esto: Anna dice 'It wasn't very good'."
       }
+    },
+    {
+      "id": "en-a2-u01-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and I are teachers. ___ are from London.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Anna and I' = we.",
+        "incorrect": "Revisa esto: 'Anna and I' = we."
+      },
+      "review_of": "en-a1-u02-l06-ex04"
     },
     {
       "id": "en-a2-u01-l04-ex09",

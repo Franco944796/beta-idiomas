@@ -11,7 +11,7 @@
     "es": "Pasado continuo"
   },
   "objective": "Al terminar cuentas qué estaba pasando en un momento del pasado con el pasado continuo (was / were + -ing).",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -185,6 +185,97 @@
       }
     },
     {
+      "id": "en-a2-u09-l02-rv01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada palabra con su categoría.",
+      "categories": [
+        "Food",
+        "Transport",
+        "Activity",
+        "Colour"
+      ],
+      "items": [
+        {
+          "text": "apple",
+          "category": "Food"
+        },
+        {
+          "text": "bread",
+          "category": "Food"
+        },
+        {
+          "text": "bus",
+          "category": "Transport"
+        },
+        {
+          "text": "train",
+          "category": "Transport"
+        },
+        {
+          "text": "swimming",
+          "category": "Activity"
+        },
+        {
+          "text": "reading",
+          "category": "Activity"
+        },
+        {
+          "text": "red",
+          "category": "Colour"
+        },
+        {
+          "text": "blue",
+          "category": "Colour"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es el ejercicio clásico de clasificar vocabulario por categoría.",
+        "incorrect": "Revisa esto: Es el ejercicio clásico de clasificar vocabulario por categoría."
+      },
+      "review_of": "en-a1-u11-l06-ex01"
+    },
+    {
+      "id": "en-a2-u09-l02-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Así se pide que deletreen una palabra.",
+        "incorrect": "Revisa esto: Así se pide que deletreen una palabra."
+      },
+      "review_of": "en-a1-u01-l02-ex05"
+    },
+    {
       "id": "en-a2-u09-l02-ex04",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -207,6 +298,90 @@
         "correct": "¡Correcto! Respuesta corta con was / wasn't.",
         "incorrect": "Revisa esto: Respuesta corta con was / wasn't."
       }
+    },
+    {
+      "id": "en-a2-u09-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Quizás llueva mañana.",
+      "answer": [
+        "It might rain tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      },
+      "review_of": "en-a2-u05-l04-ex11"
+    },
+    {
+      "id": "en-a2-u09-l02-rv04",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-drink",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Drinks",
+        "Fruit",
+        "Main food"
+      ],
+      "items": [
+        {
+          "text": "milk",
+          "category": "Drinks"
+        },
+        {
+          "text": "coffee",
+          "category": "Drinks"
+        },
+        {
+          "text": "juice",
+          "category": "Drinks"
+        },
+        {
+          "text": "tea",
+          "category": "Drinks"
+        },
+        {
+          "text": "apple",
+          "category": "Fruit"
+        },
+        {
+          "text": "banana",
+          "category": "Fruit"
+        },
+        {
+          "text": "bread",
+          "category": "Main food"
+        },
+        {
+          "text": "rice",
+          "category": "Main food"
+        },
+        {
+          "text": "pasta",
+          "category": "Main food"
+        },
+        {
+          "text": "cheese",
+          "category": "Main food"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u05-l01-ex09"
     },
     {
       "id": "en-a2-u09-l02-ex05",
@@ -308,6 +483,27 @@
       }
     },
     {
+      "id": "en-a2-u09-l02-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm go to the cinema.",
+      "answer": [
+        "I'm going to the cinema.",
+        "I am going to the cinema."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de be el verbo lleva -ing.",
+        "incorrect": "Revisa esto: Después de be el verbo lleva -ing."
+      },
+      "review_of": "en-a1-u10-l04-ex06"
+    },
+    {
       "id": "en-a2-u09-l02-ex09",
       "type": "multiple_choice",
       "skill": "reading",
@@ -331,6 +527,31 @@
         "correct": "¡Correcto! Lucy dice 'I was talking to my sister on the phone'.",
         "incorrect": "Revisa esto: Lucy dice 'I was talking to my sister on the phone'."
       }
+    },
+    {
+      "id": "en-a2-u09-l02-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 20,
+      "prompt": "'La opción más barata' = ___.",
+      "options": [
+        "the cheapest option",
+        "the most cheap option",
+        "the cheaper option",
+        "the cheap option most"
+      ],
+      "answer": [
+        "the cheapest option"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: the + -est.",
+        "incorrect": "Revisa esto: Adjetivo corto: the + -est."
+      },
+      "review_of": "en-a2-u03-l05-ex02"
     },
     {
       "id": "en-a2-u09-l02-ex10",

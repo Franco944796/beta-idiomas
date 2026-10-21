@@ -11,7 +11,7 @@
     "es": "Pasado simple regular: -ed y su pronunciación"
   },
   "objective": "Al terminar formas el pasado simple de verbos regulares y pronuncias bien la terminación -ed.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -165,6 +165,48 @@
       }
     },
     {
+      "id": "en-a2-u01-l02-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada actividad con su significado.",
+      "pairs": [
+        {
+          "left": "play football",
+          "right": "jugar al fútbol"
+        },
+        {
+          "left": "listen to music",
+          "right": "escuchar música"
+        },
+        {
+          "left": "watch films",
+          "right": "mirar películas"
+        },
+        {
+          "left": "swim",
+          "right": "nadar"
+        },
+        {
+          "left": "cook",
+          "right": "cocinar"
+        },
+        {
+          "left": "read books",
+          "right": "leer libros"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los pasatiempos más comunes.",
+        "incorrect": "Revisa esto: Son los pasatiempos más comunes."
+      },
+      "review_of": "en-a1-u09-l01-ex01"
+    },
+    {
       "id": "en-a2-u01-l02-ex04",
       "type": "matching",
       "skill": "grammar",
@@ -200,6 +242,26 @@
         "correct": "¡Correcto! Cada verbo sigue una regla de ortografía distinta.",
         "incorrect": "Revisa esto: Cada verbo sigue una regla de ortografía distinta."
       }
+    },
+    {
+      "id": "en-a2-u01-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día debe ser ordinal: fifth.",
+        "incorrect": "Revisa esto: El día debe ser ordinal: fifth."
+      },
+      "review_of": "en-a1-u10-l03-ex05"
     },
     {
       "id": "en-a2-u01-l02-ex05",
@@ -264,6 +326,27 @@
       }
     },
     {
+      "id": "en-a2-u01-l02-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In my flat have two bedrooms.",
+      "answer": [
+        "There are two bedrooms in my flat.",
+        "In my flat there are two bedrooms."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'hay' se usa there are, no have.",
+        "incorrect": "Revisa esto: Para 'hay' se usa there are, no have."
+      },
+      "review_of": "en-a1-u06-l02-ex05"
+    },
+    {
       "id": "en-a2-u01-l02-ex08",
       "type": "multiple_choice",
       "skill": "reading",
@@ -287,6 +370,25 @@
         "correct": "¡Correcto! El texto dice 'I visited my grandmother'.",
         "incorrect": "Revisa esto: El texto dice 'I visited my grandmother'."
       }
+    },
+    {
+      "id": "en-a2-u01-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "Lucy ___ (get) up at seven.",
+      "answer": [
+        "gets"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'she/Lucy' se añade -s: gets.",
+        "incorrect": "Revisa esto: Con 'she/Lucy' se añade -s: gets."
+      },
+      "review_of": "en-a1-u04-l03-ex01"
     },
     {
       "id": "en-a2-u01-l02-ex09",

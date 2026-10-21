@@ -11,7 +11,7 @@
     "es": "Profesiones y a/an"
   },
   "objective": "Al terminar preguntas y dices tu profesión usando a / an.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "vocab",
@@ -182,6 +182,31 @@
       }
     },
     {
+      "id": "en-a1-u02-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escuchas: 'A, double N, A'. ¿Qué nombre es?",
+      "options": [
+        "Anna",
+        "Ana",
+        "Ann",
+        "Anne"
+      ],
+      "answer": [
+        "Anna"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Double N' significa dos N seguidas: A-N-N-A.",
+        "incorrect": "Revisa esto: 'Double N' significa dos N seguidas: A-N-N-A."
+      },
+      "review_of": "en-a1-u01-l02-ex06"
+    },
+    {
       "id": "en-a1-u02-l05-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -204,6 +229,69 @@
         "correct": "¡Correcto! Se necesita el artículo 'a' antes de una profesión.",
         "incorrect": "Revisa esto: Se necesita el artículo 'a' antes de una profesión."
       }
+    },
+    {
+      "id": "en-a1-u02-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Am Tom.",
+      "answer": [
+        "I'm Tom.",
+        "I am Tom."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: I'm Tom.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: I'm Tom."
+      },
+      "review_of": "en-a1-u01-l01-ex06"
+    },
+    {
+      "id": "en-a1-u02-l05-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el número con la palabra.",
+      "pairs": [
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "7",
+          "right": "seven"
+        },
+        {
+          "left": "12",
+          "right": "twelve"
+        },
+        {
+          "left": "15",
+          "right": "fifteen"
+        },
+        {
+          "left": "18",
+          "right": "eighteen"
+        },
+        {
+          "left": "20",
+          "right": "twenty"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa la tabla de números.",
+        "incorrect": "Revisa esto: Repasa la tabla de números."
+      },
+      "review_of": "en-a1-u01-l03-ex01"
     },
     {
       "id": "en-a1-u02-l05-ex04",

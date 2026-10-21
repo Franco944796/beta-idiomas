@@ -11,7 +11,7 @@
     "es": "Trabajos y lugares de trabajo"
   },
   "objective": "Al terminar dices a qué te dedicas y dónde trabajas o estudias, y preguntas lo mismo a otra persona.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -326,6 +326,36 @@
       }
     },
     {
+      "id": "en-a2-u07-l01-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "station",
+        "?",
+        "Where",
+        "is"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + is + lugar.",
+        "incorrect": "Revisa esto: Where + is + lugar."
+      },
+      "review_of": "en-a1-u07-l02-ex04"
+    },
+    {
       "id": "en-a2-u07-l01-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -346,6 +376,61 @@
       }
     },
     {
+      "id": "en-a2-u07-l01-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "brother",
+        ".",
+        "This",
+        "is"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "my",
+        "brother",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! This is + my + familiar.",
+        "incorrect": "Revisa esto: This is + my + familiar."
+      },
+      "review_of": "en-a1-u03-l01-ex07"
+    },
+    {
+      "id": "en-a2-u07-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ves un coche que viene muy rápido hacia un niño. Gritas: 'Look out! The car ___ hit him!'",
+      "options": [
+        "is going to",
+        "will to",
+        "might to",
+        "goes to"
+      ],
+      "answer": [
+        "is going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: going to.",
+        "incorrect": "Revisa esto: Evidencia ahora: going to."
+      },
+      "review_of": "en-a2-u05-l04-ex04"
+    },
+    {
       "id": "en-a2-u07-l01-ex08",
       "type": "error_correction",
       "skill": "grammar",
@@ -363,6 +448,31 @@
         "correct": "¡Correcto! Profesión = as + a/an: as an engineer.",
         "incorrect": "Revisa esto: Profesión = as + a/an: as an engineer."
       }
+    },
+    {
+      "id": "en-a2-u07-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'desayunar' en inglés?",
+      "options": [
+        "have breakfast",
+        "take breakfast",
+        "eat breakfast to",
+        "do breakfast"
+      ],
+      "answer": [
+        "have breakfast"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: En inglés se usa 'have': have breakfast."
+      },
+      "review_of": "en-a1-u04-l01-ex02"
     },
     {
       "id": "en-a2-u07-l01-ex09",
@@ -392,6 +502,47 @@
         "correct": "¡Correcto! Pregunta en presente simple.",
         "incorrect": "Revisa esto: Pregunta en presente simple."
       }
+    },
+    {
+      "id": "en-a2-u07-l01-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 25,
+      "prompt": "Yesterday I ___ to wait for an hour. (tuve que)",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado de have to: had to.",
+        "incorrect": "Revisa esto: Pasado de have to: had to."
+      },
+      "review_of": "en-a2-u06-l04-ex05"
+    },
+    {
+      "id": "en-a2-u07-l01-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me duele la garganta y tengo tos.",
+      "answer": [
+        "I've got a sore throat and a cough.",
+        "My throat hurts and I've got a cough.",
+        "I have a sore throat and a cough."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: sore throat + cough.",
+        "incorrect": "Revisa esto: Dos síntomas: sore throat + cough."
+      },
+      "review_of": "en-a2-u06-l02-ex10"
     },
     {
       "id": "en-a2-u07-l01-ex10",

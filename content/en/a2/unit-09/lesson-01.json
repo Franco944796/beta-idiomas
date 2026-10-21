@@ -11,7 +11,7 @@
     "es": "Vocabulario de tecnología"
   },
   "objective": "Al terminar nombras dispositivos y acciones digitales (descargar, iniciar sesión, cargar la batería) y resuelves problemas técnicos simples.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -245,6 +245,68 @@
       }
     },
     {
+      "id": "en-a2-u09-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have the breakfast at eight.",
+      "answer": [
+        "I have breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo con las comidas.",
+        "incorrect": "Revisa esto: Sin artículo con las comidas."
+      },
+      "review_of": "en-a1-u11-l06-ex08"
+    },
+    {
+      "id": "en-a2-u09-l01-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "dog",
+        ".",
+        "The",
+        "dog",
+        "is",
+        "called",
+        "Max",
+        ".",
+        "I've",
+        "got"
+      ],
+      "answer": [
+        "I've",
+        "got",
+        "a",
+        "dog",
+        ".",
+        "The",
+        "dog",
+        "is",
+        "called",
+        "Max",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primera mención a, segunda mención the.",
+        "incorrect": "Revisa esto: Primera mención a, segunda mención the."
+      },
+      "review_of": "en-a1-u11-l03-ex09"
+    },
+    {
       "id": "en-a2-u09-l01-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -396,6 +458,25 @@
       }
     },
     {
+      "id": "en-a2-u09-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a dog. ___ dog is brown.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      },
+      "review_of": "en-a1-u11-l03-ex02"
+    },
+    {
       "id": "en-a2-u09-l01-ex10",
       "type": "dictation",
       "skill": "listening",
@@ -414,6 +495,25 @@
         "incorrect": "Revisa esto: Dos problemas conectados con and."
       },
       "audio_script_id": "en-a2-u09-l01-ex10-a"
+    },
+    {
+      "id": "en-a2-u09-l01-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can see a film at the ___.",
+      "answer": [
+        "cinema"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las películas se ven en el cinema.",
+        "incorrect": "Revisa esto: Las películas se ven en el cinema."
+      },
+      "review_of": "en-a1-u07-l01-ex04"
     },
     {
       "id": "en-a2-u09-l01-ex11",
@@ -463,6 +563,33 @@
       }
     },
     {
+      "id": "en-a2-u09-l01-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas pastillas puede tomar como máximo en un día?",
+      "options": [
+        "Four",
+        "Six",
+        "Two",
+        "Eight"
+      ],
+      "answer": [
+        "Four"
+      ],
+      "audio_text": "Take one tablet every four hours. Don't take more than four tablets a day.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'not more than four tablets a day'.",
+        "incorrect": "Revisa esto: Dice 'not more than four tablets a day'."
+      },
+      "audio_script_id": "en-a2-u09-l01-rv05-a",
+      "review_of": "en-a2-u06-l02-ex09"
+    },
+    {
       "id": "en-a2-u09-l01-ex13",
       "type": "pronunciation",
       "skill": "speaking",
@@ -493,6 +620,93 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u09-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She work in a shop.",
+      "answer": [
+        "She works in a shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s."
+      },
+      "review_of": "en-a1-u04-l03-ex05"
+    },
+    {
+      "id": "en-a2-u09-l01-ex14",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-vocabulary",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra de tecnología.",
+      "categories": [
+        "Devices",
+        "Parts",
+        "Actions"
+      ],
+      "items": [
+        {
+          "text": "smartphone",
+          "category": "Devices"
+        },
+        {
+          "text": "laptop",
+          "category": "Devices"
+        },
+        {
+          "text": "tablet",
+          "category": "Devices"
+        },
+        {
+          "text": "battery",
+          "category": "Parts"
+        },
+        {
+          "text": "screen",
+          "category": "Parts"
+        },
+        {
+          "text": "keyboard",
+          "category": "Parts"
+        },
+        {
+          "text": "charger",
+          "category": "Parts"
+        },
+        {
+          "text": "download",
+          "category": "Actions"
+        },
+        {
+          "text": "click",
+          "category": "Actions"
+        },
+        {
+          "text": "delete",
+          "category": "Actions"
+        },
+        {
+          "text": "log in",
+          "category": "Actions"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
       }
     }
   ],

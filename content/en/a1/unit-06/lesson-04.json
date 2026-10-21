@@ -11,7 +11,7 @@
     "es": "Colores y adjetivos"
   },
   "objective": "Al terminar nombras colores y describes objetos con adjetivos en el orden correcto.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -195,6 +195,94 @@
       }
     },
     {
+      "id": "en-a1-u06-l04-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "get up",
+          "right": "levantarse"
+        },
+        {
+          "left": "have breakfast",
+          "right": "desayunar"
+        },
+        {
+          "left": "go to work",
+          "right": "ir al trabajo"
+        },
+        {
+          "left": "go to bed",
+          "right": "irse a la cama"
+        },
+        {
+          "left": "watch TV",
+          "right": "mirar la tele"
+        },
+        {
+          "left": "finish work",
+          "right": "terminar de trabajar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa las actividades.",
+        "incorrect": "Revisa esto: Repasa las actividades."
+      },
+      "review_of": "en-a1-u04-l06-ex01"
+    },
+    {
+      "id": "en-a1-u06-l04-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién es Ben?",
+      "options": [
+        "Laura's brother",
+        "Laura's father",
+        "Laura's husband",
+        "Laura's son"
+      ],
+      "answer": [
+        "Laura's brother"
+      ],
+      "audio_text": "This is Ben. He's Laura's brother. He's tall and funny.",
+      "feedback": {
+        "correct": "¡Correcto! Ben es 'Laura's brother'.",
+        "incorrect": "Revisa esto: Ben es 'Laura's brother'."
+      },
+      "audio_script_id": "en-a1-u06-l04-rv02-a",
+      "review_of": "en-a1-u03-l06-ex08"
+    },
+    {
+      "id": "en-a1-u06-l04-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one strawberry → ten ___",
+      "answer": [
+        "strawberries"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ies.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ies."
+      },
+      "review_of": "en-a1-u05-l02-ex02"
+    },
+    {
       "id": "en-a1-u06-l04-ex03",
       "type": "error_correction",
       "skill": "grammar",
@@ -316,6 +404,26 @@
         "incorrect": "Revisa esto: Dice 'a small brown table'."
       },
       "audio_script_id": "en-a1-u06-l04-ex07-a"
+    },
+    {
+      "id": "en-a1-u06-l04-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo no lleva -s.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo no lleva -s."
+      },
+      "review_of": "en-a1-u04-l06-ex05"
     },
     {
       "id": "en-a1-u06-l04-ex08",

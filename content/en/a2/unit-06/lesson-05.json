@@ -11,7 +11,7 @@
     "es": "Carteles y normas: can, can't, allowed to"
   },
   "objective": "Al terminar entiendes carteles y normas y dices lo que se puede, no se puede o está permitido con can, can't y allowed to.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -172,6 +172,25 @@
       }
     },
     {
+      "id": "en-a2-u06-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (go) to the cinema last night.",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de go: went.",
+        "incorrect": "Revisa esto: Pasado irregular de go: went."
+      },
+      "review_of": "en-a2-u01-l03-ex02"
+    },
+    {
       "id": "en-a2-u06-l05-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -246,6 +265,89 @@
         "correct": "¡Correcto! Con allowed se usa to.",
         "incorrect": "Revisa esto: Con allowed se usa to."
       }
+    },
+    {
+      "id": "en-a2-u06-l05-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bread",
+          "right": "pan"
+        },
+        {
+          "left": "cheese",
+          "right": "queso"
+        },
+        {
+          "left": "chicken",
+          "right": "pollo"
+        },
+        {
+          "left": "milk",
+          "right": "leche"
+        },
+        {
+          "left": "juice",
+          "right": "jugo"
+        },
+        {
+          "left": "apple",
+          "right": "manzana"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario.",
+        "incorrect": "Revisa esto: Repasa el vocabulario."
+      },
+      "review_of": "en-a1-u05-l06-ex01"
+    },
+    {
+      "id": "en-a2-u06-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There is two chairs.",
+      "answer": [
+        "There are two chairs."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con plural se usa there are.",
+        "incorrect": "Revisa esto: Con plural se usa there are."
+      },
+      "review_of": "en-a1-u06-l02-ex06"
+    },
+    {
+      "id": "en-a2-u06-l05-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Corta la cebolla y fríela durante cinco minutos.",
+      "answer": [
+        "Chop the onion and fry it for five minutes.",
+        "Slice the onion and fry it for five minutes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos imperativos y for five minutes.",
+        "incorrect": "Revisa esto: Dos imperativos y for five minutes."
+      },
+      "review_of": "en-a2-u04-l05-ex11"
     },
     {
       "id": "en-a2-u06-l05-ex07",
@@ -362,6 +464,26 @@
         "correct": "¡Correcto! Be allowed to + verbo base.",
         "incorrect": "Revisa esto: Be allowed to + verbo base."
       }
+    },
+    {
+      "id": "en-a2-u06-l05-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday I buyed a new bag.",
+      "answer": [
+        "Yesterday I bought a new bag."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Buy es irregular: bought.",
+        "incorrect": "Revisa esto: Buy es irregular: bought."
+      },
+      "review_of": "en-a2-u01-l06-ex06"
     }
   ],
   "summary": {

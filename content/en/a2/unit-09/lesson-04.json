@@ -11,7 +11,7 @@
     "es": "Pronombres posesivos y whose"
   },
   "objective": "Al terminar dices de quién es algo con pronombres posesivos (mine, yours…), 's y whose, y usas a friend of mine.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -218,6 +218,25 @@
       }
     },
     {
+      "id": "en-a2-u09-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "I go to work ___ bus.",
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con transporte se usa by.",
+        "incorrect": "Revisa esto: Con transporte se usa by."
+      },
+      "review_of": "en-a1-u07-l04-ex02"
+    },
+    {
       "id": "en-a2-u09-l04-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -234,6 +253,27 @@
         "correct": "¡Correcto! Pronombre posesivo de you: yours.",
         "incorrect": "Revisa esto: Pronombre posesivo de you: yours."
       }
+    },
+    {
+      "id": "en-a2-u09-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He's an university student.",
+      "answer": [
+        "He's a university student.",
+        "He is a university student."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! University empieza con sonido /j/: a university.",
+        "incorrect": "Revisa esto: University empieza con sonido /j/: a university."
+      },
+      "review_of": "en-a1-u11-l03-ex08"
     },
     {
       "id": "en-a2-u09-l04-ex05",
@@ -258,6 +298,52 @@
         "correct": "¡Correcto! Whose + sustantivo + to be.",
         "incorrect": "Revisa esto: Whose + sustantivo + to be."
       }
+    },
+    {
+      "id": "en-a2-u09-l04-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Carlos is from Mexico. Is my friend.",
+      "answer": [
+        "Carlos is from Mexico. He's my friend.",
+        "Carlos is from Mexico. He is my friend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: He's my friend.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: He's my friend."
+      },
+      "review_of": "en-a1-u02-l02-ex06"
+    },
+    {
+      "id": "en-a2-u09-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3:30. ¿Qué dices?",
+      "options": [
+        "It's half past three.",
+        "It's half to three.",
+        "It's three and half.",
+        "It's three o'clock."
+      ],
+      "answer": [
+        "It's half past three."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Y media = half past.",
+        "incorrect": "Revisa esto: Y media = half past."
+      },
+      "review_of": "en-a1-u04-l02-ex02"
     },
     {
       "id": "en-a2-u09-l04-ex06",
@@ -304,6 +390,27 @@
       }
     },
     {
+      "id": "en-a2-u09-l04-rv05",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "We booked a flight to Rome.",
+      "answer": [
+        "We booked a flight to Rome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'booked a flight'.",
+        "incorrect": "Revisa esto: Escuchaste 'booked a flight'."
+      },
+      "audio_script_id": "en-a2-u09-l04-rv05-a",
+      "review_of": "en-a2-u02-l01-ex07"
+    },
+    {
       "id": "en-a2-u09-l04-ex08",
       "type": "error_correction",
       "skill": "grammar",
@@ -322,6 +429,26 @@
         "correct": "¡Correcto! A friend of + pronombre posesivo.",
         "incorrect": "Revisa esto: A friend of + pronombre posesivo."
       }
+    },
+    {
+      "id": "en-a2-u09-l04-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I didn't went to work.",
+      "answer": [
+        "I didn't go to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de didn't, el verbo va en base: go.",
+        "incorrect": "Revisa esto: Después de didn't, el verbo va en base: go."
+      },
+      "review_of": "en-a2-u01-l04-ex04"
     },
     {
       "id": "en-a2-u09-l04-ex09",

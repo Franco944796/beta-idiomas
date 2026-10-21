@@ -11,7 +11,7 @@
     "es": "Superlativos: the -est y the most"
   },
   "objective": "Al terminar dices cuál es el más grande, el mejor o el más interesante con the + superlativo.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -212,6 +212,42 @@
       }
     },
     {
+      "id": "en-a2-u03-l03-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        ".",
+        "I've",
+        "got"
+      ],
+      "answer": [
+        "I've",
+        "got",
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos objetos unidos con and.",
+        "incorrect": "Revisa esto: Dos objetos unidos con and."
+      },
+      "review_of": "en-a1-u11-l01-ex07"
+    },
+    {
       "id": "en-a2-u03-l03-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -229,6 +265,25 @@
         "correct": "¡Correcto! Altura es corta: tallest, sin most.",
         "incorrect": "Revisa esto: Altura es corta: tallest, sin most."
       }
+    },
+    {
+      "id": "en-a2-u03-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (play) football yesterday.",
+      "answer": [
+        "played"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocal + y: solo se añade -ed.",
+        "incorrect": "Revisa esto: Vocal + y: solo se añade -ed."
+      },
+      "review_of": "en-a2-u01-l02-ex01"
     },
     {
       "id": "en-a2-u03-l03-ex07",
@@ -293,6 +348,25 @@
       }
     },
     {
+      "id": "en-a2-u03-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ (go) to the beach last summer.",
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de go.",
+        "incorrect": "Revisa esto: Pasado irregular de go."
+      },
+      "review_of": "en-a2-u01-l06-ex03"
+    },
+    {
       "id": "en-a2-u03-l03-ex10",
       "type": "listening",
       "skill": "listening",
@@ -336,6 +410,25 @@
         "correct": "¡Correcto! the + biggest + in.",
         "incorrect": "Revisa esto: the + biggest + in."
       }
+    },
+    {
+      "id": "en-a2-u03-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is Anna. Tom is ___ brother.",
+      "answer": [
+        "Anna's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's: Anna's brother.",
+        "incorrect": "Revisa esto: Dueño + 's: Anna's brother."
+      },
+      "review_of": "en-a1-u03-l03-ex01"
     }
   ],
   "summary": {

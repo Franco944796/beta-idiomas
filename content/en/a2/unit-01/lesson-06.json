@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 1"
   },
   "objective": "Al terminar cuentas lo que hiciste en el pasado: dónde estabas, qué hiciste y qué no hiciste, y lo ordenas en una historia.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -85,6 +85,50 @@
         "correct": "¡Correcto! Pasado irregular de go.",
         "incorrect": "Revisa esto: Pasado irregular de go."
       }
+    },
+    {
+      "id": "en-a2-u01-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I use jeans every day.",
+      "answer": [
+        "I wear jeans every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para ropa se usa wear, no use.",
+        "incorrect": "Revisa esto: Para ropa se usa wear, no use."
+      },
+      "review_of": "en-a1-u08-l03-ex05"
+    },
+    {
+      "id": "en-a2-u01-l06-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo una hermana.",
+      "answer": [
+        "I've got a sister.",
+        "I have got a sister."
+      ],
+      "accepted_alternatives": [
+        "I have a sister."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tener = have got.",
+        "incorrect": "Revisa esto: Tener = have got."
+      },
+      "review_of": "en-a1-u03-l04-ex06"
     },
     {
       "id": "en-a2-u01-l06-ex04",
@@ -188,6 +232,26 @@
       "audio_script_id": "en-a2-u01-l06-ex08-a"
     },
     {
+      "id": "en-a2-u01-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ turn left. (no gires)",
+      "answer": [
+        "Don't",
+        "Do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo negativo: Don't + verbo.",
+        "incorrect": "Revisa esto: Imperativo negativo: Don't + verbo."
+      },
+      "review_of": "en-a1-u07-l05-ex01"
+    },
+    {
       "id": "en-a2-u01-l06-ex09",
       "type": "translation",
       "skill": "writing",
@@ -209,6 +273,46 @@
       }
     },
     {
+      "id": "en-a2-u01-l06-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 25,
+      "prompt": "The month after May is ___.",
+      "answer": [
+        "June"
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Mayo → junio: June.",
+        "incorrect": "Revisa esto: Mayo → junio: June."
+      },
+      "review_of": "en-a1-u10-l02-ex02"
+    },
+    {
+      "id": "en-a2-u01-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ dinner now. (cook)",
+      "answer": [
+        "'m cooking",
+        "am cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking: I'm cooking.",
+        "incorrect": "Revisa esto: be + cooking: I'm cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex01"
+    },
+    {
       "id": "en-a2-u01-l06-ex10",
       "type": "writing",
       "skill": "writing",
@@ -219,7 +323,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 5 frases sobre lo que hiciste el fin de semana pasado. Usa al menos un verbo regular, uno irregular y una negativa.",
-      "min_words": 25,
+      "min_words": 23,
       "self_check_es": [
         "¿Usaste un verbo regular (-ed)?",
         "¿Usaste un verbo irregular (went, saw, ate…)?",
@@ -231,6 +335,25 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u01-l06-rv06",
+      "type": "true_false",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 15,
+      "prompt": "'Parents' significa 'parientes'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Parents' = padres; 'parientes' = relatives.",
+        "incorrect": "Revisa esto: 'Parents' = padres; 'parientes' = relatives."
+      },
+      "review_of": "en-a1-u03-l06-ex09"
     },
     {
       "id": "en-a2-u01-l06-ex11",

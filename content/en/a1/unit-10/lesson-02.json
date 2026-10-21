@@ -11,7 +11,7 @@
     "es": "Meses y estaciones"
   },
   "objective": "Al terminar nombras los meses y las estaciones y dices cuándo ocurren con in.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -270,6 +270,25 @@
       }
     },
     {
+      "id": "en-a1-u10-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We've got ___ bread.",
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En frases afirmativas se usa some.",
+        "incorrect": "Revisa esto: En frases afirmativas se usa some."
+      },
+      "review_of": "en-a1-u05-l04-ex01"
+    },
+    {
       "id": "en-a1-u10-l02-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -312,6 +331,25 @@
         "correct": "¡Correcto! Los meses llevan mayúscula.",
         "incorrect": "Revisa esto: Los meses llevan mayúscula."
       }
+    },
+    {
+      "id": "en-a1-u10-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the bananas?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: How much are…?",
+        "incorrect": "Revisa esto: Plural: How much are…?"
+      },
+      "review_of": "en-a1-u08-l02-ex02"
     },
     {
       "id": "en-a1-u10-l02-ex06",
@@ -384,6 +422,25 @@
       "audio_script_id": "en-a1-u10-l02-ex08-a"
     },
     {
+      "id": "en-a1-u10-l02-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ fish. (me encanta)",
+      "answer": [
+        "love"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Love = encantar, amar.",
+        "incorrect": "Revisa esto: Love = encantar, amar."
+      },
+      "review_of": "en-a1-u05-l03-ex01"
+    },
+    {
       "id": "en-a1-u10-l02-ex09",
       "type": "word_order",
       "skill": "grammar",
@@ -435,6 +492,66 @@
         "correct": "¡Correcto! It's + adjetivo + in + estación.",
         "incorrect": "Revisa esto: It's + adjetivo + in + estación."
       }
+    },
+    {
+      "id": "en-a1-u10-l02-rv04",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 15,
+      "prompt": "'No turn left' es una orden correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa Don't: Don't turn left.",
+        "incorrect": "Revisa esto: Se usa Don't: Don't turn left."
+      },
+      "review_of": "en-a1-u07-l06-ex09"
+    },
+    {
+      "id": "en-a1-u10-l02-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi padre es amable.",
+      "answer": [
+        "My father is kind.",
+        "My father's kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Padre = father; amable = kind.",
+        "incorrect": "Revisa esto: Padre = father; amable = kind."
+      },
+      "review_of": "en-a1-u03-l05-ex07"
+    },
+    {
+      "id": "en-a1-u10-l02-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Su madre (de él) es médica.",
+      "answer": [
+        "His mother is a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño masculino = his.",
+        "incorrect": "Revisa esto: Dueño masculino = his."
+      },
+      "review_of": "en-a1-u03-l02-ex08"
     },
     {
       "id": "en-a1-u10-l02-ex11",

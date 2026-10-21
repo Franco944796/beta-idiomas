@@ -1,0 +1,591 @@
+{
+  "id": "en-a1-u11-l03",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A, an or the?",
+    "es": "Los artículos: a, an, the y cuándo usarlos"
+  },
+  "objective": "Al terminar eliges entre a, an, the y ningún artículo según si hablas de algo nuevo, conocido o en general.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Tengo un perro. El perro se llama Max.' En español también cambia el artículo, pero en inglés hay reglas muy claras."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "I've got a dog and a cat.",
+        "es": "Tengo un perro y un gato."
+      },
+      {
+        "speaker": "Lena",
+        "text": "What are their names?",
+        "es": "¿Cómo se llaman?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "The dog is called Max and the cat is called Lily.",
+        "es": "El perro se llama Max y la gata se llama Lily."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Where do they sleep?",
+        "es": "¿Dónde duermen?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "The dog sleeps in the kitchen. The cat sleeps on the sofa. I like animals, but I don't like snakes.",
+        "es": "El perro duerme en la cocina. La gata duerme en el sofá. Me gustan los animales, pero no me gustan las serpientes."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-the",
+        "lemma": "the",
+        "pos": "article",
+        "ipa": "/ðə/",
+        "es": "el, la, los, las (artículo definido)",
+        "example": "The dog is called Max."
+      },
+      {
+        "id": "en-a-an",
+        "lemma": "a / an",
+        "pos": "article",
+        "ipa": "/ə/ · /æn/",
+        "es": "un, una (artículo indefinido)",
+        "example": "I've got a dog."
+      },
+      {
+        "id": "en-dog",
+        "lemma": "dog",
+        "pos": "noun",
+        "ipa": "/dɒɡ/",
+        "es": "perro",
+        "example": "The dog sleeps in the kitchen."
+      },
+      {
+        "id": "en-cat",
+        "lemma": "cat",
+        "pos": "noun",
+        "ipa": "/kæt/",
+        "es": "gato",
+        "example": "The cat sleeps on the sofa."
+      },
+      {
+        "id": "en-sleep",
+        "lemma": "sleep",
+        "pos": "verb",
+        "ipa": "/sliːp/",
+        "es": "dormir",
+        "example": "Where do they sleep?"
+      },
+      {
+        "id": "en-animal",
+        "lemma": "animal",
+        "pos": "noun",
+        "ipa": "/ˈænɪml/",
+        "es": "animal",
+        "example": "I like animals."
+      }
+    ],
+    "audio_script_id": "en-a1-u11-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**a / an → algo nuevo o uno cualquiera (singular contable)**\n*I've got **a** dog.* · *She's **an** engineer.* (an + sonido vocálico: *an hour, a university*)\n\n**the → algo ya mencionado, conocido por todos o único**\n*I've got a dog. **The** dog is called Max.* · ***The** sun is hot.* · *Open **the** door, please.*\n\n**Sin artículo (∅)**\n\n- **Plurales y incontables en general:** *I like animals. · I like music. · I love pizza.*\n- **Comidas:** *I have breakfast at eight.* · **Rutinas:** *I go to school / work / bed / home. · I'm at home.*\n- **Nombres de personas, ciudades y países:** *I live in London.* (con algunas excepciones: *the UK, the USA*).\n\n**Resumen:** primera vez → **a / an**; segunda vez o específico → **the**; en general → **nada**.\n\n**Pronunciación de *the*:** /ðə/ delante de sonido consonante (*the book*) y /ðiː/ delante de sonido vocálico (*the apple*).\n\nOjo: no se dice *I'm teacher* (falta el artículo con profesiones: *I'm a teacher*) ni *the breakfast* para la comida habitual.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm teacher.",
+        "right": "I'm a teacher.",
+        "note": "Con profesiones se necesita a / an."
+      },
+      {
+        "wrong": "I have the breakfast at eight.",
+        "right": "I have breakfast at eight.",
+        "note": "Sin artículo con las comidas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got ___ umbrella. (un)",
+      "answer": [
+        "an"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Umbrella empieza con sonido vocálico: an.",
+        "incorrect": "Revisa esto: Umbrella empieza con sonido vocálico: an."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a dog. ___ dog is brown.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "Open ___ door, please. (la puerta que ya conocemos)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Algo específico y conocido: the.",
+        "incorrect": "Revisa esto: Algo específico y conocido: the."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Hello",
+          "right": "Hola"
+        },
+        {
+          "left": "Goodbye",
+          "right": "Adiós"
+        },
+        {
+          "left": "Nice to meet you",
+          "right": "Mucho gusto"
+        },
+        {
+          "left": "What's your name?",
+          "right": "¿Cómo te llamas?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las frases básicas de presentación.",
+        "incorrect": "Revisa esto: Son las frases básicas de presentación."
+      },
+      "review_of": "en-a1-u01-l01-ex04"
+    },
+    {
+      "id": "en-a1-u11-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 20,
+      "prompt": "I like ___ music. (en general)",
+      "options": [
+        "(no article)",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": [
+        "(no article)"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hablando en general no se usa artículo.",
+        "incorrect": "Revisa esto: Hablando en general no se usa artículo."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ sun is very hot today.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "(no article)"
+      ],
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay un solo sol: the.",
+        "incorrect": "Revisa esto: Hay un solo sol: the."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "articles-the",
+        "pronunciation"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pronuncia 'the' en 'the apple'?",
+      "options": [
+        "/ðiː/",
+        "/ðə/",
+        "/ðɪs/",
+        "/ðeə/"
+      ],
+      "answer": [
+        "/ðiː/"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delante de vocal: /ðiː/.",
+        "incorrect": "Revisa esto: Delante de vocal: /ðiː/."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "swim",
+        "?",
+        "Can",
+        "you"
+      ],
+      "answer": [
+        "Can",
+        "you",
+        "swim",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Can + sujeto + verbo base."
+      },
+      "review_of": "en-a1-u09-l02-ex03"
+    },
+    {
+      "id": "en-a1-u11-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you help me, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir un favor: Can you…?",
+        "incorrect": "Revisa esto: Pedir un favor: Can you…?"
+      },
+      "review_of": "en-a1-u09-l03-ex04"
+    },
+    {
+      "id": "en-a1-u11-l03-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one sandwich → two ___",
+      "answer": [
+        "sandwiches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      },
+      "review_of": "en-a1-u05-l02-ex03"
+    },
+    {
+      "id": "en-a1-u11-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have the breakfast at eight.",
+      "answer": [
+        "I have breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas habituales no se usa artículo.",
+        "incorrect": "Revisa esto: Con las comidas habituales no se usa artículo."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He's an university student.",
+      "answer": [
+        "He's a university student.",
+        "He is a university student."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! University empieza con sonido /j/: a university.",
+        "incorrect": "Revisa esto: University empieza con sonido /j/: a university."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 20,
+      "prompt": "Would you like ___ tea? (ofrecimiento)",
+      "options": [
+        "some",
+        "any",
+        "an",
+        "a"
+      ],
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En ofrecimientos se usa some.",
+        "incorrect": "Revisa esto: En ofrecimientos se usa some."
+      },
+      "review_of": "en-a1-u05-l04-ex04"
+    },
+    {
+      "id": "en-a1-u11-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "dog",
+        ".",
+        "The",
+        "dog",
+        "is",
+        "called",
+        "Max",
+        ".",
+        "I've",
+        "got"
+      ],
+      "answer": [
+        "I've",
+        "got",
+        "a",
+        "dog",
+        ".",
+        "The",
+        "dog",
+        "is",
+        "called",
+        "Max",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primera mención a, segunda mención the.",
+        "incorrect": "Revisa esto: Primera mención a, segunda mención the."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde duerme la gata?",
+      "options": [
+        "On the sofa",
+        "In the kitchen",
+        "In the garden",
+        "On the bed"
+      ],
+      "answer": [
+        "On the sofa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Sam dice 'The cat sleeps on the sofa'.",
+        "incorrect": "Revisa esto: Sam dice 'The cat sleeps on the sofa'."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es el coche?",
+      "options": [
+        "Old",
+        "New",
+        "Big",
+        "Red"
+      ],
+      "answer": [
+        "Old"
+      ],
+      "audio_text": "I've got a car. The car is old, but I love it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The car is old'.",
+        "incorrect": "Revisa esto: Dice 'The car is old'."
+      },
+      "audio_script_id": "en-a1-u11-l03-ex11-a"
+    },
+    {
+      "id": "en-a1-u11-l03-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo un perro. El perro se llama Max.",
+      "answer": [
+        "I've got a dog. The dog is called Max.",
+        "I have a dog. The dog is called Max."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A en la primera mención, the en la segunda.",
+        "incorrect": "Revisa esto: A en la primera mención, the en la segunda."
+      }
+    },
+    {
+      "id": "en-a1-u11-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from France. She's ___.",
+      "options": [
+        "French",
+        "France",
+        "Fransh",
+        "Frencher"
+      ],
+      "answer": [
+        "French"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: France. Nacionalidad: French.",
+        "incorrect": "Revisa esto: País: France. Nacionalidad: French."
+      },
+      "review_of": "en-a1-u02-l06-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "a dog · an umbrella (primera vez)",
+      "the dog (ya mencionado / único)",
+      "I like music. · I have breakfast. (sin artículo)",
+      "the apple /ðiː/ · the book /ðə/"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-the"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-an"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dog"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sleep"
+    },
+    {
+      "type": "vocab",
+      "id": "en-animal"
+    },
+    {
+      "type": "grammar",
+      "id": "en-articles-the"
+    }
+  ]
+}

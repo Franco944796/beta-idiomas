@@ -1,0 +1,651 @@
+{
+  "id": "en-a2-u12-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Planning a journey",
+    "es": "Planear un trayecto y comparar rutas"
+  },
+  "objective": "Al terminar planeas un trayecto, comparas rutas (más rápida, más barata) y decides cómo llegar a un lugar de la ciudad.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Autobús, metro o a pie? Planear un trayecto significa comparar tiempo, precio y comodidad."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mia",
+        "text": "What's the best way to get to the airport?",
+        "es": "¿Cuál es la mejor forma de llegar al aeropuerto?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "By train. It takes forty minutes and costs £12.",
+        "es": "En tren. Tarda cuarenta minutos y cuesta £12."
+      },
+      {
+        "speaker": "Mia",
+        "text": "And by bus?",
+        "es": "¿Y en autobús?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "It's cheaper, only £5, but it takes more than an hour and a half.",
+        "es": "Es más barato, solo £5, pero tarda más de una hora y media."
+      },
+      {
+        "speaker": "Mia",
+        "text": "Our flight leaves at nine, so we'd better take the train. We shouldn't be late.",
+        "es": "Nuestro vuelo sale a las nueve, así que es mejor que tomemos el tren. No deberíamos llegar tarde."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Agreed. And let's leave early: it might be busy at rush hour.",
+        "es": "De acuerdo. Y salgamos temprano: puede haber mucha gente en la hora pico."
+      },
+      {
+        "speaker": "Mia",
+        "text": "OK. I'll check the timetable and book the tickets online.",
+        "es": "Bien. Yo reviso el horario y reservo los billetes en línea."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-the-best-way-to",
+        "lemma": "the best way to",
+        "pos": "phrase",
+        "ipa": "/ðə best weɪ tuː/",
+        "es": "la mejor forma de",
+        "example": "What's the best way to get there?"
+      },
+      {
+        "id": "en-quicker",
+        "lemma": "quicker",
+        "pos": "adj",
+        "ipa": "/ˈkwɪkə/",
+        "es": "más rápido/a",
+        "example": "The train is quicker than the bus."
+      },
+      {
+        "id": "en-cheaper",
+        "lemma": "cheaper",
+        "pos": "adj",
+        "ipa": "/ˈtʃiːpə/",
+        "es": "más barato/a",
+        "example": "The bus is cheaper."
+      },
+      {
+        "id": "en-rush-hour",
+        "lemma": "rush hour",
+        "pos": "noun",
+        "ipa": "/rʌʃ ˈaʊə/",
+        "es": "hora pico",
+        "example": "It's very busy at rush hour."
+      },
+      {
+        "id": "en-we-d-better",
+        "lemma": "we'd better",
+        "pos": "phrase",
+        "ipa": "/wiːd ˈbetə/",
+        "es": "más vale que, es mejor que",
+        "example": "We'd better leave early."
+      },
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "verb",
+        "ipa": "/bʊk/",
+        "es": "reservar",
+        "example": "I'll book the tickets online."
+      },
+      {
+        "id": "en-agreed",
+        "lemma": "agreed",
+        "pos": "adj",
+        "ipa": "/əˈɡriːd/",
+        "es": "de acuerdo",
+        "example": "Agreed. Let's go by train."
+      }
+    ],
+    "audio_script_id": "en-a2-u12-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Planear y comparar un trayecto**\n\n- **Preguntar:** *What's the best way to get to …? · How long does it take by train / bus / on foot? · How much is it?*\n- **Describir:** *It takes forty minutes. · It costs £12. · It's quicker / cheaper / more comfortable than …*\n- **Comparar:** *The train is quicker than the bus, but it's more expensive.* (comparativos de la unidad 3)\n- **Decidir:** *Let's take the train. · I think we should leave early. · We'd better take a taxi.*\n\n**had better / 'd better + verbo base** = 'más vale que…' (recomendación fuerte): *We'd better leave now.* Negativo: *We'd better not be late.*\n\n**Posibilidad:** *It might be busy at rush hour.* (might + verbo base)\n\n**Reservar:** *I'll book the tickets online.* (decisión en el momento: will)\n\n**Medio de transporte:** *by train / bus / taxi / bike* · *on foot*.\n\nOjo: *take* + tiempo (*It takes forty minutes*) y *cost* + dinero (*It costs £12*) usan **it** como sujeto.\n\nPronunciación: *quicker* /ˈkwɪkə/ · *cheaper* /ˈtʃiːpə/ · *agreed* /əˈɡriːd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It's more quick.",
+        "right": "It's quicker.",
+        "note": "Adjetivo corto: -er."
+      },
+      {
+        "wrong": "We'd better to go.",
+        "right": "We'd better go.",
+        "note": "'d better + verbo base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "The train is ___ (quick) than the bus.",
+      "answer": [
+        "quicker"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: quicker than.",
+        "incorrect": "Revisa esto: Adjetivo corto: quicker than."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "It ___ forty minutes to get to the airport. (tarda)",
+      "answer": [
+        "takes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It takes + tiempo.",
+        "incorrect": "Revisa esto: It takes + tiempo."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "A taxi is ___ expensive than the bus. (más)",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 20,
+      "prompt": "Es tarde. Dices que es mejor salir ya:",
+      "options": [
+        "We'd better leave now.",
+        "We better to leave now.",
+        "We had better leaving now.",
+        "We'd better leaving."
+      ],
+      "answer": [
+        "We'd better leave now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'd better + verbo base.",
+        "incorrect": "Revisa esto: 'd better + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna ___ wearing a red dress in the photo.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora, con she: is wearing.",
+        "incorrect": "Revisa esto: Ahora, con she: is wearing."
+      },
+      "review_of": "en-a2-u11-l03-ex01"
+    },
+    {
+      "id": "en-a2-u12-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que quizás haya mucha gente:",
+      "options": [
+        "It might be busy at rush hour.",
+        "It might to be busy.",
+        "It maybe is busy.",
+        "It will might busy."
+      ],
+      "answer": [
+        "It might be busy at rush hour."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo base.",
+        "incorrect": "Revisa esto: Might + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "We are students. ___ teacher is Anna.",
+      "answer": [
+        "Our"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'we' el posesivo es 'our'.",
+        "incorrect": "Revisa esto: Para 'we' el posesivo es 'our'."
+      },
+      "review_of": "en-a1-u03-l02-ex03"
+    },
+    {
+      "id": "en-a2-u12-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la mejor pregunta:",
+      "options": [
+        "How long does it take by train?",
+        "How many time takes train?",
+        "How long it takes by the train?",
+        "How much long by train?"
+      ],
+      "answer": [
+        "How long does it take by train?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long does it take…?",
+        "incorrect": "Revisa esto: How long does it take…?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's more quick by train.",
+      "answer": [
+        "It's quicker by train."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quick es corto: quicker.",
+        "incorrect": "Revisa esto: Quick es corto: quicker."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 25,
+      "prompt": "We decided ___ (go) by train.",
+      "answer": [
+        "to go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decide + to + verbo.",
+        "incorrect": "Revisa esto: Decide + to + verbo."
+      },
+      "review_of": "en-a2-u10-l06-ex04"
+    },
+    {
+      "id": "en-a2-u12-l05-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We'd better to take a taxi.",
+      "answer": [
+        "We'd better take a taxi."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'd better va con verbo base, sin to.",
+        "incorrect": "Revisa esto: 'd better va con verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "best",
+        "way",
+        "to",
+        "get",
+        "to",
+        "the",
+        "airport",
+        "?",
+        "What's",
+        "the"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "best",
+        "way",
+        "to",
+        "get",
+        "to",
+        "the",
+        "airport",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con the best way to + verbo.",
+        "incorrect": "Revisa esto: Pregunta con the best way to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué eligen el tren?",
+      "options": [
+        "Their flight leaves early and they shouldn't be late",
+        "It's cheaper",
+        "The bus is broken",
+        "They don't like buses"
+      ],
+      "answer": [
+        "Their flight leaves early and they shouldn't be late"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Mia dice 'Our flight leaves at nine, so we'd better take the train'.",
+        "incorrect": "Revisa esto: Mia dice 'Our flight leaves at nine, so we'd better take the train'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué deciden?",
+      "options": [
+        "To take the train",
+        "To take the bus",
+        "To walk",
+        "To take a taxi"
+      ],
+      "answer": [
+        "To take the train"
+      ],
+      "audio_text": "The bus is cheaper than the train, but it's slower and more crowded. I think we should take the train because we're in a hurry.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'we should take the train'.",
+        "incorrect": "Revisa esto: Dice 'we should take the train'."
+      },
+      "audio_script_id": "en-a2-u12-l05-ex11-a"
+    },
+    {
+      "id": "en-a2-u12-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There are two hundreds people.",
+      "answer": [
+        "There are two hundred people."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hundred no lleva -s después de un número.",
+        "incorrect": "Revisa esto: Hundred no lleva -s después de un número."
+      },
+      "review_of": "en-a1-u08-l01-ex04"
+    },
+    {
+      "id": "en-a2-u12-l05-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Disfruto cocinando y quiero aprender a tocar la guitarra.",
+      "answer": [
+        "I enjoy cooking and I want to learn to play the guitar.",
+        "I enjoy cooking and I want to learn how to play the guitar."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing; want + to + verbo.",
+        "incorrect": "Revisa esto: Enjoy + -ing; want + to + verbo."
+      },
+      "review_of": "en-a2-u10-l02-ex13"
+    },
+    {
+      "id": "en-a2-u12-l05-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 180,
+      "prompt": "Planea cómo llegar desde tu casa a un lugar importante (aeropuerto, estación, trabajo, universidad). Compara dos formas de ir y decide cuál elegirías.",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Comparaste dos formas de llegar?",
+        "¿Usaste comparativos con than?",
+        "¿Diste tiempo (takes) y precio (costs)?",
+        "¿Terminaste con tu decisión y una razón?"
+      ],
+      "model_answer": "To get to the airport, I can go by bus or by train. The bus is cheaper, but it's slower than the train. The train takes forty minutes and costs £12. I think I should take the train because I don't want to be late.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Planeas con un amigo cómo llegar a un concierto.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What's the best way to get to the stadium?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I think we should go by underground. It's quicker than the bus.",
+            "I think we go by underground. It's more quick that bus.",
+            "We should to go by underground."
+          ],
+          "best": 0,
+          "why_es": "should + comparativo con than."
+        },
+        {
+          "speaker": "Friend",
+          "text": "OK. And what time should we leave?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "We'd better leave at six. It might be busy at rush hour.",
+            "We better leaving at six. It might to be busy.",
+            "Leave six. Busy maybe."
+          ],
+          "best": 0,
+          "why_es": "'d better + might."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u12-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The keys are in front the door.",
+      "answer": [
+        "The keys are in front of the door."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In front of lleva of.",
+        "incorrect": "Revisa esto: In front of lleva of."
+      },
+      "review_of": "en-a1-u11-l04-ex07"
+    },
+    {
+      "id": "en-a2-u12-l05-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es obligatorio?",
+      "options": [
+        "Not being late",
+        "Bringing food",
+        "Staying at home",
+        "Paying at the door"
+      ],
+      "answer": [
+        "Not being late"
+      ],
+      "audio_text": "You don't have to bring food, but you mustn't be late. The film starts at eight.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'you mustn't be late'.",
+        "incorrect": "Revisa esto: Dice 'you mustn't be late'."
+      },
+      "audio_script_id": "en-a2-u12-l05-rv07-a",
+      "review_of": "en-a2-u06-l04-ex10"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What's the best way to get to …?",
+      "It takes … and costs …",
+      "quicker · cheaper · more comfortable than",
+      "We'd better leave early. · It might be busy."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-the-best-way-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-quicker"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cheaper"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rush-hour"
+    },
+    {
+      "type": "vocab",
+      "id": "en-we-d-better"
+    },
+    {
+      "type": "vocab",
+      "id": "en-book"
+    },
+    {
+      "type": "vocab",
+      "id": "en-agreed"
+    },
+    {
+      "type": "grammar",
+      "id": "en-planning-journey"
+    }
+  ]
+}

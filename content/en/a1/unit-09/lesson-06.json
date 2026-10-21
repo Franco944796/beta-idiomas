@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 9"
   },
   "objective": "Al terminar demuestras que puedes hablar de pasatiempos, habilidades, pedidos, acciones del momento e invitaciones.",
-  "est_minutes": 20,
+  "est_minutes": 24,
   "skills": [
     "grammar",
     "listening",
@@ -93,6 +93,48 @@
       }
     },
     {
+      "id": "en-a1-u09-l06-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bank",
+          "right": "banco"
+        },
+        {
+          "left": "library",
+          "right": "biblioteca"
+        },
+        {
+          "left": "station",
+          "right": "estación"
+        },
+        {
+          "left": "park",
+          "right": "parque"
+        },
+        {
+          "left": "school",
+          "right": "escuela"
+        },
+        {
+          "left": "post office",
+          "right": "correo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa los lugares.",
+        "incorrect": "Revisa esto: Repasa los lugares."
+      },
+      "review_of": "en-a1-u07-l06-ex01"
+    },
+    {
       "id": "en-a1-u09-l06-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -167,6 +209,26 @@
       }
     },
     {
+      "id": "en-a1-u09-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ work on Saturdays. (negativa)",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she la negativa es doesn't.",
+        "incorrect": "Revisa esto: Con she la negativa es doesn't."
+      },
+      "review_of": "en-a1-u04-l04-ex02"
+    },
+    {
       "id": "en-a1-u09-l06-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -224,6 +286,33 @@
       }
     },
     {
+      "id": "en-a1-u09-l06-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el teléfono?",
+      "options": [
+        "On the table",
+        "Under the table",
+        "In the bag",
+        "Behind the lamp"
+      ],
+      "answer": [
+        "On the table"
+      ],
+      "audio_text": "The phone is on the table, next to the lamp.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on the table'.",
+        "incorrect": "Revisa esto: Dice 'on the table'."
+      },
+      "audio_script_id": "en-a1-u09-l06-rv03-a",
+      "review_of": "en-a1-u06-l03-ex08"
+    },
+    {
       "id": "en-a1-u09-l06-ex09",
       "type": "listening",
       "skill": "listening",
@@ -261,7 +350,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 4 frases: qué haces en tu tiempo libre, qué puedes hacer y qué estás haciendo ahora.",
-      "min_words": 18,
+      "min_words": 12,
       "self_check_es": [
         "¿Usaste un verbo de pasatiempo (play, listen to…)?",
         "¿Usaste can / can't + verbo base?",
@@ -272,6 +361,31 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a1-u09-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'eighty'?",
+      "options": [
+        "80",
+        "18",
+        "8",
+        "88"
+      ],
+      "answer": [
+        "80"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eighty = 80; eighteen = 18.",
+        "incorrect": "Revisa esto: Eighty = 80; eighteen = 18."
+      },
+      "review_of": "en-a1-u08-l01-ex02"
     },
     {
       "id": "en-a1-u09-l06-ex11",
@@ -317,6 +431,81 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a1-u09-l06-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Pan y queso.",
+      "answer": [
+        "Bread and cheese."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bread = pan; cheese = queso.",
+        "incorrect": "Revisa esto: Bread = pan; cheese = queso."
+      },
+      "review_of": "en-a1-u05-l01-ex07"
+    },
+    {
+      "id": "en-a1-u09-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 20,
+      "prompt": "£2.50 se dice…",
+      "options": [
+        "two pounds fifty",
+        "two fifty pounds hundred",
+        "two and fifty pound",
+        "two point fifty pounds"
+      ],
+      "answer": [
+        "two pounds fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Libras + centavos: two pounds fifty.",
+        "incorrect": "Revisa esto: Libras + centavos: two pounds fifty."
+      },
+      "review_of": "en-a1-u08-l02-ex03"
+    },
+    {
+      "id": "en-a1-u09-l06-rv07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con el pronombre correcto.",
+      "pairs": [
+        {
+          "left": "Tom",
+          "right": "he"
+        },
+        {
+          "left": "my sister",
+          "right": "she"
+        },
+        {
+          "left": "a phone",
+          "right": "it"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! he = hombre, she = mujer, it = cosa.",
+        "incorrect": "Revisa esto: he = hombre, she = mujer, it = cosa."
+      },
+      "review_of": "en-a1-u02-l02-ex07"
     }
   ],
   "summary": {

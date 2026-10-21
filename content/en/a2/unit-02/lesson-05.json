@@ -11,7 +11,7 @@
     "es": "Escribir una postal o un correo sobre un viaje"
   },
   "objective": "Al terminar escribes una postal o un correo informal contando qué hiciste, cómo estás y qué harás.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -200,6 +200,36 @@
       }
     },
     {
+      "id": "en-a2-u02-l05-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "keys",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "my",
+        "keys",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + are + sujeto plural.",
+        "incorrect": "Revisa esto: Where + are + sujeto plural."
+      },
+      "review_of": "en-a1-u11-l04-ex08"
+    },
+    {
       "id": "en-a2-u02-l05-ex05",
       "type": "fill_blank",
       "skill": "grammar",
@@ -234,6 +264,31 @@
         "correct": "¡Correcto! Describir cómo es algo ahora: presente con are.",
         "incorrect": "Revisa esto: Describir cómo es algo ahora: presente con are."
       }
+    },
+    {
+      "id": "en-a2-u02-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde: Good afternoon.",
+        "incorrect": "Revisa esto: Por la tarde: Good afternoon."
+      },
+      "review_of": "en-a1-u10-l06-ex01"
     },
     {
       "id": "en-a2-u02-l05-ex07",
@@ -284,6 +339,26 @@
       }
     },
     {
+      "id": "en-a2-u02-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Me like chicken.",
+      "answer": [
+        "I like chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto es 'I', no 'me'.",
+        "incorrect": "Revisa esto: El sujeto es 'I', no 'me'."
+      },
+      "review_of": "en-a1-u05-l03-ex04"
+    },
+    {
       "id": "en-a2-u02-l05-ex09",
       "type": "listening",
       "skill": "listening",
@@ -310,6 +385,27 @@
       "audio_script_id": "en-a2-u02-l05-ex09-a"
     },
     {
+      "id": "en-a2-u02-l05-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Dónde están mis llaves? Están en tu bolsillo.",
+      "answer": [
+        "Where are my keys? They're in your pocket.",
+        "Where are my keys? They are in your pocket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where are + They're in…",
+        "incorrect": "Revisa esto: Where are + They're in…"
+      },
+      "review_of": "en-a1-u11-l04-ex11"
+    },
+    {
       "id": "en-a2-u02-l05-ex10",
       "type": "writing",
       "skill": "writing",
@@ -320,7 +416,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe una postal a un amigo desde un lugar que visitaste (real o imaginario). Cuenta qué hiciste ayer, cómo es el lugar y qué harás mañana.",
-      "min_words": 35,
+      "min_words": 31,
       "self_check_es": [
         "¿Empezaste con un saludo y 'Greetings from…'?",
         "¿Usaste pasado para lo que hiciste?",

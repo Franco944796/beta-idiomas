@@ -11,7 +11,7 @@
     "es": "Adverbios de modo"
   },
   "objective": "Al terminar describes cómo se hacen las cosas con adverbios de modo (slowly, carefully, well, hard) y los distingues de los adjetivos.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -188,6 +188,65 @@
       }
     },
     {
+      "id": "en-a2-u10-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Plural de 'child':",
+      "options": [
+        "children",
+        "childs",
+        "childrens",
+        "childes"
+      ],
+      "answer": [
+        "children"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Child es irregular: children.",
+        "incorrect": "Revisa esto: Child es irregular: children."
+      },
+      "review_of": "en-a1-u05-l02-ex04"
+    },
+    {
+      "id": "en-a2-u10-l01-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada letra con su sonido.",
+      "pairs": [
+        {
+          "left": "G",
+          "right": "/dʒiː/"
+        },
+        {
+          "left": "J",
+          "right": "/dʒeɪ/"
+        },
+        {
+          "left": "E",
+          "right": "/iː/"
+        },
+        {
+          "left": "I",
+          "right": "/aɪ/"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! G y J, y también E e I, se confunden mucho: practícalas juntas.",
+        "incorrect": "Revisa esto: G y J, y también E e I, se confunden mucho: practícalas juntas."
+      },
+      "review_of": "en-a1-u01-l02-ex04"
+    },
+    {
       "id": "en-a2-u10-l01-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -323,6 +382,26 @@
       }
     },
     {
+      "id": "en-a2-u10-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ this? It's a clock.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: What's this?",
+        "incorrect": "Revisa esto: Singular: What's this?"
+      },
+      "review_of": "en-a1-u11-l02-ex01"
+    },
+    {
       "id": "en-a2-u10-l01-ex10",
       "type": "multiple_choice",
       "skill": "reading",
@@ -374,6 +453,58 @@
       "audio_script_id": "en-a2-u10-l01-ex11-a"
     },
     {
+      "id": "en-a2-u10-l01-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Gire a la derecha.",
+      "answer": [
+        "Turn right."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Gire = turn.",
+        "incorrect": "Revisa esto: Gire = turn."
+      },
+      "review_of": "en-a1-u07-l03-ex08"
+    },
+    {
+      "id": "en-a2-u10-l01-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "play",
+        "football",
+        "yesterday",
+        "?",
+        "Did",
+        "you"
+      ],
+      "answer": [
+        "Did",
+        "you",
+        "play",
+        "football",
+        "yesterday",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Did + sujeto + verbo base + resto.",
+        "incorrect": "Revisa esto: Did + sujeto + verbo base + resto."
+      },
+      "review_of": "en-a2-u01-l04-ex06"
+    },
+    {
       "id": "en-a2-u10-l01-ex12",
       "type": "translation",
       "skill": "writing",
@@ -392,6 +523,69 @@
         "correct": "¡Correcto! Well y hard.",
         "incorrect": "Revisa esto: Well y hard."
       }
+    },
+    {
+      "id": "en-a2-u10-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "She didn't ___ the news.",
+      "options": [
+        "watch",
+        "watched",
+        "watches",
+        "watching"
+      ],
+      "answer": [
+        "watch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de didn't va el verbo base.",
+        "incorrect": "Revisa esto: Después de didn't va el verbo base."
+      },
+      "review_of": "en-a2-u01-l04-ex03"
+    },
+    {
+      "id": "en-a2-u10-l01-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "people",
+        "are",
+        "coming",
+        "to",
+        "the",
+        "party",
+        "?",
+        "How",
+        "many"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "people",
+        "are",
+        "coming",
+        "to",
+        "the",
+        "party",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many + sustantivo contable plural.",
+        "incorrect": "Revisa esto: How many + sustantivo contable plural."
+      },
+      "review_of": "en-a2-u04-l02-ex09"
     },
     {
       "id": "en-a2-u10-l01-ex13",

@@ -11,7 +11,7 @@
     "es": "Describe tu casa"
   },
   "objective": "Al terminar describes dónde vives y cómo es tu casa en 4 o 5 frases.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -165,6 +165,31 @@
       }
     },
     {
+      "id": "en-a1-u06-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Plural de 'child':",
+      "options": [
+        "children",
+        "childs",
+        "childrens",
+        "childes"
+      ],
+      "answer": [
+        "children"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Child es irregular: children.",
+        "incorrect": "Revisa esto: Child es irregular: children."
+      },
+      "review_of": "en-a1-u05-l02-ex04"
+    },
+    {
       "id": "en-a1-u06-l05-ex06",
       "type": "word_order",
       "skill": "grammar",
@@ -215,6 +240,45 @@
       }
     },
     {
+      "id": "en-a1-u06-l05-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one sandwich → two ___",
+      "answer": [
+        "sandwiches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      },
+      "review_of": "en-a1-u05-l02-ex03"
+    },
+    {
+      "id": "en-a1-u06-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ work on Sundays. (negativa)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I la negativa es don't.",
+        "incorrect": "Revisa esto: Con I la negativa es don't."
+      },
+      "review_of": "en-a1-u04-l06-ex04"
+    },
+    {
       "id": "en-a1-u06-l05-ex08",
       "type": "listening",
       "skill": "listening",
@@ -239,6 +303,25 @@
         "incorrect": "Revisa esto: Dice 'three bedrooms and a garden'."
       },
       "audio_script_id": "en-a1-u06-l05-ex08-a"
+    },
+    {
+      "id": "en-a1-u06-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are English. ___ are teachers.",
+      "answer": [
+        "They"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos personas ajenas a la conversación: they.",
+        "incorrect": "Revisa esto: Dos personas ajenas a la conversación: they."
+      },
+      "review_of": "en-a1-u02-l03-ex01"
     },
     {
       "id": "en-a1-u06-l05-ex09",

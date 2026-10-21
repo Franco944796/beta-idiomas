@@ -11,7 +11,7 @@
     "es": "Much, many, a lot of, a few, a little"
   },
   "objective": "Al terminar preguntas y hablas de cantidades con how much / how many, a lot of, a few y a little.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -191,6 +191,70 @@
       }
     },
     {
+      "id": "en-a2-u04-l02-rv01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra de viaje.",
+      "categories": [
+        "Documents and bags",
+        "Places",
+        "Actions"
+      ],
+      "items": [
+        {
+          "text": "passport",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "ticket",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "suitcase",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "map",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "airport",
+          "category": "Places"
+        },
+        {
+          "text": "hotel",
+          "category": "Places"
+        },
+        {
+          "text": "beach",
+          "category": "Places"
+        },
+        {
+          "text": "book",
+          "category": "Actions"
+        },
+        {
+          "text": "pack",
+          "category": "Actions"
+        },
+        {
+          "text": "sightseeing",
+          "category": "Actions"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar vocabulario de viaje por categorías.",
+        "incorrect": "Revisa esto: Clasificar vocabulario de viaje por categorías."
+      },
+      "review_of": "en-a2-u02-l01-ex11"
+    },
+    {
       "id": "en-a2-u04-l02-ex04",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -239,6 +303,46 @@
       }
     },
     {
+      "id": "en-a2-u04-l02-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Es la ciudad más grande del país.",
+      "answer": [
+        "It's the biggest city in the country."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! the + biggest + in.",
+        "incorrect": "Revisa esto: the + biggest + in."
+      },
+      "review_of": "en-a2-u03-l03-ex11"
+    },
+    {
+      "id": "en-a2-u04-l02-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday we visit the castle.",
+      "answer": [
+        "Yesterday we visited the castle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con yesterday: pasado simple.",
+        "incorrect": "Revisa esto: Con yesterday: pasado simple."
+      },
+      "review_of": "en-a2-u02-l05-ex07"
+    },
+    {
       "id": "en-a2-u04-l02-ex06",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -263,6 +367,27 @@
       }
     },
     {
+      "id": "en-a2-u04-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I cooking dinner.",
+      "answer": [
+        "I'm cooking dinner.",
+        "I am cooking dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: I'm cooking.",
+        "incorrect": "Revisa esto: Falta el verbo to be: I'm cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex05"
+    },
+    {
       "id": "en-a2-u04-l02-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -280,6 +405,27 @@
         "correct": "¡Correcto! Money es incontable: how much.",
         "incorrect": "Revisa esto: Money es incontable: how much."
       }
+    },
+    {
+      "id": "en-a2-u04-l02-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are going to Brighton the next weekend.",
+      "answer": [
+        "They are going to Brighton next weekend.",
+        "They're going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      },
+      "review_of": "en-a1-u10-l05-ex05"
     },
     {
       "id": "en-a2-u04-l02-ex08",

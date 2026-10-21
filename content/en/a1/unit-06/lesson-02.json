@@ -11,7 +11,7 @@
     "es": "There is / There are"
   },
   "objective": "Al terminar dices qué hay (y qué no hay) en un lugar con there is y there are.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -233,6 +233,36 @@
       }
     },
     {
+      "id": "en-a1-u06-l02-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con el pronombre correcto.",
+      "pairs": [
+        {
+          "left": "Tom",
+          "right": "he"
+        },
+        {
+          "left": "my sister",
+          "right": "she"
+        },
+        {
+          "left": "a phone",
+          "right": "it"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! he = hombre, she = mujer, it = cosa.",
+        "incorrect": "Revisa esto: he = hombre, she = mujer, it = cosa."
+      },
+      "review_of": "en-a1-u02-l02-ex07"
+    },
+    {
       "id": "en-a1-u06-l02-ex08",
       "type": "multiple_choice",
       "skill": "reading",
@@ -256,6 +286,93 @@
         "correct": "¡Correcto! El texto dice 'There are two bedrooms'.",
         "incorrect": "Revisa esto: El texto dice 'There are two bedrooms'."
       }
+    },
+    {
+      "id": "en-a1-u06-l02-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "it",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta básica de la hora.",
+        "incorrect": "Revisa esto: Pregunta básica de la hora."
+      },
+      "review_of": "en-a1-u04-l02-ex07"
+    },
+    {
+      "id": "en-a1-u06-l02-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "some",
+        "water",
+        ",",
+        "please",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "have",
+        "some",
+        "water",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir con Can I have…?",
+        "incorrect": "Revisa esto: Pedir con Can I have…?"
+      },
+      "review_of": "en-a1-u05-l06-ex06"
+    },
+    {
+      "id": "en-a1-u06-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Carlos is my friend. ___ from Argentina.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carlos es un hombre: he is (he's).",
+        "incorrect": "Revisa esto: Carlos es un hombre: he is (he's)."
+      },
+      "review_of": "en-a1-u02-l02-ex03"
     },
     {
       "id": "en-a1-u06-l02-ex09",

@@ -11,7 +11,7 @@
     "es": "Verbos irregulares frecuentes en pasado"
   },
   "objective": "Al terminar usas en pasado los verbos irregulares más frecuentes: went, had, saw, bought, ate y otros.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -185,6 +185,48 @@
       }
     },
     {
+      "id": "en-a2-u01-l03-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada país con su nacionalidad.",
+      "pairs": [
+        {
+          "left": "Spain",
+          "right": "Spanish"
+        },
+        {
+          "left": "Brazil",
+          "right": "Brazilian"
+        },
+        {
+          "left": "Mexico",
+          "right": "Mexican"
+        },
+        {
+          "left": "Italy",
+          "right": "Italian"
+        },
+        {
+          "left": "France",
+          "right": "French"
+        },
+        {
+          "left": "China",
+          "right": "Chinese"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende país y nacionalidad en pares.",
+        "incorrect": "Revisa esto: Aprende país y nacionalidad en pares."
+      },
+      "review_of": "en-a1-u02-l01-ex01"
+    },
+    {
       "id": "en-a2-u01-l03-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -245,6 +287,25 @@
       }
     },
     {
+      "id": "en-a2-u01-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ two chairs in the kitchen.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      },
+      "review_of": "en-a1-u10-l06-ex04"
+    },
+    {
       "id": "en-a2-u01-l03-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -262,6 +323,31 @@
         "correct": "¡Correcto! Go es irregular: went.",
         "incorrect": "Revisa esto: Go es irregular: went."
       }
+    },
+    {
+      "id": "en-a2-u01-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from Italy. She's ___.",
+      "options": [
+        "Italian",
+        "Italy",
+        "Italien",
+        "Italiano"
+      ],
+      "answer": [
+        "Italian"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: Italy. Nacionalidad: Italian.",
+        "incorrect": "Revisa esto: País: Italy. Nacionalidad: Italian."
+      },
+      "review_of": "en-a1-u02-l01-ex02"
     },
     {
       "id": "en-a2-u01-l03-ex07",
@@ -392,6 +478,31 @@
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
       }
+    },
+    {
+      "id": "en-a2-u01-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál se usa siempre en plural?",
+      "options": [
+        "glasses",
+        "wallet",
+        "notebook",
+        "clock"
+      ],
+      "answer": [
+        "glasses"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses (anteojos) lleva siempre are.",
+        "incorrect": "Revisa esto: Glasses (anteojos) lleva siempre are."
+      },
+      "review_of": "en-a1-u11-l01-ex04"
     }
   ],
   "summary": {

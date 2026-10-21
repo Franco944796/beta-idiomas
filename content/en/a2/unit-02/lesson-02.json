@@ -11,7 +11,7 @@
     "es": "Preguntas en pasado con Wh-"
   },
   "objective": "Al terminar haces preguntas sobre un viaje pasado con Where, Who, How, How long y What + did.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -222,6 +222,25 @@
       }
     },
     {
+      "id": "en-a2-u02-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "They're taking the train ___ Saturday.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      },
+      "review_of": "en-a1-u10-l05-ex03"
+    },
+    {
       "id": "en-a2-u02-l02-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -239,6 +258,48 @@
         "correct": "¡Correcto! Después de did el verbo va en base: do.",
         "incorrect": "Revisa esto: Después de did el verbo va en base: do."
       }
+    },
+    {
+      "id": "en-a2-u02-l02-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Open your book.",
+          "right": "Abre tu libro."
+        },
+        {
+          "left": "Listen and repeat.",
+          "right": "Escucha y repite."
+        },
+        {
+          "left": "Raise your hand.",
+          "right": "Levanta la mano."
+        },
+        {
+          "left": "Sit down.",
+          "right": "Siéntate."
+        },
+        {
+          "left": "Close the door.",
+          "right": "Cierra la puerta."
+        },
+        {
+          "left": "Write your name.",
+          "right": "Escribe tu nombre."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son instrucciones típicas de clase.",
+        "incorrect": "Revisa esto: Son instrucciones típicas de clase."
+      },
+      "review_of": "en-a1-u11-l05-ex01"
     },
     {
       "id": "en-a2-u02-l02-ex06",
@@ -327,6 +388,52 @@
         "incorrect": "Revisa esto: Responde 'Only three days'."
       },
       "audio_script_id": "en-a2-u02-l02-ex08-a"
+    },
+    {
+      "id": "en-a2-u02-l02-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ do you spell your name?",
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How do you spell …?",
+        "incorrect": "Revisa esto: How do you spell …?"
+      },
+      "review_of": "en-a1-u11-l05-ex05"
+    },
+    {
+      "id": "en-a2-u02-l02-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo después de limpiar la casa?",
+      "options": [
+        "Watched TV",
+        "Cooked lunch",
+        "Visited a friend",
+        "Studied"
+      ],
+      "answer": [
+        "Watched TV"
+      ],
+      "audio_text": "I cleaned the house and then I watched TV.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'then I watched TV'.",
+        "incorrect": "Revisa esto: Dice 'then I watched TV'."
+      },
+      "audio_script_id": "en-a2-u02-l02-rv04-a",
+      "review_of": "en-a2-u01-l02-ex09"
     },
     {
       "id": "en-a2-u02-l02-ex09",

@@ -11,7 +11,7 @@
     "es": "Preposiciones de tiempo y de movimiento"
   },
   "objective": "Al terminar usas in, on, at y to para hablar de cuándo y adónde, y by para el medio de transporte.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -129,6 +129,31 @@
       }
     },
     {
+      "id": "en-a2-u02-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál se usa siempre en plural?",
+      "options": [
+        "glasses",
+        "wallet",
+        "notebook",
+        "clock"
+      ],
+      "answer": [
+        "glasses"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses (anteojos) lleva siempre are.",
+        "incorrect": "Revisa esto: Glasses (anteojos) lleva siempre are."
+      },
+      "review_of": "en-a1-u11-l01-ex04"
+    },
+    {
       "id": "en-a2-u02-l04-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -145,6 +170,26 @@
         "correct": "¡Correcto! Con años se usa in.",
         "incorrect": "Revisa esto: Con años se usa in."
       }
+    },
+    {
+      "id": "en-a2-u02-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She studyed all night.",
+      "answer": [
+        "She studied all night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y → -ied.",
+        "incorrect": "Revisa esto: Consonante + y → -ied."
+      },
+      "review_of": "en-a2-u01-l02-ex07"
     },
     {
       "id": "en-a2-u02-l04-ex04",
@@ -217,6 +262,25 @@
         "correct": "¡Correcto! Con el medio de transporte se usa by (excepto on foot).",
         "incorrect": "Revisa esto: Con el medio de transporte se usa by (excepto on foot)."
       }
+    },
+    {
+      "id": "en-a2-u02-l04-rv03",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 15,
+      "prompt": "'How much costs this bag?' es una pregunta correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice 'How much is this bag?'.",
+        "incorrect": "Revisa esto: Se dice 'How much is this bag?'."
+      },
+      "review_of": "en-a1-u08-l06-ex09"
     },
     {
       "id": "en-a2-u02-l04-ex07",
@@ -292,6 +356,34 @@
         "correct": "¡Correcto! In: meses y partes del día; on: días; at: horas y 'night'.",
         "incorrect": "Revisa esto: In: meses y partes del día; on: días; at: horas y 'night'."
       }
+    },
+    {
+      "id": "en-a2-u02-l04-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "age"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué edad tiene la persona?",
+      "options": [
+        "13",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": [
+        "16"
+      ],
+      "audio_text": "I'm sixteen years old.",
+      "feedback": {
+        "correct": "¡Correcto! 'sixteen' = 16; el acento está en -teen.",
+        "incorrect": "Revisa esto: 'sixteen' = 16; el acento está en -teen."
+      },
+      "audio_script_id": "en-a2-u02-l04-rv04-a",
+      "review_of": "en-a1-u01-l05-ex07"
     },
     {
       "id": "en-a2-u02-l04-ex10",

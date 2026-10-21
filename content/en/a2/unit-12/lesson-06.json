@@ -1,0 +1,630 @@
+{
+  "id": "en-a2-u12-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 12",
+    "es": "Repaso y checkpoint 12"
+  },
+  "objective": "Al terminar te mueves por una ciudad en inglés: compras billetes, pides y das indicaciones, resuelves retrasos y planeas trayectos.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 12: junta transporte, indicaciones, problemas de viaje y planificación de rutas."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: billetes y andenes, pedir indicaciones con cortesía, dar indicaciones paso a paso, retrasos y problemas, y comparar rutas.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 12**\n\n- *A return ticket · Which platform? · The train leaves at … · It takes … · catch / miss the train*\n- *Could you tell me how to get to …? · Is it far? · Could you tell me where the station is?*\n- *Go straight on · Turn left · go past · across · opposite · You can't miss it!*\n- *The train is delayed / cancelled. · I've missed my connection. · What should I do?*\n- *The train is quicker than the bus. · We'd better leave early.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "getting-around"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Tickets",
+        "Directions",
+        "Problems"
+      ],
+      "items": [
+        {
+          "text": "single",
+          "category": "Tickets"
+        },
+        {
+          "text": "return",
+          "category": "Tickets"
+        },
+        {
+          "text": "platform",
+          "category": "Tickets"
+        },
+        {
+          "text": "roundabout",
+          "category": "Directions"
+        },
+        {
+          "text": "opposite",
+          "category": "Directions"
+        },
+        {
+          "text": "crossroads",
+          "category": "Directions"
+        },
+        {
+          "text": "delayed",
+          "category": "Problems"
+        },
+        {
+          "text": "cancelled",
+          "category": "Problems"
+        },
+        {
+          "text": "missed",
+          "category": "Problems"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar vocabulario por categorías.",
+        "incorrect": "Revisa esto: Clasificar vocabulario por categorías."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "The train ___ from platform 4 at 9:10. (sale)",
+      "answer": [
+        "leaves"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Horario fijo: presente simple.",
+        "incorrect": "Revisa esto: Horario fijo: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Could you tell me where the station ___? (está)",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo en la pregunta indirecta.",
+        "incorrect": "Revisa esto: Orden afirmativo en la pregunta indirecta."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Go ___ the bank and turn left. (pase delante de)",
+      "answer": [
+        "past"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go past = pasar delante de.",
+        "incorrect": "Revisa esto: Go past = pasar delante de."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to help you.",
+      "answer": [
+        "I'll help you.",
+        "I will help you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de will va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de will va el verbo base, sin to."
+      },
+      "review_of": "en-a2-u05-l03-ex06"
+    },
+    {
+      "id": "en-a2-u12-l06-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "The 10:15 to Leeds is ___. (retrasado)",
+      "answer": [
+        "delayed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delayed = retrasado.",
+        "incorrect": "Revisa esto: Delayed = retrasado."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "Could you tell me how to get to the museum?",
+        "Could you tell me how I get to the museum to?",
+        "Tell me how get the museum.",
+        "How to get museum?"
+      ],
+      "answer": [
+        "Could you tell me how to get to the museum?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido cortés.",
+        "incorrect": "Revisa esto: Pedido cortés."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to right at the corner.",
+      "answer": [
+        "Turn right at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Turn right, sin to.",
+        "incorrect": "Revisa esto: Turn right, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Adónde irán mañana?",
+      "options": [
+        "To the lake",
+        "To the castle",
+        "To the old town",
+        "To the airport"
+      ],
+      "answer": [
+        "To the lake"
+      ],
+      "audio_text": "Hi Dan! We're in Prague. Yesterday we saw the castle. Tomorrow we're going to the lake. See you soon!",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Tomorrow we're going to the lake'.",
+        "incorrect": "Revisa esto: Dice 'Tomorrow we're going to the lake'."
+      },
+      "audio_script_id": "en-a2-u12-l06-rv02-a",
+      "review_of": "en-a2-u02-l05-ex09"
+    },
+    {
+      "id": "en-a2-u12-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you tell me where is the post office?",
+      "answer": [
+        "Could you tell me where the post office is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el hospital?",
+      "options": [
+        "On the left, opposite the bank",
+        "On the right, next to the bank",
+        "Behind the bridge",
+        "At the end of the street"
+      ],
+      "answer": [
+        "On the left, opposite the bank"
+      ],
+      "audio_text": "Go straight on, cross the bridge and take the second turning on the right. The hospital is on your left, opposite the bank.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on your left, opposite the bank'.",
+        "incorrect": "Revisa esto: Dice 'on your left, opposite the bank'."
+      },
+      "audio_script_id": "en-a2-u12-l06-ex09-a"
+    },
+    {
+      "id": "en-a2-u12-l06-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Perdí mi conexión. ¿Qué debería hacer?",
+      "answer": [
+        "I've missed my connection. What should I do?",
+        "I missed my connection. What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect / pasado + What should I do?",
+        "incorrect": "Revisa esto: Present perfect / pasado + What should I do?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Explica cómo llegar desde la estación de tu ciudad a un lugar conocido y di cuánto tarda a pie. Usa al menos 4 expresiones de indicaciones.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste imperativos?",
+        "¿Usaste across, past o along?",
+        "¿Usaste on your left / right u opposite?",
+        "¿Dijiste cuánto tarda a pie?"
+      ],
+      "model_answer": "From the station, go straight on and cross the bridge. Turn left at the traffic lights and go past the bank. The museum is on your right, opposite the park. It's about ten minutes on foot.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ dinner now. (cook)",
+      "answer": [
+        "'m cooking",
+        "am cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking: I'm cooking.",
+        "incorrect": "Revisa esto: be + cooking: I'm cooking."
+      },
+      "review_of": "en-a1-u09-l06-ex06"
+    },
+    {
+      "id": "en-a2-u12-l06-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "these",
+        "?",
+        "Whose",
+        "keys"
+      ],
+      "answer": [
+        "Whose",
+        "keys",
+        "are",
+        "these",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose + sustantivo + be + demostrativo.",
+        "incorrect": "Revisa esto: Whose + sustantivo + be + demostrativo."
+      },
+      "review_of": "en-a2-u09-l04-ex09"
+    },
+    {
+      "id": "en-a2-u12-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Pides indicaciones a un desconocido.",
+      "turns": [
+        {
+          "speaker": "Passer-by",
+          "text": "Hello. Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Excuse me, could you tell me how to get to the bus station?",
+            "Excuse me, where is bus station? I'm lost.",
+            "Hello. You tell me bus station."
+          ],
+          "best": 0,
+          "why_es": "Excuse me + Could you tell me how to get to…?"
+        },
+        {
+          "speaker": "Passer-by",
+          "text": "Go straight on and take the second turning on the left. It's about ten minutes on foot."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you very much. Could you show me on the map?",
+            "Thanks. Show me map?",
+            "Thank you. Map show you?"
+          ],
+          "best": 0,
+          "why_es": "Could you show me on the map?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u12-l06-rv05",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada prenda.",
+      "categories": [
+        "Upper body",
+        "Feet",
+        "Accessories"
+      ],
+      "items": [
+        {
+          "text": "jumper",
+          "category": "Upper body"
+        },
+        {
+          "text": "shirt",
+          "category": "Upper body"
+        },
+        {
+          "text": "jacket",
+          "category": "Upper body"
+        },
+        {
+          "text": "boots",
+          "category": "Feet"
+        },
+        {
+          "text": "trainers",
+          "category": "Feet"
+        },
+        {
+          "text": "socks",
+          "category": "Feet"
+        },
+        {
+          "text": "scarf",
+          "category": "Accessories"
+        },
+        {
+          "text": "gloves",
+          "category": "Accessories"
+        },
+        {
+          "text": "hat",
+          "category": "Accessories"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar la ropa por zona del cuerpo ayuda a recordarla.",
+        "incorrect": "Revisa esto: Clasificar la ropa por zona del cuerpo ayuda a recordarla."
+      },
+      "review_of": "en-a2-u11-l01-ex01"
+    },
+    {
+      "id": "en-a2-u12-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I use jeans every day.",
+      "answer": [
+        "I wear jeans every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para ropa se usa wear, no use.",
+        "incorrect": "Revisa esto: Para ropa se usa wear, no use."
+      },
+      "review_of": "en-a1-u08-l03-ex05"
+    },
+    {
+      "id": "en-a2-u12-l06-rv07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su opuesto.",
+      "pairs": [
+        {
+          "left": "quiet",
+          "right": "noisy"
+        },
+        {
+          "left": "clean",
+          "right": "dirty"
+        },
+        {
+          "left": "safe",
+          "right": "dangerous"
+        },
+        {
+          "left": "cheap",
+          "right": "expensive"
+        },
+        {
+          "left": "old",
+          "right": "new"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprenderlos en pares ayuda a recordarlos.",
+        "incorrect": "Revisa esto: Aprenderlos en pares ayuda a recordarlos."
+      },
+      "review_of": "en-a2-u03-l01-ex01"
+    },
+    {
+      "id": "en-a2-u12-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom is my brother. ___ name is Tom.",
+      "answer": [
+        "His"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es un hombre (Tom): his.",
+        "incorrect": "Revisa esto: El dueño es un hombre (Tom): his."
+      },
+      "review_of": "en-a1-u03-l02-ex01"
+    },
+    {
+      "id": "en-a2-u12-l06-rv09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want learning English.",
+      "answer": [
+        "I want to learn English."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want + to + verbo.",
+        "incorrect": "Revisa esto: Want + to + verbo."
+      },
+      "review_of": "en-a2-u10-l06-ex10"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "A return ticket · Which platform?",
+      "Could you tell me how to get to …?",
+      "Go straight on · Turn left · go past · opposite",
+      "The train is delayed. · What should I do?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-public-transport"
+    },
+    {
+      "type": "grammar",
+      "id": "en-asking-directions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-giving-directions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-problems"
+    },
+    {
+      "type": "grammar",
+      "id": "en-planning-journey"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

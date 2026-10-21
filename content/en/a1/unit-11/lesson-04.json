@@ -1,0 +1,643 @@
+{
+  "id": "en-a1-u11-l04",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where's my...?",
+    "es": "¿Dónde está mi...? Objetos y lugares"
+  },
+  "objective": "Al terminar preguntas y dices dónde está algo con Where's…? / Where are…? y las preposiciones de lugar.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No encuentro mis llaves.' Vamos a preguntar por objetos perdidos y a decir exactamente dónde están."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Dan, I can't find my glasses. Where are they?",
+        "es": "Dan, no encuentro mis anteojos. ¿Dónde están?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "Are they on the table?",
+        "es": "¿Están sobre la mesa?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "No, they aren't.",
+        "es": "No."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Look in your bag.",
+        "es": "Mira en tu bolso."
+      },
+      {
+        "speaker": "Anna",
+        "text": "My bag? OK… no, they aren't here.",
+        "es": "¿Mi bolso? Bien… no, no están aquí."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Wait! They're in your pocket!",
+        "es": "¡Espera! ¡Están en tu bolsillo!"
+      },
+      {
+        "speaker": "Anna",
+        "text": "Oh, thank you! And where's my phone?",
+        "es": "¡Oh, gracias! ¿Y dónde está mi teléfono?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "It's under the sofa.",
+        "es": "Está debajo del sofá."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-can-t-find",
+        "lemma": "can't find",
+        "pos": "phrase",
+        "ipa": "/kɑːnt faɪnd/",
+        "es": "no encuentro",
+        "example": "I can't find my keys."
+      },
+      {
+        "id": "en-pocket",
+        "lemma": "pocket",
+        "pos": "noun",
+        "ipa": "/ˈpɒkɪt/",
+        "es": "bolsillo",
+        "example": "They're in your pocket."
+      },
+      {
+        "id": "en-wait",
+        "lemma": "wait",
+        "pos": "verb",
+        "ipa": "/weɪt/",
+        "es": "esperar",
+        "example": "Wait! Look!"
+      },
+      {
+        "id": "en-under",
+        "lemma": "under",
+        "pos": "prep",
+        "ipa": "/ˈʌndə/",
+        "es": "debajo de",
+        "example": "It's under the sofa."
+      },
+      {
+        "id": "en-in-front-of",
+        "lemma": "in front of",
+        "pos": "prep",
+        "ipa": "/ɪn frʌnt əv/",
+        "es": "delante de",
+        "example": "The car is in front of the house."
+      },
+      {
+        "id": "en-behind",
+        "lemma": "behind",
+        "pos": "prep",
+        "ipa": "/bɪˈhaɪnd/",
+        "es": "detrás de",
+        "example": "The cat is behind the door."
+      },
+      {
+        "id": "en-between",
+        "lemma": "between",
+        "pos": "prep",
+        "ipa": "/bɪˈtwiːn/",
+        "es": "entre",
+        "example": "The bank is between the shop and the café."
+      }
+    ],
+    "audio_script_id": "en-a1-u11-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntar por un objeto**\n\n- **Where's** (is) + singular? → *Where's my phone?* — **It's** + lugar.\n- **Where are** + plural? → *Where are my keys?* — **They're** + lugar.\n- **Is it / Are they** + lugar? → *Are they on the table? — Yes, they are. / No, they aren't.*\n- **I can't find** my … · **Look in / on** …\n\n**Preposiciones de lugar:** *in* (dentro) · *on* (sobre) · *under* (debajo de) · *next to* (al lado de) · *in front of* (delante de) · *behind* (detrás de) · *between* (entre) · *near* (cerca de).\n\n| Frase | Significado |\n|---|---|\n| It's **in** the bag. | Está dentro del bolso. |\n| It's **on** the table. | Está sobre la mesa. |\n| It's **under** the sofa. | Está debajo del sofá. |\n| It's **between** the lamp and the window. | Está entre la lámpara y la ventana. |\n\nOjo: *Where is my glasses?* ✗ → *Where are my glasses?* ✓ (glasses es plural). *In front **of*** lleva *of*.\n\nPronunciación: *behind* /bɪˈhaɪnd/ · *between* /bɪˈtwiːn/ · *pocket* /ˈpɒkɪt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Where is my keys?",
+        "right": "Where are my keys?",
+        "note": "Keys es plural."
+      },
+      {
+        "wrong": "It's in front the door.",
+        "right": "It's in front of the door.",
+        "note": "In front of."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ my keys? (están)",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keys es plural: where are.",
+        "incorrect": "Revisa esto: Keys es plural: where are."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 25,
+      "prompt": "My phone is ___ the sofa. (debajo de)",
+      "answer": [
+        "under"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Under = debajo de.",
+        "incorrect": "Revisa esto: Under = debajo de."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "The cat is ___ the box. (dentro)",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "between"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dentro = in.",
+        "incorrect": "Revisa esto: Dentro = in."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "The clock is ___ the wall. (en la pared)",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie vertical también se usa on.",
+        "incorrect": "Revisa esto: Sobre una superficie vertical también se usa on."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la forma completa con la forma corta.",
+      "pairs": [
+        {
+          "left": "I am",
+          "right": "I'm"
+        },
+        {
+          "left": "you are",
+          "right": "you're"
+        },
+        {
+          "left": "we are",
+          "right": "we're"
+        },
+        {
+          "left": "they are",
+          "right": "they're"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las formas cortas son muy frecuentes al hablar.",
+        "incorrect": "Revisa esto: Las formas cortas son muy frecuentes al hablar."
+      },
+      "review_of": "en-a1-u02-l03-ex05"
+    },
+    {
+      "id": "en-a1-u11-l04-ex05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in front of",
+          "right": "delante de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "between",
+          "right": "entre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las preposiciones de lugar más frecuentes.",
+        "incorrect": "Revisa esto: Son las preposiciones de lugar más frecuentes."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where is my glasses?",
+      "answer": [
+        "Where are my glasses?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses es plural: Where are…?",
+        "incorrect": "Revisa esto: Glasses es plural: Where are…?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The keys are in front the door.",
+      "answer": [
+        "The keys are in front of the door."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In front of lleva of.",
+        "incorrect": "Revisa esto: In front of lleva of."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde: Good afternoon.",
+        "incorrect": "Revisa esto: Por la tarde: Good afternoon."
+      },
+      "review_of": "en-a1-u10-l06-ex01"
+    },
+    {
+      "id": "en-a1-u11-l04-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "keys",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "my",
+        "keys",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + are + sujeto plural.",
+        "incorrect": "Revisa esto: Where + are + sujeto plural."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde estaban los anteojos de Anna?",
+      "options": [
+        "In her pocket",
+        "On the table",
+        "In her bag",
+        "Under the sofa"
+      ],
+      "answer": [
+        "In her pocket"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dan dice 'They're in your pocket'.",
+        "incorrect": "Revisa esto: Dan dice 'They're in your pocket'."
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde están las llaves?",
+      "options": [
+        "In the bag",
+        "On the table",
+        "Under the newspaper",
+        "Next to the lamp"
+      ],
+      "answer": [
+        "In the bag"
+      ],
+      "audio_text": "My phone is on the table, next to the lamp. My keys are in the bag, and my glasses are under the newspaper.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'My keys are in the bag'.",
+        "incorrect": "Revisa esto: Dice 'My keys are in the bag'."
+      },
+      "audio_script_id": "en-a1-u11-l04-ex10-a"
+    },
+    {
+      "id": "en-a1-u11-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3:30. ¿Qué dices?",
+      "options": [
+        "It's half past three.",
+        "It's half to three.",
+        "It's three and half.",
+        "It's three o'clock."
+      ],
+      "answer": [
+        "It's half past three."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Y media = half past.",
+        "incorrect": "Revisa esto: Y media = half past."
+      },
+      "review_of": "en-a1-u04-l02-ex02"
+    },
+    {
+      "id": "en-a1-u11-l04-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "That are my keys.",
+      "answer": [
+        "Those are my keys."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural lejano: those.",
+        "incorrect": "Revisa esto: Plural lejano: those."
+      },
+      "review_of": "en-a1-u08-l04-ex06"
+    },
+    {
+      "id": "en-a1-u11-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Dónde están mis llaves? Están en tu bolsillo.",
+      "answer": [
+        "Where are my keys? They're in your pocket.",
+        "Where are my keys? They are in your pocket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where are + They're in…",
+        "incorrect": "Revisa esto: Where are + They're in…"
+      }
+    },
+    {
+      "id": "en-a1-u11-l04-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Would you like go to the cinema?",
+      "answer": [
+        "Would you like to go to the cinema?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta to después de Would you like.",
+        "incorrect": "Revisa esto: Falta to después de Would you like."
+      },
+      "review_of": "en-a1-u09-l05-ex04"
+    },
+    {
+      "id": "en-a1-u11-l04-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got a trousers.",
+      "answer": [
+        "I've got a pair of trousers.",
+        "I have got a pair of trousers."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trousers es plural: a pair of trousers.",
+        "incorrect": "Revisa esto: Trousers es plural: a pair of trousers."
+      },
+      "review_of": "en-a1-u08-l03-ex06"
+    },
+    {
+      "id": "en-a1-u11-l04-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Buscas tu teléfono con un compañero de casa.",
+      "turns": [
+        {
+          "speaker": "Flatmate",
+          "text": "What's the matter?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I can't find my phone. Where is it?",
+            "I no find phone. Where?",
+            "My phone not here. Where are?"
+          ],
+          "best": 0,
+          "why_es": "I can't find + Where's (is) + objeto."
+        },
+        {
+          "speaker": "Flatmate",
+          "text": "It's on the sofa, next to your bag."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Oh, thank you!",
+            "Oh, no thanks.",
+            "Thank to you!"
+          ],
+          "best": 0,
+          "why_es": "Agradecer con thank you."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Where's my phone? · Where are my keys?",
+      "in · on · under · next to · behind · between",
+      "It's … / They're …",
+      "I can't find my …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-can-t-find"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pocket"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wait"
+    },
+    {
+      "type": "vocab",
+      "id": "en-under"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-front-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-behind"
+    },
+    {
+      "type": "vocab",
+      "id": "en-between"
+    },
+    {
+      "type": "grammar",
+      "id": "en-where-objects"
+    }
+  ]
+}

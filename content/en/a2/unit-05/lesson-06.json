@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 5"
   },
   "objective": "Al terminar hablas del futuro con going to, will y might, haces predicciones y organizas un plan con un amigo.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -89,6 +89,53 @@
         "correct": "¡Correcto! Decisión en el momento: I'll.",
         "incorrect": "Revisa esto: Decisión en el momento: I'll."
       }
+    },
+    {
+      "id": "en-a2-u05-l06-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family",
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica el padre?",
+      "options": [
+        "Driver",
+        "Doctor",
+        "Teacher",
+        "Waiter"
+      ],
+      "answer": [
+        "Driver"
+      ],
+      "audio_text": "This is my family. My mother is a doctor. My father is a driver.",
+      "feedback": {
+        "correct": "¡Correcto! El padre es 'a driver'.",
+        "incorrect": "Revisa esto: El padre es 'a driver'."
+      },
+      "audio_script_id": "en-a2-u05-l06-rv01-a",
+      "review_of": "en-a1-u03-l01-ex06"
+    },
+    {
+      "id": "en-a2-u05-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ expensive, but not too much. (bastante)",
+      "answer": [
+        "quite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quite = bastante.",
+        "incorrect": "Revisa esto: Quite = bastante."
+      },
+      "review_of": "en-a2-u03-l01-ex12"
     },
     {
       "id": "en-a2-u05-l06-ex04",
@@ -238,6 +285,75 @@
       }
     },
     {
+      "id": "en-a2-u05-l06-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO es el barrio?",
+      "options": [
+        "Exciting",
+        "Safe",
+        "Friendly",
+        "Nice"
+      ],
+      "answer": [
+        "Exciting"
+      ],
+      "audio_text": "I love my neighbourhood. It's safe and friendly, but it isn't very exciting.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it isn't very exciting'.",
+        "incorrect": "Revisa esto: Dice 'it isn't very exciting'."
+      },
+      "audio_script_id": "en-a2-u05-l06-rv03-a",
+      "review_of": "en-a2-u03-l01-ex08"
+    },
+    {
+      "id": "en-a2-u05-l06-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada actividad con su significado.",
+      "pairs": [
+        {
+          "left": "play football",
+          "right": "jugar al fútbol"
+        },
+        {
+          "left": "listen to music",
+          "right": "escuchar música"
+        },
+        {
+          "left": "watch films",
+          "right": "mirar películas"
+        },
+        {
+          "left": "swim",
+          "right": "nadar"
+        },
+        {
+          "left": "cook",
+          "right": "cocinar"
+        },
+        {
+          "left": "read books",
+          "right": "leer libros"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa los pasatiempos.",
+        "incorrect": "Revisa esto: Repasa los pasatiempos."
+      },
+      "review_of": "en-a1-u09-l06-ex01"
+    },
+    {
       "id": "en-a2-u05-l06-ex11",
       "type": "writing",
       "skill": "writing",
@@ -248,7 +364,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 5 frases sobre tus planes del próximo fin de semana: dos planes seguros (going to), una posibilidad (might) y una propuesta para un amigo (Let's / Why don't we).",
-      "min_words": 30,
+      "min_words": 25,
       "self_check_es": [
         "¿Usaste going to para planes seguros?",
         "¿Usaste might para una posibilidad?",
@@ -260,6 +376,31 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u05-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu comida llega fría. ¿Qué dices con educación?",
+      "options": [
+        "Excuse me, this soup is cold. Could you heat it up, please?",
+        "This soup is terrible!",
+        "Take it away.",
+        "I don't like you."
+      ],
+      "answer": [
+        "Excuse me, this soup is cold. Could you heat it up, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Una queja educada empieza con Excuse me y pide una solución.",
+        "incorrect": "Revisa esto: Una queja educada empieza con Excuse me y pide una solución."
+      },
+      "review_of": "en-a2-u04-l03-ex02"
     },
     {
       "id": "en-a2-u05-l06-ex12",
@@ -306,6 +447,48 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a2-u05-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This bag is so much expensive for me.",
+      "answer": [
+        "This bag is too expensive for me.",
+        "This bag is too expensive for me"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      },
+      "review_of": "en-a2-u03-l04-ex07"
+    },
+    {
+      "id": "en-a2-u05-l06-rv07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Hay treinta y cinco personas.",
+      "answer": [
+        "There are thirty-five people.",
+        "There are 35 people."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Thirty-five se escribe con guion.",
+        "incorrect": "Revisa esto: Thirty-five se escribe con guion."
+      },
+      "review_of": "en-a1-u08-l01-ex09"
     }
   ],
   "summary": {

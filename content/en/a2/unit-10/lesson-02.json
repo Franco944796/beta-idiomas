@@ -11,7 +11,7 @@
     "es": "Verbo + -ing / to + verbo"
   },
   "objective": "Al terminar combinas verbos con -ing o to + verbo (enjoy doing, want to do) y hablas de gustos y planes.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -189,6 +189,26 @@
       }
     },
     {
+      "id": "en-a2-u10-l02-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo va en forma base.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo va en forma base."
+      },
+      "review_of": "en-a1-u04-l04-ex06"
+    },
+    {
       "id": "en-a2-u10-l02-ex03",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -211,6 +231,25 @@
         "correct": "¡Correcto! Decide + to + verbo.",
         "incorrect": "Revisa esto: Decide + to + verbo."
       }
+    },
+    {
+      "id": "en-a2-u10-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is my phone. → This phone is ___.",
+      "answer": [
+        "mine"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre posesivo de I: mine.",
+        "incorrect": "Revisa esto: Pronombre posesivo de I: mine."
+      },
+      "review_of": "en-a2-u09-l04-ex02"
     },
     {
       "id": "en-a2-u10-l02-ex04",
@@ -255,6 +294,31 @@
       }
     },
     {
+      "id": "en-a2-u10-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir con educación en un restaurante.",
+      "options": [
+        "I'd like the fish, please.",
+        "I want the fish.",
+        "Give me fish.",
+        "Fish!"
+      ],
+      "answer": [
+        "I'd like the fish, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like + please es cortés.",
+        "incorrect": "Revisa esto: I'd like + please es cortés."
+      },
+      "review_of": "en-a2-u04-l06-ex06"
+    },
+    {
       "id": "en-a2-u10-l02-ex06",
       "type": "fill_blank",
       "skill": "grammar",
@@ -289,6 +353,25 @@
         "correct": "¡Correcto! Después de una preposición (at) va -ing.",
         "incorrect": "Revisa esto: Después de una preposición (at) va -ing."
       }
+    },
+    {
+      "id": "en-a2-u10-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are my friends. ___ names are Anna and Tom.",
+      "answer": [
+        "Their"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'they': their.",
+        "incorrect": "Revisa esto: Para 'they': their."
+      },
+      "review_of": "en-a1-u03-l06-ex03"
     },
     {
       "id": "en-a2-u10-l02-ex08",
@@ -329,6 +412,25 @@
       }
     },
     {
+      "id": "en-a2-u10-l02-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ breakfast at home.",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: Con las comidas se usa 'have': have breakfast."
+      },
+      "review_of": "en-a1-u04-l01-ex03"
+    },
+    {
       "id": "en-a2-u10-l02-ex10",
       "type": "word_order",
       "skill": "grammar",
@@ -364,6 +466,51 @@
         "correct": "¡Correcto! hope + to + verbo.",
         "incorrect": "Revisa esto: hope + to + verbo."
       }
+    },
+    {
+      "id": "en-a2-u10-l02-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have a lot of ___ to finish today.",
+      "options": [
+        "work",
+        "works",
+        "jobs",
+        "a work"
+      ],
+      "answer": [
+        "work"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Work es incontable: a lot of work.",
+        "incorrect": "Revisa esto: Work es incontable: a lot of work."
+      },
+      "review_of": "en-a2-u07-l01-ex03"
+    },
+    {
+      "id": "en-a2-u10-l02-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yesterday we visit the castle.",
+      "answer": [
+        "Yesterday we visited the castle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con yesterday: pasado simple.",
+        "incorrect": "Revisa esto: Con yesterday: pasado simple."
+      },
+      "review_of": "en-a2-u02-l05-ex07"
     },
     {
       "id": "en-a2-u10-l02-ex11",

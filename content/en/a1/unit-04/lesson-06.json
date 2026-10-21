@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 4"
   },
   "objective": "Al terminar demuestras que puedes contar tu rutina, decir la hora y hacer preguntas sobre hábitos.",
-  "est_minutes": 20,
+  "est_minutes": 23,
   "skills": [
     "grammar",
     "listening",
@@ -117,6 +117,55 @@
       }
     },
     {
+      "id": "en-a1-u04-l06-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es la hermana?",
+      "options": [
+        "Tall and friendly",
+        "Short and quiet",
+        "Young and funny",
+        "Tall and quiet"
+      ],
+      "answer": [
+        "Tall and friendly"
+      ],
+      "audio_text": "My brother is young and quiet. My sister is tall and friendly.",
+      "feedback": {
+        "correct": "¡Correcto! La hermana es 'tall and friendly'.",
+        "incorrect": "Revisa esto: La hermana es 'tall and friendly'."
+      },
+      "audio_script_id": "en-a1-u04-l06-rv01-a",
+      "review_of": "en-a1-u03-l05-ex08"
+    },
+    {
+      "id": "en-a1-u04-l06-rv02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "twelve",
+      "answer": [
+        "twelve",
+        "12"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! twelve = 12.",
+        "incorrect": "Revisa esto: twelve = 12."
+      },
+      "audio_script_id": "en-a1-u04-l06-rv02-a",
+      "review_of": "en-a1-u01-l06-ex05"
+    },
+    {
       "id": "en-a1-u04-l06-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -136,6 +185,37 @@
       }
     },
     {
+      "id": "en-a1-u04-l06-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "age"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "you",
+        "?",
+        "How",
+        "old"
+      ],
+      "answer": [
+        "How",
+        "old",
+        "are",
+        "you",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de la edad.",
+        "incorrect": "Revisa esto: Pregunta de la edad."
+      },
+      "review_of": "en-a1-u01-l05-ex05"
+    },
+    {
       "id": "en-a1-u04-l06-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -153,6 +233,31 @@
         "correct": "¡Correcto! Después de doesn't el verbo no lleva -s.",
         "incorrect": "Revisa esto: Después de doesn't el verbo no lleva -s."
       }
+    },
+    {
+      "id": "en-a1-u04-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from France. She's ___.",
+      "options": [
+        "French",
+        "France",
+        "Fransh",
+        "Frencher"
+      ],
+      "answer": [
+        "French"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: France. Nacionalidad: French.",
+        "incorrect": "Revisa esto: País: France. Nacionalidad: French."
+      },
+      "review_of": "en-a1-u02-l06-ex02"
     },
     {
       "id": "en-a1-u04-l06-ex06",
@@ -237,6 +342,26 @@
         "incorrect": "Revisa esto: Half past six = 6:30."
       },
       "audio_script_id": "en-a1-u04-l06-ex08-a"
+    },
+    {
+      "id": "en-a1-u04-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yes, I'm.",
+      "answer": [
+        "Yes, I am."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En la respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: En la respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u02-l04-ex05"
     },
     {
       "id": "en-a1-u04-l06-ex09",
@@ -326,6 +451,26 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a1-u04-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura ___ Argentinian. She's Italian.",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con 'she': isn't (is not).",
+        "incorrect": "Revisa esto: Negativa con 'she': isn't (is not)."
+      },
+      "review_of": "en-a1-u02-l04-ex02"
     }
   ],
   "summary": {

@@ -1,0 +1,692 @@
+{
+  "id": "en-a2-u13-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 13,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Talking about your hobby",
+    "es": "Hablar de una afición"
+  },
+  "objective": "Al terminar hablas de tu afición: desde cuándo la practicas, cada cuánto, qué te gusta de ella y cómo te ayuda.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Todos tenemos una afición que nos apasiona. ¿Cómo la presentas a alguien en inglés, con detalle y naturalidad?"
+  },
+  "input": {
+    "type": "text",
+    "text": "My hobby is chess. I started playing when I was eight, and I've played for more than twenty years. I play twice a week at a local club. What I like most about it is that it makes me think. It also helps me relax after work. I'm not very good at it yet, but I'm improving. I'd like to join a tournament next year.",
+    "es": "Mi afición es el ajedrez. Empecé a jugar cuando tenía ocho años y juego desde hace más de veinte. Juego dos veces por semana en un club local. Lo que más me gusta es que me hace pensar. También me ayuda a relajarme después del trabajo. Todavía no soy muy bueno, pero estoy mejorando. Me gustaría participar en un torneo el año que viene.",
+    "glossary": [
+      {
+        "id": "en-start",
+        "lemma": "start",
+        "pos": "verb",
+        "ipa": "/stɑːt/",
+        "es": "empezar",
+        "example": "I started playing when I was eight."
+      },
+      {
+        "id": "en-local",
+        "lemma": "local",
+        "pos": "adj",
+        "ipa": "/ˈləʊkl/",
+        "es": "local, del barrio",
+        "example": "I play at a local club."
+      },
+      {
+        "id": "en-what-i-like-most",
+        "lemma": "what I like most",
+        "pos": "phrase",
+        "ipa": "/wɒt aɪ laɪk məʊst/",
+        "es": "lo que más me gusta",
+        "example": "What I like most is the people."
+      },
+      {
+        "id": "en-makes-me-think",
+        "lemma": "makes me think",
+        "pos": "phrase",
+        "ipa": "/meɪks miː θɪŋk/",
+        "es": "me hace pensar",
+        "example": "Chess makes me think."
+      },
+      {
+        "id": "en-helps-me-relax",
+        "lemma": "helps me relax",
+        "pos": "phrase",
+        "ipa": "/helps miː rɪˈlæks/",
+        "es": "me ayuda a relajarme",
+        "example": "Yoga helps me relax."
+      },
+      {
+        "id": "en-improve",
+        "lemma": "improve",
+        "pos": "verb",
+        "ipa": "/ɪmˈpruːv/",
+        "es": "mejorar",
+        "example": "I'm improving every week."
+      },
+      {
+        "id": "en-tournament",
+        "lemma": "tournament",
+        "pos": "noun",
+        "ipa": "/ˈtʊənəmənt/",
+        "es": "torneo",
+        "example": "I'd like to join a tournament."
+      },
+      {
+        "id": "en-relax",
+        "lemma": "relax",
+        "pos": "verb",
+        "ipa": "/rɪˈlæks/",
+        "es": "relajarse",
+        "example": "I read to relax."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura para hablar de tu afición**\n\n1. **Qué es:** *My hobby is chess. · I'm really into photography.*\n2. **Desde cuándo:** *I started playing when I was eight. · I've played for twenty years / since 2004.* (present perfect, unidad 8)\n3. **Cada cuánto / dónde:** *I play twice a week at a local club.*\n4. **Qué te gusta:** *What I like most about it is …* (lo que más me gusta es…) · *I love the way it …*\n5. **Beneficios:** *It makes me + verbo base* (*It makes me think / smile*) · *It helps me + verbo* (*It helps me relax*)\n6. **Nivel y objetivos:** *I'm good at … · I'm not very good at … yet · I'm improving. · I'd like to join a tournament.*\n\n**Ojo:** *make / help + persona + verbo base* (sin *to*): *It makes me think* (no *makes me to think*). *Start* admite *-ing* o *to*: *I started playing / I started to play.*\n\n**Conectores:** *because, so, but, although, also* (también: *It also helps me relax.*).\n\nPronunciación: *tournament* /ˈtʊənəmənt/ · *improve* /ɪmˈpruːv/ · *relax* /rɪˈlæks/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It makes me to think.",
+        "right": "It makes me think.",
+        "note": "Make + persona + verbo base."
+      },
+      {
+        "wrong": "I play since ten years.",
+        "right": "I've played for ten years.",
+        "note": "Present perfect + for."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u13-l04-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I started ___ (play) chess when I was eight.",
+      "answer": [
+        "playing",
+        "to play"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Start admite -ing o to + verbo.",
+        "incorrect": "Revisa esto: Start admite -ing o to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've played tennis ___ ten years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo.",
+        "incorrect": "Revisa esto: For + periodo."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived here ___ 2020.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento.",
+        "incorrect": "Revisa esto: Since + momento."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "I don't work ___ Sundays.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "from"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      },
+      "review_of": "en-a2-u07-l03-ex04"
+    },
+    {
+      "id": "en-a2-u13-l04-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Yoga helps me ___. (relajarme)",
+      "answer": [
+        "relax"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Help me + verbo base.",
+        "incorrect": "Revisa esto: Help me + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora deben estar en el aeropuerto?",
+      "options": [
+        "At six",
+        "At eight",
+        "At seven",
+        "At nine"
+      ],
+      "answer": [
+        "At six"
+      ],
+      "audio_text": "Our flight leaves at eight, so we need to be at the airport at six.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'at the airport at six'.",
+        "incorrect": "Revisa esto: Dice 'at the airport at six'."
+      },
+      "audio_script_id": "en-a2-u13-l04-rv02-a",
+      "review_of": "en-a2-u02-l01-ex08"
+    },
+    {
+      "id": "en-a2-u13-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Chess ___ me think a lot.",
+      "options": [
+        "makes",
+        "makes to",
+        "does",
+        "gives"
+      ],
+      "answer": [
+        "makes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + persona + verbo base.",
+        "incorrect": "Revisa esto: Make + persona + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv03",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "My stomach hurts and I feel sick.",
+      "answer": [
+        "My stomach hurts and I feel sick."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: stomach hurts + feel sick.",
+        "incorrect": "Revisa esto: Dos síntomas: stomach hurts + feel sick."
+      },
+      "audio_script_id": "en-a2-u13-l04-rv03-a",
+      "review_of": "en-a2-u06-l01-ex10"
+    },
+    {
+      "id": "en-a2-u13-l04-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Dónde están mis llaves? Están en tu bolsillo.",
+      "answer": [
+        "Where are my keys? They're in your pocket.",
+        "Where are my keys? They are in your pocket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where are + They're in…",
+        "incorrect": "Revisa esto: Where are + They're in…"
+      },
+      "review_of": "en-a1-u11-l04-ex11"
+    },
+    {
+      "id": "en-a2-u13-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ finished. (acabo de)",
+      "answer": [
+        "just"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Just = acabo de.",
+        "incorrect": "Revisa esto: Just = acabo de."
+      },
+      "review_of": "en-a2-u08-l03-ex01"
+    },
+    {
+      "id": "en-a2-u13-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que lo que más te gusta es el ambiente:",
+      "options": [
+        "What I like most is the atmosphere.",
+        "What I like most it is the atmosphere.",
+        "What most I like is atmosphere.",
+        "I like most the what atmosphere."
+      ],
+      "answer": [
+        "What I like most is the atmosphere."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I like most is …",
+        "incorrect": "Revisa esto: What I like most is …"
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It makes me to think.",
+      "answer": [
+        "It makes me think."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + persona + verbo base, sin to.",
+        "incorrect": "Revisa esto: Make + persona + verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv06",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "fifteen",
+      "answer": [
+        "fifteen",
+        "15"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! fifteen = 15 (-teen).",
+        "incorrect": "Revisa esto: fifteen = 15 (-teen)."
+      },
+      "audio_script_id": "en-a2-u13-l04-rv06-a",
+      "review_of": "en-a1-u01-l03-ex05"
+    },
+    {
+      "id": "en-a2-u13-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I play chess since twenty years.",
+      "answer": [
+        "I've played chess for twenty years.",
+        "I have played chess for twenty years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + for + periodo.",
+        "incorrect": "Revisa esto: Present perfect + for + periodo."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ in Paris last year. (to be)",
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they se usa were.",
+        "incorrect": "Revisa esto: Con they se usa were."
+      },
+      "review_of": "en-a2-u01-l06-ex01"
+    },
+    {
+      "id": "en-a2-u13-l04-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "most",
+        "about",
+        "it",
+        "is",
+        "the",
+        "people",
+        ".",
+        "What",
+        "I"
+      ],
+      "answer": [
+        "What",
+        "I",
+        "like",
+        "most",
+        "about",
+        "it",
+        "is",
+        "the",
+        "people",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I like most about it is + sustantivo.",
+        "incorrect": "Revisa esto: What I like most about it is + sustantivo."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Desde cuándo juega al ajedrez la persona?",
+      "options": [
+        "Since she was eight",
+        "Since last year",
+        "For two weeks",
+        "Since 2020"
+      ],
+      "answer": [
+        "Since she was eight"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I started playing when I was eight'.",
+        "incorrect": "Revisa esto: El texto dice 'I started playing when I was eight'."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le gustaría hacer el año que viene?",
+      "options": [
+        "Join a tournament",
+        "Change club",
+        "Stop playing",
+        "Teach chess"
+      ],
+      "answer": [
+        "Join a tournament"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'I'd like to join a tournament next year'.",
+        "incorrect": "Revisa esto: El texto dice 'I'd like to join a tournament next year'."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le ayuda a hacer la fotografía?",
+      "options": [
+        "Relax",
+        "Work",
+        "Travel",
+        "Sleep"
+      ],
+      "answer": [
+        "Relax"
+      ],
+      "audio_text": "I've been into photography for five years. It helps me relax and it makes me see the world differently. I take photos every weekend.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'It helps me relax'.",
+        "incorrect": "Revisa esto: Dice 'It helps me relax'."
+      },
+      "audio_script_id": "en-a2-u13-l04-ex12-a"
+    },
+    {
+      "id": "en-a2-u13-l04-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 180,
+      "prompt": "Presenta tu afición en 6 o 7 frases: qué es, desde cuándo la practicas, cada cuánto, qué es lo que más te gusta y cómo te ayuda.",
+      "min_words": 45,
+      "self_check_es": [
+        "¿Usaste for o since con present perfect?",
+        "¿Usaste what I like most…?",
+        "¿Usaste makes me / helps me + verbo?",
+        "¿Hablaste de tu nivel o tus objetivos?"
+      ],
+      "model_answer": "My hobby is painting. I started painting when I was fifteen, so I've painted for ten years. I paint twice a week. What I like most about it is that it makes me feel calm. It also helps me forget about work. I'm not very good at it yet, but I'm improving. I'd like to join an art class.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un compañero nuevo te pregunta por tu afición.",
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "text": "What's your hobby?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm really into photography. I've taken photos for five years.",
+            "I'm into photography. I take photos since five years.",
+            "My hobby photos. I have five years."
+          ],
+          "best": 0,
+          "why_es": "I'm into … + present perfect con for."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "What do you like about it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "What I like most is that it helps me relax.",
+            "What I like most it is helps me relax.",
+            "I like it because relax me."
+          ],
+          "best": 0,
+          "why_es": "What I like most is that … / helps me + verbo base."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u13-l04-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "had",
+        "a",
+        "shower",
+        ".",
+        "First",
+        ","
+      ],
+      "answer": [
+        "First",
+        ",",
+        "I",
+        "had",
+        "a",
+        "shower",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector + coma + sujeto + verbo en pasado.",
+        "incorrect": "Revisa esto: Conector + coma + sujeto + verbo en pasado."
+      },
+      "review_of": "en-a2-u01-l05-ex03"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "My hobby is … · I'm into …",
+      "I started … when I was … · I've played for / since …",
+      "What I like most about it is … · It makes me think · It helps me relax",
+      "I'm improving · I'd like to join …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-start"
+    },
+    {
+      "type": "vocab",
+      "id": "en-local"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-i-like-most"
+    },
+    {
+      "type": "vocab",
+      "id": "en-makes-me-think"
+    },
+    {
+      "type": "vocab",
+      "id": "en-helps-me-relax"
+    },
+    {
+      "type": "vocab",
+      "id": "en-improve"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tournament"
+    },
+    {
+      "type": "vocab",
+      "id": "en-relax"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hobby-talk"
+    }
+  ]
+}

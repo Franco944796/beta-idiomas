@@ -1,0 +1,699 @@
+{
+  "id": "en-a2-u12-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Giving directions",
+    "es": "Dar indicaciones paso a paso"
+  },
+  "objective": "Al terminar das indicaciones paso a paso con go past, along, across, the second turning y on your left / right.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un turista te pregunta cómo llegar. ¿Sabrías explicar el camino con claridad, paso por paso?"
+  },
+  "input": {
+    "type": "text",
+    "text": "From the station, go straight on along Park Road. Go past the bank and the café. At the roundabout, take the second exit. Then walk across the bridge and turn right at the crossroads. The museum is on your left, opposite the supermarket. You can't miss it!",
+    "es": "Desde la estación, siga recto por Park Road. Pase delante del banco y del café. En la rotonda, tome la segunda salida. Luego cruce el puente y gire a la derecha en el cruce. El museo está a su izquierda, enfrente del supermercado. ¡No tiene pérdida!",
+    "glossary": [
+      {
+        "id": "en-go-past",
+        "lemma": "go past",
+        "pos": "phrasal verb",
+        "ipa": "/ɡəʊ pɑːst/",
+        "es": "pasar por delante de",
+        "example": "Go past the bank."
+      },
+      {
+        "id": "en-along",
+        "lemma": "along",
+        "pos": "prep",
+        "ipa": "/əˈlɒŋ/",
+        "es": "a lo largo de",
+        "example": "Go straight on along Park Road."
+      },
+      {
+        "id": "en-roundabout",
+        "lemma": "roundabout",
+        "pos": "noun",
+        "ipa": "/ˈraʊndəbaʊt/",
+        "es": "rotonda",
+        "example": "At the roundabout, take the second exit."
+      },
+      {
+        "id": "en-exit",
+        "lemma": "exit",
+        "pos": "noun",
+        "ipa": "/ˈeksɪt/",
+        "es": "salida",
+        "example": "Take the second exit."
+      },
+      {
+        "id": "en-cross",
+        "lemma": "cross",
+        "pos": "verb",
+        "ipa": "/krɒs/",
+        "es": "cruzar",
+        "example": "Cross the bridge."
+      },
+      {
+        "id": "en-crossroads",
+        "lemma": "crossroads",
+        "pos": "noun",
+        "ipa": "/ˈkrɒsrəʊdz/",
+        "es": "cruce, encrucijada",
+        "example": "Turn right at the crossroads."
+      },
+      {
+        "id": "en-opposite",
+        "lemma": "opposite",
+        "pos": "prep",
+        "ipa": "/ˈɒpəzɪt/",
+        "es": "enfrente de",
+        "example": "The museum is opposite the supermarket."
+      },
+      {
+        "id": "en-you-can-t-miss-it",
+        "lemma": "you can't miss it",
+        "pos": "phrase",
+        "ipa": "/juː kɑːnt mɪs ɪt/",
+        "es": "no tiene pérdida",
+        "example": "It's a big red building. You can't miss it!"
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Dar indicaciones: imperativos + preposiciones de movimiento**\n\n- **Go straight on** (siga recto) · **Turn left / right** · **Take the first / second turning on the left** (la primera / segunda calle a la izquierda)\n- **Go along** (a lo largo de) · **go past** (pasar delante de) · **cross** (cruzar) · **go through** (atravesar) · **go over the bridge**\n- **At the traffic lights / the roundabout / the crossroads / the corner**\n- **at the end of the street** (al final de la calle)\n\n**Dónde está algo:** *It's on your left / right. · It's opposite the supermarket. · It's next to the bank. · It's between the café and the bank. · It's on the corner.*\n\n**Distancias:** *It's about ten minutes on foot. · It's a five-minute walk. · It's two kilometres from here.*\n\n**Frases finales:** *You can't miss it! · It's easy to find.*\n\n**Ordinales:** *first, second, third, fourth*.\n\nOjo: *Turn left* (sin *to* ni *at*): *Turn to left* ✗. *Opposite* lleva el lugar directamente: *opposite the bank* (no *opposite of the bank*).\n\nPronunciación: *roundabout* /ˈraʊndəbaʊt/ · *opposite* /ˈɒpəzɪt/ · *crossroads* /ˈkrɒsrəʊdz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Turn to right.",
+        "right": "Turn right.",
+        "note": "Turn right, sin to."
+      },
+      {
+        "wrong": "opposite of the bank",
+        "right": "opposite the bank",
+        "note": "Opposite no lleva of."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l03-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "go straight on",
+          "right": "siga recto"
+        },
+        {
+          "left": "turn left",
+          "right": "gire a la izquierda"
+        },
+        {
+          "left": "go past",
+          "right": "pase delante de"
+        },
+        {
+          "left": "cross the bridge",
+          "right": "cruce el puente"
+        },
+        {
+          "left": "at the roundabout",
+          "right": "en la rotonda"
+        },
+        {
+          "left": "opposite",
+          "right": "enfrente de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las expresiones básicas para dar indicaciones.",
+        "incorrect": "Revisa esto: Son las expresiones básicas para dar indicaciones."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Go ___ the bank and the café. (pase delante de)",
+      "answer": [
+        "past"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go past = pasar delante de.",
+        "incorrect": "Revisa esto: Go past = pasar delante de."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Turn right ___ the crossroads.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At the crossroads.",
+        "incorrect": "Revisa esto: At the crossroads."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Take the ___ turning on the left. (segunda)",
+      "answer": [
+        "second"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Second = segunda.",
+        "incorrect": "Revisa esto: Second = segunda."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The museum is ___ the supermarket. (enfrente de)",
+      "options": [
+        "opposite",
+        "across of",
+        "front",
+        "in front the"
+      ],
+      "answer": [
+        "opposite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Opposite + lugar.",
+        "incorrect": "Revisa esto: Opposite + lugar."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Terminas tus indicaciones con una frase natural:",
+      "options": [
+        "You can't miss it!",
+        "You miss it.",
+        "Don't missing it.",
+        "Missing is not."
+      ],
+      "answer": [
+        "You can't miss it!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! You can't miss it = no tiene pérdida.",
+        "incorrect": "Revisa esto: You can't miss it = no tiene pérdida."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to right at the corner.",
+      "answer": [
+        "Turn right at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Turn right, sin to.",
+        "incorrect": "Revisa esto: Turn right, sin to."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ noisy in here. I can't hear you.",
+      "options": [
+        "too",
+        "too much",
+        "too many",
+        "many"
+      ],
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un adjetivo se usa too: too noisy.",
+        "incorrect": "Revisa esto: Con un adjetivo se usa too: too noisy."
+      },
+      "review_of": "en-a2-u04-l02-ex06"
+    },
+    {
+      "id": "en-a2-u12-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pregunta la edad?",
+      "options": [
+        "How old are you?",
+        "How many years have you?",
+        "What age are you?",
+        "How are you old?"
+      ],
+      "answer": [
+        "How old are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La pregunta natural es 'How old are you?'.",
+        "incorrect": "Revisa esto: La pregunta natural es 'How old are you?'."
+      },
+      "review_of": "en-a1-u01-l05-ex01"
+    },
+    {
+      "id": "en-a2-u12-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Go straight until the end of the road and turn at left.",
+      "answer": [
+        "Go straight to the end of the road and turn left.",
+        "Go straight to the end of the road and then turn left."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Turn left (sin at); to the end of.",
+        "incorrect": "Revisa esto: Turn left (sin at); to the end of."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "on",
+        "and",
+        "turn",
+        "left",
+        "at",
+        "the",
+        "traffic",
+        "lights",
+        ".",
+        "Go",
+        "straight"
+      ],
+      "answer": [
+        "Go",
+        "straight",
+        "on",
+        "and",
+        "turn",
+        "left",
+        "at",
+        "the",
+        "traffic",
+        "lights",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos imperativos unidos con and.",
+        "incorrect": "Revisa esto: Dos imperativos unidos con and."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "should",
+        "wear",
+        "something",
+        "smart",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "you",
+        "should",
+        "wear",
+        "something",
+        "smart",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think you should + verbo base.",
+        "incorrect": "Revisa esto: I think you should + verbo base."
+      },
+      "review_of": "en-a2-u11-l05-ex09"
+    },
+    {
+      "id": "en-a2-u12-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There are two hundreds people.",
+      "answer": [
+        "There are two hundred people."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hundred no lleva -s después de un número.",
+        "incorrect": "Revisa esto: Hundred no lleva -s después de un número."
+      },
+      "review_of": "en-a1-u08-l01-ex04"
+    },
+    {
+      "id": "en-a2-u12-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I think that it isn't a good idea.",
+      "answer": [
+        "I don't think it's a good idea.",
+        "I don't think that it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se niega el verbo think.",
+        "incorrect": "Revisa esto: Se niega el verbo think."
+      },
+      "review_of": "en-a2-u10-l03-ex09"
+    },
+    {
+      "id": "en-a2-u12-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde está el museo según el texto?",
+      "options": [
+        "On the left, opposite the supermarket",
+        "On the right, next to the bank",
+        "Behind the café",
+        "At the station"
+      ],
+      "answer": [
+        "On the left, opposite the supermarket"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'on your left, opposite the supermarket'.",
+        "incorrect": "Revisa esto: El texto dice 'on your left, opposite the supermarket'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué debes hacer en la rotonda?",
+      "options": [
+        "Take the second exit",
+        "Turn right",
+        "Go straight on",
+        "Cross the bridge"
+      ],
+      "answer": [
+        "Take the second exit"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'At the roundabout, take the second exit'.",
+        "incorrect": "Revisa esto: El texto dice 'At the roundabout, take the second exit'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está la biblioteca?",
+      "options": [
+        "On the right, opposite the park",
+        "On the left, next to the school",
+        "Behind the school",
+        "Opposite the station"
+      ],
+      "answer": [
+        "On the right, opposite the park"
+      ],
+      "audio_text": "Go straight on, take the first turning on the left and go past the school. The library is on your right, opposite the park.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on your right, opposite the park'.",
+        "incorrect": "Revisa esto: Dice 'on your right, opposite the park'."
+      },
+      "audio_script_id": "en-a2-u12-l03-ex12-a"
+    },
+    {
+      "id": "en-a2-u12-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived in this house ___ ten years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo.",
+        "incorrect": "Revisa esto: For + periodo."
+      },
+      "review_of": "en-a2-u08-l06-ex06"
+    },
+    {
+      "id": "en-a2-u12-l03-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Explica cómo llegar desde tu casa (o desde la estación) a un lugar cercano (supermercado, parque, etc.) en 5 frases con imperativos y preposiciones de movimiento.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste imperativos (go, turn, take)?",
+        "¿Usaste along, past, across o through?",
+        "¿Usaste on your left / right u opposite?",
+        "¿Terminaste con la ubicación exacta?"
+      ],
+      "model_answer": "From my house, go straight on along Mitre Street. Go past the bank and cross the bridge. Take the second turning on the right. The supermarket is on your left, opposite the park. You can't miss it!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un turista te pregunta cómo llegar a la estación.",
+      "turns": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, how do I get to the station?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Go straight on, then turn left at the traffic lights. It's on your right.",
+            "Go straight, turn to left at lights. Is right.",
+            "You go straight on and turn at left."
+          ],
+          "best": 0,
+          "why_es": "Imperativos y on your right."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Is it far?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "No, it's about five minutes on foot.",
+            "No, is five minutes of foot.",
+            "No, it is far five minutes."
+          ],
+          "best": 0,
+          "why_es": "It's about … minutes on foot."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u12-l03-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que el tren es más cómodo que el autobús.",
+      "options": [
+        "The train is more comfortable than the bus.",
+        "The train is comfortabler than the bus.",
+        "The train is most comfortable than the bus.",
+        "The train is more comfortable that the bus."
+      ],
+      "answer": [
+        "The train is more comfortable than the bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      },
+      "review_of": "en-a2-u03-l05-ex01"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Go straight on · Turn left / right",
+      "Take the second turning on the left",
+      "go past · along · across · at the roundabout",
+      "It's opposite … · You can't miss it!"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-go-past"
+    },
+    {
+      "type": "vocab",
+      "id": "en-along"
+    },
+    {
+      "type": "vocab",
+      "id": "en-roundabout"
+    },
+    {
+      "type": "vocab",
+      "id": "en-exit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cross"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crossroads"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opposite"
+    },
+    {
+      "type": "vocab",
+      "id": "en-you-can-t-miss-it"
+    },
+    {
+      "type": "grammar",
+      "id": "en-giving-directions"
+    }
+  ]
+}

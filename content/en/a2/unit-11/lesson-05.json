@@ -1,0 +1,618 @@
+{
+  "id": "en-a2-u11-l05",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What should I wear?",
+    "es": "Qué ponerse según la ocasión"
+  },
+  "objective": "Al terminar das consejos sobre qué ponerse según la ocasión (should, formal, casual) y comparas prendas.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Una entrevista, una boda, un día en la playa: ¿qué te pones? Hoy usamos should, comparativos y vocabulario de estilo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Eva",
+        "text": "I have a job interview tomorrow. What should I wear?",
+        "es": "Tengo una entrevista de trabajo mañana. ¿Qué debería ponerme?"
+      },
+      {
+        "speaker": "Max",
+        "text": "I think you should wear something smart. A dark suit is better than jeans.",
+        "es": "Creo que deberías ponerte algo elegante. Un traje oscuro es mejor que unos jeans."
+      },
+      {
+        "speaker": "Eva",
+        "text": "But a suit is less comfortable than a casual jacket.",
+        "es": "Pero un traje es menos cómodo que una chaqueta informal."
+      },
+      {
+        "speaker": "Max",
+        "text": "True, but it looks more formal. You shouldn't wear trainers.",
+        "es": "Cierto, pero se ve más formal. No deberías usar zapatillas."
+      },
+      {
+        "speaker": "Eva",
+        "text": "OK. And it's going to rain, so I'll take an umbrella.",
+        "es": "Bien. Y va a llover, así que llevo un paraguas."
+      },
+      {
+        "speaker": "Max",
+        "text": "Good idea. You'll look great!",
+        "es": "Buena idea. ¡Te vas a ver genial!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-smart",
+        "lemma": "smart",
+        "pos": "adj",
+        "ipa": "/smɑːt/",
+        "es": "elegante, arreglado (UK)",
+        "example": "Wear something smart."
+      },
+      {
+        "id": "en-formal",
+        "lemma": "formal",
+        "pos": "adj",
+        "ipa": "/ˈfɔːml/",
+        "es": "formal",
+        "example": "A suit is formal."
+      },
+      {
+        "id": "en-casual",
+        "lemma": "casual",
+        "pos": "adj",
+        "ipa": "/ˈkæʒuəl/",
+        "es": "informal, casual",
+        "example": "Jeans are casual."
+      },
+      {
+        "id": "en-comfortable",
+        "lemma": "comfortable",
+        "pos": "adj",
+        "ipa": "/ˈkʌmftəbl/",
+        "es": "cómodo/a",
+        "example": "These shoes are comfortable."
+      },
+      {
+        "id": "en-suit",
+        "lemma": "suit",
+        "pos": "noun",
+        "ipa": "/suːt/",
+        "es": "traje (de chaqueta)",
+        "example": "He's wearing a dark suit."
+      },
+      {
+        "id": "en-dress-code",
+        "lemma": "dress code",
+        "pos": "noun",
+        "ipa": "/dres kəʊd/",
+        "es": "código de vestimenta",
+        "example": "The dress code is smart casual."
+      },
+      {
+        "id": "en-occasion",
+        "lemma": "occasion",
+        "pos": "noun",
+        "ipa": "/əˈkeɪʒn/",
+        "es": "ocasión",
+        "example": "It's a special occasion."
+      },
+      {
+        "id": "en-look",
+        "lemma": "look",
+        "pos": "verb",
+        "ipa": "/lʊk/",
+        "es": "verse, parecer",
+        "example": "You'll look great!"
+      }
+    ],
+    "audio_script_id": "en-a2-u11-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Aconsejar qué ponerse:** *You should wear … · You shouldn't wear … · I think you should … · Why don't you wear …?*\n\n**Estilos:** *formal* (traje, corbata) · *smart* (elegante) · *casual* (informal) · *smart casual* · *comfortable* (cómodo).\n\n**Comparar prendas (comparativos de la unidad 3):** *A suit is more formal than a jacket. · Trainers are more comfortable than heels.* · *better / worse than*.\n\n**Verbo look + adjetivo:** *You look great / smart / tired.* (después de *look* va un adjetivo, no adverbio).\n\n**Según el clima o plan:** combina con *going to* y *will*: *It's going to rain, so take an umbrella.*\n\n**Ocasiones:** *a job interview · a wedding · a party · a day at the beach · the gym · a business meeting*.\n\nOjo: *suit* (traje) no es *suit* el verbo ('quedar bien'): *This suit suits you.* Y *smart* aquí significa 'elegante', no 'inteligente' (aunque también lo es).\n\nPronunciación: *casual* /ˈkæʒuəl/ · *comfortable* /ˈkʌmftəbl/ (tres sílabas) · *formal* /ˈfɔːml/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "You should to wear a suit.",
+        "right": "You should wear a suit.",
+        "note": "Should + verbo base."
+      },
+      {
+        "wrong": "You look greatly.",
+        "right": "You look great.",
+        "note": "Después de look va un adjetivo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l05-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 25,
+      "prompt": "For an interview you ___ wear something smart. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo: should + verbo base.",
+        "incorrect": "Revisa esto: Consejo: should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ wear trainers to a wedding. (no deberías)",
+      "answer": [
+        "shouldn't",
+        "should not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo negativo.",
+        "incorrect": "Revisa esto: Consejo negativo."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ they stay at home on Sunday?",
+      "answer": [
+        "Did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta: Did + sujeto + base.",
+        "incorrect": "Revisa esto: Pregunta: Did + sujeto + base."
+      },
+      "review_of": "en-a2-u01-l06-ex05"
+    },
+    {
+      "id": "en-a2-u11-l05-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 25,
+      "prompt": "A suit is ___ formal than jeans.",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ great in that dress.",
+      "options": [
+        "look",
+        "looks",
+        "are looking",
+        "look like"
+      ],
+      "answer": [
+        "look"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look + adjetivo: You look great.",
+        "incorrect": "Revisa esto: Look + adjetivo: You look great."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber el significado de 'wallet'. Preguntas:",
+      "options": [
+        "What does 'wallet' mean?",
+        "What is mean wallet?",
+        "How you say wallet?",
+        "Wallet is what?"
+      ],
+      "answer": [
+        "What does 'wallet' mean?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What does … mean? = ¿qué significa…?",
+        "incorrect": "Revisa esto: What does … mean? = ¿qué significa…?"
+      },
+      "review_of": "en-a1-u11-l05-ex03"
+    },
+    {
+      "id": "en-a2-u11-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 20,
+      "prompt": "Es un día de playa. ¿Qué es mejor?",
+      "options": [
+        "A casual T-shirt and shorts",
+        "A dark suit and a tie",
+        "A formal dress and heels",
+        "A wool scarf"
+      ],
+      "answer": [
+        "A casual T-shirt and shorts"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La ropa casual y cómoda es la adecuada.",
+        "incorrect": "Revisa esto: La ropa casual y cómoda es la adecuada."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "was-were",
+        "time-expressions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estuvimos en Roma hace dos semanas.",
+      "answer": [
+        "We were in Rome two weeks ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! We + were; ago después de two weeks.",
+        "incorrect": "Revisa esto: We + were; ago después de two weeks."
+      },
+      "review_of": "en-a2-u01-l01-ex09"
+    },
+    {
+      "id": "en-a2-u11-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Smart casual' significa…",
+      "options": [
+        "elegante pero informal",
+        "muy formal",
+        "muy deportivo",
+        "disfraz"
+      ],
+      "answer": [
+        "elegante pero informal"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Smart casual = mezcla de elegante e informal.",
+        "incorrect": "Revisa esto: Smart casual = mezcla de elegante e informal."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ him last night.",
+      "options": [
+        "saw",
+        "have seen",
+        "have saw",
+        "see"
+      ],
+      "answer": [
+        "saw"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last night es tiempo terminado: pasado simple.",
+        "incorrect": "Revisa esto: Last night es tiempo terminado: pasado simple."
+      },
+      "review_of": "en-a2-u08-l04-ex01"
+    },
+    {
+      "id": "en-a2-u11-l05-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to wear a jacket.",
+      "answer": [
+        "You should wear a jacket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de should va el verbo base.",
+        "incorrect": "Revisa esto: Después de should va el verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This jacket is more comfortable that that one.",
+      "answer": [
+        "This jacket is more comfortable than that one."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comparativo + than.",
+        "incorrect": "Revisa esto: Comparativo + than."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "should",
+        "wear",
+        "something",
+        "smart",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "you",
+        "should",
+        "wear",
+        "something",
+        "smart",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think you should + verbo base.",
+        "incorrect": "Revisa esto: I think you should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Max a Eva?",
+      "options": [
+        "Wear something smart",
+        "Wear trainers",
+        "Wear a casual jacket",
+        "Wear jeans"
+      ],
+      "answer": [
+        "Wear something smart"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Max dice 'you should wear something smart'.",
+        "incorrect": "Revisa esto: Max dice 'you should wear something smart'."
+      }
+    },
+    {
+      "id": "en-a2-u11-l05-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué recomienda llevar?",
+      "options": [
+        "A nice shirt, jeans and a jacket",
+        "A suit and a tie",
+        "A formal dress",
+        "Shorts and sandals"
+      ],
+      "answer": [
+        "A nice shirt, jeans and a jacket"
+      ],
+      "audio_text": "It's a casual party, so you don't have to wear a suit. A nice shirt and clean jeans are fine. But take a jacket: it's going to be cold.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a nice shirt and clean jeans… take a jacket'.",
+        "incorrect": "Revisa esto: Dice 'a nice shirt and clean jeans… take a jacket'."
+      },
+      "audio_script_id": "en-a2-u11-l05-ex11-a"
+    },
+    {
+      "id": "en-a2-u11-l05-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "The flat is small, ___ it's very comfortable.",
+      "options": [
+        "but",
+        "because",
+        "so",
+        "although"
+      ],
+      "answer": [
+        "but"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste simple: but.",
+        "incorrect": "Revisa esto: Contraste simple: but."
+      },
+      "review_of": "en-a2-u10-l04-ex06"
+    },
+    {
+      "id": "en-a2-u11-l05-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "Whose bag is this? — It's ___. (mío)",
+      "answer": [
+        "mine"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre posesivo de I.",
+        "incorrect": "Revisa esto: Pronombre posesivo de I."
+      },
+      "review_of": "en-a2-u09-l06-ex05"
+    },
+    {
+      "id": "en-a2-u11-l05-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "My classes start at nine and finish ___ one o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con horas se usa at.",
+        "incorrect": "Revisa esto: Con horas se usa at."
+      },
+      "review_of": "en-a2-u07-l03-ex02"
+    },
+    {
+      "id": "en-a2-u11-l05-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 180,
+      "prompt": "Un amigo te escribe: 'Voy a una boda en verano. ¿Qué me pongo?'. Respóndele con 3 consejos usando should / shouldn't y un comparativo.",
+      "min_words": 28,
+      "self_check_es": [
+        "¿Usaste should / shouldn't?",
+        "¿Usaste un comparativo con than?",
+        "¿Diste tres consejos distintos?",
+        "¿Mencionaste el clima o la ocasión?"
+      ],
+      "model_answer": "I think you should wear a light dress or a smart shirt because it's summer. You shouldn't wear jeans: they're less formal than trousers. Comfortable shoes are better than high heels for dancing!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What should I wear? · You should wear …",
+      "formal · casual · smart · comfortable",
+      "more formal than · better than",
+      "You look great! (look + adjetivo)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-smart"
+    },
+    {
+      "type": "vocab",
+      "id": "en-formal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-casual"
+    },
+    {
+      "type": "vocab",
+      "id": "en-comfortable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dress-code"
+    },
+    {
+      "type": "vocab",
+      "id": "en-occasion"
+    },
+    {
+      "type": "vocab",
+      "id": "en-look"
+    },
+    {
+      "type": "grammar",
+      "id": "en-dress-advice"
+    }
+  ]
+}

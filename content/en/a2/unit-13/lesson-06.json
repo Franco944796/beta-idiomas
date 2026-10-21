@@ -1,0 +1,634 @@
+{
+  "id": "en-a2-u13-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 13,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de A2"
+  },
+  "objective": "Al terminar demuestras el nivel A2: hablas de tus aficiones y tiempo libre, y usas el vocabulario y la gramática de todo el nivel.",
+  "est_minutes": 35,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint final de A2: junta aficiones, frecuencia, clubes, adjetivos -ed / -ing y vocabulario de todo el nivel."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: play / go / do, how often, apuntarte a un club, hablar de tu afición, adjetivos -ed / -ing, y el vocabulario de todo A2.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 13**\n\n- *play tennis · go swimming · do yoga*\n- *How often do you …? · twice a week · hardly ever · never*\n- *I'd like to join … · How much is the membership? · Is there a discount?*\n- *My hobby is … · I've played for … · What I like most … · It helps me relax*\n- *bored / boring · excited / exciting · interested / interesting*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u13-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "leisure",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada palabra con su categoría (vocabulario de todo A2).",
+      "categories": [
+        "Clothes",
+        "Transport",
+        "Hobbies",
+        "Health"
+      ],
+      "items": [
+        {
+          "text": "jumper",
+          "category": "Clothes"
+        },
+        {
+          "text": "scarf",
+          "category": "Clothes"
+        },
+        {
+          "text": "platform",
+          "category": "Transport"
+        },
+        {
+          "text": "ticket",
+          "category": "Transport"
+        },
+        {
+          "text": "chess",
+          "category": "Hobbies"
+        },
+        {
+          "text": "yoga",
+          "category": "Hobbies"
+        },
+        {
+          "text": "headache",
+          "category": "Health"
+        },
+        {
+          "text": "cough",
+          "category": "Health"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es el ejercicio clásico de clasificar vocabulario por categorías.",
+        "incorrect": "Revisa esto: Es el ejercicio clásico de clasificar vocabulario por categorías."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ swimming every morning. (voy a)",
+      "answer": [
+        "go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go + -ing: go swimming.",
+        "incorrect": "Revisa esto: Go + -ing: go swimming."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is taller that me.",
+      "answer": [
+        "She is taller than me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del comparativo se usa than.",
+        "incorrect": "Revisa esto: Después del comparativo se usa than."
+      },
+      "review_of": "en-a2-u03-l02-ex07"
+    },
+    {
+      "id": "en-a2-u13-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "how-often"
+      ],
+      "est_seconds": 25,
+      "prompt": "I play tennis ___ a week. (dos veces)",
+      "answer": [
+        "twice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Twice = dos veces.",
+        "incorrect": "Revisa esto: Twice = dos veces."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like to ___ the gym. (apuntarme a)",
+      "answer": [
+        "join"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Join = apuntarse, unirse.",
+        "incorrect": "Revisa esto: Join = apuntarse, unirse."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've worked here ___ 2019.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + año.",
+        "incorrect": "Revisa esto: Since + año."
+      },
+      "review_of": "en-a2-u08-l06-ex05"
+    },
+    {
+      "id": "en-a2-u13-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "The film was really ___. (aburrida)",
+      "answer": [
+        "boring"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La película (cosa): boring.",
+        "incorrect": "Revisa esto: La película (cosa): boring."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a ___. My head is very hot. (fiebre)",
+      "answer": [
+        "temperature"
+      ],
+      "accepted_alternatives": [
+        "fever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Temperature también significa fiebre.",
+        "incorrect": "Revisa esto: Temperature también significa fiebre."
+      },
+      "review_of": "en-a2-u06-l02-ex04"
+    },
+    {
+      "id": "en-a2-u13-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 20,
+      "prompt": "I do ___ every Sunday.",
+      "options": [
+        "yoga",
+        "football",
+        "chess",
+        "swimming"
+      ],
+      "answer": [
+        "yoga"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do + actividad individual: do yoga.",
+        "incorrect": "Revisa esto: Do + actividad individual: do yoga."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He like chicken.",
+      "answer": [
+        "He likes chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s."
+      },
+      "review_of": "en-a1-u05-l06-ex05"
+    },
+    {
+      "id": "en-a2-u13-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "how-often"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I hardly ever go to the gym.",
+        "I go hardly ever to the gym.",
+        "I don't hardly ever go to the gym.",
+        "I hardly ever to go the gym."
+      ],
+      "answer": [
+        "I hardly ever go to the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio va antes del verbo.",
+        "incorrect": "Revisa esto: El adverbio va antes del verbo."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I was born in 1995 and I've lived here since 2019.",
+        "I am born in 1995 and I live here since 2019.",
+        "I born in 1995 and I've lived here for 2019.",
+        "I was born in 1995 and I live here since 2019."
+      ],
+      "answer": [
+        "I was born in 1995 and I've lived here since 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Was born + present perfect con since.",
+        "incorrect": "Revisa esto: Was born + present perfect con since."
+      },
+      "review_of": "en-a2-u10-l06-ex08"
+    },
+    {
+      "id": "en-a2-u13-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you tell me where is the post office?",
+      "answer": [
+        "Could you tell me where the post office is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      },
+      "review_of": "en-a2-u12-l06-ex08"
+    },
+    {
+      "id": "en-a2-u13-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It makes me to feel happy.",
+      "answer": [
+        "It makes me feel happy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + persona + verbo base.",
+        "incorrect": "Revisa esto: Make + persona + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was very bored by the film because it was bored.",
+      "answer": [
+        "I was very bored because the film was boring.",
+        "I was very bored by the film because it was boring."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Película: boring; yo: bored.",
+        "incorrect": "Revisa esto: Película: boring; yo: bored."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you Spanish? — No, I'm not.",
+      "answer": [
+        "Are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you' la pregunta empieza con 'Are'.",
+        "incorrect": "Revisa esto: Con 'you' la pregunta empieza con 'Are'."
+      },
+      "review_of": "en-a1-u02-l04-ex01"
+    },
+    {
+      "id": "en-a2-u13-l06-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Desde cuándo nada?",
+      "options": [
+        "Since last year",
+        "For ten years",
+        "For two years",
+        "Since he was a child"
+      ],
+      "answer": [
+        "Since last year"
+      ],
+      "audio_text": "I play tennis twice a week and I go swimming on Sundays. I've played tennis for ten years, but I started swimming only last year.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I started swimming only last year'.",
+        "incorrect": "Revisa esto: Dice 'I started swimming only last year'."
+      },
+      "audio_script_id": "en-a2-u13-l06-ex10-a"
+    },
+    {
+      "id": "en-a2-u13-l06-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Juego al ajedrez desde hace diez años y me ayuda a relajarme.",
+      "answer": [
+        "I've played chess for ten years and it helps me relax.",
+        "I have played chess for ten years and it helps me relax."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect con for + helps me relax.",
+        "incorrect": "Revisa esto: Present perfect con for + helps me relax."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "Horario fijo: 'The train ___ at 9:10.'",
+      "options": [
+        "leaves",
+        "is leaving",
+        "leave",
+        "leaving"
+      ],
+      "answer": [
+        "leaves"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para horarios se usa presente simple.",
+        "incorrect": "Revisa esto: Para horarios se usa presente simple."
+      },
+      "review_of": "en-a2-u12-l01-ex04"
+    },
+    {
+      "id": "en-a2-u13-l06-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "leisure",
+        "how-often",
+        "hobby-talk"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo de 7 u 8 frases sobre tu tiempo libre: qué actividades haces, cada cuánto, desde cuándo, qué te gusta y qué te gustaría probar.",
+      "min_words": 43,
+      "self_check_es": [
+        "¿Usaste play / go / do correctamente?",
+        "¿Usaste expresiones de frecuencia?",
+        "¿Usaste for o since con present perfect?",
+        "¿Usaste un adjetivo -ed o -ing?",
+        "¿Hablaste de algo que te gustaría hacer?"
+      ],
+      "model_answer": "In my free time I play tennis twice a week and I go swimming on Sundays. I've played tennis for five years. What I like most is that it helps me relax. I hardly ever go to the gym because I find it boring. One day I'd like to try hiking.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv09",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su adverbio.",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        },
+        {
+          "left": "fast",
+          "right": "fast"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Casi todos añaden -ly; good y fast son especiales.",
+        "incorrect": "Revisa esto: Casi todos añaden -ly; good y fast son especiales."
+      },
+      "review_of": "en-a2-u10-l01-ex01"
+    },
+    {
+      "id": "en-a2-u13-l06-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do",
+        "hobby-talk"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Hablas de tu tiempo libre con un compañero de clase.",
+      "turns": [
+        {
+          "speaker": "Classmate",
+          "text": "What do you do in your free time?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I play tennis twice a week and I go swimming on Sundays.",
+            "I play tennis two times a week and I play swimming on Sundays.",
+            "I do tennis twice and I swim of Sundays."
+          ],
+          "best": 0,
+          "why_es": "play + deporte; go + -ing; twice a week."
+        },
+        {
+          "speaker": "Classmate",
+          "text": "That's great! How long have you played tennis?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've played tennis for five years. It helps me relax.",
+            "I play tennis since five years. It helps me to relax.",
+            "I am playing tennis five years ago. It relaxes me."
+          ],
+          "best": 0,
+          "why_es": "Present perfect + for; helps me + verbo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u13-l06-rv10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What do you ___ about group projects?",
+      "answer": [
+        "think"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What do you think about …?",
+        "incorrect": "Revisa esto: What do you think about …?"
+      },
+      "review_of": "en-a2-u10-l03-ex05"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "play tennis · go swimming · do yoga",
+      "How often …? · twice a week · hardly ever",
+      "I'd like to join … · My hobby is …",
+      "bored / boring · excited / exciting"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-play-go-do"
+    },
+    {
+      "type": "grammar",
+      "id": "en-how-often"
+    },
+    {
+      "type": "grammar",
+      "id": "en-joining-club"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hobby-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-ed-ing-adjectives"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

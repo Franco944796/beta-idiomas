@@ -11,7 +11,7 @@
     "es": "Correos y llamadas: formal e informal"
   },
   "objective": "Al terminar escribes correos formales e informales y manejas una llamada telefónica de trabajo con frases adecuadas.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -152,6 +152,33 @@
       }
     },
     {
+      "id": "en-a2-u07-l05-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas personas hay?",
+      "options": [
+        "19",
+        "90",
+        "99",
+        "9"
+      ],
+      "answer": [
+        "90"
+      ],
+      "audio_text": "There are ninety people in the room.",
+      "feedback": {
+        "correct": "¡Correcto! 'ninety' = 90; 'nineteen' = 19.",
+        "incorrect": "Revisa esto: 'ninety' = 90; 'nineteen' = 19."
+      },
+      "audio_script_id": "en-a2-u07-l05-rv01-a",
+      "review_of": "en-a1-u08-l01-ex05"
+    },
+    {
       "id": "en-a2-u07-l05-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -174,6 +201,25 @@
         "correct": "¡Correcto! Fórmula formal para pedir.",
         "incorrect": "Revisa esto: Fórmula formal para pedir."
       }
+    },
+    {
+      "id": "en-a2-u07-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "My birthday is ___ the third of March.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con fechas completas se usa on.",
+        "incorrect": "Revisa esto: Con fechas completas se usa on."
+      },
+      "review_of": "en-a1-u10-l03-ex04"
     },
     {
       "id": "en-a2-u07-l05-ex04",
@@ -207,6 +253,26 @@
         "correct": "¡Correcto! Son frases muy frecuentes en una llamada.",
         "incorrect": "Revisa esto: Son frases muy frecuentes en una llamada."
       }
+    },
+    {
+      "id": "en-a2-u07-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This street is more noisy than that one.",
+      "answer": [
+        "This street is noisier than that one."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos sílabas en -y: noisier.",
+        "incorrect": "Revisa esto: Dos sílabas en -y: noisier."
+      },
+      "review_of": "en-a2-u03-l06-ex07"
     },
     {
       "id": "en-a2-u07-l05-ex05",
@@ -263,6 +329,31 @@
         "correct": "¡Correcto! Para indicar finalidad: to + verbo.",
         "incorrect": "Revisa esto: Para indicar finalidad: to + verbo."
       }
+    },
+    {
+      "id": "en-a2-u07-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 20,
+      "prompt": "Aceptas una invitación con entusiasmo. ¿Qué dices?",
+      "options": [
+        "I'd love to!",
+        "I can't.",
+        "Goodbye.",
+        "I'm fine."
+      ],
+      "answer": [
+        "I'd love to!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para aceptar con ganas: I'd love to.",
+        "incorrect": "Revisa esto: Para aceptar con ganas: I'd love to."
+      },
+      "review_of": "en-a1-u09-l05-ex03"
     },
     {
       "id": "en-a2-u07-l05-ex08",
@@ -351,6 +442,25 @@
       "audio_script_id": "en-a2-u07-l05-ex10-a"
     },
     {
+      "id": "en-a2-u07-l05-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "one, two, ___, four",
+      "answer": [
+        "three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contando: one, two, three, four.",
+        "incorrect": "Revisa esto: Contando: one, two, three, four."
+      },
+      "review_of": "en-a1-u01-l03-ex02"
+    },
+    {
       "id": "en-a2-u07-l05-ex11",
       "type": "roleplay",
       "skill": "speaking",
@@ -405,7 +515,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe un correo formal corto (4 o 5 líneas) para preguntar por un curso de inglés: saludo, motivo, pedido, cierre y despedida.",
-      "min_words": 35,
+      "min_words": 32,
       "self_check_es": [
         "¿Usaste un saludo formal (Dear…)?",
         "¿Indicaste el motivo con I am writing to…?",
@@ -417,6 +527,27 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u07-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to help you.",
+      "answer": [
+        "I'll help you.",
+        "I will help you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de will va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de will va el verbo base, sin to."
+      },
+      "review_of": "en-a2-u05-l03-ex06"
     }
   ],
   "summary": {

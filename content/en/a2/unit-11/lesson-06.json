@@ -1,0 +1,613 @@
+{
+  "id": "en-a2-u11-l06",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 11",
+    "es": "Repaso y checkpoint 11"
+  },
+  "objective": "Al terminar manejas la ropa y las compras: describes prendas, te las pruebas, las devuelves y aconsejas qué ponerse.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 11: junta ropa, colores y materiales, probarse prendas, describir, devolver y aconsejar."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: prendas, colores específicos, estampados y materiales, try on y tallas, is wearing, cambios y devoluciones, y should con la ropa.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 11**\n\n- *dark blue · striped · made of cotton · a pair of jeans*\n- *Can I try it on? · It's too tight. · It fits me. · It suits you.*\n- *She's wearing a red dress. · the man in the green hat · the girl with the scarf*\n- *I'd like to exchange it. · I'd like a refund, please. · on sale · 30% off*\n- *You should wear … · more formal than … · You look great.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Clothes",
+        "Materials",
+        "Patterns"
+      ],
+      "items": [
+        {
+          "text": "jumper",
+          "category": "Clothes"
+        },
+        {
+          "text": "boots",
+          "category": "Clothes"
+        },
+        {
+          "text": "scarf",
+          "category": "Clothes"
+        },
+        {
+          "text": "cotton",
+          "category": "Materials"
+        },
+        {
+          "text": "wool",
+          "category": "Materials"
+        },
+        {
+          "text": "leather",
+          "category": "Materials"
+        },
+        {
+          "text": "striped",
+          "category": "Patterns"
+        },
+        {
+          "text": "checked",
+          "category": "Patterns"
+        },
+        {
+          "text": "plain",
+          "category": "Patterns"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar vocabulario por categorías ayuda a retenerlo.",
+        "incorrect": "Revisa esto: Clasificar vocabulario por categorías ayuda a retenerlo."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "I bought a pair ___ jeans yesterday.",
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pair of + prenda en plural.",
+        "incorrect": "Revisa esto: A pair of + prenda en plural."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 25,
+      "prompt": "She sings very ___. (bien)",
+      "answer": [
+        "well"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio de good es well.",
+        "incorrect": "Revisa esto: El adverbio de good es well."
+      },
+      "review_of": "en-a2-u10-l01-ex02"
+    },
+    {
+      "id": "en-a2-u11-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ these? They're keys.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: What are these?",
+        "incorrect": "Revisa esto: Plural: What are these?"
+      },
+      "review_of": "en-a1-u11-l02-ex02"
+    },
+    {
+      "id": "en-a2-u11-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I try this jacket ___? (probarme)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try on es un phrasal verb.",
+        "incorrect": "Revisa esto: Try on es un phrasal verb."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "The jacket is ___ tight. I need a larger size. (demasiado)",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too + adjetivo.",
+        "incorrect": "Revisa esto: Too + adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna ___ wearing a long red dress in the photo.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora: is wearing.",
+        "incorrect": "Revisa esto: Ahora: is wearing."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "Does he work? — ___",
+      "options": [
+        "Yes, he does.",
+        "Yes, he works.",
+        "Yes, he do.",
+        "Yes, does."
+      ],
+      "answer": [
+        "Yes, he does."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta usa el auxiliar: Yes, he does.",
+        "incorrect": "Revisa esto: La respuesta corta usa el auxiliar: Yes, he does."
+      },
+      "review_of": "en-a1-u04-l04-ex05"
+    },
+    {
+      "id": "en-a2-u11-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I'd like a refund, please.",
+        "I want refund me.",
+        "Refund I want.",
+        "I like refund."
+      ],
+      "answer": [
+        "I'd like a refund, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido cortés.",
+        "incorrect": "Revisa esto: Pedido cortés."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío en la sala. Ofreces cerrar la ventana:",
+      "options": [
+        "I'll close the window.",
+        "I close the window.",
+        "I'm going to the window.",
+        "I will to close the window."
+      ],
+      "answer": [
+        "I'll close the window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + verbo.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + verbo."
+      },
+      "review_of": "en-a2-u05-l03-ex02"
+    },
+    {
+      "id": "en-a2-u11-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "You should wear something smart.",
+        "You should to wear smart.",
+        "You shoulds wear smart.",
+        "You should wearing smart."
+      ],
+      "answer": [
+        "You should wear something smart."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + verbo base.",
+        "incorrect": "Revisa esto: Should + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is taller that me.",
+      "answer": [
+        "She is taller than me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del comparativo se usa than.",
+        "incorrect": "Revisa esto: Después del comparativo se usa than."
+      },
+      "review_of": "en-a2-u03-l02-ex07"
+    },
+    {
+      "id": "en-a2-u11-l06-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 25,
+      "prompt": "We stayed at a nice ___ near the beach.",
+      "answer": [
+        "hotel"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El lugar donde dormís en un viaje es un hotel.",
+        "incorrect": "Revisa esto: El lugar donde dormís en un viaje es un hotel."
+      },
+      "review_of": "en-a2-u02-l01-ex05"
+    },
+    {
+      "id": "en-a2-u11-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I try on it?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El pronombre va en medio de try … on.",
+        "incorrect": "Revisa esto: El pronombre va en medio de try … on."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, I opened the door. Then I saw a cat.",
+      "options": [
+        "First",
+        "Finally",
+        "Later",
+        "Yesterday"
+      ],
+      "answer": [
+        "First"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! First indica el primer paso de la historia.",
+        "incorrect": "Revisa esto: First indica el primer paso de la historia."
+      },
+      "review_of": "en-a2-u01-l05-ex01"
+    },
+    {
+      "id": "en-a2-u11-l06-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I bought a blue dark jumper.",
+      "answer": [
+        "I bought a dark blue jumper."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dark va antes del color.",
+        "incorrect": "Revisa esto: Dark va antes del color."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué problema tenía el otro suéter?",
+      "options": [
+        "It was too small",
+        "It was faulty",
+        "It was too expensive",
+        "It was the wrong colour"
+      ],
+      "answer": [
+        "It was too small"
+      ],
+      "audio_text": "I'm looking for a dark blue wool jumper, size medium. I bought a similar one last week, but it was too small, so I'd like to exchange it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it was too small'.",
+        "incorrect": "Revisa esto: Dice 'it was too small'."
+      },
+      "audio_script_id": "en-a2-u11-l06-ex10-a"
+    },
+    {
+      "id": "en-a2-u11-l06-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "you",
+        "spell",
+        "your",
+        "name",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Así se pide que deletreen una palabra.",
+        "incorrect": "Revisa esto: Así se pide que deletreen una palabra."
+      },
+      "review_of": "en-a1-u01-l02-ex05"
+    },
+    {
+      "id": "en-a2-u11-l06-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me probé la chaqueta, pero me queda muy apretada.",
+      "answer": [
+        "I tried the jacket on, but it's too tight.",
+        "I tried on the jacket, but it's too tight.",
+        "I tried the jacket on but it's too tight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try on + too tight.",
+        "incorrect": "Revisa esto: Try on + too tight."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex12",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "describing-clothes",
+        "dress-advice"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe a un amigo que lleva puesta ropa (2 o 3 frases) y luego aconséjale qué ponerse para una ocasión (2 frases).",
+      "min_words": 27,
+      "self_check_es": [
+        "¿Usaste is wearing para describir?",
+        "¿Usaste in o with para identificarlo?",
+        "¿Diste consejos con should / shouldn't?",
+        "¿Nombraste prendas y colores?"
+      ],
+      "model_answer": "My friend Pablo is wearing a dark blue jumper and grey trousers. He's the man in the black boots. For a job interview, he should wear a suit. He shouldn't wear trainers.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una tienda y te prueban una prenda.",
+      "turns": [
+        {
+          "speaker": "Assistant",
+          "text": "How does it fit?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It's a bit too tight. Do you have it in a larger size?",
+            "It's too much tight. You have bigger?",
+            "It no fits. Big."
+          ],
+          "best": 0,
+          "why_es": "Too + adjetivo + Do you have…?"
+        },
+        {
+          "speaker": "Assistant",
+          "text": "Yes. Here's a large. It suits you!"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. I'll take it. How much is it?",
+            "Thanks. I take. How much cost?",
+            "Thank. Take it. Price?"
+          ],
+          "best": 0,
+          "why_es": "I'll take it + How much is it?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u11-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las llaves de Anna. Respondes: 'They're ___.'",
+      "options": [
+        "Anna's",
+        "Annas",
+        "Anna",
+        "of Anna"
+      ],
+      "answer": [
+        "Anna's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 's indica posesión: Anna's.",
+        "incorrect": "Revisa esto: 's indica posesión: Anna's."
+      },
+      "review_of": "en-a2-u09-l04-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "dark blue · striped · cotton · a pair of jeans",
+      "Can I try it on? · It fits / suits me.",
+      "She's wearing … · the man in the green hat",
+      "I'd like a refund · You should wear …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-adjective-order"
+    },
+    {
+      "type": "grammar",
+      "id": "en-trying-on"
+    },
+    {
+      "type": "grammar",
+      "id": "en-describing-clothes"
+    },
+    {
+      "type": "grammar",
+      "id": "en-returns-complaints"
+    },
+    {
+      "type": "grammar",
+      "id": "en-dress-advice"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

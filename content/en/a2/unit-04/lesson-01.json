@@ -11,7 +11,7 @@
     "es": "Contables e incontables y envases"
   },
   "objective": "Al terminar distingues sustantivos contables e incontables y usas envases y medidas (a bottle of, a loaf of…).",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -223,6 +223,25 @@
       }
     },
     {
+      "id": "en-a2-u04-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "I prefer trains ___ buses.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prefer + to: I prefer A to B.",
+        "incorrect": "Revisa esto: Prefer + to: I prefer A to B."
+      },
+      "review_of": "en-a2-u03-l05-ex04"
+    },
+    {
       "id": "en-a2-u04-l01-ex03",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -281,6 +300,61 @@
         "correct": "¡Correcto! Para agua en un vaso: a glass of water.",
         "incorrect": "Revisa esto: Para agua en un vaso: a glass of water."
       }
+    },
+    {
+      "id": "en-a2-u04-l01-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Go straight on.",
+          "right": "Siga recto."
+        },
+        {
+          "left": "Turn left.",
+          "right": "Gire a la izquierda."
+        },
+        {
+          "left": "Turn right.",
+          "right": "Gire a la derecha."
+        },
+        {
+          "left": "Take the second right.",
+          "right": "Tome la segunda a la derecha."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las instrucciones básicas.",
+        "incorrect": "Revisa esto: Son las instrucciones básicas."
+      },
+      "review_of": "en-a1-u07-l03-ex01"
+    },
+    {
+      "id": "en-a2-u04-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is next to the park.",
+      "answer": [
+        "It's next to the park.",
+        "It is next to the park."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay que decir el sujeto: it.",
+        "incorrect": "Revisa esto: Hay que decir el sujeto: it."
+      },
+      "review_of": "en-a1-u07-l02-ex06"
     },
     {
       "id": "en-a2-u04-l01-ex06",
@@ -381,6 +455,33 @@
       }
     },
     {
+      "id": "en-a2-u04-l01-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo se quedó la persona?",
+      "options": [
+        "Three days",
+        "Five days",
+        "Ten days",
+        "One day"
+      ],
+      "answer": [
+        "Three days"
+      ],
+      "audio_text": "—When did you arrive? —On Friday evening. —How long did you stay? —Only three days.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'Only three days'.",
+        "incorrect": "Revisa esto: Responde 'Only three days'."
+      },
+      "audio_script_id": "en-a2-u04-l01-rv04-a",
+      "review_of": "en-a2-u02-l02-ex08"
+    },
+    {
       "id": "en-a2-u04-l01-ex10",
       "type": "listening",
       "skill": "listening",
@@ -438,6 +539,31 @@
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
       }
+    },
+    {
+      "id": "en-a2-u04-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "The cat is ___ the box. (dentro)",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "between"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dentro = in.",
+        "incorrect": "Revisa esto: Dentro = in."
+      },
+      "review_of": "en-a1-u11-l04-ex03"
     }
   ],
   "summary": {

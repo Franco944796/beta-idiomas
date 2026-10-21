@@ -1,0 +1,657 @@
+{
+  "id": "en-a2-u11-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What are they wearing?",
+    "es": "Describir lo que lleva puesto alguien"
+  },
+  "objective": "Al terminar describes lo que lleva puesto una persona (She's wearing…) e identificas a alguien por su ropa (the man in the green hat).",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'¿Cuál es Tom?' 'El de la gorra verde.' Para identificar a alguien se describe qué lleva puesto."
+  },
+  "input": {
+    "type": "text",
+    "text": "In the photo, Anna is wearing a long red dress and black shoes. Next to her, Tom is wearing a grey jumper and jeans. The man in the green hat is talking to a girl with a white scarf. Everybody is smiling, but the little boy in striped pyjamas is sleeping on the sofa!",
+    "es": "En la foto, Anna lleva un vestido largo rojo y zapatos negros. A su lado, Tom lleva un suéter gris y jeans. El hombre de la gorra verde está hablando con una chica con una bufanda blanca. Todos sonríen, ¡pero el niño del pijama a rayas está durmiendo en el sofá!",
+    "glossary": [
+      {
+        "id": "en-wear",
+        "lemma": "wear",
+        "pos": "verb",
+        "ipa": "/weə/",
+        "es": "llevar puesto, vestir (pasado: wore)",
+        "example": "She usually wears jeans."
+      },
+      {
+        "id": "en-long",
+        "lemma": "long",
+        "pos": "adj",
+        "ipa": "/lɒŋ/",
+        "es": "largo/a",
+        "example": "a long red dress"
+      },
+      {
+        "id": "en-smile",
+        "lemma": "smile",
+        "pos": "verb",
+        "ipa": "/smaɪl/",
+        "es": "sonreír",
+        "example": "Everybody is smiling."
+      },
+      {
+        "id": "en-next-to",
+        "lemma": "next to",
+        "pos": "prep",
+        "ipa": "/nekst tuː/",
+        "es": "al lado de",
+        "example": "Next to her, Tom is wearing a jumper."
+      },
+      {
+        "id": "en-the-man-in-the-green-hat",
+        "lemma": "the man in the green hat",
+        "pos": "phrase",
+        "ipa": "/ðə mæn ɪn ðə ɡriːn hæt/",
+        "es": "el hombre de la gorra verde",
+        "example": "The man in the green hat is talking."
+      },
+      {
+        "id": "en-a-girl-with-a-white-scarf",
+        "lemma": "a girl with a white scarf",
+        "pos": "phrase",
+        "ipa": "/ə ɡɜːl wɪð ə waɪt skɑːf/",
+        "es": "una chica con una bufanda blanca",
+        "example": "She's the girl with a white scarf."
+      },
+      {
+        "id": "en-pyjamas",
+        "lemma": "pyjamas",
+        "pos": "noun",
+        "ipa": "/pəˈdʒɑːməz/",
+        "es": "pijama (UK)",
+        "example": "He's wearing striped pyjamas."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Describir lo que alguien lleva puesto ahora (presente continuo):** *is / are + wearing* → *Anna **is wearing** a red dress.* · *They **are wearing** uniforms.*\n\n**Hábito (presente simple):** *wears* → *Tom usually **wears** jeans.* (rutina) ≠ *Tom **is wearing** a jumper today.* (ahora)\n\n**Identificar a alguien con in / with**\n\n- **in** + ropa: *the man **in** the green hat · the girl **in** the red dress*\n- **with** + accesorio / rasgo: *the girl **with** the white scarf · the man **with** a beard*\n\n**Preguntas:** *What is he wearing? · Which one is Tom? — The one in the grey jumper.* · *Who is the girl with the scarf?*\n\n**Orden útil para describir:** *edad / altura → pelo → ropa*: *a tall man with short hair, wearing a blue jacket.*\n\nOjo: *wear* es 'llevar puesto'. 'Llevar' una bolsa = *carry*. 'Ponerse' = *put on*.\n\nPronunciación: *wearing* /ˈweərɪŋ/ · *smile* /smaɪl/ · *pyjamas* /pəˈdʒɑːməz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "He wears a hat now.",
+        "right": "He's wearing a hat now.",
+        "note": "Ahora → presente continuo."
+      },
+      {
+        "wrong": "the girl of the red dress",
+        "right": "the girl in the red dress",
+        "note": "Se usa in con la ropa."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l03-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna ___ wearing a red dress in the photo.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora, con she: is wearing.",
+        "incorrect": "Revisa esto: Ahora, con she: is wearing."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ wearing school uniforms today.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they: are wearing.",
+        "incorrect": "Revisa esto: Con they: are wearing."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom usually ___ jeans. (llevar puesto)",
+      "answer": [
+        "wears"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito: presente simple con -s.",
+        "incorrect": "Revisa esto: Hábito: presente simple con -s."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which one is Tom? — The man ___ the grey jumper.",
+      "options": [
+        "in",
+        "with",
+        "on",
+        "at"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In + ropa para identificar a alguien.",
+        "incorrect": "Revisa esto: In + ropa para identificar a alguien."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "The girl ___ a white scarf is talking to him.",
+      "options": [
+        "with",
+        "in",
+        "on",
+        "by"
+      ],
+      "answer": [
+        "with"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! With + accesorio.",
+        "incorrect": "Revisa esto: With + accesorio."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Su madre (de él) es médica.",
+      "answer": [
+        "His mother is a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño masculino = his.",
+        "incorrect": "Revisa esto: Dueño masculino = his."
+      },
+      "review_of": "en-a1-u03-l02-ex08"
+    },
+    {
+      "id": "en-a2-u11-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres preguntar qué lleva puesto alguien ahora:",
+      "options": [
+        "What is he wearing?",
+        "What does he wearing?",
+        "What he is wear?",
+        "What is he wear?"
+      ],
+      "answer": [
+        "What is he wearing?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo: What is he wearing?",
+        "incorrect": "Revisa esto: Presente continuo: What is he wearing?"
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir con educación en un restaurante.",
+      "options": [
+        "I'd like the fish, please.",
+        "I want the fish.",
+        "Give me fish.",
+        "Fish!"
+      ],
+      "answer": [
+        "I'd like the fish, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like + please es cortés.",
+        "incorrect": "Revisa esto: I'd like + please es cortés."
+      },
+      "review_of": "en-a2-u04-l06-ex06"
+    },
+    {
+      "id": "en-a2-u11-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "jobs"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "do",
+        "?",
+        "What",
+        "do"
+      ],
+      "answer": [
+        "What",
+        "do",
+        "you",
+        "do",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta sobre la profesión.",
+        "incorrect": "Revisa esto: Pregunta sobre la profesión."
+      },
+      "review_of": "en-a1-u02-l05-ex06"
+    },
+    {
+      "id": "en-a2-u11-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
+    },
+    {
+      "id": "en-a2-u11-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He's wear a blue jacket.",
+      "answer": [
+        "He's wearing a blue jacket.",
+        "He is wearing a blue jacket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de is va el verbo en -ing.",
+        "incorrect": "Revisa esto: Después de is va el verbo en -ing."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is wearing a hat every day.",
+      "answer": [
+        "She wears a hat every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every day indica hábito: presente simple.",
+        "incorrect": "Revisa esto: Every day indica hábito: presente simple."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "in",
+        "the",
+        "green",
+        "hat",
+        "is",
+        "smiling",
+        ".",
+        "The",
+        "man"
+      ],
+      "answer": [
+        "The",
+        "man",
+        "in",
+        "the",
+        "green",
+        "hat",
+        "is",
+        "smiling",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + in + ropa + is + verbo-ing.",
+        "incorrect": "Revisa esto: Sujeto + in + ropa + is + verbo-ing."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom is a student. ___ is English.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tom es un hombre: he.",
+        "incorrect": "Revisa esto: Tom es un hombre: he."
+      },
+      "review_of": "en-a1-u02-l06-ex03"
+    },
+    {
+      "id": "en-a2-u11-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué lleva puesto Tom?",
+      "options": [
+        "A grey jumper and jeans",
+        "A red dress",
+        "Striped pyjamas",
+        "A green hat"
+      ],
+      "answer": [
+        "A grey jumper and jeans"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'Tom is wearing a grey jumper and jeans'.",
+        "incorrect": "Revisa esto: El texto dice 'Tom is wearing a grey jumper and jeans'."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién está durmiendo en el sofá?",
+      "options": [
+        "The little boy",
+        "Anna",
+        "The man in the green hat",
+        "The girl with the scarf"
+      ],
+      "answer": [
+        "The little boy"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El texto dice 'the little boy in striped pyjamas is sleeping on the sofa'.",
+        "incorrect": "Revisa esto: El texto dice 'the little boy in striped pyjamas is sleeping on the sofa'."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué lleva en la cabeza?",
+      "options": [
+        "A red cap",
+        "A blue jacket",
+        "Black trainers",
+        "A green hat"
+      ],
+      "answer": [
+        "A red cap"
+      ],
+      "audio_text": "My brother is the tall boy in the blue jacket. He's wearing black trainers and a red cap.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a red cap'.",
+        "incorrect": "Revisa esto: Dice 'a red cap'."
+      },
+      "audio_script_id": "en-a2-u11-l03-ex12-a"
+    },
+    {
+      "id": "en-a2-u11-l03-ex13",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe a una persona (real o imaginaria) en 4 o 5 frases: cómo es físicamente y qué lleva puesto hoy. Usa is wearing, in y with.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste is wearing para lo que lleva hoy?",
+        "¿Usaste wears para un hábito?",
+        "¿Usaste in o with para identificarla?",
+        "¿Describiste colores y prendas?"
+      ],
+      "model_answer": "My friend Laura is tall and has long brown hair. Today she's wearing a light blue cotton shirt and a black skirt. She's the girl with the red scarf. She usually wears jeans, but today she has a party.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "No entendiste. Quieres que lo repitan. Dices:",
+      "options": [
+        "Can you repeat that, please?",
+        "Repeat you.",
+        "I not know.",
+        "What? Again!"
+      ],
+      "answer": [
+        "Can you repeat that, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Petición cortés para repetir.",
+        "incorrect": "Revisa esto: Petición cortés para repetir."
+      },
+      "review_of": "en-a1-u11-l05-ex02"
+    },
+    {
+      "id": "en-a2-u11-l03-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Pierdes a tu amigo en un centro comercial y hablas con seguridad.",
+      "turns": [
+        {
+          "speaker": "Guard",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I can't find my friend. He's tall and he's wearing a blue jacket.",
+            "I no find friend. He tall, he wear blue jacket.",
+            "My friend lost. Tall, blue jacket he wears."
+          ],
+          "best": 0,
+          "why_es": "He's + descripción + is wearing…"
+        },
+        {
+          "speaker": "Guard",
+          "text": "What is he wearing on his feet?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "He's wearing black trainers.",
+            "He wears of black trainers.",
+            "He is wear trainers black."
+          ],
+          "best": 0,
+          "why_es": "is wearing + color + prenda."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u11-l03-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is next to the park.",
+      "answer": [
+        "It's next to the park.",
+        "It is next to the park."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay que decir el sujeto: it.",
+        "incorrect": "Revisa esto: Hay que decir el sujeto: it."
+      },
+      "review_of": "en-a1-u07-l02-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "She's wearing a red dress.",
+      "What is he wearing?",
+      "the man in the green hat · the girl with the scarf",
+      "usually wears (hábito) · is wearing (ahora)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-wear"
+    },
+    {
+      "type": "vocab",
+      "id": "en-long"
+    },
+    {
+      "type": "vocab",
+      "id": "en-smile"
+    },
+    {
+      "type": "vocab",
+      "id": "en-next-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-the-man-in-the-green-hat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-girl-with-a-white-scarf"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pyjamas"
+    },
+    {
+      "type": "grammar",
+      "id": "en-describing-clothes"
+    }
+  ]
+}

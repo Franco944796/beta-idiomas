@@ -11,7 +11,7 @@
     "es": "Imperativos y pedidos educados"
   },
   "objective": "Al terminar das órdenes y pedidos educados con el imperativo y pides ayuda.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -178,6 +178,27 @@
       }
     },
     {
+      "id": "en-a1-u07-l05-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi padre es amable.",
+      "answer": [
+        "My father is kind.",
+        "My father's kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Padre = father; amable = kind.",
+        "incorrect": "Revisa esto: Padre = father; amable = kind."
+      },
+      "review_of": "en-a1-u03-l05-ex07"
+    },
+    {
       "id": "en-a1-u07-l05-ex04",
       "type": "error_correction",
       "skill": "grammar",
@@ -195,6 +216,37 @@
         "correct": "¡Correcto! El imperativo negativo usa Don't.",
         "incorrect": "Revisa esto: El imperativo negativo usa Don't."
       }
+    },
+    {
+      "id": "en-a1-u07-l05-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "countries"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "from",
+        "?",
+        "Where",
+        "are"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "you",
+        "from",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de origen.",
+        "incorrect": "Revisa esto: Pregunta de origen."
+      },
+      "review_of": "en-a1-u02-l01-ex07"
     },
     {
       "id": "en-a1-u07-l05-ex05",
@@ -215,6 +267,26 @@
         "correct": "¡Correcto! El imperativo no lleva sujeto.",
         "incorrect": "Revisa esto: El imperativo no lleva sujeto."
       }
+    },
+    {
+      "id": "en-a1-u07-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
     },
     {
       "id": "en-a1-u07-l05-ex06",
@@ -321,6 +393,31 @@
       }
     },
     {
+      "id": "en-a1-u07-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se pregunta la edad?",
+      "options": [
+        "How old are you?",
+        "How many years have you?",
+        "What age are you?",
+        "How are you old?"
+      ],
+      "answer": [
+        "How old are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La pregunta natural es 'How old are you?'.",
+        "incorrect": "Revisa esto: La pregunta natural es 'How old are you?'."
+      },
+      "review_of": "en-a1-u01-l05-ex01"
+    },
+    {
       "id": "en-a1-u07-l05-ex10",
       "type": "pronunciation",
       "skill": "speaking",
@@ -347,6 +444,31 @@
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
       }
+    },
+    {
+      "id": "en-a1-u07-l05-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 20,
+      "prompt": "Your mother's mother is your…",
+      "options": [
+        "grandmother",
+        "sister",
+        "daughter",
+        "wife"
+      ],
+      "answer": [
+        "grandmother"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La madre de tu madre es tu abuela: grandmother.",
+        "incorrect": "Revisa esto: La madre de tu madre es tu abuela: grandmother."
+      },
+      "review_of": "en-a1-u03-l01-ex02"
     }
   ],
   "summary": {

@@ -11,7 +11,7 @@
     "es": "En el médico y la farmacia"
   },
   "objective": "Al terminar describes tus síntomas a un médico o en una farmacia y entiendes sus instrucciones.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -196,6 +196,111 @@
       }
     },
     {
+      "id": "en-a2-u06-l02-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bread",
+          "right": "pan"
+        },
+        {
+          "left": "cheese",
+          "right": "queso"
+        },
+        {
+          "left": "chicken",
+          "right": "pollo"
+        },
+        {
+          "left": "milk",
+          "right": "leche"
+        },
+        {
+          "left": "juice",
+          "right": "jugo"
+        },
+        {
+          "left": "apple",
+          "right": "manzana"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario.",
+        "incorrect": "Revisa esto: Repasa el vocabulario."
+      },
+      "review_of": "en-a1-u05-l06-ex01"
+    },
+    {
+      "id": "en-a2-u06-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "No estás seguro de si saldrás esta noche. Dices:",
+      "options": [
+        "I might go out tonight.",
+        "I will might go out tonight.",
+        "I might to go out tonight.",
+        "I mights go out tonight."
+      ],
+      "answer": [
+        "I might go out tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      },
+      "review_of": "en-a2-u05-l04-ex03"
+    },
+    {
+      "id": "en-a2-u06-l02-rv03",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo con su pasado.",
+      "pairs": [
+        {
+          "left": "walk",
+          "right": "walked"
+        },
+        {
+          "left": "dance",
+          "right": "danced"
+        },
+        {
+          "left": "study",
+          "right": "studied"
+        },
+        {
+          "left": "stop",
+          "right": "stopped"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada verbo sigue una regla de ortografía distinta.",
+        "incorrect": "Revisa esto: Cada verbo sigue una regla de ortografía distinta."
+      },
+      "review_of": "en-a2-u01-l02-ex04"
+    },
+    {
       "id": "en-a2-u06-l02-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -338,6 +443,25 @@
       }
     },
     {
+      "id": "en-a2-u06-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd ___ the chicken soup, please. (me gustaría)",
+      "answer": [
+        "like"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like = I would like.",
+        "incorrect": "Revisa esto: I'd like = I would like."
+      },
+      "review_of": "en-a2-u04-l03-ex04"
+    },
+    {
       "id": "en-a2-u06-l02-ex09",
       "type": "listening",
       "skill": "listening",
@@ -428,6 +552,38 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a2-u06-l02-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "a",
+        "nurse",
+        ".",
+        "Laura's",
+        "mother"
+      ],
+      "answer": [
+        "Laura's",
+        "mother",
+        "is",
+        "a",
+        "nurse",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona + verbo.",
+        "incorrect": "Revisa esto: Dueño + 's + persona + verbo."
+      },
+      "review_of": "en-a1-u03-l03-ex07"
     }
   ],
   "summary": {

@@ -11,7 +11,7 @@
     "es": "As...as, too y enough"
   },
   "objective": "Al terminar usas (not) as … as, too y enough para comparar igualdades y decir que algo es demasiado o suficiente.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -246,6 +246,62 @@
       }
     },
     {
+      "id": "en-a2-u03-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ see him. (negativa)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: didn't + base.",
+        "incorrect": "Revisa esto: Negativa: didn't + base."
+      },
+      "review_of": "en-a2-u01-l06-ex04"
+    },
+    {
+      "id": "en-a2-u03-l04-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        ".",
+        "I've",
+        "got"
+      ],
+      "answer": [
+        "I've",
+        "got",
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos objetos unidos con and.",
+        "incorrect": "Revisa esto: Dos objetos unidos con and."
+      },
+      "review_of": "en-a1-u11-l01-ex07"
+    },
+    {
       "id": "en-a2-u03-l04-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -352,6 +408,26 @@
       "audio_script_id": "en-a2-u03-l04-ex10-a"
     },
     {
+      "id": "en-a2-u03-l04-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ go to school yesterday. (negativa)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa en pasado: didn't + verbo base.",
+        "incorrect": "Revisa esto: Negativa en pasado: didn't + verbo base."
+      },
+      "review_of": "en-a2-u01-l04-ex01"
+    },
+    {
       "id": "en-a2-u03-l04-ex11",
       "type": "translation",
       "skill": "writing",
@@ -370,6 +446,25 @@
         "correct": "¡Correcto! Enough después del adjetivo.",
         "incorrect": "Revisa esto: Enough después del adjetivo."
       }
+    },
+    {
+      "id": "en-a2-u03-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ___ the table. (sobre)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie: on.",
+        "incorrect": "Revisa esto: Sobre una superficie: on."
+      },
+      "review_of": "en-a1-u06-l03-ex02"
     }
   ],
   "summary": {

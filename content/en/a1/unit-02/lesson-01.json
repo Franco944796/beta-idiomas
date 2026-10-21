@@ -11,7 +11,7 @@
     "es": "Países y nacionalidades"
   },
   "objective": "Al terminar puedes decir de qué país eres y cuál es tu nacionalidad, y preguntar lo mismo.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -300,6 +300,31 @@
       }
     },
     {
+      "id": "en-a1-u02-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'fourteen'?",
+      "options": [
+        "14",
+        "40",
+        "4",
+        "41"
+      ],
+      "answer": [
+        "14"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! '-teen' indica 13–19: fourteen = 14.",
+        "incorrect": "Revisa esto: '-teen' indica 13–19: fourteen = 14."
+      },
+      "review_of": "en-a1-u01-l03-ex03"
+    },
+    {
       "id": "en-a1-u02-l01-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -337,6 +362,40 @@
         "correct": "¡Correcto! Los países llevan mayúscula en inglés.",
         "incorrect": "Revisa esto: Los países llevan mayúscula en inglés."
       }
+    },
+    {
+      "id": "en-a1-u02-l01-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada letra con su sonido.",
+      "pairs": [
+        {
+          "left": "G",
+          "right": "/dʒiː/"
+        },
+        {
+          "left": "J",
+          "right": "/dʒeɪ/"
+        },
+        {
+          "left": "E",
+          "right": "/iː/"
+        },
+        {
+          "left": "I",
+          "right": "/aɪ/"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! G y J, y también E e I, se confunden mucho: practícalas juntas.",
+        "incorrect": "Revisa esto: G y J, y también E e I, se confunden mucho: practícalas juntas."
+      },
+      "review_of": "en-a1-u01-l02-ex04"
     },
     {
       "id": "en-a1-u02-l01-ex05",
@@ -413,6 +472,25 @@
         "correct": "¡Correcto! Pregunta de origen.",
         "incorrect": "Revisa esto: Pregunta de origen."
       }
+    },
+    {
+      "id": "en-a1-u02-l01-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 25,
+      "prompt": "A, B, C, D, ___, F",
+      "answer": [
+        "E"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es A, B, C, D, E, F.",
+        "incorrect": "Revisa esto: El orden es A, B, C, D, E, F."
+      },
+      "review_of": "en-a1-u01-l02-ex01"
     }
   ],
   "summary": {

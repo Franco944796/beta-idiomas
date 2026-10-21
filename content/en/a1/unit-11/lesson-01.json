@@ -1,0 +1,673 @@
+{
+  "id": "en-a1-u11-l01",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Everyday objects",
+    "es": "Objetos de uso diario"
+  },
+  "objective": "Al terminar nombras los objetos que llevas y usas todos los días: libro, lapicera, llaves, teléfono, billetera…",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Mira lo que tienes ahora cerca: un teléfono, unas llaves, una lapicera. ¿Cómo se dicen en inglés?"
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "noun",
+        "ipa": "/bʊk/",
+        "es": "libro",
+        "example": "I've got a book."
+      },
+      {
+        "id": "en-pen",
+        "lemma": "pen",
+        "pos": "noun",
+        "ipa": "/pen/",
+        "es": "lapicera, bolígrafo",
+        "example": "I've got a blue pen."
+      },
+      {
+        "id": "en-pencil",
+        "lemma": "pencil",
+        "pos": "noun",
+        "ipa": "/ˈpensl/",
+        "es": "lápiz",
+        "example": "I write with a pencil."
+      },
+      {
+        "id": "en-notebook",
+        "lemma": "notebook",
+        "pos": "noun",
+        "ipa": "/ˈnəʊtbʊk/",
+        "es": "cuaderno",
+        "example": "My notebook is red."
+      },
+      {
+        "id": "en-bag",
+        "lemma": "bag",
+        "pos": "noun",
+        "ipa": "/bæɡ/",
+        "es": "bolso, mochila, bolsa",
+        "example": "My bag is on the chair."
+      },
+      {
+        "id": "en-keys",
+        "lemma": "keys",
+        "pos": "noun",
+        "ipa": "/kiːz/",
+        "es": "llaves",
+        "example": "Where are my keys?"
+      },
+      {
+        "id": "en-phone",
+        "lemma": "phone",
+        "pos": "noun",
+        "ipa": "/fəʊn/",
+        "es": "teléfono",
+        "example": "My phone is new."
+      },
+      {
+        "id": "en-wallet",
+        "lemma": "wallet",
+        "pos": "noun",
+        "ipa": "/ˈwɒlɪt/",
+        "es": "billetera",
+        "example": "My wallet is in my bag."
+      },
+      {
+        "id": "en-glasses",
+        "lemma": "glasses",
+        "pos": "noun",
+        "ipa": "/ˈɡlɑːsɪz/",
+        "es": "anteojos, gafas",
+        "example": "My glasses are on the table."
+      },
+      {
+        "id": "en-computer",
+        "lemma": "computer",
+        "pos": "noun",
+        "ipa": "/kəmˈpjuːtə/",
+        "es": "computadora",
+        "example": "I've got a computer."
+      },
+      {
+        "id": "en-watch",
+        "lemma": "watch",
+        "pos": "noun",
+        "ipa": "/wɒtʃ/",
+        "es": "reloj de pulsera",
+        "example": "I've got a new watch."
+      },
+      {
+        "id": "en-clock",
+        "lemma": "clock",
+        "pos": "noun",
+        "ipa": "/klɒk/",
+        "es": "reloj (de pared o de mesa)",
+        "example": "The clock is on the wall."
+      },
+      {
+        "id": "en-umbrella",
+        "lemma": "umbrella",
+        "pos": "noun",
+        "ipa": "/ʌmˈbrelə/",
+        "es": "paraguas",
+        "example": "I've got an umbrella."
+      },
+      {
+        "id": "en-bottle",
+        "lemma": "bottle",
+        "pos": "noun",
+        "ipa": "/ˈbɒtl/",
+        "es": "botella",
+        "example": "A bottle of water, please."
+      },
+      {
+        "id": "en-camera",
+        "lemma": "camera",
+        "pos": "noun",
+        "ipa": "/ˈkæmrə/",
+        "es": "cámara",
+        "example": "My camera is old."
+      },
+      {
+        "id": "en-headphones",
+        "lemma": "headphones",
+        "pos": "noun",
+        "ipa": "/ˈhedfəʊnz/",
+        "es": "auriculares",
+        "example": "My headphones are black."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Objetos de todos los días**\n\n| Para escribir y estudiar | Electrónicos | Personales |\n|---|---|---|\n| book · pen · pencil · notebook | phone · computer · camera · headphones | keys · wallet · glasses · watch · umbrella · bag |\n\n**Singular y plural:** *a pen → two pens · a key → keys · a bag → bags*.\n\n**Siempre en plural:** *glasses, headphones, keys* (normalmente) y *trousers*. Se dice **My glasses are on the table** (con *are*). Para hablar de uno solo: *a pair of glasses*.\n\n**a / an:** *a pen, a notebook* · *an umbrella, an apple* (según el **sonido**: vocal → an).\n\n**watch vs clock:** *watch* = reloj de pulsera (y el verbo 'mirar'); *clock* = reloj de pared o de mesa.\n\n**Ojo, falso amigo:** *carpet* es **alfombra**; carpeta = *folder*.\n\nPronunciación: *pencil* /ˈpensl/ · *computer* /kəmˈpjuːtə/ · *umbrella* /ʌmˈbrelə/ · *wallet* /ˈwɒlɪt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "My glasses is new.",
+        "right": "My glasses are new.",
+        "note": "Glasses es plural."
+      },
+      {
+        "wrong": "I've got a umbrella.",
+        "right": "I've got an umbrella.",
+        "note": "Umbrella empieza con sonido vocálico: an."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "carpet",
+        "es_false": "carpeta",
+        "real": "alfombra",
+        "note": "La carpeta se dice folder."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada objeto con su traducción.",
+      "pairs": [
+        {
+          "left": "pen",
+          "right": "lapicera"
+        },
+        {
+          "left": "wallet",
+          "right": "billetera"
+        },
+        {
+          "left": "keys",
+          "right": "llaves"
+        },
+        {
+          "left": "notebook",
+          "right": "cuaderno"
+        },
+        {
+          "left": "glasses",
+          "right": "anteojos"
+        },
+        {
+          "left": "umbrella",
+          "right": "paraguas"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son objetos muy comunes.",
+        "incorrect": "Revisa esto: Son objetos muy comunes."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada objeto en su categoría.",
+      "categories": [
+        "School",
+        "Electronics",
+        "Personal things"
+      ],
+      "items": [
+        {
+          "text": "pen",
+          "category": "School"
+        },
+        {
+          "text": "notebook",
+          "category": "School"
+        },
+        {
+          "text": "pencil",
+          "category": "School"
+        },
+        {
+          "text": "phone",
+          "category": "Electronics"
+        },
+        {
+          "text": "computer",
+          "category": "Electronics"
+        },
+        {
+          "text": "camera",
+          "category": "Electronics"
+        },
+        {
+          "text": "wallet",
+          "category": "Personal things"
+        },
+        {
+          "text": "keys",
+          "category": "Personal things"
+        },
+        {
+          "text": "glasses",
+          "category": "Personal things"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 25,
+      "prompt": "The class is ___ nine o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la hora de un evento: at.",
+        "incorrect": "Revisa esto: Para la hora de un evento: at."
+      },
+      "review_of": "en-a1-u04-l02-ex04"
+    },
+    {
+      "id": "en-a1-u11-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "You write with a ___.",
+      "options": [
+        "pen",
+        "clock",
+        "umbrella",
+        "wallet"
+      ],
+      "answer": [
+        "pen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con una lapicera (pen) se escribe.",
+        "incorrect": "Revisa esto: Con una lapicera (pen) se escribe."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál se usa siempre en plural?",
+      "options": [
+        "glasses",
+        "wallet",
+        "notebook",
+        "clock"
+      ],
+      "answer": [
+        "glasses"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses (anteojos) lleva siempre are.",
+        "incorrect": "Revisa esto: Glasses (anteojos) lleva siempre are."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got my ___ in my bag. (llaves)",
+      "answer": [
+        "keys"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keys = llaves.",
+        "incorrect": "Revisa esto: Keys = llaves."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-rv02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "She never works on Sundays.",
+      "answer": [
+        "She never works on Sundays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio + verbo con -s.",
+        "incorrect": "Revisa esto: Adverbio + verbo con -s."
+      },
+      "audio_script_id": "en-a1-u11-l01-rv02-a",
+      "review_of": "en-a1-u04-l06-ex09"
+    },
+    {
+      "id": "en-a1-u11-l01-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi cumpleaños es el 3 de marzo.",
+      "answer": [
+        "My birthday is on the third of March."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On + the third of March.",
+        "incorrect": "Revisa esto: On + the third of March."
+      },
+      "review_of": "en-a1-u10-l03-ex10"
+    },
+    {
+      "id": "en-a1-u11-l01-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "months",
+        "weather"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "En invierno hace frío.",
+      "answer": [
+        "It's cold in winter."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's + adjetivo + in + estación.",
+        "incorrect": "Revisa esto: It's + adjetivo + in + estación."
+      },
+      "review_of": "en-a1-u10-l02-ex10"
+    },
+    {
+      "id": "en-a1-u11-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I cooking dinner.",
+      "answer": [
+        "I'm cooking dinner.",
+        "I am cooking dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: I'm cooking.",
+        "incorrect": "Revisa esto: Falta el verbo to be: I'm cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex05"
+    },
+    {
+      "id": "en-a1-u11-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My glasses is on the table.",
+      "answer": [
+        "My glasses are on the table."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses es plural: are.",
+        "incorrect": "Revisa esto: Glasses es plural: are."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are going to Brighton the next weekend.",
+      "answer": [
+        "They are going to Brighton next weekend.",
+        "They're going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      },
+      "review_of": "en-a1-u10-l05-ex05"
+    },
+    {
+      "id": "en-a1-u11-l01-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        ".",
+        "I've",
+        "got"
+      ],
+      "answer": [
+        "I've",
+        "got",
+        "a",
+        "pen",
+        "and",
+        "a",
+        "notebook",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos objetos unidos con and.",
+        "incorrect": "Revisa esto: Dos objetos unidos con and."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-ex08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas lapiceras tiene?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "None"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "In my bag I've got a book, two pens and a phone.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'two pens'.",
+        "incorrect": "Revisa esto: Dice 'two pens'."
+      },
+      "audio_script_id": "en-a1-u11-l01-ex08-a"
+    },
+    {
+      "id": "en-a1-u11-l01-ex09",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "My keys are in my bag.",
+      "answer": [
+        "My keys are in my bag."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keys es plural: are.",
+        "incorrect": "Revisa esto: Keys es plural: are."
+      },
+      "audio_script_id": "en-a1-u11-l01-ex09-a"
+    },
+    {
+      "id": "en-a1-u11-l01-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mis llaves están en mi bolso.",
+      "answer": [
+        "My keys are in my bag."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keys + are + in my bag.",
+        "incorrect": "Revisa esto: Keys + are + in my bag."
+      }
+    },
+    {
+      "id": "en-a1-u11-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "objects"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "pencil",
+          "ipa": "/ˈpensl/",
+          "tip_es": "Se pronuncia 'pen-sl'."
+        },
+        {
+          "text": "computer",
+          "ipa": "/kəmˈpjuːtə/",
+          "tip_es": "El acento va en 'pu'."
+        },
+        {
+          "text": "umbrella",
+          "ipa": "/ʌmˈbrelə/",
+          "tip_es": "El acento va en 'brel'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "book · pen · pencil · notebook",
+      "phone · computer · keys · wallet · glasses",
+      "My glasses are on the table.",
+      "an umbrella · a pen"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-book"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pencil"
+    },
+    {
+      "type": "vocab",
+      "id": "en-notebook"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bag"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keys"
+    },
+    {
+      "type": "vocab",
+      "id": "en-phone"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wallet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-glasses"
+    },
+    {
+      "type": "vocab",
+      "id": "en-computer"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "es": "Presente simple: afirmativo"
   },
   "objective": "Al terminar describes rutinas con el presente simple, incluida la forma con -s de he / she / it.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "reading",
@@ -113,6 +113,74 @@
       }
     },
     {
+      "id": "en-a1-u04-l03-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "jobs"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy médico.",
+      "answer": [
+        "I'm a doctor.",
+        "I am a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Profesión: I'm + a/an + trabajo.",
+        "incorrect": "Revisa esto: Profesión: I'm + a/an + trabajo."
+      },
+      "review_of": "en-a1-u02-l05-ex07"
+    },
+    {
+      "id": "en-a1-u04-l03-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona?",
+      "options": [
+        "Brazil",
+        "Spain",
+        "Mexico",
+        "France"
+      ],
+      "answer": [
+        "Brazil"
+      ],
+      "audio_text": "I'm from Brazil. I'm Brazilian.",
+      "feedback": {
+        "correct": "¡Correcto! La persona dice 'I'm from Brazil'.",
+        "incorrect": "Revisa esto: La persona dice 'I'm from Brazil'."
+      },
+      "audio_script_id": "en-a1-u04-l03-rv02-a",
+      "review_of": "en-a1-u02-l01-ex06"
+    },
+    {
+      "id": "en-a1-u04-l03-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi hermana.",
+      "answer": [
+        "My sister."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Mi' = my.",
+        "incorrect": "Revisa esto: 'Mi' = my."
+      },
+      "review_of": "en-a1-u03-l01-ex05"
+    },
+    {
       "id": "en-a1-u04-l03-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -210,6 +278,26 @@
         "correct": "¡Correcto! El texto dice 'Lucy gets up at seven.'",
         "incorrect": "Revisa esto: El texto dice 'Lucy gets up at seven.'"
       }
+    },
+    {
+      "id": "en-a1-u04-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura is my friend. ___ from Italy.",
+      "answer": [
+        "She's",
+        "She is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura es una mujer: she is (she's).",
+        "incorrect": "Revisa esto: Laura es una mujer: she is (she's)."
+      },
+      "review_of": "en-a1-u02-l02-ex04"
     },
     {
       "id": "en-a1-u04-l03-ex08",

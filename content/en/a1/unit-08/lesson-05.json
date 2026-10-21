@@ -11,7 +11,7 @@
     "es": "En la tienda"
   },
   "objective": "Al terminar compras ropa en una tienda: preguntas, pruebas y pagas.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -260,6 +260,68 @@
       }
     },
     {
+      "id": "en-a1-u08-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be",
+        "age"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ twenty years old.",
+      "answer": [
+        "am"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be': I am (I'm).",
+        "incorrect": "Revisa esto: La edad se dice con 'to be': I am (I'm)."
+      },
+      "review_of": "en-a1-u01-l05-ex03"
+    },
+    {
+      "id": "en-a1-u08-l05-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "dentro de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "in front of",
+          "right": "delante de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza estas siete preposiciones.",
+        "incorrect": "Revisa esto: Memoriza estas siete preposiciones."
+      },
+      "review_of": "en-a1-u06-l03-ex01"
+    },
+    {
       "id": "en-a1-u08-l05-ex05",
       "type": "matching",
       "skill": "vocab",
@@ -316,6 +378,25 @@
         "correct": "¡Correcto! El vendedor dice 'forty pounds'.",
         "incorrect": "Revisa esto: El vendedor dice 'forty pounds'."
       }
+    },
+    {
+      "id": "en-a1-u08-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you got ___ cheese?",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas se usa any.",
+        "incorrect": "Revisa esto: En preguntas se usa any."
+      },
+      "review_of": "en-a1-u05-l04-ex03"
     },
     {
       "id": "en-a1-u08-l05-ex07",
@@ -399,6 +480,52 @@
         "correct": "¡Correcto! Probarse = try on.",
         "incorrect": "Revisa esto: Probarse = try on."
       }
+    },
+    {
+      "id": "en-a1-u08-l05-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué color es la mesa?",
+      "options": [
+        "Brown",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "answer": [
+        "Brown"
+      ],
+      "audio_text": "I've got a big green sofa and a small brown table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a small brown table'.",
+        "incorrect": "Revisa esto: Dice 'a small brown table'."
+      },
+      "audio_script_id": "en-a1-u08-l05-rv04-a",
+      "review_of": "en-a1-u06-l04-ex07"
+    },
+    {
+      "id": "en-a1-u08-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ you from?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you' usamos 'are': Where are you from?",
+        "incorrect": "Revisa esto: Con 'you' usamos 'are': Where are you from?"
+      },
+      "review_of": "en-a1-u02-l01-ex03"
     },
     {
       "id": "en-a1-u08-l05-ex11",

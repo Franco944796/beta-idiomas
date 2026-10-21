@@ -55,3 +55,31 @@
 .tx-level>summary::before{content:"▸ ";color:#8B0000}
 .tx-level[open]>summary::before{content:"▾ "}
 .tx-level>summary:hover{background:#f4f4fb}
+
+.tx-note{margin:0 0 10px}.tx-row audio{display:block;margin-top:6px;max-width:100%}.tx-rec{display:inline-block}
+.tx-card select{font:inherit;padding:4px 8px;border:2px solid #1E1E50;border-radius:8px;background:#fff;color:#1E1E50}
+.tx-card details.tx-level>summary{box-shadow:none;border-width:2px}
+
+.tx-warn{color:#8B0000;font-weight:bold;margin:6px 0 0}
+.tx-card details.tx-level>p{margin:0 6px 12px}
+/* impresión: solo se imprime #tx-print */
+#tx-print{display:none}
+.tp-line{display:block;border-bottom:1px solid #000;height:1.8em;margin:.1em 0}
+.tp-blank{display:inline-block;min-width:7em;border-bottom:1px solid #000}
+@media print{
+  body{background:#fff!important}
+  body>*:not(#tx-print){display:none!important}
+  #tx-print{display:block!important;color:#000;background:#fff;font:11.5pt/1.45 Georgia,"Times New Roman",serif}
+  #tx-print h1{font-size:16pt;margin:0 0 .4em}#tx-print h1 small{font-size:10pt;font-weight:normal}
+  #tx-print h2{font-size:13pt;margin:1em 0 .4em;border-bottom:1px solid #000}#tx-print h3{font-size:11.5pt}
+  #tx-print .tp-lesson{break-before:page}#tx-print .tp-lesson:first-child{break-before:auto}
+  #tx-print .tp-ex{break-inside:avoid;margin:0 0 .9em;padding-left:1.8em;position:relative}
+  #tx-print .tp-n{position:absolute;left:0;font-weight:bold}
+  #tx-print .tp-q{margin:0 0 .3em}#tx-print .tp-note{font-style:italic;margin:.2em 0}
+  #tx-print .tp-opts{margin:.2em 0 .2em 1.2em;padding:0}
+  #tx-print .tp-wrong{margin:.2em 0;padding:.2em .5em;border:1px dashed #000}
+  #tx-print .tp-cols{display:flex;gap:3em}#tx-print .tp-key{column-count:2}
+  #tx-print table{border-collapse:collapse;width:100%;margin:.4em 0}#tx-print td,#tx-print th{border:1px solid #000;padding:2px 6px;font-size:10pt}
+  #tx-print button,#tx-print [data-say],#tx-print details summary{display:none}
+  @page{margin:16mm}
+}

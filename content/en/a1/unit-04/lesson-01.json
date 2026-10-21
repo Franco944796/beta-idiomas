@@ -11,7 +11,7 @@
     "es": "Actividades diarias"
   },
   "objective": "Al terminar nombras las actividades de un día normal y dices cuándo las haces.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -254,6 +254,25 @@
       }
     },
     {
+      "id": "en-a1-u04-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura and I are friends. ___ are students.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Laura and I' = we.",
+        "incorrect": "Revisa esto: 'Laura and I' = we."
+      },
+      "review_of": "en-a1-u02-l03-ex02"
+    },
+    {
       "id": "en-a1-u04-l01-ex04",
       "type": "error_correction",
       "skill": "grammar",
@@ -331,6 +350,65 @@
       }
     },
     {
+      "id": "en-a1-u04-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you got a sister? — ___",
+      "options": [
+        "Yes, I have.",
+        "Yes, I've.",
+        "Yes, I am.",
+        "Yes, I got."
+      ],
+      "answer": [
+        "Yes, I have."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u03-l04-ex04"
+    },
+    {
+      "id": "en-a1-u04-l01-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une la forma completa con la forma corta.",
+      "pairs": [
+        {
+          "left": "I am",
+          "right": "I'm"
+        },
+        {
+          "left": "you are",
+          "right": "you're"
+        },
+        {
+          "left": "we are",
+          "right": "we're"
+        },
+        {
+          "left": "they are",
+          "right": "they're"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las formas cortas son muy frecuentes al hablar.",
+        "incorrect": "Revisa esto: Las formas cortas son muy frecuentes al hablar."
+      },
+      "review_of": "en-a1-u02-l03-ex05"
+    },
+    {
       "id": "en-a1-u04-l01-ex07",
       "type": "listening",
       "skill": "listening",
@@ -355,6 +433,26 @@
         "incorrect": "Revisa esto: Después de 'have breakfast' dice 'I go to work'."
       },
       "audio_script_id": "en-a1-u04-l01-ex07-a"
+    },
+    {
+      "id": "en-a1-u04-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura ___ Argentinian. She's Italian.",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con 'she': isn't (is not).",
+        "incorrect": "Revisa esto: Negativa con 'she': isn't (is not)."
+      },
+      "review_of": "en-a1-u02-l04-ex02"
     }
   ],
   "summary": {

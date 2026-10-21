@@ -11,7 +11,7 @@
     "es": "Miembros de la familia"
   },
   "objective": "Al terminar nombras a los miembros de tu familia y presentas a alguien en una foto.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -173,6 +173,22 @@
         "ipa": "/waɪf/",
         "es": "esposa, mujer",
         "example": "She's my wife."
+      },
+      {
+        "id": "en-aunt",
+        "lemma": "aunt",
+        "pos": "noun",
+        "ipa": "/ɑːnt/",
+        "es": "tía",
+        "example": "My aunt lives in Spain."
+      },
+      {
+        "id": "en-uncle",
+        "lemma": "uncle",
+        "pos": "noun",
+        "ipa": "/ˈʌŋkl/",
+        "es": "tío",
+        "example": "My uncle is a doctor."
       }
     ],
     "audio_script_id": "en-a1-u03-l01-d01"
@@ -275,6 +291,31 @@
       }
     },
     {
+      "id": "en-a1-u03-l01-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me llamo Laura.",
+      "answer": [
+        "My name is Laura.",
+        "I'm Laura.",
+        "I am Laura."
+      ],
+      "accepted_alternatives": [
+        "My name's Laura."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Puedes decir 'My name is…' o 'I'm…'.",
+        "incorrect": "Revisa esto: Puedes decir 'My name is…' o 'I'm…'."
+      },
+      "review_of": "en-a1-u01-l01-ex05"
+    },
+    {
       "id": "en-a1-u03-l01-ex03",
       "type": "fill_blank",
       "skill": "vocab",
@@ -336,6 +377,31 @@
       }
     },
     {
+      "id": "en-a1-u03-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She's a nurse.",
+        "She's nurse.",
+        "She's an nurse.",
+        "She nurse."
+      ],
+      "answer": [
+        "She's a nurse."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se necesita el artículo 'a' antes de una profesión.",
+        "incorrect": "Revisa esto: Se necesita el artículo 'a' antes de una profesión."
+      },
+      "review_of": "en-a1-u02-l05-ex03"
+    },
+    {
       "id": "en-a1-u03-l01-ex06",
       "type": "listening",
       "skill": "listening",
@@ -390,6 +456,36 @@
         "correct": "¡Correcto! This is + my + familiar.",
         "incorrect": "Revisa esto: This is + my + familiar."
       }
+    },
+    {
+      "id": "en-a1-u03-l01-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Mexico",
+        "?",
+        "Are",
+        "they"
+      ],
+      "answer": [
+        "Are",
+        "they",
+        "from",
+        "Mexico",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con to be y 'they'.",
+        "incorrect": "Revisa esto: Pregunta con to be y 'they'."
+      },
+      "review_of": "en-a1-u02-l06-ex06"
     }
   ],
   "summary": {
@@ -440,6 +536,14 @@
     {
       "type": "vocab",
       "id": "en-parents"
+    },
+    {
+      "type": "vocab",
+      "id": "en-aunt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-uncle"
     }
   ]
 }

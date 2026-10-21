@@ -11,7 +11,7 @@
     "es": "El clima"
   },
   "objective": "Al terminar describes el clima y preguntas cómo está el tiempo en otro lugar.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -214,6 +214,27 @@
       }
     },
     {
+      "id": "en-a1-u10-l01-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy cocinando.",
+      "answer": [
+        "I'm cooking.",
+        "I am cooking."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! be + cooking.",
+        "incorrect": "Revisa esto: be + cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex11"
+    },
+    {
       "id": "en-a1-u10-l01-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -277,6 +298,26 @@
       }
     },
     {
+      "id": "en-a1-u10-l01-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura is my friend. ___ from Italy.",
+      "answer": [
+        "She's",
+        "She is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura es una mujer: she is (she's).",
+        "incorrect": "Revisa esto: Laura es una mujer: she is (she's)."
+      },
+      "review_of": "en-a1-u02-l02-ex04"
+    },
+    {
       "id": "en-a1-u10-l01-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -295,6 +336,85 @@
         "correct": "¡Correcto! Se usa be, no make.",
         "incorrect": "Revisa esto: Se usa be, no make."
       }
+    },
+    {
+      "id": "en-a1-u10-l01-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "colours"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué color es la mesa?",
+      "options": [
+        "Brown",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "answer": [
+        "Brown"
+      ],
+      "audio_text": "I've got a big green sofa and a small brown table.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'a small brown table'.",
+        "incorrect": "Revisa esto: Dice 'a small brown table'."
+      },
+      "audio_script_id": "en-a1-u10-l01-rv03-a",
+      "review_of": "en-a1-u06-l04-ex07"
+    },
+    {
+      "id": "en-a1-u10-l01-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere la persona?",
+      "options": [
+        "To borrow a pen",
+        "To open a window",
+        "To use a phone",
+        "To close a door"
+      ],
+      "answer": [
+        "To borrow a pen"
+      ],
+      "audio_text": "Can I borrow your pen, please? Sure, here you are.",
+      "feedback": {
+        "correct": "¡Correcto! Pide 'borrow your pen'.",
+        "incorrect": "Revisa esto: Pide 'borrow your pen'."
+      },
+      "audio_script_id": "en-a1-u10-l01-rv04-a",
+      "review_of": "en-a1-u09-l03-ex09"
+    },
+    {
+      "id": "en-a1-u10-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 20,
+      "prompt": "£2.50 se dice…",
+      "options": [
+        "two pounds fifty",
+        "two fifty pounds hundred",
+        "two and fifty pound",
+        "two point fifty pounds"
+      ],
+      "answer": [
+        "two pounds fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Libras + centavos: two pounds fifty.",
+        "incorrect": "Revisa esto: Libras + centavos: two pounds fifty."
+      },
+      "review_of": "en-a1-u08-l02-ex03"
     },
     {
       "id": "en-a1-u10-l01-ex07",
@@ -354,6 +474,25 @@
         "correct": "¡Correcto! Lucy dice 'It's cold and it's raining'.",
         "incorrect": "Revisa esto: Lucy dice 'It's cold and it's raining'."
       }
+    },
+    {
+      "id": "en-a1-u10-l01-rv06",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 15,
+      "prompt": "'They is from Brazil.' es una frase correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'they' se usa 'are': They are from Brazil.",
+        "incorrect": "Revisa esto: Con 'they' se usa 'are': They are from Brazil."
+      },
+      "review_of": "en-a1-u02-l06-ex09"
     },
     {
       "id": "en-a1-u10-l01-ex09",

@@ -7,11 +7,11 @@
   "kind": "checkpoint",
   "version": 1,
   "title": {
-    "target": "Final checkpoint",
-    "es": "Checkpoint final de A1"
+    "target": "Checkpoint 10",
+    "es": "Repaso y checkpoint 10"
   },
   "objective": "Al terminar demuestras el nivel A1: presentarte, hablar de tu vida diaria, tu entorno, tus gustos y tus planes.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -24,11 +24,11 @@
   },
   "input": {
     "type": "review",
-    "recap_es": "Repaso final de A1: to be, posesivos y have got, presente simple, there is / are, can, presente continuo, precios, fechas, clima y planes.",
+    "recap_es": "Repaso de la unidad 10: to be, posesivos y have got, presente simple, there is / are, can, presente continuo, precios, fechas, clima y planes.",
     "glossary": []
   },
   "explanation": {
-    "md_es": "**Repaso final de A1**\n\n- *I'm / She's from … · Where are you from?*\n- *my / his / her · Anna's brother · I've got …*\n- *I get up · She works · Do you like …? · I don't work*\n- *There is / are · in · on · next to · Turn left*\n- *How much is it? · these / those · I'd like …, please.*\n- *I can swim · Can I …? · I'm cooking · Would you like to …?*\n- *It's cold · the fifth of May · I'm going to … tomorrow.*",
+    "md_es": "**Repaso de la unidad 10**\n\n- *I'm / She's from … · Where are you from?*\n- *my / his / her · Anna's brother · I've got …*\n- *I get up · She works · Do you like …? · I don't work*\n- *There is / are · in · on · next to · Turn left*\n- *How much is it? · these / those · I'd like …, please.*\n- *I can swim · Can I …? · I'm cooking · Would you like to …?*\n- *It's cold · the fifth of May · I'm going to … tomorrow.*",
     "common_mistakes_es": [],
     "false_friends": []
   },
@@ -76,6 +76,77 @@
       }
     },
     {
+      "id": "en-a1-u10-l06-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hora es?",
+      "options": [
+        "7:15",
+        "7:45",
+        "7:30",
+        "6:15"
+      ],
+      "answer": [
+        "7:15"
+      ],
+      "audio_text": "It's quarter past seven.",
+      "feedback": {
+        "correct": "¡Correcto! Quarter past seven = 7:15.",
+        "incorrect": "Revisa esto: Quarter past seven = 7:15."
+      },
+      "audio_script_id": "en-a1-u10-l06-rv01-a",
+      "review_of": "en-a1-u04-l02-ex05"
+    },
+    {
+      "id": "en-a1-u10-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She never watches TV.",
+        "She watches never TV.",
+        "She never watch TV.",
+        "Never she watches TV."
+      ],
+      "answer": [
+        "She never watches TV."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio antes del verbo y -es con watch.",
+        "incorrect": "Revisa esto: Adverbio antes del verbo y -es con watch."
+      },
+      "review_of": "en-a1-u04-l06-ex07"
+    },
+    {
+      "id": "en-a1-u10-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna is my sister. ___ name is Anna.",
+      "answer": [
+        "Her"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es una mujer: her.",
+        "incorrect": "Revisa esto: El dueño es una mujer: her."
+      },
+      "review_of": "en-a1-u03-l02-ex02"
+    },
+    {
       "id": "en-a1-u10-l06-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -94,6 +165,25 @@
       }
     },
     {
+      "id": "en-a1-u10-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We've got ___ bread.",
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En frases afirmativas se usa some.",
+        "incorrect": "Revisa esto: En frases afirmativas se usa some."
+      },
+      "review_of": "en-a1-u05-l04-ex01"
+    },
+    {
       "id": "en-a1-u10-l06-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -110,6 +200,27 @@
         "correct": "¡Correcto! Plural: there are.",
         "incorrect": "Revisa esto: Plural: there are."
       }
+    },
+    {
+      "id": "en-a1-u10-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I cooking dinner.",
+      "answer": [
+        "I'm cooking dinner.",
+        "I am cooking dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el verbo to be: I'm cooking.",
+        "incorrect": "Revisa esto: Falta el verbo to be: I'm cooking."
+      },
+      "review_of": "en-a1-u09-l04-ex05"
     },
     {
       "id": "en-a1-u10-l06-ex05",
@@ -218,6 +329,35 @@
       }
     },
     {
+      "id": "en-a1-u10-l06-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "swim",
+        "?",
+        "Can",
+        "you"
+      ],
+      "answer": [
+        "Can",
+        "you",
+        "swim",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can + sujeto + verbo base.",
+        "incorrect": "Revisa esto: Can + sujeto + verbo base."
+      },
+      "review_of": "en-a1-u09-l02-ex03"
+    },
+    {
       "id": "en-a1-u10-l06-ex10",
       "type": "listening",
       "skill": "listening",
@@ -255,7 +395,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe 5 frases: preséntate, di dónde vives, qué haces en tu tiempo libre y un plan para el fin de semana.",
-      "min_words": 25,
+      "min_words": 20,
       "self_check_es": [
         "¿Te presentaste con I'm…?",
         "¿Dijiste dónde vives con I live in…?",
@@ -267,6 +407,59 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a1-u10-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura is my friend. ___ from Italy.",
+      "answer": [
+        "She's",
+        "She is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura es una mujer: she is (she's).",
+        "incorrect": "Revisa esto: Laura es una mujer: she is (she's)."
+      },
+      "review_of": "en-a1-u02-l02-ex04"
+    },
+    {
+      "id": "en-a1-u10-l06-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "the",
+        "bananas",
+        "?",
+        "How",
+        "much"
+      ],
+      "answer": [
+        "How",
+        "much",
+        "are",
+        "the",
+        "bananas",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much + are + sustantivo plural.",
+        "incorrect": "Revisa esto: How much + are + sustantivo plural."
+      },
+      "review_of": "en-a1-u08-l02-ex09"
     },
     {
       "id": "en-a1-u10-l06-ex12",

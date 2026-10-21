@@ -11,7 +11,7 @@
     "es": "Will, going to o might: elegir"
   },
   "objective": "Al terminar eliges entre will, be going to y might según si es un plan, una decisión del momento o una posibilidad.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -181,6 +181,25 @@
       }
     },
     {
+      "id": "en-a2-u05-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a dog. ___ dog is brown.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      },
+      "review_of": "en-a1-u11-l03-ex02"
+    },
+    {
       "id": "en-a2-u05-l04-ex03",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -247,6 +266,27 @@
       }
     },
     {
+      "id": "en-a2-u05-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He is engineer.",
+      "answer": [
+        "He's an engineer.",
+        "He is an engineer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta el artículo: an engineer.",
+        "incorrect": "Revisa esto: Falta el artículo: an engineer."
+      },
+      "review_of": "en-a1-u02-l06-ex05"
+    },
+    {
       "id": "en-a2-u05-l04-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -283,6 +323,26 @@
         "correct": "¡Correcto! No se combinan will y might.",
         "incorrect": "Revisa esto: No se combinan will y might."
       }
+    },
+    {
+      "id": "en-a2-u05-l04-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ you doing this weekend?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con are + you.",
+        "incorrect": "Revisa esto: Pregunta con are + you."
+      },
+      "review_of": "en-a1-u10-l04-ex03"
     },
     {
       "id": "en-a2-u05-l04-ex08",
@@ -375,6 +435,25 @@
       "audio_script_id": "en-a2-u05-l04-ex10-a"
     },
     {
+      "id": "en-a2-u05-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is the ___ (tall) girl in the class.",
+      "answer": [
+        "tallest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! the + adjetivo + -est.",
+        "incorrect": "Revisa esto: the + adjetivo + -est."
+      },
+      "review_of": "en-a2-u03-l03-ex02"
+    },
+    {
       "id": "en-a2-u05-l04-ex11",
       "type": "translation",
       "skill": "writing",
@@ -392,6 +471,40 @@
         "correct": "¡Correcto! Posibilidad: might + verbo base.",
         "incorrect": "Revisa esto: Posibilidad: might + verbo base."
       }
+    },
+    {
+      "id": "en-a2-u05-l04-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada medida con su equivalencia.",
+      "pairs": [
+        {
+          "left": "a kilo",
+          "right": "1000 grams"
+        },
+        {
+          "left": "half a kilo",
+          "right": "500 grams"
+        },
+        {
+          "left": "a quarter of a kilo",
+          "right": "250 grams"
+        },
+        {
+          "left": "a litre",
+          "right": "1000 ml"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay que conocer las equivalencias para pedir bien.",
+        "incorrect": "Revisa esto: Hay que conocer las equivalencias para pedir bien."
+      },
+      "review_of": "en-a2-u04-l04-ex05"
     }
   ],
   "summary": {

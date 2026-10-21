@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 6"
   },
   "objective": "Al terminar hablas de salud, das consejos y explicas reglas y prohibiciones en inglés.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -89,6 +89,48 @@
       }
     },
     {
+      "id": "en-a2-u06-l06-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada ordinal en cifras con su palabra.",
+      "pairs": [
+        {
+          "left": "1st",
+          "right": "first"
+        },
+        {
+          "left": "2nd",
+          "right": "second"
+        },
+        {
+          "left": "3rd",
+          "right": "third"
+        },
+        {
+          "left": "5th",
+          "right": "fifth"
+        },
+        {
+          "left": "9th",
+          "right": "ninth"
+        },
+        {
+          "left": "12th",
+          "right": "twelfth"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los ordinales irregulares hay que memorizarlos.",
+        "incorrect": "Revisa esto: Los ordinales irregulares hay que memorizarlos."
+      },
+      "review_of": "en-a1-u10-l03-ex01"
+    },
+    {
       "id": "en-a2-u06-l06-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -156,6 +198,31 @@
       }
     },
     {
+      "id": "en-a2-u06-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 20,
+      "prompt": "'La hermana de Tom' en inglés:",
+      "options": [
+        "Tom's sister",
+        "The Tom sister",
+        "Sister of Tom's",
+        "Toms sister"
+      ],
+      "answer": [
+        "Tom's sister"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona.",
+        "incorrect": "Revisa esto: Dueño + 's + persona."
+      },
+      "review_of": "en-a1-u03-l06-ex04"
+    },
+    {
       "id": "en-a2-u06-l06-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -221,6 +288,58 @@
       "audio_script_id": "en-a2-u06-l06-ex09-a"
     },
     {
+      "id": "en-a2-u06-l06-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué está haciendo la persona?",
+      "options": [
+        "Playing the guitar",
+        "Working",
+        "Swimming",
+        "Cooking"
+      ],
+      "answer": [
+        "Playing the guitar"
+      ],
+      "audio_text": "I'm not working now. I'm playing the guitar.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'm playing the guitar'.",
+        "incorrect": "Revisa esto: Dice 'I'm playing the guitar'."
+      },
+      "audio_script_id": "en-a2-u06-l06-rv03-a",
+      "review_of": "en-a1-u09-l06-ex09"
+    },
+    {
+      "id": "en-a2-u06-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Compraste ya las entradas y le cuentas tu plan a una amiga:",
+      "options": [
+        "I'm going to see a film tonight.",
+        "I'll see a film tonight.",
+        "I might to see a film.",
+        "I see going film."
+      ],
+      "answer": [
+        "I'm going to see a film tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan ya decidido: be going to.",
+        "incorrect": "Revisa esto: Plan ya decidido: be going to."
+      },
+      "review_of": "en-a2-u05-l04-ex01"
+    },
+    {
       "id": "en-a2-u06-l06-ex10",
       "type": "translation",
       "skill": "writing",
@@ -241,6 +360,70 @@
         "correct": "¡Correcto! Hurts para el dolor; mustn't / shouldn't para 'no debo'.",
         "incorrect": "Revisa esto: Hurts para el dolor; mustn't / shouldn't para 'no debo'."
       }
+    },
+    {
+      "id": "en-a2-u06-l06-rv05",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 15,
+      "prompt": "Se dice 'Did you went to the party?'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did, el verbo se queda en base: Did you go?",
+        "incorrect": "Revisa esto: Después de did, el verbo se queda en base: Did you go?"
+      },
+      "review_of": "en-a2-u01-l04-ex07"
+    },
+    {
+      "id": "en-a2-u06-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can you me help?",
+      "answer": [
+        "Can you help me?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El verbo va justo después del sujeto.",
+        "incorrect": "Revisa esto: El verbo va justo después del sujeto."
+      },
+      "review_of": "en-a1-u09-l03-ex05"
+    },
+    {
+      "id": "en-a2-u06-l06-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'fourteen'?",
+      "options": [
+        "14",
+        "40",
+        "4",
+        "41"
+      ],
+      "answer": [
+        "14"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! '-teen' indica 13–19: fourteen = 14.",
+        "incorrect": "Revisa esto: '-teen' indica 13–19: fourteen = 14."
+      },
+      "review_of": "en-a1-u01-l03-ex03"
     },
     {
       "id": "en-a2-u06-l06-ex11",

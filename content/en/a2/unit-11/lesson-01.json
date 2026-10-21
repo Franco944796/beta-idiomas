@@ -1,0 +1,756 @@
+{
+  "id": "en-a2-u11-l01",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Clothes and colours",
+    "es": "Ropa, colores, estampados y materiales"
+  },
+  "objective": "Al terminar describes la ropa con colores específicos (dark blue, purple), estampados y materiales, y ordenas los adjetivos.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Un suéter de lana azul oscuro a rayas'. ¿En qué orden se dicen los adjetivos en inglés?"
+  },
+  "input": {
+    "type": "vocab_list",
+    "glossary": [
+      {
+        "id": "en-jumper",
+        "lemma": "jumper",
+        "pos": "noun",
+        "ipa": "/ˈdʒʌmpə/",
+        "es": "suéter, jersey (UK)",
+        "example": "She's wearing a red jumper."
+      },
+      {
+        "id": "en-boots",
+        "lemma": "boots",
+        "pos": "noun",
+        "ipa": "/buːts/",
+        "es": "botas",
+        "example": "My boots are made of leather."
+      },
+      {
+        "id": "en-trainers",
+        "lemma": "trainers",
+        "pos": "noun",
+        "ipa": "/ˈtreɪnəz/",
+        "es": "zapatillas deportivas (UK)",
+        "example": "I wear trainers to run."
+      },
+      {
+        "id": "en-scarf",
+        "lemma": "scarf",
+        "pos": "noun",
+        "ipa": "/skɑːf/",
+        "es": "bufanda",
+        "example": "I love your scarf."
+      },
+      {
+        "id": "en-gloves",
+        "lemma": "gloves",
+        "pos": "noun",
+        "ipa": "/ɡlʌvz/",
+        "es": "guantes",
+        "example": "It's cold. Wear your gloves."
+      },
+      {
+        "id": "en-purple",
+        "lemma": "purple",
+        "pos": "adj",
+        "ipa": "/ˈpɜːpl/",
+        "es": "violeta, morado",
+        "example": "She's wearing a purple dress."
+      },
+      {
+        "id": "en-dark",
+        "lemma": "dark",
+        "pos": "adj",
+        "ipa": "/dɑːk/",
+        "es": "oscuro (colores)",
+        "example": "a dark blue jacket"
+      },
+      {
+        "id": "en-light",
+        "lemma": "light",
+        "pos": "adj",
+        "ipa": "/laɪt/",
+        "es": "claro (colores)",
+        "example": "a light green shirt"
+      },
+      {
+        "id": "en-striped",
+        "lemma": "striped",
+        "pos": "adj",
+        "ipa": "/straɪpt/",
+        "es": "a rayas",
+        "example": "a striped T-shirt"
+      },
+      {
+        "id": "en-checked",
+        "lemma": "checked",
+        "pos": "adj",
+        "ipa": "/tʃekt/",
+        "es": "a cuadros",
+        "example": "a checked shirt"
+      },
+      {
+        "id": "en-plain",
+        "lemma": "plain",
+        "pos": "adj",
+        "ipa": "/pleɪn/",
+        "es": "liso, sin estampado",
+        "example": "I prefer plain clothes."
+      },
+      {
+        "id": "en-cotton",
+        "lemma": "cotton",
+        "pos": "noun",
+        "ipa": "/ˈkɒtn/",
+        "es": "algodón",
+        "example": "The shirt is made of cotton."
+      },
+      {
+        "id": "en-wool",
+        "lemma": "wool",
+        "pos": "noun",
+        "ipa": "/wʊl/",
+        "es": "lana",
+        "example": "A wool scarf is warm."
+      },
+      {
+        "id": "en-leather",
+        "lemma": "leather",
+        "pos": "noun",
+        "ipa": "/ˈleðə/",
+        "es": "cuero",
+        "example": "a leather jacket"
+      },
+      {
+        "id": "en-made-of",
+        "lemma": "made of",
+        "pos": "phrase",
+        "ipa": "/meɪd əv/",
+        "es": "hecho de",
+        "example": "It's made of wool."
+      },
+      {
+        "id": "en-a-pair-of",
+        "lemma": "a pair of",
+        "pos": "phrase",
+        "ipa": "/ə peər əv/",
+        "es": "un par de",
+        "example": "I bought a pair of jeans."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Colores específicos:** *dark / light + color* → *dark blue (azul oscuro) · light green (verde claro)* · *purple, pink, orange, grey, brown, navy*.\n\n**Estampados:** *striped* (a rayas) · *checked* (a cuadros) · *spotted* (de lunares) · *plain* (liso) · *patterned* (estampado).\n\n**Materiales:** *cotton* (algodón) · *wool* (lana) · *leather* (cuero) · *silk* (seda) · *denim* (jean). Se dice **made of**: *The jumper is made of wool.* o directamente: *a wool jumper*.\n\n**Orden de los adjetivos** (opinión → tamaño → color → material → sustantivo): *a **nice big blue cotton** shirt*. En conversación se usan pocos a la vez: *a dark blue jumper*.\n\n**Ropa que va en plural:** *trousers, jeans, shorts, pyjamas, gloves, boots, trainers*. Se cuentan con **a pair of**: *a pair of jeans* (un jean); *These jeans are new.*\n\n**Diferencias británico / americano:** *jumper / sweater · trainers / sneakers · trousers / pants*. Ojo: *pants* en inglés británico son la **ropa interior**.\n\nPronunciación: *jumper* /ˈdʒʌmpə/ · *scarf* /skɑːf/ · *leather* /ˈleðə/ · *purple* /ˈpɜːpl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "a blue dark jumper",
+        "right": "a dark blue jumper",
+        "note": "Dark / light van antes del color."
+      },
+      {
+        "wrong": "My jeans is new.",
+        "right": "My jeans are new.",
+        "note": "Jeans es plural."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "pants",
+        "es_false": "pantalones (en inglés británico)",
+        "real": "ropa interior (UK)",
+        "note": "En inglés británico, pantalones = trousers; pants en EE. UU. = pantalones."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l01-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada prenda.",
+      "categories": [
+        "Upper body",
+        "Feet",
+        "Accessories"
+      ],
+      "items": [
+        {
+          "text": "jumper",
+          "category": "Upper body"
+        },
+        {
+          "text": "shirt",
+          "category": "Upper body"
+        },
+        {
+          "text": "jacket",
+          "category": "Upper body"
+        },
+        {
+          "text": "boots",
+          "category": "Feet"
+        },
+        {
+          "text": "trainers",
+          "category": "Feet"
+        },
+        {
+          "text": "socks",
+          "category": "Feet"
+        },
+        {
+          "text": "scarf",
+          "category": "Accessories"
+        },
+        {
+          "text": "gloves",
+          "category": "Accessories"
+        },
+        {
+          "text": "hat",
+          "category": "Accessories"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar la ropa por zona del cuerpo ayuda a recordarla.",
+        "incorrect": "Revisa esto: Clasificar la ropa por zona del cuerpo ayuda a recordarla."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-ex02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada descripción con su traducción.",
+      "pairs": [
+        {
+          "left": "dark blue",
+          "right": "azul oscuro"
+        },
+        {
+          "left": "light green",
+          "right": "verde claro"
+        },
+        {
+          "left": "striped",
+          "right": "a rayas"
+        },
+        {
+          "left": "checked",
+          "right": "a cuadros"
+        },
+        {
+          "left": "plain",
+          "right": "liso"
+        },
+        {
+          "left": "purple",
+          "right": "violeta"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los colores y estampados más frecuentes.",
+        "incorrect": "Revisa esto: Son los colores y estampados más frecuentes."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "A shirt with lines is ___.",
+      "options": [
+        "striped",
+        "checked",
+        "plain",
+        "purple"
+      ],
+      "answer": [
+        "striped"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Striped = a rayas.",
+        "incorrect": "Revisa esto: Striped = a rayas."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "My boots are made ___ leather.",
+      "options": [
+        "of",
+        "from to",
+        "by",
+        "in"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be made of + material.",
+        "incorrect": "Revisa esto: Be made of + material."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pregunta con su respuesta.",
+      "pairs": [
+        {
+          "left": "Are you Spanish?",
+          "right": "No, I'm not."
+        },
+        {
+          "left": "Is she Italian?",
+          "right": "Yes, she is."
+        },
+        {
+          "left": "Are they friends?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is it a phone?",
+          "right": "No, it isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta repite el sujeto y el verbo.",
+        "incorrect": "Revisa esto: La respuesta repite el sujeto y el verbo."
+      },
+      "review_of": "en-a1-u02-l04-ex06"
+    },
+    {
+      "id": "en-a2-u11-l01-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "free-time",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada actividad.",
+      "categories": [
+        "Sport",
+        "Music",
+        "At home"
+      ],
+      "items": [
+        {
+          "text": "play football",
+          "category": "Sport"
+        },
+        {
+          "text": "swim",
+          "category": "Sport"
+        },
+        {
+          "text": "dance",
+          "category": "Sport"
+        },
+        {
+          "text": "play the guitar",
+          "category": "Music"
+        },
+        {
+          "text": "listen to music",
+          "category": "Music"
+        },
+        {
+          "text": "sing",
+          "category": "Music"
+        },
+        {
+          "text": "read books",
+          "category": "At home"
+        },
+        {
+          "text": "watch films",
+          "category": "At home"
+        },
+        {
+          "text": "cook",
+          "category": "At home"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u09-l01-ex12"
+    },
+    {
+      "id": "en-a2-u11-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The lamp is next the sofa.",
+      "answer": [
+        "The lamp is next to the sofa."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es 'next to'.",
+        "incorrect": "Revisa esto: Es 'next to'."
+      },
+      "review_of": "en-a1-u06-l03-ex06"
+    },
+    {
+      "id": "en-a2-u11-l01-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Aunque es pequeño, me gusta mi departamento porque es barato.",
+      "answer": [
+        "Although it's small, I like my flat because it's cheap.",
+        "Although it is small, I like my flat because it is cheap.",
+        "Although it's small, I like my apartment because it's cheap."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + because.",
+        "incorrect": "Revisa esto: Although + because."
+      },
+      "review_of": "en-a2-u10-l04-ex13"
+    },
+    {
+      "id": "en-a2-u11-l01-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "I bought a pair ___ jeans yesterday.",
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pair of + prenda en plural.",
+        "incorrect": "Revisa esto: A pair of + prenda en plural."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Qué número es 'eighty'?",
+      "options": [
+        "80",
+        "18",
+        "8",
+        "88"
+      ],
+      "answer": [
+        "80"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eighty = 80; eighteen = 18.",
+        "incorrect": "Revisa esto: Eighty = 80; eighteen = 18."
+      },
+      "review_of": "en-a1-u08-l01-ex02"
+    },
+    {
+      "id": "en-a2-u11-l01-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I bought a blue dark jumper.",
+      "answer": [
+        "I bought a dark blue jumper."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dark va antes del color: dark blue.",
+        "incorrect": "Revisa esto: Dark va antes del color: dark blue."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My trousers is new.",
+      "answer": [
+        "My trousers are new."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trousers es plural: are.",
+        "incorrect": "Revisa esto: Trousers es plural: are."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My glasses is on the table.",
+      "answer": [
+        "My glasses are on the table."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses es plural: are.",
+        "incorrect": "Revisa esto: Glasses es plural: are."
+      },
+      "review_of": "en-a1-u11-l01-ex06"
+    },
+    {
+      "id": "en-a2-u11-l01-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        ".",
+        "I'm",
+        "wearing"
+      ],
+      "answer": [
+        "I'm",
+        "wearing",
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! wear + adjetivos de color + prenda.",
+        "incorrect": "Revisa esto: wear + adjetivos de color + prenda."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué tipo de camisa busca?",
+      "options": [
+        "Light green, cotton and plain",
+        "Dark blue and striped",
+        "Light green and striped",
+        "Checked and wool"
+      ],
+      "answer": [
+        "Light green, cotton and plain"
+      ],
+      "audio_text": "I'm looking for a light green cotton shirt. I don't like stripes, so please show me a plain one.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'light green cotton shirt' y 'a plain one'.",
+        "incorrect": "Revisa esto: Dice 'light green cotton shirt' y 'a plain one'."
+      },
+      "audio_script_id": "en-a2-u11-l01-ex09-a"
+    },
+    {
+      "id": "en-a2-u11-l01-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Llevo botas de cuero negras.",
+      "answer": [
+        "I'm wearing black leather boots.",
+        "I wear black leather boots.",
+        "I'm wearing black boots made of leather."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Color + material + prenda.",
+        "incorrect": "Revisa esto: Color + material + prenda."
+      }
+    },
+    {
+      "id": "en-a2-u11-l01-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ringing. — I ___ get it.",
+      "answer": [
+        "'ll"
+      ],
+      "accepted_alternatives": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: I'll.",
+        "incorrect": "Revisa esto: Decisión en el momento: I'll."
+      },
+      "review_of": "en-a2-u05-l06-ex03"
+    },
+    {
+      "id": "en-a2-u11-l01-ex11",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "clothes"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "jumper",
+          "ipa": "/ˈdʒʌmpə/",
+          "tip_es": "La j suena /dʒ/ y la u suena /ʌ/."
+        },
+        {
+          "text": "scarf",
+          "ipa": "/skɑːf/",
+          "tip_es": "Vocal larga; no se pronuncia la r."
+        },
+        {
+          "text": "leather",
+          "ipa": "/ˈleðə/",
+          "tip_es": "La ea suena /e/ y th suena /ð/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "dark blue · light green · purple",
+      "striped · checked · plain",
+      "made of cotton / wool / leather",
+      "a pair of jeans"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-jumper"
+    },
+    {
+      "type": "vocab",
+      "id": "en-boots"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trainers"
+    },
+    {
+      "type": "vocab",
+      "id": "en-scarf"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gloves"
+    },
+    {
+      "type": "vocab",
+      "id": "en-purple"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dark"
+    },
+    {
+      "type": "vocab",
+      "id": "en-light"
+    },
+    {
+      "type": "vocab",
+      "id": "en-striped"
+    },
+    {
+      "type": "vocab",
+      "id": "en-checked"
+    },
+    {
+      "type": "grammar",
+      "id": "en-adjective-order"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "es": "Have got: tener"
   },
   "objective": "Al terminar hablas de lo que tienes (hermanos, familia) con have got.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -172,6 +172,57 @@
       }
     },
     {
+      "id": "en-a1-u03-l04-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Nosotros somos amigos.",
+      "answer": [
+        "We're friends.",
+        "We are friends."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! we + are.",
+        "incorrect": "Revisa esto: we + are."
+      },
+      "review_of": "en-a1-u02-l03-ex06"
+    },
+    {
+      "id": "en-a1-u03-l04-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Mexico",
+        "?",
+        "Are",
+        "they"
+      ],
+      "answer": [
+        "Are",
+        "they",
+        "from",
+        "Mexico",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con to be y 'they'.",
+        "incorrect": "Revisa esto: Pregunta con to be y 'they'."
+      },
+      "review_of": "en-a1-u02-l06-ex06"
+    },
+    {
       "id": "en-a1-u03-l04-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -194,6 +245,29 @@
         "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
         "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
       }
+    },
+    {
+      "id": "en-a1-u03-l04-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 20 years.",
+      "answer": [
+        "I'm 20.",
+        "I am 20.",
+        "I'm 20 years old.",
+        "I am 20 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés la edad se dice con 'to be', no con 'have'.",
+        "incorrect": "Revisa esto: En inglés la edad se dice con 'to be', no con 'have'."
+      },
+      "review_of": "en-a1-u01-l05-ex04"
     },
     {
       "id": "en-a1-u03-l04-ex05",

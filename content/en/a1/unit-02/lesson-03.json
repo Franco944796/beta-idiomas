@@ -11,7 +11,7 @@
     "es": "We, you, they: to be completo"
   },
   "objective": "Al terminar conjugas to be completo y usas we, you y they.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "reading",
@@ -179,6 +179,25 @@
       }
     },
     {
+      "id": "en-a1-u02-l03-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Good ___, Mr Brown! (son las 09:00)",
+      "answer": [
+        "morning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A las 9 de la mañana: Good morning.",
+        "incorrect": "Revisa esto: A las 9 de la mañana: Good morning."
+      },
+      "review_of": "en-a1-u01-l04-ex03"
+    },
+    {
       "id": "en-a1-u02-l03-ex05",
       "type": "matching",
       "skill": "vocab",
@@ -210,6 +229,29 @@
         "correct": "¡Correcto! Las formas cortas son muy frecuentes al hablar.",
         "incorrect": "Revisa esto: Las formas cortas son muy frecuentes al hablar."
       }
+    },
+    {
+      "id": "en-a1-u02-l03-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 30 years.",
+      "answer": [
+        "I'm 30.",
+        "I am 30.",
+        "I'm 30 years old.",
+        "I am 30 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be'.",
+        "incorrect": "Revisa esto: La edad se dice con 'to be'."
+      },
+      "review_of": "en-a1-u01-l06-ex06"
     },
     {
       "id": "en-a1-u02-l03-ex06",
@@ -250,6 +292,34 @@
         "correct": "¡Correcto! 'they' va con 'are'.",
         "incorrect": "Revisa esto: 'they' va con 'are'."
       }
+    },
+    {
+      "id": "en-a1-u02-l03-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "age"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué edad tiene la persona?",
+      "options": [
+        "13",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": [
+        "16"
+      ],
+      "audio_text": "I'm sixteen years old.",
+      "feedback": {
+        "correct": "¡Correcto! 'sixteen' = 16; el acento está en -teen.",
+        "incorrect": "Revisa esto: 'sixteen' = 16; el acento está en -teen."
+      },
+      "audio_script_id": "en-a1-u02-l03-rv03-a",
+      "review_of": "en-a1-u01-l05-ex07"
     }
   ],
   "summary": {

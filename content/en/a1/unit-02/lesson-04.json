@@ -11,7 +11,7 @@
     "es": "Negativas, preguntas y respuestas cortas"
   },
   "objective": "Al terminar haces negativas y preguntas con to be, y respondes con respuestas cortas.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -153,6 +153,31 @@
       }
     },
     {
+      "id": "en-a1-u02-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escuchas: 'A, double N, A'. ¿Qué nombre es?",
+      "options": [
+        "Anna",
+        "Ana",
+        "Ann",
+        "Anne"
+      ],
+      "answer": [
+        "Anna"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Double N' significa dos N seguidas: A-N-N-A.",
+        "incorrect": "Revisa esto: 'Double N' significa dos N seguidas: A-N-N-A."
+      },
+      "review_of": "en-a1-u01-l02-ex06"
+    },
+    {
       "id": "en-a1-u02-l04-ex03",
       "type": "word_order",
       "skill": "grammar",
@@ -223,6 +248,50 @@
         "correct": "¡Correcto! En la respuesta corta afirmativa no se contrae.",
         "incorrect": "Revisa esto: En la respuesta corta afirmativa no se contrae."
       }
+    },
+    {
+      "id": "en-a1-u02-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 3 de la tarde. ¿Qué dices al saludar?",
+      "options": [
+        "Good afternoon!",
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": [
+        "Good afternoon!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por la tarde se dice 'Good afternoon'.",
+        "incorrect": "Revisa esto: Por la tarde se dice 'Good afternoon'."
+      },
+      "review_of": "en-a1-u01-l06-ex01"
+    },
+    {
+      "id": "en-a1-u02-l04-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "one, two, ___, four",
+      "answer": [
+        "three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contando: one, two, three, four.",
+        "incorrect": "Revisa esto: Contando: one, two, three, four."
+      },
+      "review_of": "en-a1-u01-l03-ex02"
     },
     {
       "id": "en-a1-u02-l04-ex06",

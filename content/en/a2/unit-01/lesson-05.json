@@ -11,7 +11,7 @@
     "es": "Contar una historia: first, then, after that"
   },
   "objective": "Al terminar cuentas una historia corta en pasado ordenando los hechos con first, then, after that y finally.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -184,6 +184,31 @@
       }
     },
     {
+      "id": "en-a2-u01-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pides un té con educación. ¿Qué dices?",
+      "options": [
+        "I'd like a tea, please.",
+        "I want tea.",
+        "Give me tea.",
+        "Tea now."
+      ],
+      "answer": [
+        "I'd like a tea, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forma educada.",
+        "incorrect": "Revisa esto: Forma educada."
+      },
+      "review_of": "en-a1-u05-l06-ex07"
+    },
+    {
       "id": "en-a2-u01-l05-ex04",
       "type": "fill_blank",
       "skill": "vocab",
@@ -200,6 +225,27 @@
         "correct": "¡Correcto! Finally marca el último paso.",
         "incorrect": "Revisa esto: Finally marca el último paso."
       }
+    },
+    {
+      "id": "en-a2-u01-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
     },
     {
       "id": "en-a2-u01-l05-ex05",
@@ -221,6 +267,26 @@
         "correct": "¡Correcto! Wake up es irregular: woke up.",
         "incorrect": "Revisa esto: Wake up es irregular: woke up."
       }
+    },
+    {
+      "id": "en-a2-u01-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ raining.",
+      "answer": [
+        "It's",
+        "It is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto 'it' es obligatorio.",
+        "incorrect": "Revisa esto: El sujeto 'it' es obligatorio."
+      },
+      "review_of": "en-a1-u10-l01-ex02"
     },
     {
       "id": "en-a2-u01-l05-ex06",
@@ -273,6 +339,26 @@
       }
     },
     {
+      "id": "en-a2-u01-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día es un ordinal: fifth.",
+        "incorrect": "Revisa esto: El día es un ordinal: fifth."
+      },
+      "review_of": "en-a1-u10-l06-ex07"
+    },
+    {
       "id": "en-a2-u01-l05-ex08",
       "type": "listening",
       "skill": "listening",
@@ -309,7 +395,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Cuenta en 5 frases qué hiciste el sábado pasado. Usa first, then, after that y finally.",
-      "min_words": 25,
+      "min_words": 22,
       "self_check_es": [
         "¿Usaste verbos en pasado?",
         "¿Usaste first, then, after that y finally?",

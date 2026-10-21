@@ -11,7 +11,7 @@
     "es": "Comparativos: -er y more"
   },
   "objective": "Al terminar comparas dos personas, lugares o cosas con adjetivos + -er o more + adjetivo y than.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -177,6 +177,31 @@
       }
     },
     {
+      "id": "en-a2-u03-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 20,
+      "prompt": "We walked ___ the bridge to the other side.",
+      "options": [
+        "across",
+        "along",
+        "at",
+        "by"
+      ],
+      "answer": [
+        "across"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Across = cruzando de un lado a otro.",
+        "incorrect": "Revisa esto: Across = cruzando de un lado a otro."
+      },
+      "review_of": "en-a2-u02-l04-ex05"
+    },
+    {
       "id": "en-a2-u03-l02-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -193,6 +218,74 @@
         "correct": "¡Correcto! Dos sílabas en -y: -ier.",
         "incorrect": "Revisa esto: Dos sílabas en -y: -ier."
       }
+    },
+    {
+      "id": "en-a2-u03-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
+    },
+    {
+      "id": "en-a2-u03-l02-rv03",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "We booked a flight to Rome.",
+      "answer": [
+        "We booked a flight to Rome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'booked a flight'.",
+        "incorrect": "Revisa esto: Escuchaste 'booked a flight'."
+      },
+      "audio_script_id": "en-a2-u03-l02-rv03-a",
+      "review_of": "en-a2-u02-l01-ex07"
+    },
+    {
+      "id": "en-a2-u03-l02-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es la hermana?",
+      "options": [
+        "Tall and friendly",
+        "Short and quiet",
+        "Young and funny",
+        "Tall and quiet"
+      ],
+      "answer": [
+        "Tall and friendly"
+      ],
+      "audio_text": "My brother is young and quiet. My sister is tall and friendly.",
+      "feedback": {
+        "correct": "¡Correcto! La hermana es 'tall and friendly'.",
+        "incorrect": "Revisa esto: La hermana es 'tall and friendly'."
+      },
+      "audio_script_id": "en-a2-u03-l02-rv04-a",
+      "review_of": "en-a1-u03-l05-ex08"
     },
     {
       "id": "en-a2-u03-l02-ex04",

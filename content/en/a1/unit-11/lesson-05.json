@@ -1,0 +1,633 @@
+{
+  "id": "en-a1-u11-l05",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Instructions and short messages",
+    "es": "Instrucciones y mensajes cortos"
+  },
+  "objective": "Al terminar entiendes instrucciones de clase y mensajes cortos (notas, textos) y pides ayuda cuando no entiendes.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En una clase, en una nota pegada en la heladera o en un mensaje de texto, el inglés es breve y directo. Vamos a leerlo y a usarlo."
+  },
+  "input": {
+    "type": "text",
+    "text": "Classroom: Please sit down. Open your books on page ten. Listen and repeat. Read the text. Write your name. Don't use your phone. Raise your hand if you have a question.\nNote on the fridge: Back at six. There's pasta in the fridge. Please wash the dishes. Mum.\nText message: Where are you? I'm at the café. See you soon!",
+    "es": "En clase: Por favor, siéntense. Abran sus libros en la página diez. Escuchen y repitan. Lean el texto. Escriban su nombre. No usen el teléfono. Levanten la mano si tienen una pregunta.\nNota en la heladera: Vuelvo a las seis. Hay pasta en la heladera. Por favor, lava los platos. Mamá.\nMensaje de texto: ¿Dónde estás? Estoy en el café. ¡Nos vemos pronto!",
+    "glossary": [
+      {
+        "id": "en-sit-down",
+        "lemma": "sit down",
+        "pos": "phrasal verb",
+        "ipa": "/sɪt daʊn/",
+        "es": "sentarse",
+        "example": "Please sit down."
+      },
+      {
+        "id": "en-open",
+        "lemma": "open",
+        "pos": "verb",
+        "ipa": "/ˈəʊpən/",
+        "es": "abrir",
+        "example": "Open your books."
+      },
+      {
+        "id": "en-close",
+        "lemma": "close",
+        "pos": "verb",
+        "ipa": "/kləʊz/",
+        "es": "cerrar",
+        "example": "Close the door."
+      },
+      {
+        "id": "en-listen",
+        "lemma": "listen",
+        "pos": "verb",
+        "ipa": "/ˈlɪsn/",
+        "es": "escuchar",
+        "example": "Listen and repeat."
+      },
+      {
+        "id": "en-repeat",
+        "lemma": "repeat",
+        "pos": "verb",
+        "ipa": "/rɪˈpiːt/",
+        "es": "repetir",
+        "example": "Can you repeat that, please?"
+      },
+      {
+        "id": "en-raise-your-hand",
+        "lemma": "raise your hand",
+        "pos": "phrase",
+        "ipa": "/reɪz jɔː hænd/",
+        "es": "levantar la mano",
+        "example": "Raise your hand if you have a question."
+      },
+      {
+        "id": "en-page",
+        "lemma": "page",
+        "pos": "noun",
+        "ipa": "/peɪdʒ/",
+        "es": "página",
+        "example": "Open your books on page ten."
+      },
+      {
+        "id": "en-fridge",
+        "lemma": "fridge",
+        "pos": "noun",
+        "ipa": "/frɪdʒ/",
+        "es": "heladera, refrigerador",
+        "example": "There's pasta in the fridge."
+      },
+      {
+        "id": "en-wash-the-dishes",
+        "lemma": "wash the dishes",
+        "pos": "phrase",
+        "ipa": "/wɒʃ ðə ˈdɪʃɪz/",
+        "es": "lavar los platos",
+        "example": "Please wash the dishes."
+      },
+      {
+        "id": "en-note",
+        "lemma": "note",
+        "pos": "noun",
+        "ipa": "/nəʊt/",
+        "es": "nota",
+        "example": "I left a note on the fridge."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Instrucciones: el imperativo (verbo en base, sin sujeto)**\n\n*Sit down. · Open your book. · Listen and repeat. · Read the text. · Write your name. · Look at the board.*\n**Negativo:** *Don't use your phone.* · **Cortés:** *Please sit down.*\n\n**Frases para sobrevivir en clase**\n\n| Quiero… | Digo… |\n|---|---|\n| que lo repitan | *Can you repeat that, please?* |\n| que hablen más despacio | *Can you speak more slowly, please?* |\n| decir que no entiendo | *I don't understand.* |\n| saber qué significa | *What does 'wallet' mean?* |\n| saber cómo se dice | *How do you say 'llaves' in English?* |\n| saber cómo se escribe | *How do you spell it?* |\n\n**Mensajes cortos**\n\n- **Notas:** *Back at six. · Gone to the shop. · Please close the window.* (se omiten palabras: *I'll be back at six*)\n- **Mensajes de texto:** *Where are you? · I'm at the café. · See you soon! · Running late.*\n\nOjo: en el imperativo no se pone *to*: *Open the door* (no *To open the door*). *Don't* + verbo base: *Don't talk.*\n\nPronunciación: *listen* /ˈlɪsn/ (la t no suena) · *repeat* /rɪˈpiːt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "To open the door, please.",
+        "right": "Open the door, please.",
+        "note": "En el imperativo no se pone to."
+      },
+      {
+        "wrong": "I not understand.",
+        "right": "I don't understand.",
+        "note": "Negación con don't."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l05-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Open your book.",
+          "right": "Abre tu libro."
+        },
+        {
+          "left": "Listen and repeat.",
+          "right": "Escucha y repite."
+        },
+        {
+          "left": "Raise your hand.",
+          "right": "Levanta la mano."
+        },
+        {
+          "left": "Sit down.",
+          "right": "Siéntate."
+        },
+        {
+          "left": "Close the door.",
+          "right": "Cierra la puerta."
+        },
+        {
+          "left": "Write your name.",
+          "right": "Escribe tu nombre."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son instrucciones típicas de clase.",
+        "incorrect": "Revisa esto: Son instrucciones típicas de clase."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "No entendiste. Quieres que lo repitan. Dices:",
+      "options": [
+        "Can you repeat that, please?",
+        "Repeat you.",
+        "I not know.",
+        "What? Again!"
+      ],
+      "answer": [
+        "Can you repeat that, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Petición cortés para repetir.",
+        "incorrect": "Revisa esto: Petición cortés para repetir."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El fin de semana que viene voy a Brighton.",
+      "answer": [
+        "Next weekend I'm going to Brighton.",
+        "I'm going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      },
+      "review_of": "en-a1-u10-l05-ex09"
+    },
+    {
+      "id": "en-a1-u11-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber el significado de 'wallet'. Preguntas:",
+      "options": [
+        "What does 'wallet' mean?",
+        "What is mean wallet?",
+        "How you say wallet?",
+        "Wallet is what?"
+      ],
+      "answer": [
+        "What does 'wallet' mean?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What does … mean? = ¿qué significa…?",
+        "incorrect": "Revisa esto: What does … mean? = ¿qué significa…?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'otoño' en inglés británico?",
+      "options": [
+        "autumn",
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "answer": [
+        "autumn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, otoño = autumn.",
+        "incorrect": "Revisa esto: En inglés británico, otoño = autumn."
+      },
+      "review_of": "en-a1-u10-l02-ex04"
+    },
+    {
+      "id": "en-a1-u11-l05-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 25,
+      "prompt": "Please ___ your name. (escribe)",
+      "answer": [
+        "write"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo: verbo en base.",
+        "incorrect": "Revisa esto: Imperativo: verbo en base."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ do you spell your name?",
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How do you spell …?",
+        "incorrect": "Revisa esto: How do you spell …?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Don't to use your phone.",
+      "answer": [
+        "Don't use your phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de don't va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de don't va el verbo base, sin to."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "speak",
+        "more",
+        "slowly",
+        ",",
+        "please",
+        "?",
+        "Can",
+        "you"
+      ],
+      "answer": [
+        "Can",
+        "you",
+        "speak",
+        "more",
+        "slowly",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can you + verbo base + please.",
+        "incorrect": "Revisa esto: Can you + verbo base + please."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué hora vuelve la mamá, según la nota?",
+      "options": [
+        "At six",
+        "At seven",
+        "At five",
+        "At ten"
+      ],
+      "answer": [
+        "At six"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La nota dice 'Back at six'.",
+        "incorrect": "Revisa esto: La nota dice 'Back at six'."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They are going to Brighton the next weekend.",
+      "answer": [
+        "They are going to Brighton next weekend.",
+        "They're going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      },
+      "review_of": "en-a1-u10-l05-ex05"
+    },
+    {
+      "id": "en-a1-u11-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't got ___ milk.",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En negativas se usa any.",
+        "incorrect": "Revisa esto: En negativas se usa any."
+      },
+      "review_of": "en-a1-u05-l06-ex04"
+    },
+    {
+      "id": "en-a1-u11-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 25,
+      "prompt": "I go to work ___ bus.",
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con transporte se usa by.",
+        "incorrect": "Revisa esto: Con transporte se usa by."
+      },
+      "review_of": "en-a1-u07-l04-ex02"
+    },
+    {
+      "id": "en-a1-u11-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde está la persona que manda el mensaje de texto?",
+      "options": [
+        "At the café",
+        "At home",
+        "At school",
+        "At the station"
+      ],
+      "answer": [
+        "At the café"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El mensaje dice 'I'm at the café'.",
+        "incorrect": "Revisa esto: El mensaje dice 'I'm at the café'."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ to the cinema tomorrow. (go)",
+      "answer": [
+        "'re going",
+        "are going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: are going.",
+        "incorrect": "Revisa esto: Plan futuro: are going."
+      },
+      "review_of": "en-a1-u10-l04-ex02"
+    },
+    {
+      "id": "en-a1-u11-l05-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿En qué página deben abrir el libro?",
+      "options": [
+        "Twelve",
+        "Ten",
+        "Two",
+        "Twenty"
+      ],
+      "answer": [
+        "Twelve"
+      ],
+      "audio_text": "Open your books on page twelve and read the text. Then write two sentences.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on page twelve'.",
+        "incorrect": "Revisa esto: Dice 'on page twelve'."
+      },
+      "audio_script_id": "en-a1-u11-l05-ex10-a"
+    },
+    {
+      "id": "en-a1-u11-l05-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una nota corta para dejar a tu compañero/a de casa (3 o 4 frases): cuándo vuelves, algo que hay en la heladera y un pedido con please.",
+      "min_words": 12,
+      "self_check_es": [
+        "¿Dijiste a qué hora vuelves?",
+        "¿Mencionaste algo de la heladera?",
+        "¿Usaste please con un imperativo?",
+        "¿La nota es corta y clara?"
+      ],
+      "model_answer": "Back at eight. There's pizza in the fridge. Please close the window. See you later!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u11-l05-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una clase de inglés y no entiendes algo.",
+      "turns": [
+        {
+          "speaker": "Teacher",
+          "text": "Open your books on page fifteen, please."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Sorry, I don't understand. Can you repeat that, please?",
+            "Sorry, I no understand. Repeat.",
+            "What? Again!"
+          ],
+          "best": 0,
+          "why_es": "I don't understand + Can you repeat…?"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Of course. Page fifteen."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. How do you spell 'fifteen'?",
+            "Thank. How spell fifteen?",
+            "Thanks. Spell you fifteen?"
+          ],
+          "best": 0,
+          "why_es": "How do you spell …?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Sit down. · Open your book. · Listen and repeat.",
+      "Don't use your phone. · Please close the door.",
+      "Can you repeat that, please? · I don't understand.",
+      "What does … mean? · How do you spell it?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-sit-down"
+    },
+    {
+      "type": "vocab",
+      "id": "en-open"
+    },
+    {
+      "type": "vocab",
+      "id": "en-close"
+    },
+    {
+      "type": "vocab",
+      "id": "en-listen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-repeat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-raise-your-hand"
+    },
+    {
+      "type": "vocab",
+      "id": "en-page"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fridge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wash-the-dishes"
+    },
+    {
+      "type": "vocab",
+      "id": "en-note"
+    },
+    {
+      "type": "grammar",
+      "id": "en-classroom-instructions"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "es": "Comparar y elegir: integración"
   },
   "objective": "Al terminar comparas dos opciones y justificas cuál elegís usando comparativos, superlativos, as … as, too y enough.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -218,6 +218,25 @@
       }
     },
     {
+      "id": "en-a2-u03-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ swim. (puede)",
+      "answer": [
+        "can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can no cambia: She can swim.",
+        "incorrect": "Revisa esto: Can no cambia: She can swim."
+      },
+      "review_of": "en-a1-u09-l06-ex03"
+    },
+    {
       "id": "en-a2-u03-l05-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -299,6 +318,25 @@
       }
     },
     {
+      "id": "en-a2-u03-l05-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "5th = ___",
+      "answer": [
+        "fifth"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Five cambia a fifth.",
+        "incorrect": "Revisa esto: Five cambia a fifth."
+      },
+      "review_of": "en-a1-u10-l03-ex02"
+    },
+    {
       "id": "en-a2-u03-l05-ex08",
       "type": "multiple_choice",
       "skill": "reading",
@@ -322,6 +360,25 @@
         "correct": "¡Correcto! Mia dice 'That's too long for me'.",
         "incorrect": "Revisa esto: Mia dice 'That's too long for me'."
       }
+    },
+    {
+      "id": "en-a2-u03-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's ___ teacher.",
+      "answer": [
+        "a"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'teacher' empieza con sonido de consonante: a.",
+        "incorrect": "Revisa esto: 'teacher' empieza con sonido de consonante: a."
+      },
+      "review_of": "en-a1-u02-l05-ex02"
     },
     {
       "id": "en-a2-u03-l05-ex09",
@@ -417,6 +474,26 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a2-u03-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I goed to school by bus.",
+      "answer": [
+        "I went to school by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go es irregular: went.",
+        "incorrect": "Revisa esto: Go es irregular: went."
+      },
+      "review_of": "en-a2-u01-l03-ex06"
     }
   ],
   "summary": {

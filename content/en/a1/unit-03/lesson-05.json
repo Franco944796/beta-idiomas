@@ -11,7 +11,7 @@
     "es": "Describir personas"
   },
   "objective": "Al terminar describes personas con adjetivos y los colocas bien en la frase.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -264,6 +264,25 @@
       }
     },
     {
+      "id": "en-a1-u03-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's ___ teacher.",
+      "answer": [
+        "a"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'teacher' empieza con sonido de consonante: a.",
+        "incorrect": "Revisa esto: 'teacher' empieza con sonido de consonante: a."
+      },
+      "review_of": "en-a1-u02-l05-ex02"
+    },
+    {
       "id": "en-a1-u03-l05-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -302,6 +321,56 @@
         "correct": "¡Correcto! Padre = father; amable = kind.",
         "incorrect": "Revisa esto: Padre = father; amable = kind."
       }
+    },
+    {
+      "id": "en-a1-u03-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu amigo dice 'Thank you'. ¿Qué respondes?",
+      "options": [
+        "You're welcome.",
+        "Good night.",
+        "Nice to meet you.",
+        "I'm fine."
+      ],
+      "answer": [
+        "You're welcome."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Thank you' = 'You're welcome'.",
+        "incorrect": "Revisa esto: Respuesta a 'Thank you' = 'You're welcome'."
+      },
+      "review_of": "en-a1-u01-l06-ex08"
+    },
+    {
+      "id": "en-a1-u03-l05-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 20,
+      "prompt": "You and Ben are my friends. ___ are my friends.",
+      "options": [
+        "You",
+        "We",
+        "They",
+        "He"
+      ],
+      "answer": [
+        "You"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'You and Ben' = you (plural): 'you' sirve para uno o varios.",
+        "incorrect": "Revisa esto: 'You and Ben' = you (plural): 'you' sirve para uno o varios."
+      },
+      "review_of": "en-a1-u02-l03-ex03"
     },
     {
       "id": "en-a1-u03-l05-ex08",

@@ -11,7 +11,7 @@
     "es": "En el supermercado: cantidades y precios"
   },
   "objective": "Al terminar compras alimentos pidiendo cantidades (a kilo of, half a litre), preguntas precios y entiendes el total y el cambio.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -231,6 +231,27 @@
       }
     },
     {
+      "id": "en-a2-u04-l04-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "colours",
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Una lámpara roja.",
+      "answer": [
+        "A red lamp."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo antes del sustantivo: a red lamp.",
+        "incorrect": "Revisa esto: Adjetivo antes del sustantivo: a red lamp."
+      },
+      "review_of": "en-a1-u06-l04-ex08"
+    },
+    {
       "id": "en-a2-u04-l04-ex05",
       "type": "matching",
       "skill": "vocab",
@@ -264,6 +285,31 @@
       }
     },
     {
+      "id": "en-a2-u04-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué palabra la terminación -ed suena /ɪd/?",
+      "options": [
+        "wanted",
+        "walked",
+        "played",
+        "cooked"
+      ],
+      "answer": [
+        "wanted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de t o d, -ed se pronuncia /ɪd/.",
+        "incorrect": "Revisa esto: Después de t o d, -ed se pronuncia /ɪd/."
+      },
+      "review_of": "en-a2-u01-l02-ex05"
+    },
+    {
       "id": "en-a2-u04-l04-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -281,6 +327,27 @@
         "correct": "¡Correcto! Falta of y es más natural a kilo.",
         "incorrect": "Revisa esto: Falta of y es más natural a kilo."
       }
+    },
+    {
+      "id": "en-a2-u04-l04-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Am Tom.",
+      "answer": [
+        "I'm Tom.",
+        "I am Tom."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: I'm Tom.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: I'm Tom."
+      },
+      "review_of": "en-a1-u01-l01-ex06"
     },
     {
       "id": "en-a2-u04-l04-ex07",
@@ -322,6 +389,36 @@
         "correct": "¡Correcto! Can I have + cantidad + of + alimento.",
         "incorrect": "Revisa esto: Can I have + cantidad + of + alimento."
       }
+    },
+    {
+      "id": "en-a2-u04-l04-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "student",
+        "?",
+        "Are",
+        "you"
+      ],
+      "answer": [
+        "Are",
+        "you",
+        "a",
+        "student",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas con to be, el verbo va antes del sujeto.",
+        "incorrect": "Revisa esto: En preguntas con to be, el verbo va antes del sujeto."
+      },
+      "review_of": "en-a1-u02-l04-ex03"
     },
     {
       "id": "en-a2-u04-l04-ex08",
@@ -393,6 +490,25 @@
         "incorrect": "Revisa esto: Pedido de cantidad: a litre of milk."
       },
       "audio_script_id": "en-a2-u04-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u04-l04-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's a very ___ city. There are people and cars everywhere. (ruidosa)",
+      "answer": [
+        "noisy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Noisy = ruidosa.",
+        "incorrect": "Revisa esto: Noisy = ruidosa."
+      },
+      "review_of": "en-a2-u03-l01-ex04"
     },
     {
       "id": "en-a2-u04-l04-ex11",

@@ -11,7 +11,7 @@
     "es": "En el aeropuerto y el hotel: Could you...?"
   },
   "objective": "Al terminar haces pedidos corteses en un aeropuerto o un hotel con Could you…? y I'd like to… y entiendes las respuestas.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -176,6 +176,90 @@
       }
     },
     {
+      "id": "en-a2-u02-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el pasado de 'take'?",
+      "options": [
+        "took",
+        "taked",
+        "taken",
+        "tooked"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take → took.",
+        "incorrect": "Revisa esto: Take → took."
+      },
+      "review_of": "en-a2-u01-l03-ex05"
+    },
+    {
+      "id": "en-a2-u02-l03-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada objeto en su categoría.",
+      "categories": [
+        "School",
+        "Electronics",
+        "Personal things"
+      ],
+      "items": [
+        {
+          "text": "pen",
+          "category": "School"
+        },
+        {
+          "text": "notebook",
+          "category": "School"
+        },
+        {
+          "text": "pencil",
+          "category": "School"
+        },
+        {
+          "text": "phone",
+          "category": "Electronics"
+        },
+        {
+          "text": "computer",
+          "category": "Electronics"
+        },
+        {
+          "text": "camera",
+          "category": "Electronics"
+        },
+        {
+          "text": "wallet",
+          "category": "Personal things"
+        },
+        {
+          "text": "keys",
+          "category": "Personal things"
+        },
+        {
+          "text": "glasses",
+          "category": "Personal things"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u11-l01-ex02"
+    },
+    {
       "id": "en-a2-u02-l03-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -325,6 +409,33 @@
       "audio_script_id": "en-a2-u02-l03-ex08-a"
     },
     {
+      "id": "en-a2-u02-l03-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo va el hermano?",
+      "options": [
+        "By car",
+        "By train",
+        "By bus",
+        "On foot"
+      ],
+      "answer": [
+        "By car"
+      ],
+      "audio_text": "I go to work by train, but my brother goes by car.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my brother goes by car'.",
+        "incorrect": "Revisa esto: Dice 'my brother goes by car'."
+      },
+      "audio_script_id": "en-a2-u02-l03-rv03-a",
+      "review_of": "en-a1-u07-l04-ex08"
+    },
+    {
       "id": "en-a2-u02-l03-ex09",
       "type": "dictation",
       "skill": "listening",
@@ -343,6 +454,41 @@
         "incorrect": "Revisa esto: Pedido educado con Could I have…?"
       },
       "audio_script_id": "en-a2-u02-l03-ex09-a"
+    },
+    {
+      "id": "en-a2-u02-l03-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta por tus planes.",
+        "incorrect": "Revisa esto: Pregunta por tus planes."
+      },
+      "review_of": "en-a1-u10-l04-ex07"
     },
     {
       "id": "en-a2-u02-l03-ex10",

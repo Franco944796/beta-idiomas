@@ -1,0 +1,668 @@
+{
+  "id": "en-a2-u11-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Returns and complaints",
+    "es": "Cambios, devoluciones y quejas"
+  },
+  "objective": "Al terminar pides un cambio o una devolución, explicas el problema y usas el vocabulario de rebajas y descuentos.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Compraste una prenda y no te queda o está rota. ¿Cómo lo explicas en la tienda sin sentirte incómodo?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Customer",
+        "text": "Hello. I bought this jumper yesterday, but it doesn't fit. Can I exchange it?",
+        "es": "Hola. Compré este suéter ayer, pero no me queda bien. ¿Puedo cambiarlo?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Of course. Have you got your receipt?",
+        "es": "Por supuesto. ¿Tiene el ticket?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, here it is. I'd like a larger size, please.",
+        "es": "Sí, aquí está. Quisiera una talla más grande."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "I'm sorry, we haven't got that size. Would you like a refund?",
+        "es": "Lo siento, no tenemos esa talla. ¿Quiere que le devolvamos el dinero?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, please. And these trousers are on sale, aren't they?",
+        "es": "Sí, por favor. Y estos pantalones están en oferta, ¿verdad?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "That's right. They're 30% off, so they're only £35.",
+        "es": "Así es. Tienen un 30 % de descuento, así que cuestan solo £35."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-exchange",
+        "lemma": "exchange",
+        "pos": "verb",
+        "ipa": "/ɪksˈtʃeɪndʒ/",
+        "es": "cambiar (una compra)",
+        "example": "Can I exchange it?"
+      },
+      {
+        "id": "en-refund",
+        "lemma": "refund",
+        "pos": "noun",
+        "ipa": "/ˈriːfʌnd/",
+        "es": "reembolso, devolución del dinero",
+        "example": "I'd like a refund, please."
+      },
+      {
+        "id": "en-receipt",
+        "lemma": "receipt",
+        "pos": "noun",
+        "ipa": "/rɪˈsiːt/",
+        "es": "ticket, recibo",
+        "example": "Have you got your receipt?"
+      },
+      {
+        "id": "en-faulty",
+        "lemma": "faulty",
+        "pos": "adj",
+        "ipa": "/ˈfɔːlti/",
+        "es": "defectuoso/a",
+        "example": "The zip is faulty."
+      },
+      {
+        "id": "en-on-sale",
+        "lemma": "on sale",
+        "pos": "phrase",
+        "ipa": "/ɒn seɪl/",
+        "es": "en oferta, rebajado",
+        "example": "These trousers are on sale."
+      },
+      {
+        "id": "en-30-off",
+        "lemma": "30% off",
+        "pos": "phrase",
+        "ipa": "/ˈθɜːti pəˈsent ɒf/",
+        "es": "30 % de descuento",
+        "example": "It's 30% off."
+      },
+      {
+        "id": "en-bargain",
+        "lemma": "bargain",
+        "pos": "noun",
+        "ipa": "/ˈbɑːɡɪn/",
+        "es": "ganga, buena oferta",
+        "example": "That's a real bargain!"
+      },
+      {
+        "id": "en-return",
+        "lemma": "return",
+        "pos": "verb",
+        "ipa": "/rɪˈtɜːn/",
+        "es": "devolver",
+        "example": "I'd like to return this."
+      }
+    ],
+    "audio_script_id": "en-a2-u11-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Cambios y devoluciones**\n\n- **Explicar:** *I bought this yesterday, but it doesn't fit. · It's faulty. · There's a hole in it. · It's the wrong size / colour.*\n- **Pedir:** *Can I exchange it? · I'd like to return this. · I'd like a refund, please.*\n- **Ticket:** *Have you got your receipt? — Yes, here it is. / I'm afraid I've lost it.*\n\n**Rebajas:** *on sale · 30% off · a discount · reduced · a bargain · sold out* (agotado). Se lee *30% off* = *thirty per cent off*.\n\n**Pasado simple para explicar lo que ocurrió:** *I bought it yesterday. · I washed it once and it shrank.* (*shrink → shrank*).\n\n**Con educación:** *I'm sorry to bother you, but … · Could you help me, please? · Thank you for your help.*\n\n**Ojo, falso amigo:** *return* es 'devolver' (también 'volver'); 'regresar' = *go back*. *Receipt* es 'ticket / recibo' (la 'p' no se pronuncia).\n\nPronunciación: *receipt* /rɪˈsiːt/ · *refund* /ˈriːfʌnd/ · *faulty* /ˈfɔːlti/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I buy this yesterday.",
+        "right": "I bought this yesterday.",
+        "note": "Yesterday: pasado simple."
+      },
+      {
+        "wrong": "I want change this.",
+        "right": "I'd like to exchange this.",
+        "note": "Pedido cortés con I'd like to + verbo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Compraste algo que no te queda. Quieres cambiarlo:",
+      "options": [
+        "Can I exchange it for a larger size?",
+        "I want change this.",
+        "Change me, please.",
+        "I returning this."
+      ],
+      "answer": [
+        "Can I exchange it for a larger size?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I exchange it…? es cortés y claro.",
+        "incorrect": "Revisa esto: Can I exchange it…? es cortés y claro."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres que te devuelvan el dinero:",
+      "options": [
+        "I'd like a refund, please.",
+        "Give money back.",
+        "I want pay again.",
+        "Refund me now."
+      ],
+      "answer": [
+        "I'd like a refund, please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like a refund = quisiera la devolución.",
+        "incorrect": "Revisa esto: I'd like a refund = quisiera la devolución."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ a white T-shirt. (wear)",
+      "answer": [
+        "wears"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s: wears.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s: wears."
+      },
+      "review_of": "en-a1-u08-l03-ex02"
+    },
+    {
+      "id": "en-a2-u11-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain in the head. I feel ill.",
+      "answer": [
+        "I've got a headache. I feel ill.",
+        "I have a headache. I feel ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la cabeza: headache.",
+        "incorrect": "Revisa esto: Para la cabeza: headache."
+      },
+      "review_of": "en-a2-u06-l02-ex06"
+    },
+    {
+      "id": "en-a2-u11-l04-ex03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you got your ___? (el ticket)",
+      "answer": [
+        "receipt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Receipt = ticket, comprobante.",
+        "incorrect": "Revisa esto: Receipt = ticket, comprobante."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "These trousers are ___ sale. They're 30% off.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On sale = en oferta.",
+        "incorrect": "Revisa esto: On sale = en oferta."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "The zip is broken. The jacket is ___. (defectuosa)",
+      "answer": [
+        "faulty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Faulty = defectuoso.",
+        "incorrect": "Revisa esto: Faulty = defectuoso."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 20,
+      "prompt": "My sister is a ___ driver.",
+      "options": [
+        "careful",
+        "carefully",
+        "care",
+        "carefulness"
+      ],
+      "answer": [
+        "careful"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Antes de un sustantivo va un adjetivo.",
+        "incorrect": "Revisa esto: Antes de un sustantivo va un adjetivo."
+      },
+      "review_of": "en-a2-u10-l01-ex05"
+    },
+    {
+      "id": "en-a2-u11-l04-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I buy this yesterday, but it doesn't fit.",
+      "answer": [
+        "I bought this yesterday, but it doesn't fit."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yesterday exige pasado simple: bought.",
+        "incorrect": "Revisa esto: Yesterday exige pasado simple: bought."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want to return me this jacket.",
+      "answer": [
+        "I'd like to return this jacket.",
+        "I want to return this jacket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Return + objeto directo, sin me.",
+        "incorrect": "Revisa esto: Return + objeto directo, sin me."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "to",
+        "return",
+        "this",
+        ",",
+        "please",
+        ".",
+        "I'd",
+        "like"
+      ],
+      "answer": [
+        "I'd",
+        "like",
+        "to",
+        "return",
+        "this",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like to + verbo + objeto.",
+        "incorrect": "Revisa esto: I'd like to + verbo + objeto."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué no pueden cambiar el suéter?",
+      "options": [
+        "They haven't got that size",
+        "The receipt is lost",
+        "It's faulty",
+        "It's too expensive"
+      ],
+      "answer": [
+        "They haven't got that size"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La vendedora dice 'we haven't got that size'.",
+        "incorrect": "Revisa esto: La vendedora dice 'we haven't got that size'."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-vocabulary"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "connect",
+        "to",
+        "the",
+        "Wi-Fi",
+        ".",
+        "I",
+        "can't"
+      ],
+      "answer": [
+        "I",
+        "can't",
+        "connect",
+        "to",
+        "the",
+        "Wi-Fi",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! can't + verbo base + to + red.",
+        "incorrect": "Revisa esto: can't + verbo base + to + red."
+      },
+      "review_of": "en-a2-u09-l01-ex09"
+    },
+    {
+      "id": "en-a2-u11-l04-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the guitar good.",
+      "answer": [
+        "She plays the guitar well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del verbo: well.",
+        "incorrect": "Revisa esto: Después del verbo: well."
+      },
+      "review_of": "en-a2-u10-l06-ex09"
+    },
+    {
+      "id": "en-a2-u11-l04-rv06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su opuesto.",
+      "pairs": [
+        {
+          "left": "quiet",
+          "right": "noisy"
+        },
+        {
+          "left": "clean",
+          "right": "dirty"
+        },
+        {
+          "left": "safe",
+          "right": "dangerous"
+        },
+        {
+          "left": "cheap",
+          "right": "expensive"
+        },
+        {
+          "left": "old",
+          "right": "new"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprenderlos en pares ayuda a recordarlos.",
+        "incorrect": "Revisa esto: Aprenderlos en pares ayuda a recordarlos."
+      },
+      "review_of": "en-a2-u03-l01-ex01"
+    },
+    {
+      "id": "en-a2-u11-l04-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué problema tiene?",
+      "options": [
+        "He lost the receipt",
+        "The shoes are faulty",
+        "The shoes are too big",
+        "He wants a refund"
+      ],
+      "answer": [
+        "He lost the receipt"
+      ],
+      "audio_text": "I bought these shoes last week, but they're too small. I've lost my receipt, I'm afraid. Can I still exchange them?",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I've lost my receipt'.",
+        "incorrect": "Revisa esto: Dice 'I've lost my receipt'."
+      },
+      "audio_script_id": "en-a2-u11-l04-ex10-a"
+    },
+    {
+      "id": "en-a2-u11-l04-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Compré esta chaqueta ayer, pero está rota. Quisiera un reembolso.",
+      "answer": [
+        "I bought this jacket yesterday, but it's broken. I'd like a refund.",
+        "I bought this jacket yesterday but it's faulty. I'd like a refund."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado simple + I'd like a refund.",
+        "incorrect": "Revisa esto: Pasado simple + I'd like a refund."
+      }
+    },
+    {
+      "id": "en-a2-u11-l04-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué estaba buscando?",
+      "options": [
+        "His charger",
+        "His phone",
+        "His keys",
+        "His password"
+      ],
+      "answer": [
+        "His charger"
+      ],
+      "audio_text": "I was working on my laptop when the battery died. While I was looking for my charger, my boss called.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'looking for my charger'.",
+        "incorrect": "Revisa esto: Dice 'looking for my charger'."
+      },
+      "audio_script_id": "en-a2-u11-l04-rv07-a",
+      "review_of": "en-a2-u09-l06-ex09"
+    },
+    {
+      "id": "en-a2-u11-l04-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Quieres devolver una prenda que no te queda.",
+      "turns": [
+        {
+          "speaker": "Assistant",
+          "text": "Hello. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I bought this shirt yesterday, but it doesn't fit. Can I exchange it?",
+            "I buy shirt yesterday, but it no fit. Change?",
+            "This shirt bad. I want change me."
+          ],
+          "best": 0,
+          "why_es": "Pasado simple + Can I exchange it?"
+        },
+        {
+          "speaker": "Assistant",
+          "text": "Of course. Have you got the receipt?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, here it is. I'd like a larger size, please.",
+            "Yes, here is. Bigger size give me.",
+            "Yes. Large size, now."
+          ],
+          "best": 0,
+          "why_es": "Here it is + I'd like…, please."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I bought this yesterday, but it doesn't fit.",
+      "Can I exchange it? · I'd like a refund, please.",
+      "Have you got your receipt? — Here it is.",
+      "on sale · 30% off · a bargain"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-exchange"
+    },
+    {
+      "type": "vocab",
+      "id": "en-refund"
+    },
+    {
+      "type": "vocab",
+      "id": "en-receipt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-faulty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-sale"
+    },
+    {
+      "type": "vocab",
+      "id": "en-30-off"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bargain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-return"
+    },
+    {
+      "type": "grammar",
+      "id": "en-returns-complaints"
+    }
+  ]
+}

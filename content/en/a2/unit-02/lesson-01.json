@@ -11,7 +11,7 @@
     "es": "Vocabulario de viajes y vacaciones"
   },
   "objective": "Al terminar nombras lo necesario para viajar (vuelo, pasaporte, equipaje, hotel) y cuentas qué reservaste y qué hiciste.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -277,6 +277,27 @@
       }
     },
     {
+      "id": "en-a2-u02-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
+    },
+    {
       "id": "en-a2-u02-l01-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -317,6 +338,44 @@
         "correct": "¡Correcto! El lugar donde dormís en un viaje es un hotel.",
         "incorrect": "Revisa esto: El lugar donde dormís en un viaje es un hotel."
       }
+    },
+    {
+      "id": "en-a2-u02-l01-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fíjate en la diferencia entre -teen y -ty.",
+        "incorrect": "Revisa esto: Fíjate en la diferencia entre -teen y -ty."
+      },
+      "review_of": "en-a1-u08-l01-ex01"
     },
     {
       "id": "en-a2-u02-l01-ex06",
@@ -373,6 +432,26 @@
       "audio_script_id": "en-a2-u02-l01-ex07-a"
     },
     {
+      "id": "en-a2-u02-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I look for a jacket.",
+      "answer": [
+        "I'm looking for a jacket."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'estoy buscando' se usa I'm looking for.",
+        "incorrect": "Revisa esto: Para 'estoy buscando' se usa I'm looking for."
+      },
+      "review_of": "en-a1-u08-l05-ex08"
+    },
+    {
       "id": "en-a2-u02-l01-ex08",
       "type": "listening",
       "skill": "listening",
@@ -418,6 +497,33 @@
       }
     },
     {
+      "id": "en-a2-u02-l01-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es el coche?",
+      "options": [
+        "Old",
+        "New",
+        "Big",
+        "Red"
+      ],
+      "answer": [
+        "Old"
+      ],
+      "audio_text": "I've got a car. The car is old, but I love it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The car is old'.",
+        "incorrect": "Revisa esto: Dice 'The car is old'."
+      },
+      "audio_script_id": "en-a2-u02-l01-rv04-a",
+      "review_of": "en-a1-u11-l03-ex11"
+    },
+    {
       "id": "en-a2-u02-l01-ex10",
       "type": "pronunciation",
       "skill": "speaking",
@@ -448,6 +554,69 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u02-l01-ex11",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra de viaje.",
+      "categories": [
+        "Documents and bags",
+        "Places",
+        "Actions"
+      ],
+      "items": [
+        {
+          "text": "passport",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "ticket",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "suitcase",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "map",
+          "category": "Documents and bags"
+        },
+        {
+          "text": "airport",
+          "category": "Places"
+        },
+        {
+          "text": "hotel",
+          "category": "Places"
+        },
+        {
+          "text": "beach",
+          "category": "Places"
+        },
+        {
+          "text": "book",
+          "category": "Actions"
+        },
+        {
+          "text": "pack",
+          "category": "Actions"
+        },
+        {
+          "text": "sightseeing",
+          "category": "Actions"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar vocabulario de viaje por categorías.",
+        "incorrect": "Revisa esto: Clasificar vocabulario de viaje por categorías."
       }
     }
   ],

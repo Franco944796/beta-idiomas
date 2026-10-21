@@ -11,7 +11,7 @@
     "es": "He, she, it: el verbo to be"
   },
   "objective": "Al terminar puedes hablar de otra persona o cosa con he, she e it.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "vocab"
@@ -169,6 +169,29 @@
       }
     },
     {
+      "id": "en-a1-u02-l02-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 20 years.",
+      "answer": [
+        "I'm 20.",
+        "I am 20.",
+        "I'm 20 years old.",
+        "I am 20 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés la edad se dice con 'to be', no con 'have'.",
+        "incorrect": "Revisa esto: En inglés la edad se dice con 'to be', no con 'have'."
+      },
+      "review_of": "en-a1-u01-l05-ex04"
+    },
+    {
       "id": "en-a1-u02-l02-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -207,6 +230,37 @@
       }
     },
     {
+      "id": "en-a1-u02-l02-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "age"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "you",
+        "?",
+        "How",
+        "old"
+      ],
+      "answer": [
+        "How",
+        "old",
+        "are",
+        "you",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta de la edad.",
+        "incorrect": "Revisa esto: Pregunta de la edad."
+      },
+      "review_of": "en-a1-u01-l05-ex05"
+    },
+    {
       "id": "en-a1-u02-l02-ex05",
       "type": "word_order",
       "skill": "grammar",
@@ -234,6 +288,31 @@
         "correct": "¡Correcto! Sujeto + verbo + from + país.",
         "incorrect": "Revisa esto: Sujeto + verbo + from + país."
       }
+    },
+    {
+      "id": "en-a1-u02-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me llamo Laura.",
+      "answer": [
+        "My name is Laura.",
+        "I'm Laura.",
+        "I am Laura."
+      ],
+      "accepted_alternatives": [
+        "My name's Laura."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Puedes decir 'My name is…' o 'I'm…'.",
+        "incorrect": "Revisa esto: Puedes decir 'My name is…' o 'I'm…'."
+      },
+      "review_of": "en-a1-u01-l01-ex05"
     },
     {
       "id": "en-a1-u02-l02-ex06",

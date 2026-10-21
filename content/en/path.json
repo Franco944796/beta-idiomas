@@ -10,8 +10,8 @@
       "status": "ready",
       "est_guided_hours_cumulative": "90-100",
       "vocab_target_cumulative": 700,
-      "unit_count_target": 10,
-      "lesson_count_target": 60,
+      "unit_count_target": 11,
+      "lesson_count_target": 66,
       "can_do": {
         "listening": "Entiendes palabras y frases muy básicas y pronunciadas despacio sobre ti, tu familia y tu entorno.",
         "reading": "Entiendes nombres, palabras y frases muy simples en carteles y mensajes cortos.",
@@ -653,10 +653,73 @@
               "id": "en-a1-u10-l06",
               "order": 6,
               "kind": "checkpoint",
+              "title_target": "Checkpoint 10",
+              "title_es": "Repaso y checkpoint 10",
+              "status": "ready",
+              "file": "a1/unit-10/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a1-u11",
+          "order": 11,
+          "title_es": "Objetos cotidianos e instrucciones",
+          "title_target": "Everyday objects and instructions",
+          "theme": "objects",
+          "lessons": [
+            {
+              "id": "en-a1-u11-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Everyday objects",
+              "title_es": "Objetos de uso diario",
+              "status": "ready",
+              "file": "a1/unit-11/lesson-01.json"
+            },
+            {
+              "id": "en-a1-u11-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "What's this?",
+              "title_es": "¿Qué es esto? Singular y plural",
+              "status": "ready",
+              "file": "a1/unit-11/lesson-02.json"
+            },
+            {
+              "id": "en-a1-u11-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "A, an or the?",
+              "title_es": "Los artículos: a, an, the y cuándo usarlos",
+              "status": "ready",
+              "file": "a1/unit-11/lesson-03.json"
+            },
+            {
+              "id": "en-a1-u11-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Where's my...?",
+              "title_es": "¿Dónde está mi...? Objetos y lugares",
+              "status": "ready",
+              "file": "a1/unit-11/lesson-04.json"
+            },
+            {
+              "id": "en-a1-u11-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Instructions and short messages",
+              "title_es": "Instrucciones y mensajes cortos",
+              "status": "ready",
+              "file": "a1/unit-11/lesson-05.json"
+            },
+            {
+              "id": "en-a1-u11-l06",
+              "order": 6,
+              "kind": "checkpoint",
               "title_target": "Final checkpoint",
               "title_es": "Checkpoint final de A1",
               "status": "ready",
-              "file": "a1/unit-10/lesson-06.json"
+              "file": "a1/unit-11/lesson-06.json"
             }
           ]
         }
@@ -665,6 +728,7 @@
         "id": "en-a1-exam-v1",
         "file": "a1/exam.json",
         "pass_score": 0.75,
+        "items": 32,
         "status": "ready"
       }
     },
@@ -674,8 +738,8 @@
       "status": "ready",
       "est_guided_hours_cumulative": "180-200",
       "vocab_target_cumulative": 1500,
-      "unit_count_target": 10,
-      "lesson_count_target": 60,
+      "unit_count_target": 13,
+      "lesson_count_target": 78,
       "can_do": {
         "listening": "Entiendes frases y expresiones frecuentes sobre compras, trabajo y entorno cercano.",
         "reading": "Entiendes textos cortos y sencillos: menús, horarios, mensajes personales.",
@@ -1315,10 +1379,199 @@
               "id": "en-a2-u10-l06",
               "order": 6,
               "kind": "checkpoint",
+              "title_target": "Checkpoint 10",
+              "title_es": "Repaso y checkpoint 10",
+              "status": "ready",
+              "file": "a2/unit-10/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u11",
+          "order": 11,
+          "title_es": "Ropa y compras",
+          "title_target": "Clothes and shopping",
+          "theme": "clothes",
+          "lessons": [
+            {
+              "id": "en-a2-u11-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Clothes and colours",
+              "title_es": "Ropa, colores, estampados y materiales",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u11-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Trying on clothes",
+              "title_es": "Probarse ropa: tallas y ajuste",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u11-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "What are they wearing?",
+              "title_es": "Describir lo que lleva puesto alguien",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u11-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Returns and complaints",
+              "title_es": "Cambios, devoluciones y quejas",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u11-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "What should I wear?",
+              "title_es": "Qué ponerse según la ocasión",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u11-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 11",
+              "title_es": "Repaso y checkpoint 11",
+              "status": "ready",
+              "file": "a2/unit-11/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u12",
+          "order": 12,
+          "title_es": "Moverse por la ciudad",
+          "title_target": "Getting around",
+          "theme": "getting-around",
+          "lessons": [
+            {
+              "id": "en-a2-u12-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Public transport",
+              "title_es": "Transporte público y billetes",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u12-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Asking for directions",
+              "title_es": "Pedir indicaciones con cortesía",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u12-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Giving directions",
+              "title_es": "Dar indicaciones paso a paso",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u12-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Delays and problems",
+              "title_es": "Retrasos, cambios y problemas de viaje",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u12-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Planning a journey",
+              "title_es": "Planear un trayecto y comparar rutas",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u12-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 12",
+              "title_es": "Repaso y checkpoint 12",
+              "status": "ready",
+              "file": "a2/unit-12/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-a2-u13",
+          "order": 13,
+          "title_es": "Tiempo libre y aficiones",
+          "title_target": "Free time and hobbies",
+          "theme": "leisure",
+          "lessons": [
+            {
+              "id": "en-a2-u13-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Sports and hobbies",
+              "title_es": "Deportes y aficiones: play, go, do",
+              "status": "ready",
+              "file": "a2/unit-13/lesson-01.json"
+            },
+            {
+              "id": "en-a2-u13-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "How often do you...?",
+              "title_es": "Frecuencia: how often, once a week",
+              "status": "ready",
+              "file": "a2/unit-13/lesson-02.json"
+            },
+            {
+              "id": "en-a2-u13-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Joining a club",
+              "title_es": "Apuntarse a un club o gimnasio",
+              "status": "ready",
+              "file": "a2/unit-13/lesson-03.json"
+            },
+            {
+              "id": "en-a2-u13-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Talking about your hobby",
+              "title_es": "Hablar de una afición",
+              "status": "ready",
+              "file": "a2/unit-13/lesson-04.json"
+            },
+            {
+              "id": "en-a2-u13-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Bored or boring?",
+              "title_es": "Cine, conciertos y adjetivos -ed / -ing",
+              "status": "ready",
+              "file": "a2/unit-13/lesson-05.json"
+            },
+            {
+              "id": "en-a2-u13-l06",
+              "order": 6,
+              "kind": "checkpoint",
               "title_target": "Final checkpoint",
               "title_es": "Checkpoint final de A2",
               "status": "ready",
-              "file": "a2/unit-10/lesson-06.json"
+              "file": "a2/unit-13/lesson-06.json"
             }
           ]
         }
@@ -1327,6 +1580,7 @@
         "id": "en-a2-exam-v1",
         "file": "a2/exam.json",
         "pass_score": 0.75,
+        "items": 36,
         "status": "ready"
       }
     },

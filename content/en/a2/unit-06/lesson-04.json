@@ -11,7 +11,7 @@
     "es": "Obligación: have to, don't have to, must, mustn't"
   },
   "objective": "Al terminar expresas obligación y prohibición con have to, don't have to, must y mustn't y no los confundes.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -212,6 +212,77 @@
       }
     },
     {
+      "id": "en-a2-u06-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la mejor frase para un plan ya decidido.",
+      "options": [
+        "We're going to travel to Italy in July.",
+        "We will might travel to Italy.",
+        "We travel to going Italy.",
+        "We'll to travel to Italy."
+      ],
+      "answer": [
+        "We're going to travel to Italy in July."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan decidido: be going to.",
+        "incorrect": "Revisa esto: Plan decidido: be going to."
+      },
+      "review_of": "en-a2-u05-l06-ex05"
+    },
+    {
+      "id": "en-a2-u06-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un niño está subido en una silla que se mueve. Dices: 'Careful! You ___ fall!'",
+      "options": [
+        "are going to",
+        "go to",
+        "will to",
+        "are go to"
+      ],
+      "answer": [
+        "are going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: you're going to fall.",
+        "incorrect": "Revisa esto: Evidencia ahora: you're going to fall."
+      },
+      "review_of": "en-a2-u05-l02-ex02"
+    },
+    {
+      "id": "en-a2-u06-l04-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want a coffee.",
+      "answer": [
+        "I'd like a coffee, please.",
+        "I'd like a coffee please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I want suena brusco; usa I'd like … please.",
+        "incorrect": "Revisa esto: I want suena brusco; usa I'd like … please."
+      },
+      "review_of": "en-a2-u04-l03-ex07"
+    },
+    {
       "id": "en-a2-u06-l04-ex05",
       "type": "fill_blank",
       "skill": "grammar",
@@ -249,6 +320,25 @@
       }
     },
     {
+      "id": "en-a2-u06-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ you stay in Rome?",
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasado: Wh- + did + sujeto.",
+        "incorrect": "Revisa esto: Pregunta en pasado: Wh- + did + sujeto."
+      },
+      "review_of": "en-a2-u02-l02-ex02"
+    },
+    {
       "id": "en-a2-u06-l04-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -266,6 +356,26 @@
         "correct": "¡Correcto! Después de doesn't va el verbo base: have.",
         "incorrect": "Revisa esto: Después de doesn't va el verbo base: have."
       }
+    },
+    {
+      "id": "en-a2-u06-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ to the cinema tomorrow. (go)",
+      "answer": [
+        "'re going",
+        "are going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: are going.",
+        "incorrect": "Revisa esto: Plan futuro: are going."
+      },
+      "review_of": "en-a1-u10-l04-ex02"
     },
     {
       "id": "en-a2-u06-l04-ex08",

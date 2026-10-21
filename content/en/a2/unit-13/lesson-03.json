@@ -1,0 +1,714 @@
+{
+  "id": "en-a2-u13-l03",
+  "language": "en",
+  "level": "A2",
+  "unit": 13,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Joining a club",
+    "es": "Apuntarse a un club o gimnasio"
+  },
+  "objective": "Al terminar preguntas por precios, horarios y requisitos para apuntarte a un gimnasio o club y entiendes las respuestas.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Quieres hacer yoga o jugar al tenis en un club. ¿Qué preguntas haces para apuntarte sin sorpresas?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Receptionist",
+        "text": "Good morning. Can I help you?",
+        "es": "Buenos días. ¿Puedo ayudarlo?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, I'd like to join the gym. How much is the membership?",
+        "es": "Sí, quisiera apuntarme al gimnasio. ¿Cuánto cuesta la cuota?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "It's £30 a month, or £300 a year.",
+        "es": "Son £30 por mes, o £300 por año."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Is there a discount for students?",
+        "es": "¿Hay descuento para estudiantes?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, students get 20% off. Do you have a student card?",
+        "es": "Sí, los estudiantes tienen un 20 % de descuento. ¿Tiene carnet de estudiante?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, here it is. What time does the pool open?",
+        "es": "Sí, aquí está. ¿A qué hora abre la piscina?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "From seven in the morning until ten at night.",
+        "es": "De siete de la mañana a diez de la noche."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Do I need any special equipment? And can I try a class first?",
+        "es": "¿Necesito algún equipo especial? ¿Y puedo probar una clase primero?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Just trainers and a towel. And yes, the first class is free.",
+        "es": "Solo zapatillas y una toalla. Y sí, la primera clase es gratis."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-join",
+        "lemma": "join",
+        "pos": "verb",
+        "ipa": "/dʒɔɪn/",
+        "es": "unirse, apuntarse a",
+        "example": "I'd like to join the gym."
+      },
+      {
+        "id": "en-membership",
+        "lemma": "membership",
+        "pos": "noun",
+        "ipa": "/ˈmembəʃɪp/",
+        "es": "cuota de socio, afiliación",
+        "example": "How much is the membership?"
+      },
+      {
+        "id": "en-discount",
+        "lemma": "discount",
+        "pos": "noun",
+        "ipa": "/ˈdɪskaʊnt/",
+        "es": "descuento",
+        "example": "Is there a discount for students?"
+      },
+      {
+        "id": "en-equipment",
+        "lemma": "equipment",
+        "pos": "noun",
+        "ipa": "/ɪˈkwɪpmənt/",
+        "es": "equipo, material (incontable)",
+        "example": "Do I need any equipment?"
+      },
+      {
+        "id": "en-pool",
+        "lemma": "pool",
+        "pos": "noun",
+        "ipa": "/puːl/",
+        "es": "piscina",
+        "example": "What time does the pool open?"
+      },
+      {
+        "id": "en-towel",
+        "lemma": "towel",
+        "pos": "noun",
+        "ipa": "/ˈtaʊəl/",
+        "es": "toalla",
+        "example": "Bring a towel."
+      },
+      {
+        "id": "en-sign-up",
+        "lemma": "sign up",
+        "pos": "phrasal verb",
+        "ipa": "/saɪn ʌp/",
+        "es": "inscribirse, apuntarse",
+        "example": "Where can I sign up?"
+      },
+      {
+        "id": "en-student-card",
+        "lemma": "student card",
+        "pos": "noun",
+        "ipa": "/ˈstjuːdnt kɑːd/",
+        "es": "carnet de estudiante",
+        "example": "Do you have a student card?"
+      }
+    ],
+    "audio_script_id": "en-a2-u13-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntas para apuntarte a un club o gimnasio**\n\n- **Quiero…:** *I'd like to join the gym. · Where can I sign up?*\n- **Precio:** *How much is the membership? · Is there a discount for students? · Is it per month or per year?*\n- **Horarios:** *What time does the pool open / close? · When are the classes? · Are you open at the weekend?*\n- **Requisitos:** *Do I need any special equipment? · Do I need to bring a towel? · Can I try a class first?*\n\n**Respuestas típicas:** *It's £30 a month. · Students get 20% off. · From 7 a.m. until 10 p.m. · Just trainers and a towel. · The first class is free.*\n\n**equipment** y **information** son incontables: *some equipment*, *any equipment* (no *equipments*).\n\n**per / a:** *£30 a month = £30 per month*.\n\n**Datos que suelen pedir en un formulario:** *name · address · phone number · email · date of birth · emergency contact*.\n\nPronunciación: *membership* /ˈmembəʃɪp/ · *equipment* /ɪˈkwɪpmənt/ · *discount* /ˈdɪskaʊnt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I want join the gym.",
+        "right": "I'd like to join the gym.",
+        "note": "Want va con to + verbo; I'd like to es más cortés."
+      },
+      {
+        "wrong": "equipments",
+        "right": "equipment",
+        "note": "Equipment no tiene plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u13-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres unirte a un gimnasio:",
+      "options": [
+        "I'd like to join the gym.",
+        "I want join gym.",
+        "I'd like joining to the gym.",
+        "I like to join me to gym."
+      ],
+      "answer": [
+        "I'd like to join the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like to + verbo base.",
+        "incorrect": "Revisa esto: I'd like to + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber si hay descuento para estudiantes:",
+      "options": [
+        "Is there a discount for students?",
+        "Have discount students?",
+        "Is discount for student exists?",
+        "There is student discount?"
+      ],
+      "answer": [
+        "Is there a discount for students?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is there … for …?",
+        "incorrect": "Revisa esto: Is there … for …?"
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber cuánto cuesta por mes:",
+      "options": [
+        "How much is the membership?",
+        "How many is the membership?",
+        "What price has the membership?",
+        "How much cost membership?"
+      ],
+      "answer": [
+        "How much is the membership?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much is …?",
+        "incorrect": "Revisa esto: How much is …?"
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 25,
+      "prompt": "Do I need any special ___? (material, equipo)",
+      "answer": [
+        "equipment"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Equipment es incontable: any equipment.",
+        "incorrect": "Revisa esto: Equipment es incontable: any equipment."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 25,
+      "prompt": "What time ___ the pool open?",
+      "answer": [
+        "does"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en presente simple: What time does it open?",
+        "incorrect": "Revisa esto: Pregunta en presente simple: What time does it open?"
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I try a class ___? (primero)",
+      "answer": [
+        "first"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! First = primero.",
+        "incorrect": "Revisa esto: First = primero."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Do I need any equipments?",
+      "answer": [
+        "Do I need any equipment?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Equipment es incontable: sin -s.",
+        "incorrect": "Revisa esto: Equipment es incontable: sin -s."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want sign up for the gym.",
+      "answer": [
+        "I'd like to sign up for the gym.",
+        "I want to sign up for the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want + to + verbo; mejor I'd like to.",
+        "incorrect": "Revisa esto: Want + to + verbo; mejor I'd like to."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "does",
+        "the",
+        "pool",
+        "open",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "does",
+        "the",
+        "pool",
+        "open",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What time + does + sujeto + verbo base.",
+        "incorrect": "Revisa esto: What time + does + sujeto + verbo base."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "The flat is small, ___ it's very comfortable.",
+      "options": [
+        "but",
+        "because",
+        "so",
+        "although"
+      ],
+      "answer": [
+        "but"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste simple: but.",
+        "incorrect": "Revisa esto: Contraste simple: but."
+      },
+      "review_of": "en-a2-u10-l04-ex06"
+    },
+    {
+      "id": "en-a2-u13-l03-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 25,
+      "prompt": "My phone is ___ the sofa. (debajo de)",
+      "answer": [
+        "under"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Under = debajo de.",
+        "incorrect": "Revisa esto: Under = debajo de."
+      },
+      "review_of": "en-a1-u11-l04-ex02"
+    },
+    {
+      "id": "en-a2-u13-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto cuesta la cuota por año?",
+      "options": [
+        "£300",
+        "£30",
+        "£20",
+        "£250"
+      ],
+      "answer": [
+        "£300"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La recepcionista dice 'or £300 a year'.",
+        "incorrect": "Revisa esto: La recepcionista dice 'or £300 a year'."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "My brother is ___ (tall) than me.",
+      "answer": [
+        "taller"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: taller than.",
+        "incorrect": "Revisa esto: Adjetivo corto: taller than."
+      },
+      "review_of": "en-a2-u03-l06-ex01"
+    },
+    {
+      "id": "en-a2-u13-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber a qué hora empieza alguien a trabajar:",
+      "options": [
+        "What time do you start work?",
+        "What hour you start work?",
+        "When start you work?",
+        "What time start you work?"
+      ],
+      "answer": [
+        "What time do you start work?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What time + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: What time + do + sujeto + verbo base."
+      },
+      "review_of": "en-a2-u07-l03-ex06"
+    },
+    {
+      "id": "en-a2-u13-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué necesita el cliente llevar?",
+      "options": [
+        "Trainers and a towel",
+        "A swimsuit only",
+        "Nothing",
+        "A student card only"
+      ],
+      "answer": [
+        "Trainers and a towel"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Just trainers and a towel'.",
+        "incorrect": "Revisa esto: Dice 'Just trainers and a towel'."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Look at those clouds! It's going to ___.",
+      "answer": [
+        "rain"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Going to + verbo base.",
+        "incorrect": "Revisa esto: Going to + verbo base."
+      },
+      "review_of": "en-a2-u05-l06-ex02"
+    },
+    {
+      "id": "en-a2-u13-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Is it far ___ here? (de)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Far from + lugar.",
+        "incorrect": "Revisa esto: Far from + lugar."
+      },
+      "review_of": "en-a2-u12-l02-ex04"
+    },
+    {
+      "id": "en-a2-u13-l03-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto es la cuota mensual?",
+      "options": [
+        "£25",
+        "£10",
+        "£8",
+        "£90"
+      ],
+      "answer": [
+        "£25"
+      ],
+      "audio_text": "The tennis club is open from eight until nine, every day. The membership is £25 a month, and students get 10% off. The first lesson is free.",
+      "feedback": {
+        "correct": "¡Correcto! Dice '£25 a month'.",
+        "incorrect": "Revisa esto: Dice '£25 a month'."
+      },
+      "audio_script_id": "en-a2-u13-l03-ex12-a"
+    },
+    {
+      "id": "en-a2-u13-l03-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has worked here ___ 2020.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento de inicio.",
+        "incorrect": "Revisa esto: Since + momento de inicio."
+      },
+      "review_of": "en-a2-u08-l05-ex02"
+    },
+    {
+      "id": "en-a2-u13-l03-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Te apuntas a un club de yoga.",
+      "turns": [
+        {
+          "speaker": "Receptionist",
+          "text": "Hello. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like to join the yoga club. How much is the membership?",
+            "I want join yoga. Price?",
+            "I like yoga club. How many it costs?"
+          ],
+          "best": 0,
+          "why_es": "I'd like to join + How much is …?"
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "It's £20 a month. Classes are on Mondays and Thursdays."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Do I need any special equipment? Can I try a class first?",
+            "I need equipments? I can try first class?",
+            "Equipment special I need? Try class?"
+          ],
+          "best": 0,
+          "why_es": "Do I need any …? Can I try …?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un correo corto (4 o 5 frases) a un club o gimnasio para pedir información: quién eres, qué quieres hacer y qué preguntas tienes (precio, horarios, material).",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Empezaste con un saludo formal?",
+        "¿Dijiste que quieres apuntarte (I'd like to join)?",
+        "¿Hiciste al menos tres preguntas?",
+        "¿Cerraste con una despedida adecuada?"
+      ],
+      "model_answer": "Dear Sir or Madam, I'd like to join your swimming club. Could you tell me how much the membership is? Is there a discount for students? What time do the classes start? Do I need any special equipment? I look forward to hearing from you. Yours faithfully, Marta López",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a2-u13-l03-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I to open the window?",
+      "answer": [
+        "Can I open the window?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de can no va to.",
+        "incorrect": "Revisa esto: Después de can no va to."
+      },
+      "review_of": "en-a1-u09-l03-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd like to join the gym. · Where can I sign up?",
+      "How much is the membership? · Is there a discount?",
+      "What time does the pool open? · Can I try a class first?",
+      "Do I need any equipment? (incontable)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-join"
+    },
+    {
+      "type": "vocab",
+      "id": "en-membership"
+    },
+    {
+      "type": "vocab",
+      "id": "en-discount"
+    },
+    {
+      "type": "vocab",
+      "id": "en-equipment"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pool"
+    },
+    {
+      "type": "vocab",
+      "id": "en-towel"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sign-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-student-card"
+    },
+    {
+      "type": "grammar",
+      "id": "en-joining-club"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "es": "Proponer y organizar planes: Why don't we...?"
   },
   "objective": "Al terminar propones, aceptas o rechazas un plan y acuerdas hora y lugar con Let's, Why don't we…? y How about…?",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -209,6 +209,44 @@
       }
     },
     {
+      "id": "en-a2-u05-l05-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + frase con superlativo.",
+        "incorrect": "Revisa esto: I think + frase con superlativo."
+      },
+      "review_of": "en-a2-u03-l05-ex06"
+    },
+    {
       "id": "en-a2-u05-l05-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -231,6 +269,25 @@
         "correct": "¡Correcto! Rechazo cortés: I'd love to, but …",
         "incorrect": "Revisa esto: Rechazo cortés: I'd love to, but …"
       }
+    },
+    {
+      "id": "en-a2-u05-l05-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have a ___ of water, please? (un vaso)",
+      "answer": [
+        "glass"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para agua en un vaso: a glass of water.",
+        "incorrect": "Revisa esto: Para agua en un vaso: a glass of water."
+      },
+      "review_of": "en-a2-u04-l01-ex05"
     },
     {
       "id": "en-a2-u05-l05-ex05",
@@ -269,6 +326,95 @@
         "correct": "¡Correcto! Después de How about va -ing.",
         "incorrect": "Revisa esto: Después de How about va -ing."
       }
+    },
+    {
+      "id": "en-a2-u05-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "I prefer trains ___ buses.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prefer + to: I prefer A to B.",
+        "incorrect": "Revisa esto: Prefer + to: I prefer A to B."
+      },
+      "review_of": "en-a2-u03-l05-ex04"
+    },
+    {
+      "id": "en-a2-u05-l05-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pronombre con su posesivo.",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "my"
+        },
+        {
+          "left": "you",
+          "right": "your"
+        },
+        {
+          "left": "he",
+          "right": "his"
+        },
+        {
+          "left": "she",
+          "right": "her"
+        },
+        {
+          "left": "we",
+          "right": "our"
+        },
+        {
+          "left": "they",
+          "right": "their"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza los pares sujeto-posesivo.",
+        "incorrect": "Revisa esto: Memoriza los pares sujeto-posesivo."
+      },
+      "review_of": "en-a1-u03-l02-ex06"
+    },
+    {
+      "id": "en-a2-u05-l05-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "polite-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta?",
+      "options": [
+        "£6",
+        "£16",
+        "£15",
+        "£5"
+      ],
+      "answer": [
+        "£6"
+      ],
+      "audio_text": "That's six pounds, please.",
+      "feedback": {
+        "correct": "¡Correcto! 'six' = 6 (no 'sixteen').",
+        "incorrect": "Revisa esto: 'six' = 6 (no 'sixteen')."
+      },
+      "audio_script_id": "en-a2-u05-l05-rv05-a",
+      "review_of": "en-a1-u05-l05-ex06"
     },
     {
       "id": "en-a2-u05-l05-ex07",
@@ -411,7 +557,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe un mensaje corto a un amigo para proponerle un plan: qué hacer, cuándo y dónde encontrarse.",
-      "min_words": 25,
+      "min_words": 23,
       "self_check_es": [
         "¿Propusiste con Why don't we / Let's / How about?",
         "¿Pusiste día, hora y lugar?",

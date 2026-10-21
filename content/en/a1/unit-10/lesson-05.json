@@ -11,7 +11,7 @@
     "es": "Integración: un fin de semana fuera"
   },
   "objective": "Al terminar cuentas un plan completo de fin de semana: adónde vas, cómo viajas, dónde te quedas y qué clima hace.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -181,6 +181,34 @@
       }
     },
     {
+      "id": "en-a1-u10-l05-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family",
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica el padre?",
+      "options": [
+        "Driver",
+        "Doctor",
+        "Teacher",
+        "Waiter"
+      ],
+      "answer": [
+        "Driver"
+      ],
+      "audio_text": "This is my family. My mother is a doctor. My father is a driver.",
+      "feedback": {
+        "correct": "¡Correcto! El padre es 'a driver'.",
+        "incorrect": "Revisa esto: El padre es 'a driver'."
+      },
+      "audio_script_id": "en-a1-u10-l05-rv01-a",
+      "review_of": "en-a1-u03-l01-ex06"
+    },
+    {
       "id": "en-a1-u10-l05-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -218,6 +246,48 @@
         "correct": "¡Correcto! Con días se usa on.",
         "incorrect": "Revisa esto: Con días se usa on."
       }
+    },
+    {
+      "id": "en-a1-u10-l05-rv02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "chicken and rice",
+      "answer": [
+        "chicken and rice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'chicken and rice'.",
+        "incorrect": "Revisa esto: Escuchaste 'chicken and rice'."
+      },
+      "audio_script_id": "en-a1-u10-l05-rv02-a",
+      "review_of": "en-a1-u05-l01-ex04"
+    },
+    {
+      "id": "en-a1-u10-l05-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy de España.",
+      "answer": [
+        "I'm from Spain.",
+        "I am from Spain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Soy de…' = I'm from…",
+        "incorrect": "Revisa esto: 'Soy de…' = I'm from…"
+      },
+      "review_of": "en-a1-u02-l01-ex05"
     },
     {
       "id": "en-a1-u10-l05-ex07",
@@ -322,6 +392,72 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a1-u10-l05-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es la hermana?",
+      "options": [
+        "Tall and friendly",
+        "Short and quiet",
+        "Young and funny",
+        "Tall and quiet"
+      ],
+      "answer": [
+        "Tall and friendly"
+      ],
+      "audio_text": "My brother is young and quiet. My sister is tall and friendly.",
+      "feedback": {
+        "correct": "¡Correcto! La hermana es 'tall and friendly'.",
+        "incorrect": "Revisa esto: La hermana es 'tall and friendly'."
+      },
+      "audio_script_id": "en-a1-u10-l05-rv04-a",
+      "review_of": "en-a1-u03-l05-ex08"
+    },
+    {
+      "id": "en-a1-u10-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't got ___ milk.",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En negativas se usa any.",
+        "incorrect": "Revisa esto: En negativas se usa any."
+      },
+      "review_of": "en-a1-u05-l06-ex04"
+    },
+    {
+      "id": "en-a1-u10-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I can to cook.",
+      "answer": [
+        "I can cook."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de can no va to.",
+        "incorrect": "Revisa esto: Después de can no va to."
+      },
+      "review_of": "en-a1-u09-l02-ex06"
     },
     {
       "id": "en-a1-u10-l05-ex11",

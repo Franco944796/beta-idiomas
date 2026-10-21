@@ -11,7 +11,7 @@
     "es": "Tiempo libre y pasatiempos"
   },
   "objective": "Al terminar hablas de tus pasatiempos y de qué haces en tu tiempo libre.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -242,6 +242,26 @@
       }
     },
     {
+      "id": "en-a1-u09-l01-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estos zapatos son negros.",
+      "answer": [
+        "These shoes are black."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cerca y plural: these.",
+        "incorrect": "Revisa esto: Cerca y plural: these."
+      },
+      "review_of": "en-a1-u08-l04-ex09"
+    },
+    {
       "id": "en-a1-u09-l01-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -264,6 +284,26 @@
         "correct": "¡Correcto! Con deportes se usa play, sin artículo.",
         "incorrect": "Revisa esto: Con deportes se usa play, sin artículo."
       }
+    },
+    {
+      "id": "en-a1-u09-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He goes to school by foot.",
+      "answer": [
+        "He goes to school on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      },
+      "review_of": "en-a1-u07-l06-ex06"
     },
     {
       "id": "en-a1-u09-l01-ex05",
@@ -302,6 +342,25 @@
         "correct": "¡Correcto! Listen siempre lleva to.",
         "incorrect": "Revisa esto: Listen siempre lleva to."
       }
+    },
+    {
+      "id": "en-a1-u09-l01-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Turn ___ at the traffic lights. (izquierda)",
+      "answer": [
+        "left"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Izquierda = left.",
+        "incorrect": "Revisa esto: Izquierda = left."
+      },
+      "review_of": "en-a1-u07-l03-ex03"
     },
     {
       "id": "en-a1-u09-l01-ex07",
@@ -353,6 +412,27 @@
         "incorrect": "Revisa esto: Dice 'I cook on Fridays'."
       },
       "audio_script_id": "en-a1-u09-l01-ex08-a"
+    },
+    {
+      "id": "en-a1-u09-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Am Tom.",
+      "answer": [
+        "I'm Tom.",
+        "I am Tom."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: I'm Tom.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: I'm Tom."
+      },
+      "review_of": "en-a1-u01-l01-ex06"
     },
     {
       "id": "en-a1-u09-l01-ex09",
@@ -412,6 +492,25 @@
       }
     },
     {
+      "id": "en-a1-u09-l01-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one tomato → two ___",
+      "answer": [
+        "tomatoes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las palabras en -o suelen añadir -es.",
+        "incorrect": "Revisa esto: Las palabras en -o suelen añadir -es."
+      },
+      "review_of": "en-a1-u05-l02-ex01"
+    },
+    {
       "id": "en-a1-u09-l01-ex11",
       "type": "pronunciation",
       "skill": "speaking",
@@ -442,6 +541,65 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a1-u09-l01-ex12",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "free-time",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada actividad.",
+      "categories": [
+        "Sport",
+        "Music",
+        "At home"
+      ],
+      "items": [
+        {
+          "text": "play football",
+          "category": "Sport"
+        },
+        {
+          "text": "swim",
+          "category": "Sport"
+        },
+        {
+          "text": "dance",
+          "category": "Sport"
+        },
+        {
+          "text": "play the guitar",
+          "category": "Music"
+        },
+        {
+          "text": "listen to music",
+          "category": "Music"
+        },
+        {
+          "text": "sing",
+          "category": "Music"
+        },
+        {
+          "text": "read books",
+          "category": "At home"
+        },
+        {
+          "text": "watch films",
+          "category": "At home"
+        },
+        {
+          "text": "cook",
+          "category": "At home"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
       }
     }
   ],

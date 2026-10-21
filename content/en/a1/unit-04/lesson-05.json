@@ -11,7 +11,7 @@
     "es": "Días de la semana y frecuencia"
   },
   "objective": "Al terminar dices los días de la semana y con qué frecuencia haces cosas.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -224,6 +224,60 @@
       }
     },
     {
+      "id": "en-a1-u04-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ got a brother.",
+      "answer": [
+        "has",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she: has got (she's got).",
+        "incorrect": "Revisa esto: Con she: has got (she's got)."
+      },
+      "review_of": "en-a1-u03-l06-ex05"
+    },
+    {
+      "id": "en-a1-u04-l05-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "meet",
+        "you",
+        ",",
+        "too",
+        ".",
+        "Nice",
+        "to"
+      ],
+      "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you",
+        ",",
+        "too",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Nice to meet you.'",
+        "incorrect": "Revisa esto: Respuesta a 'Nice to meet you.'"
+      },
+      "review_of": "en-a1-u01-l06-ex03"
+    },
+    {
       "id": "en-a1-u04-l05-ex04",
       "type": "word_order",
       "skill": "grammar",
@@ -257,6 +311,26 @@
       }
     },
     {
+      "id": "en-a1-u04-l05-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El padre de Laura es conductor.",
+      "answer": [
+        "Laura's father is a driver."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Laura's father = el padre de Laura.",
+        "incorrect": "Revisa esto: Laura's father = el padre de Laura."
+      },
+      "review_of": "en-a1-u03-l03-ex06"
+    },
+    {
       "id": "en-a1-u04-l05-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -274,6 +348,28 @@
         "correct": "¡Correcto! El adverbio va antes del verbo.",
         "incorrect": "Revisa esto: El adverbio va antes del verbo."
       }
+    },
+    {
+      "id": "en-a1-u04-l05-rv04",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "fifteen",
+      "answer": [
+        "fifteen",
+        "15"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! fifteen = 15 (-teen).",
+        "incorrect": "Revisa esto: fifteen = 15 (-teen)."
+      },
+      "audio_script_id": "en-a1-u04-l05-rv04-a",
+      "review_of": "en-a1-u01-l03-ex05"
     },
     {
       "id": "en-a1-u04-l05-ex06",

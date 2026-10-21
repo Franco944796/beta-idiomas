@@ -11,7 +11,7 @@
     "es": "El posesivo 's"
   },
   "objective": "Al terminar dices 'el hermano de Anna' con el posesivo 's.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "vocab",
@@ -134,6 +134,28 @@
       }
     },
     {
+      "id": "en-a1-u03-l03-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm from argentina.",
+      "answer": [
+        "I'm from Argentina.",
+        "I am from Argentina."
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Los países llevan mayúscula en inglés.",
+        "incorrect": "Revisa esto: Los países llevan mayúscula en inglés."
+      },
+      "review_of": "en-a1-u02-l01-ex04"
+    },
+    {
       "id": "en-a1-u03-l03-ex03",
       "type": "error_correction",
       "skill": "grammar",
@@ -237,6 +259,70 @@
         "correct": "¡Correcto! Dueño + 's + persona + verbo.",
         "incorrect": "Revisa esto: Dueño + 's + persona + verbo."
       }
+    },
+    {
+      "id": "en-a1-u03-l03-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pregunta con su respuesta.",
+      "pairs": [
+        {
+          "left": "Are you Spanish?",
+          "right": "No, I'm not."
+        },
+        {
+          "left": "Is she Italian?",
+          "right": "Yes, she is."
+        },
+        {
+          "left": "Are they friends?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is it a phone?",
+          "right": "No, it isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta repite el sujeto y el verbo.",
+        "incorrect": "Revisa esto: La respuesta repite el sujeto y el verbo."
+      },
+      "review_of": "en-a1-u02-l04-ex06"
+    },
+    {
+      "id": "en-a1-u03-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Italy",
+        ".",
+        "She",
+        "is"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "from",
+        "Italy",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + verbo + from + país.",
+        "incorrect": "Revisa esto: Sujeto + verbo + from + país."
+      },
+      "review_of": "en-a1-u02-l02-ex05"
     }
   ],
   "summary": {

@@ -11,7 +11,7 @@
     "es": "When y while: dos acciones en el pasado"
   },
   "objective": "Al terminar cuentas una acción interrumpida (pasado continuo + pasado simple) con when y while.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -182,6 +182,58 @@
       }
     },
     {
+      "id": "en-a2-u09-l03-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta en total?",
+      "options": [
+        "£3.20",
+        "£3.02",
+        "£2.30",
+        "£23.00"
+      ],
+      "answer": [
+        "£3.20"
+      ],
+      "audio_text": "Can I have a loaf of bread and two hundred grams of cheese, please? — That's three pounds twenty.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'three pounds twenty'.",
+        "incorrect": "Revisa esto: Dice 'three pounds twenty'."
+      },
+      "audio_script_id": "en-a2-u09-l03-rv01-a",
+      "review_of": "en-a2-u04-l06-ex09"
+    },
+    {
+      "id": "en-a2-u09-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you got a sister? — ___",
+      "options": [
+        "Yes, I have.",
+        "Yes, I've.",
+        "Yes, I am.",
+        "Yes, I got."
+      ],
+      "answer": [
+        "Yes, I have."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u03-l04-ex04"
+    },
+    {
       "id": "en-a2-u09-l03-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -200,6 +252,31 @@
       }
     },
     {
+      "id": "en-a2-u09-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el pasado de 'take'?",
+      "options": [
+        "took",
+        "taked",
+        "taken",
+        "tooked"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take → took.",
+        "incorrect": "Revisa esto: Take → took."
+      },
+      "review_of": "en-a2-u01-l03-ex05"
+    },
+    {
       "id": "en-a2-u09-l03-ex05",
       "type": "fill_blank",
       "skill": "grammar",
@@ -216,6 +293,45 @@
         "correct": "¡Correcto! When introduce la acción corta.",
         "incorrect": "Revisa esto: When introduce la acción corta."
       }
+    },
+    {
+      "id": "en-a2-u09-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "The room isn't big ___ for six people.",
+      "answer": [
+        "enough"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough va después del adjetivo.",
+        "incorrect": "Revisa esto: Enough va después del adjetivo."
+      },
+      "review_of": "en-a2-u03-l04-ex03"
+    },
+    {
+      "id": "en-a2-u09-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I use jeans every day.",
+      "answer": [
+        "I wear jeans every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para ropa se usa wear, no use.",
+        "incorrect": "Revisa esto: Para ropa se usa wear, no use."
+      },
+      "review_of": "en-a1-u08-l03-ex05"
     },
     {
       "id": "en-a2-u09-l03-ex06",
@@ -254,6 +370,25 @@
         "correct": "¡Correcto! Larga en continuo, corta en simple.",
         "incorrect": "Revisa esto: Larga en continuo, corta en simple."
       }
+    },
+    {
+      "id": "en-a2-u09-l03-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a sore ___. I can't swallow. (garganta)",
+      "answer": [
+        "throat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sore throat = dolor de garganta.",
+        "incorrect": "Revisa esto: Sore throat = dolor de garganta."
+      },
+      "review_of": "en-a2-u06-l01-ex05"
     },
     {
       "id": "en-a2-u09-l03-ex08",
@@ -402,7 +537,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Cuenta una pequeña historia (4 o 5 frases) de algo que te pasó mientras hacías otra cosa. Usa when y while y combina pasado continuo con pasado simple.",
-      "min_words": 35,
+      "min_words": 28,
       "self_check_es": [
         "¿Usaste pasado continuo para la acción larga?",
         "¿Usaste pasado simple para la acción corta?",

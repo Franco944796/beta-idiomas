@@ -11,7 +11,7 @@
     "es": "Precios y dinero"
   },
   "objective": "Al terminar preguntas precios y dices cantidades de dinero.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -184,6 +184,25 @@
       }
     },
     {
+      "id": "en-a1-u08-l02-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ in a small flat.",
+      "answer": [
+        "live"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vivir = live.",
+        "incorrect": "Revisa esto: Vivir = live."
+      },
+      "review_of": "en-a1-u06-l05-ex01"
+    },
+    {
       "id": "en-a1-u08-l02-ex04",
       "type": "error_correction",
       "skill": "grammar",
@@ -222,6 +241,31 @@
       }
     },
     {
+      "id": "en-a1-u08-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lamp is ___ the sofa and the window. (entre)",
+      "options": [
+        "between",
+        "behind",
+        "under",
+        "on"
+      ],
+      "answer": [
+        "between"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Entre dos cosas: between.",
+        "incorrect": "Revisa esto: Entre dos cosas: between."
+      },
+      "review_of": "en-a1-u06-l03-ex04"
+    },
+    {
       "id": "en-a1-u08-l02-ex06",
       "type": "listening",
       "skill": "listening",
@@ -247,6 +291,46 @@
         "incorrect": "Revisa esto: Twenty-five = 25."
       },
       "audio_script_id": "en-a1-u08-l02-ex06-a"
+    },
+    {
+      "id": "en-a1-u08-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Pan y queso.",
+      "answer": [
+        "Bread and cheese."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bread = pan; cheese = queso.",
+        "incorrect": "Revisa esto: Bread = pan; cheese = queso."
+      },
+      "review_of": "en-a1-u05-l01-ex07"
+    },
+    {
+      "id": "en-a1-u08-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Carlos is my friend. ___ from Argentina.",
+      "answer": [
+        "He's",
+        "He is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carlos es un hombre: he is (he's).",
+        "incorrect": "Revisa esto: Carlos es un hombre: he is (he's)."
+      },
+      "review_of": "en-a1-u02-l02-ex03"
     },
     {
       "id": "en-a1-u08-l02-ex07",
@@ -337,6 +421,27 @@
         "correct": "¡Correcto! How much + are + sustantivo plural.",
         "incorrect": "Revisa esto: How much + are + sustantivo plural."
       }
+    },
+    {
+      "id": "en-a1-u08-l02-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Vivo en un piso pequeño.",
+      "answer": [
+        "I live in a small flat.",
+        "I live in a small apartment."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Live in + a small flat.",
+        "incorrect": "Revisa esto: Live in + a small flat."
+      },
+      "review_of": "en-a1-u06-l05-ex07"
     },
     {
       "id": "en-a1-u08-l02-ex10",

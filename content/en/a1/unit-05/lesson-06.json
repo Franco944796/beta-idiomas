@@ -11,7 +11,7 @@
     "es": "Repaso y checkpoint 5"
   },
   "objective": "Al terminar demuestras que puedes hablar de comida, gustos y pedir en un café.",
-  "est_minutes": 20,
+  "est_minutes": 23,
   "skills": [
     "grammar",
     "listening",
@@ -149,6 +149,31 @@
       }
     },
     {
+      "id": "en-a1-u05-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from Italy. She's ___.",
+      "options": [
+        "Italian",
+        "Italy",
+        "Italien",
+        "Italiano"
+      ],
+      "answer": [
+        "Italian"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: Italy. Nacionalidad: Italian.",
+        "incorrect": "Revisa esto: País: Italy. Nacionalidad: Italian."
+      },
+      "review_of": "en-a1-u02-l01-ex02"
+    },
+    {
       "id": "en-a1-u05-l06-ex06",
       "type": "word_order",
       "skill": "grammar",
@@ -208,6 +233,57 @@
       }
     },
     {
+      "id": "en-a1-u05-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you get up at seven?",
+      "answer": [
+        "Do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you la pregunta empieza con Do.",
+        "incorrect": "Revisa esto: Con you la pregunta empieza con Do."
+      },
+      "review_of": "en-a1-u04-l04-ex03"
+    },
+    {
+      "id": "en-a1-u05-l06-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "it",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta básica de la hora.",
+        "incorrect": "Revisa esto: Pregunta básica de la hora."
+      },
+      "review_of": "en-a1-u04-l02-ex07"
+    },
+    {
       "id": "en-a1-u05-l06-ex08",
       "type": "listening",
       "skill": "listening",
@@ -250,6 +326,60 @@
         "correct": "¡Correcto! En negativas se usa any: I haven't got any milk.",
         "incorrect": "Revisa esto: En negativas se usa any: I haven't got any milk."
       }
+    },
+    {
+      "id": "en-a1-u05-l06-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "meet",
+        "you",
+        ",",
+        "too",
+        ".",
+        "Nice",
+        "to"
+      ],
+      "answer": [
+        "Nice",
+        "to",
+        "meet",
+        "you",
+        ",",
+        "too",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta a 'Nice to meet you.'",
+        "incorrect": "Revisa esto: Respuesta a 'Nice to meet you.'"
+      },
+      "review_of": "en-a1-u01-l06-ex03"
+    },
+    {
+      "id": "en-a1-u05-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo va en forma base.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo va en forma base."
+      },
+      "review_of": "en-a1-u04-l04-ex06"
     },
     {
       "id": "en-a1-u05-l06-ex10",
@@ -318,6 +448,25 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a1-u05-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ (have) lunch at one.",
+      "answer": [
+        "has"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Have' es irregular: he has.",
+        "incorrect": "Revisa esto: 'Have' es irregular: he has."
+      },
+      "review_of": "en-a1-u04-l03-ex03"
     }
   ],
   "summary": {

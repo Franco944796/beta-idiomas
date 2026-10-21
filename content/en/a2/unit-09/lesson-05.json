@@ -11,7 +11,7 @@
     "es": "Mensajes y redes sociales"
   },
   "objective": "Al terminar lees y escribes mensajes informales, entiendes abreviaturas comunes y sabes cuándo cambiar de registro.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -270,6 +270,33 @@
       }
     },
     {
+      "id": "en-a2-u09-l05-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el museo?",
+      "options": [
+        "On the right",
+        "On the left",
+        "Behind the lights",
+        "Next to the bank"
+      ],
+      "answer": [
+        "On the right"
+      ],
+      "audio_text": "Go straight on. Turn left at the traffic lights. The museum is on your right.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The museum is on your right'.",
+        "incorrect": "Revisa esto: Dice 'The museum is on your right'."
+      },
+      "audio_script_id": "en-a2-u09-l05-rv01-a",
+      "review_of": "en-a1-u07-l06-ex08"
+    },
+    {
       "id": "en-a2-u09-l05-ex06",
       "type": "fill_blank",
       "skill": "vocab",
@@ -339,6 +366,78 @@
         "correct": "¡Correcto! Mensaje corto e informal.",
         "incorrect": "Revisa esto: Mensaje corto e informal."
       }
+    },
+    {
+      "id": "en-a2-u09-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They is from Brazil.",
+      "answer": [
+        "They are from Brazil.",
+        "They're from Brazil."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'they' va con 'are'.",
+        "incorrect": "Revisa esto: 'they' va con 'are'."
+      },
+      "review_of": "en-a1-u02-l03-ex07"
+    },
+    {
+      "id": "en-a2-u09-l05-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "time",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "it",
+        "?",
+        "What",
+        "time"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta básica de la hora.",
+        "incorrect": "Revisa esto: Pregunta básica de la hora."
+      },
+      "review_of": "en-a1-u04-l02-ex07"
+    },
+    {
+      "id": "en-a2-u09-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He haves breakfast at eight.",
+      "answer": [
+        "He has breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Have' pasa a 'has', no 'haves'.",
+        "incorrect": "Revisa esto: 'Have' pasa a 'has', no 'haves'."
+      },
+      "review_of": "en-a1-u04-l03-ex06"
     },
     {
       "id": "en-a2-u09-l05-ex09",
@@ -423,7 +522,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Escribe un mensaje informal a un amigo para invitarlo a ver un partido o una película. Usa al menos una abreviatura (BTW, ASAP, thx…) y un emoji.",
-      "min_words": 25,
+      "min_words": 24,
       "self_check_es": [
         "¿Hiciste una invitación clara?",
         "¿Pusiste día y plan?",
@@ -435,6 +534,50 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u09-l05-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir un consejo a un amigo:",
+      "options": [
+        "What should I do?",
+        "What I should do?",
+        "What do I should?",
+        "What should I to do?"
+      ],
+      "answer": [
+        "What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con should: What should I do?",
+        "incorrect": "Revisa esto: Pregunta con should: What should I do?"
+      },
+      "review_of": "en-a2-u06-l03-ex03"
+    },
+    {
+      "id": "en-a2-u09-l05-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 25,
+      "prompt": "She works ___ a big company in London.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Work for + empresa.",
+        "incorrect": "Revisa esto: Work for + empresa."
+      },
+      "review_of": "en-a2-u07-l01-ex05"
     },
     {
       "id": "en-a2-u09-l05-ex13",

@@ -11,7 +11,7 @@
     "es": "Los plurales"
   },
   "objective": "Al terminar formas plurales regulares e irregulares.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "reading",
@@ -155,6 +155,25 @@
       }
     },
     {
+      "id": "en-a1-u05-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is my brother. ___ name is Ben.",
+      "answer": [
+        "His"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es un hombre: his.",
+        "incorrect": "Revisa esto: El dueño es un hombre: his."
+      },
+      "review_of": "en-a1-u03-l06-ex02"
+    },
+    {
       "id": "en-a1-u05-l02-ex04",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -279,6 +298,71 @@
         "correct": "¡Correcto! El texto dice 'three bananas'.",
         "incorrect": "Revisa esto: El texto dice 'three bananas'."
       }
+    },
+    {
+      "id": "en-a1-u05-l02-rv02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha las letras y escribe el nombre.",
+      "audio_text": "J, A, N, E.",
+      "answer": [
+        "Jane",
+        "J A N E",
+        "J-A-N-E",
+        "J, A, N, E."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste J-A-N-E: Jane.",
+        "incorrect": "Revisa esto: Escuchaste J-A-N-E: Jane."
+      },
+      "audio_script_id": "en-a1-u05-l02-rv02-a",
+      "review_of": "en-a1-u01-l02-ex02"
+    },
+    {
+      "id": "en-a1-u05-l02-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She doesn't works on Fridays.",
+      "answer": [
+        "She doesn't work on Fridays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de doesn't el verbo no lleva -s.",
+        "incorrect": "Revisa esto: Después de doesn't el verbo no lleva -s."
+      },
+      "review_of": "en-a1-u04-l06-ex05"
+    },
+    {
+      "id": "en-a1-u05-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
     }
   ],
   "summary": {

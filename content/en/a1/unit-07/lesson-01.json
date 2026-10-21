@@ -11,7 +11,7 @@
     "es": "Lugares de la ciudad"
   },
   "objective": "Al terminar nombras los lugares principales de una ciudad y dices qué hay cerca.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -244,6 +244,116 @@
       }
     },
     {
+      "id": "en-a1-u07-l01-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-got",
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas hermanas tiene la persona que habla?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "None"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "I've got one brother and two sisters.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'two sisters'.",
+        "incorrect": "Revisa esto: Dice 'two sisters'."
+      },
+      "audio_script_id": "en-a1-u07-l01-rv01-a",
+      "review_of": "en-a1-u03-l04-ex07"
+    },
+    {
+      "id": "en-a1-u07-l01-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ in a small flat.",
+      "answer": [
+        "live"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vivir = live.",
+        "incorrect": "Revisa esto: Vivir = live."
+      },
+      "review_of": "en-a1-u06-l05-ex01"
+    },
+    {
+      "id": "en-a1-u07-l01-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "jobs"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy médico.",
+      "answer": [
+        "I'm a doctor.",
+        "I am a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Profesión: I'm + a/an + trabajo.",
+        "incorrect": "Revisa esto: Profesión: I'm + a/an + trabajo."
+      },
+      "review_of": "en-a1-u02-l05-ex07"
+    },
+    {
+      "id": "en-a1-u07-l01-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "dentro de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "in front of",
+          "right": "delante de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza estas siete preposiciones.",
+        "incorrect": "Revisa esto: Memoriza estas siete preposiciones."
+      },
+      "review_of": "en-a1-u06-l03-ex01"
+    },
+    {
       "id": "en-a1-u07-l01-ex03",
       "type": "multiple_choice",
       "skill": "vocab",
@@ -367,6 +477,28 @@
       "audio_script_id": "en-a1-u07-l01-ex07-a"
     },
     {
+      "id": "en-a1-u07-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My flat have two bedrooms.",
+      "answer": [
+        "My flat has two bedrooms.",
+        "My flat has got two bedrooms.",
+        "There are two bedrooms in my flat."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'my flat' (it) se usa has; o mejor 'There are…'.",
+        "incorrect": "Revisa esto: Con 'my flat' (it) se usa has; o mejor 'There are…'."
+      },
+      "review_of": "en-a1-u06-l05-ex04"
+    },
+    {
       "id": "en-a1-u07-l01-ex08",
       "type": "pronunciation",
       "skill": "speaking",
@@ -397,6 +529,73 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a1-u07-l01-ex09",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "places",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada lugar.",
+      "categories": [
+        "Services",
+        "Shops and food",
+        "Free time"
+      ],
+      "items": [
+        {
+          "text": "bank",
+          "category": "Services"
+        },
+        {
+          "text": "hospital",
+          "category": "Services"
+        },
+        {
+          "text": "post office",
+          "category": "Services"
+        },
+        {
+          "text": "school",
+          "category": "Services"
+        },
+        {
+          "text": "supermarket",
+          "category": "Shops and food"
+        },
+        {
+          "text": "restaurant",
+          "category": "Shops and food"
+        },
+        {
+          "text": "café",
+          "category": "Shops and food"
+        },
+        {
+          "text": "park",
+          "category": "Free time"
+        },
+        {
+          "text": "cinema",
+          "category": "Free time"
+        },
+        {
+          "text": "museum",
+          "category": "Free time"
+        },
+        {
+          "text": "library",
+          "category": "Free time"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
       }
     }
   ],

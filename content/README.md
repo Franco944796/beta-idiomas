@@ -4,7 +4,7 @@ Contenido en JSON estático (Fase 1, compatible con GitHub Pages). Idioma objeti
 
 ## Niveles
 
-Solo se cubren A1, A2, B1 y B2. A1 está completo; A2 se publica por unidades (ver `path.json`, campo `status` de cada lección).
+Solo se cubren A1, A2, B1 y B2. A1 y A2 están completos; B1 y B2 se publican por etapas (ver `path.json`, campo `status` de cada lección).
 
 ## Estructura
 
@@ -59,7 +59,7 @@ Campos comunes: `id`, `type`, `skill`, `difficulty` (1–5), `tags`, `est_second
 ## Progreso
 
 - **Desbloqueo:** una lección se abre al completar la anterior con ≥ 70 % en sus ejercicios. La lección 06 (checkpoint) usa `checkpoint.pass_score`.
-- **Examen de fin de nivel:** ≥ 75 % para desbloquear el siguiente nivel (`a1/exam.json`: 30 ítems puntuados + 2 tareas opcionales sin nota).
+- **Examen de fin de nivel:** ≥ 75 % para desbloquear el siguiente nivel (A1: 32 ítems puntuados, A2: 36, más 2 tareas opcionales sin nota).
 - **SRS (Leitner):** cajas con intervalos de 1, 3, 7, 14, 30 y 60 días. Acierto → sube una caja; error → vuelve a la caja 1 y suma un `lapse`. `srs_items` de cada lección entra al completarla.
 
 ## Placement test
@@ -72,10 +72,19 @@ Reproducir con `speechSynthesis` (Web Speech API) usando `audio_text` o los arch
 
 ## Examen final de A1
 
-`content/en/a1/exam.json`: 30 ítems puntuados (vocabulario y funciones, gramática, corrección de errores, listening, dictado y lectura) con `pass_score` 0.75 (23 aciertos) y `optional_tasks` (escritura y rol) que se autoevalúan y no cuentan. Cada ítem trae `tags` para mostrar en qué temas se falló.
+`content/en/a1/exam.json`: 32 ítems puntuados (vocabulario y funciones, gramática, corrección de errores, listening, dictado y lectura) con `pass_score` 0.75 (24 aciertos) y `optional_tasks` (escritura y rol) que se autoevalúan y no cuentan. Cada ítem trae `tags` y un campo `review` (lección y tema a repasar, calculado por build.py) que la web muestra al fallar, sin revelar la respuesta.
 
 ## Notas de contenido
 
 - `vocab/a1.json`: cada palabra trae `first_lesson` (lección donde aparece por primera vez) y `topic`.
 - `exercises[].refers_to_input: true` indica una pregunta de lectura sobre el texto o diálogo de la propia lección.
 - `explanation.false_friends` aparece solo en las lecciones que lo necesitan (parents, library).
+
+
+## Repaso mezclado (automático)
+
+`build.py` añade a cada lección, **además** de sus ejercicios, unos pocos de unidades anteriores (ids `…-rvNN`, campo `review_of`). Cantidad en `meta.py` → `review_count`: base por nivel (A1 3, A2 4, B1 5, B2 6) + 1 cada 3 unidades, y +2 en los checkpoints; así cada unidad lleva más que la anterior. Solo se copian tipos que no dependen del texto de la lección. La unidad 1 de A1 no recibe repaso (no hay nada anterior). No hace falta escribirlos a mano.
+
+## Tareas de escritura
+
+`write(...)` ajusta `min_words` para que nunca supere las palabras del modelo (build.py lo valida). La web exige ese mínimo de palabras reales y no acepta texto repetido.

@@ -11,7 +11,7 @@
     "es": "Conectores: because, so, but, although"
   },
   "objective": "Al terminar explicas razones, resultados y contrastes con because, so, but, although y because of.",
-  "est_minutes": 25,
+  "est_minutes": 29,
   "skills": [
     "grammar",
     "listening",
@@ -146,6 +146,25 @@
       }
     },
     {
+      "id": "en-a2-u10-l04-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like a ___ of bread, please. (una pieza entera)",
+      "answer": [
+        "loaf"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un pan entero se cuenta como a loaf of bread.",
+        "incorrect": "Revisa esto: Un pan entero se cuenta como a loaf of bread."
+      },
+      "review_of": "en-a2-u04-l01-ex04"
+    },
+    {
       "id": "en-a2-u10-l04-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -180,6 +199,96 @@
         "correct": "¡Correcto! Because of + sustantivo.",
         "incorrect": "Revisa esto: Because of + sustantivo."
       }
+    },
+    {
+      "id": "en-a2-u10-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escribes a la gerente Ms Taylor, a quien conoces por nombre. ¿Cómo terminas?",
+      "options": [
+        "Yours sincerely,",
+        "Yours faithfully,",
+        "See ya,",
+        "Love,"
+      ],
+      "answer": [
+        "Yours sincerely,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dear + nombre → Yours sincerely.",
+        "incorrect": "Revisa esto: Dear + nombre → Yours sincerely."
+      },
+      "review_of": "en-a2-u07-l06-ex07"
+    },
+    {
+      "id": "en-a2-u10-l04-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have eat sushi.",
+      "answer": [
+        "I have eaten sushi.",
+        "I've eaten sushi."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El participio de eat es eaten.",
+        "incorrect": "Revisa esto: El participio de eat es eaten."
+      },
+      "review_of": "en-a2-u08-l01-ex07"
+    },
+    {
+      "id": "en-a2-u10-l04-rv04",
+      "type": "true_false",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 15,
+      "prompt": "'Parents' significa 'parientes'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Parents' = padres; 'parientes' = relatives.",
+        "incorrect": "Revisa esto: 'Parents' = padres; 'parientes' = relatives."
+      },
+      "review_of": "en-a1-u03-l06-ex09"
+    },
+    {
+      "id": "en-a2-u10-l04-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ortografía: 'plan' en pasado continuo →",
+      "options": [
+        "was planning",
+        "was planing",
+        "was plan",
+        "was planed"
+      ],
+      "answer": [
+        "was planning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante-vocal-consonante: se duplica la n.",
+        "incorrect": "Revisa esto: Consonante-vocal-consonante: se duplica la n."
+      },
+      "review_of": "en-a2-u09-l02-ex05"
     },
     {
       "id": "en-a2-u10-l04-ex05",
@@ -334,6 +443,26 @@
       }
     },
     {
+      "id": "en-a2-u10-l04-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He goes to school by foot.",
+      "answer": [
+        "He goes to school on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      },
+      "review_of": "en-a1-u07-l06-ex06"
+    },
+    {
       "id": "en-a2-u10-l04-ex11",
       "type": "multiple_choice",
       "skill": "reading",
@@ -357,6 +486,31 @@
         "correct": "¡Correcto! El texto dice 'I wouldn't live there because it's too quiet'.",
         "incorrect": "Revisa esto: El texto dice 'I wouldn't live there because it's too quiet'."
       }
+    },
+    {
+      "id": "en-a2-u10-l04-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 20,
+      "prompt": "I don't work ___ Sundays.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "from"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      },
+      "review_of": "en-a2-u07-l03-ex04"
     },
     {
       "id": "en-a2-u10-l04-ex12",
@@ -415,7 +569,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Explica en 5 frases por qué te gusta (o no) vivir donde vives. Usa because, so, but y although.",
-      "min_words": 35,
+      "min_words": 29,
       "self_check_es": [
         "¿Usaste because con una razón?",
         "¿Usaste so con un resultado?",

@@ -11,7 +11,7 @@
     "es": "Present perfect: forma y participios"
   },
   "objective": "Al terminar formas el present perfect (have / has + participio) y preguntas por experiencias con Have you ever…?",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -192,6 +192,26 @@
       }
     },
     {
+      "id": "en-a2-u08-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ play the guitar. (no puedo)",
+      "answer": [
+        "can't",
+        "cannot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: can't.",
+        "incorrect": "Revisa esto: Negativa: can't."
+      },
+      "review_of": "en-a1-u09-l02-ex02"
+    },
+    {
       "id": "en-a2-u08-l01-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -227,6 +247,60 @@
         "correct": "¡Correcto! Participio de be: been.",
         "incorrect": "Revisa esto: Participio de be: been."
       }
+    },
+    {
+      "id": "en-a2-u08-l01-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "you",
+        "doing",
+        "this",
+        "weekend",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta por tus planes.",
+        "incorrect": "Revisa esto: Pregunta por tus planes."
+      },
+      "review_of": "en-a1-u10-l04-ex07"
+    },
+    {
+      "id": "en-a2-u08-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are English. ___ are teachers.",
+      "answer": [
+        "They"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos personas ajenas a la conversación: they.",
+        "incorrect": "Revisa esto: Dos personas ajenas a la conversación: they."
+      },
+      "review_of": "en-a1-u02-l03-ex01"
     },
     {
       "id": "en-a2-u08-l01-ex05",
@@ -316,6 +390,45 @@
       }
     },
     {
+      "id": "en-a2-u08-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom is my brother. ___ name is Tom.",
+      "answer": [
+        "His"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El dueño es un hombre (Tom): his.",
+        "incorrect": "Revisa esto: El dueño es un hombre (Tom): his."
+      },
+      "review_of": "en-a1-u03-l02-ex01"
+    },
+    {
+      "id": "en-a2-u08-l01-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Escucho música.",
+      "answer": [
+        "I listen to music."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to + música.",
+        "incorrect": "Revisa esto: Listen to + música."
+      },
+      "review_of": "en-a1-u09-l01-ex10"
+    },
+    {
       "id": "en-a2-u08-l01-ex09",
       "type": "word_order",
       "skill": "grammar",
@@ -347,6 +460,25 @@
         "correct": "¡Correcto! Have + sujeto + ever + participio.",
         "incorrect": "Revisa esto: Have + sujeto + ever + participio."
       }
+    },
+    {
+      "id": "en-a2-u08-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's cold ___ winter.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con estaciones se usa in.",
+        "incorrect": "Revisa esto: Con estaciones se usa in."
+      },
+      "review_of": "en-a1-u10-l02-ex03"
     },
     {
       "id": "en-a2-u08-l01-ex10",

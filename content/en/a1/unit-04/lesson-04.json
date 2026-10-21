@@ -11,7 +11,7 @@
     "es": "Presente simple: negativas y preguntas"
   },
   "objective": "Al terminar haces negativas y preguntas en presente simple con do / does.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -184,6 +184,62 @@
       }
     },
     {
+      "id": "en-a1-u04-l04-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "jobs",
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica la persona y de dónde es?",
+      "options": [
+        "Nurse, Brazil",
+        "Teacher, Brazil",
+        "Nurse, Spain",
+        "Doctor, Mexico"
+      ],
+      "answer": [
+        "Nurse, Brazil"
+      ],
+      "audio_text": "She's a nurse. She's from Brazil.",
+      "feedback": {
+        "correct": "¡Correcto! Escuchas 'a nurse' y 'from Brazil'.",
+        "incorrect": "Revisa esto: Escuchas 'a nurse' y 'from Brazil'."
+      },
+      "audio_script_id": "en-a1-u04-l04-rv01-a",
+      "review_of": "en-a1-u02-l06-ex07"
+    },
+    {
+      "id": "en-a1-u04-l04-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "have-got",
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas hermanas tiene la persona que habla?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "None"
+      ],
+      "answer": [
+        "Two"
+      ],
+      "audio_text": "I've got one brother and two sisters.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'two sisters'.",
+        "incorrect": "Revisa esto: Dice 'two sisters'."
+      },
+      "audio_script_id": "en-a1-u04-l04-rv02-a",
+      "review_of": "en-a1-u03-l04-ex07"
+    },
+    {
       "id": "en-a1-u04-l04-ex04",
       "type": "word_order",
       "skill": "grammar",
@@ -216,6 +272,58 @@
         "correct": "¡Correcto! Wh- + do + sujeto + verbo base.",
         "incorrect": "Revisa esto: Wh- + do + sujeto + verbo base."
       }
+    },
+    {
+      "id": "en-a1-u04-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "She's a nurse.",
+        "She's nurse.",
+        "She's an nurse.",
+        "She nurse."
+      ],
+      "answer": [
+        "She's a nurse."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se necesita el artículo 'a' antes de una profesión.",
+        "incorrect": "Revisa esto: Se necesita el artículo 'a' antes de una profesión."
+      },
+      "review_of": "en-a1-u02-l05-ex03"
+    },
+    {
+      "id": "en-a1-u04-l04-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es la hermana?",
+      "options": [
+        "Tall and friendly",
+        "Short and quiet",
+        "Young and funny",
+        "Tall and quiet"
+      ],
+      "answer": [
+        "Tall and friendly"
+      ],
+      "audio_text": "My brother is young and quiet. My sister is tall and friendly.",
+      "feedback": {
+        "correct": "¡Correcto! La hermana es 'tall and friendly'.",
+        "incorrect": "Revisa esto: La hermana es 'tall and friendly'."
+      },
+      "audio_script_id": "en-a1-u04-l04-rv04-a",
+      "review_of": "en-a1-u03-l05-ex08"
     },
     {
       "id": "en-a1-u04-l04-ex05",

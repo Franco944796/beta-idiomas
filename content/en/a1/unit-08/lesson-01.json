@@ -11,7 +11,7 @@
     "es": "Números del 21 al 1000"
   },
   "objective": "Al terminar cuentas del 21 al 1000 y preguntas cuántos hay con how many.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -228,6 +228,27 @@
       }
     },
     {
+      "id": "en-a1-u08-l01-rv01",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "She never works on Sundays.",
+      "answer": [
+        "She never works on Sundays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio + verbo con -s.",
+        "incorrect": "Revisa esto: Adverbio + verbo con -s."
+      },
+      "audio_script_id": "en-a1-u08-l01-rv01-a",
+      "review_of": "en-a1-u04-l06-ex09"
+    },
+    {
       "id": "en-a1-u08-l01-ex04",
       "type": "error_correction",
       "skill": "grammar",
@@ -331,6 +352,25 @@
       }
     },
     {
+      "id": "en-a1-u08-l01-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Good ___, Mr Brown! (son las 09:00)",
+      "answer": [
+        "morning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A las 9 de la mañana: Good morning.",
+        "incorrect": "Revisa esto: A las 9 de la mañana: Good morning."
+      },
+      "review_of": "en-a1-u01-l04-ex03"
+    },
+    {
       "id": "en-a1-u08-l01-ex08",
       "type": "multiple_choice",
       "skill": "reading",
@@ -356,6 +396,26 @@
       }
     },
     {
+      "id": "en-a1-u08-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ got a sister.",
+      "answer": [
+        "have",
+        "'ve"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I: have got (I've got).",
+        "incorrect": "Revisa esto: Con I: have got (I've got)."
+      },
+      "review_of": "en-a1-u03-l04-ex01"
+    },
+    {
       "id": "en-a1-u08-l01-ex09",
       "type": "translation",
       "skill": "writing",
@@ -374,6 +434,36 @@
         "correct": "¡Correcto! Thirty-five se escribe con guion.",
         "incorrect": "Revisa esto: Thirty-five se escribe con guion."
       }
+    },
+    {
+      "id": "en-a1-u08-l01-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con el pronombre correcto.",
+      "pairs": [
+        {
+          "left": "Tom",
+          "right": "he"
+        },
+        {
+          "left": "my sister",
+          "right": "she"
+        },
+        {
+          "left": "a phone",
+          "right": "it"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! he = hombre, she = mujer, it = cosa.",
+        "incorrect": "Revisa esto: he = hombre, she = mujer, it = cosa."
+      },
+      "review_of": "en-a1-u02-l02-ex07"
     },
     {
       "id": "en-a1-u08-l01-ex10",
@@ -412,6 +502,25 @@
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
       }
+    },
+    {
+      "id": "en-a1-u08-l01-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can see a film at the ___.",
+      "answer": [
+        "cinema"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las películas se ven en el cinema.",
+        "incorrect": "Revisa esto: Las películas se ven en el cinema."
+      },
+      "review_of": "en-a1-u07-l01-ex04"
     }
   ],
   "summary": {

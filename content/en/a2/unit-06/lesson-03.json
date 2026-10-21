@@ -11,7 +11,7 @@
     "es": "Consejos con should / shouldn't"
   },
   "objective": "Al terminar das y pides consejos con should / shouldn't y expresas tu opinión con I think you should….",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -196,6 +196,31 @@
       }
     },
     {
+      "id": "en-a2-u06-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 20,
+      "prompt": "£3.50 se lee…",
+      "options": [
+        "three pounds fifty",
+        "three fifty pounds",
+        "three point five pounds",
+        "thirty-five pounds"
+      ],
+      "answer": [
+        "three pounds fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primero las libras y luego los peniques: three pounds fifty.",
+        "incorrect": "Revisa esto: Primero las libras y luego los peniques: three pounds fifty."
+      },
+      "review_of": "en-a2-u04-l04-ex03"
+    },
+    {
       "id": "en-a2-u06-l03-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -215,6 +240,31 @@
       }
     },
     {
+      "id": "en-a2-u06-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-movement"
+      ],
+      "est_seconds": 20,
+      "prompt": "We walked ___ the bridge to the other side.",
+      "options": [
+        "across",
+        "along",
+        "at",
+        "by"
+      ],
+      "answer": [
+        "across"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Across = cruzando de un lado a otro.",
+        "incorrect": "Revisa esto: Across = cruzando de un lado a otro."
+      },
+      "review_of": "en-a2-u02-l04-ex05"
+    },
+    {
       "id": "en-a2-u06-l03-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -232,6 +282,46 @@
         "correct": "¡Correcto! Should no cambia ni lleva -s.",
         "incorrect": "Revisa esto: Should no cambia ni lleva -s."
       }
+    },
+    {
+      "id": "en-a2-u06-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Is raining now.",
+      "answer": [
+        "It's raining now.",
+        "It is raining now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se omite el sujeto it.",
+        "incorrect": "Revisa esto: No se omite el sujeto it."
+      },
+      "review_of": "en-a1-u10-l01-ex05"
+    },
+    {
+      "id": "en-a2-u06-l03-rv04",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 15,
+      "prompt": "'No turn left' es una orden correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa Don't: Don't turn left.",
+        "incorrect": "Revisa esto: Se usa Don't: Don't turn left."
+      },
+      "review_of": "en-a1-u07-l06-ex09"
     },
     {
       "id": "en-a2-u06-l03-ex07",
@@ -361,6 +451,31 @@
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
       }
+    },
+    {
+      "id": "en-a2-u06-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you got a sister? — ___",
+      "options": [
+        "Yes, I have.",
+        "Yes, I've.",
+        "Yes, I am.",
+        "Yes, I got."
+      ],
+      "answer": [
+        "Yes, I have."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: La respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u03-l04-ex04"
     }
   ],
   "summary": {

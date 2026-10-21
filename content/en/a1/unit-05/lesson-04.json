@@ -11,7 +11,7 @@
     "es": "Las comidas: some y any"
   },
   "objective": "Al terminar nombras las comidas del día y usas some y any.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -159,6 +159,46 @@
       }
     },
     {
+      "id": "en-a1-u05-l04-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Am Tom.",
+      "answer": [
+        "I'm Tom.",
+        "I am Tom."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el sujeto es obligatorio: I'm Tom.",
+        "incorrect": "Revisa esto: En inglés el sujeto es obligatorio: I'm Tom."
+      },
+      "review_of": "en-a1-u01-l01-ex06"
+    },
+    {
+      "id": "en-a1-u05-l04-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Good ___, Mr Brown! (son las 09:00)",
+      "answer": [
+        "morning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A las 9 de la mañana: Good morning.",
+        "incorrect": "Revisa esto: A las 9 de la mañana: Good morning."
+      },
+      "review_of": "en-a1-u01-l04-ex03"
+    },
+    {
       "id": "en-a1-u05-l04-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -252,6 +292,38 @@
       }
     },
     {
+      "id": "en-a1-u05-l04-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "a",
+        "nurse",
+        ".",
+        "Laura's",
+        "mother"
+      ],
+      "answer": [
+        "Laura's",
+        "mother",
+        "is",
+        "a",
+        "nurse",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona + verbo.",
+        "incorrect": "Revisa esto: Dueño + 's + persona + verbo."
+      },
+      "review_of": "en-a1-u03-l03-ex07"
+    },
+    {
       "id": "en-a1-u05-l04-ex07",
       "type": "multiple_choice",
       "skill": "reading",
@@ -301,6 +373,25 @@
         "incorrect": "Revisa esto: Dice 'some bread and some coffee'."
       },
       "audio_script_id": "en-a1-u05-l04-ex08-a"
+    },
+    {
+      "id": "en-a1-u05-l04-rv04",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 15,
+      "prompt": "En 'Sue's brother', 's significa 'is'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí 's indica posesión (el hermano de Sue).",
+        "incorrect": "Revisa esto: Aquí 's indica posesión (el hermano de Sue)."
+      },
+      "review_of": "en-a1-u03-l03-ex05"
     }
   ],
   "summary": {

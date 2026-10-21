@@ -11,7 +11,7 @@
     "es": "Horarios y rutinas de trabajo y estudio"
   },
   "objective": "Al terminar describes tus horarios y rutinas de trabajo o estudio con from … to, until, before y after, y preguntas los de otra persona.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -154,6 +154,25 @@
       }
     },
     {
+      "id": "en-a2-u07-l03-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "Open ___ door, please. (la puerta que ya conocemos)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Algo específico y conocido: the.",
+        "incorrect": "Revisa esto: Algo específico y conocido: the."
+      },
+      "review_of": "en-a1-u11-l03-ex03"
+    },
+    {
       "id": "en-a2-u07-l03-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -223,6 +242,25 @@
       }
     },
     {
+      "id": "en-a2-u07-l03-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have half a ___ of grapes, please?",
+      "answer": [
+        "kilo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Half a kilo of … = medio kilo de …",
+        "incorrect": "Revisa esto: Half a kilo of … = medio kilo de …"
+      },
+      "review_of": "en-a2-u04-l06-ex04"
+    },
+    {
       "id": "en-a2-u07-l03-ex06",
       "type": "multiple_choice",
       "skill": "grammar",
@@ -245,6 +283,33 @@
         "correct": "¡Correcto! What time + do + sujeto + verbo base.",
         "incorrect": "Revisa esto: What time + do + sujeto + verbo base."
       }
+    },
+    {
+      "id": "en-a2-u07-l03-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué está haciendo la persona?",
+      "options": [
+        "Playing the guitar",
+        "Working",
+        "Swimming",
+        "Cooking"
+      ],
+      "answer": [
+        "Playing the guitar"
+      ],
+      "audio_text": "I'm not working now. I'm playing the guitar.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'm playing the guitar'.",
+        "incorrect": "Revisa esto: Dice 'I'm playing the guitar'."
+      },
+      "audio_script_id": "en-a2-u07-l03-rv03-a",
+      "review_of": "en-a1-u09-l06-ex09"
     },
     {
       "id": "en-a2-u07-l03-ex07",
@@ -284,6 +349,27 @@
         "correct": "¡Correcto! Para expresar finalidad: to + verbo.",
         "incorrect": "Revisa esto: Para expresar finalidad: to + verbo."
       }
+    },
+    {
+      "id": "en-a2-u07-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain in the head. I feel ill.",
+      "answer": [
+        "I've got a headache. I feel ill.",
+        "I have a headache. I feel ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la cabeza: headache.",
+        "incorrect": "Revisa esto: Para la cabeza: headache."
+      },
+      "review_of": "en-a2-u06-l02-ex06"
     },
     {
       "id": "en-a2-u07-l03-ex09",
@@ -401,6 +487,56 @@
       "audio_script_id": "en-a2-u07-l03-ex12-a"
     },
     {
+      "id": "en-a2-u07-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can you me help?",
+      "answer": [
+        "Can you help me?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El verbo va justo después del sujeto.",
+        "incorrect": "Revisa esto: El verbo va justo después del sujeto."
+      },
+      "review_of": "en-a1-u09-l03-ex05"
+    },
+    {
+      "id": "en-a2-u07-l03-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "from",
+        "Mexico",
+        "?",
+        "Are",
+        "they"
+      ],
+      "answer": [
+        "Are",
+        "they",
+        "from",
+        "Mexico",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con to be y 'they'.",
+        "incorrect": "Revisa esto: Pregunta con to be y 'they'."
+      },
+      "review_of": "en-a1-u02-l06-ex06"
+    },
+    {
       "id": "en-a2-u07-l03-ex13",
       "type": "writing",
       "skill": "writing",
@@ -410,7 +546,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Describe tu semana de trabajo o estudio en 4 frases: días, horarios y qué haces el fin de semana. Usa from … to, until y un adverbio de frecuencia.",
-      "min_words": 30,
+      "min_words": 29,
       "self_check_es": [
         "¿Usaste from … to … para días u horas?",
         "¿Usaste until o before / after?",

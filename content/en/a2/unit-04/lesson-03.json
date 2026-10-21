@@ -11,7 +11,7 @@
     "es": "En el restaurante: pedir y quejarse con educación"
   },
   "objective": "Al terminar pides comida en un restaurante, preguntas por el menú y haces una queja con educación.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -228,6 +228,26 @@
       }
     },
     {
+      "id": "en-a2-u04-l03-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Does she gets up early?",
+      "answer": [
+        "Does she get up early?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de does el verbo va en forma base.",
+        "incorrect": "Revisa esto: Después de does el verbo va en forma base."
+      },
+      "review_of": "en-a1-u04-l04-ex07"
+    },
+    {
       "id": "en-a2-u04-l03-ex04",
       "type": "fill_blank",
       "skill": "grammar",
@@ -244,6 +264,54 @@
         "correct": "¡Correcto! I'd like = I would like.",
         "incorrect": "Revisa esto: I'd like = I would like."
       }
+    },
+    {
+      "id": "en-a2-u04-l03-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo se quedó la persona?",
+      "options": [
+        "Three days",
+        "Five days",
+        "Ten days",
+        "One day"
+      ],
+      "answer": [
+        "Three days"
+      ],
+      "audio_text": "—When did you arrive? —On Friday evening. —How long did you stay? —Only three days.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'Only three days'.",
+        "incorrect": "Revisa esto: Responde 'Only three days'."
+      },
+      "audio_script_id": "en-a2-u04-l03-rv02-a",
+      "review_of": "en-a2-u02-l02-ex08"
+    },
+    {
+      "id": "en-a2-u04-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I've got two sandwichs.",
+      "answer": [
+        "I've got two sandwiches.",
+        "I have got two sandwiches."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      },
+      "review_of": "en-a1-u05-l02-ex06"
     },
     {
       "id": "en-a2-u04-l03-ex05",
@@ -385,6 +453,25 @@
       "audio_script_id": "en-a2-u04-l03-ex09-a"
     },
     {
+      "id": "en-a2-u04-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "The bus takes eight hours. That's ___ long for me.",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      },
+      "review_of": "en-a2-u03-l05-ex03"
+    },
+    {
       "id": "en-a2-u04-l03-ex10",
       "type": "roleplay",
       "skill": "speaking",
@@ -428,6 +515,27 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a2-u04-l03-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy de España.",
+      "answer": [
+        "I'm from Spain.",
+        "I am from Spain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Soy de…' = I'm from…",
+        "incorrect": "Revisa esto: 'Soy de…' = I'm from…"
+      },
+      "review_of": "en-a1-u02-l01-ex05"
     },
     {
       "id": "en-a2-u04-l03-ex11",

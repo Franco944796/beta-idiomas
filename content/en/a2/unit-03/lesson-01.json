@@ -11,7 +11,7 @@
     "es": "Adjetivos para describir lugares y personas"
   },
   "objective": "Al terminar describes lugares y personas con adjetivos útiles y conoces sus opuestos.",
-  "est_minutes": 25,
+  "est_minutes": 27,
   "skills": [
     "grammar",
     "listening",
@@ -119,7 +119,7 @@
     ]
   },
   "explanation": {
-    "md_es": "**Adjetivos para describir lugares y personas (con su opuesto)**\n\n| Adjetivo | Opuesto |\n|---|---|\n| quiet (tranquilo) | noisy (ruidoso) |\n| clean (limpio) | dirty (sucio) |\n| safe (seguro) | dangerous (peligroso) |\n| cheap (barato) | expensive (caro) |\n| big (grande) | small (pequeño) |\n| old (viejo, antiguo) | new (nuevo) / modern (moderno) |\n\n**Más adjetivos:** *beautiful, ugly, friendly, boring, exciting, crowded, popular, lovely*.\n\n**Ojo:** los adjetivos no cambian por género ni número: *a quiet town, quiet towns*. Van **antes** del sustantivo o después de *to be*: *It's a clean city. The city is clean.*\n\nPronunciación: *dangerous* /ˈdeɪndʒərəs/ · *expensive* /ɪkˈspensɪv/ (acento en -pen-) · *crowded* /ˈkraʊdɪd/.",
+    "md_es": "**Adjetivos para describir lugares y personas (con su opuesto)**\n\n| Adjetivo | Opuesto |\n|---|---|\n| quiet (tranquilo) | noisy (ruidoso) |\n| clean (limpio) | dirty (sucio) |\n| safe (seguro) | dangerous (peligroso) |\n| cheap (barato) | expensive (caro) |\n| big (grande) | small (pequeño) |\n| old (viejo, antiguo) | new (nuevo) / modern (moderno) |\n\n**Más adjetivos:** *beautiful, ugly, friendly, boring, exciting, crowded, popular, lovely*.\n\n**Ojo:** los adjetivos no cambian por género ni número: *a quiet town, quiet towns*. Van **antes** del sustantivo o después de *to be*: *It's a clean city. The city is clean.*\n\nPronunciación: *dangerous* /ˈdeɪndʒərəs/ · *expensive* /ɪkˈspensɪv/ (acento en -pen-) · *crowded* /ˈkraʊdɪd/.\n\n**Modificar los adjetivos (¿cuánto?)**\n\n| Palabra | Significado | Ejemplo |\n|---|---|---|\n| **very / really / extremely** | muy, muchísimo | *The city is **very** noisy. · It's **really** exciting.* |\n| **quite / fairly** | bastante | *It's **quite** expensive.* |\n| **a bit / a little** | un poco | *The hotel is **a bit** small.* |\n| **not very / not at all** | no muy / nada | *It isn't **very** big. · It isn't **at all** dangerous.* |\n| **too** | demasiado (problema) | *It's **too** crowded for me.* |\n\nVan **antes** del adjetivo. **Ojo:** *much* no modifica adjetivos (*much big* ✗ → *very big* ✓) y *very* no se usa con adjetivos ya extremos (*very amazing* ✗ → *really amazing* ✓).",
     "common_mistakes_es": [
       {
         "wrong": "It's a noise city.",
@@ -246,6 +246,38 @@
       }
     },
     {
+      "id": "en-a2-u03-l01-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "for",
+        "a",
+        "jacket",
+        ".",
+        "I'm",
+        "looking"
+      ],
+      "answer": [
+        "I'm",
+        "looking",
+        "for",
+        "a",
+        "jacket",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm looking for + prenda.",
+        "incorrect": "Revisa esto: I'm looking for + prenda."
+      },
+      "review_of": "en-a1-u08-l05-ex04"
+    },
+    {
       "id": "en-a2-u03-l01-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -321,6 +353,63 @@
         "correct": "¡Correcto! El texto dice 'It's quiet and clean'.",
         "incorrect": "Revisa esto: El texto dice 'It's quiet and clean'."
       }
+    },
+    {
+      "id": "en-a2-u03-l01-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "had",
+        "a",
+        "shower",
+        ".",
+        "First",
+        ","
+      ],
+      "answer": [
+        "First",
+        ",",
+        "I",
+        "had",
+        "a",
+        "shower",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector + coma + sujeto + verbo en pasado.",
+        "incorrect": "Revisa esto: Conector + coma + sujeto + verbo en pasado."
+      },
+      "review_of": "en-a2-u01-l05-ex03"
+    },
+    {
+      "id": "en-a2-u03-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 30 years.",
+      "answer": [
+        "I'm 30.",
+        "I am 30.",
+        "I'm 30 years old.",
+        "I am 30 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be'.",
+        "incorrect": "Revisa esto: La edad se dice con 'to be'."
+      },
+      "review_of": "en-a1-u01-l06-ex06"
     },
     {
       "id": "en-a2-u03-l01-ex08",
@@ -399,6 +488,92 @@
       "feedback": {
         "correct": "¡Correcto! Repite en voz alta imitando el audio.",
         "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "The hotel is ___ small, but it's clean. (un poco)",
+      "options": [
+        "a bit",
+        "very much",
+        "too much",
+        "quite of"
+      ],
+      "answer": [
+        "a bit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A bit = un poco, antes del adjetivo.",
+        "incorrect": "Revisa esto: A bit = un poco, antes del adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué habitación cocinas?",
+      "options": [
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "garden"
+      ],
+      "answer": [
+        "kitchen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se cocina en la kitchen.",
+        "incorrect": "Revisa esto: Se cocina en la kitchen."
+      },
+      "review_of": "en-a1-u06-l01-ex02"
+    },
+    {
+      "id": "en-a2-u03-l01-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ expensive, but not too much. (bastante)",
+      "answer": [
+        "quite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quite = bastante.",
+        "incorrect": "Revisa esto: Quite = bastante."
+      }
+    },
+    {
+      "id": "en-a2-u03-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film was very much interesting.",
+      "answer": [
+        "The film was very interesting."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Much no modifica adjetivos: very interesting.",
+        "incorrect": "Revisa esto: Much no modifica adjetivos: very interesting."
       }
     }
   ],

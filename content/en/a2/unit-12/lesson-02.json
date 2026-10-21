@@ -1,0 +1,694 @@
+{
+  "id": "en-a2-u12-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Asking for directions",
+    "es": "Pedir indicaciones con cortesía"
+  },
+  "objective": "Al terminar pides indicaciones con cortesía (Could you tell me how to get to…?), preguntas qué tan lejos queda y entiendes la respuesta.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás perdido en una ciudad. ¿Cómo abordas a un desconocido y cómo entiendes lo que te explica?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tourist",
+        "text": "Excuse me, could you tell me how to get to the museum?",
+        "es": "Disculpe, ¿podría decirme cómo llegar al museo?"
+      },
+      {
+        "speaker": "Passer-by",
+        "text": "Sure. Go straight on and turn left at the traffic lights.",
+        "es": "Claro. Siga recto y gire a la izquierda en el semáforo."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Is it far from here?",
+        "es": "¿Queda lejos de aquí?"
+      },
+      {
+        "speaker": "Passer-by",
+        "text": "No, it's about ten minutes on foot.",
+        "es": "No, está a unos diez minutos a pie."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Is there a bank near here?",
+        "es": "¿Hay un banco cerca de aquí?"
+      },
+      {
+        "speaker": "Passer-by",
+        "text": "Yes, there's one next to the post office.",
+        "es": "Sí, hay uno al lado del correo."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Could you show me on the map?",
+        "es": "¿Podría mostrármelo en el mapa?"
+      },
+      {
+        "speaker": "Passer-by",
+        "text": "Of course. We're here, and the museum is here.",
+        "es": "Por supuesto. Estamos aquí y el museo está aquí."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-how-to-get-to",
+        "lemma": "how to get to",
+        "pos": "phrase",
+        "ipa": "/haʊ tə ɡet tuː/",
+        "es": "cómo llegar a",
+        "example": "Could you tell me how to get to the museum?"
+      },
+      {
+        "id": "en-far",
+        "lemma": "far",
+        "pos": "adj",
+        "ipa": "/fɑː/",
+        "es": "lejos",
+        "example": "Is it far from here?"
+      },
+      {
+        "id": "en-on-foot",
+        "lemma": "on foot",
+        "pos": "phrase",
+        "ipa": "/ɒn fʊt/",
+        "es": "a pie",
+        "example": "It's ten minutes on foot."
+      },
+      {
+        "id": "en-traffic-lights",
+        "lemma": "traffic lights",
+        "pos": "noun",
+        "ipa": "/ˈtræfɪk laɪts/",
+        "es": "semáforo",
+        "example": "Turn left at the traffic lights."
+      },
+      {
+        "id": "en-near-here",
+        "lemma": "near here",
+        "pos": "phrase",
+        "ipa": "/nɪə hɪə/",
+        "es": "cerca de aquí",
+        "example": "Is there a bank near here?"
+      },
+      {
+        "id": "en-show-me-on-the-map",
+        "lemma": "show me on the map",
+        "pos": "phrase",
+        "ipa": "/ʃəʊ miː ɒn ðə mæp/",
+        "es": "muéstreme en el mapa",
+        "example": "Could you show me on the map?"
+      },
+      {
+        "id": "en-lost",
+        "lemma": "lost",
+        "pos": "adj",
+        "ipa": "/lɒst/",
+        "es": "perdido/a",
+        "example": "Excuse me, I'm lost."
+      }
+    ],
+    "audio_script_id": "en-a2-u12-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Abordar y pedir con cortesía**\n\n- **Excuse me, could you tell me how to get to …?** (¿podría decirme cómo llegar a…?)\n- **Excuse me, where is …?** · **Is there a … near here?** (¿hay… cerca?)\n- **Is it far (from here)?** · **How long does it take on foot?** · **Could you show me on the map?**\n- **I'm lost.** (estoy perdido/a)\n\n**Entender la respuesta:** *Go straight on. · Turn left / right. · Take the first / second turning. · It's on your left. · It's next to / opposite / behind …*\n\n**Ojo con el orden de palabras en frases indirectas** (después de *Could you tell me…*): orden afirmativo, sin inversión → *Could you tell me **where the museum is**?* (no *where is the museum*).\n\n- Directa: *Where is the museum?*\n- Indirecta (más cortés): *Could you tell me where the museum is?*\n\n**Agradecer:** *Thank you very much. · That's very kind of you. · Thanks for your help.*\n\nPronunciación: *Excuse me* /ɪkˈskjuːz miː/ · *far* /fɑː/ · *lost* /lɒst/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Could you tell me where is the bank?",
+        "right": "Could you tell me where the bank is?",
+        "note": "Después de Could you tell me, orden afirmativo."
+      },
+      {
+        "wrong": "How I get to the station?",
+        "right": "How do I get to the station?",
+        "note": "Las preguntas directas necesitan do."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir cómo llegar al museo con educación:",
+      "options": [
+        "Excuse me, could you tell me how to get to the museum?",
+        "Where is museum?",
+        "Tell me museum.",
+        "I want the museum."
+      ],
+      "answer": [
+        "Excuse me, could you tell me how to get to the museum?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Excuse me + Could you tell me how to get to…?",
+        "incorrect": "Revisa esto: Excuse me + Could you tell me how to get to…?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "Could you tell me where the station is?",
+        "Could you tell me where is the station?",
+        "Could you tell me where the station it is?",
+        "Could you tell me where does the station is?"
+      ],
+      "answer": [
+        "Could you tell me where the station is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En la frase indirecta el orden es afirmativo.",
+        "incorrect": "Revisa esto: En la frase indirecta el orden es afirmativo."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber si hay un banco cerca:",
+      "options": [
+        "Is there a bank near here?",
+        "There is bank near?",
+        "Is a bank near here exists?",
+        "Has a bank near here?"
+      ],
+      "answer": [
+        "Is there a bank near here?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is there … near here?",
+        "incorrect": "Revisa esto: Is there … near here?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Is it far ___ here? (de)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Far from + lugar.",
+        "incorrect": "Revisa esto: Far from + lugar."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's about ten minutes ___ foot. (a pie)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On foot = a pie.",
+        "incorrect": "Revisa esto: On foot = a pie."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Excuse me, I'm ___. Could you help me? (perdido)",
+      "answer": [
+        "lost"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lost = perdido.",
+        "incorrect": "Revisa esto: Lost = perdido."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you tell me where is the post office?",
+      "answer": [
+        "Could you tell me where the post office is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo en la pregunta indirecta.",
+        "incorrect": "Revisa esto: Orden afirmativo en la pregunta indirecta."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Excuse me, how I get to the station?",
+      "answer": [
+        "Excuse me, how do I get to the station?",
+        "Excuse me, how can I get to the station?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta directa: how do I get to…?",
+        "incorrect": "Revisa esto: Pregunta directa: how do I get to…?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "The hotel is ___ small, but it's clean. (un poco)",
+      "options": [
+        "a bit",
+        "very much",
+        "too much",
+        "quite of"
+      ],
+      "answer": [
+        "a bit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A bit = un poco, antes del adjetivo.",
+        "incorrect": "Revisa esto: A bit = un poco, antes del adjetivo."
+      },
+      "review_of": "en-a2-u03-l01-ex11"
+    },
+    {
+      "id": "en-a2-u12-l02-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "show",
+        "me",
+        "on",
+        "the",
+        "map",
+        ",",
+        "please",
+        "?",
+        "Could",
+        "you"
+      ],
+      "answer": [
+        "Could",
+        "you",
+        "show",
+        "me",
+        "on",
+        "the",
+        "map",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could you + verbo base + complemento.",
+        "incorrect": "Revisa esto: Could you + verbo base + complemento."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ engineer.",
+      "answer": [
+        "an"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'engineer' empieza con sonido de vocal: an.",
+        "incorrect": "Revisa esto: 'engineer' empieza con sonido de vocal: an."
+      },
+      "review_of": "en-a1-u02-l05-ex01"
+    },
+    {
+      "id": "en-a2-u12-l02-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a cat. ___ cat is very big.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      },
+      "review_of": "en-a1-u11-l06-ex02"
+    },
+    {
+      "id": "en-a2-u12-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es la mejor respuesta a 'What are your strengths?'",
+      "options": [
+        "I'm organised and I work well in a team.",
+        "I don't know.",
+        "I'm very tired.",
+        "My strength is money."
+      ],
+      "answer": [
+        "I'm organised and I work well in a team."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Una respuesta clara y positiva.",
+        "incorrect": "Revisa esto: Una respuesta clara y positiva."
+      },
+      "review_of": "en-a2-u07-l04-ex06"
+    },
+    {
+      "id": "en-a2-u12-l02-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hi! My name ___ Sam.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'My name is…' para decir tu nombre.",
+        "incorrect": "Revisa esto: 'My name is…' para decir tu nombre."
+      },
+      "review_of": "en-a1-u01-l06-ex02"
+    },
+    {
+      "id": "en-a2-u12-l02-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 25,
+      "prompt": "A, B, C, D, ___, F",
+      "answer": [
+        "E"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El orden es A, B, C, D, E, F.",
+        "incorrect": "Revisa esto: El orden es A, B, C, D, E, F."
+      },
+      "review_of": "en-a1-u01-l02-ex01"
+    },
+    {
+      "id": "en-a2-u12-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A cuánto está el museo, según el diálogo?",
+      "options": [
+        "Ten minutes on foot",
+        "Two minutes on foot",
+        "Twenty minutes by bus",
+        "One hour on foot"
+      ],
+      "answer": [
+        "Ten minutes on foot"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'about ten minutes on foot'.",
+        "incorrect": "Revisa esto: Dice 'about ten minutes on foot'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde está el banco?",
+      "options": [
+        "Next to the post office",
+        "Next to the museum",
+        "Opposite the station",
+        "Behind the park"
+      ],
+      "answer": [
+        "Next to the post office"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice 'next to the post office'.",
+        "incorrect": "Revisa esto: Dice 'next to the post office'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está la farmacia?",
+      "options": [
+        "On the right, next to the bank",
+        "On the left, next to the bank",
+        "Opposite the station",
+        "Behind the bank"
+      ],
+      "answer": [
+        "On the right, next to the bank"
+      ],
+      "audio_text": "Excuse me, is there a pharmacy near here? — Yes, go straight on and it's on your right, next to the bank.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on your right, next to the bank'.",
+        "incorrect": "Revisa esto: Dice 'on your right, next to the bank'."
+      },
+      "audio_script_id": "en-a2-u12-l02-ex12-a"
+    },
+    {
+      "id": "en-a2-u12-l02-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Está lejos de aquí? Está a diez minutos a pie.",
+      "answer": [
+        "Is it far from here? It's ten minutes on foot.",
+        "Is it far from here? It's ten minutes' walk.",
+        "Is it far from here? It is ten minutes on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is it far from here? + on foot.",
+        "incorrect": "Revisa esto: Is it far from here? + on foot."
+      }
+    },
+    {
+      "id": "en-a2-u12-l02-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "try",
+        "it",
+        "on",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "try",
+        "it",
+        "on",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para probarse ropa.",
+        "incorrect": "Revisa esto: Pregunta para probarse ropa."
+      },
+      "review_of": "en-a1-u08-l06-ex07"
+    },
+    {
+      "id": "en-a2-u12-l02-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás perdido en una ciudad nueva.",
+      "turns": [
+        {
+          "speaker": "Passer-by",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. Could you tell me how to get to the station?",
+            "Yes. Where is station? I'm lost.",
+            "Yes. You tell me station."
+          ],
+          "best": 0,
+          "why_es": "Could you tell me how to get to…?"
+        },
+        {
+          "speaker": "Passer-by",
+          "text": "Go straight on, then turn right at the traffic lights. It's about five minutes on foot."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you very much. Is it far?",
+            "Thanks. It's far?",
+            "Thank you. Far it is?"
+          ],
+          "best": 0,
+          "why_es": "Is it far? es la pregunta natural."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Excuse me, could you tell me how to get to …?",
+      "Is there a … near here? · Is it far?",
+      "Could you tell me where the museum is? (orden afirmativo)",
+      "I'm lost. · Could you show me on the map?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-how-to-get-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-foot"
+    },
+    {
+      "type": "vocab",
+      "id": "en-traffic-lights"
+    },
+    {
+      "type": "vocab",
+      "id": "en-near-here"
+    },
+    {
+      "type": "vocab",
+      "id": "en-show-me-on-the-map"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lost"
+    },
+    {
+      "type": "grammar",
+      "id": "en-asking-directions"
+    }
+  ]
+}

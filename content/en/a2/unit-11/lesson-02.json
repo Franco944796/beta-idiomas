@@ -1,0 +1,688 @@
+{
+  "id": "en-a2-u11-l02",
+  "language": "en",
+  "level": "A2",
+  "unit": 11,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Trying on clothes",
+    "es": "Probarse ropa: tallas y ajuste"
+  },
+  "objective": "Al terminar pides probarte una prenda, preguntas por tallas y dices si te queda bien con try on, size, fit y suit.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Estás en una tienda: la camisa te encanta, pero ¿es tu talla? ¿Cómo lo preguntas y cómo respondes a la vendedora?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Assistant",
+        "text": "Can I help you?",
+        "es": "¿Puedo ayudarle?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, please. Can I try this jacket on?",
+        "es": "Sí, por favor. ¿Puedo probarme esta chaqueta?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Of course. What size are you?",
+        "es": "Por supuesto. ¿Qué talla usa?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I'm a medium. The fitting rooms are over there, aren't they?",
+        "es": "Soy talla mediana. Los probadores están por allá, ¿verdad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "It's a bit too tight. Do you have this in a larger size?",
+        "es": "Me queda un poco apretada. ¿La tiene en una talla más grande?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Yes, here's a large. It suits you!",
+        "es": "Sí, aquí hay una grande. ¡Le queda muy bien!"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I'll take it. How much is it?",
+        "es": "Me la llevo. ¿Cuánto cuesta?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-try-on",
+        "lemma": "try on",
+        "pos": "phrasal verb",
+        "ipa": "/traɪ ɒn/",
+        "es": "probarse (ropa)",
+        "example": "Can I try this on?"
+      },
+      {
+        "id": "en-size",
+        "lemma": "size",
+        "pos": "noun",
+        "ipa": "/saɪz/",
+        "es": "talla, tamaño",
+        "example": "What size are you?"
+      },
+      {
+        "id": "en-fit",
+        "lemma": "fit",
+        "pos": "verb",
+        "ipa": "/fɪt/",
+        "es": "quedar de talla, ajustar",
+        "example": "It doesn't fit me."
+      },
+      {
+        "id": "en-suit",
+        "lemma": "suit",
+        "pos": "verb",
+        "ipa": "/suːt/",
+        "es": "quedar bien (estilo)",
+        "example": "That colour suits you."
+      },
+      {
+        "id": "en-fitting-room",
+        "lemma": "fitting room",
+        "pos": "noun",
+        "ipa": "/ˈfɪtɪŋ ruːm/",
+        "es": "probador",
+        "example": "Where are the fitting rooms?"
+      },
+      {
+        "id": "en-tight",
+        "lemma": "tight",
+        "pos": "adj",
+        "ipa": "/taɪt/",
+        "es": "apretado/a, ajustado/a",
+        "example": "The jacket is too tight."
+      },
+      {
+        "id": "en-loose",
+        "lemma": "loose",
+        "pos": "adj",
+        "ipa": "/luːs/",
+        "es": "holgado/a, suelto/a",
+        "example": "These trousers are too loose."
+      },
+      {
+        "id": "en-i-ll-take-it",
+        "lemma": "I'll take it",
+        "pos": "phrase",
+        "ipa": "/aɪl teɪk ɪt/",
+        "es": "me lo llevo",
+        "example": "It's perfect. I'll take it."
+      }
+    ],
+    "audio_script_id": "en-a2-u11-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**En una tienda de ropa**\n\n- **Probarse:** *Can I try this on? · Where are the fitting rooms?*\n- **Tallas:** *What size are you? · I'm a medium / a large / a size 38. · Do you have this in a larger / smaller size?*\n- **Si queda bien:** *It fits me. · It doesn't fit. · It's too tight / too loose / too short / too long.*\n- **Decidir:** *I'll take it. · I'll think about it.*\n\n**fit vs suit vs match**\n\n- **fit** = de talla (*The shirt fits me.*)\n- **suit** = favorece, te queda bien de estilo (*Blue suits you.*)\n- **match** = combina (*These shoes match your bag.*)\n\n**Ojo, phrasal verb con pronombre:** *try on* se separa si hay pronombre: *Can I try **it** on?* (no *try on it*). Con sustantivo vale ambas: *try on the jacket / try the jacket on*.\n\n**Too + adjetivo (demasiado):** *It's too tight.* · **not … enough**: *It isn't big enough.*\n\nTallas: *S, M, L, XL* (small, medium, large, extra large).\n\nPronunciación: *size* /saɪz/ · *tight* /taɪt/ · *suit* /suːt/ (rima con *boot*).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Can I try on it?",
+        "right": "Can I try it on?",
+        "note": "El pronombre va en medio."
+      },
+      {
+        "wrong": "It's too much big.",
+        "right": "It's too big.",
+        "note": "Too ya significa demasiado."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u11-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres probarte una chaqueta:",
+      "options": [
+        "Can I try this jacket on?",
+        "Can I try on it?",
+        "I try the jacket.",
+        "Can I trying this jacket?"
+      ],
+      "answer": [
+        "Can I try this jacket on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try on es un phrasal verb: Can I try … on?",
+        "incorrect": "Revisa esto: Try on es un phrasal verb: Can I try … on?"
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 20,
+      "prompt": "La chaqueta te queda chica. Dices:",
+      "options": [
+        "It's too small. Do you have a larger size?",
+        "It's very bad.",
+        "I am small.",
+        "It is not good for to me."
+      ],
+      "answer": [
+        "It's too small. Do you have a larger size?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too + adjetivo y Do you have…?",
+        "incorrect": "Revisa esto: Too + adjetivo y Do you have…?"
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 20,
+      "prompt": "El azul te queda muy bien de color. La vendedora dice:",
+      "options": [
+        "Blue suits you.",
+        "Blue fits you.",
+        "Blue matches you.",
+        "Blue wears you."
+      ],
+      "answer": [
+        "Blue suits you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suit = favorece, queda bien de estilo.",
+        "incorrect": "Revisa esto: Suit = favorece, queda bien de estilo."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ are you? — I'm a medium.",
+      "answer": [
+        "size"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What size are you?",
+        "incorrect": "Revisa esto: What size are you?"
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ people are coming to the party?",
+      "answer": [
+        "many"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People es contable: how many.",
+        "incorrect": "Revisa esto: People es contable: how many."
+      },
+      "review_of": "en-a2-u04-l06-ex02"
+    },
+    {
+      "id": "en-a2-u11-l02-ex05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "The jacket is ___ tight. I need a bigger size. (demasiado)",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too + adjetivo.",
+        "incorrect": "Revisa esto: Too + adjetivo."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "These trousers don't ___ me. They're too long. (quedar de talla)",
+      "answer": [
+        "fit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fit = quedar de talla.",
+        "incorrect": "Revisa esto: Fit = quedar de talla."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I try on it?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con pronombre, el pronombre va en medio: try it on.",
+        "incorrect": "Revisa esto: Con pronombre, el pronombre va en medio: try it on."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's too much big.",
+      "answer": [
+        "It's too big."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too + adjetivo, sin much.",
+        "incorrect": "Revisa esto: Too + adjetivo, sin much."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "this",
+        "in",
+        "a",
+        "larger",
+        "size",
+        "?",
+        "Do",
+        "you"
+      ],
+      "answer": [
+        "Do",
+        "you",
+        "have",
+        "this",
+        "in",
+        "a",
+        "larger",
+        "size",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do you have + this + in a larger size.",
+        "incorrect": "Revisa esto: Do you have + this + in a larger size."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ the evening they're having dinner.",
+      "answer": [
+        "In"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con partes del día se usa in.",
+        "incorrect": "Revisa esto: Con partes del día se usa in."
+      },
+      "review_of": "en-a1-u10-l05-ex04"
+    },
+    {
+      "id": "en-a2-u11-l02-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona que responde?",
+      "options": [
+        "Mexico",
+        "Brazil",
+        "Spain",
+        "Italy"
+      ],
+      "answer": [
+        "Mexico"
+      ],
+      "audio_text": "Are you from Brazil? No, I'm not. I'm from Mexico.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I'm not. I'm from Mexico.'",
+        "incorrect": "Revisa esto: Responde 'No, I'm not. I'm from Mexico.'"
+      },
+      "audio_script_id": "en-a2-u11-l02-rv03-a",
+      "review_of": "en-a1-u02-l04-ex07"
+    },
+    {
+      "id": "en-a2-u11-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué talla pide el cliente al final?",
+      "options": [
+        "A large",
+        "A small",
+        "A medium",
+        "An extra large"
+      ],
+      "answer": [
+        "A large"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! La vendedora trae 'a large'.",
+        "incorrect": "Revisa esto: La vendedora trae 'a large'."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué quiere otra talla?",
+      "options": [
+        "It's too loose",
+        "It's too tight",
+        "It's too short",
+        "It's the wrong colour"
+      ],
+      "answer": [
+        "It's too loose"
+      ],
+      "audio_text": "The shirt looks nice, but it's too loose. Do you have it in a smaller size? — Yes, I'll get you a small one.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it's too loose'.",
+        "incorrect": "Revisa esto: Dice 'it's too loose'."
+      },
+      "audio_script_id": "en-a2-u11-l02-ex11-a"
+    },
+    {
+      "id": "en-a2-u11-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-vocabulary"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My phone is without battery.",
+      "answer": [
+        "My phone has no battery.",
+        "My phone is out of battery.",
+        "My phone has run out of battery."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés: has no battery / is out of battery.",
+        "incorrect": "Revisa esto: En inglés: has no battery / is out of battery."
+      },
+      "review_of": "en-a2-u09-l01-ex08"
+    },
+    {
+      "id": "en-a2-u11-l02-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Hello",
+          "right": "Hola"
+        },
+        {
+          "left": "Goodbye",
+          "right": "Adiós"
+        },
+        {
+          "left": "Nice to meet you",
+          "right": "Mucho gusto"
+        },
+        {
+          "left": "What's your name?",
+          "right": "¿Cómo te llamas?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las frases básicas de presentación.",
+        "incorrect": "Revisa esto: Son las frases básicas de presentación."
+      },
+      "review_of": "en-a1-u01-l01-ex04"
+    },
+    {
+      "id": "en-a2-u11-l02-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Tienen esto en una talla más grande?",
+      "answer": [
+        "Do you have this in a larger size?",
+        "Have you got this in a larger size?",
+        "Do you have this in a bigger size?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do you have … in a larger size?",
+        "incorrect": "Revisa esto: Do you have … in a larger size?"
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I play the football on Saturdays.",
+      "answer": [
+        "I play football on Saturdays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los deportes no llevan artículo.",
+        "incorrect": "Revisa esto: Los deportes no llevan artículo."
+      },
+      "review_of": "en-a1-u09-l01-ex05"
+    },
+    {
+      "id": "en-a2-u11-l02-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una tienda de ropa.",
+      "turns": [
+        {
+          "speaker": "Assistant",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. Can I try this jumper on? I'm a medium.",
+            "Yes. I want try on this jumper. I'm medium.",
+            "Yes. Try on it, please."
+          ],
+          "best": 0,
+          "why_es": "Can I try … on? + tu talla."
+        },
+        {
+          "speaker": "Assistant",
+          "text": "Of course. The fitting rooms are over there."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. It's too tight. Do you have a larger size?",
+            "Thanks. It is much tight. You have big?",
+            "It doesn't fits. Bigger?"
+          ],
+          "best": 0,
+          "why_es": "Too + adjetivo + Do you have…?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a2-u11-l02-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "carefully",
+        "but",
+        "slowly",
+        ".",
+        "He",
+        "drives"
+      ],
+      "answer": [
+        "He",
+        "drives",
+        "carefully",
+        "but",
+        "slowly",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo + adverbios de modo.",
+        "incorrect": "Revisa esto: Verbo + adverbios de modo."
+      },
+      "review_of": "en-a2-u10-l01-ex09"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Can I try this on? · Where are the fitting rooms?",
+      "What size are you? · I'm a medium.",
+      "It's too tight / loose. · It fits me. · It suits you.",
+      "Do you have this in a larger size?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-try-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-size"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fitting-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tight"
+    },
+    {
+      "type": "vocab",
+      "id": "en-loose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-ll-take-it"
+    },
+    {
+      "type": "grammar",
+      "id": "en-trying-on"
+    }
+  ]
+}

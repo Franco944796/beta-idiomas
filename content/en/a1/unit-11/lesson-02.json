@@ -1,0 +1,536 @@
+{
+  "id": "en-a1-u11-l02",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What's this?",
+    "es": "¿Qué es esto? Singular y plural"
+  },
+  "objective": "Al terminar preguntas y dices qué es un objeto con What's this?, What are these? y Is this your…?",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Alguien te muestra un objeto que no conoces: ¿cómo preguntas qué es y cómo respondes?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mia",
+        "text": "What's this?",
+        "es": "¿Qué es esto?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "It's a camera. It's my brother's.",
+        "es": "Es una cámara. Es de mi hermano."
+      },
+      {
+        "speaker": "Mia",
+        "text": "And what are these?",
+        "es": "¿Y qué son estos?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "They're headphones.",
+        "es": "Son auriculares."
+      },
+      {
+        "speaker": "Mia",
+        "text": "Is this your phone?",
+        "es": "¿Es este tu teléfono?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "No, it isn't. It's Anna's.",
+        "es": "No. Es de Anna."
+      },
+      {
+        "speaker": "Mia",
+        "text": "Are these your keys?",
+        "es": "¿Son estas tus llaves?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Yes, they are!",
+        "es": "¡Sí, son mis llaves!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-what-s-this",
+        "lemma": "what's this?",
+        "pos": "phrase",
+        "ipa": "/wɒts ðɪs/",
+        "es": "¿qué es esto?",
+        "example": "What's this?"
+      },
+      {
+        "id": "en-it-s",
+        "lemma": "it's",
+        "pos": "phrase",
+        "ipa": "/ɪts/",
+        "es": "es (it is)",
+        "example": "It's a camera."
+      },
+      {
+        "id": "en-they-re",
+        "lemma": "they're",
+        "pos": "phrase",
+        "ipa": "/ðeə/",
+        "es": "son (they are)",
+        "example": "They're headphones."
+      },
+      {
+        "id": "en-whose",
+        "lemma": "whose",
+        "pos": "pron",
+        "ipa": "/huːz/",
+        "es": "¿de quién?",
+        "example": "Whose bag is this?"
+      },
+      {
+        "id": "en-spell",
+        "lemma": "spell",
+        "pos": "verb",
+        "ipa": "/spel/",
+        "es": "deletrear",
+        "example": "How do you spell it?"
+      }
+    ],
+    "audio_script_id": "en-a1-u11-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Singular**\n\n- **What's this / that?** → **It's a / an** + objeto. *What's this? — It's a camera.*\n- **Is this / that your …?** → *Yes, it is.* / *No, it isn't.*\n\n**Plural**\n\n- **What are these / those?** → **They're** + objeto en plural. *What are these? — They're headphones.*\n- **Are these / those your …?** → *Yes, they are.* / *No, they aren't.*\n\n| | Cerca | Lejos |\n|---|---|---|\n| Singular | this | that |\n| Plural | these | those |\n\n**Plurales:** *-s* (pens) · *-es* tras s, sh, ch, x (glasses, watches, boxes) · *-ies* (baby → babies).\n\n**Pregunta práctica:** *How do you spell it?* → se deletrea letra por letra (el abecedario de la unidad 1).\n\nOjo: *What's this? — It's a camera* (no *This is a camera* como respuesta a la pregunta). *Headphones* es plural: *They're headphones.*\n\nPronunciación: *what's* /wɒts/ · *they're* /ðeə/ · *these* /ðiːz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "What is these?",
+        "right": "What are these?",
+        "note": "Con plural usa are."
+      },
+      {
+        "wrong": "It's a glasses.",
+        "right": "They're glasses.",
+        "note": "Glasses es plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l02-ex01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ this? It's a clock.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: What's this?",
+        "incorrect": "Revisa esto: Singular: What's this?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ these? They're keys.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: What are these?",
+        "incorrect": "Revisa esto: Plural: What are these?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ meet at seven.",
+      "answer": [
+        "Let's"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let's + verbo base.",
+        "incorrect": "Revisa esto: Let's + verbo base."
+      },
+      "review_of": "en-a1-u09-l05-ex02"
+    },
+    {
+      "id": "en-a1-u11-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 20,
+      "prompt": "Is this your phone? — No, it ___.",
+      "options": [
+        "isn't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": [
+        "isn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta negativa en singular: No, it isn't.",
+        "incorrect": "Revisa esto: Respuesta corta negativa en singular: No, it isn't."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 20,
+      "prompt": "Are these your glasses? — Yes, ___.",
+      "options": [
+        "they are",
+        "it is",
+        "we are",
+        "these are"
+      ],
+      "answer": [
+        "they are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: Yes, they are.",
+        "incorrect": "Revisa esto: Plural: Yes, they are."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 20,
+      "prompt": "Señalas unos zapatos lejos de ti. Preguntas:",
+      "options": [
+        "What are those?",
+        "What is those?",
+        "What's these?",
+        "What are that?"
+      ],
+      "answer": [
+        "What are those?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural y lejos: those.",
+        "incorrect": "Revisa esto: Plural y lejos: those."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What is these?",
+      "answer": [
+        "What are these?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: What are these?",
+        "incorrect": "Revisa esto: Plural: What are these?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's a headphones.",
+      "answer": [
+        "They're headphones.",
+        "They are headphones."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Headphones es plural: They're headphones.",
+        "incorrect": "Revisa esto: Headphones es plural: They're headphones."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "these",
+        "?",
+        "What",
+        "are"
+      ],
+      "answer": [
+        "What",
+        "are",
+        "these",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en plural.",
+        "incorrect": "Revisa esto: Pregunta en plural."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De quién es el teléfono, según el diálogo?",
+      "options": [
+        "Anna's",
+        "Tom's",
+        "Mia's",
+        "Tom's brother's"
+      ],
+      "answer": [
+        "Anna's"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Tom dice 'It's Anna's'.",
+        "incorrect": "Revisa esto: Tom dice 'It's Anna's'."
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-ex10",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es lo último que menciona?",
+      "options": [
+        "A watch",
+        "Glasses",
+        "A phone",
+        "A bag"
+      ],
+      "answer": [
+        "A watch"
+      ],
+      "audio_text": "—What are those? —They're my sister's glasses. —And what's this? —It's her watch.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'It's her watch'.",
+        "incorrect": "Revisa esto: Dice 'It's her watch'."
+      },
+      "audio_script_id": "en-a1-u11-l02-ex10-a"
+    },
+    {
+      "id": "en-a1-u11-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día debe ser ordinal: fifth.",
+        "incorrect": "Revisa esto: El día debe ser ordinal: fifth."
+      },
+      "review_of": "en-a1-u10-l03-ex05"
+    },
+    {
+      "id": "en-a1-u11-l02-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el correo?",
+      "options": [
+        "Opposite the station",
+        "Next to the station",
+        "Behind the station",
+        "Far from the station"
+      ],
+      "answer": [
+        "Opposite the station"
+      ],
+      "audio_text": "The post office is opposite the station.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'opposite the station'.",
+        "incorrect": "Revisa esto: Dice 'opposite the station'."
+      },
+      "audio_script_id": "en-a1-u11-l02-rv03-a",
+      "review_of": "en-a1-u07-l02-ex09"
+    },
+    {
+      "id": "en-a1-u11-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para planes se usa el presente continuo.",
+        "incorrect": "Revisa esto: Para planes se usa el presente continuo."
+      },
+      "review_of": "en-a1-u10-l04-ex05"
+    },
+    {
+      "id": "en-a1-u11-l02-ex11",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Qué es esto? Es una cámara.",
+      "answer": [
+        "What's this? It's a camera.",
+        "What is this? It's a camera.",
+        "What is this? It is a camera."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What's this? + It's a …",
+        "incorrect": "Revisa esto: What's this? + It's a …"
+      }
+    },
+    {
+      "id": "en-a1-u11-l02-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "My birthday is ___ the third of March.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con fechas completas se usa on.",
+        "incorrect": "Revisa esto: Con fechas completas se usa on."
+      },
+      "review_of": "en-a1-u10-l03-ex04"
+    },
+    {
+      "id": "en-a1-u11-l02-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ from Brazil.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa is.",
+        "incorrect": "Revisa esto: Con she se usa is."
+      },
+      "review_of": "en-a1-u10-l06-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What's this? — It's a camera.",
+      "What are these? — They're headphones.",
+      "Is this your phone? — Yes, it is. / No, it isn't.",
+      "this / that · these / those"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-what-s-this"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-s"
+    },
+    {
+      "type": "vocab",
+      "id": "en-they-re"
+    },
+    {
+      "type": "vocab",
+      "id": "en-whose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spell"
+    },
+    {
+      "type": "grammar",
+      "id": "en-whats-this"
+    }
+  ]
+}

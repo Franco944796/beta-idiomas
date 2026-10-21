@@ -1,0 +1,714 @@
+{
+  "id": "en-a2-u12-l04",
+  "language": "en",
+  "level": "A2",
+  "unit": 12,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Delays and problems",
+    "es": "Retrasos, cambios y problemas de viaje"
+  },
+  "objective": "Al terminar entiendes anuncios de retrasos y cancelaciones, explicas un problema de viaje y preguntas qué hacer.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El tren se retrasa, cambian el andén, perdiste la conexión: ¿cómo entiendes los anuncios y cómo pides ayuda?"
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Passenger",
+        "text": "Excuse me, the 10:15 to Leeds is delayed. What's happening?",
+        "es": "Disculpe, el tren de las 10:15 a Leeds está retrasado. ¿Qué pasa?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "I'm afraid there's a problem with the signals. It's delayed by thirty minutes.",
+        "es": "Lo siento, hay un problema con las señales. Está retrasado treinta minutos."
+      },
+      {
+        "speaker": "Passenger",
+        "text": "I was waiting on platform 2 when I heard that the platform changed.",
+        "es": "Estaba esperando en el andén 2 cuando oí que cambiaron el andén."
+      },
+      {
+        "speaker": "Clerk",
+        "text": "Yes, it's leaving from platform 5 now. You'll have to hurry.",
+        "es": "Sí, ahora sale del andén 5. Tendrá que apurarse."
+      },
+      {
+        "speaker": "Passenger",
+        "text": "I've missed my connection in Leeds. What should I do?",
+        "es": "Perdí mi conexión en Leeds. ¿Qué debería hacer?"
+      },
+      {
+        "speaker": "Clerk",
+        "text": "You can catch the next train. You don't have to buy a new ticket.",
+        "es": "Puede tomar el siguiente tren. No tiene que comprar otro billete."
+      },
+      {
+        "speaker": "Passenger",
+        "text": "That's a relief. Thank you for your help.",
+        "es": "Qué alivio. Gracias por su ayuda."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-delayed",
+        "lemma": "delayed",
+        "pos": "adj",
+        "ipa": "/dɪˈleɪd/",
+        "es": "retrasado/a",
+        "example": "The train is delayed."
+      },
+      {
+        "id": "en-cancelled",
+        "lemma": "cancelled",
+        "pos": "adj",
+        "ipa": "/ˈkænsld/",
+        "es": "cancelado/a",
+        "example": "The flight was cancelled."
+      },
+      {
+        "id": "en-signal",
+        "lemma": "signal",
+        "pos": "noun",
+        "ipa": "/ˈsɪɡnl/",
+        "es": "señal (ferroviaria)",
+        "example": "There's a problem with the signals."
+      },
+      {
+        "id": "en-connection",
+        "lemma": "connection",
+        "pos": "noun",
+        "ipa": "/kəˈnekʃn/",
+        "es": "conexión, combinación (de transporte)",
+        "example": "I've missed my connection."
+      },
+      {
+        "id": "en-platform-change",
+        "lemma": "platform change",
+        "pos": "noun",
+        "ipa": "/ˈplætfɔːm tʃeɪndʒ/",
+        "es": "cambio de andén",
+        "example": "There's a platform change."
+      },
+      {
+        "id": "en-announcement",
+        "lemma": "announcement",
+        "pos": "noun",
+        "ipa": "/əˈnaʊnsmənt/",
+        "es": "anuncio (por altavoz)",
+        "example": "Listen to the announcement."
+      },
+      {
+        "id": "en-a-relief",
+        "lemma": "a relief",
+        "pos": "noun",
+        "ipa": "/ə rɪˈliːf/",
+        "es": "un alivio",
+        "example": "That's a relief!"
+      },
+      {
+        "id": "en-apologise",
+        "lemma": "apologise",
+        "pos": "verb",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "es": "pedir disculpas",
+        "example": "We apologise for the delay."
+      }
+    ],
+    "audio_script_id": "en-a2-u12-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Anuncios típicos**\n\n- *The 10:15 to Leeds is **delayed** by thirty minutes.* (retrasado)\n- *The 11:30 to York has been **cancelled**.* (cancelado)\n- *The train is now leaving from **platform 5**.* (cambio de andén)\n- *We apologise for the delay.* (pedimos disculpas)\n\n**Explicar el problema:** *I missed my train. · My flight was cancelled. · I've lost my ticket. · I've missed my connection.*\n\n**Pedir ayuda:** *What should I do? · Can I get a refund? · Is there another train to …? · Could you help me, please?*\n\n**Soluciones:** *You can catch the next train. · You'll have to wait. · You'll have to hurry. · You don't have to buy a new ticket.*\n\n**Tiempos verbales que se mezclan:** pasado continuo (*I was waiting on platform 2 when …*), pasado simple (*I missed my train*), present perfect (*I've lost my ticket*), *will* para soluciones (*You'll have to wait*).\n\n**Ojo:** *delayed* (retrasado, para un transporte) ≠ *late* (tarde, para una persona): *The train is delayed. I'm late.*\n\nPronunciación: *delayed* /dɪˈleɪd/ · *cancelled* /ˈkænsld/ · *connection* /kəˈnekʃn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm delayed.",
+        "right": "I'm late.",
+        "note": "Delayed se usa para trenes, vuelos, etc."
+      },
+      {
+        "wrong": "I was wait.",
+        "right": "I was waiting.",
+        "note": "Pasado continuo: was + -ing."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a2-u12-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que el tren está retrasado:",
+      "options": [
+        "The train is delayed.",
+        "The train is late of time.",
+        "The train is retarded.",
+        "The train has delay."
+      ],
+      "answer": [
+        "The train is delayed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delayed = retrasado.",
+        "incorrect": "Revisa esto: Delayed = retrasado."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 20,
+      "prompt": "Perdiste el tren de combinación. Dices:",
+      "options": [
+        "I've missed my connection.",
+        "I miss my connection yesterday.",
+        "I lost my train.",
+        "My connection is lost."
+      ],
+      "answer": [
+        "I've missed my connection."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect para un problema reciente.",
+        "incorrect": "Revisa esto: Present perfect para un problema reciente."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres preguntar qué hacer:",
+      "options": [
+        "What should I do?",
+        "What I should do?",
+        "What do I should?",
+        "What should I to do?"
+      ],
+      "answer": [
+        "What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What should I do?",
+        "incorrect": "Revisa esto: What should I do?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "The 11:30 to York has been ___. (cancelado)",
+      "answer": [
+        "cancelled"
+      ],
+      "accepted_alternatives": [
+        "canceled"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cancelled = cancelado.",
+        "incorrect": "Revisa esto: Cancelled = cancelado."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 20,
+      "prompt": "'21 de junio' en inglés británico:",
+      "options": [
+        "the twenty-first of June",
+        "June twenty-one the",
+        "twenty-one of the June",
+        "the twenty-one June"
+      ],
+      "answer": [
+        "the twenty-first of June"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día va con ordinal y 'of' antes del mes.",
+        "incorrect": "Revisa esto: El día va con ordinal y 'of' antes del mes."
+      },
+      "review_of": "en-a1-u10-l03-ex03"
+    },
+    {
+      "id": "en-a2-u12-l04-ex05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ for the delay. (pedimos disculpas)",
+      "answer": [
+        "apologise"
+      ],
+      "accepted_alternatives": [
+        "apologize"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apologise = pedir disculpas.",
+        "incorrect": "Revisa esto: Apologise = pedir disculpas."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and I are teachers. ___ are from London.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Anna and I' = we.",
+        "incorrect": "Revisa esto: 'Anna and I' = we."
+      },
+      "review_of": "en-a1-u02-l06-ex04"
+    },
+    {
+      "id": "en-a2-u12-l04-ex06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ to hurry. The train is leaving. (tendrá que)",
+      "answer": [
+        "'ll have",
+        "will have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! You'll have to + verbo.",
+        "incorrect": "Revisa esto: You'll have to + verbo."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm delayed because of the traffic.",
+      "answer": [
+        "I'm late because of the traffic.",
+        "I am late because of the traffic."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delayed es para el transporte; para una persona: late.",
+        "incorrect": "Revisa esto: Delayed es para el transporte; para una persona: late."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was wait on platform 2 when it changed.",
+      "answer": [
+        "I was waiting on platform 2 when it changed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: was waiting.",
+        "incorrect": "Revisa esto: Pasado continuo: was waiting."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "my",
+        "connection",
+        "in",
+        "Leeds",
+        ".",
+        "I've",
+        "missed"
+      ],
+      "answer": [
+        "I've",
+        "missed",
+        "my",
+        "connection",
+        "in",
+        "Leeds",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect: have + participio.",
+        "incorrect": "Revisa esto: Present perfect: have + participio."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué tiene que hacer el pasajero con su billete?",
+      "options": [
+        "Nothing, he doesn't have to buy a new one",
+        "Buy a new ticket",
+        "Return the ticket",
+        "Pay an extra £10"
+      ],
+      "answer": [
+        "Nothing, he doesn't have to buy a new one"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! El empleado dice 'You don't have to buy a new ticket'.",
+        "incorrect": "Revisa esto: El empleado dice 'You don't have to buy a new ticket'."
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su opuesto.",
+      "pairs": [
+        {
+          "left": "quiet",
+          "right": "noisy"
+        },
+        {
+          "left": "clean",
+          "right": "dirty"
+        },
+        {
+          "left": "safe",
+          "right": "dangerous"
+        },
+        {
+          "left": "cheap",
+          "right": "expensive"
+        },
+        {
+          "left": "old",
+          "right": "new"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprenderlos en pares ayuda a recordarlos.",
+        "incorrect": "Revisa esto: Aprenderlos en pares ayuda a recordarlos."
+      },
+      "review_of": "en-a2-u03-l01-ex01"
+    },
+    {
+      "id": "en-a2-u12-l04-ex11",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué andén sale el siguiente tren?",
+      "options": [
+        "Platform three",
+        "Platform two",
+        "Platform fifteen",
+        "Platform fourteen"
+      ],
+      "answer": [
+        "Platform three"
+      ],
+      "audio_text": "Attention, please. The 14:20 to Manchester has been cancelled due to a signal problem. We apologise for the inconvenience. Passengers can catch the 15:00 train from platform three.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'from platform three'.",
+        "incorrect": "Revisa esto: Dice 'from platform three'."
+      },
+      "audio_script_id": "en-a2-u12-l04-ex11-a"
+    },
+    {
+      "id": "en-a2-u12-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ to work when it started to rain.",
+      "options": [
+        "was cycling",
+        "cycled",
+        "have cycled",
+        "cycle"
+      ],
+      "answer": [
+        "was cycling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acción larga interrumpida: pasado continuo.",
+        "incorrect": "Revisa esto: Acción larga interrumpida: pasado continuo."
+      },
+      "review_of": "en-a2-u09-l03-ex01"
+    },
+    {
+      "id": "en-a2-u12-l04-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family",
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica el padre?",
+      "options": [
+        "Driver",
+        "Doctor",
+        "Teacher",
+        "Waiter"
+      ],
+      "answer": [
+        "Driver"
+      ],
+      "audio_text": "This is my family. My mother is a doctor. My father is a driver.",
+      "feedback": {
+        "correct": "¡Correcto! El padre es 'a driver'.",
+        "incorrect": "Revisa esto: El padre es 'a driver'."
+      },
+      "audio_script_id": "en-a2-u12-l04-rv05-a",
+      "review_of": "en-a1-u03-l01-ex06"
+    },
+    {
+      "id": "en-a2-u12-l04-ex12",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Perdí mi tren. ¿Qué debería hacer?",
+      "answer": [
+        "I've missed my train. What should I do?",
+        "I missed my train. What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect o pasado + What should I do?",
+        "incorrect": "Revisa esto: Present perfect o pasado + What should I do?"
+      }
+    },
+    {
+      "id": "en-a2-u12-l04-rv06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada actividad con su significado.",
+      "pairs": [
+        {
+          "left": "play football",
+          "right": "jugar al fútbol"
+        },
+        {
+          "left": "listen to music",
+          "right": "escuchar música"
+        },
+        {
+          "left": "watch films",
+          "right": "mirar películas"
+        },
+        {
+          "left": "swim",
+          "right": "nadar"
+        },
+        {
+          "left": "cook",
+          "right": "cocinar"
+        },
+        {
+          "left": "read books",
+          "right": "leer libros"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los pasatiempos más comunes.",
+        "incorrect": "Revisa esto: Son los pasatiempos más comunes."
+      },
+      "review_of": "en-a1-u09-l01-ex01"
+    },
+    {
+      "id": "en-a2-u12-l04-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ a white T-shirt. (wear)",
+      "answer": [
+        "wears"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s: wears.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s: wears."
+      },
+      "review_of": "en-a1-u08-l03-ex02"
+    },
+    {
+      "id": "en-a2-u12-l04-ex13",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Tu tren fue cancelado y hablas con un empleado.",
+      "turns": [
+        {
+          "speaker": "Clerk",
+          "text": "Can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "My train has been cancelled. What should I do?",
+            "My train cancelled. What I should do?",
+            "Train no goes. Help me."
+          ],
+          "best": 0,
+          "why_es": "Describes el problema y preguntas What should I do?"
+        },
+        {
+          "speaker": "Clerk",
+          "text": "You can catch the next one. It leaves in twenty minutes."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Thank you. Which platform does it leave from?",
+            "Thanks. What platform leave?",
+            "Thank you. Platform which?"
+          ],
+          "best": 0,
+          "why_es": "Which platform does it leave from?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "The train is delayed / cancelled.",
+      "I've missed my connection. · What should I do?",
+      "You can catch the next one. · You'll have to wait.",
+      "We apologise for the delay."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-delayed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cancelled"
+    },
+    {
+      "type": "vocab",
+      "id": "en-signal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-connection"
+    },
+    {
+      "type": "vocab",
+      "id": "en-platform-change"
+    },
+    {
+      "type": "vocab",
+      "id": "en-announcement"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-relief"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apologise"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-problems"
+    }
+  ]
+}

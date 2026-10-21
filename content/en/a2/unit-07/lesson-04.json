@@ -11,7 +11,7 @@
     "es": "Una entrevista de trabajo"
   },
   "objective": "Al terminar respondes preguntas típicas de una entrevista de trabajo: tu experiencia, tus puntos fuertes y tu disponibilidad.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -288,6 +288,44 @@
       }
     },
     {
+      "id": "en-a2-u07-l04-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fíjate en la diferencia entre -teen y -ty.",
+        "incorrect": "Revisa esto: Fíjate en la diferencia entre -teen y -ty."
+      },
+      "review_of": "en-a1-u08-l01-ex01"
+    },
+    {
       "id": "en-a2-u07-l04-ex07",
       "type": "error_correction",
       "skill": "grammar",
@@ -358,6 +396,26 @@
       }
     },
     {
+      "id": "en-a2-u07-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "That are my keys.",
+      "answer": [
+        "Those are my keys."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural lejano: those.",
+        "incorrect": "Revisa esto: Plural lejano: those."
+      },
+      "review_of": "en-a1-u08-l04-ex06"
+    },
+    {
       "id": "en-a2-u07-l04-ex10",
       "type": "multiple_choice",
       "skill": "reading",
@@ -381,6 +439,100 @@
         "correct": "¡Correcto! Laura dice 'I love meeting people'.",
         "incorrect": "Revisa esto: Laura dice 'I love meeting people'."
       }
+    },
+    {
+      "id": "en-a2-u07-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la mejor frase para un plan ya decidido.",
+      "options": [
+        "We're going to travel to Italy in July.",
+        "We will might travel to Italy.",
+        "We travel to going Italy.",
+        "We'll to travel to Italy."
+      ],
+      "answer": [
+        "We're going to travel to Italy in July."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan decidido: be going to.",
+        "incorrect": "Revisa esto: Plan decidido: be going to."
+      },
+      "review_of": "en-a2-u05-l06-ex05"
+    },
+    {
+      "id": "en-a2-u07-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 25,
+      "prompt": "Will you help me? — Yes, I ___.",
+      "answer": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta afirmativa: Yes, I will.",
+        "incorrect": "Revisa esto: Respuesta corta afirmativa: Yes, I will."
+      },
+      "review_of": "en-a2-u05-l03-ex04"
+    },
+    {
+      "id": "en-a2-u07-l04-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío en la sala. Ofreces cerrar la ventana:",
+      "options": [
+        "I'll close the window.",
+        "I close the window.",
+        "I'm going to the window.",
+        "I will to close the window."
+      ],
+      "answer": [
+        "I'll close the window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + verbo.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + verbo."
+      },
+      "review_of": "en-a2-u05-l03-ex02"
+    },
+    {
+      "id": "en-a2-u07-l04-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 20,
+      "prompt": "En el trabajo, el uniforme es gratis y no es necesario comprarlo. Dices:",
+      "options": [
+        "I don't have to buy it.",
+        "I mustn't buy it.",
+        "I haven't to buy it.",
+        "I not must buy it."
+      ],
+      "answer": [
+        "I don't have to buy it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No es necesario = don't have to.",
+        "incorrect": "Revisa esto: No es necesario = don't have to."
+      },
+      "review_of": "en-a2-u06-l04-ex01"
     },
     {
       "id": "en-a2-u07-l04-ex11",
@@ -463,7 +615,7 @@
       ],
       "est_seconds": 180,
       "prompt": "Responde en 4 o 5 frases a la pregunta 'Can you tell me about yourself?' como si fuera una entrevista de trabajo.",
-      "min_words": 35,
+      "min_words": 31,
       "self_check_es": [
         "¿Dijiste tu nombre y tus estudios?",
         "¿Usaste el pasado simple para tu experiencia?",

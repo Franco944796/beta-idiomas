@@ -1,0 +1,612 @@
+{
+  "id": "en-a1-u11-l06",
+  "language": "en",
+  "level": "A1",
+  "unit": 11,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de A1"
+  },
+  "objective": "Al terminar demuestras el nivel A1: nombras objetos, usas artículos, localizas cosas, entiendes instrucciones y clasificas vocabulario.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint final de A1: junta objetos, artículos, lugares, instrucciones y los temas de todo el nivel."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: objetos cotidianos, What's this?, a / an / the, Where's…?, instrucciones y mensajes cortos.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 11**\n\n- *pen · notebook · keys · wallet · glasses (plural)*\n- *What's this? — It's a … · What are these? — They're …*\n- *a dog · the dog · I like music (sin artículo)*\n- *Where's my phone? · Where are my keys? · in · on · under · behind*\n- *Open your book. · Don't use your phone. · Can you repeat that, please?*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-a1-u11-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada palabra con su categoría.",
+      "categories": [
+        "Food",
+        "Transport",
+        "Activity",
+        "Colour"
+      ],
+      "items": [
+        {
+          "text": "apple",
+          "category": "Food"
+        },
+        {
+          "text": "bread",
+          "category": "Food"
+        },
+        {
+          "text": "bus",
+          "category": "Transport"
+        },
+        {
+          "text": "train",
+          "category": "Transport"
+        },
+        {
+          "text": "swimming",
+          "category": "Activity"
+        },
+        {
+          "text": "reading",
+          "category": "Activity"
+        },
+        {
+          "text": "red",
+          "category": "Colour"
+        },
+        {
+          "text": "blue",
+          "category": "Colour"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es el ejercicio clásico de clasificar vocabulario por categoría.",
+        "incorrect": "Revisa esto: Es el ejercicio clásico de clasificar vocabulario por categoría."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a cat. ___ cat is very big.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ these? They're glasses.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: What are these?",
+        "incorrect": "Revisa esto: Plural: What are these?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 25,
+      "prompt": "5th = ___",
+      "answer": [
+        "fifth"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Five cambia a fifth.",
+        "incorrect": "Revisa esto: Five cambia a fifth."
+      },
+      "review_of": "en-a1-u10-l03-ex02"
+    },
+    {
+      "id": "en-a1-u11-l06-ex04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ my keys? (están)",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keys es plural.",
+        "incorrect": "Revisa esto: Keys es plural."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "greetings"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo está Emma?",
+      "options": [
+        "Great",
+        "Fine",
+        "Not bad",
+        "Bad"
+      ],
+      "answer": [
+        "Great"
+      ],
+      "audio_text": "Good evening, Emma. How are you? I'm great, thanks. And you? Not bad, thank you.",
+      "feedback": {
+        "correct": "¡Correcto! Emma dice 'I'm great'.",
+        "incorrect": "Revisa esto: Emma dice 'I'm great'."
+      },
+      "audio_script_id": "en-a1-u11-l06-rv02-a",
+      "review_of": "en-a1-u01-l04-ex06"
+    },
+    {
+      "id": "en-a1-u11-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (work) in a shop.",
+      "answer": [
+        "works"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s."
+      },
+      "review_of": "en-a1-u10-l06-ex03"
+    },
+    {
+      "id": "en-a1-u11-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'otoño' en inglés británico?",
+      "options": [
+        "autumn",
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "answer": [
+        "autumn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, otoño = autumn.",
+        "incorrect": "Revisa esto: En inglés británico, otoño = autumn."
+      },
+      "review_of": "en-a1-u10-l02-ex04"
+    },
+    {
+      "id": "en-a1-u11-l06-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "I",
+        "get",
+        "to",
+        "the",
+        "station",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para pedir direcciones.",
+        "incorrect": "Revisa esto: Pregunta para pedir direcciones."
+      },
+      "review_of": "en-a1-u07-l06-ex07"
+    },
+    {
+      "id": "en-a1-u11-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 20,
+      "prompt": "I like ___ music. (en general)",
+      "options": [
+        "(no article)",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": [
+        "(no article)"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En general, sin artículo.",
+        "incorrect": "Revisa esto: En general, sin artículo."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber cómo se escribe una palabra:",
+      "options": [
+        "How do you spell it?",
+        "How is spell it?",
+        "Spell how?",
+        "How you spells?"
+      ],
+      "answer": [
+        "How do you spell it?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How do you spell …?",
+        "incorrect": "Revisa esto: How do you spell …?"
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to left at the corner.",
+      "answer": [
+        "Turn left at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa 'to' con left / right.",
+        "incorrect": "Revisa esto: No se usa 'to' con left / right."
+      },
+      "review_of": "en-a1-u07-l03-ex05"
+    },
+    {
+      "id": "en-a1-u11-l06-ex07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My glasses is on the table.",
+      "answer": [
+        "My glasses are on the table."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses es plural: are.",
+        "incorrect": "Revisa esto: Glasses es plural: are."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have the breakfast at eight.",
+      "answer": [
+        "I have breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo con las comidas.",
+        "incorrect": "Revisa esto: Sin artículo con las comidas."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO deben hacer?",
+      "options": [
+        "Use the phone",
+        "Sit down",
+        "Open the books",
+        "Write the name"
+      ],
+      "answer": [
+        "Use the phone"
+      ],
+      "audio_text": "Please sit down, open your books and write your name. Don't use your phone.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Don't use your phone'.",
+        "incorrect": "Revisa esto: Dice 'Don't use your phone'."
+      },
+      "audio_script_id": "en-a1-u11-l06-ex09-a"
+    },
+    {
+      "id": "en-a1-u11-l06-ex10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi teléfono está debajo del sofá.",
+      "answer": [
+        "My phone is under the sofa."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Under = debajo de.",
+        "incorrect": "Revisa esto: Under = debajo de."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex11",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "objects",
+        "articles-the"
+      ],
+      "est_seconds": 180,
+      "prompt": "Describe en 4 o 5 frases lo que hay en tu bolso o mochila y dónde está tu teléfono. Usa a / an / the y una preposición de lugar.",
+      "min_words": 20,
+      "self_check_es": [
+        "¿Nombraste varios objetos?",
+        "¿Usaste a / an para lo nuevo y the para lo ya mencionado?",
+        "¿Usaste in / on / under u otra preposición de lugar?",
+        "¿Usaste is / are correctamente?"
+      ],
+      "model_answer": "In my bag I've got a book, a pen and an umbrella. The book is new. My phone is in my pocket and my keys are on the table.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-ex12",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "where-objects",
+        "instructions-messages"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Pierdes algo y pides ayuda.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What's the matter?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I can't find my glasses. Where are they?",
+            "I no find glasses. Where is?",
+            "My glasses lost. Where is it?"
+          ],
+          "best": 0,
+          "why_es": "I can't find + Where are…?"
+        },
+        {
+          "speaker": "Friend",
+          "text": "They're on the table, next to your bag."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Oh, thank you! Can you repeat that, please? I don't understand 'next to'.",
+            "Thank. Repeat.",
+            "Oh, thanks. What?"
+          ],
+          "best": 0,
+          "why_es": "Agradeces y pides repetir con cortesía."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-a1-u11-l06-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío. ¿Cómo se dice?",
+      "options": [
+        "It's cold.",
+        "It makes cold.",
+        "Is cold.",
+        "It has cold."
+      ],
+      "answer": [
+        "It's cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa it + be + adjetivo.",
+        "incorrect": "Revisa esto: Se usa it + be + adjetivo."
+      },
+      "review_of": "en-a1-u10-l01-ex04"
+    },
+    {
+      "id": "en-a1-u11-l06-rv08",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "clothes",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada prenda.",
+      "categories": [
+        "Top",
+        "Bottom",
+        "Feet and head"
+      ],
+      "items": [
+        {
+          "text": "shirt",
+          "category": "Top"
+        },
+        {
+          "text": "T-shirt",
+          "category": "Top"
+        },
+        {
+          "text": "jacket",
+          "category": "Top"
+        },
+        {
+          "text": "coat",
+          "category": "Top"
+        },
+        {
+          "text": "trousers",
+          "category": "Bottom"
+        },
+        {
+          "text": "jeans",
+          "category": "Bottom"
+        },
+        {
+          "text": "skirt",
+          "category": "Bottom"
+        },
+        {
+          "text": "shoes",
+          "category": "Feet and head"
+        },
+        {
+          "text": "socks",
+          "category": "Feet and head"
+        },
+        {
+          "text": "hat",
+          "category": "Feet and head"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar la ropa por zona del cuerpo ayuda a recordarla.",
+        "incorrect": "Revisa esto: Clasificar la ropa por zona del cuerpo ayuda a recordarla."
+      },
+      "review_of": "en-a1-u08-l03-ex11"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "pen · notebook · keys · glasses",
+      "What's this? — It's a …",
+      "a dog · the dog · I like music",
+      "Where are my keys? · Sit down. · Can you repeat that?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-whats-this"
+    },
+    {
+      "type": "grammar",
+      "id": "en-articles-the"
+    },
+    {
+      "type": "grammar",
+      "id": "en-where-objects"
+    },
+    {
+      "type": "grammar",
+      "id": "en-classroom-instructions"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

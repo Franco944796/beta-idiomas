@@ -11,7 +11,7 @@
     "es": "Cómo llegar: direcciones"
   },
   "objective": "Al terminar pides y das direcciones para llegar a un lugar.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -241,6 +241,26 @@
       }
     },
     {
+      "id": "en-a1-u07-l03-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me gusta el pescado.",
+      "answer": [
+        "I like fish."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo y con 'I' como sujeto.",
+        "incorrect": "Revisa esto: Sin artículo y con 'I' como sujeto."
+      },
+      "review_of": "en-a1-u05-l03-ex06"
+    },
+    {
       "id": "en-a1-u07-l03-ex05",
       "type": "error_correction",
       "skill": "grammar",
@@ -341,6 +361,50 @@
       }
     },
     {
+      "id": "en-a1-u07-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 20,
+      "prompt": "'La hermana de Tom' en inglés:",
+      "options": [
+        "Tom's sister",
+        "The Tom sister",
+        "Sister of Tom's",
+        "Toms sister"
+      ],
+      "answer": [
+        "Tom's sister"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dueño + 's + persona.",
+        "incorrect": "Revisa esto: Dueño + 's + persona."
+      },
+      "review_of": "en-a1-u03-l06-ex04"
+    },
+    {
+      "id": "en-a1-u07-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's quarter ___ five. (4:45)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de y media se usa 'to': quarter to five.",
+        "incorrect": "Revisa esto: Después de y media se usa 'to': quarter to five."
+      },
+      "review_of": "en-a1-u04-l02-ex03"
+    },
+    {
       "id": "en-a1-u07-l03-ex09",
       "type": "roleplay",
       "skill": "speaking",
@@ -384,6 +448,60 @@
         "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
         "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
       }
+    },
+    {
+      "id": "en-a1-u07-l03-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO le gusta a la persona?",
+      "options": [
+        "Chicken",
+        "Fish",
+        "Rice",
+        "Milk"
+      ],
+      "answer": [
+        "Chicken"
+      ],
+      "audio_text": "I love fish, but I don't like chicken.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I don't like chicken'.",
+        "incorrect": "Revisa esto: Dice 'I don't like chicken'."
+      },
+      "audio_script_id": "en-a1-u07-l03-rv04-a",
+      "review_of": "en-a1-u05-l06-ex08"
+    },
+    {
+      "id": "en-a1-u07-l03-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el teléfono?",
+      "options": [
+        "On the table",
+        "Under the table",
+        "In the bag",
+        "Behind the lamp"
+      ],
+      "answer": [
+        "On the table"
+      ],
+      "audio_text": "The phone is on the table, next to the lamp.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on the table'.",
+        "incorrect": "Revisa esto: Dice 'on the table'."
+      },
+      "audio_script_id": "en-a1-u07-l03-rv05-a",
+      "review_of": "en-a1-u06-l03-ex08"
     }
   ],
   "summary": {

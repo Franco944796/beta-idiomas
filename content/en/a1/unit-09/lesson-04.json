@@ -11,7 +11,7 @@
     "es": "Presente continuo"
   },
   "objective": "Al terminar dices qué estás haciendo ahora con el presente continuo.",
-  "est_minutes": 25,
+  "est_minutes": 28,
   "skills": [
     "grammar",
     "listening",
@@ -142,6 +142,45 @@
       }
     },
     {
+      "id": "en-a1-u09-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the sandwich?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: How much is…?",
+        "incorrect": "Revisa esto: Singular: How much is…?"
+      },
+      "review_of": "en-a1-u08-l02-ex01"
+    },
+    {
+      "id": "en-a1-u09-l04-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy al trabajo en autobús.",
+      "answer": [
+        "I go to work by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En autobús = by bus.",
+        "incorrect": "Revisa esto: En autobús = by bus."
+      },
+      "review_of": "en-a1-u07-l04-ex10"
+    },
+    {
       "id": "en-a1-u09-l04-ex03",
       "type": "fill_blank",
       "skill": "grammar",
@@ -199,6 +238,51 @@
       }
     },
     {
+      "id": "en-a1-u09-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ the park. (enfrente de)",
+      "options": [
+        "opposite",
+        "behind",
+        "under",
+        "between"
+      ],
+      "answer": [
+        "opposite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enfrente de = opposite.",
+        "incorrect": "Revisa esto: Enfrente de = opposite."
+      },
+      "review_of": "en-a1-u07-l02-ex02"
+    },
+    {
+      "id": "en-a1-u09-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ got a sister.",
+      "answer": [
+        "have",
+        "'ve"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I: have got (I've got).",
+        "incorrect": "Revisa esto: Con I: have got (I've got)."
+      },
+      "review_of": "en-a1-u03-l04-ex01"
+    },
+    {
       "id": "en-a1-u09-l04-ex06",
       "type": "error_correction",
       "skill": "grammar",
@@ -241,6 +325,37 @@
         "correct": "¡Correcto! Para 'ahora': be + verbo-ing.",
         "incorrect": "Revisa esto: Para 'ahora': be + verbo-ing."
       }
+    },
+    {
+      "id": "en-a1-u09-l04-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "fish",
+        "?",
+        "Do",
+        "you"
+      ],
+      "answer": [
+        "Do",
+        "you",
+        "like",
+        "fish",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do + sujeto + like + comida.",
+        "incorrect": "Revisa esto: Do + sujeto + like + comida."
+      },
+      "review_of": "en-a1-u05-l03-ex03"
     },
     {
       "id": "en-a1-u09-l04-ex08",
