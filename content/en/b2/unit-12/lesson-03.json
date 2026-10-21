@@ -1,0 +1,934 @@
+{
+  "id": "en-b2-u12-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Make, do, take, get",
+    "es": "Colocaciones con verbos comunes"
+  },
+  "objective": "Al terminar usas con naturalidad las colocaciones con make, do, take y get (make a decision, do research, take a risk, get in touch).",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El inglés elige el verbo según el sustantivo: se dice 'make a mistake' pero 'do homework'. Aprender colocaciones completas evita errores y suena natural."
+  },
+  "input": {
+    "type": "text",
+    "text": "My first year abroad\n\nWhen I moved to Dublin to study, I made a lot of mistakes. I made an effort to speak English all day, but I often made the wrong choice of words. I did my best to take part in class, although at first I took it for granted that everyone would understand my accent.\n\nBefore leaving, I had done some research and made a list of things to do. I took a risk by choosing a small flat far from the centre, but it paid off: I made friends with my flatmates, who helped me get used to the city. We took turns cooking and doing the washing-up.\n\nAfter a few months, I got the impression that I was making progress. I took an exam, got a good mark and decided to take advantage of every opportunity. I got in touch with a local company and did voluntary work at weekends. It did me good: I took responsibility for small tasks and got to know the community.\n\nLooking back, I would not take back a single decision. Moving away was hard, but it made all the difference.",
+    "es": "Mi primer año en el extranjero. Cuando me mudé a Dublín para estudiar, cometí muchos errores. Hice un esfuerzo por hablar inglés todo el día, pero a menudo elegí mal las palabras. Hice todo lo posible por participar en clase, aunque al principio daba por sentado que todos entenderían mi acento. Antes de irme, había investigado un poco y había hecho una lista de cosas por hacer. Me arriesgué eligiendo un piso pequeño lejos del centro, pero valió la pena: hice amigos con mis compañeros de piso, que me ayudaron a acostumbrarme a la ciudad. Nos turnábamos para cocinar y fregar los platos. Tras unos meses, tuve la impresión de que estaba progresando. Hice un examen, saqué buena nota y decidí aprovechar todas las oportunidades. Me puse en contacto con una empresa local e hice trabajo voluntario los fines de semana. Me hizo bien: asumí la responsabilidad de pequeñas tareas y llegué a conocer la comunidad. Mirando atrás, no retiraría ni una sola decisión. Mudarme fue difícil, pero marcó la diferencia.",
+    "glossary": [
+      {
+        "id": "en-make-a-mistake",
+        "lemma": "make a mistake",
+        "pos": "collocation",
+        "ipa": "/meɪk ə mɪˈsteɪk/",
+        "es": "cometer un error",
+        "example": "Make a mistake."
+      },
+      {
+        "id": "en-make-an-effort",
+        "lemma": "make an effort",
+        "pos": "collocation",
+        "ipa": "/meɪk ən ˈefət/",
+        "es": "hacer un esfuerzo",
+        "example": "Make an effort."
+      },
+      {
+        "id": "en-do-your-best",
+        "lemma": "do your best",
+        "pos": "collocation",
+        "ipa": "/duː jɔː best/",
+        "es": "hacer lo posible",
+        "example": "Do your best."
+      },
+      {
+        "id": "en-take-part-in",
+        "lemma": "take part in",
+        "pos": "collocation",
+        "ipa": "/teɪk pɑːt ɪn/",
+        "es": "participar en",
+        "example": "Take part in class."
+      },
+      {
+        "id": "en-take-for-granted",
+        "lemma": "take for granted",
+        "pos": "collocation",
+        "ipa": "/teɪk fə ˈɡrɑːntɪd/",
+        "es": "dar por sentado",
+        "example": "Take it for granted."
+      },
+      {
+        "id": "en-do-research",
+        "lemma": "do research",
+        "pos": "collocation",
+        "ipa": "/duː rɪˈsɜːtʃ/",
+        "es": "investigar",
+        "example": "Do some research."
+      },
+      {
+        "id": "en-take-a-risk",
+        "lemma": "take a risk",
+        "pos": "collocation",
+        "ipa": "/teɪk ə rɪsk/",
+        "es": "arriesgarse",
+        "example": "Take a risk."
+      },
+      {
+        "id": "en-get-used-to",
+        "lemma": "get used to",
+        "pos": "collocation",
+        "ipa": "/ɡet juːst tə/",
+        "es": "acostumbrarse a",
+        "example": "Get used to it."
+      },
+      {
+        "id": "en-take-turns",
+        "lemma": "take turns",
+        "pos": "collocation",
+        "ipa": "/teɪk tɜːnz/",
+        "es": "turnarse",
+        "example": "Take turns."
+      },
+      {
+        "id": "en-get-in-touch",
+        "lemma": "get in touch",
+        "pos": "collocation",
+        "ipa": "/ɡet ɪn tʌtʃ/",
+        "es": "ponerse en contacto",
+        "example": "Get in touch."
+      },
+      {
+        "id": "en-take-advantage-of",
+        "lemma": "take advantage of",
+        "pos": "collocation",
+        "ipa": "/teɪk ədˈvɑːntɪdʒ əv/",
+        "es": "aprovechar",
+        "example": "Take advantage of."
+      },
+      {
+        "id": "en-make-a-difference",
+        "lemma": "make a difference",
+        "pos": "collocation",
+        "ipa": "/meɪk ə ˈdɪfrəns/",
+        "es": "marcar la diferencia",
+        "example": "Make a difference."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Colocaciones con make, do, take y get**\n\n| Verbo | Idea general | Colocaciones |\n|---|---|---|\n| **make** | crear, producir, decidir | *make a decision / a mistake / an effort / progress / a suggestion / a living / money / friends / a difference / a point / a complaint* |\n| **do** | actividades, tareas, trabajo | *do homework / research / the washing-up / business / damage / harm / good / your best / a favour / an exam (examinarse)* |\n| **take** | acciones, tiempo, riesgos | *take a risk / advantage / part / place / turns / responsibility / a break / notice / into account / for granted / a photo* |\n| **get** | recibir, llegar a ser | *get in touch / used to / the impression / a mark / ready / lost / a job / better / to know someone / a result* |\n\n**Contrastes importantes**\n\n- *Make an exam* (✘ crear un examen) vs *take / sit an exam* (hacer un examen) y *do an exam* (informal).\n- *Make a photo* (✘) → *take a photo*.\n- *Do a mistake* (✘) → *make a mistake*.\n- *Make homework* (✘) → *do homework*.\n- *Make a favour* (✘) → *do someone a favour*.\n- *Take / have a shower* (✔) pero *make a shower* (✘).\n\n**Make vs do**\n\n- **Make** → resultado visible, algo creado: *make a cake, make a plan, make a noise, make a decision.*\n- **Do** → actividad, tarea, no necesariamente resultado: *do the housework, do research, do your best.*\n\n**Take vs get**\n\n- **Take** → acción deliberada, tiempo, medio: *take the bus, take 20 minutes, take a decision (UK: make).*\n- **Get** → cambio de estado o recibir: *get angry, get a letter, get the train.*\n\n**Expresiones fijas**\n\n- *It makes sense. · It doesn't make any difference. · Make sure you lock the door. · Make up your mind. · Do me a favour. · It did me good. · Take it easy. · Take care. · Get over it. · Get along with.*\n\n**Errores típicos**\n\n- ✘ *I did a mistake in the test.* → ✔ *I made a mistake in the test.*\n- ✘ *She makes her homework after school.* → ✔ *She does her homework after school.*\n- ✘ *We made a photo of the group.* → ✔ *We took a photo of the group.*\n- ✘ *Can you make me a favour?* → ✔ *Can you do me a favour?*\n- ✘ *He made an exam yesterday.* → ✔ *He took an exam yesterday.*\n\n**Ojo:** en *take part in*, la preposición es *in*, no *of*. *Take into account* = tener en cuenta. *Take for granted* = dar por sentado.\n\nPronunciación: *research* /rɪˈsɜːtʃ/ (nombre, acento en la 2.ª) · *advantage* /ədˈvɑːntɪdʒ/ · *responsibility* /rɪˌspɒnsəˈbɪləti/ · *mistake* /mɪˈsteɪk/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "did a mistake",
+        "right": "made a mistake",
+        "note": "Make a mistake."
+      },
+      {
+        "wrong": "make a favour",
+        "right": "do a favour",
+        "note": "Do a favour."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué se mudó la narradora a Dublín?",
+      "options": [
+        "Para estudiar",
+        "Para trabajar de camarera",
+        "Para jubilarse",
+        "Por vacaciones"
+      ],
+      "answer": [
+        "Para estudiar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: moved to Dublin to study.",
+        "incorrect": "Revisa esto: Dice: moved to Dublin to study."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué riesgo asumió?",
+      "options": [
+        "Eligió un piso pequeño lejos del centro",
+        "Cambió de carrera",
+        "Se compró un coche",
+        "Viajó sola a Asia"
+      ],
+      "answer": [
+        "Eligió un piso pequeño lejos del centro"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a small flat far from the centre.",
+        "incorrect": "Revisa esto: Dice: a small flat far from the centre."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo los fines de semana?",
+      "options": [
+        "Trabajo voluntario",
+        "Fiestas",
+        "Deporte profesional",
+        "Cursos de cocina"
+      ],
+      "answer": [
+        "Trabajo voluntario"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: voluntary work at weekends.",
+        "incorrect": "Revisa esto: Dice: voluntary work at weekends."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "La narradora se arrepiente de cada decisión que tomó.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: would not take back a single decision.",
+        "incorrect": "Revisa esto: Dice: would not take back a single decision."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm sorry, I ___ a mistake in the report.",
+      "options": [
+        "made",
+        "did",
+        "took",
+        "got"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a mistake.",
+        "incorrect": "Revisa esto: Make a mistake."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ her homework every afternoon.",
+      "options": [
+        "does",
+        "makes",
+        "takes",
+        "gets"
+      ],
+      "answer": [
+        "does"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do homework.",
+        "incorrect": "Revisa esto: Do homework."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "No sooner had we arrived ___ it started to rain.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "then"
+      ],
+      "answer": [
+        "than"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No sooner … than.",
+        "incorrect": "Revisa esto: No sooner … than."
+      },
+      "review_of": "en-b2-u06-l02-ex08"
+    },
+    {
+      "id": "en-b2-u12-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me a favour?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a favour.",
+        "incorrect": "Revisa esto: Do a favour."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ___ some photos of the sunset.",
+      "options": [
+        "took",
+        "made",
+        "did",
+        "got"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take a photo.",
+        "incorrect": "Revisa esto: Take a photo."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's going to ___ an exam next week.",
+      "options": [
+        "take",
+        "make",
+        "do up",
+        "get up"
+      ],
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take an exam.",
+        "incorrect": "Revisa esto: Take an exam."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It took me months to ___ used to the climate.",
+      "options": [
+        "get",
+        "make",
+        "do",
+        "take"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get used to.",
+        "incorrect": "Revisa esto: Get used to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "You should ___ advantage of this offer.",
+      "options": [
+        "take",
+        "make",
+        "do",
+        "give"
+      ],
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take advantage of.",
+        "incorrect": "Revisa esto: Take advantage of."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to ___ up my mind about the job.",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "make"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make up your mind.",
+        "incorrect": "Revisa esto: Make up your mind."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un cartel dice que no se puede fumar. Dices:",
+      "options": [
+        "You mustn't smoke here.",
+        "You don't have to smoke here.",
+        "You haven't smoke here.",
+        "You mustn't to smoke here."
+      ],
+      "answer": [
+        "You mustn't smoke here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibido = mustn't.",
+        "incorrect": "Revisa esto: Prohibido = mustn't."
+      },
+      "review_of": "en-a2-u06-l04-ex02"
+    },
+    {
+      "id": "en-b2-u12-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We have to ___ the weather into account.",
+      "options": [
+        "take",
+        "make",
+        "do",
+        "set"
+      ],
+      "answer": [
+        "take"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take into account.",
+        "incorrect": "Revisa esto: Take into account."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Everyone ___ part in the discussion.",
+      "options": [
+        "took",
+        "made",
+        "did",
+        "had"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take part.",
+        "incorrect": "Revisa esto: Take part."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex15",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It doesn't ___ any difference to me.",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "make"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a difference.",
+        "incorrect": "Revisa esto: Make a difference."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "Please ___ sure you lock the door when you leave. (asegúrate)",
+      "answer": [
+        "make"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make sure.",
+        "incorrect": "Revisa esto: Make sure."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "in",
+        "a",
+        "small",
+        "hotel",
+        ".",
+        "They're",
+        "staying"
+      ],
+      "answer": [
+        "They're",
+        "staying",
+        "in",
+        "a",
+        "small",
+        "hotel",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + be + staying + lugar.",
+        "incorrect": "Revisa esto: Sujeto + be + staying + lugar."
+      },
+      "review_of": "en-a1-u10-l05-ex07"
+    },
+    {
+      "id": "en-b2-u12-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escuchas: 'A, double N, A'. ¿Qué nombre es?",
+      "options": [
+        "Anna",
+        "Ana",
+        "Ann",
+        "Anne"
+      ],
+      "answer": [
+        "Anna"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Double N' significa dos N seguidas: A-N-N-A.",
+        "incorrect": "Revisa esto: 'Double N' significa dos N seguidas: A-N-N-A."
+      },
+      "review_of": "en-a1-u01-l02-ex06"
+    },
+    {
+      "id": "en-b2-u12-l03-ex17",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The company has ___ a lot of damage to the environment. (hecho)",
+      "answer": [
+        "done"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do damage.",
+        "incorrect": "Revisa esto: Do damage."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "write-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is better in a story?",
+      "options": [
+        "The sun was rising over the clouds, and the whole island looked golden.",
+        "The sun is good.",
+        "Island and sun.",
+        "It was nice."
+      ],
+      "answer": [
+        "The sun was rising over the clouds, and the whole island looked golden."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Descripción con detalles.",
+        "incorrect": "Revisa esto: Descripción con detalles."
+      },
+      "review_of": "en-b1-u12-l05-ex11"
+    },
+    {
+      "id": "en-b2-u12-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I did a big mistake in the exam.",
+      "answer": [
+        "I made a big mistake in the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a mistake.",
+        "incorrect": "Revisa esto: Make a mistake."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have the breakfast at eight.",
+      "answer": [
+        "I have breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas habituales no se usa artículo.",
+        "incorrect": "Revisa esto: Con las comidas habituales no se usa artículo."
+      },
+      "review_of": "en-a1-u11-l03-ex07"
+    },
+    {
+      "id": "en-b2-u12-l03-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Then, I woked up late.",
+      "answer": [
+        "I woke up late.",
+        "Then I woke up late.",
+        "Then, I woke up late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wake up es irregular: woke up.",
+        "incorrect": "Revisa esto: Wake up es irregular: woke up."
+      },
+      "review_of": "en-a2-u01-l05-ex05"
+    },
+    {
+      "id": "en-b2-u12-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She makes her homework before dinner.",
+      "answer": [
+        "She does her homework before dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do homework.",
+        "incorrect": "Revisa esto: Do homework."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can you make me a favour, please?",
+      "answer": [
+        "Can you do me a favour, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a favour.",
+        "incorrect": "Revisa esto: Do a favour."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We made a lot of photos on holiday.",
+      "answer": [
+        "We took a lot of photos on holiday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take photos.",
+        "incorrect": "Revisa esto: Take photos."
+      }
+    },
+    {
+      "id": "en-b2-u12-l03-rv08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to ___ the assumption that free tuition is affordable.",
+      "options": [
+        "challenge",
+        "agree",
+        "support",
+        "ignore"
+      ],
+      "answer": [
+        "challenge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Challenge.",
+        "incorrect": "Revisa esto: Challenge."
+      },
+      "review_of": "en-b2-u08-l04-ex06"
+    },
+    {
+      "id": "en-b2-u12-l03-ex22",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hará si la oferta no parece seria?",
+      "options": [
+        "Contactar con otra empresa",
+        "Aceptarla igual",
+        "Renunciar",
+        "Comprar una casa"
+      ],
+      "answer": [
+        "Contactar con otra empresa"
+      ],
+      "audio_text": "I'd like to do some research before making a decision. I don't want to take any unnecessary risks. If I get the impression that the offer is not serious, I'll get in touch with another company.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: get in touch with another company.",
+        "incorrect": "Revisa esto: Dice: get in touch with another company."
+      },
+      "audio_script_id": "en-b2-u12-l03-ex22-a"
+    },
+    {
+      "id": "en-b2-u12-l03-rv09",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "cultural-differences"
+      ],
+      "est_seconds": 15,
+      "prompt": "En el país de Pete interrumpir se considera señal de respeto.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es señal de falta de respeto.",
+        "incorrect": "Revisa esto: Es señal de falta de respeto."
+      },
+      "review_of": "en-b2-u06-l04-ex04"
+    },
+    {
+      "id": "en-b2-u12-l03-ex23",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Hice un esfuerzo, cometí pocos errores y aproveché cada oportunidad.",
+      "answer": [
+        "I made an effort, made few mistakes and took advantage of every opportunity.",
+        "I made an effort, I made few mistakes and I took advantage of every opportunity."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Collocations.",
+        "incorrect": "Revisa esto: Collocations."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "make a mistake / do homework",
+      "take a photo / take part in",
+      "get in touch / get used to",
+      "do someone a favour"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-make-a-mistake"
+    },
+    {
+      "type": "vocab",
+      "id": "en-make-an-effort"
+    },
+    {
+      "type": "vocab",
+      "id": "en-do-your-best"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-part-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-for-granted"
+    },
+    {
+      "type": "vocab",
+      "id": "en-do-research"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-a-risk"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-turns"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-in-touch"
+    },
+    {
+      "type": "grammar",
+      "id": "en-collocations-b2"
+    }
+  ]
+}

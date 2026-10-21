@@ -1,0 +1,905 @@
+{
+  "id": "en-b2-u13-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 13,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Adventure and risk",
+    "es": "Aventura, riesgo y superación"
+  },
+  "objective": "Al terminar hablas de aventura, riesgo y límites personales con vocabulario B2 y entiendes un texto sobre una expedición.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Las historias de aventura plantean una pregunta: ¿por qué arriesgamos? Aprendes el vocabulario para describir expediciones, peligros, miedo y emoción, y para dar tu opinión sobre el riesgo."
+  },
+  "input": {
+    "type": "text",
+    "text": "Why do people take risks?\n\nIn 2019, Clara Vidal, a 34-year-old nurse from Bilbao, became one of the few women to reach the summit of Aconcagua alone. The expedition lasted twelve days and she faced violent winds, extreme cold and altitude sickness. At 6,500 metres she came close to turning back.\n\n'I was exhausted and frightened,' she recalls. 'But I had prepared carefully. I had checked the weather, packed the right equipment and told my family my route. The risk was real, but it was calculated.'\n\nPsychologists distinguish between reckless behaviour, which ignores danger, and daring but cautious behaviour, which accepts danger after careful preparation. Thrill-seekers, they say, are often driven by the rush of adrenaline, but also by a wish to push their limits and step out of their comfort zone.\n\nNot everyone approves. Critics argue that adventurers put rescuers' lives at risk and that extreme sports encourage a dangerous culture of showing off. Supporters reply that taking risks builds resilience and a sense of purpose, and that life without any risk is not worth living.\n\nClara has no regrets. 'The summit lasted ten minutes,' she says. 'What stays with you is the person you become on the way up.'",
+    "es": "¿Por qué la gente asume riesgos? En 2019, Clara Vidal, enfermera de 34 años de Bilbao, se convirtió en una de las pocas mujeres en alcanzar sola la cima del Aconcagua. La expedición duró doce días y se enfrentó a vientos violentos, frío extremo y mal de altura. A 6.500 metros estuvo cerca de dar la vuelta. 'Estaba agotada y asustada', recuerda. 'Pero me había preparado con cuidado. Había comprobado el tiempo, había empacado el equipo adecuado y había comunicado mi ruta a mi familia. El riesgo era real, pero estaba calculado.' Los psicólogos distinguen entre el comportamiento temerario, que ignora el peligro, y el comportamiento audaz pero cauto, que acepta el peligro tras una preparación cuidadosa. Los buscadores de emociones, dicen, suelen moverse por la descarga de adrenalina, pero también por el deseo de superar sus límites y salir de su zona de confort. No todos lo aprueban. Los críticos sostienen que los aventureros ponen en peligro la vida de los rescatadores y que los deportes extremos fomentan una peligrosa cultura de presumir. Los defensores responden que asumir riesgos genera resiliencia y sentido de propósito, y que una vida sin ningún riesgo no merece la pena. Clara no se arrepiente. 'La cima duró diez minutos', dice. 'Lo que te queda es la persona en la que te conviertes durante la subida.'",
+    "glossary": [
+      {
+        "id": "en-expedition",
+        "lemma": "expedition",
+        "pos": "noun",
+        "ipa": "/ˌekspəˈdɪʃn/",
+        "es": "expedición",
+        "example": "A twelve-day expedition."
+      },
+      {
+        "id": "en-summit",
+        "lemma": "summit",
+        "pos": "noun",
+        "ipa": "/ˈsʌmɪt/",
+        "es": "cima",
+        "example": "Reach the summit."
+      },
+      {
+        "id": "en-altitude-sickness",
+        "lemma": "altitude sickness",
+        "pos": "noun",
+        "ipa": "/ˈæltɪtjuːd ˈsɪknəs/",
+        "es": "mal de altura",
+        "example": "Altitude sickness."
+      },
+      {
+        "id": "en-calculated-risk",
+        "lemma": "calculated risk",
+        "pos": "noun",
+        "ipa": "/ˈkælkjuleɪtɪd rɪsk/",
+        "es": "riesgo calculado",
+        "example": "A calculated risk."
+      },
+      {
+        "id": "en-reckless",
+        "lemma": "reckless",
+        "pos": "adj",
+        "ipa": "/ˈrekləs/",
+        "es": "temerario",
+        "example": "Reckless behaviour."
+      },
+      {
+        "id": "en-daring",
+        "lemma": "daring",
+        "pos": "adj",
+        "ipa": "/ˈdeərɪŋ/",
+        "es": "audaz",
+        "example": "A daring climb."
+      },
+      {
+        "id": "en-cautious",
+        "lemma": "cautious",
+        "pos": "adj",
+        "ipa": "/ˈkɔːʃəs/",
+        "es": "cauto",
+        "example": "A cautious approach."
+      },
+      {
+        "id": "en-thrill-seeker",
+        "lemma": "thrill-seeker",
+        "pos": "noun",
+        "ipa": "/ˈθrɪl ˌsiːkə/",
+        "es": "buscador de emociones",
+        "example": "A thrill-seeker."
+      },
+      {
+        "id": "en-adrenaline",
+        "lemma": "adrenaline",
+        "pos": "noun",
+        "ipa": "/əˈdrenəlɪn/",
+        "es": "adrenalina",
+        "example": "The rush of adrenaline."
+      },
+      {
+        "id": "en-push-your-limits",
+        "lemma": "push your limits",
+        "pos": "phrase",
+        "ipa": "/pʊʃ jɔː ˈlɪmɪts/",
+        "es": "superar tus límites",
+        "example": "Push your limits."
+      },
+      {
+        "id": "en-comfort-zone",
+        "lemma": "comfort zone",
+        "pos": "noun",
+        "ipa": "/ˈkʌmfət zəʊn/",
+        "es": "zona de confort",
+        "example": "Out of your comfort zone."
+      },
+      {
+        "id": "en-resilience",
+        "lemma": "resilience",
+        "pos": "noun",
+        "ipa": "/rɪˈzɪliəns/",
+        "es": "resiliencia",
+        "example": "Build resilience."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de aventura y riesgo**\n\n| Idea | Palabras y expresiones |\n|---|---|\n| **Actividades** | *expedition, trek, climb, dive, sail, rafting, bungee jumping, paragliding, trail* |\n| **Peligros** | *hazard, danger, threat, avalanche, storm, injury, altitude sickness, rescue* |\n| **Carácter** | *brave, daring, adventurous, reckless, cautious, fearless, risk-averse* |\n| **Emociones** | *thrill, rush, adrenaline, terror, panic, exhilaration, relief, pride* |\n| **Riesgo** | *take a risk, run a risk, at your own risk, calculated risk, risk your life, put at risk* |\n| **Superación** | *push your limits, step out of your comfort zone, overcome fear, resilience, achievement* |\n\n**Matices de carácter**\n\n- *Brave / courageous* (valiente) · *daring* (audaz, positivo) · *reckless* (temerario, negativo) · *foolhardy* (insensato) · *cautious / careful* (prudente) · *risk-averse* (reacio al riesgo).\n\n**Risk, danger, hazard**\n\n- *Danger* = peligro general: *in danger of falling.*\n- *Risk* = posibilidad de un resultado malo: *a high risk of injury.*\n- *Hazard* = fuente de peligro: *a fire hazard.*\n- *Threat* = amenaza: *a threat to wildlife.*\n\n**Expresiones con risk**\n\n- *Run the risk of + -ing: He ran the risk of losing everything.* · *Take a risk · at your own risk · at risk of + -ing · risk + -ing: She risked losing her job.*\n- ✘ *to risk to lose* → ✔ *to risk losing*.\n\n**Hablar de motivos**\n\n- *Driven by a wish to… · motivated by… · out of curiosity · for the thrill of it · to prove something to myself.*\n\n**Errores típicos**\n\n- ✘ *He risked to lose his job.* → ✔ *He risked losing his job.*\n- ✘ *It's a great danger of falling.* → ✔ *There is a great danger of falling.*\n- ✘ *She is very adventurer.* → ✔ *She is very adventurous.* (adjetivo)\n- ✘ *They arrived to the summit.* → ✔ *They reached the summit. / arrived at (a place)*.\n- ✘ *The weather was horrible, we didn't can climb.* → ✔ *we couldn't climb.*\n\n**Ojo:** *Adventurer* (sustantivo, persona) ≠ *adventurous* (adjetivo). *Reach* + lugar sin preposición. *Eventually* = finalmente, no 'eventualmente'.\n\nPronunciación: *summit* /ˈsʌmɪt/ · *avalanche* /ˈævəlɑːnʃ/ · *daring* /ˈdeərɪŋ/ · *exhilaration* /ɪɡˌzɪləˈreɪʃn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "risked to lose",
+        "right": "risked losing",
+        "note": "Risk + -ing."
+      },
+      {
+        "wrong": "arrived to the summit",
+        "right": "reached the summit",
+        "note": "Reach + lugar."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u13-l01-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto duró la expedición de Clara?",
+      "options": [
+        "Doce días",
+        "Una semana",
+        "Un mes",
+        "Un día"
+      ],
+      "answer": [
+        "Doce días"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: twelve days.",
+        "incorrect": "Revisa esto: Dice: twelve days."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué altura estuvo cerca de volver atrás?",
+      "options": [
+        "6.500 metros",
+        "1.000 metros",
+        "3.000 metros",
+        "8.000 metros"
+      ],
+      "answer": [
+        "6.500 metros"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: At 6,500 metres.",
+        "incorrect": "Revisa esto: Dice: At 6,500 metres."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué diferencia hacen los psicólogos?",
+      "options": [
+        "Entre conducta temeraria y audaz pero cauta",
+        "Entre hombres y mujeres",
+        "Entre jóvenes y mayores",
+        "Entre rápido y lento"
+      ],
+      "answer": [
+        "Entre conducta temeraria y audaz pero cauta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: reckless vs daring but cautious.",
+        "incorrect": "Revisa esto: Dice: reckless vs daring but cautious."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-rv01",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 15,
+      "prompt": "'You don't have to come' significa que está prohibido venir.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't have to = no es necesario; prohibido = mustn't.",
+        "incorrect": "Revisa esto: Don't have to = no es necesario; prohibido = mustn't."
+      },
+      "review_of": "en-a2-u06-l04-ex08"
+    },
+    {
+      "id": "en-b2-u13-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué argumentan los críticos?",
+      "options": [
+        "Los aventureros ponen en riesgo a los rescatadores",
+        "Es muy barato",
+        "Es aburrido",
+        "Nadie se arriesga"
+      ],
+      "answer": [
+        "Los aventureros ponen en riesgo a los rescatadores"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: put rescuers' lives at risk.",
+        "incorrect": "Revisa esto: Dice: put rescuers' lives at risk."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I listen the radio every morning.",
+      "answer": [
+        "I listen to the radio every morning."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to.",
+        "incorrect": "Revisa esto: Listen to."
+      },
+      "review_of": "en-b2-u12-l01-ex19"
+    },
+    {
+      "id": "en-b2-u13-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Clara dice que el momento de la cima es lo que más le queda.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que lo que queda es la persona en que te conviertes.",
+        "incorrect": "Revisa esto: Dice que lo que queda es la persona en que te conviertes."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "He risked ___ his job by arguing with the boss.",
+      "options": [
+        "losing",
+        "to lose",
+        "lose",
+        "lost"
+      ],
+      "answer": [
+        "losing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk + -ing.",
+        "incorrect": "Revisa esto: Risk + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me that she was tired.",
+      "answer": [
+        "She told me that she was tired.",
+        "She said that she was tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say/tell.",
+        "incorrect": "Revisa esto: Say/tell."
+      },
+      "review_of": "en-b2-u12-l06-ex20"
+    },
+    {
+      "id": "en-b2-u13-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I was walking, I saw an accident. (mientras)",
+      "answer": [
+        "While"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While + pasado continuo.",
+        "incorrect": "Revisa esto: While + pasado continuo."
+      },
+      "review_of": "en-a2-u09-l06-ex04"
+    },
+    {
+      "id": "en-b2-u13-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "There is a high ___ of injury in this sport.",
+      "options": [
+        "risk",
+        "danger of",
+        "hazard to",
+        "threat from"
+      ],
+      "answer": [
+        "risk"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk of.",
+        "incorrect": "Revisa esto: Risk of."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She is very ___ and loves new experiences.",
+      "options": [
+        "adventurous",
+        "adventurer",
+        "adventure",
+        "adventured"
+      ],
+      "answer": [
+        "adventurous"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo.",
+        "incorrect": "Revisa esto: Adjetivo."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "They finally ___ the summit at noon.",
+      "options": [
+        "reached",
+        "arrived",
+        "got to at",
+        "came in"
+      ],
+      "answer": [
+        "reached"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reach + lugar.",
+        "incorrect": "Revisa esto: Reach + lugar."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Entering the cave is at your own ___.",
+      "options": [
+        "risk",
+        "danger of",
+        "hazard",
+        "threat"
+      ],
+      "answer": [
+        "risk"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At your own risk.",
+        "incorrect": "Revisa esto: At your own risk."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which adjective has a NEGATIVE meaning?",
+      "options": [
+        "reckless",
+        "daring",
+        "brave",
+        "adventurous"
+      ],
+      "answer": [
+        "reckless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reckless es negativo.",
+        "incorrect": "Revisa esto: Reckless es negativo."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Step out of your comfort zone' means...",
+      "options": [
+        "Probar algo nuevo y desafiante",
+        "Quedarse en casa",
+        "Mudarse",
+        "Dormir más"
+      ],
+      "answer": [
+        "Probar algo nuevo y desafiante"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "A 'fire ___' is something that can cause a fire.",
+      "options": [
+        "hazard",
+        "threat",
+        "danger of",
+        "risk to"
+      ],
+      "answer": [
+        "hazard"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hazard.",
+        "incorrect": "Revisa esto: Hazard."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She won a ___ to study in Canada. (beca)",
+      "answer": [
+        "scholarship"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Scholarship = beca.",
+        "incorrect": "Revisa esto: Scholarship = beca."
+      },
+      "review_of": "en-b1-u08-l01-ex11"
+    },
+    {
+      "id": "en-b2-u13-l01-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Someone who avoids risk is...",
+      "options": [
+        "risk-averse",
+        "reckless",
+        "foolhardy",
+        "daring"
+      ],
+      "answer": [
+        "risk-averse"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk-averse.",
+        "incorrect": "Revisa esto: Risk-averse."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ the risk of losing everything. (corrió)",
+      "answer": [
+        "ran"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Run the risk.",
+        "incorrect": "Revisa esto: Run the risk."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ___ some photos of the sunset.",
+      "options": [
+        "took",
+        "made",
+        "did",
+        "got"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take a photo.",
+        "incorrect": "Revisa esto: Take a photo."
+      },
+      "review_of": "en-b2-u12-l03-ex08"
+    },
+    {
+      "id": "en-b2-u13-l01-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have trouble to sleep.",
+      "answer": [
+        "I have trouble sleeping."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trouble + -ing.",
+        "incorrect": "Revisa esto: Trouble + -ing."
+      },
+      "review_of": "en-b2-u05-l01-ex16"
+    },
+    {
+      "id": "en-b2-u13-l01-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you do if you got lost?",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "do"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would.",
+        "incorrect": "Revisa esto: Would."
+      },
+      "review_of": "en-b1-u06-l06-ex04"
+    },
+    {
+      "id": "en-b2-u13-l01-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 25,
+      "prompt": "The mountain was dangerous, so we ___ climb it. (no pudimos)",
+      "answer": [
+        "couldn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Couldn't.",
+        "incorrect": "Revisa esto: Couldn't."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He risked to lose his job by lying.",
+      "answer": [
+        "He risked losing his job by lying."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk + -ing.",
+        "incorrect": "Revisa esto: Risk + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is very adventurer and loves travelling.",
+      "answer": [
+        "She is very adventurous and loves travelling."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo.",
+        "incorrect": "Revisa esto: Adjetivo."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They arrived to the summit at dawn.",
+      "answer": [
+        "They reached the summit at dawn.",
+        "They got to the summit at dawn."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reach/get to.",
+        "incorrect": "Revisa esto: Reach/get to."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The weather was bad, so we didn't can climb.",
+      "answer": [
+        "The weather was bad, so we couldn't climb."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Couldn't.",
+        "incorrect": "Revisa esto: Couldn't."
+      }
+    },
+    {
+      "id": "en-b2-u13-l01-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo se describe el hablante?",
+      "options": [
+        "Alguien que asume riesgos calculados",
+        "Alguien temerario",
+        "Alguien que evita todo riesgo",
+        "Alguien sin preparación"
+      ],
+      "answer": [
+        "Alguien que asume riesgos calculados"
+      ],
+      "audio_text": "People often call me reckless, but I don't agree. Before every climb I check the weather, pack the right equipment and tell my family my route. I enjoy the thrill, but I always keep a safety margin. That's what makes the risk calculated.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: calculated risk.",
+        "incorrect": "Revisa esto: Dice: calculated risk."
+      },
+      "audio_script_id": "en-b2-u13-l01-ex21-a"
+    },
+    {
+      "id": "en-b2-u13-l01-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "The hotel is ___ small, but it's clean. (un poco)",
+      "options": [
+        "a bit",
+        "very much",
+        "too much",
+        "quite of"
+      ],
+      "answer": [
+        "a bit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A bit = un poco, antes del adjetivo.",
+        "incorrect": "Revisa esto: A bit = un poco, antes del adjetivo."
+      },
+      "review_of": "en-a2-u03-l01-ex11"
+    },
+    {
+      "id": "en-b2-u13-l01-rv10",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ about reusing bottles? (Qué tal)",
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      },
+      "review_of": "en-b1-u09-l06-ex12"
+    },
+    {
+      "id": "en-b2-u13-l01-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se arriesgó a perder el trabajo, pero llegó a la cima y no se arrepiente.",
+      "answer": [
+        "He risked losing his job, but he reached the summit and has no regrets.",
+        "She risked losing her job, but she reached the summit and has no regrets."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk y reach.",
+        "incorrect": "Revisa esto: Risk y reach."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "calculated risk · at your own risk",
+      "push your limits · comfort zone",
+      "risk + -ing",
+      "reckless / daring / cautious"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-expedition"
+    },
+    {
+      "type": "vocab",
+      "id": "en-summit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-altitude-sickness"
+    },
+    {
+      "type": "vocab",
+      "id": "en-calculated-risk"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reckless"
+    },
+    {
+      "type": "vocab",
+      "id": "en-daring"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cautious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thrill-seeker"
+    },
+    {
+      "type": "vocab",
+      "id": "en-adrenaline"
+    },
+    {
+      "type": "vocab",
+      "id": "en-push-your-limits"
+    },
+    {
+      "type": "grammar",
+      "id": "en-risk-b2"
+    }
+  ]
+}

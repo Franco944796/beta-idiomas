@@ -1,0 +1,989 @@
+{
+  "id": "en-b2-u07-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 7,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Twice as much as",
+    "es": "Comparaciones avanzadas y proporciones"
+  },
+  "objective": "Al terminar comparas con precisión: twice as much as, much more than, the more…the more…, not nearly as…as, y expresas proporciones.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Cuesta el doble que ayer', 'cuanto más ganas, más gastas'. En B2 comparar no es solo 'more than': tienes estructuras para magnitud, proporción y progresión."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Eva",
+        "text": "Rents here are twice as high as they were five years ago. A one-bedroom flat now costs three times as much as it did then.",
+        "es": "Los alquileres aquí son el doble de altos que hace cinco años. Un piso de un dormitorio cuesta ahora tres veces más de lo que costaba entonces."
+      },
+      {
+        "speaker": "Marc",
+        "text": "And yet salaries aren't nearly as high as they should be. The more you earn, the more tax you pay, and the less you keep.",
+        "es": "Y sin embargo los sueldos no son ni de lejos tan altos como deberían. Cuanto más ganas, más impuestos pagas y menos te quedas."
+      },
+      {
+        "speaker": "Eva",
+        "text": "It's far more expensive to live in the centre than in the suburbs, but commuting costs add up.",
+        "es": "Es mucho más caro vivir en el centro que en las afueras, pero los gastos de transporte suman."
+      },
+      {
+        "speaker": "Marc",
+        "text": "That's true. The further you live from the centre, the longer your journey and the higher your travel costs.",
+        "es": "Cierto. Cuanto más lejos vives del centro, más largo es el trayecto y mayores son los gastos."
+      },
+      {
+        "speaker": "Eva",
+        "text": "I'd say it's slightly cheaper to live outside, but nowhere near as convenient.",
+        "es": "Yo diría que es ligeramente más barato vivir fuera, pero ni de lejos tan cómodo."
+      },
+      {
+        "speaker": "Marc",
+        "text": "My brother pays half as much as me for a bigger flat, though. He lives in a small town and works from home.",
+        "es": "Mi hermano paga la mitad que yo por un piso más grande. Vive en un pueblo y trabaja desde casa."
+      },
+      {
+        "speaker": "Eva",
+        "text": "Remote work is changing everything. The fewer people commute, the less pressure there is on housing in the city.",
+        "es": "El teletrabajo lo está cambiando todo. Cuanta menos gente se desplaza, menos presión hay sobre la vivienda en la ciudad."
+      },
+      {
+        "speaker": "Marc",
+        "text": "Exactly. The sooner companies adapt, the better it will be for everyone.",
+        "es": "Exacto. Cuanto antes se adapten las empresas, mejor será para todos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-rent",
+        "lemma": "rent",
+        "pos": "noun",
+        "ipa": "/rent/",
+        "es": "alquiler",
+        "example": "High rents."
+      },
+      {
+        "id": "en-one-bedroom-flat",
+        "lemma": "one-bedroom flat",
+        "pos": "noun",
+        "ipa": "/wʌn ˈbedruːm flæt/",
+        "es": "piso de un dormitorio",
+        "example": "A one-bedroom flat."
+      },
+      {
+        "id": "en-tax",
+        "lemma": "tax",
+        "pos": "noun",
+        "ipa": "/tæks/",
+        "es": "impuesto",
+        "example": "Pay tax."
+      },
+      {
+        "id": "en-commute",
+        "lemma": "commute",
+        "pos": "verb",
+        "ipa": "/kəˈmjuːt/",
+        "es": "desplazarse al trabajo",
+        "example": "I commute by train."
+      },
+      {
+        "id": "en-suburbs",
+        "lemma": "suburbs",
+        "pos": "noun",
+        "ipa": "/ˈsʌbɜːbz/",
+        "es": "las afueras",
+        "example": "Live in the suburbs."
+      },
+      {
+        "id": "en-slightly",
+        "lemma": "slightly",
+        "pos": "adv",
+        "ipa": "/ˈslaɪtli/",
+        "es": "ligeramente",
+        "example": "Slightly cheaper."
+      },
+      {
+        "id": "en-nowhere-near",
+        "lemma": "nowhere near",
+        "pos": "phrase",
+        "ipa": "/ˈnəʊweə nɪə/",
+        "es": "ni de lejos",
+        "example": "Nowhere near as good."
+      },
+      {
+        "id": "en-far",
+        "lemma": "far",
+        "pos": "adv",
+        "ipa": "/fɑː/",
+        "es": "mucho (con comparativo)",
+        "example": "Far more expensive."
+      },
+      {
+        "id": "en-convenient",
+        "lemma": "convenient",
+        "pos": "adj",
+        "ipa": "/kənˈviːniənt/",
+        "es": "cómodo, práctico",
+        "example": "Convenient location."
+      },
+      {
+        "id": "en-pressure",
+        "lemma": "pressure",
+        "pos": "noun",
+        "ipa": "/ˈpreʃə/",
+        "es": "presión",
+        "example": "Pressure on housing."
+      },
+      {
+        "id": "en-adapt",
+        "lemma": "adapt",
+        "pos": "verb",
+        "ipa": "/əˈdæpt/",
+        "es": "adaptarse",
+        "example": "Companies must adapt."
+      }
+    ],
+    "audio_script_id": "en-b2-u07-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Comparaciones avanzadas**\n\n| Estructura | Uso | Ejemplo |\n|---|---|---|\n| **as + adj + as** | igualdad | *It's as expensive as before.* |\n| **twice / three times / half as + adj + as** | múltiplos y fracciones | *Rents are **twice as high as** before.* |\n| **not nearly / nowhere near as + adj + as** | gran diferencia | *It isn't **nearly as** cheap **as** it was.* |\n| **not quite as + adj + as** | casi igual | *It's **not quite as** big **as** the old one.* |\n| **much / far / a lot + comparativo** | diferencia grande | *It's **far more expensive**.* |\n| **slightly / a bit / a little + comparativo** | diferencia pequeña | *It's **slightly cheaper**.* |\n| **the + comparativo … the + comparativo** | proporción progresiva | ***The more** you earn, **the more** you spend.* |\n| **comparativo + and + comparativo** | cambio progresivo | *Things are getting **more and more** expensive.* |\n| **as many / as much as** | cantidad | *as much money as · as many people as* |\n\n**Múltiplos con 'than' y con 'as … as'**\n\n- *Rents are twice as high as five years ago.* = *Rents are double what they were five years ago.*\n- *It costs three times as much as it used to.* = *It costs three times more than …* (informal).\n\n**Superlativos con matiz**\n\n- *by far the cheapest · easily the best · one of the most expensive · the second most popular · the least expensive*.\n\n**Comparar con 'the same … as', 'different from', 'similar to'**\n\n- *the same price as · a similar price to · a different price from/to*. ✘ *the same than*. ✔ *the same as*.\n\n**Errores típicos**\n\n- ✘ *more cheaper* → ✔ *cheaper*. ✘ *more better* → ✔ *much better*.\n- ✘ *The more you work, more you earn.* → ✔ *The more you work, the more you earn.*\n- ✘ *as high than* → ✔ *as high as*.\n- ✘ *twice more expensive than* → ✔ *twice as expensive as*.\n- ✘ *the double of* → ✔ *double / twice what it was*.\n\n**Ojo:** *farther / further*: *farther* = distancia física; *further* = más (abstracto): *further information*. *Fewer* (contables) / *less* (incontables): *fewer people, less money*.\n\nPronunciación: *slightly* /ˈslaɪtli/ · *suburbs* /ˈsʌbɜːbz/ · *convenient* /kənˈviːniənt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "more cheaper",
+        "right": "cheaper",
+        "note": "No more con -er."
+      },
+      {
+        "wrong": "twice more expensive",
+        "right": "twice as expensive",
+        "note": "Twice as … as."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u07-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto más altos son los alquileres que hace cinco años?",
+      "options": [
+        "El doble",
+        "La mitad",
+        "Un 10 % más",
+        "Tres veces más"
+      ],
+      "answer": [
+        "El doble"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: twice as high.",
+        "incorrect": "Revisa esto: Dice: twice as high."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué dice Marc sobre los sueldos?",
+      "options": [
+        "Que no son tan altos como deberían",
+        "Que son altísimos",
+        "Que han bajado",
+        "Que son iguales"
+      ],
+      "answer": [
+        "Que no son tan altos como deberían"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: aren't nearly as high as they should be.",
+        "incorrect": "Revisa esto: Dice: aren't nearly as high as they should be."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto paga el hermano de Marc?",
+      "options": [
+        "La mitad que Marc",
+        "El doble",
+        "Lo mismo",
+        "Un tercio"
+      ],
+      "answer": [
+        "La mitad que Marc"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: half as much as me.",
+        "incorrect": "Revisa esto: Dice: half as much as me."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 20,
+      "prompt": "The clock is ___ the wall. (en la pared)",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sobre una superficie vertical también se usa on.",
+        "incorrect": "Revisa esto: Sobre una superficie vertical también se usa on."
+      },
+      "review_of": "en-a1-u11-l04-ex04"
+    },
+    {
+      "id": "en-b2-u07-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "Eva piensa que vivir fuera es mucho más barato y mucho más cómodo.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice slightly cheaper, but nowhere near as convenient.",
+        "incorrect": "Revisa esto: Dice slightly cheaper, but nowhere near as convenient."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada expresión con su categoría.",
+      "categories": [
+        "Good news",
+        "Bad news"
+      ],
+      "items": [
+        {
+          "text": "get a promotion",
+          "category": "Good news"
+        },
+        {
+          "text": "reach a target",
+          "category": "Good news"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Good news"
+        },
+        {
+          "text": "be fired",
+          "category": "Bad news"
+        },
+        {
+          "text": "miss a deadline",
+          "category": "Bad news"
+        },
+        {
+          "text": "be made redundant",
+          "category": "Bad news"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende el tono de cada expresión.",
+        "incorrect": "Revisa esto: Aprende el tono de cada expresión."
+      },
+      "review_of": "en-b1-u03-l06-ex01"
+    },
+    {
+      "id": "en-b2-u07-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Rents are ___ high as they were five years ago. (el doble)",
+      "options": [
+        "twice as",
+        "twice more",
+        "two more",
+        "double than"
+      ],
+      "answer": [
+        "twice as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Twice as … as.",
+        "incorrect": "Revisa esto: Twice as … as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ you earn, the more tax you pay.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The more … the more.",
+        "incorrect": "Revisa esto: The more … the more."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Open your book.",
+          "right": "Abre tu libro."
+        },
+        {
+          "left": "Listen and repeat.",
+          "right": "Escucha y repite."
+        },
+        {
+          "left": "Raise your hand.",
+          "right": "Levanta la mano."
+        },
+        {
+          "left": "Sit down.",
+          "right": "Siéntate."
+        },
+        {
+          "left": "Close the door.",
+          "right": "Cierra la puerta."
+        },
+        {
+          "left": "Write your name.",
+          "right": "Escribe tu nombre."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son instrucciones típicas de clase.",
+        "incorrect": "Revisa esto: Son instrucciones típicas de clase."
+      },
+      "review_of": "en-a1-u11-l05-ex01"
+    },
+    {
+      "id": "en-b2-u07-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It isn't ___ as cheap as it used to be.",
+      "options": [
+        "nearly",
+        "near",
+        "nearby",
+        "close"
+      ],
+      "answer": [
+        "nearly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not nearly as.",
+        "incorrect": "Revisa esto: Not nearly as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "The flat is ___ bigger than the old one. (mucho)",
+      "options": [
+        "far",
+        "very",
+        "too",
+        "so"
+      ],
+      "answer": [
+        "far"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Far + comparativo.",
+        "incorrect": "Revisa esto: Far + comparativo."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "The sooner we start, ___ .",
+      "options": [
+        "the better",
+        "better",
+        "the best",
+        "the more good"
+      ],
+      "answer": [
+        "the better"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The + comparativo.",
+        "incorrect": "Revisa esto: The + comparativo."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Things are getting ___ expensive.",
+      "options": [
+        "more and more",
+        "most and most",
+        "more or more",
+        "much and much"
+      ],
+      "answer": [
+        "more and more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Progresión.",
+        "incorrect": "Revisa esto: Progresión."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have ___ money than you.",
+      "options": [
+        "less",
+        "fewer",
+        "fewest",
+        "lesser"
+      ],
+      "answer": [
+        "less"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Less + incontable.",
+        "incorrect": "Revisa esto: Less + incontable."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "There are ___ people here than yesterday.",
+      "options": [
+        "fewer",
+        "less",
+        "little",
+        "lesser"
+      ],
+      "answer": [
+        "fewer"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fewer + contable.",
+        "incorrect": "Revisa esto: Fewer + contable."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "His salary is the same ___ mine.",
+      "options": [
+        "as",
+        "than",
+        "like",
+        "to"
+      ],
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The same as.",
+        "incorrect": "Revisa esto: The same as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "It costs three times as much as it did.",
+        "It costs three times more as it did.",
+        "It costs three times much than it did.",
+        "It costs more three times than."
+      ],
+      "answer": [
+        "It costs three times as much as it did."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Múltiplos.",
+        "incorrect": "Revisa esto: Múltiplos."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to interrupt?",
+      "options": [
+        "Sorry to interrupt, but could I add something?",
+        "Stop talking.",
+        "That's wrong.",
+        "Listen to me."
+      ],
+      "answer": [
+        "Sorry to interrupt, but could I add something?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro cortés.",
+        "incorrect": "Revisa esto: Registro cortés."
+      },
+      "review_of": "en-b2-u02-l04-ex12"
+    },
+    {
+      "id": "en-b2-u07-l03-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ cheaper to live outside the city. (ligeramente)",
+      "answer": [
+        "slightly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Slightly.",
+        "incorrect": "Revisa esto: Slightly."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The more you practise, ___ better you get. (el)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The … the …",
+        "incorrect": "Revisa esto: The … the …"
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's more cheaper than before.",
+      "answer": [
+        "It's cheaper than before."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No more con -er.",
+        "incorrect": "Revisa esto: No more con -er."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "It helps ___ with a friend.",
+      "options": [
+        "to study",
+        "studying to",
+        "study",
+        "for study"
+      ],
+      "answer": [
+        "to study"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It helps to + verbo.",
+        "incorrect": "Revisa esto: It helps to + verbo."
+      },
+      "review_of": "en-b1-u08-l04-ex06"
+    },
+    {
+      "id": "en-b2-u07-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish it ___ stop raining!",
+      "options": [
+        "would",
+        "will",
+        "had",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would.",
+        "incorrect": "Revisa esto: Wish + would."
+      },
+      "review_of": "en-b2-u05-l06-ex06"
+    },
+    {
+      "id": "en-b2-u07-l03-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "My English is ___ than last year.",
+      "options": [
+        "better",
+        "gooder",
+        "more good",
+        "best"
+      ],
+      "answer": [
+        "better"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: better.",
+        "incorrect": "Revisa esto: Good es irregular: better."
+      },
+      "review_of": "en-a2-u03-l02-ex05"
+    },
+    {
+      "id": "en-b2-u07-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The more you work, more you earn.",
+      "answer": [
+        "The more you work, the more you earn."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The … the …",
+        "incorrect": "Revisa esto: The … the …"
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Rents are twice more expensive than before.",
+      "answer": [
+        "Rents are twice as expensive as before.",
+        "Rents are double what they were before."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Twice as … as.",
+        "incorrect": "Revisa esto: Twice as … as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My salary is the same than yours.",
+      "answer": [
+        "My salary is the same as yours."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The same as.",
+        "incorrect": "Revisa esto: The same as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto paga de alquiler comparado con antes?",
+      "options": [
+        "La mitad",
+        "El doble",
+        "Lo mismo",
+        "Un tercio"
+      ],
+      "answer": [
+        "La mitad"
+      ],
+      "audio_text": "The older I get, the more I appreciate simple things. This flat is slightly smaller than my old one, but it's nowhere near as noisy, and I pay half as much rent. The further from the centre, the quieter life is.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: half as much rent.",
+        "incorrect": "Revisa esto: Dice: half as much rent."
+      },
+      "audio_script_id": "en-b2-u07-l03-ex21-a"
+    },
+    {
+      "id": "en-b2-u07-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Cuanto más trabajas, más ganas, pero los alquileres cuestan el doble que hace cinco años.",
+      "answer": [
+        "The more you work, the more you earn, but rents cost twice as much as they did five years ago.",
+        "The more you work, the more you earn, but rents are twice as high as five years ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comparaciones.",
+        "incorrect": "Revisa esto: Comparaciones."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-ex23",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No es ni de lejos tan barato como antes, pero es ligeramente más cómodo.",
+      "answer": [
+        "It isn't nearly as cheap as it used to be, but it's slightly more convenient.",
+        "It's nowhere near as cheap as it used to be, but it's slightly more convenient."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not nearly as … as.",
+        "incorrect": "Revisa esto: Not nearly as … as."
+      }
+    },
+    {
+      "id": "en-b2-u07-l03-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "for",
+        "a",
+        "jacket",
+        ".",
+        "I'm",
+        "looking"
+      ],
+      "answer": [
+        "I'm",
+        "looking",
+        "for",
+        "a",
+        "jacket",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm looking for + prenda.",
+        "incorrect": "Revisa esto: I'm looking for + prenda."
+      },
+      "review_of": "en-a1-u08-l05-ex04"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "twice as much as · half as much as",
+      "not nearly as … as",
+      "The more you earn, the more you spend.",
+      "more and more expensive"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-rent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-one-bedroom-flat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tax"
+    },
+    {
+      "type": "vocab",
+      "id": "en-commute"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suburbs"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slightly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nowhere-near"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far"
+    },
+    {
+      "type": "vocab",
+      "id": "en-convenient"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pressure"
+    },
+    {
+      "type": "grammar",
+      "id": "en-comparisons-b2"
+    }
+  ]
+}

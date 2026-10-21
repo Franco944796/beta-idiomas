@@ -1,0 +1,908 @@
+{
+  "id": "en-b2-u05-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 5,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Persuading someone",
+    "es": "Persuadir y dar consejos con tacto"
+  },
+  "objective": "Al terminar convences a alguien con argumentos y estrategias lingüísticas: sugerencias, advertencias, ejemplos y cierre firme pero cortés.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Convencer no es insistir: es ofrecer razones, anticipar objeciones y dejar la puerta abierta. En inglés hay recursos muy concretos para persuadir sin presionar."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Marta",
+        "text": "Have you thought about joining the yoga class at the community centre? It's only ten euros a month.",
+        "es": "¿Has pensado en apuntarte a la clase de yoga del centro cívico? Son solo diez euros al mes."
+      },
+      {
+        "speaker": "Jon",
+        "text": "I'm not sure. I'm not flexible at all, and I'd probably feel out of place.",
+        "es": "No sé. No soy nada flexible y seguramente me sentiría fuera de lugar."
+      },
+      {
+        "speaker": "Marta",
+        "text": "That's exactly what I thought at first! But the teacher is great with beginners. Besides, you don't need to be flexible to start: that's what the classes are for.",
+        "es": "¡Eso mismo pensé yo al principio! Pero la profesora es genial con los principiantes. Además, no necesitas ser flexible para empezar: para eso son las clases."
+      },
+      {
+        "speaker": "Jon",
+        "text": "Hmm. I'd have to find the time, though. My schedule is packed.",
+        "es": "Mmm. Tendría que encontrar tiempo. Mi agenda está llena."
+      },
+      {
+        "speaker": "Marta",
+        "text": "Think about it this way: if you spent just one hour a week on it, you'd feel less stressed and sleep better. Isn't that worth an hour?",
+        "es": "Míralo así: si dedicaras solo una hora a la semana, estarías menos estresado y dormirías mejor. ¿No vale la pena una hora?"
+      },
+      {
+        "speaker": "Jon",
+        "text": "When you put it like that... Is there a trial class?",
+        "es": "Dicho así... ¿Hay una clase de prueba?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "Yes, the first one is free. What have you got to lose? And I'll come with you, if that helps.",
+        "es": "Sí, la primera es gratis. ¿Qué tienes que perder? Y yo iré contigo, si eso ayuda."
+      },
+      {
+        "speaker": "Jon",
+        "text": "All right, you've convinced me. But if I hate it, I'm not going back!",
+        "es": "Vale, me has convencido. ¡Pero si lo odio, no vuelvo!"
+      },
+      {
+        "speaker": "Marta",
+        "text": "Deal. Honestly, I think you'll be pleasantly surprised.",
+        "es": "Trato hecho. Sinceramente, creo que te llevarás una agradable sorpresa."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-community-centre",
+        "lemma": "community centre",
+        "pos": "noun",
+        "ipa": "/kəˈmjuːnəti ˈsentə/",
+        "es": "centro cívico",
+        "example": "At the community centre."
+      },
+      {
+        "id": "en-out-of-place",
+        "lemma": "out of place",
+        "pos": "phrase",
+        "ipa": "/aʊt əv pleɪs/",
+        "es": "fuera de lugar",
+        "example": "I'd feel out of place."
+      },
+      {
+        "id": "en-beginner",
+        "lemma": "beginner",
+        "pos": "noun",
+        "ipa": "/bɪˈɡɪnə/",
+        "es": "principiante",
+        "example": "Good with beginners."
+      },
+      {
+        "id": "en-besides",
+        "lemma": "besides",
+        "pos": "adv",
+        "ipa": "/bɪˈsaɪdz/",
+        "es": "además",
+        "example": "Besides, it's cheap."
+      },
+      {
+        "id": "en-packed",
+        "lemma": "packed",
+        "pos": "adj",
+        "ipa": "/pækt/",
+        "es": "lleno",
+        "example": "A packed schedule."
+      },
+      {
+        "id": "en-think-about-it",
+        "lemma": "think about it",
+        "pos": "phrase",
+        "ipa": "/θɪŋk əˈbaʊt ɪt/",
+        "es": "piénsalo",
+        "example": "Think about it this way."
+      },
+      {
+        "id": "en-trial-class",
+        "lemma": "trial class",
+        "pos": "noun",
+        "ipa": "/ˈtraɪəl klɑːs/",
+        "es": "clase de prueba",
+        "example": "A free trial class."
+      },
+      {
+        "id": "en-what-have-you-got-to-lose",
+        "lemma": "what have you got to lose",
+        "pos": "phrase",
+        "ipa": "/wɒt hæv juː ɡɒt tə luːz/",
+        "es": "¿qué tienes que perder?",
+        "example": "What have you got to lose?"
+      },
+      {
+        "id": "en-convince",
+        "lemma": "convince",
+        "pos": "verb",
+        "ipa": "/kənˈvɪns/",
+        "es": "convencer",
+        "example": "You've convinced me."
+      },
+      {
+        "id": "en-pleasantly-surprised",
+        "lemma": "pleasantly surprised",
+        "pos": "phrase",
+        "ipa": "/ˈplezntli səˈpraɪzd/",
+        "es": "gratamente sorprendido",
+        "example": "I was pleasantly surprised."
+      }
+    ],
+    "audio_script_id": "en-b2-u05-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Frases para persuadir con cortesía**\n\n| Estrategia | Frases |\n|---|---|\n| **Sugerir** | *Have you thought about + -ing? · Why don't you …? · How about + -ing? · You might want to …* |\n| **Anticipar objeciones** | *I know what you're thinking, but … · I thought the same at first, but …* |\n| **Dar razones** | *Besides, … · On top of that, … · What's more, … · The point is …* |\n| **Reformular** | *Think about it this way: … · Look at it from another angle: …* |\n| **Beneficios** | *You'd feel … · It would help you … · You'll be surprised how …* |\n| **Reducir el riesgo** | *What have you got to lose? · The first one is free. · You can always stop if you don't like it.* |\n| **Ofrecer ayuda** | *I'll come with you. · I can help you get started.* |\n| **Cerrar** | *Why not give it a try? · Shall we sign you up? · Promise me you'll think about it.* |\n\n**Condicional para persuadir**\n\n- *If you spent just an hour a week, you'd feel better.* (segundo condicional: hipótesis atractiva)\n- *If you don't try, you'll never know.* (primer condicional: advertencia suave)\n- *You'd be surprised how …* · *You'll thank me later.*\n\n**Convencer vs obligar**\n\n- *persuade / convince someone to do something*: *She persuaded me to join.* ✘ *persuaded me join*.\n- *convince someone that …*: *I convinced him that it was safe.*\n- *talk someone into + -ing*: *He talked me into buying it.* · *talk someone out of + -ing*: *She talked me out of leaving.*\n\n**Responder con tacto cuando no estás convencido**\n\n- *I'll think about it. · I see your point, but … · That's tempting, but … · Let me sleep on it.*\n\n**Errores típicos**\n\n- ✘ *You must to try.* → ✔ *You should try it.* / *You really should try it.*\n- ✘ *I convinced him to that it was safe.* → ✔ *I convinced him that it was safe.*\n- ✘ *Why you don't come?* → ✔ *Why don't you come?*\n- ✘ *How about to go?* → ✔ *How about going?*\n\n**Ojo:** *besides* (además) ≠ *beside* (al lado de). *Persuade* y *convince* son casi sinónimos, pero *convince* se centra en la creencia y *persuade* en la acción. *Advice* (consejo) incontable; *advise* (verbo).\n\nPronunciación: *persuade* /pəˈsweɪd/ · *convince* /kənˈvɪns/ · *besides* /bɪˈsaɪdz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Why you don't try?",
+        "right": "Why don't you try?",
+        "note": "Orden."
+      },
+      {
+        "wrong": "persuaded me joining",
+        "right": "persuaded me to join",
+        "note": "Persuade to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u05-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le propone Marta a Jon?",
+      "options": [
+        "Apuntarse a una clase de yoga",
+        "Ir a correr",
+        "Cambiar de trabajo",
+        "Viajar"
+      ],
+      "answer": [
+        "Apuntarse a una clase de yoga"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: joining the yoga class.",
+        "incorrect": "Revisa esto: Dice: joining the yoga class."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la primera objeción de Jon?",
+      "options": [
+        "No es flexible y se sentiría fuera de lugar",
+        "Es muy caro",
+        "No le gusta el yoga",
+        "Está enfermo"
+      ],
+      "answer": [
+        "No es flexible y se sentiría fuera de lugar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: not flexible, out of place.",
+        "incorrect": "Revisa esto: Dice: not flexible, out of place."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is more formal?",
+      "options": [
+        "Moreover, uniforms save time.",
+        "Also, uniforms save time, you know.",
+        "And uniforms save time.",
+        "Plus, uniforms save time lol."
+      ],
+      "answer": [
+        "Moreover, uniforms save time."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro formal.",
+        "incorrect": "Revisa esto: Registro formal."
+      },
+      "review_of": "en-b1-u08-l05-ex10"
+    },
+    {
+      "id": "en-b2-u05-l04-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "polite-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta?",
+      "options": [
+        "£6",
+        "£16",
+        "£15",
+        "£5"
+      ],
+      "answer": [
+        "£6"
+      ],
+      "audio_text": "That's six pounds, please.",
+      "feedback": {
+        "correct": "¡Correcto! 'six' = 6 (no 'sixteen').",
+        "incorrect": "Revisa esto: 'six' = 6 (no 'sixteen')."
+      },
+      "audio_script_id": "en-b2-u05-l04-rv02-a",
+      "review_of": "en-a1-u05-l05-ex06"
+    },
+    {
+      "id": "en-b2-u05-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué argumento final convence a Jon?",
+      "options": [
+        "La primera clase es gratis y ella irá con él",
+        "Es obligatorio",
+        "Le pagan",
+        "Le gusta el profesor"
+      ],
+      "answer": [
+        "La primera clase es gratis y ella irá con él"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the first one is free… I'll come with you.",
+        "incorrect": "Revisa esto: Dice: the first one is free… I'll come with you."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 15,
+      "prompt": "Jon rechaza la propuesta de forma definitiva.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: you've convinced me.",
+        "incorrect": "Revisa esto: Dice: you've convinced me."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you thought about ___ yoga?",
+      "options": [
+        "trying",
+        "to try",
+        "try",
+        "tried"
+      ],
+      "answer": [
+        "trying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Thought about + -ing.",
+        "incorrect": "Revisa esto: Thought about + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Nací en Rosario, estudié arquitectura y vivo en Barcelona desde 2019.",
+      "answer": [
+        "I was born in Rosario, I studied architecture and I've lived in Barcelona since 2019.",
+        "I was born in Rosario, I studied architecture and I have lived in Barcelona since 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado simple y present perfect.",
+        "incorrect": "Revisa esto: Pasado simple y present perfect."
+      },
+      "review_of": "en-a2-u10-l05-ex13"
+    },
+    {
+      "id": "en-b2-u05-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "She persuaded me ___ the class.",
+      "options": [
+        "to join",
+        "joining",
+        "join",
+        "of joining"
+      ],
+      "answer": [
+        "to join"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Persuade + persona + to.",
+        "incorrect": "Revisa esto: Persuade + persona + to."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "I convinced him ___ it was safe.",
+      "options": [
+        "that",
+        "to that",
+        "of that",
+        "for"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Convince + that.",
+        "incorrect": "Revisa esto: Convince + that."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "He talked me ___ buying a new phone.",
+      "options": [
+        "into",
+        "on",
+        "to",
+        "out"
+      ],
+      "answer": [
+        "into"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Talk someone into.",
+        "incorrect": "Revisa esto: Talk someone into."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I can swim.' → He said he ___ swim.",
+      "options": [
+        "could",
+        "can",
+        "will",
+        "was"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can → could.",
+        "incorrect": "Revisa esto: Can → could."
+      },
+      "review_of": "en-b1-u07-l02-ex08"
+    },
+    {
+      "id": "en-b2-u05-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "She talked me ___ of quitting.",
+      "options": [
+        "out",
+        "into",
+        "off",
+        "down"
+      ],
+      "answer": [
+        "out"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Talk someone out of.",
+        "incorrect": "Revisa esto: Talk someone out of."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "'What have you got to lose?' means...",
+      "options": [
+        "No arriesgas nada",
+        "¿Qué has perdido?",
+        "No tengo nada",
+        "¿Dónde está?"
+      ],
+      "answer": [
+        "No arriesgas nada"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase persuasiva.",
+        "incorrect": "Revisa esto: Frase persuasiva."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to hesitate?",
+      "options": [
+        "That's tempting, but let me sleep on it.",
+        "No way.",
+        "You are wrong.",
+        "Stop insisting."
+      ],
+      "answer": [
+        "That's tempting, but let me sleep on it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cortesía.",
+        "incorrect": "Revisa esto: Cortesía."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , the first class is free.",
+      "options": [
+        "Besides",
+        "Beside",
+        "Between",
+        "Beyond"
+      ],
+      "answer": [
+        "Besides"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Besides = además.",
+        "incorrect": "Revisa esto: Besides = además."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you spent an hour a week, you ___ better.",
+      "options": [
+        "would feel",
+        "will feel",
+        "felt",
+        "feel"
+      ],
+      "answer": [
+        "would feel"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 25,
+      "prompt": "Think ___ it this way: one hour a week isn't much. (sobre)",
+      "answer": [
+        "about"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Think about.",
+        "incorrect": "Revisa esto: Think about."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 25,
+      "prompt": "Why ___ you give it a try? (no)",
+      "answer": [
+        "don't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Why don't you.",
+        "incorrect": "Revisa esto: Why don't you."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se supone que debemos llegar a las ocho, pero nos dejan entrar más tarde.",
+      "answer": [
+        "We're supposed to arrive at eight, but they let us come in later.",
+        "We are supposed to arrive at eight, but they let us come in later.",
+        "We're supposed to be here at eight, but they let us come in later."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Supposed to / let.",
+        "incorrect": "Revisa esto: Supposed to / let."
+      },
+      "review_of": "en-b1-u08-l03-ex18"
+    },
+    {
+      "id": "en-b2-u05-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Why you don't try it?",
+      "answer": [
+        "Why don't you try it?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden de pregunta.",
+        "incorrect": "Revisa esto: Orden de pregunta."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How about to go together?",
+      "answer": [
+        "How about going together?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She persuaded me joining the club.",
+      "answer": [
+        "She persuaded me to join the club."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Persuade + to.",
+        "incorrect": "Revisa esto: Persuade + to."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it will rain tomorrow.",
+      "options": [
+        "Maybe",
+        "May be",
+        "May",
+        "Might to"
+      ],
+      "answer": [
+        "Maybe"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Maybe.",
+        "incorrect": "Revisa esto: Maybe."
+      },
+      "review_of": "en-b1-u09-l06-ex07"
+    },
+    {
+      "id": "en-b2-u05-l04-rv07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fíjate en la diferencia entre -teen y -ty.",
+        "incorrect": "Revisa esto: Fíjate en la diferencia entre -teen y -ty."
+      },
+      "review_of": "en-a1-u08-l01-ex01"
+    },
+    {
+      "id": "en-b2-u05-l04-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo se notará la mejoría según el hablante?",
+      "options": [
+        "Después de dos semanas",
+        "Después de un día",
+        "Después de un año",
+        "Nunca"
+      ],
+      "answer": [
+        "Después de dos semanas"
+      ],
+      "audio_text": "I know what you're thinking, but give it a chance. The first session is free, and if you don't like it, you can stop. You'd be surprised how much better you'd feel after just two weeks.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: after just two weeks.",
+        "incorrect": "Revisa esto: Dice: after just two weeks."
+      },
+      "audio_script_id": "en-b2-u05-l04-ex19-a"
+    },
+    {
+      "id": "en-b2-u05-l04-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Quieres convencer a un amigo para que haga ejercicio.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I don't have time to exercise."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I know what you're thinking, but even twenty minutes a day would make a difference. Why don't you try a short walk?",
+            "You must exercise. Don't say no.",
+            "Exercise is good."
+          ],
+          "best": 0,
+          "why_es": "Persuadir con cortesía."
+        },
+        {
+          "speaker": "Friend",
+          "text": "I'd feel silly at the gym."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Besides, we could go together. What have you got to lose?",
+            "Don't be silly.",
+            "OK, never mind."
+          ],
+          "best": 0,
+          "why_es": "Reducir el riesgo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u05-l04-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Piénsalo así: si dedicaras una hora a la semana, estarías menos estresado.",
+      "answer": [
+        "Think about it this way: if you spent an hour a week on it, you'd be less stressed.",
+        "Think about it this way: if you spent just one hour a week, you'd feel less stressed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Persuasión con condicional.",
+        "incorrect": "Revisa esto: Persuasión con condicional."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Have you thought about + -ing?",
+      "I thought the same at first, but …",
+      "What have you got to lose?",
+      "Let me sleep on it."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-community-centre"
+    },
+    {
+      "type": "vocab",
+      "id": "en-out-of-place"
+    },
+    {
+      "type": "vocab",
+      "id": "en-beginner"
+    },
+    {
+      "type": "vocab",
+      "id": "en-besides"
+    },
+    {
+      "type": "vocab",
+      "id": "en-packed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-think-about-it"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trial-class"
+    },
+    {
+      "type": "vocab",
+      "id": "en-what-have-you-got-to-lose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-convince"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pleasantly-surprised"
+    },
+    {
+      "type": "grammar",
+      "id": "en-persuasion"
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "id": "en-b2-u06-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 6,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Depend on, believe in",
+    "es": "Preposiciones dependientes"
+  },
+  "objective": "Al terminar usas las preposiciones dependientes de verbos, adjetivos y sustantivos (depend on, believe in, afraid of, interest in) con precisión.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En inglés, muchas palabras van siempre con una preposición concreta: 'depends on', 'believe in', 'afraid of'. No se pueden deducir; hay que aprenderlas en pareja."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Carla",
+        "text": "Are you coming on the trip to Peru? It depends on the weather, doesn't it?",
+        "es": "¿Vienes al viaje a Perú? Depende del tiempo, ¿no?"
+      },
+      {
+        "speaker": "Dani",
+        "text": "Not really. It depends on whether I get time off. I've applied for leave, but I'm still waiting for a reply.",
+        "es": "No exactamente. Depende de si me dan vacaciones. He solicitado el permiso, pero sigo esperando respuesta."
+      },
+      {
+        "speaker": "Carla",
+        "text": "I'm really looking forward to it. I've always been interested in Inca history, and I'm fascinated by Machu Picchu.",
+        "es": "Tengo muchas ganas. Siempre me ha interesado la historia inca y me fascina Machu Picchu."
+      },
+      {
+        "speaker": "Dani",
+        "text": "I'm afraid of heights, so I'm a bit worried about the mountain trails. I also suffer from altitude sickness.",
+        "es": "Yo tengo miedo a las alturas, así que me preocupan un poco los senderos de montaña. Además, sufro mal de altura."
+      },
+      {
+        "speaker": "Carla",
+        "text": "Don't worry. We'll prepare for it. And I'm sure the guide will take care of the group.",
+        "es": "No te preocupes. Nos prepararemos. Y seguro que el guía se encargará del grupo."
+      },
+      {
+        "speaker": "Dani",
+        "text": "I'm good at planning but terrible at packing. I always forget something. Can you remind me of the list?",
+        "es": "Soy bueno planificando pero malísimo haciendo la maleta. Siempre olvido algo. ¿Puedes recordarme la lista?"
+      },
+      {
+        "speaker": "Carla",
+        "text": "Sure. I'll send it tonight. Also, you should apologise to Mike for missing his party; he's been angry with you ever since.",
+        "es": "Claro. La mando esta noche. Y deberías disculparte con Mike por faltar a su fiesta; sigue enfadado contigo desde entonces."
+      },
+      {
+        "speaker": "Dani",
+        "text": "I know. I feel guilty about it. I'll talk to him and explain. Thanks for reminding me.",
+        "es": "Lo sé. Me siento culpable. Hablaré con él y se lo explicaré. Gracias por recordármelo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-depend-on",
+        "lemma": "depend on",
+        "pos": "phrasal verb",
+        "ipa": "/dɪˈpend ɒn/",
+        "es": "depender de",
+        "example": "It depends on the weather."
+      },
+      {
+        "id": "en-apply-for",
+        "lemma": "apply for",
+        "pos": "phrasal verb",
+        "ipa": "/əˈplaɪ fɔː/",
+        "es": "solicitar",
+        "example": "Apply for leave."
+      },
+      {
+        "id": "en-wait-for",
+        "lemma": "wait for",
+        "pos": "phrasal verb",
+        "ipa": "/weɪt fɔː/",
+        "es": "esperar",
+        "example": "Waiting for a reply."
+      },
+      {
+        "id": "en-be-interested-in",
+        "lemma": "be interested in",
+        "pos": "phrase",
+        "ipa": "/biː ˈɪntrəstɪd ɪn/",
+        "es": "interesarse por",
+        "example": "Interested in history."
+      },
+      {
+        "id": "en-be-fascinated-by",
+        "lemma": "be fascinated by",
+        "pos": "phrase",
+        "ipa": "/biː ˈfæsɪneɪtɪd baɪ/",
+        "es": "estar fascinado por",
+        "example": "Fascinated by art."
+      },
+      {
+        "id": "en-be-afraid-of",
+        "lemma": "be afraid of",
+        "pos": "phrase",
+        "ipa": "/biː əˈfreɪd əv/",
+        "es": "tener miedo a",
+        "example": "Afraid of heights."
+      },
+      {
+        "id": "en-suffer-from",
+        "lemma": "suffer from",
+        "pos": "phrasal verb",
+        "ipa": "/ˈsʌfə frɒm/",
+        "es": "sufrir de",
+        "example": "Suffer from allergies."
+      },
+      {
+        "id": "en-take-care-of",
+        "lemma": "take care of",
+        "pos": "phrase",
+        "ipa": "/teɪk keər əv/",
+        "es": "ocuparse de",
+        "example": "Take care of the group."
+      },
+      {
+        "id": "en-be-good-at",
+        "lemma": "be good at",
+        "pos": "phrase",
+        "ipa": "/biː ɡʊd æt/",
+        "es": "ser bueno en",
+        "example": "Good at planning."
+      },
+      {
+        "id": "en-remind-of",
+        "lemma": "remind of",
+        "pos": "phrasal verb",
+        "ipa": "/rɪˈmaɪnd əv/",
+        "es": "recordar a alguien algo",
+        "example": "It reminds me of home."
+      },
+      {
+        "id": "en-apologise-to",
+        "lemma": "apologise to",
+        "pos": "phrasal verb",
+        "ipa": "/əˈpɒlədʒaɪz tə/",
+        "es": "disculparse con",
+        "example": "Apologise to Mike."
+      },
+      {
+        "id": "en-be-angry-with",
+        "lemma": "be angry with",
+        "pos": "phrase",
+        "ipa": "/biː ˈæŋɡri wɪð/",
+        "es": "estar enfadado con",
+        "example": "Angry with you."
+      }
+    ],
+    "audio_script_id": "en-b2-u06-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Preposiciones dependientes**\n\n| Verbo + preposición | Ejemplo |\n|---|---|\n| *depend on* | *It depends **on** the weather.* |\n| *believe in* | *I believe **in** hard work.* |\n| *rely on* · *count on* | *You can rely **on** me.* |\n| *apply for* | *She applied **for** a visa.* |\n| *wait for* | *We're waiting **for** the bus.* |\n| *suffer from* | *He suffers **from** back pain.* |\n| *succeed in* | *She succeeded **in** passing.* |\n| *object to* · *look forward to* | *I object **to** being treated like this.* |\n| *apologise to / for* | *He apologised **to** me **for** being late.* |\n| *complain about / to* | *I complained **to** the manager **about** the noise.* |\n\n| Adjetivo + preposición | Ejemplo |\n|---|---|\n| *afraid of · scared of* | *I'm afraid **of** flying.* |\n| *good at / bad at* | *She's good **at** maths.* |\n| *interested in* | *I'm interested **in** art.* |\n| *fascinated by · surprised at/by* | *He was surprised **at** the price.* |\n| *angry with (persona) / about (cosa)* | *Angry **with** him **about** the delay.* |\n| *guilty about / of* | *I feel guilty **about** it.* · *guilty **of** a crime* |\n| *responsible for · famous for · known for* | *Paris is famous **for** its museums.* |\n\n| Sustantivo + preposición | Ejemplo |\n|---|---|\n| *a reason for · a solution to · an answer to · a cause of · an increase in · damage to · a key to* | *There is no solution **to** this problem.* |\n\n**Después de la preposición va -ing:** *good at cooking · afraid of falling · interested in learning · succeed in finding · apologise for being late*.\n\n**Verbos con dos objetos**\n\n- *remind someone of/about* (algo): *She reminds me **of** my mother.* · *Remind me **to** call him.*\n- *blame someone for something* · *accuse someone of doing* · *congratulate someone on something* · *thank someone for something*.\n\n**Errores típicos**\n\n- ✘ *It depends of the weather.* → ✔ *It depends on the weather.*\n- ✘ *I'm interested on art.* → ✔ *I'm interested in art.*\n- ✘ *I'm afraid from flying.* → ✔ *I'm afraid of flying.*\n- ✘ *She is good in maths.* → ✔ *She is good at maths.*\n- ✘ *We discussed about the plan.* → ✔ *We discussed the plan.* (no preposición).\n\n**Ojo:** *wait for* (esperar) ≠ *expect* (esperar, contar con): *I'm waiting for her.* / *I'm expecting her.* *Look at / for / after*: mirar / buscar / cuidar.\n\nPronunciación: *depend* /dɪˈpend/ · *fascinated* /ˈfæsɪneɪtɪd/ · *apologise* /əˈpɒlədʒaɪz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "depends of",
+        "right": "depends on",
+        "note": "Depend on."
+      },
+      {
+        "wrong": "good in",
+        "right": "good at",
+        "note": "Good at."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u06-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué depende que Dani vaya al viaje?",
+      "options": [
+        "De que le den vacaciones",
+        "Del dinero",
+        "Del clima",
+        "De su pareja"
+      ],
+      "answer": [
+        "De que le den vacaciones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: depends on whether I get time off.",
+        "incorrect": "Revisa esto: Dice: depends on whether I get time off."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué le fascina a Carla Perú?",
+      "options": [
+        "Por la historia inca y Machu Picchu",
+        "Por la gastronomía",
+        "Por las playas",
+        "Por la selva"
+      ],
+      "answer": [
+        "Por la historia inca y Machu Picchu"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: interested in Inca history, fascinated by Machu Picchu.",
+        "incorrect": "Revisa esto: Dice: interested in Inca history, fascinated by Machu Picchu."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué tiene miedo Dani?",
+      "options": [
+        "A las alturas",
+        "A volar",
+        "A los perros",
+        "A los idiomas"
+      ],
+      "answer": [
+        "A las alturas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: afraid of heights.",
+        "incorrect": "Revisa esto: Dice: afraid of heights."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 15,
+      "prompt": "Dani se siente culpable por faltar a la fiesta de Mike.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I feel guilty about it.",
+        "incorrect": "Revisa esto: Dice: I feel guilty about it."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He isn't enough tall to play basketball.",
+      "answer": [
+        "He isn't tall enough to play basketball."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough después del adjetivo.",
+        "incorrect": "Revisa esto: Enough después del adjetivo."
+      },
+      "review_of": "en-a2-u03-l06-ex08"
+    },
+    {
+      "id": "en-b2-u06-l03-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo al final?",
+      "options": [
+        "Compró algo en un puesto callejero",
+        "Se fue a casa",
+        "Esperó una mesa",
+        "No comió"
+      ],
+      "answer": [
+        "Compró algo en un puesto callejero"
+      ],
+      "audio_text": "I was looking for somewhere quiet to eat, but everywhere was full. Nobody could help me, so I bought something from a street stand.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: bought something from a street stand.",
+        "incorrect": "Revisa esto: Dice: bought something from a street stand."
+      },
+      "audio_script_id": "en-b2-u06-l03-rv02-a",
+      "review_of": "en-b1-u10-l04-ex16"
+    },
+    {
+      "id": "en-b2-u06-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "It depends ___ the weather.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "in"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm interested ___ learning Portuguese.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Interested in.",
+        "incorrect": "Revisa esto: Interested in."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's very good ___ solving problems.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "with"
+      ],
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good at.",
+        "incorrect": "Revisa esto: Good at."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's afraid ___ spiders.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "about"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Afraid of.",
+        "incorrect": "Revisa esto: Afraid of."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm waiting ___ the bus.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "on"
+      ],
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wait for.",
+        "incorrect": "Revisa esto: Wait for."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "They apologised ___ me ___ being late.",
+      "options": [
+        "to / for",
+        "for / to",
+        "of / on",
+        "at / by"
+      ],
+      "answer": [
+        "to / for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apologise to … for.",
+        "incorrect": "Revisa esto: Apologise to … for."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 25,
+      "prompt": "The study could ___ the way for new treatments. (allanar el camino)",
+      "answer": [
+        "pave"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pave the way.",
+        "incorrect": "Revisa esto: Pave the way."
+      },
+      "review_of": "en-b2-u04-l01-ex13"
+    },
+    {
+      "id": "en-b2-u06-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I congratulated her ___ her promotion.",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Congratulate on.",
+        "incorrect": "Revisa esto: Congratulate on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He like chicken.",
+      "answer": [
+        "He likes chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he/she/it el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con he/she/it el verbo lleva -s."
+      },
+      "review_of": "en-a1-u05-l06-ex05"
+    },
+    {
+      "id": "en-b2-u06-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The police accused him ___ stealing the car.",
+      "options": [
+        "of",
+        "for",
+        "with",
+        "about"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Accuse of.",
+        "incorrect": "Revisa esto: Accuse of."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "This film reminds me ___ my childhood.",
+      "options": [
+        "of",
+        "to",
+        "from",
+        "on"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Remind of.",
+        "incorrect": "Revisa esto: Remind of."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "There is no solution ___ this problem.",
+      "options": [
+        "to",
+        "for",
+        "of",
+        "about"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Solution to.",
+        "incorrect": "Revisa esto: Solution to."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Paris is famous ___ its museums. (por)",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Famous for.",
+        "incorrect": "Revisa esto: Famous for."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm looking forward ___ meeting you. (a)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to.",
+        "incorrect": "Revisa esto: Look forward to."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "He finally gave ___ smoking after twenty years.",
+      "options": [
+        "up",
+        "in",
+        "out",
+        "off"
+      ],
+      "answer": [
+        "up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Give up.",
+        "incorrect": "Revisa esto: Give up."
+      },
+      "review_of": "en-b2-u05-l01-ex11"
+    },
+    {
+      "id": "en-b2-u06-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It depends of the price.",
+      "answer": [
+        "It depends on the price."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "Where ___ the film shot?",
+      "options": [
+        "was",
+        "did",
+        "is been",
+        "has"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasiva.",
+        "incorrect": "Revisa esto: Pregunta en pasiva."
+      },
+      "review_of": "en-b1-u05-l06-ex05"
+    },
+    {
+      "id": "en-b2-u06-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm interested on history.",
+      "answer": [
+        "I'm interested in history."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Interested in.",
+        "incorrect": "Revisa esto: Interested in."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We discussed about the budget for hours.",
+      "answer": [
+        "We discussed the budget for hours."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Discuss sin preposición.",
+        "incorrect": "Revisa esto: Discuss sin preposición."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is good in cooking.",
+      "answer": [
+        "She is good at cooking."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good at.",
+        "incorrect": "Revisa esto: Good at."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué le tiene miedo?",
+      "options": [
+        "A volar",
+        "A las alturas",
+        "A los trenes",
+        "A las multitudes"
+      ],
+      "answer": [
+        "A volar"
+      ],
+      "audio_text": "I'm afraid of flying, so I usually take the train. I'm also very interested in architecture, and I'm looking forward to visiting Barcelona. I depend on local guides to help me understand the history.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'm afraid of flying.",
+        "incorrect": "Revisa esto: Dice: I'm afraid of flying."
+      },
+      "audio_script_id": "en-b2-u06-l03-ex21-a"
+    },
+    {
+      "id": "en-b2-u06-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Depende de si me dan vacaciones; estoy esperando una respuesta.",
+      "answer": [
+        "It depends on whether I get time off; I'm waiting for a reply.",
+        "It depends on whether I get leave; I'm waiting for an answer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposiciones dependientes.",
+        "incorrect": "Revisa esto: Preposiciones dependientes."
+      }
+    },
+    {
+      "id": "en-b2-u06-l03-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "I bought a pair ___ jeans yesterday.",
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pair of + prenda en plural.",
+        "incorrect": "Revisa esto: A pair of + prenda en plural."
+      },
+      "review_of": "en-a2-u11-l06-ex02"
+    },
+    {
+      "id": "en-b2-u06-l03-ex23",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me fascina la historia y soy bueno planificando viajes.",
+      "answer": [
+        "I'm fascinated by history and I'm good at planning trips.",
+        "I'm fascinated by history, and I'm good at planning trips."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fascinated by / good at.",
+        "incorrect": "Revisa esto: Fascinated by / good at."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It depends on …",
+      "I'm interested in … · good at … -ing",
+      "afraid of · famous for · responsible for",
+      "apologise to … for …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-depend-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apply-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wait-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-interested-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-fascinated-by"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-afraid-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suffer-from"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-care-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-good-at"
+    },
+    {
+      "type": "vocab",
+      "id": "en-remind-of"
+    },
+    {
+      "type": "grammar",
+      "id": "en-dependent-prepositions"
+    }
+  ]
+}

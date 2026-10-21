@@ -1,0 +1,927 @@
+{
+  "id": "en-b1-u12-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 12,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Overcoming challenges",
+    "es": "Superar dificultades"
+  },
+  "objective": "Al terminar hablas de retos, esfuerzos y logros con vocabulario preciso y tiempos que conectan el pasado con el presente.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Contar cómo superaste una dificultad es una de las conversaciones más habituales en entrevistas y en la vida. Aquí practicas el vocabulario y la estructura."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Rosa",
+        "text": "Congratulations on finishing the marathon! How did you train for it?",
+        "es": "¡Enhorabuena por terminar el maratón! ¿Cómo te entrenaste?"
+      },
+      {
+        "speaker": "Iker",
+        "text": "Thanks! I've been training for two years. At first, I could hardly run for ten minutes without stopping.",
+        "es": "¡Gracias! Llevo dos años entrenando. Al principio apenas podía correr diez minutos sin parar."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "That's impressive. Was there a moment when you wanted to give up?",
+        "es": "Es impresionante. ¿Hubo algún momento en que quisieras rendirte?"
+      },
+      {
+        "speaker": "Iker",
+        "text": "Many times. I injured my knee last spring and I had to rest for three months. It was a real setback.",
+        "es": "Muchas veces. Me lesioné la rodilla la primavera pasada y tuve que descansar tres meses. Fue un verdadero revés."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "How did you cope with that?",
+        "es": "¿Cómo lo afrontaste?"
+      },
+      {
+        "speaker": "Iker",
+        "text": "I stayed positive and set small goals. I kept going, step by step, and my friends encouraged me.",
+        "es": "Me mantuve positivo y me puse metas pequeñas. Seguí adelante paso a paso y mis amigos me animaron."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "You must be proud of yourself.",
+        "es": "Debes de estar orgulloso de ti."
+      },
+      {
+        "speaker": "Iker",
+        "text": "I am. It taught me that anything is possible if you don't give up. I've also raised money for charity, which makes it even more special.",
+        "es": "Lo estoy. Me enseñó que todo es posible si no te rindes. También he recaudado dinero para una ONG, lo que lo hace aún más especial."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-achievement",
+        "lemma": "achievement",
+        "pos": "noun",
+        "ipa": "/əˈtʃiːvmənt/",
+        "es": "logro",
+        "example": "It's a great achievement."
+      },
+      {
+        "id": "en-challenge",
+        "lemma": "challenge",
+        "pos": "noun",
+        "ipa": "/ˈtʃælɪndʒ/",
+        "es": "reto",
+        "example": "It's a real challenge."
+      },
+      {
+        "id": "en-marathon",
+        "lemma": "marathon",
+        "pos": "noun",
+        "ipa": "/ˈmærəθən/",
+        "es": "maratón",
+        "example": "He ran a marathon."
+      },
+      {
+        "id": "en-train",
+        "lemma": "train",
+        "pos": "verb",
+        "ipa": "/treɪn/",
+        "es": "entrenar",
+        "example": "I train every day."
+      },
+      {
+        "id": "en-injure",
+        "lemma": "injure",
+        "pos": "verb",
+        "ipa": "/ˈɪndʒə/",
+        "es": "lesionar(se)",
+        "example": "I injured my knee."
+      },
+      {
+        "id": "en-setback",
+        "lemma": "setback",
+        "pos": "noun",
+        "ipa": "/ˈsetbæk/",
+        "es": "revés, contratiempo",
+        "example": "It was a setback."
+      },
+      {
+        "id": "en-cope-with",
+        "lemma": "cope with",
+        "pos": "phrasal verb",
+        "ipa": "/kəʊp wɪð/",
+        "es": "afrontar, sobrellevar",
+        "example": "How do you cope with stress?"
+      },
+      {
+        "id": "en-set-a-goal",
+        "lemma": "set a goal",
+        "pos": "phrase",
+        "ipa": "/set ə ɡəʊl/",
+        "es": "fijarse una meta",
+        "example": "Set small goals."
+      },
+      {
+        "id": "en-keep-going",
+        "lemma": "keep going",
+        "pos": "phrase",
+        "ipa": "/kiːp ˈɡəʊɪŋ/",
+        "es": "seguir adelante",
+        "example": "Keep going!"
+      },
+      {
+        "id": "en-encourage",
+        "lemma": "encourage",
+        "pos": "verb",
+        "ipa": "/ɪnˈkʌrɪdʒ/",
+        "es": "animar",
+        "example": "Friends encouraged me."
+      },
+      {
+        "id": "en-overcome",
+        "lemma": "overcome",
+        "pos": "verb",
+        "ipa": "/ˌəʊvəˈkʌm/",
+        "es": "superar",
+        "example": "She overcame her fear."
+      },
+      {
+        "id": "en-raise-money",
+        "lemma": "raise money",
+        "pos": "phrase",
+        "ipa": "/reɪz ˈmʌni/",
+        "es": "recaudar dinero",
+        "example": "We raised money for charity."
+      },
+      {
+        "id": "en-impressive",
+        "lemma": "impressive",
+        "pos": "adj",
+        "ipa": "/ɪmˈpresɪv/",
+        "es": "impresionante",
+        "example": "That's impressive."
+      },
+      {
+        "id": "en-give-up",
+        "lemma": "give up",
+        "pos": "phrasal verb",
+        "ipa": "/ɡɪv ʌp/",
+        "es": "rendirse",
+        "example": "Don't give up."
+      }
+    ],
+    "audio_script_id": "en-b1-u12-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de retos y logros**\n\n| Tema | Palabras y frases |\n|---|---|\n| **Retos** | *challenge · obstacle · difficulty · setback · fear · pressure* |\n| **Acciones** | *overcome · cope with · face · deal with · struggle with · give up · keep going · carry on* |\n| **Esfuerzo** | *work hard · make an effort · practise · train · be determined · persevere* |\n| **Logros** | *achieve · succeed · accomplish · win · reach a goal · break a record · pass · graduate* |\n| **Ayuda** | *encourage · support · motivate · inspire · look up to* |\n| **Valoración** | *impressive · admirable · inspiring · remarkable · amazing* |\n\n**Estructuras**\n\n- **Present perfect continuous** para esfuerzos prolongados: *I've been training for two years.*\n- **Past simple** para hechos concretos: *I injured my knee last spring.*\n- **Past perfect** para lo anterior: *Before the race, I had trained for months.*\n- **Succeed in + -ing**: *She succeeded in finishing.* · **manage to** + verbo: *I managed to finish.*\n- **It took me + tiempo + to + verbo**: *It took me two years to learn.*\n\n**Expresiones útiles**\n\n- *Never give up! · Practice makes perfect. · No pain, no gain. · Step by step. · Where there's a will, there's a way.*\n- *I'm proud of myself / of what I've achieved.* · *It was the hardest thing I've ever done.*\n\n**Ojo:** *succeed in* (lograr), no *succeed to*; *achieve* es 'lograr' (con objeto): *achieve a goal*. *Realise* = darse cuenta, **no** 'realizar' (es *carry out* / *do*). *Effort* /ˈefət/ (esfuerzo) ≠ *effect* /ɪˈfekt/ (efecto).\n\nPronunciación: *achievement* /əˈtʃiːvmənt/ · *challenge* /ˈtʃælɪndʒ/ · *marathon* /ˈmærəθən/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She succeeded to pass.",
+        "right": "She succeeded in passing.",
+        "note": "Succeed in + -ing."
+      },
+      {
+        "wrong": "I have training for years.",
+        "right": "I've been training for years.",
+        "note": "Have been + -ing."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "realise",
+        "es_false": "realizar",
+        "real": "darse cuenta",
+        "note": "Realizar = carry out / do."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u12-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "achievement",
+          "right": "logro"
+        },
+        {
+          "left": "challenge",
+          "right": "reto"
+        },
+        {
+          "left": "setback",
+          "right": "revés"
+        },
+        {
+          "left": "overcome",
+          "right": "superar"
+        },
+        {
+          "left": "encourage",
+          "right": "animar"
+        },
+        {
+          "left": "cope with",
+          "right": "afrontar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de retos y logros.",
+        "incorrect": "Revisa esto: Vocabulario de retos y logros."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un obstáculo o un logro?",
+      "categories": [
+        "Obstacle",
+        "Achievement"
+      ],
+      "items": [
+        {
+          "text": "an injury",
+          "category": "Obstacle"
+        },
+        {
+          "text": "a setback",
+          "category": "Obstacle"
+        },
+        {
+          "text": "a fear",
+          "category": "Obstacle"
+        },
+        {
+          "text": "lack of money",
+          "category": "Obstacle"
+        },
+        {
+          "text": "finishing a marathon",
+          "category": "Achievement"
+        },
+        {
+          "text": "passing an exam",
+          "category": "Achievement"
+        },
+        {
+          "text": "breaking a record",
+          "category": "Achievement"
+        },
+        {
+          "text": "graduating",
+          "category": "Achievement"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar ayuda a recordar.",
+        "incorrect": "Revisa esto: Clasificar ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto tiempo lleva entrenando Iker?",
+      "options": [
+        "Dos años",
+        "Un mes",
+        "Seis meses",
+        "Diez años"
+      ],
+      "answer": [
+        "Dos años"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I've been training for two years.",
+        "incorrect": "Revisa esto: Dice: I've been training for two years."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He does football on Saturdays.",
+      "answer": [
+        "He plays football on Saturdays."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El fútbol va con play.",
+        "incorrect": "Revisa esto: El fútbol va con play."
+      },
+      "review_of": "en-a2-u13-l01-ex08"
+    },
+    {
+      "id": "en-b1-u12-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le pasó el año pasado?",
+      "options": [
+        "Se lesionó la rodilla",
+        "Perdió su trabajo",
+        "Se mudó",
+        "Rompió con su pareja"
+      ],
+      "answer": [
+        "Se lesionó la rodilla"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I injured my knee last spring.",
+        "incorrect": "Revisa esto: Dice: I injured my knee last spring."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona que responde?",
+      "options": [
+        "Mexico",
+        "Brazil",
+        "Spain",
+        "Italy"
+      ],
+      "answer": [
+        "Mexico"
+      ],
+      "audio_text": "Are you from Brazil? No, I'm not. I'm from Mexico.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I'm not. I'm from Mexico.'",
+        "incorrect": "Revisa esto: Responde 'No, I'm not. I'm from Mexico.'"
+      },
+      "audio_script_id": "en-b1-u12-l01-rv02-a",
+      "review_of": "en-a1-u02-l04-ex07"
+    },
+    {
+      "id": "en-b1-u12-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo afrontó el revés?",
+      "options": [
+        "Se mantuvo positivo y se puso metas pequeñas",
+        "Dejó el deporte",
+        "Cambió de entrenador",
+        "Se compró zapatillas"
+      ],
+      "answer": [
+        "Se mantuvo positivo y se puso metas pequeñas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I stayed positive and set small goals.",
+        "incorrect": "Revisa esto: Dice: I stayed positive and set small goals."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "adjective-modifiers"
+      ],
+      "est_seconds": 20,
+      "prompt": "The hotel is ___ small, but it's clean. (un poco)",
+      "options": [
+        "a bit",
+        "very much",
+        "too much",
+        "quite of"
+      ],
+      "answer": [
+        "a bit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A bit = un poco, antes del adjetivo.",
+        "incorrect": "Revisa esto: A bit = un poco, antes del adjetivo."
+      },
+      "review_of": "en-a2-u03-l01-ex11"
+    },
+    {
+      "id": "en-b1-u12-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Iker nunca pensó en rendirse.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Many times.",
+        "incorrect": "Revisa esto: Dice: Many times."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ in finishing her degree in three years.",
+      "options": [
+        "succeeded",
+        "managed",
+        "achieved",
+        "got"
+      ],
+      "answer": [
+        "succeeded"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Succeed in + -ing.",
+        "incorrect": "Revisa esto: Succeed in + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ me two years to learn Spanish.",
+      "options": [
+        "took",
+        "needed",
+        "spent",
+        "lasted"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It took me + tiempo.",
+        "incorrect": "Revisa esto: It took me + tiempo."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've ___ learning English for three years.",
+      "options": [
+        "been",
+        "being",
+        "was",
+        "am"
+      ],
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous.",
+        "incorrect": "Revisa esto: Present perfect continuous."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ his fear of flying and now travels everywhere.",
+      "options": [
+        "overcame",
+        "overcomed",
+        "overcame to",
+        "overcomes"
+      ],
+      "answer": [
+        "overcame"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Overcome → overcame.",
+        "incorrect": "Revisa esto: Overcome → overcame."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Don't give up' means...",
+      "options": [
+        "No te rindas",
+        "No te vayas",
+        "No hables",
+        "No cambies"
+      ],
+      "answer": [
+        "No te rindas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Give up.",
+        "incorrect": "Revisa esto: Give up."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (not / eat) sushi before. (nunca ha comido)",
+      "answer": [
+        "hasn't eaten",
+        "has not eaten"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con she: hasn't + participio.",
+        "incorrect": "Revisa esto: Negativa con she: hasn't + participio."
+      },
+      "review_of": "en-a2-u08-l01-ex03"
+    },
+    {
+      "id": "en-b1-u12-l01-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "grandmother",
+          "right": "abuela"
+        },
+        {
+          "left": "son",
+          "right": "hijo"
+        },
+        {
+          "left": "wife",
+          "right": "esposa"
+        },
+        {
+          "left": "parents",
+          "right": "padres"
+        },
+        {
+          "left": "sister",
+          "right": "hermana"
+        },
+        {
+          "left": "husband",
+          "right": "esposo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario de familia.",
+        "incorrect": "Revisa esto: Repasa el vocabulario de familia."
+      },
+      "review_of": "en-a1-u03-l06-ex01"
+    },
+    {
+      "id": "en-b1-u12-l01-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I managed ___ finish the report on time. (to)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Manage to.",
+        "incorrect": "Revisa esto: Manage to."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was a great ___ . She won the championship. (logro)",
+      "answer": [
+        "achievement"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Achievement.",
+        "incorrect": "Revisa esto: Achievement."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She succeeded to pass the exam.",
+      "answer": [
+        "She succeeded in passing the exam.",
+        "She managed to pass the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Succeed in + -ing.",
+        "incorrect": "Revisa esto: Succeed in + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have training for two years.",
+      "answer": [
+        "I have been training for two years.",
+        "I've been training for two years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous.",
+        "incorrect": "Revisa esto: Present perfect continuous."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué logró?",
+      "options": [
+        "Tocar su canción favorita",
+        "Aprender piano",
+        "Ganar un concurso",
+        "Dar un concierto"
+      ],
+      "answer": [
+        "Tocar su canción favorita"
+      ],
+      "audio_text": "When I started learning the guitar, I could hardly play a single chord. After two years of practice, I've finally managed to play my favourite song. It was the hardest thing I've ever done.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: managed to play my favourite song.",
+        "incorrect": "Revisa esto: Dice: managed to play my favourite song."
+      },
+      "audio_script_id": "en-b1-u12-l01-ex16-a"
+    },
+    {
+      "id": "en-b1-u12-l01-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Llevo dos años aprendiendo inglés y he conseguido aprobar el examen.",
+      "answer": [
+        "I've been learning English for two years and I've managed to pass the exam.",
+        "I have been learning English for two years and I have managed to pass the exam.",
+        "I've been learning English for two years and I've succeeded in passing the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous + managed to.",
+        "incorrect": "Revisa esto: Present perfect continuous + managed to."
+      }
+    },
+    {
+      "id": "en-b1-u12-l01-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El fin de semana que viene voy a Brighton.",
+      "answer": [
+        "Next weekend I'm going to Brighton.",
+        "I'm going to Brighton next weekend."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo: next weekend.",
+        "incorrect": "Revisa esto: Sin artículo: next weekend."
+      },
+      "review_of": "en-a1-u10-l05-ex09"
+    },
+    {
+      "id": "en-b1-u12-l01-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "The station is ___ your right.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice on your right / on your left.",
+        "incorrect": "Revisa esto: Se dice on your right / on your left."
+      },
+      "review_of": "en-a1-u07-l03-ex04"
+    },
+    {
+      "id": "en-b1-u12-l01-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you heat water to 100°C, it ___.",
+      "options": [
+        "boils",
+        "will boil",
+        "boiled",
+        "is boiling"
+      ],
+      "answer": [
+        "boils"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hecho general: presente + presente.",
+        "incorrect": "Revisa esto: Hecho general: presente + presente."
+      },
+      "review_of": "en-b1-u04-l02-ex04"
+    },
+    {
+      "id": "en-b1-u12-l01-ex18",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "challenges-talk"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "achievement",
+          "ipa": "/əˈtʃiːvmənt/",
+          "tip_es": "Acento en 'chiev'."
+        },
+        {
+          "text": "challenge",
+          "ipa": "/ˈtʃælɪndʒ/",
+          "tip_es": "Acento en la primera."
+        },
+        {
+          "text": "marathon",
+          "ipa": "/ˈmærəθən/",
+          "tip_es": "Acento en la primera; 'th' /θ/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It's a real challenge. · It was a setback.",
+      "I've been training for two years.",
+      "I managed to … · She succeeded in …",
+      "Never give up! · Step by step."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-achievement"
+    },
+    {
+      "type": "vocab",
+      "id": "en-challenge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-marathon"
+    },
+    {
+      "type": "vocab",
+      "id": "en-train"
+    },
+    {
+      "type": "vocab",
+      "id": "en-injure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-setback"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cope-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-set-a-goal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-going"
+    },
+    {
+      "type": "vocab",
+      "id": "en-encourage"
+    },
+    {
+      "type": "grammar",
+      "id": "en-challenges-talk"
+    }
+  ]
+}

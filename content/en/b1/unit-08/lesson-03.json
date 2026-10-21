@@ -1,0 +1,869 @@
+{
+  "id": "en-b1-u08-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 8,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Allowed to, supposed to",
+    "es": "Permisos y normas: be allowed to, be supposed to"
+  },
+  "objective": "Al terminar hablas de normas y permisos con be allowed to, be supposed to, let y make, y distingues lo permitido de lo obligatorio.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No se permite el móvil en clase', 'se supone que debes llegar a las ocho', 'mis padres me dejaban salir tarde'. Cada expresión tiene un matiz."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Teo",
+        "text": "Are you allowed to use your phone in class at your school?",
+        "es": "¿Os dejan usar el móvil en clase en tu colegio?"
+      },
+      {
+        "speaker": "Ivy",
+        "text": "No, we aren't. We're supposed to leave them in a locker. But some students use them secretly.",
+        "es": "No. Se supone que hay que dejarlos en una taquilla. Pero algunos los usan a escondidas."
+      },
+      {
+        "speaker": "Teo",
+        "text": "At my school, teachers let us use tablets for projects. They make us hand in our work on time, though.",
+        "es": "En mi colegio, los profesores nos dejan usar tabletas para los proyectos. Eso sí, nos hacen entregar el trabajo a tiempo."
+      },
+      {
+        "speaker": "Ivy",
+        "text": "When I was younger, my parents wouldn't let me stay out after nine. They made me do my homework before dinner.",
+        "es": "De pequeña, mis padres no me dejaban salir después de las nueve. Me hacían hacer los deberes antes de cenar."
+      },
+      {
+        "speaker": "Teo",
+        "text": "I was never allowed to play video games on weekdays. I'm supposed to be studying, not playing!",
+        "es": "A mí nunca me permitían jugar a videojuegos entre semana. ¡Se supone que debo estudiar, no jugar!"
+      },
+      {
+        "speaker": "Ivy",
+        "text": "At university you can do whatever you want, but you're not allowed to cheat in exams. You're supposed to know the rules.",
+        "es": "En la universidad puedes hacer lo que quieras, pero no te dejan copiar en los exámenes. Se supone que conoces las normas."
+      },
+      {
+        "speaker": "Teo",
+        "text": "Right. And you have to wear a gown at graduation, but you don't have to bring a guest.",
+        "es": "Cierto. Y hay que llevar toga en la graduación, pero no tienes que llevar acompañante."
+      },
+      {
+        "speaker": "Ivy",
+        "text": "Is it OK if I bring my sister? She'd love to see it.",
+        "es": "¿Está bien si llevo a mi hermana? Le encantaría verlo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-be-allowed-to",
+        "lemma": "be allowed to",
+        "pos": "phrase",
+        "ipa": "/biː əˈlaʊd tə/",
+        "es": "tener permiso para",
+        "example": "We are allowed to park here."
+      },
+      {
+        "id": "en-be-supposed-to",
+        "lemma": "be supposed to",
+        "pos": "phrase",
+        "ipa": "/biː səˈpəʊzd tə/",
+        "es": "se supone que, tener que (según las normas)",
+        "example": "You're supposed to be quiet."
+      },
+      {
+        "id": "en-let",
+        "lemma": "let",
+        "pos": "verb",
+        "ipa": "/let/",
+        "es": "dejar, permitir",
+        "example": "She lets me use her car."
+      },
+      {
+        "id": "en-make",
+        "lemma": "make",
+        "pos": "verb",
+        "ipa": "/meɪk/",
+        "es": "obligar, hacer que",
+        "example": "He makes me work hard."
+      },
+      {
+        "id": "en-locker",
+        "lemma": "locker",
+        "pos": "noun",
+        "ipa": "/ˈlɒkə/",
+        "es": "taquilla",
+        "example": "Leave it in the locker."
+      },
+      {
+        "id": "en-secretly",
+        "lemma": "secretly",
+        "pos": "adv",
+        "ipa": "/ˈsiːkrətli/",
+        "es": "en secreto",
+        "example": "They talk secretly."
+      },
+      {
+        "id": "en-stay-out",
+        "lemma": "stay out",
+        "pos": "phrasal verb",
+        "ipa": "/steɪ aʊt/",
+        "es": "quedarse fuera (hasta tarde)",
+        "example": "I stayed out late."
+      },
+      {
+        "id": "en-cheat",
+        "lemma": "cheat",
+        "pos": "verb",
+        "ipa": "/tʃiːt/",
+        "es": "copiar, hacer trampa",
+        "example": "Don't cheat in exams."
+      },
+      {
+        "id": "en-rules",
+        "lemma": "rules",
+        "pos": "noun",
+        "ipa": "/ruːlz/",
+        "es": "normas",
+        "example": "Follow the rules."
+      },
+      {
+        "id": "en-gown",
+        "lemma": "gown",
+        "pos": "noun",
+        "ipa": "/ɡaʊn/",
+        "es": "toga",
+        "example": "Graduates wear a gown."
+      },
+      {
+        "id": "en-guest",
+        "lemma": "guest",
+        "pos": "noun",
+        "ipa": "/ɡest/",
+        "es": "invitado",
+        "example": "Bring a guest."
+      }
+    ],
+    "audio_script_id": "en-b1-u08-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Permisos y normas**\n\n| Expresión | Significado | Ejemplo |\n|---|---|---|\n| *be allowed to + verbo* | tener permiso | *We **are allowed to** use phones at break.* |\n| *not be allowed to* | prohibición | *You **aren't allowed to** park here.* |\n| *be supposed to + verbo* | se espera que (norma / plan) | *You're **supposed to** arrive at eight.* |\n| *let + persona + verbo (sin to)* | dejar, permitir | *My parents **let me** go out.* |\n| *make + persona + verbo (sin to)* | obligar | *They **made me** wait.* |\n\n**Pasado:** *was / were allowed to*; *let → let* (irregular); *make → made*.\n\n- *We **weren't allowed to** talk.* · *The teacher **let** us leave early.* · *They **made** us do it again.*\n\n**Pasiva de make:** en pasiva *make* lleva **to**: *I **was made to** wait.* (activa: *They made me wait.*) y *let* se sustituye por *be allowed to*: *I was allowed to go* (no *I was let go*).\n\n**Supposed to vs should vs have to**\n\n| Fuerza | Ejemplo |\n|---|---|\n| *have to / must* | obligación fuerte: *You have to wear a uniform.* |\n| *be supposed to* | norma o expectativa: *You're supposed to wear a uniform (but many don't).* |\n| *should* | consejo: *You should wear a uniform.* |\n| *don't have to* | no hace falta: *You don't have to bring a guest.* |\n\n**Ojo:** *supposed* se pronuncia /səˈpəʊzd/ (la 'd' final es débil en *supposed to* /səˈpəʊst tə/). ✘ *He lets me to go* → ✔ *He lets me go.* ✘ *They made me to wait* → ✔ *They made me wait.*\n\nPronunciación: *allowed* /əˈlaʊd/ · *cheat* /tʃiːt/ · *gown* /ɡaʊn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She lets me to go.",
+        "right": "She lets me go.",
+        "note": "Let sin to."
+      },
+      {
+        "wrong": "They made me to wait.",
+        "right": "They made me wait.",
+        "note": "Make sin to en activa."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u08-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué se supone que hacen con los móviles en el colegio de Ivy?",
+      "options": [
+        "Dejarlos en una taquilla",
+        "Usarlos en clase",
+        "Apagarlos en casa",
+        "Guardarlos en la mochila"
+      ],
+      "answer": [
+        "Dejarlos en una taquilla"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: We're supposed to leave them in a locker.",
+        "incorrect": "Revisa esto: Dice: We're supposed to leave them in a locker."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué les dejan usar a los alumnos de Teo?",
+      "options": [
+        "Tabletas para los proyectos",
+        "Móviles todo el día",
+        "Ordenadores en los exámenes",
+        "Nada"
+      ],
+      "answer": [
+        "Tabletas para los proyectos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: teachers let us use tablets for projects.",
+        "incorrect": "Revisa esto: Dice: teachers let us use tablets for projects."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 25,
+      "prompt": "A suit is ___ formal than jeans.",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      },
+      "review_of": "en-a2-u11-l05-ex03"
+    },
+    {
+      "id": "en-b1-u08-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no tienes que hacer en la graduación?",
+      "options": [
+        "Llevar acompañante",
+        "Llevar toga",
+        "Llegar a tiempo",
+        "Ir con traje"
+      ],
+      "answer": [
+        "Llevar acompañante"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: you don't have to bring a guest.",
+        "incorrect": "Revisa esto: Dice: you don't have to bring a guest."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 15,
+      "prompt": "De pequeña, Ivy podía salir después de las nueve.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: my parents wouldn't let me stay out after nine.",
+        "incorrect": "Revisa esto: Dice: my parents wouldn't let me stay out after nine."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada objeto en su categoría.",
+      "categories": [
+        "School",
+        "Electronics",
+        "Personal things"
+      ],
+      "items": [
+        {
+          "text": "pen",
+          "category": "School"
+        },
+        {
+          "text": "notebook",
+          "category": "School"
+        },
+        {
+          "text": "pencil",
+          "category": "School"
+        },
+        {
+          "text": "phone",
+          "category": "Electronics"
+        },
+        {
+          "text": "computer",
+          "category": "Electronics"
+        },
+        {
+          "text": "camera",
+          "category": "Electronics"
+        },
+        {
+          "text": "wallet",
+          "category": "Personal things"
+        },
+        {
+          "text": "keys",
+          "category": "Personal things"
+        },
+        {
+          "text": "glasses",
+          "category": "Personal things"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u11-l01-ex02"
+    },
+    {
+      "id": "en-b1-u08-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "You aren't ___ to park here. It's private.",
+      "options": [
+        "allowed",
+        "let",
+        "made",
+        "supposed to"
+      ],
+      "answer": [
+        "allowed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to.",
+        "incorrect": "Revisa esto: Be allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "My parents never ___ me stay out late.",
+      "options": [
+        "let",
+        "allowed",
+        "made",
+        "were"
+      ],
+      "answer": [
+        "let"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let + persona + verbo.",
+        "incorrect": "Revisa esto: Let + persona + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "The teacher ___ us do the test again.",
+      "options": [
+        "made",
+        "let to",
+        "allowed",
+        "supposed"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + persona + verbo.",
+        "incorrect": "Revisa esto: Make + persona + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "You're ___ to be here at eight, but nobody is.",
+      "options": [
+        "supposed",
+        "allowed",
+        "made",
+        "let"
+      ],
+      "answer": [
+        "supposed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be supposed to.",
+        "incorrect": "Revisa esto: Be supposed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ made to wait outside for an hour.",
+      "options": [
+        "was",
+        "am",
+        "did",
+        "had"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva de make: was made to.",
+        "incorrect": "Revisa esto: Pasiva de make: was made to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me to be quiet.",
+      "answer": [
+        "She told me to be quiet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      },
+      "review_of": "en-b1-u07-l04-ex14"
+    },
+    {
+      "id": "en-b1-u08-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "In the past, we ___ allowed to use calculators in exams.",
+      "options": [
+        "weren't",
+        "didn't",
+        "hadn't",
+        "wasn't"
+      ],
+      "answer": [
+        "weren't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Weren't allowed to.",
+        "incorrect": "Revisa esto: Weren't allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "forward",
+        "to",
+        "hearing",
+        "from",
+        "you",
+        ".",
+        "I",
+        "look"
+      ],
+      "answer": [
+        "I",
+        "look",
+        "forward",
+        "to",
+        "hearing",
+        "from",
+        "you",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      },
+      "review_of": "en-a2-u07-l05-ex08"
+    },
+    {
+      "id": "en-b1-u08-l03-rv05",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "chicken and rice",
+      "answer": [
+        "chicken and rice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'chicken and rice'.",
+        "incorrect": "Revisa esto: Escuchaste 'chicken and rice'."
+      },
+      "audio_script_id": "en-b1-u08-l03-rv05-a",
+      "review_of": "en-a1-u05-l01-ex04"
+    },
+    {
+      "id": "en-b1-u08-l03-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 25,
+      "prompt": "They let us ___ (go) home early.",
+      "answer": [
+        "go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let + verbo sin to.",
+        "incorrect": "Revisa esto: Let + verbo sin to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is not ___ to eat sweets. (le dejan)",
+      "answer": [
+        "allowed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Allowed to.",
+        "incorrect": "Revisa esto: Allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My boss lets me to leave early.",
+      "answer": [
+        "My boss lets me leave early."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let + verbo sin to.",
+        "incorrect": "Revisa esto: Let + verbo sin to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They made me to wait.",
+      "answer": [
+        "They made me wait.",
+        "I was made to wait."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + verbo sin to.",
+        "incorrect": "Revisa esto: Make + verbo sin to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was let to go out.",
+      "answer": [
+        "I was allowed to go out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva de let: be allowed to.",
+        "incorrect": "Revisa esto: Pasiva de let: be allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex16",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "not",
+        "allowed",
+        "to",
+        "use",
+        "your",
+        "phone",
+        "in",
+        "class",
+        ".",
+        "You",
+        "are"
+      ],
+      "answer": [
+        "You",
+        "are",
+        "not",
+        "allowed",
+        "to",
+        "use",
+        "your",
+        "phone",
+        "in",
+        "class",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be not allowed to.",
+        "incorrect": "Revisa esto: Be not allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le hacían hacer cada noche?",
+      "options": [
+        "Leer una hora",
+        "Hacer deberes",
+        "Ir a la cama pronto",
+        "Ayudar en la cocina"
+      ],
+      "answer": [
+        "Leer una hora"
+      ],
+      "audio_text": "When I was a child, my parents didn't let me watch TV on school days. I was only allowed to watch it at the weekend, and I was made to read for an hour every evening.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: made to read for an hour every evening.",
+        "incorrect": "Revisa esto: Dice: made to read for an hour every evening."
+      },
+      "audio_script_id": "en-b1-u08-l03-ex17-a"
+    },
+    {
+      "id": "en-b1-u08-l03-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se supone que debemos llegar a las ocho, pero nos dejan entrar más tarde.",
+      "answer": [
+        "We're supposed to arrive at eight, but they let us come in later.",
+        "We are supposed to arrive at eight, but they let us come in later.",
+        "We're supposed to be here at eight, but they let us come in later."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Supposed to / let.",
+        "incorrect": "Revisa esto: Supposed to / let."
+      }
+    },
+    {
+      "id": "en-b1-u08-l03-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "hurts",
+        "and",
+        "I've",
+        "got",
+        "a",
+        "cough",
+        ".",
+        "My",
+        "throat"
+      ],
+      "answer": [
+        "My",
+        "throat",
+        "hurts",
+        "and",
+        "I've",
+        "got",
+        "a",
+        "cough",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos frases unidas con and.",
+        "incorrect": "Revisa esto: Dos frases unidas con and."
+      },
+      "review_of": "en-a2-u06-l01-ex08"
+    },
+    {
+      "id": "en-b1-u08-l03-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "messages-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un amigo te invita y tú no puedes ir. Respuesta informal:",
+      "options": [
+        "Sorry, can't make it. Have fun!",
+        "I regret to inform you that I cannot attend.",
+        "Dear friend, no.",
+        "Not possible, goodbye."
+      ],
+      "answer": [
+        "Sorry, can't make it. Have fun!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta natural y amable entre amigos.",
+        "incorrect": "Revisa esto: Respuesta natural y amable entre amigos."
+      },
+      "review_of": "en-a2-u09-l05-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You're allowed to … · You're not allowed to …",
+      "You're supposed to …",
+      "My parents let me … · They made me …",
+      "I was made to … · I was allowed to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-be-allowed-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-supposed-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-let"
+    },
+    {
+      "type": "vocab",
+      "id": "en-make"
+    },
+    {
+      "type": "vocab",
+      "id": "en-locker"
+    },
+    {
+      "type": "vocab",
+      "id": "en-secretly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stay-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cheat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rules"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gown"
+    },
+    {
+      "type": "grammar",
+      "id": "en-allowed-supposed"
+    }
+  ]
+}

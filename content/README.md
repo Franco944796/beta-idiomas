@@ -4,7 +4,7 @@ Contenido en JSON estático (Fase 1, compatible con GitHub Pages). Idioma objeti
 
 ## Niveles
 
-Solo se cubren A1, A2, B1 y B2. A1 y A2 están completos; B1 y B2 se publican por etapas (ver `path.json`, campo `status` de cada lección).
+Se cubren A1, A2, B1 y B2, y los cuatro niveles están completos (cada uno con su examen final).
 
 ## Estructura
 

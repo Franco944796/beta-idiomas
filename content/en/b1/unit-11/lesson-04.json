@@ -1,0 +1,841 @@
+{
+  "id": "en-b1-u11-l04",
+  "language": "en",
+  "level": "B1",
+  "unit": 11,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I should have called",
+    "es": "Should have / shouldn't have"
+  },
+  "objective": "Al terminar expresas arrepentimiento y crítica sobre el pasado con should have, shouldn't have, ought to have y could have.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Debería haber llamado', 'no tendría que haber dicho eso'. Con should have + participio miras atrás y valoras lo que hiciste o no hiciste."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lola",
+        "text": "I feel terrible. I shouldn't have shouted at my brother yesterday.",
+        "es": "Me siento fatal. No debería haberle gritado a mi hermano ayer."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "What happened?",
+        "es": "¿Qué pasó?"
+      },
+      {
+        "speaker": "Lola",
+        "text": "He forgot my birthday, and I lost my temper. I should have stayed calm.",
+        "es": "Se olvidó de mi cumpleaños y perdí los nervios. Debería haberme calmado."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "You could have talked to him later. But you also should have known he was busy with exams.",
+        "es": "Podrías haber hablado con él después. Pero también deberías haber sabido que estaba ocupado con los exámenes."
+      },
+      {
+        "speaker": "Lola",
+        "text": "I know. I ought to have been more understanding. Now he won't answer my calls.",
+        "es": "Lo sé. Tendría que haber sido más comprensiva. Ahora no contesta mis llamadas."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "You should have apologised immediately. It's not too late, though.",
+        "es": "Tendrías que haberte disculpado enseguida. No es demasiado tarde, aun así."
+      },
+      {
+        "speaker": "Lola",
+        "text": "I wish I had called him last night. I could have saved a lot of stress.",
+        "es": "Ojalá lo hubiera llamado anoche. Podría haberme ahorrado mucho estrés."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "Send him a message now. You shouldn't have waited so long, but better late than never.",
+        "es": "Mándale un mensaje ahora. No deberías haber esperado tanto, pero más vale tarde que nunca."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-shout-at",
+        "lemma": "shout at",
+        "pos": "phrasal verb",
+        "ipa": "/ʃaʊt æt/",
+        "es": "gritar a",
+        "example": "Don't shout at me."
+      },
+      {
+        "id": "en-forget",
+        "lemma": "forget",
+        "pos": "verb",
+        "ipa": "/fəˈɡet/",
+        "es": "olvidar",
+        "example": "He forgot my birthday."
+      },
+      {
+        "id": "en-lose-one-s-temper",
+        "lemma": "lose one's temper",
+        "pos": "phrase",
+        "ipa": "/luːz wʌnz ˈtempə/",
+        "es": "perder los nervios",
+        "example": "I lost my temper."
+      },
+      {
+        "id": "en-stay-calm",
+        "lemma": "stay calm",
+        "pos": "phrase",
+        "ipa": "/steɪ kɑːm/",
+        "es": "mantener la calma",
+        "example": "Stay calm."
+      },
+      {
+        "id": "en-understanding",
+        "lemma": "understanding",
+        "pos": "adj",
+        "ipa": "/ˌʌndəˈstændɪŋ/",
+        "es": "comprensivo",
+        "example": "Be more understanding."
+      },
+      {
+        "id": "en-apologise",
+        "lemma": "apologise",
+        "pos": "verb",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "es": "disculparse",
+        "example": "Apologise to him."
+      },
+      {
+        "id": "en-immediately",
+        "lemma": "immediately",
+        "pos": "adv",
+        "ipa": "/ɪˈmiːdiətli/",
+        "es": "inmediatamente",
+        "example": "Do it immediately."
+      },
+      {
+        "id": "en-too-late",
+        "lemma": "too late",
+        "pos": "phrase",
+        "ipa": "/tuː leɪt/",
+        "es": "demasiado tarde",
+        "example": "It's not too late."
+      },
+      {
+        "id": "en-better-late-than-never",
+        "lemma": "better late than never",
+        "pos": "phrase",
+        "ipa": "/ˈbetə leɪt ðæn ˈnevə/",
+        "es": "más vale tarde que nunca",
+        "example": "Better late than never."
+      },
+      {
+        "id": "en-save",
+        "lemma": "save",
+        "pos": "verb",
+        "ipa": "/seɪv/",
+        "es": "ahorrar, evitar",
+        "example": "It saved me stress."
+      },
+      {
+        "id": "en-exam",
+        "lemma": "exam",
+        "pos": "noun",
+        "ipa": "/ɪɡˈzæm/",
+        "es": "examen",
+        "example": "He has exams."
+      }
+    ],
+    "audio_script_id": "en-b1-u11-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Should have + participio (crítica / arrepentimiento)**\n\n| Estructura | Uso | Ejemplo |\n|---|---|---|\n| *should have + participio* | debería haber (no lo hice) | *I **should have called** her.* |\n| *shouldn't have + participio* | no debería haber (lo hice) | *I **shouldn't have shouted**.* |\n| *ought to have + participio* | = should have (más formal) | *I **ought to have been** more careful.* |\n| *could have + participio* | podría haber (posibilidad no realizada) | *You **could have asked** me.* |\n| *might have + participio* | quizá hubiera (posibilidad) | *It **might have been** worse.* |\n\n**Para criticar a otros:** *You should have told me. · He shouldn't have said that.*\n\n**Para arrepentirse:** *I should have studied more. · I wish I had studied more.* (wish + past perfect)\n\n**Wish + past perfect** (arrepentimiento del pasado): *I wish I had called him.* = *I should have called him.*\n\n**If only + past perfect:** *If only I had listened!*\n\n**Preguntas:** *Should I have called her?* (poco usado) · *Why didn't you call me?* es más común.\n\n**Pasado en inglés: comparaciones**\n\n| Quiero decir… | Inglés |\n|---|---|\n| *Debería hacer eso (ahora).* | *I should do that.* |\n| *Debería haber hecho eso (ayer).* | *I **should have done** that.* |\n| *Podía haberlo hecho (y no lo hice).* | *I **could have done** it.* |\n\n**Ojo:** ✘ *I should had called* · ✘ *I should of called* (es un error de escritura frecuente por la pronunciación /ˈʃʊdəv/) → ✔ *I should have called*. En voz hablada: *should've* /ˈʃʊdəv/.\n\nPronunciación: *should've* /ˈʃʊdəv/ · *shouldn't've* /ˈʃʊdntəv/ · *apologise* /əˈpɒlədʒaɪz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I should of called.",
+        "right": "I should have called.",
+        "note": "Should have."
+      },
+      {
+        "wrong": "I should had called.",
+        "right": "I should have called.",
+        "note": "Have + participio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u11-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no debería haber hecho Lola?",
+      "options": [
+        "Gritar a su hermano",
+        "Olvidar su cumpleaños",
+        "Salir de casa",
+        "Cambiar de trabajo"
+      ],
+      "answer": [
+        "Gritar a su hermano"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: shouldn't have shouted at my brother.",
+        "incorrect": "Revisa esto: Dice: shouldn't have shouted at my brother."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué su hermano olvidó su cumpleaños?",
+      "options": [
+        "Estaba ocupado con los exámenes",
+        "Estaba de viaje",
+        "Estaba enfermo",
+        "Estaba enfadado"
+      ],
+      "answer": [
+        "Estaba ocupado con los exámenes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: he was busy with exams.",
+        "incorrect": "Revisa esto: Dice: he was busy with exams."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Marcos?",
+      "options": [
+        "Mandarle un mensaje ahora",
+        "Esperar más",
+        "Ignorarlo",
+        "Llamar a su madre"
+      ],
+      "answer": [
+        "Mandarle un mensaje ahora"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Send him a message now.",
+        "incorrect": "Revisa esto: Dice: Send him a message now."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 15,
+      "prompt": "El hermano contesta las llamadas de Lola.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: he won't answer my calls.",
+        "incorrect": "Revisa esto: Dice: he won't answer my calls."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "How many emails ___ so far today?",
+      "options": [
+        "have you written",
+        "have you been writing",
+        "did you been write",
+        "are you writing"
+      ],
+      "answer": [
+        "have you written"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many pide un resultado contable: simple.",
+        "incorrect": "Revisa esto: How many pide un resultado contable: simple."
+      },
+      "review_of": "en-b1-u01-l02-ex02"
+    },
+    {
+      "id": "en-b1-u11-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ have shouted. I'm sorry.",
+      "options": [
+        "shouldn't",
+        "couldn't",
+        "won't",
+        "mustn't"
+      ],
+      "answer": [
+        "shouldn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shouldn't have + participio.",
+        "incorrect": "Revisa esto: Shouldn't have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "This curry is very ___ .",
+      "options": [
+        "spicy",
+        "sweet",
+        "bland",
+        "bitter"
+      ],
+      "answer": [
+        "spicy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Spicy.",
+        "incorrect": "Revisa esto: Spicy."
+      },
+      "review_of": "en-b1-u10-l06-ex03"
+    },
+    {
+      "id": "en-b1-u11-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'ir en bicicleta'?",
+      "options": [
+        "go by bike",
+        "go with bike",
+        "go on bike",
+        "go in bike"
+      ],
+      "answer": [
+        "go by bike"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By + transporte: go by bike.",
+        "incorrect": "Revisa esto: By + transporte: go by bike."
+      },
+      "review_of": "en-a1-u07-l04-ex04"
+    },
+    {
+      "id": "en-b1-u11-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ have told me earlier. Now it's too late.",
+      "options": [
+        "should",
+        "shall",
+        "would to",
+        "must to"
+      ],
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ have called. She had time, but she didn't.",
+      "options": [
+        "could",
+        "can",
+        "will",
+        "must"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could have = podía haber.",
+        "incorrect": "Revisa esto: Could have = podía haber."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "I should have ___ more carefully.",
+      "options": [
+        "listened",
+        "listen",
+        "listening",
+        "to listen"
+      ],
+      "answer": [
+        "listened"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He mustn't be at home. The lights are on.",
+      "answer": [
+        "He must be at home. The lights are on.",
+        "He can't be out. The lights are on."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción: can't.",
+        "incorrect": "Revisa esto: Deducción: can't."
+      },
+      "review_of": "en-b1-u10-l06-ex15"
+    },
+    {
+      "id": "en-b1-u11-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ studied more last year.",
+      "options": [
+        "had",
+        "have",
+        "would",
+        "did"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I shouldn't have eaten so much' means...",
+      "options": [
+        "Comí demasiado y me arrepiento",
+        "No comí mucho",
+        "Voy a comer más",
+        "No puedo comer"
+      ],
+      "answer": [
+        "Comí demasiado y me arrepiento"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Arrepentimiento.",
+        "incorrect": "Revisa esto: Arrepentimiento."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 25,
+      "prompt": "You should ___ (ask) me before you borrowed the car.",
+      "answer": [
+        "have asked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ought ___ have been more careful. (to)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ought to have.",
+        "incorrect": "Revisa esto: Ought to have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should of called her yesterday.",
+      "answer": [
+        "I should have called her yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have, no should of.",
+        "incorrect": "Revisa esto: Should have, no should of."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ this photo taken? (fue)",
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where was it taken?",
+        "incorrect": "Revisa esto: Where was it taken?"
+      },
+      "review_of": "en-b1-u05-l03-ex11"
+    },
+    {
+      "id": "en-b1-u11-l04-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should had studied more.",
+      "answer": [
+        "I should have studied more."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "In my country it's common ___ lunch at two.",
+      "options": [
+        "to have",
+        "having to",
+        "have",
+        "for have"
+      ],
+      "answer": [
+        "to have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's common to + verbo.",
+        "incorrect": "Revisa esto: It's common to + verbo."
+      },
+      "review_of": "en-b1-u10-l01-ex10"
+    },
+    {
+      "id": "en-b1-u11-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She shouldn't have shouting at him.",
+      "answer": [
+        "She shouldn't have shouted at him."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex16",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "apologised",
+        "immediately",
+        ".",
+        "I",
+        "should"
+      ],
+      "answer": [
+        "I",
+        "should",
+        "have",
+        "apologised",
+        "immediately",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l04-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué podría haber hecho?",
+      "options": [
+        "Pedir ayuda al profesor",
+        "Copiar",
+        "Viajar",
+        "Dejar el curso"
+      ],
+      "answer": [
+        "Pedir ayuda al profesor"
+      ],
+      "audio_text": "I should have studied more for the exam. I could have asked my teacher for help, but I was too shy. If only I had asked, I wouldn't have failed.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I could have asked my teacher for help.",
+        "incorrect": "Revisa esto: Dice: I could have asked my teacher for help."
+      },
+      "audio_script_id": "en-b1-u11-l04-ex17-a"
+    },
+    {
+      "id": "en-b1-u11-l04-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the five of May.",
+      "answer": [
+        "It's the fifth of May."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El día es un ordinal: fifth.",
+        "incorrect": "Revisa esto: El día es un ordinal: fifth."
+      },
+      "review_of": "en-a1-u10-l06-ex07"
+    },
+    {
+      "id": "en-b1-u11-l04-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada instrucción con su significado.",
+      "pairs": [
+        {
+          "left": "Open your book.",
+          "right": "Abre tu libro."
+        },
+        {
+          "left": "Listen and repeat.",
+          "right": "Escucha y repite."
+        },
+        {
+          "left": "Raise your hand.",
+          "right": "Levanta la mano."
+        },
+        {
+          "left": "Sit down.",
+          "right": "Siéntate."
+        },
+        {
+          "left": "Close the door.",
+          "right": "Cierra la puerta."
+        },
+        {
+          "left": "Write your name.",
+          "right": "Escribe tu nombre."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son instrucciones típicas de clase.",
+        "incorrect": "Revisa esto: Son instrucciones típicas de clase."
+      },
+      "review_of": "en-a1-u11-l05-ex01"
+    },
+    {
+      "id": "en-b1-u11-l04-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Debería haberte llamado antes y no debería haber dicho eso.",
+      "answer": [
+        "I should have called you earlier and I shouldn't have said that.",
+        "I should have called you before and I shouldn't have said that."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have / shouldn't have.",
+        "incorrect": "Revisa esto: Should have / shouldn't have."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I should have called. · I shouldn't have said that.",
+      "You could have asked me.",
+      "I ought to have been more careful.",
+      "I wish I had … · If only I had …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-shout-at"
+    },
+    {
+      "type": "vocab",
+      "id": "en-forget"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lose-one-s-temper"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stay-calm"
+    },
+    {
+      "type": "vocab",
+      "id": "en-understanding"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apologise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-immediately"
+    },
+    {
+      "type": "vocab",
+      "id": "en-too-late"
+    },
+    {
+      "type": "vocab",
+      "id": "en-better-late-than-never"
+    },
+    {
+      "type": "vocab",
+      "id": "en-save"
+    },
+    {
+      "type": "grammar",
+      "id": "en-should-have"
+    }
+  ]
+}

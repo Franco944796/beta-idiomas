@@ -1,0 +1,919 @@
+{
+  "id": "en-b2-u14-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 14,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Paraphrase and summarise",
+    "es": "Parafrasear y resumir"
+  },
+  "objective": "Al terminar parafraseas oraciones con otras palabras y resumes un texto manteniendo las ideas clave y evitando copiar.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Parafrasear y resumir son habilidades clave en B2: demuestran que entiendes un texto y que dominas sinónimos y estructuras. Aprendes técnicas para cambiar palabras, orden y estructura sin cambiar el significado."
+  },
+  "input": {
+    "type": "text",
+    "text": "Original text\n\n'Social media has changed the way young people communicate. Many teenagers spend more than four hours a day online, which some researchers believe may harm their concentration and sleep. However, others argue that digital platforms also give young people opportunities to learn, express themselves and stay connected with friends who live far away.'\n\nParaphrase\n\nThe way teenagers communicate has been transformed by social networks. According to some experts, spending over four hours daily on the internet could damage their ability to concentrate and rest. Nevertheless, there are those who maintain that these platforms offer young people chances to study, share their ideas and keep in touch with distant friends.\n\nSummary\n\nWhile heavy use of social media may affect teenagers' sleep and attention, it also offers educational and social benefits.\n\nTechniques\n\nSummaries are much shorter than the original. They include only the main ideas, and they never contain personal opinions or minor details.",
+    "es": "Texto original: 'Las redes sociales han cambiado la forma en que se comunican los jóvenes. Muchos adolescentes pasan más de cuatro horas al día conectados, lo que algunos investigadores creen que puede perjudicar su concentración y su sueño. Sin embargo, otros sostienen que las plataformas digitales también ofrecen a los jóvenes oportunidades de aprender, expresarse y mantenerse en contacto con amigos que viven lejos.' Paráfrasis: La forma en que se comunican los adolescentes ha sido transformada por las redes sociales. Según algunos expertos, pasar más de cuatro horas diarias en internet podría dañar su capacidad de concentrarse y descansar. No obstante, hay quienes sostienen que estas plataformas ofrecen a los jóvenes oportunidades para estudiar, compartir sus ideas y mantenerse en contacto con amigos lejanos. Resumen: Aunque el uso intensivo de las redes sociales puede afectar al sueño y la atención de los adolescentes, también ofrece beneficios educativos y sociales. Técnicas: Los resúmenes son mucho más cortos que el original. Incluyen solo las ideas principales y nunca contienen opiniones personales ni detalles menores.",
+    "glossary": [
+      {
+        "id": "en-paraphrase",
+        "lemma": "paraphrase",
+        "pos": "verb",
+        "ipa": "/ˈpærəfreɪz/",
+        "es": "parafrasear",
+        "example": "Paraphrase the sentence."
+      },
+      {
+        "id": "en-summarise",
+        "lemma": "summarise",
+        "pos": "verb",
+        "ipa": "/ˈsʌməraɪz/",
+        "es": "resumir",
+        "example": "Summarise the text."
+      },
+      {
+        "id": "en-main-idea",
+        "lemma": "main idea",
+        "pos": "noun",
+        "ipa": "/meɪn aɪˈdɪə/",
+        "es": "idea principal",
+        "example": "Find the main idea."
+      },
+      {
+        "id": "en-transform",
+        "lemma": "transform",
+        "pos": "verb",
+        "ipa": "/trænsˈfɔːm/",
+        "es": "transformar",
+        "example": "Transformed by social media."
+      },
+      {
+        "id": "en-according-to",
+        "lemma": "according to",
+        "pos": "phrase",
+        "ipa": "/əˈkɔːdɪŋ tə/",
+        "es": "según",
+        "example": "According to experts."
+      },
+      {
+        "id": "en-damage",
+        "lemma": "damage",
+        "pos": "verb",
+        "ipa": "/ˈdæmɪdʒ/",
+        "es": "dañar",
+        "example": "Damage concentration."
+      },
+      {
+        "id": "en-maintain",
+        "lemma": "maintain",
+        "pos": "verb",
+        "ipa": "/meɪnˈteɪn/",
+        "es": "sostener",
+        "example": "Maintain that…"
+      },
+      {
+        "id": "en-keep-in-touch",
+        "lemma": "keep in touch",
+        "pos": "phrase",
+        "ipa": "/kiːp ɪn tʌtʃ/",
+        "es": "mantenerse en contacto",
+        "example": "Keep in touch."
+      },
+      {
+        "id": "en-heavy-use",
+        "lemma": "heavy use",
+        "pos": "noun",
+        "ipa": "/ˈhevi juːs/",
+        "es": "uso intensivo",
+        "example": "Heavy use."
+      },
+      {
+        "id": "en-minor-detail",
+        "lemma": "minor detail",
+        "pos": "noun",
+        "ipa": "/ˈmaɪnə ˈdiːteɪl/",
+        "es": "detalle menor",
+        "example": "Leave out minor details."
+      },
+      {
+        "id": "en-concise",
+        "lemma": "concise",
+        "pos": "adj",
+        "ipa": "/kənˈsaɪs/",
+        "es": "conciso",
+        "example": "A concise summary."
+      },
+      {
+        "id": "en-synonym",
+        "lemma": "synonym",
+        "pos": "noun",
+        "ipa": "/ˈsɪnənɪm/",
+        "es": "sinónimo",
+        "example": "Use a synonym."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Paráfrasis vs resumen**\n\n| | Paráfrasis | Resumen |\n|---|---|---|\n| **Longitud** | similar al original | mucho más corto |\n| **Contenido** | todas las ideas | solo las ideas principales |\n| **Palabras** | sinónimos y otra estructura | palabras propias |\n| **Opinión** | ninguna | ninguna |\n\n**Técnicas de paráfrasis**\n\n1. **Sinónimos:** *harm → damage · believe → maintain · opportunities → chances.*\n2. **Cambio de categoría:** *The change in the economy was sudden.* → *The economy changed suddenly.*\n3. **Voz activa/pasiva:** *Social media has changed communication.* → *Communication has been changed by social media.*\n4. **Orden de la oración:** *Although it was expensive, I bought it.* → *I bought it, even though it was expensive.*\n5. **Estructuras equivalentes:** *Since he was late…* → *Because of his lateness…* · *if → provided that* · *however → nevertheless.*\n6. **Cuantificadores:** *many → a large number of · some → a few · most → the majority of.*\n\n**Cómo evitar el plagio**\n\n- No copies más de 2–3 palabras seguidas del original.\n- Cambia estructura y vocabulario; mantén el significado.\n- Cita la fuente si es necesario: *According to the report… · As stated by…*\n\n**Cómo resumir en 4 pasos**\n\n1. Lee y subraya las ideas principales.\n2. Elimina ejemplos, repeticiones y detalles.\n3. Redacta con tus palabras, en una o dos frases.\n4. Comprueba: ¿mantiene el sentido? ¿tiene opiniones mías?\n\n**Verbos para introducir un resumen**\n\n- *The text argues that… · The author claims that… · The article describes… · The report concludes that…*\n\n**Errores típicos**\n\n- ✘ *Social media has changed the way young people communicate.* (copiar) → ✔ *Young people's communication has been transformed by social networks.*\n- ✘ *The text says that I think social media is bad.* → ✔ *The text suggests that heavy use may harm sleep.*\n- ✘ *The author say that…* → ✔ *The author says that…*\n- ✘ *In summary, the author talks about many thing.* → ✔ *In summary, the author discusses several issues.*\n- ✘ *Though it was raining, but we went out.* → ✔ *Although it was raining, we went out.*\n\n**Ojo:** el sinónimo debe tener el mismo matiz: *thin* y *slim* no siempre equivalen a *skinny*. Cuidado con cambiar el significado al parafrasear (*may harm* ≠ *will harm*).\n\nPronunciación: *paraphrase* /ˈpærəfreɪz/ · *concise* /kənˈsaɪs/ · *synonym* /ˈsɪnənɪm/ · *summarise* /ˈsʌməraɪz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The author say",
+        "right": "The author says",
+        "note": "Concordancia."
+      },
+      {
+        "wrong": "many thing",
+        "right": "many things",
+        "note": "Plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u14-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántas horas al día pasan muchos adolescentes en línea según el texto?",
+      "options": [
+        "Más de cuatro",
+        "Dos",
+        "Una",
+        "Diez"
+      ],
+      "answer": [
+        "Más de cuatro"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: more than four hours.",
+        "incorrect": "Revisa esto: Dice: more than four hours."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué temen algunos investigadores?",
+      "options": [
+        "Que afecte la concentración y el sueño",
+        "Que suba el precio",
+        "Que se pierdan amigos",
+        "Que no haya wifi"
+      ],
+      "answer": [
+        "Que afecte la concentración y el sueño"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: harm their concentration and sleep.",
+        "incorrect": "Revisa esto: Dice: harm their concentration and sleep."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué beneficio mencionan otros?",
+      "options": [
+        "Aprender, expresarse y mantener contacto",
+        "Ganar dinero",
+        "Dormir más",
+        "Viajar"
+      ],
+      "answer": [
+        "Aprender, expresarse y mantener contacto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: learn, express themselves, stay connected.",
+        "incorrect": "Revisa esto: Dice: learn, express themselves, stay connected."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no debe contener un resumen?",
+      "options": [
+        "Opiniones personales",
+        "Ideas principales",
+        "Frases cortas",
+        "Palabras propias"
+      ],
+      "answer": [
+        "Opiniones personales"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: never contain personal opinions.",
+        "incorrect": "Revisa esto: Dice: never contain personal opinions."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 15,
+      "prompt": "Una paráfrasis es siempre mucho más corta que el original.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La paráfrasis tiene longitud similar.",
+        "incorrect": "Revisa esto: La paráfrasis tiene longitud similar."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 25,
+      "prompt": "Do I need any special ___? (material, equipo)",
+      "answer": [
+        "equipment"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Equipment es incontable: any equipment.",
+        "incorrect": "Revisa esto: Equipment es incontable: any equipment."
+      },
+      "review_of": "en-a2-u13-l03-ex04"
+    },
+    {
+      "id": "en-b2-u14-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best paraphrase of 'Many teenagers spend more than four hours a day online'?",
+      "options": [
+        "A large number of adolescents spend over four hours daily on the internet.",
+        "Many teenagers spend more than four hours a day online.",
+        "Teenagers hate the internet.",
+        "Four hours are many."
+      ],
+      "answer": [
+        "A large number of adolescents spend over four hours daily on the internet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sinónimos y estructura.",
+        "incorrect": "Revisa esto: Sinónimos y estructura."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is a paraphrase of 'Although it was expensive, I bought it'?",
+      "options": [
+        "I bought it even though it was expensive.",
+        "It was expensive because I bought it.",
+        "I didn't buy it.",
+        "I bought it since it was cheap."
+      ],
+      "answer": [
+        "I bought it even though it was expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden y conector.",
+        "incorrect": "Revisa esto: Orden y conector."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "'The economy changed suddenly' can be rephrased as...",
+      "options": [
+        "There was a sudden change in the economy.",
+        "The economy was not changed.",
+        "The economy is slowly changing.",
+        "A sudden economy changed."
+      ],
+      "answer": [
+        "There was a sudden change in the economy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cambio de categoría.",
+        "incorrect": "Revisa esto: Cambio de categoría."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best summary?",
+      "options": [
+        "Heavy use of social media may harm sleep but offers social benefits.",
+        "Teenagers use the internet.",
+        "I think social media is bad.",
+        "The text has four hours."
+      ],
+      "answer": [
+        "Heavy use of social media may harm sleep but offers social benefits."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ideas principales.",
+        "incorrect": "Revisa esto: Ideas principales."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "It depends ___ the weather.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "in"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      },
+      "review_of": "en-b2-u06-l06-ex09"
+    },
+    {
+      "id": "en-b2-u14-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I urge to the council reconsider its decision.",
+      "answer": [
+        "I urge the council to reconsider its decision."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Urge someone to.",
+        "incorrect": "Revisa esto: Urge someone to."
+      },
+      "review_of": "en-b2-u11-l05-ex15"
+    },
+    {
+      "id": "en-b2-u14-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "emphasis"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ remember the moment the storm started.",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "am"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Énfasis presente.",
+        "incorrect": "Revisa esto: Énfasis presente."
+      },
+      "review_of": "en-b2-u13-l03-ex06"
+    },
+    {
+      "id": "en-b2-u14-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The people was very friendly and helpful.",
+      "answer": [
+        "The people were very friendly and helpful."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People plural.",
+        "incorrect": "Revisa esto: People plural."
+      },
+      "review_of": "en-b2-u13-l05-ex18"
+    },
+    {
+      "id": "en-b2-u14-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence means I have more than one sister?",
+      "options": [
+        "The sister who lives in Rome is a doctor.",
+        "My sister, who lives in Rome, is a doctor.",
+        "My sister who lives, in Rome is a doctor.",
+        "My sister is a doctor, that lives in Rome."
+      ],
+      "answer": [
+        "The sister who lives in Rome is a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Especificativa: sin comas.",
+        "incorrect": "Revisa esto: Especificativa: sin comas."
+      },
+      "review_of": "en-b2-u01-l03-ex11"
+    },
+    {
+      "id": "en-b2-u14-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is a synonym of 'maintain' (sostener una opinión)?",
+      "options": [
+        "claim",
+        "repair",
+        "paint",
+        "ignore"
+      ],
+      "answer": [
+        "claim"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sinónimo.",
+        "incorrect": "Revisa esto: Sinónimo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "'However' can be replaced by...",
+      "options": [
+        "Nevertheless",
+        "Therefore",
+        "Moreover",
+        "Because"
+      ],
+      "answer": [
+        "Nevertheless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector contrastivo.",
+        "incorrect": "Revisa esto: Conector contrastivo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "'According to' is used to...",
+      "options": [
+        "Citar la fuente",
+        "Dar tu opinión",
+        "Hacer una pregunta",
+        "Contar un chiste"
+      ],
+      "answer": [
+        "Citar la fuente"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Citar.",
+        "incorrect": "Revisa esto: Citar."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "The report ___ that emissions will rise.",
+      "options": [
+        "concludes",
+        "conclude",
+        "concluding",
+        "is conclude"
+      ],
+      "answer": [
+        "concludes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente tercera persona.",
+        "incorrect": "Revisa esto: Presente tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we went out.",
+      "options": [
+        "Although",
+        "But",
+        "Because",
+        "So"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although sin but.",
+        "incorrect": "Revisa esto: Although sin but."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-rv07",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one strawberry → ten ___",
+      "answer": [
+        "strawberries"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ies.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ies."
+      },
+      "review_of": "en-a1-u05-l02-ex02"
+    },
+    {
+      "id": "en-b2-u14-l03-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 25,
+      "prompt": "A good summary should be ___ and include only the main ideas. (conciso)",
+      "answer": [
+        "concise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concise.",
+        "incorrect": "Revisa esto: Concise."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ to the report, emissions are rising. (según)",
+      "answer": [
+        "According"
+      ],
+      "accepted_alternatives": [
+        "according"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to.",
+        "incorrect": "Revisa esto: According to."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The author say that social media is useful.",
+      "answer": [
+        "The author says that social media is useful."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concordancia.",
+        "incorrect": "Revisa esto: Concordancia."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Though it was raining, but we went out.",
+      "answer": [
+        "Although it was raining, we went out.",
+        "Though it was raining, we went out.",
+        "It was raining, but we went out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Though/but.",
+        "incorrect": "Revisa esto: Though/but."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and I are teachers. ___ are from London.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Anna and I' = we.",
+        "incorrect": "Revisa esto: 'Anna and I' = we."
+      },
+      "review_of": "en-a1-u02-l06-ex04"
+    },
+    {
+      "id": "en-b2-u14-l03-rv09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is more formal?",
+      "options": [
+        "It is often argued that …",
+        "Lots of people say that …",
+        "Everyone knows that …",
+        "People moan that …"
+      ],
+      "answer": [
+        "It is often argued that …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro formal.",
+        "incorrect": "Revisa esto: Registro formal."
+      },
+      "review_of": "en-b2-u08-l05-ex09"
+    },
+    {
+      "id": "en-b2-u14-l03-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Why don't we to go to the beach?",
+      "answer": [
+        "Why don't we go to the beach?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de Why don't we va el verbo base.",
+        "incorrect": "Revisa esto: Después de Why don't we va el verbo base."
+      },
+      "review_of": "en-a2-u05-l05-ex05"
+    },
+    {
+      "id": "en-b2-u14-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In summary, the author talks about many thing.",
+      "answer": [
+        "In summary, the author talks about many things.",
+        "In summary, the author discusses several issues."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué concluyen los autores?",
+      "options": [
+        "Una mezcla de clases online y presenciales funciona mejor",
+        "Solo online",
+        "Solo presencial",
+        "Ninguna"
+      ],
+      "answer": [
+        "Una mezcla de clases online y presenciales funciona mejor"
+      ],
+      "audio_text": "The report says that online learning has grown rapidly. It gives students flexibility, but some feel isolated. The authors conclude that a mix of online and face-to-face classes works best.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: a mix works best.",
+        "incorrect": "Revisa esto: Dice: a mix works best."
+      },
+      "audio_script_id": "en-b2-u14-l03-ex20-a"
+    },
+    {
+      "id": "en-b2-u14-l03-ex21",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 180,
+      "prompt": "Resume en una o dos frases (30 a 50 palabras) este texto, sin copiar: 'Cities around the world are introducing low-emission zones to reduce pollution. Supporters say they improve air quality and health. Critics argue that they hurt small businesses and unfairly affect low-income drivers.'",
+      "min_words": 22,
+      "self_check_es": [
+        "¿Incluyes la idea principal?",
+        "¿Mencionas los dos puntos de vista?",
+        "¿Evitas copiar frases del original?",
+        "¿No incluyes opinión personal?"
+      ],
+      "model_answer": "Many cities are creating low-emission zones to improve air quality and public health, but critics claim these measures may harm small businesses and disadvantage poorer drivers.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u14-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Según el informe, la mayoría de los jóvenes pasa mucho tiempo en línea, aunque algunos expertos advierten de los riesgos.",
+      "answer": [
+        "According to the report, most young people spend a lot of time online, although some experts warn about the risks.",
+        "According to the report, the majority of young people spend a lot of time online, although some experts warn of the risks."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resumen.",
+        "incorrect": "Revisa esto: Resumen."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "According to the text, …",
+      "The author argues that …",
+      "Nevertheless · Although",
+      "concise · main idea"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-paraphrase"
+    },
+    {
+      "type": "vocab",
+      "id": "en-summarise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-main-idea"
+    },
+    {
+      "type": "vocab",
+      "id": "en-transform"
+    },
+    {
+      "type": "vocab",
+      "id": "en-according-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-damage"
+    },
+    {
+      "type": "vocab",
+      "id": "en-maintain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-in-touch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-heavy-use"
+    },
+    {
+      "type": "vocab",
+      "id": "en-minor-detail"
+    },
+    {
+      "type": "grammar",
+      "id": "en-paraphrase-summarise"
+    }
+  ]
+}

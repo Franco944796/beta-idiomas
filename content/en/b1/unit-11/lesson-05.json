@@ -1,0 +1,733 @@
+{
+  "id": "en-b1-u11-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 11,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "An informal letter",
+    "es": "Una carta o email informal"
+  },
+  "objective": "Al terminar escribes una carta o email informal: saludas, cuentas novedades, preguntas por el otro y te despides con naturalidad.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un email a un amigo no se escribe como una carta formal. Se usan contracciones, expresiones cercanas y un tono personal."
+  },
+  "input": {
+    "type": "text",
+    "text": "Hi Sam,\n\nHow's it going? Sorry I haven't written for ages! I've been really busy since I started my new job.\n\nGuess what? I'm moving to Valencia next month! I've always wanted to live near the sea, and when this opportunity came up, I couldn't say no. I'll be working for a travel company. I'm a bit nervous, but also really excited.\n\nBy the way, I was thinking about our trip last summer. Do you remember when we got lost in the mountains? It was terrifying, but now it makes me laugh! We should have taken a map, shouldn't we?\n\nHow about you? How's your family? Are you still playing football on Sundays? I'd love to hear all your news.\n\nWhy don't you come and visit me in October? I'll have a spare room, and we can explore the city together.\n\nWrite back soon!\n\nLots of love,\nIsa\n\nP.S. Say hi to your brother from me!",
+    "es": "Hola Sam: ¿Qué tal? ¡Perdona que no te haya escrito en siglos! He estado muy ocupada desde que empecé mi nuevo trabajo. ¿Sabes qué? ¡Me mudo a Valencia el mes que viene! Siempre he querido vivir cerca del mar y cuando surgió esta oportunidad no pude decir que no. Trabajaré para una empresa de viajes. Estoy un poco nerviosa, pero también muy ilusionada. Por cierto, estaba pensando en nuestro viaje del verano pasado. ¿Te acuerdas de cuando nos perdimos en la montaña? Fue aterrador, ¡pero ahora me hace reír! Deberíamos haber llevado un mapa, ¿verdad? ¿Y tú? ¿Cómo está tu familia? ¿Sigues jugando al fútbol los domingos? Me encantaría saber todas tus novedades. ¿Por qué no vienes a visitarme en octubre? Tendré una habitación libre y podemos explorar la ciudad juntos. ¡Escríbeme pronto! Un abrazo, Isa. P. D.: ¡Saluda a tu hermano de mi parte!",
+    "glossary": [
+      {
+        "id": "en-how-s-it-going",
+        "lemma": "how's it going",
+        "pos": "phrase",
+        "ipa": "/haʊz ɪt ˈɡəʊɪŋ/",
+        "es": "¿qué tal?",
+        "example": "Hi, how's it going?"
+      },
+      {
+        "id": "en-for-ages",
+        "lemma": "for ages",
+        "pos": "phrase",
+        "ipa": "/fər ˈeɪdʒɪz/",
+        "es": "durante mucho tiempo",
+        "example": "I haven't seen you for ages."
+      },
+      {
+        "id": "en-guess-what",
+        "lemma": "guess what",
+        "pos": "phrase",
+        "ipa": "/ɡes wɒt/",
+        "es": "¿a que no sabes qué?",
+        "example": "Guess what? I got the job!"
+      },
+      {
+        "id": "en-opportunity",
+        "lemma": "opportunity",
+        "pos": "noun",
+        "ipa": "/ˌɒpəˈtjuːnəti/",
+        "es": "oportunidad",
+        "example": "A great opportunity."
+      },
+      {
+        "id": "en-come-up",
+        "lemma": "come up",
+        "pos": "phrasal verb",
+        "ipa": "/kʌm ʌp/",
+        "es": "surgir",
+        "example": "An opportunity came up."
+      },
+      {
+        "id": "en-excited",
+        "lemma": "excited",
+        "pos": "adj",
+        "ipa": "/ɪkˈsaɪtɪd/",
+        "es": "ilusionado",
+        "example": "I'm excited."
+      },
+      {
+        "id": "en-by-the-way",
+        "lemma": "by the way",
+        "pos": "phrase",
+        "ipa": "/baɪ ðə weɪ/",
+        "es": "por cierto",
+        "example": "By the way, I moved."
+      },
+      {
+        "id": "en-terrifying",
+        "lemma": "terrifying",
+        "pos": "adj",
+        "ipa": "/ˈterɪfaɪɪŋ/",
+        "es": "aterrador",
+        "example": "It was terrifying."
+      },
+      {
+        "id": "en-spare-room",
+        "lemma": "spare room",
+        "pos": "noun",
+        "ipa": "/speə ruːm/",
+        "es": "habitación libre",
+        "example": "I have a spare room."
+      },
+      {
+        "id": "en-explore",
+        "lemma": "explore",
+        "pos": "verb",
+        "ipa": "/ɪkˈsplɔː/",
+        "es": "explorar",
+        "example": "Let's explore the city."
+      },
+      {
+        "id": "en-write-back",
+        "lemma": "write back",
+        "pos": "phrasal verb",
+        "ipa": "/raɪt bæk/",
+        "es": "responder (por escrito)",
+        "example": "Write back soon."
+      },
+      {
+        "id": "en-p-s",
+        "lemma": "P.S.",
+        "pos": "abbr",
+        "ipa": "/ˌpiː ˈes/",
+        "es": "posdata",
+        "example": "P.S. Say hi!"
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un email informal**\n\n| Parte | Frases |\n|---|---|\n| **Saludo** | *Hi Sam, · Hello Sam, · Dear Sam, (algo más formal)* |\n| **Apertura** | *How's it going? · How are you? · Sorry I haven't written for ages! · Thanks for your email.* |\n| **Novedades** | *Guess what? · I've got some great news. · Did I tell you …?* |\n| **Recuerdos** | *Do you remember when …? · I was thinking about …* |\n| **Preguntas** | *How about you? · How's your family? · What have you been up to?* |\n| **Invitación** | *Why don't you come …? · Would you like to …? · How about meeting up …?* |\n| **Despedida** | *Write back soon! · Take care! · Speak soon! · Lots of love, · Best wishes, · Cheers,* |\n| **P.S.** | *P.S. Say hi to …* |\n\n**Estilo informal**\n\n- Contracciones: *I'm, don't, it's, I'll.*\n- Expresiones coloquiales: *by the way, guess what, a bit, really, pretty, loads of.*\n- Frases cortas, signos de exclamación (*!*) con moderación.\n- Tiempos: presente perfecto (*I've been busy*), presente continuo para planes (*I'm moving*), pasado simple para anécdotas (*we got lost*).\n\n**Conectores informales:** *anyway, so, by the way, also, but, though.*\n\n**Cierres según la relación:** *Love / Lots of love* (familia, amigos íntimos) · *Best wishes / Take care* (amigos) · *Cheers* (muy informal, UK) · *Regards* (más neutro).\n\n**Ojo:** en un email informal no se usa *Yours sincerely*. *Dear* funciona, pero *Hi* es lo más común. *I look forward to hearing from you* es formal; informal: *Can't wait to hear from you!*\n\nPronunciación: *opportunity* /ˌɒpəˈtjuːnəti/ · *terrifying* /ˈterɪfaɪɪŋ/ · *explore* /ɪkˈsplɔː/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Yours faithfully (a un amigo).",
+        "right": "Lots of love / Take care.",
+        "note": "Despedida informal."
+      },
+      {
+        "wrong": "I don't see you since...",
+        "right": "I haven't seen you since...",
+        "note": "Present perfect + since."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u11-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le cuenta Isa a Sam?",
+      "options": [
+        "Que se muda a Valencia",
+        "Que se casa",
+        "Que cambia de país",
+        "Que está enferma"
+      ],
+      "answer": [
+        "Que se muda a Valencia"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'm moving to Valencia next month!",
+        "incorrect": "Revisa esto: Dice: I'm moving to Valencia next month!"
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué recuerdan del verano pasado?",
+      "options": [
+        "Que se perdieron en la montaña",
+        "Que fueron a la playa",
+        "Que fueron a un concierto",
+        "Que viajaron en avión"
+      ],
+      "answer": [
+        "Que se perdieron en la montaña"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: we got lost in the mountains.",
+        "incorrect": "Revisa esto: Dice: we got lost in the mountains."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm not sure where Anna is. She ___ be at the library.",
+      "options": [
+        "might",
+        "must to",
+        "can't to",
+        "will to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posible: might.",
+        "incorrect": "Revisa esto: Posible: might."
+      },
+      "review_of": "en-b1-u10-l02-ex07"
+    },
+    {
+      "id": "en-b1-u11-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que la excursión fue agotadora:",
+      "options": [
+        "The trip was tiring.",
+        "The trip was tired.",
+        "I was tiring.",
+        "The trip tired."
+      ],
+      "answer": [
+        "The trip was tiring."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La excursión (cosa): tiring.",
+        "incorrect": "Revisa esto: La excursión (cosa): tiring."
+      },
+      "review_of": "en-a2-u13-l05-ex04"
+    },
+    {
+      "id": "en-b1-u11-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le propone a Sam?",
+      "options": [
+        "Visitarla en octubre",
+        "Mudarse con ella",
+        "Llamarla mañana",
+        "Trabajar con ella"
+      ],
+      "answer": [
+        "Visitarla en octubre"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Why don't you come and visit me in October?",
+        "incorrect": "Revisa esto: Dice: Why don't you come and visit me in October?"
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The environment of my office is nice.",
+      "answer": [
+        "The atmosphere in my office is nice.",
+        "The working environment in my office is nice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Environment ≠ ambiente en general.",
+        "incorrect": "Revisa esto: Environment ≠ ambiente en general."
+      },
+      "review_of": "en-b1-u09-l01-ex13"
+    },
+    {
+      "id": "en-b1-u11-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 15,
+      "prompt": "Isa escribe a Sam en tono formal.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Usa Hi, contracciones y P.S.: es informal.",
+        "incorrect": "Revisa esto: Usa Hi, contracciones y P.S.: es informal."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "I haven't finished yet.",
+        "I have finished yet.",
+        "I haven't yet finished it already.",
+        "I yet haven't finished."
+      ],
+      "answer": [
+        "I haven't finished yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet va al final de la negativa.",
+        "incorrect": "Revisa esto: Yet va al final de la negativa."
+      },
+      "review_of": "en-a2-u08-l03-ex06"
+    },
+    {
+      "id": "en-b1-u11-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which closing is informal?",
+      "options": [
+        "Lots of love,",
+        "Yours faithfully,",
+        "Yours sincerely,",
+        "Respectfully,"
+      ],
+      "answer": [
+        "Lots of love,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Informal.",
+        "incorrect": "Revisa esto: Informal."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which opening is informal?",
+      "options": [
+        "Hi Sam, how's it going?",
+        "Dear Sir or Madam,",
+        "To whom it may concern,",
+        "I am writing to inform you,"
+      ],
+      "answer": [
+        "Hi Sam, how's it going?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Informal.",
+        "incorrect": "Revisa esto: Informal."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , I was thinking about our trip last summer.",
+      "options": [
+        "By the way",
+        "Yours sincerely",
+        "In conclusion",
+        "Firstly"
+      ],
+      "answer": [
+        "By the way"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector informal.",
+        "incorrect": "Revisa esto: Conector informal."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "I haven't written to you ___ ages!",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For ages.",
+        "incorrect": "Revisa esto: For ages."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ to see you in October!",
+      "options": [
+        "looking forward",
+        "looking at",
+        "looking for",
+        "looking up"
+      ],
+      "answer": [
+        "looking forward"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to.",
+        "incorrect": "Revisa esto: Look forward to."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm moving to Valencia next month. (plan) The best tense is...",
+      "options": [
+        "present continuous",
+        "past simple",
+        "past perfect",
+        "present perfect"
+      ],
+      "answer": [
+        "present continuous"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Planes fijos: presente continuo.",
+        "incorrect": "Revisa esto: Planes fijos: presente continuo."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO es el barrio?",
+      "options": [
+        "Exciting",
+        "Safe",
+        "Friendly",
+        "Nice"
+      ],
+      "answer": [
+        "Exciting"
+      ],
+      "audio_text": "I love my neighbourhood. It's safe and friendly, but it isn't very exciting.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it isn't very exciting'.",
+        "incorrect": "Revisa esto: Dice 'it isn't very exciting'."
+      },
+      "audio_script_id": "en-b1-u11-l05-rv05-a",
+      "review_of": "en-a2-u03-l01-ex08"
+    },
+    {
+      "id": "en-b1-u11-l05-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "was-were",
+        "time-expressions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estuvimos en Roma hace dos semanas.",
+      "answer": [
+        "We were in Rome two weeks ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! We + were; ago después de two weeks.",
+        "incorrect": "Revisa esto: We + were; ago después de two weeks."
+      },
+      "review_of": "en-a2-u01-l01-ex09"
+    },
+    {
+      "id": "en-b1-u11-l05-ex11",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ what? I got the job! (a que no sabes)",
+      "answer": [
+        "Guess"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Guess what?",
+        "incorrect": "Revisa esto: Guess what?"
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 25,
+      "prompt": "Write ___ soon! (responde)",
+      "answer": [
+        "back"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Write back.",
+        "incorrect": "Revisa esto: Write back."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "It ___ forty minutes to get to the airport. (tarda)",
+      "answer": [
+        "takes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It takes + tiempo.",
+        "incorrect": "Revisa esto: It takes + tiempo."
+      },
+      "review_of": "en-a2-u12-l05-ex02"
+    },
+    {
+      "id": "en-b1-u11-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I don't see you since last summer.",
+      "answer": [
+        "I haven't seen you since last summer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + since.",
+        "incorrect": "Revisa esto: Present perfect + since."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un email informal (8 a 10 frases) a un amigo: saluda, cuenta una novedad, recuerda algo del pasado, pregunta por él/ella, haz una invitación y despídete.",
+      "min_words": 69,
+      "self_check_es": [
+        "¿Hay saludo y apertura informal?",
+        "¿Cuentas una novedad?",
+        "¿Preguntas por el otro y haces una invitación?",
+        "¿Te despides con tono cercano?"
+      ],
+      "model_answer": "Hi Alex, How's it going? Sorry I haven't written for ages! I've been really busy at work. Guess what? I'm moving to a new flat next month! Do you remember when we lived together in the old one? We should have bought a better sofa, shouldn't we? How about you? How's your family? Why don't you come and visit me in September? We can go to the beach together. Write back soon! Lots of love, Marta. P.S. Say hi to your sister!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Perdona que no te haya escrito en siglos. ¿Qué tal estás?",
+      "answer": [
+        "Sorry I haven't written for ages. How are you?",
+        "Sorry I haven't written for ages. How are you doing?",
+        "Sorry I haven't written to you for ages. How are you?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sorry I haven't written for ages.",
+        "incorrect": "Revisa esto: Sorry I haven't written for ages."
+      }
+    },
+    {
+      "id": "en-b1-u11-l05-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "cheap",
+          "right": "barato"
+        },
+        {
+          "left": "expensive",
+          "right": "caro"
+        },
+        {
+          "left": "price",
+          "right": "precio"
+        },
+        {
+          "left": "dollar",
+          "right": "dólar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son palabras básicas para hablar de dinero.",
+        "incorrect": "Revisa esto: Son palabras básicas para hablar de dinero."
+      },
+      "review_of": "en-a1-u08-l02-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Hi …, how's it going? · Sorry I haven't written for ages!",
+      "Guess what? · By the way, …",
+      "How about you? · Why don't you come …?",
+      "Write back soon! · Lots of love,"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-how-s-it-going"
+    },
+    {
+      "type": "vocab",
+      "id": "en-for-ages"
+    },
+    {
+      "type": "vocab",
+      "id": "en-guess-what"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opportunity"
+    },
+    {
+      "type": "vocab",
+      "id": "en-come-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-excited"
+    },
+    {
+      "type": "vocab",
+      "id": "en-by-the-way"
+    },
+    {
+      "type": "vocab",
+      "id": "en-terrifying"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spare-room"
+    },
+    {
+      "type": "vocab",
+      "id": "en-explore"
+    },
+    {
+      "type": "grammar",
+      "id": "en-informal-letter"
+    }
+  ]
+}

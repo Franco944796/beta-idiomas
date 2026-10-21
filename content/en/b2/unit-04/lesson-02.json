@@ -1,0 +1,860 @@
+{
+  "id": "en-b2-u04-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 4,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Bound to happen",
+    "es": "Predicciones: be bound to, be likely to, be about to"
+  },
+  "objective": "Al terminar expresas el futuro con matices: be bound to, be likely to, be about to, be due to, be on the point of y predicciones con seguridad variable.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Seguro que ocurrirá', 'es probable que ocurra', 'está a punto de ocurrir'. El futuro en inglés no es solo will: cada estructura aporta un grado distinto de certeza o de plan."
+  },
+  "input": {
+    "type": "text",
+    "text": "Experts agree that artificial intelligence is bound to change the way we work. Many routine tasks are certain to be automated within the next decade, and some jobs are likely to disappear altogether. However, new professions are also sure to emerge. A recent report predicts that one in three workers will have to learn new skills by 2035.\n\nAt this moment, the first fully autonomous bus service in the city is about to be launched. The vehicles are due to start running on 1 September, and the mayor is expected to cut the ribbon at a ceremony next Monday. The company says that the buses are unlikely to cause delays, but passengers are not guaranteed a seat.\n\nOn the research side, a team of scientists is on the point of announcing a major discovery. It is hoped that their findings will lead to a new type of battery. If the tests succeed, the battery could be in production by 2030. But, as one researcher put it, 'Nothing is certain until it has been tested. We may well be wrong.'",
+    "es": "Los expertos coinciden en que la inteligencia artificial va a cambiar sin remedio la forma en que trabajamos. Es seguro que muchas tareas rutinarias se automatizarán en la próxima década y es probable que algunos empleos desaparezcan por completo. Sin embargo, también surgirán con seguridad nuevas profesiones. Un informe reciente predice que uno de cada tres trabajadores tendrá que aprender nuevas habilidades para 2035. En este momento, el primer servicio de autobuses totalmente autónomos de la ciudad está a punto de ponerse en marcha. Los vehículos empezarán a circular el 1 de septiembre y se espera que el alcalde corte la cinta en una ceremonia el lunes. La empresa dice que es poco probable que los autobuses causen retrasos, pero no se garantiza asiento a los pasajeros. En el ámbito de la investigación, un equipo de científicos está a punto de anunciar un gran descubrimiento. Se espera que sus hallazgos lleven a un nuevo tipo de batería. Si las pruebas tienen éxito, la batería podría estar en producción en 2030. Pero, como dijo un investigador, 'Nada es seguro hasta que se ha probado. Bien podríamos estar equivocados'.",
+    "glossary": [
+      {
+        "id": "en-bound-to",
+        "lemma": "bound to",
+        "pos": "phrase",
+        "ipa": "/baʊnd tə/",
+        "es": "seguro que, sin duda",
+        "example": "It's bound to happen."
+      },
+      {
+        "id": "en-certain-to",
+        "lemma": "certain to",
+        "pos": "phrase",
+        "ipa": "/ˈsɜːtn tə/",
+        "es": "seguro que",
+        "example": "It's certain to rise."
+      },
+      {
+        "id": "en-likely-to",
+        "lemma": "likely to",
+        "pos": "phrase",
+        "ipa": "/ˈlaɪkli tə/",
+        "es": "probable que",
+        "example": "Likely to win."
+      },
+      {
+        "id": "en-unlikely-to",
+        "lemma": "unlikely to",
+        "pos": "phrase",
+        "ipa": "/ʌnˈlaɪkli tə/",
+        "es": "poco probable que",
+        "example": "Unlikely to come."
+      },
+      {
+        "id": "en-about-to",
+        "lemma": "about to",
+        "pos": "phrase",
+        "ipa": "/əˈbaʊt tə/",
+        "es": "a punto de",
+        "example": "About to start."
+      },
+      {
+        "id": "en-due-to",
+        "lemma": "due to",
+        "pos": "phrase",
+        "ipa": "/djuː tə/",
+        "es": "previsto para",
+        "example": "Due to arrive at 6."
+      },
+      {
+        "id": "en-on-the-point-of",
+        "lemma": "on the point of",
+        "pos": "phrase",
+        "ipa": "/ɒn ðə pɔɪnt əv/",
+        "es": "a punto de (formal)",
+        "example": "On the point of resigning."
+      },
+      {
+        "id": "en-autonomous",
+        "lemma": "autonomous",
+        "pos": "adj",
+        "ipa": "/ɔːˈtɒnəməs/",
+        "es": "autónomo",
+        "example": "Autonomous vehicles."
+      },
+      {
+        "id": "en-emerge",
+        "lemma": "emerge",
+        "pos": "verb",
+        "ipa": "/ɪˈmɜːdʒ/",
+        "es": "surgir",
+        "example": "New jobs will emerge."
+      },
+      {
+        "id": "en-cut-the-ribbon",
+        "lemma": "cut the ribbon",
+        "pos": "phrase",
+        "ipa": "/kʌt ðə ˈrɪbən/",
+        "es": "inaugurar",
+        "example": "The mayor cut the ribbon."
+      },
+      {
+        "id": "en-may-well",
+        "lemma": "may well",
+        "pos": "phrase",
+        "ipa": "/meɪ wel/",
+        "es": "bien podría",
+        "example": "We may well be wrong."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Futuro con matices**\n\n| Estructura | Sentido | Ejemplo |\n|---|---|---|\n| **be bound to + verbo** | seguridad casi total (lógica) | *Prices are **bound to** rise.* |\n| **be certain / sure to + verbo** | seguridad | *She is **sure to** win.* |\n| **be likely / unlikely to + verbo** | probabilidad | *It's **unlikely to** rain.* |\n| **be about to + verbo** | inminente (segundos o minutos) | *The film is **about to** start.* |\n| **be due to + verbo** | por horario o plan | *The train is **due to** arrive at six.* |\n| **be on the point of + -ing** | muy inminente (formal) | *She was **on the point of** leaving.* |\n| **may / might well + verbo** | probable pero no seguro | *We **may well** be wrong.* |\n| **be expected to** | se espera | *He is **expected to** resign.* |\n\n**Will, going to y presente continuo (repaso)**\n\n- *Will* = predicción/decisión espontánea. · *Going to* = intención o evidencia presente. · *Presente continuo* = arreglo concreto.\n- *Look at those clouds! It's going to rain.* (evidencia) · *I'm seeing the doctor at five.* (arreglo)\n\n**Futuro en el pasado**\n\n- *was going to / was about to / was due to* → *I was going to call you, but I forgot.*\n- *would* → *He said he would help.*\n\n**Orden de certeza (más a menos)**\n\n*bound to / certain to > likely to > may well > may/might > unlikely to > won't.*\n\n**Errores típicos**\n\n- ✘ *It's bound to will happen.* → ✔ *It's bound to happen.*\n- ✘ *The train is about arrive.* → ✔ *The train is about to arrive.*\n- ✘ *She's on the point of to leave.* → ✔ *She's on the point of leaving.*\n- ✘ *It is probably to rain.* → ✔ *It is likely to rain.* / *It will probably rain.*\n\n**Ojo:** *probably* es adverbio (*It will probably rain*); *likely* es adjetivo (*It is likely to rain*); en inglés norteamericano *likely* puede ser adverbio: *It will likely rain*. *Due to* (previsto) ≠ *due to* (debido a): *The delay was due to the weather.*\n\nPronunciación: *autonomous* /ɔːˈtɒnəməs/ · *due to* /ˈdjuː tə/ · *bound to* /ˈbaʊnd tə/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "about start",
+        "right": "about to start",
+        "note": "About to + verbo."
+      },
+      {
+        "wrong": "probably to rain",
+        "right": "likely to rain",
+        "note": "Likely to + verbo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u04-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué es seguro que hará la inteligencia artificial?",
+      "options": [
+        "Cambiar la forma de trabajar",
+        "Eliminar todos los empleos",
+        "Crear una guerra",
+        "Reducir la población"
+      ],
+      "answer": [
+        "Cambiar la forma de trabajar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: is bound to change the way we work.",
+        "incorrect": "Revisa esto: Dice: is bound to change the way we work."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo empezarán a circular los autobuses autónomos?",
+      "options": [
+        "El 1 de septiembre",
+        "El 1 de enero",
+        "El lunes",
+        "En 2030"
+      ],
+      "answer": [
+        "El 1 de septiembre"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: due to start running on 1 September.",
+        "incorrect": "Revisa esto: Dice: due to start running on 1 September."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué se espera que haga el alcalde?",
+      "options": [
+        "Inaugurar el servicio",
+        "Dimitir",
+        "Conducir un autobús",
+        "Reducir las tarifas"
+      ],
+      "answer": [
+        "Inaugurar el servicio"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: expected to cut the ribbon.",
+        "incorrect": "Revisa esto: Dice: expected to cut the ribbon."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "Según la empresa, es probable que los autobuses causen retrasos.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: unlikely to cause delays.",
+        "incorrect": "Revisa esto: Dice: unlikely to cause delays."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-rv01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Dinero que entra o dinero que sale?",
+      "categories": [
+        "Money in",
+        "Money out"
+      ],
+      "items": [
+        {
+          "text": "earn a salary",
+          "category": "Money in"
+        },
+        {
+          "text": "win a prize",
+          "category": "Money in"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Money in"
+        },
+        {
+          "text": "sell old clothes",
+          "category": "Money in"
+        },
+        {
+          "text": "pay the rent",
+          "category": "Money out"
+        },
+        {
+          "text": "buy groceries",
+          "category": "Money out"
+        },
+        {
+          "text": "pay bills",
+          "category": "Money out"
+        },
+        {
+          "text": "pay off a loan",
+          "category": "Money out"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separar entradas y salidas ayuda a recordar.",
+        "incorrect": "Revisa esto: Separar entradas y salidas ayuda a recordar."
+      },
+      "review_of": "en-b1-u07-l01-ex02"
+    },
+    {
+      "id": "en-b2-u04-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Look at the sky! It ___ rain.",
+      "options": [
+        "is going to",
+        "will to",
+        "is about",
+        "is bound"
+      ],
+      "answer": [
+        "is going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia presente.",
+        "incorrect": "Revisa esto: Evidencia presente."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hurry up! The film is ___ start.",
+      "options": [
+        "about to",
+        "about",
+        "going",
+        "due"
+      ],
+      "answer": [
+        "about to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! About to = inminente.",
+        "incorrect": "Revisa esto: About to = inminente."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "The train is ___ arrive at 18:45.",
+      "options": [
+        "due to",
+        "bound",
+        "likely",
+        "sure"
+      ],
+      "answer": [
+        "due to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to = previsto.",
+        "incorrect": "Revisa esto: Due to = previsto."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "With this weather, the match is ___ be cancelled.",
+      "options": [
+        "likely to",
+        "likely",
+        "probably to",
+        "probable"
+      ],
+      "answer": [
+        "likely to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Likely to + verbo.",
+        "incorrect": "Revisa esto: Likely to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "formal-informal"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ he isn't available at the moment.",
+      "answer": [
+        "afraid"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm afraid… = lo siento, pero…",
+        "incorrect": "Revisa esto: I'm afraid… = lo siento, pero…"
+      },
+      "review_of": "en-a2-u07-l05-ex06"
+    },
+    {
+      "id": "en-b2-u04-l02-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ ill on Monday. (negativa)",
+      "answer": [
+        "wasn't",
+        "was not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con she: wasn't.",
+        "incorrect": "Revisa esto: Negativa con she: wasn't."
+      },
+      "review_of": "en-a2-u01-l01-ex03"
+    },
+    {
+      "id": "en-b2-u04-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I hardly ever eat fast food. It means...",
+      "options": [
+        "Casi nunca",
+        "A menudo",
+        "Siempre",
+        "A veces"
+      ],
+      "answer": [
+        "Casi nunca"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hardly ever = casi nunca.",
+        "incorrect": "Revisa esto: Hardly ever = casi nunca."
+      },
+      "review_of": "en-b1-u04-l01-ex08"
+    },
+    {
+      "id": "en-b2-u04-l02-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have a lot of ___ to finish today.",
+      "options": [
+        "work",
+        "works",
+        "jobs",
+        "a work"
+      ],
+      "answer": [
+        "work"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Work es incontable: a lot of work.",
+        "incorrect": "Revisa esto: Work es incontable: a lot of work."
+      },
+      "review_of": "en-a2-u07-l01-ex03"
+    },
+    {
+      "id": "en-b2-u04-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you keep ignoring the warnings, something is ___ go wrong.",
+      "options": [
+        "bound to",
+        "bound",
+        "about",
+        "due"
+      ],
+      "answer": [
+        "bound to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bound to.",
+        "incorrect": "Revisa esto: Bound to."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most certain?",
+      "options": [
+        "It is bound to happen.",
+        "It might happen.",
+        "It may well happen.",
+        "It is unlikely to happen."
+      ],
+      "answer": [
+        "It is bound to happen."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Grado de certeza.",
+        "incorrect": "Revisa esto: Grado de certeza."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "She was ___ of leaving when the phone rang.",
+      "options": [
+        "on the point",
+        "on point",
+        "about",
+        "in the point"
+      ],
+      "answer": [
+        "on the point"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the point of + -ing.",
+        "incorrect": "Revisa esto: On the point of + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "'We may well be wrong' means...",
+      "options": [
+        "Es bastante probable que nos equivoquemos",
+        "Seguro que acertamos",
+        "Es imposible equivocarse",
+        "Nunca nos equivocamos"
+      ],
+      "answer": [
+        "Es bastante probable que nos equivoquemos"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! May well.",
+        "incorrect": "Revisa esto: May well."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The company is ___ to announce a new product soon. (a punto)",
+      "answer": [
+        "about"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! About to.",
+        "incorrect": "Revisa esto: About to."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The delay was ___ to bad weather. (debido)",
+      "answer": [
+        "due"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to = debido a.",
+        "incorrect": "Revisa esto: Due to = debido a."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film is about start.",
+      "answer": [
+        "The film is about to start."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! About to + verbo.",
+        "incorrect": "Revisa esto: About to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I stayed home because the rain.",
+      "answer": [
+        "I stayed home because of the rain.",
+        "I stayed at home because of the rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo → because of.",
+        "incorrect": "Revisa esto: Sustantivo → because of."
+      },
+      "review_of": "en-a2-u10-l06-ex11"
+    },
+    {
+      "id": "en-b2-u04-l02-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She was on the point of to leave.",
+      "answer": [
+        "She was on the point of leaving."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the point of + -ing.",
+        "incorrect": "Revisa esto: On the point of + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 25,
+      "prompt": "He is said ___ be a very generous man. (ser)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Is said to be.",
+        "incorrect": "Revisa esto: Is said to be."
+      },
+      "review_of": "en-b2-u03-l02-ex12"
+    },
+    {
+      "id": "en-b2-u04-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is probably to rain tomorrow.",
+      "answer": [
+        "It is likely to rain tomorrow.",
+        "It will probably rain tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Likely to / will probably.",
+        "incorrect": "Revisa esto: Likely to / will probably."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex18",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "bus",
+        "is",
+        "due",
+        "to",
+        "arrive",
+        "in",
+        "ten",
+        "minutes",
+        ".",
+        "The",
+        "new"
+      ],
+      "answer": [
+        "The",
+        "new",
+        "bus",
+        "is",
+        "due",
+        "to",
+        "arrive",
+        "in",
+        "ten",
+        "minutes",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to + verbo.",
+        "incorrect": "Revisa esto: Due to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dicen sobre la vacuna?",
+      "options": [
+        "Que probablemente funcione",
+        "Que no funciona",
+        "Que es peligrosa",
+        "Que ya se vende"
+      ],
+      "answer": [
+        "Que probablemente funcione"
+      ],
+      "audio_text": "The scientists are about to announce their results. They are confident that the new vaccine is likely to work, but they admit that the final trial is still a few weeks away.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: is likely to work.",
+        "incorrect": "Revisa esto: Dice: is likely to work."
+      },
+      "audio_script_id": "en-b2-u04-l02-ex19-a"
+    },
+    {
+      "id": "en-b2-u04-l02-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Es seguro que los precios subirán, y es poco probable que bajen antes de 2030.",
+      "answer": [
+        "Prices are bound to rise, and they are unlikely to fall before 2030.",
+        "Prices are sure to rise, and they are unlikely to fall before 2030."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro con matices.",
+        "incorrect": "Revisa esto: Futuro con matices."
+      }
+    },
+    {
+      "id": "en-b2-u04-l02-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El tren debe llegar a las seis, pero está a punto de haber un retraso.",
+      "answer": [
+        "The train is due to arrive at six, but there is about to be a delay.",
+        "The train is due to arrive at six, but a delay is about to happen."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to + about to.",
+        "incorrect": "Revisa esto: Due to + about to."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It is bound to happen.",
+      "She is sure to win. · It is unlikely to rain.",
+      "The film is about to start.",
+      "The train is due to arrive at six."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-bound-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-certain-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-likely-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-unlikely-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-about-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-due-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-the-point-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-autonomous"
+    },
+    {
+      "type": "vocab",
+      "id": "en-emerge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cut-the-ribbon"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-forms-b2"
+    }
+  ]
+}

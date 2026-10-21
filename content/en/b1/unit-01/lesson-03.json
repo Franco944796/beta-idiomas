@@ -1,0 +1,626 @@
+{
+  "id": "en-b1-u01-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 1,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Used to and would",
+    "es": "Hábitos y situaciones del pasado"
+  },
+  "objective": "Al terminar hablas de cómo eran las cosas antes con used to y would, y distingues cuándo puedes usar cada uno.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Antes vivía en el campo', 'de niño jugaba todo el día en la calle'. Para hablar de lo que ya no es así, el inglés tiene used to y would."
+  },
+  "input": {
+    "type": "text",
+    "text": "When I was a kid, we used to live in a small village by the sea. Every summer morning I would get up at six and run down to the beach with my brother. We would spend hours collecting shells and building sandcastles. We didn't use to have a TV, so we played outside all day. I used to be very shy, but my grandfather would always tell me stories and make me laugh. I really miss those days. Now I live in a big city and I hardly ever see the sea.",
+    "es": "Cuando era niño, vivíamos en un pueblito junto al mar. Cada mañana de verano me levantaba a las seis y bajaba corriendo a la playa con mi hermano. Pasábamos horas recogiendo conchas y haciendo castillos de arena. No teníamos tele, así que jugábamos fuera todo el día. Yo era muy tímido, pero mi abuelo siempre me contaba historias y me hacía reír. Echo mucho de menos aquellos días. Ahora vivo en una gran ciudad y casi nunca veo el mar.",
+    "glossary": [
+      {
+        "id": "en-village",
+        "lemma": "village",
+        "pos": "noun",
+        "ipa": "/ˈvɪlɪdʒ/",
+        "es": "pueblo",
+        "example": "I grew up in a small village."
+      },
+      {
+        "id": "en-shell",
+        "lemma": "shell",
+        "pos": "noun",
+        "ipa": "/ʃel/",
+        "es": "concha",
+        "example": "We collected shells."
+      },
+      {
+        "id": "en-sandcastle",
+        "lemma": "sandcastle",
+        "pos": "noun",
+        "ipa": "/ˈsændkɑːsl/",
+        "es": "castillo de arena",
+        "example": "The children built a sandcastle."
+      },
+      {
+        "id": "en-childhood",
+        "lemma": "childhood",
+        "pos": "noun",
+        "ipa": "/ˈtʃaɪldhʊd/",
+        "es": "infancia",
+        "example": "I had a happy childhood."
+      },
+      {
+        "id": "en-grow-up",
+        "lemma": "grow up",
+        "pos": "phrasal verb",
+        "ipa": "/ɡrəʊ ʌp/",
+        "es": "crecer, criarse",
+        "example": "I grew up in Spain."
+      },
+      {
+        "id": "en-miss",
+        "lemma": "miss",
+        "pos": "verb",
+        "ipa": "/mɪs/",
+        "es": "echar de menos",
+        "example": "I miss my old school."
+      },
+      {
+        "id": "en-hardly-ever",
+        "lemma": "hardly ever",
+        "pos": "phrase",
+        "ipa": "/ˈhɑːdli ˈevə/",
+        "es": "casi nunca",
+        "example": "I hardly ever eat meat now."
+      },
+      {
+        "id": "en-used-to",
+        "lemma": "used to",
+        "pos": "phrase",
+        "ipa": "/ˈjuːst tə/",
+        "es": "solía, antes + imperfecto",
+        "example": "I used to play football."
+      },
+      {
+        "id": "en-would",
+        "lemma": "would",
+        "pos": "modal",
+        "ipa": "/wʊd/",
+        "es": "solía (acción repetida)",
+        "example": "We would visit grandma every Sunday."
+      },
+      {
+        "id": "en-in-those-days",
+        "lemma": "in those days",
+        "pos": "phrase",
+        "ipa": "/ɪn ðəʊz deɪz/",
+        "es": "en aquellos tiempos",
+        "example": "In those days life was slower."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Used to y would**\n\n| | *used to* | *would* |\n|---|---|---|\n| Hábitos pasados | ✔ *I used to run every day.* | ✔ *I would run every day.* |\n| Estados pasados (be, have, live, like, know) | ✔ *I used to be shy.* | ✘ *I would be shy.* |\n| Primera mención | ✔ se usa para empezar | se usa **después**, para dar ejemplos |\n\n**Regla de oro:** si el verbo es de **estado** (be, have, live, like, love, know, think), usa **used to**. Si es una **acción repetida**, puedes usar used to o would.\n\n**Formas de used to**\n\n- Afirmativa: *I **used to** live in Rome.*\n- Negativa: *I **didn't use to** like coffee.* (sin -d)\n- Pregunta: *Did you **use to** play the piano?* (sin -d)\n\n**Sin presente:** *used to* solo existe en pasado. Para el presente se usa el presente simple: *I usually walk to work* (no *I use to*).\n\n**Ojo:** *be used to + -ing* (estar acostumbrado) es otra estructura: *I'm used to getting up early.*\n\nPronunciación: *used to* /ˈjuːst tə/ (la 'd' no se oye; la 's' suena /s/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I would be very shy.",
+        "right": "I used to be very shy.",
+        "note": "Con verbos de estado, no would."
+      },
+      {
+        "wrong": "Did you used to play?",
+        "right": "Did you use to play?",
+        "note": "Después de did, use to sin -d."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u01-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hacía el narrador cada mañana de verano?",
+      "options": [
+        "Bajaba a la playa con su hermano",
+        "Veía la tele",
+        "Iba al colegio",
+        "Trabajaba en el pueblo"
+      ],
+      "answer": [
+        "Bajaba a la playa con su hermano"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I would get up at six and run down to the beach.",
+        "incorrect": "Revisa esto: Dice: I would get up at six and run down to the beach."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué jugaban fuera todo el día?",
+      "options": [
+        "No tenían televisión",
+        "Hacía siempre sol",
+        "No había colegio",
+        "Tenían muchos amigos"
+      ],
+      "answer": [
+        "No tenían televisión"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: We didn't use to have a TV, so we played outside.",
+        "incorrect": "Revisa esto: Dice: We didn't use to have a TV, so we played outside."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador vive ahora junto al mar.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora vive en una gran ciudad.",
+        "incorrect": "Revisa esto: Ahora vive en una gran ciudad."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I enjoy ___ in the evening.",
+      "options": [
+        "cooking",
+        "to cook",
+        "cook",
+        "cooked"
+      ],
+      "answer": [
+        "cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing.",
+        "incorrect": "Revisa esto: Enjoy + -ing."
+      },
+      "review_of": "en-a2-u10-l02-ex01"
+    },
+    {
+      "id": "en-b1-u01-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ be very shy when I was little.",
+      "options": [
+        "used to",
+        "would",
+        "was use to",
+        "am used to"
+      ],
+      "answer": [
+        "used to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be es un verbo de estado: solo used to.",
+        "incorrect": "Revisa esto: Be es un verbo de estado: solo used to."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 20,
+      "prompt": "Every Sunday we ___ visit our grandparents.",
+      "options": [
+        "would",
+        "were use to",
+        "did used to",
+        "are used to"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acción repetida: would es posible.",
+        "incorrect": "Revisa esto: Acción repetida: would es posible."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "No crees que sea buena idea. ¿Cómo lo dices?",
+      "options": [
+        "I don't think it's a good idea.",
+        "I think it isn't a good idea.",
+        "I not think good idea.",
+        "I don't think that is not good."
+      ],
+      "answer": [
+        "I don't think it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés se niega el verbo think.",
+        "incorrect": "Revisa esto: En inglés se niega el verbo think."
+      },
+      "review_of": "en-a2-u10-l03-ex04"
+    },
+    {
+      "id": "en-b1-u01-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you use to play an instrument?",
+      "options": [
+        "Did",
+        "Do",
+        "Were",
+        "Would"
+      ],
+      "answer": [
+        "Did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta: Did + sujeto + use to.",
+        "incorrect": "Revisa esto: Pregunta: Did + sujeto + use to."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 25,
+      "prompt": "I didn't ___ to like vegetables.",
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa: didn't use to (sin -d).",
+        "incorrect": "Revisa esto: Negativa: didn't use to (sin -d)."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ to live in a village. (solíamos)",
+      "answer": [
+        "used"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to + verbo base.",
+        "incorrect": "Revisa esto: Used to + verbo base."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I would have a dog when I was a child.",
+      "answer": [
+        "I used to have a dog when I was a child."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have (poseer) es de estado: no se usa would.",
+        "incorrect": "Revisa esto: Have (poseer) es de estado: no se usa would."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consonante + y: la y cambia a -ied.",
+        "incorrect": "Revisa esto: Consonante + y: la y cambia a -ied."
+      },
+      "review_of": "en-a2-u01-l02-ex02"
+    },
+    {
+      "id": "en-b1-u01-l03-ex10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She didn't used to smoke.",
+      "answer": [
+        "She didn't use to smoke."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de didn't, use to sin -d.",
+        "incorrect": "Revisa esto: Después de didn't, use to sin -d."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 20,
+      "prompt": "The soup is ___ hot. I can't eat it.",
+      "options": [
+        "too",
+        "very",
+        "enough",
+        "as"
+      ],
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too = demasiado (no se puede comer).",
+        "incorrect": "Revisa esto: Too = demasiado (no se puede comer)."
+      },
+      "review_of": "en-a2-u03-l04-ex05"
+    },
+    {
+      "id": "en-b1-u01-l03-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué van a hacer?",
+      "options": [
+        "Have a picnic",
+        "Stay at home",
+        "Go to the cinema",
+        "Travel abroad"
+      ],
+      "answer": [
+        "Have a picnic"
+      ],
+      "audio_text": "Next weekend I'm going to visit my grandparents. We aren't going to stay at home, we're going to have a picnic.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'we're going to have a picnic'.",
+        "incorrect": "Revisa esto: Dice 'we're going to have a picnic'."
+      },
+      "audio_script_id": "en-b1-u01-l03-rv05-a",
+      "review_of": "en-a2-u05-l01-ex09"
+    },
+    {
+      "id": "en-b1-u01-l03-ex11",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "was",
+        "young",
+        ",",
+        "I",
+        "used",
+        "to",
+        "play",
+        "football",
+        "every",
+        "day",
+        ".",
+        "When",
+        "I"
+      ],
+      "answer": [
+        "When",
+        "I",
+        "was",
+        "young",
+        ",",
+        "I",
+        "used",
+        "to",
+        "play",
+        "football",
+        "every",
+        "day",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to + verbo base.",
+        "incorrect": "Revisa esto: Used to + verbo base."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex12",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "We used to live in a small village by the sea.",
+      "answer": [
+        "We used to live in a small village by the sea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Atiende a la 'd' de used to: casi no se oye.",
+        "incorrect": "Revisa esto: Atiende a la 'd' de used to: casi no se oye."
+      },
+      "audio_script_id": "en-b1-u01-l03-ex12-a"
+    },
+    {
+      "id": "en-b1-u01-l03-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Antes yo no comía pescado, pero ahora me encanta.",
+      "answer": [
+        "I didn't use to eat fish, but now I love it.",
+        "I never used to eat fish, but now I love it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't use to + verbo base.",
+        "incorrect": "Revisa esto: Didn't use to + verbo base."
+      }
+    },
+    {
+      "id": "en-b1-u01-l03-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 5 o 6 frases sobre cómo eras o qué hacías de niño y ya no haces ahora. Usa used to y would.",
+      "min_words": 30,
+      "self_check_es": [
+        "¿Usaste used to para estados?",
+        "¿Usaste would solo con acciones repetidas?",
+        "¿Escribiste didn't use to sin -d?",
+        "¿Contrastaste con el presente?"
+      ],
+      "model_answer": "When I was a child I used to live near my grandparents. Every weekend we would go to the park and play football. I used to be shy, but now I'm more outgoing. I didn't use to like fish, but now I eat it every week.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I used to live … · I didn't use to …",
+      "We would spend hours …",
+      "Did you use to …?",
+      "In those days …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-village"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shell"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sandcastle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-childhood"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grow-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-miss"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hardly-ever"
+    },
+    {
+      "type": "vocab",
+      "id": "en-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-would"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-those-days"
+    },
+    {
+      "type": "grammar",
+      "id": "en-used-to-would"
+    }
+  ]
+}

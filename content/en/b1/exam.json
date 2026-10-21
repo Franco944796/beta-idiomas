@@ -1,0 +1,1387 @@
+{
+  "id": "en-b1-exam-v1",
+  "language": "en",
+  "level": "B1",
+  "version": 1,
+  "title": {
+    "es": "Examen final de B1"
+  },
+  "pass_score": 0.75,
+  "instructions_es": "42 preguntas que cubren las 12 unidades de B1. Necesitas el 75 % (32 aciertos) para superar el nivel. Las dos tareas finales (escritura y rol) son opcionales y se autoevalúan: no cuentan en la nota.",
+  "scoring": {
+    "scored": "exercises",
+    "optional_not_scored": "optional_tasks",
+    "weak_areas": "group wrong answers by tags"
+  },
+  "exercises": [
+    {
+      "id": "en-b1-exam-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've been learning the guitar ___ three years.",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + duración.",
+        "incorrect": "Revisa esto: For + duración."
+      },
+      "review": {
+        "lesson": "en-a2-u08-l05",
+        "unit": 8,
+        "order": 5,
+        "lesson_es": "For y since: cuánto tiempo",
+        "topic_es": "For y since: How long have you…?"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I was a child, I ___ play in the street every afternoon.",
+      "options": [
+        "used to",
+        "use to",
+        "was used",
+        "would to"
+      ],
+      "answer": [
+        "used to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to para hábitos pasados.",
+        "incorrect": "Revisa esto: Used to para hábitos pasados."
+      },
+      "review": {
+        "lesson": "en-b1-u01-l03",
+        "unit": 1,
+        "order": 3,
+        "lesson_es": "Hábitos y situaciones del pasado",
+        "topic_es": "Used to y would: hábitos y estados del pasado"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "By the time we arrived, the film ___ .",
+      "options": [
+        "had started",
+        "started",
+        "has started",
+        "was starting"
+      ],
+      "answer": [
+        "had started"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Anterior a otro pasado: past perfect.",
+        "incorrect": "Revisa esto: Anterior a otro pasado: past perfect."
+      },
+      "review": {
+        "lesson": "en-b1-u01-l04",
+        "unit": 1,
+        "order": 4,
+        "lesson_es": "Past perfect: lo que había pasado antes",
+        "topic_es": "Past perfect: had + participio"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "The restaurant ___ we had dinner is closing next month.",
+      "options": [
+        "where",
+        "which",
+        "whose",
+        "who"
+      ],
+      "answer": [
+        "where"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where para lugares.",
+        "incorrect": "Revisa esto: Where para lugares."
+      },
+      "review": {
+        "lesson": "en-b1-u02-l03",
+        "unit": 2,
+        "order": 3,
+        "lesson_es": "Más palabras de relativo",
+        "topic_es": "Where, whose, when y omisión del relativo"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "The woman ___ car was stolen called the police.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "her"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose = cuyo.",
+        "incorrect": "Revisa esto: Whose = cuyo."
+      },
+      "review": {
+        "lesson": "en-b1-u02-l03",
+        "unit": 2,
+        "order": 3,
+        "lesson_es": "Más palabras de relativo",
+        "topic_es": "Where, whose, when y omisión del relativo"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "The more I study, ___ I understand.",
+      "options": [
+        "the more",
+        "more",
+        "the most",
+        "most"
+      ],
+      "answer": [
+        "the more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The + comparativo, the + comparativo.",
+        "incorrect": "Revisa esto: The + comparativo, the + comparativo."
+      },
+      "review": {
+        "lesson": "en-b1-u02-l04",
+        "unit": 2,
+        "order": 4,
+        "lesson_es": "Comparaciones dobles y similitudes",
+        "topic_es": "The more…, the more…; as…as; the same as; different from"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I ___ my degree, I'll look for a job.",
+      "options": [
+        "finish",
+        "will finish",
+        "finished",
+        "am finishing"
+      ],
+      "answer": [
+        "finish"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When + presente.",
+        "incorrect": "Revisa esto: When + presente."
+      },
+      "review": {
+        "lesson": "en-b1-u03-l02",
+        "unit": 3,
+        "order": 2,
+        "lesson_es": "Cláusulas de tiempo futuro",
+        "topic_es": "Cláusulas de tiempo: when, as soon as, until, before, after + presente"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ___ wear a uniform at my old school; it was compulsory.",
+      "options": [
+        "had to",
+        "must",
+        "have to",
+        "could"
+      ],
+      "answer": [
+        "had to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obligación pasada: had to.",
+        "incorrect": "Revisa esto: Obligación pasada: had to."
+      },
+      "review": {
+        "lesson": "en-b1-u03-l03",
+        "unit": 3,
+        "order": 3,
+        "lesson_es": "Obligación y capacidad en pasado",
+        "topic_es": "Had to, didn't have to, could, was able to, managed to"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I look forward to hear from you.",
+      "answer": [
+        "I look forward to hearing from you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      },
+      "review": {
+        "lesson": "en-b1-u03-l04",
+        "unit": 3,
+        "order": 4,
+        "lesson_es": "Currículum y carta de presentación",
+        "topic_es": "Currículum y carta de presentación"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you ___ ice, it melts.",
+      "options": [
+        "heat",
+        "will heat",
+        "heated",
+        "heating"
+      ],
+      "answer": [
+        "heat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hechos generales: presente + presente.",
+        "incorrect": "Revisa esto: Hechos generales: presente + presente."
+      },
+      "review": {
+        "lesson": "en-b1-u04-l02",
+        "unit": 4,
+        "order": 2,
+        "lesson_es": "Condicional cero y primer condicional",
+        "topic_es": "Condicional cero y primer condicional"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll go for a run ___ it rains.",
+      "options": [
+        "unless",
+        "as long",
+        "in",
+        "until"
+      ],
+      "answer": [
+        "unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless = a menos que.",
+        "incorrect": "Revisa esto: Unless = a menos que."
+      },
+      "review": {
+        "lesson": "en-b1-u04-l03",
+        "unit": 4,
+        "order": 3,
+        "lesson_es": "Unless, as long as, provided that",
+        "topic_es": "Unless, as long as, provided that, in case"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ better see a doctor. That cough is getting worse.",
+      "options": [
+        "had",
+        "would",
+        "should to",
+        "have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better + verbo.",
+        "incorrect": "Revisa esto: Had better + verbo."
+      },
+      "review": {
+        "lesson": "en-b1-u04-l04",
+        "unit": 4,
+        "order": 4,
+        "lesson_es": "Consejos: ought to, had better",
+        "topic_es": "Consejos: ought to, had better, why don't you…?"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "These phones ___ in Asia.",
+      "options": [
+        "are made",
+        "make",
+        "is made",
+        "were make"
+      ],
+      "answer": [
+        "are made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en presente.",
+        "incorrect": "Revisa esto: Pasiva en presente."
+      },
+      "review": {
+        "lesson": "en-b1-u05-l02",
+        "unit": 5,
+        "order": 2,
+        "lesson_es": "La pasiva: presente y pasado",
+        "topic_es": "Pasiva en presente y pasado simple"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "Who was this song written ___ ?",
+      "options": [
+        "by",
+        "from",
+        "of",
+        "for"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agente con by.",
+        "incorrect": "Revisa esto: Agente con by."
+      },
+      "review": {
+        "lesson": "en-b1-u05-l03",
+        "unit": 5,
+        "order": 3,
+        "lesson_es": "Pasiva: preguntas y complemento agente",
+        "topic_es": "Pasiva: preguntas, by + agente y pasiva con modales"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex15",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "My phone keeps ___ when I open the camera.",
+      "options": [
+        "freezing",
+        "to freeze",
+        "freeze",
+        "frozen"
+      ],
+      "answer": [
+        "freezing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      },
+      "review": {
+        "lesson": "en-b1-u05-l01",
+        "unit": 5,
+        "order": 1,
+        "lesson_es": "Aparatos e internet",
+        "topic_es": "Hablar de tecnología e internet"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex16",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I ___ rich, I would travel around the world.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "would be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional: if + pasado.",
+        "incorrect": "Revisa esto: Segundo condicional: if + pasado."
+      },
+      "review": {
+        "lesson": "en-b1-u06-l02",
+        "unit": 6,
+        "order": 2,
+        "lesson_es": "Segundo condicional",
+        "topic_es": "Segundo condicional: if + pasado, would + verbo"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex17",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more free time.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado simple.",
+        "incorrect": "Revisa esto: Wish + pasado simple."
+      },
+      "review": {
+        "lesson": "en-b1-u06-l03",
+        "unit": 6,
+        "order": 3,
+        "lesson_es": "Wish + pasado",
+        "topic_es": "Wish + pasado: deseos sobre el presente"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex18",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres quejarte con educación en un hotel:",
+      "options": [
+        "I'm afraid there's a problem with my room.",
+        "Your room is awful!",
+        "Give me another room.",
+        "This hotel is a disaster."
+      ],
+      "answer": [
+        "I'm afraid there's a problem with my room."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tono educado.",
+        "incorrect": "Revisa esto: Tono educado."
+      },
+      "review": {
+        "lesson": "en-b1-u06-l04",
+        "unit": 6,
+        "order": 4,
+        "lesson_es": "Quejas y problemas en el hotel",
+        "topic_es": "Quejas y problemas en el hotel"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex19",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm tired.' → She said she ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "will be"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto: presente → pasado.",
+        "incorrect": "Revisa esto: Estilo indirecto: presente → pasado."
+      },
+      "review": {
+        "lesson": "en-b1-u07-l02",
+        "unit": 7,
+        "order": 2,
+        "lesson_es": "Estilo indirecto: afirmaciones",
+        "topic_es": "Estilo indirecto: afirmaciones y cambio de tiempos"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex20",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Where do you live?' → He asked me where I ___ .",
+      "options": [
+        "lived",
+        "did live",
+        "do live",
+        "live did"
+      ],
+      "answer": [
+        "lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta indirecta: sin do, orden afirmativo.",
+        "incorrect": "Revisa esto: Pregunta indirecta: sin do, orden afirmativo."
+      },
+      "review": {
+        "lesson": "en-b1-u07-l03",
+        "unit": 7,
+        "order": 3,
+        "lesson_es": "Estilo indirecto: preguntas y peticiones",
+        "topic_es": "Estilo indirecto: preguntas, órdenes y peticiones"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex21",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "The doctor advised me ___ more water.",
+      "options": [
+        "to drink",
+        "drink",
+        "drinking",
+        "that drink"
+      ],
+      "answer": [
+        "to drink"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advise + persona + to.",
+        "incorrect": "Revisa esto: Advise + persona + to."
+      },
+      "review": {
+        "lesson": "en-b1-u07-l04",
+        "unit": 7,
+        "order": 4,
+        "lesson_es": "Verbos de reporte",
+        "topic_es": "Verbos de reporte: say, tell, ask, suggest, promise"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex22",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 20,
+      "prompt": "He stopped ___ last year. He's much healthier now.",
+      "options": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "smoked"
+      ],
+      "answer": [
+        "smoking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop + -ing = dejar de.",
+        "incorrect": "Revisa esto: Stop + -ing = dejar de."
+      },
+      "review": {
+        "lesson": "en-b1-u08-l02",
+        "unit": 8,
+        "order": 2,
+        "lesson_es": "Gerundio o infinitivo: cambios de significado",
+        "topic_es": "Gerundio o infinitivo: stop, remember, try, forget"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex23",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "My parents never ___ me stay out late.",
+      "options": [
+        "let",
+        "allowed",
+        "made",
+        "were"
+      ],
+      "answer": [
+        "let"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let + persona + verbo.",
+        "incorrect": "Revisa esto: Let + persona + verbo."
+      },
+      "review": {
+        "lesson": "en-b1-u08-l03",
+        "unit": 8,
+        "order": 3,
+        "lesson_es": "Permisos y normas: be allowed to, be supposed to",
+        "topic_es": "Be allowed to, be supposed to, let y make"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex24",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , a uniform makes all students equal. (primer argumento)",
+      "options": [
+        "Firstly",
+        "However",
+        "In conclusion",
+        "For example"
+      ],
+      "answer": [
+        "Firstly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conector de ordenación.",
+        "incorrect": "Revisa esto: Conector de ordenación."
+      },
+      "review": {
+        "lesson": "en-b1-u08-l05",
+        "unit": 8,
+        "order": 5,
+        "lesson_es": "Una redacción de opinión",
+        "topic_es": "Redacción de opinión: introducción, argumentos y conclusión"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex25",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ student in the class has a locker.",
+      "options": [
+        "Every",
+        "All",
+        "Both",
+        "Most"
+      ],
+      "answer": [
+        "Every"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every + singular.",
+        "incorrect": "Revisa esto: Every + singular."
+      },
+      "review": {
+        "lesson": "en-b1-u09-l02",
+        "unit": 9,
+        "order": 2,
+        "lesson_es": "Cuantificadores y determinantes",
+        "topic_es": "All, most, some, none, both, either, neither, every"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex26",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ rain later, so take an umbrella.",
+      "options": [
+        "might",
+        "might to",
+        "mights",
+        "will to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo base.",
+        "incorrect": "Revisa esto: Might + verbo base."
+      },
+      "review": {
+        "lesson": "en-b1-u09-l03",
+        "unit": 9,
+        "order": 3,
+        "lesson_es": "Posibilidad: may, might, could",
+        "topic_es": "May, might, could: posibilidad en el futuro"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex27",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was ___ a hot day that we stayed inside.",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "very"
+      ],
+      "answer": [
+        "such"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Such a + adjetivo + sustantivo.",
+        "incorrect": "Revisa esto: Such a + adjetivo + sustantivo."
+      },
+      "review": {
+        "lesson": "en-b1-u09-l04",
+        "unit": 9,
+        "order": 4,
+        "lesson_es": "So... that / such... that",
+        "topic_es": "So… that, such… that: causa y resultado"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex28",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's been working since six. He ___ be exhausted.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "mustn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción segura: must.",
+        "incorrect": "Revisa esto: Deducción segura: must."
+      },
+      "review": {
+        "lesson": "en-b1-u10-l02",
+        "unit": 10,
+        "order": 2,
+        "lesson_es": "Deducciones: must, can't, might",
+        "topic_es": "Deducciones: must be, can't be, might be"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex29",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 20,
+      "prompt": "You haven't been to Japan, ___ ?",
+      "options": [
+        "have you",
+        "haven't you",
+        "do you",
+        "did you"
+      ],
+      "answer": [
+        "have you"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Question tag: negativa → positivo.",
+        "incorrect": "Revisa esto: Question tag: negativa → positivo."
+      },
+      "review": {
+        "lesson": "en-b1-u10-l03",
+        "unit": 10,
+        "order": 3,
+        "lesson_es": "Question tags",
+        "topic_es": "Question tags: …, isn't it?"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex30",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I didn't see nobody at the party.",
+      "answer": [
+        "I didn't see anybody at the party.",
+        "I didn't see anyone at the party.",
+        "I saw nobody at the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Doble negación.",
+        "incorrect": "Revisa esto: Doble negación."
+      },
+      "review": {
+        "lesson": "en-b1-u10-l04",
+        "unit": 10,
+        "order": 4,
+        "lesson_es": "Pronombres indefinidos",
+        "topic_es": "Someone, anything, nobody, everywhere…"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex31",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "We had an argument, but we ___ the next day.",
+      "options": [
+        "made up",
+        "broke up",
+        "fell out",
+        "put up"
+      ],
+      "answer": [
+        "made up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make up = reconciliarse.",
+        "incorrect": "Revisa esto: Make up = reconciliarse."
+      },
+      "review": {
+        "lesson": "en-b1-u11-l02",
+        "unit": 11,
+        "order": 2,
+        "lesson_es": "Phrasal verbs (1)",
+        "topic_es": "Phrasal verbs: get on, fall out, make up, split up"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex32",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "agree-disagree"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase is a polite disagreement?",
+      "options": [
+        "I see what you mean, but I'm not sure.",
+        "You're wrong.",
+        "No!",
+        "That's silly."
+      ],
+      "answer": [
+        "I see what you mean, but I'm not sure."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Desacuerdo educado.",
+        "incorrect": "Revisa esto: Desacuerdo educado."
+      },
+      "review": {
+        "lesson": "en-b1-u11-l03",
+        "unit": 11,
+        "order": 3,
+        "lesson_es": "Estar de acuerdo y discrepar con educación",
+        "topic_es": "Estar de acuerdo y discrepar con educación"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex33",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should of called her yesterday.",
+      "answer": [
+        "I should have called her yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      },
+      "review": {
+        "lesson": "en-b1-u11-l04",
+        "unit": 11,
+        "order": 4,
+        "lesson_es": "Should have / shouldn't have",
+        "topic_es": "Should have / shouldn't have: arrepentimiento y crítica"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex34",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we played football.",
+      "options": [
+        "Although",
+        "Despite",
+        "In spite",
+        "However"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + sujeto + verbo.",
+        "incorrect": "Revisa esto: Although + sujeto + verbo."
+      },
+      "review": {
+        "lesson": "en-b1-u12-l02",
+        "unit": 12,
+        "order": 2,
+        "lesson_es": "Contraste: although, despite, however",
+        "topic_es": "Although, even though, despite, in spite of, however"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex35",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-neither"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I can't swim.' — '___ .'",
+      "options": [
+        "Neither can I",
+        "So can I",
+        "I can't neither",
+        "So can't I"
+      ],
+      "answer": [
+        "Neither can I"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither + auxiliar + I.",
+        "incorrect": "Revisa esto: Neither + auxiliar + I."
+      },
+      "review": {
+        "lesson": "en-b1-u12-l03",
+        "unit": 12,
+        "order": 3,
+        "lesson_es": "Respuestas cortas: so, neither",
+        "topic_es": "So do I / Neither do I: acuerdo corto"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex36",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live here since 2015.",
+      "answer": [
+        "I have lived here since 2015.",
+        "I've lived here since 2015.",
+        "I have been living here since 2015.",
+        "I've been living here since 2015."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since → present perfect.",
+        "incorrect": "Revisa esto: Since → present perfect."
+      },
+      "review": {
+        "lesson": "en-b1-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Repaso de los tiempos verbales de B1",
+        "topic_es": "Repaso de tiempos verbales de B1"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex37",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hará en cuanto termine el proyecto?",
+      "options": [
+        "Tomarse una semana libre",
+        "Pedir otro ascenso",
+        "Cambiar de trabajo",
+        "Contratar a alguien"
+      ],
+      "answer": [
+        "Tomarse una semana libre"
+      ],
+      "audio_text": "I've been working here for two years. I'm in charge of the sales team, and last month I got a promotion. As soon as I finish this project, I'll take a week off.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: As soon as I finish this project, I'll take a week off.",
+        "incorrect": "Revisa esto: Dice: As soon as I finish this project, I'll take a week off."
+      },
+      "audio_script_id": "en-b1-exam-ex37-a",
+      "review": {
+        "lesson": "en-b1-u03-l02",
+        "unit": 3,
+        "order": 2,
+        "lesson_es": "Cláusulas de tiempo futuro",
+        "topic_es": "Cláusulas de tiempo: when, as soon as, until, before, after + presente"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex38",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le pidió que hiciera?",
+      "options": [
+        "Enviar sus referencias antes del viernes",
+        "Llamarla el lunes",
+        "Traer su CV",
+        "Firmar un contrato"
+      ],
+      "answer": [
+        "Enviar sus referencias antes del viernes"
+      ],
+      "audio_text": "The manager asked me where I had worked before and why I had left. Then she told me to send my references by Friday.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: told me to send my references by Friday.",
+        "incorrect": "Revisa esto: Dice: told me to send my references by Friday."
+      },
+      "audio_script_id": "en-b1-exam-ex38-a",
+      "review": {
+        "lesson": "en-b1-u07-l03",
+        "unit": 7,
+        "order": 3,
+        "lesson_es": "Estilo indirecto: preguntas y peticiones",
+        "topic_es": "Estilo indirecto: preguntas, órdenes y peticiones"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex39",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo a pesar del cansancio?",
+      "options": [
+        "Estudió mucho",
+        "Dejó el curso",
+        "Faltó a clase",
+        "Pidió ayuda a un profesor"
+      ],
+      "answer": [
+        "Estudió mucho"
+      ],
+      "audio_text": "Although it was a very difficult course, I didn't give up. Despite being tired every day, I studied hard, and in the end I passed the exam.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Despite being tired every day, I studied hard.",
+        "incorrect": "Revisa esto: Dice: Despite being tired every day, I studied hard."
+      },
+      "audio_script_id": "en-b1-exam-ex39-a",
+      "review": {
+        "lesson": "en-b1-u12-l02",
+        "unit": 12,
+        "order": 2,
+        "lesson_es": "Contraste: although, despite, however",
+        "topic_es": "Although, even though, despite, in spite of, however"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex40",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "If I had more money, I would travel around the world.",
+      "answer": [
+        "If I had more money, I would travel around the world.",
+        "If I had more money, I'd travel around the world."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      },
+      "audio_script_id": "en-b1-exam-ex40-a",
+      "review": {
+        "lesson": "en-b1-u06-l02",
+        "unit": 6,
+        "order": 2,
+        "lesson_es": "Segundo condicional",
+        "topic_es": "Segundo condicional: if + pasado, would + verbo"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex41",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Hi Sam, Sorry I haven't written for ages! Guess what? I'm moving to Valencia next month. I got a job in a travel company. Why don't you come and visit me in October? Lots of love, Isa.' ¿Qué le propone Isa a Sam?",
+      "options": [
+        "Visitarla en octubre",
+        "Mudarse a Valencia",
+        "Cambiar de trabajo",
+        "Llamarla mañana"
+      ],
+      "answer": [
+        "Visitarla en octubre"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Why don't you come and visit me in October?",
+        "incorrect": "Revisa esto: Dice: Why don't you come and visit me in October?"
+      },
+      "review": {
+        "lesson": "en-b1-u11-l05",
+        "unit": 11,
+        "order": 5,
+        "lesson_es": "Una carta o email informal",
+        "topic_es": "Escribir una carta o email informal"
+      }
+    },
+    {
+      "id": "en-b1-exam-ex42",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Dear Sir or Madam, I am writing to complain about a laptop I ordered on 3 May. The screen was cracked when it arrived. I would be grateful if you could send me a full refund. Yours faithfully, Pablo Ruiz.' ¿Qué pide Pablo?",
+      "options": [
+        "Un reembolso completo",
+        "Un portátil nuevo",
+        "Un descuento",
+        "Un vale"
+      ],
+      "answer": [
+        "Un reembolso completo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: a full refund.",
+        "incorrect": "Revisa esto: Dice: a full refund."
+      },
+      "review": {
+        "lesson": "en-b1-u07-l05",
+        "unit": 7,
+        "order": 5,
+        "lesson_es": "Atención al cliente",
+        "topic_es": "Atención al cliente y reclamaciones"
+      }
+    }
+  ],
+  "optional_tasks": [
+    {
+      "id": "en-b1-exam-opt01",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un texto de 10 a 12 frases sobre un reto que superaste: cuenta lo que pasó (pasado simple, continuo y perfecto), usa un contraste (although / despite), un condicional o wish, y cierra con una lección aprendida.",
+      "min_words": 79,
+      "self_check_es": [
+        "¿Usaste pasado simple, continuo y perfecto?",
+        "¿Usaste although / despite o however?",
+        "¿Incluiste un condicional o wish?",
+        "¿Cerraste con una lección?",
+        "¿Organizaste el texto con conectores?"
+      ],
+      "model_answer": "Last year I decided to learn to drive. Although I was nervous, I was determined to pass. I had never driven before, so I took lessons twice a week. One day, while I was practising in the city centre, the engine stopped. I felt like giving up, but my instructor told me to stay calm. Despite failing the first test, I tried again. If I keep practising, I'll become a good driver. In the end, I got my licence. I wish I had started earlier, but I learnt that you should never give up.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-exam-opt02",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers",
+        "tense-review-b1"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una entrevista de trabajo y te piden hablar de ti y de un reto.",
+      "turns": [
+        {
+          "speaker": "Interviewer",
+          "text": "Tell me a little about yourself."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm a graphic designer. I've been working freelance for four years, and I've worked with clients in six countries.",
+            "I am designer. I work since four years.",
+            "My name is Ana."
+          ],
+          "best": 0,
+          "why_es": "Presente + present perfect para experiencia."
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "Can you describe a difficult situation you've dealt with?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Last year, a client was unhappy with the delay, so I organised a meeting and in the end we solved it. I learnt that communication is essential.",
+            "A client was unhappy. I organise meeting and solved. I learn communication.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Pasado simple + conectores + lección aprendida."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      },
+      "review": {
+        "lesson": "en-b1-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Repaso de los tiempos verbales de B1",
+        "topic_es": "Repaso de tiempos verbales de B1"
+      }
+    }
+  ]
+}

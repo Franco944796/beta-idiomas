@@ -1,0 +1,751 @@
+{
+  "id": "en-b1-u01-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 1,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Describing personality",
+    "es": "Describir la personalidad"
+  },
+  "objective": "Al terminar describes la personalidad de alguien con adjetivos precisos, sus contrarios y frases como 'He tends to…' o 'She's the kind of person who…'.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En A2 decías 'he's nice' o 'she's friendly'. En B1 necesitas matices: ¿es tímido o antipático? ¿terco o decidido? Las palabras exactas cambian el mensaje."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Marta",
+        "text": "So, what's your new flatmate like?",
+        "es": "Y bien, ¿cómo es tu nuevo compañero de piso?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "Tom? He's very outgoing. He's the kind of person who talks to everyone on the bus.",
+        "es": "¿Tom? Es muy extrovertido. Es de esos que hablan con todos en el autobús."
+      },
+      {
+        "speaker": "Marta",
+        "text": "Is he reliable? I mean, does he pay the rent on time?",
+        "es": "¿Es de fiar? Quiero decir, ¿paga el alquiler a tiempo?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "Yes, he's honest and hard-working, but he can be a bit stubborn.",
+        "es": "Sí, es honesto y trabajador, pero a veces puede ser un poco terco."
+      },
+      {
+        "speaker": "Marta",
+        "text": "Stubborn? In what way?",
+        "es": "¿Terco? ¿En qué sentido?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "He never changes his mind, even when he's wrong. But he's generous: he always cooks for everyone.",
+        "es": "Nunca cambia de opinión, ni siquiera cuando se equivoca. Pero es generoso: siempre cocina para todos."
+      },
+      {
+        "speaker": "Marta",
+        "text": "That sounds fine! I'm quite shy, so I need someone easy-going.",
+        "es": "¡Suena bien! Yo soy bastante tímida, así que necesito a alguien tranquilo."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Don't worry. He tends to make people feel relaxed.",
+        "es": "No te preocupes. Suele hacer que la gente se sienta cómoda."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-outgoing",
+        "lemma": "outgoing",
+        "pos": "adj",
+        "ipa": "/ˈaʊtɡəʊɪŋ/",
+        "es": "extrovertido, sociable",
+        "example": "She's outgoing and loves parties."
+      },
+      {
+        "id": "en-shy",
+        "lemma": "shy",
+        "pos": "adj",
+        "ipa": "/ʃaɪ/",
+        "es": "tímido",
+        "example": "He's shy with strangers."
+      },
+      {
+        "id": "en-reliable",
+        "lemma": "reliable",
+        "pos": "adj",
+        "ipa": "/rɪˈlaɪəbl/",
+        "es": "de fiar, fiable",
+        "example": "She's reliable: she never forgets."
+      },
+      {
+        "id": "en-generous",
+        "lemma": "generous",
+        "pos": "adj",
+        "ipa": "/ˈdʒenərəs/",
+        "es": "generoso",
+        "example": "He's generous with his time."
+      },
+      {
+        "id": "en-stubborn",
+        "lemma": "stubborn",
+        "pos": "adj",
+        "ipa": "/ˈstʌbən/",
+        "es": "terco, cabezota",
+        "example": "My brother is very stubborn."
+      },
+      {
+        "id": "en-easy-going",
+        "lemma": "easy-going",
+        "pos": "adj",
+        "ipa": "/ˌiːziˈɡəʊɪŋ/",
+        "es": "tranquilo, de trato fácil",
+        "example": "Our boss is easy-going."
+      },
+      {
+        "id": "en-ambitious",
+        "lemma": "ambitious",
+        "pos": "adj",
+        "ipa": "/æmˈbɪʃəs/",
+        "es": "ambicioso",
+        "example": "She's ambitious and wants to be a director."
+      },
+      {
+        "id": "en-moody",
+        "lemma": "moody",
+        "pos": "adj",
+        "ipa": "/ˈmuːdi/",
+        "es": "de humor cambiante",
+        "example": "He's moody in the mornings."
+      },
+      {
+        "id": "en-honest",
+        "lemma": "honest",
+        "pos": "adj",
+        "ipa": "/ˈɒnɪst/",
+        "es": "honesto, sincero",
+        "example": "Be honest with me."
+      },
+      {
+        "id": "en-hard-working",
+        "lemma": "hard-working",
+        "pos": "adj",
+        "ipa": "/ˌhɑːd ˈwɜːkɪŋ/",
+        "es": "trabajador, esforzado",
+        "example": "He's hard-working and never complains."
+      },
+      {
+        "id": "en-bossy",
+        "lemma": "bossy",
+        "pos": "adj",
+        "ipa": "/ˈbɒsi/",
+        "es": "mandón",
+        "example": "Don't be so bossy!"
+      },
+      {
+        "id": "en-patient",
+        "lemma": "patient",
+        "pos": "adj",
+        "ipa": "/ˈpeɪʃnt/",
+        "es": "paciente",
+        "example": "Teachers need to be patient."
+      },
+      {
+        "id": "en-tend-to",
+        "lemma": "tend to",
+        "pos": "phrase",
+        "ipa": "/tend tə/",
+        "es": "tender a, soler",
+        "example": "He tends to talk too much."
+      },
+      {
+        "id": "en-the-kind-of-person-who",
+        "lemma": "the kind of person who",
+        "pos": "phrase",
+        "ipa": "/ðə kaɪnd əv ˈpɜːsn huː/",
+        "es": "de esas personas que…",
+        "example": "She's the kind of person who never gives up."
+      }
+    ],
+    "audio_script_id": "en-b1-u01-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Adjetivos de personalidad**\n\n| Positivo | Matiz | Negativo / contrario |\n|---|---|---|\n| *outgoing* | sociable | *shy* (tímido), *reserved* (reservado) |\n| *reliable* | de fiar | *unreliable* |\n| *generous* | da sin esperar nada | *mean* (tacaño) |\n| *determined* | decidido | *stubborn* (terco) |\n| *easy-going* | tranquilo | *bossy* (mandón), *moody* (de humor cambiante) |\n| *patient* | paciente | *impatient* |\n| *honest* | sincero | *dishonest* |\n\n**Prefijos negativos:** *un-* (unreliable, unfriendly, unkind) · *im-* delante de **p** y **m** (impatient, impolite, immature) · *in-* (insecure, inconsiderate) · *dis-* (dishonest, disloyal).\n\n**Frases útiles para describir**\n\n- *He's the kind of person who …* (Es de esos que…) → *She's the kind of person who always helps.*\n- *He tends to + verbo* (suele, tiende a) → *He tends to be late.*\n- *I'd describe myself as …* → *I'd describe myself as quite outgoing.*\n- *quite, a bit, rather, really, extremely* suavizan o refuerzan: *a bit stubborn · extremely generous*.\n- *can be + adjetivo* (a veces es…): *He can be moody.*\n\n**Ojo:** *stubborn* es negativo y *determined* es positivo, aunque describan algo parecido. *Sympathetic* no es 'simpático': es 'comprensivo, compasivo'. *Sensible* no es 'sensible': es 'sensato'.\n\nPronunciación: *generous* /ˈdʒenərəs/ (3 sílabas) · *ambitious* /æmˈbɪʃəs/ · *reliable* /rɪˈlaɪəbl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "He is very sympathetic.",
+        "right": "He is very nice / friendly.",
+        "note": "Sympathetic = comprensivo, no simpático."
+      },
+      {
+        "wrong": "She's unpatient.",
+        "right": "She's impatient.",
+        "note": "Im- delante de p y m."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "sympathetic",
+        "es_false": "simpático",
+        "real": "comprensivo, compasivo",
+        "note": "'Simpático' se dice nice o friendly."
+      },
+      {
+        "word": "sensible",
+        "es_false": "sensible",
+        "real": "sensato",
+        "note": "'Sensible' se dice sensitive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u01-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su significado.",
+      "pairs": [
+        {
+          "left": "stubborn",
+          "right": "terco"
+        },
+        {
+          "left": "reliable",
+          "right": "de fiar"
+        },
+        {
+          "left": "shy",
+          "right": "tímido"
+        },
+        {
+          "left": "generous",
+          "right": "generoso"
+        },
+        {
+          "left": "bossy",
+          "right": "mandón"
+        },
+        {
+          "left": "outgoing",
+          "right": "extrovertido"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los adjetivos básicos de personalidad.",
+        "incorrect": "Revisa esto: Son los adjetivos básicos de personalidad."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una cualidad positiva o negativa?",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "reliable",
+          "category": "Positive"
+        },
+        {
+          "text": "generous",
+          "category": "Positive"
+        },
+        {
+          "text": "hard-working",
+          "category": "Positive"
+        },
+        {
+          "text": "honest",
+          "category": "Positive"
+        },
+        {
+          "text": "stubborn",
+          "category": "Negative"
+        },
+        {
+          "text": "bossy",
+          "category": "Negative"
+        },
+        {
+          "text": "moody",
+          "category": "Negative"
+        },
+        {
+          "text": "mean",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende el 'tono' de cada adjetivo para no ofender sin querer.",
+        "incorrect": "Revisa esto: Aprende el 'tono' de cada adjetivo para no ofender sin querer."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo describe Dan a Tom?",
+      "options": [
+        "Sociable, honesto y un poco terco",
+        "Tímido y callado",
+        "Perezoso y egoísta",
+        "Mandón y de mal humor"
+      ],
+      "answer": [
+        "Sociable, honesto y un poco terco"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dan dice: outgoing, honest, hard-working y a bit stubborn.",
+        "incorrect": "Revisa esto: Dan dice: outgoing, honest, hard-working y a bit stubborn."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Marta quiere a alguien 'easy-going'?",
+      "options": [
+        "Porque ella es bastante tímida",
+        "Porque no tiene dinero",
+        "Porque Tom es bossy",
+        "Porque odia cocinar"
+      ],
+      "answer": [
+        "Porque ella es bastante tímida"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Marta: 'I'm quite shy, so I need someone easy-going'.",
+        "incorrect": "Revisa esto: Marta: 'I'm quite shy, so I need someone easy-going'."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "Someone who never changes their mind is…",
+      "options": [
+        "stubborn",
+        "generous",
+        "shy",
+        "patient"
+      ],
+      "answer": [
+        "stubborn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stubborn = terco: no cambia de opinión.",
+        "incorrect": "Revisa esto: Stubborn = terco: no cambia de opinión."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "The opposite of 'patient' is…",
+      "options": [
+        "impatient",
+        "unpatient",
+        "dispatient",
+        "inpatient"
+      ],
+      "answer": [
+        "impatient"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delante de p se usa im-: impatient.",
+        "incorrect": "Revisa esto: Delante de p se usa im-: impatient."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's ___ person who always helps his neighbours.",
+      "options": [
+        "the kind of",
+        "kind of the",
+        "a kind from",
+        "the kind"
+      ],
+      "answer": [
+        "the kind of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estructura: the kind of person who…",
+        "incorrect": "Revisa esto: Estructura: the kind of person who…"
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex08",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 25,
+      "prompt": "My sister is very ___. She never forgets anything and always arrives on time. (de fiar)",
+      "answer": [
+        "reliable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reliable = de fiar.",
+        "incorrect": "Revisa esto: Reliable = de fiar."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was very tired, ___ I went to bed early.",
+      "options": [
+        "so",
+        "because",
+        "although",
+        "but"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Result: so.",
+        "incorrect": "Revisa esto: Result: so."
+      },
+      "review_of": "en-a2-u10-l04-ex05"
+    },
+    {
+      "id": "en-b1-u01-l01-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ to talk too much when he's nervous.",
+      "answer": [
+        "tends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! He tends to + verbo: suele.",
+        "incorrect": "Revisa esto: He tends to + verbo: suele."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you Spanish? — No, I'm not.",
+      "answer": [
+        "Are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'you' la pregunta empieza con 'Are'.",
+        "incorrect": "Revisa esto: Con 'you' la pregunta empieza con 'Are'."
+      },
+      "review_of": "en-a1-u02-l04-ex01"
+    },
+    {
+      "id": "en-b1-u01-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to left at the corner.",
+      "answer": [
+        "Turn left at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usa 'to' con left / right.",
+        "incorrect": "Revisa esto: No se usa 'to' con left / right."
+      },
+      "review_of": "en-a1-u07-l03-ex05"
+    },
+    {
+      "id": "en-b1-u01-l01-ex10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is very sympathetic, everybody loves her.",
+      "answer": [
+        "She is very friendly, everybody loves her.",
+        "She is very nice, everybody loves her.",
+        "She is very likeable, everybody loves her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sympathetic significa comprensivo, no simpático. Simpático = nice / friendly.",
+        "incorrect": "Revisa esto: Sympathetic significa comprensivo, no simpático. Simpático = nice / friendly."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He's very unpatient with the children.",
+      "answer": [
+        "He's very impatient with the children."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El contrario de patient es impatient (im- delante de p).",
+        "incorrect": "Revisa esto: El contrario de patient es impatient (im- delante de p)."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have the breakfast at eight.",
+      "answer": [
+        "I have breakfast at eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo con las comidas.",
+        "incorrect": "Revisa esto: Sin artículo con las comidas."
+      },
+      "review_of": "en-a1-u11-l06-ex08"
+    },
+    {
+      "id": "en-b1-u01-l01-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué defecto tiene la jefa?",
+      "options": [
+        "A veces es mandona",
+        "Es perezosa",
+        "Es muy tímida",
+        "Es poco honesta"
+      ],
+      "answer": [
+        "A veces es mandona"
+      ],
+      "audio_text": "My boss is very ambitious and extremely hard-working, but she can be a bit bossy when we are under pressure.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: she can be a bit bossy.",
+        "incorrect": "Revisa esto: Dice: she can be a bit bossy."
+      },
+      "audio_script_id": "en-b1-u01-l01-ex12-a"
+    },
+    {
+      "id": "en-b1-u01-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el último paso de una receta?",
+      "options": [
+        "Finally, add some salt.",
+        "First, add some salt.",
+        "Meanwhile, add some salt.",
+        "Next, add some salt."
+      ],
+      "answer": [
+        "Finally, add some salt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finally indica el último paso.",
+        "incorrect": "Revisa esto: Finally indica el último paso."
+      },
+      "review_of": "en-a2-u04-l05-ex04"
+    },
+    {
+      "id": "en-b1-u01-l01-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy bastante tímido, pero mi hermano es muy extrovertido.",
+      "answer": [
+        "I'm quite shy, but my brother is very outgoing.",
+        "I am quite shy, but my brother is very outgoing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quite + adjetivo; outgoing = extrovertido.",
+        "incorrect": "Revisa esto: Quite + adjetivo; outgoing = extrovertido."
+      }
+    },
+    {
+      "id": "en-b1-u01-l01-ex14",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "personality"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "generous",
+          "ipa": "/ˈdʒenərəs/",
+          "tip_es": "Tres sílabas: JE-ne-rus."
+        },
+        {
+          "text": "ambitious",
+          "ipa": "/æmˈbɪʃəs/",
+          "tip_es": "El acento va en 'bi'."
+        },
+        {
+          "text": "reliable",
+          "ipa": "/rɪˈlaɪəbl/",
+          "tip_es": "El acento va en 'lai'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He's the kind of person who …",
+      "He tends to …",
+      "I'd describe myself as …",
+      "unreliable · impatient · dishonest"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-outgoing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reliable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-generous"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stubborn"
+    },
+    {
+      "type": "vocab",
+      "id": "en-easy-going"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ambitious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-moody"
+    },
+    {
+      "type": "vocab",
+      "id": "en-honest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hard-working"
+    },
+    {
+      "type": "grammar",
+      "id": "en-b1-personality"
+    }
+  ]
+}

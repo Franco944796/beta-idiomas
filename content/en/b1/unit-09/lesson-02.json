@@ -1,0 +1,767 @@
+{
+  "id": "en-b1-u09-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 9,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "All, most, none, both",
+    "es": "Cuantificadores y determinantes"
+  },
+  "objective": "Al terminar usas correctamente los cuantificadores all, most, some, none, both, either, neither, each y every.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Todos los alumnos', 'la mayoría de la gente', 'ninguno de los dos'. Estos cuantificadores se confunden mucho y siguen reglas de concordancia."
+  },
+  "input": {
+    "type": "text",
+    "text": "We asked 100 people about their environmental habits. All of them said that they recycle at least some of their waste. Most of the people we asked (about 80) use public transport at least once a week. Many of them cycle, and a few walk everywhere. Some people drive to work, but few of them drive every day. None of the participants said they never recycle. Both of the schools that took part have recycling bins in every classroom. Each school has its own garden and every student helps to take care of it. Neither school allows plastic bottles. Either option is fine for our report: we can describe one school or both. Every year, more people join the project. Overall, most of the results are positive, but there is still a lot to do.",
+    "es": "Preguntamos a 100 personas sobre sus hábitos ecológicos. Todos dijeron que reciclan al menos parte de sus residuos. La mayoría de las personas (unas 80) usa el transporte público al menos una vez por semana. Muchos van en bici y unos pocos van a pie a todas partes. Algunas personas conducen al trabajo, pero pocas lo hacen cada día. Ninguno de los participantes dijo que nunca recicla. Los dos colegios que participaron tienen contenedores de reciclaje en cada aula. Cada colegio tiene su propio huerto y cada alumno ayuda a cuidarlo. Ninguno de los dos permite botellas de plástico. Cualquiera de las dos opciones vale para nuestro informe: podemos describir un colegio o ambos. Cada año se une más gente al proyecto. En general, la mayoría de los resultados son positivos, pero aún queda mucho por hacer.",
+    "glossary": [
+      {
+        "id": "en-participant",
+        "lemma": "participant",
+        "pos": "noun",
+        "ipa": "/pɑːˈtɪsɪpənt/",
+        "es": "participante",
+        "example": "All participants agreed."
+      },
+      {
+        "id": "en-at-least",
+        "lemma": "at least",
+        "pos": "phrase",
+        "ipa": "/ət liːst/",
+        "es": "al menos",
+        "example": "At least one hour."
+      },
+      {
+        "id": "en-recycling-bin",
+        "lemma": "recycling bin",
+        "pos": "noun",
+        "ipa": "/ˌriːˈsaɪklɪŋ bɪn/",
+        "es": "contenedor de reciclaje",
+        "example": "Use the recycling bin."
+      },
+      {
+        "id": "en-classroom",
+        "lemma": "classroom",
+        "pos": "noun",
+        "ipa": "/ˈklɑːsruːm/",
+        "es": "aula",
+        "example": "Each classroom has a bin."
+      },
+      {
+        "id": "en-take-care-of",
+        "lemma": "take care of",
+        "pos": "phrase",
+        "ipa": "/teɪk keər əv/",
+        "es": "cuidar de",
+        "example": "She takes care of the garden."
+      },
+      {
+        "id": "en-take-part",
+        "lemma": "take part",
+        "pos": "phrase",
+        "ipa": "/teɪk pɑːt/",
+        "es": "participar",
+        "example": "Two schools took part."
+      },
+      {
+        "id": "en-overall",
+        "lemma": "overall",
+        "pos": "adv",
+        "ipa": "/ˌəʊvərˈɔːl/",
+        "es": "en general",
+        "example": "Overall, it was good."
+      },
+      {
+        "id": "en-a-lot-to-do",
+        "lemma": "a lot to do",
+        "pos": "phrase",
+        "ipa": "/ə lɒt tə duː/",
+        "es": "mucho por hacer",
+        "example": "There's a lot to do."
+      },
+      {
+        "id": "en-garden",
+        "lemma": "garden",
+        "pos": "noun",
+        "ipa": "/ˈɡɑːdn/",
+        "es": "jardín, huerto",
+        "example": "The school has a garden."
+      },
+      {
+        "id": "en-join",
+        "lemma": "join",
+        "pos": "verb",
+        "ipa": "/dʒɔɪn/",
+        "es": "unirse a",
+        "example": "More people join every year."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cuantificadores: concordancia y uso**\n\n| Cuantificador | Significado | Con… | Ejemplo |\n|---|---|---|---|\n| **all** | todos / todo | plural o incontable | *All the students are here.* · *All of them said yes.* |\n| **most** | la mayoría | plural o incontable | *Most people recycle.* · *Most of the time …* |\n| **some** | algunos / algo | plural o incontable | *Some people drive.* |\n| **many / a lot of** | muchos | plural | *Many of them cycle.* |\n| **a few** | unos pocos (positivo) | plural | *A few walk.* |\n| **few** | pocos (negativo) | plural | *Few drive daily.* |\n| **none (of)** | ninguno | verbo afirmativo | *None of them said no.* |\n| **both** | los dos | plural (2) | *Both schools are great.* |\n| **neither** | ninguno de los dos | singular (2) | *Neither school allows plastic.* |\n| **either** | uno u otro / cualquiera de los dos | singular (2) | *Either option is fine.* |\n| **each / every** | cada | singular | *Each student helps.* · *Every year …* |\n\n**Reglas importantes**\n\n- *All / most / some / none* + *of the / of them*: *Most of the students …*\n- *Each* y *every* siguen con **singular**: ✘ *Every students*. ✔ *Every student.*\n- *None* ya es negativo: ✘ *None of them don't recycle.* ✔ *None of them recycle.*\n- *Neither* con verbo **afirmativo**: ✘ *Neither of them doesn't know.*\n- *Both* se refiere a **dos**; si son más, *all*.\n- *Few* ≈ casi ninguno; *a few* ≈ algunos.\n\n**Ojo:** *every day* (cada día, dos palabras, adverbio) vs *everyday* (cotidiano, adjetivo): *everyday life*. *Most* sin *of* delante de sustantivo sin artículo: *Most people.* Con artículo o pronombre: *Most **of** the people / **of** them*.\n\nPronunciación: *neither* /ˈnaɪðə/ o /ˈniːðə/ · *either* /ˈaɪðə/ o /ˈiːðə/ · *participant* /pɑːˈtɪsɪpənt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Every students...",
+        "right": "Every student...",
+        "note": "Every + singular."
+      },
+      {
+        "wrong": "None of them don't...",
+        "right": "None of them...",
+        "note": "None ya es negativo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u09-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos participantes dijeron que nunca reciclan?",
+      "options": [
+        "Ninguno",
+        "Todos",
+        "La mayoría",
+        "Unos pocos"
+      ],
+      "answer": [
+        "Ninguno"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: None of the participants said they never recycle.",
+        "incorrect": "Revisa esto: Dice: None of the participants said they never recycle."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hacen los dos colegios?",
+      "options": [
+        "Tienen contenedores de reciclaje en cada aula",
+        "No reciclan",
+        "Usan solo plástico",
+        "Tienen piscina"
+      ],
+      "answer": [
+        "Tienen contenedores de reciclaje en cada aula"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Both of the schools … have recycling bins in every classroom.",
+        "incorrect": "Revisa esto: Dice: Both of the schools … have recycling bins in every classroom."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "ever",
+        "been",
+        "to",
+        "London",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "London",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + sujeto + ever + participio.",
+        "incorrect": "Revisa esto: Have + sujeto + ever + participio."
+      },
+      "review_of": "en-a2-u08-l01-ex09"
+    },
+    {
+      "id": "en-b1-u09-l02-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 15,
+      "prompt": "La mayoría usa el transporte público al menos una vez por semana.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Most of the people … at least once a week.",
+        "incorrect": "Revisa esto: Dice: Most of the people … at least once a week."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ student has a locker.",
+      "options": [
+        "Every",
+        "All",
+        "Both",
+        "Most"
+      ],
+      "answer": [
+        "Every"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every + singular.",
+        "incorrect": "Revisa esto: Every + singular."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 20,
+      "prompt": "He stopped ___ cigarettes. (ya no fuma)",
+      "options": [
+        "buying",
+        "to buy",
+        "buy",
+        "bought"
+      ],
+      "answer": [
+        "buying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop + -ing = dejar de.",
+        "incorrect": "Revisa esto: Stop + -ing = dejar de."
+      },
+      "review_of": "en-b1-u08-l02-ex05"
+    },
+    {
+      "id": "en-b1-u09-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the students passed the exam. Nobody failed.",
+      "options": [
+        "All",
+        "None",
+        "Few",
+        "Either"
+      ],
+      "answer": [
+        "All"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nobody failed → all passed.",
+        "incorrect": "Revisa esto: Nobody failed → all passed."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the two restaurants is open on Monday. They're both closed.",
+      "options": [
+        "Neither",
+        "Either",
+        "Both",
+        "Each"
+      ],
+      "answer": [
+        "Neither"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither = ninguno de los dos.",
+        "incorrect": "Revisa esto: Neither = ninguno de los dos."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ swimming every morning.",
+      "options": [
+        "goes",
+        "plays",
+        "does",
+        "makes"
+      ],
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actividades en -ing: go.",
+        "incorrect": "Revisa esto: Actividades en -ing: go."
+      },
+      "review_of": "en-a2-u13-l01-ex04"
+    },
+    {
+      "id": "en-b1-u09-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I like ___ of the two options. They're equally good.",
+      "options": [
+        "both",
+        "neither",
+        "none",
+        "every"
+      ],
+      "answer": [
+        "both"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Both = los dos.",
+        "incorrect": "Revisa esto: Both = los dos."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ people drive to work, but most take the bus.",
+      "options": [
+        "A few",
+        "Few of",
+        "A little",
+        "Much"
+      ],
+      "answer": [
+        "A few"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A few = unos pocos.",
+        "incorrect": "Revisa esto: A few = unos pocos."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "None of them recycle.",
+        "None of them don't recycle.",
+        "No one of them recycle.",
+        "None them recycle."
+      ],
+      "answer": [
+        "None of them recycle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! None ya es negativo.",
+        "incorrect": "Revisa esto: None ya es negativo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I take the bus ___ day.",
+      "options": [
+        "every",
+        "everyday",
+        "all",
+        "each of"
+      ],
+      "answer": [
+        "every"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every day (adverbio).",
+        "incorrect": "Revisa esto: Every day (adverbio)."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ of the teachers agreed. (todos)",
+      "answer": [
+        "All"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! All of.",
+        "incorrect": "Revisa esto: All of."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ student has their own project. (cada)",
+      "answer": [
+        "Each",
+        "Every"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Each / Every + singular.",
+        "incorrect": "Revisa esto: Each / Every + singular."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Every students has a book.",
+      "answer": [
+        "Every student has a book."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every + singular.",
+        "incorrect": "Revisa esto: Every + singular."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "messages-informal"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "can't",
+        "make",
+        "it",
+        "tonight",
+        "!",
+        "Sorry",
+        ","
+      ],
+      "answer": [
+        "Sorry",
+        ",",
+        "can't",
+        "make",
+        "it",
+        "tonight",
+        "!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mensaje corto e informal.",
+        "incorrect": "Revisa esto: Mensaje corto e informal."
+      },
+      "review_of": "en-a2-u09-l05-ex08"
+    },
+    {
+      "id": "en-b1-u09-l02-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "No estás seguro de si saldrás esta noche. Dices:",
+      "options": [
+        "I might go out tonight.",
+        "I will might go out tonight.",
+        "I might to go out tonight.",
+        "I mights go out tonight."
+      ],
+      "answer": [
+        "I might go out tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad: might + verbo base.",
+        "incorrect": "Revisa esto: Posibilidad: might + verbo base."
+      },
+      "review_of": "en-a2-u05-l04-ex03"
+    },
+    {
+      "id": "en-b1-u09-l02-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Neither of them doesn't know.",
+      "answer": [
+        "Neither of them knows.",
+        "Neither of them know."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither con verbo afirmativo.",
+        "incorrect": "Revisa esto: Neither con verbo afirmativo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "go",
+        "unless",
+        "it",
+        "rains",
+        "tomorrow",
+        ".",
+        "I",
+        "will"
+      ],
+      "answer": [
+        "I",
+        "will",
+        "go",
+        "unless",
+        "it",
+        "rains",
+        "tomorrow",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless + presente.",
+        "incorrect": "Revisa esto: Unless + presente."
+      },
+      "review_of": "en-b1-u04-l03-ex13"
+    },
+    {
+      "id": "en-b1-u09-l02-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Most of people recycle.",
+      "answer": [
+        "Most people recycle.",
+        "Most of the people recycle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Most people / most of the people.",
+        "incorrect": "Revisa esto: Most people / most of the people."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántos van en coche?",
+      "options": [
+        "Ninguno",
+        "Todos",
+        "Unos pocos",
+        "La mayoría"
+      ],
+      "answer": [
+        "Ninguno"
+      ],
+      "audio_text": "We interviewed fifty students. Most of them said they walk to school. A few take the bus and none of them go by car. Both of the teachers cycle.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: none of them go by car.",
+        "incorrect": "Revisa esto: Dice: none of them go by car."
+      },
+      "audio_script_id": "en-b1-u09-l02-ex16-a"
+    },
+    {
+      "id": "en-b1-u09-l02-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "La mayoría de mis amigos reciclan, pero ninguno de ellos usa botellas reutilizables.",
+      "answer": [
+        "Most of my friends recycle, but none of them use reusable bottles.",
+        "Most of my friends recycle but none of them uses reusable bottles."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Most of / none of.",
+        "incorrect": "Revisa esto: Most of / none of."
+      }
+    },
+    {
+      "id": "en-b1-u09-l02-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué problema tenía el otro suéter?",
+      "options": [
+        "It was too small",
+        "It was faulty",
+        "It was too expensive",
+        "It was the wrong colour"
+      ],
+      "answer": [
+        "It was too small"
+      ],
+      "audio_text": "I'm looking for a dark blue wool jumper, size medium. I bought a similar one last week, but it was too small, so I'd like to exchange it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'it was too small'.",
+        "incorrect": "Revisa esto: Dice 'it was too small'."
+      },
+      "audio_script_id": "en-b1-u09-l02-rv07-a",
+      "review_of": "en-a2-u11-l06-ex10"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "all · most · some · none of",
+      "both · neither · either",
+      "each · every + singular",
+      "a few · few"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-participant"
+    },
+    {
+      "type": "vocab",
+      "id": "en-at-least"
+    },
+    {
+      "type": "vocab",
+      "id": "en-recycling-bin"
+    },
+    {
+      "type": "vocab",
+      "id": "en-classroom"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-care-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-part"
+    },
+    {
+      "type": "vocab",
+      "id": "en-overall"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-lot-to-do"
+    },
+    {
+      "type": "vocab",
+      "id": "en-garden"
+    },
+    {
+      "type": "vocab",
+      "id": "en-join"
+    },
+    {
+      "type": "grammar",
+      "id": "en-quantifiers-b1"
+    }
+  ]
+}

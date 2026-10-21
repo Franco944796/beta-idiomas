@@ -1,0 +1,817 @@
+{
+  "id": "en-b2-u11-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A letter to the editor",
+    "es": "Una carta al director"
+  },
+  "objective": "Al terminar escribes una carta al director de un periódico: exposición del tema, postura, argumentos y petición de acción, en registro formal y persuasivo.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Una carta al director es un género clásico de opinión: breve, clara y persuasiva. Se escribe con tono formal, una postura definida y una petición final."
+  },
+  "input": {
+    "type": "text",
+    "text": "Dear Editor,\n\nI am writing in response to your article of 12 March, 'Council Plans to Close the Town Library', which I read with great concern.\n\nThe library is not simply a place to borrow books. For many residents, it is a vital community space. Children from low-income families use it to do their homework, elderly people find company there, and unemployed residents rely on its free computers to apply for jobs. Closing it would deprive these people of an essential service.\n\nI appreciate that the council has to make difficult financial decisions. Nevertheless, I would argue that the savings would be minimal compared with the long-term social cost. Surely it would be wiser to consider alternatives, such as reducing opening hours or seeking donations from local businesses.\n\nI therefore urge the council to reconsider its decision and to consult residents before taking any further action. A town that closes its library is a town that undervalues its future.\n\nYours faithfully,\nPaula Reyes",
+    "es": "Estimado director: Le escribo en respuesta a su artículo del 12 de marzo, 'El ayuntamiento planea cerrar la biblioteca de la ciudad', que he leído con gran preocupación. La biblioteca no es simplemente un lugar donde tomar libros prestados. Para muchos vecinos es un espacio comunitario vital. Los niños de familias con bajos ingresos la usan para hacer los deberes, las personas mayores encuentran allí compañía y los desempleados dependen de sus ordenadores gratuitos para buscar trabajo. Cerrarla privaría a estas personas de un servicio esencial. Entiendo que el ayuntamiento tiene que tomar decisiones financieras difíciles. No obstante, sostengo que los ahorros serían mínimos en comparación con el coste social a largo plazo. Seguramente sería más sensato considerar alternativas, como reducir el horario o buscar donaciones de empresas locales. Por tanto, insto al ayuntamiento a reconsiderar su decisión y a consultar a los vecinos antes de tomar nuevas medidas. Una ciudad que cierra su biblioteca es una ciudad que infravalora su futuro. Atentamente, Paula Reyes.",
+    "glossary": [
+      {
+        "id": "en-in-response-to",
+        "lemma": "in response to",
+        "pos": "phrase",
+        "ipa": "/ɪn rɪˈspɒns tuː/",
+        "es": "en respuesta a",
+        "example": "In response to your article."
+      },
+      {
+        "id": "en-with-great-concern",
+        "lemma": "with great concern",
+        "pos": "phrase",
+        "ipa": "/wɪð ɡreɪt kənˈsɜːn/",
+        "es": "con gran preocupación",
+        "example": "I read it with great concern."
+      },
+      {
+        "id": "en-vital",
+        "lemma": "vital",
+        "pos": "adj",
+        "ipa": "/ˈvaɪtl/",
+        "es": "vital",
+        "example": "A vital space."
+      },
+      {
+        "id": "en-low-income",
+        "lemma": "low-income",
+        "pos": "adj",
+        "ipa": "/ləʊ ˈɪnkʌm/",
+        "es": "de bajos ingresos",
+        "example": "Low-income families."
+      },
+      {
+        "id": "en-rely-on",
+        "lemma": "rely on",
+        "pos": "phrasal verb",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "es": "depender de",
+        "example": "Rely on free computers."
+      },
+      {
+        "id": "en-deprive-of",
+        "lemma": "deprive of",
+        "pos": "phrasal verb",
+        "ipa": "/dɪˈpraɪv əv/",
+        "es": "privar de",
+        "example": "Deprive people of a service."
+      },
+      {
+        "id": "en-appreciate",
+        "lemma": "appreciate",
+        "pos": "verb",
+        "ipa": "/əˈpriːʃieɪt/",
+        "es": "entender, valorar",
+        "example": "I appreciate that…"
+      },
+      {
+        "id": "en-minimal",
+        "lemma": "minimal",
+        "pos": "adj",
+        "ipa": "/ˈmɪnɪml/",
+        "es": "mínimo",
+        "example": "Minimal savings."
+      },
+      {
+        "id": "en-alternative",
+        "lemma": "alternative",
+        "pos": "noun",
+        "ipa": "/ɔːlˈtɜːnətɪv/",
+        "es": "alternativa",
+        "example": "Consider alternatives."
+      },
+      {
+        "id": "en-urge",
+        "lemma": "urge",
+        "pos": "verb",
+        "ipa": "/ɜːdʒ/",
+        "es": "instar",
+        "example": "I urge the council."
+      },
+      {
+        "id": "en-reconsider",
+        "lemma": "reconsider",
+        "pos": "verb",
+        "ipa": "/ˌriːkənˈsɪdə/",
+        "es": "reconsiderar",
+        "example": "Reconsider the decision."
+      },
+      {
+        "id": "en-undervalue",
+        "lemma": "undervalue",
+        "pos": "verb",
+        "ipa": "/ˌʌndəˈvæljuː/",
+        "es": "infravalorar",
+        "example": "Undervalue the future."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de una carta al director**\n\n| Parte | Contenido | Frases útiles |\n|---|---|---|\n| **Saludo** | *Dear Editor,* / *Dear Sir or Madam,* | |\n| **Referencia** | por qué escribes | *I am writing in response to your article of … · with reference to …* |\n| **Postura** | tu opinión clara | *I read it with great concern. · I strongly disagree with … · I wish to express my support for …* |\n| **Argumentos** | 2–3 razones con ejemplos | *Firstly, … Moreover, … It is not simply … but also …* |\n| **Concesión** | reconocer el otro lado | *I appreciate that … Nevertheless, … It is true that … However, …* |\n| **Alternativa** | propuesta | *Surely it would be wiser to … · A better solution would be …* |\n| **Petición** | llamada a la acción | *I therefore urge … to … · I call on the council to …* |\n| **Cierre** | firma | *Yours faithfully, (Dear Sir/Madam) · Yours sincerely, (Dear Mr/Ms X)* |\n\n**Tono**\n\n- Formal, firme, respetuoso. Sin contracciones. Sin insultos ni sarcasmo.\n- Preguntas retóricas moderadas: *Surely it would be wiser to …?* · *Is this really the best use of public money?*\n- Frase final potente: *A town that closes its library undervalues its future.*\n\n**Verbos de postura y petición**\n\n- *urge, call on, appeal to, demand, request, welcome, deplore, condemn, support, oppose.*\n- Patrones: *urge + persona + to + verbo* · *call on someone to + verbo* · *appeal to someone to + verbo* · *deplore + -ing / the fact that …*\n\n**Conectores**\n\n- *Furthermore, Moreover, Nevertheless, However, Therefore, In view of this, Taking everything into account.*\n\n**Errores típicos**\n\n- ✘ *I am write to you.* → ✔ *I am writing to you.*\n- ✘ *Your newspaper is very bad.* (tono) → ✔ *I was disappointed by your coverage of …*\n- ✘ *I urge to the council reconsider.* → ✔ *I urge the council to reconsider.*\n- ✘ *Yours sincerely, Dear Editor.* → ✔ *Yours faithfully, (Dear Sir/Madam)*; *Yours sincerely, (Dear Mr X)*. Con *Dear Editor* se usa *Yours faithfully*.\n- ✘ *Deprive them from a service.* → ✔ *Deprive them of a service.*\n\n**Ojo:** *Editor* (director de un periódico) ≠ *editorial* (artículo de opinión). *Concerned about* (preocupado por) vs *concerned with* (que trata de). *Rely on, depend on, count on* + persona/cosa.\n\nPronunciación: *deplore* /dɪˈplɔː/ · *vital* /ˈvaɪtl/ · *reconsider* /ˌriːkənˈsɪdə/ · *undervalue* /ˌʌndəˈvæljuː/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "deprive them from",
+        "right": "deprive them of",
+        "note": "Deprive of."
+      },
+      {
+        "wrong": "I urge to the council",
+        "right": "I urge the council to",
+        "note": "Urge someone to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué responde Paula con su carta?",
+      "options": [
+        "A un artículo sobre el cierre de la biblioteca",
+        "A un anuncio de empleo",
+        "A una factura",
+        "A una invitación"
+      ],
+      "answer": [
+        "A un artículo sobre el cierre de la biblioteca"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: in response to your article of 12 March.",
+        "incorrect": "Revisa esto: Dice: in response to your article of 12 March."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quiénes usan la biblioteca según la carta?",
+      "options": [
+        "Niños, mayores y desempleados",
+        "Solo turistas",
+        "Solo estudiantes universitarios",
+        "Solo el ayuntamiento"
+      ],
+      "answer": [
+        "Niños, mayores y desempleados"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: children, elderly people, unemployed residents.",
+        "incorrect": "Revisa esto: Dice: children, elderly people, unemployed residents."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv01",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "La batería del móvil de Mia dura mucho.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que se agota en dos horas.",
+        "incorrect": "Revisa esto: Dice que se agota en dos horas."
+      },
+      "review_of": "en-b1-u05-l01-ex05"
+    },
+    {
+      "id": "en-b2-u11-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué alternativas propone?",
+      "options": [
+        "Reducir horarios o buscar donaciones",
+        "Subir impuestos",
+        "Vender los libros",
+        "Cerrarla un año"
+      ],
+      "answer": [
+        "Reducir horarios o buscar donaciones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: reducing opening hours or seeking donations.",
+        "incorrect": "Revisa esto: Dice: reducing opening hours or seeking donations."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 15,
+      "prompt": "Paula se opone a que el ayuntamiento tome cualquier decisión financiera.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reconoce que debe tomar decisiones difíciles.",
+        "incorrect": "Revisa esto: Reconoce que debe tomar decisiones difíciles."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "I am writing ___ response to your article.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In response to.",
+        "incorrect": "Revisa esto: In response to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "I urge the council ___ its decision.",
+      "options": [
+        "to reconsider",
+        "reconsider",
+        "reconsidering",
+        "that reconsider to"
+      ],
+      "answer": [
+        "to reconsider"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Urge + persona + to.",
+        "incorrect": "Revisa esto: Urge + persona + to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "These ecologic bags are made from recycled plastic.",
+      "answer": [
+        "These eco-friendly bags are made from recycled plastic.",
+        "These ecological bags are made from recycled plastic."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eco-friendly / ecological.",
+        "incorrect": "Revisa esto: Eco-friendly / ecological."
+      },
+      "review_of": "en-b2-u09-l01-ex19"
+    },
+    {
+      "id": "en-b2-u11-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Closing it would deprive these people ___ an essential service.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deprive of.",
+        "incorrect": "Revisa esto: Deprive of."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Many residents rely ___ the library's free computers.",
+      "options": [
+        "on",
+        "of",
+        "in",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rely on.",
+        "incorrect": "Revisa esto: Rely on."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "The letter begins 'Dear Editor,' so it should end with...",
+      "options": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Cheers",
+        "Best wishes, mate"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dear Editor → faithfully.",
+        "incorrect": "Revisa esto: Dear Editor → faithfully."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence has the right tone?",
+      "options": [
+        "I was disappointed by your coverage of the issue.",
+        "Your newspaper is a joke.",
+        "You are idiots.",
+        "I hate your articles."
+      ],
+      "answer": [
+        "I was disappointed by your coverage of the issue."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tono formal.",
+        "incorrect": "Revisa esto: Tono formal."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Surely it would be ___ to consider alternatives.",
+      "options": [
+        "wiser",
+        "more wise",
+        "wisest",
+        "wisdomer"
+      ],
+      "answer": [
+        "wiser"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comparativo.",
+        "incorrect": "Revisa esto: Comparativo."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Despite ___ tired, she kept working.",
+      "options": [
+        "being",
+        "she was",
+        "to be",
+        "of being"
+      ],
+      "answer": [
+        "being"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      },
+      "review_of": "en-b2-u08-l06-ex09"
+    },
+    {
+      "id": "en-b2-u11-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ that the council has to make difficult decisions.",
+      "options": [
+        "appreciate",
+        "appreciate of",
+        "am appreciating of",
+        "appreciating"
+      ],
+      "answer": [
+        "appreciate"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Appreciate that.",
+        "incorrect": "Revisa esto: Appreciate that."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ watching TV. (negativa)",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa con he: isn't watching.",
+        "incorrect": "Revisa esto: Negativa con he: isn't watching."
+      },
+      "review_of": "en-a1-u09-l04-ex04"
+    },
+    {
+      "id": "en-b2-u11-l05-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 25,
+      "prompt": "I wish to express my support ___ the new law. (a)",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Support for.",
+        "incorrect": "Revisa esto: Support for."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "La encuesta reveló que el 70 % de los estudiantes desconoce la política; por tanto, se recomienda lanzar una campaña.",
+      "answer": [
+        "The survey revealed that 70 per cent of students are unaware of the policy; therefore, it is recommended that a campaign be launched.",
+        "The survey revealed that 70 per cent of students are unaware of the policy; it is therefore recommended that a campaign should be launched."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Informe.",
+        "incorrect": "Revisa esto: Informe."
+      },
+      "review_of": "en-b2-u09-l05-ex19"
+    },
+    {
+      "id": "en-b2-u11-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He buyed a new phone.",
+      "answer": [
+        "He bought a new phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Buy es irregular: bought.",
+        "incorrect": "Revisa esto: Buy es irregular: bought."
+      },
+      "review_of": "en-a2-u01-l03-ex07"
+    },
+    {
+      "id": "en-b2-u11-l05-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ on the council to listen to residents. (apelo)",
+      "answer": [
+        "call",
+        "appeal"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Call on.",
+        "incorrect": "Revisa esto: Call on."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I urge to the council reconsider its decision.",
+      "answer": [
+        "I urge the council to reconsider its decision."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Urge someone to.",
+        "incorrect": "Revisa esto: Urge someone to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ to wait until everyone is served.",
+      "options": [
+        "polite",
+        "politely",
+        "politeness",
+        "police"
+      ],
+      "answer": [
+        "polite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's + adjetivo + to.",
+        "incorrect": "Revisa esto: It's + adjetivo + to."
+      },
+      "review_of": "en-b1-u10-l01-ex06"
+    },
+    {
+      "id": "en-b2-u11-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This would deprive them from an important service.",
+      "answer": [
+        "This would deprive them of an important service."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deprive of.",
+        "incorrect": "Revisa esto: Deprive of."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am write to you about the closure of the library.",
+      "answer": [
+        "I am writing to you about the closure of the library."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present continuous.",
+        "incorrect": "Revisa esto: Present continuous."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I forgot locking the door and someone came in.",
+      "answer": [
+        "I forgot to lock the door and someone came in."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forget + to = olvidé hacer.",
+        "incorrect": "Revisa esto: Forget + to = olvidé hacer."
+      },
+      "review_of": "en-b1-u08-l02-ex14"
+    },
+    {
+      "id": "en-b2-u11-l05-ex18",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una carta al director (10 a 12 frases) oponiéndote al cierre de un parque público para construir un centro comercial. Incluye referencia, postura, dos argumentos, una concesión, una alternativa y una petición.",
+      "min_words": 96,
+      "self_check_es": [
+        "¿Haces referencia al artículo?",
+        "¿Expones tu postura y dos argumentos?",
+        "¿Incluyes una concesión y una alternativa?",
+        "¿Cierras con una petición y firma correcta?"
+      ],
+      "model_answer": "Dear Editor,\n\nI am writing in response to your article of 5 June, 'Plans to Replace Central Park with a Shopping Centre', which I read with great concern. The park is not simply green space; it is where children play, elderly people walk and neighbours meet. Furthermore, it helps to reduce pollution in a busy area. I appreciate that the council needs new sources of income. Nevertheless, I would argue that another shopping centre would bring little benefit, since there are already three nearby. Surely it would be wiser to renovate empty buildings instead. I therefore urge the council to reconsider and to consult residents before taking any further action.\n\nYours faithfully,\nDavid Moreno",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Insto al ayuntamiento a reconsiderar su decisión, ya que cerrar la biblioteca privaría a muchos vecinos de un servicio esencial.",
+      "answer": [
+        "I urge the council to reconsider its decision, since closing the library would deprive many residents of an essential service.",
+        "I urge the council to reconsider its decision, as closing the library would deprive many residents of an essential service."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carta al director.",
+        "incorrect": "Revisa esto: Carta al director."
+      }
+    },
+    {
+      "id": "en-b2-u11-l05-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Are you ready?' → She asked me ___ I was ready.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "to"
+      ],
+      "answer": [
+        "if"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If/whether.",
+        "incorrect": "Revisa esto: If/whether."
+      },
+      "review_of": "en-b1-u07-l06-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I am writing in response to your article of …",
+      "I read it with great concern.",
+      "I appreciate that … Nevertheless, …",
+      "I therefore urge the council to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-in-response-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-with-great-concern"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vital"
+    },
+    {
+      "type": "vocab",
+      "id": "en-low-income"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rely-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-deprive-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-appreciate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-minimal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-alternative"
+    },
+    {
+      "type": "vocab",
+      "id": "en-urge"
+    },
+    {
+      "type": "grammar",
+      "id": "en-letter-editor"
+    }
+  ]
+}

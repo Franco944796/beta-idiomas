@@ -1,0 +1,715 @@
+{
+  "id": "en-b1-u04-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 4,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "If you do, you will",
+    "es": "Condicional cero y primer condicional"
+  },
+  "objective": "Al terminar usas el condicional cero y el primer condicional para hablar de hechos generales y de posibilidades reales en el futuro.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Si llueve, me quedo en casa.' 'Si estudias, aprobarás.' Dos estructuras distintas, un patrón sencillo: if + presente."
+  },
+  "input": {
+    "type": "text",
+    "text": "My doctor gave me some advice last week. She says that if you sleep less than six hours, you feel tired all day. If you don't drink enough water, you get headaches. She also told me that if I start exercising now, I'll feel much better in a month. If I keep eating junk food, I'll put on weight. And if I don't cut down on coffee, I won't be able to sleep properly. So I've decided to change. If it's sunny tomorrow, I'll go for a run before work. If it rains, I'll do some exercise at home. I'll also drink more water. If I do all this for a month, my life will be completely different.",
+    "es": "El médico me dio unos consejos la semana pasada. Dice que si duermes menos de seis horas, te sientes cansado todo el día. Si no bebes suficiente agua, te dan dolores de cabeza. También me dijo que si empiezo a hacer ejercicio ahora, me sentiré mucho mejor dentro de un mes. Si sigo comiendo comida basura, engordaré. Y si no reduzco el café, no podré dormir bien. Así que he decidido cambiar. Si mañana hace sol, saldré a correr antes de trabajar. Si llueve, haré ejercicio en casa. También beberé más agua. Si hago todo esto durante un mes, mi vida será completamente distinta.",
+    "glossary": [
+      {
+        "id": "en-advice",
+        "lemma": "advice",
+        "pos": "noun",
+        "ipa": "/ədˈvaɪs/",
+        "es": "consejo(s)",
+        "example": "She gave me some advice."
+      },
+      {
+        "id": "en-headache",
+        "lemma": "headache",
+        "pos": "noun",
+        "ipa": "/ˈhedeɪk/",
+        "es": "dolor de cabeza",
+        "example": "I have a headache."
+      },
+      {
+        "id": "en-put-on-weight",
+        "lemma": "put on weight",
+        "pos": "phrase",
+        "ipa": "/pʊt ɒn weɪt/",
+        "es": "engordar",
+        "example": "I put on weight."
+      },
+      {
+        "id": "en-lose-weight",
+        "lemma": "lose weight",
+        "pos": "phrase",
+        "ipa": "/luːz weɪt/",
+        "es": "adelgazar",
+        "example": "He lost weight."
+      },
+      {
+        "id": "en-properly",
+        "lemma": "properly",
+        "pos": "adv",
+        "ipa": "/ˈprɒpəli/",
+        "es": "correctamente, bien",
+        "example": "I can't sleep properly."
+      },
+      {
+        "id": "en-decide",
+        "lemma": "decide",
+        "pos": "verb",
+        "ipa": "/dɪˈsaɪd/",
+        "es": "decidir",
+        "example": "I've decided to change."
+      },
+      {
+        "id": "en-go-for-a-run",
+        "lemma": "go for a run",
+        "pos": "phrase",
+        "ipa": "/ɡəʊ fər ə rʌn/",
+        "es": "salir a correr",
+        "example": "I go for a run."
+      },
+      {
+        "id": "en-junk-food",
+        "lemma": "junk food",
+        "pos": "noun",
+        "ipa": "/dʒʌŋk fuːd/",
+        "es": "comida basura",
+        "example": "Don't eat junk food."
+      },
+      {
+        "id": "en-keep-ing",
+        "lemma": "keep + -ing",
+        "pos": "phrase",
+        "ipa": "/kiːp/",
+        "es": "seguir haciendo",
+        "example": "She keeps working."
+      },
+      {
+        "id": "en-completely",
+        "lemma": "completely",
+        "pos": "adv",
+        "ipa": "/kəmˈpliːtli/",
+        "es": "completamente",
+        "example": "It's completely different."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Condicional cero y primer condicional**\n\n| Tipo | Estructura | Uso | Ejemplo |\n|---|---|---|---|\n| **Cero** | *If + presente, presente* | hechos generales, siempre verdad | *If you **heat** ice, it **melts**.* |\n| **Primero** | *If + presente, will + verbo* | posibilidad real en el futuro | *If it **rains**, I'**ll** stay home.* |\n\n**Reglas**\n\n- Después de **if** no se usa *will*: ✘ *If it will rain* → ✔ *If it rains*.\n- Se puede invertir el orden. Con coma si **if** va primero: *If I have time, I'll call.* / *I'll call if I have time.*\n- En la parte principal también puedes usar: *can, may, might, should* o un imperativo: *If you feel ill, **see** a doctor.* · *If you're tired, you **should** rest.*\n\n**Negativas:** *If you don't sleep, you won't concentrate.* (won't = will not)\n\n**Preguntas:** *What will you do **if** it rains?* · *Will you come **if** I invite you?*\n\n**Ojo — when vs if:** *When I get home, I'll call you* (seguro) · *If I get home early, I'll call you* (puede ser).\n\n**Errores de hispanohablantes:** ✘ *If I will have time* (en español 'si tendré' no se dice, y en inglés tampoco). ✘ *If it would rain*. Usa el presente.\n\nPronunciación: *headache* /ˈhedeɪk/ (la 'ch' suena /k/) · *properly* /ˈprɒpəli/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "If it will rain, I stay.",
+        "right": "If it rains, I'll stay.",
+        "note": "Después de if: presente."
+      },
+      {
+        "wrong": "If I would have time...",
+        "right": "If I have time...",
+        "note": "No uses would con if en el primer condicional."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u04-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pasa si duermes menos de seis horas?",
+      "options": [
+        "Te sientes cansado todo el día",
+        "Engordas",
+        "Tienes dolor de cabeza",
+        "Te quedas sin energía por la noche"
+      ],
+      "answer": [
+        "Te sientes cansado todo el día"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: if you sleep less than six hours, you feel tired all day.",
+        "incorrect": "Revisa esto: Dice: if you sleep less than six hours, you feel tired all day."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hará si mañana llueve?",
+      "options": [
+        "Hará ejercicio en casa",
+        "Irá a correr",
+        "Se quedará en la cama",
+        "Irá al gimnasio"
+      ],
+      "answer": [
+        "Hará ejercicio en casa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: If it rains, I'll do some exercise at home.",
+        "incorrect": "Revisa esto: Dice: If it rains, I'll do some exercise at home."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 15,
+      "prompt": "La doctora dice que si sigue con la comida basura engordará.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: If I keep eating junk food, I'll put on weight.",
+        "incorrect": "Revisa esto: Dice: If I keep eating junk food, I'll put on weight."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you heat water to 100°C, it ___.",
+      "options": [
+        "boils",
+        "will boil",
+        "boiled",
+        "is boiling"
+      ],
+      "answer": [
+        "boils"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hecho general: presente + presente.",
+        "incorrect": "Revisa esto: Hecho general: presente + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If it ___ tomorrow, we'll stay at home.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "is raining"
+      ],
+      "answer": [
+        "rains"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente.",
+        "incorrect": "Revisa esto: If + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Estás de acuerdo con tu amigo. Dices:",
+      "options": [
+        "I agree with you.",
+        "I am agree.",
+        "I'm agree with you.",
+        "I agree to you."
+      ],
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es un verbo: I agree with you.",
+        "incorrect": "Revisa esto: Agree es un verbo: I agree with you."
+      },
+      "review_of": "en-a2-u10-l03-ex02"
+    },
+    {
+      "id": "en-b1-u04-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This shoes are black.",
+      "answer": [
+        "These shoes are black."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: these.",
+        "incorrect": "Revisa esto: Shoes es plural: these."
+      },
+      "review_of": "en-a1-u08-l04-ex05"
+    },
+    {
+      "id": "en-b1-u04-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you don't hurry, you ___ the bus.",
+      "options": [
+        "'ll miss",
+        "miss will",
+        "missed",
+        "would to miss"
+      ],
+      "answer": [
+        "'ll miss"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional: will + verbo.",
+        "incorrect": "Revisa esto: Primer condicional: will + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you do if you lose your keys?",
+      "options": [
+        "will",
+        "would",
+        "do",
+        "are"
+      ],
+      "answer": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta del primer condicional.",
+        "incorrect": "Revisa esto: Pregunta del primer condicional."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you feel ill, ___ a doctor.",
+      "options": [
+        "see",
+        "you will see",
+        "seeing",
+        "to see"
+      ],
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo en la parte principal.",
+        "incorrect": "Revisa esto: Imperativo en la parte principal."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 25,
+      "prompt": "If I ___ (finish) early, I'll call you.",
+      "answer": [
+        "finish",
+        "finish early"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente.",
+        "incorrect": "Revisa esto: If + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 25,
+      "prompt": "If you don't eat, you ___ hungry. (te dará hambre: hecho general)",
+      "answer": [
+        "get",
+        "will get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cero: get; primero: will get.",
+        "incorrect": "Revisa esto: Cero: get; primero: will get."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El teléfono está debajo de la silla.",
+      "answer": [
+        "The phone is under the chair."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Debajo de = under.",
+        "incorrect": "Revisa esto: Debajo de = under."
+      },
+      "review_of": "en-a1-u06-l03-ex09"
+    },
+    {
+      "id": "en-b1-u04-l02-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If it will rain, I'll stay at home.",
+      "answer": [
+        "If it rains, I'll stay at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de if no se usa will.",
+        "incorrect": "Revisa esto: Después de if no se usa will."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I would have time, I'll call you.",
+      "answer": [
+        "If I have time, I'll call you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional: if + presente.",
+        "incorrect": "Revisa esto: Primer condicional: if + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the ___ (good) pizza in town.",
+      "answer": [
+        "best"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: the best.",
+        "incorrect": "Revisa esto: Good es irregular: the best."
+      },
+      "review_of": "en-a2-u03-l03-ex03"
+    },
+    {
+      "id": "en-b1-u04-l02-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "speak",
+        "more",
+        "slowly",
+        ",",
+        "please",
+        "?",
+        "Can",
+        "you"
+      ],
+      "answer": [
+        "Can",
+        "you",
+        "speak",
+        "more",
+        "slowly",
+        ",",
+        "please",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can you + verbo base + please.",
+        "incorrect": "Revisa esto: Can you + verbo base + please."
+      },
+      "review_of": "en-a1-u11-l05-ex07"
+    },
+    {
+      "id": "en-b1-u04-l02-ex13",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "sleep",
+        "well",
+        ",",
+        "you",
+        "will",
+        "feel",
+        "better",
+        ".",
+        "If",
+        "you"
+      ],
+      "answer": [
+        "If",
+        "you",
+        "sleep",
+        "well",
+        ",",
+        "you",
+        "will",
+        "feel",
+        "better",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente, will + verbo.",
+        "incorrect": "Revisa esto: If + presente, will + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué harán si llueve?",
+      "options": [
+        "Irán al cine",
+        "Harán un picnic",
+        "Se quedarán en casa",
+        "Irán de compras"
+      ],
+      "answer": [
+        "Irán al cine"
+      ],
+      "audio_text": "If the weather is nice on Saturday, we'll have a picnic. If it rains, we'll go to the cinema.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: If it rains, we'll go to the cinema.",
+        "incorrect": "Revisa esto: Dice: If it rains, we'll go to the cinema."
+      },
+      "audio_script_id": "en-b1-u04-l02-ex14-a"
+    },
+    {
+      "id": "en-b1-u04-l02-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si no duermes bien, no te concentrarás mañana.",
+      "answer": [
+        "If you don't sleep well, you won't concentrate tomorrow.",
+        "If you don't sleep well, you will not concentrate tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente negativo, won't.",
+        "incorrect": "Revisa esto: If + presente negativo, won't."
+      }
+    },
+    {
+      "id": "en-b1-u04-l02-ex16",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "If it rains tomorrow, I will do some exercise at home.",
+      "answer": [
+        "If it rains tomorrow, I will do some exercise at home.",
+        "If it rains tomorrow, I'll do some exercise at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional.",
+        "incorrect": "Revisa esto: Primer condicional."
+      },
+      "audio_script_id": "en-b1-u04-l02-ex16-a"
+    },
+    {
+      "id": "en-b1-u04-l02-rv06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "go straight on",
+          "right": "siga recto"
+        },
+        {
+          "left": "turn left",
+          "right": "gire a la izquierda"
+        },
+        {
+          "left": "go past",
+          "right": "pase delante de"
+        },
+        {
+          "left": "cross the bridge",
+          "right": "cruce el puente"
+        },
+        {
+          "left": "at the roundabout",
+          "right": "en la rotonda"
+        },
+        {
+          "left": "opposite",
+          "right": "enfrente de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las expresiones básicas para dar indicaciones.",
+        "incorrect": "Revisa esto: Son las expresiones básicas para dar indicaciones."
+      },
+      "review_of": "en-a2-u12-l03-ex01"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "If you …, you … (hecho general)",
+      "If it rains, I'll …",
+      "What will you do if …?",
+      "If you feel ill, see a doctor."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-advice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-headache"
+    },
+    {
+      "type": "vocab",
+      "id": "en-put-on-weight"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lose-weight"
+    },
+    {
+      "type": "vocab",
+      "id": "en-properly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-decide"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-for-a-run"
+    },
+    {
+      "type": "vocab",
+      "id": "en-junk-food"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-ing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-completely"
+    },
+    {
+      "type": "grammar",
+      "id": "en-zero-first-conditional"
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "id": "en-b2-u05-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 5,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 5",
+    "es": "Checkpoint 5"
+  },
+  "objective": "Al terminar demuestras que hablas de salud y bienestar, expresas deseos con wish, eliges bien entre infinitivo y -ing, persuades y participas en una discusión.",
+  "est_minutes": 45,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 5 de B2: vocabulario de salud, wish/if only, patrones verbales, persuasión y discusión de grupo."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de salud y bienestar, wish/if only, stop/remember/try/regret + -ing o to, frases de persuasión y de discusión de grupo.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 5**\n\n- *run down · have trouble + -ing · cut down on · give up · a piece of advice*\n- *I wish I had more time. · I wish I had listened. · I wish it would stop. · If only I were taller!*\n- *stop smoking / stop to smoke · remember doing / to do · try doing / to do · I regret to inform you*\n- *Have you thought about + -ing? · What have you got to lose? · persuade someone to do*\n- *I see your point, but … · Building on … · as long as · To sum up, …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u05-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Hábito saludable o poco saludable?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "balanced diet",
+          "category": "Healthy"
+        },
+        {
+          "text": "regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "junk food",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "skipping meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "lack of sleep",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have trouble ___ at night.",
+      "options": [
+        "sleeping",
+        "to sleep",
+        "sleep",
+        "slept"
+      ],
+      "answer": [
+        "sleeping"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trouble + -ing.",
+        "incorrect": "Revisa esto: Trouble + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "My doctor gave me a useful ___ of advice.",
+      "options": [
+        "piece",
+        "bit of a",
+        "part",
+        "unit"
+      ],
+      "answer": [
+        "piece"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice incontable.",
+        "incorrect": "Revisa esto: Advice incontable."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more free time. (no tengo)",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past.",
+        "incorrect": "Revisa esto: Wish + past."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ to the doctor last year. (no fui)",
+      "options": [
+        "had gone",
+        "went",
+        "would go",
+        "have gone"
+      ],
+      "answer": [
+        "had gone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish it ___ stop raining!",
+      "options": [
+        "would",
+        "will",
+        "had",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would.",
+        "incorrect": "Revisa esto: Wish + would."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "He stopped ___ ten years ago. His health improved.",
+      "options": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "smoked"
+      ],
+      "answer": [
+        "smoking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop + -ing.",
+        "incorrect": "Revisa esto: Stop + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Remember ___ the door when you leave.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock",
+        "locked"
+      ],
+      "answer": [
+        "to lock"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Remember to.",
+        "incorrect": "Revisa esto: Remember to."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you have a headache, try ___ a glass of water.",
+      "options": [
+        "drinking",
+        "to drink",
+        "drink",
+        "drank"
+      ],
+      "answer": [
+        "drinking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try + -ing.",
+        "incorrect": "Revisa esto: Try + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Te ayudo con las maletas.",
+      "answer": [
+        "I'll help you with the suitcases.",
+        "I will help you with the suitcases.",
+        "I'll help you with your suitcases."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + help.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + help."
+      },
+      "review_of": "en-a2-u05-l03-ex11"
+    },
+    {
+      "id": "en-b2-u05-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "He suggested ___ a walk after dinner.",
+      "options": [
+        "taking",
+        "to take",
+        "me to take",
+        "take"
+      ],
+      "answer": [
+        "taking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué prometió?",
+      "options": [
+        "Revisar la situación en seis meses",
+        "Dar un aumento ya",
+        "Despedir a alguien",
+        "Cerrar la empresa"
+      ],
+      "answer": [
+        "Revisar la situación en seis meses"
+      ],
+      "audio_text": "The manager refused to give us a pay rise. He said that the company couldn't afford it, but he promised to review the situation in six months.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: promised to review the situation in six months.",
+        "incorrect": "Revisa esto: Dice: promised to review the situation in six months."
+      },
+      "audio_script_id": "en-b2-u05-l06-rv02-a",
+      "review_of": "en-b1-u07-l04-ex16"
+    },
+    {
+      "id": "en-b2-u05-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "She persuaded me ___ the class.",
+      "options": [
+        "to join",
+        "joining",
+        "join",
+        "of joining"
+      ],
+      "answer": [
+        "to join"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Persuade + to.",
+        "incorrect": "Revisa esto: Persuade + to."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you thought about ___ yoga?",
+      "options": [
+        "trying",
+        "to try",
+        "try",
+        "tried"
+      ],
+      "answer": [
+        "trying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! About + -ing.",
+        "incorrect": "Revisa esto: About + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "gets",
+        "up",
+        "at",
+        "seven",
+        ".",
+        "She",
+        "always"
+      ],
+      "answer": [
+        "She",
+        "always",
+        "gets",
+        "up",
+        "at",
+        "seven",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio antes del verbo principal.",
+        "incorrect": "Revisa esto: Adverbio antes del verbo principal."
+      },
+      "review_of": "en-a1-u04-l05-ex04"
+    },
+    {
+      "id": "en-b2-u05-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth trying ___ it is voluntary.",
+      "options": [
+        "as long as",
+        "even",
+        "because of",
+        "despite"
+      ],
+      "answer": [
+        "as long as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condición.",
+        "incorrect": "Revisa esto: Condición."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is ___ . She has no money left. (sin blanca)",
+      "answer": [
+        "broke"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be broke.",
+        "incorrect": "Revisa esto: Be broke."
+      },
+      "review_of": "en-b1-u07-l01-ex12"
+    },
+    {
+      "id": "en-b2-u05-l06-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 25,
+      "prompt": "If only I ___ more patient! (fuera)",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If only + past.",
+        "incorrect": "Revisa esto: If only + past."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "I look forward to ___ you soon. (ver)",
+      "answer": [
+        "seeing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I would have more money.",
+      "answer": [
+        "I wish I had more money."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past.",
+        "incorrect": "Revisa esto: Wish + past."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde se encuentran?",
+      "options": [
+        "Outside the cinema",
+        "At the station",
+        "At the beach",
+        "At home"
+      ],
+      "answer": [
+        "Outside the cinema"
+      ],
+      "audio_text": "Shall we meet outside the cinema at seven? — Sure. Shall I buy the tickets? — Yes, please.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'meet outside the cinema at seven'.",
+        "incorrect": "Revisa esto: Dice 'meet outside the cinema at seven'."
+      },
+      "audio_script_id": "en-b2-u05-l06-rv05-a",
+      "review_of": "en-a2-u05-l05-ex09"
+    },
+    {
+      "id": "en-b2-u05-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 25,
+      "prompt": "I work ___ Monday to Friday. (de … a …)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! From … to … indica un periodo.",
+        "incorrect": "Revisa esto: From … to … indica un periodo."
+      },
+      "review_of": "en-a2-u07-l03-ex01"
+    },
+    {
+      "id": "en-b2-u05-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I enjoy to read at night.",
+      "answer": [
+        "I enjoy reading at night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing.",
+        "incorrect": "Revisa esto: Enjoy + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Why you don't try it?",
+      "answer": [
+        "Why don't you try it?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden.",
+        "incorrect": "Revisa esto: Orden."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am agree with Ben.",
+      "answer": [
+        "I agree with Ben."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es verbo.",
+        "incorrect": "Revisa esto: Agree es verbo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace cada hora?",
+      "options": [
+        "Se detiene a estirarse",
+        "Bebe agua",
+        "Sale a correr",
+        "Llama al médico"
+      ],
+      "answer": [
+        "Se detiene a estirarse"
+      ],
+      "audio_text": "I wish I had started exercising earlier. I remember thinking it was too late, but my doctor persuaded me to try. Now I stop to stretch every hour, and I've given up fizzy drinks.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I stop to stretch every hour.",
+        "incorrect": "Revisa esto: Dice: I stop to stretch every hour."
+      },
+      "audio_script_id": "en-b2-u05-l06-ex20-a"
+    },
+    {
+      "id": "en-b2-u05-l06-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I enjoy to swim in the sea.",
+      "answer": [
+        "I enjoy swimming in the sea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy va con -ing.",
+        "incorrect": "Revisa esto: Enjoy va con -ing."
+      },
+      "review_of": "en-a2-u10-l02-ex08"
+    },
+    {
+      "id": "en-b2-u05-l06-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ojalá hubiera dejado de fumar antes; me alegro de haberlo intentado.",
+      "answer": [
+        "I wish I had stopped smoking earlier; I'm glad I tried.",
+        "I wish I had given up smoking earlier; I'm glad I tried."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + stop -ing.",
+        "incorrect": "Revisa esto: Wish + stop -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-ex22",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo duda de si apuntarse a un gimnasio.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I'm not sure about joining a gym. It's expensive."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I know what you're thinking, but the first month is free. What have you got to lose?",
+            "You must go. Stop saying no.",
+            "OK."
+          ],
+          "best": 0,
+          "why_es": "Persuadir."
+        },
+        {
+          "speaker": "Friend",
+          "text": "But I'd feel out of place."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I thought the same at first. Besides, I'll come with you if that helps.",
+            "Don't be silly.",
+            "Whatever."
+          ],
+          "best": 0,
+          "why_es": "Reducir el riesgo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I try on it?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con pronombre, el pronombre va en medio: try it on.",
+        "incorrect": "Revisa esto: Con pronombre, el pronombre va en medio: try it on."
+      },
+      "review_of": "en-a2-u11-l02-ex07"
+    },
+    {
+      "id": "en-b2-u05-l06-ex23",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "wish-regret",
+        "verb-patterns-b2",
+        "discussion-b2"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 8 a 10 frases sobre un cambio de hábito que te gustaría hacer. Incluye una frase con 'I wish', una con 'stop/try + -ing', una con 'as long as' y una conclusión.",
+      "min_words": 71,
+      "self_check_es": [
+        "¿Usas I wish?",
+        "¿Usas stop o try + -ing?",
+        "¿Incluyes as long as?",
+        "¿Cierras con una conclusión?"
+      ],
+      "model_answer": "I wish I had more time to exercise, because I spend most of the day sitting at my desk. Last month, I stopped drinking coffee after lunch, and I sleep much better now. I'm going to try walking to work every morning, as long as the weather is good. I remember feeling much more energetic when I used to cycle. If only I had started earlier! To sum up, small changes can make a real difference, and it is never too late to begin.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u05-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ my hair cut every six weeks.",
+      "options": [
+        "have",
+        "am having cut",
+        "make",
+        "do"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + objeto + participio.",
+        "incorrect": "Revisa esto: Have + objeto + participio."
+      },
+      "review_of": "en-b2-u03-l03-ex05"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I wish I had … · If only I were …",
+      "stop doing / stop to do",
+      "What have you got to lose?",
+      "I see your point, but … · To sum up, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-health-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-wish-regret"
+    },
+    {
+      "type": "grammar",
+      "id": "en-verb-patterns-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-persuasion"
+    },
+    {
+      "type": "grammar",
+      "id": "en-discussion-b2"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

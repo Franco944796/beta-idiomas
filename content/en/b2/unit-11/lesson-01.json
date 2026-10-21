@@ -1,0 +1,1017 @@
+{
+  "id": "en-b2-u11-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Law and order",
+    "es": "Ley, justicia y seguridad"
+  },
+  "objective": "Al terminar hablas de leyes, delitos, justicia y derechos con vocabulario de nivel B2 y opinas sobre el sistema legal.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Juicios, sentencias, derechos, multas. El vocabulario legal aparece en noticias, series y debates. Aquí aprendes los términos clave y cómo usarlos con naturalidad."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Reporter",
+        "text": "Our top story tonight: a man has been found guilty of fraud after a six-week trial.",
+        "es": "Nuestra noticia principal de esta noche: un hombre ha sido declarado culpable de fraude tras un juicio de seis semanas."
+      },
+      {
+        "speaker": "Lawyer",
+        "text": "That's right. The jury took only two days to reach a unanimous verdict. The defendant was accused of stealing over a million pounds from elderly clients.",
+        "es": "Así es. El jurado tardó solo dos días en alcanzar un veredicto unánime. El acusado fue acusado de robar más de un millón de libras a clientes ancianos."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "What sentence is he likely to receive?",
+        "es": "¿Qué condena es probable que reciba?"
+      },
+      {
+        "speaker": "Lawyer",
+        "text": "Fraud on this scale usually carries a prison sentence of several years. However, the judge will consider mitigating factors, such as his previous good character.",
+        "es": "Un fraude de esta magnitud suele conllevar una pena de varios años. Sin embargo, el juez considerará atenuantes, como su buena conducta previa."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "Will he appeal?",
+        "es": "¿Apelará?"
+      },
+      {
+        "speaker": "Lawyer",
+        "text": "His barrister has already said they intend to lodge an appeal. They claim that crucial evidence was ruled inadmissible.",
+        "es": "Su abogado ya ha dicho que piensan presentar un recurso. Afirman que se declaró inadmisible una prueba crucial."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "How do victims get compensation in a case like this?",
+        "es": "¿Cómo reciben compensación las víctimas en un caso como este?"
+      },
+      {
+        "speaker": "Lawyer",
+        "text": "The court can order the offender to pay compensation, and a separate civil case may be brought against him. Victims have the right to seek damages.",
+        "es": "El tribunal puede ordenar al condenado que pague una indemnización y se puede iniciar un proceso civil aparte. Las víctimas tienen derecho a reclamar daños y perjuicios."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "Thank you. The sentencing hearing will take place next month.",
+        "es": "Gracias. La vista de condena tendrá lugar el mes que viene."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-guilty",
+        "lemma": "guilty",
+        "pos": "adj",
+        "ipa": "/ˈɡɪlti/",
+        "es": "culpable",
+        "example": "Found guilty."
+      },
+      {
+        "id": "en-fraud",
+        "lemma": "fraud",
+        "pos": "noun",
+        "ipa": "/frɔːd/",
+        "es": "fraude",
+        "example": "Charged with fraud."
+      },
+      {
+        "id": "en-trial",
+        "lemma": "trial",
+        "pos": "noun",
+        "ipa": "/ˈtraɪəl/",
+        "es": "juicio",
+        "example": "A fair trial."
+      },
+      {
+        "id": "en-jury",
+        "lemma": "jury",
+        "pos": "noun",
+        "ipa": "/ˈdʒʊəri/",
+        "es": "jurado",
+        "example": "The jury decided."
+      },
+      {
+        "id": "en-verdict",
+        "lemma": "verdict",
+        "pos": "noun",
+        "ipa": "/ˈvɜːdɪkt/",
+        "es": "veredicto",
+        "example": "A unanimous verdict."
+      },
+      {
+        "id": "en-defendant",
+        "lemma": "defendant",
+        "pos": "noun",
+        "ipa": "/dɪˈfendənt/",
+        "es": "acusado",
+        "example": "The defendant pleaded."
+      },
+      {
+        "id": "en-sentence",
+        "lemma": "sentence",
+        "pos": "noun",
+        "ipa": "/ˈsentəns/",
+        "es": "condena",
+        "example": "A prison sentence."
+      },
+      {
+        "id": "en-mitigating-factor",
+        "lemma": "mitigating factor",
+        "pos": "noun",
+        "ipa": "/ˈmɪtɪɡeɪtɪŋ ˈfæktə/",
+        "es": "atenuante",
+        "example": "Mitigating factors."
+      },
+      {
+        "id": "en-appeal",
+        "lemma": "appeal",
+        "pos": "verb",
+        "ipa": "/əˈpiːl/",
+        "es": "apelar",
+        "example": "He will appeal."
+      },
+      {
+        "id": "en-inadmissible",
+        "lemma": "inadmissible",
+        "pos": "adj",
+        "ipa": "/ˌɪnədˈmɪsəbl/",
+        "es": "inadmisible",
+        "example": "Inadmissible evidence."
+      },
+      {
+        "id": "en-compensation",
+        "lemma": "compensation",
+        "pos": "noun",
+        "ipa": "/ˌkɒmpenˈseɪʃn/",
+        "es": "indemnización",
+        "example": "Receive compensation."
+      },
+      {
+        "id": "en-damages",
+        "lemma": "damages",
+        "pos": "noun",
+        "ipa": "/ˈdæmɪdʒɪz/",
+        "es": "daños y perjuicios",
+        "example": "Seek damages."
+      }
+    ],
+    "audio_script_id": "en-b2-u11-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario legal**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Delitos | *theft, burglary, fraud, assault, vandalism, shoplifting, arson, bribery, murder* |\n| Personas | *judge, jury, lawyer / solicitor / barrister, witness, defendant, victim, offender, suspect* |\n| Proceso | *arrest, charge, trial, plead guilty / not guilty, testify, convict, acquit, appeal* |\n| Castigo | *fine, community service, suspended sentence, imprisonment, parole, life sentence* |\n| Derechos | *right to remain silent, fair trial, presumption of innocence, legal aid* |\n\n**Colocaciones**\n\n- *commit a crime · break the law · obey / abide by the law · bring a case against · stand trial · be found guilty / not guilty · be sentenced to · serve a sentence · be released on bail · pay a fine · file a lawsuit · reach a verdict*.\n\n**Diferencias importantes**\n\n- *Steal* (robar cosas) vs *rob* (robar a alguien/algún lugar): *He stole my wallet. · He robbed me. · They robbed a bank.* · *Burgle* (robar en una casa).\n- *Lawyer* (genérico), *solicitor* (UK, asesora), *barrister* (UK, representa en tribunal), *attorney* (US).\n- *Sentence* (condena) ≠ *sentence* (frase).\n- *Kill* (matar) ≠ *murder* (asesinato premeditado).\n\n**Pasiva en el ámbito legal**\n\n- *He was arrested, charged and found guilty. · She was sentenced to two years. · The case was dismissed.*\n\n**Falsos amigos**\n\n- *Actual* = real. · *Assist* = ayudar (no 'asistir' a un acto: *attend*). · *Legal* (legal) ≠ *legible*. · *Prove* = demostrar.\n\n**Errores típicos**\n\n- ✘ *He robbed my wallet.* → ✔ *He stole my wallet.* / *He robbed me.*\n- ✘ *The judge condemned him for 5 years.* → ✔ *The judge sentenced him to five years.*\n- ✘ *The law says that you have to pay a fine of 100.* (redundante) → ✔ *You are required to pay a fine.*\n- ✘ *I assisted the trial.* → ✔ *I attended the trial.*\n\n**Ojo:** *Evidence* (incontable): *a piece of evidence*. *Crime* (delito en general, incontable) vs *a crime* (un delito concreto). *Police* es plural: *The police are investigating.*\n\nPronunciación: *verdict* /ˈvɜːdɪkt/ · *jury* /ˈdʒʊəri/ · *burglary* /ˈbɜːɡləri/ · *acquit* /əˈkwɪt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "He robbed my wallet",
+        "right": "He stole my wallet",
+        "note": "Steal + objeto."
+      },
+      {
+        "wrong": "The police is",
+        "right": "The police are",
+        "note": "Plural."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "assist",
+        "es_false": "asistir (a un acto)",
+        "real": "ayudar",
+        "note": "Asistir = attend."
+      },
+      {
+        "word": "sentence",
+        "es_false": "sentencia/frase",
+        "real": "condena",
+        "note": "Frase = phrase."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "verdict",
+          "right": "veredicto"
+        },
+        {
+          "left": "defendant",
+          "right": "acusado"
+        },
+        {
+          "left": "sentence",
+          "right": "condena"
+        },
+        {
+          "left": "appeal",
+          "right": "recurso"
+        },
+        {
+          "left": "fraud",
+          "right": "fraude"
+        },
+        {
+          "left": "damages",
+          "right": "daños y perjuicios"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario legal B2.",
+        "incorrect": "Revisa esto: Vocabulario legal B2."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un delito o una pena?",
+      "categories": [
+        "Crime",
+        "Punishment"
+      ],
+      "items": [
+        {
+          "text": "burglary",
+          "category": "Crime"
+        },
+        {
+          "text": "fraud",
+          "category": "Crime"
+        },
+        {
+          "text": "assault",
+          "category": "Crime"
+        },
+        {
+          "text": "bribery",
+          "category": "Crime"
+        },
+        {
+          "text": "fine",
+          "category": "Punishment"
+        },
+        {
+          "text": "community service",
+          "category": "Punishment"
+        },
+        {
+          "text": "prison sentence",
+          "category": "Punishment"
+        },
+        {
+          "text": "suspended sentence",
+          "category": "Punishment"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar.",
+        "incorrect": "Revisa esto: Clasificar."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué fue declarado culpable el hombre?",
+      "options": [
+        "De fraude",
+        "De asesinato",
+        "De robo a mano armada",
+        "De conducir ebrio"
+      ],
+      "answer": [
+        "De fraude"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: found guilty of fraud.",
+        "incorrect": "Revisa esto: Dice: found guilty of fraud."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The delay was ___ to bad weather. (debido)",
+      "answer": [
+        "due"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to = debido a.",
+        "incorrect": "Revisa esto: Due to = debido a."
+      },
+      "review_of": "en-b2-u04-l02-ex14"
+    },
+    {
+      "id": "en-b2-u11-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto tardó el jurado en decidir?",
+      "options": [
+        "Dos días",
+        "Seis semanas",
+        "Una hora",
+        "Un mes"
+      ],
+      "answer": [
+        "Dos días"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: only two days.",
+        "incorrect": "Revisa esto: Dice: only two days."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué alega el abogado del condenado para apelar?",
+      "options": [
+        "Que se declaró inadmisible una prueba crucial",
+        "Que no hubo juicio",
+        "Que era menor",
+        "Que no estaba presente"
+      ],
+      "answer": [
+        "Que se declaró inadmisible una prueba crucial"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: crucial evidence was ruled inadmissible.",
+        "incorrect": "Revisa esto: Dice: crucial evidence was ruled inadmissible."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ a uniform may restrict individuality, its advantages are greater.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because",
+        "Therefore"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + sujeto + verbo.",
+        "incorrect": "Revisa esto: Although + sujeto + verbo."
+      },
+      "review_of": "en-b1-u08-l05-ex07"
+    },
+    {
+      "id": "en-b2-u11-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 15,
+      "prompt": "El condenado ya ha empezado a cumplir su pena.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La vista de condena será el mes que viene.",
+        "incorrect": "Revisa esto: La vista de condena será el mes que viene."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "He was ___ guilty of theft and sentenced to six months.",
+      "options": [
+        "found",
+        "made",
+        "judged",
+        "put"
+      ],
+      "answer": [
+        "found"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be found guilty.",
+        "incorrect": "Revisa esto: Be found guilty."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The police ___ the suspect at his home.",
+      "options": [
+        "arrested",
+        "assisted",
+        "attended",
+        "charged to"
+      ],
+      "answer": [
+        "arrested"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Arrest.",
+        "incorrect": "Revisa esto: Arrest."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm good ___ solving problems.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      },
+      "review_of": "en-a2-u07-l04-ex02"
+    },
+    {
+      "id": "en-b2-u11-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "The bridge ___ built in 1900.",
+      "options": [
+        "is believed to have been",
+        "believes to be",
+        "is believed to be having",
+        "believed"
+      ],
+      "answer": [
+        "is believed to have been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Infinitivo perfecto pasivo.",
+        "incorrect": "Revisa esto: Infinitivo perfecto pasivo."
+      },
+      "review_of": "en-b2-u09-l02-ex09"
+    },
+    {
+      "id": "en-b2-u11-l01-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde cree que lo perdió?",
+      "options": [
+        "De camino a casa",
+        "En el café",
+        "En el trabajo",
+        "En el coche"
+      ],
+      "answer": [
+        "De camino a casa"
+      ],
+      "audio_text": "I can't find my wallet. I had it in the café, so I must have dropped it on the way home. It can't have been stolen because I haven't been near anyone.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: must have dropped it on the way home.",
+        "incorrect": "Revisa esto: Dice: must have dropped it on the way home."
+      },
+      "audio_script_id": "en-b2-u11-l01-rv05-a",
+      "review_of": "en-b2-u04-l03-ex17"
+    },
+    {
+      "id": "en-b2-u11-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 25,
+      "prompt": "She advised ___ to wait. (me)",
+      "answer": [
+        "me"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advise + persona + to.",
+        "incorrect": "Revisa esto: Advise + persona + to."
+      },
+      "review_of": "en-b1-u07-l06-ex13"
+    },
+    {
+      "id": "en-b2-u11-l01-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The librarian, ___ only friend is a cat, lives alone.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posesivo.",
+        "incorrect": "Revisa esto: Posesivo."
+      },
+      "review_of": "en-b2-u10-l04-ex07"
+    },
+    {
+      "id": "en-b2-u11-l01-rv08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "reported-advanced"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué prometió hacer?",
+      "options": [
+        "Reembolsar a todos",
+        "Despedir a un empleado",
+        "Cerrar la tienda",
+        "Subir los precios"
+      ],
+      "answer": [
+        "Reembolsar a todos"
+      ],
+      "audio_text": "The manager admitted making a mistake and apologised for not having warned the customers. She promised to refund everyone and offered to give them a discount on their next purchase.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: She promised to refund everyone.",
+        "incorrect": "Revisa esto: Dice: She promised to refund everyone."
+      },
+      "audio_script_id": "en-b2-u11-l01-rv08-a",
+      "review_of": "en-b2-u07-l02-ex21"
+    },
+    {
+      "id": "en-b2-u11-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The judge ___ him to two years in prison.",
+      "options": [
+        "sentenced",
+        "condemned",
+        "judged",
+        "punished"
+      ],
+      "answer": [
+        "sentenced"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sentence someone to.",
+        "incorrect": "Revisa esto: Sentence someone to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "Someone broke into my house and ___ my laptop.",
+      "options": [
+        "stole",
+        "robbed",
+        "burgled of",
+        "took out"
+      ],
+      "answer": [
+        "stole"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Steal + objeto.",
+        "incorrect": "Revisa esto: Steal + objeto."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "They ___ the bank last night.",
+      "options": [
+        "robbed",
+        "stole",
+        "burgled to",
+        "took"
+      ],
+      "answer": [
+        "robbed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rob + lugar/persona.",
+        "incorrect": "Revisa esto: Rob + lugar/persona."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The police ___ investigating the crime.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has been"
+      ],
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Police plural.",
+        "incorrect": "Revisa esto: Police plural."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "There is no ___ that he was at the scene.",
+      "options": [
+        "evidence",
+        "evidences",
+        "an evidence",
+        "evidencing"
+      ],
+      "answer": [
+        "evidence"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Beyond reasonable doubt' is a standard for...",
+      "options": [
+        "proving guilt",
+        "paying a fine",
+        "choosing a jury",
+        "buying a house"
+      ],
+      "answer": [
+        "proving guilt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estándar penal.",
+        "incorrect": "Revisa esto: Estándar penal."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 25,
+      "prompt": "The defendant pleaded not ___ to all charges. (culpable)",
+      "answer": [
+        "guilty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not guilty.",
+        "incorrect": "Revisa esto: Not guilty."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 25,
+      "prompt": "He was released on ___ until the trial. (fianza)",
+      "answer": [
+        "bail"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On bail.",
+        "incorrect": "Revisa esto: On bail."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and Tom are my friends. ___ names are Anna and Tom.",
+      "answer": [
+        "Their"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para 'they': their.",
+        "incorrect": "Revisa esto: Para 'they': their."
+      },
+      "review_of": "en-a1-u03-l06-ex03"
+    },
+    {
+      "id": "en-b2-u11-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "A man robbed my phone on the bus.",
+      "answer": [
+        "A man stole my phone on the bus.",
+        "A man robbed me of my phone on the bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Steal/rob.",
+        "incorrect": "Revisa esto: Steal/rob."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I assisted the trial of my neighbour.",
+      "answer": [
+        "I attended the trial of my neighbour."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attend ≠ assist.",
+        "incorrect": "Revisa esto: Attend ≠ assist."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The judge condemned him to five years in prison.",
+      "answer": [
+        "The judge sentenced him to five years in prison."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sentence.",
+        "incorrect": "Revisa esto: Sentence."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué más debe hacer el condenado?",
+      "options": [
+        "Pagar una indemnización",
+        "Pedir perdón en público",
+        "Trabajar gratis",
+        "Dejar el país"
+      ],
+      "answer": [
+        "Pagar una indemnización"
+      ],
+      "audio_text": "The jury found the defendant guilty of burglary. The judge sentenced him to eighteen months in prison, but because he had no previous convictions, the sentence was suspended. He must also pay compensation to the victims.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: He must also pay compensation.",
+        "incorrect": "Revisa esto: Dice: He must also pay compensation."
+      },
+      "audio_script_id": "en-b2-u11-l01-ex20-a"
+    },
+    {
+      "id": "en-b2-u11-l01-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El jurado lo declaró culpable y el juez lo condenó a dos años de prisión.",
+      "answer": [
+        "The jury found him guilty and the judge sentenced him to two years in prison.",
+        "The jury found him guilty, and the judge sentenced him to two years in prison."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario legal.",
+        "incorrect": "Revisa esto: Vocabulario legal."
+      }
+    },
+    {
+      "id": "en-b2-u11-l01-ex22",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-law"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "verdict",
+          "ipa": "/ˈvɜːdɪkt/",
+          "tip_es": "Acento en 'ver'."
+        },
+        {
+          "text": "jury",
+          "ipa": "/ˈdʒʊəri/",
+          "tip_es": "'j' = /dʒ/."
+        },
+        {
+          "text": "burglary",
+          "ipa": "/ˈbɜːɡləri/",
+          "tip_es": "Tres sílabas."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He was found guilty of fraud.",
+      "The judge sentenced him to two years.",
+      "steal (cosas) / rob (personas, lugares)",
+      "The police are investigating."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-guilty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fraud"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trial"
+    },
+    {
+      "type": "vocab",
+      "id": "en-jury"
+    },
+    {
+      "type": "vocab",
+      "id": "en-verdict"
+    },
+    {
+      "type": "vocab",
+      "id": "en-defendant"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sentence"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mitigating-factor"
+    },
+    {
+      "type": "vocab",
+      "id": "en-appeal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-inadmissible"
+    },
+    {
+      "type": "grammar",
+      "id": "en-law-b2"
+    }
+  ]
+}

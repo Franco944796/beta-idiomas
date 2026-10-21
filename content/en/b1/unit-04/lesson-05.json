@@ -1,0 +1,844 @@
+{
+  "id": "en-b1-u04-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 4,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Describing symptoms",
+    "es": "Describir síntomas con detalle"
+  },
+  "objective": "Al terminar describes síntomas con detalle (qué, dónde, desde cuándo, cómo de fuerte) y entiendes las instrucciones del médico.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En una consulta no basta con 'me duele'. Hay que decir dónde, desde cuándo, cuánto y si algo lo empeora."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Doctor",
+        "text": "Good morning. What seems to be the problem?",
+        "es": "Buenos días. ¿Qué le pasa?"
+      },
+      {
+        "speaker": "Pablo",
+        "text": "I've had a sore throat and a cough since Monday. I also feel dizzy when I stand up.",
+        "es": "Desde el lunes tengo dolor de garganta y tos. También me mareo al ponerme de pie."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Have you got a temperature?",
+        "es": "¿Tiene fiebre?"
+      },
+      {
+        "speaker": "Pablo",
+        "text": "Yes, it was 38.5 last night. I've been shivering and sweating all night.",
+        "es": "Sí, anoche tenía 38,5. He estado temblando y sudando toda la noche."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Are you allergic to any medicine?",
+        "es": "¿Es alérgico a algún medicamento?"
+      },
+      {
+        "speaker": "Pablo",
+        "text": "I'm allergic to penicillin. And my chest hurts when I cough.",
+        "es": "Soy alérgico a la penicilina. Y me duele el pecho al toser."
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Let me listen to your chest. It could be a chest infection. I'll prescribe some antibiotics, but not penicillin.",
+        "es": "Déjeme auscultarle el pecho. Podría ser una infección. Le recetaré antibióticos, pero no penicilina."
+      },
+      {
+        "speaker": "Pablo",
+        "text": "How often should I take them?",
+        "es": "¿Cada cuánto debo tomarlos?"
+      },
+      {
+        "speaker": "Doctor",
+        "text": "Twice a day, after meals, for a week. Rest, drink lots of fluids, and come back if you don't feel better in three days.",
+        "es": "Dos veces al día, después de comer, durante una semana. Descanse, beba muchos líquidos y vuelva si no mejora en tres días."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-sore-throat",
+        "lemma": "sore throat",
+        "pos": "noun",
+        "ipa": "/sɔː θrəʊt/",
+        "es": "dolor de garganta",
+        "example": "I have a sore throat."
+      },
+      {
+        "id": "en-cough",
+        "lemma": "cough",
+        "pos": "noun/verb",
+        "ipa": "/kɒf/",
+        "es": "tos / toser",
+        "example": "She has a cough."
+      },
+      {
+        "id": "en-dizzy",
+        "lemma": "dizzy",
+        "pos": "adj",
+        "ipa": "/ˈdɪzi/",
+        "es": "mareado",
+        "example": "I feel dizzy."
+      },
+      {
+        "id": "en-temperature-fever",
+        "lemma": "temperature / fever",
+        "pos": "noun",
+        "ipa": "/ˈtemprətʃə/",
+        "es": "fiebre",
+        "example": "He has a temperature."
+      },
+      {
+        "id": "en-shiver",
+        "lemma": "shiver",
+        "pos": "verb",
+        "ipa": "/ˈʃɪvə/",
+        "es": "temblar de frío",
+        "example": "I was shivering."
+      },
+      {
+        "id": "en-sweat",
+        "lemma": "sweat",
+        "pos": "verb",
+        "ipa": "/swet/",
+        "es": "sudar",
+        "example": "I sweat a lot."
+      },
+      {
+        "id": "en-allergic-to",
+        "lemma": "allergic to",
+        "pos": "adj",
+        "ipa": "/əˈlɜːdʒɪk tə/",
+        "es": "alérgico a",
+        "example": "I'm allergic to nuts."
+      },
+      {
+        "id": "en-chest",
+        "lemma": "chest",
+        "pos": "noun",
+        "ipa": "/tʃest/",
+        "es": "pecho",
+        "example": "My chest hurts."
+      },
+      {
+        "id": "en-infection",
+        "lemma": "infection",
+        "pos": "noun",
+        "ipa": "/ɪnˈfekʃn/",
+        "es": "infección",
+        "example": "It's a throat infection."
+      },
+      {
+        "id": "en-prescribe",
+        "lemma": "prescribe",
+        "pos": "verb",
+        "ipa": "/prɪˈskraɪb/",
+        "es": "recetar",
+        "example": "The doctor prescribed antibiotics."
+      },
+      {
+        "id": "en-antibiotics",
+        "lemma": "antibiotics",
+        "pos": "noun",
+        "ipa": "/ˌæntibaɪˈɒtɪks/",
+        "es": "antibióticos",
+        "example": "Take the antibiotics."
+      },
+      {
+        "id": "en-fluids",
+        "lemma": "fluids",
+        "pos": "noun",
+        "ipa": "/ˈfluːɪdz/",
+        "es": "líquidos",
+        "example": "Drink plenty of fluids."
+      },
+      {
+        "id": "en-twice-a-day",
+        "lemma": "twice a day",
+        "pos": "phrase",
+        "ipa": "/twaɪs ə deɪ/",
+        "es": "dos veces al día",
+        "example": "Take it twice a day."
+      }
+    ],
+    "audio_script_id": "en-b1-u04-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Describir síntomas con detalle**\n\n| Qué decir | Frase |\n|---|---|\n| Qué me pasa | *I've got a sore throat / a cough / a temperature.* |\n| Dónde me duele | *My chest / back / head hurts.* · *I have a pain in my chest.* |\n| Desde cuándo | *I've had a cough **since Monday** / **for three days**.* |\n| Cómo es | *It's a sharp pain / a dull ache / a constant cough.* |\n| Cuándo empeora | *It hurts **when** I swallow / cough / stand up.* |\n| Cómo me siento | *I feel dizzy / sick / weak / exhausted.* |\n\n**Tiempos:** presente perfecto para duración (*I've had… since Monday*) y presente continuo / perfecto continuo para algo en curso (*I've been shivering all night*).\n\n**Preguntas del médico:** *What seems to be the problem? · How long have you had it? · Are you allergic to anything? · Are you taking any medicine?*\n\n**Instrucciones:** *Take two tablets **twice a day**, **after meals**, **for a week**.* · *Drink plenty of fluids.* · *Come back if it gets worse.*\n\n**Ojo:** *pain* /peɪn/ es 'dolor' (no 'pena'); *ache* es dolor continuo (*headache, stomachache, toothache*). *Sick* en inglés americano = 'enfermo'; en británico *ill* o *sick* ('sentir ganas de vomitar'). *Constipated* = estreñido, **no** 'resfriado' (eso es *to have a cold*).\n\nPronunciación: *temperature* /ˈtemprətʃə/ (3 sílabas) · *allergic* /əˈlɜːdʒɪk/ · *antibiotics* /ˌæntibaɪˈɒtɪks/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have a cough since Monday.",
+        "right": "I've had a cough since Monday.",
+        "note": "Duración: present perfect."
+      },
+      {
+        "wrong": "I am constipated.",
+        "right": "I have a cold.",
+        "note": "Constipated = estreñido."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "constipated",
+        "es_false": "constipado (resfriado)",
+        "real": "estreñido",
+        "note": "Resfriado se dice: I have a cold."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u04-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Desde cuándo tiene Pablo tos y dolor de garganta?",
+      "options": [
+        "Desde el lunes",
+        "Desde ayer",
+        "Desde hace un mes",
+        "Desde el domingo"
+      ],
+      "answer": [
+        "Desde el lunes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: since Monday.",
+        "incorrect": "Revisa esto: Dice: since Monday."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué es alérgico Pablo?",
+      "options": [
+        "A la penicilina",
+        "A las nueces",
+        "Al polen",
+        "A los gatos"
+      ],
+      "answer": [
+        "A la penicilina"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'm allergic to penicillin.",
+        "incorrect": "Revisa esto: Dice: I'm allergic to penicillin."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo debe tomar los antibióticos?",
+      "options": [
+        "Dos veces al día después de comer durante una semana",
+        "Una vez por semana",
+        "Solo cuando le duela",
+        "Antes de dormir durante un mes"
+      ],
+      "answer": [
+        "Dos veces al día después de comer durante una semana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Twice a day, after meals, for a week.",
+        "incorrect": "Revisa esto: Dice: Twice a day, after meals, for a week."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "dentro de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "in front of",
+          "right": "delante de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza estas siete preposiciones.",
+        "incorrect": "Revisa esto: Memoriza estas siete preposiciones."
+      },
+      "review_of": "en-a1-u06-l03-ex01"
+    },
+    {
+      "id": "en-b1-u04-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 15,
+      "prompt": "El doctor le dice que vuelva si no mejora en tres días.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: come back if you don't feel better in three days.",
+        "incorrect": "Revisa esto: Dice: come back if you don't feel better in three days."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've had a headache ___ yesterday.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "ago"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + punto en el tiempo.",
+        "incorrect": "Revisa esto: Since + punto en el tiempo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've had a cough ___ three days.",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + duración.",
+        "incorrect": "Revisa esto: For + duración."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Trains are ___ expensive than buses. (más)",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivos largos: more + adjetivo.",
+        "incorrect": "Revisa esto: Adjetivos largos: more + adjetivo."
+      },
+      "review_of": "en-a2-u03-l02-ex04"
+    },
+    {
+      "id": "en-b1-u04-l05-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "meals"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué desayuna la persona?",
+      "options": [
+        "Bread and coffee",
+        "Eggs and tea",
+        "Rice and fish",
+        "Cheese and milk"
+      ],
+      "answer": [
+        "Bread and coffee"
+      ],
+      "audio_text": "For breakfast I have some bread and some coffee.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'some bread and some coffee'.",
+        "incorrect": "Revisa esto: Dice 'some bread and some coffee'."
+      },
+      "audio_script_id": "en-b1-u04-l05-rv03-a",
+      "review_of": "en-a1-u05-l04-ex08"
+    },
+    {
+      "id": "en-b1-u04-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "My ___ hurts when I swallow.",
+      "options": [
+        "throat",
+        "head",
+        "knee",
+        "finger"
+      ],
+      "answer": [
+        "throat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Throat = garganta.",
+        "incorrect": "Revisa esto: Throat = garganta."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-rv04",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada expresión con su categoría.",
+      "categories": [
+        "Good news",
+        "Bad news"
+      ],
+      "items": [
+        {
+          "text": "get a promotion",
+          "category": "Good news"
+        },
+        {
+          "text": "reach a target",
+          "category": "Good news"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Good news"
+        },
+        {
+          "text": "be fired",
+          "category": "Bad news"
+        },
+        {
+          "text": "miss a deadline",
+          "category": "Bad news"
+        },
+        {
+          "text": "be made redundant",
+          "category": "Bad news"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende el tono de cada expresión.",
+        "incorrect": "Revisa esto: Aprende el tono de cada expresión."
+      },
+      "review_of": "en-b1-u03-l06-ex01"
+    },
+    {
+      "id": "en-b1-u04-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take one tablet ___ a day, after meals.",
+      "options": [
+        "three times",
+        "three time",
+        "thrice time",
+        "times three"
+      ],
+      "answer": [
+        "three times"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Three times a day.",
+        "incorrect": "Revisa esto: Three times a day."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "how-often"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "do",
+        "you",
+        "go",
+        "to",
+        "the",
+        "gym",
+        "?",
+        "How",
+        "often"
+      ],
+      "answer": [
+        "How",
+        "often",
+        "do",
+        "you",
+        "go",
+        "to",
+        "the",
+        "gym",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How often + do + sujeto + verbo base.",
+        "incorrect": "Revisa esto: How often + do + sujeto + verbo base."
+      },
+      "review_of": "en-a2-u13-l02-ex09"
+    },
+    {
+      "id": "en-b1-u04-l05-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué había hecho antes de los exámenes?",
+      "options": [
+        "Había leído todos los libros",
+        "Había aprobado todo",
+        "Había dejado la biblioteca",
+        "Había viajado"
+      ],
+      "answer": [
+        "Había leído todos los libros"
+      ],
+      "audio_text": "When I was a student, I would study in the library every evening. By the time my exams started, I had read all the books on the list.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I had read all the books on the list.",
+        "incorrect": "Revisa esto: Dice: I had read all the books on the list."
+      },
+      "audio_script_id": "en-b1-u04-l05-rv06-a",
+      "review_of": "en-b1-u01-l06-ex14"
+    },
+    {
+      "id": "en-b1-u04-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ to penicillin. I can't take it.",
+      "options": [
+        "allergic",
+        "allergy",
+        "sensitive",
+        "intolerance"
+      ],
+      "answer": [
+        "allergic"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Allergic to.",
+        "incorrect": "Revisa esto: Allergic to."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex10",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 25,
+      "prompt": "What seems to be the ___? (problema)",
+      "answer": [
+        "problem"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What seems to be the problem?",
+        "incorrect": "Revisa esto: What seems to be the problem?"
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 25,
+      "prompt": "My chest ___ when I cough. (me duele)",
+      "answer": [
+        "hurts",
+        "aches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hurts / aches.",
+        "incorrect": "Revisa esto: Hurts / aches."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain since two days.",
+      "answer": [
+        "I've had a pain for two days.",
+        "I have had a pain for two days."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Duración: present perfect + for.",
+        "incorrect": "Revisa esto: Duración: present perfect + for."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am constipated, I have a cold.",
+      "answer": [
+        "I have a cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Constipated no es 'constipado' (resfriado).",
+        "incorrect": "Revisa esto: Constipated no es 'constipado' (resfriado)."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo empeora el dolor?",
+      "options": [
+        "Cuando come",
+        "Cuando camina",
+        "Cuando duerme",
+        "Cuando bebe agua"
+      ],
+      "answer": [
+        "Cuando come"
+      ],
+      "audio_text": "I've had a sharp pain in my stomach since last night. It gets worse when I eat. I also feel sick and I haven't been able to sleep.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: It gets worse when I eat.",
+        "incorrect": "Revisa esto: Dice: It gets worse when I eat."
+      },
+      "audio_script_id": "en-b1-u04-l05-ex14-a"
+    },
+    {
+      "id": "en-b1-u04-l05-ex15",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en la consulta del médico.",
+      "turns": [
+        {
+          "speaker": "Doctor",
+          "text": "What seems to be the problem?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I've had a sore throat and a cough since Monday, and I feel dizzy.",
+            "I have a sore throat and cough since Monday and I feel dizzy.",
+            "My throat hurt since Monday."
+          ],
+          "best": 0,
+          "why_es": "Since Monday + present perfect."
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Are you allergic to any medicine?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I'm allergic to penicillin.",
+            "Yes, I am allergy to penicillin.",
+            "I have allergic penicillin."
+          ],
+          "best": 0,
+          "why_es": "Allergic to + sustantivo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u04-l05-ex16",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe (6 a 8 frases) lo que le dirías a un médico: síntomas, desde cuándo, cuándo empeora y qué alergias tienes.",
+      "min_words": 44,
+      "self_check_es": [
+        "¿Usaste since / for con present perfect?",
+        "¿Indicaste dónde duele?",
+        "¿Mencionaste cuándo empeora?",
+        "¿Incluiste alergias o medicación?"
+      ],
+      "model_answer": "I've had a sore throat and a cough for three days. I also have a temperature, and I've been shivering at night. My chest hurts when I cough, and I feel dizzy when I stand up. I'm not allergic to any medicine, but I take vitamins every day. What should I do?",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've had … since / for …",
+      "My … hurts when …",
+      "I'm allergic to …",
+      "twice a day · after meals · for a week"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-sore-throat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cough"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dizzy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-temperature-fever"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shiver"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sweat"
+    },
+    {
+      "type": "vocab",
+      "id": "en-allergic-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-chest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-infection"
+    },
+    {
+      "type": "vocab",
+      "id": "en-prescribe"
+    },
+    {
+      "type": "grammar",
+      "id": "en-symptoms-detail"
+    }
+  ]
+}

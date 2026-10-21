@@ -1,0 +1,835 @@
+{
+  "id": "en-b2-u05-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 5,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "I wish I had",
+    "es": "Wish e if only para el pasado y el presente"
+  },
+  "objective": "Al terminar expresas deseos y arrepentimientos con wish y if only sobre el presente, el pasado y el futuro.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Ojalá tuviera más tiempo', 'ojalá hubiera estudiado más', 'ojalá dejara de llover'. Wish e if only convierten una realidad insatisfactoria en un deseo, y cada uso pide un tiempo verbal distinto."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lucía",
+        "text": "I wish I had more time to exercise. I'm always so busy.",
+        "es": "Ojalá tuviera más tiempo para hacer ejercicio. Siempre estoy muy ocupada."
+      },
+      {
+        "speaker": "Pablo",
+        "text": "If only I could sleep better! I wish I didn't wake up at three every night.",
+        "es": "¡Ojalá pudiera dormir mejor! Ojalá no me despertara a las tres todas las noches."
+      },
+      {
+        "speaker": "Lucía",
+        "text": "I wish I had listened to my doctor last year. If I had followed her advice, I wouldn't feel so tired now.",
+        "es": "Ojalá hubiera hecho caso a mi médica el año pasado. Si hubiera seguido su consejo, ahora no me sentiría tan cansada."
+      },
+      {
+        "speaker": "Pablo",
+        "text": "I know the feeling. I wish I hadn't eaten so much junk food during my twenties.",
+        "es": "Sé lo que es. Ojalá no hubiera comido tanta comida basura en mis veinte."
+      },
+      {
+        "speaker": "Lucía",
+        "text": "It's not too late, though. I wish my husband would join me at the gym. He promised to, but he never does.",
+        "es": "Pero no es demasiado tarde. Ojalá mi marido se apuntara conmigo al gimnasio. Lo prometió, pero nunca lo hace."
+      },
+      {
+        "speaker": "Pablo",
+        "text": "People never change unless they want to. I wish it would stop raining, too! I can't go jogging in this weather.",
+        "es": "La gente nunca cambia a menos que quiera. ¡Ojalá dejara de llover! No puedo salir a correr con este tiempo."
+      },
+      {
+        "speaker": "Lucía",
+        "text": "Honestly, I wish I were more disciplined. If only I weren't so lazy on Sundays!",
+        "es": "Sinceramente, ojalá fuera más disciplinada. ¡Si no fuera tan perezosa los domingos!"
+      },
+      {
+        "speaker": "Pablo",
+        "text": "Don't be so hard on yourself. We all have things we wish we could change.",
+        "es": "No seas tan dura contigo misma. Todos tenemos cosas que desearíamos cambiar."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-wish",
+        "lemma": "wish",
+        "pos": "verb",
+        "ipa": "/wɪʃ/",
+        "es": "desear (algo irreal)",
+        "example": "I wish I were taller."
+      },
+      {
+        "id": "en-if-only",
+        "lemma": "if only",
+        "pos": "phrase",
+        "ipa": "/ɪf ˈəʊnli/",
+        "es": "ojalá",
+        "example": "If only I had more time!"
+      },
+      {
+        "id": "en-regret",
+        "lemma": "regret",
+        "pos": "noun",
+        "ipa": "/rɪˈɡret/",
+        "es": "arrepentimiento",
+        "example": "No regrets."
+      },
+      {
+        "id": "en-follow-advice",
+        "lemma": "follow advice",
+        "pos": "phrase",
+        "ipa": "/ˈfɒləʊ ədˈvaɪs/",
+        "es": "seguir un consejo",
+        "example": "Follow her advice."
+      },
+      {
+        "id": "en-junk-food",
+        "lemma": "junk food",
+        "pos": "noun",
+        "ipa": "/dʒʌŋk fuːd/",
+        "es": "comida basura",
+        "example": "Avoid junk food."
+      },
+      {
+        "id": "en-join",
+        "lemma": "join",
+        "pos": "verb",
+        "ipa": "/dʒɔɪn/",
+        "es": "unirse",
+        "example": "Join me at the gym."
+      },
+      {
+        "id": "en-promise",
+        "lemma": "promise",
+        "pos": "verb",
+        "ipa": "/ˈprɒmɪs/",
+        "es": "prometer",
+        "example": "He promised to come."
+      },
+      {
+        "id": "en-disciplined",
+        "lemma": "disciplined",
+        "pos": "adj",
+        "ipa": "/ˈdɪsəplɪnd/",
+        "es": "disciplinado",
+        "example": "A disciplined athlete."
+      },
+      {
+        "id": "en-lazy",
+        "lemma": "lazy",
+        "pos": "adj",
+        "ipa": "/ˈleɪzi/",
+        "es": "perezoso",
+        "example": "I'm lazy on Sundays."
+      },
+      {
+        "id": "en-hard-on-yourself",
+        "lemma": "hard on yourself",
+        "pos": "phrase",
+        "ipa": "/hɑːd ɒn jɔːˈself/",
+        "es": "duro contigo mismo",
+        "example": "Don't be hard on yourself."
+      }
+    ],
+    "audio_script_id": "en-b2-u05-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Wish / If only**\n\n| Situación | Estructura | Ejemplo |\n|---|---|---|\n| **Presente irreal** | *wish + past simple* | *I **wish** I **had** more time.* |\n| **Pasado (arrepentimiento)** | *wish + past perfect* | *I **wish** I **had listened**.* |\n| **Futuro / queja** | *wish + would + verbo* | *I **wish** it **would stop** raining.* |\n| **Capacidad** | *wish + could* | *I **wish** I **could** sleep better.* |\n\n**If only** = más enfático: *If only I had more time!* · *If only I hadn't said that!* · *If only it would stop!*\n\n**Reglas importantes**\n\n- **Would** se usa para quejarse de algo **ajeno** o cambios deseados; **no** se usa con el mismo sujeto del verbo *wish*: ✘ *I wish I would have more time.* → ✔ *I wish I had more time.*\n- *Were* para todas las personas (formal): *I wish I were taller.* (*was* aceptable en habla informal).\n- **Wish** + *to* (deseo formal real): *I wish to speak to the manager.* = Quiero hablar con el director. No confundir.\n\n**Hope vs wish**\n\n- *Hope* → posible: *I hope you feel better.* · *Wish* → improbable o imposible: *I wish I felt better.*\n\n**It's time / would rather (nota)**\n\n- *It's time you went to bed.* (ya deberías) · *I'd rather you didn't smoke here.* (preferiría que no).\n\n**Errores típicos**\n\n- ✘ *I wish I will have more time.* → ✔ *I wish I had more time.*\n- ✘ *I wish I would have studied.* → ✔ *I wish I had studied.*\n- ✘ *If only I would be rich.* → ✔ *If only I were rich.*\n- ✘ *I wish it stops raining.* → ✔ *I wish it would stop raining.*\n\n**Ojo:** *wish* sobre algo que pasa ahora no cambia el tiempo: *I wish I lived by the sea* (pero vivo en la ciudad). En el pasado: *I wish I hadn't said that.* (lo dije). En español usamos subjuntivo 'ojalá'; en inglés se retrocede un tiempo.\n\nPronunciación: *wish* /wɪʃ/ · *regret* /rɪˈɡret/ · *disciplined* /ˈdɪsəplɪnd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I wish I would have time.",
+        "right": "I wish I had time.",
+        "note": "Wish + past."
+      },
+      {
+        "wrong": "I wish it stops.",
+        "right": "I wish it would stop.",
+        "note": "Wish + would."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u05-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué desea Lucía sobre el ejercicio?",
+      "options": [
+        "Tener más tiempo para hacerlo",
+        "Hacerlo menos",
+        "Tener un entrenador",
+        "Ir a otro gimnasio"
+      ],
+      "answer": [
+        "Tener más tiempo para hacerlo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wish I had more time to exercise.",
+        "incorrect": "Revisa esto: Dice: I wish I had more time to exercise."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué se arrepiente Pablo?",
+      "options": [
+        "De haber comido tanta comida basura",
+        "De haber dejado el gimnasio",
+        "De haber cambiado de trabajo",
+        "De no haber viajado"
+      ],
+      "answer": [
+        "De haber comido tanta comida basura"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wish I hadn't eaten so much junk food.",
+        "incorrect": "Revisa esto: Dice: I wish I hadn't eaten so much junk food."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué querría Lucía que hiciera su marido?",
+      "options": [
+        "Que se apuntara con ella al gimnasio",
+        "Que cocinara",
+        "Que dejara de fumar",
+        "Que viajara menos"
+      ],
+      "answer": [
+        "Que se apuntara con ella al gimnasio"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wish my husband would join me.",
+        "incorrect": "Revisa esto: Dice: I wish my husband would join me."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 15,
+      "prompt": "Pablo cree que Lucía es demasiado indulgente consigo misma.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Le dice que no sea tan dura consigo misma.",
+        "incorrect": "Revisa esto: Le dice que no sea tan dura consigo misma."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 25,
+      "prompt": "This phone is ___ expensive as that one. (tan caro como)",
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Igualdad: as + adjetivo + as.",
+        "incorrect": "Revisa esto: Igualdad: as + adjetivo + as."
+      },
+      "review_of": "en-a2-u03-l04-ex01"
+    },
+    {
+      "id": "en-b2-u05-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more free time. (no tengo)",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past simple.",
+        "incorrect": "Revisa esto: Wish + past simple."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 20,
+      "prompt": "Would you like ___ tea? (ofrecimiento)",
+      "options": [
+        "some",
+        "any",
+        "an",
+        "a"
+      ],
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En ofrecimientos se usa some.",
+        "incorrect": "Revisa esto: En ofrecimientos se usa some."
+      },
+      "review_of": "en-a1-u05-l04-ex04"
+    },
+    {
+      "id": "en-b2-u05-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ to the doctor last year. (no fui)",
+      "options": [
+        "had gone",
+        "went",
+        "would go",
+        "have gone"
+      ],
+      "answer": [
+        "had gone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish it ___ stop raining!",
+      "options": [
+        "would",
+        "will",
+        "had",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would.",
+        "incorrect": "Revisa esto: Wish + would."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada medio de transporte con su significado.",
+      "pairs": [
+        {
+          "left": "bus",
+          "right": "autobús"
+        },
+        {
+          "left": "train",
+          "right": "tren"
+        },
+        {
+          "left": "car",
+          "right": "auto"
+        },
+        {
+          "left": "bike",
+          "right": "bicicleta"
+        },
+        {
+          "left": "underground",
+          "right": "metro"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los transportes más comunes.",
+        "incorrect": "Revisa esto: Son los transportes más comunes."
+      },
+      "review_of": "en-a1-u07-l04-ex01"
+    },
+    {
+      "id": "en-b2-u05-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "If only I ___ taller!",
+      "options": [
+        "were",
+        "am",
+        "would be",
+        "will be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If only + were.",
+        "incorrect": "Revisa esto: If only + were."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ sleep better. (no puedo)",
+      "options": [
+        "could",
+        "can",
+        "will",
+        "would"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + could.",
+        "incorrect": "Revisa esto: Wish + could."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "I wish I had studied more.",
+        "I wish I would have studied more.",
+        "I wish I studied more (pasado).",
+        "I wish I will study more."
+      ],
+      "answer": [
+        "I wish I had studied more."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past perfect.",
+        "incorrect": "Revisa esto: Past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish my neighbours ___ so much noise at night.",
+      "options": [
+        "wouldn't make",
+        "didn't made",
+        "hadn't make",
+        "won't make"
+      ],
+      "answer": [
+        "wouldn't make"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Queja con would.",
+        "incorrect": "Revisa esto: Queja con would."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I hope you feel better' vs 'I wish you felt better': the second one...",
+      "options": [
+        "suena irreal o poco probable",
+        "es más probable",
+        "es futuro",
+        "es una orden"
+      ],
+      "answer": [
+        "suena irreal o poco probable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hope vs wish.",
+        "incorrect": "Revisa esto: Hope vs wish."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Te llamaré en cuanto llegue a casa.",
+      "answer": [
+        "I'll call you as soon as I get home.",
+        "I will call you as soon as I get home.",
+        "I'll call you as soon as I arrive home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente.",
+        "incorrect": "Revisa esto: As soon as + presente."
+      },
+      "review_of": "en-b1-u03-l02-ex15"
+    },
+    {
+      "id": "en-b2-u05-l02-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 25,
+      "prompt": "If only I ___ more patient! (fuera)",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If only + past.",
+        "incorrect": "Revisa esto: If only + past."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 25,
+      "prompt": "I wish I ___ eaten so much cake last night. (no hubiera)",
+      "answer": [
+        "hadn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past perfect negativo.",
+        "incorrect": "Revisa esto: Past perfect negativo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ the bank?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un solo lugar: Where is…?",
+        "incorrect": "Revisa esto: Con un solo lugar: Where is…?"
+      },
+      "review_of": "en-a1-u07-l02-ex01"
+    },
+    {
+      "id": "en-b2-u05-l02-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I would have more money.",
+      "answer": [
+        "I wish I had more money."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin would con el mismo sujeto.",
+        "incorrect": "Revisa esto: Sin would con el mismo sujeto."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I would have studied harder.",
+      "answer": [
+        "I wish I had studied harder."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past perfect.",
+        "incorrect": "Revisa esto: Past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me duele la garganta y tengo tos.",
+      "answer": [
+        "I've got a sore throat and a cough.",
+        "My throat hurts and I've got a cough.",
+        "I have a sore throat and a cough."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: sore throat + cough.",
+        "incorrect": "Revisa esto: Dos síntomas: sore throat + cough."
+      },
+      "review_of": "en-a2-u06-l02-ex10"
+    },
+    {
+      "id": "en-b2-u05-l02-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "At nine tomorrow I'll lie in bed.",
+      "answer": [
+        "At nine tomorrow I'll be lying in bed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro continuo.",
+        "incorrect": "Revisa esto: Futuro continuo."
+      },
+      "review_of": "en-b2-u01-l02-ex16"
+    },
+    {
+      "id": "en-b2-u05-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish it stops raining.",
+      "answer": [
+        "I wish it would stop raining."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would.",
+        "incorrect": "Revisa esto: Wish + would."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué desearía poder hacer ahora?",
+      "options": [
+        "Correr un maratón",
+        "Cambiar de trabajo",
+        "Viajar",
+        "Dormir más"
+      ],
+      "answer": [
+        "Correr un maratón"
+      ],
+      "audio_text": "I wish I had started exercising earlier. If only I hadn't spent my twenties sitting at a desk! Now I wish I could run a marathon, but my knees are not what they used to be.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wish I could run a marathon.",
+        "incorrect": "Revisa esto: Dice: I wish I could run a marathon."
+      },
+      "audio_script_id": "en-b2-u05-l02-ex18-a"
+    },
+    {
+      "id": "en-b2-u05-l02-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ojalá hubiera hecho caso al médico; ahora desearía tener más energía.",
+      "answer": [
+        "I wish I had listened to the doctor; now I wish I had more energy.",
+        "I wish I had followed the doctor's advice; now I wish I had more energy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish pasado y presente.",
+        "incorrect": "Revisa esto: Wish pasado y presente."
+      }
+    },
+    {
+      "id": "en-b2-u05-l02-ex20",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "I wish I had more time to exercise.",
+      "answer": [
+        "I wish I had more time to exercise."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past simple.",
+        "incorrect": "Revisa esto: Wish + past simple."
+      },
+      "audio_script_id": "en-b2-u05-l02-ex20-a"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I wish I had more time.",
+      "I wish I had listened.",
+      "I wish it would stop raining.",
+      "If only I were taller!"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-wish"
+    },
+    {
+      "type": "vocab",
+      "id": "en-if-only"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regret"
+    },
+    {
+      "type": "vocab",
+      "id": "en-follow-advice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-junk-food"
+    },
+    {
+      "type": "vocab",
+      "id": "en-join"
+    },
+    {
+      "type": "vocab",
+      "id": "en-promise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-disciplined"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lazy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hard-on-yourself"
+    },
+    {
+      "type": "grammar",
+      "id": "en-wish-regret"
+    }
+  ]
+}

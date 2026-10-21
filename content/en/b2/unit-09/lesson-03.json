@@ -1,0 +1,908 @@
+{
+  "id": "en-b2-u09-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Provided that, otherwise",
+    "es": "Alternativas al if en condicionales"
+  },
+  "objective": "Al terminar expresas condiciones con alternativas a if (provided that, as long as, unless, in case, otherwise, even if, supposing) y eliges la más adecuada.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Hay mucho más que 'if'. 'Siempre que', 'a menos que', 'por si acaso', 'de lo contrario', 'aunque'. Cada una cambia el sentido, y con ellas tus argumentos ganan precisión."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mayor",
+        "text": "We can ban cars from the city centre, provided that we offer a reliable alternative. Otherwise, people will simply protest.",
+        "es": "Podemos prohibir los coches en el centro, siempre que ofrezcamos una alternativa fiable. De lo contrario, la gente simplemente protestará."
+      },
+      {
+        "speaker": "Planner",
+        "text": "As long as the new tram line is ready by January, the plan can go ahead. Unless there are further delays, we should be on schedule.",
+        "es": "Mientras la nueva línea de tranvía esté lista en enero, el plan puede seguir adelante. A menos que haya más retrasos, deberíamos cumplir el calendario."
+      },
+      {
+        "speaker": "Mayor",
+        "text": "Supposing the tram isn't ready, what's the backup?",
+        "es": "Suponiendo que el tranvía no esté listo, ¿cuál es el plan de reserva?"
+      },
+      {
+        "speaker": "Planner",
+        "text": "We'd run extra buses in case there were problems. Even if the tram opens late, nobody will be left without transport.",
+        "es": "Pondríamos autobuses adicionales por si hubiera problemas. Aunque el tranvía abra tarde, nadie se quedará sin transporte."
+      },
+      {
+        "speaker": "Mayor",
+        "text": "And the shops? They fear losing customers.",
+        "es": "¿Y los comercios? Temen perder clientes."
+      },
+      {
+        "speaker": "Planner",
+        "text": "Studies in other cities show that sales increase on condition that the area becomes pedestrian-friendly. Should shops suffer, we can offer temporary tax relief.",
+        "es": "Los estudios de otras ciudades muestran que las ventas aumentan siempre que la zona sea peatonal. Si los comercios salen perjudicados, podemos ofrecer alivios fiscales temporales."
+      },
+      {
+        "speaker": "Mayor",
+        "text": "Fine. But I want a review after six months. If the results are poor, we reverse the decision.",
+        "es": "De acuerdo. Pero quiero una revisión a los seis meses. Si los resultados son malos, revertimos la decisión."
+      },
+      {
+        "speaker": "Planner",
+        "text": "Agreed. Whether or not residents like it at first, the data will tell us the truth.",
+        "es": "De acuerdo. Les guste o no a los vecinos al principio, los datos nos dirán la verdad."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-provided-that",
+        "lemma": "provided that",
+        "pos": "conj",
+        "ipa": "/prəˈvaɪdɪd ðæt/",
+        "es": "siempre que",
+        "example": "Provided that you pay."
+      },
+      {
+        "id": "en-as-long-as",
+        "lemma": "as long as",
+        "pos": "conj",
+        "ipa": "/æz lɒŋ æz/",
+        "es": "mientras / siempre que",
+        "example": "As long as it's safe."
+      },
+      {
+        "id": "en-unless",
+        "lemma": "unless",
+        "pos": "conj",
+        "ipa": "/ʌnˈles/",
+        "es": "a menos que",
+        "example": "Unless you hurry…"
+      },
+      {
+        "id": "en-otherwise",
+        "lemma": "otherwise",
+        "pos": "adv",
+        "ipa": "/ˈʌðəwaɪz/",
+        "es": "de lo contrario",
+        "example": "Hurry; otherwise…"
+      },
+      {
+        "id": "en-supposing",
+        "lemma": "supposing",
+        "pos": "conj",
+        "ipa": "/səˈpəʊzɪŋ/",
+        "es": "suponiendo que",
+        "example": "Supposing it rains…"
+      },
+      {
+        "id": "en-in-case",
+        "lemma": "in case",
+        "pos": "conj",
+        "ipa": "/ɪn keɪs/",
+        "es": "por si acaso",
+        "example": "Take an umbrella in case."
+      },
+      {
+        "id": "en-even-if",
+        "lemma": "even if",
+        "pos": "conj",
+        "ipa": "/ˈiːvn ɪf/",
+        "es": "aunque (hipotético)",
+        "example": "Even if it rains…"
+      },
+      {
+        "id": "en-on-condition-that",
+        "lemma": "on condition that",
+        "pos": "phrase",
+        "ipa": "/ɒn kənˈdɪʃn ðæt/",
+        "es": "con la condición de que",
+        "example": "On condition that…"
+      },
+      {
+        "id": "en-backup",
+        "lemma": "backup",
+        "pos": "noun",
+        "ipa": "/ˈbækʌp/",
+        "es": "plan de reserva",
+        "example": "A backup plan."
+      },
+      {
+        "id": "en-pedestrian-friendly",
+        "lemma": "pedestrian-friendly",
+        "pos": "adj",
+        "ipa": "/pəˈdestriən ˈfrendli/",
+        "es": "apto para peatones",
+        "example": "A pedestrian-friendly area."
+      },
+      {
+        "id": "en-tax-relief",
+        "lemma": "tax relief",
+        "pos": "noun",
+        "ipa": "/tæks rɪˈliːf/",
+        "es": "desgravación fiscal",
+        "example": "Temporary tax relief."
+      },
+      {
+        "id": "en-on-schedule",
+        "lemma": "on schedule",
+        "pos": "phrase",
+        "ipa": "/ɒn ˈʃedjuːl/",
+        "es": "según el calendario",
+        "example": "On schedule."
+      }
+    ],
+    "audio_script_id": "en-b2-u09-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Alternativas a 'if'**\n\n| Conector | Significado | Ejemplo |\n|---|---|---|\n| **provided / providing (that)** | solo si, con la condición | *You can go **provided that** you finish.* |\n| **as long as / so long as** | mientras, siempre que | *I'll lend it **as long as** you return it.* |\n| **on condition that** | formal, condición clara | *He agreed **on condition that** he was paid.* |\n| **unless** | if … not (a menos que) | ***Unless** you hurry, you'll miss it.* |\n| **otherwise** | de lo contrario | *Hurry; **otherwise**, you'll miss it.* |\n| **supposing / suppose (that)** | hipótesis | ***Supposing** it rains, what then?* |\n| **in case** | por si acaso (prevención) | *Take a coat **in case** it gets cold.* |\n| **even if** | aunque (hipótesis) | ***Even if** it rains, we'll go.* |\n| **whether or not** | tanto si… como si no | ***Whether or not** it rains, we'll go.* |\n| **but for / if it weren't for** | de no ser por | ***But for** your help, I'd have failed.* |\n| **should (formal)** | si por casualidad | ***Should** you need help, call me.* |\n\n**Unless = if … not**\n\n- *Unless you study, you'll fail.* = *If you don't study, you'll fail.* · Evita: ✘ *Unless you don't study …* (doble negación).\n\n**In case vs if**\n\n- *Take an umbrella **in case** it rains.* = prevención (lo llevas antes de que llueva).\n- *Take an umbrella **if** it rains.* = lo llevas solo cuando llueva. ✘ *in case it will rain.*\n\n**Even if vs even though**\n\n- *Even if* = hipotético (puede no ocurrir). · *Even though* = hecho real. *Even though it was raining, we went out.*\n\n**Tiempos tras estas conjunciones**\n\n- Presente para futuro: *as long as you **pay**, I'll help.* ✘ *as long as you will pay*.\n- Segundo condicional: *Provided that he were here, we could start.*\n\n**Errores típicos**\n\n- ✘ *Unless you don't hurry, you'll be late.* → ✔ *Unless you hurry, you'll be late.*\n- ✘ *In case it will rain …* → ✔ *In case it rains …*\n- ✘ *As long as you will help.* → ✔ *As long as you help.*\n- ✘ *Provided you to come.* → ✔ *Provided that you come.*\n\n**Ojo:** *otherwise* es adverbio y suele ir tras punto o punto y coma: *Hurry; otherwise …* No conecta cláusulas por sí solo.\n\nPronunciación: *provided* /prəˈvaɪdɪd/ · *supposing* /səˈpəʊzɪŋ/ · *otherwise* /ˈʌðəwaɪz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Unless you don't…",
+        "right": "Unless you…",
+        "note": "Unless ya es negativo."
+      },
+      {
+        "wrong": "in case it will rain",
+        "right": "in case it rains",
+        "note": "Presente tras in case."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Bajo qué condición se prohibirían los coches?",
+      "options": [
+        "Si hay una alternativa fiable",
+        "Si nadie protesta",
+        "Si hay más dinero",
+        "Si los comercios aceptan"
+      ],
+      "answer": [
+        "Si hay una alternativa fiable"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: provided that we offer a reliable alternative.",
+        "incorrect": "Revisa esto: Dice: provided that we offer a reliable alternative."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pondrían por si hubiera problemas con el tranvía?",
+      "options": [
+        "Autobuses adicionales",
+        "Taxis gratuitos",
+        "Bicicletas",
+        "Más trenes"
+      ],
+      "answer": [
+        "Autobuses adicionales"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: extra buses in case there were problems.",
+        "incorrect": "Revisa esto: Dice: extra buses in case there were problems."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué haría la alcaldesa si los resultados son malos tras seis meses?",
+      "options": [
+        "Revertir la decisión",
+        "Mantenerla",
+        "Dimitir",
+        "Ampliarla"
+      ],
+      "answer": [
+        "Revertir la decisión"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: we reverse the decision.",
+        "incorrect": "Revisa esto: Dice: we reverse the decision."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 15,
+      "prompt": "El planificador cree que las ventas siempre bajan en zonas peatonales.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que aumentan si es peatonal.",
+        "incorrect": "Revisa esto: Dice que aumentan si es peatonal."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can borrow my car ___ you drive carefully.",
+      "options": [
+        "provided that",
+        "unless",
+        "in case",
+        "although"
+      ],
+      "answer": [
+        "provided that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condición.",
+        "incorrect": "Revisa esto: Condición."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 20,
+      "prompt": "Sales ___ at 150,000 in 2024. (alcanzaron un máximo)",
+      "options": [
+        "peaked",
+        "peeked",
+        "picked",
+        "pitched"
+      ],
+      "answer": [
+        "peaked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Peak.",
+        "incorrect": "Revisa esto: Peak."
+      },
+      "review_of": "en-b2-u04-l05-ex12"
+    },
+    {
+      "id": "en-b2-u09-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm ___ engineer.",
+      "answer": [
+        "an"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'engineer' empieza con sonido de vocal: an.",
+        "incorrect": "Revisa esto: 'engineer' empieza con sonido de vocal: an."
+      },
+      "review_of": "en-a1-u02-l05-ex01"
+    },
+    {
+      "id": "en-b2-u09-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He must have went to the shop.",
+      "answer": [
+        "He must have gone to the shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      },
+      "review_of": "en-b2-u04-l06-ex18"
+    },
+    {
+      "id": "en-b2-u09-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you hurry, you'll miss the train.",
+      "options": [
+        "Unless",
+        "Provided",
+        "As long",
+        "In case"
+      ],
+      "answer": [
+        "Unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless = if not.",
+        "incorrect": "Revisa esto: Unless = if not."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a sweater ___ it gets cold later.",
+      "options": [
+        "in case",
+        "unless",
+        "provided",
+        "if only"
+      ],
+      "answer": [
+        "in case"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prevención.",
+        "incorrect": "Revisa esto: Prevención."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a sweater ___ it gets cold. (solo cuando haga frío)",
+      "options": [
+        "if",
+        "in case",
+        "unless",
+        "otherwise"
+      ],
+      "answer": [
+        "if"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If = cuando ocurra.",
+        "incorrect": "Revisa esto: If = cuando ocurra."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "You aren't ___ to park here. It's private.",
+      "options": [
+        "allowed",
+        "let",
+        "made",
+        "supposed to"
+      ],
+      "answer": [
+        "allowed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to.",
+        "incorrect": "Revisa esto: Be allowed to."
+      },
+      "review_of": "en-b1-u08-l03-ex05"
+    },
+    {
+      "id": "en-b2-u09-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll go ___ it rains. (llueva o no)",
+      "options": [
+        "whether or not",
+        "unless",
+        "in case of",
+        "provided"
+      ],
+      "answer": [
+        "whether or not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whether or not.",
+        "incorrect": "Revisa esto: Whether or not."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ your help, I'd have failed. (de no ser por)",
+      "options": [
+        "But for",
+        "Except",
+        "Unless",
+        "Even"
+      ],
+      "answer": [
+        "But for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! But for.",
+        "incorrect": "Revisa esto: But for."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you need help, call me. (formal)",
+      "options": [
+        "Should",
+        "Would",
+        "Could",
+        "Did"
+      ],
+      "answer": [
+        "Should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + sujeto.",
+        "incorrect": "Revisa esto: Should + sujeto."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , free tuition has benefits, but it also has drawbacks. (Es cierto que)",
+      "options": [
+        "Admittedly",
+        "Fortunately",
+        "Hardly",
+        "Nowhere"
+      ],
+      "answer": [
+        "Admittedly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admittedly.",
+        "incorrect": "Revisa esto: Admittedly."
+      },
+      "review_of": "en-b2-u08-l05-ex08"
+    },
+    {
+      "id": "en-b2-u09-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Unless you hurry, you'll be late.",
+        "Unless you don't hurry, you'll be late.",
+        "Unless you will hurry, you'll be late.",
+        "Unless hurry you, you'll be late."
+      ],
+      "answer": [
+        "Unless you hurry, you'll be late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless con afirmativa.",
+        "incorrect": "Revisa esto: Unless con afirmativa."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Nowadays, everybody have a mobile phone.",
+      "answer": [
+        "Nowadays, everybody has a mobile phone.",
+        "Nowadays, almost everybody has a mobile phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Everybody + singular.",
+        "incorrect": "Revisa esto: Everybody + singular."
+      },
+      "review_of": "en-b2-u08-l05-ex16"
+    },
+    {
+      "id": "en-b2-u09-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Even ___ it was raining, we went out. (hecho real)",
+      "options": [
+        "though",
+        "if",
+        "in case",
+        "unless"
+      ],
+      "answer": [
+        "though"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Even though = hecho.",
+        "incorrect": "Revisa esto: Even though = hecho."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hurry up; ___ , we'll miss the bus. (de lo contrario)",
+      "answer": [
+        "otherwise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Otherwise.",
+        "incorrect": "Revisa esto: Otherwise."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "My English is ___ than last year.",
+      "options": [
+        "better",
+        "gooder",
+        "more good",
+        "best"
+      ],
+      "answer": [
+        "better"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good es irregular: better.",
+        "incorrect": "Revisa esto: Good es irregular: better."
+      },
+      "review_of": "en-a2-u03-l02-ex05"
+    },
+    {
+      "id": "en-b2-u09-l03-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'll help you as ___ as you promise to listen. (siempre que)",
+      "answer": [
+        "long"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As long as.",
+        "incorrect": "Revisa esto: As long as."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Unless you don't study, you'll fail the exam.",
+      "answer": [
+        "Unless you study, you'll fail the exam.",
+        "If you don't study, you'll fail the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Take an umbrella in case it will rain.",
+      "answer": [
+        "Take an umbrella in case it rains."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente tras in case.",
+        "incorrect": "Revisa esto: Presente tras in case."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll lend you the money as long as you will pay me back.",
+      "answer": [
+        "I'll lend you the money as long as you pay me back."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente tras as long as.",
+        "incorrect": "Revisa esto: Presente tras as long as."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Provided you to be on time, we can start.",
+      "answer": [
+        "Provided that you are on time, we can start.",
+        "Provided you are on time, we can start."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Provided + cláusula.",
+        "incorrect": "Revisa esto: Provided + cláusula."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debe hacer antes de devolver el coche?",
+      "options": [
+        "Llenar el depósito",
+        "Lavarlo",
+        "Revisarlo",
+        "Aparcarlo en el garaje"
+      ],
+      "answer": [
+        "Llenar el depósito"
+      ],
+      "audio_text": "You can use the car as long as you fill the tank before returning it. And take a map in case the GPS stops working. Unless you tell me where you're going, I won't give you the keys.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: as long as you fill the tank.",
+        "incorrect": "Revisa esto: Dice: as long as you fill the tank."
+      },
+      "audio_script_id": "en-b2-u09-l03-ex20-a"
+    },
+    {
+      "id": "en-b2-u09-l03-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 25,
+      "prompt": "I moved to Barcelona ___ 2019.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con años se usa in.",
+        "incorrect": "Revisa esto: Con años se usa in."
+      },
+      "review_of": "en-a2-u10-l05-ex05"
+    },
+    {
+      "id": "en-b2-u09-l03-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Podemos prohibir los coches, siempre que haya una alternativa; de lo contrario, la gente protestará.",
+      "answer": [
+        "We can ban cars, provided that there is an alternative; otherwise, people will protest.",
+        "We can ban cars, as long as there is an alternative; otherwise, people will protest."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Alternativas a if.",
+        "incorrect": "Revisa esto: Alternativas a if."
+      }
+    },
+    {
+      "id": "en-b2-u09-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Lleva un paraguas por si llueve, aunque haga sol ahora.",
+      "answer": [
+        "Take an umbrella in case it rains, even if it is sunny now.",
+        "Take an umbrella in case it rains, even if it's sunny now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case / even if.",
+        "incorrect": "Revisa esto: In case / even if."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "provided that · as long as · on condition that",
+      "unless = if … not",
+      "in case it rains",
+      "Hurry; otherwise, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-provided-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-long-as"
+    },
+    {
+      "type": "vocab",
+      "id": "en-unless"
+    },
+    {
+      "type": "vocab",
+      "id": "en-otherwise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-supposing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-case"
+    },
+    {
+      "type": "vocab",
+      "id": "en-even-if"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-condition-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-backup"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pedestrian-friendly"
+    },
+    {
+      "type": "grammar",
+      "id": "en-conditional-alternatives"
+    }
+  ]
+}

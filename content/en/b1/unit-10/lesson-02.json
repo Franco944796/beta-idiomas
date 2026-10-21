@@ -1,0 +1,830 @@
+{
+  "id": "en-b1-u10-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 10,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "It must be true",
+    "es": "Deducciones: must, can't, might"
+  },
+  "objective": "Al terminar haces deducciones con must be, can't be y might be, y justificas tus conclusiones con pistas.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Debe de estar cansado', 'no puede ser verdad', 'quizá sea su hermano'. Con must, can't y might deduces cosas a partir de lo que ves."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Dora",
+        "text": "Look at that man at the next table. He must be a chef. He's looking at every dish.",
+        "es": "Mira a ese hombre de la mesa de al lado. Debe de ser cocinero. Mira cada plato."
+      },
+      {
+        "speaker": "Leo",
+        "text": "He can't be a chef. He's taking notes and photos. He might be a food critic.",
+        "es": "No puede ser cocinero. Toma notas y fotos. Puede que sea un crítico gastronómico."
+      },
+      {
+        "speaker": "Dora",
+        "text": "You could be right. The waiter seems nervous, so he must be important.",
+        "es": "Quizá tengas razón. El camarero parece nervioso, así que debe de ser importante."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Whose phone is this? It must be his. Or it might be the waiter's.",
+        "es": "¿De quién es este móvil? Debe de ser suyo. O puede que sea del camarero."
+      },
+      {
+        "speaker": "Dora",
+        "text": "It can't be the waiter's. Look at the case: it's a very expensive brand.",
+        "es": "No puede ser del camarero. Mira la funda: es de una marca muy cara."
+      },
+      {
+        "speaker": "Leo",
+        "text": "He must have left it there. He left in a hurry a minute ago.",
+        "es": "Debe de habérselo dejado. Se fue con prisa hace un minuto."
+      },
+      {
+        "speaker": "Dora",
+        "text": "He can't have gone far. Let's run after him.",
+        "es": "No puede haber ido lejos. Corramos tras él."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Wait! He might have gone to the toilet. Let's wait here a bit.",
+        "es": "¡Espera! Puede que haya ido al baño. Esperemos aquí un poco."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-chef",
+        "lemma": "chef",
+        "pos": "noun",
+        "ipa": "/ʃef/",
+        "es": "cocinero jefe",
+        "example": "He's a chef."
+      },
+      {
+        "id": "en-critic",
+        "lemma": "critic",
+        "pos": "noun",
+        "ipa": "/ˈkrɪtɪk/",
+        "es": "crítico",
+        "example": "A food critic."
+      },
+      {
+        "id": "en-take-notes",
+        "lemma": "take notes",
+        "pos": "phrase",
+        "ipa": "/teɪk nəʊts/",
+        "es": "tomar notas",
+        "example": "He takes notes."
+      },
+      {
+        "id": "en-seem",
+        "lemma": "seem",
+        "pos": "verb",
+        "ipa": "/siːm/",
+        "es": "parecer",
+        "example": "The waiter seems nervous."
+      },
+      {
+        "id": "en-important",
+        "lemma": "important",
+        "pos": "adj",
+        "ipa": "/ɪmˈpɔːtnt/",
+        "es": "importante",
+        "example": "He seems important."
+      },
+      {
+        "id": "en-case",
+        "lemma": "case",
+        "pos": "noun",
+        "ipa": "/keɪs/",
+        "es": "funda, caja",
+        "example": "A phone case."
+      },
+      {
+        "id": "en-brand",
+        "lemma": "brand",
+        "pos": "noun",
+        "ipa": "/brænd/",
+        "es": "marca",
+        "example": "An expensive brand."
+      },
+      {
+        "id": "en-in-a-hurry",
+        "lemma": "in a hurry",
+        "pos": "phrase",
+        "ipa": "/ɪn ə ˈhʌri/",
+        "es": "con prisa",
+        "example": "He left in a hurry."
+      },
+      {
+        "id": "en-run-after",
+        "lemma": "run after",
+        "pos": "phrasal verb",
+        "ipa": "/rʌn ˈɑːftə/",
+        "es": "correr tras",
+        "example": "Run after him."
+      },
+      {
+        "id": "en-far",
+        "lemma": "far",
+        "pos": "adv",
+        "ipa": "/fɑː/",
+        "es": "lejos",
+        "example": "He can't have gone far."
+      },
+      {
+        "id": "en-toilet",
+        "lemma": "toilet",
+        "pos": "noun",
+        "ipa": "/ˈtɔɪlət/",
+        "es": "baño, aseo",
+        "example": "He's in the toilet."
+      }
+    ],
+    "audio_script_id": "en-b1-u10-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Deducciones con modales**\n\n| Seguridad | Presente | Pasado |\n|---|---|---|\n| ~95 % seguro | *must be* | *must have + participio* |\n| ~50 % posible | *might / may / could be* | *might / may / could have + participio* |\n| ~5 % imposible | *can't be* | *can't have + participio* |\n\n**Ejemplos**\n\n- *He's wearing a chef's hat. He **must be** a chef.* (seguro por la evidencia)\n- *He's taking photos. He **might be** a critic.* (posible)\n- *He **can't be** a chef. He doesn't look at the food.* (imposible)\n- *She **must have left**; her coat isn't here.* (seguro, en el pasado)\n- *He **can't have gone** far.* (imposible que haya ido lejos)\n- *They **might have missed** the bus.* (posible)\n\n**Reglas**\n\n- Para deducir se usa *can't* (no *mustn't*): ✘ *He mustn't be tired.* ✔ *He can't be tired.*\n- *Must* de deducción ≠ *must* de obligación. Compara: *You must go* (obligación) / *You must be tired* (deducción).\n- *Might not / may not* = quizá no (✘ *might not* ≠ *can't*).\n- Después: infinitivo sin *to*: *must be · can't be · might be · must have been.*\n\n**Pistas para deducir:** *look / seem / sound / smell + adjetivo* (*He looks tired. → He must be tired.*).\n\n**Ojo:** ✘ *He must to be* · ✘ *It maybe is his* · ✘ *He mustn't be at home* (para deducir negativo se usa *can't*). *Couldn't* también sirve para deducir imposibilidad en pasado: *He couldn't have known.*\n\nPronunciación: *might* /maɪt/ · *critic* /ˈkrɪtɪk/ · *chef* /ʃef/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "He mustn't be tired.",
+        "right": "He can't be tired.",
+        "note": "Deducción negativa: can't."
+      },
+      {
+        "wrong": "He must to be tired.",
+        "right": "He must be tired.",
+        "note": "Must sin to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u10-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Dora cree que el hombre es cocinero?",
+      "options": [
+        "Porque mira cada plato",
+        "Porque lleva delantal",
+        "Porque cocina",
+        "Porque conoce al camarero"
+      ],
+      "answer": [
+        "Porque mira cada plato"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: He's looking at every dish.",
+        "incorrect": "Revisa esto: Dice: He's looking at every dish."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué cree Leo que podría ser?",
+      "options": [
+        "Un crítico gastronómico",
+        "Un camarero",
+        "El dueño",
+        "Un turista"
+      ],
+      "answer": [
+        "Un crítico gastronómico"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: He might be a food critic.",
+        "incorrect": "Revisa esto: Dice: He might be a food critic."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué el móvil no puede ser del camarero?",
+      "options": [
+        "Porque la funda es de una marca cara",
+        "Porque es viejo",
+        "Porque está roto",
+        "Porque es grande"
+      ],
+      "answer": [
+        "Porque la funda es de una marca cara"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: It can't be the waiter's. … very expensive brand.",
+        "incorrect": "Revisa esto: Dice: It can't be the waiter's. … very expensive brand."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Vivo en un piso pequeño.",
+      "answer": [
+        "I live in a small flat.",
+        "I live in a small apartment."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Live in + a small flat.",
+        "incorrect": "Revisa esto: Live in + a small flat."
+      },
+      "review_of": "en-a1-u06-l05-ex07"
+    },
+    {
+      "id": "en-b1-u10-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 15,
+      "prompt": "Leo está seguro de que el hombre fue al baño.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice 'might have gone', es una posibilidad.",
+        "incorrect": "Revisa esto: Dice 'might have gone', es una posibilidad."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's been working since six. He ___ be exhausted.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "mustn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pista fuerte: must.",
+        "incorrect": "Revisa esto: Pista fuerte: must."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv02",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Hugo ya ha terminado su grado.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que está en segundo año.",
+        "incorrect": "Revisa esto: Dice que está en segundo año."
+      },
+      "review_of": "en-b1-u08-l01-ex05"
+    },
+    {
+      "id": "en-b1-u10-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's just had lunch. She ___ be hungry.",
+      "options": [
+        "can't",
+        "must",
+        "should",
+        "has to"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imposible: can't.",
+        "incorrect": "Revisa esto: Imposible: can't."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm not sure where Anna is. She ___ be at the library.",
+      "options": [
+        "might",
+        "must to",
+        "can't to",
+        "will to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posible: might.",
+        "incorrect": "Revisa esto: Posible: might."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lights are off. They ___ have left already.",
+      "options": [
+        "must",
+        "mustn't",
+        "might not to",
+        "should to"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must have + participio.",
+        "incorrect": "Revisa esto: Must have + participio."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ have seen me. He walked right past me!",
+      "options": [
+        "can't",
+        "must",
+        "might to",
+        "should"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't have = imposible.",
+        "incorrect": "Revisa esto: Can't have = imposible."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "He can't be at home.",
+        "He mustn't be at home.",
+        "He don't must be at home.",
+        "He maybe at home."
+      ],
+      "answer": [
+        "He can't be at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa de deducción: can't.",
+        "incorrect": "Revisa esto: Negativa de deducción: can't."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 25,
+      "prompt": "The phone is ringing. It ___ be Mum. She always calls at this time.",
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv03",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "Can I help you?",
+          "right": "¿Puedo ayudarle?"
+        },
+        {
+          "left": "Can I try it on?",
+          "right": "¿Puedo probármelo?"
+        },
+        {
+          "left": "I'll take it.",
+          "right": "Me lo llevo."
+        },
+        {
+          "left": "What size are you?",
+          "right": "¿Qué talle usa?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases clave para comprar.",
+        "incorrect": "Revisa esto: Son frases clave para comprar."
+      },
+      "review_of": "en-a1-u08-l05-ex05"
+    },
+    {
+      "id": "en-b1-u10-l02-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ have forgotten her keys. (puede que)",
+      "answer": [
+        "might",
+        "may",
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might have.",
+        "incorrect": "Revisa esto: Might have."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He mustn't be at home. The lights are on.",
+      "answer": [
+        "He can't be out. The lights are on.",
+        "He must be at home. The lights are on.",
+        "He can't be away. The lights are on."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para deducir negativo: can't.",
+        "incorrect": "Revisa esto: Para deducir negativo: can't."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el hospital?",
+      "options": [
+        "On the left, opposite the bank",
+        "On the right, next to the bank",
+        "Behind the bridge",
+        "At the end of the street"
+      ],
+      "answer": [
+        "On the left, opposite the bank"
+      ],
+      "audio_text": "Go straight on, cross the bridge and take the second turning on the right. The hospital is on your left, opposite the bank.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'on your left, opposite the bank'.",
+        "incorrect": "Revisa esto: Dice 'on your left, opposite the bank'."
+      },
+      "audio_script_id": "en-b1-u10-l02-rv04-a",
+      "review_of": "en-a2-u12-l06-ex09"
+    },
+    {
+      "id": "en-b1-u10-l02-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ swimming every morning. (voy a)",
+      "answer": [
+        "go"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go + -ing: go swimming.",
+        "incorrect": "Revisa esto: Go + -ing: go swimming."
+      },
+      "review_of": "en-a2-u13-l06-ex02"
+    },
+    {
+      "id": "en-b1-u10-l02-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He must to be tired.",
+      "answer": [
+        "He must be tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + verbo sin to.",
+        "incorrect": "Revisa esto: Must + verbo sin to."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "is",
+        "tall",
+        "and",
+        "funny",
+        ".",
+        "My",
+        "sister"
+      ],
+      "answer": [
+        "My",
+        "sister",
+        "is",
+        "tall",
+        "and",
+        "funny",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + to be + adjetivos.",
+        "incorrect": "Revisa esto: Sujeto + to be + adjetivos."
+      },
+      "review_of": "en-a1-u03-l05-ex04"
+    },
+    {
+      "id": "en-b1-u10-l02-ex15",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        ".",
+        "She",
+        "must"
+      ],
+      "answer": [
+        "She",
+        "must",
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice que no puede ser?",
+      "options": [
+        "Que sea más tarde de las seis",
+        "Que estén en casa",
+        "Que haya luz",
+        "Que haya reunión"
+      ],
+      "answer": [
+        "Que sea más tarde de las seis"
+      ],
+      "audio_text": "There's nobody in the office and the lights are off. They must have gone home already. It can't be later than six, though. Maybe they're at a meeting.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: It can't be later than six.",
+        "incorrect": "Revisa esto: Dice: It can't be later than six."
+      },
+      "audio_script_id": "en-b1-u10-l02-ex16-a"
+    },
+    {
+      "id": "en-b1-u10-l02-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas personas hay?",
+      "options": [
+        "19",
+        "90",
+        "99",
+        "9"
+      ],
+      "answer": [
+        "90"
+      ],
+      "audio_text": "There are ninety people in the room.",
+      "feedback": {
+        "correct": "¡Correcto! 'ninety' = 90; 'nineteen' = 19.",
+        "incorrect": "Revisa esto: 'ninety' = 90; 'nineteen' = 19."
+      },
+      "audio_script_id": "en-b1-u10-l02-rv07-a",
+      "review_of": "en-a1-u08-l01-ex05"
+    },
+    {
+      "id": "en-b1-u10-l02-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Debe de estar cansado porque trabaja mucho. No puede estar enfermo.",
+      "answer": [
+        "He must be tired because he works a lot. He can't be ill.",
+        "He must be tired because he works a lot. He can't be sick.",
+        "He must be tired because he works a lot. He can't be ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be / can't be.",
+        "incorrect": "Revisa esto: Must be / can't be."
+      }
+    },
+    {
+      "id": "en-b1-u10-l02-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "While I walked, I was seeing a dog.",
+      "answer": [
+        "While I was walking, I saw a dog."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Larga en continuo, corta en simple.",
+        "incorrect": "Revisa esto: Larga en continuo, corta en simple."
+      },
+      "review_of": "en-a2-u09-l03-ex07"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He must be … (seguro)",
+      "He might be … (posible)",
+      "He can't be … (imposible)",
+      "She must have left."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-chef"
+    },
+    {
+      "type": "vocab",
+      "id": "en-critic"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-notes"
+    },
+    {
+      "type": "vocab",
+      "id": "en-seem"
+    },
+    {
+      "type": "vocab",
+      "id": "en-important"
+    },
+    {
+      "type": "vocab",
+      "id": "en-case"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brand"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-a-hurry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-run-after"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far"
+    },
+    {
+      "type": "grammar",
+      "id": "en-deduction-present"
+    }
+  ]
+}

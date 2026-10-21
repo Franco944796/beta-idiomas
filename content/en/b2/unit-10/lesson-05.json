@@ -1,0 +1,830 @@
+{
+  "id": "en-b2-u10-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 10,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Writing a review",
+    "es": "Escribir una reseña"
+  },
+  "objective": "Al terminar escribes una reseña (review) de una película, un libro o un restaurante, con estructura, valoración y recomendación.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Una buena reseña informa y convence: presenta la obra, resume sin destripar, valora con argumentos y recomienda con criterio. Es un tipo de texto frecuente en exámenes B2."
+  },
+  "input": {
+    "type": "text",
+    "text": "Review: The Last Lighthouse (2024)\n\nSet on a remote island in 1920s Scotland, The Last Lighthouse tells the story of Mara, a young woman who inherits her father's lighthouse and discovers a secret hidden in its cellar. Directed by Elena Fraser, the film combines mystery, family drama and breathtaking landscapes.\n\nThe film's greatest strength is its atmosphere. The cinematography is stunning: storms, mist and endless sea create a sense of isolation that is almost tangible. The lead actress, Clara Webb, gives a performance that is both restrained and powerful, and the haunting soundtrack perfectly matches the mood.\n\nHowever, the pacing is uneven. The first hour is slow, and some subplots feel underdeveloped. The ending, though emotionally satisfying, is slightly predictable.\n\nOverall, The Last Lighthouse is a beautifully crafted film that rewards patient viewers. Although it may not appeal to those who prefer fast-paced thrillers, it is well worth watching on the big screen. I would rate it four stars out of five.",
+    "es": "Reseña: El último faro (2024). Ambientada en una isla remota de la Escocia de los años veinte, El último faro cuenta la historia de Mara, una joven que hereda el faro de su padre y descubre un secreto escondido en el sótano. Dirigida por Elena Fraser, la película combina misterio, drama familiar y paisajes impresionantes. La mayor fortaleza de la película es su atmósfera. La fotografía es magnífica: tormentas, niebla y un mar infinito crean una sensación de aislamiento casi palpable. La actriz protagonista, Clara Webb, ofrece una interpretación contenida y poderosa, y la banda sonora inquietante encaja perfectamente con el ambiente. Sin embargo, el ritmo es irregular. La primera hora es lenta y algunas tramas secundarias parecen poco desarrolladas. El final, aunque emocionalmente satisfactorio, es algo predecible. En conjunto, El último faro es una película bellamente elaborada que recompensa a los espectadores pacientes. Aunque puede no atraer a quienes prefieren thrillers de ritmo rápido, vale la pena verla en pantalla grande. La valoraría con cuatro estrellas sobre cinco.",
+    "glossary": [
+      {
+        "id": "en-set-in",
+        "lemma": "set in",
+        "pos": "phrasal verb",
+        "ipa": "/set ɪn/",
+        "es": "ambientada en",
+        "example": "Set in Scotland."
+      },
+      {
+        "id": "en-inherit",
+        "lemma": "inherit",
+        "pos": "verb",
+        "ipa": "/ɪnˈherɪt/",
+        "es": "heredar",
+        "example": "Inherit a lighthouse."
+      },
+      {
+        "id": "en-cellar",
+        "lemma": "cellar",
+        "pos": "noun",
+        "ipa": "/ˈselə/",
+        "es": "sótano",
+        "example": "A secret in the cellar."
+      },
+      {
+        "id": "en-mystery",
+        "lemma": "mystery",
+        "pos": "noun",
+        "ipa": "/ˈmɪstəri/",
+        "es": "misterio",
+        "example": "A mystery film."
+      },
+      {
+        "id": "en-atmosphere",
+        "lemma": "atmosphere",
+        "pos": "noun",
+        "ipa": "/ˈætməsfɪə/",
+        "es": "atmósfera",
+        "example": "A strong atmosphere."
+      },
+      {
+        "id": "en-tangible",
+        "lemma": "tangible",
+        "pos": "adj",
+        "ipa": "/ˈtændʒəbl/",
+        "es": "palpable",
+        "example": "A tangible sense of fear."
+      },
+      {
+        "id": "en-restrained",
+        "lemma": "restrained",
+        "pos": "adj",
+        "ipa": "/rɪˈstreɪnd/",
+        "es": "contenido",
+        "example": "A restrained performance."
+      },
+      {
+        "id": "en-haunting",
+        "lemma": "haunting",
+        "pos": "adj",
+        "ipa": "/ˈhɔːntɪŋ/",
+        "es": "inquietante",
+        "example": "A haunting melody."
+      },
+      {
+        "id": "en-pacing",
+        "lemma": "pacing",
+        "pos": "noun",
+        "ipa": "/ˈpeɪsɪŋ/",
+        "es": "ritmo",
+        "example": "Uneven pacing."
+      },
+      {
+        "id": "en-subplot",
+        "lemma": "subplot",
+        "pos": "noun",
+        "ipa": "/ˈsʌbplɒt/",
+        "es": "trama secundaria",
+        "example": "A weak subplot."
+      },
+      {
+        "id": "en-reward",
+        "lemma": "reward",
+        "pos": "verb",
+        "ipa": "/rɪˈwɔːd/",
+        "es": "recompensar",
+        "example": "It rewards patient viewers."
+      },
+      {
+        "id": "en-rate",
+        "lemma": "rate",
+        "pos": "verb",
+        "ipa": "/reɪt/",
+        "es": "valorar",
+        "example": "I rate it four stars."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de una reseña**\n\n| Parte | Contenido | Frases útiles |\n|---|---|---|\n| **Título** | nombre de la obra + año | *Review: The Last Lighthouse (2024)* |\n| **1. Presentación** | género, ambientación, argumento breve (sin destripar) | *Set in …, … tells the story of … · Directed by …, the film combines …* |\n| **2. Puntos fuertes** | actuación, fotografía, música, guion | *The greatest strength is … · The cinematography is stunning. · The soundtrack perfectly matches the mood.* |\n| **3. Puntos débiles** | ritmo, personajes, final | *However, the pacing is uneven. · Some subplots feel underdeveloped.* |\n| **4. Valoración y recomendación** | opinión final + público | *Overall, … is a beautifully crafted film that rewards … · It is well worth watching. · I would rate it four stars out of five.* |\n\n**Tiempos**\n\n- **Presente simple** para la trama: *The film tells the story of …* · **Pasado** solo para producción: *It was directed by … in 2024.*\n\n**Vocabulario por tipo de obra**\n\n- Película: *plot, cast, soundtrack, cinematography, special effects, screenplay, sequel.*\n- Libro: *plot, characters, narrator, prose, pacing, ending, setting.*\n- Restaurante: *menu, ambience, service, value for money, portions, flavours, booking.*\n- Música: *lyrics, melody, vocals, production, tracklist.*\n\n**Sin spoilers**\n\n- Evita revelar el final: *Without giving away the ending, … · I won't spoil it, but … · Don't expect a conventional ending.*\n\n**Cohesión y estilo**\n\n- Contrastes: *However, though, nevertheless, on the other hand.* · Adición: *Moreover, in addition.* · Cierre: *Overall, all things considered, on balance.*\n- Evita repetir *good* y *bad*: *outstanding, compelling, mediocre, underwhelming*.\n\n**Errores típicos**\n\n- ✘ *The film tell the story …* → ✔ *The film tells the story …*\n- ✘ *The film was directed from Elena Fraser.* → ✔ *The film is directed by Elena Fraser.*\n- ✘ *I recommend to watch it.* → ✔ *I recommend watching it.* / *It's well worth watching.*\n- ✘ *It has a very good atmosphere and very good music and very good actors.* → variar el vocabulario.\n\n**Ojo:** *star rating*: *four stars out of five* / *4/5*. *Film* (UK) = *movie* (US). *Cast* (reparto) ≠ *casting* (selección).\n\nPronunciación: *atmosphere* /ˈætməsfɪə/ · *tangible* /ˈtændʒəbl/ · *haunting* /ˈhɔːntɪŋ/ · *subplot* /ˈsʌbplɒt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The film tell",
+        "right": "The film tells",
+        "note": "Tercera persona."
+      },
+      {
+        "wrong": "directed from",
+        "right": "directed by",
+        "note": "Directed by."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u10-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde está ambientada la película?",
+      "options": [
+        "En una isla remota de Escocia en los años veinte",
+        "En París",
+        "En Nueva York",
+        "En el espacio"
+      ],
+      "answer": [
+        "En una isla remota de Escocia en los años veinte"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: remote island in 1920s Scotland.",
+        "incorrect": "Revisa esto: Dice: remote island in 1920s Scotland."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es su mayor fortaleza?",
+      "options": [
+        "La atmósfera",
+        "El humor",
+        "Los efectos especiales",
+        "Los diálogos"
+      ],
+      "answer": [
+        "La atmósfera"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: greatest strength is its atmosphere.",
+        "incorrect": "Revisa esto: Dice: greatest strength is its atmosphere."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué defecto menciona la reseña?",
+      "options": [
+        "El ritmo irregular",
+        "La mala actuación",
+        "El sonido",
+        "Los decorados"
+      ],
+      "answer": [
+        "El ritmo irregular"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the pacing is uneven.",
+        "incorrect": "Revisa esto: Dice: the pacing is uneven."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué puntuación da?",
+      "options": [
+        "Cuatro estrellas sobre cinco",
+        "Una estrella",
+        "Cinco estrellas",
+        "Tres estrellas"
+      ],
+      "answer": [
+        "Cuatro estrellas sobre cinco"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: four stars out of five.",
+        "incorrect": "Revisa esto: Dice: four stars out of five."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 15,
+      "prompt": "La reseña revela el final de la película.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No lo revela; solo dice que es predecible.",
+        "incorrect": "Revisa esto: No lo revela; solo dice que es predecible."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film ___ the story of a young woman who inherits a lighthouse.",
+      "options": [
+        "tells",
+        "told",
+        "telling",
+        "tell"
+      ],
+      "answer": [
+        "tells"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente de trama.",
+        "incorrect": "Revisa esto: Presente de trama."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film is directed ___ Elena Fraser.",
+      "options": [
+        "by",
+        "from",
+        "of",
+        "with"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Directed by.",
+        "incorrect": "Revisa esto: Directed by."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's well worth ___ on the big screen.",
+      "options": [
+        "watching",
+        "to watch",
+        "watch",
+        "watched"
+      ],
+      "answer": [
+        "watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which expression avoids spoilers?",
+      "options": [
+        "Without giving away the ending, …",
+        "The killer is the butler, …",
+        "In the last scene he dies, …",
+        "Spoiler: …"
+      ],
+      "answer": [
+        "Without giving away the ending, …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin spoilers.",
+        "incorrect": "Revisa esto: Sin spoilers."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres pedir un consejo a un amigo:",
+      "options": [
+        "What should I do?",
+        "What I should do?",
+        "What do I should?",
+        "What should I to do?"
+      ],
+      "answer": [
+        "What should I do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con should: What should I do?",
+        "incorrect": "Revisa esto: Pregunta con should: What should I do?"
+      },
+      "review_of": "en-a2-u06-l03-ex03"
+    },
+    {
+      "id": "en-b2-u10-l05-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "family",
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se dedica el padre?",
+      "options": [
+        "Driver",
+        "Doctor",
+        "Teacher",
+        "Waiter"
+      ],
+      "answer": [
+        "Driver"
+      ],
+      "audio_text": "This is my family. My mother is a doctor. My father is a driver.",
+      "feedback": {
+        "correct": "¡Correcto! El padre es 'a driver'.",
+        "incorrect": "Revisa esto: El padre es 'a driver'."
+      },
+      "audio_script_id": "en-b2-u10-l05-rv02-a",
+      "review_of": "en-a1-u03-l01-ex06"
+    },
+    {
+      "id": "en-b2-u10-l05-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 25,
+      "prompt": "We should lower our carbon ___ . (huella)",
+      "answer": [
+        "footprint"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Footprint.",
+        "incorrect": "Revisa esto: Footprint."
+      },
+      "review_of": "en-b2-u09-l06-ex15"
+    },
+    {
+      "id": "en-b2-u10-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is a better word than 'bad'?",
+      "options": [
+        "underwhelming",
+        "good",
+        "nice",
+        "fine"
+      ],
+      "answer": [
+        "underwhelming"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario variado.",
+        "incorrect": "Revisa esto: Vocabulario variado."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we went for a walk.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because of",
+        "In spite"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + cláusula.",
+        "incorrect": "Revisa esto: Although + cláusula."
+      },
+      "review_of": "en-b2-u08-l03-ex06"
+    },
+    {
+      "id": "en-b2-u10-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "A review should end with...",
+      "options": [
+        "a final rating and recommendation",
+        "a joke",
+        "a random fact",
+        "the whole plot"
+      ],
+      "answer": [
+        "a final rating and recommendation"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cierre.",
+        "incorrect": "Revisa esto: Cierre."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se cree que el ladrón entró por una ventana.",
+      "answer": [
+        "The thief is believed to have entered through a window.",
+        "It is believed that the thief entered through a window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal.",
+        "incorrect": "Revisa esto: Pasiva impersonal."
+      },
+      "review_of": "en-b2-u03-l06-ex21"
+    },
+    {
+      "id": "en-b2-u10-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ of the film is slow in the first hour.",
+      "options": [
+        "pacing",
+        "pace of up",
+        "pacer",
+        "paced"
+      ],
+      "answer": [
+        "pacing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pacing.",
+        "incorrect": "Revisa esto: Pacing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 25,
+      "prompt": "The film ___ patient viewers. (recompensa a)",
+      "answer": [
+        "rewards"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rewards.",
+        "incorrect": "Revisa esto: Rewards."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Despite he was tired, he kept working.",
+      "answer": [
+        "Despite being tired, he kept working.",
+        "Despite the fact that he was tired, he kept working.",
+        "Although he was tired, he kept working."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      },
+      "review_of": "en-b2-u08-l03-ex16"
+    },
+    {
+      "id": "en-b2-u10-l05-rv07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No es ni de lejos tan barato como antes, pero es ligeramente más cómodo.",
+      "answer": [
+        "It isn't nearly as cheap as it used to be, but it's slightly more convenient.",
+        "It's nowhere near as cheap as it used to be, but it's slightly more convenient."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not nearly as … as.",
+        "incorrect": "Revisa esto: Not nearly as … as."
+      },
+      "review_of": "en-b2-u07-l03-ex23"
+    },
+    {
+      "id": "en-b2-u10-l05-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth ___ a doctor if the pain continues.",
+      "options": [
+        "seeing",
+        "to see",
+        "see",
+        "saw"
+      ],
+      "answer": [
+        "seeing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      },
+      "review_of": "en-b2-u05-l01-ex08"
+    },
+    {
+      "id": "en-b2-u10-l05-rv09",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Cuántos huevos necesitamos?",
+      "answer": [
+        "How many eggs do we need?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eggs es contable: how many.",
+        "incorrect": "Revisa esto: Eggs es contable: how many."
+      },
+      "review_of": "en-a2-u04-l06-ex10"
+    },
+    {
+      "id": "en-b2-u10-l05-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 25,
+      "prompt": "I would ___ it four stars out of five. (valoraría con)",
+      "answer": [
+        "rate"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rate.",
+        "incorrect": "Revisa esto: Rate."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film tell the story of a lighthouse keeper.",
+      "answer": [
+        "The film tells the story of a lighthouse keeper."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercera persona.",
+        "incorrect": "Revisa esto: Tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film was directed from a famous director.",
+      "answer": [
+        "The film was directed by a famous director.",
+        "The film is directed by a famous director."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By.",
+        "incorrect": "Revisa esto: By."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I recommend to watch it on the big screen.",
+      "answer": [
+        "I recommend watching it on the big screen.",
+        "I recommend that you watch it on the big screen."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend + -ing.",
+        "incorrect": "Revisa esto: Recommend + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex18",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "write-review",
+        "review-language"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una reseña (10 a 12 frases) de una película, libro o restaurante que conozcas: título y año, presentación sin destripar, dos puntos fuertes, un punto débil y valoración final con puntuación.",
+      "min_words": 104,
+      "self_check_es": [
+        "¿Presentas la obra sin destripar?",
+        "¿Das fortalezas y un punto débil?",
+        "¿Usas vocabulario variado y conectores?",
+        "¿Cierras con puntuación y recomendación?"
+      ],
+      "model_answer": "Review: The Garden Café\n\nLocated in a quiet corner of the old town, The Garden Café offers a refreshing escape from the city noise. The menu combines Mediterranean dishes with seasonal ingredients, and everything is cooked to order. The greatest strength of the café is its atmosphere: a leafy courtyard, soft music and attentive staff create a relaxing environment. The vegetarian lasagne was outstanding, and the homemade lemon cake was the highlight of the meal. However, the service can be slow at weekends, and the prices are slightly high. Overall, The Garden Café is a charming place that rewards those who are not in a hurry. I would rate it four stars out of five, and I would highly recommend booking in advance.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u10-l05-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ambientada en una isla remota, la película combina misterio y drama familiar y vale la pena verla.",
+      "answer": [
+        "Set on a remote island, the film combines mystery and family drama and is well worth watching.",
+        "Set on a remote island, the film combines mystery and family drama, and it is well worth watching."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reseña.",
+        "incorrect": "Revisa esto: Reseña."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Set in …, … tells the story of …",
+      "The greatest strength is …",
+      "However, the pacing is uneven.",
+      "It is well worth watching. I would rate it …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-set-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-inherit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cellar"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mystery"
+    },
+    {
+      "type": "vocab",
+      "id": "en-atmosphere"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tangible"
+    },
+    {
+      "type": "vocab",
+      "id": "en-restrained"
+    },
+    {
+      "type": "vocab",
+      "id": "en-haunting"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pacing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-subplot"
+    },
+    {
+      "type": "grammar",
+      "id": "en-write-review"
+    }
+  ]
+}

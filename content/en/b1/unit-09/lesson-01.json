@@ -1,0 +1,857 @@
+{
+  "id": "en-b1-u09-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 9,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Our planet",
+    "es": "Problemas medioambientales"
+  },
+  "objective": "Al terminar hablas de problemas medioambientales y de sus causas con vocabulario actual: climate change, pollution, recycle, endangered.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El cambio climático, el plástico, la contaminación: son temas de conversación diaria y de examen B1. Aquí aprendes el vocabulario clave."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Alba",
+        "text": "Did you watch the documentary about climate change last night?",
+        "es": "¿Viste anoche el documental sobre el cambio climático?"
+      },
+      {
+        "speaker": "Dani",
+        "text": "Yes, it was shocking. Global temperatures are rising, glaciers are melting and sea levels are going up.",
+        "es": "Sí, fue impactante. Las temperaturas globales suben, los glaciares se derriten y el nivel del mar aumenta."
+      },
+      {
+        "speaker": "Alba",
+        "text": "And the pollution in big cities is getting worse. Cars and factories release a lot of harmful gases.",
+        "es": "Y la contaminación en las grandes ciudades empeora. Los coches y las fábricas emiten muchos gases nocivos."
+      },
+      {
+        "speaker": "Dani",
+        "text": "What worries me most is plastic. Millions of tonnes end up in the oceans every year and they kill marine animals.",
+        "es": "Lo que más me preocupa es el plástico. Millones de toneladas acaban en los océanos cada año y matan a animales marinos."
+      },
+      {
+        "speaker": "Alba",
+        "text": "Many species are endangered because of deforestation and hunting. Some are even extinct.",
+        "es": "Muchas especies están en peligro por la deforestación y la caza. Algunas incluso se han extinguido."
+      },
+      {
+        "speaker": "Dani",
+        "text": "I try to do my bit. I recycle, I use a reusable bottle and I turn off the lights when I leave a room.",
+        "es": "Yo intento poner mi granito de arena. Reciclo, uso una botella reutilizable y apago las luces al salir de una habitación."
+      },
+      {
+        "speaker": "Alba",
+        "text": "I walk or cycle instead of driving, and I buy local products to reduce waste.",
+        "es": "Yo voy andando o en bici en vez de conducir y compro productos locales para reducir residuos."
+      },
+      {
+        "speaker": "Dani",
+        "text": "If everyone did a little, it would make a big difference.",
+        "es": "Si todos hiciéramos un poco, marcaría una gran diferencia."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-climate-change",
+        "lemma": "climate change",
+        "pos": "noun",
+        "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+        "es": "cambio climático",
+        "example": "Climate change is a global problem."
+      },
+      {
+        "id": "en-global-warming",
+        "lemma": "global warming",
+        "pos": "noun",
+        "ipa": "/ˈɡləʊbl ˈwɔːmɪŋ/",
+        "es": "calentamiento global",
+        "example": "Global warming is real."
+      },
+      {
+        "id": "en-temperature",
+        "lemma": "temperature",
+        "pos": "noun",
+        "ipa": "/ˈtemprətʃə/",
+        "es": "temperatura",
+        "example": "The temperature is rising."
+      },
+      {
+        "id": "en-glacier",
+        "lemma": "glacier",
+        "pos": "noun",
+        "ipa": "/ˈɡlæsiə/",
+        "es": "glaciar",
+        "example": "Glaciers are melting."
+      },
+      {
+        "id": "en-sea-level",
+        "lemma": "sea level",
+        "pos": "noun",
+        "ipa": "/siː ˈlevl/",
+        "es": "nivel del mar",
+        "example": "Sea levels are rising."
+      },
+      {
+        "id": "en-pollution",
+        "lemma": "pollution",
+        "pos": "noun",
+        "ipa": "/pəˈluːʃn/",
+        "es": "contaminación",
+        "example": "Air pollution is bad."
+      },
+      {
+        "id": "en-release",
+        "lemma": "release",
+        "pos": "verb",
+        "ipa": "/rɪˈliːs/",
+        "es": "emitir, liberar",
+        "example": "Factories release gases."
+      },
+      {
+        "id": "en-harmful",
+        "lemma": "harmful",
+        "pos": "adj",
+        "ipa": "/ˈhɑːmfl/",
+        "es": "nocivo",
+        "example": "Harmful chemicals."
+      },
+      {
+        "id": "en-endangered",
+        "lemma": "endangered",
+        "pos": "adj",
+        "ipa": "/ɪnˈdeɪndʒəd/",
+        "es": "en peligro de extinción",
+        "example": "An endangered species."
+      },
+      {
+        "id": "en-extinct",
+        "lemma": "extinct",
+        "pos": "adj",
+        "ipa": "/ɪkˈstɪŋkt/",
+        "es": "extinto",
+        "example": "Dinosaurs are extinct."
+      },
+      {
+        "id": "en-deforestation",
+        "lemma": "deforestation",
+        "pos": "noun",
+        "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+        "es": "deforestación",
+        "example": "Deforestation destroys habitats."
+      },
+      {
+        "id": "en-recycle",
+        "lemma": "recycle",
+        "pos": "verb",
+        "ipa": "/ˌriːˈsaɪkl/",
+        "es": "reciclar",
+        "example": "Recycle your plastic."
+      },
+      {
+        "id": "en-reusable",
+        "lemma": "reusable",
+        "pos": "adj",
+        "ipa": "/ˌriːˈjuːzəbl/",
+        "es": "reutilizable",
+        "example": "A reusable bag."
+      },
+      {
+        "id": "en-waste",
+        "lemma": "waste",
+        "pos": "noun",
+        "ipa": "/weɪst/",
+        "es": "residuos, desperdicio",
+        "example": "Reduce waste."
+      }
+    ],
+    "audio_script_id": "en-b1-u09-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario medioambiental**\n\n| Tema | Palabras |\n|---|---|\n| **Problemas** | *climate change · global warming · pollution · deforestation · plastic waste · extinction · drought · flood · wildfire* |\n| **Causas** | *greenhouse gases · exhaust fumes · factories · overfishing · overconsumption* |\n| **Soluciones** | *recycle · reuse · reduce · save energy · renewable energy (solar, wind) · public transport · plant trees* |\n| **Naturaleza** | *wildlife · habitat · species · endangered · extinct · ecosystem* |\n\n**Verbos útiles**\n\n- *rise / go up* (subir) · *fall / go down* (bajar) · *melt* (derretirse) · *release* (emitir) · *destroy* (destruir) · *protect* (proteger) · *damage* (dañar) · *throw away* (tirar).\n- *do my bit* = poner mi granito de arena · *go green* = volverse ecológico.\n\n**Presente continuo para tendencias:** *Temperatures **are rising**. The pollution **is getting** worse. Forests **are disappearing**.*\n\n**Las tres R:** *Reduce, Reuse, Recycle.*\n\n**Ojo — falsos amigos y matices**\n\n- *Environment* = medio ambiente (no 'entorno de trabajo' ni 'ambiente de fiesta').\n- *Ecological* ≠ *ecofriendly* ('ecológico' en el sentido de respetuoso): *eco-friendly*.\n- *Rubbish* (UK) / *trash* o *garbage* (US) = basura.\n- *Weather* es el tiempo del día; *climate* es el clima de una región a largo plazo.\n- *Waste* (residuos, incontable) / *to waste* (malgastar).\n\nPronunciación: *environment* /ɪnˈvaɪrənmənt/ (la 'n' interior se pronuncia) · *glacier* /ˈɡlæsiə/ · *extinct* /ɪkˈstɪŋkt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Temperatures raise.",
+        "right": "Temperatures rise.",
+        "note": "Rise es intransitivo."
+      },
+      {
+        "wrong": "The environment of my office.",
+        "right": "The atmosphere in my office.",
+        "note": "Environment = medio ambiente."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "environment",
+        "es_false": "ambiente (general)",
+        "real": "medio ambiente",
+        "note": "Ambiente de fiesta = atmosphere."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u09-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "pollution",
+          "right": "contaminación"
+        },
+        {
+          "left": "glacier",
+          "right": "glaciar"
+        },
+        {
+          "left": "endangered",
+          "right": "en peligro"
+        },
+        {
+          "left": "recycle",
+          "right": "reciclar"
+        },
+        {
+          "left": "deforestation",
+          "right": "deforestación"
+        },
+        {
+          "left": "reusable",
+          "right": "reutilizable"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario medioambiental.",
+        "incorrect": "Revisa esto: Vocabulario medioambiental."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un problema o una solución?",
+      "categories": [
+        "Problem",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "global warming",
+          "category": "Problem"
+        },
+        {
+          "text": "deforestation",
+          "category": "Problem"
+        },
+        {
+          "text": "plastic waste",
+          "category": "Problem"
+        },
+        {
+          "text": "air pollution",
+          "category": "Problem"
+        },
+        {
+          "text": "recycle",
+          "category": "Solution"
+        },
+        {
+          "text": "solar energy",
+          "category": "Solution"
+        },
+        {
+          "text": "public transport",
+          "category": "Solution"
+        },
+        {
+          "text": "plant trees",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar problemas y soluciones ayuda a recordar.",
+        "incorrect": "Revisa esto: Clasificar problemas y soluciones ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le preocupa más a Dani?",
+      "options": [
+        "El plástico en los océanos",
+        "La lluvia",
+        "El ruido",
+        "El precio de la gasolina"
+      ],
+      "answer": [
+        "El plástico en los océanos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: What worries me most is plastic.",
+        "incorrect": "Revisa esto: Dice: What worries me most is plastic."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hace Alba para reducir su impacto?",
+      "options": [
+        "Va andando o en bici y compra productos locales",
+        "Usa más el coche",
+        "No recicla",
+        "Viaja en avión"
+      ],
+      "answer": [
+        "Va andando o en bici y compra productos locales"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I walk or cycle … buy local products.",
+        "incorrect": "Revisa esto: Dice: I walk or cycle … buy local products."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Según Dani, si todos hicieran un poco no cambiaría nada.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: it would make a big difference.",
+        "incorrect": "Revisa esto: Dice: it would make a big difference."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Temperatures ___ all over the world.",
+      "options": [
+        "are rising",
+        "rise to",
+        "are raise",
+        "rises"
+      ],
+      "answer": [
+        "are rising"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo para tendencias.",
+        "incorrect": "Revisa esto: Presente continuo para tendencias."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Factories ___ harmful gases into the air.",
+      "options": [
+        "release",
+        "arrive",
+        "borrow",
+        "recycle"
+      ],
+      "answer": [
+        "release"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Release = emitir.",
+        "incorrect": "Revisa esto: Release = emitir."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ never been to Italy before 2020.",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had never been: antes de ese momento.",
+        "incorrect": "Revisa esto: Had never been: antes de ese momento."
+      },
+      "review_of": "en-b1-u01-l04-ex06"
+    },
+    {
+      "id": "en-b1-u09-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "The giant panda is an ___ species.",
+      "options": [
+        "endangered",
+        "extinct",
+        "empty",
+        "environmental"
+      ],
+      "answer": [
+        "endangered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En peligro de extinción.",
+        "incorrect": "Revisa esto: En peligro de extinción."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Dinosaurs are ___ . They died millions of years ago.",
+      "options": [
+        "extinct",
+        "endangered",
+        "protected",
+        "rare"
+      ],
+      "answer": [
+        "extinct"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Extinct = extinto.",
+        "incorrect": "Revisa esto: Extinct = extinto."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántos pisos ha visto?",
+      "options": [
+        "Unos veinte",
+        "Tres",
+        "Ninguno",
+        "Treinta"
+      ],
+      "answer": [
+        "Unos veinte"
+      ],
+      "audio_text": "I've been looking for a flat for three months. I've seen about twenty, but none of them is perfect.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I've seen about twenty'.",
+        "incorrect": "Revisa esto: Dice 'I've seen about twenty'."
+      },
+      "audio_script_id": "en-b1-u09-l01-rv02-a",
+      "review_of": "en-b1-u01-l02-ex13"
+    },
+    {
+      "id": "en-b1-u09-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I always use a ___ bottle to reduce plastic.",
+      "options": [
+        "reusable",
+        "disposable",
+        "plastic",
+        "broken"
+      ],
+      "answer": [
+        "reusable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reusable.",
+        "incorrect": "Revisa esto: Reusable."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't got ___ milk.",
+      "answer": [
+        "any"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En frases negativas se usa any.",
+        "incorrect": "Revisa esto: En frases negativas se usa any."
+      },
+      "review_of": "en-a1-u05-l04-ex02"
+    },
+    {
+      "id": "en-b1-u09-l01-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Pollution is getting ___ every year. (peor)",
+      "answer": [
+        "worse"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Getting worse.",
+        "incorrect": "Revisa esto: Getting worse."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I try to do my ___ for the planet. (granito de arena)",
+      "answer": [
+        "bit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do my bit.",
+        "incorrect": "Revisa esto: Do my bit."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 20,
+      "prompt": "I like ___ music. (en general)",
+      "options": [
+        "(no article)",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": [
+        "(no article)"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hablando en general no se usa artículo.",
+        "incorrect": "Revisa esto: Hablando en general no se usa artículo."
+      },
+      "review_of": "en-a1-u11-l03-ex04"
+    },
+    {
+      "id": "en-b1-u09-l01-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (see) her friends on Sunday.",
+      "answer": [
+        "saw"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de see: saw.",
+        "incorrect": "Revisa esto: Pasado irregular de see: saw."
+      },
+      "review_of": "en-a2-u01-l03-ex04"
+    },
+    {
+      "id": "en-b1-u09-l01-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace por la tarde?",
+      "options": [
+        "Plays chess",
+        "Goes swimming",
+        "Does yoga",
+        "Goes hiking"
+      ],
+      "answer": [
+        "Plays chess"
+      ],
+      "audio_text": "On Saturdays I go swimming in the morning and I play chess with my dad in the afternoon.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I play chess with my dad in the afternoon'.",
+        "incorrect": "Revisa esto: Dice 'I play chess with my dad in the afternoon'."
+      },
+      "audio_script_id": "en-b1-u09-l01-rv06-a",
+      "review_of": "en-a2-u13-l01-ex10"
+    },
+    {
+      "id": "en-b1-u09-l01-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "He told me ___ to be late. (no llegar)",
+      "answer": [
+        "not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not to.",
+        "incorrect": "Revisa esto: Not to."
+      },
+      "review_of": "en-b1-u07-l03-ex12"
+    },
+    {
+      "id": "en-b1-u09-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The environment of my office is nice.",
+      "answer": [
+        "The atmosphere in my office is nice.",
+        "The working environment in my office is nice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Environment ≠ ambiente en general.",
+        "incorrect": "Revisa esto: Environment ≠ ambiente en general."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Temperatures raise every year.",
+      "answer": [
+        "Temperatures rise every year.",
+        "Temperatures are rising every year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rise no lleva objeto.",
+        "incorrect": "Revisa esto: Rise no lleva objeto."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex15",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debemos hacer?",
+      "options": [
+        "Reducir, reutilizar y reciclar",
+        "Comprar más plástico",
+        "Tirar más",
+        "Pescar menos"
+      ],
+      "answer": [
+        "Reducir, reutilizar y reciclar"
+      ],
+      "audio_text": "Plastic waste is one of the biggest problems of our time. Millions of tonnes end up in the oceans every year. To help, we should reduce, reuse and recycle.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: reduce, reuse and recycle.",
+        "incorrect": "Revisa esto: Dice: reduce, reuse and recycle."
+      },
+      "audio_script_id": "en-b1-u09-l01-ex15-a"
+    },
+    {
+      "id": "en-b1-u09-l01-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Las temperaturas suben y los glaciares se derriten cada año.",
+      "answer": [
+        "Temperatures are rising and glaciers are melting every year.",
+        "Temperatures are rising and the glaciers are melting every year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo.",
+        "incorrect": "Revisa esto: Presente continuo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l01-ex17",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "environment-talk"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "environment",
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "tip_es": "La 'n' interior se pronuncia."
+        },
+        {
+          "text": "glacier",
+          "ipa": "/ˈɡlæsiə/",
+          "tip_es": "Acento en la primera."
+        },
+        {
+          "text": "extinct",
+          "ipa": "/ɪkˈstɪŋkt/",
+          "tip_es": "Acento en 'stinct'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "climate change · pollution · deforestation",
+      "Temperatures are rising.",
+      "recycle · reuse · reduce",
+      "endangered · extinct · wildlife"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-climate-change"
+    },
+    {
+      "type": "vocab",
+      "id": "en-global-warming"
+    },
+    {
+      "type": "vocab",
+      "id": "en-temperature"
+    },
+    {
+      "type": "vocab",
+      "id": "en-glacier"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sea-level"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pollution"
+    },
+    {
+      "type": "vocab",
+      "id": "en-release"
+    },
+    {
+      "type": "vocab",
+      "id": "en-harmful"
+    },
+    {
+      "type": "vocab",
+      "id": "en-endangered"
+    },
+    {
+      "type": "vocab",
+      "id": "en-extinct"
+    },
+    {
+      "type": "grammar",
+      "id": "en-environment-talk"
+    }
+  ]
+}

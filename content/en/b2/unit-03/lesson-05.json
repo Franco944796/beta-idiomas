@@ -1,0 +1,725 @@
+{
+  "id": "en-b2-u03-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 3,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Summarising an article",
+    "es": "Resumir un artículo"
+  },
+  "objective": "Al terminar resumes un artículo con tus propias palabras: idea principal, argumentos clave y conclusión, sin copiar frases literales.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Resumir no es acortar: es entender, seleccionar y reformular. Un buen resumen es objetivo, breve y fiel al original, y se escribe con tus palabras."
+  },
+  "input": {
+    "type": "text",
+    "text": "Original article (extract): 'Researchers at a European university have found that people who read printed books regularly retain more information than those who read on screens. The study, which involved 300 students, showed that participants who read a chapter on paper scored 12 per cent higher on a comprehension test than those who read the same chapter on a tablet. According to the lead researcher, screen reading encourages skimming, while paper makes readers slow down. However, the authors acknowledge that the sample was small and limited to one age group. They recommend that students use paper for complex material but add that digital texts are useful for quick searches and travel.'\n\nSummary: A European study of 300 students suggests that reading on paper improves comprehension. Participants who read a chapter in print scored 12 per cent higher than those who used a tablet, apparently because screens encourage skimming. The researchers warn, however, that the sample was small and limited to one age group. They conclude that paper is better for difficult texts, while digital reading remains practical for short or portable material.",
+    "es": "Artículo original (fragmento): Investigadores de una universidad europea han descubierto que quienes leen libros impresos con regularidad retienen más información que quienes leen en pantalla. El estudio, en el que participaron 300 estudiantes, mostró que los participantes que leyeron un capítulo en papel obtuvieron un 12 % más en una prueba de comprensión que los que leyeron el mismo capítulo en una tableta. Según el investigador principal, leer en pantalla fomenta la lectura rápida, mientras que el papel obliga a leer más despacio. Sin embargo, los autores reconocen que la muestra era pequeña y limitada a un grupo de edad. Recomiendan que los estudiantes usen papel para material complejo pero añaden que los textos digitales son útiles para búsquedas rápidas y viajes. Resumen: Un estudio europeo con 300 estudiantes sugiere que leer en papel mejora la comprensión. Quienes leyeron un capítulo en papel obtuvieron un 12 % más que quienes usaron una tableta, al parecer porque las pantallas fomentan la lectura rápida. Los investigadores advierten, no obstante, que la muestra era pequeña y de un solo grupo de edad. Concluyen que el papel es mejor para textos difíciles, mientras que la lectura digital sigue siendo práctica para material corto o portátil.",
+    "glossary": [
+      {
+        "id": "en-retain",
+        "lemma": "retain",
+        "pos": "verb",
+        "ipa": "/rɪˈteɪn/",
+        "es": "retener",
+        "example": "Retain information."
+      },
+      {
+        "id": "en-comprehension",
+        "lemma": "comprehension",
+        "pos": "noun",
+        "ipa": "/ˌkɒmprɪˈhenʃn/",
+        "es": "comprensión",
+        "example": "A comprehension test."
+      },
+      {
+        "id": "en-skim",
+        "lemma": "skim",
+        "pos": "verb",
+        "ipa": "/skɪm/",
+        "es": "leer por encima",
+        "example": "Skim the text."
+      },
+      {
+        "id": "en-slow-down",
+        "lemma": "slow down",
+        "pos": "phrasal verb",
+        "ipa": "/sləʊ daʊn/",
+        "es": "ir más despacio",
+        "example": "Slow down when reading."
+      },
+      {
+        "id": "en-acknowledge",
+        "lemma": "acknowledge",
+        "pos": "verb",
+        "ipa": "/əkˈnɒlɪdʒ/",
+        "es": "reconocer",
+        "example": "They acknowledge the limits."
+      },
+      {
+        "id": "en-sample",
+        "lemma": "sample",
+        "pos": "noun",
+        "ipa": "/ˈsɑːmpl/",
+        "es": "muestra",
+        "example": "A small sample."
+      },
+      {
+        "id": "en-apparently",
+        "lemma": "apparently",
+        "pos": "adv",
+        "ipa": "/əˈpærəntli/",
+        "es": "al parecer",
+        "example": "Apparently, it works."
+      },
+      {
+        "id": "en-warn",
+        "lemma": "warn",
+        "pos": "verb",
+        "ipa": "/wɔːn/",
+        "es": "advertir",
+        "example": "The authors warn that…"
+      },
+      {
+        "id": "en-conclude",
+        "lemma": "conclude",
+        "pos": "verb",
+        "ipa": "/kənˈkluːd/",
+        "es": "concluir",
+        "example": "They conclude that…"
+      },
+      {
+        "id": "en-practical",
+        "lemma": "practical",
+        "pos": "adj",
+        "ipa": "/ˈpræktɪkl/",
+        "es": "práctico",
+        "example": "A practical option."
+      },
+      {
+        "id": "en-portable",
+        "lemma": "portable",
+        "pos": "adj",
+        "ipa": "/ˈpɔːtəbl/",
+        "es": "portátil",
+        "example": "Portable devices."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cómo resumir un artículo**\n\n| Paso | Qué hacer | Frase útil |\n|---|---|---|\n| **1. Entender** | lee el texto entero, subraya ideas principales | — |\n| **2. Idea principal** | una frase con tema + conclusión | *The study suggests that …* |\n| **3. Datos clave** | 2–3 hechos importantes | *Participants … scored … per cent higher …* |\n| **4. Matices** | límites, contra-argumentos | *However, the authors warn that …* |\n| **5. Conclusión** | recomendación o consecuencia | *They conclude that … · The article ends by …* |\n\n**Verbos para resumir (reporting verbs)**\n\n- *suggest, argue, claim, conclude, warn, point out, emphasise, acknowledge, recommend, reveal, show.*\n- Patrones: *suggest that + cláusula* · *recommend + -ing / that…* · *warn that …* · *acknowledge that …* · *conclude that …*.\n\n**Parafrasear (cambiar palabras y estructura)**\n\n- Sinónimos: *found → discovered, showed → revealed, higher → greater, because → since / due to.*\n- Cambia la voz: *Researchers found that … → It was found that …*\n- Cambia el orden: *Screen reading encourages skimming. → Skimming is encouraged by screen reading.*\n\n**Qué evitar**\n\n- Copiar frases literales (plagiarism). · Añadir tu opinión (en un resumen, no). · Detalles menores. · Citar demasiados números.\n\n**Longitud:** 20–25 % del original. Usa tiempo **presente** para resumir: *The article argues that …*\n\n**Errores típicos**\n\n- ✘ *The author say that …* → ✔ *The author says that …*\n- ✘ *The study suggests to read paper.* → ✔ *The study suggests that reading on paper helps.*\n- ✘ *In my opinion the article is bad.* (no en resumen).\n- ✘ *The article speaks about …* → ✔ *The article discusses …* / *is about …*\n\n**Ojo:** *sensible* ≠ *sensitive*; *conclude* (concluir) ≠ *include* (incluir). *Resume* (verbo) = reanudar; para resumir = *summarise*.\n\nPronunciación: *summarise* /ˈsʌməraɪz/ · *comprehension* /ˌkɒmprɪˈhenʃn/ · *acknowledge* /əkˈnɒlɪdʒ/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The author say that…",
+        "right": "The author says that…",
+        "note": "Tercera persona."
+      },
+      {
+        "wrong": "The article speaks about…",
+        "right": "The article discusses…",
+        "note": "Verbo de resumen."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u03-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos estudiantes participaron?",
+      "options": [
+        "300",
+        "30",
+        "3000",
+        "100"
+      ],
+      "answer": [
+        "300"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: 300 students.",
+        "incorrect": "Revisa esto: Dice: 300 students."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto mejor puntuaron quienes leyeron en papel?",
+      "options": [
+        "Un 12 %",
+        "Un 2 %",
+        "Un 50 %",
+        "Un 20 %"
+      ],
+      "answer": [
+        "Un 12 %"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: 12 per cent higher.",
+        "incorrect": "Revisa esto: Dice: 12 per cent higher."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué límite reconocen los autores?",
+      "options": [
+        "La muestra era pequeña y de un solo grupo de edad",
+        "No tenían dinero",
+        "Faltó tiempo",
+        "Las tabletas fallaron"
+      ],
+      "answer": [
+        "La muestra era pequeña y de un solo grupo de edad"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the sample was small and limited to one age group.",
+        "incorrect": "Revisa esto: Dice: the sample was small and limited to one age group."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 15,
+      "prompt": "El resumen incluye la opinión personal de quien lo escribe.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un buen resumen es objetivo.",
+        "incorrect": "Revisa esto: Un buen resumen es objetivo."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "The article ___ that reading on paper improves comprehension.",
+      "options": [
+        "suggests",
+        "suggest",
+        "suggesting",
+        "is suggest"
+      ],
+      "answer": [
+        "suggests"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente, tercera persona.",
+        "incorrect": "Revisa esto: Presente, tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "The authors ___ that the sample was small.",
+      "options": [
+        "acknowledge",
+        "acknowledge to",
+        "recognise of",
+        "admit about"
+      ],
+      "answer": [
+        "acknowledge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acknowledge that.",
+        "incorrect": "Revisa esto: Acknowledge that."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which verb best rephrases 'The researchers found out'?",
+      "options": [
+        "discovered",
+        "forgot",
+        "refused",
+        "doubted"
+      ],
+      "answer": [
+        "discovered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Parafrasear.",
+        "incorrect": "Revisa esto: Parafrasear."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "A good summary should be...",
+      "options": [
+        "objective and brief",
+        "long and emotional",
+        "full of quotes",
+        "your personal opinion"
+      ],
+      "answer": [
+        "objective and brief"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Criterios.",
+        "incorrect": "Revisa esto: Criterios."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-vocabulary"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tu teléfono se quedó sin batería. Necesitas un ___.",
+      "options": [
+        "charger",
+        "keyboard",
+        "screen",
+        "tablet"
+      ],
+      "answer": [
+        "charger"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un cargador carga la batería.",
+        "incorrect": "Revisa esto: Un cargador carga la batería."
+      },
+      "review_of": "en-a2-u09-l01-ex02"
+    },
+    {
+      "id": "en-b2-u03-l05-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        ".",
+        "She",
+        "must"
+      ],
+      "answer": [
+        "She",
+        "must",
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      },
+      "review_of": "en-b1-u10-l02-ex15"
+    },
+    {
+      "id": "en-b2-u03-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "The study recommends ___ paper for complex material.",
+      "options": [
+        "using",
+        "to using",
+        "use to",
+        "of using"
+      ],
+      "answer": [
+        "using"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend + -ing.",
+        "incorrect": "Revisa esto: Recommend + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "My ___ is very heavy.",
+      "options": [
+        "luggage",
+        "luggages",
+        "a luggage",
+        "luggage are"
+      ],
+      "answer": [
+        "luggage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage es incontable.",
+        "incorrect": "Revisa esto: Luggage es incontable."
+      },
+      "review_of": "en-a2-u02-l06-ex05"
+    },
+    {
+      "id": "en-b2-u03-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "Original: 'Participants who read a chapter on paper scored 12 per cent higher on a comprehension test.' Which is the best paraphrase?",
+      "options": [
+        "Readers using paper did better in the comprehension test.",
+        "Participants who read a chapter on paper scored 12 per cent higher on a comprehension test.",
+        "I think paper is clearly better for everybody.",
+        "Paper scored 12 per cent."
+      ],
+      "answer": [
+        "Readers using paper did better in the comprehension test."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Parafrasear sin copiar ni opinar.",
+        "incorrect": "Revisa esto: Parafrasear sin copiar ni opinar."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-rv04",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el correo?",
+      "options": [
+        "Opposite the station",
+        "Next to the station",
+        "Behind the station",
+        "Far from the station"
+      ],
+      "answer": [
+        "Opposite the station"
+      ],
+      "audio_text": "The post office is opposite the station.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'opposite the station'.",
+        "incorrect": "Revisa esto: Dice 'opposite the station'."
+      },
+      "audio_script_id": "en-b2-u03-l05-rv04-a",
+      "review_of": "en-a1-u07-l02-ex09"
+    },
+    {
+      "id": "en-b2-u03-l05-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The train is leaving at 9:10 every day.",
+      "answer": [
+        "The train leaves at 9:10 every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Horario fijo: presente simple.",
+        "incorrect": "Revisa esto: Horario fijo: presente simple."
+      },
+      "review_of": "en-a2-u12-l01-ex07"
+    },
+    {
+      "id": "en-b2-u03-l05-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 25,
+      "prompt": "The authors ___ that more research is needed. (advierten)",
+      "answer": [
+        "warn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Warn that.",
+        "incorrect": "Revisa esto: Warn that."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ that paper is better for difficult texts. (concluyen)",
+      "answer": [
+        "conclude"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conclude that.",
+        "incorrect": "Revisa esto: Conclude that."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The author say that screens encourage skimming.",
+      "answer": [
+        "The author says that screens encourage skimming."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercera persona.",
+        "incorrect": "Revisa esto: Tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The article speaks about the benefits of reading.",
+      "answer": [
+        "The article discusses the benefits of reading.",
+        "The article is about the benefits of reading.",
+        "The article talks about the benefits of reading."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Discusses / is about.",
+        "incorrect": "Revisa esto: Discusses / is about."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The study suggests to read on paper.",
+      "answer": [
+        "The study suggests that reading on paper is better.",
+        "The study suggests reading on paper."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + that/-ing.",
+        "incorrect": "Revisa esto: Suggest + that/-ing."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex16",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 180,
+      "prompt": "Resume en 5 o 6 frases este texto con tus propias palabras: 'A city council has banned cars from the centre every Sunday. Local shops say sales have dropped by 8 per cent, but residents report cleaner air and quieter streets. The council plans to review the measure after six months and says it may extend it to Saturdays if the results are positive.'",
+      "min_words": 40,
+      "self_check_es": [
+        "¿Usas tus propias palabras?",
+        "¿Incluyes la idea principal y los datos clave?",
+        "¿Evitas dar tu opinión?",
+        "¿Usas presente o pretérito adecuado?"
+      ],
+      "model_answer": "The city council has banned cars from the centre on Sundays. Shopkeepers say their sales have fallen by 8 per cent, whereas residents have noticed cleaner air and less noise. The council will review the measure after six months and may extend it to Saturdays if the results are positive.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El estudio sugiere que leer en papel mejora la comprensión, aunque los autores reconocen que la muestra era pequeña.",
+      "answer": [
+        "The study suggests that reading on paper improves comprehension, although the authors acknowledge that the sample was small.",
+        "The study suggests that reading on paper improves comprehension, though the authors acknowledge that the sample was small."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resumen.",
+        "incorrect": "Revisa esto: Resumen."
+      }
+    },
+    {
+      "id": "en-b2-u03-l05-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío en la sala. Ofreces cerrar la ventana:",
+      "options": [
+        "I'll close the window.",
+        "I close the window.",
+        "I'm going to the window.",
+        "I will to close the window."
+      ],
+      "answer": [
+        "I'll close the window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + verbo.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + verbo."
+      },
+      "review_of": "en-a2-u05-l03-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "The article argues that …",
+      "The authors warn that …",
+      "They conclude that …",
+      "However, the sample was small."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-retain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-comprehension"
+    },
+    {
+      "type": "vocab",
+      "id": "en-skim"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slow-down"
+    },
+    {
+      "type": "vocab",
+      "id": "en-acknowledge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sample"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apparently"
+    },
+    {
+      "type": "vocab",
+      "id": "en-warn"
+    },
+    {
+      "type": "vocab",
+      "id": "en-conclude"
+    },
+    {
+      "type": "vocab",
+      "id": "en-practical"
+    },
+    {
+      "type": "grammar",
+      "id": "en-article-summary"
+    }
+  ]
+}

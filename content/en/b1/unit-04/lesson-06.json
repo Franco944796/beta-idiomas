@@ -1,0 +1,740 @@
+{
+  "id": "en-b1-u04-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 4,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 4",
+    "es": "Checkpoint 4"
+  },
+  "objective": "Al terminar demuestras que hablas de hábitos y salud con condicionales, unless, consejos y síntomas.",
+  "est_minutes": 39,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 4: hábitos, condicional cero y primero, unless / as long as / in case, consejos y síntomas."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de hábitos, condicional cero y primero, unless / as long as / in case, should / ought to / had better y cómo describir síntomas.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 4**\n\n- *get enough sleep · skip meals · give up · cut down on · hardly ever*\n- *If you heat ice, it melts. · If it rains, I'll stay in.*\n- *I'll go unless it rains. · as long as · provided that · in case it rains*\n- *You should / ought to rest. · You'd better not go. · If I were you, I'd …*\n- *I've had a sore throat since Monday. · It hurts when I cough. · I'm allergic to …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u04-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un hábito sano o poco sano?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "get enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "drink plenty of water",
+          "category": "Healthy"
+        },
+        {
+          "text": "take regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "skip meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "stay up late every night",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "snack on junk food",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm trying to ___ down on sugar.",
+      "options": [
+        "cut",
+        "put",
+        "give",
+        "take"
+      ],
+      "answer": [
+        "cut"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut down on.",
+        "incorrect": "Revisa esto: Cut down on."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you ___ ice, it melts.",
+      "options": [
+        "heat",
+        "will heat",
+        "heated",
+        "heating"
+      ],
+      "answer": [
+        "heat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condicional cero.",
+        "incorrect": "Revisa esto: Condicional cero."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If it ___ tomorrow, we'll stay home.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "rain"
+      ],
+      "answer": [
+        "rains"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente.",
+        "incorrect": "Revisa esto: If + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll come ___ it rains.",
+      "options": [
+        "unless",
+        "as long as",
+        "in case",
+        "until"
+      ],
+      "answer": [
+        "unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A menos que llueva.",
+        "incorrect": "Revisa esto: A menos que llueva."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Desde cuándo tiene su teléfono la hermana?",
+      "options": [
+        "Since last Christmas",
+        "For three years",
+        "Since last year",
+        "For two months"
+      ],
+      "answer": [
+        "Since last Christmas"
+      ],
+      "audio_text": "I've had this phone for three years. My sister has had hers since last Christmas.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'since last Christmas'.",
+        "incorrect": "Revisa esto: Dice 'since last Christmas'."
+      },
+      "audio_script_id": "en-b1-u04-l06-rv01-a",
+      "review_of": "en-a2-u08-l05-ex10"
+    },
+    {
+      "id": "en-b1-u04-l06-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "bread",
+          "right": "pan"
+        },
+        {
+          "left": "cheese",
+          "right": "queso"
+        },
+        {
+          "left": "chicken",
+          "right": "pollo"
+        },
+        {
+          "left": "milk",
+          "right": "leche"
+        },
+        {
+          "left": "juice",
+          "right": "jugo"
+        },
+        {
+          "left": "apple",
+          "right": "manzana"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario.",
+        "incorrect": "Revisa esto: Repasa el vocabulario."
+      },
+      "review_of": "en-a1-u05-l06-ex01"
+    },
+    {
+      "id": "en-b1-u04-l06-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to home at six.",
+      "answer": [
+        "I go home at six."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'home' no se usa 'to': go home.",
+        "incorrect": "Revisa esto: Con 'home' no se usa 'to': go home."
+      },
+      "review_of": "en-a1-u04-l01-ex04"
+    },
+    {
+      "id": "en-b1-u04-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can go out ___ you finish your homework.",
+      "options": [
+        "as long as",
+        "unless",
+        "in case",
+        "if not"
+      ],
+      "answer": [
+        "as long as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con tal de que.",
+        "incorrect": "Revisa esto: Con tal de que."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have half a ___ of grapes, please?",
+      "answer": [
+        "kilo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Half a kilo of … = medio kilo de …",
+        "incorrect": "Revisa esto: Half a kilo of … = medio kilo de …"
+      },
+      "review_of": "en-a2-u04-l06-ex04"
+    },
+    {
+      "id": "en-b1-u04-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a sweater ___ it gets cold.",
+      "options": [
+        "in case",
+        "unless",
+        "as long as",
+        "provided"
+      ],
+      "answer": [
+        "in case"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por si acaso.",
+        "incorrect": "Revisa esto: Por si acaso."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ better go to bed. It's very late.",
+      "options": [
+        "had",
+        "have",
+        "would",
+        "should to"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better.",
+        "incorrect": "Revisa esto: Had better."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I ___ you, I'd see a doctor.",
+      "options": [
+        "were",
+        "was",
+        "am",
+        "will be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If I were you.",
+        "incorrect": "Revisa esto: If I were you."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've had a cough ___ Monday.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "during"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento.",
+        "incorrect": "Revisa esto: Since + momento."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 25,
+      "prompt": "My throat hurts when I ___ . (tragar)",
+      "answer": [
+        "swallow"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Swallow = tragar.",
+        "incorrect": "Revisa esto: Swallow = tragar."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 25,
+      "prompt": "He gave me some good ___ . (consejos)",
+      "answer": [
+        "advice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice es incontable.",
+        "incorrect": "Revisa esto: Advice es incontable."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If it will rain, I'll stay at home.",
+      "answer": [
+        "If it rains, I'll stay at home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente.",
+        "incorrect": "Revisa esto: If + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to see a doctor.",
+      "answer": [
+        "You should see a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + verbo base.",
+        "incorrect": "Revisa esto: Should + verbo base."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué logró hacer?",
+      "options": [
+        "Terminar el proyecto a tiempo",
+        "Tomarse vacaciones",
+        "Dejar el trabajo",
+        "Cambiar de puesto"
+      ],
+      "answer": [
+        "Terminar el proyecto a tiempo"
+      ],
+      "audio_text": "Last month I had to work every weekend, but I managed to finish the project on time. I couldn't take any holidays, so now I'm exhausted.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I managed to finish the project on time.",
+        "incorrect": "Revisa esto: Dice: I managed to finish the project on time."
+      },
+      "audio_script_id": "en-b1-u04-l06-rv05-a",
+      "review_of": "en-b1-u03-l03-ex14"
+    },
+    {
+      "id": "en-b1-u04-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain in the head. I feel ill.",
+      "answer": [
+        "I've got a headache. I feel ill.",
+        "I have a headache. I feel ill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para la cabeza: headache.",
+        "incorrect": "Revisa esto: Para la cabeza: headache."
+      },
+      "review_of": "en-a2-u06-l02-ex06"
+    },
+    {
+      "id": "en-b1-u04-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll go unless it doesn't rain.",
+      "answer": [
+        "I'll go unless it rains.",
+        "I'll go if it doesn't rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debe hacer si no se le pasa?",
+      "options": [
+        "Ir al médico",
+        "Tomar café",
+        "Salir a correr",
+        "Dormir más"
+      ],
+      "answer": [
+        "Ir al médico"
+      ],
+      "audio_text": "If you feel dizzy, sit down and drink some water. You'd better not stand up quickly. And you ought to see a doctor if it doesn't stop.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: you ought to see a doctor.",
+        "incorrect": "Revisa esto: Dice: you ought to see a doctor."
+      },
+      "audio_script_id": "en-b1-u04-l06-ex16-a"
+    },
+    {
+      "id": "en-b1-u04-l06-rv07",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "twenty-one, twenty-two, ___",
+      "answer": [
+        "twenty-three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de twenty-two viene twenty-three.",
+        "incorrect": "Revisa esto: Después de twenty-two viene twenty-three."
+      },
+      "review_of": "en-a1-u08-l01-ex03"
+    },
+    {
+      "id": "en-b1-u04-l06-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si no duermes bien, te sentirás cansado mañana.",
+      "answer": [
+        "If you don't sleep well, you'll feel tired tomorrow.",
+        "If you don't sleep well, you will feel tired tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional.",
+        "incorrect": "Revisa esto: Primer condicional."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-rv08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Aunque es pequeño, me gusta mi departamento porque es barato.",
+      "answer": [
+        "Although it's small, I like my flat because it's cheap.",
+        "Although it is small, I like my flat because it is cheap.",
+        "Although it's small, I like my apartment because it's cheap."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + because.",
+        "incorrect": "Revisa esto: Although + because."
+      },
+      "review_of": "en-a2-u10-l04-ex13"
+    },
+    {
+      "id": "en-b1-u04-l06-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "advice-ought",
+        "zero-first-conditional"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo está enfermo y te pide consejo.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I've had a headache for two days. What should I do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "You ought to see a doctor, and you'd better drink more water.",
+            "You ought see a doctor and you had better to drink more water.",
+            "You must to see a doctor."
+          ],
+          "best": 0,
+          "why_es": "Ought to + had better."
+        },
+        {
+          "speaker": "Friend",
+          "text": "What will you do if I don't feel better tomorrow?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "If you don't feel better tomorrow, I'll take you to the hospital.",
+            "If you won't feel better tomorrow, I take you to the hospital.",
+            "If you don't feel better, I would take you hospital."
+          ],
+          "best": 0,
+          "why_es": "If + presente, will + verbo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u04-l06-ex19",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "lifestyle-talk",
+        "zero-first-conditional",
+        "unless-conditions",
+        "advice-ought"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre tus hábitos de salud: qué haces, qué vas a cambiar, y qué pasará si lo cumples. Usa if, unless y un consejo.",
+      "min_words": 62,
+      "self_check_es": [
+        "¿Usaste un condicional?",
+        "¿Usaste unless o as long as?",
+        "¿Incluiste un consejo (should, ought to, had better)?",
+        "¿Hablaste de hábitos con frecuencia?"
+      ],
+      "model_answer": "I usually sleep seven hours, but I skip breakfast and I snack on crisps. I'm going to cut down on sugar and walk to work. If I walk every day, I'll feel more energetic. I won't go to the gym unless I find a cheap one. My doctor says I ought to drink more water, and I'd better stop drinking coffee in the evening. If I follow this advice, my life will be healthier.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "If you … , you … · If it rains, I'll …",
+      "unless · as long as · in case",
+      "You should / ought to / had better",
+      "I've had … since / for …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-lifestyle-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-zero-first-conditional"
+    },
+    {
+      "type": "grammar",
+      "id": "en-unless-conditions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-advice-ought"
+    },
+    {
+      "type": "grammar",
+      "id": "en-symptoms-detail"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

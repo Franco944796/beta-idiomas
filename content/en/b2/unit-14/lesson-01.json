@@ -1,0 +1,933 @@
+{
+  "id": "en-b2-u14-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 14,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Global issues",
+    "es": "Problemas globales y soluciones"
+  },
+  "objective": "Al terminar debates problemas globales (cambio climático, desigualdad, migración, pandemias) con vocabulario B2 y entiendes un texto sobre cooperación internacional.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los problemas globales aparecen en noticias, exámenes y conversaciones. Aprendes el vocabulario para describir causas, efectos y soluciones, y para argumentar a favor de la cooperación internacional."
+  },
+  "input": {
+    "type": "text",
+    "text": "Can the world solve its biggest problems together?\n\nClimate change, pandemics, mass migration and economic inequality have one thing in common: no single country can solve them alone. A river of pollution does not stop at a border, and a virus travels as fast as an aeroplane.\n\nSince the Paris Agreement of 2015, governments have pledged to limit global warming, yet emissions continue to rise in many regions. Critics argue that promises are easy to make and difficult to keep. Developing countries, which have contributed least to the problem, often suffer the most, and they claim that wealthier nations should provide more financial support.\n\nGlobalisation has lifted millions of people out of poverty, but it has also widened the gap between rich and poor in some places. Supply chains stretch across continents, so a disruption in one country can quickly affect prices in another. The recent pandemic exposed how vulnerable these networks are.\n\nExperts suggest three priorities: investing in renewable energy, strengthening international institutions and ensuring that no one is left behind. 'Cooperation is not an act of charity,' says one diplomat. 'It is in everyone's self-interest.'\n\nWhether leaders will act with enough urgency remains to be seen. What is certain is that the cost of delay increases every year.",
+    "es": "¿Puede el mundo resolver junto sus mayores problemas? El cambio climático, las pandemias, la migración masiva y la desigualdad económica tienen algo en común: ningún país puede resolverlos por sí solo. Un río de contaminación no se detiene en una frontera y un virus viaja tan rápido como un avión. Desde el Acuerdo de París de 2015, los gobiernos se han comprometido a limitar el calentamiento global, pero las emisiones siguen aumentando en muchas regiones. Los críticos sostienen que las promesas son fáciles de hacer y difíciles de cumplir. Los países en desarrollo, que menos han contribuido al problema, a menudo son los que más sufren y afirman que las naciones más ricas deberían ofrecer más apoyo financiero. La globalización ha sacado a millones de personas de la pobreza, pero también ha ampliado la brecha entre ricos y pobres en algunos lugares. Las cadenas de suministro se extienden por los continentes, de modo que una interrupción en un país puede afectar rápidamente a los precios en otro. La reciente pandemia puso de manifiesto lo vulnerables que son estas redes. Los expertos sugieren tres prioridades: invertir en energías renovables, reforzar las instituciones internacionales y garantizar que nadie se quede atrás. 'La cooperación no es un acto de caridad', dice un diplomático. 'Es del interés de todos.' Está por ver si los líderes actuarán con suficiente urgencia. Lo que es seguro es que el coste del retraso aumenta cada año.",
+    "glossary": [
+      {
+        "id": "en-pledge",
+        "lemma": "pledge",
+        "pos": "verb",
+        "ipa": "/pledʒ/",
+        "es": "comprometerse",
+        "example": "Governments pledged."
+      },
+      {
+        "id": "en-emissions",
+        "lemma": "emissions",
+        "pos": "noun",
+        "ipa": "/ɪˈmɪʃnz/",
+        "es": "emisiones",
+        "example": "Carbon emissions."
+      },
+      {
+        "id": "en-developing-country",
+        "lemma": "developing country",
+        "pos": "noun",
+        "ipa": "/dɪˈveləpɪŋ ˈkʌntri/",
+        "es": "país en desarrollo",
+        "example": "Developing countries."
+      },
+      {
+        "id": "en-globalisation",
+        "lemma": "globalisation",
+        "pos": "noun",
+        "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+        "es": "globalización",
+        "example": "Globalisation."
+      },
+      {
+        "id": "en-widen-the-gap",
+        "lemma": "widen the gap",
+        "pos": "phrase",
+        "ipa": "/ˈwaɪdn ðə ɡæp/",
+        "es": "ampliar la brecha",
+        "example": "Widen the gap."
+      },
+      {
+        "id": "en-supply-chain",
+        "lemma": "supply chain",
+        "pos": "noun",
+        "ipa": "/səˈplaɪ tʃeɪn/",
+        "es": "cadena de suministro",
+        "example": "Global supply chains."
+      },
+      {
+        "id": "en-disruption",
+        "lemma": "disruption",
+        "pos": "noun",
+        "ipa": "/dɪsˈrʌpʃn/",
+        "es": "interrupción",
+        "example": "A disruption."
+      },
+      {
+        "id": "en-vulnerable",
+        "lemma": "vulnerable",
+        "pos": "adj",
+        "ipa": "/ˈvʌlnərəbl/",
+        "es": "vulnerable",
+        "example": "Vulnerable networks."
+      },
+      {
+        "id": "en-renewable-energy",
+        "lemma": "renewable energy",
+        "pos": "noun",
+        "ipa": "/rɪˈnjuːəbl ˈenədʒi/",
+        "es": "energía renovable",
+        "example": "Invest in renewable energy."
+      },
+      {
+        "id": "en-charity",
+        "lemma": "charity",
+        "pos": "noun",
+        "ipa": "/ˈtʃærəti/",
+        "es": "caridad",
+        "example": "Not an act of charity."
+      },
+      {
+        "id": "en-self-interest",
+        "lemma": "self-interest",
+        "pos": "noun",
+        "ipa": "/ˌself ˈɪntrəst/",
+        "es": "interés propio",
+        "example": "In everyone's self-interest."
+      },
+      {
+        "id": "en-urgency",
+        "lemma": "urgency",
+        "pos": "noun",
+        "ipa": "/ˈɜːdʒənsi/",
+        "es": "urgencia",
+        "example": "Act with urgency."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de problemas globales**\n\n| Tema | Palabras clave |\n|---|---|\n| Clima | *climate change, global warming, emissions, carbon footprint, renewable energy, drought, sea level rise* |\n| Economía global | *globalisation, trade, supply chain, inequality, poverty, developing country, GDP* |\n| Salud | *pandemic, outbreak, vaccine, healthcare system, public health* |\n| Migración | *refugee, asylum seeker, migrant, border, displacement, integration* |\n| Instituciones | *the UN, NGO, treaty, agreement, summit, sanctions, aid* |\n| Acción | *pledge, commit to, invest in, cooperate, tackle, address, raise awareness* |\n\n**Verbos para hablar de soluciones**\n\n- *tackle a problem · address an issue · deal with · combat · reduce · curb · eradicate · prevent.*\n- *tackle climate change · combat poverty · curb emissions · eradicate disease.*\n\n**Causas, efectos y responsabilidad**\n\n- *Contribute to · be responsible for · result in · lead to · stem from · be due to · bear the cost of.*\n- *Developing countries are the most affected, although they have contributed least.*\n\n**Argumentar con matices**\n\n- *It could be argued that… · Critics claim that… · Supporters maintain that… · The evidence suggests that… · Whether or not… remains to be seen.*\n\n**Cantidad y comparación**\n\n- *an increasing number of · a growing proportion of · the vast majority of · a minority of.*\n- *Emissions have risen by 10 % since 2010.* · *The gap between rich and poor is widening.*\n\n**Errores típicos**\n\n- ✘ *The global warming is a problem.* → ✔ *Global warming is a problem.* (sin artículo, genérico)\n- ✘ *Governments must to act now.* → ✔ *Governments must act now.*\n- ✘ *The pollution cause health problems.* → ✔ *Pollution causes health problems.*\n- ✘ *Many people are dying of hungry.* → ✔ *Many people are dying of hunger.*\n- ✘ *It depends of the government.* → ✔ *It depends on the government.*\n\n**Ojo:** *Economy* (economía) ≠ *economics* (la ciencia); *economic* (relativo a la economía) ≠ *economical* (barato). *Migrant* (se desplaza) ≠ *immigrant* (llega a un país) ≠ *emigrant* (sale de un país).\n\nPronunciación: *emissions* /ɪˈmɪʃnz/ · *vulnerable* /ˈvʌlnərəbl/ · *pledge* /pledʒ/ · *sanctions* /ˈsæŋkʃnz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The global warming",
+        "right": "Global warming",
+        "note": "Sin artículo."
+      },
+      {
+        "wrong": "must to act",
+        "right": "must act",
+        "note": "Modal + base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u14-l01-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué tienen en común los problemas citados?",
+      "options": [
+        "Ningún país puede resolverlos solo",
+        "Solo afectan a Asia",
+        "Son de hace un siglo",
+        "Son fáciles"
+      ],
+      "answer": [
+        "Ningún país puede resolverlos solo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: no single country can solve them alone.",
+        "incorrect": "Revisa esto: Dice: no single country can solve them alone."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué dicen los países en desarrollo?",
+      "options": [
+        "Que los ricos deberían dar más apoyo financiero",
+        "Que no hay problema",
+        "Que quieren cerrar fronteras",
+        "Que no usan energía"
+      ],
+      "answer": [
+        "Que los ricos deberían dar más apoyo financiero"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: wealthier nations should provide more financial support.",
+        "incorrect": "Revisa esto: Dice: wealthier nations should provide more financial support."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué efecto ha tenido la globalización según el texto?",
+      "options": [
+        "Sacó a millones de la pobreza pero amplió la brecha en algunos lugares",
+        "Solo empeoró todo",
+        "No tuvo efecto",
+        "Redujo los viajes"
+      ],
+      "answer": [
+        "Sacó a millones de la pobreza pero amplió la brecha en algunos lugares"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: lifted millions out of poverty... widened the gap.",
+        "incorrect": "Revisa esto: Dice: lifted millions out of poverty... widened the gap."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuáles son las prioridades que sugieren los expertos?",
+      "options": [
+        "Renovables, instituciones fuertes y que nadie se quede atrás",
+        "Más guerras",
+        "Menos comercio",
+        "Cerrar fronteras"
+      ],
+      "answer": [
+        "Renovables, instituciones fuertes y que nadie se quede atrás"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: three priorities.",
+        "incorrect": "Revisa esto: Dice: three priorities."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 15,
+      "prompt": "El diplomático opina que la cooperación es un acto de caridad.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que no: it is in everyone's self-interest.",
+        "incorrect": "Revisa esto: Dice que no: it is in everyone's self-interest."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Governments must ___ now to tackle climate change.",
+      "options": [
+        "act",
+        "to act",
+        "acting",
+        "acts"
+      ],
+      "answer": [
+        "act"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + base.",
+        "incorrect": "Revisa esto: Must + base."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ is one of the biggest problems of our time.",
+      "options": [
+        "Global warming",
+        "The global warming",
+        "A global warming",
+        "Some global warming"
+      ],
+      "answer": [
+        "Global warming"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo.",
+        "incorrect": "Revisa esto: Sin artículo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am agree with Ben.",
+      "answer": [
+        "I agree with Ben."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es verbo.",
+        "incorrect": "Revisa esto: Agree es verbo."
+      },
+      "review_of": "en-b2-u05-l06-ex19"
+    },
+    {
+      "id": "en-b2-u14-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've ___ learning English for three years.",
+      "options": [
+        "been",
+        "being",
+        "was",
+        "am"
+      ],
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous.",
+        "incorrect": "Revisa esto: Present perfect continuous."
+      },
+      "review_of": "en-b1-u12-l01-ex09"
+    },
+    {
+      "id": "en-b2-u14-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "It depends ___ the government's policy.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "in"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 25,
+      "prompt": "We're ___ of going to Greece next year. (pensando)",
+      "answer": [
+        "thinking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm thinking of + -ing.",
+        "incorrect": "Revisa esto: I'm thinking of + -ing."
+      },
+      "review_of": "en-b1-u06-l01-ex11"
+    },
+    {
+      "id": "en-b2-u14-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She will goes to the party.",
+      "answer": [
+        "She will go to the party.",
+        "She'll go to the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will + verbo base, sin -s.",
+        "incorrect": "Revisa esto: Will + verbo base, sin -s."
+      },
+      "review_of": "en-a2-u05-l03-ex07"
+    },
+    {
+      "id": "en-b2-u14-l01-rv05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 15,
+      "prompt": "Isa escribe a Sam en tono formal.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Usa Hi, contracciones y P.S.: es informal.",
+        "incorrect": "Revisa esto: Usa Hi, contracciones y P.S.: es informal."
+      },
+      "review_of": "en-b1-u11-l05-ex04"
+    },
+    {
+      "id": "en-b2-u14-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pollution ___ serious health problems.",
+      "options": [
+        "causes",
+        "cause",
+        "causing",
+        "is cause"
+      ],
+      "answer": [
+        "causes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable singular.",
+        "incorrect": "Revisa esto: Incontable singular."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Many people are dying of ___.",
+      "options": [
+        "hunger",
+        "hungry",
+        "hungrily",
+        "hungriness"
+      ],
+      "answer": [
+        "hunger"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo.",
+        "incorrect": "Revisa esto: Sustantivo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "To 'curb emissions' means to...",
+      "options": [
+        "Reducir o limitar emisiones",
+        "Aumentar emisiones",
+        "Medir emisiones",
+        "Ignorar emisiones"
+      ],
+      "answer": [
+        "Reducir o limitar emisiones"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Curb.",
+        "incorrect": "Revisa esto: Curb."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "An 'asylum seeker' is someone who...",
+      "options": [
+        "Pide protección en otro país",
+        "Busca trabajo de verano",
+        "Estudia derecho",
+        "Vende en mercados"
+      ],
+      "answer": [
+        "Pide protección en otro país"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Asylum seeker.",
+        "incorrect": "Revisa esto: Asylum seeker."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Economical' means...",
+      "options": [
+        "Barato, que ahorra",
+        "Relativo a la economía",
+        "Muy rico",
+        "Estudiante"
+      ],
+      "answer": [
+        "Barato, que ahorra"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Economic ≠ economical.",
+        "incorrect": "Revisa esto: Economic ≠ economical."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "The window ___ yesterday.",
+      "options": [
+        "was broken",
+        "is broken",
+        "broke",
+        "were broken"
+      ],
+      "answer": [
+        "was broken"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en pasado.",
+        "incorrect": "Revisa esto: Pasiva en pasado."
+      },
+      "review_of": "en-b1-u05-l02-ex05"
+    },
+    {
+      "id": "en-b2-u14-l01-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "An 'NGO' is a...",
+      "options": [
+        "Organización no gubernamental",
+        "Nuevo gobierno",
+        "Norma oficial",
+        "Nación grande"
+      ],
+      "answer": [
+        "Organización no gubernamental"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! NGO.",
+        "incorrect": "Revisa esto: NGO."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 25,
+      "prompt": "Countries must ___ climate change together. (afrontar)",
+      "answer": [
+        "tackle",
+        "address",
+        "combat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tackle.",
+        "incorrect": "Revisa esto: Tackle."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 25,
+      "prompt": "Emissions have ___ by 10 % since 2010. (aumentado)",
+      "answer": [
+        "risen",
+        "increased",
+        "grown"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rise.",
+        "incorrect": "Revisa esto: Rise."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ here since 2015.",
+      "options": [
+        "have lived",
+        "live",
+        "lived",
+        "am living"
+      ],
+      "answer": [
+        "have lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since → present perfect.",
+        "incorrect": "Revisa esto: Since → present perfect."
+      },
+      "review_of": "en-b1-u12-l06-ex01"
+    },
+    {
+      "id": "en-b2-u14-l01-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "breakthrough",
+          "right": "avance decisivo"
+        },
+        {
+          "left": "funding",
+          "right": "financiación"
+        },
+        {
+          "left": "trial",
+          "right": "ensayo"
+        },
+        {
+          "left": "grant",
+          "right": "subvención"
+        },
+        {
+          "left": "cutting-edge",
+          "right": "de vanguardia"
+        },
+        {
+          "left": "consent",
+          "right": "consentimiento"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario científico B2.",
+        "incorrect": "Revisa esto: Vocabulario científico B2."
+      },
+      "review_of": "en-b2-u04-l01-ex01"
+    },
+    {
+      "id": "en-b2-u14-l01-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ in London last week.",
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con they se usa were.",
+        "incorrect": "Revisa esto: Con they se usa were."
+      },
+      "review_of": "en-a2-u01-l01-ex02"
+    },
+    {
+      "id": "en-b2-u14-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The global warming is a serious threat.",
+      "answer": [
+        "Global warming is a serious threat."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo.",
+        "incorrect": "Revisa esto: Sin artículo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Governments must to act now.",
+      "answer": [
+        "Governments must act now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + base.",
+        "incorrect": "Revisa esto: Must + base."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Many people are dying of hungry every year.",
+      "answer": [
+        "Many people are dying of hunger every year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hunger.",
+        "incorrect": "Revisa esto: Hunger."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The pollution cause many illnesses.",
+      "answer": [
+        "Pollution causes many illnesses.",
+        "The pollution causes many illnesses."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concordancia.",
+        "incorrect": "Revisa esto: Concordancia."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién sufre más según el hablante?",
+      "options": [
+        "Los países en desarrollo",
+        "Los países ricos",
+        "Las empresas",
+        "Los turistas"
+      ],
+      "answer": [
+        "Los países en desarrollo"
+      ],
+      "audio_text": "Climate change is not just an environmental problem. It is also an economic and a social one. Developing countries suffer the most, even though they have contributed least. That is why many experts argue that wealthier nations should provide more support.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Developing countries suffer the most.",
+        "incorrect": "Revisa esto: Dice: Developing countries suffer the most."
+      },
+      "audio_script_id": "en-b2-u14-l01-ex21-a"
+    },
+    {
+      "id": "en-b2-u14-l01-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ningún país puede afrontar solo el cambio climático; los gobiernos deben actuar con urgencia.",
+      "answer": [
+        "No single country can tackle climate change alone; governments must act with urgency.",
+        "No country can tackle climate change on its own; governments must act with urgency."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Problemas globales.",
+        "incorrect": "Revisa esto: Problemas globales."
+      }
+    },
+    {
+      "id": "en-b2-u14-l01-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll go unless it doesn't rain.",
+      "answer": [
+        "I'll go unless it rains.",
+        "I'll go if it doesn't rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      },
+      "review_of": "en-b1-u04-l03-ex11"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "tackle climate change · curb emissions",
+      "developing countries · supply chains",
+      "It could be argued that…",
+      "Whether… remains to be seen."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-pledge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-emissions"
+    },
+    {
+      "type": "vocab",
+      "id": "en-developing-country"
+    },
+    {
+      "type": "vocab",
+      "id": "en-globalisation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-widen-the-gap"
+    },
+    {
+      "type": "vocab",
+      "id": "en-supply-chain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-disruption"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vulnerable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-renewable-energy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-charity"
+    },
+    {
+      "type": "grammar",
+      "id": "en-global-issues"
+    }
+  ]
+}

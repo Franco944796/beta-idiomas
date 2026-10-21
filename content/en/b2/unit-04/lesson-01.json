@@ -1,0 +1,903 @@
+{
+  "id": "en-b2-u04-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 4,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Science and innovation",
+    "es": "Ciencia e innovación"
+  },
+  "objective": "Al terminar hablas de ciencia, tecnología e innovación con vocabulario de nivel B2 y opinas sobre su impacto en la sociedad.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Inteligencia artificial, energías renovables, edición genética. La ciencia avanza a gran velocidad y casi todos tenemos opinión. Aquí aprendes el vocabulario para debatirlo con precisión."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Dr. Chen",
+        "text": "The breakthrough was possible because we combined machine learning with decades of medical data. The algorithm can now detect certain cancers at a very early stage.",
+        "es": "El avance fue posible porque combinamos aprendizaje automático con décadas de datos médicos. El algoritmo ya puede detectar algunos cánceres en una fase muy temprana."
+      },
+      {
+        "speaker": "Journalist",
+        "text": "That sounds revolutionary. Are there any ethical concerns?",
+        "es": "Suena revolucionario. ¿Hay alguna preocupación ética?"
+      },
+      {
+        "speaker": "Dr. Chen",
+        "text": "Of course. Privacy is the main issue. Patients must give informed consent, and the data has to be stored securely.",
+        "es": "Por supuesto. La privacidad es el principal problema. Los pacientes deben dar su consentimiento informado y los datos tienen que almacenarse con seguridad."
+      },
+      {
+        "speaker": "Journalist",
+        "text": "Some people fear that machines will replace doctors. What's your view?",
+        "es": "Algunos temen que las máquinas sustituyan a los médicos. ¿Cuál es su opinión?"
+      },
+      {
+        "speaker": "Dr. Chen",
+        "text": "I think that's an exaggeration. Technology is a tool, not a replacement. It can analyse thousands of scans in seconds, but a doctor still has to interpret the results and talk to the patient.",
+        "es": "Creo que es una exageración. La tecnología es una herramienta, no un sustituto. Puede analizar miles de escáneres en segundos, pero un médico debe interpretar los resultados y hablar con el paciente."
+      },
+      {
+        "speaker": "Journalist",
+        "text": "When will the system be available in hospitals?",
+        "es": "¿Cuándo estará disponible el sistema en los hospitales?"
+      },
+      {
+        "speaker": "Dr. Chen",
+        "text": "We're currently running clinical trials. If they're successful, regulators could approve it within two years.",
+        "es": "Ahora estamos realizando ensayos clínicos. Si tienen éxito, los reguladores podrían aprobarlo en dos años."
+      },
+      {
+        "speaker": "Journalist",
+        "text": "And the funding? Research like this isn't cheap.",
+        "es": "¿Y la financiación? Una investigación así no es barata."
+      },
+      {
+        "speaker": "Dr. Chen",
+        "text": "No, it's not. We rely on public grants and private investment. Cutting funding would slow down progress for everyone.",
+        "es": "No, no lo es. Dependemos de subvenciones públicas e inversión privada. Recortar la financiación frenaría el progreso de todos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-breakthrough",
+        "lemma": "breakthrough",
+        "pos": "noun",
+        "ipa": "/ˈbreɪkθruː/",
+        "es": "avance decisivo",
+        "example": "A medical breakthrough."
+      },
+      {
+        "id": "en-machine-learning",
+        "lemma": "machine learning",
+        "pos": "noun",
+        "ipa": "/məˈʃiːn ˈlɜːnɪŋ/",
+        "es": "aprendizaje automático",
+        "example": "Machine learning improves results."
+      },
+      {
+        "id": "en-algorithm",
+        "lemma": "algorithm",
+        "pos": "noun",
+        "ipa": "/ˈælɡərɪðəm/",
+        "es": "algoritmo",
+        "example": "A clever algorithm."
+      },
+      {
+        "id": "en-detect",
+        "lemma": "detect",
+        "pos": "verb",
+        "ipa": "/dɪˈtekt/",
+        "es": "detectar",
+        "example": "Detect an error."
+      },
+      {
+        "id": "en-revolutionary",
+        "lemma": "revolutionary",
+        "pos": "adj",
+        "ipa": "/ˌrevəˈluːʃənri/",
+        "es": "revolucionario",
+        "example": "A revolutionary idea."
+      },
+      {
+        "id": "en-ethical",
+        "lemma": "ethical",
+        "pos": "adj",
+        "ipa": "/ˈeθɪkl/",
+        "es": "ético",
+        "example": "An ethical question."
+      },
+      {
+        "id": "en-informed-consent",
+        "lemma": "informed consent",
+        "pos": "noun",
+        "ipa": "/ɪnˈfɔːmd kənˈsent/",
+        "es": "consentimiento informado",
+        "example": "Informed consent is required."
+      },
+      {
+        "id": "en-replace",
+        "lemma": "replace",
+        "pos": "verb",
+        "ipa": "/rɪˈpleɪs/",
+        "es": "sustituir",
+        "example": "Replace workers."
+      },
+      {
+        "id": "en-clinical-trial",
+        "lemma": "clinical trial",
+        "pos": "noun",
+        "ipa": "/ˈklɪnɪkl ˈtraɪəl/",
+        "es": "ensayo clínico",
+        "example": "A clinical trial."
+      },
+      {
+        "id": "en-regulator",
+        "lemma": "regulator",
+        "pos": "noun",
+        "ipa": "/ˈreɡjuleɪtə/",
+        "es": "organismo regulador",
+        "example": "The regulator approved it."
+      },
+      {
+        "id": "en-funding",
+        "lemma": "funding",
+        "pos": "noun",
+        "ipa": "/ˈfʌndɪŋ/",
+        "es": "financiación",
+        "example": "Research funding."
+      },
+      {
+        "id": "en-grant",
+        "lemma": "grant",
+        "pos": "noun",
+        "ipa": "/ɡrɑːnt/",
+        "es": "subvención",
+        "example": "A public grant."
+      }
+    ],
+    "audio_script_id": "en-b2-u04-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de ciencia e innovación**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Investigación | *research, experiment, hypothesis, finding, breakthrough, peer review, trial* |\n| Tecnología | *artificial intelligence, algorithm, robotics, automation, renewable energy, biotechnology* |\n| Impacto | *progress, innovation, disruption, side effect, risk, benefit* |\n| Ética | *ethical, privacy, consent, regulation, transparency, accountability* |\n| Economía | *funding, grant, investment, patent, start-up, commercialise* |\n\n**Colocaciones**\n\n- *carry out research · conduct an experiment · make a breakthrough · reach a conclusion · run a trial · raise funds · cut funding · keep pace with technology*.\n- *cutting-edge* (de vanguardia) · *state-of-the-art* (puntero) · *groundbreaking* (innovador) · *far-reaching* (de gran alcance).\n\n**Hablar de ventajas y riesgos**\n\n- *On the plus side … · The main drawback is … · It raises ethical questions about … · It could pave the way for … · It carries a risk of …*.\n\n**Verbos con prefijos/sufijos**\n\n- *innovate → innovation → innovative* · *invent → invention → inventor* · *discover → discovery* · *analyse → analysis (plural analyses)* · *hypothesis → hypotheses*.\n\n**Falsos amigos**\n\n- *Science* ≠ *sciences* (asignaturas); *scientist* = científico. *Experience* = experiencia/vivencia, *experiment* = experimento.\n- *Technology* es incontable: ✘ *technologies are good* para el concepto general → ✔ *technology is good*.\n- *Research* es incontable: ✘ *researches* → ✔ *research* / *pieces of research*.\n\n**Ojo:** *research on / into / about* un tema; *a research paper*. *Data* en inglés moderno suele ir con singular: *The data is clear.* (aunque en formal académico se usa plural: *The data are…*).\n\nPronunciación: *algorithm* /ˈælɡərɪðəm/ · *ethical* /ˈeθɪkl/ · *hypothesis* /haɪˈpɒθəsɪs/ · *breakthrough* /ˈbreɪkθruː/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "many researches",
+        "right": "a lot of research",
+        "note": "Research incontable."
+      },
+      {
+        "wrong": "Technologies is…",
+        "right": "Technology is…",
+        "note": "Technology incontable."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u04-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "breakthrough",
+          "right": "avance decisivo"
+        },
+        {
+          "left": "funding",
+          "right": "financiación"
+        },
+        {
+          "left": "trial",
+          "right": "ensayo"
+        },
+        {
+          "left": "grant",
+          "right": "subvención"
+        },
+        {
+          "left": "cutting-edge",
+          "right": "de vanguardia"
+        },
+        {
+          "left": "consent",
+          "right": "consentimiento"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario científico B2.",
+        "incorrect": "Revisa esto: Vocabulario científico B2."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Ventaja o riesgo?",
+      "categories": [
+        "Benefit",
+        "Risk"
+      ],
+      "items": [
+        {
+          "text": "early detection",
+          "category": "Benefit"
+        },
+        {
+          "text": "faster diagnosis",
+          "category": "Benefit"
+        },
+        {
+          "text": "new treatments",
+          "category": "Benefit"
+        },
+        {
+          "text": "cheaper energy",
+          "category": "Benefit"
+        },
+        {
+          "text": "data leak",
+          "category": "Risk"
+        },
+        {
+          "text": "job losses",
+          "category": "Risk"
+        },
+        {
+          "text": "bias in algorithms",
+          "category": "Risk"
+        },
+        {
+          "text": "side effects",
+          "category": "Risk"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por tono.",
+        "incorrect": "Revisa esto: Clasificar por tono."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué puede detectar el algoritmo?",
+      "options": [
+        "Algunos cánceres en fase temprana",
+        "Virus",
+        "Fracturas",
+        "Alergias"
+      ],
+      "answer": [
+        "Algunos cánceres en fase temprana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: detect certain cancers at a very early stage.",
+        "incorrect": "Revisa esto: Dice: detect certain cancers at a very early stage."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el principal problema ético para el doctor?",
+      "options": [
+        "La privacidad",
+        "El coste",
+        "El tiempo",
+        "La competencia"
+      ],
+      "answer": [
+        "La privacidad"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Privacy is the main issue.",
+        "incorrect": "Revisa esto: Dice: Privacy is the main issue."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me probé la chaqueta, pero me queda muy apretada.",
+      "answer": [
+        "I tried the jacket on, but it's too tight.",
+        "I tried on the jacket, but it's too tight.",
+        "I tried the jacket on but it's too tight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try on + too tight.",
+        "incorrect": "Revisa esto: Try on + too tight."
+      },
+      "review_of": "en-a2-u11-l06-ex11"
+    },
+    {
+      "id": "en-b2-u04-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué opina el Dr. Chen sobre sustituir médicos?",
+      "options": [
+        "Es una exageración",
+        "Es inevitable",
+        "Es deseable",
+        "Ya ocurre"
+      ],
+      "answer": [
+        "Es una exageración"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I think that's an exaggeration.",
+        "incorrect": "Revisa esto: Dice: I think that's an exaggeration."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 15,
+      "prompt": "El sistema ya está en uso en los hospitales.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Está en ensayos clínicos.",
+        "incorrect": "Revisa esto: Está en ensayos clínicos."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "Scientists have ___ a major breakthrough in cancer research.",
+      "options": [
+        "made",
+        "done",
+        "took",
+        "got to"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a breakthrough.",
+        "incorrect": "Revisa esto: Make a breakthrough."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "The team is ___ out an experiment on solar panels.",
+      "options": [
+        "carrying",
+        "doing on",
+        "making",
+        "putting"
+      ],
+      "answer": [
+        "carrying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Carry out.",
+        "incorrect": "Revisa esto: Carry out."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "'State-of-the-art' technology is...",
+      "options": [
+        "the most advanced available",
+        "very old",
+        "cheap",
+        "dangerous"
+      ],
+      "answer": [
+        "the most advanced available"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! State-of-the-art = puntero.",
+        "incorrect": "Revisa esto: State-of-the-art = puntero."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ about offering reusable bottles?",
+      "options": [
+        "How",
+        "What for",
+        "Why",
+        "Which"
+      ],
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      },
+      "review_of": "en-b1-u09-l05-ex06"
+    },
+    {
+      "id": "en-b2-u04-l01-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el correo?",
+      "options": [
+        "Opposite the station",
+        "Next to the station",
+        "Behind the station",
+        "Far from the station"
+      ],
+      "answer": [
+        "Opposite the station"
+      ],
+      "audio_text": "The post office is opposite the station.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'opposite the station'.",
+        "incorrect": "Revisa esto: Dice 'opposite the station'."
+      },
+      "audio_script_id": "en-b2-u04-l01-rv03-a",
+      "review_of": "en-a1-u07-l02-ex09"
+    },
+    {
+      "id": "en-b2-u04-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "There is a lot of ___ on climate change.",
+      "options": [
+        "research",
+        "researches",
+        "a research",
+        "researching"
+      ],
+      "answer": [
+        "research"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "The main ___ of the technology is its high cost.",
+      "options": [
+        "drawback",
+        "benefit",
+        "advantage",
+        "outcome"
+      ],
+      "answer": [
+        "drawback"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Drawback = inconveniente.",
+        "incorrect": "Revisa esto: Drawback = inconveniente."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 20,
+      "prompt": "The plural of 'hypothesis' is...",
+      "options": [
+        "hypotheses",
+        "hypothesises",
+        "hypothesis",
+        "hypothesi"
+      ],
+      "answer": [
+        "hypotheses"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural irregular.",
+        "incorrect": "Revisa esto: Plural irregular."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The museum is ___ the supermarket. (enfrente de)",
+      "options": [
+        "opposite",
+        "across of",
+        "front",
+        "in front the"
+      ],
+      "answer": [
+        "opposite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Opposite + lugar.",
+        "incorrect": "Revisa esto: Opposite + lugar."
+      },
+      "review_of": "en-a2-u12-l03-ex05"
+    },
+    {
+      "id": "en-b2-u04-l01-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 25,
+      "prompt": "The study could ___ the way for new treatments. (allanar el camino)",
+      "answer": [
+        "pave"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pave the way.",
+        "incorrect": "Revisa esto: Pave the way."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué se conservó?",
+      "options": [
+        "Porque servía como torre de radio",
+        "Porque era muy bonita",
+        "Porque costó mucho",
+        "Porque la pidió el alcalde"
+      ],
+      "answer": [
+        "Porque servía como torre de radio"
+      ],
+      "audio_text": "The Eiffel Tower was built by Gustave Eiffel's company for the 1889 World's Fair. It was meant to be taken down after twenty years, but it was kept because it could be used as a radio tower.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: kept because it could be used as a radio tower.",
+        "incorrect": "Revisa esto: Dice: kept because it could be used as a radio tower."
+      },
+      "audio_script_id": "en-b2-u04-l01-rv05-a",
+      "review_of": "en-b1-u05-l03-ex16"
+    },
+    {
+      "id": "en-b2-u04-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 25,
+      "prompt": "Cutting ___ would slow down scientific progress. (financiación)",
+      "answer": [
+        "funding"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Funding.",
+        "incorrect": "Revisa esto: Funding."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There have been many researches on this topic.",
+      "answer": [
+        "There has been a lot of research on this topic.",
+        "There has been a lot of research into this topic.",
+        "There have been many studies on this topic."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Research incontable.",
+        "incorrect": "Revisa esto: Research incontable."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Technologies is changing our lives.",
+      "answer": [
+        "Technology is changing our lives."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Technology incontable.",
+        "incorrect": "Revisa esto: Technology incontable."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "messages-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Escribir todo en MAYÚSCULAS en un mensaje significa…",
+      "options": [
+        "Que estás gritando",
+        "Que estás contento",
+        "Que escribes formal",
+        "Que es muy importante y educado"
+      ],
+      "answer": [
+        "Que estás gritando"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En internet, las mayúsculas parecen un grito.",
+        "incorrect": "Revisa esto: En internet, las mayúsculas parecen un grito."
+      },
+      "review_of": "en-a2-u09-l05-ex04"
+    },
+    {
+      "id": "en-b2-u04-l01-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál es el principal inconveniente?",
+      "options": [
+        "Los materiales son caros",
+        "Es muy pesada",
+        "Se rompe fácilmente",
+        "Tarda en cargar"
+      ],
+      "answer": [
+        "Los materiales son caros"
+      ],
+      "audio_text": "The new battery can store twice as much energy as current models. It could pave the way for electric cars that travel 1,000 kilometres on one charge. The main drawback is that the materials are still very expensive.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: materials are still very expensive.",
+        "incorrect": "Revisa esto: Dice: materials are still very expensive."
+      },
+      "audio_script_id": "en-b2-u04-l01-ex17-a"
+    },
+    {
+      "id": "en-b2-u04-l01-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-science"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El algoritmo puede detectar algunos cánceres en una fase muy temprana, pero plantea cuestiones éticas.",
+      "answer": [
+        "The algorithm can detect certain cancers at a very early stage, but it raises ethical questions.",
+        "The algorithm can detect some cancers at a very early stage, but it raises ethical questions."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario científico.",
+        "incorrect": "Revisa esto: Vocabulario científico."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-ex19",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-science"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "algorithm",
+          "ipa": "/ˈælɡərɪðəm/",
+          "tip_es": "'th' sonora /ð/."
+        },
+        {
+          "text": "ethical",
+          "ipa": "/ˈeθɪkl/",
+          "tip_es": "'th' sorda /θ/."
+        },
+        {
+          "text": "hypothesis",
+          "ipa": "/haɪˈpɒθəsɪs/",
+          "tip_es": "Acento en 'poth'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-b2-u04-l01-rv07",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'll ___ you back on Friday. (devolver)",
+      "answer": [
+        "pay"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pay back.",
+        "incorrect": "Revisa esto: Pay back."
+      },
+      "review_of": "en-b1-u07-l01-ex11"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "On the plus side … · The main drawback is …",
+      "It raises ethical questions about …",
+      "carry out research · make a breakthrough",
+      "It could pave the way for …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-breakthrough"
+    },
+    {
+      "type": "vocab",
+      "id": "en-machine-learning"
+    },
+    {
+      "type": "vocab",
+      "id": "en-algorithm"
+    },
+    {
+      "type": "vocab",
+      "id": "en-detect"
+    },
+    {
+      "type": "vocab",
+      "id": "en-revolutionary"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ethical"
+    },
+    {
+      "type": "vocab",
+      "id": "en-informed-consent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-replace"
+    },
+    {
+      "type": "vocab",
+      "id": "en-clinical-trial"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regulator"
+    },
+    {
+      "type": "grammar",
+      "id": "en-science-b2"
+    }
+  ]
+}

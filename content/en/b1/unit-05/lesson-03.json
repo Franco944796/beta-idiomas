@@ -1,0 +1,738 @@
+{
+  "id": "en-b1-u05-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 5,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Who was it written by?",
+    "es": "Pasiva: preguntas y complemento agente"
+  },
+  "objective": "Al terminar haces preguntas en pasiva, indicas el autor con by y usas la pasiva con modales (can be done, must be finished).",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'¿Quién escribió este libro?', '¿Dónde se grabó la película?', 'Esto debe terminarse hoy.' Aquí dominas el segundo nivel de la pasiva."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Eva",
+        "text": "Who was this song written by?",
+        "es": "¿Quién escribió esta canción?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "It was written by a famous British band. It was recorded in 1975 and has been covered by many artists.",
+        "es": "La escribió un famoso grupo británico. Se grabó en 1975 y ha sido versionada por muchos artistas."
+      },
+      {
+        "speaker": "Eva",
+        "text": "Where was the video filmed?",
+        "es": "¿Dónde se grabó el vídeo?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "In Iceland. It was directed by a young woman, and the whole thing was done in just two days.",
+        "es": "En Islandia. Lo dirigió una joven y todo se hizo en solo dos días."
+      },
+      {
+        "speaker": "Eva",
+        "text": "Is the song played on the radio a lot?",
+        "es": "¿Se pone mucho la canción en la radio?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes, it's played every day. It can be downloaded for free from the band's website.",
+        "es": "Sí, se pone a diario. Se puede descargar gratis desde la web del grupo."
+      },
+      {
+        "speaker": "Eva",
+        "text": "And the tickets? Must they be booked in advance?",
+        "es": "¿Y las entradas? ¿Hay que reservarlas con antelación?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes, they have to be bought online. They can't be bought at the door because the concert is always sold out.",
+        "es": "Sí, hay que comprarlas en línea. No se pueden comprar en la puerta porque el concierto siempre se agota."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-write-written",
+        "lemma": "write → written",
+        "pos": "verb",
+        "ipa": "/raɪt/",
+        "es": "escribir → escrito",
+        "example": "The book was written in 1990."
+      },
+      {
+        "id": "en-record",
+        "lemma": "record",
+        "pos": "verb",
+        "ipa": "/rɪˈkɔːd/",
+        "es": "grabar",
+        "example": "The song was recorded in 1975."
+      },
+      {
+        "id": "en-cover-a-song",
+        "lemma": "cover (a song)",
+        "pos": "verb",
+        "ipa": "/ˈkʌvə/",
+        "es": "versionar",
+        "example": "It has been covered by many artists."
+      },
+      {
+        "id": "en-film",
+        "lemma": "film",
+        "pos": "verb",
+        "ipa": "/fɪlm/",
+        "es": "rodar, grabar vídeo",
+        "example": "The video was filmed in Iceland."
+      },
+      {
+        "id": "en-direct",
+        "lemma": "direct",
+        "pos": "verb",
+        "ipa": "/dəˈrekt/",
+        "es": "dirigir",
+        "example": "The film was directed by her."
+      },
+      {
+        "id": "en-sold-out",
+        "lemma": "sold out",
+        "pos": "adj",
+        "ipa": "/səʊld aʊt/",
+        "es": "agotado",
+        "example": "The tickets are sold out."
+      },
+      {
+        "id": "en-in-advance",
+        "lemma": "in advance",
+        "pos": "phrase",
+        "ipa": "/ɪn ədˈvɑːns/",
+        "es": "con antelación",
+        "example": "Book in advance."
+      },
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "verb",
+        "ipa": "/bʊk/",
+        "es": "reservar",
+        "example": "Tickets must be booked."
+      },
+      {
+        "id": "en-for-free",
+        "lemma": "for free",
+        "pos": "phrase",
+        "ipa": "/fə friː/",
+        "es": "gratis",
+        "example": "It can be downloaded for free."
+      },
+      {
+        "id": "en-artist",
+        "lemma": "artist",
+        "pos": "noun",
+        "ipa": "/ˈɑːtɪst/",
+        "es": "artista",
+        "example": "She's a famous artist."
+      },
+      {
+        "id": "en-whole",
+        "lemma": "whole",
+        "pos": "adj",
+        "ipa": "/həʊl/",
+        "es": "entero",
+        "example": "The whole thing took two days."
+      }
+    ],
+    "audio_script_id": "en-b1-u05-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntas en pasiva**\n\n| Pregunta | Ejemplo |\n|---|---|\n| *Was / Were + sujeto + participio?* | ***Was** the song **written** by Queen?* |\n| *Is / Are + sujeto + participio?* | ***Are** the tickets **sold** online?* |\n| *Wh- + was / were + sujeto + participio?* | ***Where was** the film **shot**?* |\n| *Who … by?* | ***Who** was it **written by**?* |\n\n**El agente con by**\n\n- Se usa *by* si es importante o interesante: *It was written **by Shakespeare**.*\n- Se omite si es obvio o desconocido: *The bank was robbed* (no hace falta *by robbers*).\n\n**Pasiva con modales**\n\n| Estructura | Ejemplo |\n|---|---|\n| *modal + be + participio* | *It **can be downloaded**.* · *It **must be finished** today.* |\n| *have to + be + participio* | *The forms **have to be signed**.* |\n| *going to + be + participio* | *The film **is going to be released** in May.* |\n| *present perfect pasiva: have/has been + participio* | *The song **has been covered** by many artists.* |\n\n**Ojo:** ✘ *The ticket can bought* → ✔ *can **be** bought*. Siempre **be** antes del participio. ✘ *Who did write this book?* se vuelve en pasiva ✔ *Who was this book written by?* (con **by** al final).\n\nPronunciación: *directed* /dəˈrektɪd/ · *recorded* /rɪˈkɔːdɪd/ · *advance* /ədˈvɑːns/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It can bought.",
+        "right": "It can be bought.",
+        "note": "Modal + be + participio."
+      },
+      {
+        "wrong": "Who did this written by?",
+        "right": "Who was this written by?",
+        "note": "Pasiva: was + participio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u05-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde se rodó el vídeo?",
+      "options": [
+        "En Islandia",
+        "En Londres",
+        "En París",
+        "En Nueva York"
+      ],
+      "answer": [
+        "En Islandia"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: In Iceland.",
+        "incorrect": "Revisa esto: Dice: In Iceland."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién dirigió el vídeo?",
+      "options": [
+        "Una joven",
+        "Un famoso director",
+        "El grupo",
+        "Nadie lo sabe"
+      ],
+      "answer": [
+        "Una joven"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: directed by a young woman.",
+        "incorrect": "Revisa esto: Dice: directed by a young woman."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde se pueden comprar las entradas?",
+      "options": [
+        "En línea, no en la puerta",
+        "En la puerta",
+        "En la radio",
+        "En una tienda"
+      ],
+      "answer": [
+        "En línea, no en la puerta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: they have to be bought online.",
+        "incorrect": "Revisa esto: Dice: they have to be bought online."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 15,
+      "prompt": "La canción se grabó en 1975.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: It was recorded in 1975.",
+        "incorrect": "Revisa esto: Dice: It was recorded in 1975."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ people are coming to the party?",
+      "answer": [
+        "many"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People es contable: how many.",
+        "incorrect": "Revisa esto: People es contable: how many."
+      },
+      "review_of": "en-a2-u04-l06-ex02"
+    },
+    {
+      "id": "en-b1-u05-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the film directed by a woman?",
+      "options": [
+        "Was",
+        "Did",
+        "Is",
+        "Has"
+      ],
+      "answer": [
+        "Was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasiva pasada.",
+        "incorrect": "Revisa esto: Pregunta en pasiva pasada."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "Where ___ the pictures taken?",
+      "options": [
+        "were",
+        "did",
+        "are been",
+        "was"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + were + sujeto + participio.",
+        "incorrect": "Revisa esto: Where + were + sujeto + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "Who was this novel written ___?",
+      "options": [
+        "by",
+        "from",
+        "of",
+        "for"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By + agente.",
+        "incorrect": "Revisa esto: By + agente."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "The report must ___ finished by Friday.",
+      "options": [
+        "be",
+        "being",
+        "been",
+        "to be"
+      ],
+      "answer": [
+        "be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be + participio.",
+        "incorrect": "Revisa esto: Must be + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "The song ___ by many artists.",
+      "options": [
+        "has been covered",
+        "have covered",
+        "is cover",
+        "covers"
+      ],
+      "answer": [
+        "has been covered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasiva.",
+        "incorrect": "Revisa esto: Present perfect pasiva."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 25,
+      "prompt": "The tickets can ___ bought online. (se pueden)",
+      "answer": [
+        "be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can be + participio.",
+        "incorrect": "Revisa esto: Can be + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Dear Sir or Madam, … ___",
+      "options": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Best",
+        "Lots of love"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin nombre: Yours faithfully.",
+        "incorrect": "Revisa esto: Sin nombre: Yours faithfully."
+      },
+      "review_of": "en-b1-u03-l04-ex05"
+    },
+    {
+      "id": "en-b1-u05-l03-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Puedo usar tu teléfono?",
+      "answer": [
+        "Can I use your phone?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Permiso: Can I…?",
+        "incorrect": "Revisa esto: Permiso: Can I…?"
+      },
+      "review_of": "en-a1-u09-l03-ex10"
+    },
+    {
+      "id": "en-b1-u05-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possessives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Anna is my sister. She name is Anna.",
+      "answer": [
+        "Anna is my sister. Her name is Anna."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del posesivo va el nombre: 'her name', no 'she name'.",
+        "incorrect": "Revisa esto: Después del posesivo va el nombre: 'her name', no 'she name'."
+      },
+      "review_of": "en-a1-u03-l02-ex07"
+    },
+    {
+      "id": "en-b1-u05-l03-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ this photo taken? (fue)",
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where was it taken?",
+        "incorrect": "Revisa esto: Where was it taken?"
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The ticket can bought online.",
+      "answer": [
+        "The ticket can be bought online."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can be + participio.",
+        "incorrect": "Revisa esto: Can be + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Who did this book written by?",
+      "answer": [
+        "Who was this book written by?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva: Who was it written by?",
+        "incorrect": "Revisa esto: Pasiva: Who was it written by?"
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "days"
+      ],
+      "est_seconds": 25,
+      "prompt": "The day after Monday is ___.",
+      "answer": [
+        "Tuesday"
+      ],
+      "case_sensitive": true,
+      "feedback": {
+        "correct": "¡Correcto! Lunes → martes: Tuesday (con mayúscula).",
+        "incorrect": "Revisa esto: Lunes → martes: Tuesday (con mayúscula)."
+      },
+      "review_of": "en-a1-u04-l05-ex02"
+    },
+    {
+      "id": "en-b1-u05-l03-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film has be released.",
+      "answer": [
+        "The film has been released."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Has been.",
+        "incorrect": "Revisa esto: Has been."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex15",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "film",
+        "shot",
+        "?",
+        "Where",
+        "was"
+      ],
+      "answer": [
+        "Where",
+        "was",
+        "the",
+        "film",
+        "shot",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh + was + sujeto + participio.",
+        "incorrect": "Revisa esto: Wh + was + sujeto + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l03-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué se conservó?",
+      "options": [
+        "Porque servía como torre de radio",
+        "Porque era muy bonita",
+        "Porque costó mucho",
+        "Porque la pidió el alcalde"
+      ],
+      "answer": [
+        "Porque servía como torre de radio"
+      ],
+      "audio_text": "The Eiffel Tower was built by Gustave Eiffel's company for the 1889 World's Fair. It was meant to be taken down after twenty years, but it was kept because it could be used as a radio tower.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: kept because it could be used as a radio tower.",
+        "incorrect": "Revisa esto: Dice: kept because it could be used as a radio tower."
+      },
+      "audio_script_id": "en-b1-u05-l03-ex16-a"
+    },
+    {
+      "id": "en-b1-u05-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "suggestions"
+      ],
+      "est_seconds": 25,
+      "prompt": "How about ___ a walk in the park? (dar)",
+      "answer": [
+        "taking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de How about va el verbo + -ing.",
+        "incorrect": "Revisa esto: Después de How about va el verbo + -ing."
+      },
+      "review_of": "en-a2-u05-l05-ex03"
+    },
+    {
+      "id": "en-b1-u05-l03-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Quién escribió esta canción y dónde se grabó?",
+      "answer": [
+        "Who was this song written by and where was it recorded?",
+        "Who was this song written by, and where was it recorded?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preguntas en pasiva.",
+        "incorrect": "Revisa esto: Preguntas en pasiva."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Who was it written by? · Where was it filmed?",
+      "It can be downloaded for free.",
+      "It must be finished by Friday.",
+      "It has been covered by many artists."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-write-written"
+    },
+    {
+      "type": "vocab",
+      "id": "en-record"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cover-a-song"
+    },
+    {
+      "type": "vocab",
+      "id": "en-film"
+    },
+    {
+      "type": "vocab",
+      "id": "en-direct"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sold-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-advance"
+    },
+    {
+      "type": "vocab",
+      "id": "en-book"
+    },
+    {
+      "type": "vocab",
+      "id": "en-for-free"
+    },
+    {
+      "type": "vocab",
+      "id": "en-artist"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-questions-agent"
+    }
+  ]
+}

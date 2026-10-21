@@ -1,0 +1,817 @@
+{
+  "id": "en-b1-u10-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 10,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 10",
+    "es": "Checkpoint 10"
+  },
+  "objective": "Al terminar demuestras que hablas de cultura y tradiciones con deducciones, question tags, indefinidos y descripciones de fiestas.",
+  "est_minutes": 40,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 10: vocabulario de comida y costumbres, deducciones, question tags, indefinidos y descripción de una fiesta."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de comida y costumbres, must be / can't be / might be, question tags, someone / anything / nobody y cómo describir una fiesta o tradición.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 10**\n\n- *It's polite / rude to … · It's served with … · spicy · savoury · bland*\n- *He must be tired. · It can't be true. · She might be at home.*\n- *It's nice, isn't it? · You haven't been, have you? · Let's go, shall we?*\n- *someone · anything · nobody · everywhere · I didn't see anyone.*\n- *It is held every year. · It started in … · It has become a tradition.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u10-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es educado o maleducado?",
+      "categories": [
+        "Polite",
+        "Rude"
+      ],
+      "items": [
+        {
+          "text": "say thank you to the cook",
+          "category": "Polite"
+        },
+        {
+          "text": "wait until everyone is served",
+          "category": "Polite"
+        },
+        {
+          "text": "offer to help",
+          "category": "Polite"
+        },
+        {
+          "text": "talk with your mouth full",
+          "category": "Rude"
+        },
+        {
+          "text": "start eating before others",
+          "category": "Rude"
+        },
+        {
+          "text": "leave without saying goodbye",
+          "category": "Rude"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de normas de cortesía.",
+        "incorrect": "Revisa esto: Repaso de normas de cortesía."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ to wait until everyone is served.",
+      "options": [
+        "polite",
+        "politely",
+        "politeness",
+        "police"
+      ],
+      "answer": [
+        "polite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's polite to.",
+        "incorrect": "Revisa esto: It's polite to."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "This curry is very ___ .",
+      "options": [
+        "spicy",
+        "sweet",
+        "bland",
+        "bitter"
+      ],
+      "answer": [
+        "spicy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Spicy.",
+        "incorrect": "Revisa esto: Spicy."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "narrative-tenses"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "as",
+        "I",
+        "opened",
+        "the",
+        "door",
+        ",",
+        "the",
+        "cat",
+        "ran",
+        "out",
+        ".",
+        "As",
+        "soon"
+      ],
+      "answer": [
+        "As",
+        "soon",
+        "as",
+        "I",
+        "opened",
+        "the",
+        "door",
+        ",",
+        "the",
+        "cat",
+        "ran",
+        "out",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + pasado simple.",
+        "incorrect": "Revisa esto: As soon as + pasado simple."
+      },
+      "review_of": "en-b1-u01-l05-ex12"
+    },
+    {
+      "id": "en-b1-u10-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the shoes?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shoes es plural: How much are…?",
+        "incorrect": "Revisa esto: Shoes es plural: How much are…?"
+      },
+      "review_of": "en-a1-u08-l06-ex03"
+    },
+    {
+      "id": "en-b1-u10-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's working since six. He ___ be exhausted.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "mustn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador sigue aprendiendo hoy.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Now I go on learning new things every day.",
+        "incorrect": "Revisa esto: Dice: Now I go on learning new things every day."
+      },
+      "review_of": "en-b1-u08-l02-ex04"
+    },
+    {
+      "id": "en-b1-u10-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "She just ate. She ___ be hungry.",
+      "options": [
+        "can't",
+        "must",
+        "should",
+        "has to"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't be.",
+        "incorrect": "Revisa esto: Can't be."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo una hermana.",
+      "answer": [
+        "I've got a sister.",
+        "I have got a sister."
+      ],
+      "accepted_alternatives": [
+        "I have a sister."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tener = have got.",
+        "incorrect": "Revisa esto: Tener = have got."
+      },
+      "review_of": "en-a1-u03-l04-ex06"
+    },
+    {
+      "id": "en-b1-u10-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ have left already. His coat isn't here.",
+      "options": [
+        "must",
+        "mustn't",
+        "might to",
+        "should to"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must have.",
+        "incorrect": "Revisa esto: Must have."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's a lovely day, ___ ?",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it",
+        "does it"
+      ],
+      "answer": [
+        "isn't it"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tag negativo.",
+        "incorrect": "Revisa esto: Tag negativo."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debemos hacer?",
+      "options": [
+        "Reducir, reutilizar y reciclar",
+        "Comprar más plástico",
+        "Tirar más",
+        "Pescar menos"
+      ],
+      "answer": [
+        "Reducir, reutilizar y reciclar"
+      ],
+      "audio_text": "Plastic waste is one of the biggest problems of our time. Millions of tonnes end up in the oceans every year. To help, we should reduce, reuse and recycle.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: reduce, reuse and recycle.",
+        "incorrect": "Revisa esto: Dice: reduce, reuse and recycle."
+      },
+      "audio_script_id": "en-b1-u10-l06-rv05-a",
+      "review_of": "en-b1-u09-l01-ex15"
+    },
+    {
+      "id": "en-b1-u10-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 20,
+      "prompt": "You haven't been there, ___ ?",
+      "options": [
+        "have you",
+        "haven't you",
+        "do you",
+        "did you"
+      ],
+      "answer": [
+        "have you"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tag positivo.",
+        "incorrect": "Revisa esto: Tag positivo."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 20,
+      "prompt": "Let's go, ___ ?",
+      "options": [
+        "shall we",
+        "will we",
+        "don't we",
+        "aren't we"
+      ],
+      "answer": [
+        "shall we"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shall we.",
+        "incorrect": "Revisa esto: Shall we."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I didn't see ___ .",
+      "options": [
+        "anyone",
+        "no one",
+        "someone",
+        "everyone"
+      ],
+      "answer": [
+        "anyone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa → any-.",
+        "incorrect": "Revisa esto: Negativa → any-."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one tomato → two ___",
+      "answer": [
+        "tomatoes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -o: + es.",
+        "incorrect": "Revisa esto: Terminación -o: + es."
+      },
+      "review_of": "en-a1-u05-l06-ex02"
+    },
+    {
+      "id": "en-b1-u10-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ is here. Let's start!",
+      "options": [
+        "Everyone",
+        "Anyone",
+        "No one",
+        "Someone"
+      ],
+      "answer": [
+        "Everyone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Everyone.",
+        "incorrect": "Revisa esto: Everyone."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "festival-description"
+      ],
+      "est_seconds": 20,
+      "prompt": "The festival ___ every year in August.",
+      "options": [
+        "is held",
+        "holds",
+        "is holding",
+        "held"
+      ],
+      "answer": [
+        "is held"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva presente.",
+        "incorrect": "Revisa esto: Pasiva presente."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv07",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un hábito sano o poco sano?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "get enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "drink plenty of water",
+          "category": "Healthy"
+        },
+        {
+          "text": "take regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "skip meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "stay up late every night",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "snack on junk food",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      },
+      "review_of": "en-b1-u04-l06-ex01"
+    },
+    {
+      "id": "en-b1-u10-l06-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 25,
+      "prompt": "You like pasta, ___ you? (no)",
+      "answer": [
+        "don't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't you.",
+        "incorrect": "Revisa esto: Don't you."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 25,
+      "prompt": "I looked ___ but I couldn't find it. (por todas partes)",
+      "answer": [
+        "everywhere"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Everywhere.",
+        "incorrect": "Revisa esto: Everywhere."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ lectures every day.",
+      "options": [
+        "attends",
+        "assists",
+        "assists to",
+        "visits"
+      ],
+      "answer": [
+        "attends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attend.",
+        "incorrect": "Revisa esto: Attend."
+      },
+      "review_of": "en-b1-u08-l06-ex02"
+    },
+    {
+      "id": "en-b1-u10-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He mustn't be at home. The lights are on.",
+      "answer": [
+        "He must be at home. The lights are on.",
+        "He can't be out. The lights are on."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción: can't.",
+        "incorrect": "Revisa esto: Deducción: can't."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "some-any"
+      ],
+      "est_seconds": 20,
+      "prompt": "Would you like ___ tea? (ofrecimiento)",
+      "options": [
+        "some",
+        "any",
+        "an",
+        "a"
+      ],
+      "answer": [
+        "some"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En ofrecimientos se usa some.",
+        "incorrect": "Revisa esto: En ofrecimientos se usa some."
+      },
+      "review_of": "en-a1-u05-l04-ex04"
+    },
+    {
+      "id": "en-b1-u10-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I didn't see nobody.",
+      "answer": [
+        "I didn't see anybody.",
+        "I didn't see anyone.",
+        "I saw nobody."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Doble negación.",
+        "incorrect": "Revisa esto: Doble negación."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's a nice day, no?",
+      "answer": [
+        "It's a nice day, isn't it?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Question tag.",
+        "incorrect": "Revisa esto: Question tag."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "festival-description"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué lleva todo el mundo?",
+      "options": [
+        "Ropa blanca y un pañuelo rojo",
+        "Disfraces",
+        "Máscaras",
+        "Sombreros"
+      ],
+      "answer": [
+        "Ropa blanca y un pañuelo rojo"
+      ],
+      "audio_text": "The festival is held in July every year. It started in the 17th century and it has become very popular. Everyone wears white and a red scarf. It must be a wonderful experience.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Everyone wears white and a red scarf.",
+        "incorrect": "Revisa esto: Dice: Everyone wears white and a red scarf."
+      },
+      "audio_script_id": "en-b1-u10-l06-ex18-a"
+    },
+    {
+      "id": "en-b1-u10-l06-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No puede ser verdad. Debe de ser un error.",
+      "answer": [
+        "It can't be true. It must be a mistake.",
+        "That can't be true. It must be a mistake.",
+        "It can't be true. It must be an error."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducciones.",
+        "incorrect": "Revisa esto: Deducciones."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-ex20",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "food-culture",
+        "festival-description",
+        "question-tags",
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una descripción breve (8 a 10 frases) de una comida o fiesta de tu país: qué es, cuándo se celebra, qué se come y qué opinas. Usa al menos una deducción y un question tag.",
+      "min_words": 53,
+      "self_check_es": [
+        "¿Describes qué es y cuándo se celebra?",
+        "¿Usas pasiva en presente?",
+        "¿Usas must be/might be o un question tag?",
+        "¿Usas un pronombre indefinido?"
+      ],
+      "model_answer": "Christmas Eve is the main celebration in my country. It is held on 24 December and families get together for dinner. It's polite to wait until everyone is served before eating. There is always something sweet, like nougat, and nobody leaves hungry. You've tried nougat, haven't you? It must be one of the oldest traditions. I think everyone should enjoy it at least once.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u10-l06-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "As soon as I will arrive, I'll call you.",
+      "answer": [
+        "As soon as I arrive, I'll call you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de as soon as, presente.",
+        "incorrect": "Revisa esto: Después de as soon as, presente."
+      },
+      "review_of": "en-b1-u03-l06-ex12"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It's polite / rude to … · It's served with …",
+      "He must be … · It can't be … · She might be …",
+      "It's nice, isn't it? · Let's go, shall we?",
+      "someone · anything · nobody · everywhere"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-food-culture"
+    },
+    {
+      "type": "grammar",
+      "id": "en-deduction-present"
+    },
+    {
+      "type": "grammar",
+      "id": "en-question-tags"
+    },
+    {
+      "type": "grammar",
+      "id": "en-indefinite-pronouns"
+    },
+    {
+      "type": "grammar",
+      "id": "en-festival-description"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

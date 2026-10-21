@@ -1,0 +1,843 @@
+{
+  "id": "en-b2-u04-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 4,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "He must have left",
+    "es": "Deducciones sobre el pasado"
+  },
+  "objective": "Al terminar haces deducciones sobre el pasado con must have, can't have, might have y could have, y explicas qué probablemente ocurrió.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Debe de haberse ido', 'no puede haberlo hecho', 'quizá se perdió'. Los verbos modales de deducción en pasado te permiten especular sobre algo que no viste, con distintos grados de seguridad."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Detective",
+        "text": "The window is broken from the inside, so the thief can't have come in this way. They must have got out through it.",
+        "es": "La ventana está rota desde dentro, así que el ladrón no puede haber entrado por aquí. Debe de haber salido por ella."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Then how did they get in? The front door was locked.",
+        "es": "Entonces, ¿cómo entró? La puerta principal estaba cerrada con llave."
+      },
+      {
+        "speaker": "Detective",
+        "text": "They might have used a spare key. Or they could have been inside all evening. The alarm wasn't triggered.",
+        "es": "Pudo haber usado una llave de repuesto. O podría haber estado dentro toda la tarde. La alarma no saltó."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "The owner says nobody else has a key.",
+        "es": "El dueño dice que nadie más tiene llave."
+      },
+      {
+        "speaker": "Detective",
+        "text": "Then he must have forgotten about the cleaner. She has a key, hasn't she?",
+        "es": "Entonces debe de haberse olvidado de la señora de la limpieza. Ella tiene llave, ¿verdad?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "She couldn't have done it. She was in hospital that night. I checked.",
+        "es": "Ella no puede haberlo hecho. Estaba en el hospital esa noche. Lo he comprobado."
+      },
+      {
+        "speaker": "Detective",
+        "text": "Hmm. The footprints are small. It might have been a teenager, or even a woman.",
+        "es": "Mmm. Las huellas son pequeñas. Podría haber sido un adolescente, o incluso una mujer."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Or the thief may have worn borrowed shoes. We can't rule anything out yet.",
+        "es": "O el ladrón pudo haber llevado zapatos prestados. Todavía no podemos descartar nada."
+      },
+      {
+        "speaker": "Detective",
+        "text": "True. Let's look at the cameras. If someone had been here, they would have recorded something.",
+        "es": "Cierto. Miremos las cámaras. Si alguien hubiera estado aquí, habrían grabado algo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-thief",
+        "lemma": "thief",
+        "pos": "noun",
+        "ipa": "/θiːf/",
+        "es": "ladrón",
+        "example": "The thief escaped."
+      },
+      {
+        "id": "en-spare-key",
+        "lemma": "spare key",
+        "pos": "noun",
+        "ipa": "/speə kiː/",
+        "es": "llave de repuesto",
+        "example": "Use a spare key."
+      },
+      {
+        "id": "en-trigger",
+        "lemma": "trigger",
+        "pos": "verb",
+        "ipa": "/ˈtrɪɡə/",
+        "es": "activar",
+        "example": "The alarm was triggered."
+      },
+      {
+        "id": "en-cleaner",
+        "lemma": "cleaner",
+        "pos": "noun",
+        "ipa": "/ˈkliːnə/",
+        "es": "limpiador/a",
+        "example": "The cleaner has a key."
+      },
+      {
+        "id": "en-footprint",
+        "lemma": "footprint",
+        "pos": "noun",
+        "ipa": "/ˈfʊtprɪnt/",
+        "es": "huella",
+        "example": "Small footprints."
+      },
+      {
+        "id": "en-rule-out",
+        "lemma": "rule out",
+        "pos": "phrasal verb",
+        "ipa": "/ruːl aʊt/",
+        "es": "descartar",
+        "example": "We can't rule it out."
+      },
+      {
+        "id": "en-borrowed",
+        "lemma": "borrowed",
+        "pos": "adj",
+        "ipa": "/ˈbɒrəʊd/",
+        "es": "prestado",
+        "example": "Borrowed shoes."
+      },
+      {
+        "id": "en-record",
+        "lemma": "record",
+        "pos": "verb",
+        "ipa": "/rɪˈkɔːd/",
+        "es": "grabar",
+        "example": "The camera recorded it."
+      },
+      {
+        "id": "en-lock",
+        "lemma": "lock",
+        "pos": "verb",
+        "ipa": "/lɒk/",
+        "es": "cerrar con llave",
+        "example": "The door was locked."
+      },
+      {
+        "id": "en-suspect",
+        "lemma": "suspect",
+        "pos": "noun",
+        "ipa": "/ˈsʌspekt/",
+        "es": "sospechoso",
+        "example": "The main suspect."
+      }
+    ],
+    "audio_script_id": "en-b2-u04-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Deducción sobre el pasado**\n\n| Modal + have + participio | Grado de seguridad | Ejemplo |\n|---|---|---|\n| **must have + participio** | casi seguro que **sí** | *She **must have left** early.* (seguro) |\n| **can't / couldn't have + participio** | casi seguro que **no** | *He **can't have known**.* |\n| **may / might / could have + participio** | posible | *It **might have been** a mistake.* |\n| **may not / might not have + participio** | quizá no | *They **might not have seen** it.* |\n\n**Diferencias importantes**\n\n- *Must have* es deducción lógica; no es obligación. ✔ *She must have been tired.* (Seguro que estaba cansada.)\n- *Can't have* ≠ *mustn't have*. Para negar una deducción se usa *can't / couldn't have*.\n- *Could have* (posible) vs *could have* (había posibilidad pero no se hizo): *You could have called.* (reproche).\n\n**Con -ing (acción en curso)**\n\n- *must have been + -ing*: *She must have been sleeping when I called.* · *They can't have been working.*\n\n**Si el pasado es distinto**\n\n- *If she had been there, she would have seen it.* (tercer condicional) → no confundir con deducción.\n\n**Errores típicos**\n\n- ✘ *He must have went.* → ✔ *He must have gone.* (participio).\n- ✘ *She mustn't have known.* → ✔ *She can't have known.*\n- ✘ *He must to be late.* → ✔ *He must be late.* (presente) / *He must have been late.* (pasado).\n- ✘ *It can't has been him.* → ✔ *It can't have been him.*\n\n**Ojo:** *might have* y *may have* son casi iguales (*might* es algo menos seguro). *Couldn't have* y *can't have* se usan con deducción negativa; *couldn't have* es el pasado de *can't* en el estilo indirecto.\n\nPronunciación: *must have* /ˈmʌst əv/ · *can't have* /ˈkɑːnt əv/ · *might have* /ˈmaɪt əv/ (en habla, *have* es débil: /əv/).",
+    "common_mistakes_es": [
+      {
+        "wrong": "must have went",
+        "right": "must have gone",
+        "note": "Participio."
+      },
+      {
+        "wrong": "mustn't have known",
+        "right": "can't have known",
+        "note": "Deducción negativa."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u04-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué deduce el detective sobre la ventana?",
+      "options": [
+        "Que el ladrón salió por ella",
+        "Que el ladrón entró por ella",
+        "Que fue un accidente",
+        "Que la rompió el viento"
+      ],
+      "answer": [
+        "Que el ladrón salió por ella"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: must have got out through it.",
+        "incorrect": "Revisa esto: Dice: must have got out through it."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué la señora de la limpieza no puede haberlo hecho?",
+      "options": [
+        "Estaba en el hospital",
+        "Estaba de vacaciones",
+        "No tenía llave",
+        "Estaba en casa"
+      ],
+      "answer": [
+        "Estaba en el hospital"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: She was in hospital that night.",
+        "incorrect": "Revisa esto: Dice: She was in hospital that night."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pueden indicar las huellas pequeñas?",
+      "options": [
+        "Que podría ser un adolescente o una mujer",
+        "Que fue un niño pequeño",
+        "Que fue un animal",
+        "Que no hubo ladrón"
+      ],
+      "answer": [
+        "Que podría ser un adolescente o una mujer"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: It might have been a teenager, or even a woman.",
+        "incorrect": "Revisa esto: Dice: It might have been a teenager, or even a woman."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 15,
+      "prompt": "La alarma saltó cuando el ladrón entró.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que la alarma no se activó.",
+        "incorrect": "Revisa esto: Dice que la alarma no se activó."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "formal-email-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Dear Sir or Madam ... closes with...",
+      "options": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Cheers",
+        "Best wishes"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Faithfully.",
+        "incorrect": "Revisa esto: Faithfully."
+      },
+      "review_of": "en-b2-u02-l06-ex13"
+    },
+    {
+      "id": "en-b2-u04-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lights are off. They ___ gone to bed.",
+      "options": [
+        "must have",
+        "must",
+        "can have",
+        "should of"
+      ],
+      "answer": [
+        "must have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción pasada positiva.",
+        "incorrect": "Revisa esto: Deducción pasada positiva."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ have known the answer; she looked completely surprised.",
+      "options": [
+        "can't",
+        "must",
+        "might not to",
+        "should"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción negativa.",
+        "incorrect": "Revisa esto: Deducción negativa."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "I can't find my keys. I ___ have left them at the office.",
+      "options": [
+        "might",
+        "can't",
+        "mustn't",
+        "needn't"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad.",
+        "incorrect": "Revisa esto: Posibilidad."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "He didn't answer. He ___ have been sleeping.",
+      "options": [
+        "may",
+        "can't",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": [
+        "may"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posibilidad en curso.",
+        "incorrect": "Revisa esto: Posibilidad en curso."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "Sara ___ (write) a report now.",
+      "answer": [
+        "is writing",
+        "'s writing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora: am/is/are + verbo-ing.",
+        "incorrect": "Revisa esto: Ahora: am/is/are + verbo-ing."
+      },
+      "review_of": "en-a2-u07-l02-ex05"
+    },
+    {
+      "id": "en-b2-u04-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "How ___ you travel to Florence?",
+      "options": [
+        "did",
+        "do",
+        "were",
+        "does"
+      ],
+      "answer": [
+        "did"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para preguntar por el pasado se usa did.",
+        "incorrect": "Revisa esto: Para preguntar por el pasado se usa did."
+      },
+      "review_of": "en-a2-u02-l02-ex03"
+    },
+    {
+      "id": "en-b2-u04-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ground is wet. It ___ rained during the night.",
+      "options": [
+        "must have",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": [
+        "must have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción.",
+        "incorrect": "Revisa esto: Deducción."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence expresses a reproach?",
+      "options": [
+        "You could have told me!",
+        "You must have told me.",
+        "You can't have told me.",
+        "You might be telling me."
+      ],
+      "answer": [
+        "You could have told me!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could have = reproche.",
+        "incorrect": "Revisa esto: Could have = reproche."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ have gone to the party. His car is still outside.",
+      "options": [
+        "can't",
+        "must",
+        "may",
+        "should"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción negativa.",
+        "incorrect": "Revisa esto: Deducción negativa."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ people drive to work, but most take the bus.",
+      "options": [
+        "A few",
+        "Few of",
+        "A little",
+        "Much"
+      ],
+      "answer": [
+        "A few"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A few = unos pocos.",
+        "incorrect": "Revisa esto: A few = unos pocos."
+      },
+      "review_of": "en-b1-u09-l02-ex08"
+    },
+    {
+      "id": "en-b2-u04-l03-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 25,
+      "prompt": "She looks exhausted. She ___ have been working all night. (debe de)",
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must have.",
+        "incorrect": "Revisa esto: Must have."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 25,
+      "prompt": "They ___ have seen us. We were hiding behind the car. (no pueden)",
+      "answer": [
+        "can't",
+        "couldn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't have.",
+        "incorrect": "Revisa esto: Can't have."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm good ___ solving problems.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      },
+      "review_of": "en-a2-u07-l04-ex02"
+    },
+    {
+      "id": "en-b2-u04-l03-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He must have went to the shop.",
+      "answer": [
+        "He must have gone to the shop."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de go.",
+        "incorrect": "Revisa esto: Participio de go."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She mustn't have known the truth.",
+      "answer": [
+        "She can't have known the truth.",
+        "She couldn't have known the truth."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción negativa.",
+        "incorrect": "Revisa esto: Deducción negativa."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It can't has been him.",
+      "answer": [
+        "It can't have been him."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal + have.",
+        "incorrect": "Revisa esto: Modal + have."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde cree que lo perdió?",
+      "options": [
+        "De camino a casa",
+        "En el café",
+        "En el trabajo",
+        "En el coche"
+      ],
+      "answer": [
+        "De camino a casa"
+      ],
+      "audio_text": "I can't find my wallet. I had it in the café, so I must have dropped it on the way home. It can't have been stolen because I haven't been near anyone.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: must have dropped it on the way home.",
+        "incorrect": "Revisa esto: Dice: must have dropped it on the way home."
+      },
+      "audio_script_id": "en-b2-u04-l03-ex17-a"
+    },
+    {
+      "id": "en-b2-u04-l03-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Tu amigo no ha llegado a la cena.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Where is Tom? He's an hour late."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "He must have missed the train, or he might have forgotten.",
+            "He must miss the train.",
+            "He can't have forgot."
+          ],
+          "best": 0,
+          "why_es": "Deducción."
+        },
+        {
+          "speaker": "Friend",
+          "text": "His phone is off."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Then he can't have received my message. Let's call his sister.",
+            "Then he must can't receive.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Deducción negativa."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u04-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the two restaurants is open on Monday. They're both closed.",
+      "options": [
+        "Neither",
+        "Either",
+        "Both",
+        "Each"
+      ],
+      "answer": [
+        "Neither"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither = ninguno de los dos.",
+        "incorrect": "Revisa esto: Neither = ninguno de los dos."
+      },
+      "review_of": "en-b1-u09-l02-ex06"
+    },
+    {
+      "id": "en-b2-u04-l03-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo se hornean las manzanas?",
+      "options": [
+        "Twenty minutes",
+        "Ten minutes",
+        "Two minutes",
+        "An hour"
+      ],
+      "answer": [
+        "Twenty minutes"
+      ],
+      "audio_text": "First, slice the apples. Then add a little sugar and bake them for twenty minutes.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'for twenty minutes'.",
+        "incorrect": "Revisa esto: Dice 'for twenty minutes'."
+      },
+      "audio_script_id": "en-b2-u04-l03-rv07-a",
+      "review_of": "en-a2-u04-l05-ex10"
+    },
+    {
+      "id": "en-b2-u04-l03-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Debe de haberse ido temprano; no puede haber sabido nada de la reunión.",
+      "answer": [
+        "He must have left early; he can't have known anything about the meeting.",
+        "She must have left early; she can't have known anything about the meeting."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducciones.",
+        "incorrect": "Revisa esto: Deducciones."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "She must have left early.",
+      "He can't have known.",
+      "It might have been a mistake.",
+      "You could have told me!"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-thief"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spare-key"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trigger"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cleaner"
+    },
+    {
+      "type": "vocab",
+      "id": "en-footprint"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rule-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-borrowed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-record"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lock"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suspect"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-deduction"
+    }
+  ]
+}

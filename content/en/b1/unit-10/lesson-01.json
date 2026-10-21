@@ -1,0 +1,903 @@
+{
+  "id": "en-b1-u10-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 10,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Food and customs",
+    "es": "Comida y costumbres"
+  },
+  "objective": "Al terminar hablas de comida, costumbres y tradiciones de tu país y de otros, con vocabulario de sabores, platos y normas de mesa.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'En mi país se cena tarde', 'es de mala educación…'. Describir costumbres y comparar culturas es un tema clásico de B1."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Kenji",
+        "text": "What's a typical meal in your country, Marta?",
+        "es": "¿Cuál es una comida típica de tu país, Marta?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "In Spain, lunch is the main meal. We usually have it around two or three o'clock, and dinner is much lighter and later, around nine.",
+        "es": "En España el almuerzo es la comida principal. Solemos comerlo sobre las dos o las tres y la cena es más ligera y más tarde, hacia las nueve."
+      },
+      {
+        "speaker": "Kenji",
+        "text": "In Japan we eat dinner earlier. Rice is served with almost every meal, and it's polite to say 'itadakimasu' before eating.",
+        "es": "En Japón cenamos antes. El arroz se sirve en casi todas las comidas y es educado decir 'itadakimasu' antes de comer."
+      },
+      {
+        "speaker": "Marta",
+        "text": "In Spain it's common to share small dishes, called tapas. People often order several and eat them in a group.",
+        "es": "En España es común compartir platos pequeños, llamados tapas. Se suele pedir varios y comerlos en grupo."
+      },
+      {
+        "speaker": "Kenji",
+        "text": "Is the food spicy?",
+        "es": "¿Es picante la comida?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "Not usually. It's more savoury, with olive oil, garlic and fresh vegetables. Desserts are sweet, like flan or churros.",
+        "es": "No suele serlo. Es más salada, con aceite de oliva, ajo y verduras frescas. Los postres son dulces, como el flan o los churros."
+      },
+      {
+        "speaker": "Kenji",
+        "text": "It's rude to leave chopsticks standing in a bowl of rice in Japan. Are there similar rules in Spain?",
+        "es": "En Japón es de mala educación dejar los palillos clavados en el arroz. ¿Hay normas parecidas en España?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "Well, it's polite to wait until everyone is served before you start eating. And we don't usually tip much.",
+        "es": "Bueno, es educado esperar a que todos estén servidos antes de empezar. Y no solemos dejar mucha propina."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-typical",
+        "lemma": "typical",
+        "pos": "adj",
+        "ipa": "/ˈtɪpɪkl/",
+        "es": "típico",
+        "example": "A typical dish."
+      },
+      {
+        "id": "en-main-meal",
+        "lemma": "main meal",
+        "pos": "noun",
+        "ipa": "/meɪn miːl/",
+        "es": "comida principal",
+        "example": "Lunch is the main meal."
+      },
+      {
+        "id": "en-light",
+        "lemma": "light",
+        "pos": "adj",
+        "ipa": "/laɪt/",
+        "es": "ligero",
+        "example": "A light dinner."
+      },
+      {
+        "id": "en-serve",
+        "lemma": "serve",
+        "pos": "verb",
+        "ipa": "/sɜːv/",
+        "es": "servir",
+        "example": "Rice is served with every meal."
+      },
+      {
+        "id": "en-polite-rude",
+        "lemma": "polite / rude",
+        "pos": "adj",
+        "ipa": "/pəˈlaɪt / ruːd/",
+        "es": "educado / maleducado",
+        "example": "It's rude to interrupt."
+      },
+      {
+        "id": "en-share",
+        "lemma": "share",
+        "pos": "verb",
+        "ipa": "/ʃeə/",
+        "es": "compartir",
+        "example": "We share the dishes."
+      },
+      {
+        "id": "en-spicy",
+        "lemma": "spicy",
+        "pos": "adj",
+        "ipa": "/ˈspaɪsi/",
+        "es": "picante",
+        "example": "The curry is spicy."
+      },
+      {
+        "id": "en-savoury",
+        "lemma": "savoury",
+        "pos": "adj",
+        "ipa": "/ˈseɪvəri/",
+        "es": "salado (no dulce)",
+        "example": "A savoury snack."
+      },
+      {
+        "id": "en-sweet",
+        "lemma": "sweet",
+        "pos": "adj",
+        "ipa": "/swiːt/",
+        "es": "dulce",
+        "example": "A sweet dessert."
+      },
+      {
+        "id": "en-olive-oil",
+        "lemma": "olive oil",
+        "pos": "noun",
+        "ipa": "/ˈɒlɪv ɔɪl/",
+        "es": "aceite de oliva",
+        "example": "Cook with olive oil."
+      },
+      {
+        "id": "en-chopsticks",
+        "lemma": "chopsticks",
+        "pos": "noun",
+        "ipa": "/ˈtʃɒpstɪks/",
+        "es": "palillos",
+        "example": "Use chopsticks."
+      },
+      {
+        "id": "en-custom",
+        "lemma": "custom",
+        "pos": "noun",
+        "ipa": "/ˈkʌstəm/",
+        "es": "costumbre",
+        "example": "A local custom."
+      },
+      {
+        "id": "en-tip",
+        "lemma": "tip",
+        "pos": "noun/verb",
+        "ipa": "/tɪp/",
+        "es": "propina / dar propina",
+        "example": "Leave a tip."
+      },
+      {
+        "id": "en-tradition",
+        "lemma": "tradition",
+        "pos": "noun",
+        "ipa": "/trəˈdɪʃn/",
+        "es": "tradición",
+        "example": "A family tradition."
+      }
+    ],
+    "audio_script_id": "en-b1-u10-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Hablar de comida y costumbres**\n\n| Tema | Palabras y frases |\n|---|---|\n| Sabores | *sweet · sour · bitter · salty · spicy · savoury · bland (soso) · rich (contundente)* |\n| Comidas | *breakfast · brunch · lunch · dinner · snack · starter · main course · dessert* |\n| Cocina | *boil · fry · bake · roast · grill · steam · stir · chop · slice · season* |\n| Costumbres | *It's common to … · It's polite / rude to … · People usually … · It's the custom to …* |\n| Comparar | *In my country … while in … · Unlike …, we … · The same as … · It's similar to …* |\n\n**Estructuras clave**\n\n- **It's + adjetivo + to + verbo:** *It's polite to wait. · It's rude to talk with your mouth full.*\n- **Pasiva para costumbres:** *Rice is served with every meal. · Tapas are eaten in a group.*\n- **Presente simple para hábitos:** *We usually have lunch at two.*\n- **Used to** para costumbres que ya no existen: *People used to eat at home.*\n\n**Describir un plato:** *It's made of … / It's made with … / It's served with … / It tastes sweet / spicy. / It's a traditional dish from …*\n\n**Ojo — falsos amigos y matices**\n\n- *Sensible* ≠ sensible; *delicious* = delicioso (no *delicious* de 'delicado'); *tasty* = sabroso.\n- *Dessert* /dɪˈzɜːt/ (postre) ≠ *desert* /ˈdezət/ (desierto) /dɪˈzɜːt/ (abandonar).\n- *Lunch* es la comida del mediodía; *dinner* es la cena (o la comida principal, según la región); *supper* es la cena ligera.\n- *Cook* (cocinar / cocinero) ≠ *kitchen* (cocina, habitación).\n- *Rare* = poco hecho (carne); *raw* = crudo.\n\nPronunciación: *typical* /ˈtɪpɪkl/ · *savoury* /ˈseɪvəri/ · *chopsticks* /ˈtʃɒpstɪks/ · *vegetable* /ˈvedʒtəbl/ (3 sílabas).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I ate a desert.",
+        "right": "I ate a dessert.",
+        "note": "Dessert tiene dos s."
+      },
+      {
+        "wrong": "It's polite wait.",
+        "right": "It's polite to wait.",
+        "note": "It's + adj + to."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "dessert / desert",
+        "es_false": "se confunden",
+        "real": "postre / desierto",
+        "note": "Dessert (dos s) = postre."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u10-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "savoury",
+          "right": "salado"
+        },
+        {
+          "left": "spicy",
+          "right": "picante"
+        },
+        {
+          "left": "chopsticks",
+          "right": "palillos"
+        },
+        {
+          "left": "custom",
+          "right": "costumbre"
+        },
+        {
+          "left": "tip",
+          "right": "propina"
+        },
+        {
+          "left": "typical",
+          "right": "típico"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de comida y cultura.",
+        "incorrect": "Revisa esto: Vocabulario de comida y cultura."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es educado o maleducado (en general)?",
+      "categories": [
+        "Polite",
+        "Rude"
+      ],
+      "items": [
+        {
+          "text": "wait until everyone is served",
+          "category": "Polite"
+        },
+        {
+          "text": "say thank you to the cook",
+          "category": "Polite"
+        },
+        {
+          "text": "offer to help clear the table",
+          "category": "Polite"
+        },
+        {
+          "text": "use a napkin",
+          "category": "Polite"
+        },
+        {
+          "text": "talk with your mouth full",
+          "category": "Rude"
+        },
+        {
+          "text": "start eating before others",
+          "category": "Rude"
+        },
+        {
+          "text": "leave without saying goodbye",
+          "category": "Rude"
+        },
+        {
+          "text": "point at people with your fork",
+          "category": "Rude"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar normas de cortesía ayuda a recordarlas.",
+        "incorrect": "Revisa esto: Clasificar normas de cortesía ayuda a recordarlas."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo se cena en España según Marta?",
+      "options": [
+        "Hacia las nueve",
+        "A las seis",
+        "A las once",
+        "A las tres"
+      ],
+      "answer": [
+        "Hacia las nueve"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: dinner … around nine.",
+        "incorrect": "Revisa esto: Dice: dinner … around nine."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué es educado decir antes de comer en Japón?",
+      "options": [
+        "'Itadakimasu'",
+        "'Bon appétit'",
+        "'Cheers'",
+        "'Salud'"
+      ],
+      "answer": [
+        "'Itadakimasu'"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it's polite to say 'itadakimasu'.",
+        "incorrect": "Revisa esto: Dice: it's polite to say 'itadakimasu'."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 15,
+      "prompt": "En España la comida es muy picante.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Not usually. It's more savoury.",
+        "incorrect": "Revisa esto: Dice: Not usually. It's more savoury."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ for my final exams. I'm in the library all day.",
+      "options": [
+        "revising",
+        "reviewing to",
+        "re-reading",
+        "studying for to"
+      ],
+      "answer": [
+        "revising"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Revise = repasar (UK).",
+        "incorrect": "Revisa esto: Revise = repasar (UK)."
+      },
+      "review_of": "en-b1-u08-l01-ex07"
+    },
+    {
+      "id": "en-b1-u10-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ to wait until everyone is served.",
+      "options": [
+        "polite",
+        "politely",
+        "politeness",
+        "police"
+      ],
+      "answer": [
+        "polite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's + adjetivo + to.",
+        "incorrect": "Revisa esto: It's + adjetivo + to."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the two roads is safe. Both are closed.",
+      "options": [
+        "Neither",
+        "Either",
+        "Both",
+        "Each"
+      ],
+      "answer": [
+        "Neither"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither.",
+        "incorrect": "Revisa esto: Neither."
+      },
+      "review_of": "en-b1-u09-l06-ex04"
+    },
+    {
+      "id": "en-b1-u10-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "Rice ___ with almost every meal in Japan.",
+      "options": [
+        "is served",
+        "serves",
+        "is serving",
+        "serve"
+      ],
+      "answer": [
+        "is served"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "This curry is very ___ . It burns my tongue!",
+      "options": [
+        "spicy",
+        "sweet",
+        "bland",
+        "bitter"
+      ],
+      "answer": [
+        "spicy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Spicy = picante.",
+        "incorrect": "Revisa esto: Spicy = picante."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They made me to wait.",
+      "answer": [
+        "They made me wait.",
+        "I was made to wait."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + verbo sin to.",
+        "incorrect": "Revisa esto: Make + verbo sin to."
+      },
+      "review_of": "en-b1-u08-l03-ex14"
+    },
+    {
+      "id": "en-b1-u10-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "I don't like sweet food. I prefer ___ snacks.",
+      "options": [
+        "savoury",
+        "savour",
+        "savouries to",
+        "tasty to"
+      ],
+      "answer": [
+        "savoury"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Savoury = salado.",
+        "incorrect": "Revisa esto: Savoury = salado."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "In my country it's common ___ lunch at two.",
+      "options": [
+        "to have",
+        "having to",
+        "have",
+        "for have"
+      ],
+      "answer": [
+        "to have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's common to + verbo.",
+        "incorrect": "Revisa esto: It's common to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'otoño' en inglés británico?",
+      "options": [
+        "autumn",
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "answer": [
+        "autumn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, otoño = autumn.",
+        "incorrect": "Revisa esto: En inglés británico, otoño = autumn."
+      },
+      "review_of": "en-a1-u10-l02-ex04"
+    },
+    {
+      "id": "en-b1-u10-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 20,
+      "prompt": "The soup is ___ . It has no flavour.",
+      "options": [
+        "bland",
+        "spicy",
+        "rich",
+        "sour"
+      ],
+      "answer": [
+        "bland"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bland = soso.",
+        "incorrect": "Revisa esto: Bland = soso."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ to talk with your mouth full. (maleducado)",
+      "answer": [
+        "rude"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rude.",
+        "incorrect": "Revisa esto: Rude."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm trying to ___ down on sugar.",
+      "options": [
+        "cut",
+        "put",
+        "give",
+        "take"
+      ],
+      "answer": [
+        "cut"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut down on.",
+        "incorrect": "Revisa esto: Cut down on."
+      },
+      "review_of": "en-b1-u04-l06-ex02"
+    },
+    {
+      "id": "en-b1-u10-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "At nine I ___ (cook) dinner.",
+      "answer": [
+        "was cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: was + -ing.",
+        "incorrect": "Revisa esto: Pasado continuo: was + -ing."
+      },
+      "review_of": "en-a2-u09-l06-ex02"
+    },
+    {
+      "id": "en-b1-u10-l01-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 25,
+      "prompt": "This dish is ___ with rice and vegetables. (se sirve)",
+      "answer": [
+        "served"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Served with.",
+        "incorrect": "Revisa esto: Served with."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The beach was very crowd.",
+      "answer": [
+        "The beach was very crowded."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo es crowded.",
+        "incorrect": "Revisa esto: El adjetivo es crowded."
+      },
+      "review_of": "en-a2-u03-l01-ex05"
+    },
+    {
+      "id": "en-b1-u10-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I ate a delicious desert after dinner.",
+      "answer": [
+        "I ate a delicious dessert after dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dessert ≠ desert.",
+        "incorrect": "Revisa esto: Dessert ≠ desert."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is polite wait until everyone eats.",
+      "answer": [
+        "It is polite to wait until everyone eats."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's polite to + verbo.",
+        "incorrect": "Revisa esto: It's polite to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué es educado?",
+      "options": [
+        "Terminar todo el plato",
+        "Dejar comida",
+        "Cenar tarde",
+        "Pedir postre"
+      ],
+      "answer": [
+        "Terminar todo el plato"
+      ],
+      "audio_text": "In my country we eat dinner very early, around six. Soup is served first, then the main course with potatoes. It's polite to finish everything on your plate.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: polite to finish everything on your plate.",
+        "incorrect": "Revisa esto: Dice: polite to finish everything on your plate."
+      },
+      "audio_script_id": "en-b1-u10-l01-ex16-a"
+    },
+    {
+      "id": "en-b1-u10-l01-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "En mi país es normal comer tarde y es de mala educación empezar antes que los demás.",
+      "answer": [
+        "In my country it's normal to eat late and it's rude to start before the others.",
+        "In my country it's normal to have lunch late and it's rude to start before everyone else."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's normal to / rude to.",
+        "incorrect": "Revisa esto: It's normal to / rude to."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-ex18",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "food-culture"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "typical",
+          "ipa": "/ˈtɪpɪkl/",
+          "tip_es": "Acento en la primera."
+        },
+        {
+          "text": "vegetable",
+          "ipa": "/ˈvedʒtəbl/",
+          "tip_es": "Tres sílabas."
+        },
+        {
+          "text": "dessert",
+          "ipa": "/dɪˈzɜːt/",
+          "tip_es": "Acento en la segunda."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-b1-u10-l01-rv08",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 15,
+      "prompt": "La conclusión añade ideas completamente nuevas.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La conclusión resume y mantiene la postura.",
+        "incorrect": "Revisa esto: La conclusión resume y mantiene la postura."
+      },
+      "review_of": "en-b1-u08-l05-ex04"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "In my country it's common to …",
+      "It's polite / rude to …",
+      "It's served with … · It tastes …",
+      "sweet · salty · spicy · savoury · bland"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-typical"
+    },
+    {
+      "type": "vocab",
+      "id": "en-main-meal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-light"
+    },
+    {
+      "type": "vocab",
+      "id": "en-serve"
+    },
+    {
+      "type": "vocab",
+      "id": "en-polite-rude"
+    },
+    {
+      "type": "vocab",
+      "id": "en-share"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spicy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-savoury"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sweet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-olive-oil"
+    },
+    {
+      "type": "grammar",
+      "id": "en-food-culture"
+    }
+  ]
+}

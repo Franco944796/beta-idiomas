@@ -1,0 +1,812 @@
+{
+  "id": "en-b2-u02-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 2,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "If I were you, I'd have...",
+    "es": "Condicionales mixtos"
+  },
+  "objective": "Al terminar combinas condicionales de distintos tiempos (mixtos), das consejos retrospectivos y hablas de consecuencias pasadas en el presente.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Si hubiera estudiado medicina, ahora sería médico.' Los condicionales mixtos unen un pasado imaginario con un presente imaginario (o al revés)."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Rita",
+        "text": "I keep thinking about my decision to leave university. If I had finished my degree, I would have a much better job now.",
+        "es": "No dejo de pensar en mi decisión de abandonar la universidad. Si hubiera terminado la carrera, ahora tendría un trabajo mucho mejor."
+      },
+      {
+        "speaker": "Sam",
+        "text": "If I were you, I wouldn't torture myself like that. You can still go back to study.",
+        "es": "Yo en tu lugar no me torturaría así. Todavía puedes volver a estudiar."
+      },
+      {
+        "speaker": "Rita",
+        "text": "I suppose so. If I weren't so busy with work, I would have enrolled last year.",
+        "es": "Supongo. Si no estuviera tan ocupada con el trabajo, me habría matriculado el año pasado."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Look, if you had listened to your parents, you'd be a lawyer by now. But would you be happy?",
+        "es": "Mira, si hubieras hecho caso a tus padres, ya serías abogada. ¿Pero serías feliz?"
+      },
+      {
+        "speaker": "Rita",
+        "text": "Probably not. If I were more patient, I might have stayed. But I'm not.",
+        "es": "Seguramente no. Si fuera más paciente, quizá me habría quedado. Pero no lo soy."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Then don't regret it. If I were in your position, I'd have done exactly the same thing.",
+        "es": "Entonces no te arrepientas. Si yo estuviera en tu lugar, habría hecho exactamente lo mismo."
+      },
+      {
+        "speaker": "Rita",
+        "text": "Thanks, Sam. If it hadn't been for you, I'd still be doubting myself.",
+        "es": "Gracias, Sam. Si no hubiera sido por ti, aún estaría dudando de mí misma."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Anytime. And remember: you should have trusted yourself earlier, but it's not too late.",
+        "es": "Cuando quieras. Y recuerda: deberías haber confiado en ti antes, pero no es demasiado tarde."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-keep-thinking",
+        "lemma": "keep thinking",
+        "pos": "phrase",
+        "ipa": "/kiːp ˈθɪŋkɪŋ/",
+        "es": "no dejar de pensar",
+        "example": "I keep thinking about it."
+      },
+      {
+        "id": "en-torture",
+        "lemma": "torture",
+        "pos": "verb",
+        "ipa": "/ˈtɔːtʃə/",
+        "es": "torturar",
+        "example": "Don't torture yourself."
+      },
+      {
+        "id": "en-enrol",
+        "lemma": "enrol",
+        "pos": "verb",
+        "ipa": "/ɪnˈrəʊl/",
+        "es": "matricularse",
+        "example": "I enrolled in a course."
+      },
+      {
+        "id": "en-patient",
+        "lemma": "patient",
+        "pos": "adj",
+        "ipa": "/ˈpeɪʃnt/",
+        "es": "paciente",
+        "example": "She's patient."
+      },
+      {
+        "id": "en-regret",
+        "lemma": "regret",
+        "pos": "verb",
+        "ipa": "/rɪˈɡret/",
+        "es": "arrepentirse",
+        "example": "I regret nothing."
+      },
+      {
+        "id": "en-position",
+        "lemma": "position",
+        "pos": "noun",
+        "ipa": "/pəˈzɪʃn/",
+        "es": "situación, puesto",
+        "example": "In your position…"
+      },
+      {
+        "id": "en-doubt",
+        "lemma": "doubt",
+        "pos": "verb",
+        "ipa": "/daʊt/",
+        "es": "dudar",
+        "example": "I doubt myself."
+      },
+      {
+        "id": "en-by-now",
+        "lemma": "by now",
+        "pos": "phrase",
+        "ipa": "/baɪ naʊ/",
+        "es": "a estas alturas",
+        "example": "By now I'd be a doctor."
+      },
+      {
+        "id": "en-it-s-not-too-late",
+        "lemma": "it's not too late",
+        "pos": "phrase",
+        "ipa": "/ɪts nɒt tuː leɪt/",
+        "es": "no es demasiado tarde",
+        "example": "It's not too late."
+      },
+      {
+        "id": "en-if-it-hadn-t-been-for",
+        "lemma": "if it hadn't been for",
+        "pos": "phrase",
+        "ipa": "/ɪf ɪt ˈhædnt biːn fɔː/",
+        "es": "si no hubiera sido por",
+        "example": "If it hadn't been for you…"
+      }
+    ],
+    "audio_script_id": "en-b2-u02-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Condicionales mixtos**\n\n| Tipo | Estructura | Significado | Ejemplo |\n|---|---|---|---|\n| **Pasado → presente** | *if + past perfect, would + verbo* | una causa pasada que no ocurrió afecta al presente | *If I **had studied** medicine, I **would be** a doctor now.* |\n| **Presente → pasado** | *if + past simple, would have + participio* | una característica presente afecta a un hecho pasado | *If I **weren't** so shy, I **would have asked** her out.* |\n\n**Consejos retrospectivos**\n\n- *If I were you, I'd have + participio* → *If I were you, I'd have told her the truth.* (Yo en tu lugar lo habría hecho.)\n- *You should have + participio* → crítica o consejo tarde. *You shouldn't have + participio* → reproche.\n- *You could have + participio* → había otra opción. *You might have + participio* → quizá lo hiciste (o reproche suave).\n\n**If it hadn't been for…** (si no hubiera sido por):\n\n- *If it hadn't been for your help, I wouldn't have passed.* → *But for your help, …* (formal).\n\n**Were to / Should (formal)**\n\n- *If I were to win the lottery, I'd travel the world.* (hipótesis remota).\n- *Were I you, I'd accept.* (inversión formal).\n\n**Errores típicos**\n\n- ✘ *If I was you* (informal; en formal se prefiere *were*) → ✔ *If I were you.*\n- ✘ *If I had studied, I would be a doctor now.* es correcta (mixto); ✘ *If I studied, I would have been a doctor.* → ✔ *If I had studied…*\n- ✘ *If I would be taller, …* → ✔ *If I were taller, …*\n\n**Ojo:** *were* para todas las personas en hipótesis (*If he were here…*); en habla coloquial verás *was*, pero en B2 usa *were* en escritura formal.\n\nPronunciación: *regret* /rɪˈɡret/ · *enrol* /ɪnˈrəʊl/ · *doubt* /daʊt/ (la 'b' es muda).",
+    "common_mistakes_es": [
+      {
+        "wrong": "If I would be taller…",
+        "right": "If I were taller…",
+        "note": "Sin would tras if."
+      },
+      {
+        "wrong": "You should to have told me.",
+        "right": "You should have told me.",
+        "note": "Should have + participio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u02-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué decisión lamenta Rita?",
+      "options": [
+        "Dejar la universidad",
+        "Cambiar de ciudad",
+        "Aceptar un trabajo",
+        "Casarse"
+      ],
+      "answer": [
+        "Dejar la universidad"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: my decision to leave university.",
+        "incorrect": "Revisa esto: Dice: my decision to leave university."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Sam?",
+      "options": [
+        "No torturarse y volver a estudiar",
+        "Cambiar de trabajo",
+        "Olvidar el tema",
+        "Pedir ayuda a sus padres"
+      ],
+      "answer": [
+        "No torturarse y volver a estudiar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wouldn't torture myself… You can still go back.",
+        "incorrect": "Revisa esto: Dice: I wouldn't torture myself… You can still go back."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué sería Rita si hubiera hecho caso a sus padres?",
+      "options": [
+        "Abogada",
+        "Médica",
+        "Profesora",
+        "Ingeniera"
+      ],
+      "answer": [
+        "Abogada"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: you'd be a lawyer by now.",
+        "incorrect": "Revisa esto: Dice: you'd be a lawyer by now."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best introduction?",
+      "options": [
+        "In my opinion, school uniforms are a good idea.",
+        "I will talk about uniforms.",
+        "Uniforms.",
+        "Well, uniforms, you know…"
+      ],
+      "answer": [
+        "In my opinion, school uniforms are a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tesis clara.",
+        "incorrect": "Revisa esto: Tesis clara."
+      },
+      "review_of": "en-b1-u08-l05-ex09"
+    },
+    {
+      "id": "en-b2-u02-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 15,
+      "prompt": "Sam dice que Rita no debería confiar en sí misma.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que debería haber confiado antes, pero no es tarde.",
+        "incorrect": "Revisa esto: Dice que debería haber confiado antes, pero no es tarde."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I had studied law, I ___ a lawyer now.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be",
+        "had been"
+      ],
+      "answer": [
+        "would be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mixto: pasado → presente.",
+        "incorrect": "Revisa esto: Mixto: pasado → presente."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I weren't so shy, I ___ her to dance last night.",
+      "options": [
+        "would have asked",
+        "would ask",
+        "asked",
+        "had asked"
+      ],
+      "answer": [
+        "would have asked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mixto: presente → pasado.",
+        "incorrect": "Revisa esto: Mixto: presente → pasado."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ me that she was tired.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "told"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      },
+      "review_of": "en-b1-u07-l02-ex09"
+    },
+    {
+      "id": "en-b2-u02-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ to work by bus every day.",
+      "options": [
+        "goes",
+        "is going",
+        "go",
+        "going"
+      ],
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito (every day): presente simple.",
+        "incorrect": "Revisa esto: Hábito (every day): presente simple."
+      },
+      "review_of": "en-a2-u07-l02-ex01"
+    },
+    {
+      "id": "en-b2-u02-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If it ___ been for your help, I wouldn't have passed.",
+      "options": [
+        "hadn't",
+        "wasn't",
+        "weren't",
+        "didn't"
+      ],
+      "answer": [
+        "hadn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If it hadn't been for.",
+        "incorrect": "Revisa esto: If it hadn't been for."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I ___ you, I'd have told her the truth.",
+      "options": [
+        "were",
+        "was being",
+        "had been",
+        "am"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If I were you.",
+        "incorrect": "Revisa esto: If I were you."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "to",
+        "join",
+        "a",
+        "band",
+        "one",
+        "day",
+        ".",
+        "I",
+        "hope"
+      ],
+      "answer": [
+        "I",
+        "hope",
+        "to",
+        "join",
+        "a",
+        "band",
+        "one",
+        "day",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! hope + to + verbo.",
+        "incorrect": "Revisa esto: hope + to + verbo."
+      },
+      "review_of": "en-a2-u10-l02-ex10"
+    },
+    {
+      "id": "en-b2-u02-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ have told me earlier! I could have helped.",
+      "options": [
+        "should",
+        "would",
+        "must",
+        "had"
+      ],
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have = reproche.",
+        "incorrect": "Revisa esto: Should have = reproche."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I won the lottery, I ___ travel the world.",
+      "options": [
+        "would",
+        "will",
+        "would have",
+        "had"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is a mixed conditional?",
+      "options": [
+        "If I had taken that job, I'd be rich now.",
+        "If I take that job, I'll be rich.",
+        "If I took that job, I'd be rich.",
+        "If I had taken that job, I'd have been rich."
+      ],
+      "answer": [
+        "If I had taken that job, I'd be rich now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado + presente.",
+        "incorrect": "Revisa esto: Pasado + presente."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 25,
+      "prompt": "If I were taller, I ___ have joined the basketball team. (habría)",
+      "answer": [
+        "would",
+        "'d"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would have.",
+        "incorrect": "Revisa esto: Would have."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 25,
+      "prompt": "If it hadn't been ___ you, I would have given up. (por)",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If it hadn't been for.",
+        "incorrect": "Revisa esto: If it hadn't been for."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I would be taller, I would play basketball.",
+      "answer": [
+        "If I were taller, I would play basketball.",
+        "If I was taller, I would play basketball."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + past simple.",
+        "incorrect": "Revisa esto: If + past simple."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I did not study harder at university. If I studied harder, I would have a better job now.",
+      "answer": [
+        "I did not study harder at university. If I had studied harder, I would have a better job now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado → presente: if + past perfect.",
+        "incorrect": "Revisa esto: Pasado → presente: if + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to have told me.",
+      "answer": [
+        "You should have told me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you do if you lose your keys?",
+      "options": [
+        "will",
+        "would",
+        "do",
+        "are"
+      ],
+      "answer": [
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta del primer condicional.",
+        "incorrect": "Revisa esto: Pregunta del primer condicional."
+      },
+      "review_of": "en-b1-u04-l02-ex07"
+    },
+    {
+      "id": "en-b2-u02-l03-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué no volvió a casa el año pasado?",
+      "options": [
+        "Es muy terco",
+        "No tenía dinero",
+        "Le gustaba el clima",
+        "Tenía miedo"
+      ],
+      "answer": [
+        "Es muy terco"
+      ],
+      "audio_text": "If I hadn't moved to Canada ten years ago, I wouldn't be working here today. And if I weren't so stubborn, I probably would have gone back home last year.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: if I weren't so stubborn.",
+        "incorrect": "Revisa esto: Dice: if I weren't so stubborn."
+      },
+      "audio_script_id": "en-b2-u02-l03-ex17-a"
+    },
+    {
+      "id": "en-b2-u02-l03-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si hubiera estudiado medicina, ahora sería médico.",
+      "answer": [
+        "If I had studied medicine, I would be a doctor now.",
+        "If I had studied medicine, I'd be a doctor now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condicional mixto.",
+        "incorrect": "Revisa esto: Condicional mixto."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Yo en tu lugar le habría dicho la verdad.",
+      "answer": [
+        "If I were you, I'd have told him the truth.",
+        "If I were you, I would have told him the truth.",
+        "If I were you, I'd have told her the truth."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If I were you, I'd have + participio.",
+        "incorrect": "Revisa esto: If I were you, I'd have + participio."
+      }
+    },
+    {
+      "id": "en-b2-u02-l03-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué falta por hacer?",
+      "options": [
+        "Reservar la guesthouse",
+        "Comprar vuelos",
+        "Pedir visado",
+        "Alquilar coche"
+      ],
+      "answer": [
+        "Reservar la guesthouse"
+      ],
+      "audio_text": "We're thinking of flying to Rome in October. The flights aren't expensive in low season, and we've found a nice little guesthouse near the centre. We just need to book it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: We just need to book it.",
+        "incorrect": "Revisa esto: Dice: We just need to book it."
+      },
+      "audio_script_id": "en-b2-u02-l03-rv06-a",
+      "review_of": "en-b1-u06-l01-ex15"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "If I had studied, I'd be … now.",
+      "If I weren't so …, I would have …",
+      "If I were you, I'd have …",
+      "If it hadn't been for you, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-keep-thinking"
+    },
+    {
+      "type": "vocab",
+      "id": "en-torture"
+    },
+    {
+      "type": "vocab",
+      "id": "en-enrol"
+    },
+    {
+      "type": "vocab",
+      "id": "en-patient"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regret"
+    },
+    {
+      "type": "vocab",
+      "id": "en-position"
+    },
+    {
+      "type": "vocab",
+      "id": "en-doubt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-by-now"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-s-not-too-late"
+    },
+    {
+      "type": "vocab",
+      "id": "en-if-it-hadn-t-been-for"
+    },
+    {
+      "type": "grammar",
+      "id": "en-mixed-conditionals"
+    }
+  ]
+}

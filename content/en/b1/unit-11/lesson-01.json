@@ -1,0 +1,934 @@
+{
+  "id": "en-b1-u11-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 11,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Friends and feelings",
+    "es": "Amigos y sentimientos"
+  },
+  "objective": "Al terminar hablas de amistades, sentimientos y relaciones con vocabulario preciso: trust, jealous, miss, rely on, get along.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Describir cómo te sientes con otras personas y cómo es una relación exige más que 'bueno' y 'malo'. Aquí ganas matices."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Cara",
+        "text": "I haven't seen Dani for months. We used to be inseparable, but we've drifted apart.",
+        "es": "Hace meses que no veo a Dani. Éramos inseparables, pero nos hemos distanciado."
+      },
+      {
+        "speaker": "Ira",
+        "text": "That's a shame. What happened?",
+        "es": "Qué pena. ¿Qué pasó?"
+      },
+      {
+        "speaker": "Cara",
+        "text": "He got a new job in another city and we don't have much in common anymore. I miss him, though.",
+        "es": "Consiguió un trabajo en otra ciudad y ya no tenemos mucho en común. Aunque lo echo de menos."
+      },
+      {
+        "speaker": "Ira",
+        "text": "Have you tried calling him? A real friend will always make time for you.",
+        "es": "¿Has intentado llamarlo? Un amigo de verdad siempre te hace un hueco."
+      },
+      {
+        "speaker": "Cara",
+        "text": "I'm a bit jealous of his new friends, to be honest. And I feel guilty for not keeping in touch.",
+        "es": "Estoy un poco celosa de sus nuevos amigos, la verdad. Y me siento culpable por no mantener el contacto."
+      },
+      {
+        "speaker": "Ira",
+        "text": "Don't be hard on yourself. Friendships need effort from both sides. Can you rely on him when you have a problem?",
+        "es": "No seas tan dura contigo. Las amistades requieren esfuerzo de ambas partes. ¿Puedes contar con él cuando tienes un problema?"
+      },
+      {
+        "speaker": "Cara",
+        "text": "Definitely. I trust him completely. He's loyal and honest.",
+        "es": "Sin duda. Confío plenamente en él. Es leal y sincero."
+      },
+      {
+        "speaker": "Ira",
+        "text": "Then send him a message today. I'm sure he'll be delighted to hear from you.",
+        "es": "Entonces mándale un mensaje hoy. Seguro que estará encantado de saber de ti."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-inseparable",
+        "lemma": "inseparable",
+        "pos": "adj",
+        "ipa": "/ɪnˈsepərəbl/",
+        "es": "inseparable",
+        "example": "They were inseparable."
+      },
+      {
+        "id": "en-drift-apart",
+        "lemma": "drift apart",
+        "pos": "phrasal verb",
+        "ipa": "/drɪft əˈpɑːt/",
+        "es": "distanciarse",
+        "example": "We drifted apart."
+      },
+      {
+        "id": "en-have-in-common",
+        "lemma": "have in common",
+        "pos": "phrase",
+        "ipa": "/hæv ɪn ˈkɒmən/",
+        "es": "tener en común",
+        "example": "We have a lot in common."
+      },
+      {
+        "id": "en-miss",
+        "lemma": "miss",
+        "pos": "verb",
+        "ipa": "/mɪs/",
+        "es": "echar de menos",
+        "example": "I miss my family."
+      },
+      {
+        "id": "en-make-time-for",
+        "lemma": "make time for",
+        "pos": "phrase",
+        "ipa": "/meɪk taɪm fə/",
+        "es": "sacar tiempo para",
+        "example": "Make time for friends."
+      },
+      {
+        "id": "en-jealous",
+        "lemma": "jealous",
+        "pos": "adj",
+        "ipa": "/ˈdʒeləs/",
+        "es": "celoso, envidioso",
+        "example": "I'm jealous of her."
+      },
+      {
+        "id": "en-guilty",
+        "lemma": "guilty",
+        "pos": "adj",
+        "ipa": "/ˈɡɪlti/",
+        "es": "culpable",
+        "example": "I feel guilty."
+      },
+      {
+        "id": "en-keep-in-touch",
+        "lemma": "keep in touch",
+        "pos": "phrase",
+        "ipa": "/kiːp ɪn tʌtʃ/",
+        "es": "mantener el contacto",
+        "example": "Let's keep in touch."
+      },
+      {
+        "id": "en-rely-on",
+        "lemma": "rely on",
+        "pos": "phrasal verb",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "es": "contar con, depender de",
+        "example": "You can rely on me."
+      },
+      {
+        "id": "en-trust",
+        "lemma": "trust",
+        "pos": "verb/noun",
+        "ipa": "/trʌst/",
+        "es": "confiar / confianza",
+        "example": "I trust her."
+      },
+      {
+        "id": "en-loyal",
+        "lemma": "loyal",
+        "pos": "adj",
+        "ipa": "/ˈlɔɪəl/",
+        "es": "leal",
+        "example": "A loyal friend."
+      },
+      {
+        "id": "en-honest",
+        "lemma": "honest",
+        "pos": "adj",
+        "ipa": "/ˈɒnɪst/",
+        "es": "sincero, honesto",
+        "example": "He's honest."
+      },
+      {
+        "id": "en-delighted",
+        "lemma": "delighted",
+        "pos": "adj",
+        "ipa": "/dɪˈlaɪtɪd/",
+        "es": "encantado",
+        "example": "I'm delighted."
+      }
+    ],
+    "audio_script_id": "en-b1-u11-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de relaciones y sentimientos**\n\n| Tema | Palabras |\n|---|---|\n| **Relaciones** | *friend · best friend · acquaintance (conocido) · partner · colleague · flatmate · neighbour · ex* |\n| **Cualidades** | *loyal · honest · reliable · generous · supportive · funny · caring · selfish · rude* |\n| **Sentimientos positivos** | *delighted · thrilled · proud · relieved · grateful · content* |\n| **Sentimientos negativos** | *jealous · guilty · upset · disappointed · lonely · anxious · furious* |\n| **Acciones** | *get on / get along · fall out · make up · split up · keep in touch · drift apart · look up to · count on* |\n\n**Estructuras**\n\n- *I feel + adjetivo*: *I feel guilty.*\n- *I'm jealous / proud / afraid / fond **of** + sustantivo o -ing.*\n- *I get on well **with** + persona.*\n- *We have a lot **in common**.* · *We don't see eye to eye.* (no coincidimos)\n- *You can rely on / count on / depend on me.*\n\n**Adjetivos -ed / -ing**\n\n- *I'm **disappointed**.* (yo siento) / *It's **disappointing**.* (la cosa provoca)\n- *She's **annoyed** / **annoying**.* · *He's **worried** / **worrying**.*\n\n**Ojo — falsos amigos**\n\n- *Sensible* ≠ sensible (es 'sensato'); *sensitive* = sensible.\n- *Sympathetic* ≠ simpático (es 'comprensivo'); *nice / friendly* = simpático.\n- *Embarrassed* ≠ embarazada (es 'avergonzado'); *pregnant* = embarazada.\n- *Constipated* = estreñido.\n- *Jealous* (celos de pareja o envidia) ≠ *envious* (envidia sana).\n\nPronunciación: *jealous* /ˈdʒeləs/ · *guilty* /ˈɡɪlti/ (la 'u' no suena) · *loyal* /ˈlɔɪəl/ · *honest* /ˈɒnɪst/ (la 'h' no suena).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm jealous for her.",
+        "right": "I'm jealous of her.",
+        "note": "Jealous of."
+      },
+      {
+        "wrong": "I'm very embarrassed (estoy embarazada).",
+        "right": "I'm pregnant.",
+        "note": "Embarrassed = avergonzado."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "embarrassed",
+        "es_false": "embarazada",
+        "real": "avergonzado",
+        "note": "Embarazada = pregnant."
+      },
+      {
+        "word": "sympathetic",
+        "es_false": "simpático",
+        "real": "comprensivo",
+        "note": "Simpático = nice / friendly."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u11-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "jealous",
+          "right": "celoso"
+        },
+        {
+          "left": "loyal",
+          "right": "leal"
+        },
+        {
+          "left": "guilty",
+          "right": "culpable"
+        },
+        {
+          "left": "miss",
+          "right": "echar de menos"
+        },
+        {
+          "left": "trust",
+          "right": "confiar"
+        },
+        {
+          "left": "delighted",
+          "right": "encantado"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de relaciones.",
+        "incorrect": "Revisa esto: Vocabulario de relaciones."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Sentimiento positivo o negativo?",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "delighted",
+          "category": "Positive"
+        },
+        {
+          "text": "proud",
+          "category": "Positive"
+        },
+        {
+          "text": "relieved",
+          "category": "Positive"
+        },
+        {
+          "text": "grateful",
+          "category": "Positive"
+        },
+        {
+          "text": "jealous",
+          "category": "Negative"
+        },
+        {
+          "text": "guilty",
+          "category": "Negative"
+        },
+        {
+          "text": "lonely",
+          "category": "Negative"
+        },
+        {
+          "text": "furious",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por tono ayuda a recordar.",
+        "incorrect": "Revisa esto: Clasificar por tono ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué se distanciaron Cara y Dani?",
+      "options": [
+        "Dani se mudó por trabajo",
+        "Se pelearon",
+        "Cara se mudó",
+        "Se casaron"
+      ],
+      "answer": [
+        "Dani se mudó por trabajo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: He got a new job in another city.",
+        "incorrect": "Revisa esto: Dice: He got a new job in another city."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to home at six.",
+      "answer": [
+        "I go home at six."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'home' no se usa 'to': go home.",
+        "incorrect": "Revisa esto: Con 'home' no se usa 'to': go home."
+      },
+      "review_of": "en-a1-u04-l01-ex04"
+    },
+    {
+      "id": "en-b1-u11-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo se siente Cara?",
+      "options": [
+        "Celosa y culpable",
+        "Furiosa",
+        "Orgullosa",
+        "Aliviada"
+      ],
+      "answer": [
+        "Celosa y culpable"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: jealous … guilty.",
+        "incorrect": "Revisa esto: Dice: jealous … guilty."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Ira?",
+      "options": [
+        "Mandarle un mensaje hoy",
+        "Olvidarlo",
+        "Llamar a sus padres",
+        "Cambiar de ciudad"
+      ],
+      "answer": [
+        "Mandarle un mensaje hoy"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: send him a message today.",
+        "incorrect": "Revisa esto: Dice: send him a message today."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 15,
+      "prompt": "Cara no confía en Dani.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I trust him completely.",
+        "incorrect": "Revisa esto: Dice: I trust him completely."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm very ___ of my sister. She won the competition.",
+      "options": [
+        "proud",
+        "jealous",
+        "bored",
+        "ashamed"
+      ],
+      "answer": [
+        "proud"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Proud of.",
+        "incorrect": "Revisa esto: Proud of."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can ___ on me. I'll always help you.",
+      "options": [
+        "rely",
+        "wait",
+        "stay",
+        "look"
+      ],
+      "answer": [
+        "rely"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rely on.",
+        "incorrect": "Revisa esto: Rely on."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ sun is very hot today.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "(no article)"
+      ],
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hay un solo sol: the.",
+        "incorrect": "Revisa esto: Hay un solo sol: the."
+      },
+      "review_of": "en-a1-u11-l03-ex05"
+    },
+    {
+      "id": "en-b1-u11-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm sure he left the keys at home. He ___ have taken them.",
+      "options": [
+        "can't",
+        "might not",
+        "could",
+        "may"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't have = imposible.",
+        "incorrect": "Revisa esto: Can't have = imposible."
+      },
+      "review_of": "en-b1-u09-l03-ex10"
+    },
+    {
+      "id": "en-b1-u11-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 20,
+      "prompt": "Alguien te pide el pasaporte. Se lo das y dices:",
+      "options": [
+        "Here you are.",
+        "Of course not.",
+        "No problem.",
+        "I'm sorry."
+      ],
+      "answer": [
+        "Here you are."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí tiene = Here you are.",
+        "incorrect": "Revisa esto: Aquí tiene = Here you are."
+      },
+      "review_of": "en-a2-u02-l03-ex06"
+    },
+    {
+      "id": "en-b1-u11-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "We have a lot ___ common: we both love music.",
+      "options": [
+        "in",
+        "of",
+        "at",
+        "on"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In common.",
+        "incorrect": "Revisa esto: In common."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's from France. She's ___.",
+      "options": [
+        "French",
+        "France",
+        "Fransh",
+        "Frencher"
+      ],
+      "answer": [
+        "French"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! País: France. Nacionalidad: French.",
+        "incorrect": "Revisa esto: País: France. Nacionalidad: French."
+      },
+      "review_of": "en-a1-u02-l06-ex02"
+    },
+    {
+      "id": "en-b1-u11-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm very ___ with the result. I wanted more.",
+      "options": [
+        "disappointed",
+        "disappointing",
+        "disappoints",
+        "disappoint"
+      ],
+      "answer": [
+        "disappointed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo -ed.",
+        "incorrect": "Revisa esto: Adjetivo -ed."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "The news was very ___ . Everybody felt sad.",
+      "options": [
+        "disappointing",
+        "disappointed",
+        "disappoint",
+        "disappoints"
+      ],
+      "answer": [
+        "disappointing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo -ing.",
+        "incorrect": "Revisa esto: Adjetivo -ing."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's very ___ . He always listens and supports his friends.",
+      "options": [
+        "supportive",
+        "selfish",
+        "rude",
+        "lazy"
+      ],
+      "answer": [
+        "supportive"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Supportive = comprensivo, que apoya.",
+        "incorrect": "Revisa esto: Supportive = comprensivo, que apoya."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Puedo probármelo?",
+      "answer": [
+        "Can I try it on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Probarse = try on.",
+        "incorrect": "Revisa esto: Probarse = try on."
+      },
+      "review_of": "en-a1-u08-l05-ex10"
+    },
+    {
+      "id": "en-b1-u11-l01-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 25,
+      "prompt": "I get ___ well with my colleagues. (me llevo)",
+      "answer": [
+        "on"
+      ],
+      "accepted_alternatives": [
+        "along"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on well with.",
+        "incorrect": "Revisa esto: Get on well with."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "The telephone ___ by Bell.",
+      "options": [
+        "was invented",
+        "invented",
+        "is invent",
+        "were invented"
+      ],
+      "answer": [
+        "was invented"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva pasado.",
+        "incorrect": "Revisa esto: Pasiva pasado."
+      },
+      "review_of": "en-b1-u05-l06-ex04"
+    },
+    {
+      "id": "en-b1-u11-l01-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (play) football yesterday.",
+      "answer": [
+        "played"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocal + y: solo se añade -ed.",
+        "incorrect": "Revisa esto: Vocal + y: solo se añade -ed."
+      },
+      "review_of": "en-a2-u01-l02-ex01"
+    },
+    {
+      "id": "en-b1-u11-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 25,
+      "prompt": "I feel ___ about not calling you back. (culpable)",
+      "answer": [
+        "guilty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Guilty.",
+        "incorrect": "Revisa esto: Guilty."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I felt very embarassed after my mistake.",
+      "answer": [
+        "I felt very embarrassed after my mistake."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Embarrassed lleva dos r y dos s.",
+        "incorrect": "Revisa esto: Embarrassed lleva dos r y dos s."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am jealous for her success.",
+      "answer": [
+        "I am jealous of her success."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Jealous of.",
+        "incorrect": "Revisa esto: Jealous of."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es su amiga?",
+      "options": [
+        "Leal, sincera y siempre tiene tiempo",
+        "Egoísta",
+        "Distante",
+        "Celosa"
+      ],
+      "answer": [
+        "Leal, sincera y siempre tiene tiempo"
+      ],
+      "audio_text": "My best friend and I have known each other since school. We have a lot in common, and I can rely on her for anything. She's honest, loyal and always makes time for me.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: honest, loyal and always makes time for me.",
+        "incorrect": "Revisa esto: Dice: honest, loyal and always makes time for me."
+      },
+      "audio_script_id": "en-b1-u11-l01-ex17-a"
+    },
+    {
+      "id": "en-b1-u11-l01-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Echo de menos a mis amigos, pero intentamos mantener el contacto.",
+      "answer": [
+        "I miss my friends, but we try to keep in touch.",
+        "I miss my friends but we try to keep in touch."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Miss / keep in touch.",
+        "incorrect": "Revisa esto: Miss / keep in touch."
+      }
+    },
+    {
+      "id": "en-b1-u11-l01-ex19",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "feelings-vocab"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "jealous",
+          "ipa": "/ˈdʒeləs/",
+          "tip_es": "Empieza con /dʒ/."
+        },
+        {
+          "text": "guilty",
+          "ipa": "/ˈɡɪlti/",
+          "tip_es": "La 'u' no suena."
+        },
+        {
+          "text": "honest",
+          "ipa": "/ˈɒnɪst/",
+          "tip_es": "La 'h' no se pronuncia."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I miss … · We keep in touch.",
+      "jealous · guilty · proud of …",
+      "You can rely on me.",
+      "We have a lot in common."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-inseparable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-drift-apart"
+    },
+    {
+      "type": "vocab",
+      "id": "en-have-in-common"
+    },
+    {
+      "type": "vocab",
+      "id": "en-miss"
+    },
+    {
+      "type": "vocab",
+      "id": "en-make-time-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-jealous"
+    },
+    {
+      "type": "vocab",
+      "id": "en-guilty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-in-touch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rely-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trust"
+    },
+    {
+      "type": "grammar",
+      "id": "en-feelings-vocab"
+    }
+  ]
+}

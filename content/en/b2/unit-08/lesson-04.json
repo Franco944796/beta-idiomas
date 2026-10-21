@@ -1,0 +1,931 @@
+{
+  "id": "en-b2-u08-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 8,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Let's debate",
+    "es": "Debatir: turnos, concesiones y refutaciones"
+  },
+  "objective": "Al terminar participas en un debate formal: presentas tu postura, refutas argumentos, haces preguntas y respondes a objeciones con cortesía.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un debate es un juego de argumentos: tienes que defender tu postura, escuchar la contraria y rebatirla con datos y lógica, sin perder las formas. Aquí practicas el lenguaje del debate."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Chair",
+        "text": "Welcome to tonight's debate. The motion is: 'This house believes that university education should be free for all.' Speaking for the motion, Laura.",
+        "es": "Bienvenidos al debate de esta noche. La moción es: 'Esta cámara cree que la educación universitaria debería ser gratuita para todos'. A favor de la moción, Laura."
+      },
+      {
+        "speaker": "Laura",
+        "text": "Thank you, Chair. We firmly believe that education is a right, not a privilege. Firstly, free tuition would remove financial barriers for talented students. Secondly, society as a whole benefits from a well-educated population.",
+        "es": "Gracias, presidente. Creemos firmemente que la educación es un derecho, no un privilegio. En primer lugar, la matrícula gratuita eliminaría barreras económicas para estudiantes con talento. En segundo lugar, toda la sociedad se beneficia de una población bien formada."
+      },
+      {
+        "speaker": "Chair",
+        "text": "Thank you. Speaking against the motion, Adam.",
+        "es": "Gracias. En contra de la moción, Adam."
+      },
+      {
+        "speaker": "Adam",
+        "text": "Thank you, Chair. My opponent makes a compelling case, but I'd like to challenge her assumptions. Who is going to pay? Free tuition would cost billions, and taxpayers who never went to university would be funding those who did.",
+        "es": "Gracias, presidente. Mi oponente presenta un argumento convincente, pero quisiera cuestionar sus supuestos. ¿Quién va a pagar? La matrícula gratuita costaría miles de millones y los contribuyentes que nunca fueron a la universidad financiarían a quienes sí fueron."
+      },
+      {
+        "speaker": "Laura",
+        "text": "Point of information? Isn't it true that graduates pay more tax over their lifetimes, so the investment returns to the state?",
+        "es": "¿Punto de información? ¿No es cierto que los graduados pagan más impuestos a lo largo de su vida y la inversión vuelve al Estado?"
+      },
+      {
+        "speaker": "Adam",
+        "text": "I'll take that. That's partly true, but it ignores those who drop out or earn modest salaries. Besides, a system with no fees often leads to overcrowded lecture halls and lower quality.",
+        "es": "Lo acepto. Eso es en parte cierto, pero ignora a quienes abandonan o ganan salarios modestos. Además, un sistema sin tasas suele llevar a aulas masificadas y menor calidad."
+      },
+      {
+        "speaker": "Laura",
+        "text": "I'd argue that this is a matter of funding priorities rather than an inevitable consequence. Countries like Germany have shown it can work.",
+        "es": "Yo sostengo que es cuestión de prioridades de financiación y no una consecuencia inevitable. Países como Alemania han demostrado que puede funcionar."
+      },
+      {
+        "speaker": "Adam",
+        "text": "Germany also restricts places in popular courses. In my closing remark: a fairer solution would be income-based loans, repaid only when graduates earn enough.",
+        "es": "Alemania también restringe plazas en cursos populares. En mi conclusión: una solución más justa serían préstamos ligados a los ingresos, devueltos solo cuando los graduados ganen lo suficiente."
+      },
+      {
+        "speaker": "Chair",
+        "text": "Thank you both. The audience will now vote.",
+        "es": "Gracias a ambos. El público votará ahora."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-motion",
+        "lemma": "motion",
+        "pos": "noun",
+        "ipa": "/ˈməʊʃn/",
+        "es": "moción",
+        "example": "The motion is…"
+      },
+      {
+        "id": "en-privilege",
+        "lemma": "privilege",
+        "pos": "noun",
+        "ipa": "/ˈprɪvəlɪdʒ/",
+        "es": "privilegio",
+        "example": "A privilege, not a right."
+      },
+      {
+        "id": "en-barrier",
+        "lemma": "barrier",
+        "pos": "noun",
+        "ipa": "/ˈbæriə/",
+        "es": "barrera",
+        "example": "Remove barriers."
+      },
+      {
+        "id": "en-opponent",
+        "lemma": "opponent",
+        "pos": "noun",
+        "ipa": "/əˈpəʊnənt/",
+        "es": "oponente",
+        "example": "My opponent said…"
+      },
+      {
+        "id": "en-compelling",
+        "lemma": "compelling",
+        "pos": "adj",
+        "ipa": "/kəmˈpelɪŋ/",
+        "es": "convincente",
+        "example": "A compelling argument."
+      },
+      {
+        "id": "en-challenge",
+        "lemma": "challenge",
+        "pos": "verb",
+        "ipa": "/ˈtʃælɪndʒ/",
+        "es": "cuestionar",
+        "example": "Challenge assumptions."
+      },
+      {
+        "id": "en-taxpayer",
+        "lemma": "taxpayer",
+        "pos": "noun",
+        "ipa": "/ˈtæksˌpeɪə/",
+        "es": "contribuyente",
+        "example": "Taxpayers fund it."
+      },
+      {
+        "id": "en-point-of-information",
+        "lemma": "point of information",
+        "pos": "noun",
+        "ipa": "/pɔɪnt əv ˌɪnfəˈmeɪʃn/",
+        "es": "punto de información",
+        "example": "A point of information?"
+      },
+      {
+        "id": "en-inevitable",
+        "lemma": "inevitable",
+        "pos": "adj",
+        "ipa": "/ɪnˈevɪtəbl/",
+        "es": "inevitable",
+        "example": "Not inevitable."
+      },
+      {
+        "id": "en-closing-remark",
+        "lemma": "closing remark",
+        "pos": "noun",
+        "ipa": "/ˈkləʊzɪŋ rɪˈmɑːk/",
+        "es": "observación final",
+        "example": "In my closing remark…"
+      },
+      {
+        "id": "en-income-based",
+        "lemma": "income-based",
+        "pos": "adj",
+        "ipa": "/ˈɪnkʌm beɪst/",
+        "es": "ligado a los ingresos",
+        "example": "Income-based loans."
+      }
+    ],
+    "audio_script_id": "en-b2-u08-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Lenguaje del debate**\n\n| Función | Frases |\n|---|---|\n| **Presentar la postura** | *We firmly believe that … · Our position is that … · The motion is … · We stand for/against the motion.* |\n| **Ordenar los argumentos** | *Firstly, … Secondly, … Finally, … · The first point is … · Moving on to …* |\n| **Refutar con cortesía** | *My opponent makes a compelling case, but … · With respect, … · That's a valid point, but it overlooks …* |\n| **Cuestionar supuestos** | *I'd like to challenge the assumption that … · Who is going to pay? · What evidence is there that …?* |\n| **Pedir un punto de información** | *Point of information? · Would you give way? · May I ask a question?* |\n| **Responder** | *I'll take that. · Not at the moment, thank you. · Let me finish this point.* |\n| **Matizar** | *That's partly true, but … · It depends on … · To some extent, … · Admittedly, …* |\n| **Apoyar con datos** | *Studies show that … · According to … · For instance, … · A case in point is …* |\n| **Concluir** | *In conclusion, … · To sum up, … · For these reasons, we urge you to vote …* |\n\n**Recursos retóricos**\n\n- Pregunta retórica: *Why should taxpayers pay for it?*\n- Triada: *fair, affordable and sustainable.*\n- Contraste: *not a privilege, but a right.* · Concesión: *Admittedly, it's expensive, but …*\n\n**Condicionales para argumentar**\n\n- *If we did nothing, the situation would get worse.* · *Unless we act now, … * · *Were it not for …, …*\n\n**Errores típicos**\n\n- ✘ *I am not agree with you.* → ✔ *I don't agree with you.* / *I disagree.*\n- ✘ *You are wrong!* (agresivo) → ✔ *With respect, I see it differently.*\n- ✘ *We are in favour to the motion.* → ✔ *We are in favour of the motion.*\n- ✘ *Against to the motion.* → ✔ *Against the motion.*\n- ✘ *I want to say you that …* → ✔ *I want to tell you that …*\n\n**Ojo:** *Argue* (discutir/sostener) ≠ *fight*. *Discussion* y *debate* no son lo mismo: el debate tiene posturas opuestas y normas. *Opponent* (oponente) ≠ *opposite* (opuesto). *Debate* se pronuncia /dɪˈbeɪt/.\n\nPronunciación: *motion* /ˈməʊʃn/ · *compelling* /kəmˈpelɪŋ/ · *privilege* /ˈprɪvəlɪdʒ/ · *inevitable* /ɪnˈevɪtəbl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I am not agree",
+        "right": "I don't agree",
+        "note": "Agree es verbo."
+      },
+      {
+        "wrong": "against to",
+        "right": "against",
+        "note": "Sin to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u08-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la moción del debate?",
+      "options": [
+        "La educación universitaria debería ser gratuita para todos",
+        "Los colegios deberían cerrar",
+        "Los exámenes deben eliminarse",
+        "Los profesores deben ganar más"
+      ],
+      "answer": [
+        "La educación universitaria debería ser gratuita para todos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: university education should be free for all.",
+        "incorrect": "Revisa esto: Dice: university education should be free for all."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué argumento principal usa Adam en contra?",
+      "options": [
+        "El coste para los contribuyentes",
+        "Que la educación es mala",
+        "Que nadie quiere estudiar",
+        "Que ya es gratuita"
+      ],
+      "answer": [
+        "El coste para los contribuyentes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Free tuition would cost billions.",
+        "incorrect": "Revisa esto: Dice: Free tuition would cost billions."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo de cocina con su significado.",
+      "pairs": [
+        {
+          "left": "boil",
+          "right": "hervir"
+        },
+        {
+          "left": "fry",
+          "right": "freír"
+        },
+        {
+          "left": "chop",
+          "right": "picar"
+        },
+        {
+          "left": "stir",
+          "right": "revolver"
+        },
+        {
+          "left": "drain",
+          "right": "escurrir"
+        },
+        {
+          "left": "add",
+          "right": "agregar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son los verbos más frecuentes de una receta.",
+        "incorrect": "Revisa esto: Son los verbos más frecuentes de una receta."
+      },
+      "review_of": "en-a2-u04-l05-ex01"
+    },
+    {
+      "id": "en-b2-u08-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué solución propone Adam?",
+      "options": [
+        "Préstamos ligados a los ingresos",
+        "Aumentar tasas",
+        "Eliminar universidades",
+        "Becas para todos"
+      ],
+      "answer": [
+        "Préstamos ligados a los ingresos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: income-based loans.",
+        "incorrect": "Revisa esto: Dice: income-based loans."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 15,
+      "prompt": "Laura menciona Alemania como ejemplo de que puede funcionar.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Countries like Germany have shown it can work.",
+        "incorrect": "Revisa esto: Dice: Countries like Germany have shown it can work."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have some good ___ for you!",
+      "options": [
+        "news",
+        "a news",
+        "newses",
+        "new"
+      ],
+      "answer": [
+        "news"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News incontable.",
+        "incorrect": "Revisa esto: News incontable."
+      },
+      "review_of": "en-b2-u03-l06-ex02"
+    },
+    {
+      "id": "en-b2-u08-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "My opponent makes a ___ case, but I disagree.",
+      "options": [
+        "compelling",
+        "compelled",
+        "compel",
+        "compellingly"
+      ],
+      "answer": [
+        "compelling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Compelling case.",
+        "incorrect": "Revisa esto: Compelling case."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more time.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado.",
+        "incorrect": "Revisa esto: Wish + pasado."
+      },
+      "review_of": "en-b1-u12-l06-ex05"
+    },
+    {
+      "id": "en-b2-u08-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to ___ the assumption that free tuition is affordable.",
+      "options": [
+        "challenge",
+        "agree",
+        "support",
+        "ignore"
+      ],
+      "answer": [
+        "challenge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Challenge.",
+        "incorrect": "Revisa esto: Challenge."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ finished. (acabo de)",
+      "answer": [
+        "just"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Just = acabo de.",
+        "incorrect": "Revisa esto: Just = acabo de."
+      },
+      "review_of": "en-a2-u08-l03-ex01"
+    },
+    {
+      "id": "en-b2-u08-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Point of information?' means...",
+      "options": [
+        "Pido permiso para hacer una pregunta o aportar un dato",
+        "Mi punto final",
+        "Mi información personal",
+        "Cambio de tema"
+      ],
+      "answer": [
+        "Pido permiso para hacer una pregunta o aportar un dato"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Término de debate.",
+        "incorrect": "Revisa esto: Término de debate."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "We are in favour ___ the motion.",
+      "options": [
+        "of",
+        "to",
+        "with",
+        "for"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In favour of.",
+        "incorrect": "Revisa esto: In favour of."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "With ___ , I see it differently.",
+      "options": [
+        "respect",
+        "respects",
+        "respecting",
+        "respected"
+      ],
+      "answer": [
+        "respect"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! With respect.",
+        "incorrect": "Revisa esto: With respect."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , graduates pay more tax over their lives. (Es cierto que)",
+      "options": [
+        "Admittedly",
+        "Fortunately",
+        "Hardly",
+        "Nowhere"
+      ],
+      "answer": [
+        "Admittedly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admittedly = es cierto que.",
+        "incorrect": "Revisa esto: Admittedly = es cierto que."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to disagree in a debate?",
+      "options": [
+        "With respect, I see it differently.",
+        "You're wrong.",
+        "That's stupid.",
+        "No way."
+      ],
+      "answer": [
+        "With respect, I see it differently."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cortesía.",
+        "incorrect": "Revisa esto: Cortesía."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Why should taxpayers pay for it?' is...",
+      "options": [
+        "a rhetorical question",
+        "an order",
+        "a condition",
+        "a polite request"
+      ],
+      "answer": [
+        "a rhetorical question"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta retórica.",
+        "incorrect": "Revisa esto: Pregunta retórica."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll take that. means...",
+      "options": [
+        "Acepto la pregunta o interrupción",
+        "Me llevo eso",
+        "No lo acepto",
+        "Es un regalo"
+      ],
+      "answer": [
+        "Acepto la pregunta o interrupción"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Responder a un punto.",
+        "incorrect": "Revisa esto: Responder a un punto."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 25,
+      "prompt": "Firstly, ... Secondly, ... ___ , we urge you to vote for the motion. (Por último)",
+      "answer": [
+        "Finally",
+        "Lastly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finally.",
+        "incorrect": "Revisa esto: Finally."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 25,
+      "prompt": "The people ___ very friendly.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Describir cómo es algo ahora: presente con are.",
+        "incorrect": "Revisa esto: Describir cómo es algo ahora: presente con are."
+      },
+      "review_of": "en-a2-u02-l05-ex06"
+    },
+    {
+      "id": "en-b2-u08-l04-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 25,
+      "prompt": "The first ___ is that education is a right. (punto)",
+      "answer": [
+        "point"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The first point.",
+        "incorrect": "Revisa esto: The first point."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am not agree with my opponent.",
+      "answer": [
+        "I don't agree with my opponent.",
+        "I disagree with my opponent."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't agree.",
+        "incorrect": "Revisa esto: Don't agree."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We are against to the motion.",
+      "answer": [
+        "We are against the motion."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Against sin to.",
+        "incorrect": "Revisa esto: Against sin to."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "formal-complaint"
+      ],
+      "est_seconds": 20,
+      "prompt": "The product was damaged ___ arrival.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On arrival.",
+        "incorrect": "Revisa esto: On arrival."
+      },
+      "review_of": "en-b2-u07-l06-ex14"
+    },
+    {
+      "id": "en-b2-u08-l04-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want to say you that this is unfair.",
+      "answer": [
+        "I want to tell you that this is unfair.",
+        "I want to say that this is unfair."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué pregunta plantea?",
+      "options": [
+        "¿Quién va a pagarlo?",
+        "¿Quién gana?",
+        "¿Cuándo empieza?",
+        "¿Dónde se aplicará?"
+      ],
+      "answer": [
+        "¿Quién va a pagarlo?"
+      ],
+      "audio_text": "With respect, my opponent overlooks one crucial point. Admittedly, free tuition has benefits, but who is going to pay for it? If we cut other services, we will harm the people we are trying to help.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: who is going to pay for it?",
+        "incorrect": "Revisa esto: Dice: who is going to pay for it?"
+      },
+      "audio_script_id": "en-b2-u08-l04-ex19-a"
+    },
+    {
+      "id": "en-b2-u08-l04-rv07",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 15,
+      "prompt": "La canción se grabó en 1975.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: It was recorded in 1975.",
+        "incorrect": "Revisa esto: Dice: It was recorded in 1975."
+      },
+      "review_of": "en-b1-u05-l03-ex04"
+    },
+    {
+      "id": "en-b2-u08-l04-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Participas en un debate escolar sobre los móviles en clase.",
+      "turns": [
+        {
+          "speaker": "Chair",
+          "text": "The motion is: 'Mobile phones should be banned in schools.' You're speaking against the motion."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "We firmly believe that phones can be valuable learning tools. Firstly, they give access to information; secondly, they help students organise their work.",
+            "Phones are good. I am against, no ban.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Presentar postura."
+        },
+        {
+          "speaker": "Opponent",
+          "text": "But they also distract students and cause bullying."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "With respect, that is a valid point, but it overlooks the fact that clear rules can solve the problem without a total ban.",
+            "You are wrong.",
+            "OK."
+          ],
+          "best": 0,
+          "why_es": "Refutar con cortesía."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u08-l04-rv08",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "The 11:30 to York has been ___. (cancelado)",
+      "answer": [
+        "cancelled"
+      ],
+      "accepted_alternatives": [
+        "canceled"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cancelled = cancelado.",
+        "incorrect": "Revisa esto: Cancelled = cancelado."
+      },
+      "review_of": "en-a2-u12-l04-ex04"
+    },
+    {
+      "id": "en-b2-u08-l04-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Con todo respeto, mi oponente presenta un argumento convincente, pero ignora quién va a pagarlo.",
+      "answer": [
+        "With respect, my opponent makes a compelling case, but he overlooks who is going to pay for it.",
+        "With respect, my opponent makes a compelling case, but he ignores who is going to pay for it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lenguaje de debate.",
+        "incorrect": "Revisa esto: Lenguaje de debate."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "We firmly believe that …",
+      "My opponent makes a compelling case, but …",
+      "With respect, I see it differently.",
+      "In conclusion, we urge you to vote …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-motion"
+    },
+    {
+      "type": "vocab",
+      "id": "en-privilege"
+    },
+    {
+      "type": "vocab",
+      "id": "en-barrier"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opponent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-compelling"
+    },
+    {
+      "type": "vocab",
+      "id": "en-challenge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-taxpayer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-point-of-information"
+    },
+    {
+      "type": "vocab",
+      "id": "en-inevitable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-closing-remark"
+    },
+    {
+      "type": "grammar",
+      "id": "en-debate"
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "id": "en-b1-u03-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 3,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 3",
+    "es": "Checkpoint 3"
+  },
+  "objective": "Al terminar demuestras que hablas de trabajo con colocaciones, cláusulas de tiempo, modales en pasado y respondes como en una entrevista.",
+  "est_minutes": 39,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 3: colocaciones de trabajo, when / as soon as / until, had to / managed to, carta y entrevista."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: colocaciones de trabajo, cláusulas de tiempo con presente, had to / didn't have to, could / was able to / managed to, la carta de presentación y las respuestas de entrevista.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 3**\n\n- *apply for a job · meet a deadline · be in charge of · be responsible for · work overtime*\n- *When I finish, I'll … · as soon as I get … · I won't leave until you come · by the time you arrive*\n- *I had to work late · We didn't have to wear a uniform · I could swim at five · I managed to finish it*\n- *I am writing to apply for … · I would be grateful if … · Yours sincerely / faithfully*\n- *I tend to …, but now I … · For example, …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u03-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada expresión con su categoría.",
+      "categories": [
+        "Good news",
+        "Bad news"
+      ],
+      "items": [
+        {
+          "text": "get a promotion",
+          "category": "Good news"
+        },
+        {
+          "text": "reach a target",
+          "category": "Good news"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Good news"
+        },
+        {
+          "text": "be fired",
+          "category": "Bad news"
+        },
+        {
+          "text": "miss a deadline",
+          "category": "Bad news"
+        },
+        {
+          "text": "be made redundant",
+          "category": "Bad news"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende el tono de cada expresión.",
+        "incorrect": "Revisa esto: Aprende el tono de cada expresión."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to ___ for the vacancy before Friday.",
+      "options": [
+        "apply",
+        "work",
+        "earn",
+        "hire"
+      ],
+      "answer": [
+        "apply"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apply for a vacancy.",
+        "incorrect": "Revisa esto: Apply for a vacancy."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "She is ___ of a team of ten people.",
+      "options": [
+        "in charge",
+        "responsible",
+        "able",
+        "good"
+      ],
+      "answer": [
+        "in charge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be in charge of.",
+        "incorrect": "Revisa esto: Be in charge of."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I ___ the job, I'll celebrate.",
+      "options": [
+        "get",
+        "will get",
+        "got",
+        "am going to get"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When + presente.",
+        "incorrect": "Revisa esto: When + presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll stay here until you ___.",
+      "options": [
+        "come back",
+        "will come back",
+        "came back",
+        "are coming back"
+      ],
+      "answer": [
+        "come back"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Until + presente.",
+        "incorrect": "Revisa esto: Until + presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 20,
+      "prompt": "The girl ___ a white scarf is talking to him.",
+      "options": [
+        "with",
+        "in",
+        "on",
+        "by"
+      ],
+      "answer": [
+        "with"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! With + accesorio.",
+        "incorrect": "Revisa esto: With + accesorio."
+      },
+      "review_of": "en-a2-u11-l03-ex05"
+    },
+    {
+      "id": "en-b1-u03-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 20,
+      "prompt": "Yesterday I ___ finish the report before six.",
+      "options": [
+        "had to",
+        "must",
+        "have to",
+        "mustn't"
+      ],
+      "answer": [
+        "had to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obligación pasada: had to.",
+        "incorrect": "Revisa esto: Obligación pasada: had to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-rv02",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "town"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "post office",
+      "answer": [
+        "post office"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Post office = correo.",
+        "incorrect": "Revisa esto: Post office = correo."
+      },
+      "audio_script_id": "en-b1-u03-l06-rv02-a",
+      "review_of": "en-a1-u07-l01-ex07"
+    },
+    {
+      "id": "en-b1-u03-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ English since 2022.",
+      "options": [
+        "has been studying",
+        "has been studied",
+        "studies",
+        "is studying"
+      ],
+      "answer": [
+        "has been studying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + actividad que continúa: continuo.",
+        "incorrect": "Revisa esto: Since + actividad que continúa: continuo."
+      },
+      "review_of": "en-b1-u01-l02-ex03"
+    },
+    {
+      "id": "en-b1-u03-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 20,
+      "prompt": "The door was locked, but I ___ open it with a key.",
+      "options": [
+        "managed to",
+        "could to",
+        "must",
+        "have"
+      ],
+      "answer": [
+        "managed to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Éxito concreto: managed to.",
+        "incorrect": "Revisa esto: Éxito concreto: managed to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Dear Sir or Madam, … ___",
+      "options": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Cheers",
+        "Love"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin nombre: faithfully.",
+        "incorrect": "Revisa esto: Sin nombre: faithfully."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 25,
+      "prompt": "I am writing ___ apply for the job of chef.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I am writing to apply for…",
+        "incorrect": "Revisa esto: I am writing to apply for…"
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 25,
+      "prompt": "I look forward ___ hearing from you.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ have to wear a uniform last year. (no teníamos que)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't have to.",
+        "incorrect": "Revisa esto: Didn't have to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "As soon as I will arrive, I'll call you.",
+      "answer": [
+        "As soon as I arrive, I'll call you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de as soon as, presente.",
+        "incorrect": "Revisa esto: Después de as soon as, presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ (see) that film three times.",
+      "answer": [
+        "seen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de see: seen.",
+        "incorrect": "Revisa esto: Participio de see: seen."
+      },
+      "review_of": "en-a2-u08-l01-ex02"
+    },
+    {
+      "id": "en-b1-u03-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She could pass the exam yesterday after studying hard.",
+      "answer": [
+        "She managed to pass the exam yesterday after studying hard.",
+        "She was able to pass the exam yesterday after studying hard."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Éxito concreto: managed to.",
+        "incorrect": "Revisa esto: Éxito concreto: managed to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm agree with the idea.",
+      "answer": [
+        "I agree with the idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree sin be.",
+        "incorrect": "Revisa esto: Agree sin be."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada país con su nacionalidad.",
+      "pairs": [
+        {
+          "left": "Spain",
+          "right": "Spanish"
+        },
+        {
+          "left": "Brazil",
+          "right": "Brazilian"
+        },
+        {
+          "left": "Mexico",
+          "right": "Mexican"
+        },
+        {
+          "left": "Italy",
+          "right": "Italian"
+        },
+        {
+          "left": "France",
+          "right": "French"
+        },
+        {
+          "left": "China",
+          "right": "Chinese"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende país y nacionalidad en pares.",
+        "incorrect": "Revisa esto: Aprende país y nacionalidad en pares."
+      },
+      "review_of": "en-a1-u02-l01-ex01"
+    },
+    {
+      "id": "en-b1-u03-l06-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "ever",
+        "been",
+        "to",
+        "Scotland",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "Scotland",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Experiencia de vida: present perfect.",
+        "incorrect": "Revisa esto: Experiencia de vida: present perfect."
+      },
+      "review_of": "en-a2-u08-l04-ex09"
+    },
+    {
+      "id": "en-b1-u03-l06-ex15",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hará cuando termine el contrato?",
+      "options": [
+        "Pedirá un ascenso",
+        "Dejará la empresa",
+        "Se irá de vacaciones",
+        "Pedirá un aumento"
+      ],
+      "answer": [
+        "Pedirá un ascenso"
+      ],
+      "audio_text": "When I finish this contract, I'll apply for a promotion. Until then, I have to work overtime almost every week.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'll apply for a promotion.",
+        "incorrect": "Revisa esto: Dice: I'll apply for a promotion."
+      },
+      "audio_script_id": "en-b1-u03-l06-ex15-a"
+    },
+    {
+      "id": "en-b1-u03-l06-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Cuando termine este proyecto, tendré que buscar otro trabajo.",
+      "answer": [
+        "When I finish this project, I'll have to look for another job.",
+        "When I finish this project, I will have to look for another job.",
+        "When I finish this project I'll have to find another job."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When + presente; will have to.",
+        "incorrect": "Revisa esto: When + presente; will have to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-ex17",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "work-collocations",
+        "future-time-clauses",
+        "past-ability-obligation"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre tu experiencia laboral o tus planes: qué haces, qué tuviste que hacer en un trabajo anterior, qué consiguiste y qué harás cuando termines tus estudios o proyecto actual.",
+      "min_words": 61,
+      "self_check_es": [
+        "¿Usaste colocaciones de trabajo?",
+        "¿Usaste when / as soon as + presente?",
+        "¿Usaste had to o managed to?",
+        "¿Mencionaste una habilidad?"
+      ],
+      "model_answer": "I work as a sales assistant and I'm responsible for the stock. At my previous job I had to get up at five every morning, but I managed to save a lot of money. When I finish my English course, I'll apply for a better position. As soon as I get a promotion, I'll look for a bigger flat. I'm good at working under pressure and I'm used to meeting tight deadlines.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u03-l06-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where you went last summer?",
+      "answer": [
+        "Where did you go last summer?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta did y el verbo va en base.",
+        "incorrect": "Revisa esto: Falta did y el verbo va en base."
+      },
+      "review_of": "en-a2-u02-l02-ex04"
+    },
+    {
+      "id": "en-b1-u03-l06-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations",
+        "future-time-clauses"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una entrevista de trabajo.",
+      "turns": [
+        {
+          "speaker": "Interviewer",
+          "text": "What were your responsibilities in your last job?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I was in charge of the customers' complaints, and I had to answer around thirty emails a day.",
+            "I was in charged of customers complaints and I must answer thirty emails each day.",
+            "I was responsible customers complaints and I had answer emails."
+          ],
+          "best": 0,
+          "why_es": "In charge of + had to."
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "What will you do as soon as you join the company?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "As soon as I join, I'll meet the team and learn the system.",
+            "As soon as I will join I meet the team and I learn the system.",
+            "When I will join the company I'll to meet the team."
+          ],
+          "best": 0,
+          "why_es": "As soon as + presente, will + verbo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "apply for · meet a deadline · be in charge of",
+      "When I finish, I'll … · until you come",
+      "I had to … · I managed to …",
+      "I am writing to apply for … · I look forward to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-work-collocations"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-time-clauses"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-ability-obligation"
+    },
+    {
+      "type": "grammar",
+      "id": "en-cv-letter"
+    },
+    {
+      "type": "grammar",
+      "id": "en-interview-answers"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "id": "en-b2-u12-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Giving feedback",
+    "es": "Dar y recibir feedback"
+  },
+  "objective": "Al terminar das y recibes feedback de forma constructiva (positivo, crítica, sugerencia) y escribes un correo de feedback profesional.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Dar feedback es una habilidad clave en el trabajo y los estudios. Aprendes a ser claro y amable, a combinar elogios con mejoras concretas y a recibir críticas sin ponerte a la defensiva."
+  },
+  "input": {
+    "type": "text",
+    "text": "Email: Feedback on your presentation\n\nHi Daniel,\n\nThank you for your presentation yesterday. I thought you did a really good job overall, and I wanted to share some feedback while it's still fresh.\n\nWhat worked well: your slides were clear and well structured, and your examples made the topic easy to follow. The way you answered the client's difficult question showed real confidence.\n\nWhat could be improved: at times you spoke a bit too fast, which made it hard to keep up with the figures. It might also help to slow down when you introduce new data. In addition, the conclusion felt slightly rushed. Perhaps you could prepare a stronger closing sentence next time?\n\nMy main suggestion would be to practise out loud with a timer. This usually helps you pace yourself and anticipate where to pause.\n\nPlease don't take this as criticism; you have great potential and I'm happy to help you prepare for the next one. Shall we meet for twenty minutes on Thursday?\n\nBest wishes,\nLaura",
+    "es": "Correo: Comentarios sobre tu presentación. Hola Daniel: Gracias por tu presentación de ayer. Creo que hiciste un muy buen trabajo en general y quería compartirte algunos comentarios mientras aún está fresco. Lo que funcionó bien: tus diapositivas eran claras y estaban bien estructuradas, y tus ejemplos hicieron que el tema fuera fácil de seguir. La forma en que respondiste a la difícil pregunta del cliente mostró mucha confianza. Lo que se podría mejorar: por momentos hablaste algo rápido, lo que hizo difícil seguir las cifras. También podría ayudar bajar el ritmo al presentar datos nuevos. Además, la conclusión pareció un poco apresurada. ¿Quizá podrías preparar una frase de cierre más fuerte la próxima vez? Mi principal sugerencia sería practicar en voz alta con un cronómetro. Esto suele ayudar a controlar el ritmo y anticipar dónde hacer pausas. Por favor, no lo tomes como una crítica; tienes mucho potencial y estaré encantada de ayudarte a preparar la próxima. ¿Nos reunimos veinte minutos el jueves? Un saludo, Laura.",
+    "glossary": [
+      {
+        "id": "en-feedback",
+        "lemma": "feedback",
+        "pos": "noun",
+        "ipa": "/ˈfiːdbæk/",
+        "es": "comentarios, retroalimentación",
+        "example": "Give feedback."
+      },
+      {
+        "id": "en-well-structured",
+        "lemma": "well structured",
+        "pos": "adj",
+        "ipa": "/wel ˈstrʌktʃəd/",
+        "es": "bien estructurado",
+        "example": "Well structured slides."
+      },
+      {
+        "id": "en-easy-to-follow",
+        "lemma": "easy to follow",
+        "pos": "phrase",
+        "ipa": "/ˈiːzi tə ˈfɒləʊ/",
+        "es": "fácil de seguir",
+        "example": "Easy to follow."
+      },
+      {
+        "id": "en-show-confidence",
+        "lemma": "show confidence",
+        "pos": "phrase",
+        "ipa": "/ʃəʊ ˈkɒnfɪdəns/",
+        "es": "mostrar confianza",
+        "example": "Showed real confidence."
+      },
+      {
+        "id": "en-could-be-improved",
+        "lemma": "could be improved",
+        "pos": "phrase",
+        "ipa": "/kʊd biː ɪmˈpruːvd/",
+        "es": "podría mejorarse",
+        "example": "Could be improved."
+      },
+      {
+        "id": "en-keep-up-with",
+        "lemma": "keep up with",
+        "pos": "phrasal verb",
+        "ipa": "/kiːp ʌp wɪð/",
+        "es": "seguir el ritmo de",
+        "example": "Keep up with figures."
+      },
+      {
+        "id": "en-rushed",
+        "lemma": "rushed",
+        "pos": "adj",
+        "ipa": "/rʌʃt/",
+        "es": "apresurado",
+        "example": "The ending felt rushed."
+      },
+      {
+        "id": "en-pace-yourself",
+        "lemma": "pace yourself",
+        "pos": "phrase",
+        "ipa": "/peɪs jɔːˈself/",
+        "es": "controlar el ritmo",
+        "example": "Pace yourself."
+      },
+      {
+        "id": "en-anticipate",
+        "lemma": "anticipate",
+        "pos": "verb",
+        "ipa": "/ænˈtɪsɪpeɪt/",
+        "es": "anticipar",
+        "example": "Anticipate questions."
+      },
+      {
+        "id": "en-constructive",
+        "lemma": "constructive",
+        "pos": "adj",
+        "ipa": "/kənˈstrʌktɪv/",
+        "es": "constructivo",
+        "example": "Constructive criticism."
+      },
+      {
+        "id": "en-potential",
+        "lemma": "potential",
+        "pos": "noun",
+        "ipa": "/pəˈtenʃl/",
+        "es": "potencial",
+        "example": "Great potential."
+      },
+      {
+        "id": "en-take-as-criticism",
+        "lemma": "take as criticism",
+        "pos": "phrase",
+        "ipa": "/teɪk əz ˈkrɪtɪsɪzəm/",
+        "es": "tomarlo como crítica",
+        "example": "Don't take it as criticism."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un buen feedback**\n\n| Paso | Qué hacer | Frases útiles |\n|---|---|---|\n| **1. Agradecer/contexto** | situar el feedback | *Thank you for… · I wanted to share some thoughts on…* |\n| **2. Positivo específico** | lo que funcionó | *You did a really good job with… · What worked well was… · I particularly liked…* |\n| **3. Mejora concreta** | lo que se puede mejorar | *One thing that could be improved is… · It might help to… · Perhaps you could… · Next time, try…* |\n| **4. Sugerencia práctica** | cómo mejorar | *My main suggestion would be to… · What if you…?* |\n| **5. Ánimo/oferta de ayuda** | cierre positivo | *You have great potential. · I'm happy to help. · Let me know if you'd like to talk it through.* |\n\n**Tipos de comentarios**\n\n- **Elogio:** *Great job! · Well done on… · Impressive work on…*\n- **Crítica constructiva:** *It would be even better if… · One area to work on is…*\n- **Sugerencia:** *You could try… · It might be worth… · Have you thought about…?*\n- **Advertencia seria:** *I have some concerns about… · I'm worried that…* (solo cuando es necesario)\n\n**Recibir feedback**\n\n- Agradece: *Thanks for letting me know. · I appreciate your honesty.*\n- Pide aclaraciones: *Could you give me an example? · What would you suggest?*\n- Evita defenderte de inmediato: ✘ *But I did my best!* → ✔ *That's helpful. I'll work on it.*\n\n**Reglas de oro**\n\n- Sé específico: ✘ *Your presentation was bad.* → ✔ *The conclusion felt rushed.*\n- Habla del trabajo, no de la persona: ✘ *You're lazy.* → ✔ *The report was incomplete.*\n- Equilibra lo positivo y lo mejorable.\n\n**Errores típicos**\n\n- ✘ *I want to give you a feedback.* → ✔ *I want to give you some feedback.* (incontable)\n- ✘ *Your slides were very good structured.* → ✔ *Your slides were well structured.*\n- ✘ *It might help to slowing down.* → ✔ *It might help to slow down.*\n- ✘ *Thank you for your attention to my presentation.* (poco natural) → ✔ *Thank you for listening to my presentation.*\n- ✘ *I suggest you to practise.* → ✔ *I suggest (that) you practise. / I suggest practising.*\n\n**Ojo:** *Feedback* es incontable (*some feedback, a piece of feedback*). *Suggest* no admite *suggest someone to do*: *suggest + -ing* / *suggest that + sujeto + (should) + verbo*.\n\nPronunciación: *feedback* /ˈfiːdbæk/ · *constructive* /kənˈstrʌktɪv/ · *anticipate* /ænˈtɪsɪpeɪt/ · *potential* /pəˈtenʃl/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "a feedback",
+        "right": "some feedback",
+        "note": "Incontable."
+      },
+      {
+        "wrong": "suggest you to",
+        "right": "suggest (that) you",
+        "note": "Suggest."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué destaca Laura como positivo de la presentación?",
+      "options": [
+        "Diapositivas claras y respuesta segura al cliente",
+        "La duración",
+        "El vestuario",
+        "El título"
+      ],
+      "answer": [
+        "Diapositivas claras y respuesta segura al cliente"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: slides clear... answered the client's difficult question.",
+        "incorrect": "Revisa esto: Dice: slides clear... answered the client's difficult question."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema tuvo con las cifras?",
+      "options": [
+        "Hablaba un poco rápido",
+        "Faltaban cifras",
+        "Eran erróneas",
+        "Eran demasiadas diapositivas"
+      ],
+      "answer": [
+        "Hablaba un poco rápido"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: spoke a bit too fast.",
+        "incorrect": "Revisa esto: Dice: spoke a bit too fast."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es su sugerencia principal?",
+      "options": [
+        "Practicar en voz alta con un cronómetro",
+        "Cambiar de tema",
+        "Preparar menos diapositivas",
+        "Hablar más bajo"
+      ],
+      "answer": [
+        "Practicar en voz alta con un cronómetro"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: practise out loud with a timer.",
+        "incorrect": "Revisa esto: Dice: practise out loud with a timer."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué propone para el jueves?",
+      "options": [
+        "Reunirse veinte minutos",
+        "Cancelar",
+        "Enviar otro correo",
+        "Una fiesta"
+      ],
+      "answer": [
+        "Reunirse veinte minutos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: meet for twenty minutes on Thursday.",
+        "incorrect": "Revisa esto: Dice: meet for twenty minutes on Thursday."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 15,
+      "prompt": "Laura quiere que Daniel lo tome como una crítica personal.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: don't take this as criticism.",
+        "incorrect": "Revisa esto: Dice: don't take this as criticism."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to give you some ___ on your report.",
+      "options": [
+        "feedback",
+        "feedbacks",
+        "a feedback",
+        "the feedbacks"
+      ],
+      "answer": [
+        "feedback"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "To ___ up: we all agree it's worth trying. (resumir)",
+      "answer": [
+        "sum"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sum up.",
+        "incorrect": "Revisa esto: Sum up."
+      },
+      "review_of": "en-b2-u05-l05-ex13"
+    },
+    {
+      "id": "en-b2-u12-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "Your slides were very ___ structured.",
+      "options": [
+        "well",
+        "good",
+        "better",
+        "best"
+      ],
+      "answer": [
+        "well"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adverbio + participio.",
+        "incorrect": "Revisa esto: Adverbio + participio."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "It might help ___ slow down when presenting data.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "—"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Help to.",
+        "incorrect": "Revisa esto: Help to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest ___ more slowly.",
+      "options": [
+        "speaking",
+        "to speak",
+        "you to speak",
+        "speak to"
+      ],
+      "answer": [
+        "speaking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest that you ___ with a timer.",
+      "options": [
+        "practise",
+        "to practise",
+        "practising",
+        "practises of"
+      ],
+      "answer": [
+        "practise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest that + base.",
+        "incorrect": "Revisa esto: Suggest that + base."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Don't touch it.' → He told me ___ it.",
+      "options": [
+        "not to touch",
+        "don't touch",
+        "to not touching",
+        "no touch"
+      ],
+      "answer": [
+        "not to touch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not to + verbo.",
+        "incorrect": "Revisa esto: Not to + verbo."
+      },
+      "review_of": "en-b1-u07-l03-ex08"
+    },
+    {
+      "id": "en-b2-u12-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll go unless it doesn't rain.",
+      "answer": [
+        "I'll go unless it rains.",
+        "I'll go if it doesn't rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      },
+      "review_of": "en-b1-u04-l03-ex11"
+    },
+    {
+      "id": "en-b2-u12-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Me like chicken.",
+      "answer": [
+        "I like chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto es 'I', no 'me'.",
+        "incorrect": "Revisa esto: El sujeto es 'I', no 'me'."
+      },
+      "review_of": "en-a1-u05-l03-ex04"
+    },
+    {
+      "id": "en-b2-u12-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most constructive comment?",
+      "options": [
+        "The conclusion felt rushed; try adding a stronger closing sentence.",
+        "Your presentation was bad.",
+        "You're not good at this.",
+        "I didn't like it."
+      ],
+      "answer": [
+        "The conclusion felt rushed; try adding a stronger closing sentence."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Específico y con sugerencia.",
+        "incorrect": "Revisa esto: Específico y con sugerencia."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál de estas palabras NO es una bebida?",
+      "options": [
+        "bread",
+        "tea",
+        "water",
+        "juice"
+      ],
+      "answer": [
+        "bread"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Bread' es pan; tea, water y juice se beben.",
+        "incorrect": "Revisa esto: 'Bread' es pan; tea, water y juice se beben."
+      },
+      "review_of": "en-a1-u05-l01-ex02"
+    },
+    {
+      "id": "en-b2-u12-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best response to feedback?",
+      "options": [
+        "Thanks, that's helpful. I'll work on it.",
+        "But I did my best!",
+        "That's not fair.",
+        "I don't care."
+      ],
+      "answer": [
+        "Thanks, that's helpful. I'll work on it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recibir feedback.",
+        "incorrect": "Revisa esto: Recibir feedback."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "'The ending felt rushed' means...",
+      "options": [
+        "El final pareció apresurado",
+        "El final fue largo",
+        "El final fue perfecto",
+        "No hubo final"
+      ],
+      "answer": [
+        "El final pareció apresurado"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rushed.",
+        "incorrect": "Revisa esto: Rushed."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where is my glasses?",
+      "answer": [
+        "Where are my glasses?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Glasses es plural: Where are…?",
+        "incorrect": "Revisa esto: Glasses es plural: Where are…?"
+      },
+      "review_of": "en-a1-u11-l04-ex06"
+    },
+    {
+      "id": "en-b2-u12-l05-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-article"
+      ],
+      "est_seconds": 25,
+      "prompt": "A tip ___ the locals: arrive before the crowds. (de)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A tip from.",
+        "incorrect": "Revisa esto: A tip from."
+      },
+      "review_of": "en-b2-u06-l05-ex11"
+    },
+    {
+      "id": "en-b2-u12-l05-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "My doctor gave me a useful ___ of advice.",
+      "options": [
+        "piece",
+        "bit of a",
+        "part",
+        "unit"
+      ],
+      "answer": [
+        "piece"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A piece of advice.",
+        "incorrect": "Revisa esto: A piece of advice."
+      },
+      "review_of": "en-b2-u05-l01-ex13"
+    },
+    {
+      "id": "en-b2-u12-l05-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Keep up with' in this context means...",
+      "options": [
+        "Seguir el ritmo de",
+        "Subir",
+        "Esconder",
+        "Guardar"
+      ],
+      "answer": [
+        "Seguir el ritmo de"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep up with.",
+        "incorrect": "Revisa esto: Keep up with."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ well was your clear structure. (funcionó)",
+      "answer": [
+        "worked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What worked well.",
+        "incorrect": "Revisa esto: What worked well."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 25,
+      "prompt": "It would be even ___ if you slowed down. (mejor)",
+      "answer": [
+        "better"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Even better.",
+        "incorrect": "Revisa esto: Even better."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want to give you a feedback on your essay.",
+      "answer": [
+        "I want to give you some feedback on your essay.",
+        "I want to give you feedback on your essay."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It might help to slowing down a bit.",
+      "answer": [
+        "It might help to slow down a bit."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To + base.",
+        "incorrect": "Revisa esto: To + base."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I suggest you to practise out loud.",
+      "answer": [
+        "I suggest you practise out loud.",
+        "I suggest that you practise out loud.",
+        "I suggest practising out loud."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest.",
+        "incorrect": "Revisa esto: Suggest."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué sugiere para mejorar?",
+      "options": [
+        "Recortar la introducción",
+        "Añadir ejemplos",
+        "Cambiar el título",
+        "Escribir más"
+      ],
+      "answer": [
+        "Recortar la introducción"
+      ],
+      "audio_text": "Thanks for sending your report. Overall, it's well written, and your examples are very clear. One area to work on is the length: some sections feel a little too long. It might help to cut the introduction. You have great potential, so keep going.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: cut the introduction.",
+        "incorrect": "Revisa esto: Dice: cut the introduction."
+      },
+      "audio_script_id": "en-b2-u12-l05-ex20-a"
+    },
+    {
+      "id": "en-b2-u12-l05-rv09",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "the",
+        "bananas",
+        "?",
+        "How",
+        "much"
+      ],
+      "answer": [
+        "How",
+        "much",
+        "are",
+        "the",
+        "bananas",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much + are + sustantivo plural.",
+        "incorrect": "Revisa esto: How much + are + sustantivo plural."
+      },
+      "review_of": "en-a1-u08-l02-ex09"
+    },
+    {
+      "id": "en-b2-u12-l05-ex21",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un correo (8 a 10 frases) dando feedback a un compañero sobre un trabajo que presentó. Incluye agradecimiento, dos puntos positivos, una mejora con 'It might help to…', una sugerencia y una frase final de ánimo.",
+      "min_words": 80,
+      "self_check_es": [
+        "¿Agradeces y das contexto?",
+        "¿Incluyes dos puntos positivos?",
+        "¿Das una mejora y una sugerencia?",
+        "¿Cierras con ánimo?"
+      ],
+      "model_answer": "Hi Carlos,\n\nThank you for sending me your report. Overall, I thought it was very good, and I wanted to share some feedback. What worked well was the clear structure and the practical examples. I also liked the way you explained the results. One thing that could be improved is the introduction, which felt slightly long. It might help to cut it by a few lines. My main suggestion would be to add a short summary at the end. You have great potential, and I'm happy to help if you'd like to talk it through.\n\nBest wishes,\nElena",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u12-l05-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Quería compartirte algunos comentarios: tu informe está bien estructurado, pero podría ser un poco más corto.",
+      "answer": [
+        "I wanted to share some feedback with you: your report is well structured, but it could be a little shorter.",
+        "I wanted to share some feedback: your report is well structured, but it could be a bit shorter."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Feedback.",
+        "incorrect": "Revisa esto: Feedback."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Thank you for… · I wanted to share some feedback.",
+      "What worked well was… · One thing that could be improved is…",
+      "It might help to… · My main suggestion would be to…",
+      "You have great potential."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-feedback"
+    },
+    {
+      "type": "vocab",
+      "id": "en-well-structured"
+    },
+    {
+      "type": "vocab",
+      "id": "en-easy-to-follow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-show-confidence"
+    },
+    {
+      "type": "vocab",
+      "id": "en-could-be-improved"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-up-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rushed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pace-yourself"
+    },
+    {
+      "type": "vocab",
+      "id": "en-anticipate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-constructive"
+    },
+    {
+      "type": "grammar",
+      "id": "en-feedback"
+    }
+  ]
+}

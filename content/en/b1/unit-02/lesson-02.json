@@ -1,0 +1,677 @@
+{
+  "id": "en-b1-u02-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 2,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Who, which, that",
+    "es": "Oraciones de relativo especificativas"
+  },
+  "objective": "Al terminar das más información sobre personas y cosas con oraciones de relativo (who, which, that) y sabes cuándo puedes omitir el pronombre.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'El hombre que vive al lado', 'la tienda que abrió ayer'. En lugar de dos frases, el inglés une la información con who, which o that."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Have you met the woman who lives next door?",
+        "es": "¿Has conocido a la mujer que vive al lado?"
+      },
+      {
+        "speaker": "Ivy",
+        "text": "The one who has the little white dog? Yes, she's lovely.",
+        "es": "¿La que tiene el perrito blanco? Sí, es encantadora."
+      },
+      {
+        "speaker": "Sam",
+        "text": "She told me about a bakery that has just opened in our street.",
+        "es": "Me habló de una panadería que acaba de abrir en nuestra calle."
+      },
+      {
+        "speaker": "Ivy",
+        "text": "Is it the shop which used to be a bank?",
+        "es": "¿Es la tienda que antes era un banco?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Yes! They sell bread that's still warm at eight in the morning.",
+        "es": "¡Sí! Venden pan que sigue caliente a las ocho de la mañana."
+      },
+      {
+        "speaker": "Ivy",
+        "text": "Great. I need somebody who can recommend a good cake for Saturday.",
+        "es": "Genial. Necesito a alguien que pueda recomendarme una buena tarta para el sábado."
+      },
+      {
+        "speaker": "Sam",
+        "text": "The cake they make with chocolate is the best I've ever tried.",
+        "es": "La tarta que hacen con chocolate es la mejor que he probado."
+      },
+      {
+        "speaker": "Ivy",
+        "text": "The cake you're talking about sounds perfect. I'll go tomorrow.",
+        "es": "La tarta de la que hablas suena perfecta. Iré mañana."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-next-door",
+        "lemma": "next door",
+        "pos": "adv",
+        "ipa": "/ˌnekst ˈdɔː/",
+        "es": "al lado, en la casa de al lado",
+        "example": "My friend lives next door."
+      },
+      {
+        "id": "en-bakery",
+        "lemma": "bakery",
+        "pos": "noun",
+        "ipa": "/ˈbeɪkəri/",
+        "es": "panadería",
+        "example": "The bakery opens at seven."
+      },
+      {
+        "id": "en-recommend",
+        "lemma": "recommend",
+        "pos": "verb",
+        "ipa": "/ˌrekəˈmend/",
+        "es": "recomendar",
+        "example": "Can you recommend a restaurant?"
+      },
+      {
+        "id": "en-lovely",
+        "lemma": "lovely",
+        "pos": "adj",
+        "ipa": "/ˈlʌvli/",
+        "es": "encantador, precioso",
+        "example": "She's a lovely person."
+      },
+      {
+        "id": "en-used-to-be",
+        "lemma": "used to be",
+        "pos": "phrase",
+        "ipa": "/juːst tə biː/",
+        "es": "antes era",
+        "example": "It used to be a cinema."
+      },
+      {
+        "id": "en-which",
+        "lemma": "which",
+        "pos": "pron",
+        "ipa": "/wɪtʃ/",
+        "es": "que, el cual (cosas)",
+        "example": "The book which I bought was great."
+      },
+      {
+        "id": "en-who",
+        "lemma": "who",
+        "pos": "pron",
+        "ipa": "/huː/",
+        "es": "que, quien (personas)",
+        "example": "The girl who lives here is a doctor."
+      },
+      {
+        "id": "en-that",
+        "lemma": "that",
+        "pos": "pron",
+        "ipa": "/ðæt/",
+        "es": "que (personas y cosas)",
+        "example": "The film that we saw was boring."
+      },
+      {
+        "id": "en-just-opened",
+        "lemma": "just opened",
+        "pos": "phrase",
+        "ipa": "/dʒʌst ˈəʊpənd/",
+        "es": "acaba de abrir",
+        "example": "A cafe has just opened."
+      },
+      {
+        "id": "en-warm",
+        "lemma": "warm",
+        "pos": "adj",
+        "ipa": "/wɔːm/",
+        "es": "templado, caliente",
+        "example": "The bread is still warm."
+      }
+    ],
+    "audio_script_id": "en-b1-u02-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Oraciones de relativo especificativas (defining)**\n\nDicen **cuál** persona o cosa: sin esa información la frase no se entiende.\n\n| Palabra | Se usa con | Ejemplo |\n|---|---|---|\n| **who** | personas | *The woman **who** lives next door is a vet.* |\n| **which** | cosas | *The shop **which** opened last week sells bread.* |\n| **that** | personas y cosas | *The man **that** called wanted you. · A bakery **that** has opened…* |\n\n**Reglas importantes**\n\n1. **Sin comas:** *The book that I read was long.*\n2. **No repitas el sujeto:** ✘ *The man who he lives next door* → ✔ *The man who lives next door.*\n3. **Puedes omitir** who / which / that cuando funciona como **objeto** (hay otro sujeto detrás):\n   - *The cake (that) they make is delicious.* ✔\n   - *The woman (who) I met was kind.* ✔\n   - Pero si es **sujeto**, no se puede omitir: *The woman who lives here…* (no *The woman lives here…* con ese sentido).\n4. **Con superlativos y 'all, everything, nothing'** se prefiere **that**: *It's the best film that I've seen. · Everything that she said was true.*\n5. **Preposición al final:** *The cake you're talking about · the person I work with.*\n\n**Ojo:** en español 'el que' / 'la cual' ... en inglés casi siempre se resuelve con who, which o that. *Whom* existe, pero es muy formal.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The man who he lives here is kind.",
+        "right": "The man who lives here is kind.",
+        "note": "No repitas el sujeto."
+      },
+      {
+        "wrong": "The book, that I bought, was good.",
+        "right": "The book that I bought was good.",
+        "note": "Sin comas en las especificativas."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u02-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién tiene un perrito blanco?",
+      "options": [
+        "La vecina de al lado",
+        "Sam",
+        "Ivy",
+        "La panadera"
+      ],
+      "answer": [
+        "La vecina de al lado"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Habla de the woman who lives next door, the one who has the little white dog.",
+        "incorrect": "Revisa esto: Habla de the woman who lives next door, the one who has the little white dog."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué tiene de especial el pan de la nueva panadería?",
+      "options": [
+        "Está caliente a las ocho de la mañana",
+        "Es muy barato",
+        "Es integral",
+        "Se vende solo los sábados"
+      ],
+      "answer": [
+        "Está caliente a las ocho de la mañana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: bread that's still warm at eight in the morning.",
+        "incorrect": "Revisa esto: Dice: bread that's still warm at eight in the morning."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "The man ___ lives next door is a doctor.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Personas: who (o that).",
+        "incorrect": "Revisa esto: Personas: who (o that)."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "The shop ___ sells fresh bread is on Park Road.",
+      "options": [
+        "that",
+        "who",
+        "whom",
+        "what"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cosas: that o which.",
+        "incorrect": "Revisa esto: Cosas: that o which."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "The film I watched was excellent.",
+        "The film I watched it was excellent.",
+        "The film which I watched it was excellent.",
+        "The film that I watched him was excellent."
+      ],
+      "answer": [
+        "The film I watched was excellent."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se repite el objeto; se puede omitir that.",
+        "incorrect": "Revisa esto: No se repite el objeto; se puede omitir that."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's the most interesting book ___ I've ever read.",
+      "options": [
+        "that",
+        "who",
+        "what",
+        "whose"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con superlativos se prefiere that.",
+        "incorrect": "Revisa esto: Con superlativos se prefiere that."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "Does he work? — ___",
+      "options": [
+        "Yes, he does.",
+        "Yes, he works.",
+        "Yes, he do.",
+        "Yes, does."
+      ],
+      "answer": [
+        "Yes, he does."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta corta usa el auxiliar: Yes, he does.",
+        "incorrect": "Revisa esto: La respuesta corta usa el auxiliar: Yes, he does."
+      },
+      "review_of": "en-a1-u04-l04-ex05"
+    },
+    {
+      "id": "en-b1-u02-l02-ex07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 25,
+      "prompt": "The woman ___ works with me is Spanish. (who / that)",
+      "answer": [
+        "who",
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Persona sujeto: who o that.",
+        "incorrect": "Revisa esto: Persona sujeto: who o that."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-rv02",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 15,
+      "prompt": "En 'Sue's a nurse', 's significa 'is'.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí 's = is (Sue is a nurse).",
+        "incorrect": "Revisa esto: Aquí 's = is (Sue is a nurse)."
+      },
+      "review_of": "en-a1-u03-l03-ex04"
+    },
+    {
+      "id": "en-b1-u02-l02-ex08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the restaurant ___ I told you about. (que)",
+      "answer": [
+        "that",
+        "which"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cosa: that o which (también se puede omitir).",
+        "incorrect": "Revisa esto: Cosa: that o which (también se puede omitir)."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ are you? — I'm a medium.",
+      "answer": [
+        "size"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What size are you?",
+        "incorrect": "Revisa esto: What size are you?"
+      },
+      "review_of": "en-a2-u11-l02-ex04"
+    },
+    {
+      "id": "en-b1-u02-l02-ex09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The woman who she lives next door is a teacher.",
+      "answer": [
+        "The woman who lives next door is a teacher.",
+        "The woman that lives next door is a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se repite el sujeto con she.",
+        "incorrect": "Revisa esto: No se repite el sujeto con she."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "dentro de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "in front of",
+          "right": "delante de"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza estas siete preposiciones.",
+        "incorrect": "Revisa esto: Memoriza estas siete preposiciones."
+      },
+      "review_of": "en-a1-u06-l03-ex01"
+    },
+    {
+      "id": "en-b1-u02-l02-ex10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The bakery what opened last week is great.",
+      "answer": [
+        "The bakery that opened last week is great.",
+        "The bakery which opened last week is great."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativo de cosa: that / which, no what.",
+        "incorrect": "Revisa esto: Relativo de cosa: that / which, no what."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex11",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "that",
+        "they",
+        "make",
+        "here",
+        "is",
+        "delicious",
+        ".",
+        "The",
+        "cake"
+      ],
+      "answer": [
+        "The",
+        "cake",
+        "that",
+        "they",
+        "make",
+        "here",
+        "is",
+        "delicious",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo + that + sujeto + verbo.",
+        "incorrect": "Revisa esto: Sustantivo + that + sujeto + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex12",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace la mujer?",
+      "options": [
+        "Enseña inglés a los niños",
+        "Es médica",
+        "Vende pan",
+        "Trabaja en un banco"
+      ],
+      "answer": [
+        "Enseña inglés a los niños"
+      ],
+      "audio_text": "Do you know the woman who lives opposite? She's the one who teaches our children English.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the one who teaches our children English.",
+        "incorrect": "Revisa esto: Dice: the one who teaches our children English."
+      },
+      "audio_script_id": "en-b1-u02-l02-ex12-a"
+    },
+    {
+      "id": "en-b1-u02-l02-ex13",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "La película que vimos ayer era muy buena.",
+      "answer": [
+        "The film that we saw yesterday was very good.",
+        "The film we saw yesterday was very good.",
+        "The movie that we saw yesterday was very good.",
+        "The movie we saw yesterday was very good."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativa con that (u omitida si es objeto).",
+        "incorrect": "Revisa esto: Relativa con that (u omitida si es objeto)."
+      }
+    },
+    {
+      "id": "en-b1-u02-l02-ex14",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "The man who lives next door is a friend of mine.",
+      "answer": [
+        "The man who lives next door is a friend of mine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativa con who.",
+        "incorrect": "Revisa esto: Relativa con who."
+      },
+      "audio_script_id": "en-b1-u02-l02-ex14-a"
+    },
+    {
+      "id": "en-b1-u02-l02-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plurals"
+      ],
+      "est_seconds": 25,
+      "prompt": "one sandwich → two ___",
+      "answer": [
+        "sandwiches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Terminación -ch: + es.",
+        "incorrect": "Revisa esto: Terminación -ch: + es."
+      },
+      "review_of": "en-a1-u05-l02-ex03"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "the woman who lives next door",
+      "a shop that sells …",
+      "the book (that) I read",
+      "the best film that I've seen"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-next-door"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bakery"
+    },
+    {
+      "type": "vocab",
+      "id": "en-recommend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lovely"
+    },
+    {
+      "type": "vocab",
+      "id": "en-used-to-be"
+    },
+    {
+      "type": "vocab",
+      "id": "en-which"
+    },
+    {
+      "type": "vocab",
+      "id": "en-who"
+    },
+    {
+      "type": "vocab",
+      "id": "en-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-just-opened"
+    },
+    {
+      "type": "vocab",
+      "id": "en-warm"
+    },
+    {
+      "type": "grammar",
+      "id": "en-relative-defining"
+    }
+  ]
+}

@@ -1,0 +1,729 @@
+{
+  "id": "en-b1-u06-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 6,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 6",
+    "es": "Checkpoint 6"
+  },
+  "objective": "Al terminar demuestras que planificas viajes, hablas de situaciones imaginarias y deseos, te quejas con educación y escribes sobre tus viajes.",
+  "est_minutes": 39,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 6: planificar viajes, segundo condicional, wish, quejas de hotel y blog de viajes."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de viaje, segundo condicional, wish + pasado, quejas en el hotel y la estructura de un blog de viajes.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 6**\n\n- *book a hotel · rent a car · a return ticket · a stopover · It's worth visiting.*\n- *If I won the lottery, I would … · If I were rich, I'd … · What would you do if …?*\n- *I wish I had … · I wish I could … · I wish it weren't raining · If only I had …!*\n- *I'm afraid there's a problem with … · I'd like a refund · Could I have another room?*\n- *I arrived … While I was … · What to do / what to skip.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u06-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es transporte o alojamiento?",
+      "categories": [
+        "Transport",
+        "Accommodation"
+      ],
+      "items": [
+        {
+          "text": "direct flight",
+          "category": "Transport"
+        },
+        {
+          "text": "return ticket",
+          "category": "Transport"
+        },
+        {
+          "text": "rent a car",
+          "category": "Transport"
+        },
+        {
+          "text": "hostel",
+          "category": "Accommodation"
+        },
+        {
+          "text": "double room",
+          "category": "Accommodation"
+        },
+        {
+          "text": "guesthouse",
+          "category": "Accommodation"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth ___ the castle.",
+      "options": [
+        "visiting",
+        "to visit",
+        "visit",
+        "visited"
+      ],
+      "answer": [
+        "visiting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I ___ rich, I would travel.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "would be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you do if you got lost?",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "do"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would.",
+        "incorrect": "Revisa esto: Would."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber cuánto cuesta por mes:",
+      "options": [
+        "How much is the membership?",
+        "How many is the membership?",
+        "What price has the membership?",
+        "How much cost membership?"
+      ],
+      "answer": [
+        "How much is the membership?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much is …?",
+        "incorrect": "Revisa esto: How much is …?"
+      },
+      "review_of": "en-a2-u13-l03-ex03"
+    },
+    {
+      "id": "en-b1-u06-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I had a car, I ___ drive to work.",
+      "options": [
+        "would",
+        "will",
+        "am going to",
+        "would to"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + pasado, would.",
+        "incorrect": "Revisa esto: If + pasado, would."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more free time.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado.",
+        "incorrect": "Revisa esto: Wish + pasado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish he ___ stop smoking.",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "is"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would.",
+        "incorrect": "Revisa esto: Wish + would."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the polite complaint?",
+      "options": [
+        "I'm afraid there's a problem with my room.",
+        "Your hotel is awful!",
+        "Give me another room!",
+        "This is a disaster."
+      ],
+      "answer": [
+        "I'm afraid there's a problem with my room."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tono educado.",
+        "incorrect": "Revisa esto: Tono educado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lift is out of ___ .",
+      "options": [
+        "order",
+        "use",
+        "date",
+        "time"
+      ],
+      "answer": [
+        "order"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Out of order.",
+        "incorrect": "Revisa esto: Out of order."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada número con su palabra.",
+      "pairs": [
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "30",
+          "right": "thirty"
+        },
+        {
+          "left": "45",
+          "right": "forty-five"
+        },
+        {
+          "left": "100",
+          "right": "one hundred"
+        },
+        {
+          "left": "1,000",
+          "right": "one thousand"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fíjate en la diferencia entre -teen y -ty.",
+        "incorrect": "Revisa esto: Fíjate en la diferencia entre -teen y -ty."
+      },
+      "review_of": "en-a1-u08-l01-ex01"
+    },
+    {
+      "id": "en-b1-u06-l06-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like a ___ for last night. (reembolso)",
+      "answer": [
+        "refund"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Refund.",
+        "incorrect": "Revisa esto: Refund."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Anna and I are teachers. ___ are from London.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Anna and I' = we.",
+        "incorrect": "Revisa esto: 'Anna and I' = we."
+      },
+      "review_of": "en-a1-u02-l06-ex04"
+    },
+    {
+      "id": "en-b1-u06-l06-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 25,
+      "prompt": "I wish I ___ (can) swim.",
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + could.",
+        "incorrect": "Revisa esto: Wish + could."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 25,
+      "prompt": "While I ___ (watch) the sunset, a musician started to play.",
+      "answer": [
+        "was watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo.",
+        "incorrect": "Revisa esto: Pasado continuo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I would win, I would travel.",
+      "answer": [
+        "If I won, I would travel."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + pasado.",
+        "incorrect": "Revisa esto: If + pasado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They is from Brazil.",
+      "answer": [
+        "They are from Brazil.",
+        "They're from Brazil."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'they' va con 'are'.",
+        "incorrect": "Revisa esto: 'they' va con 'are'."
+      },
+      "review_of": "en-a1-u02-l03-ex07"
+    },
+    {
+      "id": "en-b1-u06-l06-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "try",
+        "it",
+        "on",
+        "?",
+        "Can",
+        "I"
+      ],
+      "answer": [
+        "Can",
+        "I",
+        "try",
+        "it",
+        "on",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta para probarse ropa.",
+        "incorrect": "Revisa esto: Pregunta para probarse ropa."
+      },
+      "review_of": "en-a1-u08-l06-ex07"
+    },
+    {
+      "id": "en-b1-u06-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I have more time.",
+      "answer": [
+        "I wish I had more time."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado.",
+        "incorrect": "Revisa esto: Wish + pasado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I lost my luggages at the airport.",
+      "answer": [
+        "I lost my luggage at the airport."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage es incontable.",
+        "incorrect": "Revisa esto: Luggage es incontable."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a pain since two days.",
+      "answer": [
+        "I've had a pain for two days.",
+        "I have had a pain for two days."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Duración: present perfect + for.",
+        "incorrect": "Revisa esto: Duración: present perfect + for."
+      },
+      "review_of": "en-b1-u04-l05-ex12"
+    },
+    {
+      "id": "en-b1-u06-l06-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué desea?",
+      "options": [
+        "Tener más vacaciones",
+        "Vivir en Japón",
+        "Cambiar de trabajo",
+        "Ganar la lotería"
+      ],
+      "answer": [
+        "Tener más vacaciones"
+      ],
+      "audio_text": "If I could go anywhere, I'd go to Japan. I wish I had more holidays so I could stay for a month.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wish I had more holidays.",
+        "incorrect": "Revisa esto: Dice: I wish I had more holidays."
+      },
+      "audio_script_id": "en-b1-u06-l06-ex16-a"
+    },
+    {
+      "id": "en-b1-u06-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "A taxi is ___ expensive than the bus. (más)",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo largo: more + adjetivo + than.",
+        "incorrect": "Revisa esto: Adjetivo largo: more + adjetivo + than."
+      },
+      "review_of": "en-a2-u12-l05-ex03"
+    },
+    {
+      "id": "en-b1-u06-l06-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si pudiera elegir cualquier lugar, viviría junto al mar.",
+      "answer": [
+        "If I could choose anywhere, I'd live by the sea.",
+        "If I could choose any place, I would live by the sea.",
+        "If I could choose anywhere, I would live by the sea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is ___ now. (work)",
+      "answer": [
+        "working"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo + -ing: working.",
+        "incorrect": "Revisa esto: Verbo + -ing: working."
+      },
+      "review_of": "en-a1-u09-l04-ex02"
+    },
+    {
+      "id": "en-b1-u06-l06-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en un hotel y tienes un problema.",
+      "turns": [
+        {
+          "speaker": "Reception",
+          "text": "Good morning. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm afraid there's a problem with my room: the shower doesn't work.",
+            "I have a problem in my room: the shower no works.",
+            "My shower is terrible."
+          ],
+          "best": 0,
+          "why_es": "Excuse me + I'm afraid."
+        },
+        {
+          "speaker": "Reception",
+          "text": "I'm very sorry. What would you like us to do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Could you send someone to fix it, or give me another room?",
+            "Fix it or I go away.",
+            "Send maintenance now."
+          ],
+          "best": 0,
+          "why_es": "Could you…?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u06-l06-ex19",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "second-conditional",
+        "wish-past",
+        "trip-planning"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre un viaje soñado: qué harías si pudieras viajar sin límites, qué deseas y cómo planearías el viaje.",
+      "min_words": 56,
+      "self_check_es": [
+        "¿Usaste el segundo condicional?",
+        "¿Usaste wish + pasado?",
+        "¿Mencionaste vocabulario de viaje?",
+        "¿Incluiste un plan real con primer condicional?"
+      ],
+      "model_answer": "If I could travel anywhere, I would go to New Zealand. I'd book a flight with one stopover and I'd rent a car. I wish I had more holidays so I could stay for a month. If I were rich, I would stay in small family hotels. I'm thinking of saving money for the next two years. If I get a promotion, I'll start planning the trip.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "book · rent · a return ticket · a stopover",
+      "If I won …, I would … · If I were …",
+      "I wish I had … · I wish I could …",
+      "I'm afraid there's a problem with …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-trip-planning"
+    },
+    {
+      "type": "grammar",
+      "id": "en-second-conditional"
+    },
+    {
+      "type": "grammar",
+      "id": "en-wish-past"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hotel-complaints"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-blog"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

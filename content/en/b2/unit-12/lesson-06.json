@@ -1,0 +1,1024 @@
+{
+  "id": "en-b2-u12-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 12",
+    "es": "Checkpoint 12"
+  },
+  "objective": "Al terminar demuestras que comunicas con claridad y tacto: vocabulario de comunicación, modismos, colocaciones, hedging y feedback constructivo.",
+  "est_minutes": 46,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 12 de B2: comunicación, modismos, colocaciones con make/do/take/get, suavizar lo que dices y dar feedback."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de comunicación, modismos (cut to the chase, on the same page), colocaciones make/do/take/get, hedging y estructura de un correo de feedback.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 12**\n\n- *She told me that… · explain something to someone · What I meant was…*\n- *get the ball rolling · on the same page · cut to the chase · the ball is in your court*\n- *make a mistake · do homework · take a photo · get in touch · do someone a favour*\n- *I'm afraid… · It seems to me that… · It tends to… · Perhaps we could…*\n- *What worked well was… · It might help to… · My main suggestion would be to…*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Make, do, take o get?",
+      "categories": [
+        "make",
+        "do",
+        "take",
+        "get"
+      ],
+      "items": [
+        {
+          "text": "a mistake",
+          "category": "make"
+        },
+        {
+          "text": "an effort",
+          "category": "make"
+        },
+        {
+          "text": "research",
+          "category": "do"
+        },
+        {
+          "text": "a favour",
+          "category": "do"
+        },
+        {
+          "text": "a photo",
+          "category": "take"
+        },
+        {
+          "text": "a risk",
+          "category": "take"
+        },
+        {
+          "text": "in touch",
+          "category": "get"
+        },
+        {
+          "text": "used to",
+          "category": "get"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Colocaciones.",
+        "incorrect": "Revisa esto: Colocaciones."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ me that the meeting was cancelled.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "told"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "She explained the problem ___ me.",
+      "options": [
+        "to",
+        "for",
+        "—",
+        "at"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Explain to.",
+        "incorrect": "Revisa esto: Explain to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I play swimming every week.",
+      "answer": [
+        "I go swimming every week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Swimming va con go.",
+        "incorrect": "Revisa esto: Swimming va con go."
+      },
+      "review_of": "en-a2-u13-l01-ex07"
+    },
+    {
+      "id": "en-b2-u12-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "process-description"
+      ],
+      "est_seconds": 20,
+      "prompt": "The machine ___ of three main parts.",
+      "options": [
+        "consists",
+        "is consisting",
+        "is consisted",
+        "consist"
+      ],
+      "answer": [
+        "consists"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consist of.",
+        "incorrect": "Revisa esto: Consist of."
+      },
+      "review_of": "en-b2-u04-l06-ex12"
+    },
+    {
+      "id": "en-b2-u12-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "I always listen ___ music when I study.",
+      "options": [
+        "to",
+        "at",
+        "for",
+        "—"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to.",
+        "incorrect": "Revisa esto: Listen to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've had a cough ___ Monday.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "during"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento.",
+        "incorrect": "Revisa esto: Since + momento."
+      },
+      "review_of": "en-b1-u04-l06-ex10"
+    },
+    {
+      "id": "en-b2-u12-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "There was a big ___ between us. Nobody was angry.",
+      "options": [
+        "misunderstanding",
+        "misunderstand",
+        "misunderstood",
+        "understanding of"
+      ],
+      "answer": [
+        "misunderstanding"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo.",
+        "incorrect": "Revisa esto: Sustantivo."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "You hit the nail ___ the head. Exactly!",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the head.",
+        "incorrect": "Revisa esto: On the head."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Cut to the chase' means...",
+      "options": [
+        "Ir al grano",
+        "Cortar la comida",
+        "Perseguir",
+        "Salir corriendo"
+      ],
+      "answer": [
+        "Ir al grano"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me to be quiet.",
+      "answer": [
+        "She told me to be quiet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      },
+      "review_of": "en-b1-u07-l04-ex14"
+    },
+    {
+      "id": "en-b2-u12-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Now the ball is ___ your court. It's your decision.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "under"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In your court.",
+        "incorrect": "Revisa esto: In your court."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm sorry, I ___ a mistake in the report.",
+      "options": [
+        "made",
+        "did",
+        "took",
+        "got"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a mistake.",
+        "incorrect": "Revisa esto: Make a mistake."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me a favour?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a favour.",
+        "incorrect": "Revisa esto: Do a favour."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ___ some photos of the sunset.",
+      "options": [
+        "took",
+        "made",
+        "did",
+        "got"
+      ],
+      "answer": [
+        "took"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take a photo.",
+        "incorrect": "Revisa esto: Take a photo."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It took months to ___ used to the climate.",
+      "options": [
+        "get",
+        "make",
+        "do",
+        "take"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get used to.",
+        "incorrect": "Revisa esto: Get used to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "The introduction ___ to repeat some points.",
+      "options": [
+        "tends",
+        "tend",
+        "tending",
+        "is tend"
+      ],
+      "answer": [
+        "tends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tend to.",
+        "incorrect": "Revisa esto: Tend to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ I can't come to the meeting.",
+      "options": [
+        "afraid",
+        "afraid of",
+        "scared that",
+        "frightened"
+      ],
+      "answer": [
+        "afraid"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm afraid.",
+        "incorrect": "Revisa esto: I'm afraid."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex15",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most cautious claim?",
+      "options": [
+        "The results suggest that sales may rise.",
+        "The results prove that sales will rise.",
+        "Sales will definitely rise.",
+        "Sales always rise."
+      ],
+      "answer": [
+        "The results suggest that sales may rise."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Could you help me?' → She asked me ___ her.",
+      "options": [
+        "to help",
+        "help",
+        "if helping",
+        "that help"
+      ],
+      "answer": [
+        "to help"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ask + persona + to.",
+        "incorrect": "Revisa esto: Ask + persona + to."
+      },
+      "review_of": "en-b1-u07-l03-ex09"
+    },
+    {
+      "id": "en-b2-u12-l06-ex16",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to give you some ___ on your report.",
+      "options": [
+        "feedback",
+        "feedbacks",
+        "a feedback",
+        "the feedbacks"
+      ],
+      "answer": [
+        "feedback"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué tuvo que hacer el director?",
+      "options": [
+        "Publicar una corrección",
+        "Cerrar la escuela",
+        "Dimitir",
+        "Llamar a la policía"
+      ],
+      "answer": [
+        "Publicar una corrección"
+      ],
+      "audio_text": "A rumour spread online yesterday that the school would close. Within an hour it had gone viral, but it was completely false. The headmaster had to publish a correction to calm everyone down.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: had to publish a correction.",
+        "incorrect": "Revisa esto: Dice: had to publish a correction."
+      },
+      "audio_script_id": "en-b2-u12-l06-rv06-a",
+      "review_of": "en-b2-u03-l01-ex18"
+    },
+    {
+      "id": "en-b2-u12-l06-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dice la persona sobre su examen de conducir?",
+      "options": [
+        "She hasn't passed it",
+        "She has passed it",
+        "She failed it twice",
+        "She never took it"
+      ],
+      "answer": [
+        "She hasn't passed it"
+      ],
+      "audio_text": "Have you ever driven a car? — Yes, I have. I've driven my dad's car, but I haven't passed my test yet.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I haven't passed my test yet'.",
+        "incorrect": "Revisa esto: Dice 'I haven't passed my test yet'."
+      },
+      "audio_script_id": "en-b2-u12-l06-rv07-a",
+      "review_of": "en-a2-u08-l01-ex11"
+    },
+    {
+      "id": "en-b2-u12-l06-ex17",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 20,
+      "prompt": "It might help ___ slow down when presenting data.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "—"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Help to.",
+        "incorrect": "Revisa esto: Help to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex18",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 25,
+      "prompt": "Let's get the ball ___ on the new project. (rodando)",
+      "answer": [
+        "rolling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get the ball rolling.",
+        "incorrect": "Revisa esto: Get the ball rolling."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex19",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ your point, but I'd suggest another approach. (entiendo)",
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I see your point.",
+        "incorrect": "Revisa esto: I see your point."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm not sure I'll pass the exam. ___ I pass, I'll celebrate.",
+      "options": [
+        "If",
+        "When",
+        "Until",
+        "After"
+      ],
+      "answer": [
+        "If"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con duda: if.",
+        "incorrect": "Revisa esto: Con duda: if."
+      },
+      "review_of": "en-b1-u03-l02-ex08"
+    },
+    {
+      "id": "en-b2-u12-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me that she was tired.",
+      "answer": [
+        "She told me that she was tired.",
+        "She said that she was tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say/tell.",
+        "incorrect": "Revisa esto: Say/tell."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I did a big mistake in the exam.",
+      "answer": [
+        "I made a big mistake in the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a mistake.",
+        "incorrect": "Revisa esto: Make a mistake."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex22",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The ball is on your court now.",
+      "answer": [
+        "The ball is in your court now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In your court.",
+        "incorrect": "Revisa esto: In your court."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv09",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "burnout",
+          "right": "agotamiento laboral"
+        },
+        {
+          "left": "turnover",
+          "right": "rotación de personal"
+        },
+        {
+          "left": "upskilling",
+          "right": "mejora de habilidades"
+        },
+        {
+          "left": "deadline",
+          "right": "plazo"
+        },
+        {
+          "left": "perks",
+          "right": "ventajas laborales"
+        },
+        {
+          "left": "redundant",
+          "right": "despedido por reestructuración"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario laboral B2.",
+        "incorrect": "Revisa esto: Vocabulario laboral B2."
+      },
+      "review_of": "en-b2-u02-l01-ex01"
+    },
+    {
+      "id": "en-b2-u12-l06-ex23",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want to give you a feedback on your essay.",
+      "answer": [
+        "I want to give you some feedback on your essay.",
+        "I want to give you feedback on your essay."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex24",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué propone el hablante?",
+      "options": [
+        "Añadir una semana",
+        "Recortar el plan",
+        "Cancelar la reunión",
+        "Cambiar de cliente"
+      ],
+      "answer": [
+        "Añadir una semana"
+      ],
+      "audio_text": "To cut to the chase, I'm afraid I'm not entirely convinced by the plan. It seems to me that the schedule is a little too tight. Perhaps we could add a week? Anyway, the ball is in your court.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Perhaps we could add a week.",
+        "incorrect": "Revisa esto: Dice: Perhaps we could add a week."
+      },
+      "audio_script_id": "en-b2-u12-l06-ex24-a"
+    },
+    {
+      "id": "en-b2-u12-l06-ex25",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "idioms",
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Para ir al grano: cometiste un error, pero tomaste una buena decisión al ponerte en contacto conmigo.",
+      "answer": [
+        "To cut to the chase: you made a mistake, but you made a good decision by getting in touch with me.",
+        "To cut to the chase, you made a mistake, but you made a good decision by getting in touch with me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idioms y colocaciones.",
+        "incorrect": "Revisa esto: Idioms y colocaciones."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-ex26",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "feedback",
+        "hedging"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Das feedback a un compañero sobre su presentación.",
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "text": "So, what did you think of my presentation?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Overall, it was good. What worked well was your clear structure. One thing that could be improved is the pace; you spoke a bit too fast.",
+            "It was bad.",
+            "I wasn't there."
+          ],
+          "best": 0,
+          "why_es": "Feedback equilibrado."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "Hmm, I thought I was going at the right speed."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I see your point. It might help to practise with a timer, though. I'm happy to help you prepare for the next one.",
+            "You're wrong.",
+            "Whatever."
+          ],
+          "best": 0,
+          "why_es": "Sugerencia amable."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u12-l06-rv10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I didn't see ___ at the party.",
+      "options": [
+        "anyone",
+        "no one",
+        "someone",
+        "everyone"
+      ],
+      "answer": [
+        "anyone"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa → any-.",
+        "incorrect": "Revisa esto: Negativa → any-."
+      },
+      "review_of": "en-b1-u10-l04-ex05"
+    },
+    {
+      "id": "en-b2-u12-l06-rv11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The person to who I spoke was kind.",
+      "answer": [
+        "The person to whom I spoke was kind.",
+        "The person who I spoke to was kind.",
+        "The person I spoke to was kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To whom.",
+        "incorrect": "Revisa esto: To whom."
+      },
+      "review_of": "en-b2-u10-l06-ex18"
+    },
+    {
+      "id": "en-b2-u12-l06-ex27",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hedging",
+        "feedback",
+        "idioms"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un correo (8 a 10 frases) a un compañero que no ha cumplido un plazo. Usa hedging ('I'm afraid', 'It seems'), una colocación con make o take, un modismo y una sugerencia constructiva.",
+      "min_words": 80,
+      "self_check_es": [
+        "¿Usas hedging?",
+        "¿Incluyes una colocación con make o take?",
+        "¿Incluyes un modismo?",
+        "¿Das una sugerencia constructiva?"
+      ],
+      "model_answer": "Hi Sam,\n\nThanks for sending the report. I'm afraid it arrived two days late, and it seems that some data are missing. I know you made a great effort, so please don't take this as criticism. To cut to the chase, the client is waiting and the ball is in our court now. It might help to take a short break from the other tasks and make a list of what's missing. My suggestion would be to get in touch with Ana, who has the figures. I'm happy to help if you'd like to talk it through.\n\nBest wishes,\nLaura",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What I meant was… · She told me that…",
+      "cut to the chase · on the same page",
+      "make a mistake · do a favour · take part in",
+      "I'm afraid… · It might help to…"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-communication-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-idioms"
+    },
+    {
+      "type": "grammar",
+      "id": "en-collocations-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hedging"
+    },
+    {
+      "type": "grammar",
+      "id": "en-feedback"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

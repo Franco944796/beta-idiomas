@@ -1,0 +1,909 @@
+{
+  "id": "en-b2-u12-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Break the ice",
+    "es": "Expresiones idiomáticas"
+  },
+  "objective": "Al terminar entiendes y usas modismos comunes del inglés (break the ice, on the same page, cut to the chase...) en conversaciones sociales y de trabajo.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los modismos aparecen en películas, reuniones y conversaciones reales. Entenderlos te ayuda a comprender, y usar algunos bien te hace sonar natural."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Sam",
+        "text": "Thanks for coming. I wanted to get the ball rolling on the new project.",
+        "es": "Gracias por venir. Quería poner en marcha el nuevo proyecto."
+      },
+      {
+        "speaker": "Nina",
+        "text": "Great. Before we start, can I just check that we're on the same page? Last week I got the impression that the budget was still up in the air.",
+        "es": "Genial. Antes de empezar, ¿puedo comprobar que estamos en la misma sintonía? La semana pasada tuve la impresión de que el presupuesto seguía sin decidirse."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Good question. To cut to the chase, we've got half of what we asked for.",
+        "es": "Buena pregunta. Para ir al grano, tenemos la mitad de lo que pedimos."
+      },
+      {
+        "speaker": "Nina",
+        "text": "That's a blow. I won't beat around the bush: it'll be very hard to deliver on time.",
+        "es": "Es un golpe. No voy a andarme con rodeos: será muy difícil entregarlo a tiempo."
+      },
+      {
+        "speaker": "Sam",
+        "text": "I know. We'll just have to bite the bullet and cut some features.",
+        "es": "Lo sé. Tendremos que apretar los dientes y recortar algunas funciones."
+      },
+      {
+        "speaker": "Nina",
+        "text": "Fair enough. Who's going to tell the client? I don't want to spill the beans before we've agreed on a plan.",
+        "es": "De acuerdo. ¿Quién se lo dirá al cliente? No quiero soltar la información antes de acordar un plan."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Leave it with me. The ball is in my court now.",
+        "es": "Déjamelo a mí. Ahora me toca a mí."
+      },
+      {
+        "speaker": "Nina",
+        "text": "Thanks. And, for what it's worth, you hit the nail on the head in your last report.",
+        "es": "Gracias. Y, por si sirve, diste en el clavo en tu último informe."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-get-the-ball-rolling",
+        "lemma": "get the ball rolling",
+        "pos": "idiom",
+        "ipa": "/ɡet ðə bɔːl ˈrəʊlɪŋ/",
+        "es": "poner en marcha",
+        "example": "Get the ball rolling."
+      },
+      {
+        "id": "en-on-the-same-page",
+        "lemma": "on the same page",
+        "pos": "idiom",
+        "ipa": "/ɒn ðə seɪm peɪdʒ/",
+        "es": "en la misma sintonía",
+        "example": "Are we on the same page?"
+      },
+      {
+        "id": "en-up-in-the-air",
+        "lemma": "up in the air",
+        "pos": "idiom",
+        "ipa": "/ʌp ɪn ði eə/",
+        "es": "sin decidir",
+        "example": "Plans are up in the air."
+      },
+      {
+        "id": "en-cut-to-the-chase",
+        "lemma": "cut to the chase",
+        "pos": "idiom",
+        "ipa": "/kʌt tə ðə tʃeɪs/",
+        "es": "ir al grano",
+        "example": "Let's cut to the chase."
+      },
+      {
+        "id": "en-beat-around-the-bush",
+        "lemma": "beat around the bush",
+        "pos": "idiom",
+        "ipa": "/biːt əˈraʊnd ðə bʊʃ/",
+        "es": "andarse con rodeos",
+        "example": "Don't beat around the bush."
+      },
+      {
+        "id": "en-bite-the-bullet",
+        "lemma": "bite the bullet",
+        "pos": "idiom",
+        "ipa": "/baɪt ðə ˈbʊlɪt/",
+        "es": "apretar los dientes",
+        "example": "Bite the bullet."
+      },
+      {
+        "id": "en-spill-the-beans",
+        "lemma": "spill the beans",
+        "pos": "idiom",
+        "ipa": "/spɪl ðə biːnz/",
+        "es": "soltar un secreto",
+        "example": "Spill the beans."
+      },
+      {
+        "id": "en-the-ball-is-in-your-court",
+        "lemma": "the ball is in your court",
+        "pos": "idiom",
+        "ipa": "/ðə bɔːl ɪz ɪn jɔː kɔːt/",
+        "es": "te toca a ti",
+        "example": "The ball is in your court."
+      },
+      {
+        "id": "en-hit-the-nail-on-the-head",
+        "lemma": "hit the nail on the head",
+        "pos": "idiom",
+        "ipa": "/hɪt ðə neɪl ɒn ðə hed/",
+        "es": "dar en el clavo",
+        "example": "You hit the nail on the head."
+      },
+      {
+        "id": "en-break-the-ice",
+        "lemma": "break the ice",
+        "pos": "idiom",
+        "ipa": "/breɪk ði aɪs/",
+        "es": "romper el hielo",
+        "example": "A joke can break the ice."
+      },
+      {
+        "id": "en-read-between-the-lines",
+        "lemma": "read between the lines",
+        "pos": "idiom",
+        "ipa": "/riːd bɪˈtwiːn ðə laɪnz/",
+        "es": "leer entre líneas",
+        "example": "Read between the lines."
+      },
+      {
+        "id": "en-for-what-it-s-worth",
+        "lemma": "for what it's worth",
+        "pos": "idiom",
+        "ipa": "/fə wɒt ɪts wɜːθ/",
+        "es": "por si sirve de algo",
+        "example": "For what it's worth, I agree."
+      }
+    ],
+    "audio_script_id": "en-b2-u12-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Modismos útiles (idioms)**\n\n| Modismo | Significado | Ejemplo |\n|---|---|---|\n| *break the ice* | romper el hielo | *A joke helped break the ice.* |\n| *get the ball rolling* | poner en marcha | *Let's get the ball rolling.* |\n| *on the same page* | de acuerdo, en sintonía | *Are we all on the same page?* |\n| *cut to the chase* | ir al grano | *To cut to the chase, we need more money.* |\n| *beat around the bush* | andarse con rodeos | *Stop beating around the bush!* |\n| *bite the bullet* | aceptar algo difícil | *I decided to bite the bullet and apologise.* |\n| *spill the beans* | revelar un secreto | *Who spilled the beans?* |\n| *hit the nail on the head* | dar en el clavo | *You hit the nail on the head.* |\n| *read between the lines* | leer entre líneas | *Read between the lines.* |\n| *the ball is in your court* | te toca decidir | *I've made my offer; the ball is in your court.* |\n| *up in the air* | sin decidir | *Our holiday plans are still up in the air.* |\n| *call it a day* | dar por terminado | *Let's call it a day.* |\n\n**Cómo se aprenden los modismos**\n\n- Aprende el modismo completo, no palabra por palabra. Un modismo no se traduce literalmente.\n- Usa pocos y bien: un modismo oportuno suena natural; diez seguidos suenan forzados.\n- Cuidado con el registro: la mayoría son informales o neutros; en textos muy formales se evitan.\n\n**Modismos con partes del cuerpo y animales**\n\n- *Keep an eye on* (vigilar) · *pull someone's leg* (tomar el pelo) · *a piece of cake* (muy fácil) · *let the cat out of the bag* (revelar un secreto) · *kill two birds with one stone* (matar dos pájaros de un tiro).\n\n**Errores típicos**\n\n- ✘ *Let's break the ice cream.* (confusión) → ✔ *Let's break the ice.*\n- ✘ *She hit the nail in the head.* → ✔ *She hit the nail on the head.*\n- ✘ *Don't beat the bush around.* → ✔ *Don't beat around the bush.*\n- ✘ *The ball is on your court.* → ✔ *The ball is in your court.*\n- ✘ *I'm pulling your foot.* → ✔ *I'm pulling your leg.*\n\n**Ojo:** *A piece of cake* es 'muy fácil', no un trozo de pastel (aquí). *Bite the bullet* y *spill the beans* no se usan para cosas literales. En español hay equivalentes: *ir al grano*, *dar en el clavo*, *romper el hielo*.\n\nPronunciación: *bullet* /ˈbʊlɪt/ · *beans* /biːnz/ · *court* /kɔːt/ · *chase* /tʃeɪs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "hit the nail in the head",
+        "right": "hit the nail on the head",
+        "note": "On."
+      },
+      {
+        "wrong": "The ball is on your court",
+        "right": "in your court",
+        "note": "In."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué quiere hacer Sam al empezar la reunión?",
+      "options": [
+        "Poner en marcha el proyecto",
+        "Cancelar el proyecto",
+        "Despedir a Nina",
+        "Cambiar de cliente"
+      ],
+      "answer": [
+        "Poner en marcha el proyecto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: get the ball rolling on the new project.",
+        "incorrect": "Revisa esto: Dice: get the ball rolling on the new project."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo está el presupuesto según Sam?",
+      "options": [
+        "Tienen la mitad de lo pedido",
+        "Tienen el doble",
+        "No hay presupuesto",
+        "Está completo"
+      ],
+      "answer": [
+        "Tienen la mitad de lo pedido"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: we've got half of what we asked for.",
+        "incorrect": "Revisa esto: Dice: we've got half of what we asked for."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the guitar good.",
+      "answer": [
+        "She plays the guitar well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del verbo: well.",
+        "incorrect": "Revisa esto: Después del verbo: well."
+      },
+      "review_of": "en-a2-u10-l06-ex09"
+    },
+    {
+      "id": "en-b2-u12-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué deberán hacer?",
+      "options": [
+        "Recortar algunas funciones",
+        "Contratar más gente",
+        "Subir precios",
+        "Pedir un préstamo"
+      ],
+      "answer": [
+        "Recortar algunas funciones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: bite the bullet and cut some features.",
+        "incorrect": "Revisa esto: Dice: bite the bullet and cut some features."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Nina no quiere decírselo ya al cliente?",
+      "options": [
+        "Antes quiere acordar un plan",
+        "Está de vacaciones",
+        "Es un secreto de Estado",
+        "No conoce al cliente"
+      ],
+      "answer": [
+        "Antes quiere acordar un plan"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: before we've agreed on a plan.",
+        "incorrect": "Revisa esto: Dice: before we've agreed on a plan."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 15,
+      "prompt": "'The ball is in my court' significa que Sam ya no tiene que hacer nada.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Significa que le toca actuar a él.",
+        "incorrect": "Revisa esto: Significa que le toca actuar a él."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'To cut to the chase' means...",
+      "options": [
+        "Ir al grano",
+        "Cortar la comida",
+        "Perseguir a alguien",
+        "Salir corriendo"
+      ],
+      "answer": [
+        "Ir al grano"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Break the ice' means...",
+      "options": [
+        "Romper el hielo en una situación social",
+        "Romper un vaso",
+        "Estar muy enfadado",
+        "Hacer frío"
+      ],
+      "answer": [
+        "Romper el hielo en una situación social"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Spill the beans' means...",
+      "options": [
+        "Revelar un secreto",
+        "Tirar comida",
+        "Cocinar",
+        "Hablar mucho"
+      ],
+      "answer": [
+        "Revelar un secreto"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Why you don't try it?",
+      "answer": [
+        "Why don't you try it?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden de pregunta.",
+        "incorrect": "Revisa esto: Orden de pregunta."
+      },
+      "review_of": "en-b2-u05-l04-ex16"
+    },
+    {
+      "id": "en-b2-u12-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'A piece of cake' means...",
+      "options": [
+        "Algo muy fácil",
+        "Un postre",
+        "Un regalo",
+        "Un problema"
+      ],
+      "answer": [
+        "Algo muy fácil"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Pull someone's leg' means...",
+      "options": [
+        "Tomar el pelo",
+        "Ayudar a caminar",
+        "Empujar",
+        "Criticar"
+      ],
+      "answer": [
+        "Tomar el pelo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "This is the house ___ I grew up.",
+      "options": [
+        "in which",
+        "which in",
+        "that in",
+        "whom in"
+      ],
+      "answer": [
+        "in which"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In which.",
+        "incorrect": "Revisa esto: In which."
+      },
+      "review_of": "en-b2-u10-l04-ex11"
+    },
+    {
+      "id": "en-b2-u12-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "It costs three times as much as it did.",
+        "It costs three times more as it did.",
+        "It costs three times much than it did.",
+        "It costs more three times than."
+      ],
+      "answer": [
+        "It costs three times as much as it did."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Múltiplos.",
+        "incorrect": "Revisa esto: Múltiplos."
+      },
+      "review_of": "en-b2-u07-l03-ex14"
+    },
+    {
+      "id": "en-b2-u12-l02-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I take it.",
+      "answer": [
+        "I'll take it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para decidir comprar se usa I'll take it.",
+        "incorrect": "Revisa esto: Para decidir comprar se usa I'll take it."
+      },
+      "review_of": "en-a1-u08-l05-ex09"
+    },
+    {
+      "id": "en-b2-u12-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "You hit the nail ___ the head. Exactly right!",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the head.",
+        "incorrect": "Revisa esto: On the head."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Would you like go to the cinema?",
+      "answer": [
+        "Would you like to go to the cinema?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta to después de Would you like.",
+        "incorrect": "Revisa esto: Falta to después de Would you like."
+      },
+      "review_of": "en-a1-u09-l05-ex04"
+    },
+    {
+      "id": "en-b2-u12-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Stop beating ___ the bush and tell us!",
+      "options": [
+        "around",
+        "on",
+        "in",
+        "over"
+      ],
+      "answer": [
+        "around"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Beat around the bush.",
+        "incorrect": "Revisa esto: Beat around the bush."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've made my offer; now the ball is ___ your court.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "under"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In your court.",
+        "incorrect": "Revisa esto: In your court."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which idiom fits? 'I don't know the date yet; it's still...'",
+      "options": [
+        "up in the air",
+        "in the pocket",
+        "on the bush",
+        "under the bean"
+      ],
+      "answer": [
+        "up in the air"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin decidir.",
+        "incorrect": "Revisa esto: Sin decidir."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 25,
+      "prompt": "Let's get the ball ___ on this project. (rodando)",
+      "answer": [
+        "rolling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get the ball rolling.",
+        "incorrect": "Revisa esto: Get the ball rolling."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 25,
+      "prompt": "To ___ to the chase, we have no money left. (ir al grano)",
+      "answer": [
+        "cut"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut to the chase.",
+        "incorrect": "Revisa esto: Cut to the chase."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She hit the nail in the head with that comment.",
+      "answer": [
+        "She hit the nail on the head with that comment."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the head.",
+        "incorrect": "Revisa esto: On the head."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Don't beat the bush around; just answer.",
+      "answer": [
+        "Don't beat around the bush; just answer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Beat around the bush.",
+        "incorrect": "Revisa esto: Beat around the bush."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ wear trainers to a wedding. (no deberías)",
+      "answer": [
+        "shouldn't",
+        "should not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo negativo.",
+        "incorrect": "Revisa esto: Consejo negativo."
+      },
+      "review_of": "en-a2-u11-l05-ex02"
+    },
+    {
+      "id": "en-b2-u12-l02-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The ball is on your court now.",
+      "answer": [
+        "The ball is in your court now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In your court.",
+        "incorrect": "Revisa esto: In your court."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo están los planes?",
+      "options": [
+        "Sin decidir",
+        "Cancelados",
+        "Reservados",
+        "Cerrados"
+      ],
+      "answer": [
+        "Sin decidir"
+      ],
+      "audio_text": "Our holiday plans are still up in the air. My partner wants to go to the mountains, but I'd rather stay by the sea. We'll have to sit down this weekend and cut to the chase. Whatever happens, I hope we're on the same page by Monday.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: still up in the air.",
+        "incorrect": "Revisa esto: Dice: still up in the air."
+      },
+      "audio_script_id": "en-b2-u12-l02-ex20-a"
+    },
+    {
+      "id": "en-b2-u12-l02-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Para ir al grano: el proyecto está en el aire y tenemos que ponernos de acuerdo cuanto antes.",
+      "answer": [
+        "To cut to the chase, the project is up in the air and we need to get on the same page as soon as possible.",
+        "To cut to the chase: the project is up in the air and we need to be on the same page as soon as possible."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idioms.",
+        "incorrect": "Revisa esto: Idioms."
+      }
+    },
+    {
+      "id": "en-b2-u12-l02-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The evidences show that the claim is wrong.",
+      "answer": [
+        "The evidence shows that the claim is wrong."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      },
+      "review_of": "en-b2-u03-l04-ex14"
+    },
+    {
+      "id": "en-b2-u12-l02-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "write-story"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ being exhausted, I kept going.",
+      "options": [
+        "Despite",
+        "Although",
+        "However",
+        "Whereas"
+      ],
+      "answer": [
+        "Despite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      },
+      "review_of": "en-b1-u12-l05-ex09"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Let's get the ball rolling.",
+      "Are we on the same page?",
+      "To cut to the chase, …",
+      "The ball is in your court."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-get-the-ball-rolling"
+    },
+    {
+      "type": "vocab",
+      "id": "en-on-the-same-page"
+    },
+    {
+      "type": "vocab",
+      "id": "en-up-in-the-air"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cut-to-the-chase"
+    },
+    {
+      "type": "vocab",
+      "id": "en-beat-around-the-bush"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bite-the-bullet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spill-the-beans"
+    },
+    {
+      "type": "vocab",
+      "id": "en-the-ball-is-in-your-court"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hit-the-nail-on-the-head"
+    },
+    {
+      "type": "vocab",
+      "id": "en-break-the-ice"
+    },
+    {
+      "type": "grammar",
+      "id": "en-idioms"
+    }
+  ]
+}

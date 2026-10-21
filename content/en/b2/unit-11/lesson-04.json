@@ -1,0 +1,963 @@
+{
+  "id": "en-b2-u11-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Social issues",
+    "es": "Expresar opinión sobre temas sociales"
+  },
+  "objective": "Al terminar debates problemas sociales (pobreza, vivienda, desempleo, discriminación) con vocabulario preciso, causas, consecuencias y posibles soluciones.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Hablar de problemas sociales exige vocabulario matizado y tacto. Practicas describir causas, consecuencias y soluciones, y expresar tu postura sin generalizar."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Host",
+        "text": "Today we're discussing homelessness. Dr. Silva, why has it become such a visible problem in our cities?",
+        "es": "Hoy hablamos del sinhogarismo. Dra. Silva, ¿por qué se ha convertido en un problema tan visible en nuestras ciudades?"
+      },
+      {
+        "speaker": "Dr. Silva",
+        "text": "There isn't a single cause. Rising rents, job insecurity, cuts to mental health services and family breakdown all play a part. For many people, one unexpected event, such as a job loss or an illness, is enough to push them into crisis.",
+        "es": "No hay una única causa. El aumento de los alquileres, la inestabilidad laboral, los recortes en salud mental y la ruptura familiar influyen. Para muchas personas, un acontecimiento inesperado, como perder el trabajo o una enfermedad, basta para empujarlas a la crisis."
+      },
+      {
+        "speaker": "Host",
+        "text": "Some people say homeless individuals are responsible for their own situation.",
+        "es": "Algunos dicen que las personas sin hogar son responsables de su situación."
+      },
+      {
+        "speaker": "Dr. Silva",
+        "text": "That's an oversimplification. The evidence shows that most people end up on the streets because of circumstances beyond their control. Blaming individuals doesn't solve anything.",
+        "es": "Es una simplificación excesiva. Las pruebas muestran que la mayoría acaba en la calle por circunstancias fuera de su control. Culpar a las personas no resuelve nada."
+      },
+      {
+        "speaker": "Host",
+        "text": "What policies work best?",
+        "es": "¿Qué políticas funcionan mejor?"
+      },
+      {
+        "speaker": "Dr. Silva",
+        "text": "Housing First programmes have been very successful. They provide stable housing first, and then offer support with health, addiction and employment. Countries that have adopted them have seen a significant reduction in rough sleeping.",
+        "es": "Los programas 'Housing First' han tenido mucho éxito. Ofrecen primero vivienda estable y después apoyo en salud, adicciones y empleo. Los países que los han adoptado han visto una reducción significativa de personas durmiendo en la calle."
+      },
+      {
+        "speaker": "Host",
+        "text": "Isn't that expensive?",
+        "es": "¿No es caro?"
+      },
+      {
+        "speaker": "Dr. Silva",
+        "text": "In the short term, yes. But in the long run, it costs less than emergency services, hospital admissions and prison. Prevention is always cheaper than cure.",
+        "es": "A corto plazo, sí. Pero a largo plazo cuesta menos que servicios de emergencia, ingresos hospitalarios y prisión. Prevenir siempre es más barato que curar."
+      },
+      {
+        "speaker": "Host",
+        "text": "Thank you, Dr. Silva.",
+        "es": "Gracias, Dra. Silva."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-homelessness",
+        "lemma": "homelessness",
+        "pos": "noun",
+        "ipa": "/ˈhəʊmləsnəs/",
+        "es": "sinhogarismo",
+        "example": "Homelessness is rising."
+      },
+      {
+        "id": "en-rough-sleeping",
+        "lemma": "rough sleeping",
+        "pos": "noun",
+        "ipa": "/rʌf ˈsliːpɪŋ/",
+        "es": "dormir en la calle",
+        "example": "Reduce rough sleeping."
+      },
+      {
+        "id": "en-job-insecurity",
+        "lemma": "job insecurity",
+        "pos": "noun",
+        "ipa": "/dʒɒb ˌɪnsɪˈkjʊərəti/",
+        "es": "inestabilidad laboral",
+        "example": "Job insecurity."
+      },
+      {
+        "id": "en-family-breakdown",
+        "lemma": "family breakdown",
+        "pos": "noun",
+        "ipa": "/ˈfæməli ˈbreɪkdaʊn/",
+        "es": "ruptura familiar",
+        "example": "Family breakdown."
+      },
+      {
+        "id": "en-play-a-part",
+        "lemma": "play a part",
+        "pos": "phrase",
+        "ipa": "/pleɪ ə pɑːt/",
+        "es": "influir",
+        "example": "Many factors play a part."
+      },
+      {
+        "id": "en-oversimplification",
+        "lemma": "oversimplification",
+        "pos": "noun",
+        "ipa": "/ˌəʊvəˌsɪmplɪfɪˈkeɪʃn/",
+        "es": "simplificación excesiva",
+        "example": "That's an oversimplification."
+      },
+      {
+        "id": "en-beyond-their-control",
+        "lemma": "beyond their control",
+        "pos": "phrase",
+        "ipa": "/bɪˈjɒnd ðeə kənˈtrəʊl/",
+        "es": "fuera de su control",
+        "example": "Beyond their control."
+      },
+      {
+        "id": "en-blame",
+        "lemma": "blame",
+        "pos": "verb",
+        "ipa": "/bleɪm/",
+        "es": "culpar",
+        "example": "Don't blame the victim."
+      },
+      {
+        "id": "en-addiction",
+        "lemma": "addiction",
+        "pos": "noun",
+        "ipa": "/əˈdɪkʃn/",
+        "es": "adicción",
+        "example": "Treat addiction."
+      },
+      {
+        "id": "en-in-the-long-run",
+        "lemma": "in the long run",
+        "pos": "phrase",
+        "ipa": "/ɪn ðə lɒŋ rʌn/",
+        "es": "a largo plazo",
+        "example": "It pays off in the long run."
+      },
+      {
+        "id": "en-prevention",
+        "lemma": "prevention",
+        "pos": "noun",
+        "ipa": "/prɪˈvenʃn/",
+        "es": "prevención",
+        "example": "Prevention is better than cure."
+      },
+      {
+        "id": "en-significant",
+        "lemma": "significant",
+        "pos": "adj",
+        "ipa": "/sɪɡˈnɪfɪkənt/",
+        "es": "significativo",
+        "example": "A significant reduction."
+      }
+    ],
+    "audio_script_id": "en-b2-u11-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de problemas sociales**\n\n| Tema | Palabras clave |\n|---|---|\n| Pobreza | *poverty line, deprivation, cost of living, food bank, welfare, benefits, inequality* |\n| Vivienda | *homelessness, affordable housing, eviction, rent, landlord, overcrowding* |\n| Trabajo | *unemployment, job insecurity, zero-hours contract, gig economy, living wage* |\n| Discriminación | *prejudice, stereotype, racism, sexism, ageism, equal opportunities, diversity* |\n| Salud y bienestar | *mental health, addiction, loneliness, access to healthcare* |\n| Comunidad | *social cohesion, integration, volunteering, community, solidarity* |\n\n**Hablar de causas y consecuencias**\n\n- Causas: *X is caused by Y · X results from Y · X is due to Y · X stems from Y · X is a consequence of Y.*\n- Consecuencias: *X leads to Y · X results in Y · X gives rise to Y · As a result, … · Consequently, …*\n\n**Hablar de soluciones**\n\n- *One possible solution is … · It could be argued that … · The government should … · What is needed is …*\n- *Prevention is better than cure. · A holistic approach is required.*\n\n**Evitar los estereotipos**\n\n- Usa *some / many / a growing number of / in many cases* en lugar de *all / always / never*.\n- *People experiencing homelessness* (más respetuoso) en lugar de *the homeless*.\n- Distingue hechos de opiniones: *Studies show … · It is widely believed that …*\n\n**Expresar tu postura con tacto**\n\n- *I would argue that … · It seems to me that … · I'm inclined to think … · To some extent, … but …*\n\n**Errores típicos**\n\n- ✘ *The homeless are lazy.* → ✔ *There is no evidence that homelessness is caused by laziness.*\n- ✘ *The poverty are increasing.* → ✔ *Poverty is increasing.*\n- ✘ *It's the fault of the government that … (generalización)* → ✔ *Government policy has contributed to …*\n- ✘ *A lot of people has lost their jobs.* → ✔ *A lot of people have lost their jobs.*\n- ✘ *It depends of the circumstances.* → ✔ *It depends on the circumstances.*\n\n**Ojo:** *poor* (adjetivo) ≠ *the poor* (los pobres, colectivo plural); *poverty* (sustantivo). *Fewer* con contables, *less* con incontables. *Benefits* (UK) = ayudas sociales; *welfare* (US).\n\nPronunciación: *homelessness* /ˈhəʊmləsnəs/ · *eviction* /ɪˈvɪkʃn/ · *prejudice* /ˈpredʒədɪs/ · *stem from* /stem frɒm/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The poverty are",
+        "right": "Poverty is",
+        "note": "Incontable."
+      },
+      {
+        "wrong": "A lot of people has",
+        "right": "A lot of people have",
+        "note": "Plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuáles son algunas causas del sinhogarismo según la doctora?",
+      "options": [
+        "Alquileres altos, inestabilidad laboral y recortes en salud mental",
+        "La pereza",
+        "La falta de educación",
+        "Los inmigrantes"
+      ],
+      "answer": [
+        "Alquileres altos, inestabilidad laboral y recortes en salud mental"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: rising rents, job insecurity, cuts to mental health.",
+        "incorrect": "Revisa esto: Dice: rising rents, job insecurity, cuts to mental health."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo califica la idea de que los sin hogar son responsables de su situación?",
+      "options": [
+        "Una simplificación excesiva",
+        "Totalmente cierta",
+        "Un hecho probado",
+        "Una buena política"
+      ],
+      "answer": [
+        "Una simplificación excesiva"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: That's an oversimplification.",
+        "incorrect": "Revisa esto: Dice: That's an oversimplification."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué ofrecen los programas Housing First?",
+      "options": [
+        "Primero vivienda estable y luego apoyo",
+        "Solo dinero",
+        "Solo comida",
+        "Solo trabajo"
+      ],
+      "answer": [
+        "Primero vivienda estable y luego apoyo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: stable housing first, and then support.",
+        "incorrect": "Revisa esto: Dice: stable housing first, and then support."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 15,
+      "prompt": "La doctora dice que prevenir es más caro que curar.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice lo contrario: prevention is always cheaper than cure.",
+        "incorrect": "Revisa esto: Dice lo contrario: prevention is always cheaper than cure."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Homelessness ___ from a combination of factors.",
+      "options": [
+        "stems",
+        "stem",
+        "is stemming",
+        "stemmed to"
+      ],
+      "answer": [
+        "stems"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stem from.",
+        "incorrect": "Revisa esto: Stem from."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Unemployment can ___ in poverty and social exclusion.",
+      "options": [
+        "result",
+        "cause",
+        "lead of",
+        "make"
+      ],
+      "answer": [
+        "result"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Result in.",
+        "incorrect": "Revisa esto: Result in."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Poverty ___ increasing in many cities.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Poverty incontable.",
+        "incorrect": "Revisa esto: Poverty incontable."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions-time"
+      ],
+      "est_seconds": 25,
+      "prompt": "We arrived ___ nine o'clock.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con horas se usa at.",
+        "incorrect": "Revisa esto: Con horas se usa at."
+      },
+      "review_of": "en-a2-u02-l04-ex01"
+    },
+    {
+      "id": "en-b2-u11-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "A lot of people ___ lost their jobs this year.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People plural.",
+        "incorrect": "Revisa esto: People plural."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Something must ___ about pollution.",
+      "options": [
+        "be done",
+        "do",
+        "be doing",
+        "done"
+      ],
+      "answer": [
+        "be done"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal pasivo.",
+        "incorrect": "Revisa esto: Modal pasivo."
+      },
+      "review_of": "en-b2-u09-l06-ex07"
+    },
+    {
+      "id": "en-b2-u11-l04-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ (buy) some bread yesterday.",
+      "answer": [
+        "bought"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de buy: bought.",
+        "incorrect": "Revisa esto: Pasado irregular de buy: bought."
+      },
+      "review_of": "en-a2-u01-l03-ex03"
+    },
+    {
+      "id": "en-b2-u11-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "It depends ___ the circumstances.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "in"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is more respectful?",
+      "options": [
+        "People experiencing homelessness",
+        "The homeless bums",
+        "Those losers",
+        "Street trash"
+      ],
+      "answer": [
+        "People experiencing homelessness"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lenguaje respetuoso.",
+        "incorrect": "Revisa esto: Lenguaje respetuoso."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "'In the long run' means...",
+      "options": [
+        "A largo plazo",
+        "En seguida",
+        "Corriendo",
+        "En un viaje"
+      ],
+      "answer": [
+        "A largo plazo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In the long run.",
+        "incorrect": "Revisa esto: In the long run."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Never I have seen such a beautiful sunset.",
+      "answer": [
+        "Never have I seen such a beautiful sunset."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      },
+      "review_of": "en-b2-u06-l06-ex17"
+    },
+    {
+      "id": "en-b2-u11-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which structure expresses a consequence?",
+      "options": [
+        "As a result, …",
+        "Despite …",
+        "Unless …",
+        "Although …"
+      ],
+      "answer": [
+        "As a result, …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consecuencia.",
+        "incorrect": "Revisa esto: Consecuencia."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijeron que el reembolso llegaría en cinco días, pero todavía no he recibido nada.",
+      "answer": [
+        "They told me that the refund would arrive in five days, but I still haven't received anything.",
+        "They told me the refund would arrive in five days, but I haven't received anything yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto + present perfect.",
+        "incorrect": "Revisa esto: Estilo indirecto + present perfect."
+      },
+      "review_of": "en-b1-u07-l05-ex16"
+    },
+    {
+      "id": "en-b2-u11-l04-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Para qué estudiaron tanto?",
+      "options": [
+        "Para conservar las becas",
+        "Para viajar",
+        "Para ganar dinero",
+        "Para evitar clases"
+      ],
+      "answer": [
+        "Para conservar las becas"
+      ],
+      "audio_text": "Although the exam was difficult, most students passed. They had studied hard so that they could keep their scholarships. In addition, many had attended extra classes in order to improve their grades.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: so that they could keep their scholarships.",
+        "incorrect": "Revisa esto: Dice: so that they could keep their scholarships."
+      },
+      "audio_script_id": "en-b2-u11-l04-rv06-a",
+      "review_of": "en-b2-u08-l03-ex20"
+    },
+    {
+      "id": "en-b2-u11-l04-rv07",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "single ticket",
+          "right": "billete de ida"
+        },
+        {
+          "left": "return ticket",
+          "right": "ida y vuelta"
+        },
+        {
+          "left": "platform",
+          "right": "andén"
+        },
+        {
+          "left": "direct",
+          "right": "sin transbordo"
+        },
+        {
+          "left": "timetable",
+          "right": "horario"
+        },
+        {
+          "left": "ticket office",
+          "right": "boletería"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las palabras básicas para viajar en tren.",
+        "incorrect": "Revisa esto: Son las palabras básicas para viajar en tren."
+      },
+      "review_of": "en-a2-u12-l01-ex01"
+    },
+    {
+      "id": "en-b2-u11-l04-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Prejudice means...",
+      "options": [
+        "Un juicio negativo sin conocimiento suficiente",
+        "Un tribunal",
+        "Una ley",
+        "Una ayuda"
+      ],
+      "answer": [
+        "Un juicio negativo sin conocimiento suficiente"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prejuicio.",
+        "incorrect": "Revisa esto: Prejuicio."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Don't give up' means...",
+      "options": [
+        "No te rindas",
+        "No te vayas",
+        "No hables",
+        "No cambies"
+      ],
+      "answer": [
+        "No te rindas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Give up.",
+        "incorrect": "Revisa esto: Give up."
+      },
+      "review_of": "en-b1-u12-l01-ex11"
+    },
+    {
+      "id": "en-b2-u11-l04-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 25,
+      "prompt": "One possible ___ is to build more affordable housing. (solución)",
+      "answer": [
+        "solution"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Solution.",
+        "incorrect": "Revisa esto: Solution."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 25,
+      "prompt": "Rising rents lead ___ homelessness. (a)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lead to.",
+        "incorrect": "Revisa esto: Lead to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The poverty are increasing in many countries.",
+      "answer": [
+        "Poverty is increasing in many countries."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Poverty incontable.",
+        "incorrect": "Revisa esto: Poverty incontable."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "How long ___ English?",
+      "options": [
+        "have you been learning",
+        "are you learning",
+        "did you learn",
+        "have you learned"
+      ],
+      "answer": [
+        "have you been learning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Duración que continúa: have been + -ing.",
+        "incorrect": "Revisa esto: Duración que continúa: have been + -ing."
+      },
+      "review_of": "en-b1-u01-l06-ex04"
+    },
+    {
+      "id": "en-b2-u11-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "A lot of people has lost their homes.",
+      "answer": [
+        "A lot of people have lost their homes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People plural.",
+        "incorrect": "Revisa esto: People plural."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It depends of the circumstances of each person.",
+      "answer": [
+        "It depends on the circumstances of each person."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué se necesita según el hablante?",
+      "options": [
+        "Vivienda asequible y un salario digno",
+        "Más policía",
+        "Más impuestos",
+        "Menos empleo"
+      ],
+      "answer": [
+        "Vivienda asequible y un salario digno"
+      ],
+      "audio_text": "In my city, a growing number of families cannot afford their rent. Many work two jobs and still struggle. This leads to stress and, in some cases, to eviction. What is needed is affordable housing and a living wage.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: affordable housing and a living wage.",
+        "incorrect": "Revisa esto: Dice: affordable housing and a living wage."
+      },
+      "audio_script_id": "en-b2-u11-l04-ex19-a"
+    },
+    {
+      "id": "en-b2-u11-l04-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Participas en un debate sobre desigualdad.",
+      "turns": [
+        {
+          "speaker": "Moderator",
+          "text": "What do you think is the main cause of inequality?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "There isn't a single cause. In my view, unequal access to education and job insecurity both play a part.",
+            "Rich people are bad.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Causa con matiz."
+        },
+        {
+          "speaker": "Moderator",
+          "text": "What could be done?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "One possible solution is to invest in public education. In the long run, it would cost less than dealing with the consequences.",
+            "Give money to everyone.",
+            "Nothing."
+          ],
+          "best": 0,
+          "why_es": "Solución razonada."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u11-l04-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No hay una única causa; el aumento de los alquileres y la inestabilidad laboral influyen.",
+      "answer": [
+        "There isn't a single cause; rising rents and job insecurity play a part.",
+        "There isn't one single cause; rising rents and job insecurity play a part."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causas.",
+        "incorrect": "Revisa esto: Causas."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "There isn't a single cause.",
+      "X leads to Y · X results from Y",
+      "One possible solution is …",
+      "In the long run, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-homelessness"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rough-sleeping"
+    },
+    {
+      "type": "vocab",
+      "id": "en-job-insecurity"
+    },
+    {
+      "type": "vocab",
+      "id": "en-family-breakdown"
+    },
+    {
+      "type": "vocab",
+      "id": "en-play-a-part"
+    },
+    {
+      "type": "vocab",
+      "id": "en-oversimplification"
+    },
+    {
+      "type": "vocab",
+      "id": "en-beyond-their-control"
+    },
+    {
+      "type": "vocab",
+      "id": "en-blame"
+    },
+    {
+      "type": "vocab",
+      "id": "en-addiction"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-the-long-run"
+    },
+    {
+      "type": "grammar",
+      "id": "en-social-issues"
+    }
+  ]
+}

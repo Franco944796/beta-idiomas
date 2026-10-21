@@ -1,0 +1,816 @@
+{
+  "id": "en-b2-u03-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 3,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Can we trust it?",
+    "es": "Evaluar fuentes y argumentos"
+  },
+  "objective": "Al terminar evalúas la fiabilidad de una fuente, expresas dudas con cortesía y desmontas un bulo con argumentos.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "¿Quién lo dice? ¿Qué pruebas aporta? ¿Qué intereses tiene? Evaluar fuentes es una habilidad de análisis, y en inglés hay frases muy precisas para expresarlo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Iris",
+        "text": "Look at this post: 'Scientists confirm that coffee cures all illnesses.' It's been shared thousands of times.",
+        "es": "Mira esta publicación: 'Científicos confirman que el café cura todas las enfermedades'. La han compartido miles de veces."
+      },
+      {
+        "speaker": "Omar",
+        "text": "That seems far-fetched. Who are these scientists? There's no link to the study.",
+        "es": "Parece exagerado. ¿Quiénes son esos científicos? No hay enlace al estudio."
+      },
+      {
+        "speaker": "Iris",
+        "text": "Good point. And the page belongs to a company that sells coffee, so it clearly has a vested interest.",
+        "es": "Buen punto. Y la página es de una empresa que vende café, así que claramente tiene un interés."
+      },
+      {
+        "speaker": "Omar",
+        "text": "Right. Even if the study exists, we can't assume it's reliable. What was the sample size? Was it peer-reviewed?",
+        "es": "Exacto. Aunque el estudio exista, no podemos dar por hecho que sea fiable. ¿Cuál fue el tamaño de la muestra? ¿Lo revisaron otros expertos?"
+      },
+      {
+        "speaker": "Iris",
+        "text": "Let me check. Hmm, the only source is a blog. There's no evidence that any independent expert has looked at it.",
+        "es": "Déjame mirar. Vaya, la única fuente es un blog. No hay pruebas de que ningún experto independiente lo haya revisado."
+      },
+      {
+        "speaker": "Omar",
+        "text": "So I wouldn't take it at face value. Correlation doesn't imply causation, either.",
+        "es": "Entonces no me lo tomaría al pie de la letra. Además, correlación no implica causalidad."
+      },
+      {
+        "speaker": "Iris",
+        "text": "Exactly. It's misleading to say coffee 'cures' anything on that basis. At most, it might be linked to some benefits.",
+        "es": "Exacto. Es engañoso decir que el café 'cura' algo con esa base. Como mucho, podría estar relacionado con algunos beneficios."
+      },
+      {
+        "speaker": "Omar",
+        "text": "Shall we report the post? It's spreading misinformation.",
+        "es": "¿La denunciamos? Está difundiendo desinformación."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-share",
+        "lemma": "share",
+        "pos": "verb",
+        "ipa": "/ʃeə/",
+        "es": "compartir",
+        "example": "It was shared widely."
+      },
+      {
+        "id": "en-far-fetched",
+        "lemma": "far-fetched",
+        "pos": "adj",
+        "ipa": "/ˌfɑː ˈfetʃt/",
+        "es": "inverosímil",
+        "example": "A far-fetched claim."
+      },
+      {
+        "id": "en-vested-interest",
+        "lemma": "vested interest",
+        "pos": "noun",
+        "ipa": "/ˌvestɪd ˈɪntrəst/",
+        "es": "interés personal",
+        "example": "A vested interest."
+      },
+      {
+        "id": "en-sample-size",
+        "lemma": "sample size",
+        "pos": "noun",
+        "ipa": "/ˈsɑːmpl saɪz/",
+        "es": "tamaño de la muestra",
+        "example": "The sample size was small."
+      },
+      {
+        "id": "en-peer-reviewed",
+        "lemma": "peer-reviewed",
+        "pos": "adj",
+        "ipa": "/ˌpɪə rɪˈvjuːd/",
+        "es": "revisado por pares",
+        "example": "A peer-reviewed study."
+      },
+      {
+        "id": "en-evidence",
+        "lemma": "evidence",
+        "pos": "noun",
+        "ipa": "/ˈevɪdəns/",
+        "es": "pruebas",
+        "example": "There is no evidence."
+      },
+      {
+        "id": "en-independent",
+        "lemma": "independent",
+        "pos": "adj",
+        "ipa": "/ˌɪndɪˈpendənt/",
+        "es": "independiente",
+        "example": "An independent expert."
+      },
+      {
+        "id": "en-at-face-value",
+        "lemma": "at face value",
+        "pos": "phrase",
+        "ipa": "/æt feɪs ˈvæljuː/",
+        "es": "al pie de la letra",
+        "example": "Don't take it at face value."
+      },
+      {
+        "id": "en-correlation",
+        "lemma": "correlation",
+        "pos": "noun",
+        "ipa": "/ˌkɒrəˈleɪʃn/",
+        "es": "correlación",
+        "example": "A correlation, not causation."
+      },
+      {
+        "id": "en-causation",
+        "lemma": "causation",
+        "pos": "noun",
+        "ipa": "/kɔːˈzeɪʃn/",
+        "es": "causalidad",
+        "example": "Correlation isn't causation."
+      },
+      {
+        "id": "en-misleading",
+        "lemma": "misleading",
+        "pos": "adj",
+        "ipa": "/mɪsˈliːdɪŋ/",
+        "es": "engañoso",
+        "example": "A misleading claim."
+      },
+      {
+        "id": "en-report",
+        "lemma": "report",
+        "pos": "verb",
+        "ipa": "/rɪˈpɔːt/",
+        "es": "denunciar, informar",
+        "example": "Report the post."
+      }
+    ],
+    "audio_script_id": "en-b2-u03-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Evaluar fuentes: preguntas clave**\n\n| Pregunta | Frase en inglés |\n|---|---|\n| ¿Quién lo dice? | *Who is behind this? · Is the author an expert?* |\n| ¿Con qué pruebas? | *Where's the evidence? · Is there a link to the study?* |\n| ¿Con qué intereses? | *Does the source have a vested interest? · Who funded it?* |\n| ¿Es reciente? | *When was it published? Is it up to date?* |\n| ¿Lo confirman otros? | *Do other sources report the same? · Can it be cross-checked?* |\n| ¿Es neutral? | *Is the language emotional or neutral? Is it one-sided?* |\n\n**Expresar dudas con cortesía**\n\n- *That seems far-fetched. · I'm not convinced. · I'd take that with a pinch of salt. · I wouldn't take it at face value. · I find that hard to believe.*\n\n**Hedging para afirmaciones prudentes**\n\n- *may / might / could be linked to* · *tends to · appears to · seems to · suggests that · is likely to*.\n- ✘ *Coffee cures cancer.* → ✔ *Coffee may be linked to a lower risk of …*\n\n**Causa y correlación**\n\n- *Correlation doesn't imply causation.* · *X is associated with Y.* · *X leads to Y.* · *X is caused by Y.*\n\n**Conectores de análisis**\n\n- *Even if …, … · Even though + hecho · Whether or not … · Unless there is evidence, …*\n\n**Errores típicos**\n\n- ✘ *The evidences show …* → ✔ *The evidence shows …* (incontable).\n- ✘ *It's a fake information.* → ✔ *It's false information.* / *It's fake news.*\n- ✘ *I doubt that it is true to be* → ✔ *I doubt (that) it's true.*\n- ✘ *Even it is true…* → ✔ *Even if it is true…*\n\n**Ojo:** *evidence* e *information* son incontables. *Proof* (prueba concluyente) es más fuerte que *evidence*. *Prove* → *proven* o *proved*.\n\nPronunciación: *evidence* /ˈevɪdəns/ · *peer-reviewed* /ˌpɪə rɪˈvjuːd/ · *correlation* /ˌkɒrəˈleɪʃn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "the evidences",
+        "right": "the evidence",
+        "note": "Evidence incontable."
+      },
+      {
+        "wrong": "fake information",
+        "right": "false information / fake news",
+        "note": "Colocación natural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u03-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué afirma la publicación?",
+      "options": [
+        "Que el café cura todas las enfermedades",
+        "Que el té es mejor",
+        "Que el azúcar es peligroso",
+        "Que beber agua es inútil"
+      ],
+      "answer": [
+        "Que el café cura todas las enfermedades"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: coffee cures all illnesses.",
+        "incorrect": "Revisa esto: Dice: coffee cures all illnesses."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué desconfían de la página?",
+      "options": [
+        "Pertenece a una empresa que vende café",
+        "Es muy antigua",
+        "Tiene faltas",
+        "No tiene fotos"
+      ],
+      "answer": [
+        "Pertenece a una empresa que vende café"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a vested interest.",
+        "incorrect": "Revisa esto: Dice: a vested interest."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la única fuente del supuesto estudio?",
+      "options": [
+        "Un blog",
+        "Una revista científica",
+        "Un periódico",
+        "Una universidad"
+      ],
+      "answer": [
+        "Un blog"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the only source is a blog.",
+        "incorrect": "Revisa esto: Dice: the only source is a blog."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 15,
+      "prompt": "Omar y Iris deciden creer la publicación.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concluyen que es engañosa y proponen denunciarla.",
+        "incorrect": "Revisa esto: Concluyen que es engañosa y proponen denunciarla."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "personal-profile"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy especialista en comunicación con ocho años de experiencia y busco un puesto en el que combinar creatividad y datos.",
+      "answer": [
+        "I'm a communications specialist with eight years' experience and I'm looking for a role in which I can combine creativity and data.",
+        "I am a communications specialist with eight years of experience and I am looking for a role in which I can combine creativity and data."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Perfil profesional.",
+        "incorrect": "Revisa esto: Perfil profesional."
+      },
+      "review_of": "en-b2-u01-l05-ex15"
+    },
+    {
+      "id": "en-b2-u03-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wouldn't take it ___ face value.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At face value.",
+        "incorrect": "Revisa esto: At face value."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ shows that the claim is false.",
+      "options": [
+        "evidence",
+        "evidences",
+        "an evidence",
+        "evidencing"
+      ],
+      "answer": [
+        "evidence"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ if the study is real, we can't generalise from ten people.",
+      "options": [
+        "Even",
+        "Also",
+        "Only",
+        "Despite"
+      ],
+      "answer": [
+        "Even"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Even if.",
+        "incorrect": "Revisa esto: Even if."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which statement is more cautious?",
+      "options": [
+        "Coffee may be linked to some benefits.",
+        "Coffee cures everything.",
+        "Coffee always prevents illness.",
+        "Coffee is magic."
+      ],
+      "answer": [
+        "Coffee may be linked to some benefits."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Correlation doesn't imply causation' means...",
+      "options": [
+        "Que dos cosas relacionadas no implican que una cause la otra",
+        "Que todo tiene causa",
+        "Que no hay relación",
+        "Que la causa siempre es clara"
+      ],
+      "answer": [
+        "Que dos cosas relacionadas no implican que una cause la otra"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Correlación ≠ causalidad.",
+        "incorrect": "Revisa esto: Correlación ≠ causalidad."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd take that with a pinch of ___ .",
+      "options": [
+        "salt",
+        "sugar",
+        "pepper",
+        "oil"
+      ],
+      "answer": [
+        "salt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take with a pinch of salt.",
+        "incorrect": "Revisa esto: Take with a pinch of salt."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "A source that gains money from a claim has a ___ interest.",
+      "options": [
+        "vested",
+        "vestment",
+        "wasted",
+        "dressed"
+      ],
+      "answer": [
+        "vested"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vested interest.",
+        "incorrect": "Revisa esto: Vested interest."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "going-to-plans"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy a estudiar inglés el año que viene.",
+      "answer": [
+        "I'm going to study English next year.",
+        "I am going to study English next year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm + going to + study.",
+        "incorrect": "Revisa esto: I'm + going to + study."
+      },
+      "review_of": "en-a2-u05-l01-ex10"
+    },
+    {
+      "id": "en-b2-u03-l04-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 25,
+      "prompt": "There is no ___ that any independent expert has reviewed it. (prueba)",
+      "answer": [
+        "evidence"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence.",
+        "incorrect": "Revisa esto: Evidence."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 25,
+      "prompt": "Not everything you read online is ___ . (fiable)",
+      "answer": [
+        "reliable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reliable.",
+        "incorrect": "Revisa esto: Reliable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The evidences show that the claim is wrong.",
+      "answer": [
+        "The evidence shows that the claim is wrong."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "That is a fake information.",
+      "answer": [
+        "That is false information.",
+        "That is fake news."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fake information no es natural.",
+        "incorrect": "Revisa esto: Fake information no es natural."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Even it is true, I wouldn't trust the source.",
+      "answer": [
+        "Even if it is true, I wouldn't trust the source."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Even if.",
+        "incorrect": "Revisa esto: Even if."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "messages-informal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un amigo te invita y tú no puedes ir. Respuesta informal:",
+      "options": [
+        "Sorry, can't make it. Have fun!",
+        "I regret to inform you that I cannot attend.",
+        "Dear friend, no.",
+        "Not possible, goodbye."
+      ],
+      "answer": [
+        "Sorry, can't make it. Have fun!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta natural y amable entre amigos.",
+        "incorrect": "Revisa esto: Respuesta natural y amable entre amigos."
+      },
+      "review_of": "en-a2-u09-l05-ex02"
+    },
+    {
+      "id": "en-b2-u03-l04-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "third-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si hubiera sabido lo difícil que era, habría pedido ayuda antes.",
+      "answer": [
+        "If I had known how difficult it was, I would have asked for help earlier.",
+        "If I had known how hard it was, I would have asked for help earlier."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercer condicional.",
+        "incorrect": "Revisa esto: Tercer condicional."
+      },
+      "review_of": "en-b2-u02-l06-ex20"
+    },
+    {
+      "id": "en-b2-u03-l04-rv05",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "chicken and rice",
+      "answer": [
+        "chicken and rice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'chicken and rice'.",
+        "incorrect": "Revisa esto: Escuchaste 'chicken and rice'."
+      },
+      "audio_script_id": "en-b2-u03-l04-rv05-a",
+      "review_of": "en-a1-u05-l01-ex04"
+    },
+    {
+      "id": "en-b2-u03-l04-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace si falta alguno de esos tres puntos?",
+      "options": [
+        "Lo toma con cautela",
+        "Lo comparte igual",
+        "Lo borra",
+        "Escribe al autor"
+      ],
+      "answer": [
+        "Lo toma con cautela"
+      ],
+      "audio_text": "Before sharing an article, I always check three things: who wrote it, whether other outlets report the same story, and whether there is a link to the original evidence. If any of these is missing, I take it with a pinch of salt.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: take it with a pinch of salt.",
+        "incorrect": "Revisa esto: Dice: take it with a pinch of salt."
+      },
+      "audio_script_id": "en-b2-u03-l04-ex17-a"
+    },
+    {
+      "id": "en-b2-u03-l04-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo comparte una noticia dudosa.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Look at this! Scientists say chocolate makes you live longer!"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "That seems far-fetched. Who did the study, and is there a link to it?",
+            "No. I do not believe it, is false.",
+            "Cool!"
+          ],
+          "best": 0,
+          "why_es": "Duda con cortesía."
+        },
+        {
+          "speaker": "Friend",
+          "text": "It's from a website that sells chocolate."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Then it clearly has a vested interest. I wouldn't take it at face value.",
+            "Then is true.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Evaluar interés."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No hay pruebas de que ningún experto independiente lo haya revisado.",
+      "answer": [
+        "There is no evidence that any independent expert has reviewed it.",
+        "There's no evidence that any independent expert has looked at it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l04-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a dog. ___ dog is brown.",
+      "answer": [
+        "The"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segunda mención: the.",
+        "incorrect": "Revisa esto: Segunda mención: the."
+      },
+      "review_of": "en-a1-u11-l03-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "That seems far-fetched.",
+      "Does the source have a vested interest?",
+      "I wouldn't take it at face value.",
+      "Correlation doesn't imply causation."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-share"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far-fetched"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vested-interest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sample-size"
+    },
+    {
+      "type": "vocab",
+      "id": "en-peer-reviewed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-evidence"
+    },
+    {
+      "type": "vocab",
+      "id": "en-independent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-at-face-value"
+    },
+    {
+      "type": "vocab",
+      "id": "en-correlation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-causation"
+    },
+    {
+      "type": "grammar",
+      "id": "en-evaluating-sources"
+    }
+  ]
+}

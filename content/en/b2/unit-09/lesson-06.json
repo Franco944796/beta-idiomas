@@ -1,0 +1,872 @@
+{
+  "id": "en-b2-u09-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 9",
+    "es": "Checkpoint 9"
+  },
+  "objective": "Al terminar demuestras que hablas del medio ambiente, usas la pasiva avanzada, expresas condiciones con alternativas, haces propuestas y escribes un informe.",
+  "est_minutes": 45,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 9 de B2: vocabulario ambiental, pasiva avanzada, alternativas a if, propuestas e informes."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de medio ambiente, pasiva avanzada, provided that / unless / in case / otherwise, estructura de una propuesta y estructura de un informe.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 9**\n\n- *tackle climate change · cut emissions · renewable energy · Pollution is … (incontable)*\n- *are being cleared · have been planted · must be done · will have been completed*\n- *provided that · as long as · unless = if not · in case it rains · otherwise*\n- *I'd like to propose … · My proposal is to … · It would pay for itself …*\n- *The purpose of this report is … · The survey revealed … · It is recommended that …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Causa o solución?",
+      "categories": [
+        "Cause",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "burning coal",
+          "category": "Cause"
+        },
+        {
+          "text": "deforestation",
+          "category": "Cause"
+        },
+        {
+          "text": "overconsumption",
+          "category": "Cause"
+        },
+        {
+          "text": "solar power",
+          "category": "Solution"
+        },
+        {
+          "text": "recycling",
+          "category": "Solution"
+        },
+        {
+          "text": "reforestation",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "We need to ___ climate change before it is too late.",
+      "options": [
+        "tackle",
+        "tackle to",
+        "make",
+        "do"
+      ],
+      "answer": [
+        "tackle"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tackle.",
+        "incorrect": "Revisa esto: Tackle."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived in this house ___ ten years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo.",
+        "incorrect": "Revisa esto: For + periodo."
+      },
+      "review_of": "en-a2-u08-l06-ex06"
+    },
+    {
+      "id": "en-b2-u09-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ is a serious problem in big cities.",
+      "options": [
+        "Pollution",
+        "The pollutions",
+        "Pollutions",
+        "A pollution"
+      ],
+      "answer": [
+        "Pollution"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "A large ___ of plastic ends up in the ocean.",
+      "options": [
+        "amount",
+        "number",
+        "quantity of",
+        "amounts of"
+      ],
+      "answer": [
+        "amount"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Amount.",
+        "incorrect": "Revisa esto: Amount."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , graduates pay more tax over their lives. (Es cierto que)",
+      "options": [
+        "Admittedly",
+        "Fortunately",
+        "Hardly",
+        "Nowhere"
+      ],
+      "answer": [
+        "Admittedly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admittedly = es cierto que.",
+        "incorrect": "Revisa esto: Admittedly = es cierto que."
+      },
+      "review_of": "en-b2-u08-l04-ex10"
+    },
+    {
+      "id": "en-b2-u09-l06-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No puede ser verdad. Debe de ser un error.",
+      "answer": [
+        "It can't be true. It must be a mistake.",
+        "That can't be true. It must be a mistake.",
+        "It can't be true. It must be an error."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducciones.",
+        "incorrect": "Revisa esto: Deducciones."
+      },
+      "review_of": "en-b1-u10-l06-ex19"
+    },
+    {
+      "id": "en-b2-u09-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ I open the window, please?",
+      "answer": [
+        "Can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedir permiso: Can I…?",
+        "incorrect": "Revisa esto: Pedir permiso: Can I…?"
+      },
+      "review_of": "en-a1-u09-l06-ex05"
+    },
+    {
+      "id": "en-b2-u09-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Forests ___ at an alarming rate right now.",
+      "options": [
+        "are being cleared",
+        "are cleared",
+        "have cleared",
+        "clear"
+      ],
+      "answer": [
+        "are being cleared"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva continua.",
+        "incorrect": "Revisa esto: Pasiva continua."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ten million trees ___ so far.",
+      "options": [
+        "have been planted",
+        "are planted",
+        "were planting",
+        "has planted"
+      ],
+      "answer": [
+        "have been planted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasivo.",
+        "incorrect": "Revisa esto: Present perfect pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Something must ___ about pollution.",
+      "options": [
+        "be done",
+        "do",
+        "be doing",
+        "done"
+      ],
+      "answer": [
+        "be done"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal pasivo.",
+        "incorrect": "Revisa esto: Modal pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can borrow my car ___ you drive carefully.",
+      "options": [
+        "provided that",
+        "unless",
+        "in case",
+        "although"
+      ],
+      "answer": [
+        "provided that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condición.",
+        "incorrect": "Revisa esto: Condición."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "He stopped ___ ten years ago. His health improved.",
+      "options": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "smoked"
+      ],
+      "answer": [
+        "smoking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop + -ing = dejar de.",
+        "incorrect": "Revisa esto: Stop + -ing = dejar de."
+      },
+      "review_of": "en-b2-u05-l03-ex05"
+    },
+    {
+      "id": "en-b2-u09-l06-rv06",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 15,
+      "prompt": "'They is from Brazil.' es una frase correcta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con 'they' se usa 'are': They are from Brazil.",
+        "incorrect": "Revisa esto: Con 'they' se usa 'are': They are from Brazil."
+      },
+      "review_of": "en-a1-u02-l06-ex09"
+    },
+    {
+      "id": "en-b2-u09-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (not / buy) a big house if she won.",
+      "answer": [
+        "wouldn't buy",
+        "would not buy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would not + verbo.",
+        "incorrect": "Revisa esto: Would not + verbo."
+      },
+      "review_of": "en-b1-u06-l02-ex11"
+    },
+    {
+      "id": "en-b2-u09-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you hurry, you'll miss the train.",
+      "options": [
+        "Unless",
+        "Provided",
+        "As long",
+        "In case"
+      ],
+      "answer": [
+        "Unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless.",
+        "incorrect": "Revisa esto: Unless."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a sweater ___ it gets cold later.",
+      "options": [
+        "in case",
+        "unless",
+        "provided",
+        "if only"
+      ],
+      "answer": [
+        "in case"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case.",
+        "incorrect": "Revisa esto: In case."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest ___ a trial period.",
+      "options": [
+        "starting",
+        "to start",
+        "start to",
+        "of starting"
+      ],
+      "answer": [
+        "starting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ you seen the film before? — No, it was my first time.",
+      "answer": [
+        "Had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en past perfect: Had + sujeto + participio.",
+        "incorrect": "Revisa esto: Pregunta en past perfect: Had + sujeto + participio."
+      },
+      "review_of": "en-b1-u01-l04-ex08"
+    },
+    {
+      "id": "en-b2-u09-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "It would ___ for itself within six months.",
+      "options": [
+        "pay",
+        "cost",
+        "give",
+        "make"
+      ],
+      "answer": [
+        "pay"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pay for itself.",
+        "incorrect": "Revisa esto: Pay for itself."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The information ___ through a survey.",
+      "options": [
+        "was gathered",
+        "gathered",
+        "gathers",
+        "has gathered it"
+      ],
+      "answer": [
+        "was gathered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en informe.",
+        "incorrect": "Revisa esto: Pasiva en informe."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "It is recommended that the school ___ a campaign.",
+      "options": [
+        "launch",
+        "launches",
+        "launched",
+        "launching"
+      ],
+      "answer": [
+        "launch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo base.",
+        "incorrect": "Revisa esto: Verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO le gusta a la persona?",
+      "options": [
+        "Chicken",
+        "Fish",
+        "Rice",
+        "Milk"
+      ],
+      "answer": [
+        "Chicken"
+      ],
+      "audio_text": "I love fish, but I don't like chicken.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I don't like chicken'.",
+        "incorrect": "Revisa esto: Dice 'I don't like chicken'."
+      },
+      "audio_script_id": "en-b2-u09-l06-rv09-a",
+      "review_of": "en-a1-u05-l06-ex08"
+    },
+    {
+      "id": "en-b2-u09-l06-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 25,
+      "prompt": "We should lower our carbon ___ . (huella)",
+      "answer": [
+        "footprint"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Footprint.",
+        "incorrect": "Revisa esto: Footprint."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-rv10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ (play) football yesterday.",
+      "answer": [
+        "played"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocal + y: solo se añade -ed.",
+        "incorrect": "Revisa esto: Vocal + y: solo se añade -ed."
+      },
+      "review_of": "en-a2-u01-l02-ex01"
+    },
+    {
+      "id": "en-b2-u09-l06-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hurry up; ___ , we'll miss the bus. (de lo contrario)",
+      "answer": [
+        "otherwise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Otherwise.",
+        "incorrect": "Revisa esto: Otherwise."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We must protect the nature.",
+      "answer": [
+        "We must protect nature."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin the.",
+        "incorrect": "Revisa esto: Sin the."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Something must do about the pollution.",
+      "answer": [
+        "Something must be done about the pollution."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be done.",
+        "incorrect": "Revisa esto: Must be done."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Unless you don't study, you'll fail the exam.",
+      "answer": [
+        "Unless you study, you'll fail the exam.",
+        "If you don't study, you'll fail the exam."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I suggest to install a dispenser on each floor.",
+      "answer": [
+        "I suggest installing a dispenser on each floor.",
+        "I suggest that we install a dispenser on each floor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué deben hacer los vecinos?",
+      "options": [
+        "Separar bien la basura",
+        "Pagar más",
+        "Comprar contenedores",
+        "Mudarse"
+      ],
+      "answer": [
+        "Separar bien la basura"
+      ],
+      "audio_text": "A new recycling plant has been built outside the city. By next year, over 40 per cent of waste will have been recycled, provided that residents separate their rubbish properly. Otherwise, the target will be missed.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: provided that residents separate their rubbish.",
+        "incorrect": "Revisa esto: Dice: provided that residents separate their rubbish."
+      },
+      "audio_script_id": "en-b2-u09-l06-ex21-a"
+    },
+    {
+      "id": "en-b2-u09-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se han plantado diez millones de árboles; si no se hace nada más, el daño no se revertirá.",
+      "answer": [
+        "Ten million trees have been planted; unless something more is done, the damage will not be reversed.",
+        "Ten million trees have been planted; if nothing more is done, the damage will not be reversed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva + condicional.",
+        "incorrect": "Revisa esto: Pasiva + condicional."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "proposals",
+        "conditional-alternatives"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Propones una medida ecológica a tu jefe.",
+      "turns": [
+        {
+          "speaker": "Boss",
+          "text": "What's your idea?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like to propose installing solar panels on the roof. At the moment, we spend too much on electricity.",
+            "Solar is good. Put it.",
+            "I have idea."
+          ],
+          "best": 0,
+          "why_es": "Problema + propuesta."
+        },
+        {
+          "speaker": "Boss",
+          "text": "How much would it cost?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "The initial investment would be around €10,000, but it would pay for itself within five years, provided that energy prices stay stable.",
+            "A lot of money.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Coste + condición."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u09-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced",
+        "conditional-alternatives",
+        "report-writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 8 a 10 frases como un mini informe sobre un problema ambiental de tu zona. Incluye una frase en pasiva avanzada, una con 'provided that' o 'unless', y una recomendación con 'It is recommended that'.",
+      "min_words": 77,
+      "self_check_es": [
+        "¿Usas pasiva avanzada?",
+        "¿Usas provided that o unless?",
+        "¿Incluyes It is recommended that?",
+        "¿Mantienes un registro formal?"
+      ],
+      "model_answer": "The purpose of this report is to assess the quality of the river in our town. The water was tested last month, and it was found that pollution levels are rising. Waste is being dumped by several factories, and no action has been taken so far. It is clear that stricter controls are needed. It is recommended that the council should increase inspections and fine those who break the rules. The river can recover, provided that the factories reduce their emissions. Unless something is done soon, the damage may be irreversible.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "are being cleared · have been planted · must be done",
+      "provided that · unless · in case · otherwise",
+      "I'd like to propose … · It would pay for itself",
+      "The survey revealed … · It is recommended that …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-planet-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-advanced"
+    },
+    {
+      "type": "grammar",
+      "id": "en-conditional-alternatives"
+    },
+    {
+      "type": "grammar",
+      "id": "en-proposals"
+    },
+    {
+      "type": "grammar",
+      "id": "en-report-writing"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

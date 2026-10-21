@@ -1,0 +1,960 @@
+{
+  "id": "en-b2-u14-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 14,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "B2 grammar at a glance",
+    "es": "Repaso de la gramática de B2"
+  },
+  "objective": "Al terminar repasas y aplicas la gramática clave de B2: condicionales, pasivas, estilo indirecto, modales, inversión, oraciones escindidas y cláusulas de participio.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Antes del examen final, recorres de un vistazo la gramática más importante de B2. Cada bloque incluye la regla, un ejemplo y los errores más comunes para detectarlos tú mismo."
+  },
+  "input": {
+    "type": "text",
+    "text": "B2 grammar at a glance: a short quiz story\n\nLast year, Tom was offered a job abroad. If he had accepted it immediately, he would have missed an important family event, so he asked for more time. It was decided that he would start in March.\n\nHe was told that the company had been looking for someone with his skills for months. Having read the contract carefully, he realised that he was required to relocate. 'I wish I had asked more questions,' he said later. 'If I had known, I would have negotiated a better salary.'\n\nNever before had he felt so uncertain. It was his sister who convinced him to go. 'You should have trusted yourself earlier,' she said. 'You needn't have worried so much.'\n\nIn the end, Tom moved. Although he missed home, he gradually got used to his new life. Not only did he make new friends, but he also learned to enjoy cooking. Looking back, he doesn't regret his decision.",
+    "es": "Gramática B2 de un vistazo: una pequeña historia-test. El año pasado le ofrecieron a Tom un trabajo en el extranjero. Si lo hubiera aceptado de inmediato, se habría perdido un acontecimiento familiar importante, así que pidió más tiempo. Se decidió que empezaría en marzo. Le dijeron que la empresa llevaba meses buscando a alguien con sus habilidades. Tras leer el contrato con atención, se dio cuenta de que estaba obligado a mudarse. 'Ojalá hubiera hecho más preguntas', dijo después. 'Si lo hubiera sabido, habría negociado un mejor sueldo.' Nunca antes se había sentido tan inseguro. Fue su hermana quien lo convenció de ir. 'Deberías haber confiado antes en ti mismo', dijo. 'No hacía falta que te preocuparas tanto.' Al final, Tom se mudó. Aunque echaba de menos su casa, poco a poco se acostumbró a su nueva vida. No solo hizo nuevos amigos, sino que también aprendió a disfrutar cocinando. Mirando atrás, no se arrepiente de su decisión.",
+    "glossary": [
+      {
+        "id": "en-be-offered",
+        "lemma": "be offered",
+        "pos": "phrase",
+        "ipa": "/biː ˈɒfəd/",
+        "es": "recibir una oferta",
+        "example": "He was offered a job."
+      },
+      {
+        "id": "en-relocate",
+        "lemma": "relocate",
+        "pos": "verb",
+        "ipa": "/ˌriːləʊˈkeɪt/",
+        "es": "mudarse por trabajo",
+        "example": "Required to relocate."
+      },
+      {
+        "id": "en-negotiate",
+        "lemma": "negotiate",
+        "pos": "verb",
+        "ipa": "/nɪˈɡəʊʃieɪt/",
+        "es": "negociar",
+        "example": "Negotiate a salary."
+      },
+      {
+        "id": "en-uncertain",
+        "lemma": "uncertain",
+        "pos": "adj",
+        "ipa": "/ʌnˈsɜːtn/",
+        "es": "inseguro",
+        "example": "Feel uncertain."
+      },
+      {
+        "id": "en-convince",
+        "lemma": "convince",
+        "pos": "verb",
+        "ipa": "/kənˈvɪns/",
+        "es": "convencer",
+        "example": "Convince him."
+      },
+      {
+        "id": "en-gradually",
+        "lemma": "gradually",
+        "pos": "adv",
+        "ipa": "/ˈɡrædʒuəli/",
+        "es": "poco a poco",
+        "example": "Gradually adapted."
+      },
+      {
+        "id": "en-get-used-to",
+        "lemma": "get used to",
+        "pos": "phrase",
+        "ipa": "/ɡet juːst tə/",
+        "es": "acostumbrarse a",
+        "example": "Get used to life."
+      },
+      {
+        "id": "en-regret",
+        "lemma": "regret",
+        "pos": "verb",
+        "ipa": "/rɪˈɡret/",
+        "es": "arrepentirse",
+        "example": "No regrets."
+      },
+      {
+        "id": "en-contract",
+        "lemma": "contract",
+        "pos": "noun",
+        "ipa": "/ˈkɒntrækt/",
+        "es": "contrato",
+        "example": "Read the contract."
+      },
+      {
+        "id": "en-salary",
+        "lemma": "salary",
+        "pos": "noun",
+        "ipa": "/ˈsæləri/",
+        "es": "sueldo",
+        "example": "A better salary."
+      },
+      {
+        "id": "en-family-event",
+        "lemma": "family event",
+        "pos": "noun",
+        "ipa": "/ˈfæməli ɪˈvent/",
+        "es": "acontecimiento familiar",
+        "example": "Miss a family event."
+      },
+      {
+        "id": "en-looking-back",
+        "lemma": "looking back",
+        "pos": "phrase",
+        "ipa": "/ˈlʊkɪŋ bæk/",
+        "es": "mirando atrás",
+        "example": "Looking back."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Mapa gramatical B2**\n\n| Tema | Forma | Ejemplo |\n|---|---|---|\n| **Third conditional** | if + past perfect, would have + participio | *If he had known, he would have negotiated.* |\n| **Mixed conditional** | if + past perfect, would + base | *If I had studied law, I would be a lawyer now.* |\n| **Wish / if only** | wish + past (presente) / past perfect (pasado) | *I wish I had asked.* |\n| **Passive (advanced)** | it is said / be + participio + to | *It was decided that…* · *He is said to be rich.* |\n| **Reported speech** | retroceso de tiempos | *He told me the company had been looking…* |\n| **Past modals** | should have / needn't have / could have | *You should have trusted yourself.* |\n| **Formal obligation** | be required to / be permitted to | *He was required to relocate.* |\n| **Inversion** | negativo + auxiliar + sujeto | *Never before had he felt so uncertain.* |\n| **Cleft sentences** | It was … who/that … · What … is … | *It was his sister who convinced him.* |\n| **Participle clauses** | -ing / -ed / having + participio | *Having read the contract, he realised…* |\n| **Causative** | have/get + objeto + participio | *He had his contract checked.* |\n\n**Estrategia de repaso**\n\n1. Identifica el tiempo o estructura que el contexto exige (¿pasado hipotético? ¿opinión ajena? ¿obligación?).\n2. Comprueba la forma completa: auxiliar + participio, preposición, orden.\n3. Revisa los errores típicos: *if + would*, *wish + would have*, *suggest to*, *depend of*.\n\n**Errores típicos de B2**\n\n- ✘ *If he would have known, he would have negotiated.* → ✔ *If he had known, he would have negotiated.*\n- ✘ *I wish I would have asked.* → ✔ *I wish I had asked.*\n- ✘ *He said me that he was tired.* → ✔ *He told me that he was tired.*\n- ✘ *Never he had felt so uncertain.* → ✔ *Never had he felt so uncertain.*\n- ✘ *Having finished, the report was sent.* (sujeto distinto) → ✔ *Having finished the report, she sent it.*\n- ✘ *It was decided to he start in March.* → ✔ *It was decided that he would start in March.*\n\n**Ojo:** en una conditional, nunca *would* en la cláusula *if*. En *wish*, el verbo retrocede un tiempo. En participio inicial, el sujeto de la cláusula principal debe ser quien hace la acción del participio.\n\nPronunciación: *relocate* /ˌriːləʊˈkeɪt/ · *negotiate* /nɪˈɡəʊʃieɪt/ · *uncertain* /ʌnˈsɜːtn/ · *gradually* /ˈɡrædʒuəli/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "If he would have known",
+        "right": "If he had known",
+        "note": "No would en if."
+      },
+      {
+        "wrong": "Never he had",
+        "right": "Never had he",
+        "note": "Inversión."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u14-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le ofrecieron a Tom?",
+      "options": [
+        "Un trabajo en el extranjero",
+        "Una beca",
+        "Un coche",
+        "Una casa"
+      ],
+      "answer": [
+        "Un trabajo en el extranjero"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: offered a job abroad.",
+        "incorrect": "Revisa esto: Dice: offered a job abroad."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué pidió más tiempo?",
+      "options": [
+        "Para no perderse un acontecimiento familiar",
+        "Para ir de vacaciones",
+        "Por miedo al avión",
+        "Para cambiar de idea"
+      ],
+      "answer": [
+        "Para no perderse un acontecimiento familiar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: would have missed an important family event.",
+        "incorrect": "Revisa esto: Dice: would have missed an important family event."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ you be using the car tonight? I need to go to the airport.",
+      "options": [
+        "Will",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "answer": [
+        "Will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta cortés con futuro continuo.",
+        "incorrect": "Revisa esto: Pregunta cortés con futuro continuo."
+      },
+      "review_of": "en-b2-u01-l02-ex08"
+    },
+    {
+      "id": "en-b2-u14-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué descubrió al leer el contrato?",
+      "options": [
+        "Que debía mudarse",
+        "Que no cobraba",
+        "Que trabajaba en casa",
+        "Que era temporal"
+      ],
+      "answer": [
+        "Que debía mudarse"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: required to relocate.",
+        "incorrect": "Revisa esto: Dice: required to relocate."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Visitors are ___ to stay for up to two weeks.",
+      "options": [
+        "permitted",
+        "permit",
+        "permission",
+        "permissible"
+      ],
+      "answer": [
+        "permitted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be permitted to.",
+        "incorrect": "Revisa esto: Be permitted to."
+      },
+      "review_of": "en-b2-u11-l03-ex10"
+    },
+    {
+      "id": "en-b2-u14-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién lo convenció de ir?",
+      "options": [
+        "Su hermana",
+        "Su jefe",
+        "Un amigo",
+        "Su padre"
+      ],
+      "answer": [
+        "Su hermana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: It was his sister who convinced him.",
+        "incorrect": "Revisa esto: Dice: It was his sister who convinced him."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 15,
+      "prompt": "Tom se arrepiente de su decisión.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: he doesn't regret his decision.",
+        "incorrect": "Revisa esto: Dice: he doesn't regret his decision."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "If he ___ the offer, he would have missed the event.",
+      "options": [
+        "had accepted",
+        "would accept",
+        "accepted",
+        "has accepted"
+      ],
+      "answer": [
+        "had accepted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Third conditional.",
+        "incorrect": "Revisa esto: Third conditional."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more questions at the interview.",
+      "options": [
+        "had asked",
+        "would ask",
+        "asked",
+        "have asked"
+      ],
+      "answer": [
+        "had asked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I had studied law, I ___ a lawyer now.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be",
+        "am"
+      ],
+      "answer": [
+        "would be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mixed conditional.",
+        "incorrect": "Revisa esto: Mixed conditional."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "He is ___ to be one of the richest men in the country.",
+      "options": [
+        "said",
+        "say",
+        "saying",
+        "told"
+      ],
+      "answer": [
+        "said"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Passive reporting.",
+        "incorrect": "Revisa esto: Passive reporting."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "She told me that she ___ the contract the day before.",
+      "options": [
+        "had signed",
+        "signs",
+        "has signed",
+        "will sign"
+      ],
+      "answer": [
+        "had signed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reported speech.",
+        "incorrect": "Revisa esto: Reported speech."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ told me earlier! I waited for hours.",
+      "options": [
+        "should have",
+        "needn't have",
+        "can't have",
+        "must"
+      ],
+      "answer": [
+        "should have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past modals.",
+        "incorrect": "Revisa esto: Past modals."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "Under no circumstances ___ the door be left open.",
+      "options": [
+        "should",
+        "should not",
+        "do",
+        "is"
+      ],
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversion.",
+        "incorrect": "Revisa esto: Inversion."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ like coffee. (no le gusta)",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she la negativa es doesn't.",
+        "incorrect": "Revisa esto: Con she la negativa es doesn't."
+      },
+      "review_of": "en-a1-u05-l03-ex02"
+    },
+    {
+      "id": "en-b2-u14-l02-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "Never before ___ so uncertain.",
+      "options": [
+        "had he felt",
+        "he had felt",
+        "he felt",
+        "felt he had"
+      ],
+      "answer": [
+        "had he felt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversion.",
+        "incorrect": "Revisa esto: Inversion."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the contract carefully, he decided to sign.",
+      "options": [
+        "Having read",
+        "Read",
+        "Having to read",
+        "He reading"
+      ],
+      "answer": [
+        "Having read"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participle clause.",
+        "incorrect": "Revisa esto: Participle clause."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex15",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was his sister ___ convinced him to go.",
+      "options": [
+        "who",
+        "which",
+        "what",
+        "whose"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cleft.",
+        "incorrect": "Revisa esto: Cleft."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Hice un esfuerzo, cometí pocos errores y aproveché cada oportunidad.",
+      "answer": [
+        "I made an effort, made few mistakes and took advantage of every opportunity.",
+        "I made an effort, I made few mistakes and I took advantage of every opportunity."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Collocations.",
+        "incorrect": "Revisa esto: Collocations."
+      },
+      "review_of": "en-b2-u12-l03-ex23"
+    },
+    {
+      "id": "en-b2-u14-l02-ex16",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "He had his contract ___ by a lawyer.",
+      "options": [
+        "checked",
+        "check",
+        "checking",
+        "to check"
+      ],
+      "answer": [
+        "checked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causative.",
+        "incorrect": "Revisa esto: Causative."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex17",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 25,
+      "prompt": "If I ___ known, I would have negotiated. (hubiera)",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Third conditional.",
+        "incorrect": "Revisa esto: Third conditional."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex18",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ have worried so much; everything went well. (no hacía falta)",
+      "answer": [
+        "needn't",
+        "need not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have.",
+        "incorrect": "Revisa esto: Needn't have."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If he would have known, he would have negotiated.",
+      "answer": [
+        "If he had known, he would have negotiated."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + past perfect.",
+        "incorrect": "Revisa esto: If + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Go ___ the bank and turn left. (pase delante de)",
+      "answer": [
+        "past"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go past = pasar delante de.",
+        "incorrect": "Revisa esto: Go past = pasar delante de."
+      },
+      "review_of": "en-a2-u12-l06-ex04"
+    },
+    {
+      "id": "en-b2-u14-l02-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I would have asked more questions.",
+      "answer": [
+        "I wish I had asked more questions."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Never he had felt so uncertain.",
+      "answer": [
+        "Never had he felt so uncertain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me a favour?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a favour.",
+        "incorrect": "Revisa esto: Do a favour."
+      },
+      "review_of": "en-b2-u12-l06-ex10"
+    },
+    {
+      "id": "en-b2-u14-l02-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was in 2019 ___ they moved to Berlin.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "what"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It was … that.",
+        "incorrect": "Revisa esto: It was … that."
+      },
+      "review_of": "en-b2-u08-l02-ex06"
+    },
+    {
+      "id": "en-b2-u14-l02-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was very exciting about the trip.",
+      "answer": [
+        "I was very excited about the trip."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed.",
+        "incorrect": "Revisa esto: -ed."
+      },
+      "review_of": "en-b2-u13-l06-ex24"
+    },
+    {
+      "id": "en-b2-u14-l02-rv09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "They arrived to the summit at dawn.",
+      "answer": [
+        "They reached the summit at dawn.",
+        "They got to the summit at dawn."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reach/get to.",
+        "incorrect": "Revisa esto: Reach/get to."
+      },
+      "review_of": "en-b2-u13-l01-ex19"
+    },
+    {
+      "id": "en-b2-u14-l02-ex22",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It was decided to he start in March.",
+      "answer": [
+        "It was decided that he would start in March."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal.",
+        "incorrect": "Revisa esto: Pasiva impersonal."
+      }
+    },
+    {
+      "id": "en-b2-u14-l02-ex23",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién sugirió salir a las seis?",
+      "options": [
+        "Ana",
+        "El hablante",
+        "El jefe",
+        "Un amigo"
+      ],
+      "answer": [
+        "Ana"
+      ],
+      "audio_text": "If I had known about the problem, I would have called you earlier. I wish I had checked the email. Anyway, you needn't have waited for me. It was Ana who suggested leaving at six, and she was right.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: It was Ana who suggested.",
+        "incorrect": "Revisa esto: Dice: It was Ana who suggested."
+      },
+      "audio_script_id": "en-b2-u14-l02-ex23-a"
+    },
+    {
+      "id": "en-b2-u14-l02-rv10",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 15,
+      "prompt": "El alquiler en la zona es barato y estable.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que es caro y que no para de subir.",
+        "incorrect": "Revisa esto: Dice que es caro y que no para de subir."
+      },
+      "review_of": "en-b1-u02-l01-ex03"
+    },
+    {
+      "id": "en-b2-u14-l02-ex24",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si hubiera sabido el problema, habría llamado antes; ojalá hubiera revisado el correo.",
+      "answer": [
+        "If I had known about the problem, I would have called earlier; I wish I had checked the email.",
+        "If I had known about the problem, I would have called earlier, and I wish I had checked the email."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso B2.",
+        "incorrect": "Revisa esto: Repaso B2."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "If I had known, I would have…",
+      "I wish I had…",
+      "Never had he…",
+      "Having read…, he…"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-be-offered"
+    },
+    {
+      "type": "vocab",
+      "id": "en-relocate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-negotiate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-uncertain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-convince"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gradually"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regret"
+    },
+    {
+      "type": "vocab",
+      "id": "en-contract"
+    },
+    {
+      "type": "vocab",
+      "id": "en-salary"
+    },
+    {
+      "type": "grammar",
+      "id": "en-b2-review"
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "id": "en-b2-u14-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 14,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de B2"
+  },
+  "objective": "Al terminar demuestras el nivel B2 integrado: problemas globales, gramática B2, paráfrasis y resumen, turno largo y ensayo.",
+  "est_minutes": 51,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint final del curso de B2: repaso integrado de vocabulario global, gramática, resumen, expresión oral y escritura. Tras aprobarlo puedes presentarte al examen final de B2."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de problemas globales, gramática B2 (condicionales, pasivas, estilo indirecto, modales, inversión), parafrasear y resumir, estructura del turno largo y del ensayo.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso final de B2**\n\n- *tackle climate change · curb emissions · developing countries · supply chains*\n- *If I had known, I would have… · I wish I had… · Never had he… · Having read…, he…*\n- *According to the text… · The author argues that… · Nevertheless · Although*\n- *In the first picture … whereas … · She might be … · Personally, I'd prefer…*\n- *In recent years… · Firstly… · On the other hand… · In conclusion, I therefore believe that…*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u14-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Cuál es el conector?",
+      "categories": [
+        "Añadir",
+        "Contrastar",
+        "Concluir"
+      ],
+      "items": [
+        {
+          "text": "furthermore",
+          "category": "Añadir"
+        },
+        {
+          "text": "moreover",
+          "category": "Añadir"
+        },
+        {
+          "text": "however",
+          "category": "Contrastar"
+        },
+        {
+          "text": "whereas",
+          "category": "Contrastar"
+        },
+        {
+          "text": "in conclusion",
+          "category": "Concluir"
+        },
+        {
+          "text": "to sum up",
+          "category": "Concluir"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conectores.",
+        "incorrect": "Revisa esto: Conectores."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Governments must ___ now to tackle climate change.",
+      "options": [
+        "act",
+        "to act",
+        "acting",
+        "acts"
+      ],
+      "answer": [
+        "act"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + base.",
+        "incorrect": "Revisa esto: Must + base."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ is one of the biggest problems of our time.",
+      "options": [
+        "Global warming",
+        "The global warming",
+        "A global warming",
+        "Some global warming"
+      ],
+      "answer": [
+        "Global warming"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo.",
+        "incorrect": "Revisa esto: Sin artículo."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué habitación duermes?",
+      "options": [
+        "bedroom",
+        "kitchen",
+        "garden",
+        "living room"
+      ],
+      "answer": [
+        "bedroom"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se duerme en la bedroom.",
+        "incorrect": "Revisa esto: Se duerme en la bedroom."
+      },
+      "review_of": "en-a1-u06-l01-ex03"
+    },
+    {
+      "id": "en-b2-u14-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ stay late yesterday: my boss needed the report.",
+      "options": [
+        "had to",
+        "must",
+        "could to",
+        "have to"
+      ],
+      "answer": [
+        "had to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obligación pasada: had to.",
+        "incorrect": "Revisa esto: Obligación pasada: had to."
+      },
+      "review_of": "en-b1-u03-l03-ex04"
+    },
+    {
+      "id": "en-b2-u14-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Pollution ___ serious health problems.",
+      "options": [
+        "causes",
+        "cause",
+        "causing",
+        "is cause"
+      ],
+      "answer": [
+        "causes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concordancia.",
+        "incorrect": "Revisa esto: Concordancia."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "If he ___ the offer, he would have missed the event.",
+      "options": [
+        "had accepted",
+        "would accept",
+        "accepted",
+        "has accepted"
+      ],
+      "answer": [
+        "had accepted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Third conditional.",
+        "incorrect": "Revisa esto: Third conditional."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more questions at the interview.",
+      "options": [
+        "had asked",
+        "would ask",
+        "asked",
+        "have asked"
+      ],
+      "answer": [
+        "had asked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish.",
+        "incorrect": "Revisa esto: Wish."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I had studied law, I ___ a lawyer now.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be",
+        "am"
+      ],
+      "answer": [
+        "would be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mixed.",
+        "incorrect": "Revisa esto: Mixed."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "Never before ___ so uncertain.",
+      "options": [
+        "had he felt",
+        "he had felt",
+        "he felt",
+        "felt he had"
+      ],
+      "answer": [
+        "had he felt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 15,
+      "prompt": "Las duchas eran largas y gastaban mucha agua.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que tomaban duchas muy cortas.",
+        "incorrect": "Revisa esto: Dice que tomaban duchas muy cortas."
+      },
+      "review_of": "en-b1-u09-l04-ex04"
+    },
+    {
+      "id": "en-b2-u14-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "emphasis"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was ___ cold that we stayed inside.",
+      "options": [
+        "so",
+        "such",
+        "such a",
+        "very much"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So + adj.",
+        "incorrect": "Revisa esto: So + adj."
+      },
+      "review_of": "en-b2-u13-l03-ex09"
+    },
+    {
+      "id": "en-b2-u14-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "narrative-tenses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When I got home, my sister already cooked dinner.",
+      "answer": [
+        "When I got home, my sister had already cooked dinner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La cena estaba hecha antes de llegar: had cooked.",
+        "incorrect": "Revisa esto: La cena estaba hecha antes de llegar: had cooked."
+      },
+      "review_of": "en-b1-u01-l05-ex10"
+    },
+    {
+      "id": "en-b2-u14-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the contract carefully, he decided to sign.",
+      "options": [
+        "Having read",
+        "Read",
+        "Having to read",
+        "He reading"
+      ],
+      "answer": [
+        "Having read"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was his sister ___ convinced him to go.",
+      "options": [
+        "who",
+        "which",
+        "what",
+        "whose"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cleft.",
+        "incorrect": "Revisa esto: Cleft."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best paraphrase of 'Many teenagers spend more than four hours online'?",
+      "options": [
+        "A large number of adolescents spend over four hours on the internet.",
+        "Many teenagers spend more than four hours online.",
+        "Teenagers hate the internet.",
+        "Four hours are many."
+      ],
+      "answer": [
+        "A large number of adolescents spend over four hours on the internet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Paráfrasis.",
+        "incorrect": "Revisa esto: Paráfrasis."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we went out.",
+      "options": [
+        "Although",
+        "But",
+        "Because",
+        "So"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although.",
+        "incorrect": "Revisa esto: Although."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's working since six. He ___ be exhausted.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "mustn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      },
+      "review_of": "en-b1-u10-l06-ex04"
+    },
+    {
+      "id": "en-b2-u14-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "long-turn"
+      ],
+      "est_seconds": 20,
+      "prompt": "In the first picture, a group works, ___ in the second, a woman is alone.",
+      "options": [
+        "whereas",
+        "because",
+        "so",
+        "unless"
+      ],
+      "answer": [
+        "whereas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste.",
+        "incorrect": "Revisa esto: Contraste."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 25,
+      "prompt": "The jacket is ___ tight. I need a larger size. (demasiado)",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Too + adjetivo.",
+        "incorrect": "Revisa esto: Too + adjetivo."
+      },
+      "review_of": "en-a2-u11-l06-ex04"
+    },
+    {
+      "id": "en-b2-u14-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "long-turn"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ be the manager. He's far too young.",
+      "options": [
+        "can't",
+        "must",
+        "should",
+        "needn't"
+      ],
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción.",
+        "incorrect": "Revisa esto: Deducción."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex15",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Not only ___ this reduce pollution, but it also creates jobs.",
+      "options": [
+        "does",
+        "it",
+        "is",
+        "has"
+      ],
+      "answer": [
+        "does"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona que responde?",
+      "options": [
+        "Mexico",
+        "Brazil",
+        "Spain",
+        "Italy"
+      ],
+      "answer": [
+        "Mexico"
+      ],
+      "audio_text": "Are you from Brazil? No, I'm not. I'm from Mexico.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I'm not. I'm from Mexico.'",
+        "incorrect": "Revisa esto: Responde 'No, I'm not. I'm from Mexico.'"
+      },
+      "audio_script_id": "en-b2-u14-l06-rv08-a",
+      "review_of": "en-a1-u02-l04-ex07"
+    },
+    {
+      "id": "en-b2-u14-l06-ex16",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Technology plays an important role in our ___.",
+      "options": [
+        "lives",
+        "life",
+        "livings",
+        "lifes"
+      ],
+      "answer": [
+        "lives"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex17",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 25,
+      "prompt": "Countries must ___ climate change together. (afrontar)",
+      "answer": [
+        "tackle",
+        "address",
+        "combat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tackle.",
+        "incorrect": "Revisa esto: Tackle."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex18",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 25,
+      "prompt": "If I ___ known, I would have negotiated. (hubiera)",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Third conditional.",
+        "incorrect": "Revisa esto: Third conditional."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Governments must to act now.",
+      "answer": [
+        "Governments must act now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + base.",
+        "incorrect": "Revisa esto: Must + base."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If he would have known, he would have negotiated.",
+      "answer": [
+        "If he had known, he would have negotiated."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + past perfect.",
+        "incorrect": "Revisa esto: If + past perfect."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (go) to work.",
+      "answer": [
+        "goes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los verbos en -o añaden -es: goes.",
+        "incorrect": "Revisa esto: Los verbos en -o añaden -es: goes."
+      },
+      "review_of": "en-a1-u04-l03-ex02"
+    },
+    {
+      "id": "en-b2-u14-l06-ex21",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The author say that social media is useful.",
+      "answer": [
+        "The author says that social media is useful."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concordancia.",
+        "incorrect": "Revisa esto: Concordancia."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex22",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "long-turn"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The woman at home is more relaxed that the people at the office.",
+      "answer": [
+        "The woman at home is more relaxed than the people at the office."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Than.",
+        "incorrect": "Revisa esto: Than."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex23",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In my opinion, I think that governments should act.",
+      "answer": [
+        "In my opinion, governments should act.",
+        "I think that governments should act."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Redundante.",
+        "incorrect": "Revisa esto: Redundante."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex24",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué concluye el hablante?",
+      "options": [
+        "Se necesitan gobiernos e individuos",
+        "Solo los gobiernos",
+        "Solo los individuos",
+        "Ninguno"
+      ],
+      "answer": [
+        "Se necesitan gobiernos e individuos"
+      ],
+      "audio_text": "In my opinion, only governments can introduce laws that affect the whole population. Nevertheless, individuals matter too. If everyone had acted earlier, we would not be facing such a serious crisis today. In conclusion, we need both.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: we need both.",
+        "incorrect": "Revisa esto: Dice: we need both."
+      },
+      "audio_script_id": "en-b2-u14-l06-ex24-a"
+    },
+    {
+      "id": "en-b2-u14-l06-rv10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 25,
+      "prompt": "Solar and wind are ___ energy sources. (renovables)",
+      "answer": [
+        "renewable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Renewable.",
+        "incorrect": "Revisa esto: Renewable."
+      },
+      "review_of": "en-b2-u09-l01-ex15"
+    },
+    {
+      "id": "en-b2-u14-l06-ex25",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "b2-global",
+        "b2-final-writing"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Presentas tu opinión sobre un tema global en una discusión de examen.",
+      "turns": [
+        {
+          "speaker": "Examiner",
+          "text": "Do you think rich countries should do more to help developing countries?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I do. It could be argued that wealthier nations have contributed most to the problem, so they should provide more support. On the other hand, aid must be used effectively.",
+            "No. Not my problem.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Opinión argumentada con matiz."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "What is the most urgent global problem?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "In my view, climate change, since it affects every region. Not only does it damage the environment, but it also increases poverty.",
+            "Nothing.",
+            "Money."
+          ],
+          "best": 0,
+          "why_es": "Argumento con inversión."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The prices has risen a lot.",
+      "answer": [
+        "Prices have risen a lot.",
+        "The prices have risen a lot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      },
+      "review_of": "en-b2-u07-l06-ex17"
+    },
+    {
+      "id": "en-b2-u14-l06-ex26",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "paraphrase-summarise",
+        "b2-final-writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un resumen breve (3 a 4 frases, 50 a 70 palabras) de tu opinión sobre cómo afrontar un problema global. Usa 'According to…', una condicional, un conector de contraste y una conclusión.",
+      "min_words": 44,
+      "self_check_es": [
+        "¿Usas According to?",
+        "¿Incluyes una condicional?",
+        "¿Usas un conector de contraste?",
+        "¿Concluyes con claridad?"
+      ],
+      "model_answer": "According to many experts, climate change is the most urgent global problem. If governments had acted earlier, the situation would be less serious today. However, individuals can also make a difference by reducing waste and energy use. In conclusion, cooperation between governments, companies and citizens is essential to tackle the crisis effectively.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-ex27",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-review",
+        "b2-final-writing"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si los gobiernos hubieran actuado antes, no estaríamos afrontando una crisis tan grave; en conclusión, la cooperación es esencial.",
+      "answer": [
+        "If governments had acted earlier, we would not be facing such a serious crisis; in conclusion, cooperation is essential.",
+        "If governments had acted earlier, we wouldn't be facing such a serious crisis; in conclusion, cooperation is essential."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Integración.",
+        "incorrect": "Revisa esto: Integración."
+      }
+    },
+    {
+      "id": "en-b2-u14-l06-rv12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I don't see you since last summer.",
+      "answer": [
+        "I haven't seen you since last summer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + since.",
+        "incorrect": "Revisa esto: Present perfect + since."
+      },
+      "review_of": "en-b1-u11-l05-ex13"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "tackle climate change · curb emissions",
+      "If I had known, I would have …",
+      "According to … · Nevertheless",
+      "In the first picture … whereas …",
+      "In conclusion, I therefore believe that …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-global-issues"
+    },
+    {
+      "type": "grammar",
+      "id": "en-b2-review"
+    },
+    {
+      "type": "grammar",
+      "id": "en-paraphrase-summarise"
+    },
+    {
+      "type": "grammar",
+      "id": "en-long-turn"
+    },
+    {
+      "type": "grammar",
+      "id": "en-b2-final-writing"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

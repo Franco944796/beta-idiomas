@@ -1,0 +1,830 @@
+{
+  "id": "en-b1-u05-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 5,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Gadgets and the internet",
+    "es": "Aparatos e internet"
+  },
+  "objective": "Al terminar hablas de aparatos, internet y problemas técnicos con vocabulario actual: download, log in, update, battery, password.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Todo el mundo ha dicho alguna vez 'no me funciona el wifi'. En inglés hay vocabulario preciso para cada fallo y cada acción."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Mia",
+        "text": "My laptop is so slow today. I think it needs an update.",
+        "es": "Mi portátil va muy lento hoy. Creo que necesita una actualización."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Have you tried turning it off and on again? That fixes half of all problems.",
+        "es": "¿Has probado a apagarlo y encenderlo? Eso arregla la mitad de los problemas."
+      },
+      {
+        "speaker": "Mia",
+        "text": "Twice. And now I can't log in to my email: it says my password is wrong.",
+        "es": "Dos veces. Y ahora no puedo entrar en mi correo: dice que la contraseña es incorrecta."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Click on 'Forgot password' and they'll send you a link. Make sure you choose a strong one this time.",
+        "es": "Haz clic en 'He olvidado la contraseña' y te enviarán un enlace. Elige una fuerte esta vez."
+      },
+      {
+        "speaker": "Mia",
+        "text": "OK. I also need to download a file, but the Wi-Fi keeps disconnecting.",
+        "es": "Vale. También necesito descargar un archivo, pero el wifi se desconecta todo el rato."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Maybe the router is too far. Move closer, or plug your laptop into the cable.",
+        "es": "Quizá el router está lejos. Acércate o conecta el portátil al cable."
+      },
+      {
+        "speaker": "Mia",
+        "text": "And my phone's battery dies after two hours. I need a new charger.",
+        "es": "Y la batería del móvil se agota en dos horas. Necesito un cargador nuevo."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Back up your photos first, in case it stops working completely.",
+        "es": "Haz antes una copia de seguridad de tus fotos, por si deja de funcionar del todo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-laptop",
+        "lemma": "laptop",
+        "pos": "noun",
+        "ipa": "/ˈlæptɒp/",
+        "es": "portátil",
+        "example": "I use my laptop to work."
+      },
+      {
+        "id": "en-update",
+        "lemma": "update",
+        "pos": "noun/verb",
+        "ipa": "/ˈʌpdeɪt/",
+        "es": "actualización / actualizar",
+        "example": "Install the update."
+      },
+      {
+        "id": "en-turn-off-on",
+        "lemma": "turn off / on",
+        "pos": "phrasal verb",
+        "ipa": "/tɜːn ɒf / ɒn/",
+        "es": "apagar / encender",
+        "example": "Turn it off and on."
+      },
+      {
+        "id": "en-log-in",
+        "lemma": "log in",
+        "pos": "phrasal verb",
+        "ipa": "/lɒɡ ɪn/",
+        "es": "iniciar sesión",
+        "example": "I can't log in."
+      },
+      {
+        "id": "en-password",
+        "lemma": "password",
+        "pos": "noun",
+        "ipa": "/ˈpɑːswɜːd/",
+        "es": "contraseña",
+        "example": "Choose a strong password."
+      },
+      {
+        "id": "en-download",
+        "lemma": "download",
+        "pos": "verb",
+        "ipa": "/ˌdaʊnˈləʊd/",
+        "es": "descargar",
+        "example": "I downloaded the file."
+      },
+      {
+        "id": "en-disconnect",
+        "lemma": "disconnect",
+        "pos": "verb",
+        "ipa": "/ˌdɪskəˈnekt/",
+        "es": "desconectarse",
+        "example": "The Wi-Fi keeps disconnecting."
+      },
+      {
+        "id": "en-router",
+        "lemma": "router",
+        "pos": "noun",
+        "ipa": "/ˈruːtə/",
+        "es": "router",
+        "example": "Restart the router."
+      },
+      {
+        "id": "en-plug-in",
+        "lemma": "plug in",
+        "pos": "phrasal verb",
+        "ipa": "/plʌɡ ɪn/",
+        "es": "enchufar, conectar",
+        "example": "Plug in the charger."
+      },
+      {
+        "id": "en-battery",
+        "lemma": "battery",
+        "pos": "noun",
+        "ipa": "/ˈbætri/",
+        "es": "batería",
+        "example": "The battery is dead."
+      },
+      {
+        "id": "en-charger",
+        "lemma": "charger",
+        "pos": "noun",
+        "ipa": "/ˈtʃɑːdʒə/",
+        "es": "cargador",
+        "example": "I need a new charger."
+      },
+      {
+        "id": "en-back-up",
+        "lemma": "back up",
+        "pos": "phrasal verb",
+        "ipa": "/bæk ʌp/",
+        "es": "hacer copia de seguridad",
+        "example": "Back up your files."
+      },
+      {
+        "id": "en-slow-fast",
+        "lemma": "slow / fast",
+        "pos": "adj",
+        "ipa": "/sləʊ / fɑːst/",
+        "es": "lento / rápido",
+        "example": "The internet is slow."
+      }
+    ],
+    "audio_script_id": "en-b1-u05-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de tecnología**\n\n| Acción | Verbo | Ejemplo |\n|---|---|---|\n| iniciar / cerrar sesión | *log in · log out* | *I can't **log in** to my account.* |\n| descargar / subir | *download · upload* | *Please **upload** the file.* |\n| instalar / actualizar | *install · update* | *The app needs to **update**.* |\n| encender / apagar | *turn on · turn off* | *Turn it off and on again.* |\n| conectar | *plug in · connect · pair* | *Plug in the charger.* |\n| guardar / copia | *save · back up* | *Back up your photos.* |\n| borrar | *delete · remove* | *Delete old files.* |\n\n**Describir problemas**\n\n- *My phone **keeps** crashing / freezing.* (se cuelga una y otra vez)\n- *The battery **runs out** / **dies** quickly.*\n- *The screen is **cracked** / **blank**.*\n- *I've **run out of** storage / space.*\n\n**Keep + -ing** = hacer algo repetidamente: *It keeps disconnecting.*\n\n**Comparar aparatos:** *This laptop is lighter and faster than my old one. · The battery lasts longer.*\n\n**Ojo:** *notebook* no es portátil (es cuaderno; en inglés americano a veces); *computer* /kəmˈpjuːtə/ lleva acento en la segunda sílaba. *Wi-Fi* se pronuncia /ˈwaɪ faɪ/. *Mobile* /ˈməʊbaɪl/ (UK) = *cell phone* (EE. UU.). *Charger* /ˈtʃɑːdʒə/ (no 'cargador de cargar' con 'ch' española).\n\nPronunciación: *password* /ˈpɑːswɜːd/ · *router* /ˈruːtə/ (UK) o /ˈraʊtər/ (US) · *battery* /ˈbætri/ (2-3 sílabas).",
+    "common_mistakes_es": [
+      {
+        "wrong": "It keeps to crash.",
+        "right": "It keeps crashing.",
+        "note": "Keep + -ing."
+      },
+      {
+        "wrong": "I connect me to Wi-Fi.",
+        "right": "I connect to Wi-Fi.",
+        "note": "No uses 'me'."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "notebook",
+        "es_false": "portátil",
+        "real": "cuaderno",
+        "note": "Portátil = laptop."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u05-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "log in",
+          "right": "iniciar sesión"
+        },
+        {
+          "left": "download",
+          "right": "descargar"
+        },
+        {
+          "left": "update",
+          "right": "actualización"
+        },
+        {
+          "left": "password",
+          "right": "contraseña"
+        },
+        {
+          "left": "charger",
+          "right": "cargador"
+        },
+        {
+          "left": "back up",
+          "right": "copia de seguridad"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de tecnología.",
+        "incorrect": "Revisa esto: Vocabulario de tecnología."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una acción o un problema?",
+      "categories": [
+        "Action",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "download a file",
+          "category": "Action"
+        },
+        {
+          "text": "back up photos",
+          "category": "Action"
+        },
+        {
+          "text": "plug in the charger",
+          "category": "Action"
+        },
+        {
+          "text": "log in",
+          "category": "Action"
+        },
+        {
+          "text": "the battery dies",
+          "category": "Problem"
+        },
+        {
+          "text": "the Wi-Fi disconnects",
+          "category": "Problem"
+        },
+        {
+          "text": "the screen freezes",
+          "category": "Problem"
+        },
+        {
+          "text": "run out of storage",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separar acciones y problemas ayuda a recordar.",
+        "incorrect": "Revisa esto: Separar acciones y problemas ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué no puede entrar Mia en su correo?",
+      "options": [
+        "Su contraseña es incorrecta",
+        "No tiene internet",
+        "El portátil está apagado",
+        "Su correo fue borrado"
+      ],
+      "answer": [
+        "Su contraseña es incorrecta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it says my password is wrong.",
+        "incorrect": "Revisa esto: Dice: it says my password is wrong."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le aconseja Leo para el wifi?",
+      "options": [
+        "Acercarse al router o conectar el cable",
+        "Comprar otro portátil",
+        "Apagar el router",
+        "Llamar al técnico"
+      ],
+      "answer": [
+        "Acercarse al router o conectar el cable"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: move closer, or plug your laptop into the cable.",
+        "incorrect": "Revisa esto: Dice: move closer, or plug your laptop into the cable."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "La batería del móvil de Mia dura mucho.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que se agota en dos horas.",
+        "incorrect": "Revisa esto: Dice que se agota en dos horas."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "My phone keeps ___ when I open the camera.",
+      "options": [
+        "freezing",
+        "to freeze",
+        "freeze",
+        "frozen"
+      ],
+      "answer": [
+        "freezing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've run ___ of space on my phone.",
+      "options": [
+        "out",
+        "off",
+        "up",
+        "away"
+      ],
+      "answer": [
+        "out"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Run out of = quedarse sin.",
+        "incorrect": "Revisa esto: Run out of = quedarse sin."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 25,
+      "prompt": "Yesterday I was ___ to finish the report before six. (pude)",
+      "answer": [
+        "able"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Was able to = pude (una vez).",
+        "incorrect": "Revisa esto: Was able to = pude (una vez)."
+      },
+      "review_of": "en-b1-u03-l03-ex10"
+    },
+    {
+      "id": "en-b1-u05-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Please ___ the file to the shared folder.",
+      "options": [
+        "upload",
+        "download",
+        "plug",
+        "unplug"
+      ],
+      "answer": [
+        "upload"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Upload = subir.",
+        "incorrect": "Revisa esto: Upload = subir."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "You need to ___ in with your username and password.",
+      "options": [
+        "log",
+        "put",
+        "get",
+        "turn"
+      ],
+      "answer": [
+        "log"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Log in.",
+        "incorrect": "Revisa esto: Log in."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ you doing this weekend?",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con are + you.",
+        "incorrect": "Revisa esto: Pregunta con are + you."
+      },
+      "review_of": "en-a1-u10-l04-ex03"
+    },
+    {
+      "id": "en-b1-u05-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "It's the most beautiful city in the country.",
+        "It's the more beautiful city in the country.",
+        "It's most beautiful city in the country.",
+        "It's the beautifulest city in the country."
+      ],
+      "answer": [
+        "It's the most beautiful city in the country."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo largo: the most + adjetivo.",
+        "incorrect": "Revisa esto: Superlativo largo: the most + adjetivo."
+      },
+      "review_of": "en-a2-u03-l06-ex06"
+    },
+    {
+      "id": "en-b1-u05-l01-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "The battery of my phone has ___ . (se ha agotado)",
+      "answer": [
+        "died",
+        "run out"
+      ],
+      "accepted_alternatives": [
+        "gone flat"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Die / run out.",
+        "incorrect": "Revisa esto: Die / run out."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-rv04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador vive ahora junto al mar.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ahora vive en una gran ciudad.",
+        "incorrect": "Revisa esto: Ahora vive en una gran ciudad."
+      },
+      "review_of": "en-b1-u01-l03-ex03"
+    },
+    {
+      "id": "en-b1-u05-l01-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Don't forget to ___ up your files. (hacer copia)",
+      "answer": [
+        "back"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Back up.",
+        "incorrect": "Revisa esto: Back up."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My computer keeps to crash.",
+      "answer": [
+        "My computer keeps crashing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I can't connect me to the Wi-Fi.",
+      "answer": [
+        "I can't connect to the Wi-Fi."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Connect to, sin 'me'.",
+        "incorrect": "Revisa esto: Connect to, sin 'me'."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué va a hacer?",
+      "options": [
+        "Borrar fotos y actualizar",
+        "Comprar un móvil nuevo",
+        "Cargar la batería",
+        "Llamar al técnico"
+      ],
+      "answer": [
+        "Borrar fotos y actualizar"
+      ],
+      "audio_text": "My phone is really slow. I think I've run out of storage, so I'm going to delete some old photos and update the system.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: delete some old photos and update the system.",
+        "incorrect": "Revisa esto: Dice: delete some old photos and update the system."
+      },
+      "audio_script_id": "en-b1-u05-l01-ex14-a"
+    },
+    {
+      "id": "en-b1-u05-l01-rv05",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada medio de transporte.",
+      "categories": [
+        "On rails",
+        "On the road",
+        "Air and water"
+      ],
+      "items": [
+        {
+          "text": "train",
+          "category": "On rails"
+        },
+        {
+          "text": "tram",
+          "category": "On rails"
+        },
+        {
+          "text": "underground",
+          "category": "On rails"
+        },
+        {
+          "text": "bus",
+          "category": "On the road"
+        },
+        {
+          "text": "coach",
+          "category": "On the road"
+        },
+        {
+          "text": "taxi",
+          "category": "On the road"
+        },
+        {
+          "text": "plane",
+          "category": "Air and water"
+        },
+        {
+          "text": "ferry",
+          "category": "Air and water"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar medios de transporte por categoría.",
+        "incorrect": "Revisa esto: Clasificar medios de transporte por categoría."
+      },
+      "review_of": "en-a2-u12-l01-ex02"
+    },
+    {
+      "id": "en-b1-u05-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ to talk too much when he's nervous.",
+      "answer": [
+        "tends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! He tends to + verbo: suele.",
+        "incorrect": "Revisa esto: He tends to + verbo: suele."
+      },
+      "review_of": "en-b1-u01-l01-ex09"
+    },
+    {
+      "id": "en-b1-u05-l01-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No puedo iniciar sesión porque mi contraseña es incorrecta.",
+      "answer": [
+        "I can't log in because my password is wrong.",
+        "I can't log in because my password is incorrect.",
+        "I cannot log in because my password is wrong."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Log in / password.",
+        "incorrect": "Revisa esto: Log in / password."
+      }
+    },
+    {
+      "id": "en-b1-u05-l01-ex16",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "tech-talk"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "password",
+          "ipa": "/ˈpɑːswɜːd/",
+          "tip_es": "Acento en 'pass'."
+        },
+        {
+          "text": "router",
+          "ipa": "/ˈruːtə/",
+          "tip_es": "Router en UK."
+        },
+        {
+          "text": "battery",
+          "ipa": "/ˈbætri/",
+          "tip_es": "Acento en la primera."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "log in · download · update · back up",
+      "My phone keeps freezing.",
+      "I've run out of space / battery.",
+      "plug in · turn off and on"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-laptop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-update"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turn-off-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-log-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-password"
+    },
+    {
+      "type": "vocab",
+      "id": "en-download"
+    },
+    {
+      "type": "vocab",
+      "id": "en-disconnect"
+    },
+    {
+      "type": "vocab",
+      "id": "en-router"
+    },
+    {
+      "type": "vocab",
+      "id": "en-plug-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-battery"
+    },
+    {
+      "type": "grammar",
+      "id": "en-tech-talk"
+    }
+  ]
+}

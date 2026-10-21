@@ -1,0 +1,1861 @@
+{
+  "id": "en-b2-exam-v1",
+  "language": "en",
+  "level": "B2",
+  "version": 1,
+  "title": {
+    "es": "Examen final de B2"
+  },
+  "pass_score": 0.75,
+  "instructions_es": "57 preguntas que cubren las 14 unidades de B2. Necesitas el 75 % (43 aciertos) para superar el nivel. Las dos tareas finales (escritura y rol) son opcionales y se autoevalúan: no cuentan en la nota.",
+  "scoring": {
+    "scored": "exercises",
+    "optional_not_scored": "optional_tasks",
+    "weak_areas": "group wrong answers by tags"
+  },
+  "exercises": [
+    {
+      "id": "en-b2-exam-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "By this time next year, I ___ my degree.",
+      "options": [
+        "will have finished",
+        "will finish",
+        "have finished",
+        "am finishing"
+      ],
+      "answer": [
+        "will have finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Future perfect: acción terminada antes de un momento futuro.",
+        "incorrect": "Revisa esto: Future perfect: acción terminada antes de un momento futuro."
+      },
+      "review": {
+        "lesson": "en-b2-u01-l02",
+        "unit": 1,
+        "order": 2,
+        "lesson_es": "Futuro continuo y futuro perfecto",
+        "topic_es": "Futuro continuo (will be doing) y futuro perfecto (will have done)"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "My grandfather, ___ lives in Rosario, is ninety.",
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativa no definitoria: who, nunca that.",
+        "incorrect": "Revisa esto: Relativa no definitoria: who, nunca that."
+      },
+      "review": {
+        "lesson": "en-b2-u01-l03",
+        "unit": 1,
+        "order": 3,
+        "lesson_es": "Oraciones de relativo explicativas",
+        "topic_es": "Relativas explicativas con comas: who, which, whose, where"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "It took me months to ___ living alone.",
+      "options": [
+        "get used to",
+        "used to",
+        "be use to",
+        "use to"
+      ],
+      "answer": [
+        "get used to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get used to + -ing = acostumbrarse.",
+        "incorrect": "Revisa esto: Get used to + -ing = acostumbrarse."
+      },
+      "review": {
+        "lesson": "en-b2-u01-l04",
+        "unit": 1,
+        "order": 4,
+        "lesson_es": "Used to, be used to y get used to",
+        "topic_es": "Used to / be used to / get used to + -ing"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "third-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If she had checked the figures, she ___ the mistake.",
+      "options": [
+        "would have noticed",
+        "would notice",
+        "had noticed",
+        "will notice"
+      ],
+      "answer": [
+        "would have noticed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercer condicional.",
+        "incorrect": "Revisa esto: Tercer condicional."
+      },
+      "review": {
+        "lesson": "en-b2-u02-l02",
+        "unit": 2,
+        "order": 2,
+        "lesson_es": "Tercer condicional",
+        "topic_es": "Tercer condicional: if + past perfect, would have + participio"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I had taken that job, I ___ in London now.",
+      "options": [
+        "would be living",
+        "would have lived",
+        "will live",
+        "had lived"
+      ],
+      "answer": [
+        "would be living"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condicional mixto: pasado → presente.",
+        "incorrect": "Revisa esto: Condicional mixto: pasado → presente."
+      },
+      "review": {
+        "lesson": "en-b2-u02-l03",
+        "unit": 2,
+        "order": 3,
+        "lesson_es": "Condicionales mixtos",
+        "topic_es": "Condicionales mixtos: pasado → presente y presente → pasado"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex06",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "formal-email-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I am writing ___ enquire about the vacancy.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "of"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Finalidad: to + infinitivo.",
+        "incorrect": "Revisa esto: Finalidad: to + infinitivo."
+      },
+      "review": {
+        "lesson": "en-b2-u02-l05",
+        "unit": 2,
+        "order": 5,
+        "lesson_es": "Un correo formal profesional",
+        "topic_es": "Correo profesional formal: estructura, tono y fórmulas"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 20,
+      "prompt": "He is said ___ the richest man in the city.",
+      "options": [
+        "to be",
+        "being",
+        "to been",
+        "that is"
+      ],
+      "answer": [
+        "to be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal: is said to be.",
+        "incorrect": "Revisa esto: Pasiva impersonal: is said to be."
+      },
+      "review": {
+        "lesson": "en-b2-u03-l02",
+        "unit": 3,
+        "order": 2,
+        "lesson_es": "Pasiva con verbos de opinión",
+        "topic_es": "Pasiva con verbos de opinión: He is said to…, It is believed that…"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I had my car ___ yesterday.",
+      "options": [
+        "repaired",
+        "repair",
+        "repairing",
+        "to repair"
+      ],
+      "answer": [
+        "repaired"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa: have + objeto + participio.",
+        "incorrect": "Revisa esto: Causativa: have + objeto + participio."
+      },
+      "review": {
+        "lesson": "en-b2-u03-l03",
+        "unit": 3,
+        "order": 3,
+        "lesson_es": "La causativa: have / get something done",
+        "topic_es": "Causativa: have / get something done"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex09",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which source is the MOST reliable?",
+      "options": [
+        "A peer-reviewed scientific study",
+        "An anonymous social media post",
+        "A rumour from a friend",
+        "A viral meme"
+      ],
+      "answer": [
+        "A peer-reviewed scientific study"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fuentes fiables.",
+        "incorrect": "Revisa esto: Fuentes fiables."
+      },
+      "review": {
+        "lesson": "en-b2-u03-l04",
+        "unit": 3,
+        "order": 4,
+        "lesson_es": "Evaluar fuentes y argumentos",
+        "topic_es": "Evaluar fuentes, argumentos y fiabilidad"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Look at those black clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "will",
+        "shall",
+        "is raining"
+      ],
+      "answer": [
+        "is going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Predicción con evidencia: be going to.",
+        "incorrect": "Revisa esto: Predicción con evidencia: be going to."
+      },
+      "review": {
+        "lesson": "en-b2-u04-l02",
+        "unit": 4,
+        "order": 2,
+        "lesson_es": "Predicciones: be bound to, be likely to, be about to",
+        "topic_es": "Predicciones: be bound to, be likely to, be about to, be due to"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lights are off; they ___ gone out.",
+      "options": [
+        "must have",
+        "should have",
+        "needn't have",
+        "can"
+      ],
+      "answer": [
+        "must have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción en el pasado.",
+        "incorrect": "Revisa esto: Deducción en el pasado."
+      },
+      "review": {
+        "lesson": "en-b2-u04-l03",
+        "unit": 4,
+        "order": 3,
+        "lesson_es": "Deducciones sobre el pasado",
+        "topic_es": "Deducciones sobre el pasado: must have, can't have, might have"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex12",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "process-description"
+      ],
+      "est_seconds": 20,
+      "prompt": "First, the water is heated. ___ , it is filtered.",
+      "options": [
+        "Then",
+        "Despite",
+        "Unless",
+        "Although"
+      ],
+      "answer": [
+        "Then"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Secuenciador en una descripción de proceso.",
+        "incorrect": "Revisa esto: Secuenciador en una descripción de proceso."
+      },
+      "review": {
+        "lesson": "en-b2-u04-l04",
+        "unit": 4,
+        "order": 4,
+        "lesson_es": "Describir un proceso",
+        "topic_es": "Describir un proceso con pasiva y secuenciadores"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more time to relax.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado para el presente.",
+        "incorrect": "Revisa esto: Wish + pasado para el presente."
+      },
+      "review": {
+        "lesson": "en-b2-u05-l02",
+        "unit": 5,
+        "order": 2,
+        "lesson_es": "Wish e if only para el pasado y el presente",
+        "topic_es": "Wish / if only: pasado perfecto, would y presente"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I regret ___ him the truth; I should have told him.",
+      "options": [
+        "not telling",
+        "to not tell",
+        "not to tell",
+        "don't telling"
+      ],
+      "answer": [
+        "not telling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Regret + -ing para un hecho pasado.",
+        "incorrect": "Revisa esto: Regret + -ing para un hecho pasado."
+      },
+      "review": {
+        "lesson": "en-b2-u05-l03",
+        "unit": 5,
+        "order": 3,
+        "lesson_es": "Gerundio e infinitivo: estructuras avanzadas",
+        "topic_es": "Gerundio e infinitivo avanzados: regret, prefer, be used to, can't help"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex15",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is the most persuasive?",
+      "options": [
+        "Surely you agree that a healthy lifestyle is worth the effort.",
+        "Do what you want.",
+        "Healthy life, who cares.",
+        "I guess exercise exists."
+      ],
+      "answer": [
+        "Surely you agree that a healthy lifestyle is worth the effort."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lenguaje persuasivo.",
+        "incorrect": "Revisa esto: Lenguaje persuasivo."
+      },
+      "review": {
+        "lesson": "en-b2-u05-l04",
+        "unit": 5,
+        "order": 4,
+        "lesson_es": "Persuadir y dar consejos con tacto",
+        "topic_es": "Persuadir, aconsejar y sugerir con tacto"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex16",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Not only ___ the hotel expensive, but it was also dirty.",
+      "options": [
+        "was",
+        "did",
+        "is",
+        "has"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión tras Not only.",
+        "incorrect": "Revisa esto: Inversión tras Not only."
+      },
+      "review": {
+        "lesson": "en-b2-u06-l02",
+        "unit": 6,
+        "order": 2,
+        "lesson_es": "Inversión con adverbios negativos",
+        "topic_es": "Inversión: never, hardly, not only, rarely, seldom"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex17",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "She is addicted ___ social media.",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "on"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposición dependiente.",
+        "incorrect": "Revisa esto: Preposición dependiente."
+      },
+      "review": {
+        "lesson": "en-b2-u06-l03",
+        "unit": 6,
+        "order": 3,
+        "lesson_es": "Preposiciones dependientes",
+        "topic_es": "Preposiciones dependientes: verbo, adjetivo y nombre + preposición"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex18",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "cultural-differences"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence mentions a cultural difference politely?",
+      "options": [
+        "In my country, it's more common to greet with a kiss.",
+        "Your customs are strange.",
+        "That's wrong.",
+        "Nobody does that here."
+      ],
+      "answer": [
+        "In my country, it's more common to greet with a kiss."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comparar con tacto.",
+        "incorrect": "Revisa esto: Comparar con tacto."
+      },
+      "review": {
+        "lesson": "en-b2-u06-l04",
+        "unit": 6,
+        "order": 4,
+        "lesson_es": "Diferencias culturales y estereotipos",
+        "topic_es": "Hablar de diferencias culturales con matices"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex19",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "He denied ___ the money.",
+      "options": [
+        "taking",
+        "to take",
+        "take",
+        "took"
+      ],
+      "answer": [
+        "taking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deny + -ing.",
+        "incorrect": "Revisa esto: Deny + -ing."
+      },
+      "review": {
+        "lesson": "en-b2-u07-l02",
+        "unit": 7,
+        "order": 2,
+        "lesson_es": "Estilo indirecto avanzado",
+        "topic_es": "Estilo indirecto avanzado: verbos de reporte y casos especiales"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex20",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "This phone is not nearly ___ expensive as that one.",
+      "options": [
+        "as",
+        "than",
+        "more",
+        "much"
+      ],
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not as … as.",
+        "incorrect": "Revisa esto: Not as … as."
+      },
+      "review": {
+        "lesson": "en-b2-u07-l03",
+        "unit": 7,
+        "order": 3,
+        "lesson_es": "Comparaciones avanzadas y proporciones",
+        "topic_es": "Comparaciones avanzadas: twice as…, the more…, as…as"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex21",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ran ___ of money before the end of the month.",
+      "options": [
+        "out",
+        "off",
+        "up",
+        "down"
+      ],
+      "answer": [
+        "out"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Run out of.",
+        "incorrect": "Revisa esto: Run out of."
+      },
+      "review": {
+        "lesson": "en-b2-u07-l04",
+        "unit": 7,
+        "order": 4,
+        "lesson_es": "Phrasal verbs de negocios y dinero",
+        "topic_es": "Phrasal verbs de negocios y dinero"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex22",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ I need is a quiet place to study.",
+      "options": [
+        "What",
+        "That",
+        "Which",
+        "It"
+      ],
+      "answer": [
+        "What"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Oración escindida con what.",
+        "incorrect": "Revisa esto: Oración escindida con what."
+      },
+      "review": {
+        "lesson": "en-b2-u08-l02",
+        "unit": 8,
+        "order": 2,
+        "lesson_es": "Oraciones enfáticas (cleft sentences)",
+        "topic_es": "Oraciones enfáticas: It was … that; What I need is …"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex23",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the rain, the match went ahead.",
+      "options": [
+        "Despite",
+        "Although",
+        "However",
+        "Even though"
+      ],
+      "answer": [
+        "Despite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + sustantivo.",
+        "incorrect": "Revisa esto: Despite + sustantivo."
+      },
+      "review": {
+        "lesson": "en-b2-u08-l03",
+        "unit": 8,
+        "order": 3,
+        "lesson_es": "Conectores de resultado, finalidad y concesión",
+        "topic_es": "Conectores avanzados: resultado, finalidad, concesión"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex24",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase interrupts politely in a debate?",
+      "options": [
+        "Sorry to interrupt, but may I add something?",
+        "Shut up.",
+        "Stop talking.",
+        "Listen to me."
+      ],
+      "answer": [
+        "Sorry to interrupt, but may I add something?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Debate cortés.",
+        "incorrect": "Revisa esto: Debate cortés."
+      },
+      "review": {
+        "lesson": "en-b2-u08-l04",
+        "unit": 8,
+        "order": 4,
+        "lesson_es": "Debatir: turnos, concesiones y refutaciones",
+        "topic_es": "Debatir con estructura: turnos, concesiones y refutación"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex25",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "The new law is expected ___ next year.",
+      "options": [
+        "to be introduced",
+        "to introduce",
+        "introducing",
+        "that introduced"
+      ],
+      "answer": [
+        "to be introduced"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva con infinitivo.",
+        "incorrect": "Revisa esto: Pasiva con infinitivo."
+      },
+      "review": {
+        "lesson": "en-b2-u09-l02",
+        "unit": 9,
+        "order": 2,
+        "lesson_es": "La pasiva avanzada",
+        "topic_es": "Pasiva avanzada: modales, perfecto, continuo y con dos objetos"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex26",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "conditional-alternatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "We will not solve the problem ___ we change our habits.",
+      "options": [
+        "unless",
+        "if",
+        "although",
+        "because"
+      ],
+      "answer": [
+        "unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless = a menos que.",
+        "incorrect": "Revisa esto: Unless = a menos que."
+      },
+      "review": {
+        "lesson": "en-b2-u09-l03",
+        "unit": 9,
+        "order": 3,
+        "lesson_es": "Alternativas al if en condicionales",
+        "topic_es": "Alternativas a if: provided that, otherwise, supposing, even if"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex27",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest ___ public transport more often.",
+      "options": [
+        "using",
+        "to use",
+        "use",
+        "used"
+      ],
+      "answer": [
+        "using"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      },
+      "review": {
+        "lesson": "en-b2-u09-l04",
+        "unit": 9,
+        "order": 4,
+        "lesson_es": "Hacer propuestas formales",
+        "topic_es": "Hacer propuestas formales y defenderlas"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex28",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ down the street, I saw an old friend.",
+      "options": [
+        "Walking",
+        "Walked",
+        "To walk",
+        "Having walk"
+      ],
+      "answer": [
+        "Walking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cláusula de participio de presente.",
+        "incorrect": "Revisa esto: Cláusula de participio de presente."
+      },
+      "review": {
+        "lesson": "en-b2-u10-l02",
+        "unit": 10,
+        "order": 2,
+        "lesson_es": "Cláusulas de participio",
+        "topic_es": "Cláusulas de participio: -ing y -ed, perfect participle"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex29",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The person to ___ I spoke was very helpful.",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": [
+        "whom"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposición + whom.",
+        "incorrect": "Revisa esto: Preposición + whom."
+      },
+      "review": {
+        "lesson": "en-b2-u10-l04",
+        "unit": 10,
+        "order": 4,
+        "lesson_es": "Relativas con preposición y reducidas",
+        "topic_es": "Relativas con preposición y relativas reducidas"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex30",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase is typical of a review?",
+      "options": [
+        "A must-see for anyone who loves thrillers.",
+        "I did my homework.",
+        "See you tomorrow.",
+        "Dear Sir or Madam."
+      ],
+      "answer": [
+        "A must-see for anyone who loves thrillers."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lenguaje de reseña.",
+        "incorrect": "Revisa esto: Lenguaje de reseña."
+      },
+      "review": {
+        "lesson": "en-b2-u10-l03",
+        "unit": 10,
+        "order": 3,
+        "lesson_es": "Reseñas y recomendaciones",
+        "topic_es": "Reseñas y recomendaciones: lenguaje evaluativo"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex31",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The thief was ___ guilty and sentenced to a year in prison.",
+      "options": [
+        "found",
+        "said",
+        "made",
+        "given"
+      ],
+      "answer": [
+        "found"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Found guilty.",
+        "incorrect": "Revisa esto: Found guilty."
+      },
+      "review": {
+        "lesson": "en-b2-u11-l01",
+        "unit": 11,
+        "order": 1,
+        "lesson_es": "Ley, justicia y seguridad",
+        "topic_es": "Ley, justicia y seguridad: vocabulario"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex32",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ have come; I had everything ready.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": [
+        "needn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have = no hacía falta.",
+        "incorrect": "Revisa esto: Needn't have = no hacía falta."
+      },
+      "review": {
+        "lesson": "en-b2-u11-l02",
+        "unit": 11,
+        "order": 2,
+        "lesson_es": "Modales en el pasado: usos completos",
+        "topic_es": "Modales en el pasado: needn't have, could have, was able to, should have"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex33",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Tenants are required ___ pay the rent on time.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "of"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be required to.",
+        "incorrect": "Revisa esto: Be required to."
+      },
+      "review": {
+        "lesson": "en-b2-u11-l03",
+        "unit": 11,
+        "order": 3,
+        "lesson_es": "Obligación formal y normas",
+        "topic_es": "Obligación y normas formales: be required to, be obliged to"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex34",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "A letter that begins 'Dear Editor,' should end with...",
+      "options": [
+        "Yours faithfully",
+        "Cheers",
+        "Love",
+        "See you"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro de carta al director.",
+        "incorrect": "Revisa esto: Registro de carta al director."
+      },
+      "review": {
+        "lesson": "en-b2-u11-l05",
+        "unit": 11,
+        "order": 5,
+        "lesson_es": "Una carta al director",
+        "topic_es": "Una carta al director"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex35",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ me that the meeting was cancelled.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "told"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l01",
+        "unit": 12,
+        "order": 1,
+        "lesson_es": "Comunicación eficaz",
+        "topic_es": "Comunicación eficaz: tono, registro y claridad"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex36",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "idioms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Stop beating around the bush and cut to the ___ .",
+      "options": [
+        "chase",
+        "bean",
+        "ice",
+        "court"
+      ],
+      "answer": [
+        "chase"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut to the chase = ir al grano.",
+        "incorrect": "Revisa esto: Cut to the chase = ir al grano."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l02",
+        "unit": 12,
+        "order": 2,
+        "lesson_es": "Expresiones idiomáticas",
+        "topic_es": "Expresiones idiomáticas de uso frecuente"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex37",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "collocations-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me a favour, please?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a favour.",
+        "incorrect": "Revisa esto: Do a favour."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l03",
+        "unit": 12,
+        "order": 3,
+        "lesson_es": "Colocaciones con verbos comunes",
+        "topic_es": "Colocaciones con make, do, take, get, have"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex38",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to disagree?",
+      "options": [
+        "I'm afraid I see it a little differently.",
+        "You're wrong.",
+        "That's nonsense.",
+        "No way."
+      ],
+      "answer": [
+        "I'm afraid I see it a little differently."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Tacto, matices y atenuación",
+        "topic_es": "Tacto y atenuación: I'd say, it seems, tends to"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex39",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's time we ___ home. It's very late.",
+      "options": [
+        "went",
+        "go",
+        "to go",
+        "going"
+      ],
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's time + pasado.",
+        "incorrect": "Revisa esto: It's time + pasado."
+      },
+      "review": {
+        "lesson": "en-b2-u13-l02",
+        "unit": 13,
+        "order": 2,
+        "lesson_es": "Would rather, it's time y preferencias",
+        "topic_es": "Would rather, it's time, had better, prefer"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex40",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-risk"
+      ],
+      "est_seconds": 20,
+      "prompt": "He risked ___ his job by arguing with the boss.",
+      "options": [
+        "losing",
+        "to lose",
+        "lose",
+        "lost"
+      ],
+      "answer": [
+        "losing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Risk + -ing.",
+        "incorrect": "Revisa esto: Risk + -ing."
+      },
+      "review": {
+        "lesson": "en-b2-u13-l01",
+        "unit": 13,
+        "order": 1,
+        "lesson_es": "Aventura, riesgo y superación",
+        "topic_es": "Aventura, riesgo y superación: vocabulario"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex41",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "emphasis"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was ___ a hot day that nobody went out.",
+      "options": [
+        "such",
+        "so",
+        "very",
+        "too"
+      ],
+      "answer": [
+        "such"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Such a + adj + sust.",
+        "incorrect": "Revisa esto: Such a + adj + sust."
+      },
+      "review": {
+        "lesson": "en-b2-u13-l03",
+        "unit": 13,
+        "order": 3,
+        "lesson_es": "Énfasis e intensificación",
+        "topic_es": "Énfasis: do/does/did enfático, so/such, ever, at all"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex42",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-global"
+      ],
+      "est_seconds": 20,
+      "prompt": "Governments must ___ now to tackle climate change.",
+      "options": [
+        "act",
+        "to act",
+        "acting",
+        "acts"
+      ],
+      "answer": [
+        "act"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + base.",
+        "incorrect": "Revisa esto: Must + base."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l01",
+        "unit": 14,
+        "order": 1,
+        "lesson_es": "Problemas globales y soluciones",
+        "topic_es": "Problemas globales y soluciones"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex43",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "If he ___ known, he would have called earlier.",
+      "options": [
+        "had",
+        "would have",
+        "has",
+        "will have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Third conditional.",
+        "incorrect": "Revisa esto: Third conditional."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l02",
+        "unit": 14,
+        "order": 2,
+        "lesson_es": "Repaso de la gramática de B2",
+        "topic_es": "Repaso de la gramática de B2"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex44",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "paraphrase-summarise"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence paraphrases 'Many teenagers spend over four hours online'?",
+      "options": [
+        "A large number of adolescents spend more than four hours on the internet.",
+        "Many teenagers spend over four hours online.",
+        "Teenagers hate the internet.",
+        "Four hours are many."
+      ],
+      "answer": [
+        "A large number of adolescents spend more than four hours on the internet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Paráfrasis.",
+        "incorrect": "Revisa esto: Paráfrasis."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l03",
+        "unit": 14,
+        "order": 3,
+        "lesson_es": "Parafrasear y resumir",
+        "topic_es": "Parafrasear y resumir"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex45",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "long-turn"
+      ],
+      "est_seconds": 20,
+      "prompt": "In the first picture a group works together, ___ in the second a woman works alone.",
+      "options": [
+        "whereas",
+        "because",
+        "so",
+        "unless"
+      ],
+      "answer": [
+        "whereas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste en un turno largo.",
+        "incorrect": "Revisa esto: Contraste en un turno largo."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l04",
+        "unit": 14,
+        "order": 4,
+        "lesson_es": "Hablar un minuto con estructura",
+        "topic_es": "Hablar durante un minuto con estructura"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex46",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best concluding sentence for an essay?",
+      "options": [
+        "In conclusion, governments are better placed to lead the change.",
+        "So yeah, that's all.",
+        "And that's it lol.",
+        "Bye."
+      ],
+      "answer": [
+        "In conclusion, governments are better placed to lead the change."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Conclusión formal.",
+        "incorrect": "Revisa esto: Conclusión formal."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l05",
+        "unit": 14,
+        "order": 5,
+        "lesson_es": "La tarea final de escritura",
+        "topic_es": "La tarea final de escritura de B2"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex47",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I would have known, I would have called you.",
+      "answer": [
+        "If I had known, I would have called you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No would en la cláusula if.",
+        "incorrect": "Revisa esto: No would en la cláusula if."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l02",
+        "unit": 14,
+        "order": 2,
+        "lesson_es": "Repaso de la gramática de B2",
+        "topic_es": "Repaso de la gramática de B2"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex48",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me that she was tired.",
+      "answer": [
+        "She told me that she was tired.",
+        "She said that she was tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say/tell.",
+        "incorrect": "Revisa esto: Say/tell."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l01",
+        "unit": 12,
+        "order": 1,
+        "lesson_es": "Comunicación eficaz",
+        "topic_es": "Comunicación eficaz: tono, registro y claridad"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex49",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "emphasis"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Never I had seen such a beautiful place.",
+      "answer": [
+        "Never had I seen such a beautiful place."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      },
+      "review": {
+        "lesson": "en-b2-u13-l03",
+        "unit": 13,
+        "order": 3,
+        "lesson_es": "Énfasis e intensificación",
+        "topic_es": "Énfasis: do/does/did enfático, so/such, ever, at all"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex50",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "third-conditional"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hará la próxima vez?",
+      "options": [
+        "Comprobar la ruta antes de salir",
+        "Llegar tarde",
+        "Cancelar la reunión",
+        "Ir en tren"
+      ],
+      "answer": [
+        "Comprobar la ruta antes de salir"
+      ],
+      "audio_text": "If I had known about the traffic, I would have left earlier. As it is, I missed the first half of the meeting. Next time, I'll check the route before leaving.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'll check the route before leaving.",
+        "incorrect": "Revisa esto: Dice: I'll check the route before leaving."
+      },
+      "audio_script_id": "en-b2-exam-ex50-a",
+      "review": {
+        "lesson": "en-b2-u02-l02",
+        "unit": 2,
+        "order": 2,
+        "lesson_es": "Tercer condicional",
+        "topic_es": "Tercer condicional: if + past perfect, would have + participio"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex51",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué sugiere el informe?",
+      "options": [
+        "Que muchos preferirían un trabajo a tiempo completo",
+        "Que no hay empleo",
+        "Que todos trabajan menos",
+        "Que los salarios han subido"
+      ],
+      "answer": [
+        "Que muchos preferirían un trabajo a tiempo completo"
+      ],
+      "audio_text": "The report says that unemployment has fallen by two per cent. However, the number of part-time jobs has risen sharply, which suggests that many people would prefer full-time work.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: many people would prefer full-time work.",
+        "incorrect": "Revisa esto: Dice: many people would prefer full-time work."
+      },
+      "audio_script_id": "en-b2-exam-ex51-a",
+      "review": {
+        "lesson": "en-b2-u04-l05",
+        "unit": 4,
+        "order": 5,
+        "lesson_es": "Describir gráficos y tendencias",
+        "topic_es": "Describir gráficos, cifras y tendencias"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex52",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué propone el hablante?",
+      "options": [
+        "Quedar el sábado a las siete",
+        "Cenar el viernes",
+        "Cancelar la cena",
+        "Cenar a las nueve"
+      ],
+      "answer": [
+        "Quedar el sábado a las siete"
+      ],
+      "audio_text": "I'd love to join you for dinner, but I'm afraid I'm not free on Friday. It seems to me that Saturday might be better. Perhaps we could meet at seven?",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Saturday... meet at seven.",
+        "incorrect": "Revisa esto: Dice: Saturday... meet at seven."
+      },
+      "audio_script_id": "en-b2-exam-ex52-a",
+      "review": {
+        "lesson": "en-b2-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Tacto, matices y atenuación",
+        "topic_es": "Tacto y atenuación: I'd say, it seems, tends to"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex53",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "feedback"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué sugiere para mejorar?",
+      "options": [
+        "Recortar la introducción",
+        "Añadir ejemplos",
+        "Cambiar el título",
+        "Escribir más"
+      ],
+      "answer": [
+        "Recortar la introducción"
+      ],
+      "audio_text": "Thanks for sending your report. Overall, it's well written. One thing that could be improved is the length. It might help to cut the introduction. You have great potential, so keep going.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: cut the introduction.",
+        "incorrect": "Revisa esto: Dice: cut the introduction."
+      },
+      "audio_script_id": "en-b2-exam-ex53-a",
+      "review": {
+        "lesson": "en-b2-u12-l05",
+        "unit": 12,
+        "order": 5,
+        "lesson_es": "Dar y recibir feedback",
+        "topic_es": "Dar y recibir feedback"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex54",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Having read the contract carefully, she decided not to sign it.",
+      "answer": [
+        "Having read the contract carefully, she decided not to sign it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cláusula de participio.",
+        "incorrect": "Revisa esto: Cláusula de participio."
+      },
+      "audio_script_id": "en-b2-exam-ex54-a",
+      "review": {
+        "lesson": "en-b2-u10-l02",
+        "unit": 10,
+        "order": 2,
+        "lesson_es": "Cláusulas de participio",
+        "topic_es": "Cláusulas de participio: -ing y -ed, perfect participle"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex55",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "formal-complaint"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'Dear Sir or Madam, I am writing to complain about the service I received at your restaurant on 5 May. The waiter was rude and our food arrived cold. I would appreciate a full refund. Yours faithfully, Marta Díaz.' ¿Qué solicita Marta?",
+      "options": [
+        "Un reembolso completo",
+        "Una mesa nueva",
+        "Un trabajo",
+        "Una disculpa pública"
+      ],
+      "answer": [
+        "Un reembolso completo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I would appreciate a full refund.",
+        "incorrect": "Revisa esto: Dice: I would appreciate a full refund."
+      },
+      "review": {
+        "lesson": "en-b2-u07-l05",
+        "unit": 7,
+        "order": 5,
+        "lesson_es": "Una reclamación formal",
+        "topic_es": "Escribir una reclamación formal"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex56",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'The library is not simply a place to borrow books. For many residents, it is a vital community space. Closing it would deprive these people of an essential service. I therefore urge the council to reconsider.' ¿Qué pide la autora?",
+      "options": [
+        "Que el ayuntamiento reconsidere la decisión",
+        "Que se abra otra biblioteca",
+        "Que se suban los impuestos",
+        "Que se vendan los libros"
+      ],
+      "answer": [
+        "Que el ayuntamiento reconsidere la decisión"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: urge the council to reconsider.",
+        "incorrect": "Revisa esto: Dice: urge the council to reconsider."
+      },
+      "review": {
+        "lesson": "en-b2-u11-l05",
+        "unit": 11,
+        "order": 5,
+        "lesson_es": "Una carta al director",
+        "topic_es": "Una carta al director"
+      }
+    },
+    {
+      "id": "en-b2-exam-ex57",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "Lee: 'The results suggest that regular exercise may reduce stress, although more research is needed.' ¿Qué actitud muestra el autor?",
+      "options": [
+        "Cautela: no afirma nada de forma absoluta",
+        "Certeza total",
+        "Rechazo",
+        "Indiferencia"
+      ],
+      "answer": [
+        "Cautela: no afirma nada de forma absoluta"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging: suggest, may, more research is needed.",
+        "incorrect": "Revisa esto: Hedging: suggest, may, more research is needed."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Tacto, matices y atenuación",
+        "topic_es": "Tacto y atenuación: I'd say, it seems, tends to"
+      }
+    }
+  ],
+  "optional_tasks": [
+    {
+      "id": "en-b2-exam-opt01",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-final-writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un ensayo de opinión (150 a 180 palabras): 'Should schools teach financial education?' Incluye introducción, dos argumentos con ejemplo, un contraargumento con 'Nevertheless', una estructura con 'Not only…' o una condicional de tipo 3 y una conclusión.",
+      "min_words": 146,
+      "self_check_es": [
+        "¿Tiene introducción con postura clara?",
+        "¿Incluye dos argumentos con ejemplo?",
+        "¿Hay un contraargumento con Nevertheless?",
+        "¿Usa Not only… o un condicional tipo 3?",
+        "¿Cierra con una conclusión formal?"
+      ],
+      "model_answer": "In recent years, young people have been exposed to credit cards and online shopping at an ever earlier age. While some argue that money management should be taught at home, I strongly believe that schools should include financial education.\n\nFirstly, not every family has the knowledge to teach it. If students had learnt how interest works, many of them would have avoided serious debt later in life. Secondly, financial education helps young people make informed decisions. Not only does it teach them how to budget, but it also prepares them for the realities of adult life.\n\nOn the other hand, critics claim that the curriculum is already overloaded and that teachers lack the training. It is true that time is limited. Nevertheless, a short weekly class would be enough to cover the basics, and specialists could be invited to support teachers.\n\nIn conclusion, although parents play an important role, schools are better placed to guarantee that everyone receives this education. I therefore believe that it should be part of the standard curriculum.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      },
+      "review": {
+        "lesson": "en-b2-u14-l05",
+        "unit": 14,
+        "order": 5,
+        "lesson_es": "La tarea final de escritura",
+        "topic_es": "La tarea final de escritura de B2"
+      }
+    },
+    {
+      "id": "en-b2-exam-opt02",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "b2-global",
+        "hedging"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en un examen oral de B2 y debes dar tu opinión sobre un tema global.",
+      "turns": [
+        {
+          "speaker": "Examiner",
+          "text": "Some people say that technology will solve most of our environmental problems. What do you think?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It could be argued that technology will play an important role, but I'm not convinced it's enough. Unless people change their habits, the problem will continue.",
+            "Yes. Technology good.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Opinión con matiz y condicional."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "And what can individuals do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Individuals can reduce waste, use public transport and put pressure on governments. If everyone had acted earlier, the situation would be less serious today.",
+            "Nothing.",
+            "Recycle."
+          ],
+          "best": 0,
+          "why_es": "Propuestas y tercera condicional."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      },
+      "review": {
+        "lesson": "en-b2-u12-l04",
+        "unit": 12,
+        "order": 4,
+        "lesson_es": "Tacto, matices y atenuación",
+        "topic_es": "Tacto y atenuación: I'd say, it seems, tends to"
+      }
+    }
+  ]
+}

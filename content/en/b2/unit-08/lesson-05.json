@@ -1,0 +1,809 @@
+{
+  "id": "en-b2-u08-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 8,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "For and against",
+    "es": "Un ensayo a favor y en contra"
+  },
+  "objective": "Al terminar escribes un ensayo 'for and against': introducción, ventajas, inconvenientes, opinión y conclusión equilibrada.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El ensayo 'a favor y en contra' presenta ambos lados antes de dar tu opinión. Es una tarea muy común en exámenes B2 y exige estructura, conectores y objetividad."
+  },
+  "input": {
+    "type": "text",
+    "text": "Should University Education Be Free?\n\nIn recent years, the cost of higher education has become a major concern for many families. While some people believe that universities should be free for everyone, others argue that students should contribute to the cost of their studies. This essay will consider both sides of the debate.\n\nOn the one hand, free tuition would give equal opportunities to all students, regardless of their financial background. Moreover, a better-educated population generally leads to higher productivity and lower unemployment, which benefits society as a whole. In addition, graduates would not start their careers with heavy debts, so they could buy homes and start families earlier.\n\nOn the other hand, free education would be extremely costly, and taxpayers who never attended university might object to paying for it. Furthermore, when something is free, people may value it less, which could increase dropout rates. Finally, universities might struggle to maintain quality if funding does not keep pace with demand.\n\nIn my opinion, the best solution lies somewhere in the middle. A system of income-based loans, combined with grants for low-income students, would offer fairness without placing an excessive burden on the state. To sum up, although free education is an attractive idea, it should be introduced only if it can be financed sustainably.",
+    "es": "¿Debería ser gratuita la educación universitaria? En los últimos años el coste de la educación superior se ha convertido en una gran preocupación para muchas familias. Mientras algunos creen que las universidades deberían ser gratuitas para todos, otros sostienen que los estudiantes deberían contribuir al coste de sus estudios. Este ensayo considerará ambos lados del debate. Por un lado, la matrícula gratuita daría igualdad de oportunidades a todos los estudiantes, con independencia de su situación económica. Además, una población más formada suele conducir a mayor productividad y menor desempleo, lo que beneficia a la sociedad en su conjunto. Asimismo, los graduados no empezarían su carrera con grandes deudas, por lo que podrían comprar una vivienda y formar una familia antes. Por otro lado, la educación gratuita sería extremadamente costosa y los contribuyentes que nunca fueron a la universidad podrían oponerse a pagarla. Además, cuando algo es gratis, la gente puede valorarlo menos, lo que podría aumentar el abandono. Por último, las universidades podrían tener dificultades para mantener la calidad si la financiación no sigue el ritmo de la demanda. En mi opinión, la mejor solución está en un punto intermedio. Un sistema de préstamos ligados a los ingresos, combinado con becas para estudiantes de bajos ingresos, ofrecería justicia sin imponer una carga excesiva al Estado. En resumen, aunque la educación gratuita es una idea atractiva, solo debería introducirse si puede financiarse de forma sostenible.",
+    "glossary": [
+      {
+        "id": "en-higher-education",
+        "lemma": "higher education",
+        "pos": "noun",
+        "ipa": "/ˈhaɪər ˌedjuˈkeɪʃn/",
+        "es": "educación superior",
+        "example": "Higher education."
+      },
+      {
+        "id": "en-concern",
+        "lemma": "concern",
+        "pos": "noun",
+        "ipa": "/kənˈsɜːn/",
+        "es": "preocupación",
+        "example": "A major concern."
+      },
+      {
+        "id": "en-contribute",
+        "lemma": "contribute",
+        "pos": "verb",
+        "ipa": "/kənˈtrɪbjuːt/",
+        "es": "contribuir",
+        "example": "Contribute to the cost."
+      },
+      {
+        "id": "en-regardless-of",
+        "lemma": "regardless of",
+        "pos": "phrase",
+        "ipa": "/rɪˈɡɑːdləs əv/",
+        "es": "con independencia de",
+        "example": "Regardless of background."
+      },
+      {
+        "id": "en-productivity",
+        "lemma": "productivity",
+        "pos": "noun",
+        "ipa": "/ˌprɒdʌkˈtɪvəti/",
+        "es": "productividad",
+        "example": "Higher productivity."
+      },
+      {
+        "id": "en-heavy-debts",
+        "lemma": "heavy debts",
+        "pos": "noun",
+        "ipa": "/ˈhevi dets/",
+        "es": "grandes deudas",
+        "example": "Start with heavy debts."
+      },
+      {
+        "id": "en-object-to",
+        "lemma": "object to",
+        "pos": "phrasal verb",
+        "ipa": "/əbˈdʒekt tuː/",
+        "es": "oponerse a",
+        "example": "Object to paying."
+      },
+      {
+        "id": "en-keep-pace-with",
+        "lemma": "keep pace with",
+        "pos": "phrase",
+        "ipa": "/kiːp peɪs wɪð/",
+        "es": "seguir el ritmo de",
+        "example": "Keep pace with demand."
+      },
+      {
+        "id": "en-lie-in-the-middle",
+        "lemma": "lie in the middle",
+        "pos": "phrase",
+        "ipa": "/laɪ ɪn ðə ˈmɪdl/",
+        "es": "estar en un punto intermedio",
+        "example": "The solution lies in the middle."
+      },
+      {
+        "id": "en-burden",
+        "lemma": "burden",
+        "pos": "noun",
+        "ipa": "/ˈbɜːdn/",
+        "es": "carga",
+        "example": "A heavy burden."
+      },
+      {
+        "id": "en-sustainably",
+        "lemma": "sustainably",
+        "pos": "adv",
+        "ipa": "/səˈsteɪnəbli/",
+        "es": "de forma sostenible",
+        "example": "Financed sustainably."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un ensayo 'for and against'**\n\n| Párrafo | Función | Frases útiles |\n|---|---|---|\n| **1. Introducción** | contexto + tema + propósito | *In recent years, … While some people believe …, others argue … This essay will consider both sides.* |\n| **2. A favor** | 2–3 ventajas con ejemplos | *On the one hand, … Moreover, … In addition, …* |\n| **3. En contra** | 2–3 inconvenientes | *On the other hand, … Furthermore, … Finally, …* |\n| **4. Opinión** | postura personal razonada | *In my opinion, … I believe that … It seems to me that …* |\n| **5. Conclusión** | resumen + recomendación | *To sum up, … All things considered, … In conclusion, …* |\n\n**Conectores clave**\n\n- Adición: *moreover, furthermore, in addition, besides*. · Contraste: *however, on the other hand, nevertheless, whereas*.\n- Concesión: *although, even though, despite, admittedly*. · Resultado: *therefore, consequently, as a result*.\n- Cierre: *to sum up, in conclusion, all things considered, on balance*.\n\n**Tono y registro**\n\n- Formal: sin contracciones (*do not*), sin coloquialismos (*kids* → *children*), sin *I think* repetido. · Usa estructuras impersonales: *It is often argued that … · It can be said that … · It is widely believed that …*\n- Modales para suavizar: *may, might, could, tend to, appear to, seem to*.\n\n**Evita**\n\n- Generalizaciones absolutas (*everyone, nobody, always, never*). · Frases muy largas. · Opiniones en la introducción. · Información nueva en la conclusión.\n\n**Errores típicos**\n\n- ✘ *In my opinion, I think …* (redundante) → ✔ *In my opinion, …*\n- ✘ *In the other hand* → ✔ *On the other hand.*\n- ✘ *Nowadays, everybody have a mobile.* → ✔ *Nowadays, almost everybody has a mobile.*\n- ✘ *The people thinks that …* → ✔ *Some people think that …*\n- ✘ *In conclusion, that's all.* → ✔ *In conclusion, … (resumen real).*\n\n**Ojo:** *advantages and disadvantages* (no *advantages and inconveniences*; *inconvenience* = molestia). *Pros and cons* es informal. *Argue* = sostener; *discuss* = tratar; *deal with* = abordar.\n\nPronunciación: *essay* /ˈeseɪ/ · *productivity* /ˌprɒdʌkˈtɪvəti/ · *burden* /ˈbɜːdn/ · *regardless* /rɪˈɡɑːdləs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "In the other hand",
+        "right": "On the other hand",
+        "note": "Fórmula fija."
+      },
+      {
+        "wrong": "everybody have",
+        "right": "everybody has",
+        "note": "Singular."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u08-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el propósito del ensayo?",
+      "options": [
+        "Considerar ambos lados del debate",
+        "Defender solo un lado",
+        "Contar una anécdota",
+        "Dar instrucciones"
+      ],
+      "answer": [
+        "Considerar ambos lados del debate"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: This essay will consider both sides.",
+        "incorrect": "Revisa esto: Dice: This essay will consider both sides."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué ventaja menciona el ensayo sobre los graduados?",
+      "options": [
+        "No empezarían con grandes deudas",
+        "Ganarían más premios",
+        "Viajarían más",
+        "Tendrían menos trabajo"
+      ],
+      "answer": [
+        "No empezarían con grandes deudas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: would not start their careers with heavy debts.",
+        "incorrect": "Revisa esto: Dice: would not start their careers with heavy debts."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué solución propone el autor?",
+      "options": [
+        "Préstamos ligados a ingresos y becas para quienes menos tienen",
+        "Matrícula gratuita total",
+        "Eliminar las becas",
+        "Subir las tasas"
+      ],
+      "answer": [
+        "Préstamos ligados a ingresos y becas para quienes menos tienen"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: income-based loans, combined with grants.",
+        "incorrect": "Revisa esto: Dice: income-based loans, combined with grants."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 15,
+      "prompt": "El ensayo concluye que la educación gratuita debe introducirse sin condiciones.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Solo si puede financiarse de forma sostenible.",
+        "incorrect": "Revisa esto: Solo si puede financiarse de forma sostenible."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the one hand, free tuition would give equal opportunities.",
+      "options": [
+        "On",
+        "In",
+        "At",
+        "By"
+      ],
+      "answer": [
+        "On"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the one hand.",
+        "incorrect": "Revisa esto: On the one hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the other hand, it would be very costly.",
+      "options": [
+        "On",
+        "In",
+        "At",
+        "From"
+      ],
+      "answer": [
+        "On"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the other hand.",
+        "incorrect": "Revisa esto: On the other hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best final sentence for the introduction?",
+      "options": [
+        "This essay will consider both sides of the debate.",
+        "I love this topic.",
+        "Now I will talk about my pets.",
+        "Everybody agrees with me."
+      ],
+      "answer": [
+        "This essay will consider both sides of the debate."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Propósito.",
+        "incorrect": "Revisa esto: Propósito."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lift was broken, but I ___ carry the box upstairs.",
+      "options": [
+        "managed to",
+        "could to",
+        "was able",
+        "can"
+      ],
+      "answer": [
+        "managed to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Éxito concreto tras esfuerzo: managed to.",
+        "incorrect": "Revisa esto: Éxito concreto tras esfuerzo: managed to."
+      },
+      "review_of": "en-b1-u03-l03-ex06"
+    },
+    {
+      "id": "en-b2-u08-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , free tuition has benefits, but it also has drawbacks. (Es cierto que)",
+      "options": [
+        "Admittedly",
+        "Fortunately",
+        "Hardly",
+        "Nowhere"
+      ],
+      "answer": [
+        "Admittedly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admittedly.",
+        "incorrect": "Revisa esto: Admittedly."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is more formal?",
+      "options": [
+        "It is often argued that …",
+        "Lots of people say that …",
+        "Everyone knows that …",
+        "People moan that …"
+      ],
+      "answer": [
+        "It is often argued that …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro formal.",
+        "incorrect": "Revisa esto: Registro formal."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "To ___ up, free education is attractive but expensive.",
+      "options": [
+        "sum",
+        "add",
+        "put",
+        "turn"
+      ],
+      "answer": [
+        "sum"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To sum up.",
+        "incorrect": "Revisa esto: To sum up."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Nowadays, almost everybody ___ a smartphone.",
+      "options": [
+        "has",
+        "have",
+        "are having",
+        "having"
+      ],
+      "answer": [
+        "has"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Everybody + singular.",
+        "incorrect": "Revisa esto: Everybody + singular."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "The main ___ of online learning is flexibility.",
+      "options": [
+        "advantage",
+        "inconvenience",
+        "mistake",
+        "problem"
+      ],
+      "answer": [
+        "advantage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advantage.",
+        "incorrect": "Revisa esto: Advantage."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ the other hand, the plan is too expensive. (Por otro lado)",
+      "answer": [
+        "On"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the other hand.",
+        "incorrect": "Revisa esto: On the other hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 25,
+      "prompt": "In ___, free education is an attractive idea, but it must be sustainable. (conclusión)",
+      "answer": [
+        "conclusion"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In conclusion.",
+        "incorrect": "Revisa esto: In conclusion."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-article"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is worth to see the sunset from the hill.",
+      "answer": [
+        "It is worth seeing the sunset from the hill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      },
+      "review_of": "en-b2-u06-l05-ex15"
+    },
+    {
+      "id": "en-b2-u08-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In the other hand, it is very expensive.",
+      "answer": [
+        "On the other hand, it is very expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the other hand.",
+        "incorrect": "Revisa esto: On the other hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My wallet was steal yesterday.",
+      "answer": [
+        "My wallet was stolen yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio: stolen.",
+        "incorrect": "Revisa esto: Participio: stolen."
+      },
+      "review_of": "en-b1-u05-l02-ex12"
+    },
+    {
+      "id": "en-b2-u08-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Nowadays, everybody have a mobile phone.",
+      "answer": [
+        "Nowadays, everybody has a mobile phone.",
+        "Nowadays, almost everybody has a mobile phone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Everybody + singular.",
+        "incorrect": "Revisa esto: Everybody + singular."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I listen music in the evening.",
+      "answer": [
+        "I listen to music in the evening."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen siempre lleva to.",
+        "incorrect": "Revisa esto: Listen siempre lleva to."
+      },
+      "review_of": "en-a1-u09-l01-ex06"
+    },
+    {
+      "id": "en-b2-u08-l05-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi hermana, que vive en Roma, viene en Navidad, lo que alegra a toda la familia.",
+      "answer": [
+        "My sister, who lives in Rome, is coming at Christmas, which makes the whole family happy.",
+        "My sister, who lives in Rome, is coming for Christmas, which makes the whole family happy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Who y which.",
+        "incorrect": "Revisa esto: Who y which."
+      },
+      "review_of": "en-b2-u01-l03-ex19"
+    },
+    {
+      "id": "en-b2-u08-l05-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Un rumor se hizo viral antes de que nadie comprobara los hechos.",
+      "answer": [
+        "A rumour went viral before anyone checked the facts.",
+        "A rumour went viral before anybody checked the facts."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de medios.",
+        "incorrect": "Revisa esto: Vocabulario de medios."
+      },
+      "review_of": "en-b2-u03-l01-ex19"
+    },
+    {
+      "id": "en-b2-u08-l05-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "instructions-messages"
+      ],
+      "est_seconds": 20,
+      "prompt": "No entendiste. Quieres que lo repitan. Dices:",
+      "options": [
+        "Can you repeat that, please?",
+        "Repeat you.",
+        "I not know.",
+        "What? Again!"
+      ],
+      "answer": [
+        "Can you repeat that, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Petición cortés para repetir.",
+        "incorrect": "Revisa esto: Petición cortés para repetir."
+      },
+      "review_of": "en-a1-u11-l05-ex02"
+    },
+    {
+      "id": "en-b2-u08-l05-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada parte del cuerpo con su traducción.",
+      "pairs": [
+        {
+          "left": "throat",
+          "right": "garganta"
+        },
+        {
+          "left": "stomach",
+          "right": "estómago"
+        },
+        {
+          "left": "back",
+          "right": "espalda"
+        },
+        {
+          "left": "tooth",
+          "right": "diente"
+        },
+        {
+          "left": "foot",
+          "right": "pie"
+        },
+        {
+          "left": "arm",
+          "right": "brazo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las partes del cuerpo más frecuentes en una consulta.",
+        "incorrect": "Revisa esto: Son las partes del cuerpo más frecuentes en una consulta."
+      },
+      "review_of": "en-a2-u06-l01-ex01"
+    },
+    {
+      "id": "en-b2-u08-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In my opinion, I think that free tuition is unfair.",
+      "answer": [
+        "In my opinion, free tuition is unfair.",
+        "I think that free tuition is unfair."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Redundancia.",
+        "incorrect": "Revisa esto: Redundancia."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex18",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "for-against-essay",
+        "linkers-b2"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un ensayo breve 'for and against' (10 a 12 frases) sobre: 'Should students wear a school uniform?'. Incluye introducción, un párrafo a favor, uno en contra, tu opinión y la conclusión. Usa al menos cuatro conectores.",
+      "min_words": 109,
+      "self_check_es": [
+        "¿Tienes introducción con el propósito?",
+        "¿Presentas ventajas e inconvenientes con conectores?",
+        "¿Das tu opinión razonada?",
+        "¿Cierras con una conclusión (to sum up)?"
+      ],
+      "model_answer": "Should Students Wear a School Uniform?\n\nIn many countries, school uniforms are a subject of debate. While some people believe that they improve discipline, others argue that they limit self-expression. This essay will consider both sides.\n\nOn the one hand, uniforms reduce social differences between pupils. Moreover, they save time and money for families, since children do not need to choose what to wear every morning. In addition, they create a sense of belonging.\n\nOn the other hand, uniforms can be uncomfortable and expensive. Furthermore, some students feel that they cannot express their personality. However, many schools allow small changes, such as colourful accessories.\n\nIn my opinion, uniforms are beneficial as long as they are comfortable and affordable. To sum up, although they have drawbacks, the advantages outweigh them.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u08-l05-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Por un lado, la matrícula gratuita daría igualdad de oportunidades; por otro lado, sería muy costosa.",
+      "answer": [
+        "On the one hand, free tuition would give equal opportunities; on the other hand, it would be very costly.",
+        "On the one hand, free tuition would give equal opportunities; on the other hand, it would be extremely expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ensayo for and against.",
+        "incorrect": "Revisa esto: Ensayo for and against."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "While some people believe …, others argue …",
+      "On the one hand, … On the other hand, …",
+      "In my opinion, …",
+      "To sum up, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-higher-education"
+    },
+    {
+      "type": "vocab",
+      "id": "en-concern"
+    },
+    {
+      "type": "vocab",
+      "id": "en-contribute"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regardless-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-productivity"
+    },
+    {
+      "type": "vocab",
+      "id": "en-heavy-debts"
+    },
+    {
+      "type": "vocab",
+      "id": "en-object-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-pace-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lie-in-the-middle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-burden"
+    },
+    {
+      "type": "grammar",
+      "id": "en-for-against-essay"
+    }
+  ]
+}

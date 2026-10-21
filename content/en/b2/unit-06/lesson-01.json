@@ -1,0 +1,990 @@
+{
+  "id": "en-b2-u06-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 6,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Travel and culture",
+    "es": "Viajes, cultura y colocaciones"
+  },
+  "objective": "Al terminar hablas de viajes y de diferencias culturales con vocabulario de nivel B2 y cuentas experiencias de viaje con detalle.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Viajar no es solo ir a sitios: es salir de tu rutina, enfrentarte a otras costumbres y volver con otra mirada. Necesitas vocabulario para describir destinos, imprevistos y experiencias."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Isa",
+        "text": "How was your trip to Morocco? You must have had an amazing time.",
+        "es": "¿Qué tal tu viaje a Marruecos? Debes de haberlo pasado genial."
+      },
+      {
+        "speaker": "Leo",
+        "text": "It was unforgettable, though not without its hiccups. Our flight was delayed by six hours, and our luggage ended up in a different city.",
+        "es": "Fue inolvidable, aunque no sin contratiempos. Nuestro vuelo se retrasó seis horas y el equipaje acabó en otra ciudad."
+      },
+      {
+        "speaker": "Isa",
+        "text": "That sounds stressful. How did you cope?",
+        "es": "Eso suena estresante. ¿Cómo lo llevasteis?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "We took it in our stride. We bought a few essentials and enjoyed the local markets while we waited. The people were incredibly hospitable.",
+        "es": "Lo tomamos con calma. Compramos lo esencial y disfrutamos de los mercados locales mientras esperábamos. La gente fue increíblemente hospitalaria."
+      },
+      {
+        "speaker": "Isa",
+        "text": "Did you stay in a hotel or somewhere more authentic?",
+        "es": "¿Os alojasteis en un hotel o en algún sitio más auténtico?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "A traditional guesthouse in the old town, run by a family. The food was out of this world, and the host taught us how to bargain in the souk.",
+        "es": "Una pensión tradicional en el casco antiguo, llevada por una familia. La comida era espectacular y el anfitrión nos enseñó a regatear en el zoco."
+      },
+      {
+        "speaker": "Isa",
+        "text": "I'd love to go off the beaten track like that. I'm tired of tourist traps.",
+        "es": "Me encantaría salir de los circuitos habituales así. Estoy harta de las trampas para turistas."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Then you should avoid the high season. Off-season, everything is cheaper and you get a more genuine experience.",
+        "es": "Entonces deberías evitar la temporada alta. Fuera de temporada todo es más barato y la experiencia es más genuina."
+      },
+      {
+        "speaker": "Isa",
+        "text": "Any tips for a first-time visitor?",
+        "es": "¿Algún consejo para un visitante primerizo?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Learn a few phrases in the local language, dress respectfully and always ask before taking photos of people.",
+        "es": "Aprende algunas frases en el idioma local, vístete con respeto y pregunta siempre antes de hacer fotos a personas."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-hiccup",
+        "lemma": "hiccup",
+        "pos": "noun",
+        "ipa": "/ˈhɪkʌp/",
+        "es": "contratiempo",
+        "example": "A minor hiccup."
+      },
+      {
+        "id": "en-luggage",
+        "lemma": "luggage",
+        "pos": "noun",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "es": "equipaje",
+        "example": "Lost luggage."
+      },
+      {
+        "id": "en-cope",
+        "lemma": "cope",
+        "pos": "verb",
+        "ipa": "/kəʊp/",
+        "es": "arreglárselas",
+        "example": "How did you cope?"
+      },
+      {
+        "id": "en-take-it-in-your-stride",
+        "lemma": "take it in your stride",
+        "pos": "phrase",
+        "ipa": "/teɪk ɪt ɪn jɔː straɪd/",
+        "es": "tomárselo con calma",
+        "example": "She took it in her stride."
+      },
+      {
+        "id": "en-hospitable",
+        "lemma": "hospitable",
+        "pos": "adj",
+        "ipa": "/hɒˈspɪtəbl/",
+        "es": "hospitalario",
+        "example": "Very hospitable people."
+      },
+      {
+        "id": "en-authentic",
+        "lemma": "authentic",
+        "pos": "adj",
+        "ipa": "/ɔːˈθentɪk/",
+        "es": "auténtico",
+        "example": "An authentic experience."
+      },
+      {
+        "id": "en-guesthouse",
+        "lemma": "guesthouse",
+        "pos": "noun",
+        "ipa": "/ˈɡesthaʊs/",
+        "es": "casa de huéspedes",
+        "example": "A family guesthouse."
+      },
+      {
+        "id": "en-bargain",
+        "lemma": "bargain",
+        "pos": "verb",
+        "ipa": "/ˈbɑːɡɪn/",
+        "es": "regatear",
+        "example": "Bargain in the market."
+      },
+      {
+        "id": "en-off-the-beaten-track",
+        "lemma": "off the beaten track",
+        "pos": "phrase",
+        "ipa": "/ɒf ðə ˈbiːtn træk/",
+        "es": "fuera de los circuitos turísticos",
+        "example": "Off the beaten track."
+      },
+      {
+        "id": "en-tourist-trap",
+        "lemma": "tourist trap",
+        "pos": "noun",
+        "ipa": "/ˈtʊərɪst træp/",
+        "es": "trampa para turistas",
+        "example": "Avoid tourist traps."
+      },
+      {
+        "id": "en-high-season",
+        "lemma": "high season",
+        "pos": "noun",
+        "ipa": "/haɪ ˈsiːzn/",
+        "es": "temporada alta",
+        "example": "Prices in high season."
+      },
+      {
+        "id": "en-genuine",
+        "lemma": "genuine",
+        "pos": "adj",
+        "ipa": "/ˈdʒenjuɪn/",
+        "es": "genuino",
+        "example": "A genuine welcome."
+      }
+    ],
+    "audio_script_id": "en-b2-u06-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de viajes**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Tipos de viaje | *package holiday, backpacking, road trip, city break, cruise, gap year, guided tour* |\n| Alojamiento | *guesthouse, hostel, resort, self-catering, B&B, campsite, boutique hotel* |\n| Transporte | *delay, cancel, board, check in, layover, connecting flight, overbooked* |\n| Destinos | *landmark, sightseeing, itinerary, off the beaten track, hidden gem, tourist trap* |\n| Cultura | *customs, etiquette, heritage, tradition, hospitality, local cuisine* |\n| Problemas | *lost luggage, pickpocket, scam, overcharge, food poisoning* |\n\n**Colocaciones y phrasal verbs**\n\n- *set off · check in / out · get away · see off · turn up · put up (alojar) · stop over · take off · land · pick up · drop off*.\n- *book in advance · travel light · break the journey · soak up the atmosphere · go sightseeing · haggle / bargain*.\n\n**Describir un lugar**\n\n- *picturesque, breathtaking, bustling, lively, vibrant, touristy, unspoilt, remote, overcrowded, charming*.\n- *The old town was bustling with life.* · *It's a hidden gem.* · *The scenery was breathtaking.*\n\n**Trip / journey / travel / voyage**\n\n- *Trip* = viaje corto con regreso (*a business trip*). · *Journey* = trayecto (*a long journey*). · *Travel* = incontable (*Travel broadens the mind.*). · *Voyage* = viaje largo en barco/espacio.\n\n**Errores típicos**\n\n- ✘ *I did a trip to Rome.* → ✔ *I went on a trip to Rome.* / *I took a trip.*\n- ✘ *The luggages were lost.* → ✔ *The luggage was lost.* (incontable).\n- ✘ *I made a travel to Peru.* → ✔ *I travelled to Peru.* / *I went on a trip to Peru.*\n- ✘ *a touristic place* → ✔ *a tourist attraction / a touristy place.*\n\n**Ojo:** *Sensible* ≠ *sensitive*; *journey* ≠ *journal*; *sympathetic* ≠ *simpático*. *Hospitable* (hospitalario) ≠ *hospital*.\n\nPronunciación: *luggage* /ˈlʌɡɪdʒ/ · *hospitable* /hɒˈspɪtəbl/ (acento en 'spit') · *itinerary* /aɪˈtɪnərəri/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "did a trip",
+        "right": "went on a trip",
+        "note": "Colocación."
+      },
+      {
+        "wrong": "luggages",
+        "right": "luggage",
+        "note": "Incontable."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "sympathetic",
+        "es_false": "simpático",
+        "real": "comprensivo",
+        "note": "Simpático = nice / friendly."
+      },
+      {
+        "word": "journey",
+        "es_false": "jornada/diario",
+        "real": "trayecto",
+        "note": "Diario = journal / diary."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u06-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "hiccup",
+          "right": "contratiempo"
+        },
+        {
+          "left": "luggage",
+          "right": "equipaje"
+        },
+        {
+          "left": "bargain",
+          "right": "regatear"
+        },
+        {
+          "left": "authentic",
+          "right": "auténtico"
+        },
+        {
+          "left": "itinerary",
+          "right": "itinerario"
+        },
+        {
+          "left": "hidden gem",
+          "right": "joya escondida"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de viaje B2.",
+        "incorrect": "Revisa esto: Vocabulario de viaje B2."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una ventaja o un problema al viajar?",
+      "categories": [
+        "Plus",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "hidden gem",
+          "category": "Plus"
+        },
+        {
+          "text": "hospitality",
+          "category": "Plus"
+        },
+        {
+          "text": "local cuisine",
+          "category": "Plus"
+        },
+        {
+          "text": "breathtaking scenery",
+          "category": "Plus"
+        },
+        {
+          "text": "lost luggage",
+          "category": "Problem"
+        },
+        {
+          "text": "tourist trap",
+          "category": "Problem"
+        },
+        {
+          "text": "overbooked flight",
+          "category": "Problem"
+        },
+        {
+          "text": "scam",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por tono.",
+        "incorrect": "Revisa esto: Clasificar por tono."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problemas tuvo Leo en su viaje?",
+      "options": [
+        "Un retraso de seis horas y la pérdida del equipaje",
+        "Perdió el pasaporte",
+        "Se puso enfermo",
+        "Le robaron la cartera"
+      ],
+      "answer": [
+        "Un retraso de seis horas y la pérdida del equipaje"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: flight delayed by six hours, luggage in a different city.",
+        "incorrect": "Revisa esto: Dice: flight delayed by six hours, luggage in a different city."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best introduction?",
+      "options": [
+        "In my opinion, school uniforms are a good idea.",
+        "I will talk about uniforms.",
+        "Uniforms.",
+        "Well, uniforms, you know…"
+      ],
+      "answer": [
+        "In my opinion, school uniforms are a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tesis clara.",
+        "incorrect": "Revisa esto: Tesis clara."
+      },
+      "review_of": "en-b1-u08-l05-ex09"
+    },
+    {
+      "id": "en-b2-u06-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Turn to right at the corner.",
+      "answer": [
+        "Turn right at the corner."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Turn right, sin to.",
+        "incorrect": "Revisa esto: Turn right, sin to."
+      },
+      "review_of": "en-a2-u12-l03-ex07"
+    },
+    {
+      "id": "en-b2-u06-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde se alojaron?",
+      "options": [
+        "En una pensión tradicional",
+        "En un hotel de lujo",
+        "En un camping",
+        "En un hostal juvenil"
+      ],
+      "answer": [
+        "En una pensión tradicional"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: A traditional guesthouse.",
+        "incorrect": "Revisa esto: Dice: A traditional guesthouse."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué aconseja Leo a Isa?",
+      "options": [
+        "Evitar la temporada alta",
+        "Viajar en agosto",
+        "Ir en tour organizado",
+        "Reservar en el último minuto"
+      ],
+      "answer": [
+        "Evitar la temporada alta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: avoid the high season.",
+        "incorrect": "Revisa esto: Dice: avoid the high season."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 15,
+      "prompt": "Leo se enfadó mucho por el retraso del vuelo.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que lo tomaron con calma.",
+        "incorrect": "Revisa esto: Dice que lo tomaron con calma."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 20,
+      "prompt": "She likes pasta, ___ ?",
+      "options": [
+        "doesn't she",
+        "isn't she",
+        "does she",
+        "didn't she"
+      ],
+      "answer": [
+        "doesn't she"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente simple 3.ª: doesn't.",
+        "incorrect": "Revisa esto: Presente simple 3.ª: doesn't."
+      },
+      "review_of": "en-b1-u10-l03-ex07"
+    },
+    {
+      "id": "en-b2-u06-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "We went on a ___ to the mountains last weekend.",
+      "options": [
+        "trip",
+        "journey",
+        "travel",
+        "voyage"
+      ],
+      "answer": [
+        "trip"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trip = viaje corto.",
+        "incorrect": "Revisa esto: Trip = viaje corto."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ was lost at the airport.",
+      "options": [
+        "luggage",
+        "luggages",
+        "a luggage",
+        "luggage were"
+      ],
+      "answer": [
+        "luggage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "Travel ___ the mind.",
+      "options": [
+        "broadens",
+        "broaden",
+        "broadening",
+        "broad"
+      ],
+      "answer": [
+        "broadens"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Travel incontable (singular).",
+        "incorrect": "Revisa esto: Travel incontable (singular)."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "We took the delay ___ our stride.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take it in your stride.",
+        "incorrect": "Revisa esto: Take it in your stride."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "The old town was ___ with tourists. (lleno de vida)",
+      "options": [
+        "bustling",
+        "bustle",
+        "bustled",
+        "busy of"
+      ],
+      "answer": [
+        "bustling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Bustling.",
+        "incorrect": "Revisa esto: Bustling."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "A place that few tourists visit is ___ the beaten track.",
+      "options": [
+        "off",
+        "out",
+        "away",
+        "below"
+      ],
+      "answer": [
+        "off"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Off the beaten track.",
+        "incorrect": "Revisa esto: Off the beaten track."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "We want to avoid tourist ___ and find authentic restaurants.",
+      "options": [
+        "traps",
+        "traps of",
+        "troubles",
+        "trips"
+      ],
+      "answer": [
+        "traps"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tourist trap.",
+        "incorrect": "Revisa esto: Tourist trap."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 25,
+      "prompt": "We're going to ___ off at six tomorrow. (salir)",
+      "answer": [
+        "set"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Set off.",
+        "incorrect": "Revisa esto: Set off."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 25,
+      "prompt": "You have to ___ in at least two hours before the flight. (facturar)",
+      "answer": [
+        "check"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Check in.",
+        "incorrect": "Revisa esto: Check in."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I did a trip to Italy last summer.",
+      "answer": [
+        "I went on a trip to Italy last summer.",
+        "I took a trip to Italy last summer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trip: go on / take.",
+        "incorrect": "Revisa esto: Trip: go on / take."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ breakfast at home.",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con las comidas se usa 'have': have breakfast.",
+        "incorrect": "Revisa esto: Con las comidas se usa 'have': have breakfast."
+      },
+      "review_of": "en-a1-u04-l01-ex03"
+    },
+    {
+      "id": "en-b2-u06-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "All our luggages were lost.",
+      "answer": [
+        "All our luggage was lost."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage incontable.",
+        "incorrect": "Revisa esto: Luggage incontable."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "He asked me what time it was.",
+        "He asked me what time was it.",
+        "He asked me what time is it?",
+        "He asked me what time did it be."
+      ],
+      "answer": [
+        "He asked me what time it was."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      },
+      "review_of": "en-b1-u07-l03-ex10"
+    },
+    {
+      "id": "en-b2-u06-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's a very touristic place.",
+      "answer": [
+        "It's a very touristy place.",
+        "It's a very popular tourist destination."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Touristy / tourist.",
+        "incorrect": "Revisa esto: Touristy / tourist."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "not",
+        "allowed",
+        "to",
+        "use",
+        "your",
+        "phone",
+        "in",
+        "class",
+        ".",
+        "You",
+        "are"
+      ],
+      "answer": [
+        "You",
+        "are",
+        "not",
+        "allowed",
+        "to",
+        "use",
+        "your",
+        "phone",
+        "in",
+        "class",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be not allowed to.",
+        "incorrect": "Revisa esto: Be not allowed to."
+      },
+      "review_of": "en-b1-u08-l03-ex16"
+    },
+    {
+      "id": "en-b2-u06-l01-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué fue lo mejor del viaje?",
+      "options": [
+        "La pequeña ciudad inesperada",
+        "El vuelo",
+        "El hotel",
+        "La comida del avión"
+      ],
+      "answer": [
+        "La pequeña ciudad inesperada"
+      ],
+      "audio_text": "Our flight was cancelled, so we had to stay overnight in a small town. It turned out to be a hidden gem: narrow streets, a lively market and the friendliest people we have ever met. It was the best part of the trip.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: it was the best part of the trip (the small town).",
+        "incorrect": "Revisa esto: Dice: it was the best part of the trip (the small town)."
+      },
+      "audio_script_id": "en-b2-u06-l01-ex19-a"
+    },
+    {
+      "id": "en-b2-u06-l01-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobby-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "most",
+        "about",
+        "it",
+        "is",
+        "the",
+        "people",
+        ".",
+        "What",
+        "I"
+      ],
+      "answer": [
+        "What",
+        "I",
+        "like",
+        "most",
+        "about",
+        "it",
+        "is",
+        "the",
+        "people",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I like most about it is + sustantivo.",
+        "incorrect": "Revisa esto: What I like most about it is + sustantivo."
+      },
+      "review_of": "en-a2-u13-l04-ex09"
+    },
+    {
+      "id": "en-b2-u06-l01-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Fue inolvidable, aunque no sin contratiempos: nuestro equipaje acabó en otra ciudad.",
+      "answer": [
+        "It was unforgettable, though not without its hiccups: our luggage ended up in another city.",
+        "It was unforgettable, though not without its hiccups: our luggage ended up in a different city."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de viaje.",
+        "incorrect": "Revisa esto: Vocabulario de viaje."
+      }
+    },
+    {
+      "id": "en-b2-u06-l01-ex21",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-travel"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "luggage",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "tip_es": "'gg' = /ɡ/ y final /dʒ/."
+        },
+        {
+          "text": "hospitable",
+          "ipa": "/hɒˈspɪtəbl/",
+          "tip_es": "Acento en 'spit'."
+        },
+        {
+          "text": "itinerary",
+          "ipa": "/aɪˈtɪnərəri/",
+          "tip_es": "Acento en 'tin'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It was unforgettable, though not without its hiccups.",
+      "We took it in our stride.",
+      "off the beaten track · hidden gem",
+      "go on a trip · luggage (incontable)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-hiccup"
+    },
+    {
+      "type": "vocab",
+      "id": "en-luggage"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cope"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-it-in-your-stride"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hospitable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-authentic"
+    },
+    {
+      "type": "vocab",
+      "id": "en-guesthouse"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bargain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-off-the-beaten-track"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tourist-trap"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-b2"
+    }
+  ]
+}

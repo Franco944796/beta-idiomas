@@ -1,0 +1,1020 @@
+{
+  "id": "en-b2-u09-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A sustainable future",
+    "es": "Sostenibilidad y energía"
+  },
+  "objective": "Al terminar hablas de medio ambiente, sostenibilidad y responsabilidad colectiva con vocabulario de nivel B2.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Cambio climático, energías renovables, reciclaje, consumo responsable. Son temas centrales en el debate público y en los exámenes. Necesitas vocabulario preciso y colocaciones naturales."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Interviewer",
+        "text": "Climate change is often described as the defining issue of our time. How serious is the situation?",
+        "es": "El cambio climático suele describirse como el problema que define nuestra época. ¿Cómo de grave es la situación?"
+      },
+      {
+        "speaker": "Dr. Moreno",
+        "text": "Very serious. Global temperatures have risen by about 1.2 degrees since the industrial era, and the consequences are already visible: melting glaciers, rising sea levels and more frequent extreme weather.",
+        "es": "Muy grave. Las temperaturas globales han subido aproximadamente 1,2 grados desde la era industrial y las consecuencias ya son visibles: glaciares que se derriten, aumento del nivel del mar y fenómenos meteorológicos extremos más frecuentes."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "What are the main causes?",
+        "es": "¿Cuáles son las causas principales?"
+      },
+      {
+        "speaker": "Dr. Moreno",
+        "text": "The burning of fossil fuels is the biggest contributor, followed by deforestation and industrial agriculture. Together, they release greenhouse gases that trap heat in the atmosphere.",
+        "es": "La quema de combustibles fósiles es el mayor factor, seguida de la deforestación y la agricultura industrial. Juntas liberan gases de efecto invernadero que atrapan calor en la atmósfera."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "Can individuals make a difference?",
+        "es": "¿Pueden los individuos marcar la diferencia?"
+      },
+      {
+        "speaker": "Dr. Moreno",
+        "text": "Yes, though structural change matters more. Individuals can cut down on waste, use public transport and choose renewable energy. But governments and companies must reduce emissions on a massive scale.",
+        "es": "Sí, aunque el cambio estructural importa más. Los individuos pueden reducir residuos, usar transporte público y elegir energía renovable. Pero los gobiernos y las empresas deben reducir las emisiones a gran escala."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "Are you optimistic?",
+        "es": "¿Es usted optimista?"
+      },
+      {
+        "speaker": "Dr. Moreno",
+        "text": "Cautiously. Solar and wind power are cheaper than ever, and many countries have set net-zero targets. The challenge is to turn promises into action before it's too late.",
+        "es": "Con cautela. La energía solar y eólica son más baratas que nunca y muchos países han fijado objetivos de cero emisiones netas. El reto es convertir las promesas en acción antes de que sea demasiado tarde."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-climate-change",
+        "lemma": "climate change",
+        "pos": "noun",
+        "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+        "es": "cambio climático",
+        "example": "Climate change is real."
+      },
+      {
+        "id": "en-global-warming",
+        "lemma": "global warming",
+        "pos": "noun",
+        "ipa": "/ˈɡləʊbl ˈwɔːmɪŋ/",
+        "es": "calentamiento global",
+        "example": "Global warming."
+      },
+      {
+        "id": "en-melting",
+        "lemma": "melting",
+        "pos": "adj",
+        "ipa": "/ˈmeltɪŋ/",
+        "es": "derritiéndose",
+        "example": "Melting glaciers."
+      },
+      {
+        "id": "en-sea-level",
+        "lemma": "sea level",
+        "pos": "noun",
+        "ipa": "/siː ˈlevl/",
+        "es": "nivel del mar",
+        "example": "Rising sea levels."
+      },
+      {
+        "id": "en-extreme-weather",
+        "lemma": "extreme weather",
+        "pos": "noun",
+        "ipa": "/ɪkˈstriːm ˈweðə/",
+        "es": "clima extremo",
+        "example": "Extreme weather events."
+      },
+      {
+        "id": "en-fossil-fuels",
+        "lemma": "fossil fuels",
+        "pos": "noun",
+        "ipa": "/ˈfɒsl ˈfjuːəlz/",
+        "es": "combustibles fósiles",
+        "example": "Burning fossil fuels."
+      },
+      {
+        "id": "en-deforestation",
+        "lemma": "deforestation",
+        "pos": "noun",
+        "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+        "es": "deforestación",
+        "example": "Deforestation in the Amazon."
+      },
+      {
+        "id": "en-greenhouse-gases",
+        "lemma": "greenhouse gases",
+        "pos": "noun",
+        "ipa": "/ˈɡriːnhaʊs ˈɡæsɪz/",
+        "es": "gases de efecto invernadero",
+        "example": "Release greenhouse gases."
+      },
+      {
+        "id": "en-emissions",
+        "lemma": "emissions",
+        "pos": "noun",
+        "ipa": "/ɪˈmɪʃnz/",
+        "es": "emisiones",
+        "example": "Cut emissions."
+      },
+      {
+        "id": "en-renewable-energy",
+        "lemma": "renewable energy",
+        "pos": "noun",
+        "ipa": "/rɪˈnjuːəbl ˈenədʒi/",
+        "es": "energía renovable",
+        "example": "Renewable energy."
+      },
+      {
+        "id": "en-net-zero",
+        "lemma": "net-zero",
+        "pos": "adj",
+        "ipa": "/net ˈzɪərəʊ/",
+        "es": "cero neto",
+        "example": "A net-zero target."
+      },
+      {
+        "id": "en-trap-heat",
+        "lemma": "trap heat",
+        "pos": "phrase",
+        "ipa": "/træp hiːt/",
+        "es": "atrapar calor",
+        "example": "Gases trap heat."
+      }
+    ],
+    "audio_script_id": "en-b2-u09-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de medio ambiente**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Problemas | *climate change, global warming, pollution, deforestation, overfishing, biodiversity loss, extinction* |\n| Causas | *fossil fuels, greenhouse gases, emissions, intensive farming, overconsumption, waste* |\n| Efectos | *drought, flood, wildfire, heatwave, sea-level rise, melting ice, habitat loss* |\n| Soluciones | *renewable energy, solar, wind, recycling, carbon offsetting, reforestation, sustainable transport* |\n| Conceptos | *carbon footprint, sustainability, circular economy, net zero, eco-friendly, biodegradable* |\n\n**Colocaciones**\n\n- *tackle climate change · reduce / cut emissions · switch to renewable energy · protect the environment · endanger species · raise awareness · take action · lower your carbon footprint · recycle waste · go green · live sustainably*.\n- *endangered species · natural resources · renewable / non-renewable · wildlife · ecosystem · conservation*.\n\n**Environment, nature, ecology**\n\n- *The environment* = entorno natural, problema ambiental. · *Nature* = lo natural, vida silvestre. · *Ecology* = ciencia de los ecosistemas. ✘ *ecologic* → ✔ *ecological / eco-friendly*.\n\n**Quantifiers en temas ambientales**\n\n- *a large amount of waste (incontable) · a large number of species (contable) · much pollution · many forests · little water · few trees · plenty of sunshine*.\n\n**Errores típicos**\n\n- ✘ *The pollutions are a problem.* → ✔ *Pollution is a problem.* (incontable).\n- ✘ *The global warming is increasing.* → ✔ *Global warming is increasing.* (sin the).\n- ✘ *We must protect the nature.* → ✔ *We must protect nature.*\n- ✘ *Ecologic products* → ✔ *Eco-friendly products.*\n- ✘ *A lot of waste are thrown away.* → ✔ *A lot of waste is thrown away.*\n\n**Ojo:** *rubbish / waste / litter / garbage / trash*: *rubbish* (UK, general), *garbage / trash* (US), *waste* (residuos industriales o domésticos), *litter* (basura en la calle). *Environmentalist* (ecologista) ≠ *environmental* (adj.).\n\nPronunciación: *deforestation* /diːˌfɒrɪˈsteɪʃn/ · *biodegradable* /ˌbaɪəʊdɪˈɡreɪdəbl/ · *emissions* /ɪˈmɪʃnz/ · *ecosystem* /ˈiːkəʊsɪstəm/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "the pollutions",
+        "right": "pollution",
+        "note": "Incontable."
+      },
+      {
+        "wrong": "protect the nature",
+        "right": "protect nature",
+        "note": "Sin the."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "emissions",
+          "right": "emisiones"
+        },
+        {
+          "left": "deforestation",
+          "right": "deforestación"
+        },
+        {
+          "left": "fossil fuels",
+          "right": "combustibles fósiles"
+        },
+        {
+          "left": "drought",
+          "right": "sequía"
+        },
+        {
+          "left": "biodiversity",
+          "right": "biodiversidad"
+        },
+        {
+          "left": "carbon footprint",
+          "right": "huella de carbono"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario ambiental B2.",
+        "incorrect": "Revisa esto: Vocabulario ambiental B2."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Causa o solución del problema climático?",
+      "categories": [
+        "Cause",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "burning coal",
+          "category": "Cause"
+        },
+        {
+          "text": "deforestation",
+          "category": "Cause"
+        },
+        {
+          "text": "intensive farming",
+          "category": "Cause"
+        },
+        {
+          "text": "overconsumption",
+          "category": "Cause"
+        },
+        {
+          "text": "solar power",
+          "category": "Solution"
+        },
+        {
+          "text": "recycling",
+          "category": "Solution"
+        },
+        {
+          "text": "reforestation",
+          "category": "Solution"
+        },
+        {
+          "text": "public transport",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar.",
+        "incorrect": "Revisa esto: Clasificar."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto han subido las temperaturas desde la era industrial?",
+      "options": [
+        "Alrededor de 1,2 grados",
+        "Unos 10 grados",
+        "Medio grado",
+        "5 grados"
+      ],
+      "answer": [
+        "Alrededor de 1,2 grados"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: about 1.2 degrees.",
+        "incorrect": "Revisa esto: Dice: about 1.2 degrees."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 20,
+      "prompt": "The thief is believed ___ the building through a window.",
+      "options": [
+        "to have entered",
+        "to enter",
+        "entering",
+        "having entered to"
+      ],
+      "answer": [
+        "to have entered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To have + participio.",
+        "incorrect": "Revisa esto: To have + participio."
+      },
+      "review_of": "en-b2-u03-l06-ex05"
+    },
+    {
+      "id": "en-b2-u09-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la mayor causa del cambio climático según la doctora?",
+      "options": [
+        "La quema de combustibles fósiles",
+        "Los volcanes",
+        "La población",
+        "La pesca"
+      ],
+      "answer": [
+        "La quema de combustibles fósiles"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: burning of fossil fuels is the biggest contributor.",
+        "incorrect": "Revisa esto: Dice: burning of fossil fuels is the biggest contributor."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is NOT correct English?",
+      "options": [
+        "According to me, it's a good idea.",
+        "In my opinion, it's a good idea.",
+        "To my mind, it's a good idea.",
+        "As I see it, it's a good idea."
+      ],
+      "answer": [
+        "According to me, it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to no se usa con uno mismo.",
+        "incorrect": "Revisa esto: According to no se usa con uno mismo."
+      },
+      "review_of": "en-b2-u05-l05-ex08"
+    },
+    {
+      "id": "en-b2-u09-l01-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto paga de alquiler comparado con antes?",
+      "options": [
+        "La mitad",
+        "El doble",
+        "Lo mismo",
+        "Un tercio"
+      ],
+      "answer": [
+        "La mitad"
+      ],
+      "audio_text": "The older I get, the more I appreciate simple things. This flat is slightly smaller than my old one, but it's nowhere near as noisy, and I pay half as much rent. The further from the centre, the quieter life is.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: half as much rent.",
+        "incorrect": "Revisa esto: Dice: half as much rent."
+      },
+      "audio_script_id": "en-b2-u09-l01-rv03-a",
+      "review_of": "en-b2-u07-l03-ex21"
+    },
+    {
+      "id": "en-b2-u09-l01-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si hubiera estudiado medicina, ahora sería médico.",
+      "answer": [
+        "If I had studied medicine, I would be a doctor now.",
+        "If I had studied medicine, I'd be a doctor now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condicional mixto.",
+        "incorrect": "Revisa esto: Condicional mixto."
+      },
+      "review_of": "en-b2-u02-l03-ex18"
+    },
+    {
+      "id": "en-b2-u09-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué opina sobre la contribución individual?",
+      "options": [
+        "Importa, pero el cambio estructural importa más",
+        "No sirve para nada",
+        "Es la única solución",
+        "Solo importa en ciudades"
+      ],
+      "answer": [
+        "Importa, pero el cambio estructural importa más"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: structural change matters more.",
+        "incorrect": "Revisa esto: Dice: structural change matters more."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 15,
+      "prompt": "La doctora es totalmente pesimista sobre el futuro.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es optimista con cautela.",
+        "incorrect": "Revisa esto: Es optimista con cautela."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "We need to ___ climate change before it is too late.",
+      "options": [
+        "tackle",
+        "tackle to",
+        "make",
+        "do"
+      ],
+      "answer": [
+        "tackle"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tackle climate change.",
+        "incorrect": "Revisa esto: Tackle climate change."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Many countries have set targets to ___ emissions.",
+      "options": [
+        "cut",
+        "raise",
+        "win",
+        "make"
+      ],
+      "answer": [
+        "cut"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut emissions.",
+        "incorrect": "Revisa esto: Cut emissions."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-rv05",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Rooms",
+        "Furniture",
+        "Other parts"
+      ],
+      "items": [
+        {
+          "text": "living room",
+          "category": "Rooms"
+        },
+        {
+          "text": "kitchen",
+          "category": "Rooms"
+        },
+        {
+          "text": "bedroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bathroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bed",
+          "category": "Furniture"
+        },
+        {
+          "text": "table",
+          "category": "Furniture"
+        },
+        {
+          "text": "chair",
+          "category": "Furniture"
+        },
+        {
+          "text": "sofa",
+          "category": "Furniture"
+        },
+        {
+          "text": "window",
+          "category": "Other parts"
+        },
+        {
+          "text": "door",
+          "category": "Other parts"
+        },
+        {
+          "text": "garden",
+          "category": "Other parts"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u06-l01-ex09"
+    },
+    {
+      "id": "en-b2-u09-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ is a serious problem in big cities.",
+      "options": [
+        "Pollution",
+        "The pollutions",
+        "Pollutions",
+        "A pollution"
+      ],
+      "answer": [
+        "Pollution"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This jacket is more comfortable that that one.",
+      "answer": [
+        "This jacket is more comfortable than that one."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comparativo + than.",
+        "incorrect": "Revisa esto: Comparativo + than."
+      },
+      "review_of": "en-a2-u11-l05-ex08"
+    },
+    {
+      "id": "en-b2-u09-l01-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you tell me where is the post office?",
+      "answer": [
+        "Could you tell me where the post office is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      },
+      "review_of": "en-a2-u12-l06-ex08"
+    },
+    {
+      "id": "en-b2-u09-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Global warming is accelerating.",
+        "The global warming is accelerating.",
+        "A global warming is accelerating.",
+        "Global warmings are accelerating."
+      ],
+      "answer": [
+        "Global warming is accelerating."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin artículo ante 'global warming'.",
+        "incorrect": "Revisa esto: Sin artículo ante 'global warming'."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "We must protect ___ for future generations.",
+      "options": [
+        "nature",
+        "the nature",
+        "a nature",
+        "natures"
+      ],
+      "answer": [
+        "nature"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nature sin the.",
+        "incorrect": "Revisa esto: Nature sin the."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "A large ___ of plastic ends up in the ocean.",
+      "options": [
+        "amount",
+        "number",
+        "quantity of",
+        "amounts of"
+      ],
+      "answer": [
+        "amount"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Amount + incontable.",
+        "incorrect": "Revisa esto: Amount + incontable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "A large ___ of species are in danger of extinction.",
+      "options": [
+        "number",
+        "amount",
+        "quantity of",
+        "deal"
+      ],
+      "answer": [
+        "number"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Number + contable.",
+        "incorrect": "Revisa esto: Number + contable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 20,
+      "prompt": "A product that decomposes naturally is...",
+      "options": [
+        "biodegradable",
+        "biodiversity",
+        "biography",
+        "biologic"
+      ],
+      "answer": [
+        "biodegradable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Biodegradable.",
+        "incorrect": "Revisa esto: Biodegradable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 25,
+      "prompt": "Solar and wind are ___ energy sources. (renovables)",
+      "answer": [
+        "renewable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Renewable.",
+        "incorrect": "Revisa esto: Renewable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 25,
+      "prompt": "We should lower our carbon ___ . (huella)",
+      "answer": [
+        "footprint"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Footprint.",
+        "incorrect": "Revisa esto: Footprint."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The pollutions in the cities are increasing.",
+      "answer": [
+        "Pollution in the cities is increasing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pollution incontable.",
+        "incorrect": "Revisa esto: Pollution incontable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It can't has been him.",
+      "answer": [
+        "It can't have been him."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal + have.",
+        "incorrect": "Revisa esto: Modal + have."
+      },
+      "review_of": "en-b2-u04-l03-ex16"
+    },
+    {
+      "id": "en-b2-u09-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We must protect the nature.",
+      "answer": [
+        "We must protect nature."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nature sin the.",
+        "incorrect": "Revisa esto: Nature sin the."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "These ecologic bags are made from recycled plastic.",
+      "answer": [
+        "These eco-friendly bags are made from recycled plastic.",
+        "These ecological bags are made from recycled plastic."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eco-friendly / ecological.",
+        "incorrect": "Revisa esto: Eco-friendly / ecological."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué empezó a hacer para ir al trabajo?",
+      "options": [
+        "Ir en bicicleta",
+        "Ir en coche",
+        "Ir en tren",
+        "Ir andando"
+      ],
+      "answer": [
+        "Ir en bicicleta"
+      ],
+      "audio_text": "Last year I decided to lower my carbon footprint. I stopped eating meat three days a week, switched to a renewable energy provider and started cycling to work. It wasn't easy, but small changes add up.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: started cycling to work.",
+        "incorrect": "Revisa esto: Dice: started cycling to work."
+      },
+      "audio_script_id": "en-b2-u09-l01-ex20-a"
+    },
+    {
+      "id": "en-b2-u09-l01-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-planet"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Los glaciares se derriten, el nivel del mar sube y los fenómenos extremos son más frecuentes.",
+      "answer": [
+        "Glaciers are melting, sea levels are rising and extreme weather is becoming more frequent.",
+        "Glaciers are melting, sea levels are rising and extreme weather events are more frequent."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario ambiental.",
+        "incorrect": "Revisa esto: Vocabulario ambiental."
+      }
+    },
+    {
+      "id": "en-b2-u09-l01-ex22",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-planet"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "deforestation",
+          "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+          "tip_es": "Acento principal en 'ste'."
+        },
+        {
+          "text": "biodegradable",
+          "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+          "tip_es": "Acento en 'gray'."
+        },
+        {
+          "text": "emissions",
+          "ipa": "/ɪˈmɪʃnz/",
+          "tip_es": "Acento en 'mi'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "We must tackle climate change.",
+      "cut emissions · lower your carbon footprint",
+      "Pollution is … (incontable)",
+      "a large amount of / a large number of"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-climate-change"
+    },
+    {
+      "type": "vocab",
+      "id": "en-global-warming"
+    },
+    {
+      "type": "vocab",
+      "id": "en-melting"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sea-level"
+    },
+    {
+      "type": "vocab",
+      "id": "en-extreme-weather"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fossil-fuels"
+    },
+    {
+      "type": "vocab",
+      "id": "en-deforestation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-greenhouse-gases"
+    },
+    {
+      "type": "vocab",
+      "id": "en-emissions"
+    },
+    {
+      "type": "vocab",
+      "id": "en-renewable-energy"
+    },
+    {
+      "type": "grammar",
+      "id": "en-planet-b2"
+    }
+  ]
+}

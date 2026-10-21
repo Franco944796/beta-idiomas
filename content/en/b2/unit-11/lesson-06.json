@@ -1,0 +1,929 @@
+{
+  "id": "en-b2-u11-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 11",
+    "es": "Checkpoint 11"
+  },
+  "objective": "Al terminar demuestras que hablas de leyes y problemas sociales, usas modales del pasado y obligación formal, y escribes una carta al director.",
+  "est_minutes": 46,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 11 de B2: vocabulario legal, modales del pasado, obligación y permiso formales, problemas sociales y carta al director."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario legal, needn't have / should have / could have, be required to / be prohibited, vocabulario de problemas sociales y estructura de una carta al director.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 11**\n\n- *found guilty · sentenced to · steal / rob · The police are …*\n- *You should have called. · I needn't have gone. · She can't have forgotten. · You could have told me!*\n- *You are required to … · Smoking is prohibited. · You mustn't / don't have to.*\n- *There isn't a single cause. · X leads to Y. · One possible solution is … · In the long run, …*\n- *I am writing in response to … · I therefore urge … to … · Yours faithfully.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Delito o pena?",
+      "categories": [
+        "Crime",
+        "Punishment"
+      ],
+      "items": [
+        {
+          "text": "burglary",
+          "category": "Crime"
+        },
+        {
+          "text": "fraud",
+          "category": "Crime"
+        },
+        {
+          "text": "assault",
+          "category": "Crime"
+        },
+        {
+          "text": "fine",
+          "category": "Punishment"
+        },
+        {
+          "text": "community service",
+          "category": "Punishment"
+        },
+        {
+          "text": "prison sentence",
+          "category": "Punishment"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "He was ___ guilty of theft and sentenced to six months.",
+      "options": [
+        "found",
+        "made",
+        "judged",
+        "put"
+      ],
+      "answer": [
+        "found"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Found guilty.",
+        "incorrect": "Revisa esto: Found guilty."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The judge ___ him to two years in prison.",
+      "options": [
+        "sentenced",
+        "condemned",
+        "judged",
+        "punished"
+      ],
+      "answer": [
+        "sentenced"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sentence.",
+        "incorrect": "Revisa esto: Sentence."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Some may object ___ the cost is too high.",
+      "options": [
+        "that",
+        "to",
+        "for",
+        "of"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Object that.",
+        "incorrect": "Revisa esto: Object that."
+      },
+      "review_of": "en-b2-u09-l04-ex12"
+    },
+    {
+      "id": "en-b2-u11-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 20,
+      "prompt": "The police ___ investigating the crime.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has been"
+      ],
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ have brought an umbrella. It didn't rain.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "can't",
+        "shouldn't to"
+      ],
+      "answer": [
+        "needn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have.",
+        "incorrect": "Revisa esto: Needn't have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ told me earlier! I was waiting for hours.",
+      "options": [
+        "should have",
+        "should",
+        "must",
+        "needn't"
+      ],
+      "answer": [
+        "should have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have.",
+        "incorrect": "Revisa esto: Should have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ forgotten; she's very organised.",
+      "options": [
+        "can't have",
+        "must",
+        "needn't have",
+        "might to"
+      ],
+      "answer": [
+        "can't have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't have.",
+        "incorrect": "Revisa esto: Can't have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es transporte o alojamiento?",
+      "categories": [
+        "Transport",
+        "Accommodation"
+      ],
+      "items": [
+        {
+          "text": "direct flight",
+          "category": "Transport"
+        },
+        {
+          "text": "return ticket",
+          "category": "Transport"
+        },
+        {
+          "text": "rent a car",
+          "category": "Transport"
+        },
+        {
+          "text": "hostel",
+          "category": "Accommodation"
+        },
+        {
+          "text": "double room",
+          "category": "Accommodation"
+        },
+        {
+          "text": "guesthouse",
+          "category": "Accommodation"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      },
+      "review_of": "en-b1-u06-l06-ex01"
+    },
+    {
+      "id": "en-b2-u11-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's one of the best films I ___ seen.",
+      "options": [
+        "have ever",
+        "ever",
+        "had never",
+        "am"
+      ],
+      "answer": [
+        "have ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo + present perfect.",
+        "incorrect": "Revisa esto: Superlativo + present perfect."
+      },
+      "review_of": "en-b2-u10-l03-ex06"
+    },
+    {
+      "id": "en-b2-u11-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "My brother is ___ (tall) than me.",
+      "answer": [
+        "taller"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: taller than.",
+        "incorrect": "Revisa esto: Adjetivo corto: taller than."
+      },
+      "review_of": "en-a2-u03-l06-ex01"
+    },
+    {
+      "id": "en-b2-u11-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "All tenants are required ___ pay the rent on time.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "of"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Required to.",
+        "incorrect": "Revisa esto: Required to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ wear a suit. It's optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": [
+        "don't have to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No obligación.",
+        "incorrect": "Revisa esto: No obligación."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ park here. It's a no-parking zone.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "ought"
+      ],
+      "answer": [
+        "mustn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibición.",
+        "incorrect": "Revisa esto: Prohibición."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 25,
+      "prompt": "The 10:15 to Leeds is ___. (retrasado)",
+      "answer": [
+        "delayed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delayed = retrasado.",
+        "incorrect": "Revisa esto: Delayed = retrasado."
+      },
+      "review_of": "en-a2-u12-l06-ex05"
+    },
+    {
+      "id": "en-b2-u11-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Temperatures ___ all over the world.",
+      "options": [
+        "are rising",
+        "rise to",
+        "are raise",
+        "rises"
+      ],
+      "answer": [
+        "are rising"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo para tendencias.",
+        "incorrect": "Revisa esto: Presente continuo para tendencias."
+      },
+      "review_of": "en-b1-u09-l01-ex06"
+    },
+    {
+      "id": "en-b2-u11-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Poverty ___ increasing in many cities.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 20,
+      "prompt": "Unemployment can ___ in poverty and exclusion.",
+      "options": [
+        "result",
+        "cause",
+        "lead of",
+        "make"
+      ],
+      "answer": [
+        "result"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Result in.",
+        "incorrect": "Revisa esto: Result in."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "I urge the council ___ its decision.",
+      "options": [
+        "to reconsider",
+        "reconsider",
+        "reconsidering",
+        "that reconsider to"
+      ],
+      "answer": [
+        "to reconsider"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Urge to.",
+        "incorrect": "Revisa esto: Urge to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Closing it would deprive these people ___ an essential service.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deprive of.",
+        "incorrect": "Revisa esto: Deprive of."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 25,
+      "prompt": "The defendant pleaded not ___ to all charges. (culpable)",
+      "answer": [
+        "guilty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Guilty.",
+        "incorrect": "Revisa esto: Guilty."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 25,
+      "prompt": "It is ___ to wear a seat belt. (obligatorio)",
+      "answer": [
+        "compulsory",
+        "mandatory"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Compulsory.",
+        "incorrect": "Revisa esto: Compulsory."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "A man robbed my phone on the bus.",
+      "answer": [
+        "A man stole my phone on the bus.",
+        "A man robbed me of my phone on the bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Steal/rob.",
+        "incorrect": "Revisa esto: Steal/rob."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should have went to the dentist earlier.",
+      "answer": [
+        "I should have gone to the dentist earlier."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I went to Paris in 2019.",
+        "I have gone to Paris in 2019.",
+        "I've been to Paris in 2019.",
+        "I have went to Paris in 2019."
+      ],
+      "answer": [
+        "I went to Paris in 2019."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con in 2019 (tiempo terminado) se usa pasado simple.",
+        "incorrect": "Revisa esto: Con in 2019 (tiempo terminado) se usa pasado simple."
+      },
+      "review_of": "en-a2-u08-l04-ex03"
+    },
+    {
+      "id": "en-b2-u11-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You don't must enter this area.",
+      "answer": [
+        "You mustn't enter this area.",
+        "You don't have to enter this area."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mustn't.",
+        "incorrect": "Revisa esto: Mustn't."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "A lot of people has lost their homes.",
+      "answer": [
+        "A lot of people have lost their homes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv08",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 25,
+      "prompt": "I have ___ my CV to this email. (adjunto)",
+      "answer": [
+        "attached"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attach = adjuntar.",
+        "incorrect": "Revisa esto: Attach = adjuntar."
+      },
+      "review_of": "en-b1-u03-l04-ex09"
+    },
+    {
+      "id": "en-b2-u11-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué no está permitido?",
+      "options": [
+        "Fumar en la terraza",
+        "Tomar café",
+        "Esperar",
+        "Llegar pronto"
+      ],
+      "answer": [
+        "Fumar en la terraza"
+      ],
+      "audio_text": "You needn't have come so early; the shop doesn't open until nine. You should have checked the opening hours. But since you're here, you could have a coffee while you wait. Smoking is not permitted on the terrace.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Smoking is not permitted on the terrace.",
+        "incorrect": "Revisa esto: Dice: Smoking is not permitted on the terrace."
+      },
+      "audio_script_id": "en-b2-u11-l06-ex21-a"
+    },
+    {
+      "id": "en-b2-u11-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No hacía falta que pagaras, pero deberías haber avisado de que ibas a llegar tarde.",
+      "answer": [
+        "You needn't have paid, but you should have said that you were going to be late.",
+        "You needn't have paid, but you should have told us that you were going to be late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modales del pasado.",
+        "incorrect": "Revisa esto: Modales del pasado."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Inspiring by her story, he started writing.",
+      "answer": [
+        "Inspired by her story, he started writing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inspired by.",
+        "incorrect": "Revisa esto: Inspired by."
+      },
+      "review_of": "en-b2-u10-l02-ex17"
+    },
+    {
+      "id": "en-b2-u11-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal",
+        "modals-past-b2"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Reclamas una norma a un casero.",
+      "turns": [
+        {
+          "speaker": "Landlord",
+          "text": "You are required to give three months' notice."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I understand, but I wasn't informed of that when I signed the contract. I should have been told.",
+            "No. I don't pay.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Reclamar con tacto."
+        },
+        {
+          "speaker": "Landlord",
+          "text": "It's written in clause 7."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Then I apologise. I ought to have read it more carefully. Could we agree on two months?",
+            "Whatever.",
+            "Never."
+          ],
+          "best": 0,
+          "why_es": "Reconocer y negociar."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "letter-editor",
+        "social-issues"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una carta al director (8 a 10 frases) sobre un problema social de tu ciudad. Incluye referencia a un artículo, tu postura, un argumento, una concesión con 'Nevertheless' y una petición con 'I urge'.",
+      "min_words": 74,
+      "self_check_es": [
+        "¿Haces referencia al artículo?",
+        "¿Das una postura y un argumento?",
+        "¿Incluyes una concesión con Nevertheless?",
+        "¿Cierras con I urge y firma correcta?"
+      ],
+      "model_answer": "Dear Editor,\n\nI am writing in response to your article of 10 May about rising rents in our city. I read it with great concern. Many young people can no longer afford to live where they grew up, which leads to isolation and instability. I appreciate that landlords need to make a profit. Nevertheless, I would argue that excessive rents damage the whole community in the long run. I therefore urge the council to introduce limits on rent increases and to build more affordable housing.\n\nYours faithfully,\nLaura Gómez",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u11-l06-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "age"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have 30 years.",
+      "answer": [
+        "I'm 30.",
+        "I am 30.",
+        "I'm 30 years old.",
+        "I am 30 years old."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La edad se dice con 'to be'.",
+        "incorrect": "Revisa esto: La edad se dice con 'to be'."
+      },
+      "review_of": "en-a1-u01-l06-ex06"
+    },
+    {
+      "id": "en-b2-u11-l06-rv11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The librarian, ___ only friend is a cat, lives alone.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posesivo.",
+        "incorrect": "Revisa esto: Posesivo."
+      },
+      "review_of": "en-b2-u10-l04-ex07"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "found guilty · sentenced to",
+      "You should have … · I needn't have …",
+      "You are required to … · Smoking is prohibited.",
+      "I am writing in response to … · I urge … to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-law-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-modals-past-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-obligation-formal"
+    },
+    {
+      "type": "grammar",
+      "id": "en-social-issues"
+    },
+    {
+      "type": "grammar",
+      "id": "en-letter-editor"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

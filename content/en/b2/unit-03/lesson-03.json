@@ -1,0 +1,835 @@
+{
+  "id": "en-b2-u03-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 3,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Have it done",
+    "es": "La causativa: have / get something done"
+  },
+  "objective": "Al terminar usas la causativa (have/get something done) para hablar de servicios que otros hacen por ti y de cosas que te pasan.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Me corté el pelo' puede significar que lo hiciste tú o que fuiste a la peluquería. En inglés, la causativa distingue: 'I had my hair cut' = alguien me lo cortó."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Cara",
+        "text": "You look different! Did you cut your hair?",
+        "es": "¡Te veo distinta! ¿Te has cortado el pelo?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "No, I had it cut yesterday. And I've also had my suit cleaned for the wedding.",
+        "es": "Sí, me lo corté ayer, en la peluquería. Y además he llevado el traje a la tintorería para la boda."
+      },
+      {
+        "speaker": "Cara",
+        "text": "Very organised! We're having the whole house painted next month, so I've had to move all the furniture.",
+        "es": "¡Qué organizado! A nosotros nos van a pintar toda la casa el mes que viene, así que he tenido que mover todos los muebles."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Are you going to paint it yourselves?",
+        "es": "¿Vais a pintarla vosotros mismos?"
+      },
+      {
+        "speaker": "Cara",
+        "text": "No way. We're getting a company to do it. Last year we had our roof repaired and it cost a fortune.",
+        "es": "Ni hablar. Vamos a contratar a una empresa. El año pasado nos repararon el tejado y costó una fortuna."
+      },
+      {
+        "speaker": "Dan",
+        "text": "I know the feeling. I had my car stolen last winter, and I'm still paying for it.",
+        "es": "Sé lo que es eso. El invierno pasado me robaron el coche y todavía lo estoy pagando."
+      },
+      {
+        "speaker": "Cara",
+        "text": "Oh no! Did you get it back?",
+        "es": "¡Vaya! ¿Lo recuperaste?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "Yes, but it was damaged. I had to get the engine replaced, and I had the windows tinted at the same time.",
+        "es": "Sí, pero estaba dañado. Tuve que cambiarle el motor y de paso le hice tintar las ventanas."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-have-something-done",
+        "lemma": "have something done",
+        "pos": "phrase",
+        "ipa": "/hæv ˈsʌmθɪŋ dʌn/",
+        "es": "encargar que hagan algo",
+        "example": "I had my hair cut."
+      },
+      {
+        "id": "en-get-something-done",
+        "lemma": "get something done",
+        "pos": "phrase",
+        "ipa": "/ɡet ˈsʌmθɪŋ dʌn/",
+        "es": "conseguir que hagan algo",
+        "example": "I got my car fixed."
+      },
+      {
+        "id": "en-dry-cleaner-s",
+        "lemma": "dry cleaner's",
+        "pos": "noun",
+        "ipa": "/ˌdraɪ ˈkliːnəz/",
+        "es": "tintorería",
+        "example": "At the dry cleaner's."
+      },
+      {
+        "id": "en-repair",
+        "lemma": "repair",
+        "pos": "verb",
+        "ipa": "/rɪˈpeə/",
+        "es": "reparar",
+        "example": "We repaired the roof."
+      },
+      {
+        "id": "en-cost-a-fortune",
+        "lemma": "cost a fortune",
+        "pos": "phrase",
+        "ipa": "/kɒst ə ˈfɔːtʃuːn/",
+        "es": "costar una fortuna",
+        "example": "It cost a fortune."
+      },
+      {
+        "id": "en-steal",
+        "lemma": "steal",
+        "pos": "verb",
+        "ipa": "/stiːl/",
+        "es": "robar",
+        "example": "My car was stolen."
+      },
+      {
+        "id": "en-replace",
+        "lemma": "replace",
+        "pos": "verb",
+        "ipa": "/rɪˈpleɪs/",
+        "es": "sustituir",
+        "example": "Replace the engine."
+      },
+      {
+        "id": "en-tint",
+        "lemma": "tint",
+        "pos": "verb",
+        "ipa": "/tɪnt/",
+        "es": "tintar",
+        "example": "Tint the windows."
+      },
+      {
+        "id": "en-no-way",
+        "lemma": "no way",
+        "pos": "phrase",
+        "ipa": "/nəʊ weɪ/",
+        "es": "ni hablar",
+        "example": "No way!"
+      },
+      {
+        "id": "en-furniture",
+        "lemma": "furniture",
+        "pos": "noun",
+        "ipa": "/ˈfɜːnɪtʃə/",
+        "es": "muebles",
+        "example": "All the furniture."
+      }
+    ],
+    "audio_script_id": "en-b2-u03-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**La causativa: have / get + objeto + participio**\n\n| Estructura | Significado | Ejemplo |\n|---|---|---|\n| **have + objeto + participio** | alguien lo hace por ti (servicio) | *I **had my hair cut**.* |\n| **get + objeto + participio** | igual, más informal; a veces con esfuerzo | *I **got my car repaired**.* |\n| **have + objeto + participio** (desgracia) | algo malo te ocurre | *She **had her bag stolen**.* |\n\n**Tiempos**\n\n- Presente: *I have my car washed every week.* · Pasado: *I had my teeth checked yesterday.*\n- Present perfect: *I've had the flat painted.* · Futuro: *We're going to have the house painted.*\n- Continuo: *We're having the kitchen redone.* · Pregunta: *Where do you have your hair cut?* · Negativa: *I didn't have it fixed.*\n\n**Con agente:** *I had my hair cut by a famous stylist.* (poco frecuente salvo que importe quién).\n\n**Have + persona + infinitivo (sin to):** *I had the mechanic check the brakes.* · **Get + persona + to + infinitivo:** *I got my brother to help me.* (convencer).\n\n**Contraste con la pasiva y con la acción propia**\n\n- *I cut my hair.* = yo mismo. · *I had my hair cut.* = otra persona. · *My hair was cut.* = pasiva sin foco en quién.\n\n**Errores típicos**\n\n- ✘ *I have cut my hair yesterday* (para peluquería) → ✔ *I had my hair cut yesterday.*\n- ✘ *I had cut my hair.* (past perfect, no causativa) → ✔ *I had my hair cut.*\n- ✘ *I had my car to repair.* → ✔ *I had my car repaired.*\n- ✘ *She had stolen her bag.* (causativa) → ✔ *She had her bag stolen.*\n\n**Ojo:** el orden es **objeto antes del participio**. *Get* se usa también para 'lograr hacer': *I finally got the report finished.*\n\nPronunciación: *repaired* /rɪˈpeəd/ · *stolen* /ˈstəʊlən/ · *tinted* /ˈtɪntɪd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I had cut my hair at the salon.",
+        "right": "I had my hair cut at the salon.",
+        "note": "Causativa."
+      },
+      {
+        "wrong": "I had my car to repair.",
+        "right": "I had my car repaired.",
+        "note": "Participio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u03-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué se ha hecho Dan ayer?",
+      "options": [
+        "Cortarse el pelo en la peluquería",
+        "Teñirse",
+        "Lavarse el coche",
+        "Comprar un traje"
+      ],
+      "answer": [
+        "Cortarse el pelo en la peluquería"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I had it cut yesterday.",
+        "incorrect": "Revisa esto: Dice: I had it cut yesterday."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué van a hacer Cara y su pareja el mes que viene?",
+      "options": [
+        "Que les pinten la casa",
+        "Mudarse",
+        "Vender la casa",
+        "Reformar la cocina"
+      ],
+      "answer": [
+        "Que les pinten la casa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: We're having the whole house painted.",
+        "incorrect": "Revisa esto: Dice: We're having the whole house painted."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 20,
+      "prompt": "Aceptas una invitación con entusiasmo. ¿Qué dices?",
+      "options": [
+        "I'd love to!",
+        "I can't.",
+        "Goodbye.",
+        "I'm fine."
+      ],
+      "answer": [
+        "I'd love to!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para aceptar con ganas: I'd love to.",
+        "incorrect": "Revisa esto: Para aceptar con ganas: I'd love to."
+      },
+      "review_of": "en-a1-u09-l05-ex03"
+    },
+    {
+      "id": "en-b2-u03-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le ocurrió a Dan el invierno pasado?",
+      "options": [
+        "Le robaron el coche",
+        "Se rompió el brazo",
+        "Perdió el trabajo",
+        "Se mudó"
+      ],
+      "answer": [
+        "Le robaron el coche"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I had my car stolen.",
+        "incorrect": "Revisa esto: Dice: I had my car stolen."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 15,
+      "prompt": "Cara va a pintar la casa ella misma.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: No way. We're getting a company to do it.",
+        "incorrect": "Revisa esto: Dice: No way. We're getting a company to do it."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ my hair cut every six weeks.",
+      "options": [
+        "have",
+        "am having cut",
+        "make",
+        "do"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + objeto + participio.",
+        "incorrect": "Revisa esto: Have + objeto + participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ her wallet stolen on the bus yesterday.",
+      "options": [
+        "had",
+        "has",
+        "was having to",
+        "got stolen"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa en pasado.",
+        "incorrect": "Revisa esto: Causativa en pasado."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "We're ___ the kitchen redone next week.",
+      "options": [
+        "having",
+        "have",
+        "getting to",
+        "making"
+      ],
+      "answer": [
+        "having"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro cercano.",
+        "incorrect": "Revisa esto: Futuro cercano."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to get my passport ___ before the trip.",
+      "options": [
+        "renewed",
+        "renew",
+        "renewing",
+        "to renew"
+      ],
+      "answer": [
+        "renewed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "Where do you ___ your car serviced?",
+      "options": [
+        "have",
+        "make",
+        "do",
+        "give"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where do you have…?",
+        "incorrect": "Revisa esto: Where do you have…?"
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to ___ these documents translated.",
+      "options": [
+        "have",
+        "do",
+        "make",
+        "ask"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + objeto + participio.",
+        "incorrect": "Revisa esto: Have + objeto + participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Most of people recycle.",
+      "answer": [
+        "Most people recycle.",
+        "Most of the people recycle."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Most people / most of the people.",
+        "incorrect": "Revisa esto: Most people / most of the people."
+      },
+      "review_of": "en-b1-u09-l02-ex15"
+    },
+    {
+      "id": "en-b2-u03-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence means someone else repaired the roof?",
+      "options": [
+        "We had the roof repaired.",
+        "We repaired the roof.",
+        "We have repaired roof.",
+        "We had repaired the roof ourselves."
+      ],
+      "answer": [
+        "We had the roof repaired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa.",
+        "incorrect": "Revisa esto: Causativa."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I got my brother ___ me move the sofa.",
+      "options": [
+        "to help",
+        "help",
+        "helping",
+        "helped"
+      ],
+      "answer": [
+        "to help"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get + persona + to + verbo.",
+        "incorrect": "Revisa esto: Get + persona + to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm going to have my eyes ___ next week. (revisados)",
+      "answer": [
+        "tested",
+        "checked",
+        "examined"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "some-any",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "got",
+        "any",
+        "milk",
+        "?",
+        "Have",
+        "we"
+      ],
+      "answer": [
+        "Have",
+        "we",
+        "got",
+        "any",
+        "milk",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta con have got + any.",
+        "incorrect": "Revisa esto: Pregunta con have got + any."
+      },
+      "review_of": "en-a1-u05-l04-ex06"
+    },
+    {
+      "id": "en-b2-u03-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you ___ climbed a mountain?",
+      "options": [
+        "ever",
+        "never",
+        "yet",
+        "since"
+      ],
+      "answer": [
+        "ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas: ever (alguna vez).",
+        "incorrect": "Revisa esto: En preguntas: ever (alguna vez)."
+      },
+      "review_of": "en-a2-u08-l02-ex03"
+    },
+    {
+      "id": "en-b2-u03-l03-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 25,
+      "prompt": "She had her phone ___ in a taxi. (robado)",
+      "answer": [
+        "stolen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de steal.",
+        "incorrect": "Revisa esto: Participio de steal."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I had cut my hair at the salon yesterday.",
+      "answer": [
+        "I had my hair cut at the salon yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa: have + objeto + participio.",
+        "incorrect": "Revisa esto: Causativa: have + objeto + participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We had our house to paint last month.",
+      "answer": [
+        "We had our house painted last month."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio, no to + verbo.",
+        "incorrect": "Revisa esto: Participio, no to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She has her wallet stolen yesterday.",
+      "answer": [
+        "She had her wallet stolen yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado: had.",
+        "incorrect": "Revisa esto: Pasado: had."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A quién le pide ayuda ahora?",
+      "options": [
+        "A su hermana",
+        "A un técnico",
+        "A su madre",
+        "A su jefe"
+      ],
+      "answer": [
+        "A su hermana"
+      ],
+      "audio_text": "Last week I had my laptop repaired. It cost more than I expected, so now I'm getting my sister to help me with the next problem. She's an engineer, so it's free!",
+      "feedback": {
+        "correct": "¡Correcto! Dice: getting my sister to help me.",
+        "incorrect": "Revisa esto: Dice: getting my sister to help me."
+      },
+      "audio_script_id": "en-b2-u03-l03-ex18-a"
+    },
+    {
+      "id": "en-b2-u03-l03-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?",
+        "How",
+        "many"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many + sustantivo plural + are + lugar.",
+        "incorrect": "Revisa esto: How many + sustantivo plural + are + lugar."
+      },
+      "review_of": "en-a1-u08-l01-ex07"
+    },
+    {
+      "id": "en-b2-u03-l03-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo que llevar el coche a revisar antes del viaje.",
+      "answer": [
+        "I have to get my car checked before the trip.",
+        "I have to have my car checked before the trip.",
+        "I need to get my car serviced before the trip.",
+        "I need to have my car serviced before the trip."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa.",
+        "incorrect": "Revisa esto: Causativa."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Le robaron el bolso en el autobús.",
+      "answer": [
+        "She had her bag stolen on the bus.",
+        "He had his bag stolen on the bus.",
+        "She had her handbag stolen on the bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa de desgracia.",
+        "incorrect": "Revisa esto: Causativa de desgracia."
+      }
+    },
+    {
+      "id": "en-b2-u03-l03-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Para el año que viene habré terminado el máster y estaré trabajando en Berlín.",
+      "answer": [
+        "By next year I'll have finished my master's and I'll be working in Berlin.",
+        "By next year I will have finished my master's degree and I will be working in Berlin."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro perfecto + continuo.",
+        "incorrect": "Revisa esto: Futuro perfecto + continuo."
+      },
+      "review_of": "en-b2-u01-l02-ex18"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I had my hair cut. · I'm having the house painted.",
+      "She had her bag stolen.",
+      "I got my car repaired.",
+      "Where do you have your hair cut?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-have-something-done"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-something-done"
+    },
+    {
+      "type": "vocab",
+      "id": "en-dry-cleaner-s"
+    },
+    {
+      "type": "vocab",
+      "id": "en-repair"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cost-a-fortune"
+    },
+    {
+      "type": "vocab",
+      "id": "en-steal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-replace"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tint"
+    },
+    {
+      "type": "vocab",
+      "id": "en-no-way"
+    },
+    {
+      "type": "vocab",
+      "id": "en-furniture"
+    },
+    {
+      "type": "grammar",
+      "id": "en-causative"
+    }
+  ]
+}

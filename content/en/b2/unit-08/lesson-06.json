@@ -1,0 +1,884 @@
+{
+  "id": "en-b2-u08-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 8,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 8",
+    "es": "Checkpoint 8"
+  },
+  "objective": "Al terminar demuestras que hablas de educación y sociedad, usas oraciones hendidas, conectores avanzados, el lenguaje del debate y el ensayo for and against.",
+  "est_minutes": 45,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 8 de B2: vocabulario educativo, cleft sentences, conectores, debate y ensayo."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de educación y sociedad, oraciones hendidas, conectores de resultado/finalidad/contraste, lenguaje de debate y estructura del ensayo for and against.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 8**\n\n- *take an exam · hand in · drop out · fall behind · tuition fees · inequality*\n- *It was Ana who … · What I need is … · All I want is … · The reason why … is that …*\n- *as a result · although + cláusula · despite + -ing · so that · otherwise*\n- *We firmly believe … · With respect, … · My opponent makes a compelling case, but …*\n- *On the one hand … On the other hand … In my opinion … To sum up …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u08-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Problema o solución?",
+      "categories": [
+        "Problem",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "bullying",
+          "category": "Problem"
+        },
+        {
+          "text": "overcrowded classrooms",
+          "category": "Problem"
+        },
+        {
+          "text": "high dropout rate",
+          "category": "Problem"
+        },
+        {
+          "text": "mentoring",
+          "category": "Solution"
+        },
+        {
+          "text": "free school meals",
+          "category": "Solution"
+        },
+        {
+          "text": "scholarships",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "Students must ___ in their assignments by Friday.",
+      "options": [
+        "hand",
+        "give on",
+        "pass",
+        "take"
+      ],
+      "answer": [
+        "hand"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hand in.",
+        "incorrect": "Revisa esto: Hand in."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ people are coming to the party?",
+      "answer": [
+        "many"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People es contable: how many.",
+        "incorrect": "Revisa esto: People es contable: how many."
+      },
+      "review_of": "en-a2-u04-l06-ex02"
+    },
+    {
+      "id": "en-b2-u08-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've got a lot of ___ to do tonight.",
+      "options": [
+        "homework",
+        "homeworks",
+        "a homework",
+        "homeworking"
+      ],
+      "answer": [
+        "homework"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ was Ana who suggested the idea.",
+      "options": [
+        "It",
+        "That",
+        "What",
+        "There"
+      ],
+      "answer": [
+        "It"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It-cleft.",
+        "incorrect": "Revisa esto: It-cleft."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I know the man who's wife is a singer.",
+      "answer": [
+        "I know the man whose wife is a singer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose = cuyo.",
+        "incorrect": "Revisa esto: Whose = cuyo."
+      },
+      "review_of": "en-b1-u02-l06-ex12"
+    },
+    {
+      "id": "en-b2-u08-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ I need is a good night's sleep.",
+      "options": [
+        "What",
+        "That",
+        "It",
+        "Which"
+      ],
+      "answer": [
+        "What"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wh-cleft.",
+        "incorrect": "Revisa esto: Wh-cleft."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijo que había llamado al banco y que le habían bloqueado la tarjeta.",
+      "answer": [
+        "She told me that she had called the bank and that they had blocked her card.",
+        "She told me she had called the bank and they had blocked her card.",
+        "He told me that he had called the bank and that they had blocked his card."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto en pasado perfecto.",
+        "incorrect": "Revisa esto: Estilo indirecto en pasado perfecto."
+      },
+      "review_of": "en-b1-u07-l02-ex17"
+    },
+    {
+      "id": "en-b2-u08-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "All I want ___ some peace and quiet.",
+      "options": [
+        "is",
+        "are",
+        "it is",
+        "was it"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! All I want is.",
+        "incorrect": "Revisa esto: All I want is."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 20,
+      "prompt": "The reason why he left ___ that he was unhappy.",
+      "options": [
+        "is",
+        "because",
+        "it",
+        "being"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The reason … is that.",
+        "incorrect": "Revisa esto: The reason … is that."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Me like chicken.",
+      "answer": [
+        "I like chicken."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El sujeto es 'I', no 'me'.",
+        "incorrect": "Revisa esto: El sujeto es 'I', no 'me'."
+      },
+      "review_of": "en-a1-u05-l03-ex04"
+    },
+    {
+      "id": "en-b2-u08-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we went for a walk.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because of",
+        "In spite"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although.",
+        "incorrect": "Revisa esto: Although."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Dónde te vas a quedar en Londres?",
+      "answer": [
+        "Where are you going to stay in London?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where + are + you + going to + stay.",
+        "incorrect": "Revisa esto: Where + are + you + going to + stay."
+      },
+      "review_of": "en-a2-u05-l02-ex10"
+    },
+    {
+      "id": "en-b2-u08-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Despite ___ tired, she kept working.",
+      "options": [
+        "being",
+        "she was",
+        "to be",
+        "of being"
+      ],
+      "answer": [
+        "being"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I spoke slowly ___ they could understand.",
+      "options": [
+        "so that",
+        "so",
+        "in order",
+        "for"
+      ],
+      "answer": [
+        "so that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So that.",
+        "incorrect": "Revisa esto: So that."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hurry up; ___ , you'll miss the bus.",
+      "options": [
+        "otherwise",
+        "although",
+        "however",
+        "despite"
+      ],
+      "answer": [
+        "otherwise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Otherwise.",
+        "incorrect": "Revisa esto: Otherwise."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "We are in favour ___ the motion.",
+      "options": [
+        "of",
+        "to",
+        "with",
+        "for"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In favour of.",
+        "incorrect": "Revisa esto: In favour of."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 20,
+      "prompt": "Terminaste de comprar. ¿Qué le dices al vendedor?",
+      "options": [
+        "That's all, thanks.",
+        "That's nothing.",
+        "I have all.",
+        "Finish."
+      ],
+      "answer": [
+        "That's all, thanks."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es la forma natural de indicar que no quieres nada más.",
+        "incorrect": "Revisa esto: Es la forma natural de indicar que no quieres nada más."
+      },
+      "review_of": "en-a2-u04-l04-ex04"
+    },
+    {
+      "id": "en-b2-u08-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "My opponent makes a ___ case, but I disagree.",
+      "options": [
+        "compelling",
+        "compelled",
+        "compel",
+        "compellingly"
+      ],
+      "answer": [
+        "compelling"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Compelling.",
+        "incorrect": "Revisa esto: Compelling."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the one hand, free tuition gives equal opportunities.",
+      "options": [
+        "On",
+        "In",
+        "At",
+        "By"
+      ],
+      "answer": [
+        "On"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the one hand.",
+        "incorrect": "Revisa esto: On the one hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ is that you tried your best. (importa)",
+      "answer": [
+        "matters"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What matters is.",
+        "incorrect": "Revisa esto: What matters is."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv07",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "past-ability-obligation"
+      ],
+      "est_seconds": 15,
+      "prompt": "Ben tenía que llevar uniforme.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: we didn't have to, but we had to look smart.",
+        "incorrect": "Revisa esto: Dice: we didn't have to, but we had to look smart."
+      },
+      "review_of": "en-b1-u03-l03-ex03"
+    },
+    {
+      "id": "en-b2-u08-l06-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "He kept working ___ being tired. (a pesar de)",
+      "answer": [
+        "despite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It was Ana which told me the news.",
+      "answer": [
+        "It was Ana who told me the news."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Who.",
+        "incorrect": "Revisa esto: Who."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Although it was expensive, but I bought it.",
+      "answer": [
+        "Although it was expensive, I bought it.",
+        "It was expensive, but I bought it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin but.",
+        "incorrect": "Revisa esto: Sin but."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am not agree with my opponent.",
+      "answer": [
+        "I don't agree with my opponent.",
+        "I disagree with my opponent."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't agree.",
+        "incorrect": "Revisa esto: Don't agree."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv08",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Don't forget to ___ up your files. (hacer copia)",
+      "answer": [
+        "back"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Back up.",
+        "incorrect": "Revisa esto: Back up."
+      },
+      "review_of": "en-b1-u05-l01-ex11"
+    },
+    {
+      "id": "en-b2-u08-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In the other hand, it is very expensive.",
+      "answer": [
+        "On the other hand, it is very expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the other hand.",
+        "incorrect": "Revisa esto: On the other hand."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué necesitaba?",
+      "options": [
+        "Apoyo, no críticas",
+        "Más tiempo",
+        "Más dinero",
+        "Menos exámenes"
+      ],
+      "answer": [
+        "Apoyo, no críticas"
+      ],
+      "audio_text": "It wasn't the exam that worried me; it was the pressure from my parents. What I needed was support, not criticism. Although I was nervous, I passed so that I could keep my scholarship.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: What I needed was support, not criticism.",
+        "incorrect": "Revisa esto: Dice: What I needed was support, not criticism."
+      },
+      "audio_script_id": "en-b2-u08-l06-ex21-a"
+    },
+    {
+      "id": "en-b2-u08-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Fue la presión, no el examen, lo que me preocupó; aun así aprobé para conservar la beca.",
+      "answer": [
+        "It was the pressure, not the exam, that worried me; even so, I passed so that I could keep my scholarship.",
+        "It was the pressure, not the exam, that worried me; nevertheless I passed in order to keep my scholarship."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cleft + conectores.",
+        "incorrect": "Revisa esto: Cleft + conectores."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Nothing prepared to me for the hills.",
+      "answer": [
+        "Nothing prepared me for the hills."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prepare + objeto directo.",
+        "incorrect": "Revisa esto: Prepare + objeto directo."
+      },
+      "review_of": "en-b1-u06-l05-ex13"
+    },
+    {
+      "id": "en-b2-u08-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "debate",
+        "linkers-b2"
+      ],
+      "est_seconds": 90,
+      "situation_es": "En un debate te toca responder a una objeción.",
+      "turns": [
+        {
+          "speaker": "Opponent",
+          "text": "Free tuition is unaffordable. Who will pay?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "With respect, that is a valid concern, but it overlooks the long-term benefits. Graduates pay more tax over their lives.",
+            "You are wrong. Money is not a problem.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Refutar con cortesía."
+        },
+        {
+          "speaker": "Opponent",
+          "text": "But what about the quality of teaching?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Admittedly, quality is crucial, so funding must keep pace with demand. Otherwise, the system would fail.",
+            "Quality is fine.",
+            "No idea."
+          ],
+          "best": 0,
+          "why_es": "Concesión + conector."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "cleft",
+        "linkers-b2",
+        "for-against-essay"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre un problema de la educación y su solución. Incluye una oración hendida, tres conectores distintos y una opinión final.",
+      "min_words": 73,
+      "self_check_es": [
+        "¿Usas una oración hendida?",
+        "¿Usas al menos tres conectores?",
+        "¿Das una solución clara?",
+        "¿Cierras con una opinión?"
+      ],
+      "model_answer": "It is inequality that worries me most in education. What many children need is early support, not more exams. Although schools try to help, funding is often limited. As a result, disadvantaged pupils fall behind. In order to change this, governments should invest in free nursery places and smaller classes. Moreover, scholarships would let talented students go to university regardless of income. In my opinion, the reason why reforms fail is that they are never properly funded. To sum up, education is a right, not a privilege.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u08-l06-rv10",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "jobs"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada profesión con su significado.",
+      "pairs": [
+        {
+          "left": "teacher",
+          "right": "profesor/a"
+        },
+        {
+          "left": "doctor",
+          "right": "médico/a"
+        },
+        {
+          "left": "nurse",
+          "right": "enfermero/a"
+        },
+        {
+          "left": "waiter",
+          "right": "camarero/a"
+        },
+        {
+          "left": "driver",
+          "right": "conductor/a"
+        },
+        {
+          "left": "engineer",
+          "right": "ingeniero/a"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las profesiones de la lección.",
+        "incorrect": "Revisa esto: Son las profesiones de la lección."
+      },
+      "review_of": "en-a1-u02-l05-ex05"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It was … who … · What I need is …",
+      "Although … · Despite -ing · so that",
+      "With respect, I see it differently.",
+      "On the one hand … On the other hand …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-education-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-cleft"
+    },
+    {
+      "type": "grammar",
+      "id": "en-linkers-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-debate"
+    },
+    {
+      "type": "grammar",
+      "id": "en-for-against-essay"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

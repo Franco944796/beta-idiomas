@@ -1,0 +1,775 @@
+{
+  "id": "en-b1-u06-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 6,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Planning a trip",
+    "es": "Planificar un viaje"
+  },
+  "objective": "Al terminar planificas un viaje: eliges destino, reservas alojamiento y transporte, y hablas de itinerarios y presupuesto.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Organizar un viaje exige mucho vocabulario: reservas, tarifas, escalas, seguros, itinerarios. Aquí lo practicas con una conversación real de planificación."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "I'd like to plan a trip to Portugal next summer. Have you been there?",
+        "es": "Quiero planear un viaje a Portugal el próximo verano. ¿Has estado?"
+      },
+      {
+        "speaker": "Pedro",
+        "text": "Yes, twice. I'd recommend flying to Lisbon and then renting a car. Trains are cheap, but they don't go everywhere.",
+        "es": "Sí, dos veces. Te recomiendo volar a Lisboa y alquilar un coche. Los trenes son baratos, pero no llegan a todas partes."
+      },
+      {
+        "speaker": "Ana",
+        "text": "How long should we stay? We have ten days off.",
+        "es": "¿Cuánto tiempo deberíamos quedarnos? Tenemos diez días libres."
+      },
+      {
+        "speaker": "Pedro",
+        "text": "Four days in Lisbon, three on the coast and three in Porto. Book the hotels early, because it's the high season.",
+        "es": "Cuatro días en Lisboa, tres en la costa y tres en Oporto. Reserva pronto los hoteles porque es temporada alta."
+      },
+      {
+        "speaker": "Ana",
+        "text": "What about the budget? Flights are expensive in July.",
+        "es": "¿Y el presupuesto? Los vuelos son caros en julio."
+      },
+      {
+        "speaker": "Pedro",
+        "text": "Look for a flight with a stopover, it's cheaper. And compare prices on different websites before booking.",
+        "es": "Busca un vuelo con escala, es más barato. Y compara precios en varias webs antes de reservar."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Do I need a visa or travel insurance?",
+        "es": "¿Necesito visado o seguro de viaje?"
+      },
+      {
+        "speaker": "Pedro",
+        "text": "No visa for the EU, but get travel insurance in case you get ill or lose your luggage.",
+        "es": "No hace falta visado dentro de la UE, pero contrata un seguro por si te pones enferma o pierdes el equipaje."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-plan-a-trip",
+        "lemma": "plan a trip",
+        "pos": "phrase",
+        "ipa": "/plæn ə trɪp/",
+        "es": "planear un viaje",
+        "example": "We're planning a trip."
+      },
+      {
+        "id": "en-itinerary",
+        "lemma": "itinerary",
+        "pos": "noun",
+        "ipa": "/aɪˈtɪnərəri/",
+        "es": "itinerario",
+        "example": "Here's our itinerary."
+      },
+      {
+        "id": "en-rent-a-car",
+        "lemma": "rent a car",
+        "pos": "phrase",
+        "ipa": "/rent ə kɑː/",
+        "es": "alquilar un coche",
+        "example": "We rented a car."
+      },
+      {
+        "id": "en-high-low-season",
+        "lemma": "high / low season",
+        "pos": "noun",
+        "ipa": "/haɪ / ləʊ ˈsiːzn/",
+        "es": "temporada alta / baja",
+        "example": "It's high season."
+      },
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "verb",
+        "ipa": "/bʊk/",
+        "es": "reservar",
+        "example": "I booked a hotel."
+      },
+      {
+        "id": "en-budget",
+        "lemma": "budget",
+        "pos": "noun",
+        "ipa": "/ˈbʌdʒɪt/",
+        "es": "presupuesto",
+        "example": "Our budget is small."
+      },
+      {
+        "id": "en-stopover",
+        "lemma": "stopover",
+        "pos": "noun",
+        "ipa": "/ˈstɒpəʊvə/",
+        "es": "escala",
+        "example": "The flight has a stopover."
+      },
+      {
+        "id": "en-compare",
+        "lemma": "compare",
+        "pos": "verb",
+        "ipa": "/kəmˈpeə/",
+        "es": "comparar",
+        "example": "Compare prices."
+      },
+      {
+        "id": "en-visa",
+        "lemma": "visa",
+        "pos": "noun",
+        "ipa": "/ˈviːzə/",
+        "es": "visado",
+        "example": "Do I need a visa?"
+      },
+      {
+        "id": "en-travel-insurance",
+        "lemma": "travel insurance",
+        "pos": "noun",
+        "ipa": "/ˈtrævl ɪnˈʃʊərəns/",
+        "es": "seguro de viaje",
+        "example": "Buy travel insurance."
+      },
+      {
+        "id": "en-luggage-baggage",
+        "lemma": "luggage / baggage",
+        "pos": "noun",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "es": "equipaje",
+        "example": "I lost my luggage."
+      },
+      {
+        "id": "en-destination",
+        "lemma": "destination",
+        "pos": "noun",
+        "ipa": "/ˌdestɪˈneɪʃn/",
+        "es": "destino",
+        "example": "A popular destination."
+      },
+      {
+        "id": "en-sightseeing",
+        "lemma": "sightseeing",
+        "pos": "noun",
+        "ipa": "/ˈsaɪtsiːɪŋ/",
+        "es": "turismo, visitas",
+        "example": "We went sightseeing."
+      }
+    ],
+    "audio_script_id": "en-b1-u06-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario para planear un viaje**\n\n| Qué | Palabras |\n|---|---|\n| Transporte | *flight · direct flight · stopover/layover · train ticket · single/return · rent a car* |\n| Alojamiento | *hotel · hostel · guesthouse · B&B · apartment · book a room · double/single room* |\n| Dinero | *budget · fare · deposit · refund · cheap/expensive · cost* |\n| Documentos | *passport · visa · ID card · boarding pass · travel insurance* |\n| Plan | *itinerary · schedule · sightseeing · day trip · tour · guide* |\n\n**Frases útiles para planear**\n\n- *I'd like to book … · I'm thinking of going to … · We're planning to + verbo.*\n- *How long should we stay? · What's the best way to get there?*\n- *It's better to + verbo · It's worth + -ing* (*It's worth visiting the castle.*)\n- *Make sure you + verbo* (asegúrate de…) · *Don't forget to + verbo.*\n\n**Ojo — falsos amigos y confusiones**\n\n- *Journey* (trayecto), *trip* (viaje corto, con vuelta), *travel* (verbo / viajar en general, **incontable**: *travel is fun*).\n- *Single* ticket = solo ida; *return* = ida y vuelta (en EE. UU.: *one-way / round-trip*).\n- *Fare* = precio de un billete; *fee* = tasa.\n- *Excursion* = excursión corta; *tour* = visita guiada.\n- *Reservation* en EE. UU. = reserva; en UK *booking*.\n\nPronunciación: *itinerary* /aɪˈtɪnərəri/ · *luggage* /ˈlʌɡɪdʒ/ · *stopover* /ˈstɒpəʊvə/ · *insurance* /ɪnˈʃʊərəns/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I lost my luggages.",
+        "right": "I lost my luggage.",
+        "note": "Luggage es incontable."
+      },
+      {
+        "wrong": "It's worth to visit.",
+        "right": "It's worth visiting.",
+        "note": "Worth + -ing."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u06-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "itinerary",
+          "right": "itinerario"
+        },
+        {
+          "left": "stopover",
+          "right": "escala"
+        },
+        {
+          "left": "luggage",
+          "right": "equipaje"
+        },
+        {
+          "left": "visa",
+          "right": "visado"
+        },
+        {
+          "left": "budget",
+          "right": "presupuesto"
+        },
+        {
+          "left": "destination",
+          "right": "destino"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de viaje.",
+        "incorrect": "Revisa esto: Vocabulario de viaje."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es transporte o alojamiento?",
+      "categories": [
+        "Transport",
+        "Accommodation"
+      ],
+      "items": [
+        {
+          "text": "direct flight",
+          "category": "Transport"
+        },
+        {
+          "text": "return ticket",
+          "category": "Transport"
+        },
+        {
+          "text": "rent a car",
+          "category": "Transport"
+        },
+        {
+          "text": "stopover",
+          "category": "Transport"
+        },
+        {
+          "text": "hostel",
+          "category": "Accommodation"
+        },
+        {
+          "text": "guesthouse",
+          "category": "Accommodation"
+        },
+        {
+          "text": "double room",
+          "category": "Accommodation"
+        },
+        {
+          "text": "B&B",
+          "category": "Accommodation"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separar categorías ayuda a recordar.",
+        "incorrect": "Revisa esto: Separar categorías ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She will might come to the party.",
+      "answer": [
+        "She might come to the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se combinan will y might.",
+        "incorrect": "Revisa esto: No se combinan will y might."
+      },
+      "review_of": "en-a2-u05-l04-ex07"
+    },
+    {
+      "id": "en-b1-u06-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto tiempo pasarán en Lisboa?",
+      "options": [
+        "Cuatro días",
+        "Tres días",
+        "Diez días",
+        "Una semana"
+      ],
+      "answer": [
+        "Cuatro días"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Four days in Lisbon.",
+        "incorrect": "Revisa esto: Dice: Four days in Lisbon."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué conviene reservar los hoteles pronto?",
+      "options": [
+        "Porque es temporada alta",
+        "Porque son caros",
+        "Porque hay huelga",
+        "Porque no hay habitaciones"
+      ],
+      "answer": [
+        "Porque es temporada alta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it's the high season.",
+        "incorrect": "Revisa esto: Dice: it's the high season."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "My brother is ___ (tall) than me.",
+      "answer": [
+        "taller"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: taller than.",
+        "incorrect": "Revisa esto: Adjetivo corto: taller than."
+      },
+      "review_of": "en-a2-u03-l06-ex01"
+    },
+    {
+      "id": "en-b1-u06-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 15,
+      "prompt": "Ana necesita visado para viajar a Portugal.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: No visa for the EU.",
+        "incorrect": "Revisa esto: Dice: No visa for the EU."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "A ___ flight has no stopovers.",
+      "options": [
+        "direct",
+        "single",
+        "return",
+        "double"
+      ],
+      "answer": [
+        "direct"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Direct = directo.",
+        "incorrect": "Revisa esto: Direct = directo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like a ___ ticket: I'm coming back on Sunday.",
+      "options": [
+        "return",
+        "single",
+        "double",
+        "direct"
+      ],
+      "answer": [
+        "return"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Return = ida y vuelta.",
+        "incorrect": "Revisa esto: Return = ida y vuelta."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I have a ___ of apples, please? (un kilo)",
+      "answer": [
+        "kilo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Kilo es el nombre de la medida.",
+        "incorrect": "Revisa esto: Kilo es el nombre de la medida."
+      },
+      "review_of": "en-a2-u04-l04-ex01"
+    },
+    {
+      "id": "en-b1-u06-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "Laura and I are friends. ___ are students.",
+      "answer": [
+        "We"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 'Laura and I' = we.",
+        "incorrect": "Revisa esto: 'Laura and I' = we."
+      },
+      "review_of": "en-a1-u02-l03-ex02"
+    },
+    {
+      "id": "en-b1-u06-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth ___ the old town.",
+      "options": [
+        "visiting",
+        "to visit",
+        "visit",
+        "visited"
+      ],
+      "answer": [
+        "visiting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "Make ___ you take your passport.",
+      "options": [
+        "sure",
+        "certain to",
+        "safe",
+        "right"
+      ],
+      "answer": [
+        "sure"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make sure.",
+        "incorrect": "Revisa esto: Make sure."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "Travel ___ fun when you go with friends.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Travel es incontable.",
+        "incorrect": "Revisa esto: Travel es incontable."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 25,
+      "prompt": "We're ___ of going to Greece next year. (pensando)",
+      "answer": [
+        "thinking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm thinking of + -ing.",
+        "incorrect": "Revisa esto: I'm thinking of + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My computer keeps to crash.",
+      "answer": [
+        "My computer keeps crashing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      },
+      "review_of": "en-b1-u05-l01-ex12"
+    },
+    {
+      "id": "en-b1-u06-l01-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like to ___ a room for two nights. (reservar)",
+      "answer": [
+        "book"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Book a room.",
+        "incorrect": "Revisa esto: Book a room."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We made a trip of two weeks to Italy.",
+      "answer": [
+        "We took a two-week trip to Italy.",
+        "We went on a two-week trip to Italy."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take / go on a trip.",
+        "incorrect": "Revisa esto: Take / go on a trip."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have lost my luggages.",
+      "answer": [
+        "I have lost my luggage."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Luggage es incontable.",
+        "incorrect": "Revisa esto: Luggage es incontable."
+      }
+    },
+    {
+      "id": "en-b1-u06-l01-ex15",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué falta por hacer?",
+      "options": [
+        "Reservar la guesthouse",
+        "Comprar vuelos",
+        "Pedir visado",
+        "Alquilar coche"
+      ],
+      "answer": [
+        "Reservar la guesthouse"
+      ],
+      "audio_text": "We're thinking of flying to Rome in October. The flights aren't expensive in low season, and we've found a nice little guesthouse near the centre. We just need to book it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: We just need to book it.",
+        "incorrect": "Revisa esto: Dice: We just need to book it."
+      },
+      "audio_script_id": "en-b1-u06-l01-ex15-a"
+    },
+    {
+      "id": "en-b1-u06-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a sweater ___ it gets cold.",
+      "options": [
+        "in case",
+        "unless",
+        "as long as",
+        "provided"
+      ],
+      "answer": [
+        "in case"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Por si acaso.",
+        "incorrect": "Revisa esto: Por si acaso."
+      },
+      "review_of": "en-b1-u04-l06-ex07"
+    },
+    {
+      "id": "en-b1-u06-l01-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estamos pensando en ir a Italia en temporada baja para gastar menos.",
+      "answer": [
+        "We're thinking of going to Italy in low season to spend less.",
+        "We're thinking of going to Italy in the low season to spend less.",
+        "We are thinking of going to Italy in low season to spend less."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Thinking of + -ing.",
+        "incorrect": "Revisa esto: Thinking of + -ing."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm thinking of going to …",
+      "book a hotel · rent a car",
+      "a return ticket · a direct flight",
+      "It's worth visiting …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-plan-a-trip"
+    },
+    {
+      "type": "vocab",
+      "id": "en-itinerary"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rent-a-car"
+    },
+    {
+      "type": "vocab",
+      "id": "en-high-low-season"
+    },
+    {
+      "type": "vocab",
+      "id": "en-book"
+    },
+    {
+      "type": "vocab",
+      "id": "en-budget"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stopover"
+    },
+    {
+      "type": "vocab",
+      "id": "en-compare"
+    },
+    {
+      "type": "vocab",
+      "id": "en-visa"
+    },
+    {
+      "type": "vocab",
+      "id": "en-travel-insurance"
+    },
+    {
+      "type": "grammar",
+      "id": "en-trip-planning"
+    }
+  ]
+}

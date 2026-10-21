@@ -1,0 +1,903 @@
+{
+  "id": "en-b1-u07-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 7,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Money matters",
+    "es": "Dinero: ganar, ahorrar, gastar"
+  },
+  "objective": "Al terminar hablas de dinero con naturalidad: ganar, gastar, ahorrar, pedir prestado, deudas y presupuesto personal.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El dinero es tema de conversación diario: 'no llego a fin de mes', 'estoy ahorrando para un coche'. En inglés tiene su propio vocabulario y verbos precisos."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Jon",
+        "text": "How's your budget this month? Mine's a disaster.",
+        "es": "¿Cómo va tu presupuesto este mes? El mío es un desastre."
+      },
+      {
+        "speaker": "Eli",
+        "text": "I'm trying to save at least 20 per cent of my salary. I put it into a savings account every month.",
+        "es": "Intento ahorrar al menos el 20 % de mi sueldo. Lo meto en una cuenta de ahorro cada mes."
+      },
+      {
+        "speaker": "Jon",
+        "text": "I can't. I spend too much on eating out and online shopping. And I'm still paying off my credit card.",
+        "es": "Yo no puedo. Gasto demasiado en comer fuera y en compras por internet. Y todavía estoy pagando la tarjeta de crédito."
+      },
+      {
+        "speaker": "Eli",
+        "text": "You should keep track of your expenses with an app. It shows exactly where your money goes.",
+        "es": "Deberías controlar tus gastos con una app. Muestra exactamente adónde va tu dinero."
+      },
+      {
+        "speaker": "Jon",
+        "text": "I've borrowed money from my brother twice this year. I need to pay him back.",
+        "es": "He pedido prestado dinero a mi hermano dos veces este año. Tengo que devolvérselo."
+      },
+      {
+        "speaker": "Eli",
+        "text": "Why don't you lend your old camera to a friend? Or sell it? You could earn a bit extra.",
+        "es": "¿Por qué no vendes tu cámara vieja? Podrías ganar un dinerillo extra."
+      },
+      {
+        "speaker": "Jon",
+        "text": "Good idea. I'd also like to invest a little, but I don't know where to start.",
+        "es": "Buena idea. También me gustaría invertir un poco, pero no sé por dónde empezar."
+      },
+      {
+        "speaker": "Eli",
+        "text": "Start small. And remember: don't spend money you haven't got.",
+        "es": "Empieza por poco. Y recuerda: no gastes dinero que no tienes."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-budget",
+        "lemma": "budget",
+        "pos": "noun",
+        "ipa": "/ˈbʌdʒɪt/",
+        "es": "presupuesto",
+        "example": "I have a tight budget."
+      },
+      {
+        "id": "en-save",
+        "lemma": "save",
+        "pos": "verb",
+        "ipa": "/seɪv/",
+        "es": "ahorrar",
+        "example": "I save 20 per cent."
+      },
+      {
+        "id": "en-savings-account",
+        "lemma": "savings account",
+        "pos": "noun",
+        "ipa": "/ˈseɪvɪŋz əˈkaʊnt/",
+        "es": "cuenta de ahorro",
+        "example": "I opened a savings account."
+      },
+      {
+        "id": "en-spend",
+        "lemma": "spend",
+        "pos": "verb",
+        "ipa": "/spend/",
+        "es": "gastar",
+        "example": "I spend too much."
+      },
+      {
+        "id": "en-pay-off",
+        "lemma": "pay off",
+        "pos": "phrasal verb",
+        "ipa": "/peɪ ɒf/",
+        "es": "terminar de pagar, liquidar",
+        "example": "I'm paying off my loan."
+      },
+      {
+        "id": "en-credit-card",
+        "lemma": "credit card",
+        "pos": "noun",
+        "ipa": "/ˈkredɪt kɑːd/",
+        "es": "tarjeta de crédito",
+        "example": "I paid by credit card."
+      },
+      {
+        "id": "en-keep-track-of",
+        "lemma": "keep track of",
+        "pos": "phrase",
+        "ipa": "/kiːp træk əv/",
+        "es": "llevar la cuenta de",
+        "example": "Keep track of your expenses."
+      },
+      {
+        "id": "en-expenses",
+        "lemma": "expenses",
+        "pos": "noun",
+        "ipa": "/ɪkˈspensɪz/",
+        "es": "gastos",
+        "example": "Monthly expenses are high."
+      },
+      {
+        "id": "en-borrow",
+        "lemma": "borrow",
+        "pos": "verb",
+        "ipa": "/ˈbɒrəʊ/",
+        "es": "pedir prestado",
+        "example": "I borrowed ten euros."
+      },
+      {
+        "id": "en-lend",
+        "lemma": "lend",
+        "pos": "verb",
+        "ipa": "/lend/",
+        "es": "prestar",
+        "example": "Can you lend me ten euros?"
+      },
+      {
+        "id": "en-pay-back",
+        "lemma": "pay back",
+        "pos": "phrasal verb",
+        "ipa": "/peɪ bæk/",
+        "es": "devolver (dinero)",
+        "example": "I'll pay you back."
+      },
+      {
+        "id": "en-earn",
+        "lemma": "earn",
+        "pos": "verb",
+        "ipa": "/ɜːn/",
+        "es": "ganar (dinero trabajando)",
+        "example": "She earns a good salary."
+      },
+      {
+        "id": "en-invest",
+        "lemma": "invest",
+        "pos": "verb",
+        "ipa": "/ɪnˈvest/",
+        "es": "invertir",
+        "example": "He invests in shares."
+      }
+    ],
+    "audio_script_id": "en-b1-u07-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario del dinero**\n\n| Verbo | Significado | Ejemplo |\n|---|---|---|\n| *earn* | ganar trabajando | *She **earns** €2,000 a month.* |\n| *win* | ganar un premio | *He **won** the lottery.* |\n| *save* | ahorrar | *I **save** €200 a month.* |\n| *spend* | gastar | *We **spend** a lot on food.* |\n| *waste* | malgastar | *Don't **waste** money.* |\n| *borrow* | **pedir** prestado | *Can I **borrow** your pen?* |\n| *lend* | **prestar** | *Can you **lend** me €10?* |\n| *owe* | deber | *I **owe** him €50.* |\n| *pay back / pay off* | devolver / liquidar | *I'll **pay** you **back**.* |\n| *invest* | invertir | *Invest in your future.* |\n\n**Borrow vs lend:** quien **recibe** el dinero *borrows*; quien lo **da** *lends*. ✘ *Can you borrow me?* → ✔ *Can you **lend** me?*\n\n**Sustantivos:** *income (ingresos) · expenses (gastos) · savings (ahorros) · debt (deuda) · loan (préstamo) · interest (interés) · mortgage (hipoteca) · bill (factura) · rent (alquiler).*\n\n**Expresiones:** *make ends meet (llegar a fin de mes) · be broke (estar sin blanca) · cost an arm and a leg (costar un riñón) · save up for … · a bargain (una ganga) · to be worth it.*\n\n**Ojo — falsos amigos y ortografía:** *salary* (sueldo mensual), *wage* (por hora), *fee* (honorarios, tasa), *fine* (multa), *cash* (efectivo). *Money* es incontable: *some money*, no *a money*. *Pay by card / in cash*.\n\nPronunciación: *borrow* /ˈbɒrəʊ/ · *invest* /ɪnˈvest/ · *mortgage* /ˈmɔːɡɪdʒ/ (la 't' no suena).",
+    "common_mistakes_es": [
+      {
+        "wrong": "Can you borrow me money?",
+        "right": "Can you lend me money?",
+        "note": "Lend = dar prestado."
+      },
+      {
+        "wrong": "I have a lot of moneys.",
+        "right": "I have a lot of money.",
+        "note": "Money incontable."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "economic",
+        "es_false": "económico (barato)",
+        "real": "relativo a la economía",
+        "note": "Barato = cheap / inexpensive; ahorrador = economical."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u07-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "earn",
+          "right": "ganar trabajando"
+        },
+        {
+          "left": "borrow",
+          "right": "pedir prestado"
+        },
+        {
+          "left": "lend",
+          "right": "prestar"
+        },
+        {
+          "left": "owe",
+          "right": "deber"
+        },
+        {
+          "left": "savings",
+          "right": "ahorros"
+        },
+        {
+          "left": "loan",
+          "right": "préstamo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario del dinero.",
+        "incorrect": "Revisa esto: Vocabulario del dinero."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Dinero que entra o dinero que sale?",
+      "categories": [
+        "Money in",
+        "Money out"
+      ],
+      "items": [
+        {
+          "text": "earn a salary",
+          "category": "Money in"
+        },
+        {
+          "text": "win a prize",
+          "category": "Money in"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Money in"
+        },
+        {
+          "text": "sell old clothes",
+          "category": "Money in"
+        },
+        {
+          "text": "pay the rent",
+          "category": "Money out"
+        },
+        {
+          "text": "buy groceries",
+          "category": "Money out"
+        },
+        {
+          "text": "pay bills",
+          "category": "Money out"
+        },
+        {
+          "text": "pay off a loan",
+          "category": "Money out"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separar entradas y salidas ayuda a recordar.",
+        "incorrect": "Revisa esto: Separar entradas y salidas ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué porcentaje de su sueldo ahorra Eli?",
+      "options": [
+        "Al menos el 20 %",
+        "El 50 %",
+        "El 5 %",
+        "Nada"
+      ],
+      "answer": [
+        "Al menos el 20 %"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: at least 20 per cent of my salary.",
+        "incorrect": "Revisa esto: Dice: at least 20 per cent of my salary."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué gasta mucho Jon?",
+      "options": [
+        "Come fuera y compra por internet",
+        "Paga un alquiler alto",
+        "Viaja mucho",
+        "Compra coches"
+      ],
+      "answer": [
+        "Come fuera y compra por internet"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: eating out and online shopping.",
+        "incorrect": "Revisa esto: Dice: eating out and online shopping."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Jon nunca ha pedido dinero prestado este año.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I've borrowed money from my brother twice.",
+        "incorrect": "Revisa esto: Dice: I've borrowed money from my brother twice."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me ten euros until Friday?",
+      "options": [
+        "lend",
+        "borrow",
+        "owe",
+        "earn"
+      ],
+      "answer": [
+        "lend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lend = prestar.",
+        "incorrect": "Revisa esto: Lend = prestar."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "The food was ___ delicious. I loved it.",
+      "options": [
+        "really",
+        "much",
+        "too",
+        "enough"
+      ],
+      "answer": [
+        "really"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Really + adjetivo.",
+        "incorrect": "Revisa esto: Really + adjetivo."
+      },
+      "review_of": "en-b1-u06-l05-ex07"
+    },
+    {
+      "id": "en-b1-u07-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can I ___ your pen for a minute?",
+      "options": [
+        "borrow",
+        "lend",
+        "owe",
+        "give back"
+      ],
+      "answer": [
+        "borrow"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Borrow = pedir prestado.",
+        "incorrect": "Revisa esto: Borrow = pedir prestado."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "have-to-must"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No tienes que venir, pero no debes llegar tarde.",
+      "answer": [
+        "You don't have to come, but you mustn't be late.",
+        "You don't have to come but you mustn't be late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No es necesario = don't have to; prohibido = mustn't.",
+        "incorrect": "Revisa esto: No es necesario = don't have to; prohibido = mustn't."
+      },
+      "review_of": "en-a2-u06-l04-ex11"
+    },
+    {
+      "id": "en-b1-u07-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm trying to ___ up for a new laptop.",
+      "options": [
+        "save",
+        "spend",
+        "earn",
+        "invest"
+      ],
+      "answer": [
+        "save"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Save up for.",
+        "incorrect": "Revisa esto: Save up for."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Excuse me, I have a problem in my room.",
+      "answer": [
+        "Excuse me, I have a problem with my room.",
+        "Excuse me, there's a problem with my room."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A problem with.",
+        "incorrect": "Revisa esto: A problem with."
+      },
+      "review_of": "en-b1-u06-l04-ex12"
+    },
+    {
+      "id": "en-b1-u07-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ about €30,000 a year.",
+      "options": [
+        "earns",
+        "wins",
+        "spends",
+        "lends"
+      ],
+      "answer": [
+        "earns"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Earn = ganar trabajando.",
+        "incorrect": "Revisa esto: Earn = ganar trabajando."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "go",
+        "to",
+        "work",
+        "?",
+        "How",
+        "do"
+      ],
+      "answer": [
+        "How",
+        "do",
+        "you",
+        "go",
+        "to",
+        "work",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How + do + sujeto + go?",
+        "incorrect": "Revisa esto: How + do + sujeto + go?"
+      },
+      "review_of": "en-a1-u07-l04-ex09"
+    },
+    {
+      "id": "en-b1-u07-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I haven't got any ___ . Can you lend me some?",
+      "options": [
+        "money",
+        "moneys",
+        "a money",
+        "monies"
+      ],
+      "answer": [
+        "money"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Money es incontable.",
+        "incorrect": "Revisa esto: Money es incontable."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'll ___ you back on Friday. (devolver)",
+      "answer": [
+        "pay"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pay back.",
+        "incorrect": "Revisa esto: Pay back."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir 'Mañana voy al cine' (plan).",
+      "options": [
+        "I'm going to the cinema tomorrow.",
+        "I go cinema tomorrow.",
+        "I'm go to cinema tomorrow.",
+        "I going to the cinema tomorrow."
+      ],
+      "answer": [
+        "I'm going to the cinema tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para planes: be + verbo-ing + tiempo.",
+        "incorrect": "Revisa esto: Para planes: be + verbo-ing + tiempo."
+      },
+      "review_of": "en-a1-u10-l04-ex04"
+    },
+    {
+      "id": "en-b1-u07-l01-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is ___ . She has no money left. (sin blanca)",
+      "answer": [
+        "broke"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be broke.",
+        "incorrect": "Revisa esto: Be broke."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can you borrow me some money?",
+      "answer": [
+        "Can you lend me some money?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lend, no borrow.",
+        "incorrect": "Revisa esto: Lend, no borrow."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "should",
+        "see",
+        "a",
+        "doctor",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "you",
+        "should",
+        "see",
+        "a",
+        "doctor",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + sujeto + should + verbo base.",
+        "incorrect": "Revisa esto: I think + sujeto + should + verbo base."
+      },
+      "review_of": "en-a2-u06-l03-ex07"
+    },
+    {
+      "id": "en-b1-u07-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am economic with my money.",
+      "answer": [
+        "I am careful with my money.",
+        "I am economical with my money."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Economic no es 'económico/ahorrador'.",
+        "incorrect": "Revisa esto: Economic no es 'económico/ahorrador'."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex15",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hará el mes que viene?",
+      "options": [
+        "Devolverle el dinero a su hermana",
+        "Pedir un préstamo",
+        "Viajar",
+        "Cambiar de trabajo"
+      ],
+      "answer": [
+        "Devolverle el dinero a su hermana"
+      ],
+      "audio_text": "I'm broke this month. I spent too much on holidays and I still owe my sister fifty euros. Next month I'll pay her back and I'll try to save a little.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'll pay her back.",
+        "incorrect": "Revisa esto: Dice: I'll pay her back."
+      },
+      "audio_script_id": "en-b1-u07-l01-ex15-a"
+    },
+    {
+      "id": "en-b1-u07-l01-rv07",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un hábito sano o poco sano?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "get enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "drink plenty of water",
+          "category": "Healthy"
+        },
+        {
+          "text": "take regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "skip meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "stay up late every night",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "snack on junk food",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      },
+      "review_of": "en-b1-u04-l06-ex01"
+    },
+    {
+      "id": "en-b1-u07-l01-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy ahorrando para comprar un coche y debo pagar mi tarjeta de crédito.",
+      "answer": [
+        "I'm saving up to buy a car and I need to pay off my credit card.",
+        "I'm saving to buy a car and I have to pay my credit card.",
+        "I'm saving up for a car and I must pay off my credit card."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Save up / pay off.",
+        "incorrect": "Revisa esto: Save up / pay off."
+      }
+    },
+    {
+      "id": "en-b1-u07-l01-ex17",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "money-talk"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "borrow",
+          "ipa": "/ˈbɒrəʊ/",
+          "tip_es": "Acento en la primera."
+        },
+        {
+          "text": "invest",
+          "ipa": "/ɪnˈvest/",
+          "tip_es": "Acento en la segunda."
+        },
+        {
+          "text": "mortgage",
+          "ipa": "/ˈmɔːɡɪdʒ/",
+          "tip_es": "La 't' no se pronuncia."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "earn · spend · save · waste",
+      "borrow (recibir) · lend (dar)",
+      "pay back · pay off · owe",
+      "make ends meet · be broke"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-budget"
+    },
+    {
+      "type": "vocab",
+      "id": "en-save"
+    },
+    {
+      "type": "vocab",
+      "id": "en-savings-account"
+    },
+    {
+      "type": "vocab",
+      "id": "en-spend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pay-off"
+    },
+    {
+      "type": "vocab",
+      "id": "en-credit-card"
+    },
+    {
+      "type": "vocab",
+      "id": "en-keep-track-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-expenses"
+    },
+    {
+      "type": "vocab",
+      "id": "en-borrow"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lend"
+    },
+    {
+      "type": "grammar",
+      "id": "en-money-talk"
+    }
+  ]
+}

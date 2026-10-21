@@ -1,0 +1,812 @@
+{
+  "id": "en-b1-u07-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 7,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Customer service",
+    "es": "Atención al cliente"
+  },
+  "objective": "Al terminar manejas conversaciones de atención al cliente: reclamas, devuelves, pides reembolsos y entiendes las respuestas.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Llegó roto', 'me cobraron dos veces', 'quiero devolverlo'. Saber reclamar bien ahorra tiempo y dinero, y requiere un tono educado pero firme."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Agent",
+        "text": "Thank you for calling Tech Store. How can I help you?",
+        "es": "Gracias por llamar a Tech Store. ¿En qué puedo ayudarle?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I ordered a laptop two weeks ago. It arrived yesterday, but the screen is cracked.",
+        "es": "Pedí un portátil hace dos semanas. Llegó ayer, pero la pantalla está rota."
+      },
+      {
+        "speaker": "Agent",
+        "text": "I'm sorry to hear that. Could you give me your order number?",
+        "es": "Lamento oírlo. ¿Podría darme su número de pedido?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "It's 48291. I paid €899, but I was also charged an extra €30 for delivery, which wasn't mentioned on the website.",
+        "es": "Es 48291. Pagué 899 €, pero me cobraron 30 € extra por el envío, que no aparecía en la web."
+      },
+      {
+        "speaker": "Agent",
+        "text": "I see. I can offer you a replacement or a full refund. Which would you prefer?",
+        "es": "Ya veo. Puedo ofrecerle un reemplazo o un reembolso completo. ¿Qué prefiere?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "A refund, please. I don't want to wait another two weeks.",
+        "es": "Un reembolso, por favor. No quiero esperar otras dos semanas."
+      },
+      {
+        "speaker": "Agent",
+        "text": "Of course. I'll process it now. You'll receive the money within five working days. Is there anything else?",
+        "es": "Por supuesto. Lo tramitaré ahora. Recibirá el dinero en cinco días laborables. ¿Algo más?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, could you send me an email confirming that? And can you tell me how I should return the laptop?",
+        "es": "Sí, ¿podría enviarme un correo que lo confirme? Y ¿cómo debo devolver el portátil?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-order",
+        "lemma": "order",
+        "pos": "noun/verb",
+        "ipa": "/ˈɔːdə/",
+        "es": "pedido / pedir",
+        "example": "I ordered a laptop."
+      },
+      {
+        "id": "en-cracked",
+        "lemma": "cracked",
+        "pos": "adj",
+        "ipa": "/krækt/",
+        "es": "roto, agrietado",
+        "example": "The screen is cracked."
+      },
+      {
+        "id": "en-order-number",
+        "lemma": "order number",
+        "pos": "noun",
+        "ipa": "/ˈɔːdə ˈnʌmbə/",
+        "es": "número de pedido",
+        "example": "What's your order number?"
+      },
+      {
+        "id": "en-charge",
+        "lemma": "charge",
+        "pos": "verb",
+        "ipa": "/tʃɑːdʒ/",
+        "es": "cobrar",
+        "example": "They charged me twice."
+      },
+      {
+        "id": "en-extra",
+        "lemma": "extra",
+        "pos": "adj",
+        "ipa": "/ˈekstrə/",
+        "es": "extra",
+        "example": "An extra charge."
+      },
+      {
+        "id": "en-replacement",
+        "lemma": "replacement",
+        "pos": "noun",
+        "ipa": "/rɪˈpleɪsmənt/",
+        "es": "reemplazo",
+        "example": "I'd like a replacement."
+      },
+      {
+        "id": "en-full-refund",
+        "lemma": "full refund",
+        "pos": "noun",
+        "ipa": "/fʊl ˈriːfʌnd/",
+        "es": "reembolso completo",
+        "example": "I want a full refund."
+      },
+      {
+        "id": "en-process",
+        "lemma": "process",
+        "pos": "verb",
+        "ipa": "/ˈprəʊses/",
+        "es": "tramitar",
+        "example": "We'll process it now."
+      },
+      {
+        "id": "en-working-days",
+        "lemma": "working days",
+        "pos": "noun",
+        "ipa": "/ˈwɜːkɪŋ deɪz/",
+        "es": "días laborables",
+        "example": "Within five working days."
+      },
+      {
+        "id": "en-confirm",
+        "lemma": "confirm",
+        "pos": "verb",
+        "ipa": "/kənˈfɜːm/",
+        "es": "confirmar",
+        "example": "Please confirm by email."
+      },
+      {
+        "id": "en-return",
+        "lemma": "return",
+        "pos": "verb",
+        "ipa": "/rɪˈtɜːn/",
+        "es": "devolver",
+        "example": "I want to return it."
+      },
+      {
+        "id": "en-receipt",
+        "lemma": "receipt",
+        "pos": "noun",
+        "ipa": "/rɪˈsiːt/",
+        "es": "recibo, ticket",
+        "example": "Keep the receipt."
+      },
+      {
+        "id": "en-complaint",
+        "lemma": "complaint",
+        "pos": "noun",
+        "ipa": "/kəmˈpleɪnt/",
+        "es": "queja, reclamación",
+        "example": "I'd like to make a complaint."
+      }
+    ],
+    "audio_script_id": "en-b1-u07-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Reclamar y devolver**\n\n| Paso | Frases |\n|---|---|\n| Explicar | *I ordered … on … It arrived … but …* |\n| Dar datos | *My order number is … · I paid … · I have the receipt.* |\n| Quejarse | *The … is broken / faulty / missing. · I was charged twice. · It's not what I ordered.* |\n| Pedir | *I'd like a refund / a replacement / to return it.* |\n| Confirmar | *Could you send me an email confirming that? · How long will it take?* |\n\n**Respuestas del servicio**\n\n- *I'm sorry to hear that. · I apologise for the inconvenience.*\n- *I can offer you … · We can send you a replacement.*\n- *You'll receive the money within five working days.*\n- *Could you give me your order number?*\n\n**Pasiva útil para quejas:** *I was charged twice. · The parcel was damaged. · My order hasn't been delivered.*\n\n**Estilo indirecto en contexto:** *The agent said that the refund would arrive within five days. · He asked me to send the receipt.*\n\n**Vocabulario:** *faulty (defectuoso) · damaged (dañado) · missing (falta) · wrong size/colour (talla/color equivocado) · out of stock (agotado) · delivery · tracking number (nº de seguimiento) · warranty/guarantee (garantía).*\n\n**Ojo — falsos amigos:** *assist* es 'ayudar' (no 'asistir a'); *attend* = 'asistir a'. *Receipt* /rɪˈsiːt/ (la 'p' no suena). *Guarantee* /ˌɡærənˈtiː/. *Fault* = defecto; *defect* también.\n\nPronunciación: *refund* (sustantivo) /ˈriːfʌnd/, (verbo) /rɪˈfʌnd/ · *replacement* /rɪˈpleɪsmənt/ · *complaint* /kəmˈpleɪnt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I want that you refund me.",
+        "right": "I want you to refund me.",
+        "note": "Want + persona + to."
+      },
+      {
+        "wrong": "I assisted the shop.",
+        "right": "I went to the shop.",
+        "note": "Assist ≠ asistir."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "assist",
+        "es_false": "asistir (a un lugar)",
+        "real": "ayudar",
+        "note": "Asistir a un lugar = attend."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u07-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema tiene el cliente con el portátil?",
+      "options": [
+        "La pantalla está rota",
+        "No enciende",
+        "Llegó con retraso",
+        "Es el modelo equivocado"
+      ],
+      "answer": [
+        "La pantalla está rota"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the screen is cracked.",
+        "incorrect": "Revisa esto: Dice: the screen is cracked."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué elige el cliente?",
+      "options": [
+        "Un reembolso",
+        "Un reemplazo",
+        "Un descuento",
+        "Un vale"
+      ],
+      "answer": [
+        "Un reembolso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: A refund, please.",
+        "incorrect": "Revisa esto: Dice: A refund, please."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿En cuánto tiempo recibirá el dinero?",
+      "options": [
+        "En cinco días laborables",
+        "En un mes",
+        "Mañana",
+        "En dos días"
+      ],
+      "answer": [
+        "En cinco días laborables"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: within five working days.",
+        "incorrect": "Revisa esto: Dice: within five working days."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 15,
+      "prompt": "El cliente quiere esperar dos semanas más.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que no quiere esperar.",
+        "incorrect": "Revisa esto: Dice que no quiere esperar."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm afraid the package arrived ___ . The box was broken.",
+      "options": [
+        "damaged",
+        "missing",
+        "late",
+        "free"
+      ],
+      "answer": [
+        "damaged"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Damaged = dañado.",
+        "incorrect": "Revisa esto: Damaged = dañado."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My phone make in China.",
+      "answer": [
+        "My phone is made in China."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      },
+      "review_of": "en-b1-u05-l06-ex13"
+    },
+    {
+      "id": "en-b1-u07-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was ___ twice for the same item.",
+      "options": [
+        "charged",
+        "chargeded",
+        "charging",
+        "chargeds"
+      ],
+      "answer": [
+        "charged"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva: was charged.",
+        "incorrect": "Revisa esto: Pasiva: was charged."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "coffee",
+        ",",
+        "please",
+        ".",
+        "I'd",
+        "like"
+      ],
+      "answer": [
+        "I'd",
+        "like",
+        "a",
+        "coffee",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase educada para pedir.",
+        "incorrect": "Revisa esto: Frase educada para pedir."
+      },
+      "review_of": "en-a1-u05-l05-ex01"
+    },
+    {
+      "id": "en-b1-u07-l05-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 20,
+      "prompt": "'IMO' means...",
+      "options": [
+        "in my opinion",
+        "in my office",
+        "I mean only",
+        "it makes only"
+      ],
+      "answer": [
+        "in my opinion"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Abreviatura.",
+        "incorrect": "Revisa esto: Abreviatura."
+      },
+      "review_of": "en-b1-u05-l06-ex09"
+    },
+    {
+      "id": "en-b1-u07-l05-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm agree with the idea.",
+      "answer": [
+        "I agree with the idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree sin be.",
+        "incorrect": "Revisa esto: Agree sin be."
+      },
+      "review_of": "en-b1-u03-l06-ex14"
+    },
+    {
+      "id": "en-b1-u07-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like a ___ . I don't want to keep the item.",
+      "options": [
+        "refund",
+        "complaint",
+        "receipt",
+        "guarantee"
+      ],
+      "answer": [
+        "refund"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Refund = reembolso.",
+        "incorrect": "Revisa esto: Refund = reembolso."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "This product is still under ___ . You can return it.",
+      "options": [
+        "warranty",
+        "waste",
+        "wage",
+        "weight"
+      ],
+      "answer": [
+        "warranty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Warranty = garantía.",
+        "incorrect": "Revisa esto: Warranty = garantía."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 20,
+      "prompt": "The agent said that the money ___ arrive in five days.",
+      "options": [
+        "would",
+        "will",
+        "can",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will → would.",
+        "incorrect": "Revisa esto: Will → would."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like to make a ___ about the service. (queja)",
+      "answer": [
+        "complaint"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make a complaint.",
+        "incorrect": "Revisa esto: Make a complaint."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 25,
+      "prompt": "My order hasn't ___ delivered yet. (ha sido)",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasivo.",
+        "incorrect": "Revisa esto: Present perfect pasivo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want that you give me a refund.",
+      "answer": [
+        "I want you to give me a refund.",
+        "I'd like you to give me a refund.",
+        "I'd like a refund."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want + persona + to.",
+        "incorrect": "Revisa esto: Want + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-negative-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ go to school yesterday. (negativa)",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativa en pasado: didn't + verbo base.",
+        "incorrect": "Revisa esto: Negativa en pasado: didn't + verbo base."
+      },
+      "review_of": "en-a2-u01-l04-ex01"
+    },
+    {
+      "id": "en-b1-u07-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I made a comment on your post: great photo!",
+      "answer": [
+        "I left a comment on your post: great photo!",
+        "I wrote a comment on your post: great photo!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Leave / write a comment.",
+        "incorrect": "Revisa esto: Leave / write a comment."
+      },
+      "review_of": "en-b1-u05-l05-ex11"
+    },
+    {
+      "id": "en-b1-u07-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The product has a fault. I assisted the shop yesterday.",
+      "answer": [
+        "The product has a fault. I went to the shop yesterday.",
+        "The product has a fault. I visited the shop yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Assist ≠ asistir.",
+        "incorrect": "Revisa esto: Assist ≠ asistir."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás llamando al servicio de atención al cliente.",
+      "turns": [
+        {
+          "speaker": "Agent",
+          "text": "Good morning. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I ordered a phone last week, but it arrived damaged. I'd like a refund, please.",
+            "I order a phone and it comes damage. I want money back.",
+            "Your phone is bad."
+          ],
+          "best": 0,
+          "why_es": "Explicar y pedir."
+        },
+        {
+          "speaker": "Agent",
+          "text": "I'm sorry to hear that. Could you give me your order number?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Of course. It's 48291, and I have the receipt.",
+            "My order number is 48291 and I have receipt.",
+            "Number 48291."
+          ],
+          "best": 0,
+          "why_es": "Dar datos."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un email de reclamación (6 a 8 frases) por un producto defectuoso: qué compraste, qué falló y qué solución pides.",
+      "min_words": 55,
+      "self_check_es": [
+        "¿Incluiste qué compraste y cuándo?",
+        "¿Explicaste el problema?",
+        "¿Pediste una solución?",
+        "¿Usaste un tono formal?"
+      ],
+      "model_answer": "Dear Customer Service, I ordered a laptop on 3 May (order number 48291). It arrived yesterday, but the screen is cracked. I was also charged an extra €30 for delivery, which was not mentioned on your website. I would like a full refund. I would be grateful if you could confirm it by email and explain how to return the product. I look forward to hearing from you. Yours faithfully, Laura.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijeron que el reembolso llegaría en cinco días, pero todavía no he recibido nada.",
+      "answer": [
+        "They told me that the refund would arrive in five days, but I still haven't received anything.",
+        "They told me the refund would arrive in five days, but I haven't received anything yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto + present perfect.",
+        "incorrect": "Revisa esto: Estilo indirecto + present perfect."
+      }
+    },
+    {
+      "id": "en-b1-u07-l05-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?",
+        "Would",
+        "you"
+      ],
+      "answer": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like to + verbo + lugar.",
+        "incorrect": "Revisa esto: Would you like to + verbo + lugar."
+      },
+      "review_of": "en-a1-u09-l05-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I ordered … but it arrived …",
+      "I was charged twice.",
+      "I'd like a refund / a replacement.",
+      "Could you send me an email confirming that?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-order"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cracked"
+    },
+    {
+      "type": "vocab",
+      "id": "en-order-number"
+    },
+    {
+      "type": "vocab",
+      "id": "en-charge"
+    },
+    {
+      "type": "vocab",
+      "id": "en-extra"
+    },
+    {
+      "type": "vocab",
+      "id": "en-replacement"
+    },
+    {
+      "type": "vocab",
+      "id": "en-full-refund"
+    },
+    {
+      "type": "vocab",
+      "id": "en-process"
+    },
+    {
+      "type": "vocab",
+      "id": "en-working-days"
+    },
+    {
+      "type": "vocab",
+      "id": "en-confirm"
+    },
+    {
+      "type": "grammar",
+      "id": "en-customer-service"
+    }
+  ]
+}

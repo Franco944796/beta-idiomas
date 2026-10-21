@@ -1,0 +1,941 @@
+{
+  "id": "en-b2-u11-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Needn't have, could have",
+    "es": "Modales en el pasado: usos completos"
+  },
+  "objective": "Al terminar usas needn't have, didn't need to, could have, should have, might have y ought to have para hablar de lo innecesario, lo posible y los reproches en el pasado.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No hacía falta que vinieras', 'podías haberme avisado', 'deberías haber ido'. Los modales del pasado expresan arrepentimiento, crítica y posibilidades que no ocurrieron."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "I needn't have taken an umbrella. It didn't rain after all.",
+        "es": "No hacía falta que cogiera paraguas. Al final no llovió."
+      },
+      {
+        "speaker": "Jon",
+        "text": "You didn't need to take one, but it was sensible. I didn't take mine and got soaked last week.",
+        "es": "No necesitabas cogerlo, pero fue sensato. Yo no cogí el mío y me empapé la semana pasada."
+      },
+      {
+        "speaker": "Lena",
+        "text": "You should have checked the forecast. It said rain on Tuesday.",
+        "es": "Deberías haber mirado la previsión. Decía lluvia el martes."
+      },
+      {
+        "speaker": "Jon",
+        "text": "I know, I ought to have. I could have borrowed one from Maria, too.",
+        "es": "Lo sé, debí hacerlo. También podría haberle pedido uno a María."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Speaking of Maria, she should have been here by now. She might have forgotten.",
+        "es": "Hablando de María, ya debería haber llegado. Quizá se olvidó."
+      },
+      {
+        "speaker": "Jon",
+        "text": "She can't have forgotten; I reminded her yesterday. She could have been held up by traffic.",
+        "es": "No puede haberse olvidado; se lo recordé ayer. Podría haberse retrasado por el tráfico."
+      },
+      {
+        "speaker": "Lena",
+        "text": "You needn't have reminded her. She's very reliable.",
+        "es": "No hacía falta que se lo recordaras. Es muy fiable."
+      },
+      {
+        "speaker": "Jon",
+        "text": "True. At least I didn't need to drive; I came by train. I would have been late otherwise.",
+        "es": "Cierto. Al menos no tuve que conducir; vine en tren. De lo contrario habría llegado tarde."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Look, there she is! She might have told us she was coming on a bike!",
+        "es": "¡Mira, ahí está! ¡Podría habernos dicho que venía en bici!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-needn-t-have",
+        "lemma": "needn't have",
+        "pos": "modal",
+        "ipa": "/ˈniːdnt əv/",
+        "es": "no hacía falta (pero se hizo)",
+        "example": "I needn't have gone."
+      },
+      {
+        "id": "en-didn-t-need-to",
+        "lemma": "didn't need to",
+        "pos": "modal",
+        "ipa": "/ˈdɪdnt niːd tə/",
+        "es": "no era necesario",
+        "example": "I didn't need to go."
+      },
+      {
+        "id": "en-should-have",
+        "lemma": "should have",
+        "pos": "modal",
+        "ipa": "/ʃʊd əv/",
+        "es": "debería haber",
+        "example": "You should have called."
+      },
+      {
+        "id": "en-ought-to-have",
+        "lemma": "ought to have",
+        "pos": "modal",
+        "ipa": "/ɔːt tə əv/",
+        "es": "debí haber",
+        "example": "I ought to have asked."
+      },
+      {
+        "id": "en-could-have",
+        "lemma": "could have",
+        "pos": "modal",
+        "ipa": "/kʊd əv/",
+        "es": "podría haber",
+        "example": "You could have helped."
+      },
+      {
+        "id": "en-might-have",
+        "lemma": "might have",
+        "pos": "modal",
+        "ipa": "/maɪt əv/",
+        "es": "quizá haya",
+        "example": "She might have forgotten."
+      },
+      {
+        "id": "en-get-soaked",
+        "lemma": "get soaked",
+        "pos": "phrase",
+        "ipa": "/ɡet səʊkt/",
+        "es": "empaparse",
+        "example": "I got soaked."
+      },
+      {
+        "id": "en-forecast",
+        "lemma": "forecast",
+        "pos": "noun",
+        "ipa": "/ˈfɔːkɑːst/",
+        "es": "previsión",
+        "example": "The weather forecast."
+      },
+      {
+        "id": "en-held-up",
+        "lemma": "held up",
+        "pos": "phrasal verb",
+        "ipa": "/held ʌp/",
+        "es": "retrasado",
+        "example": "Held up by traffic."
+      },
+      {
+        "id": "en-reliable",
+        "lemma": "reliable",
+        "pos": "adj",
+        "ipa": "/rɪˈlaɪəbl/",
+        "es": "fiable",
+        "example": "A reliable friend."
+      }
+    ],
+    "audio_script_id": "en-b2-u11-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Modales del pasado: resumen**\n\n| Estructura | Significado | Ejemplo |\n|---|---|---|\n| **should / ought to have + participio** | reproche o arrepentimiento (no se hizo) | *You **should have called**.* |\n| **shouldn't have + participio** | reproche (se hizo y no debía) | *You **shouldn't have said** that.* |\n| **needn't have + participio** | se hizo algo innecesario | *I **needn't have brought** an umbrella.* |\n| **didn't need to + verbo** | no era necesario (puede que no se hiciera) | *I **didn't need to bring** one.* |\n| **could have + participio** | posibilidad no aprovechada / reproche suave | *You **could have helped**.* |\n| **couldn't have + participio** | imposible | *I **couldn't have known**.* |\n| **might / may have + participio** | posibilidad pasada | *She **might have forgotten**.* |\n| **must have + participio** | deducción segura | *He **must have missed** the bus.* |\n| **can't have + participio** | deducción negativa | *She **can't have left** yet.* |\n| **would have + participio** | resultado hipotético | *I **would have gone** if I'd known.* |\n\n**Needn't have vs didn't need to**\n\n- *I needn't have taken an umbrella.* = lo cogí, pero no hacía falta.\n- *I didn't need to take an umbrella.* = no era necesario (no sabemos si lo cogí).\n- *I didn't have to wait.* = no tuve que esperar (no hubo obligación).\n\n**Tono**\n\n- *You should have told me* (crítica directa) · *You could have told me* (crítica suave) · *You might have told me!* (reproche irritado).\n\n**Con -ing (acción en curso)**\n\n- *She should have been working.* · *They must have been waiting.*\n\n**Errores típicos**\n\n- ✘ *I should have went.* → ✔ *I should have gone.*\n- ✘ *You needn't to have come.* → ✔ *You needn't have come.*\n- ✘ *I should of called.* → ✔ *I should have called.* (se escribe *have*, no *of*).\n- ✘ *You must to have seen it.* → ✔ *You must have seen it.*\n- ✘ *She mustn't have forgotten.* → ✔ *She can't have forgotten.*\n\n**Ojo:** *ought to* lleva *to*; *should* no. *Needn't* (UK) = *don't need to* (US). En habla, *have* se reduce a /əv/ y suena como *of*.\n\nPronunciación: *should have* /ˈʃʊd əv/ · *ought to have* /ˈɔːt tə əv/ · *forecast* /ˈfɔːkɑːst/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "should have went",
+        "right": "should have gone",
+        "note": "Participio."
+      },
+      {
+        "wrong": "should of",
+        "right": "should have",
+        "note": "Have, no of."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo Lena que resultó innecesario?",
+      "options": [
+        "Coger un paraguas",
+        "Salir de casa",
+        "Llamar a María",
+        "Comprar un billete"
+      ],
+      "answer": [
+        "Coger un paraguas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I needn't have taken an umbrella.",
+        "incorrect": "Revisa esto: Dice: I needn't have taken an umbrella."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué reprocha Lena a Jon?",
+      "options": [
+        "No haber mirado la previsión",
+        "Haber llegado tarde",
+        "No traer paraguas",
+        "Haber olvidado un regalo"
+      ],
+      "answer": [
+        "No haber mirado la previsión"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: You should have checked the forecast.",
+        "incorrect": "Revisa esto: Dice: You should have checked the forecast."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué cree Jon que María podría haberse retrasado?",
+      "options": [
+        "Por el tráfico",
+        "Se olvidó",
+        "Se perdió",
+        "Tenía otro plan"
+      ],
+      "answer": [
+        "Por el tráfico"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: held up by traffic.",
+        "incorrect": "Revisa esto: Dice: held up by traffic."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "He has three novels, two of ___ are bestsellers.",
+      "options": [
+        "which",
+        "that",
+        "who",
+        "whom"
+      ],
+      "answer": [
+        "which"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Two of which.",
+        "incorrect": "Revisa esto: Two of which."
+      },
+      "review_of": "en-b2-u10-l06-ex13"
+    },
+    {
+      "id": "en-b2-u11-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "Jon cree que María se olvidó de la cita.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que no puede haberse olvidado.",
+        "incorrect": "Revisa esto: Dice que no puede haberse olvidado."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ have brought an umbrella. It didn't rain.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "can't",
+        "shouldn't to"
+      ],
+      "answer": [
+        "needn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have.",
+        "incorrect": "Revisa esto: Needn't have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ told me earlier! I was waiting for hours.",
+      "options": [
+        "should have",
+        "should",
+        "must",
+        "needn't"
+      ],
+      "answer": [
+        "should have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reproche.",
+        "incorrect": "Revisa esto: Reproche."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué dos problemas tuvo?",
+      "options": [
+        "Suciedad y mala educación del personal",
+        "Ruido y precio",
+        "Comida y wifi",
+        "Cama y ducha"
+      ],
+      "answer": [
+        "Suciedad y mala educación del personal"
+      ],
+      "audio_text": "Not only was the hotel dirty, but the staff were also rude. Never have I stayed in such a terrible place. Under no circumstances will I go back.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: dirty and rude.",
+        "incorrect": "Revisa esto: Dice: dirty and rude."
+      },
+      "audio_script_id": "en-b2-u11-l02-rv02-a",
+      "review_of": "en-b2-u06-l02-ex20"
+    },
+    {
+      "id": "en-b2-u11-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ forgotten; she's very organised.",
+      "options": [
+        "can't have",
+        "must",
+        "needn't have",
+        "might to"
+      ],
+      "answer": [
+        "can't have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción negativa.",
+        "incorrect": "Revisa esto: Deducción negativa."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Cuánto cuesta el sándwich?",
+      "answer": [
+        "How much is the sandwich?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: how much is…?",
+        "incorrect": "Revisa esto: Singular: how much is…?"
+      },
+      "review_of": "en-a1-u08-l02-ex10"
+    },
+    {
+      "id": "en-b2-u11-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ have missed the bus. That's why he's late.",
+      "options": [
+        "must",
+        "can't",
+        "needn't",
+        "shouldn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción afirmativa.",
+        "incorrect": "Revisa esto: Deducción afirmativa."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We ___ to go by taxi; the station was nearby.",
+      "options": [
+        "didn't need",
+        "needn't",
+        "mustn't",
+        "couldn't have"
+      ],
+      "answer": [
+        "didn't need"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't need to.",
+        "incorrect": "Revisa esto: Didn't need to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish you ___ stop shouting.",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "are"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would para quejas.",
+        "incorrect": "Revisa esto: Wish + would para quejas."
+      },
+      "review_of": "en-b1-u06-l03-ex08"
+    },
+    {
+      "id": "en-b2-u11-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ me a lift; it wouldn't have been difficult.",
+      "options": [
+        "could have given",
+        "can give",
+        "must give",
+        "might to give"
+      ],
+      "answer": [
+        "could have given"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could have.",
+        "incorrect": "Revisa esto: Could have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ought ___ have called her.",
+      "options": [
+        "to",
+        "no word",
+        "of",
+        "that"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ought to have.",
+        "incorrect": "Revisa esto: Ought to have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which means the action was done unnecessarily?",
+      "options": [
+        "I needn't have gone.",
+        "I didn't have to go.",
+        "I couldn't go.",
+        "I mustn't go."
+      ],
+      "answer": [
+        "I needn't have gone."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have = innecesario.",
+        "incorrect": "Revisa esto: Needn't have = innecesario."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv05",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "where-objects"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada preposición con su significado.",
+      "pairs": [
+        {
+          "left": "in front of",
+          "right": "delante de"
+        },
+        {
+          "left": "behind",
+          "right": "detrás de"
+        },
+        {
+          "left": "next to",
+          "right": "al lado de"
+        },
+        {
+          "left": "between",
+          "right": "entre"
+        },
+        {
+          "left": "under",
+          "right": "debajo de"
+        },
+        {
+          "left": "on",
+          "right": "sobre"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las preposiciones de lugar más frecuentes.",
+        "incorrect": "Revisa esto: Son las preposiciones de lugar más frecuentes."
+      },
+      "review_of": "en-a1-u11-l04-ex05"
+    },
+    {
+      "id": "en-b2-u11-l02-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "'You might have told me!' expresses...",
+      "options": [
+        "irritación",
+        "una orden",
+        "una condición",
+        "un deseo"
+      ],
+      "answer": [
+        "irritación"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tono.",
+        "incorrect": "Revisa esto: Tono."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The woman who she lives next door is a teacher.",
+      "answer": [
+        "The woman who lives next door is a teacher.",
+        "The woman that lives next door is a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se repite el sujeto con she.",
+        "incorrect": "Revisa esto: No se repite el sujeto con she."
+      },
+      "review_of": "en-b1-u02-l02-ex09"
+    },
+    {
+      "id": "en-b2-u11-l02-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ have told me about the problem earlier. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have.",
+        "incorrect": "Revisa esto: Should have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ have been driving too fast. (debía de)",
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must have been.",
+        "incorrect": "Revisa esto: Must have been."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should have went to the dentist earlier.",
+      "answer": [
+        "I should have gone to the dentist earlier."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I don't see you since last summer.",
+      "answer": [
+        "I haven't seen you since last summer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect + since.",
+        "incorrect": "Revisa esto: Present perfect + since."
+      },
+      "review_of": "en-b1-u11-l05-ex13"
+    },
+    {
+      "id": "en-b2-u11-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You needn't to have come so early.",
+      "answer": [
+        "You needn't have come so early."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have.",
+        "incorrect": "Revisa esto: Needn't have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She mustn't have known about the party.",
+      "answer": [
+        "She can't have known about the party.",
+        "She couldn't have known about the party."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción negativa.",
+        "incorrect": "Revisa esto: Deducción negativa."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que quizás haya mucha gente:",
+      "options": [
+        "It might be busy at rush hour.",
+        "It might to be busy.",
+        "It maybe is busy.",
+        "It will might busy."
+      ],
+      "answer": [
+        "It might be busy at rush hour."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo base.",
+        "incorrect": "Revisa esto: Might + verbo base."
+      },
+      "review_of": "en-a2-u12-l05-ex05"
+    },
+    {
+      "id": "en-b2-u11-l02-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should of called him yesterday.",
+      "answer": [
+        "I should have called him yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have, no of.",
+        "incorrect": "Revisa esto: Have, no of."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm good ___ talking to customers.",
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      },
+      "review_of": "en-a2-u07-l06-ex05"
+    },
+    {
+      "id": "en-b2-u11-l02-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debería haber hecho Tom?",
+      "options": [
+        "Estudiar más",
+        "Faltar al examen",
+        "Cambiar de curso",
+        "Viajar"
+      ],
+      "answer": [
+        "Estudiar más"
+      ],
+      "audio_text": "I needn't have worried about the exam. It was much easier than I expected. I should have trusted myself more. My friend Tom, on the other hand, ought to have studied harder; he could have passed easily.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: ought to have studied harder.",
+        "incorrect": "Revisa esto: Dice: ought to have studied harder."
+      },
+      "audio_script_id": "en-b2-u11-l02-ex20-a"
+    },
+    {
+      "id": "en-b2-u11-l02-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No hacía falta que me llamaras; podías haber escrito un mensaje.",
+      "answer": [
+        "You needn't have called me; you could have sent a message.",
+        "You needn't have phoned me; you could have written a message."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Needn't have + could have.",
+        "incorrect": "Revisa esto: Needn't have + could have."
+      }
+    },
+    {
+      "id": "en-b2-u11-l02-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Deberías haber mirado la previsión; quizá se olvidó de decírtelo.",
+      "answer": [
+        "You should have checked the forecast; maybe he forgot to tell you.",
+        "You should have checked the forecast; he might have forgotten to tell you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + might have.",
+        "incorrect": "Revisa esto: Should have + might have."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You should have called.",
+      "I needn't have taken an umbrella.",
+      "You could have told me!",
+      "She can't have forgotten."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-needn-t-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-didn-t-need-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-should-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ought-to-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-could-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-might-have"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-soaked"
+    },
+    {
+      "type": "vocab",
+      "id": "en-forecast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-held-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reliable"
+    },
+    {
+      "type": "grammar",
+      "id": "en-modals-past-b2"
+    }
+  ]
+}

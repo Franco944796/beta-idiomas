@@ -1,0 +1,897 @@
+{
+  "id": "en-b2-u01-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 1,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Values and personality",
+    "es": "Valores, personalidad y carácter"
+  },
+  "objective": "Al terminar describes tu carácter, tus valores y los de otros con matices y vocabulario de nivel B2, y hablas de lo que te define.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En B2 ya no basta con decir 'soy simpático'. Hay que matizar: soy reservado pero leal, ambicioso sin ser competitivo. Aquí ganas vocabulario preciso y estructuras para hablar de ti con profundidad."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Elena",
+        "text": "People often describe me as reserved, but I'd say I'm just selective about who I open up to.",
+        "es": "La gente suele describirme como reservada, pero yo diría que solo soy selectiva con quién me abro."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "That makes sense. I'm the opposite: I'm outgoing, but I can be quite impulsive. I tend to say yes before thinking.",
+        "es": "Tiene sentido. Yo soy lo contrario: extrovertido, pero puedo ser bastante impulsivo. Suelo decir que sí antes de pensar."
+      },
+      {
+        "speaker": "Elena",
+        "text": "Has that ever got you into trouble?",
+        "es": "¿Eso te ha metido alguna vez en problemas?"
+      },
+      {
+        "speaker": "Marcos",
+        "text": "Frequently! Last year I volunteered to organise a conference without having any experience. It was stressful, but it taught me resilience.",
+        "es": "¡Con frecuencia! El año pasado me ofrecí a organizar un congreso sin tener experiencia. Fue estresante, pero me enseñó a ser resiliente."
+      },
+      {
+        "speaker": "Elena",
+        "text": "What values matter most to you?",
+        "es": "¿Qué valores son los más importantes para ti?"
+      },
+      {
+        "speaker": "Marcos",
+        "text": "Honesty and loyalty, definitely. I can't stand people who are two-faced or who take credit for other people's work.",
+        "es": "Honestidad y lealtad, sin duda. No soporto a quienes son hipócritas o se atribuyen el mérito del trabajo de otros."
+      },
+      {
+        "speaker": "Elena",
+        "text": "I agree. For me, it's integrity: doing the right thing even when nobody is watching. I'm also fairly ambitious, though not at any cost.",
+        "es": "Estoy de acuerdo. Para mí es la integridad: hacer lo correcto aunque nadie te vea. También soy bastante ambiciosa, aunque no a cualquier precio."
+      },
+      {
+        "speaker": "Marcos",
+        "text": "That's a healthy attitude. People who are driven can sometimes become ruthless.",
+        "es": "Es una actitud sana. Las personas con empuje a veces se vuelven despiadadas."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-reserved",
+        "lemma": "reserved",
+        "pos": "adj",
+        "ipa": "/rɪˈzɜːvd/",
+        "es": "reservado",
+        "example": "She's quite reserved."
+      },
+      {
+        "id": "en-open-up",
+        "lemma": "open up",
+        "pos": "phrasal verb",
+        "ipa": "/ˈəʊpən ʌp/",
+        "es": "abrirse, confiarse",
+        "example": "He rarely opens up."
+      },
+      {
+        "id": "en-outgoing",
+        "lemma": "outgoing",
+        "pos": "adj",
+        "ipa": "/ˌaʊtˈɡəʊɪŋ/",
+        "es": "extrovertido",
+        "example": "An outgoing person."
+      },
+      {
+        "id": "en-impulsive",
+        "lemma": "impulsive",
+        "pos": "adj",
+        "ipa": "/ɪmˈpʌlsɪv/",
+        "es": "impulsivo",
+        "example": "He's impulsive."
+      },
+      {
+        "id": "en-resilience",
+        "lemma": "resilience",
+        "pos": "noun",
+        "ipa": "/rɪˈzɪliəns/",
+        "es": "resiliencia",
+        "example": "It taught me resilience."
+      },
+      {
+        "id": "en-integrity",
+        "lemma": "integrity",
+        "pos": "noun",
+        "ipa": "/ɪnˈteɡrəti/",
+        "es": "integridad",
+        "example": "A person of integrity."
+      },
+      {
+        "id": "en-two-faced",
+        "lemma": "two-faced",
+        "pos": "adj",
+        "ipa": "/ˌtuː ˈfeɪst/",
+        "es": "hipócrita, falso",
+        "example": "I can't stand two-faced people."
+      },
+      {
+        "id": "en-take-credit-for",
+        "lemma": "take credit for",
+        "pos": "phrase",
+        "ipa": "/teɪk ˈkredɪt fə/",
+        "es": "atribuirse el mérito de",
+        "example": "He took credit for my work."
+      },
+      {
+        "id": "en-ambitious",
+        "lemma": "ambitious",
+        "pos": "adj",
+        "ipa": "/æmˈbɪʃəs/",
+        "es": "ambicioso",
+        "example": "An ambitious student."
+      },
+      {
+        "id": "en-driven",
+        "lemma": "driven",
+        "pos": "adj",
+        "ipa": "/ˈdrɪvn/",
+        "es": "con empuje, motivado",
+        "example": "She's very driven."
+      },
+      {
+        "id": "en-ruthless",
+        "lemma": "ruthless",
+        "pos": "adj",
+        "ipa": "/ˈruːθləs/",
+        "es": "despiadado",
+        "example": "A ruthless boss."
+      },
+      {
+        "id": "en-can-t-stand",
+        "lemma": "can't stand",
+        "pos": "phrase",
+        "ipa": "/kɑːnt stænd/",
+        "es": "no soportar",
+        "example": "I can't stand lies."
+      },
+      {
+        "id": "en-selective",
+        "lemma": "selective",
+        "pos": "adj",
+        "ipa": "/sɪˈlektɪv/",
+        "es": "selectivo",
+        "example": "She's selective with friends."
+      }
+    ],
+    "audio_script_id": "en-b2-u01-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Describir personalidad con matices**\n\n| Rasgo | Positivo | Matiz o riesgo |\n|---|---|---|\n| *reservado* | *discreet, thoughtful* | *withdrawn, distant* |\n| *sociable* | *outgoing, charismatic* | *talkative, attention-seeking* |\n| *decidido* | *determined, driven, resilient* | *stubborn, pushy, ruthless* |\n| *ambicioso* | *ambitious, goal-oriented* | *cut-throat, power-hungry* |\n| *tranquilo* | *laid-back, easy-going* | *careless, apathetic* |\n| *honesto* | *honest, straightforward* | *blunt, tactless* |\n| *generoso* | *generous, big-hearted* | *over-generous, naive* |\n\n**Estructuras para matizar**\n\n- *I'd say I'm …* (yo diría que soy…) · *I tend to + verbo* (suelo…) · *I can be + adj* (puedo ser…) · *I'm fairly / quite / rather + adj* (bastante) · *I'm not exactly … but …*\n- *… though not at any cost* (aunque no a cualquier precio)\n- *the kind of person who + verbo* → *I'm the kind of person who needs time alone.*\n\n**Valores y virtudes:** *honesty, integrity, loyalty, respect, humility, empathy, courage, perseverance, fairness.*\n\n**Actitudes y reacciones:** *I can't stand … · I admire people who … · I look up to … · I've got a lot of respect for …*\n\n**Sufijos y contrarios:** *honest → dishonest · loyal → disloyal · patient → impatient · reliable → unreliable · responsible → irresponsible · considerate → inconsiderate · tolerant → intolerant.*\n\n**Ojo — falsos amigos y matices**\n\n- *Sensible* = sensato; *sensitive* = sensible.\n- *Sympathetic* = comprensivo; *nice / friendly* = simpático.\n- *Confident* (seguro de sí) ≠ *confidential* (confidencial).\n- *Eventually* = finalmente (no 'eventualmente'): *Eventually, she resigned.*\n- *Ambitious* es positivo en inglés; *cut-throat* es negativo.\n\nPronunciación: *reserved* /rɪˈzɜːvd/ · *resilience* /rɪˈzɪliəns/ · *integrity* /ɪnˈteɡrəti/ · *ruthless* /ˈruːθləs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She is very sensible to criticism.",
+        "right": "She is very sensitive to criticism.",
+        "note": "Sensitive = sensible."
+      },
+      {
+        "wrong": "Eventually = eventualmente.",
+        "right": "Eventually = finalmente.",
+        "note": "Falso amigo."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "sensible",
+        "es_false": "sensible",
+        "real": "sensato",
+        "note": "Sensible (persona) = sensitive."
+      },
+      {
+        "word": "eventually",
+        "es_false": "eventualmente",
+        "real": "finalmente",
+        "note": "Eventualmente = occasionally / possibly."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u01-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "reserved",
+          "right": "reservado"
+        },
+        {
+          "left": "outgoing",
+          "right": "extrovertido"
+        },
+        {
+          "left": "ruthless",
+          "right": "despiadado"
+        },
+        {
+          "left": "integrity",
+          "right": "integridad"
+        },
+        {
+          "left": "two-faced",
+          "right": "hipócrita"
+        },
+        {
+          "left": "driven",
+          "right": "con empuje"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de personalidad B2.",
+        "incorrect": "Revisa esto: Vocabulario de personalidad B2."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una cualidad o un defecto (en general)?",
+      "categories": [
+        "Quality",
+        "Flaw"
+      ],
+      "items": [
+        {
+          "text": "resilient",
+          "category": "Quality"
+        },
+        {
+          "text": "loyal",
+          "category": "Quality"
+        },
+        {
+          "text": "considerate",
+          "category": "Quality"
+        },
+        {
+          "text": "straightforward",
+          "category": "Quality"
+        },
+        {
+          "text": "ruthless",
+          "category": "Flaw"
+        },
+        {
+          "text": "two-faced",
+          "category": "Flaw"
+        },
+        {
+          "text": "tactless",
+          "category": "Flaw"
+        },
+        {
+          "text": "impulsive",
+          "category": "Flaw"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar adjetivos por tono ayuda a recordarlos.",
+        "incorrect": "Revisa esto: Clasificar adjetivos por tono ayuda a recordarlos."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo prefiere describirse Elena?",
+      "options": [
+        "Selectiva con quién se abre",
+        "Tímida y callada",
+        "Extrovertida",
+        "Impulsiva"
+      ],
+      "answer": [
+        "Selectiva con quién se abre"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'm just selective about who I open up to.",
+        "incorrect": "Revisa esto: Dice: I'm just selective about who I open up to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Excuse me, I'm ___. Could you help me? (perdido)",
+      "answer": [
+        "lost"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lost = perdido.",
+        "incorrect": "Revisa esto: Lost = perdido."
+      },
+      "review_of": "en-a2-u12-l02-ex06"
+    },
+    {
+      "id": "en-b2-u01-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le enseñó a Marcos organizar el congreso?",
+      "options": [
+        "Resiliencia",
+        "Paciencia con los clientes",
+        "A decir que no",
+        "A delegar"
+      ],
+      "answer": [
+        "Resiliencia"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it taught me resilience.",
+        "incorrect": "Revisa esto: Dice: it taught me resilience."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué valor es el más importante para Elena?",
+      "options": [
+        "La integridad",
+        "El éxito",
+        "La fama",
+        "La rapidez"
+      ],
+      "answer": [
+        "La integridad"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: For me, it's integrity.",
+        "incorrect": "Revisa esto: Dice: For me, it's integrity."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 15,
+      "prompt": "Marcos admira a las personas que se atribuyen el mérito de otros.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que no soporta a quienes lo hacen.",
+        "incorrect": "Revisa esto: Dice que no soporta a quienes lo hacen."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "I can't ___ people who are rude to waiters.",
+      "options": [
+        "stand",
+        "stay",
+        "support",
+        "bear to"
+      ],
+      "answer": [
+        "stand"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't stand = no soportar.",
+        "incorrect": "Revisa esto: Can't stand = no soportar."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's the kind of person ___ never admits he's wrong.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Who para personas.",
+        "incorrect": "Revisa esto: Who para personas."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la respuesta correcta a 'Was she working?'",
+      "options": [
+        "No, she wasn't.",
+        "No, she didn't.",
+        "No, she weren't.",
+        "No, she doesn't."
+      ],
+      "answer": [
+        "No, she wasn't."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta corta con was / wasn't.",
+        "incorrect": "Revisa esto: Respuesta corta con was / wasn't."
+      },
+      "review_of": "en-a2-u09-l02-ex04"
+    },
+    {
+      "id": "en-b2-u01-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "My manager is ___ blunt: she always says exactly what she thinks, even if it hurts.",
+      "options": [
+        "rather",
+        "much",
+        "enough",
+        "too much"
+      ],
+      "answer": [
+        "rather"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rather + adjetivo = bastante.",
+        "incorrect": "Revisa esto: Rather + adjetivo = bastante."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I saw her last week.",
+        "I have seen her last week.",
+        "I've seen her last week.",
+        "I have saw her last week."
+      ],
+      "answer": [
+        "I saw her last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last week es tiempo terminado: pasado simple.",
+        "incorrect": "Revisa esto: Last week es tiempo terminado: pasado simple."
+      },
+      "review_of": "en-a2-u08-l06-ex07"
+    },
+    {
+      "id": "en-b2-u01-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "Someone who always tells the truth, even when it is uncomfortable, is...",
+      "options": [
+        "straightforward",
+        "two-faced",
+        "impulsive",
+        "reserved"
+      ],
+      "answer": [
+        "straightforward"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Straightforward = directo, franco.",
+        "incorrect": "Revisa esto: Straightforward = directo, franco."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Eventually, she changed her mind.' means...",
+      "options": [
+        "Finalmente cambió de opinión",
+        "Quizá cambió de opinión",
+        "Cambió de opinión por casualidad",
+        "No cambió"
+      ],
+      "answer": [
+        "Finalmente cambió de opinión"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Eventually = finalmente.",
+        "incorrect": "Revisa esto: Eventually = finalmente."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "He took ___ for the project, although I did most of the work.",
+      "options": [
+        "credit",
+        "advantage",
+        "profit",
+        "praise to"
+      ],
+      "answer": [
+        "credit"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take credit for = atribuirse el mérito.",
+        "incorrect": "Revisa esto: Take credit for = atribuirse el mérito."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is a very ___ person. She never gives up. (resiliente)",
+      "answer": [
+        "resilient",
+        "determined",
+        "driven"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resilient.",
+        "incorrect": "Revisa esto: Resilient."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ to be impulsive when I'm excited. (suelo)",
+      "answer": [
+        "tend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tend to + verbo.",
+        "incorrect": "Revisa esto: Tend to + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is very sensible to criticism and gets upset easily.",
+      "answer": [
+        "She is very sensitive to criticism and gets upset easily."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sensible ≠ sensitive.",
+        "incorrect": "Revisa esto: Sensible ≠ sensitive."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My boss is very confident: he never tells anyone about the company's secrets.",
+      "answer": [
+        "My boss is very discreet: he never tells anyone about the company's secrets.",
+        "My boss is very trustworthy: he never tells anyone about the company's secrets."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Confident ≠ confidential/discreet.",
+        "incorrect": "Revisa esto: Confident ≠ confidential/discreet."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué cualidad admira más?",
+      "options": [
+        "La integridad",
+        "El humor",
+        "La rapidez",
+        "La ambición"
+      ],
+      "answer": [
+        "La integridad"
+      ],
+      "audio_text": "I'd describe myself as fairly reserved, but I can be outgoing with people I trust. The thing I admire most in others is integrity. I really can't stand people who take credit for other people's work.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: The thing I admire most in others is integrity.",
+        "incorrect": "Revisa esto: Dice: The thing I admire most in others is integrity."
+      },
+      "audio_script_id": "en-b2-u01-l01-ex17-a"
+    },
+    {
+      "id": "en-b2-u01-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Where you went last summer?",
+      "answer": [
+        "Where did you go last summer?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falta did y el verbo va en base.",
+        "incorrect": "Revisa esto: Falta did y el verbo va en base."
+      },
+      "review_of": "en-a2-u02-l02-ex04"
+    },
+    {
+      "id": "en-b2-u01-l01-rv05",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo con su pasado.",
+      "pairs": [
+        {
+          "left": "walk",
+          "right": "walked"
+        },
+        {
+          "left": "dance",
+          "right": "danced"
+        },
+        {
+          "left": "study",
+          "right": "studied"
+        },
+        {
+          "left": "stop",
+          "right": "stopped"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada verbo sigue una regla de ortografía distinta.",
+        "incorrect": "Revisa esto: Cada verbo sigue una regla de ortografía distinta."
+      },
+      "review_of": "en-a2-u01-l02-ex04"
+    },
+    {
+      "id": "en-b2-u01-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ jacket is nice. (lejos, singular)",
+      "answer": [
+        "That"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lejos y singular: that.",
+        "incorrect": "Revisa esto: Lejos y singular: that."
+      },
+      "review_of": "en-a1-u08-l04-ex02"
+    },
+    {
+      "id": "en-b2-u01-l01-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Diría que soy bastante ambiciosa, aunque no a cualquier precio.",
+      "answer": [
+        "I'd say I'm fairly ambitious, though not at any cost.",
+        "I would say I'm quite ambitious, though not at any cost.",
+        "I'd say that I'm rather ambitious, but not at any cost."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd say + adverbio + adjetivo.",
+        "incorrect": "Revisa esto: I'd say + adverbio + adjetivo."
+      }
+    },
+    {
+      "id": "en-b2-u01-l01-ex19",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-identity"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "resilience",
+          "ipa": "/rɪˈzɪliəns/",
+          "tip_es": "Acento en 'zil'."
+        },
+        {
+          "text": "integrity",
+          "ipa": "/ɪnˈteɡrəti/",
+          "tip_es": "Acento en 'teg'."
+        },
+        {
+          "text": "ruthless",
+          "ipa": "/ˈruːθləs/",
+          "tip_es": "'th' sorda /θ/."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd say I'm … · I tend to …",
+      "I can't stand people who …",
+      "the kind of person who …",
+      "reserved · outgoing · driven · ruthless"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-reserved"
+    },
+    {
+      "type": "vocab",
+      "id": "en-open-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-outgoing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-impulsive"
+    },
+    {
+      "type": "vocab",
+      "id": "en-resilience"
+    },
+    {
+      "type": "vocab",
+      "id": "en-integrity"
+    },
+    {
+      "type": "vocab",
+      "id": "en-two-faced"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-credit-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ambitious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-driven"
+    },
+    {
+      "type": "grammar",
+      "id": "en-b2-identity"
+    }
+  ]
+}

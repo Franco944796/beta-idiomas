@@ -1587,11 +1587,11 @@
     {
       "id": "en-b1",
       "cefr": "B1",
-      "status": "planned",
+      "status": "ready",
       "est_guided_hours_cumulative": "350-400",
       "vocab_target_cumulative": 2800,
-      "unit_count_target": 14,
-      "lesson_count_target": 84,
+      "unit_count_target": 12,
+      "lesson_count_target": 72,
       "can_do": {
         "listening": "Entiendes los puntos principales de conversaciones claras sobre temas conocidos.",
         "reading": "Entiendes textos sobre temas cotidianos o de tu interés.",
@@ -1607,12 +1607,776 @@
         "relative clauses",
         "estilo indirecto"
       ],
-      "units": []
+      "units": [
+        {
+          "id": "en-b1-u01",
+          "order": 1,
+          "title_es": "Personalidad e historias de vida",
+          "title_target": "Personality and life stories",
+          "theme": "life-stories",
+          "lessons": [
+            {
+              "id": "en-b1-u01-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Describing personality",
+              "title_es": "Describir la personalidad",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u01-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Present perfect: simple or continuous?",
+              "title_es": "Present perfect simple o continuo",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u01-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Used to and would",
+              "title_es": "Hábitos y situaciones del pasado",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u01-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Before it happened",
+              "title_es": "Past perfect: lo que había pasado antes",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u01-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Telling your story",
+              "title_es": "Contar tu historia con tiempos narrativos",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u01-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 1",
+              "title_es": "Checkpoint 1",
+              "status": "ready",
+              "file": "b1/unit-01/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u02",
+          "order": 2,
+          "title_es": "Lugares y comunidades",
+          "title_target": "Places and communities",
+          "theme": "places",
+          "lessons": [
+            {
+              "id": "en-b1-u02-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Where I live",
+              "title_es": "El barrio y la vivienda",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u02-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Who, which, that",
+              "title_es": "Oraciones de relativo especificativas",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u02-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Where, whose, when",
+              "title_es": "Más palabras de relativo",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u02-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "The more, the better",
+              "title_es": "Comparaciones dobles y similitudes",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u02-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Describing a place",
+              "title_es": "Describir un lugar por escrito",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u02-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 2",
+              "title_es": "Checkpoint 2",
+              "status": "ready",
+              "file": "b1/unit-02/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u03",
+          "order": 3,
+          "title_es": "Trabajo y carrera",
+          "title_target": "Work and careers",
+          "theme": "careers",
+          "lessons": [
+            {
+              "id": "en-b1-u03-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Jobs and skills",
+              "title_es": "Trabajos, habilidades y colocaciones",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u03-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "When I finish...",
+              "title_es": "Cláusulas de tiempo futuro",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u03-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Had to, managed to",
+              "title_es": "Obligación y capacidad en pasado",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u03-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "A CV and cover letter",
+              "title_es": "Currículum y carta de presentación",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u03-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "The tough interview",
+              "title_es": "La entrevista difícil",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u03-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 3",
+              "title_es": "Checkpoint 3",
+              "status": "ready",
+              "file": "b1/unit-03/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u04",
+          "order": 4,
+          "title_es": "Salud y estilo de vida",
+          "title_target": "Health and lifestyle",
+          "theme": "lifestyle",
+          "lessons": [
+            {
+              "id": "en-b1-u04-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Healthy habits",
+              "title_es": "Hábitos saludables",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u04-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "If you do, you will",
+              "title_es": "Condicional cero y primer condicional",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u04-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Unless and as long as",
+              "title_es": "Unless, as long as, provided that",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u04-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "You'd better...",
+              "title_es": "Consejos: ought to, had better",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u04-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Describing symptoms",
+              "title_es": "Describir síntomas con detalle",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u04-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 4",
+              "title_es": "Checkpoint 4",
+              "status": "ready",
+              "file": "b1/unit-04/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u05",
+          "order": 5,
+          "title_es": "Tecnología y medios",
+          "title_target": "Technology and media",
+          "theme": "media",
+          "lessons": [
+            {
+              "id": "en-b1-u05-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Gadgets and the internet",
+              "title_es": "Aparatos e internet",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u05-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "It is made in...",
+              "title_es": "La pasiva: presente y pasado",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u05-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Who was it written by?",
+              "title_es": "Pasiva: preguntas y complemento agente",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u05-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "In the news",
+              "title_es": "Noticias y titulares",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u05-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Posting and commenting",
+              "title_es": "Publicar y comentar en redes",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u05-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 5",
+              "title_es": "Checkpoint 5",
+              "status": "ready",
+              "file": "b1/unit-05/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u06",
+          "order": 6,
+          "title_es": "Viajes y turismo",
+          "title_target": "Travel and tourism",
+          "theme": "tourism",
+          "lessons": [
+            {
+              "id": "en-b1-u06-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Planning a trip",
+              "title_es": "Planificar un viaje",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u06-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "If I won the lottery",
+              "title_es": "Segundo condicional",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u06-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "I wish I could",
+              "title_es": "Wish + pasado",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u06-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Hotel problems",
+              "title_es": "Quejas y problemas en el hotel",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u06-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A travel blog",
+              "title_es": "Un blog de viajes",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u06-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 6",
+              "title_es": "Checkpoint 6",
+              "status": "ready",
+              "file": "b1/unit-06/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u07",
+          "order": 7,
+          "title_es": "Dinero y consumo",
+          "title_target": "Money and consumers",
+          "theme": "money",
+          "lessons": [
+            {
+              "id": "en-b1-u07-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Money matters",
+              "title_es": "Dinero: ganar, ahorrar, gastar",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u07-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "She said that...",
+              "title_es": "Estilo indirecto: afirmaciones",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u07-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "He asked if...",
+              "title_es": "Estilo indirecto: preguntas y peticiones",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u07-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Say, tell, ask, suggest",
+              "title_es": "Verbos de reporte",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u07-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Customer service",
+              "title_es": "Atención al cliente",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u07-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 7",
+              "title_es": "Checkpoint 7",
+              "status": "ready",
+              "file": "b1/unit-07/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u08",
+          "order": 8,
+          "title_es": "Educación y aprendizaje",
+          "title_target": "Education and learning",
+          "theme": "education",
+          "lessons": [
+            {
+              "id": "en-b1-u08-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "School and university",
+              "title_es": "Colegio y universidad",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u08-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Stop doing or stop to do?",
+              "title_es": "Gerundio o infinitivo: cambios de significado",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u08-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Allowed to, supposed to",
+              "title_es": "Permisos y normas: be allowed to, be supposed to",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u08-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "How to learn better",
+              "title_es": "Cómo aprender mejor",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u08-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "An opinion essay",
+              "title_es": "Una redacción de opinión",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u08-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 8",
+              "title_es": "Checkpoint 8",
+              "status": "ready",
+              "file": "b1/unit-08/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u09",
+          "order": 9,
+          "title_es": "Medio ambiente y naturaleza",
+          "title_target": "Environment and nature",
+          "theme": "environment",
+          "lessons": [
+            {
+              "id": "en-b1-u09-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Our planet",
+              "title_es": "Problemas medioambientales",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u09-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "All, most, none, both",
+              "title_es": "Cuantificadores y determinantes",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u09-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "It might rain",
+              "title_es": "Posibilidad: may, might, could",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u09-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "So tired that...",
+              "title_es": "So... that / such... that",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u09-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "What can we do?",
+              "title_es": "Una discusión sobre soluciones",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u09-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 9",
+              "title_es": "Checkpoint 9",
+              "status": "ready",
+              "file": "b1/unit-09/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u10",
+          "order": 10,
+          "title_es": "Comida, cultura y tradiciones",
+          "title_target": "Food, culture and traditions",
+          "theme": "culture",
+          "lessons": [
+            {
+              "id": "en-b1-u10-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Food and customs",
+              "title_es": "Comida y costumbres",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u10-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "It must be true",
+              "title_es": "Deducciones: must, can't, might",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u10-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "It's nice, isn't it?",
+              "title_es": "Question tags",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u10-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Someone, anything, nobody",
+              "title_es": "Pronombres indefinidos",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u10-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A festival or tradition",
+              "title_es": "Describir una fiesta o tradición",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u10-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 10",
+              "title_es": "Checkpoint 10",
+              "status": "ready",
+              "file": "b1/unit-10/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u11",
+          "order": 11,
+          "title_es": "Relaciones y comunicación",
+          "title_target": "Relationships and communication",
+          "theme": "relationships",
+          "lessons": [
+            {
+              "id": "en-b1-u11-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Friends and feelings",
+              "title_es": "Amigos y sentimientos",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u11-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Get on, fall out, make up",
+              "title_es": "Phrasal verbs (1)",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u11-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "I see what you mean, but...",
+              "title_es": "Estar de acuerdo y discrepar con educación",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u11-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "I should have called",
+              "title_es": "Should have / shouldn't have",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u11-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "An informal letter",
+              "title_es": "Una carta o email informal",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u11-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 11",
+              "title_es": "Checkpoint 11",
+              "status": "ready",
+              "file": "b1/unit-11/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b1-u12",
+          "order": 12,
+          "title_es": "Retos y logros",
+          "title_target": "Challenges and achievements",
+          "theme": "achievements",
+          "lessons": [
+            {
+              "id": "en-b1-u12-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Overcoming challenges",
+              "title_es": "Superar dificultades",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-01.json"
+            },
+            {
+              "id": "en-b1-u12-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Although and despite",
+              "title_es": "Contraste: although, despite, however",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-02.json"
+            },
+            {
+              "id": "en-b1-u12-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "So do I, neither do I",
+              "title_es": "Respuestas cortas: so, neither",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-03.json"
+            },
+            {
+              "id": "en-b1-u12-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Tenses at a glance",
+              "title_es": "Repaso de los tiempos verbales de B1",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-04.json"
+            },
+            {
+              "id": "en-b1-u12-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Write a story",
+              "title_es": "Escribir un relato",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-05.json"
+            },
+            {
+              "id": "en-b1-u12-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Final checkpoint",
+              "title_es": "Checkpoint final de B1",
+              "status": "ready",
+              "file": "b1/unit-12/lesson-06.json"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "id": "en-b1-exam-v1",
+        "file": "b1/exam.json",
+        "pass_score": 0.75,
+        "items": 42,
+        "status": "ready"
+      }
     },
     {
       "id": "en-b2",
       "cefr": "B2",
-      "status": "planned",
+      "status": "ready",
       "est_guided_hours_cumulative": "500-600",
       "vocab_target_cumulative": 4500,
       "unit_count_target": 14,
@@ -1632,7 +2396,897 @@
         "conectores",
         "phrasal verbs"
       ],
-      "units": []
+      "units": [
+        {
+          "id": "en-b2-u01",
+          "order": 1,
+          "title_es": "Identidad y cambio",
+          "title_target": "Identity and change",
+          "theme": "identity",
+          "lessons": [
+            {
+              "id": "en-b2-u01-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Values and personality",
+              "title_es": "Valores, personalidad y carácter",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u01-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "This time next year",
+              "title_es": "Futuro continuo y futuro perfecto",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u01-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "My sister, who lives in Rome",
+              "title_es": "Oraciones de relativo explicativas",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u01-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Getting used to it",
+              "title_es": "Used to, be used to y get used to",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u01-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A personal profile",
+              "title_es": "Escribir un perfil personal",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u01-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 1",
+              "title_es": "Checkpoint 1",
+              "status": "ready",
+              "file": "b2/unit-01/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u02",
+          "order": 2,
+          "title_es": "Trabajo y futuro profesional",
+          "title_target": "Work and the future of jobs",
+          "theme": "workplace",
+          "lessons": [
+            {
+              "id": "en-b2-u02-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "The modern workplace",
+              "title_es": "El lugar de trabajo actual",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u02-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "If I had known",
+              "title_es": "Tercer condicional",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u02-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "If I were you, I'd have...",
+              "title_es": "Condicionales mixtos",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u02-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "In the meeting",
+              "title_es": "Reuniones, negociación y acuerdos",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u02-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A formal email",
+              "title_es": "Un correo formal profesional",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u02-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 2",
+              "title_es": "Checkpoint 2",
+              "status": "ready",
+              "file": "b2/unit-02/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u03",
+          "order": 3,
+          "title_es": "Medios e información",
+          "title_target": "Media and information",
+          "theme": "news",
+          "lessons": [
+            {
+              "id": "en-b2-u03-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "News, bias and fake news",
+              "title_es": "Medios, sesgo y noticias falsas",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u03-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "He is said to be...",
+              "title_es": "Pasiva con verbos de opinión",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u03-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Have it done",
+              "title_es": "La causativa: have / get something done",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u03-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Can we trust it?",
+              "title_es": "Evaluar fuentes y argumentos",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u03-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Summarising an article",
+              "title_es": "Resumir un artículo",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u03-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 3",
+              "title_es": "Checkpoint 3",
+              "status": "ready",
+              "file": "b2/unit-03/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u04",
+          "order": 4,
+          "title_es": "Ciencia y tecnología",
+          "title_target": "Science and technology",
+          "theme": "science",
+          "lessons": [
+            {
+              "id": "en-b2-u04-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Science and innovation",
+              "title_es": "Ciencia e innovación",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u04-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Bound to happen",
+              "title_es": "Predicciones: be bound to, be likely to, be about to",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u04-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "He must have left",
+              "title_es": "Deducciones sobre el pasado",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u04-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "How it works",
+              "title_es": "Describir un proceso",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u04-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Describing data",
+              "title_es": "Describir gráficos y tendencias",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u04-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 4",
+              "title_es": "Checkpoint 4",
+              "status": "ready",
+              "file": "b2/unit-04/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u05",
+          "order": 5,
+          "title_es": "Salud y bienestar mental",
+          "title_target": "Health and well-being",
+          "theme": "wellbeing",
+          "lessons": [
+            {
+              "id": "en-b2-u05-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Mind and body",
+              "title_es": "Mente, cuerpo y bienestar",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u05-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "I wish I had",
+              "title_es": "Wish e if only para el pasado y el presente",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u05-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Stop worrying",
+              "title_es": "Gerundio e infinitivo: estructuras avanzadas",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u05-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Persuading someone",
+              "title_es": "Persuadir y dar consejos con tacto",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u05-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A group discussion",
+              "title_es": "Una discusión en grupo",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u05-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 5",
+              "title_es": "Checkpoint 5",
+              "status": "ready",
+              "file": "b2/unit-05/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u06",
+          "order": 6,
+          "title_es": "Viajes y culturas",
+          "title_target": "Travel and cultures",
+          "theme": "culture-travel",
+          "lessons": [
+            {
+              "id": "en-b2-u06-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Travel and culture",
+              "title_es": "Viajes, cultura y colocaciones",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u06-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Never have I seen",
+              "title_es": "Inversión con adverbios negativos",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u06-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Depend on, believe in",
+              "title_es": "Preposiciones dependientes",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u06-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Culture shock",
+              "title_es": "Diferencias culturales y estereotipos",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u06-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A travel article",
+              "title_es": "Un artículo de viajes",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u06-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 6",
+              "title_es": "Checkpoint 6",
+              "status": "ready",
+              "file": "b2/unit-06/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u07",
+          "order": 7,
+          "title_es": "Dinero y economía",
+          "title_target": "Money and the economy",
+          "theme": "economy",
+          "lessons": [
+            {
+              "id": "en-b2-u07-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "The economy",
+              "title_es": "Economía y finanzas personales",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u07-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "He denied having...",
+              "title_es": "Estilo indirecto avanzado",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u07-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Twice as much as",
+              "title_es": "Comparaciones avanzadas y proporciones",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u07-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Phrasal verbs at work",
+              "title_es": "Phrasal verbs de negocios y dinero",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u07-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A formal complaint",
+              "title_es": "Una reclamación formal",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u07-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 7",
+              "title_es": "Checkpoint 7",
+              "status": "ready",
+              "file": "b2/unit-07/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u08",
+          "order": 8,
+          "title_es": "Educación y sociedad",
+          "title_target": "Education and society",
+          "theme": "society",
+          "lessons": [
+            {
+              "id": "en-b2-u08-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Education today",
+              "title_es": "Educación, aprendizaje y sociedad",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u08-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "It was Ana who...",
+              "title_es": "Oraciones enfáticas (cleft sentences)",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u08-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Linkers of result and purpose",
+              "title_es": "Conectores de resultado, finalidad y concesión",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u08-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Let's debate",
+              "title_es": "Debatir: turnos, concesiones y refutaciones",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u08-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "For and against",
+              "title_es": "Un ensayo a favor y en contra",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u08-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 8",
+              "title_es": "Checkpoint 8",
+              "status": "ready",
+              "file": "b2/unit-08/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u09",
+          "order": 9,
+          "title_es": "Medio ambiente y responsabilidad",
+          "title_target": "Environment and responsibility",
+          "theme": "planet",
+          "lessons": [
+            {
+              "id": "en-b2-u09-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "A sustainable future",
+              "title_es": "Sostenibilidad y energía",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u09-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "It has been done",
+              "title_es": "La pasiva avanzada",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u09-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Provided that, otherwise",
+              "title_es": "Alternativas al if en condicionales",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u09-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Making a proposal",
+              "title_es": "Hacer propuestas formales",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u09-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A report",
+              "title_es": "Redactar un informe",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u09-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 9",
+              "title_es": "Checkpoint 9",
+              "status": "ready",
+              "file": "b2/unit-09/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u10",
+          "order": 10,
+          "title_es": "Arte y creatividad",
+          "title_target": "Arts and creativity",
+          "theme": "arts",
+          "lessons": [
+            {
+              "id": "en-b2-u10-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Arts and creativity",
+              "title_es": "Arte, cine, música y literatura",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u10-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Having finished, he left",
+              "title_es": "Cláusulas de participio",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u10-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "A film I really liked",
+              "title_es": "Reseñas y recomendaciones",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u10-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "The book in which...",
+              "title_es": "Relativas con preposición y reducidas",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u10-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Writing a review",
+              "title_es": "Escribir una reseña",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u10-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 10",
+              "title_es": "Checkpoint 10",
+              "status": "ready",
+              "file": "b2/unit-10/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u11",
+          "order": 11,
+          "title_es": "Leyes y sociedad",
+          "title_target": "Law and society",
+          "theme": "law",
+          "lessons": [
+            {
+              "id": "en-b2-u11-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Law and order",
+              "title_es": "Ley, justicia y seguridad",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u11-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Needn't have, could have",
+              "title_es": "Modales en el pasado: usos completos",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u11-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "You are required to",
+              "title_es": "Obligación formal y normas",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u11-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Social issues",
+              "title_es": "Expresar opinión sobre temas sociales",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u11-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "A letter to the editor",
+              "title_es": "Una carta al director",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u11-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 11",
+              "title_es": "Checkpoint 11",
+              "status": "ready",
+              "file": "b2/unit-11/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u12",
+          "order": 12,
+          "title_es": "Relaciones y comunicación",
+          "title_target": "Communication and relationships",
+          "theme": "communication",
+          "lessons": [
+            {
+              "id": "en-b2-u12-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Saying it well",
+              "title_es": "Comunicación eficaz",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u12-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "Break the ice",
+              "title_es": "Expresiones idiomáticas",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u12-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Make, do, take, get",
+              "title_es": "Colocaciones con verbos comunes",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u12-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Tact and hedging",
+              "title_es": "Tacto, matices y atenuación",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u12-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "Giving feedback",
+              "title_es": "Dar y recibir feedback",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u12-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 12",
+              "title_es": "Checkpoint 12",
+              "status": "ready",
+              "file": "b2/unit-12/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u13",
+          "order": 13,
+          "title_es": "Aventura, riesgo y experiencias",
+          "title_target": "Adventure and risk",
+          "theme": "adventure",
+          "lessons": [
+            {
+              "id": "en-b2-u13-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Adventure and risk",
+              "title_es": "Aventura, riesgo y superación",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u13-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "It's about time",
+              "title_es": "Would rather, it's time y preferencias",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u13-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Emphasis",
+              "title_es": "Énfasis e intensificación",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u13-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "Telling a story",
+              "title_es": "Contar una historia con detalle",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u13-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "An experience in writing",
+              "title_es": "Escribir sobre una experiencia",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u13-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Checkpoint 13",
+              "title_es": "Checkpoint 13",
+              "status": "ready",
+              "file": "b2/unit-13/lesson-06.json"
+            }
+          ]
+        },
+        {
+          "id": "en-b2-u14",
+          "order": 14,
+          "title_es": "Retos globales y repaso final",
+          "title_target": "Global issues and final review",
+          "theme": "global",
+          "lessons": [
+            {
+              "id": "en-b2-u14-l01",
+              "order": 1,
+              "kind": "lesson",
+              "title_target": "Global issues",
+              "title_es": "Problemas globales y soluciones",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-01.json"
+            },
+            {
+              "id": "en-b2-u14-l02",
+              "order": 2,
+              "kind": "lesson",
+              "title_target": "B2 grammar at a glance",
+              "title_es": "Repaso de la gramática de B2",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-02.json"
+            },
+            {
+              "id": "en-b2-u14-l03",
+              "order": 3,
+              "kind": "lesson",
+              "title_target": "Paraphrase and summarise",
+              "title_es": "Parafrasear y resumir",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-03.json"
+            },
+            {
+              "id": "en-b2-u14-l04",
+              "order": 4,
+              "kind": "lesson",
+              "title_target": "A long turn",
+              "title_es": "Hablar un minuto con estructura",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-04.json"
+            },
+            {
+              "id": "en-b2-u14-l05",
+              "order": 5,
+              "kind": "lesson",
+              "title_target": "The final writing task",
+              "title_es": "La tarea final de escritura",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-05.json"
+            },
+            {
+              "id": "en-b2-u14-l06",
+              "order": 6,
+              "kind": "checkpoint",
+              "title_target": "Final checkpoint",
+              "title_es": "Checkpoint final de B2",
+              "status": "ready",
+              "file": "b2/unit-14/lesson-06.json"
+            }
+          ]
+        }
+      ],
+      "exam": {
+        "id": "en-b2-exam-v1",
+        "file": "b2/exam.json",
+        "pass_score": 0.75,
+        "items": 57,
+        "status": "ready"
+      }
     }
   ]
 }

@@ -1,0 +1,670 @@
+{
+  "id": "en-b1-u03-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 3,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "When I finish...",
+    "es": "Cláusulas de tiempo futuro"
+  },
+  "objective": "Al terminar hablas del futuro con when, as soon as, until, before y after usando el presente después de ellos, sin will.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Cuando termine, te llamaré.' En inglés, después de when, as soon as o until el verbo va en presente aunque hables del futuro: es una de las trampas más típicas."
+  },
+  "input": {
+    "type": "text",
+    "text": "Next month I'm leaving my current job and starting a new one at a software company. Before I start, I'm going to take a two-week holiday. As soon as I get back, I'll have a meeting with my new manager. I won't know my schedule until I meet her. When I have settled in, I'll look for a flat closer to the office. I'll keep my old car until I find a cheaper one. After I've saved enough money, I'll probably buy a small apartment. By the time I'm thirty, I hope I'll be in charge of my own team. If everything goes well, I'll be very happy. But I won't relax until I pass the probation period, which is three months.",
+    "es": "El mes que viene dejo mi trabajo actual y empiezo uno nuevo en una empresa de software. Antes de empezar, voy a tomarme dos semanas de vacaciones. En cuanto vuelva, tendré una reunión con mi nueva jefa. No sabré mi horario hasta que la conozca. Cuando me haya instalado, buscaré un piso más cerca de la oficina. Me quedaré con mi coche viejo hasta que encuentre uno más barato. Después de haber ahorrado lo suficiente, probablemente compraré un pequeño apartamento. Para cuando tenga treinta años, espero estar al frente de mi propio equipo. Si todo va bien, estaré muy feliz. Pero no me relajaré hasta que supere el periodo de prueba, que dura tres meses.",
+    "glossary": [
+      {
+        "id": "en-current",
+        "lemma": "current",
+        "pos": "adj",
+        "ipa": "/ˈkʌrənt/",
+        "es": "actual",
+        "example": "My current job is tiring."
+      },
+      {
+        "id": "en-software",
+        "lemma": "software",
+        "pos": "noun",
+        "ipa": "/ˈsɒftweə/",
+        "es": "software, programa",
+        "example": "She works for a software company."
+      },
+      {
+        "id": "en-settle-in",
+        "lemma": "settle in",
+        "pos": "phrasal verb",
+        "ipa": "/ˈsetl ɪn/",
+        "es": "instalarse, adaptarse",
+        "example": "I'm still settling in."
+      },
+      {
+        "id": "en-as-soon-as",
+        "lemma": "as soon as",
+        "pos": "phrase",
+        "ipa": "/əz suːn əz/",
+        "es": "en cuanto",
+        "example": "I'll call you as soon as I arrive."
+      },
+      {
+        "id": "en-until",
+        "lemma": "until",
+        "pos": "conj",
+        "ipa": "/ənˈtɪl/",
+        "es": "hasta que",
+        "example": "Wait until I finish."
+      },
+      {
+        "id": "en-before",
+        "lemma": "before",
+        "pos": "conj",
+        "ipa": "/bɪˈfɔː/",
+        "es": "antes de que",
+        "example": "Call me before you leave."
+      },
+      {
+        "id": "en-probation-period",
+        "lemma": "probation period",
+        "pos": "noun",
+        "ipa": "/prəˈbeɪʃn ˈpɪəriəd/",
+        "es": "periodo de prueba",
+        "example": "The probation period lasts three months."
+      },
+      {
+        "id": "en-save",
+        "lemma": "save",
+        "pos": "verb",
+        "ipa": "/seɪv/",
+        "es": "ahorrar",
+        "example": "I'm saving money."
+      },
+      {
+        "id": "en-by-the-time",
+        "lemma": "by the time",
+        "pos": "phrase",
+        "ipa": "/baɪ ðə taɪm/",
+        "es": "para cuando",
+        "example": "By the time I'm thirty, I'll be a manager."
+      },
+      {
+        "id": "en-probably",
+        "lemma": "probably",
+        "pos": "adv",
+        "ipa": "/ˈprɒbəbli/",
+        "es": "probablemente",
+        "example": "I'll probably go."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cláusulas de tiempo con futuro**\n\nDespués de estas palabras, **no se usa will**: se usa el **presente simple** (o presente perfecto) aunque hables del futuro.\n\n| Palabra | Ejemplo |\n|---|---|\n| **when** | *When I **finish**, I'll call you.* |\n| **as soon as** | *I'll tell you **as soon as** I **know**.* |\n| **until / till** | *Wait here **until** I **come** back.* |\n| **before** | *I'll lock the door **before** I **leave**.* |\n| **after** | *After I **have eaten**, I'll go out.* |\n| **by the time** | ***By the time** you **arrive**, I'll be gone.* |\n\n**La otra parte** de la frase sí lleva will, going to o un imperativo: *When I finish, **I'll call** you.*\n\n**Presente simple o presente perfecto**\n\n- *As soon as I **finish**, I'll call.* (finish)\n- *As soon as I **have finished**, I'll call.* (haber terminado → acción completada antes)\n\n**Ojo: when vs if**\n\n- *When I get the job* = estoy seguro de que lo conseguiré.\n- *If I get the job* = puede que sí, puede que no.\n\n**Error clásico:** ✘ *When I will finish* → ✔ *When I finish*. Lo mismo con *as soon as I will arrive*.\n\nPronunciación: *until* /ənˈtɪl/ · *probation* /prəˈbeɪʃn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "When I will finish, I'll call.",
+        "right": "When I finish, I'll call.",
+        "note": "Después de when: presente."
+      },
+      {
+        "wrong": "I'll wait until she will arrive.",
+        "right": "I'll wait until she arrives.",
+        "note": "Después de until: presente."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u03-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hará el narrador antes de empezar el nuevo trabajo?",
+      "options": [
+        "Tomarse dos semanas de vacaciones",
+        "Comprar un piso",
+        "Empezar de inmediato",
+        "Buscar otro empleo"
+      ],
+      "answer": [
+        "Tomarse dos semanas de vacaciones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Before I start, I'm going to take a two-week holiday.",
+        "incorrect": "Revisa esto: Dice: Before I start, I'm going to take a two-week holiday."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo sabrá su horario?",
+      "options": [
+        "Cuando conozca a su jefa",
+        "Mañana",
+        "Al final del periodo de prueba",
+        "Cuando se mude"
+      ],
+      "answer": [
+        "Cuando conozca a su jefa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I won't know my schedule until I meet her.",
+        "incorrect": "Revisa esto: Dice: I won't know my schedule until I meet her."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 15,
+      "prompt": "El periodo de prueba dura un mes.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que dura tres meses.",
+        "incorrect": "Revisa esto: Dice que dura tres meses."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll call you as soon as I ___ there.",
+      "options": [
+        "get",
+        "will get",
+        "am going to get",
+        "got"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de as soon as: presente.",
+        "incorrect": "Revisa esto: Después de as soon as: presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "When she ___ home, she'll cook dinner.",
+      "options": [
+        "gets",
+        "will get",
+        "got",
+        "is getting"
+      ],
+      "answer": [
+        "gets"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de when: presente.",
+        "incorrect": "Revisa esto: Después de when: presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "We won't start ___ everybody arrives.",
+      "options": [
+        "until",
+        "when will",
+        "as soon",
+        "while"
+      ],
+      "answer": [
+        "until"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not … until = no … hasta que.",
+        "incorrect": "Revisa esto: Not … until = no … hasta que."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "By the time you ___ , I'll have left.",
+      "options": [
+        "arrive",
+        "will arrive",
+        "arrived",
+        "arriving"
+      ],
+      "answer": [
+        "arrive"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de by the time: presente.",
+        "incorrect": "Revisa esto: Después de by the time: presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm not sure I'll pass the exam. ___ I pass, I'll celebrate.",
+      "options": [
+        "If",
+        "When",
+        "Until",
+        "After"
+      ],
+      "answer": [
+        "If"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con duda: if.",
+        "incorrect": "Revisa esto: Con duda: if."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'll send the email as soon as I ___ (finish) this report.",
+      "answer": [
+        "finish",
+        "have finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente después de as soon as.",
+        "incorrect": "Revisa esto: Presente después de as soon as."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "Don't leave ___ I tell you. (hasta que)",
+      "answer": [
+        "until"
+      ],
+      "accepted_alternatives": [
+        "till"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Until = hasta que.",
+        "incorrect": "Revisa esto: Until = hasta que."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "Open ___ door, please. (la puerta que ya conocemos)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Algo específico y conocido: the.",
+        "incorrect": "Revisa esto: Algo específico y conocido: the."
+      },
+      "review_of": "en-a1-u11-l03-ex03"
+    },
+    {
+      "id": "en-b1-u03-l02-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When I will arrive, I'll call you.",
+      "answer": [
+        "When I arrive, I'll call you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de when no se usa will.",
+        "incorrect": "Revisa esto: Después de when no se usa will."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll wait until she will come.",
+      "answer": [
+        "I'll wait until she comes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de until: presente.",
+        "incorrect": "Revisa esto: Después de until: presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "No tienes dinero y alguien te lo ofrece. Decides en ese momento: 'Thanks! I ___ take it.'",
+      "options": [
+        "'ll",
+        "'m going to",
+        "might to",
+        "am"
+      ],
+      "answer": [
+        "'ll"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Decisión en el momento: will.",
+        "incorrect": "Revisa esto: Decisión en el momento: will."
+      },
+      "review_of": "en-a2-u05-l04-ex02"
+    },
+    {
+      "id": "en-b1-u03-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you doing at ten last night?",
+      "options": [
+        "were",
+        "was",
+        "did",
+        "are"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you se usa were.",
+        "incorrect": "Revisa esto: Con you se usa were."
+      },
+      "review_of": "en-a2-u09-l02-ex03"
+    },
+    {
+      "id": "en-b1-u03-l02-ex13",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "as",
+        "I",
+        "get",
+        "the",
+        "job",
+        ",",
+        "I'll",
+        "tell",
+        "you",
+        ".",
+        "As",
+        "soon"
+      ],
+      "answer": [
+        "As",
+        "soon",
+        "as",
+        "I",
+        "get",
+        "the",
+        "job",
+        ",",
+        "I'll",
+        "tell",
+        "you",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente, will + verbo.",
+        "incorrect": "Revisa esto: As soon as + presente, will + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo buscará un piso?",
+      "options": [
+        "Cuando gane más",
+        "Mañana",
+        "Cuando termine la carrera",
+        "Nunca"
+      ],
+      "answer": [
+        "Cuando gane más"
+      ],
+      "audio_text": "I'll look for a new flat when I get a bigger salary. Until then, I'll stay with my parents.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: when I get a bigger salary.",
+        "incorrect": "Revisa esto: Dice: when I get a bigger salary."
+      },
+      "audio_script_id": "en-b1-u03-l02-ex14-a"
+    },
+    {
+      "id": "en-b1-u03-l02-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Te llamaré en cuanto llegue a casa.",
+      "answer": [
+        "I'll call you as soon as I get home.",
+        "I will call you as soon as I get home.",
+        "I'll call you as soon as I arrive home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente.",
+        "incorrect": "Revisa esto: As soon as + presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I work there two years ago.",
+      "answer": [
+        "I worked there two years ago."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ago indica pasado: pasado simple.",
+        "incorrect": "Revisa esto: Ago indica pasado: pasado simple."
+      },
+      "review_of": "en-a2-u07-l04-ex08"
+    },
+    {
+      "id": "en-b1-u03-l02-ex16",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 3,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "I won't relax until I pass the probation period.",
+      "answer": [
+        "I won't relax until I pass the probation period."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Until + presente.",
+        "incorrect": "Revisa esto: Until + presente."
+      },
+      "audio_script_id": "en-b1-u03-l02-ex16-a"
+    },
+    {
+      "id": "en-b1-u03-l02-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me duele la garganta y tengo tos.",
+      "answer": [
+        "I've got a sore throat and a cough.",
+        "My throat hurts and I've got a cough.",
+        "I have a sore throat and a cough."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: sore throat + cough.",
+        "incorrect": "Revisa esto: Dos síntomas: sore throat + cough."
+      },
+      "review_of": "en-a2-u06-l02-ex10"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "When I finish, I'll …",
+      "as soon as I get … · until I find …",
+      "before I leave · after I've eaten",
+      "by the time I'm thirty …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-current"
+    },
+    {
+      "type": "vocab",
+      "id": "en-software"
+    },
+    {
+      "type": "vocab",
+      "id": "en-settle-in"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-soon-as"
+    },
+    {
+      "type": "vocab",
+      "id": "en-until"
+    },
+    {
+      "type": "vocab",
+      "id": "en-before"
+    },
+    {
+      "type": "vocab",
+      "id": "en-probation-period"
+    },
+    {
+      "type": "vocab",
+      "id": "en-save"
+    },
+    {
+      "type": "vocab",
+      "id": "en-by-the-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-probably"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-time-clauses"
+    }
+  ]
+}

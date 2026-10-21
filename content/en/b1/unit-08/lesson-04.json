@@ -1,0 +1,752 @@
+{
+  "id": "en-b1-u08-l04",
+  "language": "en",
+  "level": "B1",
+  "unit": 8,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "How to learn better",
+    "es": "Cómo aprender mejor"
+  },
+  "objective": "Al terminar das y entiendes consejos de estudio con vocabulario preciso (memoria, concentración, horario) y estructuras variadas.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No me concentro', 'se me olvida todo'. Hay técnicas que funcionan y frases en inglés para aconsejar y explicarlas."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ruth",
+        "text": "I can't concentrate when I study. My mind wanders after ten minutes.",
+        "es": "No me concentro cuando estudio. Mi mente divaga a los diez minutos."
+      },
+      {
+        "speaker": "Aaron",
+        "text": "Try the Pomodoro technique: work for twenty-five minutes, then take a five-minute break.",
+        "es": "Prueba la técnica Pomodoro: trabaja veinticinco minutos y descansa cinco."
+      },
+      {
+        "speaker": "Ruth",
+        "text": "And what about memorising vocabulary? I forget everything the next day.",
+        "es": "¿Y para memorizar vocabulario? Lo olvido todo al día siguiente."
+      },
+      {
+        "speaker": "Aaron",
+        "text": "Don't just read the list. Make flashcards, say the words aloud and review them at regular intervals, like after one day, three days and a week.",
+        "es": "No leas solo la lista. Haz tarjetas, di las palabras en voz alta y repásalas a intervalos regulares: tras un día, tres días y una semana."
+      },
+      {
+        "speaker": "Ruth",
+        "text": "Does it help to study late at night?",
+        "es": "¿Ayuda estudiar de noche?"
+      },
+      {
+        "speaker": "Aaron",
+        "text": "Not really. You'd better get enough sleep, because your brain stores information while you sleep.",
+        "es": "No mucho. Más te vale dormir lo suficiente, porque el cerebro almacena información mientras duermes."
+      },
+      {
+        "speaker": "Ruth",
+        "text": "I should also organise my notes. They're a mess.",
+        "es": "También debería organizar mis apuntes. Son un desastre."
+      },
+      {
+        "speaker": "Aaron",
+        "text": "Use colours and mind maps. And study with a friend: explaining things to someone else helps you learn.",
+        "es": "Usa colores y mapas mentales. Y estudia con un amigo: explicar a otra persona ayuda a aprender."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-concentrate",
+        "lemma": "concentrate",
+        "pos": "verb",
+        "ipa": "/ˈkɒnsntreɪt/",
+        "es": "concentrarse",
+        "example": "I can't concentrate."
+      },
+      {
+        "id": "en-wander",
+        "lemma": "wander",
+        "pos": "verb",
+        "ipa": "/ˈwɒndə/",
+        "es": "divagar, vagar",
+        "example": "My mind wanders."
+      },
+      {
+        "id": "en-technique",
+        "lemma": "technique",
+        "pos": "noun",
+        "ipa": "/tekˈniːk/",
+        "es": "técnica",
+        "example": "A study technique."
+      },
+      {
+        "id": "en-memorise",
+        "lemma": "memorise",
+        "pos": "verb",
+        "ipa": "/ˈmeməraɪz/",
+        "es": "memorizar",
+        "example": "Memorise ten words."
+      },
+      {
+        "id": "en-flashcard",
+        "lemma": "flashcard",
+        "pos": "noun",
+        "ipa": "/ˈflæʃkɑːd/",
+        "es": "tarjeta de estudio",
+        "example": "I make flashcards."
+      },
+      {
+        "id": "en-aloud",
+        "lemma": "aloud",
+        "pos": "adv",
+        "ipa": "/əˈlaʊd/",
+        "es": "en voz alta",
+        "example": "Read it aloud."
+      },
+      {
+        "id": "en-regular",
+        "lemma": "regular",
+        "pos": "adj",
+        "ipa": "/ˈreɡjələ/",
+        "es": "regular",
+        "example": "At regular intervals."
+      },
+      {
+        "id": "en-brain",
+        "lemma": "brain",
+        "pos": "noun",
+        "ipa": "/breɪn/",
+        "es": "cerebro",
+        "example": "Your brain needs sleep."
+      },
+      {
+        "id": "en-store",
+        "lemma": "store",
+        "pos": "verb",
+        "ipa": "/stɔː/",
+        "es": "almacenar",
+        "example": "The brain stores information."
+      },
+      {
+        "id": "en-mind-map",
+        "lemma": "mind map",
+        "pos": "noun",
+        "ipa": "/maɪnd mæp/",
+        "es": "mapa mental",
+        "example": "Draw a mind map."
+      },
+      {
+        "id": "en-break",
+        "lemma": "break",
+        "pos": "noun",
+        "ipa": "/breɪk/",
+        "es": "descanso",
+        "example": "Take a five-minute break."
+      },
+      {
+        "id": "en-a-mess",
+        "lemma": "a mess",
+        "pos": "noun",
+        "ipa": "/ə mes/",
+        "es": "un desastre",
+        "example": "My notes are a mess."
+      }
+    ],
+    "audio_script_id": "en-b1-u08-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Consejos de estudio (con estructuras)**\n\n| Estructura | Ejemplo |\n|---|---|\n| *Imperativo* | *Make flashcards. Review them regularly.* |\n| *You should / shouldn't …* | *You should take breaks.* |\n| *You'd better …* | *You'd better sleep more.* |\n| *It helps to + verbo* | *It helps to study with a friend.* |\n| *It's a good idea to …* | *It's a good idea to make a timetable.* |\n| *Try + -ing* | *Try studying in the morning.* |\n| *If you …, you'll …* | *If you review often, you'll remember more.* |\n\n**Técnicas de estudio**\n\n- **Pomodoro:** 25 min de trabajo + 5 de pausa.\n- **Spaced repetition** (repaso espaciado): repasar tras 1, 3 y 7 días.\n- **Active recall:** cerrar el libro y tratar de recordar.\n- **Mind maps:** esquemas con colores y dibujos.\n- **Teaching others:** explicar lo aprendido.\n\n**Hablar de tu forma de estudiar**\n\n- *I'm a visual / auditory learner.* (aprendo viendo / escuchando)\n- *I prefer studying in the morning.* · *I study better with music.*\n- *It takes me an hour to memorise a list.* (it takes + persona + tiempo)\n- *I find it difficult to concentrate.* · *I'm easily distracted.*\n\n**Ojo:** *study* es el esfuerzo (*I study English*); *learn* es el resultado (*I learned a new word*). *Memorise* es 'memorizar'; *remember* es 'recordar'; *remind* es 'recordar a alguien'. *Concentrate on* + -ing / sustantivo.\n\nPronunciación: *technique* /tekˈniːk/ · *concentrate* /ˈkɒnsntreɪt/ · *brain* /breɪn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It takes me two hours for study.",
+        "right": "It takes me two hours to study.",
+        "note": "Takes + to."
+      },
+      {
+        "wrong": "I'm good in remembering.",
+        "right": "I'm good at remembering.",
+        "note": "Good at."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u08-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le recomienda Aaron para concentrarse?",
+      "options": [
+        "La técnica Pomodoro",
+        "Beber café",
+        "Estudiar de noche",
+        "Escuchar música alta"
+      ],
+      "answer": [
+        "La técnica Pomodoro"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Try the Pomodoro technique.",
+        "incorrect": "Revisa esto: Dice: Try the Pomodoro technique."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo debe repasar el vocabulario?",
+      "options": [
+        "Tras un día, tres días y una semana",
+        "Cada hora",
+        "Una vez al mes",
+        "Solo antes del examen"
+      ],
+      "answer": [
+        "Tras un día, tres días y una semana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: after one day, three days and a week.",
+        "incorrect": "Revisa esto: Dice: after one day, three days and a week."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué problema tiene?",
+      "options": [
+        "He lost the receipt",
+        "The shoes are faulty",
+        "The shoes are too big",
+        "He wants a refund"
+      ],
+      "answer": [
+        "He lost the receipt"
+      ],
+      "audio_text": "I bought these shoes last week, but they're too small. I've lost my receipt, I'm afraid. Can I still exchange them?",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I've lost my receipt'.",
+        "incorrect": "Revisa esto: Dice 'I've lost my receipt'."
+      },
+      "audio_script_id": "en-b1-u08-l04-rv01-a",
+      "review_of": "en-a2-u11-l04-ex10"
+    },
+    {
+      "id": "en-b1-u08-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué conviene dormir bien?",
+      "options": [
+        "El cerebro almacena información mientras dormimos",
+        "Para no tener sueño",
+        "Porque da energía",
+        "Porque ayuda con los apuntes"
+      ],
+      "answer": [
+        "El cerebro almacena información mientras dormimos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: your brain stores information while you sleep.",
+        "incorrect": "Revisa esto: Dice: your brain stores information while you sleep."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "can"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ swim. (puede)",
+      "answer": [
+        "can"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can es igual para todas las personas.",
+        "incorrect": "Revisa esto: Can es igual para todas las personas."
+      },
+      "review_of": "en-a1-u09-l02-ex01"
+    },
+    {
+      "id": "en-b1-u08-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 15,
+      "prompt": "Aaron dice que estudiar de noche ayuda mucho.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Not really'.",
+        "incorrect": "Revisa esto: Dice 'Not really'."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "Try ___ your notes in different colours.",
+      "options": [
+        "writing",
+        "to write",
+        "write",
+        "wrote"
+      ],
+      "answer": [
+        "writing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try + -ing = probar.",
+        "incorrect": "Revisa esto: Try + -ing = probar."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "It helps ___ with a friend.",
+      "options": [
+        "to study",
+        "studying to",
+        "study",
+        "for study"
+      ],
+      "answer": [
+        "to study"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It helps to + verbo.",
+        "incorrect": "Revisa esto: It helps to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ me an hour to learn ten new words.",
+      "options": [
+        "takes",
+        "needs",
+        "spends",
+        "lasts"
+      ],
+      "answer": [
+        "takes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It takes + persona + tiempo.",
+        "incorrect": "Revisa esto: It takes + persona + tiempo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "You'd better ___ enough sleep before the exam.",
+      "options": [
+        "get",
+        "to get",
+        "getting",
+        "got"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better + verbo.",
+        "incorrect": "Revisa esto: Had better + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "I always forget words. I can't ___ them.",
+      "options": [
+        "remember",
+        "remind",
+        "remove",
+        "memories"
+      ],
+      "answer": [
+        "remember"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Remember = recordar.",
+        "incorrect": "Revisa esto: Remember = recordar."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "What ___ you doing at ten last night?",
+      "options": [
+        "were",
+        "was",
+        "did",
+        "are"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con you se usa were.",
+        "incorrect": "Revisa esto: Con you se usa were."
+      },
+      "review_of": "en-a2-u09-l02-ex03"
+    },
+    {
+      "id": "en-b1-u08-l04-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 25,
+      "prompt": "I find it difficult to ___ (concentrate) at night.",
+      "answer": [
+        "concentrate"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Find it difficult to.",
+        "incorrect": "Revisa esto: Find it difficult to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-rv04",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ fish. (me encanta)",
+      "answer": [
+        "love"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Love = encantar, amar.",
+        "incorrect": "Revisa esto: Love = encantar, amar."
+      },
+      "review_of": "en-a1-u05-l03-ex01"
+    },
+    {
+      "id": "en-b1-u08-l04-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "describing-clothes"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is wearing a hat every day.",
+      "answer": [
+        "She wears a hat every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every day indica hábito: presente simple.",
+        "incorrect": "Revisa esto: Every day indica hábito: presente simple."
+      },
+      "review_of": "en-a2-u11-l03-ex08"
+    },
+    {
+      "id": "en-b1-u08-l04-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 25,
+      "prompt": "Take a ___ every 25 minutes. (descanso)",
+      "answer": [
+        "break"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take a break.",
+        "incorrect": "Revisa esto: Take a break."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It takes me two hours for memorise this.",
+      "answer": [
+        "It takes me two hours to memorise this."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It takes + tiempo + to.",
+        "incorrect": "Revisa esto: It takes + tiempo + to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm good in remembering names.",
+      "answer": [
+        "I'm good at remembering names."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good at + -ing.",
+        "incorrect": "Revisa esto: Good at + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un compañero tiene problemas para estudiar.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I can't concentrate when I study. Any advice?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Try studying for twenty-five minutes and then taking a break. It helps to put your phone away.",
+            "You try to study twenty-five minutes and take break. It helps put phone.",
+            "I think you stop to study."
+          ],
+          "best": 0,
+          "why_es": "Try + -ing; It helps to."
+        },
+        {
+          "speaker": "Friend",
+          "text": "And how can I remember vocabulary?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "You'd better make flashcards and review them regularly.",
+            "You had better to make flashcards and review they every day.",
+            "Make cards and look."
+          ],
+          "best": 0,
+          "why_es": "Had better + verbo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (6 a 8 frases) aconsejando a un amigo cómo prepararse para un examen: horario, descansos, técnicas y sueño.",
+      "min_words": 49,
+      "self_check_es": [
+        "¿Usaste consejos con should / try -ing / it helps to?",
+        "¿Mencionaste descansos y técnica?",
+        "¿Hablaste del sueño?",
+        "¿Usaste conectores?"
+      ],
+      "model_answer": "If you want to pass the exam, you should make a timetable. Study for twenty-five minutes and then take a five-minute break. Try making flashcards and reviewing them regularly. It also helps to study with a friend. You'd better get enough sleep, because your brain stores information while you sleep. Don't forget to drink water and eat well!",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u08-l04-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si tuviera más dinero, viajaría más.",
+      "answer": [
+        "If I had more money, I would travel more.",
+        "If I had more money, I'd travel more."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + pasado, would.",
+        "incorrect": "Revisa esto: If + pasado, would."
+      },
+      "review_of": "en-b1-u06-l02-ex17"
+    },
+    {
+      "id": "en-b1-u08-l04-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dress-advice"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "You should wear something smart.",
+        "You should to wear smart.",
+        "You shoulds wear smart.",
+        "You should wearing smart."
+      ],
+      "answer": [
+        "You should wear something smart."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should + verbo base.",
+        "incorrect": "Revisa esto: Should + verbo base."
+      },
+      "review_of": "en-a2-u11-l06-ex07"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Try studying … · It helps to …",
+      "You'd better get enough sleep.",
+      "It takes me … to …",
+      "I find it difficult to concentrate."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-concentrate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wander"
+    },
+    {
+      "type": "vocab",
+      "id": "en-technique"
+    },
+    {
+      "type": "vocab",
+      "id": "en-memorise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-flashcard"
+    },
+    {
+      "type": "vocab",
+      "id": "en-aloud"
+    },
+    {
+      "type": "vocab",
+      "id": "en-regular"
+    },
+    {
+      "type": "vocab",
+      "id": "en-brain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-store"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mind-map"
+    },
+    {
+      "type": "grammar",
+      "id": "en-study-skills"
+    }
+  ]
+}

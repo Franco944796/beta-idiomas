@@ -1,0 +1,863 @@
+{
+  "id": "en-b2-u02-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 2,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "In the meeting",
+    "es": "Reuniones, negociación y acuerdos"
+  },
+  "objective": "Al terminar participas en una reunión: das tu opinión, interrumpes con educación, pides aclaraciones y propones acuerdos.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En una reunión, el idioma es tan importante como las ideas. Necesitas frases para empezar, opinar, interrumpir, resumir y cerrar sin sonar brusco."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Chair",
+        "text": "Right, shall we get started? The main item today is the delay in the product launch. Karen, would you like to begin?",
+        "es": "Bien, ¿empezamos? El punto principal de hoy es el retraso en el lanzamiento del producto. Karen, ¿quieres empezar?"
+      },
+      {
+        "speaker": "Karen",
+        "text": "Thanks. As you know, the supplier has postponed the delivery by two weeks. In my view, we should consider an alternative supplier.",
+        "es": "Gracias. Como sabéis, el proveedor ha aplazado la entrega dos semanas. En mi opinión, deberíamos considerar un proveedor alternativo."
+      },
+      {
+        "speaker": "Luis",
+        "text": "Sorry to interrupt, but could I just add something? Changing suppliers now would be risky. We'd have to renegotiate the whole contract.",
+        "es": "Perdón por interrumpir, ¿puedo añadir algo? Cambiar de proveedor ahora sería arriesgado. Tendríamos que renegociar todo el contrato."
+      },
+      {
+        "speaker": "Karen",
+        "text": "That's a fair point. However, if we do nothing, we'll miss the deadline. What do you suggest?",
+        "es": "Es un buen argumento. Sin embargo, si no hacemos nada, no cumpliremos el plazo. ¿Qué propones?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "I'd suggest asking the current supplier for a discount and a guaranteed new date. If they refuse, we can look at alternatives.",
+        "es": "Sugeriría pedir al proveedor actual un descuento y una nueva fecha garantizada. Si se niegan, podemos mirar alternativas."
+      },
+      {
+        "speaker": "Chair",
+        "text": "Could you clarify what you mean by 'guaranteed'? Do you mean in writing?",
+        "es": "¿Podrías aclarar qué quieres decir con 'garantizada'? ¿Te refieres a por escrito?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "Yes, exactly. A written commitment with a penalty clause.",
+        "es": "Sí, exacto. Un compromiso por escrito con una cláusula de penalización."
+      },
+      {
+        "speaker": "Chair",
+        "text": "Good. So, to sum up: we'll contact the supplier, request a discount and a written date, and review the situation on Friday. Does everyone agree?",
+        "es": "Bien. Para resumir: contactaremos con el proveedor, pediremos un descuento y una fecha por escrito, y revisaremos la situación el viernes. ¿Estamos todos de acuerdo?"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-get-started",
+        "lemma": "get started",
+        "pos": "phrase",
+        "ipa": "/ɡet ˈstɑːtɪd/",
+        "es": "empezar",
+        "example": "Shall we get started?"
+      },
+      {
+        "id": "en-item",
+        "lemma": "item",
+        "pos": "noun",
+        "ipa": "/ˈaɪtəm/",
+        "es": "punto (del orden del día)",
+        "example": "The first item."
+      },
+      {
+        "id": "en-postpone",
+        "lemma": "postpone",
+        "pos": "verb",
+        "ipa": "/pəʊsˈpəʊn/",
+        "es": "aplazar",
+        "example": "They postponed the launch."
+      },
+      {
+        "id": "en-in-my-view",
+        "lemma": "in my view",
+        "pos": "phrase",
+        "ipa": "/ɪn maɪ vjuː/",
+        "es": "en mi opinión",
+        "example": "In my view, it's risky."
+      },
+      {
+        "id": "en-interrupt",
+        "lemma": "interrupt",
+        "pos": "verb",
+        "ipa": "/ˌɪntəˈrʌpt/",
+        "es": "interrumpir",
+        "example": "Sorry to interrupt."
+      },
+      {
+        "id": "en-renegotiate",
+        "lemma": "renegotiate",
+        "pos": "verb",
+        "ipa": "/ˌriːnɪˈɡəʊʃieɪt/",
+        "es": "renegociar",
+        "example": "We must renegotiate."
+      },
+      {
+        "id": "en-guaranteed",
+        "lemma": "guaranteed",
+        "pos": "adj",
+        "ipa": "/ˌɡærənˈtiːd/",
+        "es": "garantizado",
+        "example": "A guaranteed date."
+      },
+      {
+        "id": "en-penalty-clause",
+        "lemma": "penalty clause",
+        "pos": "noun",
+        "ipa": "/ˈpenəlti klɔːz/",
+        "es": "cláusula de penalización",
+        "example": "A penalty clause."
+      },
+      {
+        "id": "en-clarify",
+        "lemma": "clarify",
+        "pos": "verb",
+        "ipa": "/ˈklærəfaɪ/",
+        "es": "aclarar",
+        "example": "Can you clarify?"
+      },
+      {
+        "id": "en-sum-up",
+        "lemma": "sum up",
+        "pos": "phrasal verb",
+        "ipa": "/sʌm ʌp/",
+        "es": "resumir",
+        "example": "To sum up…"
+      },
+      {
+        "id": "en-agree-on",
+        "lemma": "agree on",
+        "pos": "phrasal verb",
+        "ipa": "/əˈɡriː ɒn/",
+        "es": "ponerse de acuerdo en",
+        "example": "We agreed on a date."
+      }
+    ],
+    "audio_script_id": "en-b2-u02-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Frases para reuniones**\n\n| Función | Frases |\n|---|---|\n| **Abrir** | *Shall we get started? · Let's begin with … · The purpose of this meeting is to …* |\n| **Dar la palabra** | *Would you like to begin? · Over to you, … · Could you update us on …?* |\n| **Opinar** | *In my view … · As I see it … · From my point of view … · I'd argue that …* |\n| **Interrumpir** | *Sorry to interrupt, but … · Could I just add something? · If I may …* |\n| **Acordar** | *I couldn't agree more. · That's exactly my point. · I'm with you on that.* |\n| **Discrepar con educación** | *I see your point, but … · I'm afraid I don't quite agree. · That's a fair point; however, …* |\n| **Pedir aclaración** | *Could you clarify what you mean by …? · Do you mean that …? · Sorry, could you repeat that?* |\n| **Proponer** | *I'd suggest … · How about + -ing? · Why don't we …? · I propose that we + verbo.* |\n| **Resumir y cerrar** | *To sum up … · So, we've agreed to … · Let's review this on Friday. · Does everyone agree?* |\n\n**Modales de cortesía**\n\n- *Would you mind + -ing?* → *Would you mind repeating that?*\n- *I was wondering if + pasado* → *I was wondering if we could postpone the deadline.*\n\n**Verbos de propuesta + patrón**\n\n- *suggest + -ing / that + sujeto + verbo base*: *I suggest meeting on Friday / I suggest (that) we meet on Friday.*\n- *propose + -ing / that…* · *recommend + -ing / that…* · *agree to + verbo* (no *-ing*).\n\n**Errores típicos**\n\n- ✘ *I suggest to meet on Friday.* → ✔ *I suggest meeting / that we meet.*\n- ✘ *I am agree.* → ✔ *I agree.*\n- ✘ *Sorry for interrupt.* → ✔ *Sorry to interrupt.*\n\n**Ojo:** *agree with* (una persona/opinión) · *agree on* (un tema) · *agree to* (una propuesta). *Discuss* no lleva *about*: ✘ *discuss about the budget* → ✔ *discuss the budget.*\n\nPronunciación: *postpone* /pəʊsˈpəʊn/ · *clarify* /ˈklærəfaɪ/ · *agenda* /əˈdʒendə/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I suggest to meet.",
+        "right": "I suggest meeting.",
+        "note": "Suggest + -ing."
+      },
+      {
+        "wrong": "discuss about the budget",
+        "right": "discuss the budget",
+        "note": "Discuss sin about."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u02-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el tema principal de la reunión?",
+      "options": [
+        "El retraso en el lanzamiento del producto",
+        "El presupuesto",
+        "Una nueva contratación",
+        "Las vacaciones"
+      ],
+      "answer": [
+        "El retraso en el lanzamiento del producto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the delay in the product launch.",
+        "incorrect": "Revisa esto: Dice: the delay in the product launch."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué propone Karen?",
+      "options": [
+        "Considerar un proveedor alternativo",
+        "Cancelar el proyecto",
+        "Contratar personal",
+        "Reducir el precio"
+      ],
+      "answer": [
+        "Considerar un proveedor alternativo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: we should consider an alternative supplier.",
+        "incorrect": "Revisa esto: Dice: we should consider an alternative supplier."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué sugiere Luis?",
+      "options": [
+        "Pedir al proveedor un descuento y una fecha garantizada",
+        "Cambiar de proveedor ya",
+        "Retrasar el lanzamiento",
+        "Pagar más"
+      ],
+      "answer": [
+        "Pedir al proveedor un descuento y una fecha garantizada"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: asking the current supplier for a discount and a guaranteed new date.",
+        "incorrect": "Revisa esto: Dice: asking the current supplier for a discount and a guaranteed new date."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "El grupo decide revisar la situación el viernes.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: review the situation on Friday.",
+        "incorrect": "Revisa esto: Dice: review the situation on Friday."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-rv01",
+      "type": "true_false",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possessive-s"
+      ],
+      "est_seconds": 15,
+      "prompt": "En 'Sue's brother', 's significa 'is'.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aquí 's indica posesión (el hermano de Sue).",
+        "incorrect": "Revisa esto: Aquí 's indica posesión (el hermano de Sue)."
+      },
+      "review_of": "en-a1-u03-l03-ex05"
+    },
+    {
+      "id": "en-b2-u02-l04-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        ".",
+        "I'm",
+        "wearing"
+      ],
+      "answer": [
+        "I'm",
+        "wearing",
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! wear + adjetivos de color + prenda.",
+        "incorrect": "Revisa esto: wear + adjetivos de color + prenda."
+      },
+      "review_of": "en-a2-u11-l01-ex08"
+    },
+    {
+      "id": "en-b2-u02-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Sorry ___ interrupt, but could I add something?",
+      "options": [
+        "to",
+        "for",
+        "that I",
+        "if I"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sorry to interrupt.",
+        "incorrect": "Revisa esto: Sorry to interrupt."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest ___ the meeting until next week.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone to",
+        "of postponing"
+      ],
+      "answer": [
+        "postponing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Plastic is ___ of the biggest problems. (uno)",
+      "answer": [
+        "one"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! One of the biggest.",
+        "incorrect": "Revisa esto: One of the biggest."
+      },
+      "review_of": "en-b1-u09-l06-ex13"
+    },
+    {
+      "id": "en-b2-u02-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest that we ___ a decision tomorrow.",
+      "options": [
+        "make",
+        "makes",
+        "made",
+        "making"
+      ],
+      "answer": [
+        "make"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest that + verbo base.",
+        "incorrect": "Revisa esto: Suggest that + verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Would you mind ___ that figure again?",
+      "options": [
+        "repeating",
+        "to repeat",
+        "repeat",
+        "repeated"
+      ],
+      "answer": [
+        "repeating"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you mind + -ing.",
+        "incorrect": "Revisa esto: Would you mind + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Please ___ the file to the shared folder.",
+      "options": [
+        "upload",
+        "download",
+        "plug",
+        "unplug"
+      ],
+      "answer": [
+        "upload"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Upload = subir.",
+        "incorrect": "Revisa esto: Upload = subir."
+      },
+      "review_of": "en-b1-u05-l01-ex08"
+    },
+    {
+      "id": "en-b2-u02-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I couldn't agree more' means...",
+      "options": [
+        "Estoy totalmente de acuerdo",
+        "No estoy de acuerdo",
+        "No entiendo",
+        "Prefiero otra idea"
+      ],
+      "answer": [
+        "Estoy totalmente de acuerdo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fórmula de acuerdo fuerte.",
+        "incorrect": "Revisa esto: Fórmula de acuerdo fuerte."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We agreed ___ a new date for the launch.",
+      "options": [
+        "on",
+        "with",
+        "to",
+        "at"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree on.",
+        "incorrect": "Revisa esto: Agree on."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "We need to ___ the budget before Friday.",
+      "options": [
+        "discuss",
+        "discuss about",
+        "discuss on",
+        "talk"
+      ],
+      "answer": [
+        "discuss"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Discuss sin preposición.",
+        "incorrect": "Revisa esto: Discuss sin preposición."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "food-culture"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's ___ to talk with your mouth full. (maleducado)",
+      "answer": [
+        "rude"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rude.",
+        "incorrect": "Revisa esto: Rude."
+      },
+      "review_of": "en-b1-u10-l01-ex12"
+    },
+    {
+      "id": "en-b2-u02-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to interrupt?",
+      "options": [
+        "Sorry to interrupt, but could I add something?",
+        "Stop talking.",
+        "That's wrong.",
+        "Listen to me."
+      ],
+      "answer": [
+        "Sorry to interrupt, but could I add something?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro cortés.",
+        "incorrect": "Revisa esto: Registro cortés."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-rv06",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "countries"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada país con su nacionalidad.",
+      "pairs": [
+        {
+          "left": "Spain",
+          "right": "Spanish"
+        },
+        {
+          "left": "Brazil",
+          "right": "Brazilian"
+        },
+        {
+          "left": "Mexico",
+          "right": "Mexican"
+        },
+        {
+          "left": "Italy",
+          "right": "Italian"
+        },
+        {
+          "left": "France",
+          "right": "French"
+        },
+        {
+          "left": "China",
+          "right": "Chinese"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende país y nacionalidad en pares.",
+        "incorrect": "Revisa esto: Aprende país y nacionalidad en pares."
+      },
+      "review_of": "en-a1-u02-l01-ex01"
+    },
+    {
+      "id": "en-b2-u02-l04-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "To ___ up: we'll contact the supplier and meet on Friday. (resumir)",
+      "answer": [
+        "sum"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sum up.",
+        "incorrect": "Revisa esto: Sum up."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "I was ___ if we could postpone the deadline. (me preguntaba)",
+      "answer": [
+        "wondering"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I was wondering if.",
+        "incorrect": "Revisa esto: I was wondering if."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I suggest to meet on Friday.",
+      "answer": [
+        "I suggest meeting on Friday.",
+        "I suggest that we meet on Friday.",
+        "I suggest we meet on Friday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing / that.",
+        "incorrect": "Revisa esto: Suggest + -ing / that."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Sorry for interrupt, but I have a question.",
+      "answer": [
+        "Sorry to interrupt, but I have a question."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sorry to interrupt.",
+        "incorrect": "Revisa esto: Sorry to interrupt."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We need to discuss about the budget.",
+      "answer": [
+        "We need to discuss the budget."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Discuss sin about.",
+        "incorrect": "Revisa esto: Discuss sin about."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál es el propósito de la reunión?",
+      "options": [
+        "Decidir quién dirigirá el nuevo proyecto",
+        "Despedir a alguien",
+        "Aprobar el presupuesto",
+        "Presentar un producto"
+      ],
+      "answer": [
+        "Decidir quién dirigirá el nuevo proyecto"
+      ],
+      "audio_text": "Thank you all for coming. The purpose of today's meeting is to decide who will lead the new project. I'd like to hear everyone's view before we vote. Maria, would you like to start?",
+      "feedback": {
+        "correct": "¡Correcto! Dice: decide who will lead the new project.",
+        "incorrect": "Revisa esto: Dice: decide who will lead the new project."
+      },
+      "audio_script_id": "en-b2-u02-l04-ex18-a"
+    },
+    {
+      "id": "en-b2-u02-l04-ex19",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una reunión y quieres añadir una opinión.",
+      "turns": [
+        {
+          "speaker": "Chair",
+          "text": "Does anyone have any comments on the proposal?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Sorry to interrupt, but could I just add something? In my view, we should wait until we have more data.",
+            "Wait. I think no.",
+            "I am agree with all."
+          ],
+          "best": 0,
+          "why_es": "Interrumpir con cortesía."
+        },
+        {
+          "speaker": "Chair",
+          "text": "That's a fair point. What would you suggest?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd suggest postponing the decision until next month.",
+            "I suggest to postpone.",
+            "Postpone."
+          ],
+          "best": 0,
+          "why_es": "Suggest + -ing."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u02-l04-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "meetings-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Perdón por interrumpir, ¿podrías aclarar qué quieres decir con 'garantizada'?",
+      "answer": [
+        "Sorry to interrupt, but could you clarify what you mean by 'guaranteed'?",
+        "Sorry to interrupt, could you clarify what you mean by 'guaranteed'?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Interrumpir + aclarar.",
+        "incorrect": "Revisa esto: Interrumpir + aclarar."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Sorry to interrupt, but …",
+      "In my view … · I'd suggest + -ing",
+      "Could you clarify what you mean by …?",
+      "To sum up … · Does everyone agree?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-get-started"
+    },
+    {
+      "type": "vocab",
+      "id": "en-item"
+    },
+    {
+      "type": "vocab",
+      "id": "en-postpone"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-my-view"
+    },
+    {
+      "type": "vocab",
+      "id": "en-interrupt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-renegotiate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-guaranteed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-penalty-clause"
+    },
+    {
+      "type": "vocab",
+      "id": "en-clarify"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sum-up"
+    },
+    {
+      "type": "grammar",
+      "id": "en-meetings-b2"
+    }
+  ]
+}

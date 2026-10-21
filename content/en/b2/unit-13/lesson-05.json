@@ -1,0 +1,956 @@
+{
+  "id": "en-b2-u13-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 13,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "An experience in writing",
+    "es": "Escribir sobre una experiencia"
+  },
+  "objective": "Al terminar escribes un relato de una experiencia personal (entrada de blog o artículo) con descripción, sentimientos, narración y reflexión final.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Escribir sobre una experiencia combina narrar, describir y reflexionar. Aprendes a elegir adjetivos vividos, a expresar emociones con matices y a cerrar con una lección o conclusión personal."
+  },
+  "input": {
+    "type": "text",
+    "text": "My first solo trip\n\nLast summer, I did something I had always been afraid of: I travelled alone. I spent ten days in Portugal with nothing but a backpack and a vague plan.\n\nThe first day was nerve-racking. I got lost three times in Lisbon's narrow, winding streets, and my phone battery died just when I needed it most. Still, there was something exhilarating about not knowing what would happen next. I ended up in a tiny café where an elderly man taught me how to order coffee in Portuguese. We couldn't understand each other's languages, yet we laughed for an hour.\n\nOver the following days, I climbed up to castles, wandered through markets and watched sunsets from rooftop bars. The sea was a deep, glittering blue, and the smell of grilled sardines drifted through every street. I felt free for the first time in years.\n\nOf course, it wasn't all perfect. One night I felt painfully lonely, and I missed my family. But looking back, those moments taught me as much as the happy ones.\n\nWhat I learned is that fear usually shrinks when you face it. Would I do it again? Without a doubt. In fact, I'm already planning my next trip.",
+    "es": "Mi primer viaje en solitario. El verano pasado hice algo que siempre me había dado miedo: viajar sola. Pasé diez días en Portugal con una mochila y un plan vago. El primer día fue angustiante. Me perdí tres veces por las estrechas y sinuosas calles de Lisboa, y la batería del móvil se agotó justo cuando más la necesitaba. Aun así, había algo emocionante en no saber qué pasaría a continuación. Acabé en un pequeño café donde un anciano me enseñó a pedir café en portugués. No entendíamos nuestros idiomas, pero nos reímos durante una hora. En los días siguientes subí a castillos, paseé por mercados y vi atardeceres desde bares en azoteas. El mar era de un azul profundo y brillante, y el olor a sardinas a la parrilla flotaba por todas las calles. Me sentí libre por primera vez en años. Por supuesto, no todo fue perfecto. Una noche me sentí dolorosamente sola y eché de menos a mi familia. Pero, mirando atrás, esos momentos me enseñaron tanto como los felices. Lo que aprendí es que el miedo suele encogerse cuando lo afrontas. ¿Lo repetiría? Sin duda. De hecho, ya estoy planeando mi próximo viaje.",
+    "glossary": [
+      {
+        "id": "en-backpack",
+        "lemma": "backpack",
+        "pos": "noun",
+        "ipa": "/ˈbækpæk/",
+        "es": "mochila",
+        "example": "A backpack."
+      },
+      {
+        "id": "en-vague",
+        "lemma": "vague",
+        "pos": "adj",
+        "ipa": "/veɪɡ/",
+        "es": "vago",
+        "example": "A vague plan."
+      },
+      {
+        "id": "en-nerve-racking",
+        "lemma": "nerve-racking",
+        "pos": "adj",
+        "ipa": "/ˈnɜːv ˌrækɪŋ/",
+        "es": "angustiante",
+        "example": "A nerve-racking day."
+      },
+      {
+        "id": "en-winding",
+        "lemma": "winding",
+        "pos": "adj",
+        "ipa": "/ˈwaɪndɪŋ/",
+        "es": "sinuoso",
+        "example": "Winding streets."
+      },
+      {
+        "id": "en-exhilarating",
+        "lemma": "exhilarating",
+        "pos": "adj",
+        "ipa": "/ɪɡˈzɪləreɪtɪŋ/",
+        "es": "emocionante",
+        "example": "Exhilarating."
+      },
+      {
+        "id": "en-wander",
+        "lemma": "wander",
+        "pos": "verb",
+        "ipa": "/ˈwɒndə/",
+        "es": "pasear sin rumbo",
+        "example": "Wander through markets."
+      },
+      {
+        "id": "en-glittering",
+        "lemma": "glittering",
+        "pos": "adj",
+        "ipa": "/ˈɡlɪtərɪŋ/",
+        "es": "brillante",
+        "example": "A glittering sea."
+      },
+      {
+        "id": "en-drift",
+        "lemma": "drift",
+        "pos": "verb",
+        "ipa": "/drɪft/",
+        "es": "flotar",
+        "example": "The smell drifted."
+      },
+      {
+        "id": "en-painfully",
+        "lemma": "painfully",
+        "pos": "adv",
+        "ipa": "/ˈpeɪnfəli/",
+        "es": "dolorosamente",
+        "example": "Painfully lonely."
+      },
+      {
+        "id": "en-shrink",
+        "lemma": "shrink",
+        "pos": "verb",
+        "ipa": "/ʃrɪŋk/",
+        "es": "encogerse",
+        "example": "Fear shrinks."
+      },
+      {
+        "id": "en-without-a-doubt",
+        "lemma": "without a doubt",
+        "pos": "phrase",
+        "ipa": "/wɪðˈaʊt ə daʊt/",
+        "es": "sin duda",
+        "example": "Without a doubt."
+      },
+      {
+        "id": "en-in-fact",
+        "lemma": "in fact",
+        "pos": "phrase",
+        "ipa": "/ɪn fækt/",
+        "es": "de hecho",
+        "example": "In fact, I'm planning."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un relato de experiencia**\n\n| Parte | Contenido | Frases útiles |\n|---|---|---|\n| **Introducción** | situar y captar interés | *Last summer, I did something I had always been afraid of…* |\n| **Desarrollo 1** | primer momento, emociones | *The first day was nerve-racking. · I felt …* |\n| **Desarrollo 2** | detalles sensoriales | *The sea was… The smell of… drifted through…* |\n| **Contraste** | dificultades | *Of course, it wasn't all perfect. · However, …* |\n| **Reflexión** | lo aprendido | *What I learned is that… · Looking back, … · It taught me that…* |\n| **Cierre** | opinión final o futuro | *Would I do it again? Without a doubt.* |\n\n**Describir con los sentidos**\n\n- Vista: *glittering, winding, deep blue, golden, towering.*\n- Oído: *distant, deafening, murmuring, silent.*\n- Olfato: *the smell of…, aroma, fragrance, stench.*\n- Gusto: *spicy, rich, bitter, mouth-watering.*\n- Tacto: *rough, smooth, freezing, warm.*\n\n**Emociones con matices**\n\n- *Nervous → nerve-racking · happy → delighted, thrilled · sad → heartbroken · tired → exhausted, drained · afraid → terrified.*\n- *I felt a mixture of excitement and fear. · I was overcome with joy.*\n\n**Adjetivos -ing y -ed**\n\n- *-ing* describe lo que produce el efecto: *an exhilarating experience.*\n- *-ed* describe cómo se siente la persona: *I was exhilarated.*\n- ✘ *I was very exciting.* → ✔ *I was very excited.*\n\n**Reflexión final**\n\n- *The experience taught me that… · If I could go back, I would… · I'll never forget… · Looking back, I realise that…*\n\n**Errores típicos**\n\n- ✘ *The trip was very tiring and I felt very excited* (mezcla) → ✔ *The trip was tiring, but I felt excited.*\n- ✘ *I was boring.* → ✔ *I was bored.* (cómo me sentí) / *I was boring.* (cómo soy)\n- ✘ *In the summer last year…* → ✔ *Last summer…*\n- ✘ *I have been in Lisbon the last year.* → ✔ *I went to Lisbon last year.*\n- ✘ *The people was friendly.* → ✔ *The people were friendly.*\n\n**Ojo:** *Experience* contable (*an experience*) = vivencia; incontable (*experience*) = práctica. *People* es plural. Evita repetir *nice* y *good*: usa *delightful, memorable, remarkable*.\n\nPronunciación: *exhilarating* /ɪɡˈzɪləreɪtɪŋ/ · *glittering* /ˈɡlɪtərɪŋ/ · *wander* /ˈwɒndə/ · *nerve-racking* /ˈnɜːv ˌrækɪŋ/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "very exciting (me sentí)",
+        "right": "very excited",
+        "note": "-ed."
+      },
+      {
+        "wrong": "The people was",
+        "right": "The people were",
+        "note": "Plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u13-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo la autora que siempre le había dado miedo?",
+      "options": [
+        "Viajar sola",
+        "Volar en avión",
+        "Nadar",
+        "Hablar en público"
+      ],
+      "answer": [
+        "Viajar sola"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I travelled alone.",
+        "incorrect": "Revisa esto: Dice: I travelled alone."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos días estuvo en Portugal?",
+      "options": [
+        "Diez",
+        "Tres",
+        "Veinte",
+        "Una semana"
+      ],
+      "answer": [
+        "Diez"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: ten days.",
+        "incorrect": "Revisa esto: Dice: ten days."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le enseñó el anciano del café?",
+      "options": [
+        "A pedir café en portugués",
+        "A cocinar",
+        "A bailar",
+        "A navegar"
+      ],
+      "answer": [
+        "A pedir café en portugués"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: order coffee in Portuguese.",
+        "incorrect": "Revisa esto: Dice: order coffee in Portuguese."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué aprendió del viaje?",
+      "options": [
+        "Que el miedo suele encogerse cuando lo afrontas",
+        "Que viajar es caro",
+        "Que Lisboa es pequeña",
+        "Que no hay que viajar sola"
+      ],
+      "answer": [
+        "Que el miedo suele encogerse cuando lo afrontas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: fear usually shrinks when you face it.",
+        "incorrect": "Revisa esto: Dice: fear usually shrinks when you face it."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 15,
+      "prompt": "La autora dice que todo fue perfecto durante el viaje.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: it wasn't all perfect.",
+        "incorrect": "Revisa esto: Dice: it wasn't all perfect."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "book",
+        ",",
+        "she",
+        "wrote",
+        "a",
+        "review",
+        ".",
+        "Having",
+        "read"
+      ],
+      "answer": [
+        "Having",
+        "read",
+        "the",
+        "book",
+        ",",
+        "she",
+        "wrote",
+        "a",
+        "review",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having + participio.",
+        "incorrect": "Revisa esto: Having + participio."
+      },
+      "review_of": "en-b2-u10-l02-ex19"
+    },
+    {
+      "id": "en-b2-u13-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The experience was absolutely ___.",
+      "options": [
+        "exhilarating",
+        "exhilarated",
+        "exhilarate",
+        "exhilaration to"
+      ],
+      "answer": [
+        "exhilarating"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ing causa efecto.",
+        "incorrect": "Revisa esto: -ing causa efecto."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-deduction"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde cree que lo perdió?",
+      "options": [
+        "De camino a casa",
+        "En el café",
+        "En el trabajo",
+        "En el coche"
+      ],
+      "answer": [
+        "De camino a casa"
+      ],
+      "audio_text": "I can't find my wallet. I had it in the café, so I must have dropped it on the way home. It can't have been stolen because I haven't been near anyone.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: must have dropped it on the way home.",
+        "incorrect": "Revisa esto: Dice: must have dropped it on the way home."
+      },
+      "audio_script_id": "en-b2-u13-l05-rv02-a",
+      "review_of": "en-b2-u04-l03-ex17"
+    },
+    {
+      "id": "en-b2-u13-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The person to who I spoke was kind.",
+      "answer": [
+        "The person to whom I spoke was kind.",
+        "The person who I spoke to was kind.",
+        "The person I spoke to was kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To whom.",
+        "incorrect": "Revisa esto: To whom."
+      },
+      "review_of": "en-b2-u10-l04-ex15"
+    },
+    {
+      "id": "en-b2-u13-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "Open ___ door, please. (la puerta que ya conocemos)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Algo específico y conocido: the.",
+        "incorrect": "Revisa esto: Algo específico y conocido: the."
+      },
+      "review_of": "en-a1-u11-l03-ex03"
+    },
+    {
+      "id": "en-b2-u13-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 25,
+      "prompt": "We're ___ of going to Greece next year. (pensando)",
+      "answer": [
+        "thinking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm thinking of + -ing.",
+        "incorrect": "Revisa esto: I'm thinking of + -ing."
+      },
+      "review_of": "en-b1-u06-l01-ex11"
+    },
+    {
+      "id": "en-b2-u13-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was really ___ by the news.",
+      "options": [
+        "shocked",
+        "shocking",
+        "shock",
+        "shocks"
+      ],
+      "answer": [
+        "shocked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed sentimiento.",
+        "incorrect": "Revisa esto: -ed sentimiento."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film was so ___ that I fell asleep.",
+      "options": [
+        "boring",
+        "bored",
+        "bore",
+        "borer"
+      ],
+      "answer": [
+        "boring"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ing causa.",
+        "incorrect": "Revisa esto: -ing causa."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ summer, I travelled to Japan.",
+      "options": [
+        "Last",
+        "The last",
+        "In last",
+        "At last"
+      ],
+      "answer": [
+        "Last"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last summer.",
+        "incorrect": "Revisa esto: Last summer."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The people I met ___ incredibly friendly.",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "has been"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People plural.",
+        "incorrect": "Revisa esto: People plural."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-law"
+      ],
+      "est_seconds": 25,
+      "prompt": "The defendant pleaded not ___ to all charges. (culpable)",
+      "answer": [
+        "guilty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Guilty.",
+        "incorrect": "Revisa esto: Guilty."
+      },
+      "review_of": "en-b2-u11-l06-ex15"
+    },
+    {
+      "id": "en-b2-u13-l05-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "Has estado una sola vez en París. Dices: 'I've been to Paris ___.'",
+      "options": [
+        "once",
+        "one",
+        "first",
+        "single"
+      ],
+      "answer": [
+        "once"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Once = una vez.",
+        "incorrect": "Revisa esto: Once = una vez."
+      },
+      "review_of": "en-a2-u08-l02-ex05"
+    },
+    {
+      "id": "en-b2-u13-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which adjective is the best for 'very beautiful'?",
+      "options": [
+        "breathtaking",
+        "nice",
+        "good",
+        "okay"
+      ],
+      "answer": [
+        "breathtaking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario preciso.",
+        "incorrect": "Revisa esto: Vocabulario preciso."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Looking back, I realise…' is used to...",
+      "options": [
+        "Reflexionar sobre el pasado",
+        "Describir el presente",
+        "Dar instrucciones",
+        "Pedir permiso"
+      ],
+      "answer": [
+        "Reflexionar sobre el pasado"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reflexión.",
+        "incorrect": "Revisa esto: Reflexión."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex13",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence uses a sensory detail?",
+      "options": [
+        "The smell of grilled sardines drifted through the streets.",
+        "It was nice.",
+        "I liked it.",
+        "It was good."
+      ],
+      "answer": [
+        "The smell of grilled sardines drifted through the streets."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Detalle sensorial.",
+        "incorrect": "Revisa esto: Detalle sensorial."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada parte del cuerpo con su traducción.",
+      "pairs": [
+        {
+          "left": "throat",
+          "right": "garganta"
+        },
+        {
+          "left": "stomach",
+          "right": "estómago"
+        },
+        {
+          "left": "back",
+          "right": "espalda"
+        },
+        {
+          "left": "tooth",
+          "right": "diente"
+        },
+        {
+          "left": "foot",
+          "right": "pie"
+        },
+        {
+          "left": "arm",
+          "right": "brazo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son las partes del cuerpo más frecuentes en una consulta.",
+        "incorrect": "Revisa esto: Son las partes del cuerpo más frecuentes en una consulta."
+      },
+      "review_of": "en-a2-u06-l01-ex01"
+    },
+    {
+      "id": "en-b2-u13-l05-rv09",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 25,
+      "prompt": "She took a long time to ___ over the break-up. (superar)",
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get over.",
+        "incorrect": "Revisa esto: Get over."
+      },
+      "review_of": "en-b1-u11-l02-ex12"
+    },
+    {
+      "id": "en-b2-u13-l05-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 25,
+      "prompt": "What I ___ is that fear shrinks when you face it. (aprendí)",
+      "answer": [
+        "learned"
+      ],
+      "accepted_alternatives": [
+        "learnt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I learned.",
+        "incorrect": "Revisa esto: What I learned."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 25,
+      "prompt": "Would I do it again? ___ a doubt. (sin)",
+      "answer": [
+        "Without"
+      ],
+      "accepted_alternatives": [
+        "without"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Without a doubt.",
+        "incorrect": "Revisa esto: Without a doubt."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was very exciting about the trip.",
+      "answer": [
+        "I was very excited about the trip."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed.",
+        "incorrect": "Revisa esto: -ed."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In the summer last year I went to Lisbon.",
+      "answer": [
+        "Last summer I went to Lisbon.",
+        "Last year in summer I went to Lisbon."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last summer.",
+        "incorrect": "Revisa esto: Last summer."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The people was very friendly and helpful.",
+      "answer": [
+        "The people were very friendly and helpful."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People plural.",
+        "incorrect": "Revisa esto: People plural."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have been in Lisbon the last year.",
+      "answer": [
+        "I went to Lisbon last year.",
+        "I was in Lisbon last year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past simple.",
+        "incorrect": "Revisa esto: Past simple."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex20",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una entrada de blog (10 a 12 frases) sobre una experiencia memorable (un viaje, una aventura, un reto). Incluye una introducción que capte interés, detalles sensoriales, un momento difícil, adjetivos -ed/-ing y una reflexión final con 'What I learned is that…'.",
+      "min_words": 97,
+      "self_check_es": [
+        "¿Captas el interés al inicio?",
+        "¿Incluyes detalles sensoriales?",
+        "¿Usas adjetivos -ed/-ing correctamente?",
+        "¿Cierras con una reflexión?"
+      ],
+      "model_answer": "Last winter, I did something I had never imagined: I spent a weekend in a mountain refuge without electricity. The first evening was nerve-racking, because the temperature dropped below zero and the wind was howling. However, there was something exhilarating about sitting around the fire and playing cards by candlelight. The smell of woodsmoke filled the tiny room, and the stars outside were breathtaking. Of course, it wasn't all perfect. On the second morning I woke up freezing, and I missed my warm bed. Looking back, though, those uncomfortable moments made the experience unforgettable. What I learned is that comfort is not always what makes us happy. Would I do it again? Without a doubt.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué aprendió el hablante?",
+      "options": [
+        "Que puedes hacer más de lo que piensas",
+        "Que Escocia es fría",
+        "Que caminar es aburrido",
+        "Que no hay que viajar"
+      ],
+      "answer": [
+        "Que puedes hacer más de lo que piensas"
+      ],
+      "audio_text": "The best trip of my life was a walk across Scotland. Every day was different: one morning I was soaked by the rain, and by the afternoon I was sunbathing by a lake. I felt exhausted but proud. What I learned is that you can do much more than you think.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: you can do much more than you think.",
+        "incorrect": "Revisa esto: Dice: you can do much more than you think."
+      },
+      "audio_script_id": "en-b2-u13-l05-ex21-a"
+    },
+    {
+      "id": "en-b2-u13-l05-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "experience-writing"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mirando atrás, me di cuenta de que aquel viaje agotador me había enseñado más que cualquier libro.",
+      "answer": [
+        "Looking back, I realised that that exhausting trip had taught me more than any book.",
+        "Looking back, I realised that the exhausting trip had taught me more than any book."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reflexión.",
+        "incorrect": "Revisa esto: Reflexión."
+      }
+    },
+    {
+      "id": "en-b2-u13-l05-rv10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Failure to pay may result in a fine' means...",
+      "options": [
+        "Si no pagas, puedes recibir una multa",
+        "Pagar es opcional",
+        "La multa es un premio",
+        "No hay sanción"
+      ],
+      "answer": [
+        "Si no pagas, puedes recibir una multa"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consecuencia.",
+        "incorrect": "Revisa esto: Consecuencia."
+      },
+      "review_of": "en-b2-u11-l03-ex14"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Last summer, I did something …",
+      "The smell of … drifted through …",
+      "It wasn't all perfect.",
+      "What I learned is that …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-backpack"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vague"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nerve-racking"
+    },
+    {
+      "type": "vocab",
+      "id": "en-winding"
+    },
+    {
+      "type": "vocab",
+      "id": "en-exhilarating"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wander"
+    },
+    {
+      "type": "vocab",
+      "id": "en-glittering"
+    },
+    {
+      "type": "vocab",
+      "id": "en-drift"
+    },
+    {
+      "type": "vocab",
+      "id": "en-painfully"
+    },
+    {
+      "type": "vocab",
+      "id": "en-shrink"
+    },
+    {
+      "type": "grammar",
+      "id": "en-experience-writing"
+    }
+  ]
+}

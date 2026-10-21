@@ -1,0 +1,785 @@
+{
+  "id": "en-b1-u07-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 7,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 7",
+    "es": "Checkpoint 7"
+  },
+  "objective": "Al terminar demuestras que hablas de dinero y reportas lo que otros dijeron, con verbos de reporte y reclamaciones.",
+  "est_minutes": 40,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 7: vocabulario del dinero, estilo indirecto (afirmaciones, preguntas, órdenes), verbos de reporte y atención al cliente."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario del dinero, estilo indirecto con cambio de tiempos, preguntas indirectas con if / whether, órdenes con to, verbos de reporte y reclamaciones.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 7**\n\n- *earn · spend · save · borrow · lend · pay back · owe*\n- *She said she was tired. · He told me that he had called. · will → would*\n- *She asked where I lived. · He asked if I was ready. · She told me to wait.*\n- *promise / offer + to · advise / warn + persona + to · suggest / admit + -ing*\n- *I'd like a refund. · I was charged twice. · Could you confirm by email?*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u07-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Dinero que entra o que sale?",
+      "categories": [
+        "Money in",
+        "Money out"
+      ],
+      "items": [
+        {
+          "text": "earn a salary",
+          "category": "Money in"
+        },
+        {
+          "text": "win a prize",
+          "category": "Money in"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Money in"
+        },
+        {
+          "text": "pay the rent",
+          "category": "Money out"
+        },
+        {
+          "text": "buy groceries",
+          "category": "Money out"
+        },
+        {
+          "text": "pay off a loan",
+          "category": "Money out"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can you ___ me ten euros?",
+      "options": [
+        "lend",
+        "borrow",
+        "owe",
+        "earn"
+      ],
+      "answer": [
+        "lend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lend.",
+        "incorrect": "Revisa esto: Lend."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada pregunta con su respuesta.",
+      "pairs": [
+        {
+          "left": "Are you Spanish?",
+          "right": "No, I'm not."
+        },
+        {
+          "left": "Is she Italian?",
+          "right": "Yes, she is."
+        },
+        {
+          "left": "Are they friends?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is it a phone?",
+          "right": "No, it isn't."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La respuesta repite el sujeto y el verbo.",
+        "incorrect": "Revisa esto: La respuesta repite el sujeto y el verbo."
+      },
+      "review_of": "en-a1-u02-l04-ex06"
+    },
+    {
+      "id": "en-b1-u07-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Can I ___ your pen?",
+      "options": [
+        "borrow",
+        "lend",
+        "owe",
+        "give"
+      ],
+      "answer": [
+        "borrow"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Borrow.",
+        "incorrect": "Revisa esto: Borrow."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm tired.' → She said she ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "will be"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente → pasado.",
+        "incorrect": "Revisa esto: Presente → pasado."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'll call you.' → He said he ___ call me.",
+      "options": [
+        "would",
+        "will",
+        "can",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will → would.",
+        "incorrect": "Revisa esto: Will → would."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ me that she was tired.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "told"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd appreciate it if you ___ fix it.",
+      "options": [
+        "could",
+        "can to",
+        "will",
+        "must"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd appreciate it if you could…",
+        "incorrect": "Revisa esto: I'd appreciate it if you could…"
+      },
+      "review_of": "en-b1-u06-l04-ex09"
+    },
+    {
+      "id": "en-b1-u07-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Where do you live?' → He asked me where I ___ .",
+      "options": [
+        "lived",
+        "did live",
+        "do live",
+        "live did"
+      ],
+      "answer": [
+        "lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Are you ready?' → She asked me ___ I was ready.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "to"
+      ],
+      "answer": [
+        "if"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If/whether.",
+        "incorrect": "Revisa esto: If/whether."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Don't touch it.' → He told me ___ it.",
+      "options": [
+        "not to touch",
+        "don't touch",
+        "no touching",
+        "to not touching"
+      ],
+      "answer": [
+        "not to touch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not to.",
+        "incorrect": "Revisa esto: Not to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ breaking the window. (negó)",
+      "options": [
+        "denied",
+        "promised",
+        "offered",
+        "agreed"
+      ],
+      "answer": [
+        "denied"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deny + -ing.",
+        "incorrect": "Revisa esto: Deny + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ to help me.",
+      "options": [
+        "offered",
+        "suggested",
+        "admitted",
+        "denied"
+      ],
+      "answer": [
+        "offered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Offer + to.",
+        "incorrect": "Revisa esto: Offer + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "asking-directions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you tell me where is the post office?",
+      "answer": [
+        "Could you tell me where the post office is?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      },
+      "review_of": "en-a2-u12-l06-ex08"
+    },
+    {
+      "id": "en-b1-u07-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ I was cooking, the phone rang.",
+      "options": [
+        "While",
+        "When",
+        "Because",
+        "So"
+      ],
+      "answer": [
+        "While"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While + pasado continuo (acción larga).",
+        "incorrect": "Revisa esto: While + pasado continuo (acción larga)."
+      },
+      "review_of": "en-a2-u09-l03-ex03"
+    },
+    {
+      "id": "en-b1-u07-l06-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like a ___ . I don't want to keep it. (reembolso)",
+      "answer": [
+        "refund"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Refund.",
+        "incorrect": "Revisa esto: Refund."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 25,
+      "prompt": "She advised ___ to wait. (me)",
+      "answer": [
+        "me"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advise + persona + to.",
+        "incorrect": "Revisa esto: Advise + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me that she was tired.",
+      "answer": [
+        "She told me that she was tired.",
+        "She said that she was tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say sin persona.",
+        "incorrect": "Revisa esto: Say sin persona."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "planning-journey"
+      ],
+      "est_seconds": 25,
+      "prompt": "The train is ___ (quick) than the bus.",
+      "answer": [
+        "quicker"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Adjetivo corto: quicker than.",
+        "incorrect": "Revisa esto: Adjetivo corto: quicker than."
+      },
+      "review_of": "en-a2-u12-l05-ex01"
+    },
+    {
+      "id": "en-b1-u07-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She asked where did I live.",
+      "answer": [
+        "She asked where I lived."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin do.",
+        "incorrect": "Revisa esto: Sin do."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He suggested me to go.",
+      "answer": [
+        "He suggested that I go.",
+        "He suggested going.",
+        "He advised me to go."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest no lleva persona + to.",
+        "incorrect": "Revisa esto: Suggest no lleva persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If she ___ here, she'd help us.",
+      "options": [
+        "were",
+        "will be",
+        "is",
+        "would be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + were.",
+        "incorrect": "Revisa esto: If + were."
+      },
+      "review_of": "en-b1-u06-l02-ex07"
+    },
+    {
+      "id": "en-b1-u07-l06-rv07",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "The man who lives next door is a friend of mine.",
+      "answer": [
+        "The man who lives next door is a friend of mine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativa con who.",
+        "incorrect": "Revisa esto: Relativa con who."
+      },
+      "audio_script_id": "en-b1-u07-l06-rv07-a",
+      "review_of": "en-b1-u02-l02-ex14"
+    },
+    {
+      "id": "en-b1-u07-l06-rv08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Llevo botas de cuero negras.",
+      "answer": [
+        "I'm wearing black leather boots.",
+        "I wear black leather boots.",
+        "I'm wearing black boots made of leather."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Color + material + prenda.",
+        "incorrect": "Revisa esto: Color + material + prenda."
+      },
+      "review_of": "en-a2-u11-l01-ex10"
+    },
+    {
+      "id": "en-b1-u07-l06-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le pidió al empleado?",
+      "options": [
+        "Que le enviara un correo de confirmación",
+        "Que devolviera el dinero",
+        "Que llamara al director",
+        "Que cambiara el pedido"
+      ],
+      "answer": [
+        "Que le enviara un correo de confirmación"
+      ],
+      "audio_text": "The clerk told me that my order had been delayed. He apologised for the problem and promised to send it as soon as possible. I asked him to send me an email confirming that.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: asked him to send me an email confirming that.",
+        "incorrect": "Revisa esto: Dice: asked him to send me an email confirming that."
+      },
+      "audio_script_id": "en-b1-u07-l06-ex17-a"
+    },
+    {
+      "id": "en-b1-u07-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ yoga on Sundays.",
+      "options": [
+        "do",
+        "play",
+        "go",
+        "have"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actividades individuales sin pelota: do.",
+        "incorrect": "Revisa esto: Actividades individuales sin pelota: do."
+      },
+      "review_of": "en-a2-u13-l01-ex05"
+    },
+    {
+      "id": "en-b1-u07-l06-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me preguntó si podía prestarle dinero y le dije que no.",
+      "answer": [
+        "He asked me if I could lend him some money and I said no.",
+        "She asked me if I could lend her some money and I said no.",
+        "He asked me if I could lend him money and I told him no."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta indirecta.",
+        "incorrect": "Revisa esto: Pregunta indirecta."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex19",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Reclamas un producto defectuoso.",
+      "turns": [
+        {
+          "speaker": "Agent",
+          "text": "How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd like to make a complaint. The phone I bought arrived damaged, and I'd like a refund.",
+            "I want make a complaint, the phone is damage, I want refund.",
+            "Your phone is bad."
+          ],
+          "best": 0,
+          "why_es": "Quejarse con educación."
+        },
+        {
+          "speaker": "Agent",
+          "text": "I'm sorry. I can offer you a replacement or a full refund."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "A refund, please. Could you send me an email confirming that?",
+            "Refund. Send email me.",
+            "A refund please. Confirm email."
+          ],
+          "best": 0,
+          "why_es": "Pedir y confirmar."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u07-l06-ex20",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "money-talk",
+        "reported-statements",
+        "reported-questions",
+        "reporting-verbs"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) contando una conversación sobre dinero que tuviste: qué dijo cada persona (estilo indirecto) y qué prometió o sugirió.",
+      "min_words": 68,
+      "self_check_es": [
+        "¿Usaste estilo indirecto con cambio de tiempos?",
+        "¿Usaste ask if / tell me to?",
+        "¿Usaste un verbo de reporte (promise, suggest…)?",
+        "¿Hablaste de dinero con vocabulario correcto?"
+      ],
+      "model_answer": "Yesterday my brother asked me if I could lend him some money. I told him that I was saving for a holiday, but he insisted on asking again. He explained that he had lost his job and that he needed the money to pay the rent. I suggested looking for a part-time job, and he promised to pay me back in two months. In the end, I agreed to lend him €200 and told him not to spend it on anything else.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "earn · spend · save · borrow · lend",
+      "She said she was … · He told me …",
+      "She asked where … · He told me to …",
+      "promise to · advise me to · suggest -ing"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-money-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-reported-statements"
+    },
+    {
+      "type": "grammar",
+      "id": "en-reported-questions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-reporting-verbs"
+    },
+    {
+      "type": "grammar",
+      "id": "en-customer-service"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

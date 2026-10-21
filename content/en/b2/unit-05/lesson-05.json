@@ -1,0 +1,842 @@
+{
+  "id": "en-b2-u05-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 5,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A group discussion",
+    "es": "Una discusión en grupo"
+  },
+  "objective": "Al terminar participas en una discusión de grupo: aportas ideas, reaccionas a otras, mantienes el turno y llegas a una conclusión conjunta.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En una discusión de grupo no solo cuenta lo que dices, sino cómo escuchas, reaccionas y construyes sobre lo que dicen otros. Es una habilidad clave en exámenes y en el trabajo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Moderator",
+        "text": "Today's topic: should schools make mindfulness part of the daily timetable? Anna, would you like to start?",
+        "es": "El tema de hoy: ¿deberían los colegios incluir mindfulness en el horario diario? Anna, ¿quieres empezar?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "Thanks. I think it's a great idea. Studies suggest that regular practice reduces stress and improves concentration, which is exactly what students need.",
+        "es": "Gracias. Creo que es una gran idea. Los estudios sugieren que la práctica regular reduce el estrés y mejora la concentración, que es justo lo que necesitan los estudiantes."
+      },
+      {
+        "speaker": "Ben",
+        "text": "I see your point, Anna, but I'm not so sure. The timetable is already crowded. If we add mindfulness, something else has to go. Which subject would you cut?",
+        "es": "Entiendo tu punto, Anna, pero no estoy tan seguro. El horario ya está lleno. Si añadimos mindfulness, algo tiene que salir. ¿Qué asignatura recortarías?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "That's a fair question. It wouldn't have to be a full lesson; ten minutes at the start of the day would be enough.",
+        "es": "Es una pregunta justa. No tendría que ser una clase completa; diez minutos al empezar el día serían suficientes."
+      },
+      {
+        "speaker": "Clara",
+        "text": "Building on what Anna said, ten minutes is realistic. In my school we tried it, and teachers noticed that pupils were calmer after break.",
+        "es": "Siguiendo con lo que dijo Anna, diez minutos es realista. En mi colegio lo probamos y los profesores notaron que los alumnos estaban más tranquilos después del recreo."
+      },
+      {
+        "speaker": "Ben",
+        "text": "That's interesting. Though, to play devil's advocate, wouldn't some parents object? Some might see it as religious.",
+        "es": "Es interesante. Aunque, por hacer de abogado del diablo, ¿no se opondrían algunos padres? Algunos podrían verlo como algo religioso."
+      },
+      {
+        "speaker": "Moderator",
+        "text": "Good point. Anna, how would you respond?",
+        "es": "Buen punto. Anna, ¿cómo responderías?"
+      },
+      {
+        "speaker": "Anna",
+        "text": "It could be presented as a secular technique, based on breathing and attention. Schools could also offer an opt-out.",
+        "es": "Podría presentarse como una técnica laica, basada en la respiración y la atención. Los colegios también podrían ofrecer una opción de no participar."
+      },
+      {
+        "speaker": "Clara",
+        "text": "I agree, and perhaps we could start with a pilot scheme before making it compulsory.",
+        "es": "Estoy de acuerdo, y quizá podríamos empezar con un programa piloto antes de hacerlo obligatorio."
+      },
+      {
+        "speaker": "Moderator",
+        "text": "So, to sum up: we all agree it's worth trying, as long as it is short, voluntary at first and carefully evaluated. Thank you all.",
+        "es": "En resumen: todos coincidimos en que vale la pena probarlo, siempre que sea breve, voluntario al principio y evaluado con cuidado. Gracias a todos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-timetable",
+        "lemma": "timetable",
+        "pos": "noun",
+        "ipa": "/ˈtaɪmteɪbl/",
+        "es": "horario",
+        "example": "A crowded timetable."
+      },
+      {
+        "id": "en-crowded",
+        "lemma": "crowded",
+        "pos": "adj",
+        "ipa": "/ˈkraʊdɪd/",
+        "es": "abarrotado",
+        "example": "A crowded schedule."
+      },
+      {
+        "id": "en-cut",
+        "lemma": "cut",
+        "pos": "verb",
+        "ipa": "/kʌt/",
+        "es": "recortar",
+        "example": "Which would you cut?"
+      },
+      {
+        "id": "en-building-on",
+        "lemma": "building on",
+        "pos": "phrase",
+        "ipa": "/ˈbɪldɪŋ ɒn/",
+        "es": "partiendo de",
+        "example": "Building on what she said…"
+      },
+      {
+        "id": "en-devil-s-advocate",
+        "lemma": "devil's advocate",
+        "pos": "noun",
+        "ipa": "/ˈdevlz ˈædvəkət/",
+        "es": "abogado del diablo",
+        "example": "To play devil's advocate…"
+      },
+      {
+        "id": "en-object",
+        "lemma": "object",
+        "pos": "verb",
+        "ipa": "/əbˈdʒekt/",
+        "es": "oponerse",
+        "example": "Parents may object."
+      },
+      {
+        "id": "en-secular",
+        "lemma": "secular",
+        "pos": "adj",
+        "ipa": "/ˈsekjələ/",
+        "es": "laico",
+        "example": "A secular approach."
+      },
+      {
+        "id": "en-opt-out",
+        "lemma": "opt-out",
+        "pos": "noun",
+        "ipa": "/ˈɒpt aʊt/",
+        "es": "opción de no participar",
+        "example": "An opt-out for parents."
+      },
+      {
+        "id": "en-pilot-scheme",
+        "lemma": "pilot scheme",
+        "pos": "noun",
+        "ipa": "/ˈpaɪlət skiːm/",
+        "es": "programa piloto",
+        "example": "Start with a pilot scheme."
+      },
+      {
+        "id": "en-compulsory",
+        "lemma": "compulsory",
+        "pos": "adj",
+        "ipa": "/kəmˈpʌlsəri/",
+        "es": "obligatorio",
+        "example": "Compulsory education."
+      },
+      {
+        "id": "en-evaluate",
+        "lemma": "evaluate",
+        "pos": "verb",
+        "ipa": "/ɪˈvæljueɪt/",
+        "es": "evaluar",
+        "example": "Evaluate the results."
+      }
+    ],
+    "audio_script_id": "en-b2-u05-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Participar en una discusión de grupo**\n\n| Función | Frases |\n|---|---|\n| **Empezar** | *I think … · In my opinion … · To my mind … · As I see it …* |\n| **Mostrar acuerdo** | *I completely agree. · That's a good point. · I'd go along with that. · Exactly.* |\n| **Acuerdo parcial** | *I see your point, but … · That's true up to a point, but … · I agree to some extent, however …* |\n| **Desacuerdo educado** | *I'm not so sure. · I'm afraid I see it differently. · I'm not convinced that …* |\n| **Construir sobre lo dicho** | *Building on what … said, … · Adding to that, … · To follow up on that, …* |\n| **Abogado del diablo** | *To play devil's advocate, … · What if …? · Wouldn't some people say …?* |\n| **Pedir opinión** | *What do you think, … ? · How would you respond? · Do you have anything to add?* |\n| **Mantener el turno** | *Let me finish my point. · As I was saying, … · Just one more thing …* |\n| **Concluir** | *To sum up, … · So we all agree that … · The general feeling seems to be that …* |\n\n**Lenguaje de condición y compromiso**\n\n- *as long as · provided that · on condition that · unless · so long as*: *It's worth trying as long as it's voluntary.*\n- *We could start with …, then see how it goes.*\n\n**Hedging (suavizar)**\n\n- *It seems to me that … · I'd say that … · It could be argued that … · Perhaps we should …*\n\n**Escuchar bien (en inglés también se evalúa)**\n\n- Responde a lo que dijo el otro. · Usa su nombre: *As Ben said …* · No interrumpas: *Sorry, may I add something?* · Resume: *So you're saying that …?*\n\n**Errores típicos**\n\n- ✘ *I am agree.* → ✔ *I agree.*\n- ✘ *In my opinion, I think that …* (redundante) → ✔ *In my opinion, …* / *I think that …*\n- ✘ *I'm not agree with you.* → ✔ *I don't agree with you.*\n- ✘ *According to me* → ✔ *In my opinion* / *To my mind.*\n\n**Ojo:** *According to* se usa con **otra** persona o fuente, no con uno mismo: ✘ *According to me* → ✔ *In my opinion.*\n\nPronunciación: *compulsory* /kəmˈpʌlsəri/ · *secular* /ˈsekjələ/ · *advocate* (sust.) /ˈædvəkət/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I am agree.",
+        "right": "I agree.",
+        "note": "Agree es verbo."
+      },
+      {
+        "wrong": "According to me",
+        "right": "In my opinion",
+        "note": "According to no es para uno mismo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u05-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el tema de la discusión?",
+      "options": [
+        "Si los colegios deberían incluir mindfulness",
+        "Si hay que eliminar los deberes",
+        "Si hay que prohibir el móvil",
+        "Si los profesores ganan poco"
+      ],
+      "answer": [
+        "Si los colegios deberían incluir mindfulness"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: should schools make mindfulness part of the daily timetable.",
+        "incorrect": "Revisa esto: Dice: should schools make mindfulness part of the daily timetable."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es la objeción de Ben sobre el horario?",
+      "options": [
+        "Ya está lleno",
+        "Es muy caro",
+        "No hay profesores",
+        "Es ilegal"
+      ],
+      "answer": [
+        "Ya está lleno"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: The timetable is already crowded.",
+        "incorrect": "Revisa esto: Dice: The timetable is already crowded."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué propone Clara al final?",
+      "options": [
+        "Empezar con un programa piloto",
+        "Hacerlo obligatorio ya",
+        "Cancelarlo",
+        "Ofrecerlo solo por la tarde"
+      ],
+      "answer": [
+        "Empezar con un programa piloto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: start with a pilot scheme.",
+        "incorrect": "Revisa esto: Dice: start with a pilot scheme."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The phone make in China.",
+      "answer": [
+        "The phone is made in China."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva: is made.",
+        "incorrect": "Revisa esto: Pasiva: is made."
+      },
+      "review_of": "en-b1-u05-l02-ex11"
+    },
+    {
+      "id": "en-b2-u05-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "Todos acuerdan que vale la pena probarlo, con condiciones.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La moderadora resume el acuerdo.",
+        "incorrect": "Revisa esto: La moderadora resume el acuerdo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I see your point, ___ I'm not so sure.",
+      "options": [
+        "but",
+        "so",
+        "because",
+        "or"
+      ],
+      "answer": [
+        "but"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acuerdo parcial.",
+        "incorrect": "Revisa esto: Acuerdo parcial."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ on what Anna said, ten minutes is realistic.",
+      "options": [
+        "Building",
+        "Built",
+        "Build",
+        "To build"
+      ],
+      "answer": [
+        "Building"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Building on.",
+        "incorrect": "Revisa esto: Building on."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verbo regular: watched.",
+        "incorrect": "Revisa esto: Verbo regular: watched."
+      },
+      "review_of": "en-a2-u01-l06-ex02"
+    },
+    {
+      "id": "en-b2-u05-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth trying ___ it is voluntary.",
+      "options": [
+        "as long as",
+        "even",
+        "because of",
+        "despite"
+      ],
+      "answer": [
+        "as long as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Condición.",
+        "incorrect": "Revisa esto: Condición."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is NOT correct English?",
+      "options": [
+        "According to me, it's a good idea.",
+        "In my opinion, it's a good idea.",
+        "To my mind, it's a good idea.",
+        "As I see it, it's a good idea."
+      ],
+      "answer": [
+        "According to me, it's a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to no se usa con uno mismo.",
+        "incorrect": "Revisa esto: According to no se usa con uno mismo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "'To play devil's advocate' means...",
+      "options": [
+        "Defender la postura contraria para provocar debate",
+        "Hacer algo malo",
+        "Discutir sin motivo",
+        "Aceptar todo"
+      ],
+      "answer": [
+        "Defender la postura contraria para provocar debate"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase hecha.",
+        "incorrect": "Revisa esto: Frase hecha."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm afraid I ___ it differently.",
+      "options": [
+        "see",
+        "look",
+        "watch",
+        "view at"
+      ],
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! See it differently.",
+        "incorrect": "Revisa esto: See it differently."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase keeps your turn?",
+      "options": [
+        "Let me finish my point.",
+        "I agree.",
+        "Nothing more.",
+        "You talk."
+      ],
+      "answer": [
+        "Let me finish my point."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mantener turno.",
+        "incorrect": "Revisa esto: Mantener turno."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "I agree to some ___ , but I have doubts. (hasta cierto punto)",
+      "answer": [
+        "extent"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To some extent.",
+        "incorrect": "Revisa esto: To some extent."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "To ___ up: we all agree it's worth trying. (resumir)",
+      "answer": [
+        "sum"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sum up.",
+        "incorrect": "Revisa esto: Sum up."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "At nine I ___ (cook) dinner.",
+      "answer": [
+        "was cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: was + -ing.",
+        "incorrect": "Revisa esto: Pasado continuo: was + -ing."
+      },
+      "review_of": "en-a2-u09-l06-ex02"
+    },
+    {
+      "id": "en-b2-u05-l05-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am agree with Ben.",
+      "answer": [
+        "I agree with Ben."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree es verbo.",
+        "incorrect": "Revisa esto: Agree es verbo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "According to me, schools should teach mindfulness.",
+      "answer": [
+        "In my opinion, schools should teach mindfulness.",
+        "To my mind, schools should teach mindfulness.",
+        "I think schools should teach mindfulness."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to me no existe.",
+        "incorrect": "Revisa esto: According to me no existe."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se espera que los precios suban el año que viene.",
+      "answer": [
+        "Prices are expected to rise next year.",
+        "It is expected that prices will rise next year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Expected to.",
+        "incorrect": "Revisa esto: Expected to."
+      },
+      "review_of": "en-b2-u03-l02-ex20"
+    },
+    {
+      "id": "en-b2-u05-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I don't be agree with that idea.",
+      "answer": [
+        "I don't agree with that idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't agree.",
+        "incorrect": "Revisa esto: Don't agree."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué plantea como posible dificultad?",
+      "options": [
+        "Comparar resultados si algunos colegios no participan",
+        "Pagar los costes",
+        "Encontrar profesores",
+        "Convencer a los padres"
+      ],
+      "answer": [
+        "Comparar resultados si algunos colegios no participan"
+      ],
+      "audio_text": "Building on Maria's point, I think a trial period would reduce the risk. However, to play devil's advocate, wouldn't it be difficult to compare results if some schools don't take part?",
+      "feedback": {
+        "correct": "¡Correcto! Dice: difficult to compare results if some schools don't take part.",
+        "incorrect": "Revisa esto: Dice: difficult to compare results if some schools don't take part."
+      },
+      "audio_script_id": "en-b2-u05-l05-ex17-a"
+    },
+    {
+      "id": "en-b2-u05-l05-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una discusión de grupo sobre el trabajo a distancia.",
+      "turns": [
+        {
+          "speaker": "Moderator",
+          "text": "Should companies allow full-time remote work?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I think so, as long as productivity is monitored. It gives people flexibility and saves commuting time.",
+            "Yes, is good.",
+            "I am agree because home."
+          ],
+          "best": 0,
+          "why_es": "Opinión con condición."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "But what about team spirit?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "That's a fair point. I agree to some extent, however occasional meetings in person could solve that.",
+            "No, you are wrong.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Acuerdo parcial."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "could-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like ___ check in.",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like + to + verbo.",
+        "incorrect": "Revisa esto: I'd like + to + verbo."
+      },
+      "review_of": "en-a2-u02-l03-ex03"
+    },
+    {
+      "id": "en-b2-u05-l05-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-vocabulary"
+      ],
+      "est_seconds": 20,
+      "prompt": "No recuerdas tu contraseña. Dices:",
+      "options": [
+        "I forgot my password.",
+        "I forgot my battery.",
+        "I lost my keyboard.",
+        "I deleted my screen."
+      ],
+      "answer": [
+        "I forgot my password."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Password = contraseña.",
+        "incorrect": "Revisa esto: Password = contraseña."
+      },
+      "review_of": "en-a2-u09-l01-ex03"
+    },
+    {
+      "id": "en-b2-u05-l05-ex19",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 8 a 10 frases como si participaras en una discusión de grupo sobre 'Should schools start later in the morning?'. Incluye tu opinión, una concesión, una condición y una conclusión.",
+      "min_words": 72,
+      "self_check_es": [
+        "¿Das una opinión clara?",
+        "¿Incluyes una concesión (I see your point, but…)?",
+        "¿Usas as long as / provided that?",
+        "¿Cierras con to sum up?"
+      ],
+      "model_answer": "I think schools should start later in the morning, because teenagers need more sleep to concentrate. I see the opposing view, but I'm not convinced that it would cause serious problems for families. To some extent, parents who work early might struggle, however schools could offer a breakfast club. Building on that, a later start would only work as long as the day ends at a reasonable time. To sum up, I believe it is worth trying, provided the results are evaluated after a year.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u05-l05-rv07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "est_seconds": 20,
+      "prompt": "Son las 7:45. ¿Qué dices?",
+      "options": [
+        "It's quarter to eight.",
+        "It's quarter past seven.",
+        "It's half past seven.",
+        "It's eight o'clock."
+      ],
+      "answer": [
+        "It's quarter to eight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 7:45 = quarter to eight.",
+        "incorrect": "Revisa esto: 7:45 = quarter to eight."
+      },
+      "review_of": "en-a1-u04-l06-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I see your point, but …",
+      "Building on what … said, …",
+      "as long as · provided that",
+      "To sum up, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-timetable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crowded"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cut"
+    },
+    {
+      "type": "vocab",
+      "id": "en-building-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-devil-s-advocate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-object"
+    },
+    {
+      "type": "vocab",
+      "id": "en-secular"
+    },
+    {
+      "type": "vocab",
+      "id": "en-opt-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pilot-scheme"
+    },
+    {
+      "type": "vocab",
+      "id": "en-compulsory"
+    },
+    {
+      "type": "grammar",
+      "id": "en-discussion-b2"
+    }
+  ]
+}

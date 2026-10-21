@@ -1,0 +1,753 @@
+{
+  "id": "en-b1-u05-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 5,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 5",
+    "es": "Checkpoint 5"
+  },
+  "objective": "Al terminar demuestras que hablas de tecnología y medios con vocabulario de internet, pasiva, noticias y redes sociales.",
+  "est_minutes": 39,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 5: vocabulario de tecnología, pasiva simple, preguntas y modales en pasiva, titulares y redes sociales."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de tecnología, pasiva en presente y pasado, preguntas en pasiva con by, pasiva con modales, titulares de noticias y lenguaje de redes sociales.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 5**\n\n- *log in · download · update · back up · keep + -ing · run out of*\n- *Phones are made in Asia. · The bulb was invented in 1879.*\n- *Who was it written by? · Where was it filmed? · It can be downloaded. · It has been covered.*\n- *MAN RESCUES DOG · The news is good. · 'I just acted,' he said.*\n- *I posted · I shared · Can I tag you? · IMO · BTW*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u05-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una acción o un problema?",
+      "categories": [
+        "Action",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "log in",
+          "category": "Action"
+        },
+        {
+          "text": "download a file",
+          "category": "Action"
+        },
+        {
+          "text": "back up photos",
+          "category": "Action"
+        },
+        {
+          "text": "the screen freezes",
+          "category": "Problem"
+        },
+        {
+          "text": "the battery dies",
+          "category": "Problem"
+        },
+        {
+          "text": "the Wi-Fi disconnects",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "My phone keeps ___ .",
+      "options": [
+        "crashing",
+        "to crash",
+        "crash",
+        "crashed"
+      ],
+      "answer": [
+        "crashing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "English ___ all over the world.",
+      "options": [
+        "is spoken",
+        "speaks",
+        "was spoke",
+        "is speak"
+      ],
+      "answer": [
+        "is spoken"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva presente.",
+        "incorrect": "Revisa esto: Pasiva presente."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 20,
+      "prompt": "The telephone ___ by Bell.",
+      "options": [
+        "was invented",
+        "invented",
+        "is invent",
+        "were invented"
+      ],
+      "answer": [
+        "was invented"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva pasado.",
+        "incorrect": "Revisa esto: Pasiva pasado."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "play",
+        "tennis",
+        "at",
+        "the",
+        "weekend",
+        ".",
+        "I",
+        "usually"
+      ],
+      "answer": [
+        "I",
+        "usually",
+        "play",
+        "tennis",
+        "at",
+        "the",
+        "weekend",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sujeto + adverbio + play + deporte + tiempo.",
+        "incorrect": "Revisa esto: Sujeto + adverbio + play + deporte + tiempo."
+      },
+      "review_of": "en-a2-u13-l01-ex09"
+    },
+    {
+      "id": "en-b1-u05-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "Where ___ the film shot?",
+      "options": [
+        "was",
+        "did",
+        "is been",
+        "has"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta en pasiva.",
+        "incorrect": "Revisa esto: Pregunta en pasiva."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "The forms must ___ signed today.",
+      "options": [
+        "be",
+        "been",
+        "being",
+        "to be"
+      ],
+      "answer": [
+        "be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal + be + participio.",
+        "incorrect": "Revisa esto: Modal + be + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el banco?",
+      "options": [
+        "On the left",
+        "On the right",
+        "Behind the lights",
+        "Opposite the station"
+      ],
+      "answer": [
+        "On the left"
+      ],
+      "audio_text": "Go straight on. Turn right at the traffic lights. The bank is on your left.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The bank is on your left'.",
+        "incorrect": "Revisa esto: Dice 'The bank is on your left'."
+      },
+      "audio_script_id": "en-b1-u05-l06-rv02-a",
+      "review_of": "en-a1-u07-l03-ex07"
+    },
+    {
+      "id": "en-b1-u05-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 20,
+      "prompt": "The song ___ by many artists.",
+      "options": [
+        "has been covered",
+        "have covered",
+        "covers",
+        "was cover"
+      ],
+      "answer": [
+        "has been covered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasivo.",
+        "incorrect": "Revisa esto: Present perfect pasivo."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "The news ___ good.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News = singular.",
+        "incorrect": "Revisa esto: News = singular."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Te llamaré en cuanto llegue a casa.",
+      "answer": [
+        "I'll call you as soon as I get home.",
+        "I will call you as soon as I get home.",
+        "I'll call you as soon as I arrive home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente.",
+        "incorrect": "Revisa esto: As soon as + presente."
+      },
+      "review_of": "en-b1-u03-l02-ex15"
+    },
+    {
+      "id": "en-b1-u05-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "advice-ought"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ better take an umbrella. It looks like rain.",
+      "answer": [
+        "had",
+        "'d"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better.",
+        "incorrect": "Revisa esto: Had better."
+      },
+      "review_of": "en-b1-u04-l04-ex10"
+    },
+    {
+      "id": "en-b1-u05-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 20,
+      "prompt": "'IMO' means...",
+      "options": [
+        "in my opinion",
+        "in my office",
+        "I mean only",
+        "it makes only"
+      ],
+      "answer": [
+        "in my opinion"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Abreviatura.",
+        "incorrect": "Revisa esto: Abreviatura."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué debe hacer la persona?",
+      "options": [
+        "Wait here",
+        "Go home",
+        "Turn left",
+        "Go straight on"
+      ],
+      "answer": [
+        "Wait here"
+      ],
+      "audio_text": "Wait here, please. Don't go home.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'Wait here, please'.",
+        "incorrect": "Revisa esto: Dice 'Wait here, please'."
+      },
+      "audio_script_id": "en-b1-u05-l06-rv05-a",
+      "review_of": "en-a1-u07-l05-ex08"
+    },
+    {
+      "id": "en-b1-u05-l06-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Please ___ the file from our website. (descargar)",
+      "answer": [
+        "download"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Download.",
+        "incorrect": "Revisa esto: Download."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "The window ___ (break) last night.",
+      "answer": [
+        "was broken"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva pasado.",
+        "incorrect": "Revisa esto: Pasiva pasado."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I ___ you in the photo? (etiquetar)",
+      "answer": [
+        "tag"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tag.",
+        "incorrect": "Revisa esto: Tag."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My phone make in China.",
+      "answer": [
+        "My phone is made in China."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The ticket can bought online.",
+      "answer": [
+        "The ticket can be bought online."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can be + participio.",
+        "incorrect": "Revisa esto: Can be + participio."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The news are bad.",
+      "answer": [
+        "The news is bad."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News singular.",
+        "incorrect": "Revisa esto: News singular."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cuál es el plural de 'tooth'?",
+      "options": [
+        "teeth",
+        "tooths",
+        "teeths",
+        "toothes"
+      ],
+      "answer": [
+        "teeth"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tooth → teeth (plural irregular).",
+        "incorrect": "Revisa esto: Tooth → teeth (plural irregular)."
+      },
+      "review_of": "en-a2-u06-l01-ex02"
+    },
+    {
+      "id": "en-b1-u05-l06-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuántas veces se ha compartido?",
+      "options": [
+        "Más de mil",
+        "Cien",
+        "Diez mil",
+        "Nunca"
+      ],
+      "answer": [
+        "Más de mil"
+      ],
+      "audio_text": "This photo was taken in Iceland last year. It was posted online and has been shared more than a thousand times.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: shared more than a thousand times.",
+        "incorrect": "Revisa esto: Dice: shared more than a thousand times."
+      },
+      "audio_script_id": "en-b1-u05-l06-ex16-a"
+    },
+    {
+      "id": "en-b1-u05-l06-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-questions-agent"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Esta canción fue escrita por un grupo británico y ha sido versionada muchas veces.",
+      "answer": [
+        "This song was written by a British band and has been covered many times.",
+        "This song was written by a British band and it has been covered many times."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva simple y perfecta.",
+        "incorrect": "Revisa esto: Pasiva simple y perfecta."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "She has worked here ___ 2020.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento de inicio.",
+        "incorrect": "Revisa esto: Since + momento de inicio."
+      },
+      "review_of": "en-a2-u08-l05-ex02"
+    },
+    {
+      "id": "en-b1-u05-l06-ex18",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk",
+        "passive-simple"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por un problema técnico.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "My laptop keeps freezing. What should I do?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "You should update it and back up your files, in case it stops working.",
+            "You should to update it and you back up files in case it stop.",
+            "Update it and back up the files, if case it stops."
+          ],
+          "best": 0,
+          "why_es": "Should + in case."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Where was it made?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I think it was made in China, but it was designed in the US.",
+            "I think it make in China but it design in the US.",
+            "It was made by China."
+          ],
+          "best": 0,
+          "why_es": "Pasiva en pasado."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u05-l06-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?",
+        "Where",
+        "were"
+      ],
+      "answer": [
+        "Where",
+        "were",
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos preguntas en pasado unidas con and.",
+        "incorrect": "Revisa esto: Dos preguntas en pasado unidas con and."
+      },
+      "review_of": "en-a2-u10-l05-ex09"
+    },
+    {
+      "id": "en-b1-u05-l06-ex19",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "tech-talk",
+        "passive-simple",
+        "social-posts"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre tecnología o redes en tu vida: qué aparatos usas, un problema que tuviste, cómo se fabrican los aparatos y un post que compartiste.",
+      "min_words": 52,
+      "self_check_es": [
+        "¿Usaste vocabulario de tecnología?",
+        "¿Usaste la pasiva al menos una vez?",
+        "¿Mencionaste redes sociales?",
+        "¿Usaste un conector condicional o abreviatura?"
+      ],
+      "model_answer": "I use my laptop and my phone every day. Last week my phone kept freezing, so I updated it and backed up my photos. My phone was made in China, but it was designed in the US. I shared a photo on my story and it has been liked 100 times. IMO, social media is useful as long as you protect your privacy.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "log in · download · update · back up",
+      "It is made in … · It was invented by …",
+      "Who was it written by? · It can be downloaded.",
+      "The news is … · IMO · BTW"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-tech-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-simple"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-questions-agent"
+    },
+    {
+      "type": "grammar",
+      "id": "en-news-headlines"
+    },
+    {
+      "type": "grammar",
+      "id": "en-social-posts"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

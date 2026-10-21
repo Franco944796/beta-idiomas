@@ -1,0 +1,757 @@
+{
+  "id": "en-b1-u07-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 7,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "He asked if...",
+    "es": "Estilo indirecto: preguntas y peticiones"
+  },
+  "objective": "Al terminar reportas preguntas, órdenes y peticiones con ask, tell y if / whether, sin el orden de pregunta.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Me preguntó dónde vivía.' 'Me pidió que esperase.' En el estilo indirecto, las preguntas pierden su orden interrogativo y las órdenes se reportan con infinitivo."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "How was the job interview? What did they ask you?",
+        "es": "¿Qué tal la entrevista? ¿Qué te preguntaron?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "The manager asked me where I had worked before and why I had left my last job.",
+        "es": "El director me preguntó dónde había trabajado antes y por qué había dejado mi último trabajo."
+      },
+      {
+        "speaker": "Ana",
+        "text": "And did she ask if you could start soon?",
+        "es": "¿Y te preguntó si podías empezar pronto?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Yes, she asked whether I was available immediately. I said I could start the next Monday.",
+        "es": "Sí, me preguntó si estaba disponible de inmediato. Dije que podía empezar el lunes siguiente."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Did she tell you anything about the salary?",
+        "es": "¿Te dijo algo del sueldo?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "I asked her how much the position paid, and she told me not to worry: it was a good package.",
+        "es": "Le pregunté cuánto pagaban el puesto y me dijo que no me preocupara: era un buen paquete."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Did she ask you to send anything?",
+        "es": "¿Te pidió que enviaras algo?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Yes, she asked me to send my references and told me to call her on Friday.",
+        "es": "Sí, me pidió que enviara mis referencias y me dijo que la llamara el viernes."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-ask",
+        "lemma": "ask",
+        "pos": "verb",
+        "ipa": "/ɑːsk/",
+        "es": "preguntar, pedir",
+        "example": "She asked me a question."
+      },
+      {
+        "id": "en-whether",
+        "lemma": "whether",
+        "pos": "conj",
+        "ipa": "/ˈweðə/",
+        "es": "si (duda)",
+        "example": "I wonder whether he'll come."
+      },
+      {
+        "id": "en-if",
+        "lemma": "if",
+        "pos": "conj",
+        "ipa": "/ɪf/",
+        "es": "si",
+        "example": "She asked if I was ready."
+      },
+      {
+        "id": "en-available",
+        "lemma": "available",
+        "pos": "adj",
+        "ipa": "/əˈveɪləbl/",
+        "es": "disponible",
+        "example": "I'm available on Friday."
+      },
+      {
+        "id": "en-package",
+        "lemma": "package",
+        "pos": "noun",
+        "ipa": "/ˈpækɪdʒ/",
+        "es": "paquete (de condiciones)",
+        "example": "A good salary package."
+      },
+      {
+        "id": "en-references",
+        "lemma": "references",
+        "pos": "noun",
+        "ipa": "/ˈrefrənsɪz/",
+        "es": "referencias",
+        "example": "Please send your references."
+      },
+      {
+        "id": "en-tell-someone-to",
+        "lemma": "tell someone to",
+        "pos": "phrase",
+        "ipa": "/tel ˈsʌmwʌn tə/",
+        "es": "decirle a alguien que (haga)",
+        "example": "She told me to wait."
+      },
+      {
+        "id": "en-ask-someone-to",
+        "lemma": "ask someone to",
+        "pos": "phrase",
+        "ipa": "/ɑːsk ˈsʌmwʌn tə/",
+        "es": "pedirle a alguien que (haga)",
+        "example": "He asked me to help."
+      },
+      {
+        "id": "en-wonder",
+        "lemma": "wonder",
+        "pos": "verb",
+        "ipa": "/ˈwʌndə/",
+        "es": "preguntarse",
+        "example": "I wonder where she is."
+      },
+      {
+        "id": "en-immediately",
+        "lemma": "immediately",
+        "pos": "adv",
+        "ipa": "/ɪˈmiːdiətli/",
+        "es": "inmediatamente",
+        "example": "Start immediately."
+      }
+    ],
+    "audio_script_id": "en-b1-u07-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntas en estilo indirecto**\n\n| Tipo | Directo | Indirecto |\n|---|---|---|\n| **Wh-** | *'Where **do** you live?'* | *She asked **where I lived**.* |\n| **Sí/no** | *'**Are** you ready?'* | *She asked **if / whether** I **was** ready.* |\n\n**Reglas**\n\n- **Orden afirmativo**, sin *do/does/did* ni inversión: ✘ *She asked where did I live* → ✔ *where **I lived***.\n- Los tiempos retroceden igual que en las afirmaciones.\n- Para preguntas sí/no se usa **if** o **whether** (*whether* es algo más formal, o con *or not*).\n- Sin signo de interrogación: *He asked me what time it was.*\n\n**Órdenes y peticiones**\n\n| Directo | Indirecto |\n|---|---|\n| *'Wait here!'* | *She **told** me **to wait** there.* |\n| *'Don't touch it.'* | *He **told** me **not to touch** it.* |\n| *'Could you open the window?'* | *She **asked** me **to open** the window.* |\n\n**Estructura:** *tell / ask + persona + (not) to + verbo.*\n\n**Otras maneras de preguntar de forma indirecta (educada):** *Could you tell me where the station is? · Do you know what time it opens? · I wonder if you could help.* (orden afirmativo).\n\n**Ojo:** *ask* sirve para preguntar (*ask a question*) y para pedir (*ask for water*). *Ask for* ≠ *ask*. ✘ *She asked me to that I wait*.\n\nPronunciación: *whether* /ˈweðə/ (th sonora, igual que *weather*) · *references* /ˈrefrənsɪz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She asked where did I live.",
+        "right": "She asked where I lived.",
+        "note": "Sin do/did."
+      },
+      {
+        "wrong": "He told me that wait.",
+        "right": "He told me to wait.",
+        "note": "Tell + persona + to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u07-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le preguntó la directora sobre su último trabajo?",
+      "options": [
+        "Por qué lo había dejado",
+        "Cuánto cobraba",
+        "Si lo echaron",
+        "Si le gustaba"
+      ],
+      "answer": [
+        "Por qué lo había dejado"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: why I had left my last job.",
+        "incorrect": "Revisa esto: Dice: why I had left my last job."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le pidió que enviara?",
+      "options": [
+        "Sus referencias",
+        "Su pasaporte",
+        "Su CV",
+        "Un vídeo"
+      ],
+      "answer": [
+        "Sus referencias"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: asked me to send my references.",
+        "incorrect": "Revisa esto: Dice: asked me to send my references."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo le dijo que la llamara?",
+      "options": [
+        "El viernes",
+        "El lunes",
+        "Hoy",
+        "En un mes"
+      ],
+      "answer": [
+        "El viernes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: call her on Friday.",
+        "incorrect": "Revisa esto: Dice: call her on Friday."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which adjective is stronger than 'very small'?",
+      "options": [
+        "tiny",
+        "little",
+        "short",
+        "narrow"
+      ],
+      "answer": [
+        "tiny"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tiny = muy pequeño.",
+        "incorrect": "Revisa esto: Tiny = muy pequeño."
+      },
+      "review_of": "en-b1-u06-l05-ex08"
+    },
+    {
+      "id": "en-b1-u07-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 15,
+      "prompt": "La directora le preguntó si estaba disponible de inmediato.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: she asked whether I was available immediately.",
+        "incorrect": "Revisa esto: Dice: she asked whether I was available immediately."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It isn't as cold ___ it was yesterday.",
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not as … as.",
+        "incorrect": "Revisa esto: Not as … as."
+      },
+      "review_of": "en-b1-u02-l04-ex09"
+    },
+    {
+      "id": "en-b1-u07-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Where do you live?' → She asked me where I ___ .",
+      "options": [
+        "lived",
+        "did live",
+        "do live",
+        "live did"
+      ],
+      "answer": [
+        "lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin do, orden afirmativo, pasado.",
+        "incorrect": "Revisa esto: Sin do, orden afirmativo, pasado."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Are you ready?' → She asked me ___ I was ready.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "to"
+      ],
+      "answer": [
+        "if"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sí/no: if / whether.",
+        "incorrect": "Revisa esto: Sí/no: if / whether."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ work on Sundays. (negativa)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con I la negativa es don't.",
+        "incorrect": "Revisa esto: Con I la negativa es don't."
+      },
+      "review_of": "en-a1-u04-l06-ex04"
+    },
+    {
+      "id": "en-b1-u07-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Wait here.' → She told me ___ there.",
+      "options": [
+        "to wait",
+        "wait",
+        "waiting",
+        "that wait"
+      ],
+      "answer": [
+        "to wait"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Don't touch it.' → He told me ___ it.",
+      "options": [
+        "not to touch",
+        "don't touch",
+        "to not touching",
+        "no touch"
+      ],
+      "answer": [
+        "not to touch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not to + verbo.",
+        "incorrect": "Revisa esto: Not to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Could you help me?' → She asked me ___ her.",
+      "options": [
+        "to help",
+        "help",
+        "if helping",
+        "that help"
+      ],
+      "answer": [
+        "to help"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ask + persona + to.",
+        "incorrect": "Revisa esto: Ask + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-rv04",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Can I have a litre of milk, please?",
+      "answer": [
+        "Can I have a litre of milk, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido de cantidad: a litre of milk.",
+        "incorrect": "Revisa esto: Pedido de cantidad: a litre of milk."
+      },
+      "audio_script_id": "en-b1-u07-l03-rv04-a",
+      "review_of": "en-a2-u04-l04-ex10"
+    },
+    {
+      "id": "en-b1-u07-l03-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ people are coming to the party?",
+      "answer": [
+        "many"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! People es contable: how many.",
+        "incorrect": "Revisa esto: People es contable: how many."
+      },
+      "review_of": "en-a2-u04-l06-ex02"
+    },
+    {
+      "id": "en-b1-u07-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "He asked me what time it was.",
+        "He asked me what time was it.",
+        "He asked me what time is it?",
+        "He asked me what time did it be."
+      ],
+      "answer": [
+        "He asked me what time it was."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "She asked me ___ I could start on Monday. (si)",
+      "answer": [
+        "if",
+        "whether"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If / whether.",
+        "incorrect": "Revisa esto: If / whether."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "He told me ___ to be late. (no llegar)",
+      "answer": [
+        "not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not to.",
+        "incorrect": "Revisa esto: Not to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She asked me where did I work.",
+      "answer": [
+        "She asked me where I worked."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin do.",
+        "incorrect": "Revisa esto: Sin do."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He told me that wait here.",
+      "answer": [
+        "He told me to wait here."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She asked me what was my name.",
+      "answer": [
+        "She asked me what my name was."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le pidió la profesora?",
+      "options": [
+        "Que se quedara a terminarlo",
+        "Que se fuera",
+        "Que lo hiciera en casa",
+        "Que llamara a su madre"
+      ],
+      "answer": [
+        "Que se quedara a terminarlo"
+      ],
+      "audio_text": "My teacher asked me if I had done my homework. I told her I hadn't, so she asked me to stay after class and finish it.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: asked me to stay after class and finish it.",
+        "incorrect": "Revisa esto: Dice: asked me to stay after class and finish it."
+      },
+      "audio_script_id": "en-b1-u07-l03-ex16-a"
+    },
+    {
+      "id": "en-b1-u07-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ to the cinema tomorrow. (go)",
+      "answer": [
+        "'re going",
+        "are going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan futuro: are going.",
+        "incorrect": "Revisa esto: Plan futuro: are going."
+      },
+      "review_of": "en-a1-u10-l04-ex02"
+    },
+    {
+      "id": "en-b1-u07-l03-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me preguntó dónde vivía y me pidió que no llegara tarde.",
+      "answer": [
+        "He asked me where I lived and told me not to be late.",
+        "She asked me where I lived and asked me not to be late.",
+        "He asked me where I lived and asked me not to be late."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta + orden indirecta.",
+        "incorrect": "Revisa esto: Pregunta + orden indirecta."
+      }
+    },
+    {
+      "id": "en-b1-u07-l03-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "questions",
+        "phone"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "phone",
+        "number",
+        "?",
+        "What's",
+        "your"
+      ],
+      "answer": [
+        "What's",
+        "your",
+        "phone",
+        "number",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Así se pregunta el número de teléfono.",
+        "incorrect": "Revisa esto: Así se pregunta el número de teléfono."
+      },
+      "review_of": "en-a1-u01-l03-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "She asked where I lived.",
+      "He asked if / whether I was …",
+      "She told me to wait.",
+      "He told me not to touch it."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-ask"
+    },
+    {
+      "type": "vocab",
+      "id": "en-whether"
+    },
+    {
+      "type": "vocab",
+      "id": "en-if"
+    },
+    {
+      "type": "vocab",
+      "id": "en-available"
+    },
+    {
+      "type": "vocab",
+      "id": "en-package"
+    },
+    {
+      "type": "vocab",
+      "id": "en-references"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tell-someone-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-ask-someone-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wonder"
+    },
+    {
+      "type": "vocab",
+      "id": "en-immediately"
+    },
+    {
+      "type": "grammar",
+      "id": "en-reported-questions"
+    }
+  ]
+}

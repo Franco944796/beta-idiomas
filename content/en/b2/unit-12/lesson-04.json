@@ -1,0 +1,969 @@
+{
+  "id": "en-b2-u12-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Tact and hedging",
+    "es": "Tacto, matices y atenuación"
+  },
+  "objective": "Al terminar suavizas lo que dices con hedging (perhaps, it seems, tend to, I'm afraid) y desacuerdas, criticas o rechazas con tacto.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En inglés, decir 'No, estás equivocado' suena brusco. El hedging (suavizar) y las fórmulas corteses te permiten discrepar sin ofender y mostrar incertidumbre de forma natural."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Marta",
+        "text": "Thanks for sending the draft, Tom. I've had a look at it.",
+        "es": "Gracias por enviar el borrador, Tom. Le he echado un vistazo."
+      },
+      {
+        "speaker": "Tom",
+        "text": "What did you think?",
+        "es": "¿Qué te pareció?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "Overall it's quite good. I wonder if the introduction might be a little too long, though. It tends to repeat some of the points from the summary.",
+        "es": "En general está bastante bien. Aunque me pregunto si la introducción no será un poco larga. Tiende a repetir algunos puntos del resumen."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Hmm. I thought it was important to give some background.",
+        "es": "Mmm. Pensé que era importante dar algo de contexto."
+      },
+      {
+        "speaker": "Marta",
+        "text": "I see your point. Perhaps we could shorten it by a paragraph? It seems to me that the readers will want to reach the findings quickly.",
+        "es": "Entiendo tu punto. ¿Quizá podríamos acortarla en un párrafo? Me parece que los lectores querrán llegar pronto a los resultados."
+      },
+      {
+        "speaker": "Tom",
+        "text": "That's possible. And what about the figures on page four?",
+        "es": "Es posible. ¿Y qué hay de las cifras de la página cuatro?"
+      },
+      {
+        "speaker": "Marta",
+        "text": "I'm afraid I'm not entirely convinced by them. They appear to contradict the data in the appendix, but I may be wrong.",
+        "es": "Me temo que no me convencen del todo. Parecen contradecir los datos del apéndice, pero puede que me equivoque."
+      },
+      {
+        "speaker": "Tom",
+        "text": "I'll double-check. Thanks for being so straightforward.",
+        "es": "Lo comprobaré. Gracias por ser tan directa."
+      },
+      {
+        "speaker": "Marta",
+        "text": "Not at all. I'd rather say it now than after we've sent it.",
+        "es": "De nada. Prefiero decirlo ahora que cuando ya lo hayamos enviado."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-overall",
+        "lemma": "overall",
+        "pos": "adv",
+        "ipa": "/ˌəʊvərˈɔːl/",
+        "es": "en general",
+        "example": "Overall it's good."
+      },
+      {
+        "id": "en-tend-to",
+        "lemma": "tend to",
+        "pos": "phrase",
+        "ipa": "/tend tə/",
+        "es": "tender a",
+        "example": "It tends to repeat."
+      },
+      {
+        "id": "en-i-wonder-if",
+        "lemma": "I wonder if",
+        "pos": "phrase",
+        "ipa": "/aɪ ˈwʌndər ɪf/",
+        "es": "me pregunto si",
+        "example": "I wonder if it's too long."
+      },
+      {
+        "id": "en-a-little-too",
+        "lemma": "a little too",
+        "pos": "phrase",
+        "ipa": "/ə ˈlɪtl tuː/",
+        "es": "un poco demasiado",
+        "example": "A little too long."
+      },
+      {
+        "id": "en-i-see-your-point",
+        "lemma": "I see your point",
+        "pos": "phrase",
+        "ipa": "/aɪ siː jɔː pɔɪnt/",
+        "es": "entiendo tu punto",
+        "example": "I see your point."
+      },
+      {
+        "id": "en-perhaps",
+        "lemma": "perhaps",
+        "pos": "adv",
+        "ipa": "/pəˈhæps/",
+        "es": "quizá",
+        "example": "Perhaps we could shorten it."
+      },
+      {
+        "id": "en-it-seems-to-me-that",
+        "lemma": "it seems to me that",
+        "pos": "phrase",
+        "ipa": "/ɪt siːmz tə miː ðæt/",
+        "es": "me parece que",
+        "example": "It seems to me that…"
+      },
+      {
+        "id": "en-i-m-afraid",
+        "lemma": "I'm afraid",
+        "pos": "phrase",
+        "ipa": "/aɪm əˈfreɪd/",
+        "es": "me temo que",
+        "example": "I'm afraid not."
+      },
+      {
+        "id": "en-not-entirely-convinced",
+        "lemma": "not entirely convinced",
+        "pos": "phrase",
+        "ipa": "/nɒt ɪnˈtaɪəli kənˈvɪnst/",
+        "es": "no del todo convencido",
+        "example": "Not entirely convinced."
+      },
+      {
+        "id": "en-appear-to",
+        "lemma": "appear to",
+        "pos": "phrase",
+        "ipa": "/əˈpɪə tə/",
+        "es": "parecer",
+        "example": "They appear to contradict."
+      },
+      {
+        "id": "en-contradict",
+        "lemma": "contradict",
+        "pos": "verb",
+        "ipa": "/ˌkɒntrəˈdɪkt/",
+        "es": "contradecir",
+        "example": "Contradict the data."
+      },
+      {
+        "id": "en-straightforward",
+        "lemma": "straightforward",
+        "pos": "adj",
+        "ipa": "/ˌstreɪtˈfɔːwəd/",
+        "es": "directo",
+        "example": "Be straightforward."
+      }
+    ],
+    "audio_script_id": "en-b2-u12-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Hedging (suavizar lo que dices)**\n\n| Recurso | Ejemplos | Efecto |\n|---|---|---|\n| **Verbos que suavizan** | *seem, appear, tend to, suggest, would* | *It seems to be a mistake. · It tends to repeat.* |\n| **Adverbios** | *perhaps, possibly, probably, arguably, somewhat, rather, fairly* | *It's arguably the best option.* |\n| **Cuantificadores** | *a bit, a little, slightly, quite, relatively* | *It's a little too long.* |\n| **Fórmulas de opinión** | *I think, I wonder if, it seems to me that, I'd say, as far as I can tell* | *I wonder if we should change it.* |\n| **Disculpas** | *I'm afraid…, I'm sorry but…, with respect…* | *I'm afraid I disagree.* |\n| **Pregunta en lugar de orden** | *Would you mind…? Could we…? What if we…?* | *What if we shortened it?* |\n\n**Desacuerdo con tacto**\n\n- Empieza con acuerdo parcial: *I see your point, but… · That's true; however… · You may be right, but…*\n- Evita *You're wrong.* → ✔ *I'm not sure I agree. · I see it slightly differently.*\n- Evita *That's a bad idea.* → ✔ *I'm not convinced that's the best approach.*\n\n**Rechazar con cortesía**\n\n- *I'd love to, but… · I'm afraid I can't make it. · That's very kind, but I'll have to decline. · Thanks for asking; unfortunately…*\n\n**Mostrar certeza vs incertidumbre**\n\n| Muy seguro | Intermedio | Poco seguro |\n|---|---|---|\n| *definitely, clearly, without doubt* | *probably, likely, it appears* | *perhaps, possibly, might, could* |\n\n**Hedging en textos académicos**\n\n- *The results suggest that… · This may be due to… · It could be argued that… · There appears to be a link between…*\n- Evita las afirmaciones absolutas: ✘ *This proves that…* → ✔ *This suggests that…*\n\n**Errores típicos**\n\n- ✘ *You are wrong.* (brusco) → ✔ *I'm afraid I see it differently.*\n- ✘ *It seems that is a mistake.* → ✔ *It seems to be a mistake.* / *It seems that it is a mistake.*\n- ✘ *It tends to be repeat.* → ✔ *It tends to repeat.*\n- ✘ *I am afraid of that I can't come.* → ✔ *I'm afraid I can't come.*\n- ✘ *It is a little too much long.* → ✔ *It is a little too long.*\n\n**Ojo:** *I'm afraid* no significa 'tengo miedo' aquí: es una fórmula cortés para dar malas noticias. *Quite* + adjetivo graduable = bastante; con adjetivos absolutos = totalmente (*quite impossible*).\n\nPronunciación: *arguably* /ˈɑːɡjuəbli/ · *somewhat* /ˈsʌmwɒt/ · *contradict* /ˌkɒntrəˈdɪkt/ · *straightforward* /ˌstreɪtˈfɔːwəd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "You are wrong",
+        "right": "I'm afraid I see it differently",
+        "note": "Más cortés."
+      },
+      {
+        "wrong": "tends to be repeat",
+        "right": "tends to repeat",
+        "note": "Tend to + base."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué opina Marta del borrador en general?",
+      "options": [
+        "Que está bastante bien",
+        "Que es horrible",
+        "Que es perfecto",
+        "Que no lo ha leído"
+      ],
+      "answer": [
+        "Que está bastante bien"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Overall it's quite good.",
+        "incorrect": "Revisa esto: Dice: Overall it's quite good."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué sugiere sobre la introducción?",
+      "options": [
+        "Acortarla un párrafo",
+        "Eliminarla",
+        "Hacerla más larga",
+        "Cambiarla de sitio"
+      ],
+      "answer": [
+        "Acortarla un párrafo"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: shorten it by a paragraph.",
+        "incorrect": "Revisa esto: Dice: shorten it by a paragraph."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le preocupa de las cifras de la página cuatro?",
+      "options": [
+        "Parecen contradecir los datos del apéndice",
+        "Son demasiado pocas",
+        "Están en otro idioma",
+        "Faltan gráficos"
+      ],
+      "answer": [
+        "Parecen contradecir los datos del apéndice"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: appear to contradict the data in the appendix.",
+        "incorrect": "Revisa esto: Dice: appear to contradict the data in the appendix."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "modals-past-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ forgotten; she's very organised.",
+      "options": [
+        "can't have",
+        "must",
+        "needn't have",
+        "might to"
+      ],
+      "answer": [
+        "can't have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't have.",
+        "incorrect": "Revisa esto: Can't have."
+      },
+      "review_of": "en-b2-u11-l06-ex07"
+    },
+    {
+      "id": "en-b2-u12-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué prefiere decirlo ahora?",
+      "options": [
+        "Para no enviar un error",
+        "Porque tiene prisa",
+        "Por enfado",
+        "Por aburrimiento"
+      ],
+      "answer": [
+        "Para no enviar un error"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: rather than after we've sent it.",
+        "incorrect": "Revisa esto: Dice: rather than after we've sent it."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 15,
+      "prompt": "Marta dice rotundamente que Tom está equivocado.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Usa fórmulas suaves: I may be wrong.",
+        "incorrect": "Revisa esto: Usa fórmulas suaves: I may be wrong."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "The introduction ___ to repeat some points.",
+      "options": [
+        "tends",
+        "tend",
+        "tending",
+        "is tend"
+      ],
+      "answer": [
+        "tends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tend to.",
+        "incorrect": "Revisa esto: Tend to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Las temperaturas suben y los glaciares se derriten cada año.",
+      "answer": [
+        "Temperatures are rising and glaciers are melting every year.",
+        "Temperatures are rising and the glaciers are melting every year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo.",
+        "incorrect": "Revisa esto: Presente continuo."
+      },
+      "review_of": "en-b1-u09-l01-ex16"
+    },
+    {
+      "id": "en-b2-u12-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ to me that the readers will want results quickly.",
+      "options": [
+        "seems",
+        "appears of",
+        "looks that",
+        "thinks"
+      ],
+      "answer": [
+        "seems"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It seems to me that.",
+        "incorrect": "Revisa esto: It seems to me that."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take an umbrella. It ___ rain later.",
+      "options": [
+        "might",
+        "might to",
+        "mights",
+        "will to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo.",
+        "incorrect": "Revisa esto: Might + verbo."
+      },
+      "review_of": "en-b1-u09-l03-ex05"
+    },
+    {
+      "id": "en-b2-u12-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ I can't come to the meeting.",
+      "options": [
+        "afraid",
+        "afraid of",
+        "scared that",
+        "frightened"
+      ],
+      "answer": [
+        "afraid"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm afraid + cláusula.",
+        "incorrect": "Revisa esto: I'm afraid + cláusula."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "The figures ___ to contradict the appendix.",
+      "options": [
+        "appear",
+        "appears of",
+        "looks",
+        "are appeared"
+      ],
+      "answer": [
+        "appear"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Appear to.",
+        "incorrect": "Revisa esto: Appear to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "festival-description"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ a tradition that attracts thousands of visitors.",
+      "options": [
+        "has become",
+        "became",
+        "becomes",
+        "is become"
+      ],
+      "answer": [
+        "has become"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente perfecto.",
+        "incorrect": "Revisa esto: Presente perfecto."
+      },
+      "review_of": "en-b1-u10-l05-ex07"
+    },
+    {
+      "id": "en-b2-u12-l04-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "My flat is ___ as yours: they both have two bedrooms.",
+      "options": [
+        "the same size",
+        "as same size",
+        "same size as",
+        "the same as size"
+      ],
+      "answer": [
+        "the same size"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The same size as yours.",
+        "incorrect": "Revisa esto: The same size as yours."
+      },
+      "review_of": "en-b1-u02-l04-ex04"
+    },
+    {
+      "id": "en-b2-u12-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is the most polite way to disagree?",
+      "options": [
+        "I'm not sure I agree.",
+        "You're wrong.",
+        "That's nonsense.",
+        "No way."
+      ],
+      "answer": [
+        "I'm not sure I agree."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The person to who I spoke was kind.",
+      "answer": [
+        "The person to whom I spoke was kind.",
+        "The person who I spoke to was kind.",
+        "The person I spoke to was kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To whom.",
+        "incorrect": "Revisa esto: To whom."
+      },
+      "review_of": "en-b2-u10-l06-ex18"
+    },
+    {
+      "id": "en-b2-u12-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most cautious claim?",
+      "options": [
+        "The results suggest that sales may rise.",
+        "The results prove that sales will rise.",
+        "Sales will definitely rise.",
+        "Sales always rise."
+      ],
+      "answer": [
+        "The results suggest that sales may rise."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging académico.",
+        "incorrect": "Revisa esto: Hedging académico."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's ___ too long. Could we cut it a bit?",
+      "options": [
+        "a little",
+        "a few",
+        "much of",
+        "a lot"
+      ],
+      "answer": [
+        "a little"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A little too.",
+        "incorrect": "Revisa esto: A little too."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I would have time, I'll call you.",
+      "answer": [
+        "If I have time, I'll call you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional: if + presente.",
+        "incorrect": "Revisa esto: Primer condicional: if + presente."
+      },
+      "review_of": "en-b1-u04-l02-ex12"
+    },
+    {
+      "id": "en-b2-u12-l04-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm afraid' in 'I'm afraid I can't' means...",
+      "options": [
+        "Me temo que",
+        "Tengo miedo",
+        "Estoy asustado de",
+        "Soy cobarde"
+      ],
+      "answer": [
+        "Me temo que"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fórmula cortés.",
+        "incorrect": "Revisa esto: Fórmula cortés."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 25,
+      "prompt": "They're taking the train ___ Saturday.",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con días se usa on.",
+        "incorrect": "Revisa esto: Con días se usa on."
+      },
+      "review_of": "en-a1-u10-l05-ex03"
+    },
+    {
+      "id": "en-b2-u12-l04-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Arguably' means...",
+      "options": [
+        "Se podría argumentar que",
+        "Con rabia",
+        "Sin duda",
+        "Nunca"
+      ],
+      "answer": [
+        "Se podría argumentar que"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ if the introduction might be too long. (me pregunto)",
+      "answer": [
+        "wonder"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I wonder if.",
+        "incorrect": "Revisa esto: I wonder if."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex16",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 25,
+      "prompt": "I see your ___ , but I'd suggest a different approach. (punto)",
+      "answer": [
+        "point"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I see your point.",
+        "incorrect": "Revisa esto: I see your point."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It tends to be repeat some points.",
+      "answer": [
+        "It tends to repeat some points.",
+        "It tends to be repetitive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tend to + infinitivo.",
+        "incorrect": "Revisa esto: Tend to + infinitivo."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am afraid of that I can't come on Friday.",
+      "answer": [
+        "I'm afraid I can't come on Friday.",
+        "I am afraid that I can't come on Friday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'm afraid (that).",
+        "incorrect": "Revisa esto: I'm afraid (that)."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "This proves that all teenagers are lazy.",
+      "answer": [
+        "This suggests that some teenagers may be lazy.",
+        "This suggests that many teenagers may be less active."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm really ___ in photography. (interesado)",
+      "answer": [
+        "interested"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cómo se siente una persona: interested.",
+        "incorrect": "Revisa esto: Cómo se siente una persona: interested."
+      },
+      "review_of": "en-a2-u13-l05-ex06"
+    },
+    {
+      "id": "en-b2-u12-l04-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué propone para cenar?",
+      "options": [
+        "Quedar el sábado a las siete",
+        "Cenar el viernes",
+        "Cancelar la cena",
+        "Cenar a medianoche"
+      ],
+      "answer": [
+        "Quedar el sábado a las siete"
+      ],
+      "audio_text": "I'd love to join you for dinner, but I'm afraid I'm not free on Friday. It seems to me that Saturday might be better for everyone. Perhaps we could meet at seven? I'll check with Ana, though, as she tends to work late.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Saturday... meet at seven.",
+        "incorrect": "Revisa esto: Dice: Saturday... meet at seven."
+      },
+      "audio_script_id": "en-b2-u12-l04-ex20-a"
+    },
+    {
+      "id": "en-b2-u12-l04-ex21",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Tu jefe propone cambiar el calendario del proyecto, pero no estás de acuerdo.",
+      "turns": [
+        {
+          "speaker": "Boss",
+          "text": "I think we should bring the deadline forward by two weeks."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I see your point, but I'm afraid that might be a little too tight. Perhaps we could discuss what is realistic?",
+            "No. That's impossible.",
+            "Whatever you say."
+          ],
+          "best": 0,
+          "why_es": "Desacuerdo con tacto."
+        },
+        {
+          "speaker": "Boss",
+          "text": "Why do you think it's too tight?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It seems to me that the testing phase tends to take longer than expected. What if we added one week instead?",
+            "Because I say so.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Argumentar con suavidad."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u12-l04-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hedging"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me temo que no estoy del todo convencido; me parece que los datos podrían ser algo incompletos.",
+      "answer": [
+        "I'm afraid I'm not entirely convinced; it seems to me that the data might be somewhat incomplete.",
+        "I'm afraid I'm not completely convinced; it seems to me that the data could be somewhat incomplete."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hedging.",
+        "incorrect": "Revisa esto: Hedging."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I see your point, but…",
+      "I'm afraid I can't… · I'm not sure I agree.",
+      "It seems to me that… · It tends to…",
+      "Perhaps we could… · What if we…?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-overall"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tend-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-wonder-if"
+    },
+    {
+      "type": "vocab",
+      "id": "en-a-little-too"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-see-your-point"
+    },
+    {
+      "type": "vocab",
+      "id": "en-perhaps"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-seems-to-me-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-m-afraid"
+    },
+    {
+      "type": "vocab",
+      "id": "en-not-entirely-convinced"
+    },
+    {
+      "type": "vocab",
+      "id": "en-appear-to"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hedging"
+    }
+  ]
+}

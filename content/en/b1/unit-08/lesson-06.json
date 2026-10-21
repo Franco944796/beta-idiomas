@@ -1,0 +1,716 @@
+{
+  "id": "en-b1-u08-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 8,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 8",
+    "es": "Checkpoint 8"
+  },
+  "objective": "Al terminar demuestras que hablas de estudios, normas, técnicas de estudio y redactas una opinión estructurada.",
+  "est_minutes": 40,
+  "skills": [
+    "grammar",
+    "listening",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 8: vocabulario de estudios, gerundio o infinitivo, permisos y normas, estudio y redacción."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario universitario, stop / remember / forget / try con -ing o to, be allowed to / be supposed to / let / make, técnicas de estudio y la estructura de una redacción de opinión.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 8**\n\n- *degree · attend · revise · pass / fail · hand in · scholarship*\n- *stop smoking / stop to smoke · remember to call / remember calling · try opening / try to open*\n- *be allowed to · be supposed to · let me go · made me wait*\n- *Try … -ing · It helps to … · You'd better … · It takes me … to …*\n- *In my opinion · Firstly · On the other hand · In conclusion*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u08-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una acción de estudio o un título?",
+      "categories": [
+        "Action",
+        "Qualification"
+      ],
+      "items": [
+        {
+          "text": "take notes",
+          "category": "Action"
+        },
+        {
+          "text": "revise",
+          "category": "Action"
+        },
+        {
+          "text": "hand in an essay",
+          "category": "Action"
+        },
+        {
+          "text": "bachelor's degree",
+          "category": "Qualification"
+        },
+        {
+          "text": "master's",
+          "category": "Qualification"
+        },
+        {
+          "text": "PhD",
+          "category": "Qualification"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ lectures every day.",
+      "options": [
+        "attends",
+        "assists",
+        "assists to",
+        "visits"
+      ],
+      "answer": [
+        "attends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attend.",
+        "incorrect": "Revisa esto: Attend."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 20,
+      "prompt": "He stopped ___ last year. (ya no fuma)",
+      "options": [
+        "smoking",
+        "to smoke",
+        "smoke",
+        "smoked"
+      ],
+      "answer": [
+        "smoking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop + -ing.",
+        "incorrect": "Revisa esto: Stop + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 20,
+      "prompt": "Remember ___ the door.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock",
+        "locked"
+      ],
+      "answer": [
+        "to lock"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Remember + to.",
+        "incorrect": "Revisa esto: Remember + to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 20,
+      "prompt": "I tried ___ the box, but it was too heavy.",
+      "options": [
+        "to lift",
+        "lifting",
+        "lift",
+        "lifted"
+      ],
+      "answer": [
+        "to lift"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try + to.",
+        "incorrect": "Revisa esto: Try + to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Have you ever visit Rome?",
+      "answer": [
+        "Have you ever visited Rome?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de have va el participio: visited.",
+        "incorrect": "Revisa esto: Después de have va el participio: visited."
+      },
+      "review_of": "en-a2-u08-l01-ex08"
+    },
+    {
+      "id": "en-b1-u08-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "You aren't ___ to smoke here.",
+      "options": [
+        "allowed",
+        "let",
+        "made",
+        "supposed"
+      ],
+      "answer": [
+        "allowed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Allowed to.",
+        "incorrect": "Revisa esto: Allowed to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "My parents never ___ me stay out late.",
+      "options": [
+        "let",
+        "allowed",
+        "made",
+        "were"
+      ],
+      "answer": [
+        "let"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let + verbo.",
+        "incorrect": "Revisa esto: Let + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 20,
+      "prompt": "The teacher ___ us write the essay again.",
+      "options": [
+        "made",
+        "let to",
+        "allowed",
+        "supposed"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + verbo.",
+        "incorrect": "Revisa esto: Make + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
+    },
+    {
+      "id": "en-b1-u08-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "study-skills"
+      ],
+      "est_seconds": 20,
+      "prompt": "It helps ___ with a friend.",
+      "options": [
+        "to study",
+        "studying to",
+        "study",
+        "for study"
+      ],
+      "answer": [
+        "to study"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It helps to.",
+        "incorrect": "Revisa esto: It helps to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 15,
+      "prompt": "Se quedó una semana en Lisboa.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se quedó tres días; la próxima vez una semana.",
+        "incorrect": "Revisa esto: Se quedó tres días; la próxima vez una semana."
+      },
+      "review_of": "en-b1-u06-l05-ex04"
+    },
+    {
+      "id": "en-b1-u08-l06-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish you ___ stop shouting.",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "are"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + would para quejas.",
+        "incorrect": "Revisa esto: Wish + would para quejas."
+      },
+      "review_of": "en-b1-u06-l03-ex08"
+    },
+    {
+      "id": "en-b1-u08-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, a uniform makes everyone equal.",
+      "options": [
+        "Firstly",
+        "However",
+        "In conclusion",
+        "For example"
+      ],
+      "answer": [
+        "Firstly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer argumento.",
+        "incorrect": "Revisa esto: Primer argumento."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 25,
+      "prompt": "I forgot ___ (switch) off the light.",
+      "answer": [
+        "to switch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forget + to.",
+        "incorrect": "Revisa esto: Forget + to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ allowed to use phones last year. (no)",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Weren't allowed.",
+        "incorrect": "Revisa esto: Weren't allowed."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I assisted the lecture yesterday.",
+      "answer": [
+        "I attended the lecture yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attend.",
+        "incorrect": "Revisa esto: Attend."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She lets me to leave early.",
+      "answer": [
+        "She lets me leave early."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let sin to.",
+        "incorrect": "Revisa esto: Let sin to."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "superlatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is the ___ (tall) girl in the class.",
+      "answer": [
+        "tallest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! the + adjetivo + -est.",
+        "incorrect": "Revisa esto: the + adjetivo + -est."
+      },
+      "review_of": "en-a2-u03-l03-ex02"
+    },
+    {
+      "id": "en-b1-u08-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "On my opinion, it is a good idea.",
+      "answer": [
+        "In my opinion, it is a good idea."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In my opinion.",
+        "incorrect": "Revisa esto: In my opinion."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál es la opinión?",
+      "options": [
+        "No deberían usar móviles",
+        "Deberían usarlos siempre",
+        "Solo en exámenes",
+        "Solo en el recreo"
+      ],
+      "answer": [
+        "No deberían usar móviles"
+      ],
+      "audio_text": "In my opinion, students should not use phones in class. Firstly, they distract students. However, some people argue that phones are useful for research.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: should not use phones in class.",
+        "incorrect": "Revisa esto: Dice: should not use phones in class."
+      },
+      "audio_script_id": "en-b1-u08-l06-ex16-a"
+    },
+    {
+      "id": "en-b1-u08-l06-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Dejé de beber café, pero me acuerdo de beberlo todos los días.",
+      "answer": [
+        "I stopped drinking coffee, but I remember drinking it every day.",
+        "I stopped drinking coffee, but I remember having it every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Stop -ing; remember -ing.",
+        "incorrect": "Revisa esto: Stop -ing; remember -ing."
+      }
+    },
+    {
+      "id": "en-b1-u08-l06-rv06",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un servicio o una característica del barrio?",
+      "categories": [
+        "Facility",
+        "Feature"
+      ],
+      "items": [
+        {
+          "text": "pharmacy",
+          "category": "Facility"
+        },
+        {
+          "text": "library",
+          "category": "Facility"
+        },
+        {
+          "text": "supermarket",
+          "category": "Facility"
+        },
+        {
+          "text": "park",
+          "category": "Facility"
+        },
+        {
+          "text": "peaceful",
+          "category": "Feature"
+        },
+        {
+          "text": "crowded",
+          "category": "Feature"
+        },
+        {
+          "text": "lively",
+          "category": "Feature"
+        },
+        {
+          "text": "noisy",
+          "category": "Feature"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los servicios son lugares; las características son adjetivos.",
+        "incorrect": "Revisa esto: Los servicios son lugares; las características son adjetivos."
+      },
+      "review_of": "en-b1-u02-l01-ex05"
+    },
+    {
+      "id": "en-b1-u08-l06-rv07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estamos pensando en ir a Italia en temporada baja para gastar menos.",
+      "answer": [
+        "We're thinking of going to Italy in low season to spend less.",
+        "We're thinking of going to Italy in the low season to spend less.",
+        "We are thinking of going to Italy in low season to spend less."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Thinking of + -ing.",
+        "incorrect": "Revisa esto: Thinking of + -ing."
+      },
+      "review_of": "en-b1-u06-l01-ex16"
+    },
+    {
+      "id": "en-b1-u08-l06-rv08",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe el número (en letras o en cifras).",
+      "audio_text": "one hundred and fifty",
+      "answer": [
+        "one hundred and fifty",
+        "150",
+        "one hundred fifty"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! 150 = one hundred and fifty.",
+        "incorrect": "Revisa esto: 150 = one hundred and fifty."
+      },
+      "audio_script_id": "en-b1-u08-l06-rv08-a",
+      "review_of": "en-a1-u08-l01-ex06"
+    },
+    {
+      "id": "en-b1-u08-l06-rv09",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 25,
+      "prompt": "one, two, ___, four",
+      "answer": [
+        "three"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contando: one, two, three, four.",
+        "incorrect": "Revisa esto: Contando: one, two, three, four."
+      },
+      "review_of": "en-a1-u01-l03-ex02"
+    },
+    {
+      "id": "en-b1-u08-l06-ex18",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "opinion-essay",
+        "study-skills"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un ensayo breve (10 a 12 frases) con tu opinión sobre este tema: 'Is it better to study alone or with other people?'. Usa conectores, una objeción y una conclusión.",
+      "min_words": 69,
+      "self_check_es": [
+        "¿Hay tesis clara?",
+        "¿Hay dos argumentos?",
+        "¿Hay una objeción con respuesta?",
+        "¿Hay una conclusión?"
+      ],
+      "model_answer": "In my opinion, it is better to study with other people. Firstly, you can explain things to each other, which helps you learn. For example, when I explain a topic to a friend, I remember it better. Secondly, studying together is more motivating. On the other hand, some people argue that groups can be distracting. However, if you set rules and take breaks, it can be very effective. In conclusion, although studying alone has advantages, I believe group study is more useful.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "degree · attend · revise · hand in",
+      "stop -ing / to · remember -ing / to",
+      "allowed to · supposed to · let / make",
+      "In my opinion · However · In conclusion"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-school-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-gerund-infinitive-meaning"
+    },
+    {
+      "type": "grammar",
+      "id": "en-allowed-supposed"
+    },
+    {
+      "type": "grammar",
+      "id": "en-study-skills"
+    },
+    {
+      "type": "grammar",
+      "id": "en-opinion-essay"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

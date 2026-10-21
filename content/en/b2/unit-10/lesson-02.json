@@ -1,0 +1,947 @@
+{
+  "id": "en-b2-u10-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 10,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Having finished, he left",
+    "es": "Cláusulas de participio"
+  },
+  "objective": "Al terminar usas cláusulas de participio (-ing, -ed y having + participio) para unir ideas de forma concisa en escritura narrativa y formal.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Habiendo terminado, se fue.' 'Rodeado de gente, se sintió solo.' Las cláusulas de participio resumen dos acciones en una frase elegante, muy habitual en textos descriptivos y narrativos."
+  },
+  "input": {
+    "type": "text",
+    "text": "Having finished his novel, the author took a long holiday. Walking along the beach one morning, he noticed an old man painting. Intrigued, he stopped to watch. The painter, dressed in a faded blue shirt, was working on a seascape. Not wanting to disturb him, the author stayed silent.\n\nAfter a while, the old man turned around. 'Fascinated by the sea?' he asked. 'Yes,' said the author, 'but I can't paint.' 'Neither could I at your age,' the man laughed. 'Encouraged by a teacher, I started at forty.'\n\nThe two men became friends. Inspired by their conversations, the author began a new book. Written in only six months, it became a bestseller. Having read it, the painter said, 'You've captured the sea better than I ever did.'\n\nLooking back, the author often wondered whether the book would have existed had he not met the painter. Surrounded by waves and silence, he had found what he had been looking for: a story worth telling.",
+    "es": "Habiendo terminado su novela, el autor se tomó unas largas vacaciones. Paseando por la playa una mañana, se fijó en un anciano que pintaba. Intrigado, se detuvo a mirar. El pintor, vestido con una camisa azul desteñida, trabajaba en una marina. Sin querer molestarlo, el autor guardó silencio. Al cabo de un rato, el anciano se dio la vuelta. '¿Fascinado por el mar?', preguntó. 'Sí', dijo el autor, 'pero no sé pintar'. 'Yo tampoco a su edad', rio el hombre. 'Animado por un profesor, empecé a los cuarenta'. Los dos hombres se hicieron amigos. Inspirado por sus conversaciones, el autor empezó un nuevo libro. Escrito en solo seis meses, se convirtió en un superventas. Habiéndolo leído, el pintor dijo: 'Has captado el mar mejor que yo'. Mirando atrás, el autor se preguntaba a menudo si el libro habría existido de no haber conocido al pintor. Rodeado de olas y silencio, había encontrado lo que buscaba: una historia que valía la pena contar.",
+    "glossary": [
+      {
+        "id": "en-holiday",
+        "lemma": "holiday",
+        "pos": "noun",
+        "ipa": "/ˈhɒlədeɪ/",
+        "es": "vacaciones",
+        "example": "A long holiday."
+      },
+      {
+        "id": "en-notice",
+        "lemma": "notice",
+        "pos": "verb",
+        "ipa": "/ˈnəʊtɪs/",
+        "es": "notar",
+        "example": "He noticed an old man."
+      },
+      {
+        "id": "en-intrigued",
+        "lemma": "intrigued",
+        "pos": "adj",
+        "ipa": "/ɪnˈtriːɡd/",
+        "es": "intrigado",
+        "example": "He was intrigued."
+      },
+      {
+        "id": "en-faded",
+        "lemma": "faded",
+        "pos": "adj",
+        "ipa": "/ˈfeɪdɪd/",
+        "es": "desteñido",
+        "example": "A faded shirt."
+      },
+      {
+        "id": "en-seascape",
+        "lemma": "seascape",
+        "pos": "noun",
+        "ipa": "/ˈsiːskeɪp/",
+        "es": "marina (pintura)",
+        "example": "A seascape."
+      },
+      {
+        "id": "en-disturb",
+        "lemma": "disturb",
+        "pos": "verb",
+        "ipa": "/dɪˈstɜːb/",
+        "es": "molestar",
+        "example": "Don't disturb him."
+      },
+      {
+        "id": "en-encourage",
+        "lemma": "encourage",
+        "pos": "verb",
+        "ipa": "/ɪnˈkʌrɪdʒ/",
+        "es": "animar",
+        "example": "Encouraged by a teacher."
+      },
+      {
+        "id": "en-inspire",
+        "lemma": "inspire",
+        "pos": "verb",
+        "ipa": "/ɪnˈspaɪə/",
+        "es": "inspirar",
+        "example": "Inspired by nature."
+      },
+      {
+        "id": "en-bestseller",
+        "lemma": "bestseller",
+        "pos": "noun",
+        "ipa": "/ˌbestˈselə/",
+        "es": "superventas",
+        "example": "A bestseller."
+      },
+      {
+        "id": "en-capture",
+        "lemma": "capture",
+        "pos": "verb",
+        "ipa": "/ˈkæptʃə/",
+        "es": "captar",
+        "example": "Capture the sea."
+      },
+      {
+        "id": "en-surrounded",
+        "lemma": "surrounded",
+        "pos": "adj",
+        "ipa": "/səˈraʊndɪd/",
+        "es": "rodeado",
+        "example": "Surrounded by waves."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Cláusulas de participio**\n\n| Tipo | Estructura | Significado | Ejemplo |\n|---|---|---|---|\n| **-ing (activo, simultáneo)** | *V-ing + resto, sujeto + verbo* | dos acciones a la vez o causa | ***Walking** along the beach, he saw a boat.* |\n| **Having + participio (anterior)** | *Having + participio, sujeto + verbo* | una acción terminó antes | ***Having finished** his book, he rested.* |\n| **-ed (pasivo)** | *participio + resto, sujeto + verbo* | causa o descripción pasiva | ***Inspired** by her, he started painting.* |\n| **Having been + participio** | *Having been + participio* | pasiva anterior | ***Having been warned**, they stayed home.* |\n| **Negativo** | *Not + V-ing / Not having + participio* | ausencia | ***Not wanting** to disturb him, he left.* |\n\n**Regla clave: mismo sujeto**\n\n- El sujeto implícito de la cláusula de participio es **el mismo** que el de la oración principal.\n- ✔ ***Walking** along the beach, **he** noticed an old man.* (él camina y él nota)\n- ✘ ***Walking** along the beach, **the sun** was shining.* (el sol no camina) → ✔ *As we were walking along the beach, the sun was shining.*\n\n**Participio como adjetivo reducido (post-modificador)**\n\n- *The man **painting** the boat is my uncle.* = *The man who is painting …*\n- *The book **written** by her is a bestseller.* = *The book which was written …*\n\n**Con conjunciones**\n\n- *After finishing, … · Before leaving, … · While walking, … · On arriving, … · Since moving here, … · When asked, …*\n\n**Participio de causa**\n\n- *Being tired, he went to bed.* = *Because he was tired, …* · *Not knowing the answer, she guessed.*\n\n**Errores típicos**\n\n- ✘ *Walking along the beach, the weather was nice.* → ✔ *Walking along the beach, I noticed that the weather was nice.*\n- ✘ *Having finish the work, he left.* → ✔ *Having finished the work, he left.*\n- ✘ *Inspiring by her, he painted.* → ✔ *Inspired by her, he painted.*\n- ✘ *Not to know the answer, she guessed.* → ✔ *Not knowing the answer, she guessed.*\n\n**Ojo:** son frecuentes en escritura formal y narrativa; en habla coloquial se usan menos. Tras una coma, la cláusula de participio suele ir al principio de la frase.\n\nPronunciación: *intrigued* /ɪnˈtriːɡd/ · *seascape* /ˈsiːskeɪp/ · *encouraged* /ɪnˈkʌrɪdʒd/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Walking …, the weather was nice.",
+        "right": "Walking …, I noticed the weather.",
+        "note": "Mismo sujeto."
+      },
+      {
+        "wrong": "Inspiring by her",
+        "right": "Inspired by her",
+        "note": "Participio pasivo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u10-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hizo el autor al terminar su novela?",
+      "options": [
+        "Se tomó unas largas vacaciones",
+        "Empezó otra novela",
+        "Viajó a Londres",
+        "Dejó de escribir"
+      ],
+      "answer": [
+        "Se tomó unas largas vacaciones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Having finished his novel, the author took a long holiday.",
+        "incorrect": "Revisa esto: Dice: Having finished his novel, the author took a long holiday."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hacía el anciano en la playa?",
+      "options": [
+        "Pintar una marina",
+        "Pescar",
+        "Leer",
+        "Nadar"
+      ],
+      "answer": [
+        "Pintar una marina"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: painting… seascape.",
+        "incorrect": "Revisa esto: Dice: painting… seascape."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo empezó a pintar el anciano?",
+      "options": [
+        "A los cuarenta",
+        "A los diez",
+        "A los sesenta",
+        "A los veinte"
+      ],
+      "answer": [
+        "A los cuarenta"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I started at forty.",
+        "incorrect": "Revisa esto: Dice: I started at forty."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 15,
+      "prompt": "El libro del autor tardó varios años en escribirse.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escrito en solo seis meses.",
+        "incorrect": "Revisa esto: Escrito en solo seis meses."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 20,
+      "prompt": "'The streets are full of people' → The streets are ___.",
+      "options": [
+        "crowded",
+        "quiet",
+        "empty",
+        "clean"
+      ],
+      "answer": [
+        "crowded"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Crowded = lleno de gente.",
+        "incorrect": "Revisa esto: Crowded = lleno de gente."
+      },
+      "review_of": "en-a2-u03-l01-ex02"
+    },
+    {
+      "id": "en-b2-u10-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "money-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am economic with my money.",
+      "answer": [
+        "I am careful with my money.",
+        "I am economical with my money."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Economic no es 'económico/ahorrador'.",
+        "incorrect": "Revisa esto: Economic no es 'económico/ahorrador'."
+      },
+      "review_of": "en-b1-u07-l01-ex14"
+    },
+    {
+      "id": "en-b2-u10-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ his novel, the author went on holiday.",
+      "options": [
+        "Having finished",
+        "Finishing",
+        "Finished having",
+        "Having been finish"
+      ],
+      "answer": [
+        "Having finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acción anterior.",
+        "incorrect": "Revisa esto: Acción anterior."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ along the beach, he noticed an old man.",
+      "options": [
+        "Walking",
+        "Walked",
+        "Having walked",
+        "To walk"
+      ],
+      "answer": [
+        "Walking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acciones simultáneas.",
+        "incorrect": "Revisa esto: Acciones simultáneas."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres probarte una chaqueta:",
+      "options": [
+        "Can I try this jacket on?",
+        "Can I try on it?",
+        "I try the jacket.",
+        "Can I trying this jacket?"
+      ],
+      "answer": [
+        "Can I try this jacket on?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try on es un phrasal verb: Can I try … on?",
+        "incorrect": "Revisa esto: Try on es un phrasal verb: Can I try … on?"
+      },
+      "review_of": "en-a2-u11-l02-ex01"
+    },
+    {
+      "id": "en-b2-u10-l02-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "jobs-workplaces"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He works like engineer.",
+      "answer": [
+        "He works as an engineer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Profesión = as + a/an: as an engineer.",
+        "incorrect": "Revisa esto: Profesión = as + a/an: as an engineer."
+      },
+      "review_of": "en-a2-u07-l01-ex08"
+    },
+    {
+      "id": "en-b2-u10-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ by her teacher, she began to paint.",
+      "options": [
+        "Encouraged",
+        "Encouraging",
+        "Having encourage",
+        "Encourage"
+      ],
+      "answer": [
+        "Encouraged"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio pasivo.",
+        "incorrect": "Revisa esto: Participio pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the answer, she guessed.",
+      "options": [
+        "Not knowing",
+        "Not to know",
+        "Not known",
+        "Knowing not"
+      ],
+      "answer": [
+        "Not knowing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativo.",
+        "incorrect": "Revisa esto: Negativo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv05",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Rooms",
+        "Furniture",
+        "Other parts"
+      ],
+      "items": [
+        {
+          "text": "living room",
+          "category": "Rooms"
+        },
+        {
+          "text": "kitchen",
+          "category": "Rooms"
+        },
+        {
+          "text": "bedroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bathroom",
+          "category": "Rooms"
+        },
+        {
+          "text": "bed",
+          "category": "Furniture"
+        },
+        {
+          "text": "table",
+          "category": "Furniture"
+        },
+        {
+          "text": "chair",
+          "category": "Furniture"
+        },
+        {
+          "text": "sofa",
+          "category": "Furniture"
+        },
+        {
+          "text": "window",
+          "category": "Other parts"
+        },
+        {
+          "text": "door",
+          "category": "Other parts"
+        },
+        {
+          "text": "garden",
+          "category": "Other parts"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u06-l01-ex09"
+    },
+    {
+      "id": "en-b2-u10-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "The man ___ the boat is my uncle.",
+      "options": [
+        "painting",
+        "painted",
+        "paint",
+        "to painting"
+      ],
+      "answer": [
+        "painting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio activo reducido.",
+        "incorrect": "Revisa esto: Participio activo reducido."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 15,
+      "prompt": "Las duchas eran largas y gastaban mucha agua.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que tomaban duchas muy cortas.",
+        "incorrect": "Revisa esto: Dice que tomaban duchas muy cortas."
+      },
+      "review_of": "en-b1-u09-l04-ex04"
+    },
+    {
+      "id": "en-b2-u10-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "The book ___ by a young author became a bestseller.",
+      "options": [
+        "written",
+        "writing",
+        "wrote",
+        "write"
+      ],
+      "answer": [
+        "written"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio pasivo reducido.",
+        "incorrect": "Revisa esto: Participio pasivo reducido."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Walking home, I saw an accident.",
+        "Walking home, an accident happened.",
+        "Walking home, the accident was seen.",
+        "Walking home, it started to rain on me."
+      ],
+      "answer": [
+        "Walking home, I saw an accident."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mismo sujeto.",
+        "incorrect": "Revisa esto: Mismo sujeto."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ warned about the storm, they stayed at home.",
+      "options": [
+        "Having been",
+        "Having",
+        "Been having",
+        "Being had"
+      ],
+      "answer": [
+        "Having been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva anterior.",
+        "incorrect": "Revisa esto: Pasiva anterior."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ finished the report, she sent it. (habiendo)",
+      "answer": [
+        "Having"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having + participio.",
+        "incorrect": "Revisa esto: Having + participio."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ tired, he went to bed early. (siendo/estando)",
+      "answer": [
+        "Being"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Being + adj.",
+        "incorrect": "Revisa esto: Being + adj."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Walking along the beach, the weather was nice.",
+      "answer": [
+        "Walking along the beach, I noticed that the weather was nice.",
+        "As I walked along the beach, the weather was nice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mismo sujeto.",
+        "incorrect": "Revisa esto: Mismo sujeto."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Having finish his work, he went home.",
+      "answer": [
+        "Having finished his work, he went home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having + participio.",
+        "incorrect": "Revisa esto: Having + participio."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'll help you.' → She said she ___ help me.",
+      "options": [
+        "would",
+        "will",
+        "can",
+        "did"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will → would.",
+        "incorrect": "Revisa esto: Will → would."
+      },
+      "review_of": "en-b1-u07-l02-ex07"
+    },
+    {
+      "id": "en-b2-u10-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Inspiring by her story, he started writing.",
+      "answer": [
+        "Inspired by her story, he started writing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inspired by.",
+        "incorrect": "Revisa esto: Inspired by."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd appreciate it if you ___ fix it.",
+      "options": [
+        "could",
+        "can to",
+        "will",
+        "must"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd appreciate it if you could…",
+        "incorrect": "Revisa esto: I'd appreciate it if you could…"
+      },
+      "review_of": "en-b1-u06-l04-ex09"
+    },
+    {
+      "id": "en-b2-u10-l02-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Not to want to disturb them, she left.",
+      "answer": [
+        "Not wanting to disturb them, she left."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not + -ing.",
+        "incorrect": "Revisa esto: Not + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 20,
+      "prompt": "Unemployment fell ___ 8 per cent to 5 per cent.",
+      "options": [
+        "from",
+        "by",
+        "of",
+        "on"
+      ],
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! From … to …",
+        "incorrect": "Revisa esto: From … to …"
+      },
+      "review_of": "en-b2-u04-l05-ex11"
+    },
+    {
+      "id": "en-b2-u10-l02-ex19",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "book",
+        ",",
+        "she",
+        "wrote",
+        "a",
+        "review",
+        ".",
+        "Having",
+        "read"
+      ],
+      "answer": [
+        "Having",
+        "read",
+        "the",
+        "book",
+        ",",
+        "she",
+        "wrote",
+        "a",
+        "review",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having + participio.",
+        "incorrect": "Revisa esto: Having + participio."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué llegó pronto?",
+      "options": [
+        "Para no perder tiempo",
+        "Porque estaba nerviosa",
+        "Porque se perdió",
+        "Porque la invitaron"
+      ],
+      "answer": [
+        "Para no perder tiempo"
+      ],
+      "audio_text": "Having studied for months, Clara felt confident. Not wanting to waste time, she arrived early. Surprised by the questions, she paused for a moment, but then she answered everything correctly.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Not wanting to waste time, she arrived early.",
+        "incorrect": "Revisa esto: Dice: Not wanting to waste time, she arrived early."
+      },
+      "audio_script_id": "en-b2-u10-l02-ex20-a"
+    },
+    {
+      "id": "en-b2-u10-l02-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Habiendo terminado la novela, se tomó unas vacaciones y, paseando por la playa, conoció a un pintor.",
+      "answer": [
+        "Having finished the novel, he took a holiday and, walking along the beach, he met a painter.",
+        "Having finished the novel, she took a holiday and, walking along the beach, she met a painter."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participios.",
+        "incorrect": "Revisa esto: Participios."
+      }
+    },
+    {
+      "id": "en-b2-u10-l02-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Sin saber la respuesta, adivinó, animado por su profesora.",
+      "answer": [
+        "Not knowing the answer, he guessed, encouraged by his teacher.",
+        "Not knowing the answer, she guessed, encouraged by her teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participios.",
+        "incorrect": "Revisa esto: Participios."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Having finished, he left.",
+      "Walking along the beach, he saw …",
+      "Inspired by her, he started …",
+      "Not knowing the answer, she guessed."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-holiday"
+    },
+    {
+      "type": "vocab",
+      "id": "en-notice"
+    },
+    {
+      "type": "vocab",
+      "id": "en-intrigued"
+    },
+    {
+      "type": "vocab",
+      "id": "en-faded"
+    },
+    {
+      "type": "vocab",
+      "id": "en-seascape"
+    },
+    {
+      "type": "vocab",
+      "id": "en-disturb"
+    },
+    {
+      "type": "vocab",
+      "id": "en-encourage"
+    },
+    {
+      "type": "vocab",
+      "id": "en-inspire"
+    },
+    {
+      "type": "vocab",
+      "id": "en-bestseller"
+    },
+    {
+      "type": "vocab",
+      "id": "en-capture"
+    },
+    {
+      "type": "grammar",
+      "id": "en-participle-clauses"
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "id": "en-b2-u10-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 10,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A film I really liked",
+    "es": "Reseñas y recomendaciones"
+  },
+  "objective": "Al terminar das y justificas tu opinión sobre una película, un libro o un concierto con lenguaje de valoración preciso y matizado.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Opinar sobre una obra no es solo decir 'me gustó'. Hay que describir, justificar y matizar, y también recomendar o no recomendar. Aquí practicas ese lenguaje en conversación."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "Have you seen the new thriller everyone's talking about?",
+        "es": "¿Has visto el nuevo thriller del que todo el mundo habla?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "I have, and I have mixed feelings. The cinematography was stunning, and the lead actor gave a powerful performance. On the other hand, the plot was a bit far-fetched.",
+        "es": "Sí, y tengo sentimientos encontrados. La fotografía era impresionante y el actor principal dio una interpretación potente. Por otro lado, la trama era algo inverosímil."
+      },
+      {
+        "speaker": "Ana",
+        "text": "What didn't work for you?",
+        "es": "¿Qué fue lo que no te funcionó?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "The ending, mostly. It felt rushed, and a couple of characters were underdeveloped. I wouldn't say it's a masterpiece, but it's well worth watching.",
+        "es": "El final, sobre todo. Parecía precipitado y un par de personajes estaban poco desarrollados. No diría que es una obra maestra, pero merece la pena verla."
+      },
+      {
+        "speaker": "Ana",
+        "text": "The reviews were glowing, though. One critic called it 'a tour de force'.",
+        "es": "Pero las críticas eran entusiastas. Un crítico la calificó de 'tour de force'."
+      },
+      {
+        "speaker": "Tom",
+        "text": "I think it's slightly overrated. It's gripping at the beginning, but it loses momentum in the second half.",
+        "es": "Creo que está algo sobrevalorada. Engancha al principio, pero pierde fuerza en la segunda mitad."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Would you recommend it?",
+        "es": "¿Me la recomendarías?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "Yes, with reservations. If you enjoy atmospheric films with a slow build-up, you'll love it. If you prefer fast-paced action, you might be disappointed.",
+        "es": "Sí, con reservas. Si te gustan las películas con atmósfera y desarrollo lento, te encantará. Si prefieres acción trepidante, quizá te decepcione."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Fair enough. I'll make up my own mind. Thanks!",
+        "es": "Vale. Me haré mi propia opinión. ¡Gracias!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-mixed-feelings",
+        "lemma": "mixed feelings",
+        "pos": "noun",
+        "ipa": "/mɪkst ˈfiːlɪŋz/",
+        "es": "sentimientos encontrados",
+        "example": "I have mixed feelings."
+      },
+      {
+        "id": "en-cinematography",
+        "lemma": "cinematography",
+        "pos": "noun",
+        "ipa": "/ˌsɪnəməˈtɒɡrəfi/",
+        "es": "fotografía (cine)",
+        "example": "Stunning cinematography."
+      },
+      {
+        "id": "en-lead-actor",
+        "lemma": "lead actor",
+        "pos": "noun",
+        "ipa": "/liːd ˈæktə/",
+        "es": "actor principal",
+        "example": "The lead actor."
+      },
+      {
+        "id": "en-far-fetched",
+        "lemma": "far-fetched",
+        "pos": "adj",
+        "ipa": "/ˌfɑː ˈfetʃt/",
+        "es": "inverosímil",
+        "example": "A far-fetched plot."
+      },
+      {
+        "id": "en-rushed",
+        "lemma": "rushed",
+        "pos": "adj",
+        "ipa": "/rʌʃt/",
+        "es": "precipitado",
+        "example": "A rushed ending."
+      },
+      {
+        "id": "en-underdeveloped",
+        "lemma": "underdeveloped",
+        "pos": "adj",
+        "ipa": "/ˌʌndədɪˈveləpt/",
+        "es": "poco desarrollado",
+        "example": "Underdeveloped characters."
+      },
+      {
+        "id": "en-glowing",
+        "lemma": "glowing",
+        "pos": "adj",
+        "ipa": "/ˈɡləʊɪŋ/",
+        "es": "elogioso",
+        "example": "Glowing reviews."
+      },
+      {
+        "id": "en-tour-de-force",
+        "lemma": "tour de force",
+        "pos": "noun",
+        "ipa": "/ˌtʊə də ˈfɔːs/",
+        "es": "obra magistral",
+        "example": "A tour de force."
+      },
+      {
+        "id": "en-overrated",
+        "lemma": "overrated",
+        "pos": "adj",
+        "ipa": "/ˌəʊvəˈreɪtɪd/",
+        "es": "sobrevalorado",
+        "example": "An overrated film."
+      },
+      {
+        "id": "en-lose-momentum",
+        "lemma": "lose momentum",
+        "pos": "phrase",
+        "ipa": "/luːz məˈmentəm/",
+        "es": "perder fuerza",
+        "example": "It loses momentum."
+      },
+      {
+        "id": "en-slow-build-up",
+        "lemma": "slow build-up",
+        "pos": "noun",
+        "ipa": "/sləʊ ˈbɪld ʌp/",
+        "es": "desarrollo lento",
+        "example": "A slow build-up."
+      },
+      {
+        "id": "en-with-reservations",
+        "lemma": "with reservations",
+        "pos": "phrase",
+        "ipa": "/wɪð ˌrezəˈveɪʃnz/",
+        "es": "con reservas",
+        "example": "Recommend with reservations."
+      }
+    ],
+    "audio_script_id": "en-b2-u10-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Lenguaje para opinar sobre una obra**\n\n| Función | Frases |\n|---|---|\n| **Describir** | *It's a thriller set in … · The story follows … · It stars … · It's directed by …* |\n| **Valorar lo positivo** | *The acting was outstanding. · The soundtrack really added to the atmosphere. · It's beautifully shot.* |\n| **Valorar lo negativo** | *The plot was far-fetched. · It lost momentum. · The characters were underdeveloped. · The ending felt rushed.* |\n| **Opinión matizada** | *I have mixed feelings. · It's good in parts. · It didn't quite live up to the hype.* |\n| **Comparar** | *It's not as good as the original. · It reminded me of … · It's on a par with …* |\n| **Recomendar** | *It's well worth watching. · I'd highly recommend it. · It's a must-see.* |\n| **No recomendar** | *I wouldn't bother. · Give it a miss. · It's not worth your time.* |\n| **Recomendar con reservas** | *I'd recommend it, with reservations. · It depends on your taste.* |\n\n**Matices con adverbios**\n\n- *slightly overrated · highly original · utterly predictable · surprisingly moving · rather slow · fairly entertaining*.\n\n**Hedging en una crítica**\n\n- *I'd say … · It seemed to me … · It could be argued that … · To my mind …*\n\n**Verbos de reseña (tiempo presente)**\n\n- Para contar la trama se usa **presente**: *The film follows a detective who investigates …* · *The story is set in 1920s Paris.*\n\n**Errores típicos**\n\n- ✘ *The film is worth to see.* → ✔ *The film is worth seeing.*\n- ✘ *It's one of the best film I've seen.* → ✔ *It's one of the best films I've ever seen.*\n- ✘ *It was a very bored film.* → ✔ *It was a very boring film.*\n- ✘ *The film makes me to cry.* → ✔ *The film makes me cry.*\n- ✘ *I recommend you to see it.* → ✔ *I recommend seeing it.* / *I recommend that you see it.*\n\n**Ojo:** *worth + -ing*; *make + persona + infinitivo sin to*; *one of the + superlativo + plural*. *Critic* (crítico) vs *critique* (crítica, análisis) vs *criticism* (crítica negativa).\n\nPronunciación: *cinematography* /ˌsɪnəməˈtɒɡrəfi/ · *momentum* /məˈmentəm/ · *reservations* /ˌrezəˈveɪʃnz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "worth to see",
+        "right": "worth seeing",
+        "note": "Worth + -ing."
+      },
+      {
+        "wrong": "makes me to cry",
+        "right": "makes me cry",
+        "note": "Make + infinitivo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u10-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le gustó a Tom de la película?",
+      "options": [
+        "La fotografía y la interpretación del actor",
+        "El final",
+        "La banda sonora",
+        "El guion"
+      ],
+      "answer": [
+        "La fotografía y la interpretación del actor"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: cinematography stunning, lead actor powerful.",
+        "incorrect": "Revisa esto: Dice: cinematography stunning, lead actor powerful."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema tiene la película según Tom?",
+      "options": [
+        "La trama es inverosímil y el final precipitado",
+        "Es demasiado corta",
+        "No tiene música",
+        "Los actores son malos"
+      ],
+      "answer": [
+        "La trama es inverosímil y el final precipitado"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: far-fetched… rushed.",
+        "incorrect": "Revisa esto: Dice: far-fetched… rushed."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Para quién la recomienda?",
+      "options": [
+        "Para quien disfruta de películas atmosféricas con desarrollo lento",
+        "Para quienes buscan acción rápida",
+        "Para niños",
+        "Para nadie"
+      ],
+      "answer": [
+        "Para quien disfruta de películas atmosféricas con desarrollo lento"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: atmospheric films with a slow build-up.",
+        "incorrect": "Revisa esto: Dice: atmospheric films with a slow build-up."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 15,
+      "prompt": "Tom piensa que la película es una obra maestra.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wouldn't say it's a masterpiece.",
+        "incorrect": "Revisa esto: Dice: I wouldn't say it's a masterpiece."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film is well worth ___ .",
+      "options": [
+        "watching",
+        "to watch",
+        "watch",
+        "watched"
+      ],
+      "answer": [
+        "watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's one of the best films I ___ seen.",
+      "options": [
+        "have ever",
+        "ever",
+        "had never",
+        "am"
+      ],
+      "answer": [
+        "have ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Superlativo + present perfect.",
+        "incorrect": "Revisa esto: Superlativo + present perfect."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film made me ___ .",
+      "options": [
+        "cry",
+        "to cry",
+        "crying",
+        "cried"
+      ],
+      "answer": [
+        "cry"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + infinitivo.",
+        "incorrect": "Revisa esto: Make + infinitivo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijo que había llamado al banco y que le habían bloqueado la tarjeta.",
+      "answer": [
+        "She told me that she had called the bank and that they had blocked her card.",
+        "She told me she had called the bank and they had blocked her card.",
+        "He told me that he had called the bank and that they had blocked his card."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto en pasado perfecto.",
+        "incorrect": "Revisa esto: Estilo indirecto en pasado perfecto."
+      },
+      "review_of": "en-b1-u07-l02-ex17"
+    },
+    {
+      "id": "en-b2-u10-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I got my brother ___ me move the sofa.",
+      "options": [
+        "to help",
+        "help",
+        "helping",
+        "helped"
+      ],
+      "answer": [
+        "to help"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get + persona + to + verbo.",
+        "incorrect": "Revisa esto: Get + persona + to + verbo."
+      },
+      "review_of": "en-b2-u03-l03-ex12"
+    },
+    {
+      "id": "en-b2-u10-l03-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want going to the cinema.",
+      "answer": [
+        "I want to go to the cinema."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Want va con to + verbo.",
+        "incorrect": "Revisa esto: Want va con to + verbo."
+      },
+      "review_of": "en-a2-u10-l02-ex09"
+    },
+    {
+      "id": "en-b2-u10-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd highly ___ it. (recomendar)",
+      "options": [
+        "recommend",
+        "suggest to",
+        "advise at",
+        "propose to"
+      ],
+      "answer": [
+        "recommend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend.",
+        "incorrect": "Revisa esto: Recommend."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Give it a miss' means...",
+      "options": [
+        "No vayas a verla",
+        "Hazla perdida",
+        "Piensa en ella",
+        "Cómprala"
+      ],
+      "answer": [
+        "No vayas a verla"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Expresión.",
+        "incorrect": "Revisa esto: Expresión."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "'It didn't live up to the hype' means...",
+      "options": [
+        "No cumplió las expectativas",
+        "Fue mejor de lo esperado",
+        "Fue larga",
+        "Fue cara"
+      ],
+      "answer": [
+        "No cumplió las expectativas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hype = expectación.",
+        "incorrect": "Revisa esto: Hype = expectación."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "In a review, you narrate the plot in...",
+      "options": [
+        "the present tense",
+        "the future tense",
+        "the past perfect",
+        "the conditional"
+      ],
+      "answer": [
+        "the present tense"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente de trama.",
+        "incorrect": "Revisa esto: Presente de trama."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "A ___ is a person who writes professional reviews.",
+      "options": [
+        "critic",
+        "critique",
+        "criticism",
+        "critical"
+      ],
+      "answer": [
+        "critic"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Critic.",
+        "incorrect": "Revisa esto: Critic."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 25,
+      "prompt": "The acting was ___ , especially the lead. (sobresaliente)",
+      "answer": [
+        "outstanding"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Outstanding.",
+        "incorrect": "Revisa esto: Outstanding."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should"
+      ],
+      "est_seconds": 25,
+      "prompt": "You ___ see a doctor. (deberías)",
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consejo: should + verbo base.",
+        "incorrect": "Revisa esto: Consejo: should + verbo base."
+      },
+      "review_of": "en-a2-u06-l06-ex02"
+    },
+    {
+      "id": "en-b2-u10-l03-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 25,
+      "prompt": "The story ___ a detective who investigates a crime. (sigue a)",
+      "answer": [
+        "follows"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Follows.",
+        "incorrect": "Revisa esto: Follows."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film is worth to see.",
+      "answer": [
+        "The film is worth seeing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's one of the best film I've ever seen.",
+      "answer": [
+        "It's one of the best films I've ever seen."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "comparisons-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No es ni de lejos tan barato como antes, pero es ligeramente más cómodo.",
+      "answer": [
+        "It isn't nearly as cheap as it used to be, but it's slightly more convenient.",
+        "It's nowhere near as cheap as it used to be, but it's slightly more convenient."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not nearly as … as.",
+        "incorrect": "Revisa esto: Not nearly as … as."
+      },
+      "review_of": "en-b2-u07-l03-ex23"
+    },
+    {
+      "id": "en-b2-u10-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The sad ending makes me to cry.",
+      "answer": [
+        "The sad ending makes me cry."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + inf.",
+        "incorrect": "Revisa esto: Make + inf."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "debate"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ , graduates pay more tax over their lives. (Es cierto que)",
+      "options": [
+        "Admittedly",
+        "Fortunately",
+        "Hardly",
+        "Nowhere"
+      ],
+      "answer": [
+        "Admittedly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admittedly = es cierto que.",
+        "incorrect": "Revisa esto: Admittedly = es cierto que."
+      },
+      "review_of": "en-b2-u08-l04-ex10"
+    },
+    {
+      "id": "en-b2-u10-l03-rv07",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She won a ___ to study in Canada. (beca)",
+      "answer": [
+        "scholarship"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Scholarship = beca.",
+        "incorrect": "Revisa esto: Scholarship = beca."
+      },
+      "review_of": "en-b1-u08-l01-ex11"
+    },
+    {
+      "id": "en-b2-u10-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I recommend you to see it.",
+      "answer": [
+        "I recommend seeing it.",
+        "I recommend that you see it.",
+        "I recommend you see it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend + -ing/that.",
+        "incorrect": "Revisa esto: Recommend + -ing/that."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué problema tiene la novela?",
+      "options": [
+        "La historia se hace lenta a mitad del libro",
+        "El final",
+        "El idioma",
+        "Los personajes"
+      ],
+      "answer": [
+        "La historia se hace lenta a mitad del libro"
+      ],
+      "audio_text": "I have mixed feelings about the novel. The writing is beautiful, but the story drags in the middle. I'd recommend it with reservations: if you enjoy slow, literary books, you'll love it; if you prefer fast plots, give it a miss.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the story drags in the middle.",
+        "incorrect": "Revisa esto: Dice: the story drags in the middle."
+      },
+      "audio_script_id": "en-b2-u10-l03-ex19-a"
+    },
+    {
+      "id": "en-b2-u10-l03-rv08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Voy al trabajo.",
+      "answer": [
+        "I go to work.",
+        "I'm going to work."
+      ],
+      "accepted_alternatives": [
+        "I am going to work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ir al trabajo = go to work.",
+        "incorrect": "Revisa esto: Ir al trabajo = go to work."
+      },
+      "review_of": "en-a1-u04-l01-ex06"
+    },
+    {
+      "id": "en-b2-u10-l03-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pide opinión sobre una película.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What did you think of the film?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I have mixed feelings. The acting was outstanding, but the plot was a bit far-fetched.",
+            "It was good and bad.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Opinión matizada."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Would you recommend it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, with reservations. If you like atmospheric films, it's well worth watching.",
+            "No. Don't see.",
+            "Maybe."
+          ],
+          "best": 0,
+          "why_es": "Recomendar con reservas."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Tengo sentimientos encontrados: la fotografía es impresionante, pero el final parece precipitado.",
+      "answer": [
+        "I have mixed feelings: the cinematography is stunning, but the ending feels rushed.",
+        "I have mixed feelings: the cinematography is stunning, but the ending seems rushed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reseña.",
+        "incorrect": "Revisa esto: Reseña."
+      }
+    },
+    {
+      "id": "en-b2-u10-l03-rv09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ have left already. His coat isn't here.",
+      "options": [
+        "must",
+        "mustn't",
+        "might to",
+        "should to"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must have.",
+        "incorrect": "Revisa esto: Must have."
+      },
+      "review_of": "en-b1-u10-l06-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I have mixed feelings.",
+      "It's well worth watching.",
+      "It didn't live up to the hype.",
+      "I'd recommend it, with reservations."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-mixed-feelings"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cinematography"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lead-actor"
+    },
+    {
+      "type": "vocab",
+      "id": "en-far-fetched"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rushed"
+    },
+    {
+      "type": "vocab",
+      "id": "en-underdeveloped"
+    },
+    {
+      "type": "vocab",
+      "id": "en-glowing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tour-de-force"
+    },
+    {
+      "type": "vocab",
+      "id": "en-overrated"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lose-momentum"
+    },
+    {
+      "type": "grammar",
+      "id": "en-review-language"
+    }
+  ]
+}

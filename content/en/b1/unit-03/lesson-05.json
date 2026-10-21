@@ -1,0 +1,766 @@
+{
+  "id": "en-b1-u03-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 3,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "The tough interview",
+    "es": "La entrevista difícil"
+  },
+  "objective": "Al terminar respondes preguntas difíciles de una entrevista de trabajo con estructura, ejemplos concretos y frases naturales.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Háblame de ti', '¿cuál es tu mayor defecto?', 'cuéntame una vez que resolviste un problema'. Hay respuestas que funcionan y otras que cierran puertas."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Interviewer",
+        "text": "Tell me a little about yourself.",
+        "es": "Cuénteme algo sobre usted."
+      },
+      {
+        "speaker": "Nora",
+        "text": "I'm a graphic designer. I've been working freelance for four years, and I've worked with clients in six countries.",
+        "es": "Soy diseñadora gráfica. Llevo cuatro años trabajando por mi cuenta y he trabajado con clientes de seis países."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "What would you say is your greatest strength?",
+        "es": "¿Cuál diría que es su mayor virtud?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "I'm very organised. For example, last year I managed three big projects at the same time and delivered them all on time.",
+        "es": "Soy muy organizada. Por ejemplo, el año pasado gestioné tres proyectos grandes a la vez y los entregué todos a tiempo."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "And your weakness?",
+        "es": "¿Y su punto débil?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "I tend to be a perfectionist. I used to spend too long on details, but now I set time limits for each task.",
+        "es": "Tiendo a ser perfeccionista. Antes dedicaba demasiado tiempo a los detalles, pero ahora me pongo límites de tiempo en cada tarea."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "Why should we hire you?",
+        "es": "¿Por qué deberíamos contratarla?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "Because I have the right experience, I learn quickly, and as soon as I join, I'll be ready to work with your team.",
+        "es": "Porque tengo la experiencia adecuada, aprendo rápido y en cuanto me incorpore estaré lista para trabajar con su equipo."
+      },
+      {
+        "speaker": "Interviewer",
+        "text": "Where do you see yourself in five years?",
+        "es": "¿Dónde se ve en cinco años?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "I hope I'll be leading a team and developing creative campaigns here.",
+        "es": "Espero estar dirigiendo un equipo y desarrollando campañas creativas aquí."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-interview",
+        "lemma": "interview",
+        "pos": "noun",
+        "ipa": "/ˈɪntəvjuː/",
+        "es": "entrevista",
+        "example": "I have an interview tomorrow."
+      },
+      {
+        "id": "en-freelance",
+        "lemma": "freelance",
+        "pos": "adj",
+        "ipa": "/ˈfriːlɑːns/",
+        "es": "autónomo, por cuenta propia",
+        "example": "She works freelance."
+      },
+      {
+        "id": "en-graphic-designer",
+        "lemma": "graphic designer",
+        "pos": "noun",
+        "ipa": "/ˈɡræfɪk dɪˈzaɪnə/",
+        "es": "diseñador gráfico",
+        "example": "He's a graphic designer."
+      },
+      {
+        "id": "en-strength",
+        "lemma": "strength",
+        "pos": "noun",
+        "ipa": "/streŋθ/",
+        "es": "virtud, punto fuerte",
+        "example": "My strength is teamwork."
+      },
+      {
+        "id": "en-weakness",
+        "lemma": "weakness",
+        "pos": "noun",
+        "ipa": "/ˈwiːknəs/",
+        "es": "punto débil",
+        "example": "My weakness is perfectionism."
+      },
+      {
+        "id": "en-perfectionist",
+        "lemma": "perfectionist",
+        "pos": "noun",
+        "ipa": "/pəˈfekʃənɪst/",
+        "es": "perfeccionista",
+        "example": "She's a perfectionist."
+      },
+      {
+        "id": "en-deliver",
+        "lemma": "deliver",
+        "pos": "verb",
+        "ipa": "/dɪˈlɪvə/",
+        "es": "entregar",
+        "example": "We delivered the project on time."
+      },
+      {
+        "id": "en-hire",
+        "lemma": "hire",
+        "pos": "verb",
+        "ipa": "/ˈhaɪə/",
+        "es": "contratar",
+        "example": "They hired five people."
+      },
+      {
+        "id": "en-set-a-limit",
+        "lemma": "set a limit",
+        "pos": "phrase",
+        "ipa": "/set ə ˈlɪmɪt/",
+        "es": "fijar un límite",
+        "example": "I set time limits."
+      },
+      {
+        "id": "en-in-five-years",
+        "lemma": "in five years",
+        "pos": "phrase",
+        "ipa": "/ɪn faɪv jɪəz/",
+        "es": "dentro de cinco años",
+        "example": "Where will you be in five years?"
+      },
+      {
+        "id": "en-campaign",
+        "lemma": "campaign",
+        "pos": "noun",
+        "ipa": "/kæmˈpeɪn/",
+        "es": "campaña",
+        "example": "She leads a marketing campaign."
+      },
+      {
+        "id": "en-for-example",
+        "lemma": "for example",
+        "pos": "phrase",
+        "ipa": "/fər ɪɡˈzɑːmpl/",
+        "es": "por ejemplo",
+        "example": "For example, I led a team."
+      }
+    ],
+    "audio_script_id": "en-b1-u03-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Preguntas típicas y cómo responderlas**\n\n| Pregunta | Estrategia | Frase modelo |\n|---|---|---|\n| *Tell me about yourself.* | presente + experiencia (present perfect) | *I'm a … I've been working … for …* |\n| *What's your greatest strength?* | cualidad + ejemplo real | *I'm very organised. For example, … * |\n| *What's your weakness?* | defecto real + cómo lo mejoras | *I tend to … but now I …* |\n| *Why should we hire you?* | encaje + beneficios | *I have the right experience and I learn quickly.* |\n| *Where do you see yourself in five years?* | futuro realista | *I hope I'll be … / I'd like to be …* |\n| *Describe a time when…* | historia con tiempos narrativos | *Last year I … , so I … , and in the end …* |\n\n**Método STAR para contar un ejemplo**\n\n1. **S**ituation: *Last year, our team had a tight deadline.*\n2. **T**ask: *I was responsible for the final report.*\n3. **A**ction: *I organised a daily meeting and shared the work.*\n4. **R**esult: *We finished two days early and the client was delighted.*\n\n**Frases útiles:** *I'm keen on … · I'm a quick learner · I work well in a team · I can handle pressure · I'm willing to …*\n\n**Qué evitar**\n\n- Respuestas de una palabra: *Yes. / No.*\n- Criticar a un jefe anterior.\n- *My weakness is that I work too much* (suena a respuesta ensayada): mejor un defecto real y su solución.\n\n**Ojo:** *I'm agree* ✘ → *I agree* ✔. *Strength* se pronuncia /streŋθ/ (una sílaba).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm agree.",
+        "right": "I agree.",
+        "note": "Agree no lleva be."
+      },
+      {
+        "wrong": "I work here since 2021.",
+        "right": "I have worked here since 2021.",
+        "note": "Since pide present perfect."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u03-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos años lleva Nora como autónoma?",
+      "options": [
+        "Cuatro",
+        "Dos",
+        "Seis",
+        "Diez"
+      ],
+      "answer": [
+        "Cuatro"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: freelance for four years.",
+        "incorrect": "Revisa esto: Dice: freelance for four years."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál dice que es su punto débil?",
+      "options": [
+        "Es perfeccionista",
+        "Llega tarde",
+        "Habla demasiado",
+        "No sabe trabajar en equipo"
+      ],
+      "answer": [
+        "Es perfeccionista"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I tend to be a perfectionist.",
+        "incorrect": "Revisa esto: Dice: I tend to be a perfectionist."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-rv01",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "The lamp is next to the sofa.",
+      "answer": [
+        "The lamp is next to the sofa."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Next to = al lado de.",
+        "incorrect": "Revisa esto: Next to = al lado de."
+      },
+      "audio_script_id": "en-b1-u03-l05-rv01-a",
+      "review_of": "en-a1-u06-l06-ex09"
+    },
+    {
+      "id": "en-b1-u03-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo mejora Nora su punto débil?",
+      "options": [
+        "Se pone límites de tiempo en cada tarea",
+        "Pide ayuda a sus clientes",
+        "Trabaja más horas",
+        "Delegó todo"
+      ],
+      "answer": [
+        "Se pone límites de tiempo en cada tarea"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: now I set time limits for each task.",
+        "incorrect": "Revisa esto: Dice: now I set time limits for each task."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex04",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Qué es mejor en una entrevista?",
+      "categories": [
+        "Good answer",
+        "Weak answer"
+      ],
+      "items": [
+        {
+          "text": "I'm very organised. For example, I led three projects.",
+          "category": "Good answer"
+        },
+        {
+          "text": "I have the right experience and learn quickly.",
+          "category": "Good answer"
+        },
+        {
+          "text": "My weakness is that I tend to be a perfectionist, but I set limits.",
+          "category": "Good answer"
+        },
+        {
+          "text": "I don't know.",
+          "category": "Weak answer"
+        },
+        {
+          "text": "My old boss was terrible.",
+          "category": "Weak answer"
+        },
+        {
+          "text": "Yes.",
+          "category": "Weak answer"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las buenas respuestas incluyen ejemplos y son positivas.",
+        "incorrect": "Revisa esto: Las buenas respuestas incluyen ejemplos y son positivas."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 20,
+      "prompt": "What's the best way to start 'Tell me about yourself'?",
+      "options": [
+        "I'm a designer and I've been working for four years.",
+        "Well, I don't know.",
+        "My name is Nora.",
+        "You have my CV."
+      ],
+      "answer": [
+        "I'm a designer and I've been working for four years."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente + present perfect de experiencia.",
+        "incorrect": "Revisa esto: Presente + present perfect de experiencia."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have been working here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "ago"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + año.",
+        "incorrect": "Revisa esto: Since + año."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My city is very bigger than yours.",
+      "answer": [
+        "My city is much bigger than yours.",
+        "My city is a lot bigger than yours.",
+        "My city is far bigger than yours."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con comparativos se usa much, a lot o far, no very.",
+        "incorrect": "Revisa esto: Con comparativos se usa much, a lot o far, no very."
+      },
+      "review_of": "en-b1-u02-l04-ex12"
+    },
+    {
+      "id": "en-b1-u03-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ be shy, but now I enjoy speaking in public.",
+      "options": [
+        "used to",
+        "am used",
+        "would to",
+        "use to"
+      ],
+      "answer": [
+        "used to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un cambio respecto al pasado: used to.",
+        "incorrect": "Revisa esto: Un cambio respecto al pasado: used to."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué NO come la persona?",
+      "options": [
+        "Fish",
+        "Bread",
+        "Cheese",
+        "An apple"
+      ],
+      "answer": [
+        "Fish"
+      ],
+      "audio_text": "I have bread, cheese and an apple for lunch.",
+      "feedback": {
+        "correct": "¡Correcto! No menciona fish.",
+        "incorrect": "Revisa esto: No menciona fish."
+      },
+      "audio_script_id": "en-b1-u03-l05-rv03-a",
+      "review_of": "en-a1-u05-l01-ex05"
+    },
+    {
+      "id": "en-b1-u03-l05-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "to",
+        "return",
+        "this",
+        ",",
+        "please",
+        ".",
+        "I'd",
+        "like"
+      ],
+      "answer": [
+        "I'd",
+        "like",
+        "to",
+        "return",
+        "this",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd like to + verbo + objeto.",
+        "incorrect": "Revisa esto: I'd like to + verbo + objeto."
+      },
+      "review_of": "en-a2-u11-l04-ex08"
+    },
+    {
+      "id": "en-b1-u03-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 20,
+      "prompt": "As soon as I ___ the job, I'll start learning the system.",
+      "options": [
+        "get",
+        "will get",
+        "got",
+        "am getting"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente.",
+        "incorrect": "Revisa esto: As soon as + presente."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex09",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 25,
+      "prompt": "My greatest ___ is that I work well under pressure. (virtud)",
+      "answer": [
+        "strength"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Strength = punto fuerte.",
+        "incorrect": "Revisa esto: Strength = punto fuerte."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I goed to school by bus.",
+      "answer": [
+        "I went to school by bus."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go es irregular: went.",
+        "incorrect": "Revisa esto: Go es irregular: went."
+      },
+      "review_of": "en-a2-u01-l03-ex06"
+    },
+    {
+      "id": "en-b1-u03-l05-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 25,
+      "prompt": "I hope I ___ leading my own team in five years.",
+      "answer": [
+        "'ll be",
+        "will be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hope + will: predicción esperada.",
+        "incorrect": "Revisa esto: Hope + will: predicción esperada."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm agree with your question about my skills.",
+      "answer": [
+        "I agree with your question about my skills."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree no lleva be.",
+        "incorrect": "Revisa esto: Agree no lleva be."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I work with this company since 2021.",
+      "answer": [
+        "I have worked with this company since 2021.",
+        "I have been working with this company since 2021.",
+        "I have worked for this company since 2021.",
+        "I have been working for this company since 2021."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con since: present perfect.",
+        "incorrect": "Revisa esto: Con since: present perfect."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex13",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué ha estado aprendiendo?",
+      "options": [
+        "A poner límites y pedir ayuda",
+        "A hablar francés",
+        "A conducir",
+        "A dirigir equipos"
+      ],
+      "answer": [
+        "A poner límites y pedir ayuda"
+      ],
+      "audio_text": "My biggest weakness is that I sometimes find it difficult to say no. However, I've been learning to set limits and to ask for help when I have too much work.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I've been learning to set limits and ask for help.",
+        "incorrect": "Revisa esto: Dice: I've been learning to set limits and ask for help."
+      },
+      "audio_script_id": "en-b1-u03-l05-ex13-a"
+    },
+    {
+      "id": "en-b1-u03-l05-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en una entrevista de trabajo y te preguntan por una experiencia.",
+      "turns": [
+        {
+          "speaker": "Interviewer",
+          "text": "Can you describe a time when you solved a problem at work?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Last year, a client was unhappy with the delay, so I organised a meeting, and in the end we solved it.",
+            "Last year a client was unhappy by the delay, so I organise a meeting and at the end we solve it.",
+            "I solved a problem very good last year."
+          ],
+          "best": 0,
+          "why_es": "STAR: situación, acción y resultado con tiempos narrativos."
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "And what did you learn from that experience?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I learnt that communication is essential, and I've applied that lesson ever since.",
+            "I learned that communication is essentials, and I applied it since.",
+            "I learn communication is important."
+          ],
+          "best": 0,
+          "why_es": "Pasado simple + present perfect con ever since."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u03-l05-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe tus respuestas (6 a 8 frases en total) a: 'Tell me about yourself' y 'What's your greatest strength?'. Usa presente, present perfect y un ejemplo concreto.",
+      "min_words": 59,
+      "self_check_es": [
+        "¿Usaste presente para decir quién eres?",
+        "¿Usaste present perfect para tu experiencia?",
+        "¿Diste un ejemplo concreto con pasado?",
+        "¿Mencionaste un objetivo futuro?"
+      ],
+      "model_answer": "I'm a sales assistant and I've been working in retail for three years. I'm very organised and I work well in a team. For example, last winter I managed the stock of the whole shop while my manager was ill, and we didn't have any problems. I'm also a quick learner: I learned the new system in only two days. In the future, I'd like to lead a small team.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Tell me about yourself. I've been … for …",
+      "My greatest strength is … For example, …",
+      "I tend to …, but I've learned to …",
+      "I hope I'll be … in five years."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-interview"
+    },
+    {
+      "type": "vocab",
+      "id": "en-freelance"
+    },
+    {
+      "type": "vocab",
+      "id": "en-graphic-designer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-strength"
+    },
+    {
+      "type": "vocab",
+      "id": "en-weakness"
+    },
+    {
+      "type": "vocab",
+      "id": "en-perfectionist"
+    },
+    {
+      "type": "vocab",
+      "id": "en-deliver"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hire"
+    },
+    {
+      "type": "vocab",
+      "id": "en-set-a-limit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-five-years"
+    },
+    {
+      "type": "grammar",
+      "id": "en-interview-answers"
+    }
+  ]
+}

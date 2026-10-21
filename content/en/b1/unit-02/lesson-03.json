@@ -1,0 +1,644 @@
+{
+  "id": "en-b1-u02-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 2,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where, whose, when",
+    "es": "Más palabras de relativo"
+  },
+  "objective": "Al terminar usas where, whose y when en oraciones de relativo y terminas frases con preposición como lo hace un nativo.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'La ciudad donde nací', 'la chica cuyo coche es azul', 'el día en que nos conocimos'. También hay palabras de relativo para lugares, posesión y tiempo."
+  },
+  "input": {
+    "type": "text",
+    "text": "I grew up in a small town called Maldon, which is on the east coast. It's the place where I learned to swim, and the street where I had my first job is still there. The shop I worked in belonged to a man whose family had lived there for generations. The summer when I turned sixteen was the best of my life. My best friend, whose father was a fisherman, used to take me out on his boat. I haven't been back since the year when the old pier closed, but I'd love to visit it again. The house I grew up in has been sold to people I've never met.",
+    "es": "Crecí en un pueblo pequeño llamado Maldon, en la costa este. Es el lugar donde aprendí a nadar y la calle donde tuve mi primer trabajo sigue allí. La tienda en la que trabajaba pertenecía a un hombre cuya familia había vivido allí durante generaciones. El verano en que cumplí dieciséis años fue el mejor de mi vida. Mi mejor amigo, cuyo padre era pescador, me llevaba en su barca. No he vuelto desde el año en que cerró el viejo muelle, pero me encantaría visitarlo otra vez. La casa en la que crecí se vendió a gente que no conozco.",
+    "glossary": [
+      {
+        "id": "en-grow-up",
+        "lemma": "grow up",
+        "pos": "phrasal verb",
+        "ipa": "/ɡrəʊ ʌp/",
+        "es": "crecer, criarse",
+        "example": "I grew up in a small town."
+      },
+      {
+        "id": "en-coast",
+        "lemma": "coast",
+        "pos": "noun",
+        "ipa": "/kəʊst/",
+        "es": "costa",
+        "example": "We live on the south coast."
+      },
+      {
+        "id": "en-belong-to",
+        "lemma": "belong to",
+        "pos": "phrasal verb",
+        "ipa": "/bɪˈlɒŋ tə/",
+        "es": "pertenecer a",
+        "example": "The car belongs to my father."
+      },
+      {
+        "id": "en-generation",
+        "lemma": "generation",
+        "pos": "noun",
+        "ipa": "/ˌdʒenəˈreɪʃn/",
+        "es": "generación",
+        "example": "Three generations live in this house."
+      },
+      {
+        "id": "en-fisherman",
+        "lemma": "fisherman",
+        "pos": "noun",
+        "ipa": "/ˈfɪʃəmən/",
+        "es": "pescador",
+        "example": "His father was a fisherman."
+      },
+      {
+        "id": "en-pier",
+        "lemma": "pier",
+        "pos": "noun",
+        "ipa": "/pɪə/",
+        "es": "muelle",
+        "example": "We walked along the pier."
+      },
+      {
+        "id": "en-turn-sixteen",
+        "lemma": "turn sixteen",
+        "pos": "phrase",
+        "ipa": "/tɜːn ˌsɪkˈstiːn/",
+        "es": "cumplir dieciséis años",
+        "example": "I turned sixteen in July."
+      },
+      {
+        "id": "en-whose",
+        "lemma": "whose",
+        "pos": "pron",
+        "ipa": "/huːz/",
+        "es": "cuyo, cuya",
+        "example": "She's the girl whose bag was stolen."
+      },
+      {
+        "id": "en-where",
+        "lemma": "where",
+        "pos": "pron",
+        "ipa": "/weə/",
+        "es": "donde",
+        "example": "This is the café where we met."
+      },
+      {
+        "id": "en-when",
+        "lemma": "when",
+        "pos": "pron",
+        "ipa": "/wen/",
+        "es": "en que, cuando",
+        "example": "I remember the day when we met."
+      },
+      {
+        "id": "en-sell",
+        "lemma": "sell",
+        "pos": "verb",
+        "ipa": "/sel/",
+        "es": "vender",
+        "example": "They sold the house."
+      },
+      {
+        "id": "en-stranger",
+        "lemma": "stranger",
+        "pos": "noun",
+        "ipa": "/ˈstreɪndʒə/",
+        "es": "desconocido",
+        "example": "Don't talk to strangers."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Where, whose y when**\n\n| Palabra | Para… | Ejemplo |\n|---|---|---|\n| **where** | lugares | *the town **where** I was born* |\n| **whose** | posesión (cuyo) | *the girl **whose** father is a fisherman* |\n| **when** | tiempo | *the summer **when** I turned sixteen* |\n\n**Whose + sustantivo:** *whose* siempre va seguido del sustantivo poseído: *a man **whose family** lived here* (nunca *whose the family*).\n\n**Preposición al final (muy natural)**\n\n- *The house **in which** I grew up* (formal) = *The house **I grew up in*** (normal).\n- *The man **to whom** I spoke* (muy formal) = *The man **I spoke to***.\n\n**Omitir el relativo:** cuando es objeto puedes quitarlo: *The shop (that) I worked in…* y también *where / when* se pueden omitir en el uso informal: *the day (when) we met*.\n\n**Ojo:** *whose* ≠ *who's*. *Who's* = *who is / who has*: *Who's that? · the girl who's studying* ≠ *the girl whose book I borrowed*.\n\nPronunciación: *whose* /huːz/ y *who's* /huːz/ suenan igual; el contexto aclara cuál es.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The man who's car was stolen.",
+        "right": "The man whose car was stolen.",
+        "note": "Posesión: whose."
+      },
+      {
+        "wrong": "The city where I was born in.",
+        "right": "The city where I was born.",
+        "note": "Where ya incluye in."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u02-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde aprendió a nadar el narrador?",
+      "options": [
+        "En su pueblo, Maldon",
+        "En una piscina de Londres",
+        "En la casa de su amigo",
+        "En el extranjero"
+      ],
+      "answer": [
+        "En su pueblo, Maldon"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it's the place where I learned to swim.",
+        "incorrect": "Revisa esto: Dice: it's the place where I learned to swim."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hacía el padre de su mejor amigo?",
+      "options": [
+        "Era pescador",
+        "Era dueño de una tienda",
+        "Era profesor",
+        "Era policía"
+      ],
+      "answer": [
+        "Era pescador"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: whose father was a fisherman.",
+        "incorrect": "Revisa esto: Dice: whose father was a fisherman."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "That's the café ___ we first met.",
+      "options": [
+        "where",
+        "who",
+        "whose",
+        "which where"
+      ],
+      "answer": [
+        "where"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lugar: where.",
+        "incorrect": "Revisa esto: Lugar: where."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's the girl ___ bag was stolen.",
+      "options": [
+        "whose",
+        "who's",
+        "which",
+        "that"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posesión: whose + sustantivo.",
+        "incorrect": "Revisa esto: Posesión: whose + sustantivo."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll never forget the day ___ we met.",
+      "options": [
+        "when",
+        "where",
+        "whose",
+        "who"
+      ],
+      "answer": [
+        "when"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tiempo: when (o that, o nada).",
+        "incorrect": "Revisa esto: Tiempo: when (o that, o nada)."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ella lleva una falda negra.",
+      "answer": [
+        "She wears a black skirt."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Llevar puesto = wear.",
+        "incorrect": "Revisa esto: Llevar puesto = wear."
+      },
+      "review_of": "en-a1-u08-l03-ex10"
+    },
+    {
+      "id": "en-b1-u02-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most natural?",
+      "options": [
+        "This is the house I grew up in.",
+        "This is the house in that I grew up.",
+        "This is the house where I grew up in.",
+        "This is the house whose I grew up."
+      ],
+      "answer": [
+        "This is the house I grew up in."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposición al final y sin relativo.",
+        "incorrect": "Revisa esto: Preposición al final y sin relativo."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 25,
+      "prompt": "He's the man ___ car was stolen. (cuyo)",
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose + sustantivo.",
+        "incorrect": "Revisa esto: Whose + sustantivo."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "there-is-are"
+      ],
+      "est_seconds": 25,
+      "prompt": "There ___ two chairs in the kitchen.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural: there are.",
+        "incorrect": "Revisa esto: Plural: there are."
+      },
+      "review_of": "en-a1-u10-l06-ex04"
+    },
+    {
+      "id": "en-b1-u02-l03-ex08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 25,
+      "prompt": "This is the town ___ I was born.",
+      "answer": [
+        "where"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lugar: where.",
+        "incorrect": "Revisa esto: Lugar: where."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 25,
+      "prompt": "The people I work ___ are very friendly. (con)",
+      "answer": [
+        "with"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposición al final: work with.",
+        "incorrect": "Revisa esto: Preposición al final: work with."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "joining-club"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres saber cuánto cuesta por mes:",
+      "options": [
+        "How much is the membership?",
+        "How many is the membership?",
+        "What price has the membership?",
+        "How much cost membership?"
+      ],
+      "answer": [
+        "How much is the membership?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How much is …?",
+        "incorrect": "Revisa esto: How much is …?"
+      },
+      "review_of": "en-a2-u13-l03-ex03"
+    },
+    {
+      "id": "en-b1-u02-l03-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada letra con su sonido.",
+      "pairs": [
+        {
+          "left": "G",
+          "right": "/dʒiː/"
+        },
+        {
+          "left": "J",
+          "right": "/dʒeɪ/"
+        },
+        {
+          "left": "E",
+          "right": "/iː/"
+        },
+        {
+          "left": "I",
+          "right": "/aɪ/"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! G y J, y también E e I, se confunden mucho: practícalas juntas.",
+        "incorrect": "Revisa esto: G y J, y también E e I, se confunden mucho: practícalas juntas."
+      },
+      "review_of": "en-a1-u01-l02-ex04"
+    },
+    {
+      "id": "en-b1-u02-l03-ex10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's the city where I was born in.",
+      "answer": [
+        "It's the city where I was born.",
+        "It's the city I was born in."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se usan where + preposición repetida.",
+        "incorrect": "Revisa esto: No se usan where + preposición repetida."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She's the woman who's son is a pilot.",
+      "answer": [
+        "She's the woman whose son is a pilot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posesión: whose, no who's.",
+        "incorrect": "Revisa esto: Posesión: whose, no who's."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex12",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "I",
+        "grew",
+        "up",
+        "in",
+        "is",
+        "now",
+        "a",
+        "museum",
+        ".",
+        "The",
+        "house"
+      ],
+      "answer": [
+        "The",
+        "house",
+        "I",
+        "grew",
+        "up",
+        "in",
+        "is",
+        "now",
+        "a",
+        "museum",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo + sujeto + verbo + preposición.",
+        "incorrect": "Revisa esto: Sustantivo + sujeto + verbo + preposición."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-ex13",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué profesor le gustaba más?",
+      "options": [
+        "Mr Brown",
+        "Mrs Green",
+        "Mr White",
+        "Miss Black"
+      ],
+      "answer": [
+        "Mr Brown"
+      ],
+      "audio_text": "That's the school where I studied. The teacher whose class I liked most was Mr Brown, and the year when he retired was the saddest of my school life.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the teacher whose class I liked most was Mr Brown.",
+        "incorrect": "Revisa esto: Dice: the teacher whose class I liked most was Mr Brown."
+      },
+      "audio_script_id": "en-b1-u02-l03-ex13-a"
+    },
+    {
+      "id": "en-b1-u02-l03-ex14",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Este es el pueblo donde crecí y esa es la casa en la que vivía.",
+      "answer": [
+        "This is the town where I grew up and that is the house I lived in.",
+        "This is the town where I grew up and that's the house I lived in.",
+        "This is the village where I grew up and that is the house I lived in."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Where para lugares; preposición al final.",
+        "incorrect": "Revisa esto: Where para lugares; preposición al final."
+      }
+    },
+    {
+      "id": "en-b1-u02-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Have you ever visit Rome?",
+      "answer": [
+        "Have you ever visited Rome?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de have va el participio: visited.",
+        "incorrect": "Revisa esto: Después de have va el participio: visited."
+      },
+      "review_of": "en-a2-u08-l01-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "the town where I grew up",
+      "the girl whose father …",
+      "the summer when …",
+      "the house I grew up in"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-grow-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coast"
+    },
+    {
+      "type": "vocab",
+      "id": "en-belong-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-generation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fisherman"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pier"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turn-sixteen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-whose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-where"
+    },
+    {
+      "type": "vocab",
+      "id": "en-when"
+    },
+    {
+      "type": "grammar",
+      "id": "en-relative-where-whose"
+    }
+  ]
+}

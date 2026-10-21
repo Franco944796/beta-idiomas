@@ -1,0 +1,769 @@
+{
+  "id": "en-b2-u01-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 1,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 1",
+    "es": "Checkpoint 1"
+  },
+  "objective": "Al terminar demuestras que describes tu personalidad con matices, hablas del futuro con precisión y escribes sobre ti con estructura.",
+  "est_minutes": 44,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 1 de B2: personalidad, futuro continuo y perfecto, relativas explicativas, used to / be used to / get used to y perfil personal."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de personalidad y valores, will be doing / will have done, relativas explicativas con comas, used to / be used to / get used to y la estructura de un perfil personal.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 1**\n\n- *I'd say I'm fairly reserved. · the kind of person who … · I can't stand …*\n- *This time next year I'll be living in … · By June I'll have finished …*\n- *My sister, who lives in Rome, … · The house, which was built in 1920, …*\n- *I used to live in … · I'm used to waking up early. · I'm getting used to it.*\n- *I'm a … with … years' experience · What drives me is … · I'd be delighted to hear from you.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u01-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Cualidad o defecto?",
+      "categories": [
+        "Quality",
+        "Flaw"
+      ],
+      "items": [
+        {
+          "text": "resilient",
+          "category": "Quality"
+        },
+        {
+          "text": "loyal",
+          "category": "Quality"
+        },
+        {
+          "text": "considerate",
+          "category": "Quality"
+        },
+        {
+          "text": "ruthless",
+          "category": "Flaw"
+        },
+        {
+          "text": "two-faced",
+          "category": "Flaw"
+        },
+        {
+          "text": "tactless",
+          "category": "Flaw"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "I can't ___ people who are rude to waiters.",
+      "options": [
+        "stand",
+        "stay",
+        "support",
+        "bear to"
+      ],
+      "answer": [
+        "stand"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can't stand.",
+        "incorrect": "Revisa esto: Can't stand."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 20,
+      "prompt": "She is very ___ to criticism and gets upset easily.",
+      "options": [
+        "sensitive",
+        "sensible",
+        "sensitive of",
+        "sentimental"
+      ],
+      "answer": [
+        "sensitive"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sensitive.",
+        "incorrect": "Revisa esto: Sensitive."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "This time next year I ___ in Berlin.",
+      "options": [
+        "'ll be living",
+        "'ll live",
+        "'ll have lived",
+        "'m living"
+      ],
+      "answer": [
+        "'ll be living"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro continuo.",
+        "incorrect": "Revisa esto: Futuro continuo."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "whats-this"
+      ],
+      "est_seconds": 25,
+      "prompt": "What ___ this? It's a clock.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: What's this?",
+        "incorrect": "Revisa esto: Singular: What's this?"
+      },
+      "review_of": "en-a1-u11-l02-ex01"
+    },
+    {
+      "id": "en-b2-u01-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "By the end of June, she ___ her degree.",
+      "options": [
+        "will have finished",
+        "will be finishing",
+        "finishes",
+        "is finishing"
+      ],
+      "answer": [
+        "will have finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro perfecto.",
+        "incorrect": "Revisa esto: Futuro perfecto."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll have finished the report ___ Friday.",
+      "options": [
+        "by",
+        "until",
+        "for",
+        "since"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By = antes de.",
+        "incorrect": "Revisa esto: By = antes de."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "My brother, ___ lives in Canada, is visiting next week.",
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whom he"
+      ],
+      "answer": [
+        "who"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Explicativa: who.",
+        "incorrect": "Revisa esto: Explicativa: who."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "He passed the exam, ___ made his parents very proud.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "who"
+      ],
+      "answer": [
+        "which"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Which toda la frase.",
+        "incorrect": "Revisa esto: Which toda la frase."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ana, ___ brother is a pilot, is my neighbour.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose.",
+        "incorrect": "Revisa esto: Whose."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "gerund-infinitive-meaning"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I forgot locking the door and someone came in.",
+      "answer": [
+        "I forgot to lock the door and someone came in."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forget + to = olvidé hacer.",
+        "incorrect": "Revisa esto: Forget + to = olvidé hacer."
+      },
+      "review_of": "en-b1-u08-l02-ex14"
+    },
+    {
+      "id": "en-b2-u01-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm used to ___ up early. I do it every day.",
+      "options": [
+        "getting",
+        "get",
+        "got",
+        "to get"
+      ],
+      "answer": [
+        "getting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to + -ing.",
+        "incorrect": "Revisa esto: Be used to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was a great ___ . She won the championship. (logro)",
+      "answer": [
+        "achievement"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Achievement.",
+        "incorrect": "Revisa esto: Achievement."
+      },
+      "review_of": "en-b1-u12-l01-ex13"
+    },
+    {
+      "id": "en-b2-u01-l06-rv04",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "agree-disagree"
+      ],
+      "est_seconds": 25,
+      "prompt": "That's a fair ___ . I hadn't thought about it. (punto)",
+      "answer": [
+        "point"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fair point.",
+        "incorrect": "Revisa esto: Fair point."
+      },
+      "review_of": "en-b1-u11-l03-ex11"
+    },
+    {
+      "id": "en-b2-u01-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ to smoke, but I gave up five years ago.",
+      "options": [
+        "used",
+        "am used",
+        "get used",
+        "was used"
+      ],
+      "answer": [
+        "used"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to.",
+        "incorrect": "Revisa esto: Used to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "personal-profile"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have eight years' ___ in marketing.",
+      "options": [
+        "experience",
+        "experiences",
+        "experienced",
+        "an experience"
+      ],
+      "answer": [
+        "experience"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Experience.",
+        "incorrect": "Revisa esto: Experience."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 25,
+      "prompt": "Did you ___ to live near the sea?",
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Did you use to.",
+        "incorrect": "Revisa esto: Did you use to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "was-were"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién estaba enferma?",
+      "options": [
+        "The speaker's sister",
+        "The speaker",
+        "Both of them",
+        "Nobody"
+      ],
+      "answer": [
+        "The speaker's sister"
+      ],
+      "audio_text": "I was at school yesterday, but my sister wasn't. She was ill.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'my sister wasn't (at school). She was ill'.",
+        "incorrect": "Revisa esto: Dice 'my sister wasn't (at school). She was ill'."
+      },
+      "audio_script_id": "en-b2-u01-l06-rv05-a",
+      "review_of": "en-a2-u01-l01-ex08"
+    },
+    {
+      "id": "en-b2-u01-l06-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "This time tomorrow I ___ be flying to New York. (estaré)",
+      "answer": [
+        "'ll",
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will be flying.",
+        "incorrect": "Revisa esto: Will be flying."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "By next year I'll finish my studies.",
+      "answer": [
+        "By next year I'll have finished my studies.",
+        "By next year I will have finished my studies."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro perfecto.",
+        "incorrect": "Revisa esto: Futuro perfecto."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My mother, that is a nurse, works at night.",
+      "answer": [
+        "My mother, who is a nurse, works at night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin that.",
+        "incorrect": "Revisa esto: Sin that."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm used to wake up at six.",
+      "answer": [
+        "I'm used to waking up at six."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to + -ing.",
+        "incorrect": "Revisa esto: Be used to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué se está acostumbrando?",
+      "options": [
+        "A la idea de irse",
+        "A un trabajo nuevo",
+        "A vivir solo",
+        "A otro idioma"
+      ],
+      "answer": [
+        "A la idea de irse"
+      ],
+      "audio_text": "In two years' time, I'll have finished my degree and I'll probably be working abroad. I'm getting used to the idea of leaving, although I still can't imagine being away from my family.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: getting used to the idea of leaving.",
+        "incorrect": "Revisa esto: Dice: getting used to the idea of leaving."
+      },
+      "audio_script_id": "en-b2-u01-l06-ex18-a"
+    },
+    {
+      "id": "en-b2-u01-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ (see) that film three times.",
+      "answer": [
+        "seen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de see: seen.",
+        "incorrect": "Revisa esto: Participio de see: seen."
+      },
+      "review_of": "en-a2-u08-l01-ex02"
+    },
+    {
+      "id": "en-b2-u01-l06-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "relative-non-defining"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi hermana, que vive en Roma, estará trabajando allí el año que viene.",
+      "answer": [
+        "My sister, who lives in Rome, will be working there next year.",
+        "My sister, who lives in Rome, will be working there this time next year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Relativa + futuro continuo.",
+        "incorrect": "Revisa esto: Relativa + futuro continuo."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "future-continuous-perfect",
+        "b2-identity"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Te preguntan por ti en una entrevista.",
+      "turns": [
+        {
+          "speaker": "Interviewer",
+          "text": "How would you describe yourself?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'd say I'm fairly reserved, but I'm very reliable. I'm the kind of person who gets things done.",
+            "I'm reserved but I fiable. I am person that do things.",
+            "I am good."
+          ],
+          "best": 0,
+          "why_es": "I'd say + matiz."
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "Where do you see yourself in five years?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "This time in five years I'll have finished my master's, and I'll be leading a small team.",
+            "In five years I finish master and I lead team.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Futuro perfecto + continuo."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-ex21",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-identity",
+        "future-continuous-perfect",
+        "relative-non-defining",
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre ti y tu futuro: cómo eres, a qué te estás acostumbrando, qué habrás logrado dentro de cinco años y a qué te dedicarás. Incluye una relativa explicativa.",
+      "min_words": 68,
+      "self_check_es": [
+        "¿Describes tu carácter con matices?",
+        "¿Usas futuro continuo y perfecto?",
+        "¿Incluyes una relativa explicativa?",
+        "¿Usas used to o get used to?"
+      ],
+      "model_answer": "I'd say I'm fairly reserved, but I'm very determined. I used to be impulsive, but I've learned to think before acting. I'm getting used to living alone, which is harder than I expected. In five years' time, I'll have finished my degree, and I'll be working for a company in Berlin. My sister, who lives there, has promised to help me settle in. I won't be worrying about money any more, I hope. What drives me is the desire to learn.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u01-l06-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "packed",
+        "your",
+        "suitcase",
+        "yet",
+        "?",
+        "Have",
+        "you"
+      ],
+      "answer": [
+        "Have",
+        "you",
+        "packed",
+        "your",
+        "suitcase",
+        "yet",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have + sujeto + participio + objeto + yet.",
+        "incorrect": "Revisa esto: Have + sujeto + participio + objeto + yet."
+      },
+      "review_of": "en-a2-u08-l03-ex09"
+    },
+    {
+      "id": "en-b2-u01-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I ___ a sandwich, please?",
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can I have…? para pedir algo.",
+        "incorrect": "Revisa esto: Can I have…? para pedir algo."
+      },
+      "review_of": "en-a1-u05-l05-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd say I'm … · I can't stand …",
+      "This time next year I'll be … · By June I'll have …",
+      "My sister, who …, …",
+      "I used to … · I'm used to …-ing · I'm getting used to …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-b2-identity"
+    },
+    {
+      "type": "grammar",
+      "id": "en-future-continuous-perfect"
+    },
+    {
+      "type": "grammar",
+      "id": "en-relative-non-defining"
+    },
+    {
+      "type": "grammar",
+      "id": "en-used-to-get-used-to"
+    },
+    {
+      "type": "grammar",
+      "id": "en-personal-profile"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

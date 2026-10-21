@@ -1,0 +1,746 @@
+{
+  "id": "en-b1-u04-l03",
+  "language": "en",
+  "level": "B1",
+  "unit": 4,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Unless and as long as",
+    "es": "Unless, as long as, provided that"
+  },
+  "objective": "Al terminar expresas condiciones con unless, as long as, provided that y in case, y distingues if de unless.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'No iré a menos que me invites.' 'Puedes ir con tal de que vuelvas pronto.' Estas palabras dan matices que if solo no tiene."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "text": "Are you coming to the gym with me tomorrow?",
+        "es": "¿Vienes mañana al gimnasio conmigo?"
+      },
+      {
+        "speaker": "Dan",
+        "text": "I'll come unless it rains. I don't want to get wet.",
+        "es": "Iré a menos que llueva. No quiero mojarme."
+      },
+      {
+        "speaker": "Ana",
+        "text": "It's inside, Dan! You can come as long as you bring your own towel.",
+        "es": "¡Es dentro, Dan! Puedes venir siempre que traigas tu toalla."
+      },
+      {
+        "speaker": "Dan",
+        "text": "OK. I'll take a bottle of water in case I get thirsty.",
+        "es": "Vale. Llevaré una botella de agua por si me da sed."
+      },
+      {
+        "speaker": "Ana",
+        "text": "My trainer says we can use the pool provided that we shower first.",
+        "es": "Mi entrenador dice que podemos usar la piscina siempre y cuando nos duchemos antes."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Fine. But unless I feel energetic, I won't do the full class.",
+        "es": "Bien. Pero a menos que me sienta con energía, no haré la clase entera."
+      },
+      {
+        "speaker": "Ana",
+        "text": "You can leave early as long as you tell the trainer.",
+        "es": "Puedes irte antes con tal de avisar al entrenador."
+      },
+      {
+        "speaker": "Dan",
+        "text": "Deal. I'll bring a snack in case we get hungry afterwards.",
+        "es": "Hecho. Traeré algo de comer por si nos entra hambre después."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-unless",
+        "lemma": "unless",
+        "pos": "conj",
+        "ipa": "/ənˈles/",
+        "es": "a menos que, salvo que",
+        "example": "I'll go unless it rains."
+      },
+      {
+        "id": "en-as-long-as",
+        "lemma": "as long as",
+        "pos": "conj",
+        "ipa": "/æz lɒŋ æz/",
+        "es": "siempre que, con tal de que",
+        "example": "You can go as long as you're back by ten."
+      },
+      {
+        "id": "en-provided-that",
+        "lemma": "provided that",
+        "pos": "conj",
+        "ipa": "/prəˈvaɪdɪd ðæt/",
+        "es": "siempre y cuando",
+        "example": "Provided that you pay, you can enter."
+      },
+      {
+        "id": "en-in-case",
+        "lemma": "in case",
+        "pos": "conj",
+        "ipa": "/ɪn keɪs/",
+        "es": "por si, por si acaso",
+        "example": "Take an umbrella in case it rains."
+      },
+      {
+        "id": "en-thirsty",
+        "lemma": "thirsty",
+        "pos": "adj",
+        "ipa": "/ˈθɜːsti/",
+        "es": "sediento",
+        "example": "I'm thirsty."
+      },
+      {
+        "id": "en-hungry",
+        "lemma": "hungry",
+        "pos": "adj",
+        "ipa": "/ˈhʌŋɡri/",
+        "es": "hambriento",
+        "example": "I'm hungry."
+      },
+      {
+        "id": "en-towel",
+        "lemma": "towel",
+        "pos": "noun",
+        "ipa": "/ˈtaʊəl/",
+        "es": "toalla",
+        "example": "Bring a towel."
+      },
+      {
+        "id": "en-trainer",
+        "lemma": "trainer",
+        "pos": "noun",
+        "ipa": "/ˈtreɪnə/",
+        "es": "entrenador",
+        "example": "My trainer is strict."
+      },
+      {
+        "id": "en-pool",
+        "lemma": "pool",
+        "pos": "noun",
+        "ipa": "/puːl/",
+        "es": "piscina",
+        "example": "The pool is open."
+      },
+      {
+        "id": "en-energetic",
+        "lemma": "energetic",
+        "pos": "adj",
+        "ipa": "/ˌenəˈdʒetɪk/",
+        "es": "enérgico",
+        "example": "I feel energetic."
+      },
+      {
+        "id": "en-deal",
+        "lemma": "deal",
+        "pos": "noun",
+        "ipa": "/diːl/",
+        "es": "trato, hecho",
+        "example": "Deal! I'll do it."
+      }
+    ],
+    "audio_script_id": "en-b1-u04-l03-d01"
+  },
+  "explanation": {
+    "md_es": "**Conectores condicionales**\n\n| Conector | Significado | Ejemplo |\n|---|---|---|\n| **unless** | *if … not* (a menos que) | *I'll go **unless** it rains.* = *I'll go **if it doesn't rain**.* |\n| **as long as / so long as** | con tal de que | *You can borrow it **as long as** you return it.* |\n| **provided (that) / providing (that)** | siempre y cuando (más formal) | *You can enter **provided that** you have a ticket.* |\n| **in case** | por si (precaución) | *Take a jacket **in case** it gets cold.* |\n\n**Reglas**\n\n- Todos van con **presente**, no con will: ✘ *unless it will rain*.\n- **Unless** ya es negativo: no pongas *not*. ✘ *unless you don't come* → ✔ *unless you come*.\n- **In case ≠ if.** *In case* = hago algo ahora por si pasa algo después; *if* = haré algo cuando pase.\n  - *Take an umbrella **in case** it rains.* (lo llevo antes)\n  - *If it rains, **I'll take** the bus.* (reacciono cuando llueve)\n\n**Orden:** pueden ir al principio (con coma) o al final: *Unless it rains, I'll go. / I'll go unless it rains.*\n\n**Ojo:** *unless* ≠ 'a menos' sin más: es siempre 'a menos que / salvo que'. *As long as* aquí no es temporal.\n\nPronunciación: *unless* /ənˈles/ · *provided* /prəˈvaɪdɪd/ · *thirsty* /ˈθɜːsti/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Unless it doesn't rain...",
+        "right": "Unless it rains...",
+        "note": "Unless ya es negativo."
+      },
+      {
+        "wrong": "In case it will rain...",
+        "right": "In case it rains...",
+        "note": "In case + presente."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u04-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo irá Dan al gimnasio?",
+      "options": [
+        "A menos que llueva, irá",
+        "Solo si hace sol",
+        "Nunca",
+        "Solo si Ana le paga"
+      ],
+      "answer": [
+        "A menos que llueva, irá"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'll come unless it rains.",
+        "incorrect": "Revisa esto: Dice: I'll come unless it rains."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Para qué lleva Dan una botella de agua?",
+      "options": [
+        "Por si le da sed",
+        "Para regalarla",
+        "Para beber en casa",
+        "Porque el gimnasio no tiene agua"
+      ],
+      "answer": [
+        "Por si le da sed"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: in case I get thirsty.",
+        "incorrect": "Revisa esto: Dice: in case I get thirsty."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 15,
+      "prompt": "Dan puede irse antes sin avisar al entrenador.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: as long as you tell the trainer.",
+        "incorrect": "Revisa esto: Dice: as long as you tell the trainer."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "this-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "That are my keys.",
+      "answer": [
+        "Those are my keys."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural lejano: those.",
+        "incorrect": "Revisa esto: Plural lejano: those."
+      },
+      "review_of": "en-a1-u08-l04-ex06"
+    },
+    {
+      "id": "en-b1-u04-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'll call you ___ I'm too busy.",
+      "options": [
+        "unless",
+        "in case",
+        "if not",
+        "as long"
+      ],
+      "answer": [
+        "unless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless = a menos que.",
+        "incorrect": "Revisa esto: Unless = a menos que."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can park here ___ you pay.",
+      "options": [
+        "as long as",
+        "unless",
+        "in case",
+        "until"
+      ],
+      "answer": [
+        "as long as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As long as = con tal de que.",
+        "incorrect": "Revisa esto: As long as = con tal de que."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Take a jacket ___ it gets cold later.",
+      "options": [
+        "in case",
+        "unless",
+        "as long as",
+        "provided"
+      ],
+      "answer": [
+        "in case"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case = por si.",
+        "incorrect": "Revisa esto: In case = por si."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Unless you study, you won't pass.' means...",
+      "options": [
+        "If you don't study, you won't pass.",
+        "If you study, you won't pass.",
+        "Because you study, you pass.",
+        "You study after you pass."
+      ],
+      "answer": [
+        "If you don't study, you won't pass."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless = if … not.",
+        "incorrect": "Revisa esto: Unless = if … not."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "I won't go unless she invites me.",
+        "I won't go unless she doesn't invite me.",
+        "I won't go unless she will invite me.",
+        "I won't go unless she would invite me."
+      ],
+      "answer": [
+        "I won't go unless she invites me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless + presente afirmativo.",
+        "incorrect": "Revisa esto: Unless + presente afirmativo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Take your phone ___ case there's an emergency.",
+      "answer": [
+        "in"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case = por si.",
+        "incorrect": "Revisa esto: In case = por si."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can use my car ___ you drive carefully. (siempre que)",
+      "answer": [
+        "as long as",
+        "provided that",
+        "provided",
+        "so long as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As long as / provided that.",
+        "incorrect": "Revisa esto: As long as / provided that."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll go unless it doesn't rain.",
+      "answer": [
+        "I'll go unless it rains.",
+        "I'll go if it doesn't rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Take an umbrella if case it rains.",
+      "answer": [
+        "Take an umbrella in case it rains."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case, no if case.",
+        "incorrect": "Revisa esto: In case, no if case."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "cocina"
+        },
+        {
+          "left": "bedroom",
+          "right": "dormitorio"
+        },
+        {
+          "left": "bathroom",
+          "right": "baño"
+        },
+        {
+          "left": "window",
+          "right": "ventana"
+        },
+        {
+          "left": "chair",
+          "right": "silla"
+        },
+        {
+          "left": "garden",
+          "right": "jardín"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa el vocabulario.",
+        "incorrect": "Revisa esto: Repasa el vocabulario."
+      },
+      "review_of": "en-a1-u06-l06-ex01"
+    },
+    {
+      "id": "en-b1-u04-l03-ex13",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "go",
+        "unless",
+        "it",
+        "rains",
+        "tomorrow",
+        ".",
+        "I",
+        "will"
+      ],
+      "answer": [
+        "I",
+        "will",
+        "go",
+        "unless",
+        "it",
+        "rains",
+        "tomorrow",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless + presente.",
+        "incorrect": "Revisa esto: Unless + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 25,
+      "prompt": "The bus takes eight hours. That's ___ long for me.",
+      "answer": [
+        "too"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Demasiado = too.",
+        "incorrect": "Revisa esto: Demasiado = too."
+      },
+      "review_of": "en-a2-u03-l05-ex03"
+    },
+    {
+      "id": "en-b1-u04-l03-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She made a deadline last week.",
+      "answer": [
+        "She met a deadline last week.",
+        "She met the deadline last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deadline se combina con meet.",
+        "incorrect": "Revisa esto: Deadline se combina con meet."
+      },
+      "review_of": "en-b1-u03-l01-ex13"
+    },
+    {
+      "id": "en-b1-u04-l03-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuándo puede ver la tele?",
+      "options": [
+        "Si termina antes los deberes",
+        "Nunca",
+        "Solo sábados",
+        "Si come rápido"
+      ],
+      "answer": [
+        "Si termina antes los deberes"
+      ],
+      "audio_text": "You can watch TV after dinner as long as you finish your homework first. Unless you do that, you can't go out on Saturday.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: as long as you finish your homework first.",
+        "incorrect": "Revisa esto: Dice: as long as you finish your homework first."
+      },
+      "audio_script_id": "en-b1-u04-l03-ex14-a"
+    },
+    {
+      "id": "en-b1-u04-l03-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 20,
+      "prompt": "They've been friends ___ they were children.",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + momento: since they were children.",
+        "incorrect": "Revisa esto: Since + momento: since they were children."
+      },
+      "review_of": "en-a2-u08-l05-ex04"
+    },
+    {
+      "id": "en-b1-u04-l03-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No iré a la fiesta a menos que tú vayas.",
+      "answer": [
+        "I won't go to the party unless you go.",
+        "I will not go to the party unless you go."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless + presente.",
+        "incorrect": "Revisa esto: Unless + presente."
+      }
+    },
+    {
+      "id": "en-b1-u04-l03-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "articles-the"
+      ],
+      "est_seconds": 25,
+      "prompt": "Open ___ door, please. (la puerta que ya conocemos)",
+      "answer": [
+        "the"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Algo específico y conocido: the.",
+        "incorrect": "Revisa esto: Algo específico y conocido: the."
+      },
+      "review_of": "en-a1-u11-l03-ex03"
+    },
+    {
+      "id": "en-b1-u04-l03-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Lleva un paraguas por si llueve.",
+      "answer": [
+        "Take an umbrella in case it rains.",
+        "Bring an umbrella in case it rains.",
+        "Take an umbrella in case it rains."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In case + presente.",
+        "incorrect": "Revisa esto: In case + presente."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'll go unless it rains.",
+      "as long as · provided that",
+      "Take … in case …",
+      "unless = if … not"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-unless"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-long-as"
+    },
+    {
+      "type": "vocab",
+      "id": "en-provided-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-case"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thirsty"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hungry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-towel"
+    },
+    {
+      "type": "vocab",
+      "id": "en-trainer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pool"
+    },
+    {
+      "type": "vocab",
+      "id": "en-energetic"
+    },
+    {
+      "type": "grammar",
+      "id": "en-unless-conditions"
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "id": "en-b2-u08-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 8,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Linkers of result and purpose",
+    "es": "Conectores de resultado, finalidad y concesión"
+  },
+  "objective": "Al terminar conectas ideas de resultado, finalidad, causa, concesión y contraste con conectores de nivel B2 en la posición correcta.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los conectores son el pegamento de un texto: cada uno marca una relación distinta (causa, consecuencia, contraste). Con los adecuados, tus ideas se leen ordenadas y convincentes."
+  },
+  "input": {
+    "type": "text",
+    "text": "Online learning has expanded rapidly in recent years. As a result, millions of people who could not attend university in person can now study from home. Many institutions have therefore invested in digital platforms, so that students can access lectures at any time.\n\nHowever, this shift has not been entirely positive. Since lessons are no longer face to face, some students feel isolated. Consequently, dropout rates have risen in certain courses. Moreover, although online degrees are cheaper, employers sometimes view them with suspicion.\n\nIn spite of these problems, supporters argue that online learning is here to stay. They point out that, despite the lack of personal contact, students can learn at their own pace. Furthermore, due to advances in technology, interaction is improving: forums, video calls and virtual labs are now common.\n\nIn order to make the most of it, universities need to provide support, such as mentoring and study groups. Otherwise, the benefits could be lost. On the whole, online education is neither a miracle nor a threat; whether it succeeds depends on how it is used.",
+    "es": "El aprendizaje en línea se ha expandido rápidamente en los últimos años. Como resultado, millones de personas que no podían asistir a la universidad en persona pueden ahora estudiar desde casa. Muchas instituciones han invertido, por tanto, en plataformas digitales para que los estudiantes puedan acceder a las clases en cualquier momento. Sin embargo, este cambio no ha sido del todo positivo. Dado que las clases ya no son presenciales, algunos estudiantes se sienten aislados. En consecuencia, las tasas de abandono han aumentado en ciertos cursos. Además, aunque los títulos en línea son más baratos, los empleadores a veces los miran con recelo. A pesar de estos problemas, los defensores sostienen que el aprendizaje en línea ha llegado para quedarse. Señalan que, pese a la falta de contacto personal, los estudiantes pueden aprender a su propio ritmo. Asimismo, debido a los avances tecnológicos, la interacción está mejorando: foros, videollamadas y laboratorios virtuales son ya habituales. Para aprovecharlo al máximo, las universidades deben ofrecer apoyo, como tutorías y grupos de estudio. De lo contrario, los beneficios podrían perderse. En general, la educación en línea no es ni un milagro ni una amenaza; que tenga éxito depende de cómo se use.",
+    "glossary": [
+      {
+        "id": "en-expand",
+        "lemma": "expand",
+        "pos": "verb",
+        "ipa": "/ɪkˈspænd/",
+        "es": "expandirse",
+        "example": "Expand rapidly."
+      },
+      {
+        "id": "en-as-a-result",
+        "lemma": "as a result",
+        "pos": "phrase",
+        "ipa": "/æz ə rɪˈzʌlt/",
+        "es": "como resultado",
+        "example": "As a result, sales rose."
+      },
+      {
+        "id": "en-therefore",
+        "lemma": "therefore",
+        "pos": "adv",
+        "ipa": "/ˈðeəfɔː/",
+        "es": "por tanto",
+        "example": "Therefore, we left."
+      },
+      {
+        "id": "en-so-that",
+        "lemma": "so that",
+        "pos": "conj",
+        "ipa": "/səʊ ðæt/",
+        "es": "para que",
+        "example": "Study so that you pass."
+      },
+      {
+        "id": "en-consequently",
+        "lemma": "consequently",
+        "pos": "adv",
+        "ipa": "/ˈkɒnsɪkwəntli/",
+        "es": "en consecuencia",
+        "example": "Consequently, prices fell."
+      },
+      {
+        "id": "en-moreover",
+        "lemma": "moreover",
+        "pos": "adv",
+        "ipa": "/mɔːˈrəʊvə/",
+        "es": "además",
+        "example": "Moreover, it's cheap."
+      },
+      {
+        "id": "en-although",
+        "lemma": "although",
+        "pos": "conj",
+        "ipa": "/ɔːlˈðəʊ/",
+        "es": "aunque",
+        "example": "Although it rained, we went."
+      },
+      {
+        "id": "en-in-spite-of",
+        "lemma": "in spite of",
+        "pos": "prep",
+        "ipa": "/ɪn spaɪt əv/",
+        "es": "a pesar de",
+        "example": "In spite of the rain…"
+      },
+      {
+        "id": "en-despite",
+        "lemma": "despite",
+        "pos": "prep",
+        "ipa": "/dɪˈspaɪt/",
+        "es": "a pesar de",
+        "example": "Despite the noise…"
+      },
+      {
+        "id": "en-due-to",
+        "lemma": "due to",
+        "pos": "prep",
+        "ipa": "/djuː tə/",
+        "es": "debido a",
+        "example": "Due to the weather…"
+      },
+      {
+        "id": "en-in-order-to",
+        "lemma": "in order to",
+        "pos": "phrase",
+        "ipa": "/ɪn ˈɔːdə tə/",
+        "es": "para (finalidad)",
+        "example": "In order to succeed…"
+      },
+      {
+        "id": "en-otherwise",
+        "lemma": "otherwise",
+        "pos": "adv",
+        "ipa": "/ˈʌðəwaɪz/",
+        "es": "de lo contrario",
+        "example": "Hurry; otherwise you'll miss it."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Conectores por función**\n\n| Función | Conectores | Ejemplo |\n|---|---|---|\n| **Resultado** | *so, therefore, as a result, consequently, thus, hence* | *It rained; **as a result**, we stayed in.* |\n| **Causa** | *because, since, as, due to, owing to, because of* | ***Since** it rained, we stayed in.* |\n| **Finalidad** | *to, in order to, so as to, so that* | *I studied **so that** I could pass.* |\n| **Contraste** | *but, however, nevertheless, whereas, while, on the other hand* | *He's rich; **however**, he's unhappy.* |\n| **Concesión** | *although, even though, though, despite, in spite of* | ***Although** it rained, we went out.* |\n| **Adición** | *and, also, moreover, furthermore, in addition, besides* | ***Moreover**, it is cheaper.* |\n| **Condición** | *otherwise, unless, provided that, as long as* | *Hurry up; **otherwise**, we'll be late.* |\n| **Resumen** | *in conclusion, to sum up, on the whole, overall* | ***On the whole**, it was a success.* |\n\n**Posición y puntuación**\n\n- **Conectores de frase (adverbiales)**: punto y coma o punto antes y coma después: *It rained; **however**, we went out.*\n- **Conjunciones**: unen cláusulas: *We went out **although** it rained.* (sin coma en medio, o con coma si la subordinada va primero: *Although it rained, we went out.*)\n- **Preposiciones** (*despite, in spite of, due to, because of*) → + sustantivo o -ing: *Despite the rain, …* · *Despite being tired, …*\n\n**Contraste de concesión: although / despite**\n\n- *Although* + cláusula: *Although he was tired, he kept working.*\n- *Despite / In spite of* + sustantivo o -ing: *Despite his tiredness / Despite being tired, …*\n- ✘ *Despite he was tired* → ✔ *Despite being tired / Despite the fact that he was tired.*\n\n**Finalidad**\n\n- *to + verbo* (mismo sujeto): *I called to ask…* · *so that + cláusula* (sujetos distintos o modal): *I spoke slowly so that they could understand.*\n- *so as not to / in order not to + verbo*: *I whispered so as not to wake him.*\n\n**Errores típicos**\n\n- ✘ *Because of he was late…* → ✔ *Because he was late…* / *Because of being late …*\n- ✘ *In spite of he was tired* → ✔ *In spite of being tired.*\n- ✘ *I came for to see you.* → ✔ *I came to see you.*\n- ✘ *However, but …* → ✔ *However, …* (nunca juntos).\n- ✘ *Although … but …* → ✔ *Although …, …*\n\n**Ojo:** *since* = desde (tiempo) o dado que (causa). *While* = mientras (tiempo) o mientras que (contraste). *As* = como (causa/tiempo). Elige según el contexto.\n\nPronunciación: *nevertheless* /ˌnevəðəˈles/ · *therefore* /ˈðeəfɔː/ · *consequently* /ˈkɒnsɪkwəntli/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Despite he was",
+        "right": "Despite being",
+        "note": "Despite + -ing."
+      },
+      {
+        "wrong": "Although … but",
+        "right": "Although …,",
+        "note": "Sin but."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u08-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué consecuencia positiva tiene el aprendizaje en línea?",
+      "options": [
+        "Quienes no podían asistir en persona pueden estudiar desde casa",
+        "Todos aprenden más rápido",
+        "Las clases son gratis",
+        "No hay exámenes"
+      ],
+      "answer": [
+        "Quienes no podían asistir en persona pueden estudiar desde casa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: millions… can now study from home.",
+        "incorrect": "Revisa esto: Dice: millions… can now study from home."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué han aumentado las tasas de abandono en algunos cursos?",
+      "options": [
+        "Algunos estudiantes se sienten aislados",
+        "Los cursos son caros",
+        "Hay menos profesores",
+        "Los exámenes son difíciles"
+      ],
+      "answer": [
+        "Algunos estudiantes se sienten aislados"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: some students feel isolated; consequently, dropout rates have risen.",
+        "incorrect": "Revisa esto: Dice: some students feel isolated; consequently, dropout rates have risen."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué necesitan las universidades para aprovechar el aprendizaje en línea?",
+      "options": [
+        "Ofrecer apoyo como tutorías y grupos de estudio",
+        "Reducir el precio",
+        "Eliminar los títulos",
+        "Cerrar campus"
+      ],
+      "answer": [
+        "Ofrecer apoyo como tutorías y grupos de estudio"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: provide support, such as mentoring and study groups.",
+        "incorrect": "Revisa esto: Dice: provide support, such as mentoring and study groups."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 15,
+      "prompt": "El texto concluye que la educación en línea es una amenaza absoluta.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concluye que no es ni milagro ni amenaza.",
+        "incorrect": "Revisa esto: Concluye que no es ni milagro ni amenaza."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adjetivo con su traducción.",
+      "pairs": [
+        {
+          "left": "bored",
+          "right": "aburrido (yo)"
+        },
+        {
+          "left": "boring",
+          "right": "aburrido (la cosa)"
+        },
+        {
+          "left": "excited",
+          "right": "emocionado"
+        },
+        {
+          "left": "exciting",
+          "right": "emocionante"
+        },
+        {
+          "left": "interested",
+          "right": "interesado"
+        },
+        {
+          "left": "interesting",
+          "right": "interesante"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed describe a la persona; -ing describe a la cosa.",
+        "incorrect": "Revisa esto: -ed describe a la persona; -ing describe a la cosa."
+      },
+      "review_of": "en-a2-u13-l05-ex01"
+    },
+    {
+      "id": "en-b2-u08-l03-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "It rained heavily; ___ , the match was cancelled.",
+      "options": [
+        "as a result",
+        "although",
+        "despite",
+        "so that"
+      ],
+      "answer": [
+        "as a result"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resultado.",
+        "incorrect": "Revisa esto: Resultado."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd appreciate it if you ___ fix it.",
+      "options": [
+        "could",
+        "can to",
+        "will",
+        "must"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd appreciate it if you could…",
+        "incorrect": "Revisa esto: I'd appreciate it if you could…"
+      },
+      "review_of": "en-b1-u06-l04-ex09"
+    },
+    {
+      "id": "en-b2-u08-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we went for a walk.",
+      "options": [
+        "Although",
+        "Despite",
+        "Because of",
+        "In spite"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although + cláusula.",
+        "incorrect": "Revisa esto: Although + cláusula."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the rain, we went for a walk.",
+      "options": [
+        "Despite",
+        "Although",
+        "Even though",
+        "However"
+      ],
+      "answer": [
+        "Despite"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + sustantivo.",
+        "incorrect": "Revisa esto: Despite + sustantivo."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Despite ___ tired, she kept working.",
+      "options": [
+        "being",
+        "she was",
+        "to be",
+        "of being"
+      ],
+      "answer": [
+        "being"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Iker nunca pensó en rendirse.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Many times.",
+        "incorrect": "Revisa esto: Dice: Many times."
+      },
+      "review_of": "en-b1-u12-l01-ex06"
+    },
+    {
+      "id": "en-b2-u08-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I spoke slowly ___ they could understand.",
+      "options": [
+        "so that",
+        "so",
+        "in order",
+        "for"
+      ],
+      "answer": [
+        "so that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So that + modal.",
+        "incorrect": "Revisa esto: So that + modal."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "persuasion"
+      ],
+      "est_seconds": 20,
+      "prompt": "She talked me ___ of quitting.",
+      "options": [
+        "out",
+        "into",
+        "off",
+        "down"
+      ],
+      "answer": [
+        "out"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Talk someone out of.",
+        "incorrect": "Revisa esto: Talk someone out of."
+      },
+      "review_of": "en-b2-u05-l04-ex09"
+    },
+    {
+      "id": "en-b2-u08-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "I whispered ___ not to wake the baby.",
+      "options": [
+        "so as",
+        "so that",
+        "in order that",
+        "for"
+      ],
+      "answer": [
+        "so as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So as not to.",
+        "incorrect": "Revisa esto: So as not to."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I stayed home because the rain.",
+      "answer": [
+        "I stayed home because of the rain.",
+        "I stayed at home because of the rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo → because of.",
+        "incorrect": "Revisa esto: Sustantivo → because of."
+      },
+      "review_of": "en-a2-u10-l06-ex11"
+    },
+    {
+      "id": "en-b2-u08-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hurry up; ___ , you'll miss the bus.",
+      "options": [
+        "otherwise",
+        "although",
+        "however",
+        "despite"
+      ],
+      "answer": [
+        "otherwise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! De lo contrario.",
+        "incorrect": "Revisa esto: De lo contrario."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "The flight was cancelled ___ the strike.",
+      "options": [
+        "due to",
+        "although",
+        "so that",
+        "in order"
+      ],
+      "answer": [
+        "due to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to + sustantivo.",
+        "incorrect": "Revisa esto: Due to + sustantivo."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "Although it was cold, we went out.",
+        "Although it was cold, but we went out.",
+        "Despite it was cold, we went out.",
+        "In spite it was cold, we went out."
+      ],
+      "answer": [
+        "Although it was cold, we went out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin 'but'.",
+        "incorrect": "Revisa esto: Sin 'but'."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "The test was long; ___ , most students passed. (sin embargo)",
+      "answer": [
+        "however"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! However.",
+        "incorrect": "Revisa esto: However."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 25,
+      "prompt": "She studied hard ___ that she could get a scholarship. (para)",
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So that.",
+        "incorrect": "Revisa esto: So that."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Despite he was tired, he kept working.",
+      "answer": [
+        "Despite being tired, he kept working.",
+        "Despite the fact that he was tired, he kept working.",
+        "Although he was tired, he kept working."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "articles"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm teacher.",
+      "answer": [
+        "I'm a teacher.",
+        "I am a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés el artículo es obligatorio.",
+        "incorrect": "Revisa esto: En inglés el artículo es obligatorio."
+      },
+      "review_of": "en-a1-u02-l05-ex04"
+    },
+    {
+      "id": "en-b2-u08-l03-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-where-whose"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She's the woman who's son is a pilot.",
+      "answer": [
+        "She's the woman whose son is a pilot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Posesión: whose, no who's.",
+        "incorrect": "Revisa esto: Posesión: whose, no who's."
+      },
+      "review_of": "en-b1-u02-l03-ex11"
+    },
+    {
+      "id": "en-b2-u08-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Although it was expensive, but I bought it.",
+      "answer": [
+        "Although it was expensive, I bought it.",
+        "It was expensive, but I bought it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Although sin but.",
+        "incorrect": "Revisa esto: Although sin but."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I went to the library for to study.",
+      "answer": [
+        "I went to the library to study."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To + verbo.",
+        "incorrect": "Revisa esto: To + verbo."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "However, but the results were good.",
+      "answer": [
+        "However, the results were good.",
+        "But the results were good."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! However sin but.",
+        "incorrect": "Revisa esto: However sin but."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Para qué estudiaron tanto?",
+      "options": [
+        "Para conservar las becas",
+        "Para viajar",
+        "Para ganar dinero",
+        "Para evitar clases"
+      ],
+      "answer": [
+        "Para conservar las becas"
+      ],
+      "audio_text": "Although the exam was difficult, most students passed. They had studied hard so that they could keep their scholarships. In addition, many had attended extra classes in order to improve their grades.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: so that they could keep their scholarships.",
+        "incorrect": "Revisa esto: Dice: so that they could keep their scholarships."
+      },
+      "audio_script_id": "en-b2-u08-l03-ex20-a"
+    },
+    {
+      "id": "en-b2-u08-l03-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is taller that me.",
+      "answer": [
+        "She is taller than me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después del comparativo se usa than.",
+        "incorrect": "Revisa esto: Después del comparativo se usa than."
+      },
+      "review_of": "en-a2-u03-l02-ex07"
+    },
+    {
+      "id": "en-b2-u08-l03-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "A pesar de estar cansado, siguió estudiando para poder aprobar.",
+      "answer": [
+        "Despite being tired, he kept studying so that he could pass.",
+        "In spite of being tired, he kept studying in order to pass."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing / finalidad.",
+        "incorrect": "Revisa esto: Despite + -ing / finalidad."
+      }
+    },
+    {
+      "id": "en-b2-u08-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Llovía mucho; por tanto, cancelaron el partido.",
+      "answer": [
+        "It was raining heavily; therefore, they cancelled the match.",
+        "It rained heavily; therefore, they cancelled the match."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Therefore.",
+        "incorrect": "Revisa esto: Therefore."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "As a result · Consequently · Therefore",
+      "Although + cláusula / Despite + -ing",
+      "so that · in order to · so as not to",
+      "Otherwise, … · On the whole, …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-expand"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-a-result"
+    },
+    {
+      "type": "vocab",
+      "id": "en-therefore"
+    },
+    {
+      "type": "vocab",
+      "id": "en-so-that"
+    },
+    {
+      "type": "vocab",
+      "id": "en-consequently"
+    },
+    {
+      "type": "vocab",
+      "id": "en-moreover"
+    },
+    {
+      "type": "vocab",
+      "id": "en-although"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-spite-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-despite"
+    },
+    {
+      "type": "vocab",
+      "id": "en-due-to"
+    },
+    {
+      "type": "grammar",
+      "id": "en-linkers-b2"
+    }
+  ]
+}

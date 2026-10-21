@@ -261,7 +261,8 @@ const lvTotal = lv => lv.units.reduce((a, u) => a + u.lessons.length, 0);
 const LVNAME = { A1: 'Principiante', A2: 'Elemental', B1: 'Intermedio', B2: 'Intermedio alto' };
 const ICON = { greetings: '👋', 'countries-jobs': '🌍', family: '👨‍👩‍👧', routine: '⏰', food: '🍎', home: '🏠', town: '🗺️', shopping: '🛍️', hobbies: '🎸',
   'weather-plans': '☀️', objects: '🎒', 'past-simple': '📸', travel: '✈️', comparing: '⚖️', quantities: '🥕', future: '🔮', 'health-rules': '🩺',
-  'work-study': '💼', experiences: '🏔️', technology: '📱', opinions: '💬', clothes: '👕', 'getting-around': '🚇', leisure: '🎬' };
+  'work-study': '💼', experiences: '🏔️', technology: '📱', opinions: '💬', clothes: '👕', 'getting-around': '🚇', leisure: '🎬',
+  'life-stories': '📖', places: '📍', careers: '🧭', lifestyle: '🥗', media: '📰', tourism: '🧳', money: '💰', education: '🎓', environment: '🌿', culture: '🎭', relationships: '🤝', achievements: '🏆', identity: '🪪', workplace: '🏢', news: '🗞️', science: '🔬', wellbeing: '🧘', 'culture-travel': '🛂', economy: '📈', society: '🏛️', planet: '🌎', arts: '🎨', law: '👨‍⚖️', communication: '🗣️', adventure: '🧗', global: '🌐' };
 const starsOf = s => s >= .95 ? 3 : s >= .85 ? 2 : s > 0 ? 1 : 0;
 const xpOf = () => Object.entries(S.done).reduce((a, [id, d]) => a + (10 + Math.round(d.score * 10)) * (/-l06$/.test(id) ? 2 : 1), 0) +
   Object.values(S.exams || {}).filter(e => e && e.passed).length * 150;
@@ -438,7 +439,8 @@ const TOPIC_ES = { greetings: 'Saludos', alphabet: 'Alfabeto', numbers: 'Número
   shop: 'De compras', hobbies: 'Aficiones', can: 'Can (habilidad)', 'present-continuous': 'Presente continuo', invitations: 'Invitaciones', weather: 'El clima', months: 'Meses', dates: 'Fechas',
   plans: 'Planes', objects: 'Objetos cotidianos', 'past-simple': 'Pasado simple', travel: 'Viajes', comparing: 'Comparar', quantities: 'Comida y cantidades', future: 'Futuro',
   'health-rules': 'Salud y reglas', 'work-study': 'Trabajo y estudios', experiences: 'Experiencias', technology: 'Tecnología', opinions: 'Opiniones y sentimientos',
-  'getting-around': 'Moverse por la ciudad', leisure: 'Tiempo libre' };
+  'getting-around': 'Moverse por la ciudad', leisure: 'Tiempo libre',
+  'life-stories': 'Historias de vida', places: 'Lugares', careers: 'Carreras', lifestyle: 'Estilo de vida', media: 'Medios', tourism: 'Turismo', money: 'Dinero', education: 'Educación', environment: 'Medio ambiente', culture: 'Cultura y tradiciones', relationships: 'Relaciones', achievements: 'Retos y logros', identity: 'Identidad', workplace: 'Mundo laboral', news: 'Noticias y medios', science: 'Ciencia', wellbeing: 'Bienestar', 'culture-travel': 'Viajes y culturas', economy: 'Economía', society: 'Sociedad', planet: 'Planeta', arts: 'Arte y cultura', law: 'Ley y sociedad', communication: 'Comunicación', adventure: 'Aventura y riesgo', global: 'Temas globales' };
 
 async function vocab() {
   const lists = await Promise.all(LV.map(l => J('vocab/' + l.cefr.toLowerCase() + '.json')));
@@ -514,7 +516,7 @@ async function placement() {
       : `Superaste hasta ${lv}. En ${fail.level} acertaste ${pct(res[fail.level])} %${pct(res[fail.level]) >= 50 ? ': estás cerca, ese es tu siguiente objetivo' : ''}.`;
     const c = view(`<h2>${esc(T.title.es)}</h2><p class="tx-big">${esc(lv)}</p><p>${passed.length ? 'Tu nivel estimado es <b>' + esc(lv) + '</b>.' : 'Tu punto de partida es <b>A1</b>.'} ${msg}</p>
       <div class="tx-scroll"><table class="tx-table"><tr><th>Nivel</th><th>Aciertos</th><th>Resultado</th></tr>${done.map(B => `<tr><td>${B.level}</td><td>${res[B.level].ok}/${res[B.level].n} (${pct(res[B.level])} %)</td><td>${passed.includes(B) ? '✓ superado' : '✗ no superado'}</td></tr>`).join('')}</table></div>
-      <p><small>Se supera un nivel con al menos ${need} % de aciertos. ${!passed.length ? '' : LV.every(l => passed.some(B => B.level === l.cefr)) ? 'Ya superaste todo el contenido publicado (' + LV.map(l => l.cefr).join(', ') + '); los siguientes niveles llegarán pronto.' : 'Los niveles que superaste quedan abiertos para repasar y puedes continuar desde el siguiente.'}</small></p>`);
+      <p><small>Se supera un nivel con al menos ${need} % de aciertos. ${!passed.length ? '' : LV.every(l => passed.some(B => B.level === l.cefr)) ? 'Ya superaste todo el contenido publicado (' + LV.map(l => l.cefr).join(', ') + '). ¡Completaste el curso hasta B2!' : 'Los niveles que superaste quedan abiertos para repasar y puedes continuar desde el siguiente.'}</small></p>`);
     c.append(btn('Ir al curso', home), btn('Repetir la prueba', () => placement().catch(fail)));
   };
   const next = () => {
@@ -546,7 +548,7 @@ const FAQ = [
   ['¿Qué hace el «Modo prueba»?', 'Desbloquea todas las lecciones y exámenes para que puedas explorar el contenido. No borra tu progreso.'],
   ['¿Cómo borro mi progreso?', 'Con «Borrar progreso» al final de la página principal del curso. Se borra todo en este navegador, salvo tu meta diaria.'],
   ['Encontré un error en una lección', 'Anota el código de la lección o del ejercicio (por ejemplo en-a2-u03-l02) y avisa a quien administra el sitio. Las traducciones y la pronunciación pueden mejorarse con tu ayuda.'],
-  ['¿Hasta qué nivel llega el curso?', 'Hasta B2. Los niveles A1 y A2 ya están disponibles; B1 y B2 se publican por etapas.']
+  ['¿Hasta qué nivel llega el curso?', 'Hasta B2. Los niveles A1, A2, B1 y B2 ya están disponibles, cada uno con su examen final.']
 ];
 function faq() {
   const c = view(`<h2>❓ Preguntas frecuentes</h2><div id="faq">${FAQ.map(([q, a]) => `<details class="tx-level"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`);

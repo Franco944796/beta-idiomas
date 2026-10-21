@@ -1,0 +1,914 @@
+{
+  "id": "en-b2-u10-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 10,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 10",
+    "es": "Checkpoint 10"
+  },
+  "objective": "Al terminar demuestras que hablas de arte y cultura, usas cláusulas de participio, relativas con preposición, opinas sobre obras y escribes una reseña.",
+  "est_minutes": 46,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 10 de B2: vocabulario artístico, participios, lenguaje de reseña, relativas con preposición y reseña escrita."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de arte y cultura, cláusulas de participio, lenguaje para opinar sobre obras, relativas con preposición y estructura de una reseña.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 10**\n\n- *thought-provoking · gripping · flawless · plot (no argument) · boring / bored*\n- *Having finished, he left. · Walking along the beach, he saw … · Inspired by her, he … · Not knowing, she …*\n- *I have mixed feelings. · It's well worth watching. · It didn't live up to the hype.*\n- *the person to whom I spoke · the book in which … · the author whose … · two of which …*\n- *Set in …, … tells the story of … · The greatest strength is … · I would rate it …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u10-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Valoración positiva o negativa?",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "captivating",
+          "category": "Positive"
+        },
+        {
+          "text": "moving",
+          "category": "Positive"
+        },
+        {
+          "text": "masterpiece",
+          "category": "Positive"
+        },
+        {
+          "text": "predictable",
+          "category": "Negative"
+        },
+        {
+          "text": "tedious",
+          "category": "Negative"
+        },
+        {
+          "text": "overrated",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ of the film is about a young detective in Paris.",
+      "options": [
+        "plot",
+        "argument",
+        "arguments",
+        "history"
+      ],
+      "answer": [
+        "plot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plot.",
+        "incorrect": "Revisa esto: Plot."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film was so ___ that I fell asleep.",
+      "options": [
+        "boring",
+        "bored",
+        "bore",
+        "boredom"
+      ],
+      "answer": [
+        "boring"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ing.",
+        "incorrect": "Revisa esto: -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was really ___ by the ending.",
+      "options": [
+        "shocked",
+        "shocking",
+        "shock",
+        "shocks"
+      ],
+      "answer": [
+        "shocked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed.",
+        "incorrect": "Revisa esto: -ed."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ his novel, the author went on holiday.",
+      "options": [
+        "Having finished",
+        "Finishing",
+        "Finished having",
+        "Having been finish"
+      ],
+      "answer": [
+        "Having finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio anterior.",
+        "incorrect": "Revisa esto: Participio anterior."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "Original: 'Participants who read a chapter on paper scored 12 per cent higher on a comprehension test.' Which is the best paraphrase?",
+      "options": [
+        "Readers using paper did better in the comprehension test.",
+        "Participants who read a chapter on paper scored 12 per cent higher on a comprehension test.",
+        "I think paper is clearly better for everybody.",
+        "Paper scored 12 per cent."
+      ],
+      "answer": [
+        "Readers using paper did better in the comprehension test."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Parafrasear sin copiar ni opinar.",
+        "incorrect": "Revisa esto: Parafrasear sin copiar ni opinar."
+      },
+      "review_of": "en-b2-u03-l05-ex10"
+    },
+    {
+      "id": "en-b2-u10-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ by her teacher, she began to paint.",
+      "options": [
+        "Encouraged",
+        "Encouraging",
+        "Having encourage",
+        "Encourage"
+      ],
+      "answer": [
+        "Encouraged"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio pasivo.",
+        "incorrect": "Revisa esto: Participio pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ the answer, she guessed.",
+      "options": [
+        "Not knowing",
+        "Not to know",
+        "Not known",
+        "Knowing not"
+      ],
+      "answer": [
+        "Not knowing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Negativo.",
+        "incorrect": "Revisa esto: Negativo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film is well worth ___ .",
+      "options": [
+        "watching",
+        "to watch",
+        "watch",
+        "watched"
+      ],
+      "answer": [
+        "watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film made me ___ .",
+      "options": [
+        "cry",
+        "to cry",
+        "crying",
+        "cried"
+      ],
+      "answer": [
+        "cry"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make + inf.",
+        "incorrect": "Revisa esto: Make + inf."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 20,
+      "prompt": "'It didn't live up to the hype' means...",
+      "options": [
+        "No cumplió las expectativas",
+        "Fue mejor de lo esperado",
+        "Fue larga",
+        "Fue cara"
+      ],
+      "answer": [
+        "No cumplió las expectativas"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hype.",
+        "incorrect": "Revisa esto: Hype."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The person to ___ I spoke was very helpful.",
+      "options": [
+        "whom",
+        "who",
+        "that",
+        "which"
+      ],
+      "answer": [
+        "whom"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To whom.",
+        "incorrect": "Revisa esto: To whom."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "The librarian, ___ only friend is a cat, lives alone.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": [
+        "whose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Whose.",
+        "incorrect": "Revisa esto: Whose."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "He has three novels, two of ___ are bestsellers.",
+      "options": [
+        "which",
+        "that",
+        "who",
+        "whom"
+      ],
+      "answer": [
+        "which"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Two of which.",
+        "incorrect": "Revisa esto: Two of which."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo es su pueblo?",
+      "options": [
+        "La mitad de grande y el doble de tranquilo",
+        "El doble de grande",
+        "Más ruidoso que la ciudad",
+        "Igual de grande"
+      ],
+      "answer": [
+        "La mitad de grande y el doble de tranquilo"
+      ],
+      "audio_text": "The older I get, the more I enjoy quiet places. My village is half as big as the town where I studied, but it's twice as peaceful.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: half as big … twice as peaceful.",
+        "incorrect": "Revisa esto: Dice: half as big … twice as peaceful."
+      },
+      "audio_script_id": "en-b2-u10-l06-rv02-a",
+      "review_of": "en-b1-u02-l04-ex13"
+    },
+    {
+      "id": "en-b2-u10-l06-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "customer-service"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijeron que el reembolso llegaría en cinco días, pero todavía no he recibido nada.",
+      "answer": [
+        "They told me that the refund would arrive in five days, but I still haven't received anything.",
+        "They told me the refund would arrive in five days, but I haven't received anything yet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto + present perfect.",
+        "incorrect": "Revisa esto: Estilo indirecto + present perfect."
+      },
+      "review_of": "en-b1-u07-l05-ex16"
+    },
+    {
+      "id": "en-b2-u10-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film is directed ___ Elena Fraser.",
+      "options": [
+        "by",
+        "from",
+        "of",
+        "with"
+      ],
+      "answer": [
+        "by"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Directed by.",
+        "incorrect": "Revisa esto: Directed by."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 25,
+      "prompt": "The story ___ a detective who investigates a crime. (sigue a)",
+      "answer": [
+        "follows"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Follows.",
+        "incorrect": "Revisa esto: Follows."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "future-forms-b2"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El tren debe llegar a las seis, pero está a punto de haber un retraso.",
+      "answer": [
+        "The train is due to arrive at six, but there is about to be a delay.",
+        "The train is due to arrive at six, but a delay is about to happen."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Due to + about to.",
+        "incorrect": "Revisa esto: Due to + about to."
+      },
+      "review_of": "en-b2-u04-l02-ex21"
+    },
+    {
+      "id": "en-b2-u10-l06-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "Having ___ the book, she wrote a review. (leído)",
+      "answer": [
+        "read"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having read.",
+        "incorrect": "Revisa esto: Having read."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Walking along the beach, the weather was nice.",
+      "answer": [
+        "Walking along the beach, I noticed that the weather was nice.",
+        "As I walked along the beach, the weather was nice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mismo sujeto.",
+        "incorrect": "Revisa esto: Mismo sujeto."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The person to who I spoke was kind.",
+      "answer": [
+        "The person to whom I spoke was kind.",
+        "The person who I spoke to was kind.",
+        "The person I spoke to was kind."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To whom.",
+        "incorrect": "Revisa esto: To whom."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 15,
+      "prompt": "Nora propone empezar con una prueba de un mes.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: We could also run a trial for one month.",
+        "incorrect": "Revisa esto: Dice: We could also run a trial for one month."
+      },
+      "review_of": "en-b2-u09-l04-ex05"
+    },
+    {
+      "id": "en-b2-u10-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film is worth to see.",
+      "answer": [
+        "The film is worth seeing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was last Tuesday ___ we met. (cuando)",
+      "answer": [
+        "that",
+        "when"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It was … that.",
+        "incorrect": "Revisa esto: It was … that."
+      },
+      "review_of": "en-b2-u08-l02-ex15"
+    },
+    {
+      "id": "en-b2-u10-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "write-review"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The film tell the story of a lighthouse keeper.",
+      "answer": [
+        "The film tells the story of a lighthouse keeper."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercera persona.",
+        "incorrect": "Revisa esto: Tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is good in cooking.",
+      "answer": [
+        "She is good at cooking."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good at.",
+        "incorrect": "Revisa esto: Good at."
+      },
+      "review_of": "en-b2-u06-l03-ex20"
+    },
+    {
+      "id": "en-b2-u10-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "review-language"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le decepcionó?",
+      "options": [
+        "La trama",
+        "La fotografía",
+        "La música",
+        "Los actores"
+      ],
+      "answer": [
+        "La trama"
+      ],
+      "audio_text": "Having read the reviews, I expected a masterpiece. Unfortunately, the film didn't live up to the hype. The cinematography was stunning, but the plot, in which nothing really happens, was a disappointment.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the plot… was a disappointment.",
+        "incorrect": "Revisa esto: Dice: the plot… was a disappointment."
+      },
+      "audio_script_id": "en-b2-u10-l06-ex21-a"
+    },
+    {
+      "id": "en-b2-u10-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Habiendo leído la novela, escribió una reseña sobre el autor, de quien se sabe muy poco.",
+      "answer": [
+        "Having read the novel, he wrote a review of the author, about whom very little is known.",
+        "Having read the novel, she wrote a review of the author, about whom very little is known."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio + relativa.",
+        "incorrect": "Revisa esto: Participio + relativa."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "review-language",
+        "relative-prepositions"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por un libro.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Have you read the new bestseller?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, I have mixed feelings. The prose is beautiful, but the plot, which is set in a village, loses momentum.",
+            "Yes. Good and bad.",
+            "No."
+          ],
+          "best": 0,
+          "why_es": "Opinión matizada."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Would you recommend it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "With reservations. If you enjoy slow, literary novels, it's well worth reading.",
+            "Don't read.",
+            "Maybe."
+          ],
+          "best": 0,
+          "why_es": "Recomendar con reservas."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "polite-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada frase con su significado.",
+      "pairs": [
+        {
+          "left": "I'd like a tea.",
+          "right": "Quisiera un té."
+        },
+        {
+          "left": "Anything else?",
+          "right": "¿Algo más?"
+        },
+        {
+          "left": "Here you are.",
+          "right": "Aquí tiene."
+        },
+        {
+          "left": "Of course.",
+          "right": "Claro."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son frases fijas para el café.",
+        "incorrect": "Revisa esto: Son frases fijas para el café."
+      },
+      "review_of": "en-a1-u05-l05-ex04"
+    },
+    {
+      "id": "en-b2-u10-l06-rv09",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué dejó el trabajo?",
+      "options": [
+        "Por la falta de respeto",
+        "Por el sueldo",
+        "Por la distancia",
+        "Por el horario"
+      ],
+      "answer": [
+        "Por la falta de respeto"
+      ],
+      "audio_text": "It wasn't the salary that made me quit; it was the lack of respect. What I wanted was a team that listened. All I needed was a bit of trust.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: it was the lack of respect.",
+        "incorrect": "Revisa esto: Dice: it was the lack of respect."
+      },
+      "audio_script_id": "en-b2-u10-l06-rv09-a",
+      "review_of": "en-b2-u08-l02-ex20"
+    },
+    {
+      "id": "en-b2-u10-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "write-review",
+        "participle-clauses",
+        "relative-prepositions"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una reseña breve (8 a 10 frases) de una película, libro o serie. Incluye un participio inicial (Having…/Set in…), una relativa con preposición, un punto fuerte, un punto débil y una valoración final.",
+      "min_words": 73,
+      "self_check_es": [
+        "¿Usas un participio inicial?",
+        "¿Usas una relativa con preposición?",
+        "¿Das fortalezas y debilidades?",
+        "¿Cierras con valoración?"
+      ],
+      "model_answer": "Set in a small Italian village, the series tells the story of a family that inherits a vineyard. Directed by a young filmmaker, it combines humour and drama. The greatest strength is its cast, with whom the viewer quickly connects. However, some episodes drag, and the ending is slightly predictable. Having watched all ten episodes, I can say it is well worth your time. It is a series in which family secrets and beautiful landscapes work perfectly together. I would rate it four stars out of five.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u10-l06-rv10",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "wish-regret"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ojalá hubiera dejado de fumar antes; me alegro de haberlo intentado.",
+      "answer": [
+        "I wish I had stopped smoking earlier; I'm glad I tried.",
+        "I wish I had given up smoking earlier; I'm glad I tried."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + stop -ing.",
+        "incorrect": "Revisa esto: Wish + stop -ing."
+      },
+      "review_of": "en-b2-u05-l06-ex21"
+    },
+    {
+      "id": "en-b2-u10-l06-rv11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He must to be tired.",
+      "answer": [
+        "He must be tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must + verbo sin to.",
+        "incorrect": "Revisa esto: Must + verbo sin to."
+      },
+      "review_of": "en-b1-u10-l02-ex14"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Having finished, he left. · Inspired by her, …",
+      "the person to whom … / the book in which …",
+      "I have mixed feelings. · well worth watching",
+      "Set in …, … tells the story of …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-arts-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-participle-clauses"
+    },
+    {
+      "type": "grammar",
+      "id": "en-review-language"
+    },
+    {
+      "type": "grammar",
+      "id": "en-relative-prepositions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-write-review"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

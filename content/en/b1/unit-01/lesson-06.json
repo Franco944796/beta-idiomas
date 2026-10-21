@@ -1,0 +1,651 @@
+{
+  "id": "en-b1-u01-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 1,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 1",
+    "es": "Checkpoint 1"
+  },
+  "objective": "Al terminar demuestras que describes personalidades, usas present perfect continuo, used to y past perfect, y cuentas una historia con orden.",
+  "est_minutes": 39,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 1: personalidad, present perfect simple y continuo, used to / would, past perfect y tiempos narrativos."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: adjetivos de personalidad y prefijos negativos, have been + -ing vs have + participio, used to y would, had + participio y la estructura de una historia.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 1**\n\n- *outgoing · reliable · stubborn · bossy · impatient · dishonest · He tends to … · the kind of person who …*\n- *I've been working here since 2020* (actividad) · *I've written five reports* (resultado)\n- *I used to be shy · We would play outside · Did you use to …? · I didn't use to …*\n- *The train had already left when I arrived* (antes) · *By the time … had …*\n- *It was raining (escenario) · I opened the door (acción) · I had forgotten my keys (antes)*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u01-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 45,
+      "prompt": "Une cada adjetivo con su categoría.",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "reliable",
+          "category": "Positive"
+        },
+        {
+          "text": "generous",
+          "category": "Positive"
+        },
+        {
+          "text": "ambitious",
+          "category": "Positive"
+        },
+        {
+          "text": "stubborn",
+          "category": "Negative"
+        },
+        {
+          "text": "moody",
+          "category": "Negative"
+        },
+        {
+          "text": "impatient",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aprende el tono de cada adjetivo.",
+        "incorrect": "Revisa esto: Aprende el tono de cada adjetivo."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "The opposite of 'honest' is…",
+      "options": [
+        "dishonest",
+        "unhonest",
+        "inhonest",
+        "imhonest"
+      ],
+      "answer": [
+        "dishonest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con honest se usa dis-: dishonest.",
+        "incorrect": "Revisa esto: Con honest se usa dis-: dishonest."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's ___ person who never forgets a birthday.",
+      "options": [
+        "the kind of",
+        "a kind of",
+        "kind the",
+        "kind of the"
+      ],
+      "answer": [
+        "the kind of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The kind of person who…",
+        "incorrect": "Revisa esto: The kind of person who…"
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "How long ___ English?",
+      "options": [
+        "have you been learning",
+        "are you learning",
+        "did you learn",
+        "have you learned"
+      ],
+      "answer": [
+        "have you been learning"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Duración que continúa: have been + -ing.",
+        "incorrect": "Revisa esto: Duración que continúa: have been + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Quieres decir que la excursión fue agotadora:",
+      "options": [
+        "The trip was tiring.",
+        "The trip was tired.",
+        "I was tiring.",
+        "The trip tired."
+      ],
+      "answer": [
+        "The trip was tiring."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La excursión (cosa): tiring.",
+        "incorrect": "Revisa esto: La excursión (cosa): tiring."
+      },
+      "review_of": "en-a2-u13-l05-ex04"
+    },
+    {
+      "id": "en-b1-u01-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ three novels this year.",
+      "options": [
+        "have read",
+        "have been reading",
+        "read",
+        "am reading"
+      ],
+      "answer": [
+        "have read"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cantidad: simple.",
+        "incorrect": "Revisa esto: Cantidad: simple."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I was a child, we ___ to live by the sea.",
+      "options": [
+        "used",
+        "would",
+        "were",
+        "had"
+      ],
+      "answer": [
+        "used"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to para un estado pasado.",
+        "incorrect": "Revisa esto: Used to para un estado pasado."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 20,
+      "prompt": "When we arrived, the match ___.",
+      "options": [
+        "had already started",
+        "has already started",
+        "already started",
+        "was already start"
+      ],
+      "answer": [
+        "had already started"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Antes de llegar: past perfect.",
+        "incorrect": "Revisa esto: Antes de llegar: past perfect."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She was angry because I ___ forgotten her birthday.",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hecho anterior: had + participio.",
+        "incorrect": "Revisa esto: Hecho anterior: had + participio."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 25,
+      "prompt": "I didn't ___ to like spicy food. (antes)",
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't use to + verbo.",
+        "incorrect": "Revisa esto: Didn't use to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "She's been living here ___ 2018.",
+      "answer": [
+        "since"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since + año.",
+        "incorrect": "Revisa esto: Since + año."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm knowing him since 2015.",
+      "answer": [
+        "I've known him since 2015.",
+        "I have known him since 2015."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Know es de estado y con since pide present perfect.",
+        "incorrect": "Revisa esto: Know es de estado y con since pide present perfect."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 25,
+      "prompt": "I was reading ___ the phone rang. (cuando)",
+      "answer": [
+        "when"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When introduce la acción corta.",
+        "incorrect": "Revisa esto: When introduce la acción corta."
+      },
+      "review_of": "en-a2-u09-l06-ex03"
+    },
+    {
+      "id": "en-b1-u01-l06-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ed-ing-adjectives"
+      ],
+      "est_seconds": 25,
+      "prompt": "The match was very ___. (emocionante)",
+      "answer": [
+        "exciting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La cosa que causa la emoción: exciting.",
+        "incorrect": "Revisa esto: La cosa que causa la emoción: exciting."
+      },
+      "review_of": "en-a2-u13-l05-ex05"
+    },
+    {
+      "id": "en-b1-u01-l06-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We would live in a small flat when I was a kid.",
+      "answer": [
+        "We used to live in a small flat when I was a kid."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Live es un estado: used to.",
+        "incorrect": "Revisa esto: Live es un estado: used to."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When I got up, my brother already left.",
+      "answer": [
+        "When I got up, my brother had already left."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hecho anterior: past perfect.",
+        "incorrect": "Revisa esto: Hecho anterior: past perfect."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "frequency"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada adverbio con su frecuencia aproximada.",
+      "pairs": [
+        {
+          "left": "always",
+          "right": "100 %"
+        },
+        {
+          "left": "usually",
+          "right": "~80 %"
+        },
+        {
+          "left": "often",
+          "right": "~60 %"
+        },
+        {
+          "left": "sometimes",
+          "right": "~30 %"
+        },
+        {
+          "left": "never",
+          "right": "0 %"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Memoriza la escala de frecuencia.",
+        "incorrect": "Revisa esto: Memoriza la escala de frecuencia."
+      },
+      "review_of": "en-a1-u04-l05-ex01"
+    },
+    {
+      "id": "en-b1-u01-l06-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (work) in a shop.",
+      "answer": [
+        "works"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she el verbo lleva -s.",
+        "incorrect": "Revisa esto: Con she el verbo lleva -s."
+      },
+      "review_of": "en-a1-u10-l06-ex03"
+    },
+    {
+      "id": "en-b1-u01-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She plays the piano good.",
+      "answer": [
+        "She plays the piano well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de un verbo se usa el adverbio well.",
+        "incorrect": "Revisa esto: Después de un verbo se usa el adverbio well."
+      },
+      "review_of": "en-a2-u10-l01-ex07"
+    },
+    {
+      "id": "en-b1-u01-l06-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yes, I'm.",
+      "answer": [
+        "Yes, I am."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En la respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: En la respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u02-l04-ex05"
+    },
+    {
+      "id": "en-b1-u01-l06-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué había hecho antes de los exámenes?",
+      "options": [
+        "Había leído todos los libros",
+        "Había aprobado todo",
+        "Había dejado la biblioteca",
+        "Había viajado"
+      ],
+      "answer": [
+        "Había leído todos los libros"
+      ],
+      "audio_text": "When I was a student, I would study in the library every evening. By the time my exams started, I had read all the books on the list.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I had read all the books on the list.",
+        "incorrect": "Revisa esto: Dice: I had read all the books on the list."
+      },
+      "audio_script_id": "en-b1-u01-l06-ex14-a"
+    },
+    {
+      "id": "en-b1-u01-l06-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "He estado trabajando aquí desde 2021 y he hecho muchos amigos.",
+      "answer": [
+        "I've been working here since 2021 and I've made a lot of friends.",
+        "I have been working here since 2021 and I have made many friends.",
+        "I've been working here since 2021 and I've made many friends."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actividad con since + resultado.",
+        "incorrect": "Revisa esto: Actividad con since + resultado."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex16",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "personality",
+        "used-to-would",
+        "pp-continuous",
+        "past-perfect"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo de 8 a 10 frases sobre ti: cómo eres (personalidad), cómo eras de niño (used to), qué has estado haciendo últimamente y una anécdota en el pasado (con past perfect).",
+      "min_words": 54,
+      "self_check_es": [
+        "¿Describiste tu personalidad con matices?",
+        "¿Usaste used to o would?",
+        "¿Usaste have been + -ing?",
+        "¿Usaste un past perfect?"
+      ],
+      "model_answer": "I'd describe myself as quite outgoing and reliable, but I can be a bit stubborn. When I was a child I used to be very shy and I would spend hours reading. Lately I've been learning English and I've finished two courses. Last year, by the time I arrived at the airport, the plane had already left, so I had to wait six hours.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u01-l06-ex17",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "personality",
+        "pp-continuous",
+        "used-to-would"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Hablas de tu nuevo compañero de trabajo y de su pasado.",
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "text": "What's the new manager like?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "He's the kind of person who is always honest, but he can be a bit bossy.",
+            "He is the type of person who are honest, but he can be bossy a bit.",
+            "He is kind of the person honest but bossy."
+          ],
+          "best": 0,
+          "why_es": "Describir con the kind of person who + adjetivos."
+        },
+        {
+          "speaker": "Colleague",
+          "text": "Has he been here long?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "He's been working here since January. Before that, he used to work in London.",
+            "He is working here since January. Before he use to work in London.",
+            "He has been work here from January. Before he would to work in London."
+          ],
+          "best": 0,
+          "why_es": "Present perfect continuous + used to."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He's the kind of person who …",
+      "I've been … for / since …",
+      "I used to … · We would …",
+      "By the time …, … had …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-b1-personality"
+    },
+    {
+      "type": "grammar",
+      "id": "en-pp-continuous"
+    },
+    {
+      "type": "grammar",
+      "id": "en-used-to-would"
+    },
+    {
+      "type": "grammar",
+      "id": "en-past-perfect"
+    },
+    {
+      "type": "grammar",
+      "id": "en-narrative-tenses"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

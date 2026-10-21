@@ -1,0 +1,1006 @@
+{
+  "id": "en-b2-u07-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 7,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "The economy",
+    "es": "Economía y finanzas personales"
+  },
+  "objective": "Al terminar hablas de economía, finanzas personales y consumo con vocabulario de nivel B2 y opinas sobre precios, inflación y trabajo.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Inflación, tipos de interés, hipotecas, ahorro, deuda. Son temas de las noticias y de las conversaciones diarias. Aquí aprendes el vocabulario para entenderlos y opinar."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Reporter",
+        "text": "Inflation has reached a ten-year high. How is it affecting ordinary families?",
+        "es": "La inflación ha alcanzado un máximo de diez años. ¿Cómo afecta a las familias normales?"
+      },
+      {
+        "speaker": "Economist",
+        "text": "Prices for basic goods, such as food and energy, have risen sharply, while wages have barely moved. As a result, people's purchasing power has fallen.",
+        "es": "Los precios de los bienes básicos, como los alimentos y la energía, han subido bruscamente, mientras que los salarios apenas se han movido. Como resultado, el poder adquisitivo ha caído."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "What can the central bank do?",
+        "es": "¿Qué puede hacer el banco central?"
+      },
+      {
+        "speaker": "Economist",
+        "text": "It can raise interest rates to cool down demand. But that makes borrowing more expensive, so mortgages and business loans become harder to afford.",
+        "es": "Puede subir los tipos de interés para enfriar la demanda. Pero eso encarece el crédito y las hipotecas y los préstamos a empresas son más difíciles de pagar."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "Some experts fear a recession. Is that likely?",
+        "es": "Algunos expertos temen una recesión. ¿Es probable?"
+      },
+      {
+        "speaker": "Economist",
+        "text": "It's a risk. If consumer spending drops and companies cut jobs, unemployment could rise. On the other hand, a strong labour market might soften the blow.",
+        "es": "Es un riesgo. Si cae el gasto de los consumidores y las empresas recortan empleo, el desempleo podría aumentar. Por otro lado, un mercado laboral fuerte podría amortiguar el golpe."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "What advice would you give to households?",
+        "es": "¿Qué consejo daría a los hogares?"
+      },
+      {
+        "speaker": "Economist",
+        "text": "Build an emergency fund, avoid unnecessary debt and compare prices before making big purchases. Saving even a small amount each month adds up.",
+        "es": "Crear un fondo de emergencia, evitar deudas innecesarias y comparar precios antes de grandes compras. Ahorrar incluso una pequeña cantidad al mes suma."
+      },
+      {
+        "speaker": "Reporter",
+        "text": "Thank you. A final question: are you optimistic about next year?",
+        "es": "Gracias. Una última pregunta: ¿es optimista respecto al próximo año?"
+      },
+      {
+        "speaker": "Economist",
+        "text": "Cautiously optimistic. Growth is slow, but the fundamentals are sound.",
+        "es": "Con cautela. El crecimiento es lento, pero los fundamentos son sólidos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-inflation",
+        "lemma": "inflation",
+        "pos": "noun",
+        "ipa": "/ɪnˈfleɪʃn/",
+        "es": "inflación",
+        "example": "Inflation is rising."
+      },
+      {
+        "id": "en-wages",
+        "lemma": "wages",
+        "pos": "noun",
+        "ipa": "/ˈweɪdʒɪz/",
+        "es": "salarios",
+        "example": "Wages are stagnant."
+      },
+      {
+        "id": "en-purchasing-power",
+        "lemma": "purchasing power",
+        "pos": "noun",
+        "ipa": "/ˈpɜːtʃəsɪŋ ˈpaʊə/",
+        "es": "poder adquisitivo",
+        "example": "Purchasing power fell."
+      },
+      {
+        "id": "en-interest-rate",
+        "lemma": "interest rate",
+        "pos": "noun",
+        "ipa": "/ˈɪntrəst reɪt/",
+        "es": "tipo de interés",
+        "example": "Raise interest rates."
+      },
+      {
+        "id": "en-borrowing",
+        "lemma": "borrowing",
+        "pos": "noun",
+        "ipa": "/ˈbɒrəʊɪŋ/",
+        "es": "endeudamiento",
+        "example": "Borrowing is expensive."
+      },
+      {
+        "id": "en-mortgage",
+        "lemma": "mortgage",
+        "pos": "noun",
+        "ipa": "/ˈmɔːɡɪdʒ/",
+        "es": "hipoteca",
+        "example": "Pay the mortgage."
+      },
+      {
+        "id": "en-recession",
+        "lemma": "recession",
+        "pos": "noun",
+        "ipa": "/rɪˈseʃn/",
+        "es": "recesión",
+        "example": "A deep recession."
+      },
+      {
+        "id": "en-unemployment",
+        "lemma": "unemployment",
+        "pos": "noun",
+        "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+        "es": "desempleo",
+        "example": "Unemployment is rising."
+      },
+      {
+        "id": "en-emergency-fund",
+        "lemma": "emergency fund",
+        "pos": "noun",
+        "ipa": "/ɪˈmɜːdʒənsi fʌnd/",
+        "es": "fondo de emergencia",
+        "example": "Build an emergency fund."
+      },
+      {
+        "id": "en-debt",
+        "lemma": "debt",
+        "pos": "noun",
+        "ipa": "/det/",
+        "es": "deuda",
+        "example": "Avoid debt."
+      },
+      {
+        "id": "en-add-up",
+        "lemma": "add up",
+        "pos": "phrasal verb",
+        "ipa": "/æd ʌp/",
+        "es": "sumar",
+        "example": "Small savings add up."
+      },
+      {
+        "id": "en-fundamentals",
+        "lemma": "fundamentals",
+        "pos": "noun",
+        "ipa": "/ˌfʌndəˈmentlz/",
+        "es": "fundamentos",
+        "example": "The fundamentals are sound."
+      }
+    ],
+    "audio_script_id": "en-b2-u07-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de economía y finanzas**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Macroeconomía | *GDP, inflation, deflation, recession, growth, interest rate, trade deficit* |\n| Empleo | *unemployment, labour market, wages, minimum wage, redundancy, self-employed* |\n| Banca | *loan, mortgage, overdraft, credit score, savings account, interest, withdraw, deposit* |\n| Consumo | *bargain, discount, overpriced, afford, cost of living, purchase, refund* |\n| Empresa | *revenue, profit, loss, turnover, shareholder, investment, merge, go bankrupt* |\n| Deuda | *owe, lend, borrow, repay, default on, in the red, in the black* |\n\n**Colocaciones**\n\n- *raise / cut interest rates · make a profit / loss · save up for · pay off a debt · make ends meet · live beyond your means · tighten your belt · cost an arm and a leg · break even*.\n- *the cost of living · the standard of living · disposable income · economic growth · budget deficit*.\n\n**Lend, borrow, owe**\n\n- *lend* = prestar (a otro): *She lent me €100.* · *borrow* = pedir prestado: *I borrowed €100 from her.* · *owe* = deber: *I owe her €100.*\n\n**Afford y cost**\n\n- *I can't afford a car.* (can/could + afford) · *It costs a lot.* · *It's worth it.* · *It's good value for money.*\n\n**Falsos amigos**\n\n- *Economic* (relativo a la economía) ≠ *economical* (barato, ahorrador). · *Credit* (crédito bancario o mérito) ≠ *credit card* (tarjeta). · *Actual* = real. · *Pension* = jubilación.\n\n**Errores típicos**\n\n- ✘ *I borrowed him my car.* → ✔ *I lent him my car.* / *He borrowed my car.*\n- ✘ *Money are important.* → ✔ *Money is important.* (incontable).\n- ✘ *The prices has risen.* → ✔ *Prices have risen.*\n- ✘ *I can't afford to buy it, it's very cost.* → ✔ *I can't afford it; it's too expensive.*\n\n**Ojo:** *rise* (sin objeto) vs *raise* (con objeto): *Prices rose. · The bank raised rates.* *Wages* (por hora/semana) vs *salary* (mensual). *Earn* (ganar dinero) vs *win* (ganar un juego).\n\nPronunciación: *mortgage* /ˈmɔːɡɪdʒ/ (la 't' es muda) · *debt* /det/ ('b' muda) · *recession* /rɪˈseʃn/ · *fundamentals* /ˌfʌndəˈmentlz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "borrow me",
+        "right": "lend me",
+        "note": "Lend vs borrow."
+      },
+      {
+        "wrong": "Money are",
+        "right": "Money is",
+        "note": "Incontable."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "economical",
+        "es_false": "económico",
+        "real": "barato / ahorrador",
+        "note": "Económico (de la economía) = economic."
+      },
+      {
+        "word": "pension",
+        "es_false": "pensión (hotel)",
+        "real": "jubilación",
+        "note": "Pensión (hotel) = guesthouse."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u07-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "inflation",
+          "right": "inflación"
+        },
+        {
+          "left": "mortgage",
+          "right": "hipoteca"
+        },
+        {
+          "left": "wages",
+          "right": "salarios"
+        },
+        {
+          "left": "recession",
+          "right": "recesión"
+        },
+        {
+          "left": "debt",
+          "right": "deuda"
+        },
+        {
+          "left": "afford",
+          "right": "permitirse"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario económico B2.",
+        "incorrect": "Revisa esto: Vocabulario económico B2."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Bueno o malo para la economía personal?",
+      "categories": [
+        "Good",
+        "Bad"
+      ],
+      "items": [
+        {
+          "text": "savings",
+          "category": "Good"
+        },
+        {
+          "text": "a pay rise",
+          "category": "Good"
+        },
+        {
+          "text": "a discount",
+          "category": "Good"
+        },
+        {
+          "text": "emergency fund",
+          "category": "Good"
+        },
+        {
+          "text": "overdraft",
+          "category": "Bad"
+        },
+        {
+          "text": "high inflation",
+          "category": "Bad"
+        },
+        {
+          "text": "unpaid bills",
+          "category": "Bad"
+        },
+        {
+          "text": "rising rents",
+          "category": "Bad"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por impacto.",
+        "incorrect": "Revisa esto: Clasificar por impacto."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué ha pasado con los salarios según el economista?",
+      "options": [
+        "Apenas se han movido",
+        "Han subido mucho",
+        "Han bajado a la mitad",
+        "Se han duplicado"
+      ],
+      "answer": [
+        "Apenas se han movido"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: wages have barely moved.",
+        "incorrect": "Revisa esto: Dice: wages have barely moved."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué puede hacer el banco central?",
+      "options": [
+        "Subir los tipos de interés",
+        "Imprimir dinero sin límite",
+        "Bajar el desempleo",
+        "Cerrar los bancos"
+      ],
+      "answer": [
+        "Subir los tipos de interés"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: raise interest rates.",
+        "incorrect": "Revisa esto: Dice: raise interest rates."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'll send the email as soon as I ___ (finish) this report.",
+      "answer": [
+        "finish",
+        "have finished"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente después de as soon as.",
+        "incorrect": "Revisa esto: Presente después de as soon as."
+      },
+      "review_of": "en-b1-u03-l02-ex09"
+    },
+    {
+      "id": "en-b2-u07-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué recomienda a los hogares?",
+      "options": [
+        "Crear un fondo de emergencia y evitar deudas innecesarias",
+        "Pedir más préstamos",
+        "Gastar más",
+        "Comprar acciones"
+      ],
+      "answer": [
+        "Crear un fondo de emergencia y evitar deudas innecesarias"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Build an emergency fund, avoid unnecessary debt.",
+        "incorrect": "Revisa esto: Dice: Build an emergency fund, avoid unnecessary debt."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 15,
+      "prompt": "El economista es totalmente pesimista sobre el próximo año.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es cautelosamente optimista.",
+        "incorrect": "Revisa esto: Es cautelosamente optimista."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Wait here.' → She told me ___ there.",
+      "options": [
+        "to wait",
+        "wait",
+        "waiting",
+        "that wait"
+      ],
+      "answer": [
+        "to wait"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      },
+      "review_of": "en-b1-u07-l03-ex07"
+    },
+    {
+      "id": "en-b2-u07-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "Could you ___ me some money until Friday?",
+      "options": [
+        "lend",
+        "borrow",
+        "owe",
+        "rent"
+      ],
+      "answer": [
+        "lend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lend = prestar.",
+        "incorrect": "Revisa esto: Lend = prestar."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ my brother €200.",
+      "options": [
+        "owe",
+        "lend",
+        "borrow",
+        "win"
+      ],
+      "answer": [
+        "owe"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Owe = deber.",
+        "incorrect": "Revisa esto: Owe = deber."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "Money ___ everything these days.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Money incontable.",
+        "incorrect": "Revisa esto: Money incontable."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "The central bank ___ interest rates by 0.5% last week.",
+      "options": [
+        "raised",
+        "rose",
+        "arose",
+        "risen"
+      ],
+      "answer": [
+        "raised"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Raise + objeto.",
+        "incorrect": "Revisa esto: Raise + objeto."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "Prices ___ sharply over the last year.",
+      "options": [
+        "rose",
+        "raised",
+        "arose",
+        "risen up"
+      ],
+      "answer": [
+        "rose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rise sin objeto.",
+        "incorrect": "Revisa esto: Rise sin objeto."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador había viajado a otro país.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I hadn't travelled anywhere.",
+        "incorrect": "Revisa esto: Dice: I hadn't travelled anywhere."
+      },
+      "review_of": "en-b1-u07-l02-ex04"
+    },
+    {
+      "id": "en-b2-u07-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "A product that is cheap to use is...",
+      "options": [
+        "economical",
+        "economic",
+        "economist",
+        "economy"
+      ],
+      "answer": [
+        "economical"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Economical = barato de usar.",
+        "incorrect": "Revisa esto: Economical = barato de usar."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Make ends meet' means...",
+      "options": [
+        "Llegar a fin de mes",
+        "Hacer una reunión",
+        "Ganar mucho dinero",
+        "Ahorrar mucho"
+      ],
+      "answer": [
+        "Llegar a fin de mes"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom.",
+        "incorrect": "Revisa esto: Idiom."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "wish-past"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I wish I would be taller.",
+      "answer": [
+        "I wish I were taller.",
+        "I wish I was taller."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + were, no would be.",
+        "incorrect": "Revisa esto: Wish + were, no would be."
+      },
+      "review_of": "en-b1-u06-l03-ex14"
+    },
+    {
+      "id": "en-b2-u07-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 25,
+      "prompt": "I can't ___ a new car. It's too expensive. (permitirme)",
+      "answer": [
+        "afford"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Afford.",
+        "incorrect": "Revisa esto: Afford."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 25,
+      "prompt": "Small savings ___ up over time. (suman)",
+      "answer": [
+        "add"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Add up.",
+        "incorrect": "Revisa esto: Add up."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Could you borrow me your pen?",
+      "answer": [
+        "Could you lend me your pen?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Lend vs borrow.",
+        "incorrect": "Revisa esto: Lend vs borrow."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The prices has risen a lot.",
+      "answer": [
+        "Prices have risen a lot.",
+        "The prices have risen a lot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plural.",
+        "incorrect": "Revisa esto: Plural."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The bank rose interest rates last month.",
+      "answer": [
+        "The bank raised interest rates last month."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Raise + objeto.",
+        "incorrect": "Revisa esto: Raise + objeto."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué ha decidido hacer?",
+      "options": [
+        "Reducir gastos y hacer un presupuesto",
+        "Pedir otro préstamo",
+        "Mudarse",
+        "Vender su coche"
+      ],
+      "answer": [
+        "Reducir gastos y hacer un presupuesto"
+      ],
+      "audio_text": "Since I lost my job, I've been living beyond my means. I owe my parents about two thousand euros, and I can't afford to pay off my credit card. I've decided to cut down on spending and make a budget.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: cut down on spending and make a budget.",
+        "incorrect": "Revisa esto: Dice: cut down on spending and make a budget."
+      },
+      "audio_script_id": "en-b2-u07-l01-ex19-a"
+    },
+    {
+      "id": "en-b2-u07-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "restaurant"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I want a coffee.",
+      "answer": [
+        "I'd like a coffee, please.",
+        "I'd like a coffee please."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I want suena brusco; usa I'd like … please.",
+        "incorrect": "Revisa esto: I want suena brusco; usa I'd like … please."
+      },
+      "review_of": "en-a2-u04-l03-ex07"
+    },
+    {
+      "id": "en-b2-u07-l01-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?",
+        "Where",
+        "were"
+      ],
+      "answer": [
+        "Where",
+        "were",
+        "you",
+        "born",
+        "and",
+        "where",
+        "did",
+        "you",
+        "grow",
+        "up",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos preguntas en pasado unidas con and.",
+        "incorrect": "Revisa esto: Dos preguntas en pasado unidas con and."
+      },
+      "review_of": "en-a2-u10-l05-ex09"
+    },
+    {
+      "id": "en-b2-u07-l01-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-economy"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Los precios han subido bruscamente, pero los salarios apenas se han movido.",
+      "answer": [
+        "Prices have risen sharply, but wages have barely moved.",
+        "Prices have gone up sharply, but wages have barely moved."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario económico.",
+        "incorrect": "Revisa esto: Vocabulario económico."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-ex21",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-economy"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "mortgage",
+          "ipa": "/ˈmɔːɡɪdʒ/",
+          "tip_es": "'t' muda."
+        },
+        {
+          "text": "debt",
+          "ipa": "/det/",
+          "tip_es": "'b' muda."
+        },
+        {
+          "text": "recession",
+          "ipa": "/rɪˈseʃn/",
+          "tip_es": "Acento en 'ses'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-b2-u07-l01-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué fue lo mejor del viaje?",
+      "options": [
+        "La pequeña ciudad inesperada",
+        "El vuelo",
+        "El hotel",
+        "La comida del avión"
+      ],
+      "answer": [
+        "La pequeña ciudad inesperada"
+      ],
+      "audio_text": "Our flight was cancelled, so we had to stay overnight in a small town. It turned out to be a hidden gem: narrow streets, a lively market and the friendliest people we have ever met. It was the best part of the trip.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: it was the best part of the trip (the small town).",
+        "incorrect": "Revisa esto: Dice: it was the best part of the trip (the small town)."
+      },
+      "audio_script_id": "en-b2-u07-l01-rv07-a",
+      "review_of": "en-b2-u06-l01-ex19"
+    },
+    {
+      "id": "en-b2-u07-l01-rv08",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "invitations"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?",
+        "Would",
+        "you"
+      ],
+      "answer": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "go",
+        "to",
+        "the",
+        "cinema",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would you like to + verbo + lugar.",
+        "incorrect": "Revisa esto: Would you like to + verbo + lugar."
+      },
+      "review_of": "en-a1-u09-l06-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Prices have risen, but wages haven't.",
+      "I can't afford it.",
+      "lend / borrow / owe",
+      "make ends meet · live beyond your means"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-inflation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wages"
+    },
+    {
+      "type": "vocab",
+      "id": "en-purchasing-power"
+    },
+    {
+      "type": "vocab",
+      "id": "en-interest-rate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-borrowing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-mortgage"
+    },
+    {
+      "type": "vocab",
+      "id": "en-recession"
+    },
+    {
+      "type": "vocab",
+      "id": "en-unemployment"
+    },
+    {
+      "type": "vocab",
+      "id": "en-emergency-fund"
+    },
+    {
+      "type": "vocab",
+      "id": "en-debt"
+    },
+    {
+      "type": "grammar",
+      "id": "en-economy-b2"
+    }
+  ]
+}

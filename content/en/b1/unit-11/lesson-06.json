@@ -1,0 +1,853 @@
+{
+  "id": "en-b1-u11-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 11,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 11",
+    "es": "Checkpoint 11"
+  },
+  "objective": "Al terminar demuestras que hablas de relaciones con sentimientos, phrasal verbs, acuerdo y desacuerdo, arrepentimiento y emails informales.",
+  "est_minutes": 40,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 11: sentimientos, phrasal verbs de relaciones, acuerdo / desacuerdo, should have y email informal."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de sentimientos y relaciones, phrasal verbs (get on, fall out, make up, split up), acuerdo / desacuerdo, should have / shouldn't have y la estructura de un email informal.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 11**\n\n- *jealous · guilty · proud of · rely on · keep in touch · We have a lot in common.*\n- *get on with · fall out with · make up · split up · look up to · put up with*\n- *I couldn't agree more. · I see what you mean, but … · I'm afraid I disagree.*\n- *I should have called. · I shouldn't have said that. · You could have asked me.*\n- *Hi …, how's it going? · Guess what? · Write back soon! · Lots of love,*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u11-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Sentimiento positivo o negativo?",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "delighted",
+          "category": "Positive"
+        },
+        {
+          "text": "proud",
+          "category": "Positive"
+        },
+        {
+          "text": "grateful",
+          "category": "Positive"
+        },
+        {
+          "text": "jealous",
+          "category": "Negative"
+        },
+        {
+          "text": "guilty",
+          "category": "Negative"
+        },
+        {
+          "text": "lonely",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm very ___ of my daughter. She won a prize.",
+      "options": [
+        "proud",
+        "jealous",
+        "ashamed",
+        "bored"
+      ],
+      "answer": [
+        "proud"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Proud of.",
+        "incorrect": "Revisa esto: Proud of."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can ___ on me. I'll help you.",
+      "options": [
+        "count",
+        "wait",
+        "stay",
+        "look"
+      ],
+      "answer": [
+        "count"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Count on.",
+        "incorrect": "Revisa esto: Count on."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "We had an argument, but we ___ the next day.",
+      "options": [
+        "made up",
+        "broke up",
+        "fell out",
+        "put up"
+      ],
+      "answer": [
+        "made up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make up.",
+        "incorrect": "Revisa esto: Make up."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I really ___ my teacher. She's amazing.",
+      "options": [
+        "look up to",
+        "look down on",
+        "put up with",
+        "get over"
+      ],
+      "answer": [
+        "look up to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look up to.",
+        "incorrect": "Revisa esto: Look up to."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "Cheer her up.",
+        "Cheer up her.",
+        "Up cheer her.",
+        "Cheer to up her."
+      ],
+      "answer": [
+        "Cheer her up."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separable.",
+        "incorrect": "Revisa esto: Separable."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "agree-disagree"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to disagree?",
+      "options": [
+        "I see what you mean, but I'm not sure.",
+        "You're wrong.",
+        "No!",
+        "That's silly."
+      ],
+      "answer": [
+        "I see what you mean, but I'm not sure."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cortés.",
+        "incorrect": "Revisa esto: Cortés."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Pollution is getting ___ every year. (peor)",
+      "answer": [
+        "worse"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Getting worse.",
+        "incorrect": "Revisa esto: Getting worse."
+      },
+      "review_of": "en-b1-u09-l01-ex11"
+    },
+    {
+      "id": "en-b1-u11-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "agree-disagree"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ that this is a good idea. (no creo)",
+      "options": [
+        "don't think",
+        "think not",
+        "am not think",
+        "don't thinking"
+      ],
+      "answer": [
+        "don't think"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Don't think.",
+        "incorrect": "Revisa esto: Don't think."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ have shouted at him. I'm sorry.",
+      "options": [
+        "shouldn't",
+        "couldn't",
+        "won't",
+        "mustn't"
+      ],
+      "answer": [
+        "shouldn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shouldn't have.",
+        "incorrect": "Revisa esto: Shouldn't have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ have told me earlier!",
+      "options": [
+        "should",
+        "shall",
+        "would to",
+        "must to"
+      ],
+      "answer": [
+        "should"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have.",
+        "incorrect": "Revisa esto: Should have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ studied more last year.",
+      "options": [
+        "had",
+        "have",
+        "would",
+        "did"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + past perfect.",
+        "incorrect": "Revisa esto: Wish + past perfect."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-rv02",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "festival-description"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best way to start a description?",
+      "options": [
+        "La Tomatina is a famous festival that is held every year in Spain.",
+        "I go there.",
+        "Tomatoes.",
+        "It is funny."
+      ],
+      "answer": [
+        "La Tomatina is a famous festival that is held every year in Spain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presentar qué es.",
+        "incorrect": "Revisa esto: Presentar qué es."
+      },
+      "review_of": "en-b1-u10-l05-ex10"
+    },
+    {
+      "id": "en-b1-u11-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "He drives ___ fast that he got a fine.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "very"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So + adverbio.",
+        "incorrect": "Revisa esto: So + adverbio."
+      },
+      "review_of": "en-b1-u09-l04-ex08"
+    },
+    {
+      "id": "en-b1-u11-l06-rv04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "pollution",
+          "right": "contaminación"
+        },
+        {
+          "left": "glacier",
+          "right": "glaciar"
+        },
+        {
+          "left": "endangered",
+          "right": "en peligro"
+        },
+        {
+          "left": "recycle",
+          "right": "reciclar"
+        },
+        {
+          "left": "deforestation",
+          "right": "deforestación"
+        },
+        {
+          "left": "reusable",
+          "right": "reutilizable"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario medioambiental.",
+        "incorrect": "Revisa esto: Vocabulario medioambiental."
+      },
+      "review_of": "en-b1-u09-l01-ex01"
+    },
+    {
+      "id": "en-b1-u11-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "informal-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which closing is informal?",
+      "options": [
+        "Lots of love,",
+        "Yours faithfully,",
+        "Yours sincerely,",
+        "Respectfully,"
+      ],
+      "answer": [
+        "Lots of love,"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Informal.",
+        "incorrect": "Revisa esto: Informal."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 25,
+      "prompt": "I get ___ well with my colleagues. (me llevo)",
+      "answer": [
+        "on"
+      ],
+      "accepted_alternatives": [
+        "along"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on.",
+        "incorrect": "Revisa esto: Get on."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ought ___ have been more careful. (to)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ought to have.",
+        "incorrect": "Revisa esto: Ought to have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "how-often"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I hardly ever go to the gym.",
+        "I go hardly ever to the gym.",
+        "I don't hardly ever go to the gym.",
+        "I hardly ever to go the gym."
+      ],
+      "answer": [
+        "I hardly ever go to the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adverbio va antes del verbo.",
+        "incorrect": "Revisa esto: El adverbio va antes del verbo."
+      },
+      "review_of": "en-a2-u13-l06-ex07"
+    },
+    {
+      "id": "en-b1-u11-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The beach was very crowd.",
+      "answer": [
+        "The beach was very crowded."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo es crowded.",
+        "incorrect": "Revisa esto: El adjetivo es crowded."
+      },
+      "review_of": "en-a2-u03-l01-ex05"
+    },
+    {
+      "id": "en-b1-u11-l06-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "deduction-present"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        ".",
+        "She",
+        "must"
+      ],
+      "answer": [
+        "She",
+        "must",
+        "be",
+        "at",
+        "the",
+        "library",
+        "now",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be.",
+        "incorrect": "Revisa esto: Must be."
+      },
+      "review_of": "en-b1-u10-l02-ex15"
+    },
+    {
+      "id": "en-b1-u11-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should of called her.",
+      "answer": [
+        "I should have called her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have.",
+        "incorrect": "Revisa esto: Should have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "agree-disagree"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am agree with you.",
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree.",
+        "incorrect": "Revisa esto: Agree."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-rv08",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De dónde es la persona que responde?",
+      "options": [
+        "Mexico",
+        "Brazil",
+        "Spain",
+        "Italy"
+      ],
+      "answer": [
+        "Mexico"
+      ],
+      "audio_text": "Are you from Brazil? No, I'm not. I'm from Mexico.",
+      "feedback": {
+        "correct": "¡Correcto! Responde 'No, I'm not. I'm from Mexico.'",
+        "incorrect": "Revisa esto: Responde 'No, I'm not. I'm from Mexico.'"
+      },
+      "audio_script_id": "en-b1-u11-l06-rv08-a",
+      "review_of": "en-a1-u02-l04-ex07"
+    },
+    {
+      "id": "en-b1-u11-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Don't let down me.",
+      "answer": [
+        "Don't let me down."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre en medio.",
+        "incorrect": "Revisa esto: Pronombre en medio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prepositions",
+        "questions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Where ___ the bank?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un solo lugar: Where is…?",
+        "incorrect": "Revisa esto: Con un solo lugar: Where is…?"
+      },
+      "review_of": "en-a1-u07-l02-ex01"
+    },
+    {
+      "id": "en-b1-u11-l06-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I hardly never go to the gym.",
+      "answer": [
+        "I hardly ever go to the gym.",
+        "I never go to the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hardly ever, no hardly never.",
+        "incorrect": "Revisa esto: Hardly ever, no hardly never."
+      },
+      "review_of": "en-b1-u04-l01-ex12"
+    },
+    {
+      "id": "en-b1-u11-l06-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué se siente culpable?",
+      "options": [
+        "No llamó a su abuela",
+        "No fue al trabajo",
+        "Perdió el tren",
+        "Olvidó un cumpleaños"
+      ],
+      "answer": [
+        "No llamó a su abuela"
+      ],
+      "audio_text": "I should have called my grandmother yesterday. I feel guilty, because she's lonely. I'll call her now, and I'll visit her at the weekend.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I should have called my grandmother.",
+        "incorrect": "Revisa esto: Dice: I should have called my grandmother."
+      },
+      "audio_script_id": "en-b1-u11-l06-ex18-a"
+    },
+    {
+      "id": "en-b1-u11-l06-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me llevo bien con mi hermana, pero deberíamos haber hablado antes.",
+      "answer": [
+        "I get on well with my sister, but we should have talked earlier.",
+        "I get along well with my sister, but we should have talked earlier.",
+        "I get on well with my sister, but we should have talked before."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on / should have.",
+        "incorrect": "Revisa esto: Get on / should have."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex20",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1",
+        "should-have"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te cuenta un problema con otro amigo.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "I fell out with my best friend and I don't know what to do."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm sorry to hear that. You should talk to him. You could send him a message to make up.",
+            "I am sorry. You should to talk him and make up him.",
+            "Forget him."
+          ],
+          "best": 0,
+          "why_es": "Consejo con phrasal verbs."
+        },
+        {
+          "speaker": "Friend",
+          "text": "I shouldn't have said those things."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Maybe not, but it's not too late to apologise. Better late than never!",
+            "Yes, you are bad.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Consolar y aconsejar."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u11-l06-ex21",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "informal-letter",
+        "should-have",
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un email informal (8 a 10 frases) a un amigo con quien te peleaste: pide perdón, di qué deberías haber hecho y propón reconciliaros.",
+      "min_words": 64,
+      "self_check_es": [
+        "¿Pides perdón con shouldn't have / should have?",
+        "¿Usas phrasal verbs (make up, count on)?",
+        "¿Propones una reconciliación?",
+        "¿Mantienes un tono informal?"
+      ],
+      "model_answer": "Hi Pablo, How are you? I'm writing because I feel really bad about what happened. I shouldn't have shouted at you, and I should have listened to you. I was stressed, but that's no excuse. I miss you and I'd love to make up. Why don't we meet for a coffee this weekend? I can rely on you as a friend, and I hope you can count on me too. Write back soon! Take care, Marta.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "jealous · guilty · proud of · rely on",
+      "get on with · fall out · make up · split up",
+      "I couldn't agree more. · I see what you mean, but …",
+      "I should have … · I shouldn't have …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-feelings-vocab"
+    },
+    {
+      "type": "grammar",
+      "id": "en-phrasal-verbs-1"
+    },
+    {
+      "type": "grammar",
+      "id": "en-agree-disagree"
+    },
+    {
+      "type": "grammar",
+      "id": "en-should-have"
+    },
+    {
+      "type": "grammar",
+      "id": "en-informal-letter"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

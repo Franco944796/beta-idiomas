@@ -1,0 +1,750 @@
+{
+  "id": "en-b2-u01-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 1,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Getting used to it",
+    "es": "Used to, be used to y get used to"
+  },
+  "objective": "Al terminar distingues used to, be used to y get used to, y hablas de hábitos pasados y de adaptación a situaciones nuevas.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Solía vivir en Madrid', 'estoy acostumbrado al ruido', 'me estoy acostumbrando a madrugar'. Tres estructuras muy parecidas, con significados totalmente distintos."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Hana",
+        "text": "When I first moved to London, I wasn't used to the weather. I used to think it was always sunny back home.",
+        "es": "Cuando me mudé a Londres no estaba acostumbrada al clima. Antes pensaba que en mi país siempre hacía sol."
+      },
+      {
+        "speaker": "Ivo",
+        "text": "It takes time to get used to a new place. How long did it take you?",
+        "es": "Lleva tiempo acostumbrarse a un lugar nuevo. ¿Cuánto tardaste tú?"
+      },
+      {
+        "speaker": "Hana",
+        "text": "About six months. At first I couldn't get used to driving on the left. I used to take the wrong lane all the time!",
+        "es": "Unos seis meses. Al principio no lograba acostumbrarme a conducir por la izquierda. ¡Solía entrar siempre en el carril equivocado!"
+      },
+      {
+        "speaker": "Ivo",
+        "text": "Now you're used to it, I suppose.",
+        "es": "Ahora ya estás acostumbrada, supongo."
+      },
+      {
+        "speaker": "Hana",
+        "text": "Completely. In fact, when I go back home, I have to get used to driving on the right again. And I'm not used to eating dinner so late any more.",
+        "es": "Del todo. De hecho, cuando vuelvo a casa tengo que volver a acostumbrarme a conducir por la derecha. Y ya no estoy acostumbrada a cenar tan tarde."
+      },
+      {
+        "speaker": "Ivo",
+        "text": "I used to eat at nine or ten at night, but I've got used to eating earlier since my daughter was born.",
+        "es": "Yo solía cenar a las nueve o diez de la noche, pero me he acostumbrado a cenar antes desde que nació mi hija."
+      },
+      {
+        "speaker": "Hana",
+        "text": "What else have you had to get used to?",
+        "es": "¿A qué más has tenido que acostumbrarte?"
+      },
+      {
+        "speaker": "Ivo",
+        "text": "Getting up at six. I'm still not used to it, honestly, but I'm getting used to it slowly.",
+        "es": "A levantarme a las seis. Todavía no me he acostumbrado, la verdad, pero poco a poco me voy acostumbrando."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-be-used-to",
+        "lemma": "be used to",
+        "pos": "phrase",
+        "ipa": "/biː ˈjuːst tə/",
+        "es": "estar acostumbrado a",
+        "example": "I'm used to the noise."
+      },
+      {
+        "id": "en-get-used-to",
+        "lemma": "get used to",
+        "pos": "phrase",
+        "ipa": "/ɡet ˈjuːst tə/",
+        "es": "acostumbrarse a",
+        "example": "You'll get used to it."
+      },
+      {
+        "id": "en-used-to",
+        "lemma": "used to",
+        "pos": "modal",
+        "ipa": "/ˈjuːst tə/",
+        "es": "solía (ya no)",
+        "example": "I used to smoke."
+      },
+      {
+        "id": "en-take-time",
+        "lemma": "take time",
+        "pos": "phrase",
+        "ipa": "/teɪk taɪm/",
+        "es": "llevar tiempo",
+        "example": "It takes time."
+      },
+      {
+        "id": "en-wrong-lane",
+        "lemma": "wrong lane",
+        "pos": "noun",
+        "ipa": "/rɒŋ leɪn/",
+        "es": "carril equivocado",
+        "example": "He took the wrong lane."
+      },
+      {
+        "id": "en-back-home",
+        "lemma": "back home",
+        "pos": "phrase",
+        "ipa": "/bæk həʊm/",
+        "es": "en mi país",
+        "example": "Back home it's different."
+      },
+      {
+        "id": "en-completely",
+        "lemma": "completely",
+        "pos": "adv",
+        "ipa": "/kəmˈpliːtli/",
+        "es": "completamente",
+        "example": "I completely agree."
+      },
+      {
+        "id": "en-in-fact",
+        "lemma": "in fact",
+        "pos": "phrase",
+        "ipa": "/ɪn fækt/",
+        "es": "de hecho",
+        "example": "In fact, it's easy."
+      },
+      {
+        "id": "en-slowly",
+        "lemma": "slowly",
+        "pos": "adv",
+        "ipa": "/ˈsləʊli/",
+        "es": "poco a poco",
+        "example": "Slowly I'm learning."
+      },
+      {
+        "id": "en-honestly",
+        "lemma": "honestly",
+        "pos": "adv",
+        "ipa": "/ˈɒnɪstli/",
+        "es": "sinceramente",
+        "example": "Honestly, I'm tired."
+      }
+    ],
+    "audio_script_id": "en-b2-u01-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Used to · be used to · get used to**\n\n| Estructura | Significado | Forma | Ejemplo |\n|---|---|---|---|\n| **used to + verbo** | hábito o estado **pasado** (ya no) | verbo base | *I **used to live** in Madrid.* |\n| **be used to + -ing / sustantivo** | **estar acostumbrado** (presente o pasado) | *am / is / are / was + used to + -ing* | *I'm **used to waking up** early.* |\n| **get used to + -ing / sustantivo** | **acostumbrarse** (proceso) | *get / got / getting used to + -ing* | *I'm **getting used to** the noise.* |\n\n**Detalles**\n\n- **Used to** solo existe en pasado. Negativa y pregunta: *I didn't use to smoke.* / *Did you use to live here?* (sin *-d*).\n- **Be used to** puede ir en todos los tiempos: *I wasn't used to the heat.* / *You'll be used to it soon.*\n- **Get used to**: *I can't get used to the noise. · It took me a month to get used to it. · You'll get used to it.*\n- Después de *to* en **be/get used to** va **-ing** o un sustantivo: ✘ *I'm used to wake up early.* ✔ *I'm used to waking up early.*\n\n**Would vs used to (pasado)**\n\n- Para **hábitos**: *We would / used to spend summers at the beach.*\n- Para **estados** solo *used to*: *I used to have long hair.* ✘ *I would have long hair.*\n\n**Comparación con otros 'acostumbrarse'**: *be accustomed to* (más formal) = *be used to*.\n\n**Ojo:** ✘ *I'm used to smoke* (quiero decir que fumaba) → ✔ *I used to smoke.* ✘ *I used to waking up early* → ✔ *I'm used to waking up early.* En pronunciación, *used to* /ˈjuːst tə/ (la 'd' no se oye).\n\nPronunciación: *used* /juːst/ en *used to* y *be used to*; /juːzd/ en *he used the phone*.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm used to wake up early.",
+        "right": "I'm used to waking up early.",
+        "note": "Be used to + -ing."
+      },
+      {
+        "wrong": "She didn't used to like it.",
+        "right": "She didn't use to like it.",
+        "note": "Didn't use to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u01-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué no estaba acostumbrada Hana al mudarse?",
+      "options": [
+        "Al clima de Londres",
+        "A la comida",
+        "A la gente",
+        "A las tiendas"
+      ],
+      "answer": [
+        "Al clima de Londres"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I wasn't used to the weather.",
+        "incorrect": "Revisa esto: Dice: I wasn't used to the weather."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto tardó en acostumbrarse?",
+      "options": [
+        "Unos seis meses",
+        "Un año",
+        "Un mes",
+        "Una semana"
+      ],
+      "answer": [
+        "Unos seis meses"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: About six months.",
+        "incorrect": "Revisa esto: Dice: About six months."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿A qué sigue acostumbrándose Ivo?",
+      "options": [
+        "A levantarse a las seis",
+        "A conducir por la izquierda",
+        "A cenar tarde",
+        "A vivir en Londres"
+      ],
+      "answer": [
+        "A levantarse a las seis"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Getting up at six.",
+        "incorrect": "Revisa esto: Dice: Getting up at six."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 15,
+      "prompt": "Ivo todavía cena a las diez de la noche.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que ha empezado a cenar antes desde que nació su hija.",
+        "incorrect": "Revisa esto: Dice que ha empezado a cenar antes desde que nació su hija."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ live in a small village, but now I live in the city.",
+      "options": [
+        "used to",
+        "am used to",
+        "get used to",
+        "am getting used"
+      ],
+      "answer": [
+        "used to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábito pasado: used to.",
+        "incorrect": "Revisa esto: Hábito pasado: used to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 25,
+      "prompt": "Can I ___ you in this photo? (etiquetar)",
+      "answer": [
+        "tag"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tag = etiquetar.",
+        "incorrect": "Revisa esto: Tag = etiquetar."
+      },
+      "review_of": "en-b1-u05-l05-ex09"
+    },
+    {
+      "id": "en-b2-u01-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm used to ___ up early. I do it every day.",
+      "options": [
+        "getting",
+        "get",
+        "got",
+        "to get"
+      ],
+      "answer": [
+        "getting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to + -ing.",
+        "incorrect": "Revisa esto: Be used to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "It took me months to ___ used to the noise in the city.",
+      "options": [
+        "get",
+        "be",
+        "use",
+        "make"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get used to.",
+        "incorrect": "Revisa esto: Get used to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "Did you ___ to live near the sea?",
+      "options": [
+        "use",
+        "used",
+        "be used",
+        "get used"
+      ],
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta: Did you use to.",
+        "incorrect": "Revisa esto: Pregunta: Did you use to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I was a child, we ___ spend summers at my grandparents' house.",
+      "options": [
+        "would",
+        "were used",
+        "used",
+        "got used"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would para hábitos pasados.",
+        "incorrect": "Revisa esto: Would para hábitos pasados."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "I'm not used to driving on the left.",
+        "I'm not used to drive on the left.",
+        "I don't used to driving on the left.",
+        "I not used to drive on the left."
+      ],
+      "answer": [
+        "I'm not used to driving on the left."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to + -ing.",
+        "incorrect": "Revisa esto: Be used to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm getting used to the new schedule' means...",
+      "options": [
+        "Poco a poco me acostumbro",
+        "Antes tenía ese horario",
+        "Ya estoy acostumbrado",
+        "Odio el horario"
+      ],
+      "answer": [
+        "Poco a poco me acostumbro"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get used to = proceso.",
+        "incorrect": "Revisa esto: Get used to = proceso."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm not ___ to working at night. (acostumbrado)",
+      "answer": [
+        "used"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to.",
+        "incorrect": "Revisa esto: Be used to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 25,
+      "prompt": "He didn't ___ to drink coffee, but now he drinks three cups a day.",
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't use to.",
+        "incorrect": "Revisa esto: Didn't use to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Can I to open the window?",
+      "answer": [
+        "Can I open the window?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de can no va to.",
+        "incorrect": "Revisa esto: Después de can no va to."
+      },
+      "review_of": "en-a1-u09-l03-ex06"
+    },
+    {
+      "id": "en-b2-u01-l04-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm used to wake up at six.",
+      "answer": [
+        "I'm used to waking up at six."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be used to + -ing.",
+        "incorrect": "Revisa esto: Be used to + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I used to waking up early when I was young.",
+      "answer": [
+        "I used to wake up early when I was young."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to + verbo base.",
+        "incorrect": "Revisa esto: Used to + verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adverbs-manner"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ella canta muy bien y trabaja duro.",
+      "answer": [
+        "She sings very well and works hard.",
+        "She sings really well and works hard."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Well y hard.",
+        "incorrect": "Revisa esto: Well y hard."
+      },
+      "review_of": "en-a2-u10-l01-ex12"
+    },
+    {
+      "id": "en-b2-u01-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She didn't used to like coffee.",
+      "answer": [
+        "She didn't use to like coffee."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't use to.",
+        "incorrect": "Revisa esto: Didn't use to."
+      }
+    },
+    {
+      "id": "en-b2-u01-l04-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué solía odiar?",
+      "options": [
+        "El invierno",
+        "El verano",
+        "La nieve en abril",
+        "Esquiar"
+      ],
+      "answer": [
+        "El invierno"
+      ],
+      "audio_text": "When I moved to Canada, I wasn't used to the cold. At first I couldn't get used to wearing so many layers, but now I'm used to it. I used to hate winter. Now I love skiing!",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I used to hate winter.",
+        "incorrect": "Revisa esto: Dice: I used to hate winter."
+      },
+      "audio_script_id": "en-b2-u01-l04-ex17-a"
+    },
+    {
+      "id": "en-b2-u01-l04-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ like coffee. (no le gusta)",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she la negativa es doesn't.",
+        "incorrect": "Revisa esto: Con she la negativa es doesn't."
+      },
+      "review_of": "en-a1-u05-l03-ex02"
+    },
+    {
+      "id": "en-b2-u01-l04-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tiempo estuvo en Japón?",
+      "options": [
+        "Two weeks",
+        "Two years",
+        "One week",
+        "Two months"
+      ],
+      "answer": [
+        "Two weeks"
+      ],
+      "audio_text": "I've been to Japan once. I went in 2019 and stayed for two weeks. I haven't been back yet, but I'd love to go again.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'stayed for two weeks'.",
+        "incorrect": "Revisa esto: Dice 'stayed for two weeks'."
+      },
+      "audio_script_id": "en-b2-u01-l04-rv05-a",
+      "review_of": "en-a2-u08-l06-ex10"
+    },
+    {
+      "id": "en-b2-u01-l04-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Pollution is getting ___ every year. (peor)",
+      "answer": [
+        "worse"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Getting worse.",
+        "incorrect": "Revisa esto: Getting worse."
+      },
+      "review_of": "en-b1-u09-l01-ex11"
+    },
+    {
+      "id": "en-b2-u01-l04-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Antes vivía en el centro, pero ahora me estoy acostumbrando a vivir en las afueras.",
+      "answer": [
+        "I used to live in the centre, but now I'm getting used to living in the suburbs.",
+        "I used to live in the city centre, but now I'm getting used to living in the suburbs."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to + get used to + -ing.",
+        "incorrect": "Revisa esto: Used to + get used to + -ing."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I used to live in … (ya no)",
+      "I'm used to + -ing (estoy acostumbrado)",
+      "I'm getting used to + -ing (me acostumbro)",
+      "Did you use to …?"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-be-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-used-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-wrong-lane"
+    },
+    {
+      "type": "vocab",
+      "id": "en-back-home"
+    },
+    {
+      "type": "vocab",
+      "id": "en-completely"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-fact"
+    },
+    {
+      "type": "vocab",
+      "id": "en-slowly"
+    },
+    {
+      "type": "vocab",
+      "id": "en-honestly"
+    },
+    {
+      "type": "grammar",
+      "id": "en-used-to-get-used-to"
+    }
+  ]
+}

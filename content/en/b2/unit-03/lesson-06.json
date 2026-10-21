@@ -1,0 +1,795 @@
+{
+  "id": "en-b2-u03-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 3,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 3",
+    "es": "Checkpoint 3"
+  },
+  "objective": "Al terminar demuestras que hablas de medios y desinformación, usas la pasiva impersonal y la causativa, evalúas fuentes y resumes un artículo.",
+  "est_minutes": 44,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 3 de B2: vocabulario de medios, pasiva impersonal, causativa, evaluación de fuentes y resumen."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de noticias y desinformación, pasiva impersonal (He is said to…), causativa (have something done), evaluación de fuentes y cómo resumir un artículo.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 3**\n\n- *headline · reliable · biased · go viral · issue a correction · a piece of news*\n- *He is said to be … · He is believed to have + participio · It is reported that …*\n- *I had my hair cut. · We're having the house painted. · She had her bag stolen.*\n- *Does the source have a vested interest? · I wouldn't take it at face value. · The evidence shows …*\n- *The article argues that … · The authors warn that … · They conclude that …*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u03-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Fiable o dudoso?",
+      "categories": [
+        "Reliable",
+        "Doubtful"
+      ],
+      "items": [
+        {
+          "text": "fact-checked report",
+          "category": "Reliable"
+        },
+        {
+          "text": "named expert source",
+          "category": "Reliable"
+        },
+        {
+          "text": "official statistics",
+          "category": "Reliable"
+        },
+        {
+          "text": "anonymous rumour",
+          "category": "Doubtful"
+        },
+        {
+          "text": "clickbait headline",
+          "category": "Doubtful"
+        },
+        {
+          "text": "out-of-context quote",
+          "category": "Doubtful"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have some good ___ for you!",
+      "options": [
+        "news",
+        "a news",
+        "newses",
+        "new"
+      ],
+      "answer": [
+        "news"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News incontable.",
+        "incorrect": "Revisa esto: News incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "The rumour ___ viral within hours.",
+      "options": [
+        "went",
+        "became to",
+        "got going",
+        "turned"
+      ],
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go viral.",
+        "incorrect": "Revisa esto: Go viral."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ to be the richest man in the country.",
+      "options": [
+        "is said",
+        "says",
+        "is saying",
+        "said"
+      ],
+      "answer": [
+        "is said"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal.",
+        "incorrect": "Revisa esto: Pasiva impersonal."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 25,
+      "prompt": "How ___ water do you drink every day?",
+      "answer": [
+        "much"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Water es incontable: how much.",
+        "incorrect": "Revisa esto: Water es incontable: how much."
+      },
+      "review_of": "en-a2-u04-l02-ex01"
+    },
+    {
+      "id": "en-b2-u03-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 20,
+      "prompt": "The thief is believed ___ the building through a window.",
+      "options": [
+        "to have entered",
+        "to enter",
+        "entering",
+        "having entered to"
+      ],
+      "answer": [
+        "to have entered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To have + participio.",
+        "incorrect": "Revisa esto: To have + participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "formal-email-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I look forward to hear from you.",
+      "answer": [
+        "I look forward to hearing from you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look forward to + -ing.",
+        "incorrect": "Revisa esto: Look forward to + -ing."
+      },
+      "review_of": "en-b2-u02-l05-ex15"
+    },
+    {
+      "id": "en-b2-u03-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 20,
+      "prompt": "Prices ___ to rise next year.",
+      "options": [
+        "are expected",
+        "expect",
+        "are expecting",
+        "expected"
+      ],
+      "answer": [
+        "are expected"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Expected to.",
+        "incorrect": "Revisa esto: Expected to."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ my hair cut every six weeks.",
+      "options": [
+        "have",
+        "am having cut",
+        "make",
+        "do"
+      ],
+      "answer": [
+        "have"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa.",
+        "incorrect": "Revisa esto: Causativa."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ her wallet stolen yesterday.",
+      "options": [
+        "had",
+        "has",
+        "was having to",
+        "got stolen"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa pasada.",
+        "incorrect": "Revisa esto: Causativa pasada."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to get my passport ___ before the trip.",
+      "options": [
+        "renewed",
+        "renew",
+        "renewing",
+        "to renew"
+      ],
+      "answer": [
+        "renewed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "social-posts"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Do you mind if I post this photo? Yes, go ahead.",
+      "answer": [
+        "Do you mind if I post this photo? No, go ahead."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respuesta lógica: No.",
+        "incorrect": "Revisa esto: Respuesta lógica: No."
+      },
+      "review_of": "en-b1-u05-l05-ex12"
+    },
+    {
+      "id": "en-b2-u03-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wouldn't take it ___ face value.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At face value.",
+        "incorrect": "Revisa esto: At face value."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 25,
+      "prompt": "I think I ___ have left my phone on the bus. (quizá)",
+      "answer": [
+        "might",
+        "may",
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might have + participio.",
+        "incorrect": "Revisa esto: Might have + participio."
+      },
+      "review_of": "en-b1-u09-l03-ex13"
+    },
+    {
+      "id": "en-b2-u03-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ shows that the claim is false.",
+      "options": [
+        "evidence",
+        "evidences",
+        "an evidence",
+        "evidencing"
+      ],
+      "answer": [
+        "evidence"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ if the study is real, the sample is too small.",
+      "options": [
+        "Even",
+        "Also",
+        "Only",
+        "Despite"
+      ],
+      "answer": [
+        "Even"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Even if.",
+        "incorrect": "Revisa esto: Even if."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's ten pound.",
+      "answer": [
+        "It's ten pounds."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las monedas llevan -s.",
+        "incorrect": "Revisa esto: Las monedas llevan -s."
+      },
+      "review_of": "en-a1-u08-l06-ex04"
+    },
+    {
+      "id": "en-b2-u03-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 20,
+      "prompt": "The authors ___ that the sample was small.",
+      "options": [
+        "acknowledge",
+        "acknowledge to",
+        "recognise of",
+        "admit about"
+      ],
+      "answer": [
+        "acknowledge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Acknowledge that.",
+        "incorrect": "Revisa esto: Acknowledge that."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 25,
+      "prompt": "According ___ the report, unemployment fell. (según)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to.",
+        "incorrect": "Revisa esto: According to."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 25,
+      "prompt": "It ___ believed that the fire started in the kitchen. (se cree)",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It is believed that.",
+        "incorrect": "Revisa esto: It is believed that."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is said him to be very rich.",
+      "answer": [
+        "He is said to be very rich.",
+        "It is said that he is very rich."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal.",
+        "incorrect": "Revisa esto: Pasiva impersonal."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "causative"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I had cut my hair at the salon yesterday.",
+      "answer": [
+        "I had my hair cut at the salon yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Causativa.",
+        "incorrect": "Revisa esto: Causativa."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "imperatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "Para llamar la atención de alguien en la calle dices…",
+      "options": [
+        "Excuse me.",
+        "Goodbye.",
+        "Nice to meet you.",
+        "I'm fine."
+      ],
+      "answer": [
+        "Excuse me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Excuse me sirve para llamar la atención.",
+        "incorrect": "Revisa esto: Excuse me sirve para llamar la atención."
+      },
+      "review_of": "en-a1-u07-l05-ex02"
+    },
+    {
+      "id": "en-b2-u03-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 25,
+      "prompt": "If it hadn't been ___ you, I would have given up. (por)",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If it hadn't been for.",
+        "incorrect": "Revisa esto: If it hadn't been for."
+      },
+      "review_of": "en-b2-u02-l03-ex13"
+    },
+    {
+      "id": "en-b2-u03-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The evidences show that the claim is wrong.",
+      "answer": [
+        "The evidence shows that the claim is wrong."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidence incontable.",
+        "incorrect": "Revisa esto: Evidence incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The author say that screens encourage skimming.",
+      "answer": [
+        "The author says that screens encourage skimming."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercera persona.",
+        "incorrect": "Revisa esto: Tercera persona."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué ha hecho el portavoz?",
+      "options": [
+        "Negar la noticia",
+        "Confirmarla",
+        "Dimitir",
+        "Anunciar nuevas fábricas"
+      ],
+      "answer": [
+        "Negar la noticia"
+      ],
+      "audio_text": "The company is said to be planning to close two factories. It is reported that 800 jobs may be lost. A spokesman has denied the story, but a union leader says he has seen the documents.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: has denied the story.",
+        "incorrect": "Revisa esto: Dice: has denied the story."
+      },
+      "audio_script_id": "en-b2-u03-l06-ex20-a"
+    },
+    {
+      "id": "en-b2-u03-l06-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-reporting"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se cree que el ladrón entró por una ventana.",
+      "answer": [
+        "The thief is believed to have entered through a window.",
+        "It is believed that the thief entered through a window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva impersonal.",
+        "incorrect": "Revisa esto: Pasiva impersonal."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex22",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "evaluating-sources",
+        "b2-media"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Alguien comparte una noticia dudosa.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "Everybody is saying the school is going to close!"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Where did you read that? It sounds like a rumour. Is there a reliable source?",
+            "No is true, it is false.",
+            "OK."
+          ],
+          "best": 0,
+          "why_es": "Duda con cortesía."
+        },
+        {
+          "speaker": "Friend",
+          "text": "A post says it, but it doesn't mention any names."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Then I wouldn't take it at face value. Let's wait until the school confirms it.",
+            "Then yes.",
+            "Whatever."
+          ],
+          "best": 0,
+          "why_es": "Cautela."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-ex23",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary",
+        "b2-media"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un resumen de 5 a 6 frases de este texto: 'A survey of 2,000 adults found that 60 per cent get most of their news from social media. However, only 20 per cent trust what they read there. Experts say people should check at least two sources before sharing a story and warn that algorithms tend to show users only what they already agree with.'",
+      "min_words": 35,
+      "self_check_es": [
+        "¿Usas tus propias palabras?",
+        "¿Incluyes la idea principal y los datos clave?",
+        "¿Evitas tu opinión?",
+        "¿Usas verbos como suggest, warn o recommend?"
+      ],
+      "model_answer": "A survey of 2,000 adults shows that most people get their news from social media, although few of them trust it. Experts recommend checking at least two sources before sharing a story. They also warn that algorithms tend to show users only opinions they already share.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u03-l06-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 25,
+      "prompt": "My phone rang ___ I was having a shower. (mientras)",
+      "answer": [
+        "while"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! While introduce la acción larga.",
+        "incorrect": "Revisa esto: While introduce la acción larga."
+      },
+      "review_of": "en-a2-u09-l03-ex04"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "He is said to be … · It is reported that …",
+      "I had my hair cut. · She had her bag stolen.",
+      "I wouldn't take it at face value.",
+      "The article argues that … · They conclude that …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-media-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-reporting"
+    },
+    {
+      "type": "grammar",
+      "id": "en-causative"
+    },
+    {
+      "type": "grammar",
+      "id": "en-evaluating-sources"
+    },
+    {
+      "type": "grammar",
+      "id": "en-article-summary"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

@@ -1,0 +1,893 @@
+{
+  "id": "en-b2-u12-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 12,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Saying it well",
+    "es": "Comunicación eficaz"
+  },
+  "objective": "Al terminar hablas de comunicación (tono, lenguaje corporal, malentendidos) con vocabulario B2 y entiendes un texto sobre estilos de comunicación.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Comunicar bien no es solo hablar: es hacerse entender. Aprendes el vocabulario para describir cómo nos expresamos, por qué surgen los malentendidos y cómo evitarlos."
+  },
+  "input": {
+    "type": "text",
+    "text": "Why do we misunderstand each other?\n\nMost misunderstandings do not happen because people lack vocabulary. They happen because the message that is sent is not the message that is received. A manager may say, 'We need to talk', intending to discuss a new project, while the employee hears a warning. The words are the same; the interpretation is different.\n\nTone and body language often convey more than words. Avoiding eye contact may be read as dishonesty, although it can simply mean shyness. Crossed arms may suggest hostility, when the person is just cold. In written messages, where there is no tone of voice, the risk of miscommunication is even greater: a short reply such as 'Fine.' can sound angry or indifferent.\n\nGood communicators do three things. First, they listen actively: they do not interrupt, they ask questions and they check that they have understood. Second, they adapt their style to the listener, using simpler language with a beginner and more detail with an expert. Third, they are willing to clarify: 'What I meant was...' is one of the most useful phrases in any language.\n\nBuilding rapport takes time, but small gestures help: remembering someone's name, showing genuine interest and admitting when you are wrong.",
+    "es": "¿Por qué nos malinterpretamos? La mayoría de los malentendidos no ocurren por falta de vocabulario, sino porque el mensaje que se envía no es el que se recibe. Un jefe puede decir 'Tenemos que hablar' con la intención de comentar un proyecto nuevo, mientras que el empleado lo oye como una advertencia. Las palabras son las mismas; la interpretación es distinta. El tono y el lenguaje corporal suelen transmitir más que las palabras. Evitar el contacto visual puede interpretarse como deshonestidad, aunque simplemente puede significar timidez. Los brazos cruzados pueden sugerir hostilidad cuando la persona solo tiene frío. En los mensajes escritos, donde no hay tono de voz, el riesgo de mala comunicación es aún mayor: una respuesta corta como 'Bien.' puede sonar enfadada o indiferente. Los buenos comunicadores hacen tres cosas. Primero, escuchan activamente: no interrumpen, hacen preguntas y comprueban que han entendido. Segundo, adaptan su estilo al oyente, usando un lenguaje más sencillo con un principiante y más detalle con un experto. Tercero, están dispuestos a aclarar: 'Lo que quería decir era...' es una de las frases más útiles en cualquier idioma. Crear una buena relación lleva tiempo, pero los pequeños gestos ayudan: recordar el nombre de alguien, mostrar interés genuino y admitir cuando uno se equivoca.",
+    "glossary": [
+      {
+        "id": "en-misunderstanding",
+        "lemma": "misunderstanding",
+        "pos": "noun",
+        "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+        "es": "malentendido",
+        "example": "A simple misunderstanding."
+      },
+      {
+        "id": "en-convey",
+        "lemma": "convey",
+        "pos": "verb",
+        "ipa": "/kənˈveɪ/",
+        "es": "transmitir",
+        "example": "Convey a message."
+      },
+      {
+        "id": "en-body-language",
+        "lemma": "body language",
+        "pos": "noun",
+        "ipa": "/ˈbɒdi ˌlæŋɡwɪdʒ/",
+        "es": "lenguaje corporal",
+        "example": "Read body language."
+      },
+      {
+        "id": "en-eye-contact",
+        "lemma": "eye contact",
+        "pos": "noun",
+        "ipa": "/aɪ ˈkɒntækt/",
+        "es": "contacto visual",
+        "example": "Avoid eye contact."
+      },
+      {
+        "id": "en-miscommunication",
+        "lemma": "miscommunication",
+        "pos": "noun",
+        "ipa": "/ˌmɪskəˌmjuːnɪˈkeɪʃn/",
+        "es": "mala comunicación",
+        "example": "Risk of miscommunication."
+      },
+      {
+        "id": "en-indifferent",
+        "lemma": "indifferent",
+        "pos": "adj",
+        "ipa": "/ɪnˈdɪfrənt/",
+        "es": "indiferente",
+        "example": "Sounds indifferent."
+      },
+      {
+        "id": "en-interrupt",
+        "lemma": "interrupt",
+        "pos": "verb",
+        "ipa": "/ˌɪntəˈrʌpt/",
+        "es": "interrumpir",
+        "example": "Don't interrupt."
+      },
+      {
+        "id": "en-actively",
+        "lemma": "actively",
+        "pos": "adv",
+        "ipa": "/ˈæktɪvli/",
+        "es": "activamente",
+        "example": "Listen actively."
+      },
+      {
+        "id": "en-adapt",
+        "lemma": "adapt",
+        "pos": "verb",
+        "ipa": "/əˈdæpt/",
+        "es": "adaptar",
+        "example": "Adapt your style."
+      },
+      {
+        "id": "en-clarify",
+        "lemma": "clarify",
+        "pos": "verb",
+        "ipa": "/ˈklærɪfaɪ/",
+        "es": "aclarar",
+        "example": "Clarify what you meant."
+      },
+      {
+        "id": "en-rapport",
+        "lemma": "rapport",
+        "pos": "noun",
+        "ipa": "/ræˈpɔː/",
+        "es": "buena relación",
+        "example": "Build rapport."
+      },
+      {
+        "id": "en-genuine",
+        "lemma": "genuine",
+        "pos": "adj",
+        "ipa": "/ˈdʒenjuɪn/",
+        "es": "genuino",
+        "example": "Genuine interest."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de comunicación**\n\n| Idea | Palabras y expresiones |\n|---|---|\n| **Transmitir** | *express, convey, get across, put into words, communicate, articulate* |\n| **Entender mal** | *misunderstand, misinterpret, get the wrong end of the stick, miscommunication* |\n| **Aclarar** | *clarify, spell out, explain, rephrase, 'What I meant was…', 'Let me put it another way'* |\n| **Escuchar** | *listen actively, pay attention, take in, follow, interrupt, cut someone off* |\n| **No verbal** | *body language, eye contact, facial expression, gesture, tone of voice* |\n| **Relación** | *rapport, trust, common ground, get on well with, bond* |\n\n**Verbos de habla (matices)**\n\n- *Whisper* (susurrar) · *mumble* (murmurar) · *shout* (gritar) · *stammer* (tartamudear) · *gossip* (cotillear) · *mention* (mencionar) · *point out* (señalar) · *insist* (insistir).\n\n**Diferencias frecuentes**\n\n- *Say* (sin destinatario) / *tell* (con destinatario): *She said that…* · *She told me that…*\n- *Speak* (idioma, conversación formal) / *talk* (conversar): *speak English* · *talk to a friend*.\n- *Hear* (oír) / *listen to* (escuchar con atención).\n- *Lend* (prestar) no es *borrow*: no confundir verbos de dirección.\n\n**Aclarar y comprobar**\n\n- *What I meant was… · Let me rephrase that. · Do you see what I mean? · Sorry, I didn't catch that. · Could you spell that out?*\n- *If I understand correctly, you're saying that… · So what you mean is…*\n\n**Errores típicos**\n\n- ✘ *She said me that she was tired.* → ✔ *She told me that she was tired.* / *She said that she was tired.*\n- ✘ *I listen the radio every day.* → ✔ *I listen to the radio every day.*\n- ✘ *It's a misunderstand.* → ✔ *It's a misunderstanding.*\n- ✘ *He explained me the problem.* → ✔ *He explained the problem to me.*\n- ✘ *We have a good communication.* → ✔ *We communicate well. / We have good communication.* (incontable)\n\n**Ojo:** *Information, advice, communication* en este sentido son incontables. *Explain* nunca lleva persona directa: *explain something to someone*.\n\nPronunciación: *misinterpret* /ˌmɪsɪnˈtɜːprɪt/ · *rapport* /ræˈpɔː/ (la t es muda) · *indifferent* /ɪnˈdɪfrənt/ · *genuine* /ˈdʒenjuɪn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "She said me that",
+        "right": "She told me that",
+        "note": "Say/tell."
+      },
+      {
+        "wrong": "explained me the problem",
+        "right": "explained the problem to me",
+        "note": "Explain to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u12-l01-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 30,
+      "prompt": "Según el texto, ¿por qué ocurren la mayoría de los malentendidos?",
+      "options": [
+        "El mensaje enviado no es el recibido",
+        "Falta de vocabulario",
+        "Hablar demasiado rápido",
+        "Usar el teléfono"
+      ],
+      "answer": [
+        "El mensaje enviado no es el recibido"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: the message sent is not the message received.",
+        "incorrect": "Revisa esto: Dice: the message sent is not the message received."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué puede significar evitar el contacto visual?",
+      "options": [
+        "Simple timidez",
+        "Siempre mentira",
+        "Siempre enfado",
+        "Interés"
+      ],
+      "answer": [
+        "Simple timidez"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it can simply mean shyness.",
+        "incorrect": "Revisa esto: Dice: it can simply mean shyness."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 25,
+      "prompt": "How much ___ the sandwich?",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Singular: How much is…?",
+        "incorrect": "Revisa esto: Singular: How much is…?"
+      },
+      "review_of": "en-a1-u08-l02-ex01"
+    },
+    {
+      "id": "en-b2-u12-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué es más arriesgada la comunicación escrita?",
+      "options": [
+        "No hay tono de voz",
+        "Es más lenta",
+        "Se escribe peor",
+        "No hay palabras"
+      ],
+      "answer": [
+        "No hay tono de voz"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: no tone of voice.",
+        "incorrect": "Revisa esto: Dice: no tone of voice."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "participle-clauses"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Having finish his work, he went home.",
+      "answer": [
+        "Having finished his work, he went home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Having + participio.",
+        "incorrect": "Revisa esto: Having + participio."
+      },
+      "review_of": "en-b2-u10-l02-ex16"
+    },
+    {
+      "id": "en-b2-u12-l01-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "verb-patterns"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Disfruto cocinando y quiero aprender a tocar la guitarra.",
+      "answer": [
+        "I enjoy cooking and I want to learn to play the guitar.",
+        "I enjoy cooking and I want to learn how to play the guitar."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enjoy + -ing; want + to + verbo.",
+        "incorrect": "Revisa esto: Enjoy + -ing; want + to + verbo."
+      },
+      "review_of": "en-a2-u10-l02-ex13"
+    },
+    {
+      "id": "en-b2-u12-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál NO es una de las tres cosas de los buenos comunicadores?",
+      "options": [
+        "Hablar más fuerte",
+        "Escuchar activamente",
+        "Adaptar el estilo",
+        "Estar dispuestos a aclarar"
+      ],
+      "answer": [
+        "Hablar más fuerte"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! No aparece en el texto.",
+        "incorrect": "Revisa esto: No aparece en el texto."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 15,
+      "prompt": "El texto dice que un 'Fine.' escrito siempre suena amable.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Puede sonar enfadado o indiferente.",
+        "incorrect": "Revisa esto: Puede sonar enfadado o indiferente."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ me that the meeting was cancelled.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "told"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona.",
+        "incorrect": "Revisa esto: Tell + persona."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "letter-editor"
+      ],
+      "est_seconds": 20,
+      "prompt": "Closing it would deprive these people ___ an essential service.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "answer": [
+        "of"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deprive of.",
+        "incorrect": "Revisa esto: Deprive of."
+      },
+      "review_of": "en-b2-u11-l05-ex07"
+    },
+    {
+      "id": "en-b2-u12-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ that she was tired.",
+      "options": [
+        "said",
+        "told me",
+        "spoke me",
+        "talked me"
+      ],
+      "answer": [
+        "said"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say sin persona.",
+        "incorrect": "Revisa esto: Say sin persona."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "I always listen ___ music when I study.",
+      "options": [
+        "to",
+        "at",
+        "for",
+        "—"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to.",
+        "incorrect": "Revisa esto: Listen to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "She explained the problem ___ me.",
+      "options": [
+        "to",
+        "for",
+        "—",
+        "at"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Explain something to someone.",
+        "incorrect": "Revisa esto: Explain something to someone."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was a simple ___; nobody was angry.",
+      "options": [
+        "misunderstanding",
+        "misunderstand",
+        "misunderstood",
+        "understanding of"
+      ],
+      "answer": [
+        "misunderstanding"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sustantivo.",
+        "incorrect": "Revisa esto: Sustantivo."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I was you, I'd tell the truth.",
+      "answer": [
+        "If I were you, I'd tell the truth.",
+        "If I was you, I would tell the truth."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If I were you.",
+        "incorrect": "Revisa esto: If I were you."
+      },
+      "review_of": "en-b1-u06-l02-ex14"
+    },
+    {
+      "id": "en-b2-u12-l01-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "meals"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué desayuna la persona?",
+      "options": [
+        "Bread and coffee",
+        "Eggs and tea",
+        "Rice and fish",
+        "Cheese and milk"
+      ],
+      "answer": [
+        "Bread and coffee"
+      ],
+      "audio_text": "For breakfast I have some bread and some coffee.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'some bread and some coffee'.",
+        "incorrect": "Revisa esto: Dice 'some bread and some coffee'."
+      },
+      "audio_script_id": "en-b2-u12-l01-rv06-a",
+      "review_of": "en-a1-u05-l04-ex08"
+    },
+    {
+      "id": "en-b2-u12-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Get the wrong end of the stick' means...",
+      "options": [
+        "Malinterpretar algo",
+        "Ganar una pelea",
+        "Ser puntual",
+        "Hablar bajo"
+      ],
+      "answer": [
+        "Malinterpretar algo"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Idiom de comunicación.",
+        "incorrect": "Revisa esto: Idiom de comunicación."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "was",
+        "young",
+        ",",
+        "I",
+        "used",
+        "to",
+        "play",
+        "football",
+        "every",
+        "day",
+        ".",
+        "When",
+        "I"
+      ],
+      "answer": [
+        "When",
+        "I",
+        "was",
+        "young",
+        ",",
+        "I",
+        "used",
+        "to",
+        "play",
+        "football",
+        "every",
+        "day",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to + verbo base.",
+        "incorrect": "Revisa esto: Used to + verbo base."
+      },
+      "review_of": "en-b1-u01-l03-ex11"
+    },
+    {
+      "id": "en-b2-u12-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which verb means 'murmurar'?",
+      "options": [
+        "mumble",
+        "shout",
+        "whisper",
+        "argue"
+      ],
+      "answer": [
+        "mumble"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mumble.",
+        "incorrect": "Revisa esto: Mumble."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase clarifies what you said?",
+      "options": [
+        "What I meant was…",
+        "Never mind",
+        "Forget it",
+        "Who cares"
+      ],
+      "answer": [
+        "What I meant was…"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Aclarar.",
+        "incorrect": "Revisa esto: Aclarar."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "challenges-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've ___ learning English for three years.",
+      "options": [
+        "been",
+        "being",
+        "was",
+        "am"
+      ],
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous.",
+        "incorrect": "Revisa esto: Present perfect continuous."
+      },
+      "review_of": "en-b1-u12-l01-ex09"
+    },
+    {
+      "id": "en-b2-u12-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'm sorry, I didn't ___ what you said. (captar)",
+      "answer": [
+        "catch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't catch.",
+        "incorrect": "Revisa esto: Didn't catch."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 25,
+      "prompt": "Good communicators ___ actively and don't interrupt. (escuchan)",
+      "answer": [
+        "listen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen.",
+        "incorrect": "Revisa esto: Listen."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me that she was very tired.",
+      "answer": [
+        "She told me that she was very tired.",
+        "She said that she was very tired."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say/tell.",
+        "incorrect": "Revisa esto: Say/tell."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He explained me the problem very clearly.",
+      "answer": [
+        "He explained the problem to me very clearly."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Explain to.",
+        "incorrect": "Revisa esto: Explain to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-rv09",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "social-issues"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It depends of the circumstances of each person.",
+      "answer": [
+        "It depends on the circumstances of each person."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      },
+      "review_of": "en-b2-u11-l04-ex18"
+    },
+    {
+      "id": "en-b2-u12-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "There was a big misunderstand between us.",
+      "answer": [
+        "There was a big misunderstanding between us."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Misunderstanding.",
+        "incorrect": "Revisa esto: Misunderstanding."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I listen the radio every morning.",
+      "answer": [
+        "I listen to the radio every morning."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen to.",
+        "incorrect": "Revisa esto: Listen to."
+      }
+    },
+    {
+      "id": "en-b2-u12-l01-ex20",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le aconsejó su amigo?",
+      "options": [
+        "Hacer más preguntas y mostrar interés",
+        "Cambiar de trabajo",
+        "Hablar menos",
+        "Evitar al equipo"
+      ],
+      "answer": [
+        "Hacer más preguntas y mostrar interés"
+      ],
+      "audio_text": "When I started my new job, I found it hard to build rapport with my colleagues. I was shy and avoided eye contact. A friend advised me to ask more questions and show genuine interest. It worked: within a month, I felt part of the team.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: ask more questions and show genuine interest.",
+        "incorrect": "Revisa esto: Dice: ask more questions and show genuine interest."
+      },
+      "audio_script_id": "en-b2-u12-l01-ex20-a"
+    },
+    {
+      "id": "en-b2-u12-l01-ex21",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-communication"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me dijo que no había entendido el mensaje, así que se lo expliqué otra vez.",
+      "answer": [
+        "He told me that he hadn't understood the message, so I explained it to him again.",
+        "She told me that she hadn't understood the message, so I explained it to her again."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Say/tell/explain.",
+        "incorrect": "Revisa esto: Say/tell/explain."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "What I meant was…",
+      "Sorry, I didn't catch that.",
+      "She told me that… / She said that…",
+      "explain something to someone"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-misunderstanding"
+    },
+    {
+      "type": "vocab",
+      "id": "en-convey"
+    },
+    {
+      "type": "vocab",
+      "id": "en-body-language"
+    },
+    {
+      "type": "vocab",
+      "id": "en-eye-contact"
+    },
+    {
+      "type": "vocab",
+      "id": "en-miscommunication"
+    },
+    {
+      "type": "vocab",
+      "id": "en-indifferent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-interrupt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-actively"
+    },
+    {
+      "type": "vocab",
+      "id": "en-adapt"
+    },
+    {
+      "type": "vocab",
+      "id": "en-clarify"
+    },
+    {
+      "type": "grammar",
+      "id": "en-communication-b2"
+    }
+  ]
+}

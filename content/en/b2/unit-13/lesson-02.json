@@ -1,0 +1,964 @@
+{
+  "id": "en-b2-u13-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 13,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "It's about time",
+    "es": "Would rather, it's time y preferencias"
+  },
+  "objective": "Al terminar expresas preferencias, consejos y urgencia con 'It's (about) time', 'would rather', 'had better' y 'as if / as though' + pasado.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El inglés usa el pasado para hablar del presente en ciertas estructuras: 'It's time we left', 'I'd rather you stayed'. Aprendes estas estructuras para dar consejos y expresar preferencias con precisión."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Leo",
+        "text": "It's about time we made a decision. The trip is in three weeks.",
+        "es": "Ya es hora de que tomemos una decisión. El viaje es en tres semanas."
+      },
+      {
+        "speaker": "Eva",
+        "text": "I'd rather we went to the mountains than to the beach.",
+        "es": "Yo preferiría que fuéramos a la montaña antes que a la playa."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Really? I'd rather you didn't suggest the mountains. Last time you behaved as if you were an expert, and we nearly got lost.",
+        "es": "¿En serio? Preferiría que no propusieras la montaña. La última vez te comportaste como si fueras una experta y casi nos perdemos."
+      },
+      {
+        "speaker": "Eva",
+        "text": "That's unfair! I'd rather stay at home than argue about it.",
+        "es": "¡Eso no es justo! Prefiero quedarme en casa antes que discutir por eso."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Sorry. You'd better forgive me, or we'll never agree on anything.",
+        "es": "Perdona. Más te vale perdonarme, o no nos pondremos de acuerdo nunca."
+      },
+      {
+        "speaker": "Eva",
+        "text": "All right. Suppose we compromise: two days in the mountains and three at the coast.",
+        "es": "Vale. Supongamos que cedemos: dos días en la montaña y tres en la costa."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Perfect. It's high time we booked the hotels. I'd rather you did it, if you don't mind.",
+        "es": "Perfecto. Ya es hora más que sobrada de reservar los hoteles. Preferiría que lo hicieras tú, si no te importa."
+      },
+      {
+        "speaker": "Eva",
+        "text": "Fine, but you'd better pay for the first night!",
+        "es": "Vale, ¡pero más te vale pagar la primera noche!"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-it-s-about-time",
+        "lemma": "It's about time",
+        "pos": "phrase",
+        "ipa": "/ɪts əˈbaʊt taɪm/",
+        "es": "ya es hora",
+        "example": "It's about time we left."
+      },
+      {
+        "id": "en-it-s-high-time",
+        "lemma": "It's high time",
+        "pos": "phrase",
+        "ipa": "/ɪts haɪ taɪm/",
+        "es": "ya es hora más que sobrada",
+        "example": "It's high time we went."
+      },
+      {
+        "id": "en-i-d-rather",
+        "lemma": "I'd rather",
+        "pos": "phrase",
+        "ipa": "/aɪd ˈrɑːðə/",
+        "es": "preferiría",
+        "example": "I'd rather stay."
+      },
+      {
+        "id": "en-would-rather-than",
+        "lemma": "would rather than",
+        "pos": "phrase",
+        "ipa": "/wʊd ˈrɑːðə ðæn/",
+        "es": "preferir antes que",
+        "example": "Rather than argue."
+      },
+      {
+        "id": "en-had-better",
+        "lemma": "had better",
+        "pos": "phrase",
+        "ipa": "/hæd ˈbetə/",
+        "es": "más vale que",
+        "example": "You'd better go."
+      },
+      {
+        "id": "en-as-if",
+        "lemma": "as if",
+        "pos": "conj",
+        "ipa": "/æz ɪf/",
+        "es": "como si",
+        "example": "As if he knew."
+      },
+      {
+        "id": "en-as-though",
+        "lemma": "as though",
+        "pos": "conj",
+        "ipa": "/æz ðəʊ/",
+        "es": "como si",
+        "example": "As though she were rich."
+      },
+      {
+        "id": "en-suppose",
+        "lemma": "suppose",
+        "pos": "verb",
+        "ipa": "/səˈpəʊz/",
+        "es": "supongamos",
+        "example": "Suppose we compromise."
+      },
+      {
+        "id": "en-compromise",
+        "lemma": "compromise",
+        "pos": "verb",
+        "ipa": "/ˈkɒmprəmaɪz/",
+        "es": "ceder",
+        "example": "Let's compromise."
+      },
+      {
+        "id": "en-nearly",
+        "lemma": "nearly",
+        "pos": "adv",
+        "ipa": "/ˈnɪəli/",
+        "es": "casi",
+        "example": "We nearly got lost."
+      },
+      {
+        "id": "en-behave",
+        "lemma": "behave",
+        "pos": "verb",
+        "ipa": "/bɪˈheɪv/",
+        "es": "comportarse",
+        "example": "Behave as if…"
+      },
+      {
+        "id": "en-book",
+        "lemma": "book",
+        "pos": "verb",
+        "ipa": "/bʊk/",
+        "es": "reservar",
+        "example": "Book a hotel."
+      }
+    ],
+    "audio_script_id": "en-b2-u13-l02-d01"
+  },
+  "explanation": {
+    "md_es": "**Estructuras que usan el pasado para el presente o futuro**\n\n| Estructura | Significado | Ejemplo |\n|---|---|---|\n| **It's (about / high) time + sujeto + pasado** | ya es hora de que… | *It's time we left.* |\n| **It's time + to + verbo** | es hora de | *It's time to leave.* |\n| **I'd rather + base** (mismo sujeto) | preferiría | *I'd rather stay at home.* |\n| **I'd rather + sujeto + pasado** (sujeto distinto) | preferiría que | *I'd rather you stayed.* |\n| **I'd rather have + participio** | me hubiera gustado más | *I'd rather have stayed.* |\n| **had better + base** | más vale que | *You'd better go now.* |\n| **as if / as though + pasado** | como si | *He talks as if he knew everything.* |\n| **suppose / supposing + presente o pasado** | supongamos que | *Suppose we compromise.* |\n\n**It's time**\n\n- *It's time to go.* (infinitivo, sin sujeto distinto) · *It's time we went.* (con sujeto, pasado con valor de presente).\n- *It's high time you stopped smoking.* (reproche suave).\n\n**Would rather**\n\n- Mismo sujeto: *I'd rather walk than take the bus.* (sin *to*).\n- Distinto sujeto: *I'd rather you didn't smoke here.* (pasado simple, valor presente/futuro).\n- Pasado: *I'd rather you hadn't told her.* (pasado perfecto).\n- Negativo: *I'd rather not go.* · *I'd rather not.*\n- Comparación: *I'd rather walk than drive.* (*than* + base) · *prefer walking to driving.*\n\n**Had better**\n\n- *You'd better tell him.* Forma negativa: *You'd better not be late.* (sin *to*). Se usa para advertencias o consejos fuertes.\n\n**As if / as though**\n\n- Situación irreal: *He behaves as if he were the boss.* (subjuntivo con *were*, también *was*).\n- Situación probable: *It looks as if it's going to rain.* (presente).\n- Pasado: *She looked as if she had seen a ghost.*\n\n**Errores típicos**\n\n- ✘ *It's time we go to bed.* → ✔ *It's time we went to bed.* / *It's time to go to bed.*\n- ✘ *I'd rather to stay at home.* → ✔ *I'd rather stay at home.*\n- ✘ *I'd rather you don't smoke.* → ✔ *I'd rather you didn't smoke.*\n- ✘ *You had better to go.* → ✔ *You had better go. / You'd better go.*\n- ✘ *He talks as if he is rich* (si no lo es) → ✔ *as if he were rich.*\n\n**Ojo:** *I'd* puede ser *I would* (rather) o *I had* (better). *You'd better* = *you had better*. En negativo: *had better not*.\n\nPronunciación: *rather* /ˈrɑːðə/ · *compromise* /ˈkɒmprəmaɪz/ · *behave* /bɪˈheɪv/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "It's time we go",
+        "right": "It's time we went",
+        "note": "Pasado."
+      },
+      {
+        "wrong": "I'd rather to stay",
+        "right": "I'd rather stay",
+        "note": "Sin to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u13-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pasa en tres semanas?",
+      "options": [
+        "El viaje",
+        "Un examen",
+        "Una boda",
+        "Una mudanza"
+      ],
+      "answer": [
+        "El viaje"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: The trip is in three weeks.",
+        "incorrect": "Revisa esto: Dice: The trip is in three weeks."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué prefiere Eva?",
+      "options": [
+        "Ir a la montaña",
+        "Ir a la playa",
+        "No ir",
+        "Ir en tren"
+      ],
+      "answer": [
+        "Ir a la montaña"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'd rather we went to the mountains.",
+        "incorrect": "Revisa esto: Dice: I'd rather we went to the mountains."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-against-essay"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "In the other hand, it is very expensive.",
+      "answer": [
+        "On the other hand, it is very expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the other hand.",
+        "incorrect": "Revisa esto: On the other hand."
+      },
+      "review_of": "en-b2-u08-l06-ex20"
+    },
+    {
+      "id": "en-b2-u13-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué propone Eva como compromiso?",
+      "options": [
+        "Dos días en la montaña y tres en la costa",
+        "Cancelar",
+        "Solo playa",
+        "Una semana de montaña"
+      ],
+      "answer": [
+        "Dos días en la montaña y tres en la costa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: two days... three at the coast.",
+        "incorrect": "Revisa esto: Dice: two days... three at the coast."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién reservará los hoteles?",
+      "options": [
+        "Eva",
+        "Leo",
+        "Un agente",
+        "Nadie"
+      ],
+      "answer": [
+        "Eva"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'd rather you did it.",
+        "incorrect": "Revisa esto: Dice: I'd rather you did it."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-article"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is worth to see the sunset from the hill.",
+      "answer": [
+        "It is worth seeing the sunset from the hill."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      },
+      "review_of": "en-b2-u06-l05-ex15"
+    },
+    {
+      "id": "en-b2-u13-l02-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 15,
+      "prompt": "Leo piensa que la última vez Eva se comportó como una experta y casi se pierden.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: as if you were an expert... nearly got lost.",
+        "incorrect": "Revisa esto: Dice: as if you were an expert... nearly got lost."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 25,
+      "prompt": "It was raining, ___ we stayed at home. (así que)",
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So introduce el resultado.",
+        "incorrect": "Revisa esto: So introduce el resultado."
+      },
+      "review_of": "en-a2-u10-l06-ex06"
+    },
+    {
+      "id": "en-b2-u13-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's time we ___ for the airport.",
+      "options": [
+        "left",
+        "leave",
+        "to leave",
+        "leaving"
+      ],
+      "answer": [
+        "left"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's time + pasado.",
+        "incorrect": "Revisa esto: It's time + pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd rather ___ at home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "answer": [
+        "stay"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rather + base.",
+        "incorrect": "Revisa esto: Rather + base."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd rather you ___ here.",
+      "options": [
+        "didn't smoke",
+        "don't smoke",
+        "not smoke",
+        "won't smoke"
+      ],
+      "answer": [
+        "didn't smoke"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rather + pasado.",
+        "incorrect": "Revisa esto: Rather + pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "You'd better ___ the doctor.",
+      "options": [
+        "see",
+        "to see",
+        "seeing",
+        "saw"
+      ],
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better + base.",
+        "incorrect": "Revisa esto: Had better + base."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "He talks as if he ___ the boss, but he isn't.",
+      "options": [
+        "were",
+        "is",
+        "will be",
+        "has been"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As if irreal.",
+        "incorrect": "Revisa esto: As if irreal."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "narrative-tenses"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, the door opened and a man came in.",
+      "options": [
+        "Suddenly",
+        "Meanwhile",
+        "In the end",
+        "At first"
+      ],
+      "answer": [
+        "Suddenly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suddenly introduce algo inesperado.",
+        "incorrect": "Revisa esto: Suddenly introduce algo inesperado."
+      },
+      "review_of": "en-b1-u01-l05-ex07"
+    },
+    {
+      "id": "en-b2-u13-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's high time you ___ looking for a job.",
+      "options": [
+        "started",
+        "start",
+        "to start",
+        "will start"
+      ],
+      "answer": [
+        "started"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! High time + pasado.",
+        "incorrect": "Revisa esto: High time + pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd rather you ___ told her the news. It's too late now.",
+      "options": [
+        "hadn't",
+        "didn't",
+        "don't",
+        "won't"
+      ],
+      "answer": [
+        "hadn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado perfecto.",
+        "incorrect": "Revisa esto: Pasado perfecto."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "'You'd better not be late' means...",
+      "options": [
+        "Más te vale no llegar tarde",
+        "Puedes llegar tarde",
+        "Llegarás temprano",
+        "Eres impuntual"
+      ],
+      "answer": [
+        "Más te vale no llegar tarde"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advertencia.",
+        "incorrect": "Revisa esto: Advertencia."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 20,
+      "prompt": "Unemployment fell ___ 8 per cent to 5 per cent.",
+      "options": [
+        "from",
+        "by",
+        "of",
+        "on"
+      ],
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! From … to …",
+        "incorrect": "Revisa esto: From … to …"
+      },
+      "review_of": "en-b2-u04-l05-ex11"
+    },
+    {
+      "id": "en-b2-u13-l02-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 20,
+      "prompt": "She looked as if she ___ a ghost.",
+      "options": [
+        "had seen",
+        "sees",
+        "would see",
+        "has seeing"
+      ],
+      "answer": [
+        "had seen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As if + pasado perfecto.",
+        "incorrect": "Revisa esto: As if + pasado perfecto."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd ___ walk than take the bus. (preferiría)",
+      "answer": [
+        "rather"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would rather.",
+        "incorrect": "Revisa esto: Would rather."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 25,
+      "prompt": "You'd better ___ late. (no llegar)",
+      "answer": [
+        "not be"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better not.",
+        "incorrect": "Revisa esto: Had better not."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It's time we go to bed. We have school tomorrow.",
+      "answer": [
+        "It's time we went to bed. We have school tomorrow.",
+        "It's time to go to bed. We have school tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It's time + pasado.",
+        "incorrect": "Revisa esto: It's time + pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'd rather to stay at home tonight.",
+      "answer": [
+        "I'd rather stay at home tonight."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rather + base.",
+        "incorrect": "Revisa esto: Rather + base."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "like"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ fish. (me encanta)",
+      "answer": [
+        "love"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Love = encantar, amar.",
+        "incorrect": "Revisa esto: Love = encantar, amar."
+      },
+      "review_of": "en-a1-u05-l03-ex01"
+    },
+    {
+      "id": "en-b2-u13-l02-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'd rather you don't smoke in my car.",
+      "answer": [
+        "I'd rather you didn't smoke in my car."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rather + pasado.",
+        "incorrect": "Revisa esto: Rather + pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You had better to tell the truth.",
+      "answer": [
+        "You had better tell the truth.",
+        "You'd better tell the truth."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Had better + base.",
+        "incorrect": "Revisa esto: Had better + base."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "We haven't finished the project ___.",
+      "answer": [
+        "yet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet al final de la negativa.",
+        "incorrect": "Revisa esto: Yet al final de la negativa."
+      },
+      "review_of": "en-a2-u08-l06-ex04"
+    },
+    {
+      "id": "en-b2-u13-l02-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Por qué prefiere volar el viernes?",
+      "options": [
+        "Los billetes son más baratos",
+        "Es festivo",
+        "Hay menos gente",
+        "Tiene vacaciones"
+      ],
+      "answer": [
+        "Los billetes son más baratos"
+      ],
+      "audio_text": "It's high time we booked the flights. I'd rather we flew on Friday than on Saturday, because the tickets are cheaper. You'd better check the prices today, or they might go up. And don't talk as if it were impossible!",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the tickets are cheaper.",
+        "incorrect": "Revisa esto: Dice: the tickets are cheaper."
+      },
+      "audio_script_id": "en-b2-u13-l02-ex21-a"
+    },
+    {
+      "id": "en-b2-u13-l02-rv08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The survey ___ that most students were unaware of the policy.",
+      "options": [
+        "revealed",
+        "revealing",
+        "reveal to",
+        "reveals up"
+      ],
+      "answer": [
+        "revealed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reveal that.",
+        "incorrect": "Revisa esto: Reveal that."
+      },
+      "review_of": "en-b2-u09-l05-ex08"
+    },
+    {
+      "id": "en-b2-u13-l02-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "would-rather"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Ya es hora de que decidamos; preferiría que fuéramos en tren, y más te vale reservar hoy.",
+      "answer": [
+        "It's about time we decided; I'd rather we went by train, and you'd better book today.",
+        "It's high time we decided; I'd rather we went by train, and you'd better book today."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estructuras con pasado.",
+        "incorrect": "Revisa esto: Estructuras con pasado."
+      }
+    },
+    {
+      "id": "en-b2-u13-l02-rv09",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived in this house ___ ten years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo.",
+        "incorrect": "Revisa esto: For + periodo."
+      },
+      "review_of": "en-a2-u08-l06-ex06"
+    },
+    {
+      "id": "en-b2-u13-l02-rv10",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + frase con superlativo.",
+        "incorrect": "Revisa esto: I think + frase con superlativo."
+      },
+      "review_of": "en-a2-u03-l05-ex06"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It's (about) time we left.",
+      "I'd rather stay. · I'd rather you stayed.",
+      "You'd better go.",
+      "as if he were …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-it-s-about-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-it-s-high-time"
+    },
+    {
+      "type": "vocab",
+      "id": "en-i-d-rather"
+    },
+    {
+      "type": "vocab",
+      "id": "en-would-rather-than"
+    },
+    {
+      "type": "vocab",
+      "id": "en-had-better"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-if"
+    },
+    {
+      "type": "vocab",
+      "id": "en-as-though"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suppose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-compromise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-nearly"
+    },
+    {
+      "type": "grammar",
+      "id": "en-would-rather"
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "id": "en-b2-u03-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 3,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "News, bias and fake news",
+    "es": "Medios, sesgo y noticias falsas"
+  },
+  "objective": "Al terminar hablas de noticias, sesgo y desinformación con vocabulario de medios de nivel B2 y opinas sobre lo que lees.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Hoy recibimos noticias de cientos de fuentes. Saber distinguir un hecho de una opinión, un titular de un bulo, es una habilidad esencial, y también un tema de conversación muy frecuente."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "Did you see that headline about the new tax? It sounds shocking, but I don't think it's accurate.",
+        "es": "¿Has visto ese titular sobre el nuevo impuesto? Suena escandaloso, pero no creo que sea exacto."
+      },
+      {
+        "speaker": "Ravi",
+        "text": "It's probably clickbait. Many websites use sensational headlines to attract traffic, even if the story itself says something different.",
+        "es": "Seguramente es un cebo para clics. Muchas webs usan titulares sensacionalistas para atraer tráfico, aunque la noticia diga otra cosa."
+      },
+      {
+        "speaker": "Lena",
+        "text": "True. And on social media, false stories spread much faster than corrections. Sometimes a rumour goes viral before anyone checks the facts.",
+        "es": "Cierto. Y en las redes, las noticias falsas se difunden mucho más rápido que las rectificaciones. A veces un rumor se hace viral antes de que nadie compruebe los hechos."
+      },
+      {
+        "speaker": "Ravi",
+        "text": "That's why I always look for a reliable source. A well-known newspaper usually has editors who verify the information.",
+        "es": "Por eso busco siempre una fuente fiable. Un periódico conocido suele tener editores que verifican la información."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes, but even respectable outlets can be biased. Their coverage depends on the owner's political views.",
+        "es": "Sí, pero incluso los medios respetables pueden tener sesgo. Su cobertura depende de las opiniones políticas del propietario."
+      },
+      {
+        "speaker": "Ravi",
+        "text": "Which is why I read several sources and compare them. If they all report the same facts, I tend to trust them.",
+        "es": "Por eso leo varias fuentes y las comparo. Si todas informan de los mismos hechos, suelo fiarme."
+      },
+      {
+        "speaker": "Lena",
+        "text": "A good rule. Also, check whether an article is news, opinion or sponsored content. They're not the same thing.",
+        "es": "Buena regla. Y comprueba si un artículo es noticia, opinión o contenido patrocinado. No es lo mismo."
+      },
+      {
+        "speaker": "Ravi",
+        "text": "Exactly. Critical thinking matters more than ever.",
+        "es": "Exacto. El pensamiento crítico importa más que nunca."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-headline",
+        "lemma": "headline",
+        "pos": "noun",
+        "ipa": "/ˈhedlaɪn/",
+        "es": "titular",
+        "example": "A shocking headline."
+      },
+      {
+        "id": "en-accurate",
+        "lemma": "accurate",
+        "pos": "adj",
+        "ipa": "/ˈækjərət/",
+        "es": "exacto",
+        "example": "An accurate report."
+      },
+      {
+        "id": "en-clickbait",
+        "lemma": "clickbait",
+        "pos": "noun",
+        "ipa": "/ˈklɪkbeɪt/",
+        "es": "cebo de clics",
+        "example": "That's clickbait."
+      },
+      {
+        "id": "en-sensational",
+        "lemma": "sensational",
+        "pos": "adj",
+        "ipa": "/senˈseɪʃənl/",
+        "es": "sensacionalista",
+        "example": "A sensational story."
+      },
+      {
+        "id": "en-rumour",
+        "lemma": "rumour",
+        "pos": "noun",
+        "ipa": "/ˈruːmə/",
+        "es": "rumor",
+        "example": "A rumour is spreading."
+      },
+      {
+        "id": "en-go-viral",
+        "lemma": "go viral",
+        "pos": "phrase",
+        "ipa": "/ɡəʊ ˈvaɪrəl/",
+        "es": "hacerse viral",
+        "example": "The video went viral."
+      },
+      {
+        "id": "en-reliable",
+        "lemma": "reliable",
+        "pos": "adj",
+        "ipa": "/rɪˈlaɪəbl/",
+        "es": "fiable",
+        "example": "A reliable source."
+      },
+      {
+        "id": "en-verify",
+        "lemma": "verify",
+        "pos": "verb",
+        "ipa": "/ˈverɪfaɪ/",
+        "es": "verificar",
+        "example": "Verify the facts."
+      },
+      {
+        "id": "en-outlet",
+        "lemma": "outlet",
+        "pos": "noun",
+        "ipa": "/ˈaʊtlet/",
+        "es": "medio de comunicación",
+        "example": "A news outlet."
+      },
+      {
+        "id": "en-biased",
+        "lemma": "biased",
+        "pos": "adj",
+        "ipa": "/ˈbaɪəst/",
+        "es": "sesgado",
+        "example": "The coverage is biased."
+      },
+      {
+        "id": "en-coverage",
+        "lemma": "coverage",
+        "pos": "noun",
+        "ipa": "/ˈkʌvərɪdʒ/",
+        "es": "cobertura",
+        "example": "Media coverage."
+      },
+      {
+        "id": "en-sponsored-content",
+        "lemma": "sponsored content",
+        "pos": "noun",
+        "ipa": "/ˈspɒnsəd ˈkɒntent/",
+        "es": "contenido patrocinado",
+        "example": "That is sponsored content."
+      }
+    ],
+    "audio_script_id": "en-b2-u03-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de medios y noticias**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Tipos | *broadsheet, tabloid, press, broadcast, outlet, podcast, newsletter* |\n| Texto | *headline, article, editorial, column, report, feature, caption* |\n| Personas | *journalist, reporter, editor, correspondent, anchor, source* |\n| Calidad | *accurate, reliable, credible / misleading, biased, sensational* |\n| Desinformación | *fake news, hoax, rumour, propaganda, misinformation, disinformation* |\n| Verificar | *fact-check, verify, debunk, cross-check, retract* |\n\n**Matices clave**\n\n- *Misinformation* = información falsa **sin** intención de engañar; *disinformation* = falsa **con** intención.\n- *Fact* (hecho) vs *opinion* (opinión) vs *rumour* (rumor sin confirmar).\n- *Bias* (sesgo): *political bias, confirmation bias*; *objective* (objetivo) vs *subjective*.\n\n**Colocaciones**\n\n- *break the news · make headlines · spread a rumour · issue a correction · run a story · publish a retraction · cover an event · quote a source*.\n- *according to + fuente*, *reportedly*, *allegedly* (presuntamente), *claim* (afirmar).\n\n**Frases para opinar sobre la información**\n\n- *I don't think that's accurate. · That sounds too good to be true. · Where did you read that? · Is that from a reliable source? · It's taken out of context.*\n\n**Falsos amigos**\n\n- *Notice* ≠ noticia (*notice* = aviso; noticia = *news*). *News* es incontable y singular: *The news is good.* ✘ *the news are*.\n- *Actual* = real; *current* = actual. *Realise* ≠ realizar (darse cuenta).\n- *Press* = prensa (colectivo): *the press is…*; *a press release* = comunicado.\n\n**Ojo:** *a piece of news* (una noticia), no *a news*. ✘ *an important news* → ✔ *an important piece of news*.\n\nPronunciación: *rumour* /ˈruːmə/ · *accurate* /ˈækjərət/ · *viral* /ˈvaɪrəl/ · *biased* /ˈbaɪəst/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "an important news",
+        "right": "an important piece of news",
+        "note": "News incontable."
+      },
+      {
+        "wrong": "the news are",
+        "right": "the news is",
+        "note": "News singular."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "actual",
+        "es_false": "actual",
+        "real": "real / verdadero",
+        "note": "Actual (ES) = current."
+      },
+      {
+        "word": "notice",
+        "es_false": "noticia",
+        "real": "aviso",
+        "note": "Noticia = news."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u03-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "headline",
+          "right": "titular"
+        },
+        {
+          "left": "rumour",
+          "right": "rumor"
+        },
+        {
+          "left": "reliable",
+          "right": "fiable"
+        },
+        {
+          "left": "biased",
+          "right": "sesgado"
+        },
+        {
+          "left": "outlet",
+          "right": "medio de comunicación"
+        },
+        {
+          "left": "verify",
+          "right": "verificar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de medios B2.",
+        "incorrect": "Revisa esto: Vocabulario de medios B2."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Qué suena más fiable o menos fiable?",
+      "categories": [
+        "Reliable",
+        "Doubtful"
+      ],
+      "items": [
+        {
+          "text": "fact-checked report",
+          "category": "Reliable"
+        },
+        {
+          "text": "named expert source",
+          "category": "Reliable"
+        },
+        {
+          "text": "official statistics",
+          "category": "Reliable"
+        },
+        {
+          "text": "signed correction",
+          "category": "Reliable"
+        },
+        {
+          "text": "anonymous rumour",
+          "category": "Doubtful"
+        },
+        {
+          "text": "clickbait headline",
+          "category": "Doubtful"
+        },
+        {
+          "text": "out-of-context quote",
+          "category": "Doubtful"
+        },
+        {
+          "text": "sponsored post",
+          "category": "Doubtful"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Criterios de credibilidad.",
+        "incorrect": "Revisa esto: Criterios de credibilidad."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-rv01",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "apologised",
+        "immediately",
+        ".",
+        "I",
+        "should"
+      ],
+      "answer": [
+        "I",
+        "should",
+        "have",
+        "apologised",
+        "immediately",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      },
+      "review_of": "en-b1-u11-l04-ex16"
+    },
+    {
+      "id": "en-b2-u03-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué Lena duda del titular?",
+      "options": [
+        "Suena escandaloso y cree que no es exacto",
+        "Es demasiado largo",
+        "No lo entiende",
+        "Es muy antiguo"
+      ],
+      "answer": [
+        "Suena escandaloso y cree que no es exacto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it sounds shocking, but I don't think it's accurate.",
+        "incorrect": "Revisa esto: Dice: it sounds shocking, but I don't think it's accurate."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hace Ravi para fiarse de la información?",
+      "options": [
+        "Lee varias fuentes y las compara",
+        "Solo lee un periódico",
+        "Pregunta en redes",
+        "Confía en los titulares"
+      ],
+      "answer": [
+        "Lee varias fuentes y las compara"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I read several sources and compare them.",
+        "incorrect": "Revisa esto: Dice: I read several sources and compare them."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué puede depender la cobertura de un medio?",
+      "options": [
+        "De las opiniones políticas del propietario",
+        "Del precio",
+        "Del número de lectores",
+        "De la hora"
+      ],
+      "answer": [
+        "De las opiniones políticas del propietario"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: depends on the owner's political views.",
+        "incorrect": "Revisa esto: Dice: depends on the owner's political views."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-rv02",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "third-conditional"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Si hubiera aceptado el puesto en París, habría aprendido francés más rápido.",
+      "answer": [
+        "If I had accepted the job in Paris, I would have learned French faster.",
+        "If I had taken the job in Paris, I would have learned French faster.",
+        "If I had accepted the position in Paris, I would have learned French more quickly."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tercer condicional.",
+        "incorrect": "Revisa esto: Tercer condicional."
+      },
+      "review_of": "en-b2-u02-l02-ex19"
+    },
+    {
+      "id": "en-b2-u03-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 15,
+      "prompt": "Lena afirma que las correcciones se difunden más rápido que las noticias falsas.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice lo contrario: false stories spread faster than corrections.",
+        "incorrect": "Revisa esto: Dice lo contrario: false stories spread faster than corrections."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "That video ___ viral within hours.",
+      "options": [
+        "went",
+        "became to",
+        "got going",
+        "turned"
+      ],
+      "answer": [
+        "went"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go viral.",
+        "incorrect": "Revisa esto: Go viral."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "The newspaper had to issue a ___ after publishing the wrong figures.",
+      "options": [
+        "correction",
+        "correcting",
+        "corrective news",
+        "correct"
+      ],
+      "answer": [
+        "correction"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Issue a correction.",
+        "incorrect": "Revisa esto: Issue a correction."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Misinformation' means false information that...",
+      "options": [
+        "is spread without intent to deceive",
+        "is spread to deceive",
+        "is always official",
+        "is always true"
+      ],
+      "answer": [
+        "is spread without intent to deceive"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Misinformation vs disinformation.",
+        "incorrect": "Revisa esto: Misinformation vs disinformation."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've got some good ___ for you!",
+      "options": [
+        "news",
+        "a news",
+        "newses",
+        "new"
+      ],
+      "answer": [
+        "news"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News incontable.",
+        "incorrect": "Revisa esto: News incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "That's an important ___ of news.",
+      "options": [
+        "piece",
+        "part",
+        "unit",
+        "bit of"
+      ],
+      "answer": [
+        "piece"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A piece of news.",
+        "incorrect": "Revisa esto: A piece of news."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 20,
+      "prompt": "Dear Sir or Madam, … ___",
+      "options": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Best",
+        "Lots of love"
+      ],
+      "answer": [
+        "Yours faithfully"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin nombre: Yours faithfully.",
+        "incorrect": "Revisa esto: Sin nombre: Yours faithfully."
+      },
+      "review_of": "en-b1-u03-l04-ex05"
+    },
+    {
+      "id": "en-b2-u03-l01-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Echo de menos a mis amigos, pero intentamos mantener el contacto.",
+      "answer": [
+        "I miss my friends, but we try to keep in touch.",
+        "I miss my friends but we try to keep in touch."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Miss / keep in touch.",
+        "incorrect": "Revisa esto: Miss / keep in touch."
+      },
+      "review_of": "en-b1-u11-l01-ex18"
+    },
+    {
+      "id": "en-b2-u03-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 20,
+      "prompt": "The news ___ shocking.",
+      "options": [
+        "is",
+        "are",
+        "were being",
+        "have been"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News + singular.",
+        "incorrect": "Revisa esto: News + singular."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 25,
+      "prompt": "According ___ the report, unemployment fell last month. (según)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! According to.",
+        "incorrect": "Revisa esto: According to."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un niño está subido en una silla que se mueve. Dices: 'Careful! You ___ fall!'",
+      "options": [
+        "are going to",
+        "go to",
+        "will to",
+        "are go to"
+      ],
+      "answer": [
+        "are going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: you're going to fall.",
+        "incorrect": "Revisa esto: Evidencia ahora: you're going to fall."
+      },
+      "review_of": "en-a2-u05-l02-ex02"
+    },
+    {
+      "id": "en-b2-u03-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 25,
+      "prompt": "The story was ___ by two independent journalists. (verificada)",
+      "answer": [
+        "verified",
+        "checked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Verified.",
+        "incorrect": "Revisa esto: Verified."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have an important news for you.",
+      "answer": [
+        "I have an important piece of news for you.",
+        "I have some important news for you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News incontable.",
+        "incorrect": "Revisa esto: News incontable."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The news are very disturbing today.",
+      "answer": [
+        "The news is very disturbing today."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News + singular.",
+        "incorrect": "Revisa esto: News + singular."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The actual president gave a speech yesterday. (el presidente de ahora)",
+      "answer": [
+        "The current president gave a speech yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actual ≠ actual (current).",
+        "incorrect": "Revisa esto: Actual ≠ actual (current)."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde puede estacionar?",
+      "options": [
+        "In the car park behind the building",
+        "Here",
+        "In front of the staff door",
+        "On the street"
+      ],
+      "answer": [
+        "In the car park behind the building"
+      ],
+      "audio_text": "Excuse me, you can't park here. It's only for staff. You can park in the car park behind the building.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'in the car park behind the building'.",
+        "incorrect": "Revisa esto: Dice 'in the car park behind the building'."
+      },
+      "audio_script_id": "en-b2-u03-l01-rv06-a",
+      "review_of": "en-a2-u06-l05-ex10"
+    },
+    {
+      "id": "en-b2-u03-l01-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué tuvo que hacer el director?",
+      "options": [
+        "Publicar una corrección",
+        "Cerrar la escuela",
+        "Dimitir",
+        "Llamar a la policía"
+      ],
+      "answer": [
+        "Publicar una corrección"
+      ],
+      "audio_text": "A rumour spread online yesterday that the school would close. Within an hour it had gone viral, but it was completely false. The headmaster had to publish a correction to calm everyone down.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: had to publish a correction.",
+        "incorrect": "Revisa esto: Dice: had to publish a correction."
+      },
+      "audio_script_id": "en-b2-u03-l01-ex18-a"
+    },
+    {
+      "id": "en-b2-u03-l01-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-media"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Un rumor se hizo viral antes de que nadie comprobara los hechos.",
+      "answer": [
+        "A rumour went viral before anyone checked the facts.",
+        "A rumour went viral before anybody checked the facts."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de medios.",
+        "incorrect": "Revisa esto: Vocabulario de medios."
+      }
+    },
+    {
+      "id": "en-b2-u03-l01-ex20",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-media"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "rumour",
+          "ipa": "/ˈruːmə/",
+          "tip_es": "Acento en 'ru'."
+        },
+        {
+          "text": "accurate",
+          "ipa": "/ˈækjərət/",
+          "tip_es": "Acento en 'ac'."
+        },
+        {
+          "text": "biased",
+          "ipa": "/ˈbaɪəst/",
+          "tip_es": "Una sílaba fuerte."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It sounds too good to be true.",
+      "Where did you read that?",
+      "go viral · issue a correction",
+      "a piece of news"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-headline"
+    },
+    {
+      "type": "vocab",
+      "id": "en-accurate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-clickbait"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sensational"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rumour"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-viral"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reliable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-verify"
+    },
+    {
+      "type": "vocab",
+      "id": "en-outlet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-biased"
+    },
+    {
+      "type": "grammar",
+      "id": "en-media-b2"
+    }
+  ]
+}

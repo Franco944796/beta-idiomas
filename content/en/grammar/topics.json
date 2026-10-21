@@ -894,6 +894,1220 @@
         "en-adjectives-position"
       ],
       "introduced_in": "en-a2-u13-l05"
+    },
+    {
+      "id": "en-b1-personality",
+      "kind": "function",
+      "title_es": "Describir la personalidad: adjetivos, sufijos y contrarios",
+      "prerequisites": [
+        "en-adjectives-position"
+      ],
+      "introduced_in": "en-b1-u01-l01"
+    },
+    {
+      "id": "en-pp-continuous",
+      "kind": "grammar",
+      "title_es": "Present perfect continuous: have been + -ing, y su diferencia con el simple",
+      "prerequisites": [
+        "en-for-since",
+        "en-pp-vs-ps"
+      ],
+      "introduced_in": "en-b1-u01-l02"
+    },
+    {
+      "id": "en-used-to-would",
+      "kind": "grammar",
+      "title_es": "Used to y would: hábitos y estados del pasado",
+      "prerequisites": [
+        "en-past-simple-irregular"
+      ],
+      "introduced_in": "en-b1-u01-l03"
+    },
+    {
+      "id": "en-past-perfect",
+      "kind": "grammar",
+      "title_es": "Past perfect: had + participio",
+      "prerequisites": [
+        "en-past-simple-irregular",
+        "en-past-continuous"
+      ],
+      "introduced_in": "en-b1-u01-l04"
+    },
+    {
+      "id": "en-narrative-tenses",
+      "kind": "function",
+      "title_es": "Contar una historia: pasado simple, continuo y perfecto",
+      "prerequisites": [
+        "en-past-perfect",
+        "en-sequencing"
+      ],
+      "introduced_in": "en-b1-u01-l05"
+    },
+    {
+      "id": "en-neighbourhood-talk",
+      "kind": "function",
+      "title_es": "Hablar del barrio y de la vivienda",
+      "prerequisites": [
+        "en-comparatives"
+      ],
+      "introduced_in": "en-b1-u02-l01"
+    },
+    {
+      "id": "en-relative-defining",
+      "kind": "grammar",
+      "title_es": "Relativos especificativos: who, which, that",
+      "prerequisites": [
+        "en-narrative-tenses"
+      ],
+      "introduced_in": "en-b1-u02-l02"
+    },
+    {
+      "id": "en-relative-where-whose",
+      "kind": "grammar",
+      "title_es": "Where, whose, when y omisión del relativo",
+      "prerequisites": [
+        "en-relative-defining"
+      ],
+      "introduced_in": "en-b1-u02-l03"
+    },
+    {
+      "id": "en-double-comparatives",
+      "kind": "grammar",
+      "title_es": "The more…, the more…; as…as; the same as; different from",
+      "prerequisites": [
+        "en-as-as-too-enough",
+        "en-comparatives"
+      ],
+      "introduced_in": "en-b1-u02-l04"
+    },
+    {
+      "id": "en-describe-place",
+      "kind": "function",
+      "title_es": "Describir un lugar por escrito",
+      "prerequisites": [
+        "en-relative-where-whose"
+      ],
+      "introduced_in": "en-b1-u02-l05"
+    },
+    {
+      "id": "en-work-collocations",
+      "kind": "function",
+      "title_es": "Trabajo: colocaciones y habilidades",
+      "prerequisites": [
+        "en-jobs-workplaces"
+      ],
+      "introduced_in": "en-b1-u03-l01"
+    },
+    {
+      "id": "en-future-time-clauses",
+      "kind": "grammar",
+      "title_es": "Cláusulas de tiempo: when, as soon as, until, before, after + presente",
+      "prerequisites": [
+        "en-future-forms"
+      ],
+      "introduced_in": "en-b1-u03-l02"
+    },
+    {
+      "id": "en-past-ability-obligation",
+      "kind": "grammar",
+      "title_es": "Had to, didn't have to, could, was able to, managed to",
+      "prerequisites": [
+        "en-have-to-must",
+        "en-past-simple-irregular"
+      ],
+      "introduced_in": "en-b1-u03-l03"
+    },
+    {
+      "id": "en-cv-letter",
+      "kind": "function",
+      "title_es": "Currículum y carta de presentación",
+      "prerequisites": [
+        "en-job-interview",
+        "en-formal-informal"
+      ],
+      "introduced_in": "en-b1-u03-l04"
+    },
+    {
+      "id": "en-interview-answers",
+      "kind": "function",
+      "title_es": "Responder en una entrevista difícil",
+      "prerequisites": [
+        "en-cv-letter",
+        "en-pp-continuous"
+      ],
+      "introduced_in": "en-b1-u03-l05"
+    },
+    {
+      "id": "en-lifestyle-talk",
+      "kind": "function",
+      "title_es": "Hablar de hábitos y estilo de vida",
+      "prerequisites": [
+        "en-how-often"
+      ],
+      "introduced_in": "en-b1-u04-l01"
+    },
+    {
+      "id": "en-zero-first-conditional",
+      "kind": "grammar",
+      "title_es": "Condicional cero y primer condicional",
+      "prerequisites": [
+        "en-will"
+      ],
+      "introduced_in": "en-b1-u04-l02"
+    },
+    {
+      "id": "en-unless-conditions",
+      "kind": "grammar",
+      "title_es": "Unless, as long as, provided that, in case",
+      "prerequisites": [
+        "en-zero-first-conditional"
+      ],
+      "introduced_in": "en-b1-u04-l03"
+    },
+    {
+      "id": "en-advice-ought",
+      "kind": "grammar",
+      "title_es": "Consejos: ought to, had better, why don't you…?",
+      "prerequisites": [
+        "en-should"
+      ],
+      "introduced_in": "en-b1-u04-l04"
+    },
+    {
+      "id": "en-symptoms-detail",
+      "kind": "function",
+      "title_es": "Describir síntomas y pedir consejo médico",
+      "prerequisites": [
+        "en-health-dialogue",
+        "en-advice-ought"
+      ],
+      "introduced_in": "en-b1-u04-l05"
+    },
+    {
+      "id": "en-tech-talk",
+      "kind": "function",
+      "title_es": "Hablar de tecnología e internet",
+      "prerequisites": [
+        "en-messages-informal"
+      ],
+      "introduced_in": "en-b1-u05-l01"
+    },
+    {
+      "id": "en-passive-simple",
+      "kind": "grammar",
+      "title_es": "Pasiva en presente y pasado simple",
+      "prerequisites": [
+        "en-past-simple-irregular"
+      ],
+      "introduced_in": "en-b1-u05-l02"
+    },
+    {
+      "id": "en-passive-questions-agent",
+      "kind": "grammar",
+      "title_es": "Pasiva: preguntas, by + agente y pasiva con modales",
+      "prerequisites": [
+        "en-passive-simple"
+      ],
+      "introduced_in": "en-b1-u05-l03"
+    },
+    {
+      "id": "en-news-headlines",
+      "kind": "function",
+      "title_es": "Noticias y titulares",
+      "prerequisites": [
+        "en-passive-simple"
+      ],
+      "introduced_in": "en-b1-u05-l04"
+    },
+    {
+      "id": "en-social-posts",
+      "kind": "function",
+      "title_es": "Publicar y comentar en redes sociales",
+      "prerequisites": [
+        "en-opinions"
+      ],
+      "introduced_in": "en-b1-u05-l05"
+    },
+    {
+      "id": "en-trip-planning",
+      "kind": "function",
+      "title_es": "Planificar un viaje: itinerario y reservas",
+      "prerequisites": [
+        "en-planning-journey"
+      ],
+      "introduced_in": "en-b1-u06-l01"
+    },
+    {
+      "id": "en-second-conditional",
+      "kind": "grammar",
+      "title_es": "Segundo condicional: if + pasado, would + verbo",
+      "prerequisites": [
+        "en-zero-first-conditional"
+      ],
+      "introduced_in": "en-b1-u06-l02"
+    },
+    {
+      "id": "en-wish-past",
+      "kind": "grammar",
+      "title_es": "Wish + pasado: deseos sobre el presente",
+      "prerequisites": [
+        "en-second-conditional"
+      ],
+      "introduced_in": "en-b1-u06-l03"
+    },
+    {
+      "id": "en-hotel-complaints",
+      "kind": "function",
+      "title_es": "Quejas y problemas en el hotel",
+      "prerequisites": [
+        "en-returns-complaints",
+        "en-could-requests"
+      ],
+      "introduced_in": "en-b1-u06-l04"
+    },
+    {
+      "id": "en-travel-blog",
+      "kind": "function",
+      "title_es": "Escribir un blog de viajes",
+      "prerequisites": [
+        "en-narrative-tenses",
+        "en-describe-place"
+      ],
+      "introduced_in": "en-b1-u06-l05"
+    },
+    {
+      "id": "en-money-talk",
+      "kind": "function",
+      "title_es": "Hablar de dinero: ganar, gastar, ahorrar",
+      "prerequisites": [
+        "en-shopping-quantities"
+      ],
+      "introduced_in": "en-b1-u07-l01"
+    },
+    {
+      "id": "en-reported-statements",
+      "kind": "grammar",
+      "title_es": "Estilo indirecto: afirmaciones y cambio de tiempos",
+      "prerequisites": [
+        "en-past-perfect"
+      ],
+      "introduced_in": "en-b1-u07-l02"
+    },
+    {
+      "id": "en-reported-questions",
+      "kind": "grammar",
+      "title_es": "Estilo indirecto: preguntas, órdenes y peticiones",
+      "prerequisites": [
+        "en-reported-statements"
+      ],
+      "introduced_in": "en-b1-u07-l03"
+    },
+    {
+      "id": "en-reporting-verbs",
+      "kind": "grammar",
+      "title_es": "Verbos de reporte: say, tell, ask, suggest, promise",
+      "prerequisites": [
+        "en-reported-questions"
+      ],
+      "introduced_in": "en-b1-u07-l04"
+    },
+    {
+      "id": "en-customer-service",
+      "kind": "function",
+      "title_es": "Atención al cliente y reclamaciones",
+      "prerequisites": [
+        "en-hotel-complaints",
+        "en-reported-questions"
+      ],
+      "introduced_in": "en-b1-u07-l05"
+    },
+    {
+      "id": "en-school-talk",
+      "kind": "function",
+      "title_es": "Hablar de estudios y educación",
+      "prerequisites": [
+        "en-jobs-workplaces"
+      ],
+      "introduced_in": "en-b1-u08-l01"
+    },
+    {
+      "id": "en-gerund-infinitive-meaning",
+      "kind": "grammar",
+      "title_es": "Gerundio o infinitivo: stop, remember, try, forget",
+      "prerequisites": [
+        "en-verb-patterns"
+      ],
+      "introduced_in": "en-b1-u08-l02"
+    },
+    {
+      "id": "en-allowed-supposed",
+      "kind": "grammar",
+      "title_es": "Be allowed to, be supposed to, let y make",
+      "prerequisites": [
+        "en-permission-prohibition"
+      ],
+      "introduced_in": "en-b1-u08-l03"
+    },
+    {
+      "id": "en-study-skills",
+      "kind": "function",
+      "title_es": "Estrategias de estudio y consejos",
+      "prerequisites": [
+        "en-advice-ought"
+      ],
+      "introduced_in": "en-b1-u08-l04"
+    },
+    {
+      "id": "en-opinion-essay",
+      "kind": "function",
+      "title_es": "Redacción de opinión: introducción, argumentos y conclusión",
+      "prerequisites": [
+        "en-connectors",
+        "en-opinions"
+      ],
+      "introduced_in": "en-b1-u08-l05"
+    },
+    {
+      "id": "en-environment-talk",
+      "kind": "function",
+      "title_es": "Problemas medioambientales y soluciones",
+      "prerequisites": [
+        "en-passive-simple"
+      ],
+      "introduced_in": "en-b1-u09-l01"
+    },
+    {
+      "id": "en-quantifiers-b1",
+      "kind": "grammar",
+      "title_es": "All, most, some, none, both, either, neither, every",
+      "prerequisites": [
+        "en-quantifiers"
+      ],
+      "introduced_in": "en-b1-u09-l02"
+    },
+    {
+      "id": "en-possibility-modals",
+      "kind": "grammar",
+      "title_es": "May, might, could: posibilidad en el futuro",
+      "prerequisites": [
+        "en-future-forms"
+      ],
+      "introduced_in": "en-b1-u09-l03"
+    },
+    {
+      "id": "en-so-such-that",
+      "kind": "grammar",
+      "title_es": "So… that, such… that: causa y resultado",
+      "prerequisites": [
+        "en-connectors"
+      ],
+      "introduced_in": "en-b1-u09-l04"
+    },
+    {
+      "id": "en-discussion-b1",
+      "kind": "function",
+      "title_es": "Participar en una discusión sobre soluciones",
+      "prerequisites": [
+        "en-possibility-modals",
+        "en-zero-first-conditional"
+      ],
+      "introduced_in": "en-b1-u09-l05"
+    },
+    {
+      "id": "en-food-culture",
+      "kind": "function",
+      "title_es": "Comida, costumbres y tradiciones",
+      "prerequisites": [
+        "en-restaurant-language"
+      ],
+      "introduced_in": "en-b1-u10-l01"
+    },
+    {
+      "id": "en-deduction-present",
+      "kind": "grammar",
+      "title_es": "Deducciones: must be, can't be, might be",
+      "prerequisites": [
+        "en-possibility-modals"
+      ],
+      "introduced_in": "en-b1-u10-l02"
+    },
+    {
+      "id": "en-question-tags",
+      "kind": "grammar",
+      "title_es": "Question tags: …, isn't it?",
+      "prerequisites": [
+        "en-passive-simple",
+        "en-present-simple-continuous"
+      ],
+      "introduced_in": "en-b1-u10-l03"
+    },
+    {
+      "id": "en-indefinite-pronouns",
+      "kind": "grammar",
+      "title_es": "Someone, anything, nobody, everywhere…",
+      "prerequisites": [
+        "en-quantifiers-b1"
+      ],
+      "introduced_in": "en-b1-u10-l04"
+    },
+    {
+      "id": "en-festival-description",
+      "kind": "function",
+      "title_es": "Describir una fiesta o tradición",
+      "prerequisites": [
+        "en-describe-place",
+        "en-passive-simple"
+      ],
+      "introduced_in": "en-b1-u10-l05"
+    },
+    {
+      "id": "en-feelings-vocab",
+      "kind": "function",
+      "title_es": "Sentimientos y relaciones personales",
+      "prerequisites": [
+        "en-ed-ing-adjectives"
+      ],
+      "introduced_in": "en-b1-u11-l01"
+    },
+    {
+      "id": "en-phrasal-verbs-1",
+      "kind": "grammar",
+      "title_es": "Phrasal verbs: get on, fall out, make up, split up",
+      "prerequisites": [
+        "en-verb-patterns"
+      ],
+      "introduced_in": "en-b1-u11-l02"
+    },
+    {
+      "id": "en-agree-disagree",
+      "kind": "function",
+      "title_es": "Estar de acuerdo y discrepar con educación",
+      "prerequisites": [
+        "en-opinions",
+        "en-connectors"
+      ],
+      "introduced_in": "en-b1-u11-l03"
+    },
+    {
+      "id": "en-should-have",
+      "kind": "grammar",
+      "title_es": "Should have / shouldn't have: arrepentimiento y crítica",
+      "prerequisites": [
+        "en-should",
+        "en-past-perfect"
+      ],
+      "introduced_in": "en-b1-u11-l04"
+    },
+    {
+      "id": "en-informal-letter",
+      "kind": "function",
+      "title_es": "Escribir una carta o email informal",
+      "prerequisites": [
+        "en-messages-informal",
+        "en-narrative-tenses"
+      ],
+      "introduced_in": "en-b1-u11-l05"
+    },
+    {
+      "id": "en-challenges-talk",
+      "kind": "function",
+      "title_es": "Hablar de retos, logros y superación",
+      "prerequisites": [
+        "en-pp-continuous"
+      ],
+      "introduced_in": "en-b1-u12-l01"
+    },
+    {
+      "id": "en-contrast-linkers",
+      "kind": "grammar",
+      "title_es": "Although, even though, despite, in spite of, however",
+      "prerequisites": [
+        "en-connectors"
+      ],
+      "introduced_in": "en-b1-u12-l02"
+    },
+    {
+      "id": "en-so-neither",
+      "kind": "grammar",
+      "title_es": "So do I / Neither do I: acuerdo corto",
+      "prerequisites": [
+        "en-agree-disagree"
+      ],
+      "introduced_in": "en-b1-u12-l03"
+    },
+    {
+      "id": "en-tense-review-b1",
+      "kind": "function",
+      "title_es": "Repaso de tiempos verbales de B1",
+      "prerequisites": [
+        "en-narrative-tenses",
+        "en-pp-continuous",
+        "en-second-conditional"
+      ],
+      "introduced_in": "en-b1-u12-l04"
+    },
+    {
+      "id": "en-write-story",
+      "kind": "function",
+      "title_es": "Escribir un relato con tiempos narrativos",
+      "prerequisites": [
+        "en-narrative-tenses",
+        "en-contrast-linkers"
+      ],
+      "introduced_in": "en-b1-u12-l05"
+    },
+    {
+      "id": "en-b2-identity",
+      "kind": "function",
+      "title_es": "Valores, personalidad y carácter en profundidad",
+      "prerequisites": [
+        "en-b1-personality"
+      ],
+      "introduced_in": "en-b2-u01-l01"
+    },
+    {
+      "id": "en-future-continuous-perfect",
+      "kind": "grammar",
+      "title_es": "Futuro continuo (will be doing) y futuro perfecto (will have done)",
+      "prerequisites": [
+        "en-future-time-clauses"
+      ],
+      "introduced_in": "en-b2-u01-l02"
+    },
+    {
+      "id": "en-relative-non-defining",
+      "kind": "grammar",
+      "title_es": "Relativas explicativas con comas: who, which, whose, where",
+      "prerequisites": [
+        "en-relative-defining",
+        "en-relative-where-whose"
+      ],
+      "introduced_in": "en-b2-u01-l03"
+    },
+    {
+      "id": "en-used-to-get-used-to",
+      "kind": "grammar",
+      "title_es": "Used to / be used to / get used to + -ing",
+      "prerequisites": [
+        "en-used-to-would"
+      ],
+      "introduced_in": "en-b2-u01-l04"
+    },
+    {
+      "id": "en-personal-profile",
+      "kind": "function",
+      "title_es": "Escribir un perfil personal convincente",
+      "prerequisites": [
+        "en-informal-letter",
+        "en-cv-letter"
+      ],
+      "introduced_in": "en-b2-u01-l05"
+    },
+    {
+      "id": "en-workplace-b2",
+      "kind": "function",
+      "title_es": "Vocabulario del mundo laboral moderno y trabajo remoto",
+      "prerequisites": [
+        "en-work-collocations"
+      ],
+      "introduced_in": "en-b2-u02-l01"
+    },
+    {
+      "id": "en-third-conditional",
+      "kind": "grammar",
+      "title_es": "Tercer condicional: if + past perfect, would have + participio",
+      "prerequisites": [
+        "en-second-conditional",
+        "en-past-perfect"
+      ],
+      "introduced_in": "en-b2-u02-l02"
+    },
+    {
+      "id": "en-mixed-conditionals",
+      "kind": "grammar",
+      "title_es": "Condicionales mixtos: pasado → presente y presente → pasado",
+      "prerequisites": [
+        "en-third-conditional"
+      ],
+      "introduced_in": "en-b2-u02-l03"
+    },
+    {
+      "id": "en-meetings-b2",
+      "kind": "function",
+      "title_es": "Reuniones: opinar, negociar, ceder y llegar a acuerdos",
+      "prerequisites": [
+        "en-agree-disagree",
+        "en-discussion-b1"
+      ],
+      "introduced_in": "en-b2-u02-l04"
+    },
+    {
+      "id": "en-formal-email-b2",
+      "kind": "function",
+      "title_es": "Correo profesional formal: estructura, tono y fórmulas",
+      "prerequisites": [
+        "en-cv-letter",
+        "en-customer-service"
+      ],
+      "introduced_in": "en-b2-u02-l05"
+    },
+    {
+      "id": "en-media-b2",
+      "kind": "function",
+      "title_es": "Medios, sesgo, fuentes y desinformación",
+      "prerequisites": [
+        "en-news-headlines"
+      ],
+      "introduced_in": "en-b2-u03-l01"
+    },
+    {
+      "id": "en-passive-reporting",
+      "kind": "grammar",
+      "title_es": "Pasiva con verbos de opinión: He is said to…, It is believed that…",
+      "prerequisites": [
+        "en-passive-simple",
+        "en-reporting-verbs"
+      ],
+      "introduced_in": "en-b2-u03-l02"
+    },
+    {
+      "id": "en-causative",
+      "kind": "grammar",
+      "title_es": "Causativa: have / get something done",
+      "prerequisites": [
+        "en-passive-simple"
+      ],
+      "introduced_in": "en-b2-u03-l03"
+    },
+    {
+      "id": "en-evaluating-sources",
+      "kind": "function",
+      "title_es": "Evaluar fuentes, argumentos y fiabilidad",
+      "prerequisites": [
+        "en-media-b2",
+        "en-opinion-essay"
+      ],
+      "introduced_in": "en-b2-u03-l04"
+    },
+    {
+      "id": "en-article-summary",
+      "kind": "function",
+      "title_es": "Resumir un artículo con tus propias palabras",
+      "prerequisites": [
+        "en-passive-reporting",
+        "en-opinion-essay"
+      ],
+      "introduced_in": "en-b2-u03-l05"
+    },
+    {
+      "id": "en-science-b2",
+      "kind": "function",
+      "title_es": "Ciencia e innovación: vocabulario y colocaciones",
+      "prerequisites": [
+        "en-tech-talk"
+      ],
+      "introduced_in": "en-b2-u04-l01"
+    },
+    {
+      "id": "en-future-forms-b2",
+      "kind": "grammar",
+      "title_es": "Predicciones: be bound to, be likely to, be about to, be due to",
+      "prerequisites": [
+        "en-future-continuous-perfect"
+      ],
+      "introduced_in": "en-b2-u04-l02"
+    },
+    {
+      "id": "en-past-deduction",
+      "kind": "grammar",
+      "title_es": "Deducciones sobre el pasado: must have, can't have, might have",
+      "prerequisites": [
+        "en-deduction-present",
+        "en-should-have"
+      ],
+      "introduced_in": "en-b2-u04-l03"
+    },
+    {
+      "id": "en-process-description",
+      "kind": "function",
+      "title_es": "Describir un proceso con pasiva y secuenciadores",
+      "prerequisites": [
+        "en-passive-questions-agent"
+      ],
+      "introduced_in": "en-b2-u04-l04"
+    },
+    {
+      "id": "en-describe-data",
+      "kind": "function",
+      "title_es": "Describir gráficos, cifras y tendencias",
+      "prerequisites": [
+        "en-process-description"
+      ],
+      "introduced_in": "en-b2-u04-l05"
+    },
+    {
+      "id": "en-health-b2",
+      "kind": "function",
+      "title_es": "Mente, cuerpo y bienestar: vocabulario y expresiones",
+      "prerequisites": [
+        "en-symptoms-detail"
+      ],
+      "introduced_in": "en-b2-u05-l01"
+    },
+    {
+      "id": "en-wish-regret",
+      "kind": "grammar",
+      "title_es": "Wish / if only: pasado perfecto, would y presente",
+      "prerequisites": [
+        "en-wish-past",
+        "en-third-conditional"
+      ],
+      "introduced_in": "en-b2-u05-l02"
+    },
+    {
+      "id": "en-verb-patterns-b2",
+      "kind": "grammar",
+      "title_es": "Gerundio e infinitivo avanzados: regret, prefer, be used to, can't help",
+      "prerequisites": [
+        "en-gerund-infinitive-meaning"
+      ],
+      "introduced_in": "en-b2-u05-l03"
+    },
+    {
+      "id": "en-persuasion",
+      "kind": "function",
+      "title_es": "Persuadir, aconsejar y sugerir con tacto",
+      "prerequisites": [
+        "en-advice-ought"
+      ],
+      "introduced_in": "en-b2-u05-l04"
+    },
+    {
+      "id": "en-discussion-b2",
+      "kind": "function",
+      "title_es": "Participar en una discusión de grupo",
+      "prerequisites": [
+        "en-discussion-b1"
+      ],
+      "introduced_in": "en-b2-u05-l05"
+    },
+    {
+      "id": "en-travel-b2",
+      "kind": "function",
+      "title_es": "Viajes y cultura: colocaciones y vocabulario",
+      "prerequisites": [
+        "en-trip-planning"
+      ],
+      "introduced_in": "en-b2-u06-l01"
+    },
+    {
+      "id": "en-inversion",
+      "kind": "grammar",
+      "title_es": "Inversión: never, hardly, not only, rarely, seldom",
+      "prerequisites": [
+        "en-third-conditional"
+      ],
+      "introduced_in": "en-b2-u06-l02"
+    },
+    {
+      "id": "en-dependent-prepositions",
+      "kind": "grammar",
+      "title_es": "Preposiciones dependientes: verbo, adjetivo y nombre + preposición",
+      "prerequisites": [
+        "en-verb-patterns-b2"
+      ],
+      "introduced_in": "en-b2-u06-l03"
+    },
+    {
+      "id": "en-cultural-differences",
+      "kind": "function",
+      "title_es": "Hablar de diferencias culturales con matices",
+      "prerequisites": [
+        "en-food-culture"
+      ],
+      "introduced_in": "en-b2-u06-l04"
+    },
+    {
+      "id": "en-travel-article",
+      "kind": "function",
+      "title_es": "Escribir un artículo de viajes",
+      "prerequisites": [
+        "en-travel-blog"
+      ],
+      "introduced_in": "en-b2-u06-l05"
+    },
+    {
+      "id": "en-economy-b2",
+      "kind": "function",
+      "title_es": "Economía y finanzas personales: vocabulario",
+      "prerequisites": [
+        "en-money-talk"
+      ],
+      "introduced_in": "en-b2-u07-l01"
+    },
+    {
+      "id": "en-reported-advanced",
+      "kind": "grammar",
+      "title_es": "Estilo indirecto avanzado: verbos de reporte y casos especiales",
+      "prerequisites": [
+        "en-reporting-verbs"
+      ],
+      "introduced_in": "en-b2-u07-l02"
+    },
+    {
+      "id": "en-comparisons-b2",
+      "kind": "grammar",
+      "title_es": "Comparaciones avanzadas: twice as…, the more…, as…as",
+      "prerequisites": [
+        "en-double-comparatives"
+      ],
+      "introduced_in": "en-b2-u07-l03"
+    },
+    {
+      "id": "en-phrasal-verbs-2",
+      "kind": "grammar",
+      "title_es": "Phrasal verbs de negocios y dinero",
+      "prerequisites": [
+        "en-phrasal-verbs-1"
+      ],
+      "introduced_in": "en-b2-u07-l04"
+    },
+    {
+      "id": "en-formal-complaint",
+      "kind": "function",
+      "title_es": "Escribir una reclamación formal",
+      "prerequisites": [
+        "en-customer-service",
+        "en-formal-email-b2"
+      ],
+      "introduced_in": "en-b2-u07-l05"
+    },
+    {
+      "id": "en-education-b2",
+      "kind": "function",
+      "title_es": "Educación, aprendizaje y sociedad: vocabulario",
+      "prerequisites": [
+        "en-school-talk"
+      ],
+      "introduced_in": "en-b2-u08-l01"
+    },
+    {
+      "id": "en-cleft",
+      "kind": "grammar",
+      "title_es": "Oraciones enfáticas: It was … that; What I need is …",
+      "prerequisites": [
+        "en-relative-defining"
+      ],
+      "introduced_in": "en-b2-u08-l02"
+    },
+    {
+      "id": "en-linkers-b2",
+      "kind": "grammar",
+      "title_es": "Conectores avanzados: resultado, finalidad, concesión",
+      "prerequisites": [
+        "en-contrast-linkers"
+      ],
+      "introduced_in": "en-b2-u08-l03"
+    },
+    {
+      "id": "en-debate",
+      "kind": "function",
+      "title_es": "Debatir con estructura: turnos, concesiones y refutación",
+      "prerequisites": [
+        "en-agree-disagree",
+        "en-meetings-b2"
+      ],
+      "introduced_in": "en-b2-u08-l04"
+    },
+    {
+      "id": "en-for-against-essay",
+      "kind": "function",
+      "title_es": "Ensayo a favor y en contra",
+      "prerequisites": [
+        "en-opinion-essay",
+        "en-linkers-b2"
+      ],
+      "introduced_in": "en-b2-u08-l05"
+    },
+    {
+      "id": "en-planet-b2",
+      "kind": "function",
+      "title_es": "Sostenibilidad, energía y responsabilidad",
+      "prerequisites": [
+        "en-environment-talk"
+      ],
+      "introduced_in": "en-b2-u09-l01"
+    },
+    {
+      "id": "en-passive-advanced",
+      "kind": "grammar",
+      "title_es": "Pasiva avanzada: modales, perfecto, continuo y con dos objetos",
+      "prerequisites": [
+        "en-passive-questions-agent"
+      ],
+      "introduced_in": "en-b2-u09-l02"
+    },
+    {
+      "id": "en-conditional-alternatives",
+      "kind": "grammar",
+      "title_es": "Alternativas a if: provided that, otherwise, supposing, even if",
+      "prerequisites": [
+        "en-unless-conditions",
+        "en-third-conditional"
+      ],
+      "introduced_in": "en-b2-u09-l03"
+    },
+    {
+      "id": "en-proposals",
+      "kind": "function",
+      "title_es": "Hacer propuestas formales y defenderlas",
+      "prerequisites": [
+        "en-debate"
+      ],
+      "introduced_in": "en-b2-u09-l04"
+    },
+    {
+      "id": "en-report-writing",
+      "kind": "function",
+      "title_es": "Redactar un informe: estructura y lenguaje",
+      "prerequisites": [
+        "en-for-against-essay"
+      ],
+      "introduced_in": "en-b2-u09-l05"
+    },
+    {
+      "id": "en-arts-b2",
+      "kind": "function",
+      "title_es": "Arte, cine, música y literatura: vocabulario",
+      "prerequisites": [
+        "en-festival-description"
+      ],
+      "introduced_in": "en-b2-u10-l01"
+    },
+    {
+      "id": "en-participle-clauses",
+      "kind": "grammar",
+      "title_es": "Cláusulas de participio: -ing y -ed, perfect participle",
+      "prerequisites": [
+        "en-passive-advanced"
+      ],
+      "introduced_in": "en-b2-u10-l02"
+    },
+    {
+      "id": "en-review-language",
+      "kind": "function",
+      "title_es": "Reseñas y recomendaciones: lenguaje evaluativo",
+      "prerequisites": [
+        "en-arts-b2"
+      ],
+      "introduced_in": "en-b2-u10-l03"
+    },
+    {
+      "id": "en-relative-prepositions",
+      "kind": "grammar",
+      "title_es": "Relativas con preposición y relativas reducidas",
+      "prerequisites": [
+        "en-relative-non-defining"
+      ],
+      "introduced_in": "en-b2-u10-l04"
+    },
+    {
+      "id": "en-write-review",
+      "kind": "function",
+      "title_es": "Escribir una reseña de libro, película o lugar",
+      "prerequisites": [
+        "en-review-language",
+        "en-relative-prepositions"
+      ],
+      "introduced_in": "en-b2-u10-l05"
+    },
+    {
+      "id": "en-law-b2",
+      "kind": "function",
+      "title_es": "Ley, justicia y seguridad: vocabulario",
+      "prerequisites": [
+        "en-news-headlines"
+      ],
+      "introduced_in": "en-b2-u11-l01"
+    },
+    {
+      "id": "en-modals-past-b2",
+      "kind": "grammar",
+      "title_es": "Modales en el pasado: needn't have, could have, was able to, should have",
+      "prerequisites": [
+        "en-past-deduction"
+      ],
+      "introduced_in": "en-b2-u11-l02"
+    },
+    {
+      "id": "en-obligation-formal",
+      "kind": "grammar",
+      "title_es": "Obligación y normas formales: be required to, be obliged to",
+      "prerequisites": [
+        "en-allowed-supposed"
+      ],
+      "introduced_in": "en-b2-u11-l03"
+    },
+    {
+      "id": "en-social-issues",
+      "kind": "function",
+      "title_es": "Opinar sobre temas sociales con argumentos",
+      "prerequisites": [
+        "en-debate",
+        "en-law-b2"
+      ],
+      "introduced_in": "en-b2-u11-l04"
+    },
+    {
+      "id": "en-letter-editor",
+      "kind": "function",
+      "title_es": "Una carta al director",
+      "prerequisites": [
+        "en-social-issues",
+        "en-formal-email-b2"
+      ],
+      "introduced_in": "en-b2-u11-l05"
+    },
+    {
+      "id": "en-communication-b2",
+      "kind": "function",
+      "title_es": "Comunicación eficaz: tono, registro y claridad",
+      "prerequisites": [
+        "en-agree-disagree"
+      ],
+      "introduced_in": "en-b2-u12-l01"
+    },
+    {
+      "id": "en-idioms",
+      "kind": "function",
+      "title_es": "Expresiones idiomáticas de uso frecuente",
+      "prerequisites": [
+        "en-phrasal-verbs-2"
+      ],
+      "introduced_in": "en-b2-u12-l02"
+    },
+    {
+      "id": "en-collocations-b2",
+      "kind": "function",
+      "title_es": "Colocaciones con make, do, take, get, have",
+      "prerequisites": [
+        "en-work-collocations"
+      ],
+      "introduced_in": "en-b2-u12-l03"
+    },
+    {
+      "id": "en-hedging",
+      "kind": "function",
+      "title_es": "Tacto y atenuación: I'd say, it seems, tends to",
+      "prerequisites": [
+        "en-persuasion"
+      ],
+      "introduced_in": "en-b2-u12-l04"
+    },
+    {
+      "id": "en-feedback",
+      "kind": "function",
+      "title_es": "Dar y recibir feedback",
+      "prerequisites": [
+        "en-hedging"
+      ],
+      "introduced_in": "en-b2-u12-l05"
+    },
+    {
+      "id": "en-risk-b2",
+      "kind": "function",
+      "title_es": "Aventura, riesgo y superación: vocabulario",
+      "prerequisites": [
+        "en-challenges-talk"
+      ],
+      "introduced_in": "en-b2-u13-l01"
+    },
+    {
+      "id": "en-would-rather",
+      "kind": "grammar",
+      "title_es": "Would rather, it's time, had better, prefer",
+      "prerequisites": [
+        "en-wish-regret"
+      ],
+      "introduced_in": "en-b2-u13-l02"
+    },
+    {
+      "id": "en-emphasis",
+      "kind": "grammar",
+      "title_es": "Énfasis: do/does/did enfático, so/such, ever, at all",
+      "prerequisites": [
+        "en-cleft",
+        "en-inversion"
+      ],
+      "introduced_in": "en-b2-u13-l03"
+    },
+    {
+      "id": "en-storytelling-b2",
+      "kind": "function",
+      "title_es": "Contar una historia con ritmo y detalle",
+      "prerequisites": [
+        "en-write-story",
+        "en-participle-clauses"
+      ],
+      "introduced_in": "en-b2-u13-l04"
+    },
+    {
+      "id": "en-experience-writing",
+      "kind": "function",
+      "title_es": "Escribir sobre una experiencia personal",
+      "prerequisites": [
+        "en-storytelling-b2"
+      ],
+      "introduced_in": "en-b2-u13-l05"
+    },
+    {
+      "id": "en-global-issues",
+      "kind": "function",
+      "title_es": "Problemas globales y soluciones",
+      "prerequisites": [
+        "en-planet-b2",
+        "en-economy-b2"
+      ],
+      "introduced_in": "en-b2-u14-l01"
+    },
+    {
+      "id": "en-b2-review",
+      "kind": "function",
+      "title_es": "Repaso de la gramática de B2",
+      "prerequisites": [
+        "en-third-conditional",
+        "en-passive-advanced",
+        "en-inversion"
+      ],
+      "introduced_in": "en-b2-u14-l02"
+    },
+    {
+      "id": "en-paraphrase-summarise",
+      "kind": "function",
+      "title_es": "Parafrasear y resumir",
+      "prerequisites": [
+        "en-article-summary"
+      ],
+      "introduced_in": "en-b2-u14-l03"
+    },
+    {
+      "id": "en-long-turn",
+      "kind": "function",
+      "title_es": "Hablar durante un minuto con estructura",
+      "prerequisites": [
+        "en-discussion-b2"
+      ],
+      "introduced_in": "en-b2-u14-l04"
+    },
+    {
+      "id": "en-b2-final-writing",
+      "kind": "function",
+      "title_es": "La tarea final de escritura de B2",
+      "prerequisites": [
+        "en-for-against-essay",
+        "en-report-writing"
+      ],
+      "introduced_in": "en-b2-u14-l05"
     }
   ]
 }

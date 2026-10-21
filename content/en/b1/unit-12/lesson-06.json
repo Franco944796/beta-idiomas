@@ -1,0 +1,865 @@
+{
+  "id": "en-b1-u12-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 12,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Final checkpoint",
+    "es": "Checkpoint final de B1"
+  },
+  "objective": "Al terminar demuestras todo lo aprendido en B1: vocabulario, tiempos, condicionales, pasiva, estilo indirecto, contraste y redacción.",
+  "est_minutes": 50,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint final de B1: los grandes bloques del nivel en una sola lección antes del examen."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repaso general de B1: colocaciones de trabajo, cláusulas de tiempo, condicionales (0/1/2), wish, pasiva, estilo indirecto, deducciones, question tags, contraste, so/neither y tiempos narrativos.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso final de B1**\n\n- *Cláusulas de tiempo:* When I finish, I'll … · as soon as I get … · until you come\n- *Condicionales:* If you heat ice, it melts. · If it rains, I'll … · If I won, I would …\n- *Wish:* I wish I had … · I wish I could … · I wish I had called\n- *Pasiva:* It is made in … · It was invented by … · It can be done.\n- *Estilo indirecto:* She said she was … · He asked if … · He told me to …\n- *Deducciones:* must be · can't be · might be\n- *Contraste:* although · despite · however · whereas\n- *So do I · Neither do I*\n- *Should have · shouldn't have*\n- *Tiempos narrativos:* pasado simple, continuo, perfecto",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u12-l06-ex01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ here since 2015.",
+      "options": [
+        "have lived",
+        "live",
+        "lived",
+        "am living"
+      ],
+      "answer": [
+        "have lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Since → present perfect.",
+        "incorrect": "Revisa esto: Since → present perfect."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "When I ___ the job, I'll celebrate.",
+      "options": [
+        "get",
+        "will get",
+        "got",
+        "am getting"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! When + presente.",
+        "incorrect": "Revisa esto: When + presente."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm tired.' → She said she ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "will be"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente → pasado.",
+        "incorrect": "Revisa esto: Presente → pasado."
+      },
+      "review_of": "en-b1-u07-l02-ex05"
+    },
+    {
+      "id": "en-b1-u12-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "If it ___ tomorrow, we'll stay home.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "rain"
+      ],
+      "answer": [
+        "rains"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer condicional.",
+        "incorrect": "Revisa esto: Primer condicional."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "clothes"
+      ],
+      "est_seconds": 25,
+      "prompt": "My jeans ___ blue.",
+      "answer": [
+        "are"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Jeans es plural: are.",
+        "incorrect": "Revisa esto: Jeans es plural: are."
+      },
+      "review_of": "en-a1-u08-l03-ex03"
+    },
+    {
+      "id": "en-b1-u12-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "If I won the lottery, I ___ travel the world.",
+      "options": [
+        "would",
+        "will",
+        "am going to",
+        "would to"
+      ],
+      "answer": [
+        "would"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Segundo condicional.",
+        "incorrect": "Revisa esto: Segundo condicional."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I wish I ___ more time.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wish + pasado.",
+        "incorrect": "Revisa esto: Wish + pasado."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "English ___ in many countries.",
+      "options": [
+        "is spoken",
+        "speaks",
+        "was spoke",
+        "is speak"
+      ],
+      "answer": [
+        "is spoken"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm tired.' → She said she ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "will be"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estilo indirecto.",
+        "incorrect": "Revisa esto: Estilo indirecto."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "countable-uncountable"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I need some advice.",
+        "I need an advice.",
+        "I need some advices.",
+        "I need advices."
+      ],
+      "answer": [
+        "I need some advice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice es incontable: sin a/an y sin plural.",
+        "incorrect": "Revisa esto: Advice es incontable: sin a/an y sin plural."
+      },
+      "review_of": "en-a2-u04-l01-ex03"
+    },
+    {
+      "id": "en-b1-u12-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She shouldn't have shouting at him.",
+      "answer": [
+        "She shouldn't have shouted at him."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      },
+      "review_of": "en-b1-u11-l04-ex15"
+    },
+    {
+      "id": "en-b1-u12-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Where do you live?' → He asked me where I ___ .",
+      "options": [
+        "lived",
+        "did live",
+        "do live",
+        "live did"
+      ],
+      "answer": [
+        "lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pregunta indirecta.",
+        "incorrect": "Revisa esto: Pregunta indirecta."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El teléfono está debajo de la silla.",
+      "answer": [
+        "The phone is under the chair."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Debajo de = under.",
+        "incorrect": "Revisa esto: Debajo de = under."
+      },
+      "review_of": "en-a1-u06-l03-ex09"
+    },
+    {
+      "id": "en-b1-u12-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "He's been working since six. He ___ be exhausted.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "mustn't"
+      ],
+      "answer": [
+        "must"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deducción.",
+        "incorrect": "Revisa esto: Deducción."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's a lovely day, ___ ?",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it",
+        "does it"
+      ],
+      "answer": [
+        "isn't it"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Question tag.",
+        "incorrect": "Revisa esto: Question tag."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it was raining, we played football.",
+      "options": [
+        "Although",
+        "Despite",
+        "In spite",
+        "However"
+      ],
+      "answer": [
+        "Although"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste.",
+        "incorrect": "Revisa esto: Contraste."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-neither"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I love pizza.' — '___ .'",
+      "options": [
+        "So do I",
+        "So I do",
+        "Neither do I",
+        "So am I"
+      ],
+      "answer": [
+        "So do I"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So do I.",
+        "incorrect": "Revisa esto: So do I."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ have shouted. I'm sorry.",
+      "options": [
+        "shouldn't",
+        "couldn't",
+        "won't",
+        "mustn't"
+      ],
+      "answer": [
+        "shouldn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shouldn't have.",
+        "incorrect": "Revisa esto: Shouldn't have."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "By the time we arrived, the film ___ .",
+      "options": [
+        "had started",
+        "started",
+        "has started",
+        "was starting"
+      ],
+      "answer": [
+        "had started"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Past perfect.",
+        "incorrect": "Revisa esto: Past perfect."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (not / have to) wear a uniform last year.",
+      "answer": [
+        "didn't have to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't have to.",
+        "incorrect": "Revisa esto: Didn't have to."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "question-tags"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can swim, ___ you? (no)",
+      "answer": [
+        "can't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Can → can't.",
+        "incorrect": "Revisa esto: Can → can't."
+      },
+      "review_of": "en-b1-u10-l03-ex12"
+    },
+    {
+      "id": "en-b1-u12-l06-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've been ___ English for three years. (aprendiendo)",
+      "answer": [
+        "learning",
+        "studying"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect continuous.",
+        "incorrect": "Revisa esto: Present perfect continuous."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "If I will get the job, I'll buy a car.",
+      "answer": [
+        "If I get the job, I'll buy a car."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + presente.",
+        "incorrect": "Revisa esto: If + presente."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have seen her yesterday.",
+      "answer": [
+        "I saw her yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado simple.",
+        "incorrect": "Revisa esto: Pasado simple."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv07",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Soy bastante tímido, pero mi hermano es muy extrovertido.",
+      "answer": [
+        "I'm quite shy, but my brother is very outgoing.",
+        "I am quite shy, but my brother is very outgoing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Quite + adjetivo; outgoing = extrovertido.",
+        "incorrect": "Revisa esto: Quite + adjetivo; outgoing = extrovertido."
+      },
+      "review_of": "en-b1-u01-l01-ex13"
+    },
+    {
+      "id": "en-b1-u12-l06-rv08",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "cheap",
+          "right": "barato"
+        },
+        {
+          "left": "expensive",
+          "right": "caro"
+        },
+        {
+          "left": "price",
+          "right": "precio"
+        },
+        {
+          "left": "dollar",
+          "right": "dólar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son palabras básicas para hablar de dinero.",
+        "incorrect": "Revisa esto: Son palabras básicas para hablar de dinero."
+      },
+      "review_of": "en-a1-u08-l02-ex08"
+    },
+    {
+      "id": "en-b1-u12-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Despite of the rain, we played.",
+      "answer": [
+        "Despite the rain, we played.",
+        "In spite of the rain, we played."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite sin of.",
+        "incorrect": "Revisa esto: Despite sin of."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should of called her.",
+      "answer": [
+        "I should have called her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have.",
+        "incorrect": "Revisa esto: Should have."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué haría si tuviera más dinero?",
+      "options": [
+        "Comprar una casa en el pueblo",
+        "Viajar",
+        "Cambiar de trabajo",
+        "Mudarse al extranjero"
+      ],
+      "answer": [
+        "Comprar una casa en el pueblo"
+      ],
+      "audio_text": "When I was young, I used to live in a small village. I moved to the city in 2015 and I've lived here ever since. If I had more money, I would buy a house in the village. I wish I had moved back earlier.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: buy a house in the village.",
+        "incorrect": "Revisa esto: Dice: buy a house in the village."
+      },
+      "audio_script_id": "en-b1-u12-l06-ex21-a"
+    },
+    {
+      "id": "en-b1-u12-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Aunque estaba cansado, terminé el examen y creo que aprobaré.",
+      "answer": [
+        "Although I was tired, I finished the exam and I think I'll pass.",
+        "Even though I was tired, I finished the exam and I think I will pass.",
+        "Although I was tired, I finished the exam and I think I will pass."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Contraste + will.",
+        "incorrect": "Revisa esto: Contraste + will."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "tense-review-b1"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Cuentas una experiencia difícil en una entrevista.",
+      "turns": [
+        {
+          "speaker": "Interviewer",
+          "text": "Can you tell me about a challenge you've overcome?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Last year I had to learn a new system in two weeks. Although it was difficult, I managed to do it, and in the end my boss was very pleased.",
+            "Last year I must learn system two weeks. Although difficult but I did.",
+            "I have a big challenge."
+          ],
+          "best": 0,
+          "why_es": "Pasado + contraste."
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "What did you learn from that experience?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I learnt that I'm stronger than I thought. I should have asked for help earlier, though.",
+            "I learn I am strong. I should ask help before.",
+            "Nothing."
+          ],
+          "best": 0,
+          "why_es": "Reflexión + should have."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "tense-review-b1",
+        "challenges-talk",
+        "contrast-linkers"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un texto (12 a 15 frases) sobre un reto personal que superaste, tus planes futuros y un deseo: usa pasado simple, continuo y perfecto, present perfect, un condicional, wish, contraste (although / despite) y una frase de estilo indirecto.",
+      "min_words": 80,
+      "self_check_es": [
+        "¿Cuentas el reto con tiempos de pasado?",
+        "¿Usas present perfect y un condicional?",
+        "¿Usas wish y un conector de contraste?",
+        "¿Incluyes estilo indirecto?"
+      ],
+      "model_answer": "Last year I decided to learn English. Although I had never studied it seriously, I was determined to succeed. I started going to classes twice a week and I've been practising every day for a year. My teacher told me that I would pass the exam if I kept studying. Despite being tired after work, I never gave up. If I keep practising, I'll improve even more. Now I'm applying for a job abroad. When I get it, I'll move to London. I wish I had started earlier, but I'm proud of what I've achieved.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u12-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "opinion-essay"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, a uniform makes everyone equal.",
+      "options": [
+        "Firstly",
+        "However",
+        "In conclusion",
+        "For example"
+      ],
+      "answer": [
+        "Firstly"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Primer argumento.",
+        "incorrect": "Revisa esto: Primer argumento."
+      },
+      "review_of": "en-b1-u08-l06-ex10"
+    },
+    {
+      "id": "en-b1-u12-l06-rv10",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have went to Paris twice.",
+      "answer": [
+        "I've been to Paris twice.",
+        "I have been to Paris twice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para visitas se usa been.",
+        "incorrect": "Revisa esto: Para visitas se usa been."
+      },
+      "review_of": "en-a2-u08-l06-ex09"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "since / for → present perfect",
+      "If + presente, will · If + pasado, would",
+      "although · despite · however",
+      "So do I · Neither do I · should have"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-challenges-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-contrast-linkers"
+    },
+    {
+      "type": "grammar",
+      "id": "en-so-neither"
+    },
+    {
+      "type": "grammar",
+      "id": "en-tense-review-b1"
+    },
+    {
+      "type": "grammar",
+      "id": "en-write-story"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

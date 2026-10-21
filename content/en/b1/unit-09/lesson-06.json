@@ -1,0 +1,826 @@
+{
+  "id": "en-b1-u09-l06",
+  "language": "en",
+  "level": "B1",
+  "unit": 9,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 9",
+    "es": "Checkpoint 9"
+  },
+  "objective": "Al terminar demuestras que hablas del medio ambiente con cuantificadores, posibilidad, consecuencias y discusiones razonadas.",
+  "est_minutes": 40,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 9: vocabulario ambiental, cuantificadores, may / might / could, so / such … that y discusión de soluciones."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario medioambiental, cuantificadores (all, most, none, both, neither, each, every), may / might / could, so… that / such… that y expresiones para discutir.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 9**\n\n- *climate change · pollution · recycle · endangered · Temperatures are rising.*\n- *all · most · some · none of · both · neither · each / every + singular*\n- *It might rain. · It may not be safe. · It could be dangerous. · Maybe / probably.*\n- *so tired that … · such a hot day that … · too / enough*\n- *I see your point, but … · How about …? · Shall we vote?*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u09-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un problema o una solución?",
+      "categories": [
+        "Problem",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "global warming",
+          "category": "Problem"
+        },
+        {
+          "text": "deforestation",
+          "category": "Problem"
+        },
+        {
+          "text": "plastic waste",
+          "category": "Problem"
+        },
+        {
+          "text": "recycle",
+          "category": "Solution"
+        },
+        {
+          "text": "solar energy",
+          "category": "Solution"
+        },
+        {
+          "text": "plant trees",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Temperatures ___ every year.",
+      "options": [
+        "are rising",
+        "raise",
+        "are raising",
+        "rises"
+      ],
+      "answer": [
+        "are rising"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo.",
+        "incorrect": "Revisa esto: Presente continuo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-statements"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm tired.' → She said she ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "will be"
+      ],
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente → pasado.",
+        "incorrect": "Revisa esto: Presente → pasado."
+      },
+      "review_of": "en-b1-u07-l06-ex04"
+    },
+    {
+      "id": "en-b1-u09-l06-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "body-health",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada palabra.",
+      "categories": [
+        "Body parts",
+        "Pain and illness"
+      ],
+      "items": [
+        {
+          "text": "head",
+          "category": "Body parts"
+        },
+        {
+          "text": "throat",
+          "category": "Body parts"
+        },
+        {
+          "text": "stomach",
+          "category": "Body parts"
+        },
+        {
+          "text": "back",
+          "category": "Body parts"
+        },
+        {
+          "text": "arm",
+          "category": "Body parts"
+        },
+        {
+          "text": "leg",
+          "category": "Body parts"
+        },
+        {
+          "text": "headache",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "toothache",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "cold",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "cough",
+          "category": "Pain and illness"
+        },
+        {
+          "text": "fever",
+          "category": "Pain and illness"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a2-u06-l01-ex12"
+    },
+    {
+      "id": "en-b1-u09-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ student has a project.",
+      "options": [
+        "Every",
+        "All",
+        "Both",
+        "Most"
+      ],
+      "answer": [
+        "Every"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every + singular.",
+        "incorrect": "Revisa esto: Every + singular."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the two roads is safe. Both are closed.",
+      "options": [
+        "Neither",
+        "Either",
+        "Both",
+        "Each"
+      ],
+      "answer": [
+        "Neither"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither.",
+        "incorrect": "Revisa esto: Neither."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of them recycle. Nobody throws plastic away.",
+      "options": [
+        "All",
+        "None",
+        "Few",
+        "Either"
+      ],
+      "answer": [
+        "All"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nobody throws → all recycle.",
+        "incorrect": "Revisa esto: Nobody throws → all recycle."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv03",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "job-interview"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere ser en el futuro?",
+      "options": [
+        "A manager",
+        "A sales assistant",
+        "A teacher",
+        "A customer"
+      ],
+      "answer": [
+        "A manager"
+      ],
+      "audio_text": "I worked as a sales assistant for three years. I'm good at talking to customers and I'd like to become a manager.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I'd like to become a manager'.",
+        "incorrect": "Revisa esto: Dice 'I'd like to become a manager'."
+      },
+      "audio_script_id": "en-b1-u09-l06-rv03-a",
+      "review_of": "en-a2-u07-l04-ex11"
+    },
+    {
+      "id": "en-b1-u09-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "It ___ rain later. Take an umbrella.",
+      "options": [
+        "might",
+        "might to",
+        "mights",
+        "will to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo.",
+        "incorrect": "Revisa esto: Might + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ it will rain tomorrow.",
+      "options": [
+        "Maybe",
+        "May be",
+        "May",
+        "Might to"
+      ],
+      "answer": [
+        "Maybe"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Maybe.",
+        "incorrect": "Revisa esto: Maybe."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was ___ hot that we stayed inside.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "enough"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So + adjetivo.",
+        "incorrect": "Revisa esto: So + adjetivo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "It was ___ a hot day that we stayed inside.",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "very"
+      ],
+      "answer": [
+        "such"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Such a + adjetivo + sustantivo.",
+        "incorrect": "Revisa esto: Such a + adjetivo + sustantivo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 20,
+      "prompt": "There were ___ many people that we left.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "enough"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So many.",
+        "incorrect": "Revisa esto: So many."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase shows polite disagreement?",
+      "options": [
+        "I see your point, but …",
+        "You're wrong.",
+        "No way.",
+        "That's silly."
+      ],
+      "answer": [
+        "I see your point, but …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Educado.",
+        "incorrect": "Revisa esto: Educado."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex12",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "___ about reusing bottles? (Qué tal)",
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "environment-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "Plastic is ___ of the biggest problems. (uno)",
+      "answer": [
+        "one"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! One of the biggest.",
+        "incorrect": "Revisa esto: One of the biggest."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Yes, I'm.",
+      "answer": [
+        "Yes, I am."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En la respuesta corta afirmativa no se contrae.",
+        "incorrect": "Revisa esto: En la respuesta corta afirmativa no se contrae."
+      },
+      "review_of": "en-a1-u02-l04-ex05"
+    },
+    {
+      "id": "en-b1-u09-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "personality"
+      ],
+      "est_seconds": 20,
+      "prompt": "The opposite of 'patient' is…",
+      "options": [
+        "impatient",
+        "unpatient",
+        "dispatient",
+        "inpatient"
+      ],
+      "answer": [
+        "impatient"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delante de p se usa im-: impatient.",
+        "incorrect": "Revisa esto: Delante de p se usa im-: impatient."
+      },
+      "review_of": "en-b1-u01-l01-ex06"
+    },
+    {
+      "id": "en-b1-u09-l06-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Every students has a book.",
+      "answer": [
+        "Every student has a book."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Every + singular.",
+        "incorrect": "Revisa esto: Every + singular."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv06",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "are",
+        "made",
+        "in",
+        "Asia",
+        ".",
+        "These",
+        "phones"
+      ],
+      "answer": [
+        "These",
+        "phones",
+        "are",
+        "made",
+        "in",
+        "Asia",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Are + participio.",
+        "incorrect": "Revisa esto: Are + participio."
+      },
+      "review_of": "en-b1-u05-l02-ex14"
+    },
+    {
+      "id": "en-b1-u09-l06-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "possibility-modals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It maybe rains tomorrow.",
+      "answer": [
+        "It may rain tomorrow.",
+        "Maybe it will rain tomorrow.",
+        "It might rain tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! May vs maybe.",
+        "incorrect": "Revisa esto: May vs maybe."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It was so a long day.",
+      "answer": [
+        "It was such a long day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Such a.",
+        "incorrect": "Revisa esto: Such a."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué podría hacer el ayuntamiento?",
+      "options": [
+        "Construir carriles bici",
+        "Cerrar la ciudad",
+        "Prohibir bicicletas",
+        "Plantar árboles"
+      ],
+      "answer": [
+        "Construir carriles bici"
+      ],
+      "audio_text": "There are so many cars in my city that the air is dirty. If we had more cycle lanes, fewer people would drive. Maybe the council will build some next year.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the council will build some.",
+        "incorrect": "Revisa esto: Dice: the council will build some."
+      },
+      "audio_script_id": "en-b1-u09-l06-ex17-a"
+    },
+    {
+      "id": "en-b1-u09-l06-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Era un verano tan caluroso que casi todos los ríos se secaron.",
+      "answer": [
+        "It was such a hot summer that almost all the rivers dried up.",
+        "It was such a hot summer that nearly all the rivers dried up.",
+        "It was such a hot summer that almost every river dried up."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Such... that.",
+        "incorrect": "Revisa esto: Such... that."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "allowed-supposed"
+      ],
+      "est_seconds": 25,
+      "prompt": "We ___ allowed to use phones last year. (no)",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Weren't allowed.",
+        "incorrect": "Revisa esto: Weren't allowed."
+      },
+      "review_of": "en-b1-u08-l06-ex12"
+    },
+    {
+      "id": "en-b1-u09-l06-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "home"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live in the London.",
+      "answer": [
+        "I live in London."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las ciudades no llevan artículo.",
+        "incorrect": "Revisa esto: Las ciudades no llevan artículo."
+      },
+      "review_of": "en-a1-u06-l05-ex03"
+    },
+    {
+      "id": "en-b1-u09-l06-ex19",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Participas en una discusión sobre medio ambiente.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "What should our city do to reduce pollution?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I think we should have more cycle lanes. If we did that, fewer people would drive.",
+            "I think we have more cycle lane. If we do that, fewer people drives.",
+            "Pollution is bad."
+          ],
+          "best": 0,
+          "why_es": "Opinión + condicional."
+        },
+        {
+          "speaker": "Friend",
+          "text": "That might be expensive, though."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I see your point, but it would save money on health in the long term.",
+            "I am see your point but is save money.",
+            "No it isn't."
+          ],
+          "best": 0,
+          "why_es": "Matiz y razón."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u09-l06-rv09",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 15,
+      "prompt": "El director rechazó la nueva propuesta sin leerla.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se ofreció a leerla.",
+        "incorrect": "Revisa esto: Se ofreció a leerla."
+      },
+      "review_of": "en-b1-u07-l04-ex04"
+    },
+    {
+      "id": "en-b1-u09-l06-ex20",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "environment-talk",
+        "quantifiers-b1",
+        "possibility-modals",
+        "so-such-that",
+        "discussion-b1"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un párrafo (8 a 10 frases) sobre un problema ambiental de tu zona: qué ocurre, a cuánta gente afecta, qué podría pasar y qué propones.",
+      "min_words": 66,
+      "self_check_es": [
+        "¿Usaste un cuantificador (most, few, both)?",
+        "¿Usaste might/could o un condicional?",
+        "¿Usaste so… that o such… that?",
+        "¿Propusiste una solución?"
+      ],
+      "model_answer": "The air pollution in my city is so bad that many people have breathing problems. Most of the pollution comes from cars, and few people use public transport. It might get worse if we do nothing. I think we should build more cycle lanes. If we did that, fewer people would drive. Both the council and citizens need to act. How about starting with the city centre? Overall, I believe that small changes could make a big difference.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "climate change · pollution · recycle",
+      "all · most · none of · both · neither",
+      "It might rain. · Maybe it will …",
+      "so … that · such a … that"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-environment-talk"
+    },
+    {
+      "type": "grammar",
+      "id": "en-quantifiers-b1"
+    },
+    {
+      "type": "grammar",
+      "id": "en-possibility-modals"
+    },
+    {
+      "type": "grammar",
+      "id": "en-so-such-that"
+    },
+    {
+      "type": "grammar",
+      "id": "en-discussion-b1"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

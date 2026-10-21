@@ -1,0 +1,995 @@
+{
+  "id": "en-b2-u10-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 10,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Arts and creativity",
+    "es": "Arte, cine, música y literatura"
+  },
+  "objective": "Al terminar hablas de arte, cine, música y literatura con vocabulario de nivel B2 y expresas gustos y juicios estéticos con matices.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El arte despierta opiniones: ¿qué hace buena a una película, una novela o un cuadro? Necesitas vocabulario para describir obras y justificar lo que te gusta o no."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Rosa",
+        "text": "Did you manage to see the new exhibition at the modern art museum?",
+        "es": "¿Conseguiste ver la nueva exposición del museo de arte moderno?"
+      },
+      {
+        "speaker": "Kai",
+        "text": "I did, and it left me speechless. The installations were thought-provoking, especially the one made entirely from recycled materials.",
+        "es": "Sí, y me dejó sin palabras. Las instalaciones daban que pensar, sobre todo una hecha íntegramente con materiales reciclados."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "I'm not a big fan of abstract art, to be honest. Sometimes I feel it's pretentious: a blank canvas sold for a fortune.",
+        "es": "No soy muy fan del arte abstracto, la verdad. A veces me parece pretencioso: un lienzo en blanco vendido por una fortuna."
+      },
+      {
+        "speaker": "Kai",
+        "text": "I see your point, but art isn't always about technical skill. It's about provoking an emotion or a question.",
+        "es": "Entiendo tu punto, pero el arte no siempre trata de habilidad técnica. Trata de provocar una emoción o una pregunta."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "Fair enough. What about the concert last night? Was the orchestra as good as the reviews said?",
+        "es": "Tienes razón. ¿Y el concierto de anoche? ¿Fue la orquesta tan buena como decían las críticas?"
+      },
+      {
+        "speaker": "Kai",
+        "text": "Even better. The conductor was electrifying, and the soloist's performance was flawless. The audience gave a standing ovation.",
+        "es": "Aún mejor. El director era electrizante y la interpretación del solista fue impecable. El público aplaudió de pie."
+      },
+      {
+        "speaker": "Rosa",
+        "text": "I'm jealous! I wish I'd gone. I'm reading a novel at the moment that I can't put down: beautifully written, with a gripping plot and complex characters.",
+        "es": "¡Qué envidia! Ojalá hubiera ido. Ahora estoy leyendo una novela que no puedo soltar: preciosamente escrita, con una trama absorbente y personajes complejos."
+      },
+      {
+        "speaker": "Kai",
+        "text": "Sounds like a page-turner. Who's the author?",
+        "es": "Suena a libro que engancha. ¿Quién es el autor?"
+      },
+      {
+        "speaker": "Rosa",
+        "text": "A debut writer. The critics are calling it the best first novel in years.",
+        "es": "Un escritor debutante. La crítica lo llama la mejor primera novela en años."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-exhibition",
+        "lemma": "exhibition",
+        "pos": "noun",
+        "ipa": "/ˌeksɪˈbɪʃn/",
+        "es": "exposición",
+        "example": "A new exhibition."
+      },
+      {
+        "id": "en-speechless",
+        "lemma": "speechless",
+        "pos": "adj",
+        "ipa": "/ˈspiːtʃləs/",
+        "es": "sin palabras",
+        "example": "It left me speechless."
+      },
+      {
+        "id": "en-installation",
+        "lemma": "installation",
+        "pos": "noun",
+        "ipa": "/ˌɪnstəˈleɪʃn/",
+        "es": "instalación artística",
+        "example": "An art installation."
+      },
+      {
+        "id": "en-thought-provoking",
+        "lemma": "thought-provoking",
+        "pos": "adj",
+        "ipa": "/ˈθɔːt prəˌvəʊkɪŋ/",
+        "es": "que da que pensar",
+        "example": "A thought-provoking film."
+      },
+      {
+        "id": "en-pretentious",
+        "lemma": "pretentious",
+        "pos": "adj",
+        "ipa": "/prɪˈtenʃəs/",
+        "es": "pretencioso",
+        "example": "Pretentious art."
+      },
+      {
+        "id": "en-canvas",
+        "lemma": "canvas",
+        "pos": "noun",
+        "ipa": "/ˈkænvəs/",
+        "es": "lienzo",
+        "example": "A blank canvas."
+      },
+      {
+        "id": "en-conductor",
+        "lemma": "conductor",
+        "pos": "noun",
+        "ipa": "/kənˈdʌktə/",
+        "es": "director de orquesta",
+        "example": "The conductor."
+      },
+      {
+        "id": "en-flawless",
+        "lemma": "flawless",
+        "pos": "adj",
+        "ipa": "/ˈflɔːləs/",
+        "es": "impecable",
+        "example": "A flawless performance."
+      },
+      {
+        "id": "en-standing-ovation",
+        "lemma": "standing ovation",
+        "pos": "noun",
+        "ipa": "/ˈstændɪŋ əʊˈveɪʃn/",
+        "es": "ovación en pie",
+        "example": "A standing ovation."
+      },
+      {
+        "id": "en-gripping",
+        "lemma": "gripping",
+        "pos": "adj",
+        "ipa": "/ˈɡrɪpɪŋ/",
+        "es": "absorbente",
+        "example": "A gripping plot."
+      },
+      {
+        "id": "en-page-turner",
+        "lemma": "page-turner",
+        "pos": "noun",
+        "ipa": "/ˈpeɪdʒ ˌtɜːnə/",
+        "es": "libro que engancha",
+        "example": "It's a page-turner."
+      },
+      {
+        "id": "en-debut",
+        "lemma": "debut",
+        "pos": "adj",
+        "ipa": "/ˈdeɪbjuː/",
+        "es": "debut",
+        "example": "A debut novel."
+      }
+    ],
+    "audio_script_id": "en-b2-u10-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de arte y cultura**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Artes visuales | *painting, sculpture, installation, exhibition, gallery, canvas, portrait, landscape, abstract* |\n| Cine y teatro | *plot, cast, director, screenplay, scene, soundtrack, special effects, sequel, stage, rehearsal* |\n| Música | *orchestra, conductor, soloist, album, lyrics, melody, gig, concert, tune* |\n| Literatura | *novel, author, character, plot, setting, narrator, bestseller, memoir, poetry* |\n| Valoración | *thought-provoking, moving, gripping, hilarious, dull, predictable, overrated, masterpiece, original* |\n\n**Adjetivos de valoración**\n\n- Positivos: *stunning, brilliant, captivating, moving, compelling, outstanding, flawless, memorable*.\n- Negativos: *dull, predictable, clichéd, tedious, shallow, pretentious, overrated, forgettable*.\n- Matizados: *quirky (peculiar), eccentric, offbeat, edgy, avant-garde*.\n\n**Colocaciones**\n\n- *give a performance · receive rave reviews · win critical acclaim · stage a play · play the lead role · direct a film · release an album · top the charts · get a standing ovation · be a box-office hit/flop*.\n\n**-ed y -ing en adjetivos**\n\n- *The film was **boring** → I was **bored**.* · *The ending was **shocking** → I was **shocked**.* (-ing describe la cosa; -ed, cómo se siente la persona).\n\n**Falsos amigos**\n\n- *Sensible* ≠ *sensitive*. · *Library* (biblioteca) ≠ *librería* (bookshop). · *Argument* (discusión) ≠ *argumento* (plot).\n\n**Errores típicos**\n\n- ✘ *The argument of the film is boring.* → ✔ *The plot of the film is boring.*\n- ✘ *I was very bored with the film because it was bored.* → ✔ *… because it was boring.*\n- ✘ *It's a film very interesting.* → ✔ *It's a very interesting film.*\n- ✘ *I like very much this singer.* → ✔ *I like this singer very much.* / *I really like …*\n\n**Ojo:** *Play* (obra de teatro; verbo jugar/tocar/interpretar) · *Piece* (pieza) · *Work* (obra) · *Artwork* (obra de arte) · *Scene* (escena) / *Scenery* (paisaje, decorado).\n\nPronunciación: *exhibition* /ˌeksɪˈbɪʃn/ · *conductor* /kənˈdʌktə/ · *pretentious* /prɪˈtenʃəs/ · *flawless* /ˈflɔːləs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The argument of the film",
+        "right": "The plot of the film",
+        "note": "Argumento = plot."
+      },
+      {
+        "wrong": "I like very much this",
+        "right": "I like this very much",
+        "note": "Orden."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "argument",
+        "es_false": "argumento",
+        "real": "discusión",
+        "note": "Argumento (película) = plot."
+      },
+      {
+        "word": "library",
+        "es_false": "librería",
+        "real": "biblioteca",
+        "note": "Librería = bookshop."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u10-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "exhibition",
+          "right": "exposición"
+        },
+        {
+          "left": "gripping",
+          "right": "absorbente"
+        },
+        {
+          "left": "flawless",
+          "right": "impecable"
+        },
+        {
+          "left": "plot",
+          "right": "argumento"
+        },
+        {
+          "left": "pretentious",
+          "right": "pretencioso"
+        },
+        {
+          "left": "page-turner",
+          "right": "libro que engancha"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario artístico B2.",
+        "incorrect": "Revisa esto: Vocabulario artístico B2."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Valoración positiva o negativa?",
+      "categories": [
+        "Positive",
+        "Negative"
+      ],
+      "items": [
+        {
+          "text": "captivating",
+          "category": "Positive"
+        },
+        {
+          "text": "moving",
+          "category": "Positive"
+        },
+        {
+          "text": "masterpiece",
+          "category": "Positive"
+        },
+        {
+          "text": "flawless",
+          "category": "Positive"
+        },
+        {
+          "text": "predictable",
+          "category": "Negative"
+        },
+        {
+          "text": "tedious",
+          "category": "Negative"
+        },
+        {
+          "text": "overrated",
+          "category": "Negative"
+        },
+        {
+          "text": "forgettable",
+          "category": "Negative"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Valorar obras.",
+        "incorrect": "Revisa esto: Valorar obras."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le dejó a Kai la exposición?",
+      "options": [
+        "Sin palabras",
+        "Aburrido",
+        "Enfadado",
+        "Cansado"
+      ],
+      "answer": [
+        "Sin palabras"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: it left me speechless.",
+        "incorrect": "Revisa esto: Dice: it left me speechless."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué plantea como posible dificultad?",
+      "options": [
+        "Comparar resultados si algunos colegios no participan",
+        "Pagar los costes",
+        "Encontrar profesores",
+        "Convencer a los padres"
+      ],
+      "answer": [
+        "Comparar resultados si algunos colegios no participan"
+      ],
+      "audio_text": "Building on Maria's point, I think a trial period would reduce the risk. However, to play devil's advocate, wouldn't it be difficult to compare results if some schools don't take part?",
+      "feedback": {
+        "correct": "¡Correcto! Dice: difficult to compare results if some schools don't take part.",
+        "incorrect": "Revisa esto: Dice: difficult to compare results if some schools don't take part."
+      },
+      "audio_script_id": "en-b2-u10-l01-rv01-a",
+      "review_of": "en-b2-u05-l05-ex17"
+    },
+    {
+      "id": "en-b2-u10-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 20,
+      "prompt": "The price ___ by 10 per cent last year.",
+      "options": [
+        "rose",
+        "raised",
+        "arose",
+        "rised"
+      ],
+      "answer": [
+        "rose"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rise no lleva objeto.",
+        "incorrect": "Revisa esto: Rise no lleva objeto."
+      },
+      "review_of": "en-b2-u04-l05-ex07"
+    },
+    {
+      "id": "en-b2-u10-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué critica Rosa del arte abstracto?",
+      "options": [
+        "Que a veces le parece pretencioso",
+        "Que es barato",
+        "Que es feo",
+        "Que es demasiado realista"
+      ],
+      "answer": [
+        "Que a veces le parece pretencioso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Sometimes I feel it's pretentious.",
+        "incorrect": "Revisa esto: Dice: Sometimes I feel it's pretentious."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "sequencing"
+      ],
+      "est_seconds": 20,
+      "prompt": "___, I opened the door. Then I saw a cat.",
+      "options": [
+        "First",
+        "Finally",
+        "Later",
+        "Yesterday"
+      ],
+      "answer": [
+        "First"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! First indica el primer paso de la historia.",
+        "incorrect": "Revisa esto: First indica el primer paso de la historia."
+      },
+      "review_of": "en-a2-u01-l05-ex01"
+    },
+    {
+      "id": "en-b2-u10-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "mixed-conditionals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You should to have told me.",
+      "answer": [
+        "You should have told me."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      },
+      "review_of": "en-b2-u02-l03-ex16"
+    },
+    {
+      "id": "en-b2-u10-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo fue el concierto?",
+      "options": [
+        "Aún mejor que las críticas, con ovación en pie",
+        "Muy aburrido",
+        "Cancelado",
+        "Normal"
+      ],
+      "answer": [
+        "Aún mejor que las críticas, con ovación en pie"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Even better… standing ovation.",
+        "incorrect": "Revisa esto: Dice: Even better… standing ovation."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 15,
+      "prompt": "Rosa ha leído la novela de un autor veterano.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es un escritor debutante.",
+        "incorrect": "Revisa esto: Es un escritor debutante."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The film was so ___ that I fell asleep.",
+      "options": [
+        "boring",
+        "bored",
+        "bore",
+        "boredom"
+      ],
+      "answer": [
+        "boring"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ing describe la cosa.",
+        "incorrect": "Revisa esto: -ing describe la cosa."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was really ___ by the ending. I didn't expect it.",
+      "options": [
+        "shocked",
+        "shocking",
+        "shock",
+        "shocks"
+      ],
+      "answer": [
+        "shocked"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! -ed describe cómo me siento.",
+        "incorrect": "Revisa esto: -ed describe cómo me siento."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-rv05",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "returns-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you got your ___? (el ticket)",
+      "answer": [
+        "receipt"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Receipt = ticket, comprobante.",
+        "incorrect": "Revisa esto: Receipt = ticket, comprobante."
+      },
+      "review_of": "en-a2-u11-l04-ex03"
+    },
+    {
+      "id": "en-b2-u10-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ of the film is about a young detective in Paris.",
+      "options": [
+        "plot",
+        "argument",
+        "arguments",
+        "history"
+      ],
+      "answer": [
+        "plot"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plot = argumento.",
+        "incorrect": "Revisa esto: Plot = argumento."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The play received rave ___ from the critics.",
+      "options": [
+        "reviews",
+        "criticisms",
+        "views",
+        "revisions"
+      ],
+      "answer": [
+        "reviews"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rave reviews.",
+        "incorrect": "Revisa esto: Rave reviews."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "The band's new album ___ the charts for three weeks.",
+      "options": [
+        "topped",
+        "topped to",
+        "tipped",
+        "headed up"
+      ],
+      "answer": [
+        "topped"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Top the charts.",
+        "incorrect": "Revisa esto: Top the charts."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's a very ___ film. (muy interesante)",
+      "options": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "answer": [
+        "interesting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden de adjetivo.",
+        "incorrect": "Revisa esto: Orden de adjetivo."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 20,
+      "prompt": "A book you can't stop reading is a...",
+      "options": [
+        "page-turner",
+        "paperweight",
+        "chapter",
+        "pamphlet"
+      ],
+      "answer": [
+        "page-turner"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Page-turner.",
+        "incorrect": "Revisa esto: Page-turner."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 25,
+      "prompt": "The pianist gave a ___ performance. (impecable)",
+      "answer": [
+        "flawless"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Flawless.",
+        "incorrect": "Revisa esto: Flawless."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 25,
+      "prompt": "The audience gave her a standing ___ . (ovación)",
+      "answer": [
+        "ovation"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Standing ovation.",
+        "incorrect": "Revisa esto: Standing ovation."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The argument of the novel takes place in Venice.",
+      "answer": [
+        "The plot of the novel takes place in Venice.",
+        "The story of the novel takes place in Venice.",
+        "The setting of the novel is Venice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plot/story, no argument.",
+        "incorrect": "Revisa esto: Plot/story, no argument."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-rv06",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-2"
+      ],
+      "est_seconds": 25,
+      "prompt": "Hard work always ___ off in the end. (da fruto)",
+      "answer": [
+        "pays"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pay off.",
+        "incorrect": "Revisa esto: Pay off."
+      },
+      "review_of": "en-b2-u07-l06-ex16"
+    },
+    {
+      "id": "en-b2-u10-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I was very bored because the film was bored.",
+      "answer": [
+        "I was very bored because the film was boring."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Boring.",
+        "incorrect": "Revisa esto: Boring."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I like very much this singer.",
+      "answer": [
+        "I like this singer very much.",
+        "I really like this singer.",
+        "I like this singer a lot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden.",
+        "incorrect": "Revisa esto: Orden."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál fue su obra favorita?",
+      "options": [
+        "Una escultura hecha con bicicletas viejas",
+        "Un cuadro abstracto",
+        "Un retrato",
+        "Una fotografía"
+      ],
+      "answer": [
+        "Una escultura hecha con bicicletas viejas"
+      ],
+      "audio_text": "The exhibition was thought-provoking, although some pieces felt pretentious. My favourite was a huge sculpture made from old bicycles. It was both moving and humorous. I left feeling inspired.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: a huge sculpture made from old bicycles.",
+        "incorrect": "Revisa esto: Dice: a huge sculpture made from old bicycles."
+      },
+      "audio_script_id": "en-b2-u10-l01-ex19-a"
+    },
+    {
+      "id": "en-b2-u10-l01-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-arts"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "La película fue absorbente y el final me dejó sin palabras.",
+      "answer": [
+        "The film was gripping and the ending left me speechless.",
+        "The movie was gripping and the ending left me speechless."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario artístico.",
+        "incorrect": "Revisa esto: Vocabulario artístico."
+      }
+    },
+    {
+      "id": "en-b2-u10-l01-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-simple-continuous"
+      ],
+      "est_seconds": 20,
+      "prompt": "Look! The manager ___ a new project at the moment.",
+      "options": [
+        "is presenting",
+        "presents",
+        "present",
+        "presenting"
+      ],
+      "answer": [
+        "is presenting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! At the moment: presente continuo.",
+        "incorrect": "Revisa esto: At the moment: presente continuo."
+      },
+      "review_of": "en-a2-u07-l02-ex02"
+    },
+    {
+      "id": "en-b2-u10-l01-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-neither"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I love pizza.' — '___ .'",
+      "options": [
+        "So do I",
+        "So I do",
+        "Neither do I",
+        "So am I"
+      ],
+      "answer": [
+        "So do I"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! So do I.",
+        "incorrect": "Revisa esto: So do I."
+      },
+      "review_of": "en-b1-u12-l06-ex12"
+    },
+    {
+      "id": "en-b2-u10-l01-rv09",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 25,
+      "prompt": "We always work ___ at the end of the month. (horas extra)",
+      "answer": [
+        "overtime"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Overtime = horas extra.",
+        "incorrect": "Revisa esto: Overtime = horas extra."
+      },
+      "review_of": "en-b1-u03-l01-ex11"
+    },
+    {
+      "id": "en-b2-u10-l01-ex21",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-arts"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "exhibition",
+          "ipa": "/ˌeksɪˈbɪʃn/",
+          "tip_es": "Acento en 'bi'."
+        },
+        {
+          "text": "pretentious",
+          "ipa": "/prɪˈtenʃəs/",
+          "tip_es": "Acento en 'ten'."
+        },
+        {
+          "text": "conductor",
+          "ipa": "/kənˈdʌktə/",
+          "tip_es": "Acento en 'duc'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It left me speechless.",
+      "The plot was gripping.",
+      "a thought-provoking exhibition",
+      "boring (cosa) / bored (persona)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-exhibition"
+    },
+    {
+      "type": "vocab",
+      "id": "en-speechless"
+    },
+    {
+      "type": "vocab",
+      "id": "en-installation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-thought-provoking"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pretentious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-canvas"
+    },
+    {
+      "type": "vocab",
+      "id": "en-conductor"
+    },
+    {
+      "type": "vocab",
+      "id": "en-flawless"
+    },
+    {
+      "type": "vocab",
+      "id": "en-standing-ovation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gripping"
+    },
+    {
+      "type": "grammar",
+      "id": "en-arts-b2"
+    }
+  ]
+}

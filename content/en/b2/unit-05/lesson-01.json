@@ -1,0 +1,962 @@
+{
+  "id": "en-b2-u05-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 5,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Mind and body",
+    "es": "Mente, cuerpo y bienestar"
+  },
+  "objective": "Al terminar hablas de salud física y mental, hábitos y bienestar con vocabulario de nivel B2, y das tu opinión sobre estilos de vida.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Dormir mal, estrés, ansiedad, ejercicio, alimentación. Hablar de salud va más allá de 'me duele la cabeza': necesitas vocabulario para hábitos, prevención y salud mental."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Dr. Patel",
+        "text": "So, what brings you in today, Sam?",
+        "es": "Bueno, ¿qué te trae hoy por aquí, Sam?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "I've been feeling run down for weeks. I'm exhausted all the time, and I have trouble concentrating at work.",
+        "es": "Llevo semanas sintiéndome agotado. Estoy cansado todo el tiempo y me cuesta concentrarme en el trabajo."
+      },
+      {
+        "speaker": "Dr. Patel",
+        "text": "How are you sleeping?",
+        "es": "¿Cómo duermes?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Badly. I lie awake until two in the morning, then I wake up at six. I'm under a lot of pressure at the moment.",
+        "es": "Mal. Me quedo despierto hasta las dos de la mañana y me despierto a las seis. Estoy sometido a mucha presión en este momento."
+      },
+      {
+        "speaker": "Dr. Patel",
+        "text": "That could be stress-related. What about your diet and exercise?",
+        "es": "Eso podría estar relacionado con el estrés. ¿Y la dieta y el ejercicio?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "I skip breakfast, I live on coffee and sandwiches, and I haven't been to the gym since January.",
+        "es": "Me salto el desayuno, vivo de café y bocadillos y no voy al gimnasio desde enero."
+      },
+      {
+        "speaker": "Dr. Patel",
+        "text": "I see. Your blood pressure is slightly high, but nothing alarming. I'd recommend a few lifestyle changes: regular meals, moderate exercise and a fixed bedtime.",
+        "es": "Ya veo. Tu tensión arterial está algo alta, pero nada alarmante. Te recomiendo algunos cambios de estilo de vida: comidas regulares, ejercicio moderado y una hora fija de acostarte."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Do you think I should see a therapist? I sometimes feel anxious for no reason.",
+        "es": "¿Crees que debería ir a un terapeuta? A veces me siento ansioso sin motivo."
+      },
+      {
+        "speaker": "Dr. Patel",
+        "text": "It's worth considering. Mental health is as important as physical health, and talking about it is a sign of strength, not weakness.",
+        "es": "Vale la pena planteárselo. La salud mental es tan importante como la física y hablar de ello es señal de fortaleza, no de debilidad."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-run-down",
+        "lemma": "run down",
+        "pos": "adj",
+        "ipa": "/rʌn daʊn/",
+        "es": "agotado, bajo de defensas",
+        "example": "I feel run down."
+      },
+      {
+        "id": "en-have-trouble-ing",
+        "lemma": "have trouble + -ing",
+        "pos": "phrase",
+        "ipa": "/hæv ˈtrʌbl/",
+        "es": "tener problemas para",
+        "example": "I have trouble sleeping."
+      },
+      {
+        "id": "en-lie-awake",
+        "lemma": "lie awake",
+        "pos": "phrase",
+        "ipa": "/laɪ əˈweɪk/",
+        "es": "no poder dormir",
+        "example": "I lie awake at night."
+      },
+      {
+        "id": "en-under-pressure",
+        "lemma": "under pressure",
+        "pos": "phrase",
+        "ipa": "/ˈʌndə ˈpreʃə/",
+        "es": "bajo presión",
+        "example": "Under a lot of pressure."
+      },
+      {
+        "id": "en-stress-related",
+        "lemma": "stress-related",
+        "pos": "adj",
+        "ipa": "/stres rɪˈleɪtɪd/",
+        "es": "relacionado con el estrés",
+        "example": "A stress-related illness."
+      },
+      {
+        "id": "en-skip",
+        "lemma": "skip",
+        "pos": "verb",
+        "ipa": "/skɪp/",
+        "es": "saltarse",
+        "example": "Skip breakfast."
+      },
+      {
+        "id": "en-blood-pressure",
+        "lemma": "blood pressure",
+        "pos": "noun",
+        "ipa": "/blʌd ˈpreʃə/",
+        "es": "tensión arterial",
+        "example": "High blood pressure."
+      },
+      {
+        "id": "en-lifestyle",
+        "lemma": "lifestyle",
+        "pos": "noun",
+        "ipa": "/ˈlaɪfstaɪl/",
+        "es": "estilo de vida",
+        "example": "A healthy lifestyle."
+      },
+      {
+        "id": "en-anxious",
+        "lemma": "anxious",
+        "pos": "adj",
+        "ipa": "/ˈæŋkʃəs/",
+        "es": "ansioso",
+        "example": "I feel anxious."
+      },
+      {
+        "id": "en-therapist",
+        "lemma": "therapist",
+        "pos": "noun",
+        "ipa": "/ˈθerəpɪst/",
+        "es": "terapeuta",
+        "example": "See a therapist."
+      },
+      {
+        "id": "en-worth-ing",
+        "lemma": "worth + -ing",
+        "pos": "phrase",
+        "ipa": "/wɜːθ/",
+        "es": "merece la pena",
+        "example": "It's worth considering."
+      },
+      {
+        "id": "en-weakness",
+        "lemma": "weakness",
+        "pos": "noun",
+        "ipa": "/ˈwiːknəs/",
+        "es": "debilidad",
+        "example": "Not a weakness."
+      }
+    ],
+    "audio_script_id": "en-b2-u05-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de salud y bienestar**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Síntomas | *exhausted, run down, dizzy, nauseous, a sore throat, a high temperature, a rash, aches and pains* |\n| Estrés | *stress, burnout, anxiety, panic attack, overwhelmed, under pressure, unwind* |\n| Hábitos | *balanced diet, junk food, sedentary lifestyle, workout, skip meals, get enough sleep* |\n| Prevención | *check-up, vaccination, screening, immune system, lifestyle change* |\n| Salud mental | *mental health, counselling, therapy, self-esteem, resilience, mindfulness* |\n\n**Colocaciones**\n\n- *catch a cold · come down with the flu · recover from an illness · suffer from anxiety · take medication · lose weight · put on weight · keep fit · stay in shape · give up smoking · cut down on sugar · take up a sport*.\n\n**Phrasal verbs de salud**\n\n- *come down with* (enfermar de) · *get over* (superar) · *pass out* (desmayarse) · *wear off* (pasarse el efecto) · *work out* (hacer ejercicio) · *cut down on* (reducir) · *give up* (dejar) · *take up* (empezar una afición).\n\n**Patrones con have trouble / difficulty**\n\n- *have trouble + -ing* → *I have trouble sleeping.* · *have difficulty + -ing* → *She has difficulty breathing.* · *It's worth + -ing* → *It's worth trying.*\n\n**Falsos amigos**\n\n- *Constipated* = estreñido (no 'constipado': *to have a cold*). · *Embarrassed* = avergonzado (no 'embarazada': *pregnant*). · *Sensitive* ≠ *sensible*. · *Medicine* = medicina/medicamento; *drug* = droga/fármaco.\n\n**Errores típicos**\n\n- ✘ *I am constipated, I have a cold* → ✔ *I've got a cold.* (constipated = estreñido).\n- ✘ *I have a pain in my head.* → ✔ *I have a headache.* / *I've got a pain in my chest.*\n- ✘ *I have trouble to sleep.* → ✔ *I have trouble sleeping.*\n- ✘ *It's worth to try.* → ✔ *It's worth trying.*\n\n**Ojo:** *advice* (incontable) y *health* sin plural: *good health*, *a piece of advice*. ✘ *an advice* → ✔ *a piece of advice*.\n\nPronunciación: *anxious* /ˈæŋkʃəs/ · *therapist* /ˈθerəpɪst/ · *exhausted* /ɪɡˈzɔːstɪd/ · *medicine* /ˈmedsn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "an advice",
+        "right": "a piece of advice",
+        "note": "Advice incontable."
+      },
+      {
+        "wrong": "I am constipated (cold)",
+        "right": "I've got a cold",
+        "note": "Falso amigo."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "constipated",
+        "es_false": "constipado",
+        "real": "estreñido",
+        "note": "Constipado = to have a cold."
+      },
+      {
+        "word": "embarrassed",
+        "es_false": "embarazada",
+        "real": "avergonzado",
+        "note": "Embarazada = pregnant."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u05-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "run down",
+          "right": "agotado"
+        },
+        {
+          "left": "skip",
+          "right": "saltarse"
+        },
+        {
+          "left": "anxious",
+          "right": "ansioso"
+        },
+        {
+          "left": "lifestyle",
+          "right": "estilo de vida"
+        },
+        {
+          "left": "check-up",
+          "right": "revisión médica"
+        },
+        {
+          "left": "unwind",
+          "right": "relajarse"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de salud B2.",
+        "incorrect": "Revisa esto: Vocabulario de salud B2."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Hábito saludable o poco saludable?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "balanced diet",
+          "category": "Healthy"
+        },
+        {
+          "text": "regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "mindfulness",
+          "category": "Healthy"
+        },
+        {
+          "text": "junk food",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "skipping meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "sedentary lifestyle",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "lack of sleep",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hábitos.",
+        "incorrect": "Revisa esto: Hábitos."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema principal tiene Sam?",
+      "options": [
+        "Está agotado y le cuesta concentrarse",
+        "Se ha roto un brazo",
+        "Tiene fiebre alta",
+        "No tiene apetito"
+      ],
+      "answer": [
+        "Está agotado y le cuesta concentrarse"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: exhausted all the time, trouble concentrating.",
+        "incorrect": "Revisa esto: Dice: exhausted all the time, trouble concentrating."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo está la tensión de Sam?",
+      "options": [
+        "Algo alta pero no alarmante",
+        "Muy baja",
+        "Normal",
+        "Peligrosa"
+      ],
+      "answer": [
+        "Algo alta pero no alarmante"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: slightly high, but nothing alarming.",
+        "incorrect": "Revisa esto: Dice: slightly high, but nothing alarming."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "should-have"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I should had studied more.",
+      "answer": [
+        "I should have studied more."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Should have + participio.",
+        "incorrect": "Revisa esto: Should have + participio."
+      },
+      "review_of": "en-b1-u11-l04-ex14"
+    },
+    {
+      "id": "en-b2-u05-l01-rv02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "weather"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío. ¿Cómo se dice?",
+      "options": [
+        "It's cold.",
+        "It makes cold.",
+        "Is cold.",
+        "It has cold."
+      ],
+      "answer": [
+        "It's cold."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se usa it + be + adjetivo.",
+        "incorrect": "Revisa esto: Se usa it + be + adjetivo."
+      },
+      "review_of": "en-a1-u10-l01-ex04"
+    },
+    {
+      "id": "en-b2-u05-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué opina el doctor sobre hablar de salud mental?",
+      "options": [
+        "Es señal de fortaleza",
+        "Es una pérdida de tiempo",
+        "Es señal de debilidad",
+        "Es innecesario"
+      ],
+      "answer": [
+        "Es señal de fortaleza"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a sign of strength, not weakness.",
+        "incorrect": "Revisa esto: Dice: a sign of strength, not weakness."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 15,
+      "prompt": "Sam hace ejercicio regularmente en el gimnasio.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No va desde enero.",
+        "incorrect": "Revisa esto: No va desde enero."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "I have trouble ___ at night.",
+      "options": [
+        "sleeping",
+        "to sleep",
+        "sleep",
+        "slept"
+      ],
+      "answer": [
+        "sleeping"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Have trouble + -ing.",
+        "incorrect": "Revisa esto: Have trouble + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's worth ___ a doctor if the pain continues.",
+      "options": [
+        "seeing",
+        "to see",
+        "see",
+        "saw"
+      ],
+      "answer": [
+        "seeing"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Worth + -ing.",
+        "incorrect": "Revisa esto: Worth + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ down with the flu last week.",
+      "options": [
+        "came",
+        "went",
+        "fell",
+        "took"
+      ],
+      "answer": [
+        "came"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Come down with.",
+        "incorrect": "Revisa esto: Come down with."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm trying to ___ down on sugar.",
+      "options": [
+        "cut",
+        "put",
+        "go",
+        "turn"
+      ],
+      "answer": [
+        "cut"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut down on.",
+        "incorrect": "Revisa esto: Cut down on."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "He finally gave ___ smoking after twenty years.",
+      "options": [
+        "up",
+        "in",
+        "out",
+        "off"
+      ],
+      "answer": [
+        "up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Give up.",
+        "incorrect": "Revisa esto: Give up."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you have a cold in English, you are not 'constipated' but...",
+      "options": [
+        "you've got a cold",
+        "you are constipated",
+        "you are embarrassed",
+        "you are pregnant"
+      ],
+      "answer": [
+        "you've got a cold"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Falso amigo.",
+        "incorrect": "Revisa esto: Falso amigo."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 20,
+      "prompt": "My doctor gave me a useful ___ of advice.",
+      "options": [
+        "piece",
+        "bit of a",
+        "part",
+        "unit"
+      ],
+      "answer": [
+        "piece"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A piece of advice.",
+        "incorrect": "Revisa esto: A piece of advice."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "It isn't ___ expensive as London. (tan)",
+      "answer": [
+        "as"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not as … as.",
+        "incorrect": "Revisa esto: Not as … as."
+      },
+      "review_of": "en-b1-u02-l06-ex09"
+    },
+    {
+      "id": "en-b2-u05-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've been feeling run ___ for weeks. (agotado)",
+      "answer": [
+        "down"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Run down.",
+        "incorrect": "Revisa esto: Run down."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 25,
+      "prompt": "She suffers ___ anxiety. (de)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suffer from.",
+        "incorrect": "Revisa esto: Suffer from."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "postcard"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "were",
+        "here",
+        "!",
+        "Wish",
+        "you"
+      ],
+      "answer": [
+        "Wish",
+        "you",
+        "were",
+        "here",
+        "!"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Frase final típica de una postal.",
+        "incorrect": "Revisa esto: Frase final típica de una postal."
+      },
+      "review_of": "en-a2-u02-l05-ex08"
+    },
+    {
+      "id": "en-b2-u05-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have trouble to sleep.",
+      "answer": [
+        "I have trouble sleeping."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trouble + -ing.",
+        "incorrect": "Revisa esto: Trouble + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv05",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Hubo heridos?",
+      "options": [
+        "No, nadie resultó herido",
+        "Sí, varios",
+        "Un bombero",
+        "No se sabe"
+      ],
+      "answer": [
+        "No, nadie resultó herido"
+      ],
+      "audio_text": "A fire broke out in a shopping centre last night. Nobody was hurt, but the building was badly damaged. The cause hasn't been found yet.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Nobody was hurt.",
+        "incorrect": "Revisa esto: Dice: Nobody was hurt."
+      },
+      "audio_script_id": "en-b2-u05-l01-rv05-a",
+      "review_of": "en-b1-u05-l04-ex14"
+    },
+    {
+      "id": "en-b2-u05-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He gave me a very useful advice.",
+      "answer": [
+        "He gave me a very useful piece of advice.",
+        "He gave me some very useful advice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advice incontable.",
+        "incorrect": "Revisa esto: Advice incontable."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm constipated, so I'm sneezing and coughing.",
+      "answer": [
+        "I've got a cold, so I'm sneezing and coughing.",
+        "I have a cold, so I'm sneezing and coughing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Constipated ≠ constipado.",
+        "incorrect": "Revisa esto: Constipated ≠ constipado."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "Cheer her up.",
+        "Cheer up her.",
+        "Up cheer her.",
+        "Cheer to up her."
+      ],
+      "answer": [
+        "Cheer her up."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cheer up es separable.",
+        "incorrect": "Revisa esto: Cheer up es separable."
+      },
+      "review_of": "en-b1-u11-l02-ex11"
+    },
+    {
+      "id": "en-b2-u05-l01-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le recomendó el médico?",
+      "options": [
+        "Reducir el café y dormir ocho horas",
+        "Dejar el trabajo",
+        "Tomar vitaminas",
+        "Hacer deporte"
+      ],
+      "answer": [
+        "Reducir el café y dormir ocho horas"
+      ],
+      "audio_text": "I used to skip breakfast and survive on coffee. Then I came down with a bad infection, and my doctor told me to cut down on caffeine and sleep eight hours. Now I feel much better.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: cut down on caffeine and sleep eight hours.",
+        "incorrect": "Revisa esto: Dice: cut down on caffeine and sleep eight hours."
+      },
+      "audio_script_id": "en-b2-u05-l01-ex19-a"
+    },
+    {
+      "id": "en-b2-u05-l01-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-wellbeing"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me cuesta concentrarme y estoy bajo mucha presión en el trabajo.",
+      "answer": [
+        "I have trouble concentrating and I'm under a lot of pressure at work.",
+        "I have difficulty concentrating and I am under a lot of pressure at work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de salud.",
+        "incorrect": "Revisa esto: Vocabulario de salud."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-ex21",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-wellbeing"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "anxious",
+          "ipa": "/ˈæŋkʃəs/",
+          "tip_es": "'x' = /kʃ/."
+        },
+        {
+          "text": "therapist",
+          "ipa": "/ˈθerəpɪst/",
+          "tip_es": "'th' sorda."
+        },
+        {
+          "text": "exhausted",
+          "ipa": "/ɪɡˈzɔːstɪd/",
+          "tip_es": "'h' muda."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-b2-u05-l01-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "routine"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora se levanta la persona?",
+      "options": [
+        "9:00",
+        "8:00",
+        "7:00",
+        "6:00"
+      ],
+      "answer": [
+        "9:00"
+      ],
+      "audio_text": "I don't get up early. I get up at nine.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I get up at nine'.",
+        "incorrect": "Revisa esto: Dice 'I get up at nine'."
+      },
+      "audio_script_id": "en-b2-u05-l01-rv07-a",
+      "review_of": "en-a1-u04-l04-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I've been feeling run down.",
+      "I have trouble sleeping.",
+      "It's worth seeing a doctor.",
+      "cut down on · give up · come down with"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-run-down"
+    },
+    {
+      "type": "vocab",
+      "id": "en-have-trouble-ing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lie-awake"
+    },
+    {
+      "type": "vocab",
+      "id": "en-under-pressure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stress-related"
+    },
+    {
+      "type": "vocab",
+      "id": "en-skip"
+    },
+    {
+      "type": "vocab",
+      "id": "en-blood-pressure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lifestyle"
+    },
+    {
+      "type": "vocab",
+      "id": "en-anxious"
+    },
+    {
+      "type": "vocab",
+      "id": "en-therapist"
+    },
+    {
+      "type": "grammar",
+      "id": "en-health-b2"
+    }
+  ]
+}

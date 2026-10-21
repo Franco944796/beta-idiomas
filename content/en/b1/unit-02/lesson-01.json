@@ -1,0 +1,706 @@
+{
+  "id": "en-b1-u02-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 2,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Where I live",
+    "es": "El barrio y la vivienda"
+  },
+  "objective": "Al terminar describes tu barrio y tu vivienda con vocabulario preciso y cuentas qué te gusta y qué no de vivir donde vives.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Vivo en un barrio tranquilo, cerca del centro, con buen transporte.' Para describir tu entorno con detalle necesitas palabras que van más allá de big y nice."
+  },
+  "input": {
+    "type": "text",
+    "text": "I live in a quiet residential area on the outskirts of the city. It's about twenty minutes from the city centre by train, so the commute isn't bad. There are plenty of facilities within walking distance: a supermarket, a pharmacy, two parks and a small library. The neighbours are friendly, although the streets can get crowded at weekends because of the market. The flats are rather expensive, and the rent keeps going up, but I think it's worth it. What I like most is how peaceful it is in the evenings. What I don't like is the lack of nightlife: if you want to go out, you have to take the last train home before midnight.",
+    "es": "Vivo en una zona residencial tranquila a las afueras de la ciudad. Está a unos veinte minutos del centro en tren, así que el trayecto diario no está mal. Hay muchos servicios a poca distancia a pie: un supermercado, una farmacia, dos parques y una pequeña biblioteca. Los vecinos son amables, aunque las calles pueden llenarse de gente los fines de semana por el mercado. Los pisos son bastante caros y el alquiler no para de subir, pero creo que vale la pena. Lo que más me gusta es lo tranquilo que es por las noches. Lo que no me gusta es la falta de vida nocturna: si quieres salir, tienes que tomar el último tren de vuelta antes de medianoche.",
+    "glossary": [
+      {
+        "id": "en-residential-area",
+        "lemma": "residential area",
+        "pos": "noun",
+        "ipa": "/ˌrezɪˈdenʃl ˈeəriə/",
+        "es": "zona residencial",
+        "example": "We live in a residential area."
+      },
+      {
+        "id": "en-outskirts",
+        "lemma": "outskirts",
+        "pos": "noun",
+        "ipa": "/ˈaʊtskɜːts/",
+        "es": "afueras",
+        "example": "They live on the outskirts of Madrid."
+      },
+      {
+        "id": "en-city-centre",
+        "lemma": "city centre",
+        "pos": "noun",
+        "ipa": "/ˈsɪti ˈsentə/",
+        "es": "centro de la ciudad",
+        "example": "I work in the city centre."
+      },
+      {
+        "id": "en-commute",
+        "lemma": "commute",
+        "pos": "noun",
+        "ipa": "/kəˈmjuːt/",
+        "es": "trayecto diario al trabajo",
+        "example": "My commute takes an hour."
+      },
+      {
+        "id": "en-facilities",
+        "lemma": "facilities",
+        "pos": "noun",
+        "ipa": "/fəˈsɪlətiz/",
+        "es": "servicios, instalaciones",
+        "example": "The area has good facilities."
+      },
+      {
+        "id": "en-within-walking-distance",
+        "lemma": "within walking distance",
+        "pos": "phrase",
+        "ipa": "/wɪðˈɪn ˈwɔːkɪŋ ˈdɪstəns/",
+        "es": "a poca distancia a pie",
+        "example": "The shops are within walking distance."
+      },
+      {
+        "id": "en-crowded",
+        "lemma": "crowded",
+        "pos": "adj",
+        "ipa": "/ˈkraʊdɪd/",
+        "es": "lleno de gente",
+        "example": "The metro is crowded at eight."
+      },
+      {
+        "id": "en-peaceful",
+        "lemma": "peaceful",
+        "pos": "adj",
+        "ipa": "/ˈpiːsfl/",
+        "es": "tranquilo, apacible",
+        "example": "It's a peaceful village."
+      },
+      {
+        "id": "en-lively",
+        "lemma": "lively",
+        "pos": "adj",
+        "ipa": "/ˈlaɪvli/",
+        "es": "animado, con vida",
+        "example": "The neighbourhood is lively at night."
+      },
+      {
+        "id": "en-rent",
+        "lemma": "rent",
+        "pos": "noun",
+        "ipa": "/rent/",
+        "es": "alquiler",
+        "example": "The rent is very high."
+      },
+      {
+        "id": "en-neighbour",
+        "lemma": "neighbour",
+        "pos": "noun",
+        "ipa": "/ˈneɪbə/",
+        "es": "vecino",
+        "example": "My neighbour is very friendly."
+      },
+      {
+        "id": "en-nightlife",
+        "lemma": "nightlife",
+        "pos": "noun",
+        "ipa": "/ˈnaɪtlaɪf/",
+        "es": "vida nocturna",
+        "example": "The city has great nightlife."
+      },
+      {
+        "id": "en-worth-it",
+        "lemma": "worth it",
+        "pos": "phrase",
+        "ipa": "/wɜːθ ɪt/",
+        "es": "vale la pena",
+        "example": "The trip was worth it."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Describir dónde vives**\n\n| Quiero decir… | En inglés |\n|---|---|\n| a las afueras | *on the outskirts · in the suburbs* |\n| en el centro | *in the city centre · downtown* (EE. UU.) |\n| zona tranquila / animada | *a quiet / lively area* |\n| cerca de | *close to · near · within walking distance of* |\n| con buenos servicios / transporte | *with good facilities / transport links* |\n| el alquiler sube | *the rent keeps going up* |\n\n**Preguntas y respuestas útiles**\n\n- *What's your neighbourhood like?* → *It's quiet and green, but a bit far from the centre.*\n- *How long does it take you to get to work?* → *My commute takes about forty minutes.*\n- *What do you like most about living there?* → *What I like most is …*\n\n**Ventajas y desventajas:** *The good thing is … · The downside is … · On the one hand … on the other hand …*\n\n**Ojo:** *flat* (Reino Unido) = *apartment* (EE. UU.). *Rent* es el alquiler (dinero); *to rent* es alquilar (como inquilino). *Commute* también es verbo: *I commute by train.*\n\nPronunciación: *residential* /ˌrezɪˈdenʃl/ · *facilities* /fəˈsɪlətiz/ · *neighbour* /ˈneɪbə/ (la 'gh' no se pronuncia).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I live in the outskirts.",
+        "right": "I live on the outskirts.",
+        "note": "Se dice on the outskirts."
+      },
+      {
+        "wrong": "The commute is very tired.",
+        "right": "The commute is very tiring.",
+        "note": "Cosa que cansa: tiring (-ing)."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u02-l01-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuánto tarda el narrador en llegar al centro?",
+      "options": [
+        "Unos veinte minutos en tren",
+        "Una hora en coche",
+        "Cinco minutos a pie",
+        "Dos horas"
+      ],
+      "answer": [
+        "Unos veinte minutos en tren"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: about twenty minutes from the city centre by train.",
+        "incorrect": "Revisa esto: Dice: about twenty minutes from the city centre by train."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué no le gusta de su barrio?",
+      "options": [
+        "La falta de vida nocturna",
+        "El ruido del tráfico",
+        "Los vecinos",
+        "La falta de parques"
+      ],
+      "answer": [
+        "La falta de vida nocturna"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: What I don't like is the lack of nightlife.",
+        "incorrect": "Revisa esto: Dice: What I don't like is the lack of nightlife."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She have got two sisters.",
+      "answer": [
+        "She has got two sisters.",
+        "She's got two sisters."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa has got.",
+        "incorrect": "Revisa esto: Con she se usa has got."
+      },
+      "review_of": "en-a1-u03-l04-ex05"
+    },
+    {
+      "id": "en-b1-u02-l01-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "prices"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto cuesta?",
+      "options": [
+        "£25",
+        "£15",
+        "£50",
+        "£52"
+      ],
+      "answer": [
+        "£25"
+      ],
+      "audio_text": "It's twenty-five pounds.",
+      "feedback": {
+        "correct": "¡Correcto! Twenty-five = 25.",
+        "incorrect": "Revisa esto: Twenty-five = 25."
+      },
+      "audio_script_id": "en-b1-u02-l01-rv02-a",
+      "review_of": "en-a1-u08-l02-ex06"
+    },
+    {
+      "id": "en-b1-u02-l01-rv03",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "food"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "chicken and rice",
+      "answer": [
+        "chicken and rice"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Escuchaste 'chicken and rice'.",
+        "incorrect": "Revisa esto: Escuchaste 'chicken and rice'."
+      },
+      "audio_script_id": "en-b1-u02-l01-rv03-a",
+      "review_of": "en-a1-u05-l01-ex04"
+    },
+    {
+      "id": "en-b1-u02-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "present-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is work now.",
+      "answer": [
+        "She is working now.",
+        "She's working now."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de is va el verbo con -ing.",
+        "incorrect": "Revisa esto: Después de is va el verbo con -ing."
+      },
+      "review_of": "en-a1-u09-l04-ex06"
+    },
+    {
+      "id": "en-b1-u02-l01-ex03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 15,
+      "prompt": "El alquiler en la zona es barato y estable.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que es caro y que no para de subir.",
+        "incorrect": "Revisa esto: Dice que es caro y que no para de subir."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex04",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "outskirts",
+          "right": "afueras"
+        },
+        {
+          "left": "commute",
+          "right": "trayecto diario"
+        },
+        {
+          "left": "rent",
+          "right": "alquiler"
+        },
+        {
+          "left": "neighbour",
+          "right": "vecino"
+        },
+        {
+          "left": "crowded",
+          "right": "lleno de gente"
+        },
+        {
+          "left": "peaceful",
+          "right": "tranquilo"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Es vocabulario básico de B1 sobre la vivienda y el barrio.",
+        "incorrect": "Revisa esto: Es vocabulario básico de B1 sobre la vivienda y el barrio."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex05",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un servicio o una característica del barrio?",
+      "categories": [
+        "Facility",
+        "Feature"
+      ],
+      "items": [
+        {
+          "text": "pharmacy",
+          "category": "Facility"
+        },
+        {
+          "text": "library",
+          "category": "Facility"
+        },
+        {
+          "text": "supermarket",
+          "category": "Facility"
+        },
+        {
+          "text": "park",
+          "category": "Facility"
+        },
+        {
+          "text": "peaceful",
+          "category": "Feature"
+        },
+        {
+          "text": "crowded",
+          "category": "Feature"
+        },
+        {
+          "text": "lively",
+          "category": "Feature"
+        },
+        {
+          "text": "noisy",
+          "category": "Feature"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los servicios son lugares; las características son adjetivos.",
+        "incorrect": "Revisa esto: Los servicios son lugares; las características son adjetivos."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 20,
+      "prompt": "I live ___ the outskirts of the city.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! On the outskirts es una expresión fija.",
+        "incorrect": "Revisa esto: On the outskirts es una expresión fija."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 20,
+      "prompt": "My ___ takes about an hour each way: I work in the city centre.",
+      "options": [
+        "commute",
+        "rent",
+        "facility",
+        "outskirts"
+      ],
+      "answer": [
+        "commute"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Commute = trayecto diario al trabajo.",
+        "incorrect": "Revisa esto: Commute = trayecto diario al trabajo."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 20,
+      "prompt": "The shops are ___ walking distance.",
+      "options": [
+        "within",
+        "on",
+        "between",
+        "by"
+      ],
+      "answer": [
+        "within"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Within walking distance = a poca distancia a pie.",
+        "incorrect": "Revisa esto: Within walking distance = a poca distancia a pie."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex09",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 25,
+      "prompt": "The rent keeps ___ up every year. (subiendo)",
+      "answer": [
+        "going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep going up = no para de subir.",
+        "incorrect": "Revisa esto: Keep going up = no para de subir."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 25,
+      "prompt": "What I like ___ about my street is the trees. (más)",
+      "answer": [
+        "most"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I like most is…",
+        "incorrect": "Revisa esto: What I like most is…"
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex11",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I live in the outskirts of Madrid.",
+      "answer": [
+        "I live on the outskirts of Madrid."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se dice on the outskirts.",
+        "incorrect": "Revisa esto: Se dice on the outskirts."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The rent is very expensives.",
+      "answer": [
+        "The rent is very expensive."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! El adjetivo no lleva -s.",
+        "incorrect": "Revisa esto: El adjetivo no lleva -s."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 25,
+      "prompt": "How many ___ have you been to Spain?",
+      "answer": [
+        "times"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many times…?",
+        "incorrect": "Revisa esto: How many times…?"
+      },
+      "review_of": "en-a2-u08-l02-ex02"
+    },
+    {
+      "id": "en-b1-u02-l01-ex13",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuál es el inconveniente?",
+      "options": [
+        "Es ruidoso por la noche",
+        "Es muy caro",
+        "Está lejos del centro",
+        "No tiene tiendas"
+      ],
+      "answer": [
+        "Es ruidoso por la noche"
+      ],
+      "audio_text": "I love my neighbourhood. It's lively, with lots of cafes and shops, but the downside is that it can be noisy at night, especially at weekends.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the downside is that it can be noisy at night.",
+        "incorrect": "Revisa esto: Dice: the downside is that it can be noisy at night."
+      },
+      "audio_script_id": "en-b1-u02-l01-ex13-a"
+    },
+    {
+      "id": "en-b1-u02-l01-ex14",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "neighbourhood"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Lo que más me gusta es que todo está a poca distancia a pie.",
+      "answer": [
+        "What I like most is that everything is within walking distance.",
+        "What I like the most is that everything is within walking distance."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! What I like most is that… + within walking distance.",
+        "incorrect": "Revisa esto: What I like most is that… + within walking distance."
+      }
+    },
+    {
+      "id": "en-b1-u02-l01-ex15",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "neighbourhood"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "residential",
+          "ipa": "/ˌrezɪˈdenʃl/",
+          "tip_es": "El acento principal va en 'den'."
+        },
+        {
+          "text": "facilities",
+          "ipa": "/fəˈsɪlətiz/",
+          "tip_es": "El acento va en 'si'."
+        },
+        {
+          "text": "neighbour",
+          "ipa": "/ˈneɪbə/",
+          "tip_es": "Suena 'néiba'; la gh es muda."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I live on the outskirts of …",
+      "within walking distance",
+      "What I like most is …",
+      "The downside is …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-residential-area"
+    },
+    {
+      "type": "vocab",
+      "id": "en-outskirts"
+    },
+    {
+      "type": "vocab",
+      "id": "en-city-centre"
+    },
+    {
+      "type": "vocab",
+      "id": "en-commute"
+    },
+    {
+      "type": "vocab",
+      "id": "en-facilities"
+    },
+    {
+      "type": "vocab",
+      "id": "en-within-walking-distance"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crowded"
+    },
+    {
+      "type": "vocab",
+      "id": "en-peaceful"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lively"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rent"
+    },
+    {
+      "type": "grammar",
+      "id": "en-neighbourhood-talk"
+    }
+  ]
+}

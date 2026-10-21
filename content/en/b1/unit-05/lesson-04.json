@@ -1,0 +1,717 @@
+{
+  "id": "en-b1-u05-l04",
+  "language": "en",
+  "level": "B1",
+  "unit": 5,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "In the news",
+    "es": "Noticias y titulares"
+  },
+  "objective": "Al terminar entiendes titulares y noticias breves, cuentas una noticia con tiempos narrativos y usas vocabulario del periodismo.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los titulares usan un inglés comprimido (sin artículos, con presente por pasado). Aprender a leerlos abre la puerta a la prensa real."
+  },
+  "input": {
+    "type": "text",
+    "text": "MAN RESCUES DOG FROM FROZEN LAKE\n\nA man rescued a dog from a frozen lake in northern England yesterday. The dog, which had fallen through the ice, was found by a passer-by who heard it barking. Emergency services were called, but the man decided not to wait. He carefully crossed the ice on his stomach, grabbed the dog and pulled it to safety. 'I didn't think. I just acted,' he said afterwards. The dog was taken to a vet and is expected to make a full recovery. Local police have warned people not to walk on frozen water. The man, who has not been named, was treated for cold but is in good health. The story has been shared more than 50,000 times online.",
+    "es": "UN HOMBRE RESCATA A UN PERRO DE UN LAGO HELADO. Un hombre rescató ayer a un perro de un lago helado en el norte de Inglaterra. El perro, que había caído por el hielo, fue encontrado por un transeúnte que lo oyó ladrar. Se llamó a los servicios de emergencia, pero el hombre decidió no esperar. Cruzó con cuidado el hielo sobre el estómago, agarró al perro y lo llevó a salvo. 'No pensé. Simplemente actué', dijo después. El perro fue llevado al veterinario y se espera que se recupere por completo. La policía local ha advertido a la gente de que no camine sobre agua helada. El hombre, que no ha sido identificado, fue tratado por el frío, pero está bien de salud. La historia se ha compartido más de 50 000 veces en línea.",
+    "glossary": [
+      {
+        "id": "en-rescue",
+        "lemma": "rescue",
+        "pos": "verb",
+        "ipa": "/ˈreskjuː/",
+        "es": "rescatar",
+        "example": "He rescued a child."
+      },
+      {
+        "id": "en-frozen",
+        "lemma": "frozen",
+        "pos": "adj",
+        "ipa": "/ˈfrəʊzn/",
+        "es": "helado, congelado",
+        "example": "The lake was frozen."
+      },
+      {
+        "id": "en-passer-by",
+        "lemma": "passer-by",
+        "pos": "noun",
+        "ipa": "/ˌpɑːsə ˈbaɪ/",
+        "es": "transeúnte",
+        "example": "A passer-by called the police."
+      },
+      {
+        "id": "en-emergency-services",
+        "lemma": "emergency services",
+        "pos": "noun",
+        "ipa": "/ɪˈmɜːdʒənsi ˈsɜːvɪsɪz/",
+        "es": "servicios de emergencia",
+        "example": "They called the emergency services."
+      },
+      {
+        "id": "en-grab",
+        "lemma": "grab",
+        "pos": "verb",
+        "ipa": "/ɡræb/",
+        "es": "agarrar",
+        "example": "He grabbed the rope."
+      },
+      {
+        "id": "en-pull",
+        "lemma": "pull",
+        "pos": "verb",
+        "ipa": "/pʊl/",
+        "es": "tirar de",
+        "example": "He pulled it to safety."
+      },
+      {
+        "id": "en-safety",
+        "lemma": "safety",
+        "pos": "noun",
+        "ipa": "/ˈseɪfti/",
+        "es": "seguridad",
+        "example": "They reached safety."
+      },
+      {
+        "id": "en-vet",
+        "lemma": "vet",
+        "pos": "noun",
+        "ipa": "/vet/",
+        "es": "veterinario",
+        "example": "The dog went to the vet."
+      },
+      {
+        "id": "en-recovery",
+        "lemma": "recovery",
+        "pos": "noun",
+        "ipa": "/rɪˈkʌvəri/",
+        "es": "recuperación",
+        "example": "She made a full recovery."
+      },
+      {
+        "id": "en-warn",
+        "lemma": "warn",
+        "pos": "verb",
+        "ipa": "/wɔːn/",
+        "es": "advertir",
+        "example": "Police warned people."
+      },
+      {
+        "id": "en-name-verb",
+        "lemma": "name (verb)",
+        "pos": "verb",
+        "ipa": "/neɪm/",
+        "es": "identificar, dar nombre",
+        "example": "The victim has not been named."
+      },
+      {
+        "id": "en-headline",
+        "lemma": "headline",
+        "pos": "noun",
+        "ipa": "/ˈhedlaɪn/",
+        "es": "titular",
+        "example": "I read the headline."
+      },
+      {
+        "id": "en-share",
+        "lemma": "share",
+        "pos": "verb",
+        "ipa": "/ʃeə/",
+        "es": "compartir",
+        "example": "The story was shared online."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Leer y escribir titulares**\n\n| Rasgo | Titular | Frase completa |\n|---|---|---|\n| Sin artículos | *MAN RESCUES DOG* | *A man rescued a dog.* |\n| Presente por pasado | *PM RESIGNS* | *The prime minister resigned.* |\n| Infinitivo = futuro | *CITY TO BAN CARS* | *The city is going to ban cars.* |\n| Sin be en pasiva | *THIEF CAUGHT* | *A thief has been / was caught.* |\n| Palabras cortas | *cut, ban, bid, probe* | *reduce, forbid, attempt, investigate* |\n\n**Estructura de una noticia**\n\n1. **Titular** (el qué).\n2. **Primer párrafo**: qué, quién, dónde, cuándo.\n3. **Detalles** y citas (*he said, she explained*).\n4. **Contexto** o consecuencia.\n\n**Contar una noticia: tiempos**\n\n- *Pasado simple* para los hechos: *A man rescued a dog.*\n- *Pasado perfecto* para lo anterior: *The dog, which **had fallen**…*\n- *Pasiva* para no nombrar al agente: *The dog **was taken** to a vet.*\n- *Presente perfecto* para efecto actual: *The story **has been shared** 50,000 times.*\n\n**Verbos de cita:** *say, tell, explain, claim, announce, warn, admit.* → *'I just acted,' he **said**.*\n\n**Ojo:** *news* es incontable y singular: *The news **is** good.* ✘ *the news are*. *Passer-by* (plural: passers-by). *Rescue* /ˈreskjuː/ acento en la primera.",
+    "common_mistakes_es": [
+      {
+        "wrong": "The news are bad.",
+        "right": "The news is bad.",
+        "note": "News = singular."
+      },
+      {
+        "wrong": "The police has come.",
+        "right": "The police have come.",
+        "note": "Police = plural."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u05-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Dónde ocurrió la noticia?",
+      "options": [
+        "En el norte de Inglaterra",
+        "En Escocia",
+        "En Gales",
+        "En París"
+      ],
+      "answer": [
+        "En el norte de Inglaterra"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: in northern England.",
+        "incorrect": "Revisa esto: Dice: in northern England."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién encontró al perro?",
+      "options": [
+        "Un transeúnte que lo oyó ladrar",
+        "La policía",
+        "El veterinario",
+        "Su dueño"
+      ],
+      "answer": [
+        "Un transeúnte que lo oyó ladrar"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: found by a passer-by who heard it barking.",
+        "incorrect": "Revisa esto: Dice: found by a passer-by who heard it barking."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "adjectives"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi ciudad es grande pero muy tranquila.",
+      "answer": [
+        "My city is big but very quiet.",
+        "My town is big but very quiet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Los adjetivos no cambian y van después de to be.",
+        "incorrect": "Revisa esto: Los adjetivos no cambian y van después de to be."
+      },
+      "review_of": "en-a2-u03-l01-ex09"
+    },
+    {
+      "id": "en-b1-u05-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué advirtió la policía?",
+      "options": [
+        "No caminar sobre agua helada",
+        "No sacar al perro",
+        "No llamar a emergencias",
+        "No bañarse"
+      ],
+      "answer": [
+        "No caminar sobre agua helada"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: warned people not to walk on frozen water.",
+        "incorrect": "Revisa esto: Dice: warned people not to walk on frozen water."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv02",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "public-transport"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "tickets",
+        "to",
+        "Oxford",
+        ",",
+        "please",
+        ".",
+        "Two",
+        "return"
+      ],
+      "answer": [
+        "Two",
+        "return",
+        "tickets",
+        "to",
+        "Oxford",
+        ",",
+        "please",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido: cantidad + tipo de billete + destino + please.",
+        "incorrect": "Revisa esto: Pedido: cantidad + tipo de billete + destino + please."
+      },
+      "review_of": "en-a2-u12-l01-ex09"
+    },
+    {
+      "id": "en-b1-u05-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 15,
+      "prompt": "El hombre fue identificado en la noticia.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: has not been named.",
+        "incorrect": "Revisa esto: Dice: has not been named."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'ir en bicicleta'?",
+      "options": [
+        "go by bike",
+        "go with bike",
+        "go on bike",
+        "go in bike"
+      ],
+      "answer": [
+        "go by bike"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! By + transporte: go by bike.",
+        "incorrect": "Revisa esto: By + transporte: go by bike."
+      },
+      "review_of": "en-a1-u07-l04-ex04"
+    },
+    {
+      "id": "en-b1-u05-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "'CITY TO BAN CARS' means...",
+      "options": [
+        "La ciudad va a prohibir los coches",
+        "La ciudad prohibió coches",
+        "La ciudad quiere coches",
+        "Coches prohíben la ciudad"
+      ],
+      "answer": [
+        "La ciudad va a prohibir los coches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! TO + verbo = futuro en titulares.",
+        "incorrect": "Revisa esto: TO + verbo = futuro en titulares."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv04",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "body-health"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "My stomach hurts and I feel sick.",
+      "answer": [
+        "My stomach hurts and I feel sick."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos síntomas: stomach hurts + feel sick.",
+        "incorrect": "Revisa esto: Dos síntomas: stomach hurts + feel sick."
+      },
+      "audio_script_id": "en-b1-u05-l04-rv04-a",
+      "review_of": "en-a2-u06-l01-ex10"
+    },
+    {
+      "id": "en-b1-u05-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "'PM RESIGNS' is a headline in the ___ tense.",
+      "options": [
+        "present",
+        "past",
+        "future",
+        "perfect"
+      ],
+      "answer": [
+        "present"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente por pasado.",
+        "incorrect": "Revisa esto: Presente por pasado."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 20,
+      "prompt": "This city has ___ factories than before.",
+      "options": [
+        "fewer",
+        "less",
+        "little",
+        "more few"
+      ],
+      "answer": [
+        "fewer"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fewer con contables en plural.",
+        "incorrect": "Revisa esto: Fewer con contables en plural."
+      },
+      "review_of": "en-b1-u02-l04-ex07"
+    },
+    {
+      "id": "en-b1-u05-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "The news ___ good today.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News es incontable singular.",
+        "incorrect": "Revisa esto: News es incontable singular."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "The dog, which ___ into the lake, was rescued.",
+      "options": [
+        "had fallen",
+        "has fallen",
+        "fell",
+        "falls"
+      ],
+      "answer": [
+        "had fallen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado perfecto para algo anterior.",
+        "incorrect": "Revisa esto: Pasado perfecto para algo anterior."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I'm fine,' she ___ .",
+      "options": [
+        "said",
+        "told",
+        "spoke",
+        "talked"
+      ],
+      "answer": [
+        "said"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Said para citas directas.",
+        "incorrect": "Revisa esto: Said para citas directas."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 20,
+      "prompt": "As soon as I ___ the job, I'll start learning the system.",
+      "options": [
+        "get",
+        "will get",
+        "got",
+        "am getting"
+      ],
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! As soon as + presente.",
+        "incorrect": "Revisa esto: As soon as + presente."
+      },
+      "review_of": "en-b1-u03-l05-ex08"
+    },
+    {
+      "id": "en-b1-u05-l04-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 25,
+      "prompt": "Two men ___ (arrest) yesterday after the robbery.",
+      "answer": [
+        "were arrested"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en pasado.",
+        "incorrect": "Revisa esto: Pasiva en pasado."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 25,
+      "prompt": "The police have ___ people not to go out. (advertido)",
+      "answer": [
+        "warned"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Warn.",
+        "incorrect": "Revisa esto: Warn."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The news are good today.",
+      "answer": [
+        "The news is good today."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! News es singular.",
+        "incorrect": "Revisa esto: News es singular."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Police has warned people about the ice.",
+      "answer": [
+        "The police have warned people about the ice."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Police es plural.",
+        "incorrect": "Revisa esto: Police es plural."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Hubo heridos?",
+      "options": [
+        "No, nadie resultó herido",
+        "Sí, varios",
+        "Un bombero",
+        "No se sabe"
+      ],
+      "answer": [
+        "No, nadie resultó herido"
+      ],
+      "audio_text": "A fire broke out in a shopping centre last night. Nobody was hurt, but the building was badly damaged. The cause hasn't been found yet.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Nobody was hurt.",
+        "incorrect": "Revisa esto: Dice: Nobody was hurt."
+      },
+      "audio_script_id": "en-b1-u05-l04-ex14-a"
+    },
+    {
+      "id": "en-b1-u05-l04-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una noticia breve inventada (6 a 8 frases): titular, qué pasó, dónde, cuándo y qué dijo alguien. Usa pasado, pasiva y una cita.",
+      "min_words": 45,
+      "self_check_es": [
+        "¿Hay titular?",
+        "¿Usaste pasado simple y pasiva?",
+        "¿Incluiste una cita con said?",
+        "¿Respondiste quién, qué, dónde, cuándo?"
+      ],
+      "model_answer": "TEACHER RESCUES CHILD FROM RIVER. A teacher rescued a child from a river in Madrid yesterday afternoon. The boy, who had fallen from a bridge, was taken to hospital and is expected to recover. 'I didn't think,' she said. 'I just jumped.' The police have thanked her. The teacher has not been named.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u05-l04-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Un hombre fue rescatado ayer de un lago helado.",
+      "answer": [
+        "A man was rescued from a frozen lake yesterday.",
+        "A man was rescued yesterday from a frozen lake."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en pasado.",
+        "incorrect": "Revisa esto: Pasiva en pasado."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "MAN RESCUES DOG · CITY TO BAN CARS",
+      "was found by · was taken to",
+      "The story has been shared …",
+      "'…,' he said."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-rescue"
+    },
+    {
+      "type": "vocab",
+      "id": "en-frozen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-passer-by"
+    },
+    {
+      "type": "vocab",
+      "id": "en-emergency-services"
+    },
+    {
+      "type": "vocab",
+      "id": "en-grab"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pull"
+    },
+    {
+      "type": "vocab",
+      "id": "en-safety"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-recovery"
+    },
+    {
+      "type": "vocab",
+      "id": "en-warn"
+    },
+    {
+      "type": "grammar",
+      "id": "en-news-headlines"
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "id": "en-b2-u11-l03",
+  "language": "en",
+  "level": "B2",
+  "unit": 11,
+  "order": 3,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "You are required to",
+    "es": "Obligación formal y normas"
+  },
+  "objective": "Al terminar expresas obligación, prohibición y permiso en registro formal (be required to, be obliged to, be permitted to, be prohibited from) y entiendes normas y avisos.",
+  "est_minutes": 30,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los contratos, reglamentos y avisos usan un inglés más formal que 'must' y 'can't'. Entenderlo y usarlo te permite leer normas y redactar instrucciones con precisión."
+  },
+  "input": {
+    "type": "text",
+    "text": "Terms and Conditions for Tenants\n\nAll tenants are required to pay rent on or before the first day of each month. Failure to do so may result in a late fee. Tenants are obliged to keep the property in good condition and must report any damage within 48 hours.\n\nSmoking is strictly prohibited inside the building. Pets are not permitted without the landlord's written consent. Residents are not allowed to sublet the flat, and they are expected to respect their neighbours by avoiding excessive noise after 10 p.m.\n\nThe landlord is entitled to enter the property for inspections, provided that at least 24 hours' notice is given. In an emergency, however, access may be gained without prior notice.\n\nTenants who wish to terminate the contract must give three months' written notice. Those who leave early will be liable for any outstanding rent. No deposit will be refunded unless the property is returned in its original condition.\n\nIt is compulsory to have contents insurance. Visitors are permitted to stay for up to two weeks; longer stays require prior approval.",
+    "es": "Términos y condiciones para inquilinos. Todos los inquilinos deben pagar el alquiler el primer día de cada mes o antes. El incumplimiento puede dar lugar a un recargo por demora. Los inquilinos están obligados a mantener la propiedad en buen estado y deben comunicar cualquier daño en 48 horas. Está terminantemente prohibido fumar en el interior del edificio. No se permiten mascotas sin el consentimiento escrito del propietario. Los residentes no pueden subarrendar el piso y se espera que respeten a los vecinos evitando ruidos excesivos después de las 22:00. El propietario tiene derecho a entrar en la propiedad para inspecciones, siempre que se avise con al menos 24 horas de antelación. En caso de emergencia, sin embargo, podrá accederse sin previo aviso. Los inquilinos que deseen rescindir el contrato deben avisar por escrito con tres meses de antelación. Quienes se marchen antes serán responsables del alquiler pendiente. No se devolverá ninguna fianza a menos que la propiedad se devuelva en su estado original. Es obligatorio tener un seguro de contenido. Se permite que las visitas se queden hasta dos semanas; estancias más largas requieren aprobación previa.",
+    "glossary": [
+      {
+        "id": "en-tenant",
+        "lemma": "tenant",
+        "pos": "noun",
+        "ipa": "/ˈtenənt/",
+        "es": "inquilino",
+        "example": "A tenant pays rent."
+      },
+      {
+        "id": "en-landlord",
+        "lemma": "landlord",
+        "pos": "noun",
+        "ipa": "/ˈlændlɔːd/",
+        "es": "propietario",
+        "example": "The landlord."
+      },
+      {
+        "id": "en-be-required-to",
+        "lemma": "be required to",
+        "pos": "phrase",
+        "ipa": "/biː rɪˈkwaɪəd tə/",
+        "es": "estar obligado a",
+        "example": "Required to pay."
+      },
+      {
+        "id": "en-be-obliged-to",
+        "lemma": "be obliged to",
+        "pos": "phrase",
+        "ipa": "/biː əˈblaɪdʒd tə/",
+        "es": "estar obligado a",
+        "example": "Obliged to report."
+      },
+      {
+        "id": "en-prohibited",
+        "lemma": "prohibited",
+        "pos": "adj",
+        "ipa": "/prəˈhɪbɪtɪd/",
+        "es": "prohibido",
+        "example": "Smoking is prohibited."
+      },
+      {
+        "id": "en-consent",
+        "lemma": "consent",
+        "pos": "noun",
+        "ipa": "/kənˈsent/",
+        "es": "consentimiento",
+        "example": "Written consent."
+      },
+      {
+        "id": "en-sublet",
+        "lemma": "sublet",
+        "pos": "verb",
+        "ipa": "/ˌsʌbˈlet/",
+        "es": "subarrendar",
+        "example": "Do not sublet."
+      },
+      {
+        "id": "en-entitled-to",
+        "lemma": "entitled to",
+        "pos": "adj",
+        "ipa": "/ɪnˈtaɪtld tə/",
+        "es": "con derecho a",
+        "example": "Entitled to a refund."
+      },
+      {
+        "id": "en-terminate",
+        "lemma": "terminate",
+        "pos": "verb",
+        "ipa": "/ˈtɜːmɪneɪt/",
+        "es": "rescindir",
+        "example": "Terminate the contract."
+      },
+      {
+        "id": "en-liable-for",
+        "lemma": "liable for",
+        "pos": "adj",
+        "ipa": "/ˈlaɪəbl fɔː/",
+        "es": "responsable de",
+        "example": "Liable for damage."
+      },
+      {
+        "id": "en-deposit",
+        "lemma": "deposit",
+        "pos": "noun",
+        "ipa": "/dɪˈpɒzɪt/",
+        "es": "fianza",
+        "example": "A refundable deposit."
+      },
+      {
+        "id": "en-compulsory",
+        "lemma": "compulsory",
+        "pos": "adj",
+        "ipa": "/kəmˈpʌlsəri/",
+        "es": "obligatorio",
+        "example": "Compulsory insurance."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Obligación, prohibición y permiso: registro formal**\n\n| Función | Informal | Formal |\n|---|---|---|\n| **Obligación** | *must, have to* | *be required to, be obliged to, be compelled to, it is compulsory / mandatory to* |\n| **Prohibición** | *mustn't, can't* | *be prohibited from, be forbidden to, be not permitted to, it is forbidden to* |\n| **Permiso** | *can, may* | *be permitted to, be allowed to, be entitled to, be authorised to* |\n| **Falta de obligación** | *don't have to, needn't* | *be not required to, it is not necessary to, there is no obligation to* |\n| **Expectativa** | *should* | *be expected to, be supposed to* |\n\n**Estructuras**\n\n- *Tenants are required to pay rent.* · *Smoking is prohibited / not permitted.* · *Pets are not allowed.* · *Visitors are permitted to stay for two weeks.*\n- *Failure to pay may result in a fine.* (consecuencia) · *Anyone who breaks the rules will be liable for …*\n\n**Matices**\n\n- *Must* (obligación personal) vs *have to* (obligación externa) vs *be required to* (norma oficial).\n- *Mustn't* = prohibido; *don't have to* = no es necesario. ✘ *You mustn't wear a tie (no obligation).* → ✔ *You don't have to wear a tie.*\n- *Be allowed to* = permiso general; *can* = capacidad o permiso informal.\n\n**Avisos y carteles**\n\n- *No smoking. · Keep off the grass. · Authorised personnel only. · Do not enter. · Pull to open. · Mind the gap.*\n- Estructura típica: *Passengers are requested to remain seated.* · *Visitors must report to reception.*\n\n**Pasiva e impersonales en normas**\n\n- *It is forbidden to use phones during the exam.* · *Candidates are not permitted to leave early.* · *Eating and drinking are not allowed.*\n\n**Errores típicos**\n\n- ✘ *You are required pay.* → ✔ *You are required to pay.*\n- ✘ *It is prohibited to smoke inside the building.* (aceptable) pero ✘ *It prohibits smoking.* → ✔ *Smoking is prohibited.*\n- ✘ *You don't must enter.* → ✔ *You mustn't enter.* / *You don't have to enter.*\n- ✘ *I am obliged of pay.* → ✔ *I am obliged to pay.*\n- ✘ *The rules forbid to smoke.* → ✔ *The rules forbid smoking.* / *The rules forbid us to smoke.*\n\n**Ojo:** *Forbid + persona + to + verbo* (*forbid us to enter*) vs *prohibit + -ing* (*prohibit smoking*) / *prohibit someone from + -ing*. *Allow + persona + to* / *allow + -ing*: *They don't allow smoking. · They don't allow us to smoke.*\n\nPronunciación: *obliged* /əˈblaɪdʒd/ · *sublet* /ˌsʌbˈlet/ · *liable* /ˈlaɪəbl/ · *compulsory* /kəmˈpʌlsəri/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "You don't must",
+        "right": "You mustn't / don't have to",
+        "note": "Distinguir."
+      },
+      {
+        "wrong": "required pay",
+        "right": "required to pay",
+        "note": "To."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u11-l03-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuándo deben pagar el alquiler los inquilinos?",
+      "options": [
+        "El primer día de cada mes o antes",
+        "El último día del mes",
+        "Cada semana",
+        "Cuando quieran"
+      ],
+      "answer": [
+        "El primer día de cada mes o antes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: on or before the first day of each month.",
+        "incorrect": "Revisa esto: Dice: on or before the first day of each month."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué está terminantemente prohibido?",
+      "options": [
+        "Fumar dentro del edificio",
+        "Cocinar",
+        "Recibir visitas",
+        "Ver la tele"
+      ],
+      "answer": [
+        "Fumar dentro del edificio"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: Smoking is strictly prohibited.",
+        "incorrect": "Revisa esto: Dice: Smoking is strictly prohibited."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Con cuánta antelación debe avisar el propietario para inspeccionar?",
+      "options": [
+        "Al menos 24 horas",
+        "Una semana",
+        "Un mes",
+        "No necesita avisar nunca"
+      ],
+      "answer": [
+        "Al menos 24 horas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: at least 24 hours' notice.",
+        "incorrect": "Revisa esto: Dice: at least 24 hours' notice."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Hasta cuánto pueden quedarse las visitas sin aprobación?",
+      "options": [
+        "Dos semanas",
+        "Un día",
+        "Un mes",
+        "Una noche"
+      ],
+      "answer": [
+        "Dos semanas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: up to two weeks.",
+        "incorrect": "Revisa esto: Dice: up to two weeks."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 15,
+      "prompt": "Los inquilinos tienen permitido tener mascotas sin permiso.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Requieren consentimiento escrito.",
+        "incorrect": "Revisa esto: Requieren consentimiento escrito."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reported-questions"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Where do you live?' → He asked me where I ___ .",
+      "options": [
+        "lived",
+        "did live",
+        "do live",
+        "live did"
+      ],
+      "answer": [
+        "lived"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Orden afirmativo.",
+        "incorrect": "Revisa esto: Orden afirmativo."
+      },
+      "review_of": "en-b1-u07-l06-ex07"
+    },
+    {
+      "id": "en-b2-u11-l03-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "All tenants are required ___ pay the rent on time.",
+      "options": [
+        "to",
+        "for",
+        "that",
+        "of"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be required to.",
+        "incorrect": "Revisa esto: Be required to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv02",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-identity"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "reserved",
+          "right": "reservado"
+        },
+        {
+          "left": "outgoing",
+          "right": "extrovertido"
+        },
+        {
+          "left": "ruthless",
+          "right": "despiadado"
+        },
+        {
+          "left": "integrity",
+          "right": "integridad"
+        },
+        {
+          "left": "two-faced",
+          "right": "hipócrita"
+        },
+        {
+          "left": "driven",
+          "right": "con empuje"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario de personalidad B2.",
+        "incorrect": "Revisa esto: Vocabulario de personalidad B2."
+      },
+      "review_of": "en-b2-u01-l01-ex01"
+    },
+    {
+      "id": "en-b2-u11-l03-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Smoking ___ strictly prohibited in the building.",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "has"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ wear a suit. It's optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": [
+        "don't have to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No obligación.",
+        "incorrect": "Revisa esto: No obligación."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "You ___ park here. It's a no-parking zone.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "ought"
+      ],
+      "answer": [
+        "mustn't"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prohibición.",
+        "incorrect": "Revisa esto: Prohibición."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "Visitors are ___ to stay for up to two weeks.",
+      "options": [
+        "permitted",
+        "permit",
+        "permission",
+        "permissible"
+      ],
+      "answer": [
+        "permitted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be permitted to.",
+        "incorrect": "Revisa esto: Be permitted to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "The rules ___ smoking in public places.",
+      "options": [
+        "forbid",
+        "forbid to",
+        "permit to",
+        "prohibit to"
+      ],
+      "answer": [
+        "forbid"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forbid + sustantivo/-ing.",
+        "incorrect": "Revisa esto: Forbid + sustantivo/-ing."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "They don't allow ___ in the library.",
+      "options": [
+        "eating",
+        "to eat",
+        "eat",
+        "ate"
+      ],
+      "answer": [
+        "eating"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Allow + -ing.",
+        "incorrect": "Revisa esto: Allow + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She won a ___ to study in Canada. (beca)",
+      "answer": [
+        "scholarship"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Scholarship = beca.",
+        "incorrect": "Revisa esto: Scholarship = beca."
+      },
+      "review_of": "en-b1-u08-l01-ex11"
+    },
+    {
+      "id": "en-b2-u11-l03-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "The landlord is ___ to enter with 24 hours' notice.",
+      "options": [
+        "entitled",
+        "entitling",
+        "entitle",
+        "entitlement"
+      ],
+      "answer": [
+        "entitled"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be entitled to.",
+        "incorrect": "Revisa esto: Be entitled to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex14",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Failure to pay may result in a fine' means...",
+      "options": [
+        "Si no pagas, puedes recibir una multa",
+        "Pagar es opcional",
+        "La multa es un premio",
+        "No hay sanción"
+      ],
+      "answer": [
+        "Si no pagas, puedes recibir una multa"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Consecuencia.",
+        "incorrect": "Revisa esto: Consecuencia."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex15",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 25,
+      "prompt": "It is ___ to wear a seat belt in the car. (obligatorio)",
+      "answer": [
+        "compulsory",
+        "mandatory"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Compulsory.",
+        "incorrect": "Revisa esto: Compulsory."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "feelings-vocab"
+      ],
+      "est_seconds": 20,
+      "prompt": "You can ___ on me. I'll always help you.",
+      "options": [
+        "rely",
+        "wait",
+        "stay",
+        "look"
+      ],
+      "answer": [
+        "rely"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Rely on.",
+        "incorrect": "Revisa esto: Rely on."
+      },
+      "review_of": "en-b1-u11-l01-ex08"
+    },
+    {
+      "id": "en-b2-u11-l03-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tenants are ___ to report any damage within 48 hours. (obligados)",
+      "answer": [
+        "obliged",
+        "required"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obliged to.",
+        "incorrect": "Revisa esto: Obliged to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You are required pay a deposit.",
+      "answer": [
+        "You are required to pay a deposit."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be required to.",
+        "incorrect": "Revisa esto: Be required to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "You don't must enter this area.",
+      "answer": [
+        "You mustn't enter this area.",
+        "You don't have to enter this area."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Mustn't / don't have to.",
+        "incorrect": "Revisa esto: Mustn't / don't have to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am obliged of pay the fine.",
+      "answer": [
+        "I am obliged to pay the fine."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Obliged to.",
+        "incorrect": "Revisa esto: Obliged to."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The rules forbid to smoke in the building.",
+      "answer": [
+        "The rules forbid smoking in the building.",
+        "The rules forbid us to smoke in the building."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Forbid.",
+        "incorrect": "Revisa esto: Forbid."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Quién no necesita asiento propio?",
+      "options": [
+        "Los niños menores de dos años",
+        "Los adultos",
+        "Los pilotos",
+        "Los pasajeros de negocios"
+      ],
+      "answer": [
+        "Los niños menores de dos años"
+      ],
+      "audio_text": "Passengers are required to keep their seat belts fastened during take-off and landing. Mobile phones must be switched off, and smoking is strictly prohibited on board. Children under two are not required to have their own seat.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Children under two are not required to have their own seat.",
+        "incorrect": "Revisa esto: Dice: Children under two are not required to have their own seat."
+      },
+      "audio_script_id": "en-b2-u11-l03-ex21-a"
+    },
+    {
+      "id": "en-b2-u11-l03-rv05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "cv-letter"
+      ],
+      "est_seconds": 15,
+      "prompt": "Laura usa 'Yours faithfully' porque conoce el nombre.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Usa 'Yours sincerely' porque conoce el nombre (Ms Taylor).",
+        "incorrect": "Revisa esto: Usa 'Yours sincerely' porque conoce el nombre (Ms Taylor)."
+      },
+      "review_of": "en-b1-u03-l04-ex03"
+    },
+    {
+      "id": "en-b2-u11-l03-rv06",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estuve en Roma el año pasado.",
+      "answer": [
+        "I went to Rome last year.",
+        "I was in Rome last year."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con last year: pasado simple.",
+        "incorrect": "Revisa esto: Con last year: pasado simple."
+      },
+      "review_of": "en-a2-u08-l04-ex12"
+    },
+    {
+      "id": "en-b2-u11-l03-rv07",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "so-such-that"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto tardaron?",
+      "options": [
+        "Seis horas",
+        "Dos horas",
+        "Todo el día",
+        "Diez horas"
+      ],
+      "answer": [
+        "Seis horas"
+      ],
+      "audio_text": "It was such a long journey that we were exhausted when we arrived. The roads were so crowded that it took us six hours.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: it took us six hours.",
+        "incorrect": "Revisa esto: Dice: it took us six hours."
+      },
+      "audio_script_id": "en-b2-u11-l03-rv07-a",
+      "review_of": "en-b1-u09-l04-ex17"
+    },
+    {
+      "id": "en-b2-u11-l03-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Los inquilinos están obligados a pagar el alquiler y está prohibido subarrendar la vivienda.",
+      "answer": [
+        "Tenants are required to pay the rent and subletting the property is prohibited.",
+        "Tenants are obliged to pay the rent, and it is forbidden to sublet the flat."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro formal.",
+        "incorrect": "Revisa esto: Registro formal."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv08",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "health-dialogue"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've got a ___. My head is very hot. (fiebre)",
+      "answer": [
+        "temperature"
+      ],
+      "accepted_alternatives": [
+        "fever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Temperature también significa fiebre.",
+        "incorrect": "Revisa esto: Temperature también significa fiebre."
+      },
+      "review_of": "en-a2-u06-l02-ex04"
+    },
+    {
+      "id": "en-b2-u11-l03-ex23",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "obligation-formal"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No tienes que llevar corbata, pero no está permitido fumar.",
+      "answer": [
+        "You don't have to wear a tie, but smoking is not allowed.",
+        "You don't have to wear a tie, but smoking isn't permitted."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No obligación vs prohibición.",
+        "incorrect": "Revisa esto: No obligación vs prohibición."
+      }
+    },
+    {
+      "id": "en-b2-u11-l03-rv09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I can't ___ this noise any more.",
+      "options": [
+        "put up with",
+        "get on with",
+        "cheer up",
+        "count on"
+      ],
+      "answer": [
+        "put up with"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Put up with = aguantar.",
+        "incorrect": "Revisa esto: Put up with = aguantar."
+      },
+      "review_of": "en-b1-u11-l02-ex08"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "You are required to …",
+      "Smoking is prohibited. · Pets are not permitted.",
+      "You mustn't / You don't have to",
+      "Failure to … may result in …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-tenant"
+    },
+    {
+      "type": "vocab",
+      "id": "en-landlord"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-required-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-obliged-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-prohibited"
+    },
+    {
+      "type": "vocab",
+      "id": "en-consent"
+    },
+    {
+      "type": "vocab",
+      "id": "en-sublet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-entitled-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-terminate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-liable-for"
+    },
+    {
+      "type": "grammar",
+      "id": "en-obligation-formal"
+    }
+  ]
+}

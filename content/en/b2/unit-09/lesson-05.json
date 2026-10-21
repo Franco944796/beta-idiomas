@@ -1,0 +1,806 @@
+{
+  "id": "en-b2-u09-l05",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A report",
+    "es": "Redactar un informe"
+  },
+  "objective": "Al terminar escribes un informe (report) formal con secciones, datos, conclusiones y recomendaciones.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un informe presenta información de forma objetiva y ordenada: introducción, hallazgos, conclusiones y recomendaciones. Es un texto muy habitual en el trabajo y en exámenes de B2."
+  },
+  "input": {
+    "type": "text",
+    "text": "Report on Waste Management at Greenfield High School\n\n1. Introduction\nThe purpose of this report is to assess the school's current waste management practices and to recommend improvements. The information was gathered through observation and a survey of 120 students and 15 teachers.\n\n2. Findings\nThe survey revealed that 70 per cent of students are unaware of the school's recycling policy. Although recycling bins are available in the corridors, they are often contaminated with food waste. In addition, the canteen produces around 50 kilos of food waste per day, much of which could be avoided. Teachers reported that paper is used excessively, with double-sided printing rarely applied.\n\n3. Conclusions\nIt is clear that the school lacks both information and infrastructure. While the staff are generally supportive, there is no coordinated programme. Without clear guidance, the situation is unlikely to improve.\n\n4. Recommendations\nIt is recommended that the school should:\n- launch an awareness campaign led by student representatives;\n- install clearly labelled bins in the canteen and classrooms;\n- introduce a composting scheme for food waste;\n- set double-sided printing as the default option.\n\nIf these measures were implemented, waste could be reduced by up to 40 per cent within a year.",
+    "es": "Informe sobre la gestión de residuos en el instituto Greenfield. 1. Introducción: El propósito de este informe es evaluar las prácticas actuales de gestión de residuos del centro y recomendar mejoras. La información se recopiló mediante observación y una encuesta a 120 estudiantes y 15 profesores. 2. Hallazgos: La encuesta reveló que el 70 % de los estudiantes desconoce la política de reciclaje del centro. Aunque hay contenedores en los pasillos, a menudo están contaminados con restos de comida. Además, el comedor produce unos 50 kilos de residuos alimentarios al día, buena parte de los cuales podrían evitarse. Los profesores informaron de que se usa papel en exceso y rara vez se imprime a doble cara. 3. Conclusiones: Está claro que al centro le faltan información e infraestructuras. Aunque el personal es en general favorable, no hay un programa coordinado. Sin una guía clara, es poco probable que la situación mejore. 4. Recomendaciones: Se recomienda que el centro: lance una campaña de concienciación dirigida por representantes estudiantiles; instale contenedores claramente etiquetados en el comedor y las aulas; introduzca un sistema de compostaje para los residuos alimentarios; y fije la impresión a doble cara como opción predeterminada. Si se aplicaran estas medidas, los residuos podrían reducirse hasta un 40 % en un año.",
+    "glossary": [
+      {
+        "id": "en-assess",
+        "lemma": "assess",
+        "pos": "verb",
+        "ipa": "/əˈses/",
+        "es": "evaluar",
+        "example": "Assess the situation."
+      },
+      {
+        "id": "en-gather",
+        "lemma": "gather",
+        "pos": "verb",
+        "ipa": "/ˈɡæðə/",
+        "es": "recopilar",
+        "example": "Gather information."
+      },
+      {
+        "id": "en-survey",
+        "lemma": "survey",
+        "pos": "noun",
+        "ipa": "/ˈsɜːveɪ/",
+        "es": "encuesta",
+        "example": "A student survey."
+      },
+      {
+        "id": "en-reveal",
+        "lemma": "reveal",
+        "pos": "verb",
+        "ipa": "/rɪˈviːl/",
+        "es": "revelar",
+        "example": "The survey revealed…"
+      },
+      {
+        "id": "en-unaware",
+        "lemma": "unaware",
+        "pos": "adj",
+        "ipa": "/ˌʌnəˈweə/",
+        "es": "desconocedor",
+        "example": "Unaware of the policy."
+      },
+      {
+        "id": "en-contaminate",
+        "lemma": "contaminate",
+        "pos": "verb",
+        "ipa": "/kənˈtæmɪneɪt/",
+        "es": "contaminar",
+        "example": "Bins are contaminated."
+      },
+      {
+        "id": "en-canteen",
+        "lemma": "canteen",
+        "pos": "noun",
+        "ipa": "/kænˈtiːn/",
+        "es": "comedor",
+        "example": "The school canteen."
+      },
+      {
+        "id": "en-excessively",
+        "lemma": "excessively",
+        "pos": "adv",
+        "ipa": "/ɪkˈsesɪvli/",
+        "es": "en exceso",
+        "example": "Used excessively."
+      },
+      {
+        "id": "en-infrastructure",
+        "lemma": "infrastructure",
+        "pos": "noun",
+        "ipa": "/ˈɪnfrəstrʌktʃə/",
+        "es": "infraestructura",
+        "example": "Lack of infrastructure."
+      },
+      {
+        "id": "en-coordinated",
+        "lemma": "coordinated",
+        "pos": "adj",
+        "ipa": "/kəʊˈɔːdɪneɪtɪd/",
+        "es": "coordinado",
+        "example": "A coordinated programme."
+      },
+      {
+        "id": "en-composting",
+        "lemma": "composting",
+        "pos": "noun",
+        "ipa": "/ˈkɒmpɒstɪŋ/",
+        "es": "compostaje",
+        "example": "A composting scheme."
+      },
+      {
+        "id": "en-implement",
+        "lemma": "implement",
+        "pos": "verb",
+        "ipa": "/ˈɪmplɪment/",
+        "es": "aplicar",
+        "example": "Implement measures."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un informe (report)**\n\n| Sección | Contenido | Frases útiles |\n|---|---|---|\n| **Título** | claro, con el tema | *Report on … / A Report into …* |\n| **1. Introduction** | propósito y fuentes | *The purpose of this report is to … · The information was gathered through …* |\n| **2. Findings** | datos y hallazgos | *The survey revealed that … · It was found that … · X per cent of …* |\n| **3. Conclusions** | interpretación | *It is clear that … · It can be concluded that … · The evidence suggests …* |\n| **4. Recommendations** | acciones concretas | *It is recommended that … · I would recommend + -ing · The following measures should be taken …* |\n\n**Estilo del informe**\n\n- Registro **formal e impersonal**: *It was found that …* mejor que *I found that …* · Sin contracciones.\n- **Pasiva** para procedimientos: *The information was gathered …*\n- **Subtítulos** numerados y listas con puntos para recomendaciones.\n- **Datos concretos**: porcentajes, cifras, comparaciones.\n- **Objetividad**: evita opiniones emocionales; usa *seems, appears, suggests*.\n\n**Verbos útiles**\n\n- *Reveal, show, indicate, suggest, demonstrate, highlight, emphasise, identify, assess, evaluate, recommend, implement.*\n\n**Presentar datos**\n\n- *70 per cent of students are unaware … · The majority / A minority of … · Around half of … · Only a small proportion of …*\n\n**Recomendar**\n\n- *It is recommended that the school (should) + verbo base.* · *I would recommend that + sujeto + verbo base.* · *The school should consider + -ing.*\n\n**Errores típicos**\n\n- ✘ *I think the school is bad.* → ✔ *The survey suggests that the school lacks infrastructure.*\n- ✘ *It is recommended to install bins.* (aceptable) → mejor: *It is recommended that bins be installed.* / *that the school install bins.*\n- ✘ *The people of the survey said …* → ✔ *Respondents stated that …*\n- ✘ *We done a survey.* → ✔ *A survey was carried out.*\n\n**Ojo:** *Report* (informe) ≠ *essay* (ensayo) ≠ *article* (artículo). *Data* suele ser plural en lenguaje formal (*The data show …*); en uso moderno puede ser singular. *Percentage* vs *per cent*: *70 per cent* (UK), *70 percent* (US).\n\nPronunciación: *survey* (n.) /ˈsɜːveɪ/ · *infrastructure* /ˈɪnfrəstrʌktʃə/ · *implement* /ˈɪmplɪment/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I done a survey",
+        "right": "A survey was carried out",
+        "note": "Registro formal."
+      },
+      {
+        "wrong": "the people of the survey",
+        "right": "respondents",
+        "note": "Vocabulario preciso."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el propósito del informe?",
+      "options": [
+        "Evaluar las prácticas de gestión de residuos y recomendar mejoras",
+        "Cerrar el comedor",
+        "Contratar profesores",
+        "Comprar contenedores"
+      ],
+      "answer": [
+        "Evaluar las prácticas de gestión de residuos y recomendar mejoras"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: assess… and recommend improvements.",
+        "incorrect": "Revisa esto: Dice: assess… and recommend improvements."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué porcentaje de estudiantes desconoce la política de reciclaje?",
+      "options": [
+        "El 70 %",
+        "El 10 %",
+        "El 40 %",
+        "El 100 %"
+      ],
+      "answer": [
+        "El 70 %"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: 70 per cent of students are unaware.",
+        "incorrect": "Revisa esto: Dice: 70 per cent of students are unaware."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué se recomienda hacer con los residuos de comida?",
+      "options": [
+        "Introducir un sistema de compostaje",
+        "Tirarlos",
+        "Venderlos",
+        "Quemarlos"
+      ],
+      "answer": [
+        "Introducir un sistema de compostaje"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a composting scheme.",
+        "incorrect": "Revisa esto: Dice: a composting scheme."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "festival-description"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué lleva todo el mundo?",
+      "options": [
+        "Ropa blanca y un pañuelo rojo",
+        "Disfraces",
+        "Máscaras",
+        "Sombreros"
+      ],
+      "answer": [
+        "Ropa blanca y un pañuelo rojo"
+      ],
+      "audio_text": "The festival is held in July every year. It started in the 17th century and it has become very popular. Everyone wears white and a red scarf. It must be a wonderful experience.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: Everyone wears white and a red scarf.",
+        "incorrect": "Revisa esto: Dice: Everyone wears white and a red scarf."
+      },
+      "audio_script_id": "en-b2-u09-l05-rv01-a",
+      "review_of": "en-b1-u10-l06-ex18"
+    },
+    {
+      "id": "en-b2-u09-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 15,
+      "prompt": "El informe concluye que el personal se opone al reciclaje.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que el personal es en general favorable.",
+        "incorrect": "Revisa esto: Dice que el personal es en general favorable."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The purpose of this report ___ to assess the situation.",
+      "options": [
+        "is",
+        "are",
+        "was being",
+        "has"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The purpose is.",
+        "incorrect": "Revisa esto: The purpose is."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The information ___ through a survey.",
+      "options": [
+        "was gathered",
+        "gathered",
+        "gathers",
+        "has gathered it"
+      ],
+      "answer": [
+        "was gathered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "It is recommended that the school ___ a campaign.",
+      "options": [
+        "launch",
+        "launches",
+        "launched",
+        "launching"
+      ],
+      "answer": [
+        "launch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Subjuntivo / verbo base.",
+        "incorrect": "Revisa esto: Subjuntivo / verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The survey ___ that most students were unaware of the policy.",
+      "options": [
+        "revealed",
+        "revealing",
+        "reveal to",
+        "reveals up"
+      ],
+      "answer": [
+        "revealed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Reveal that.",
+        "incorrect": "Revisa esto: Reveal that."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is more suitable in a report?",
+      "options": [
+        "It was found that 60 per cent of respondents were dissatisfied.",
+        "I think people are not happy.",
+        "Everyone hates it.",
+        "They said it was bad."
+      ],
+      "answer": [
+        "It was found that 60 per cent of respondents were dissatisfied."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro formal.",
+        "incorrect": "Revisa esto: Registro formal."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "verb-patterns-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He suggested me to see a doctor.",
+      "answer": [
+        "He suggested that I see a doctor.",
+        "He suggested seeing a doctor.",
+        "He suggested that I should see a doctor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing / that.",
+        "incorrect": "Revisa esto: Suggest + -ing / that."
+      },
+      "review_of": "en-b2-u05-l03-ex18"
+    },
+    {
+      "id": "en-b2-u09-l05-ex10",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which heading belongs after 'Findings'?",
+      "options": [
+        "Conclusions",
+        "Dear Sir",
+        "Sincerely",
+        "P.S."
+      ],
+      "answer": [
+        "Conclusions"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Estructura.",
+        "incorrect": "Revisa esto: Estructura."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The data ___ that the problem is widespread.",
+      "options": [
+        "show",
+        "shows to",
+        "showing",
+        "showed up"
+      ],
+      "answer": [
+        "show"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Data (plural formal).",
+        "incorrect": "Revisa esto: Data (plural formal)."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "signs-rules"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No se permite sacar fotos en el museo.",
+      "answer": [
+        "You aren't allowed to take photos in the museum.",
+        "You are not allowed to take photos in the museum.",
+        "Photos aren't allowed in the museum."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be allowed to + verbo base.",
+        "incorrect": "Revisa esto: Be allowed to + verbo base."
+      },
+      "review_of": "en-a2-u06-l05-ex11"
+    },
+    {
+      "id": "en-b2-u09-l05-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (not / buy) a big house if she won.",
+      "answer": [
+        "wouldn't buy",
+        "would not buy"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Would not + verbo.",
+        "incorrect": "Revisa esto: Would not + verbo."
+      },
+      "review_of": "en-b1-u06-l02-ex11"
+    },
+    {
+      "id": "en-b2-u09-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-continuous-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "By next June, I ___ have saved €5,000. (habré)",
+      "answer": [
+        "'ll",
+        "will"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will have saved.",
+        "incorrect": "Revisa esto: Will have saved."
+      },
+      "review_of": "en-b2-u01-l02-ex13"
+    },
+    {
+      "id": "en-b2-u09-l05-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 20,
+      "prompt": "The majority of respondents ___ in favour of the plan.",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "has been"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Majority of + plural.",
+        "incorrect": "Revisa esto: Majority of + plural."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "cleft"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué necesitaba?",
+      "options": [
+        "Apoyo, no críticas",
+        "Más tiempo",
+        "Más dinero",
+        "Menos exámenes"
+      ],
+      "answer": [
+        "Apoyo, no críticas"
+      ],
+      "audio_text": "It wasn't the exam that worried me; it was the pressure from my parents. What I needed was support, not criticism. Although I was nervous, I passed so that I could keep my scholarship.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: What I needed was support, not criticism.",
+        "incorrect": "Revisa esto: Dice: What I needed was support, not criticism."
+      },
+      "audio_script_id": "en-b2-u09-l05-rv06-a",
+      "review_of": "en-b2-u08-l06-ex21"
+    },
+    {
+      "id": "en-b2-u09-l05-ex13",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 25,
+      "prompt": "It can be ___ that more investment is needed. (concluir)",
+      "answer": [
+        "concluded"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! It can be concluded.",
+        "incorrect": "Revisa esto: It can be concluded."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 25,
+      "prompt": "The following measures should be ___ . (aplicadas)",
+      "answer": [
+        "implemented",
+        "taken"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Despite he was tired, he kept working.",
+      "answer": [
+        "Despite being tired, he kept working.",
+        "Despite the fact that he was tired, he kept working.",
+        "Although he was tired, he kept working."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite + -ing.",
+        "incorrect": "Revisa esto: Despite + -ing."
+      },
+      "review_of": "en-b2-u08-l03-ex16"
+    },
+    {
+      "id": "en-b2-u09-l05-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I done a survey of 100 students last week.",
+      "answer": [
+        "A survey of 100 students was carried out last week.",
+        "I did a survey of 100 students last week.",
+        "I carried out a survey of 100 students last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Did / carried out.",
+        "incorrect": "Revisa esto: Did / carried out."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The people of the survey said that they were not informed.",
+      "answer": [
+        "Respondents stated that they were not informed.",
+        "The respondents said that they were not informed.",
+        "The people surveyed said that they were not informed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Respondents.",
+        "incorrect": "Revisa esto: Respondents."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I think the school is bad, and everybody hates it.",
+      "answer": [
+        "The survey suggests that many students are dissatisfied with the school."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Registro objetivo.",
+        "incorrect": "Revisa esto: Registro objetivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-rv08",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No iré a la fiesta a menos que tú vayas.",
+      "answer": [
+        "I won't go to the party unless you go.",
+        "I will not go to the party unless you go."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless + presente.",
+        "incorrect": "Revisa esto: Unless + presente."
+      },
+      "review_of": "en-b1-u04-l03-ex15"
+    },
+    {
+      "id": "en-b2-u09-l05-ex18",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un informe breve (10 a 12 frases) sobre el uso del transporte público en tu ciudad. Incluye título, introducción, hallazgos con datos inventados, conclusiones y dos recomendaciones. Usa registro formal e impersonal.",
+      "min_words": 85,
+      "self_check_es": [
+        "¿Tienes título y secciones numeradas?",
+        "¿Usas pasiva e impersonal?",
+        "¿Incluyes datos concretos?",
+        "¿Das recomendaciones claras?"
+      ],
+      "model_answer": "Report on Public Transport in Riverside\n\n1. Introduction\nThe purpose of this report is to assess the quality of public transport in Riverside. The information was gathered through a survey of 200 residents.\n\n2. Findings\nThe survey revealed that 65 per cent of respondents use buses at least once a week. However, 58 per cent complained about delays. In addition, only 20 per cent were satisfied with the evening service.\n\n3. Conclusions\nIt is clear that the current service does not meet residents' needs, especially at night.\n\n4. Recommendations\nIt is recommended that the council should increase the frequency of evening buses and introduce a real-time information app.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b2-u09-l05-ex19",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "report-writing"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "La encuesta reveló que el 70 % de los estudiantes desconoce la política; por tanto, se recomienda lanzar una campaña.",
+      "answer": [
+        "The survey revealed that 70 per cent of students are unaware of the policy; therefore, it is recommended that a campaign be launched.",
+        "The survey revealed that 70 per cent of students are unaware of the policy; it is therefore recommended that a campaign should be launched."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Informe.",
+        "incorrect": "Revisa esto: Informe."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "The purpose of this report is to …",
+      "The survey revealed that …",
+      "It is clear that …",
+      "It is recommended that …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-assess"
+    },
+    {
+      "type": "vocab",
+      "id": "en-gather"
+    },
+    {
+      "type": "vocab",
+      "id": "en-survey"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reveal"
+    },
+    {
+      "type": "vocab",
+      "id": "en-unaware"
+    },
+    {
+      "type": "vocab",
+      "id": "en-contaminate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-canteen"
+    },
+    {
+      "type": "vocab",
+      "id": "en-excessively"
+    },
+    {
+      "type": "vocab",
+      "id": "en-infrastructure"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coordinated"
+    },
+    {
+      "type": "grammar",
+      "id": "en-report-writing"
+    }
+  ]
+}

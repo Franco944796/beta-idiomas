@@ -1,0 +1,747 @@
+{
+  "id": "en-b1-u09-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 9,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "What can we do?",
+    "es": "Una discusión sobre soluciones"
+  },
+  "objective": "Al terminar participas en una discusión sobre soluciones ambientales: propones ideas, estás de acuerdo o discrepas y llegas a un acuerdo.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "reading",
+    "speaking",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Discutir ideas con educación, proponer soluciones y negociar un acuerdo es clave en conversaciones y exámenes de speaking."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Chair",
+        "text": "Today we need to decide how to reduce waste in our school. Any ideas?",
+        "es": "Hoy tenemos que decidir cómo reducir residuos en nuestro colegio. ¿Alguna idea?"
+      },
+      {
+        "speaker": "Pia",
+        "text": "I think we should ban single-use plastic. If we did that, we would cut waste a lot.",
+        "es": "Creo que deberíamos prohibir el plástico de un solo uso. Si lo hiciéramos, reduciríamos mucho los residuos."
+      },
+      {
+        "speaker": "Omar",
+        "text": "I see your point, but it might be difficult. Some students rely on plastic bottles. What about offering reusable ones instead?",
+        "es": "Entiendo tu punto, pero puede ser difícil. Algunos estudiantes dependen de botellas de plástico. ¿Y si ofrecemos reutilizables?"
+      },
+      {
+        "speaker": "Pia",
+        "text": "That's a good idea. We could sell them at cost price, and add water fountains.",
+        "es": "Buena idea. Podríamos venderlas a precio de coste y añadir fuentes de agua."
+      },
+      {
+        "speaker": "Lena",
+        "text": "I agree, but we also need to educate people. Posters alone won't change habits.",
+        "es": "Estoy de acuerdo, pero también hay que educar a la gente. Los carteles solos no cambian hábitos."
+      },
+      {
+        "speaker": "Omar",
+        "text": "Maybe we can organise workshops. And why don't we have a recycling competition between classes?",
+        "es": "Quizá podamos organizar talleres. ¿Y por qué no hacemos un concurso de reciclaje entre clases?"
+      },
+      {
+        "speaker": "Chair",
+        "text": "Those are all good proposals. Shall we vote?",
+        "es": "Todas son buenas propuestas. ¿Votamos?"
+      },
+      {
+        "speaker": "Pia",
+        "text": "Yes. I propose we start with the bottles and the competition, then see how it goes.",
+        "es": "Sí. Propongo empezar con las botellas y el concurso, y ver cómo va."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-ban",
+        "lemma": "ban",
+        "pos": "verb",
+        "ipa": "/bæn/",
+        "es": "prohibir",
+        "example": "They banned plastic bags."
+      },
+      {
+        "id": "en-single-use",
+        "lemma": "single-use",
+        "pos": "adj",
+        "ipa": "/ˌsɪŋɡl ˈjuːs/",
+        "es": "de un solo uso",
+        "example": "Single-use plastic."
+      },
+      {
+        "id": "en-rely-on",
+        "lemma": "rely on",
+        "pos": "phrasal verb",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "es": "depender de",
+        "example": "Some rely on plastic."
+      },
+      {
+        "id": "en-at-cost-price",
+        "lemma": "at cost price",
+        "pos": "phrase",
+        "ipa": "/ət kɒst praɪs/",
+        "es": "a precio de coste",
+        "example": "We sell it at cost price."
+      },
+      {
+        "id": "en-water-fountain",
+        "lemma": "water fountain",
+        "pos": "noun",
+        "ipa": "/ˈwɔːtə ˈfaʊntɪn/",
+        "es": "fuente de agua",
+        "example": "There's a water fountain."
+      },
+      {
+        "id": "en-educate",
+        "lemma": "educate",
+        "pos": "verb",
+        "ipa": "/ˈedʒukeɪt/",
+        "es": "educar, concienciar",
+        "example": "We need to educate people."
+      },
+      {
+        "id": "en-poster",
+        "lemma": "poster",
+        "pos": "noun",
+        "ipa": "/ˈpəʊstə/",
+        "es": "cartel",
+        "example": "Put up a poster."
+      },
+      {
+        "id": "en-workshop",
+        "lemma": "workshop",
+        "pos": "noun",
+        "ipa": "/ˈwɜːkʃɒp/",
+        "es": "taller",
+        "example": "We organised a workshop."
+      },
+      {
+        "id": "en-competition",
+        "lemma": "competition",
+        "pos": "noun",
+        "ipa": "/ˌkɒmpəˈtɪʃn/",
+        "es": "concurso, competición",
+        "example": "A recycling competition."
+      },
+      {
+        "id": "en-propose",
+        "lemma": "propose",
+        "pos": "verb",
+        "ipa": "/prəˈpəʊz/",
+        "es": "proponer",
+        "example": "I propose a vote."
+      },
+      {
+        "id": "en-vote",
+        "lemma": "vote",
+        "pos": "verb/noun",
+        "ipa": "/vəʊt/",
+        "es": "votar / voto",
+        "example": "Let's vote."
+      },
+      {
+        "id": "en-see-how-it-goes",
+        "lemma": "see how it goes",
+        "pos": "phrase",
+        "ipa": "/siː haʊ ɪt ɡəʊz/",
+        "es": "ver cómo va",
+        "example": "Let's see how it goes."
+      }
+    ],
+    "audio_script_id": "en-b1-u09-l05-d01"
+  },
+  "explanation": {
+    "md_es": "**Frases para una discusión**\n\n| Función | Frases |\n|---|---|\n| Proponer | *I think we should … · How about + -ing? · Why don't we …? · I propose that we …* |\n| Estar de acuerdo | *I agree. · That's a good idea. · Exactly! · I couldn't agree more.* |\n| Matizar / discrepar | *I see your point, but … · I'm not sure about that. · On the other hand, … · That might be difficult because …* |\n| Pedir opinión | *What do you think? · Do you agree? · Any other ideas?* |\n| Condiciones | *If we did that, we would … · As long as …* |\n| Cerrar | *Shall we vote? · So we agree to … · Let's start with … and see how it goes.* |\n\n**Estrategias de una buena discusión**\n\n1. Escucha y reconoce lo que dice el otro (*I see your point*).\n2. Matiza antes de disentir (*but*, *however*), en vez de decir *No*.\n3. Justifica con una razón o un ejemplo.\n4. Resume y propón un acuerdo.\n\n**Sugerencias con formas distintas**\n\n- *Let's + verbo* → *Let's start with bottles.*\n- *Shall we + verbo?* → *Shall we vote?*\n- *How about + -ing?* → *How about offering reusable ones?*\n- *We could + verbo* → *We could sell them at cost price.*\n\n**Ojo:** *I'm agree* ✘ → *I agree* ✔. *Discuss* no lleva preposición: *discuss the problem* (no *discuss about*). *Propose* (proponer) ≠ *purpose* (propósito). *Argue* = discutir con enfado; *discuss* = hablar de manera constructiva.\n\nPronunciación: *propose* /prəˈpəʊz/ · *competition* /ˌkɒmpəˈtɪʃn/ · *educate* /ˈedʒukeɪt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I'm agree.",
+        "right": "I agree.",
+        "note": "Agree sin be."
+      },
+      {
+        "wrong": "Discuss about.",
+        "right": "Discuss the problem.",
+        "note": "Discuss sin about."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u09-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué propone Pia primero?",
+      "options": [
+        "Prohibir el plástico de un solo uso",
+        "Cerrar el colegio",
+        "Cambiar los menús",
+        "Plantar un huerto"
+      ],
+      "answer": [
+        "Prohibir el plástico de un solo uso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: ban single-use plastic.",
+        "incorrect": "Revisa esto: Dice: ban single-use plastic."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué alternativa ofrece Omar?",
+      "options": [
+        "Ofrecer botellas reutilizables",
+        "Aumentar el precio",
+        "No hacer nada",
+        "Vender más plástico"
+      ],
+      "answer": [
+        "Ofrecer botellas reutilizables"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: What about offering reusable ones instead?",
+        "incorrect": "Revisa esto: Dice: What about offering reusable ones instead?"
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv01",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "symptoms-detail"
+      ],
+      "est_seconds": 25,
+      "prompt": "My chest ___ when I cough. (me duele)",
+      "answer": [
+        "hurts",
+        "aches"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hurts / aches.",
+        "incorrect": "Revisa esto: Hurts / aches."
+      },
+      "review_of": "en-b1-u04-l05-ex11"
+    },
+    {
+      "id": "en-b1-u09-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué acuerdan al final?",
+      "options": [
+        "Empezar con las botellas y el concurso",
+        "Votar mañana",
+        "Cancelar todo",
+        "Dejar el tema"
+      ],
+      "answer": [
+        "Empezar con las botellas y el concurso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: start with the bottles and the competition.",
+        "incorrect": "Revisa esto: Dice: start with the bottles and the competition."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 15,
+      "prompt": "Lena cree que solo con carteles cambiarán los hábitos.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Posters alone won't change habits.",
+        "incorrect": "Revisa esto: Dice: Posters alone won't change habits."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which phrase shows polite disagreement?",
+      "options": [
+        "I see your point, but …",
+        "You're wrong.",
+        "No way.",
+        "That's stupid."
+      ],
+      "answer": [
+        "I see your point, but …"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Desacuerdo educado.",
+        "incorrect": "Revisa esto: Desacuerdo educado."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ about offering reusable bottles?",
+      "options": [
+        "How",
+        "What for",
+        "Why",
+        "Which"
+      ],
+      "answer": [
+        "How"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How about + -ing.",
+        "incorrect": "Revisa esto: How about + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Shall we ___ ?",
+      "options": [
+        "vote",
+        "to vote",
+        "voting",
+        "voted"
+      ],
+      "answer": [
+        "vote"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Shall we + verbo.",
+        "incorrect": "Revisa esto: Shall we + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv02",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-simple"
+      ],
+      "est_seconds": 25,
+      "prompt": "The bulb ___ (invent) in 1879.",
+      "answer": [
+        "was invented"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva en pasado.",
+        "incorrect": "Revisa esto: Pasiva en pasado."
+      },
+      "review_of": "en-b1-u05-l02-ex10"
+    },
+    {
+      "id": "en-b1-u09-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm not sure about that. It ___ be difficult.",
+      "options": [
+        "might",
+        "might to",
+        "mights",
+        "maybe to"
+      ],
+      "answer": [
+        "might"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Might + verbo.",
+        "incorrect": "Revisa esto: Might + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "pp-continuous"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She's been writing five emails this morning.",
+      "answer": [
+        "She's written five emails this morning.",
+        "She has written five emails this morning."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con una cantidad (five) se usa el simple.",
+        "incorrect": "Revisa esto: Con una cantidad (five) se usa el simple."
+      },
+      "review_of": "en-b1-u01-l02-ex11"
+    },
+    {
+      "id": "en-b1-u09-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best way to disagree?",
+      "options": [
+        "I'm not sure I agree. Maybe we could try something else.",
+        "You are wrong!",
+        "I hate this idea.",
+        "No."
+      ],
+      "answer": [
+        "I'm not sure I agree. Maybe we could try something else."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Matiz + alternativa.",
+        "incorrect": "Revisa esto: Matiz + alternativa."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex10",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "I ___ your point, but I don't think it will work. (entiendo)",
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I see your point.",
+        "incorrect": "Revisa esto: I see your point."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex11",
+      "type": "fill_blank",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 25,
+      "prompt": "Let's ___ with the bottles and see how it goes. (empezar)",
+      "answer": [
+        "start"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Let's start.",
+        "incorrect": "Revisa esto: Let's start."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 20,
+      "prompt": "Un niño está subido en una silla que se mueve. Dices: 'Careful! You ___ fall!'",
+      "options": [
+        "are going to",
+        "go to",
+        "will to",
+        "are go to"
+      ],
+      "answer": [
+        "are going to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Evidencia ahora: you're going to fall.",
+        "incorrect": "Revisa esto: Evidencia ahora: you're going to fall."
+      },
+      "review_of": "en-a2-u05-l02-ex02"
+    },
+    {
+      "id": "en-b1-u09-l05-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm agree with you.",
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree sin be.",
+        "incorrect": "Revisa esto: Agree sin be."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-would"
+      ],
+      "est_seconds": 25,
+      "prompt": "I didn't ___ to like spicy food. (antes)",
+      "answer": [
+        "use"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Didn't use to + verbo.",
+        "incorrect": "Revisa esto: Didn't use to + verbo."
+      },
+      "review_of": "en-b1-u01-l06-ex09"
+    },
+    {
+      "id": "en-b1-u09-l05-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "can-requests"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué quiere la persona?",
+      "options": [
+        "To borrow a pen",
+        "To open a window",
+        "To use a phone",
+        "To close a door"
+      ],
+      "answer": [
+        "To borrow a pen"
+      ],
+      "audio_text": "Can I borrow your pen, please? Sure, here you are.",
+      "feedback": {
+        "correct": "¡Correcto! Pide 'borrow your pen'.",
+        "incorrect": "Revisa esto: Pide 'borrow your pen'."
+      },
+      "audio_script_id": "en-b1-u09-l05-rv06-a",
+      "review_of": "en-a1-u09-l03-ex09"
+    },
+    {
+      "id": "en-b1-u09-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We should discuss about the problem.",
+      "answer": [
+        "We should discuss the problem.",
+        "We should talk about the problem."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Discuss sin about.",
+        "incorrect": "Revisa esto: Discuss sin about."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "going-to-predictions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What you are going to do?",
+      "answer": [
+        "What are you going to do?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En pregunta, el verbo to be va antes del sujeto.",
+        "incorrect": "Revisa esto: En pregunta, el verbo to be va antes del sujeto."
+      },
+      "review_of": "en-a2-u05-l02-ex07"
+    },
+    {
+      "id": "en-b1-u09-l05-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Participas en una reunión para reducir residuos.",
+      "turns": [
+        {
+          "speaker": "Chair",
+          "text": "Any ideas for reducing waste?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I think we should ban single-use plastic. If we did that, we would cut waste a lot.",
+            "I think we ban single-use plastics. If we do, we cut waste.",
+            "Plastic is bad."
+          ],
+          "best": 0,
+          "why_es": "Opinión + condicional."
+        },
+        {
+          "speaker": "Omar",
+          "text": "I see your point, but it might be difficult."
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "That's true. How about offering reusable bottles instead?",
+            "No true. Why not give bottle?",
+            "I disagree."
+          ],
+          "best": 0,
+          "why_es": "Propuesta alternativa."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u09-l05-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe (6 a 8 frases) tu intervención en una reunión sobre cómo reducir la contaminación en tu ciudad: propones una idea, das una razón, reconoces una objeción y propones un acuerdo.",
+      "min_words": 60,
+      "self_check_es": [
+        "¿Propones una idea con should / how about?",
+        "¿Usas el segundo condicional o might?",
+        "¿Reconoces una objeción?",
+        "¿Propones cómo avanzar?"
+      ],
+      "model_answer": "I think we should create more cycle lanes in our city. If we did that, fewer people would drive and the air would be cleaner. I see that some people may think it's expensive, but it would save money on health in the long term. How about starting with the city centre? Then we could see how it goes and extend the lanes later. I propose that we vote at the next meeting.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I think we should … · How about + -ing?",
+      "I see your point, but …",
+      "If we did that, we would …",
+      "Shall we vote? · Let's see how it goes."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-ban"
+    },
+    {
+      "type": "vocab",
+      "id": "en-single-use"
+    },
+    {
+      "type": "vocab",
+      "id": "en-rely-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-at-cost-price"
+    },
+    {
+      "type": "vocab",
+      "id": "en-water-fountain"
+    },
+    {
+      "type": "vocab",
+      "id": "en-educate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-poster"
+    },
+    {
+      "type": "vocab",
+      "id": "en-workshop"
+    },
+    {
+      "type": "vocab",
+      "id": "en-competition"
+    },
+    {
+      "type": "vocab",
+      "id": "en-propose"
+    },
+    {
+      "type": "grammar",
+      "id": "en-discussion-b1"
+    }
+  ]
+}

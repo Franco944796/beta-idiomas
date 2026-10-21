@@ -1,0 +1,904 @@
+{
+  "id": "en-b2-u06-l06",
+  "language": "en",
+  "level": "B2",
+  "unit": 6,
+  "order": 6,
+  "kind": "checkpoint",
+  "version": 1,
+  "title": {
+    "target": "Checkpoint 6",
+    "es": "Checkpoint 6"
+  },
+  "objective": "Al terminar demuestras que hablas de viajes y culturas, usas la inversión enfática y las preposiciones dependientes, hablas de choque cultural y escribes un artículo de viajes.",
+  "est_minutes": 45,
+  "skills": [
+    "grammar",
+    "listening",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Checkpoint de la unidad 6 de B2: vocabulario de viaje, inversión, preposiciones dependientes, diferencias culturales y artículo de viajes."
+  },
+  "input": {
+    "type": "review",
+    "recap_es": "Repasa: vocabulario de viajes, inversión (Never have I…, Not only did…), preposiciones dependientes, diferencias culturales y estructura de un artículo de viajes.",
+    "glossary": []
+  },
+  "explanation": {
+    "md_es": "**Repaso de la unidad 6**\n\n- *go on a trip · luggage (incontable) · off the beaten track · hidden gem · take it in your stride*\n- *Never have I seen … · Not only did he … but also … · Hardly had we … when … · No sooner had … than …*\n- *depend on · interested in · afraid of · good at · apologise to … for …*\n- *It is considered rude to … · Unlike in … · custom / habit / customs*\n- *The moment you step … · A tip from the locals … · Go with an open mind.*",
+    "common_mistakes_es": [],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u06-l06-ex01",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Ventaja o problema al viajar?",
+      "categories": [
+        "Plus",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "hidden gem",
+          "category": "Plus"
+        },
+        {
+          "text": "hospitality",
+          "category": "Plus"
+        },
+        {
+          "text": "local cuisine",
+          "category": "Plus"
+        },
+        {
+          "text": "lost luggage",
+          "category": "Problem"
+        },
+        {
+          "text": "tourist trap",
+          "category": "Problem"
+        },
+        {
+          "text": "scam",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex02",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "We went on a ___ to the mountains last weekend.",
+      "options": [
+        "trip",
+        "journey",
+        "travel",
+        "voyage"
+      ],
+      "answer": [
+        "trip"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trip.",
+        "incorrect": "Revisa esto: Trip."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 20,
+      "prompt": "The ___ was lost at the airport.",
+      "options": [
+        "luggage",
+        "luggages",
+        "a luggage",
+        "luggage were"
+      ],
+      "answer": [
+        "luggage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Never ___ such a beautiful place.",
+      "options": [
+        "have I seen",
+        "I have seen",
+        "I saw",
+        "did I seen"
+      ],
+      "answer": [
+        "have I seen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Not only ___ the exam, but she also got the highest mark.",
+      "options": [
+        "did she pass",
+        "she passed",
+        "she did pass",
+        "passed she"
+      ],
+      "answer": [
+        "did she pass"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not only did.",
+        "incorrect": "Revisa esto: Not only did."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "No sooner had we arrived ___ it started to rain.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "then"
+      ],
+      "answer": [
+        "than"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No sooner … than.",
+        "incorrect": "Revisa esto: No sooner … than."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When I arrived, it rained and I was tired because I fly all night.",
+      "answer": [
+        "When I arrived, it was raining and I was tired because I had flown all night.",
+        "When I arrived, it was raining and I was tired because I had been flying all night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tiempos narrativos.",
+        "incorrect": "Revisa esto: Tiempos narrativos."
+      },
+      "review_of": "en-b1-u06-l05-ex12"
+    },
+    {
+      "id": "en-b2-u06-l06-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to help you.",
+      "answer": [
+        "I'll help you.",
+        "I will help you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de will va el verbo base, sin to.",
+        "incorrect": "Revisa esto: Después de will va el verbo base, sin to."
+      },
+      "review_of": "en-a2-u05-l03-ex06"
+    },
+    {
+      "id": "en-b2-u06-l06-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "shopping"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I take it.",
+      "answer": [
+        "I'll take it."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para decidir comprar se usa I'll take it.",
+        "incorrect": "Revisa esto: Para decidir comprar se usa I'll take it."
+      },
+      "review_of": "en-a1-u08-l05-ex09"
+    },
+    {
+      "id": "en-b2-u06-l06-rv04",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "have",
+        "you",
+        "lived",
+        "here",
+        "?",
+        "How",
+        "long"
+      ],
+      "answer": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "lived",
+        "here",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How long + have + sujeto + participio.",
+        "incorrect": "Revisa esto: How long + have + sujeto + participio."
+      },
+      "review_of": "en-a2-u08-l05-ex08"
+    },
+    {
+      "id": "en-b2-u06-l06-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hardly had we arrived ___ it started to rain.",
+      "options": [
+        "when",
+        "than",
+        "that",
+        "then"
+      ],
+      "answer": [
+        "when"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hardly … when.",
+        "incorrect": "Revisa esto: Hardly … when."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Under no circumstances ___ the door.",
+      "options": [
+        "should you open",
+        "you should open",
+        "you open",
+        "open you"
+      ],
+      "answer": [
+        "should you open"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión con modal.",
+        "incorrect": "Revisa esto: Inversión con modal."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "It depends ___ the weather.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "in"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's very good ___ solving problems.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "with"
+      ],
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Good at.",
+        "incorrect": "Revisa esto: Good at."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 20,
+      "prompt": "I congratulated her ___ her promotion.",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "to"
+      ],
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Congratulate on.",
+        "incorrect": "Revisa esto: Congratulate on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 20,
+      "prompt": "Have you ___ climbed a mountain?",
+      "options": [
+        "ever",
+        "never",
+        "yet",
+        "since"
+      ],
+      "answer": [
+        "ever"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En preguntas: ever (alguna vez).",
+        "incorrect": "Revisa esto: En preguntas: ever (alguna vez)."
+      },
+      "review_of": "en-a2-u08-l02-ex03"
+    },
+    {
+      "id": "en-b2-u06-l06-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I get on well her.",
+      "answer": [
+        "I get on well with her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on with.",
+        "incorrect": "Revisa esto: Get on with."
+      },
+      "review_of": "en-b1-u11-l02-ex14"
+    },
+    {
+      "id": "en-b2-u06-l06-rv07",
+      "type": "dictation",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 45,
+      "prompt": "Escucha y escribe lo que oyes.",
+      "audio_text": "Can I have a litre of milk, please?",
+      "answer": [
+        "Can I have a litre of milk, please?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pedido de cantidad: a litre of milk.",
+        "incorrect": "Revisa esto: Pedido de cantidad: a litre of milk."
+      },
+      "audio_script_id": "en-b2-u06-l06-rv07-a",
+      "review_of": "en-a2-u04-l04-ex10"
+    },
+    {
+      "id": "en-b2-u06-l06-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "cultural-differences"
+      ],
+      "est_seconds": 20,
+      "prompt": "It is considered ___ to tip in some countries.",
+      "options": [
+        "rude",
+        "as rude",
+        "to rude",
+        "rudeness"
+      ],
+      "answer": [
+        "rude"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Considered + adj.",
+        "incorrect": "Revisa esto: Considered + adj."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "cultural-differences"
+      ],
+      "est_seconds": 20,
+      "prompt": "It's the local ___ to remove your shoes.",
+      "options": [
+        "custom",
+        "habit",
+        "customs",
+        "manner"
+      ],
+      "answer": [
+        "custom"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Custom.",
+        "incorrect": "Revisa esto: Custom."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex14",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-article"
+      ],
+      "est_seconds": 20,
+      "prompt": "I recommend ___ the tanneries early in the morning.",
+      "options": [
+        "visiting",
+        "to visit",
+        "you visit to",
+        "of visiting"
+      ],
+      "answer": [
+        "visiting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend + -ing.",
+        "incorrect": "Revisa esto: Recommend + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 25,
+      "prompt": "Seldom ___ we eat out these days. (hacemos)",
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Seldom do.",
+        "incorrect": "Revisa esto: Seldom do."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex16",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Paris is famous ___ its museums. (por)",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Famous for.",
+        "incorrect": "Revisa esto: Famous for."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Never I have seen such a beautiful sunset.",
+      "answer": [
+        "Never have I seen such a beautiful sunset."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión.",
+        "incorrect": "Revisa esto: Inversión."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-rv08",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "objects"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada objeto en su categoría.",
+      "categories": [
+        "School",
+        "Electronics",
+        "Personal things"
+      ],
+      "items": [
+        {
+          "text": "pen",
+          "category": "School"
+        },
+        {
+          "text": "notebook",
+          "category": "School"
+        },
+        {
+          "text": "pencil",
+          "category": "School"
+        },
+        {
+          "text": "phone",
+          "category": "Electronics"
+        },
+        {
+          "text": "computer",
+          "category": "Electronics"
+        },
+        {
+          "text": "camera",
+          "category": "Electronics"
+        },
+        {
+          "text": "wallet",
+          "category": "Personal things"
+        },
+        {
+          "text": "keys",
+          "category": "Personal things"
+        },
+        {
+          "text": "glasses",
+          "category": "Personal things"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u11-l01-ex02"
+    },
+    {
+      "id": "en-b2-u06-l06-rv09",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿En qué palabra la terminación -ed suena /ɪd/?",
+      "options": [
+        "wanted",
+        "walked",
+        "played",
+        "cooked"
+      ],
+      "answer": [
+        "wanted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de t o d, -ed se pronuncia /ɪd/.",
+        "incorrect": "Revisa esto: Después de t o d, -ed se pronuncia /ɪd/."
+      },
+      "review_of": "en-a2-u01-l02-ex05"
+    },
+    {
+      "id": "en-b2-u06-l06-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It depends of the price.",
+      "answer": [
+        "It depends on the price."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Depend on.",
+        "incorrect": "Revisa esto: Depend on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-travel"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I did a trip to Italy last summer.",
+      "answer": [
+        "I went on a trip to Italy last summer.",
+        "I took a trip to Italy last summer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Trip.",
+        "incorrect": "Revisa esto: Trip."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex20",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "cultural-differences"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "It is considered as impolite to talk with your mouth full.",
+      "answer": [
+        "It is considered impolite to talk with your mouth full."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sin as.",
+        "incorrect": "Revisa esto: Sin as."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hizo además la dueña?",
+      "options": [
+        "Les llevó a ver las mejores vistas",
+        "Les regaló dinero",
+        "Les alquiló un coche",
+        "Les enseñó el idioma"
+      ],
+      "answer": [
+        "Les llevó a ver las mejores vistas"
+      ],
+      "audio_text": "Never have I felt so welcome as in that small guesthouse. Not only did the owner cook for us, but she also took us to see the best views of the town. It was a real hidden gem.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: took us to see the best views of the town.",
+        "incorrect": "Revisa esto: Dice: took us to see the best views of the town."
+      },
+      "audio_script_id": "en-b2-u06-l06-ex21-a"
+    },
+    {
+      "id": "en-b2-u06-l06-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Apenas habíamos llegado cuando empezó a llover; depende del tiempo que podamos salir mañana.",
+      "answer": [
+        "Hardly had we arrived when it started to rain; whether we can go out tomorrow depends on the weather.",
+        "Hardly had we arrived when it started to rain; whether we can go out tomorrow depends on the weather."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inversión + depend on.",
+        "incorrect": "Revisa esto: Inversión + depend on."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex23",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "inversion",
+        "travel-article"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Un amigo te pregunta por tu viaje.",
+      "turns": [
+        {
+          "speaker": "Friend",
+          "text": "How was your trip? Was it expensive?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "It depends on the season. Off-season, it's much cheaper, and you get a more authentic experience.",
+            "It depend of the time.",
+            "Don't know."
+          ],
+          "best": 0,
+          "why_es": "Depend on + temporada."
+        },
+        {
+          "speaker": "Friend",
+          "text": "Would you recommend it?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Definitely. Never have I met such friendly people. I recommend going with an open mind.",
+            "Yes, is good, I recommend you to go.",
+            "Maybe."
+          ],
+          "best": 0,
+          "why_es": "Inversión + recommend + -ing."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u06-l06-ex24",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "inversion",
+        "dependent-prepositions",
+        "travel-article",
+        "cultural-differences"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe 8 a 10 frases sobre un viaje que hayas hecho o te gustaría hacer. Incluye una inversión (Never have I…/Not only did…), una preposición dependiente, un consejo con recommend + -ing y una frase sobre una costumbre local.",
+      "min_words": 76,
+      "self_check_es": [
+        "¿Usas inversión?",
+        "¿Usas una preposición dependiente?",
+        "¿Aconsejas con recommend + -ing?",
+        "¿Mencionas una costumbre?"
+      ],
+      "model_answer": "Never have I visited a city as lively as Seville. Not only is the architecture stunning, but the food is also delicious. I'm fascinated by the Moorish history, and I'm good at finding hidden gems. I recommend visiting in spring, when it is considered the best time of year. Unlike in northern Europe, people there dine late, and it is the custom to share small dishes. It depends on your budget, but you can eat very well for little money. Go with an open mind and you will be rewarded.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Never have I … · Not only did …",
+      "It depends on … · interested in …",
+      "It is considered rude to …",
+      "A tip from the locals: …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "grammar",
+      "id": "en-travel-b2"
+    },
+    {
+      "type": "grammar",
+      "id": "en-inversion"
+    },
+    {
+      "type": "grammar",
+      "id": "en-dependent-prepositions"
+    },
+    {
+      "type": "grammar",
+      "id": "en-cultural-differences"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-article"
+    }
+  ],
+  "checkpoint": {
+    "pass_score": 0.75
+  }
+}

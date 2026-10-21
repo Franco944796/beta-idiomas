@@ -1,0 +1,906 @@
+{
+  "id": "en-b1-u08-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 8,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "School and university",
+    "es": "Colegio y universidad"
+  },
+  "objective": "Al terminar hablas de colegio, universidad, asignaturas, notas y estudios con vocabulario preciso y sin falsos amigos.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Estudio Derecho', 'saqué buena nota', 'me gradué en 2020'. El vocabulario escolar en inglés tiene trampas: attend, degree, subject, mark y grade."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Nina",
+        "text": "So, what are you studying at university?",
+        "es": "Entonces, ¿qué estudias en la universidad?"
+      },
+      {
+        "speaker": "Hugo",
+        "text": "I'm doing a degree in Computer Science. I'm in my second year and I've just passed all my exams.",
+        "es": "Hago el grado en Informática. Estoy en segundo y acabo de aprobar todos los exámenes."
+      },
+      {
+        "speaker": "Nina",
+        "text": "Well done! I failed a Maths exam last year, so I had to retake it.",
+        "es": "¡Bien hecho! Yo suspendí un examen de Matemáticas el año pasado y tuve que repetirlo."
+      },
+      {
+        "speaker": "Hugo",
+        "text": "That's tough. Do you attend lectures every day?",
+        "es": "Qué duro. ¿Asistes a clase todos los días?"
+      },
+      {
+        "speaker": "Nina",
+        "text": "Most days. I take notes during the lectures and I revise at the library on weekends.",
+        "es": "La mayoría. Tomo apuntes durante las clases y repaso en la biblioteca los fines de semana."
+      },
+      {
+        "speaker": "Hugo",
+        "text": "Are you doing any research or an internship?",
+        "es": "¿Estás haciendo alguna investigación o prácticas?"
+      },
+      {
+        "speaker": "Nina",
+        "text": "I applied for a scholarship, and I'd like to do a master's abroad after I graduate.",
+        "es": "Solicité una beca y me gustaría hacer un máster en el extranjero cuando me gradúe."
+      },
+      {
+        "speaker": "Hugo",
+        "text": "Good luck! My dream is to do a PhD, but first I have to hand in my final project.",
+        "es": "¡Suerte! Mi sueño es hacer un doctorado, pero primero tengo que entregar mi trabajo de fin de grado."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-degree",
+        "lemma": "degree",
+        "pos": "noun",
+        "ipa": "/dɪˈɡriː/",
+        "es": "grado, título",
+        "example": "He has a degree in Law."
+      },
+      {
+        "id": "en-subject",
+        "lemma": "subject",
+        "pos": "noun",
+        "ipa": "/ˈsʌbdʒɪkt/",
+        "es": "asignatura",
+        "example": "My favourite subject is History."
+      },
+      {
+        "id": "en-pass-fail",
+        "lemma": "pass / fail",
+        "pos": "verb",
+        "ipa": "/pɑːs / feɪl/",
+        "es": "aprobar / suspender",
+        "example": "I passed the exam."
+      },
+      {
+        "id": "en-retake",
+        "lemma": "retake",
+        "pos": "verb",
+        "ipa": "/ˌriːˈteɪk/",
+        "es": "repetir (examen)",
+        "example": "I have to retake the exam."
+      },
+      {
+        "id": "en-attend",
+        "lemma": "attend",
+        "pos": "verb",
+        "ipa": "/əˈtend/",
+        "es": "asistir a",
+        "example": "I attend lectures."
+      },
+      {
+        "id": "en-lecture",
+        "lemma": "lecture",
+        "pos": "noun",
+        "ipa": "/ˈlektʃə/",
+        "es": "clase magistral",
+        "example": "The lecture was boring."
+      },
+      {
+        "id": "en-take-notes",
+        "lemma": "take notes",
+        "pos": "phrase",
+        "ipa": "/teɪk nəʊts/",
+        "es": "tomar apuntes",
+        "example": "I take notes in class."
+      },
+      {
+        "id": "en-revise",
+        "lemma": "revise",
+        "pos": "verb",
+        "ipa": "/rɪˈvaɪz/",
+        "es": "repasar (UK)",
+        "example": "I'm revising for my exams."
+      },
+      {
+        "id": "en-internship",
+        "lemma": "internship",
+        "pos": "noun",
+        "ipa": "/ˈɪntɜːnʃɪp/",
+        "es": "prácticas",
+        "example": "She did an internship."
+      },
+      {
+        "id": "en-scholarship",
+        "lemma": "scholarship",
+        "pos": "noun",
+        "ipa": "/ˈskɒləʃɪp/",
+        "es": "beca",
+        "example": "He won a scholarship."
+      },
+      {
+        "id": "en-graduate",
+        "lemma": "graduate",
+        "pos": "verb",
+        "ipa": "/ˈɡrædʒueɪt/",
+        "es": "graduarse",
+        "example": "I graduated in 2020."
+      },
+      {
+        "id": "en-master-s-phd",
+        "lemma": "master's / PhD",
+        "pos": "noun",
+        "ipa": "/ˈmɑːstəz / ˌpiː eɪtʃ ˈdiː/",
+        "es": "máster / doctorado",
+        "example": "She's doing a PhD."
+      },
+      {
+        "id": "en-hand-in",
+        "lemma": "hand in",
+        "pos": "phrasal verb",
+        "ipa": "/hænd ɪn/",
+        "es": "entregar",
+        "example": "Hand in your essay by Friday."
+      }
+    ],
+    "audio_script_id": "en-b1-u08-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario escolar y universitario**\n\n| Palabra | Significado | Nota |\n|---|---|---|\n| *school · primary · secondary* | colegio, primaria, secundaria | |\n| *university · college* | universidad / centro | *college* en EE. UU. = universidad |\n| *degree · bachelor's · master's · PhD* | grado, máster, doctorado | |\n| *subject · course · module* | asignatura · curso · módulo | |\n| *mark (UK) · grade (US)* | nota | *I got a good mark.* |\n| *pass · fail · retake* | aprobar · suspender · repetir | |\n| *attend · assist* | asistir a / ayudar | ✘ *assist a class* |\n\n**Verbos de estudio:** *study (estudiar en general), learn (aprender), revise (repasar), cram (empollar de última hora), take notes, do research, hand in an essay, sit an exam (presentarse a un examen), graduate in / from.*\n\n**Colocaciones**\n\n- *do / study a degree in Law* · *get a degree · graduate from university.*\n- *take / sit an exam* (presentarse) vs *pass an exam* (aprobar).\n- *write an essay · give a presentation · do homework · hand in coursework.*\n- *get good / bad marks · repeat a year · drop out.*\n\n**Ojo — falsos amigos**\n\n- *Lecture* ≠ 'lectura' (es 'clase magistral'); 'lectura' = *reading*.\n- *Career* ≠ 'carrera universitaria' (esa es *degree*); *career* = trayectoria profesional.\n- *Exam* es examen; *exercise* no es 'examen'.\n- *Student* es cualquiera que estudia; *pupil* es un niño en colegio (UK).\n- *College* en UK = centro de formación post-16 años.\n\nPronunciación: *scholarship* /ˈskɒləʃɪp/ · *degree* /dɪˈɡriː/ · *graduate* (verbo) /ˈɡrædʒueɪt/, (sustantivo) /ˈɡrædʒuət/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I assisted the class.",
+        "right": "I attended the class.",
+        "note": "Attend = asistir."
+      },
+      {
+        "wrong": "I study a career in Law.",
+        "right": "I'm doing a degree in Law.",
+        "note": "Career ≠ carrera."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "lecture",
+        "es_false": "lectura",
+        "real": "clase magistral",
+        "note": "Lectura = reading."
+      },
+      {
+        "word": "career",
+        "es_false": "carrera universitaria",
+        "real": "trayectoria profesional",
+        "note": "Carrera universitaria = degree."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u08-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "degree",
+          "right": "grado"
+        },
+        {
+          "left": "scholarship",
+          "right": "beca"
+        },
+        {
+          "left": "internship",
+          "right": "prácticas"
+        },
+        {
+          "left": "lecture",
+          "right": "clase magistral"
+        },
+        {
+          "left": "fail",
+          "right": "suspender"
+        },
+        {
+          "left": "hand in",
+          "right": "entregar"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario universitario.",
+        "incorrect": "Revisa esto: Vocabulario universitario."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una acción de estudio o un título/documento?",
+      "categories": [
+        "Action",
+        "Qualification"
+      ],
+      "items": [
+        {
+          "text": "take notes",
+          "category": "Action"
+        },
+        {
+          "text": "revise",
+          "category": "Action"
+        },
+        {
+          "text": "attend lectures",
+          "category": "Action"
+        },
+        {
+          "text": "hand in an essay",
+          "category": "Action"
+        },
+        {
+          "text": "bachelor's degree",
+          "category": "Qualification"
+        },
+        {
+          "text": "master's",
+          "category": "Qualification"
+        },
+        {
+          "text": "PhD",
+          "category": "Qualification"
+        },
+        {
+          "text": "scholarship",
+          "category": "Qualification"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separar acciones y títulos ayuda a recordar.",
+        "incorrect": "Revisa esto: Separar acciones y títulos ayuda a recordar."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué estudia Hugo?",
+      "options": [
+        "Informática",
+        "Derecho",
+        "Medicina",
+        "Historia"
+      ],
+      "answer": [
+        "Informática"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a degree in Computer Science.",
+        "incorrect": "Revisa esto: Dice: a degree in Computer Science."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le pasó a Nina el año pasado?",
+      "options": [
+        "Suspendió un examen de Matemáticas",
+        "Perdió su beca",
+        "Abandonó la universidad",
+        "Ganó un premio"
+      ],
+      "answer": [
+        "Suspendió un examen de Matemáticas"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I failed a Maths exam.",
+        "incorrect": "Revisa esto: Dice: I failed a Maths exam."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Hugo ya ha terminado su grado.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que está en segundo año.",
+        "incorrect": "Revisa esto: Dice que está en segundo año."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ lectures every morning.",
+      "options": [
+        "attends",
+        "assists",
+        "assists to",
+        "visits"
+      ],
+      "answer": [
+        "attends"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Attend = asistir a.",
+        "incorrect": "Revisa esto: Attend = asistir a."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-rv01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une el número con la palabra.",
+      "pairs": [
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "7",
+          "right": "seven"
+        },
+        {
+          "left": "12",
+          "right": "twelve"
+        },
+        {
+          "left": "15",
+          "right": "fifteen"
+        },
+        {
+          "left": "18",
+          "right": "eighteen"
+        },
+        {
+          "left": "20",
+          "right": "twenty"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repasa la tabla de números.",
+        "incorrect": "Revisa esto: Repasa la tabla de números."
+      },
+      "review_of": "en-a1-u01-l03-ex01"
+    },
+    {
+      "id": "en-b1-u08-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm ___ for my final exams. I'm in the library all day.",
+      "options": [
+        "revising",
+        "reviewing to",
+        "re-reading",
+        "studying for to"
+      ],
+      "answer": [
+        "revising"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Revise = repasar (UK).",
+        "incorrect": "Revisa esto: Revise = repasar (UK)."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "He didn't study, so he ___ the exam.",
+      "options": [
+        "failed",
+        "passed",
+        "attended",
+        "revised"
+      ],
+      "answer": [
+        "failed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Fail = suspender.",
+        "incorrect": "Revisa esto: Fail = suspender."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like to ___ a degree in Law.",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get a"
+      ],
+      "answer": [
+        "do"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do a degree.",
+        "incorrect": "Revisa esto: Do a degree."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una acción o un problema?",
+      "categories": [
+        "Action",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "log in",
+          "category": "Action"
+        },
+        {
+          "text": "download a file",
+          "category": "Action"
+        },
+        {
+          "text": "back up photos",
+          "category": "Action"
+        },
+        {
+          "text": "the screen freezes",
+          "category": "Problem"
+        },
+        {
+          "text": "the battery dies",
+          "category": "Problem"
+        },
+        {
+          "text": "the Wi-Fi disconnects",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repaso de vocabulario.",
+        "incorrect": "Revisa esto: Repaso de vocabulario."
+      },
+      "review_of": "en-b1-u05-l06-ex01"
+    },
+    {
+      "id": "en-b1-u08-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "Please ___ in your essay by Friday.",
+      "options": [
+        "hand",
+        "give",
+        "put",
+        "get"
+      ],
+      "answer": [
+        "hand"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hand in.",
+        "incorrect": "Revisa esto: Hand in."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "She won a ___ to study in Canada. (beca)",
+      "answer": [
+        "scholarship"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Scholarship = beca.",
+        "incorrect": "Revisa esto: Scholarship = beca."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "He ___ from university in 2018. (se graduó)",
+      "answer": [
+        "graduated"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Graduate from.",
+        "incorrect": "Revisa esto: Graduate from."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I assisted the lecture yesterday.",
+      "answer": [
+        "I attended the lecture yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Assist ≠ asistir.",
+        "incorrect": "Revisa esto: Assist ≠ asistir."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-rv03",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "places",
+        "vocabulary-review"
+      ],
+      "est_seconds": 45,
+      "prompt": "Clasifica cada lugar.",
+      "categories": [
+        "Services",
+        "Shops and food",
+        "Free time"
+      ],
+      "items": [
+        {
+          "text": "bank",
+          "category": "Services"
+        },
+        {
+          "text": "hospital",
+          "category": "Services"
+        },
+        {
+          "text": "post office",
+          "category": "Services"
+        },
+        {
+          "text": "school",
+          "category": "Services"
+        },
+        {
+          "text": "supermarket",
+          "category": "Shops and food"
+        },
+        {
+          "text": "restaurant",
+          "category": "Shops and food"
+        },
+        {
+          "text": "café",
+          "category": "Shops and food"
+        },
+        {
+          "text": "park",
+          "category": "Free time"
+        },
+        {
+          "text": "cinema",
+          "category": "Free time"
+        },
+        {
+          "text": "museum",
+          "category": "Free time"
+        },
+        {
+          "text": "library",
+          "category": "Free time"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por categorías ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar por categorías ayuda a recordar el vocabulario."
+      },
+      "review_of": "en-a1-u07-l01-ex09"
+    },
+    {
+      "id": "en-b1-u08-l01-rv04",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "to-be"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ from Brazil.",
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con she se usa is.",
+        "incorrect": "Revisa esto: Con she se usa is."
+      },
+      "review_of": "en-a1-u10-l06-ex02"
+    },
+    {
+      "id": "en-b1-u08-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "months"
+      ],
+      "est_seconds": 20,
+      "prompt": "¿Cómo se dice 'otoño' en inglés británico?",
+      "options": [
+        "autumn",
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "answer": [
+        "autumn"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! En inglés británico, otoño = autumn.",
+        "incorrect": "Revisa esto: En inglés británico, otoño = autumn."
+      },
+      "review_of": "en-a1-u10-l02-ex04"
+    },
+    {
+      "id": "en-b1-u08-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "travel-problems"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm delayed because of the traffic.",
+      "answer": [
+        "I'm late because of the traffic.",
+        "I am late because of the traffic."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Delayed es para el transporte; para una persona: late.",
+        "incorrect": "Revisa esto: Delayed es para el transporte; para una persona: late."
+      },
+      "review_of": "en-a2-u12-l04-ex07"
+    },
+    {
+      "id": "en-b1-u08-l01-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm studying a career in Law.",
+      "answer": [
+        "I'm studying for a degree in Law.",
+        "I'm doing a degree in Law."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Career ≠ carrera.",
+        "incorrect": "Revisa esto: Career ≠ carrera."
+      }
+    },
+    {
+      "id": "en-b1-u08-l01-rv07",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador juega a la lotería con frecuencia.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I never play the lottery!",
+        "incorrect": "Revisa esto: Dice: I never play the lottery!"
+      },
+      "review_of": "en-b1-u06-l02-ex03"
+    },
+    {
+      "id": "en-b1-u08-l01-ex15",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le gustaría hacer?",
+      "options": [
+        "Unas prácticas en el extranjero",
+        "Un máster en su país",
+        "Descansar un año",
+        "Empezar a trabajar de inmediato"
+      ],
+      "answer": [
+        "Unas prácticas en el extranjero"
+      ],
+      "audio_text": "I'm in my last year of university and I'm studying for my final exams. After I graduate, I'd like to do an internship abroad.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: an internship abroad.",
+        "incorrect": "Revisa esto: Dice: an internship abroad."
+      },
+      "audio_script_id": "en-b1-u08-l01-ex15-a"
+    },
+    {
+      "id": "en-b1-u08-l01-ex16",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "school-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy haciendo un grado en Medicina y asisto a clase todos los días.",
+      "answer": [
+        "I'm doing a degree in Medicine and I attend lectures every day.",
+        "I'm studying a degree in Medicine and I attend classes every day.",
+        "I'm doing a degree in Medicine and I go to lectures every day."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Degree / attend.",
+        "incorrect": "Revisa esto: Degree / attend."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm doing a degree in …",
+      "attend lectures · take notes · revise",
+      "pass / fail an exam · retake",
+      "hand in an essay · graduate"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-degree"
+    },
+    {
+      "type": "vocab",
+      "id": "en-subject"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pass-fail"
+    },
+    {
+      "type": "vocab",
+      "id": "en-retake"
+    },
+    {
+      "type": "vocab",
+      "id": "en-attend"
+    },
+    {
+      "type": "vocab",
+      "id": "en-lecture"
+    },
+    {
+      "type": "vocab",
+      "id": "en-take-notes"
+    },
+    {
+      "type": "vocab",
+      "id": "en-revise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-internship"
+    },
+    {
+      "type": "vocab",
+      "id": "en-scholarship"
+    },
+    {
+      "type": "grammar",
+      "id": "en-school-talk"
+    }
+  ]
+}

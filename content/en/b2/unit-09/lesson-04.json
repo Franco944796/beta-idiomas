@@ -1,0 +1,917 @@
+{
+  "id": "en-b2-u09-l04",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Making a proposal",
+    "es": "Hacer propuestas formales"
+  },
+  "objective": "Al terminar haces y defiendes una propuesta de manera oral y escrita: presentas el problema, la solución, los beneficios y respondes a objeciones.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Proponer una solución exige estructura: qué problema hay, qué sugieres, por qué funcionará y cómo se hará. En una reunión o presentación, la claridad y la cortesía marcan la diferencia."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Nora",
+        "text": "I'd like to propose a plan to reduce waste in our office. At the moment, we throw away around 200 plastic cups a day.",
+        "es": "Quisiera proponer un plan para reducir residuos en nuestra oficina. Ahora mismo tiramos unos 200 vasos de plástico al día."
+      },
+      {
+        "speaker": "Boss",
+        "text": "That's a lot. What do you suggest?",
+        "es": "Es mucho. ¿Qué sugieres?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "My proposal is to replace plastic cups with reusable mugs, and to install water dispensers on each floor. We could also introduce recycling bins in every department.",
+        "es": "Mi propuesta es sustituir los vasos de plástico por tazas reutilizables e instalar dispensadores de agua en cada planta. También podríamos introducir contenedores de reciclaje en cada departamento."
+      },
+      {
+        "speaker": "Boss",
+        "text": "What would it cost?",
+        "es": "¿Cuánto costaría?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "The initial investment would be about €1,500, but we'd save roughly €3,000 a year on cups and waste disposal. It would pay for itself within six months.",
+        "es": "La inversión inicial sería de unos 1.500 €, pero ahorraríamos unos 3.000 € al año en vasos y gestión de residuos. Se amortizaría en seis meses."
+      },
+      {
+        "speaker": "Boss",
+        "text": "What if people don't cooperate?",
+        "es": "¿Y si la gente no coopera?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "That's a fair concern. I'd recommend launching a short awareness campaign and appointing an 'eco-champion' in each team. We could also run a trial for one month.",
+        "es": "Es una preocupación justa. Recomendaría lanzar una breve campaña de concienciación y nombrar un 'ecoembajador' en cada equipo. También podríamos hacer una prueba de un mes."
+      },
+      {
+        "speaker": "Boss",
+        "text": "I like the idea. Could you put it in writing, with figures, by Friday?",
+        "es": "Me gusta la idea. ¿Podrías ponerlo por escrito, con cifras, para el viernes?"
+      },
+      {
+        "speaker": "Nora",
+        "text": "Of course. I'll send you a one-page proposal with a timeline and a budget.",
+        "es": "Por supuesto. Te enviaré una propuesta de una página con calendario y presupuesto."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-propose",
+        "lemma": "propose",
+        "pos": "verb",
+        "ipa": "/prəˈpəʊz/",
+        "es": "proponer",
+        "example": "I propose a plan."
+      },
+      {
+        "id": "en-waste",
+        "lemma": "waste",
+        "pos": "noun",
+        "ipa": "/weɪst/",
+        "es": "residuos",
+        "example": "Reduce waste."
+      },
+      {
+        "id": "en-reusable",
+        "lemma": "reusable",
+        "pos": "adj",
+        "ipa": "/riːˈjuːzəbl/",
+        "es": "reutilizable",
+        "example": "Reusable mugs."
+      },
+      {
+        "id": "en-water-dispenser",
+        "lemma": "water dispenser",
+        "pos": "noun",
+        "ipa": "/ˈwɔːtə dɪˈspensə/",
+        "es": "dispensador de agua",
+        "example": "A water dispenser."
+      },
+      {
+        "id": "en-recycling-bin",
+        "lemma": "recycling bin",
+        "pos": "noun",
+        "ipa": "/riːˈsaɪklɪŋ bɪn/",
+        "es": "contenedor de reciclaje",
+        "example": "Recycling bins."
+      },
+      {
+        "id": "en-initial-investment",
+        "lemma": "initial investment",
+        "pos": "noun",
+        "ipa": "/ɪˈnɪʃl ɪnˈvestmənt/",
+        "es": "inversión inicial",
+        "example": "An initial investment."
+      },
+      {
+        "id": "en-pay-for-itself",
+        "lemma": "pay for itself",
+        "pos": "phrase",
+        "ipa": "/peɪ fər ɪtˈself/",
+        "es": "amortizarse",
+        "example": "It will pay for itself."
+      },
+      {
+        "id": "en-cooperate",
+        "lemma": "cooperate",
+        "pos": "verb",
+        "ipa": "/kəʊˈɒpəreɪt/",
+        "es": "cooperar",
+        "example": "Staff must cooperate."
+      },
+      {
+        "id": "en-awareness-campaign",
+        "lemma": "awareness campaign",
+        "pos": "noun",
+        "ipa": "/əˈweənəs kæmˈpeɪn/",
+        "es": "campaña de concienciación",
+        "example": "An awareness campaign."
+      },
+      {
+        "id": "en-appoint",
+        "lemma": "appoint",
+        "pos": "verb",
+        "ipa": "/əˈpɔɪnt/",
+        "es": "nombrar",
+        "example": "Appoint a leader."
+      },
+      {
+        "id": "en-trial",
+        "lemma": "trial",
+        "pos": "noun",
+        "ipa": "/ˈtraɪəl/",
+        "es": "prueba piloto",
+        "example": "A one-month trial."
+      },
+      {
+        "id": "en-timeline",
+        "lemma": "timeline",
+        "pos": "noun",
+        "ipa": "/ˈtaɪmlaɪn/",
+        "es": "calendario",
+        "example": "A clear timeline."
+      }
+    ],
+    "audio_script_id": "en-b2-u09-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Cómo estructurar una propuesta**\n\n| Paso | Contenido | Frases útiles |\n|---|---|---|\n| **1. Problema** | datos y contexto | *At the moment, … · The problem is that … · Currently, …* |\n| **2. Propuesta** | qué sugieres | *I'd like to propose … · My proposal is to … · I suggest (that) we …* |\n| **3. Beneficios** | por qué funcionará | *This would reduce … · It would save … · One advantage is that …* |\n| **4. Coste y plazos** | cifras realistas | *The initial investment would be … · It would pay for itself within …* |\n| **5. Objeciones** | anticiparse | *Some may object that … However, … · A possible concern is … To address this, …* |\n| **6. Siguiente paso** | acción | *I'd recommend starting with a trial. · Could we meet next week?* |\n\n**Verbos de propuesta y su patrón**\n\n- *propose / suggest / recommend + -ing*: *I recommend launching a trial.*\n- *propose / suggest / recommend + that + sujeto + (should) + verbo base*: *I propose that we install bins.*\n- *propose to + verbo* (intención): *I propose to install bins.*\n- *urge / advise someone to + verbo.*\n\n**Condicionales para presentar beneficios**\n\n- *If we did this, we would save …* · *This would pay for itself within six months.* · *Were we to start now, we could finish by May.*\n\n**Hedging profesional**\n\n- *It might be worth considering … · One possible solution is … · It could be argued that …*\n\n**Responder a objeciones**\n\n- *That's a fair concern. · I understand your hesitation. · To address that, we could … · The alternative would be …*\n\n**Errores típicos**\n\n- ✘ *I propose to you a plan.* → ✔ *I would like to propose a plan.*\n- ✘ *I suggest to install bins.* → ✔ *I suggest installing bins.* / *I suggest that we install bins.*\n- ✘ *It will cost 1500 euros of initial investment.* → ✔ *The initial investment will be €1,500.*\n- ✘ *We could to start a trial.* → ✔ *We could start a trial.*\n\n**Ojo:** *Propose* también significa 'pedir matrimonio' (*propose to someone*); en trabajo, mejor *put forward a proposal*. *Suggest* no admite *to + verbo*. *Budget* /ˈbʌdʒɪt/ (presupuesto) vs *estimate* (cálculo aproximado).\n\nPronunciación: *propose* /prəˈpəʊz/ · *dispenser* /dɪˈspensə/ · *cooperate* /kəʊˈɒpəreɪt/ · *investment* /ɪnˈvestmənt/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I suggest to install",
+        "right": "I suggest installing",
+        "note": "Suggest + -ing."
+      },
+      {
+        "wrong": "I propose to you a plan",
+        "right": "I'd like to propose a plan",
+        "note": "Propose a plan."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema plantea Nora?",
+      "options": [
+        "Se tiran unos 200 vasos de plástico al día",
+        "Falta agua",
+        "La oficina es fría",
+        "Hay poco espacio"
+      ],
+      "answer": [
+        "Se tiran unos 200 vasos de plástico al día"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: around 200 plastic cups a day.",
+        "incorrect": "Revisa esto: Dice: around 200 plastic cups a day."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es su propuesta?",
+      "options": [
+        "Sustituir los vasos por tazas reutilizables e instalar dispensadores",
+        "Prohibir el café",
+        "Reducir plantilla",
+        "Trabajar desde casa"
+      ],
+      "answer": [
+        "Sustituir los vasos por tazas reutilizables e instalar dispensadores"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: replace plastic cups with reusable mugs.",
+        "incorrect": "Revisa esto: Dice: replace plastic cups with reusable mugs."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿A qué hora empieza la clase?",
+      "options": [
+        "9:10",
+        "9:45",
+        "10:15",
+        "10:30"
+      ],
+      "answer": [
+        "9:10"
+      ],
+      "audio_text": "The lesson starts at ten past nine and finishes at quarter to eleven. There's a break at half past ten.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'ten past nine'.",
+        "incorrect": "Revisa esto: Dice 'ten past nine'."
+      },
+      "audio_script_id": "en-b2-u09-l04-rv01-a",
+      "review_of": "en-a2-u07-l03-ex12"
+    },
+    {
+      "id": "en-b2-u09-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿En cuánto tiempo se amortizaría?",
+      "options": [
+        "En seis meses",
+        "En diez años",
+        "En un mes",
+        "Nunca"
+      ],
+      "answer": [
+        "En seis meses"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: pay for itself within six months.",
+        "incorrect": "Revisa esto: Dice: pay for itself within six months."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Planes: presente continuo.",
+        "incorrect": "Revisa esto: Planes: presente continuo."
+      },
+      "review_of": "en-a1-u10-l06-ex08"
+    },
+    {
+      "id": "en-b2-u09-l04-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pide el jefe al final?",
+      "options": [
+        "Que lo ponga por escrito con cifras para el viernes",
+        "Que cancele el plan",
+        "Que lo presente a la prensa",
+        "Que lo olvide"
+      ],
+      "answer": [
+        "Que lo ponga por escrito con cifras para el viernes"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: put it in writing, with figures, by Friday.",
+        "incorrect": "Revisa esto: Dice: put it in writing, with figures, by Friday."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 15,
+      "prompt": "Nora propone empezar con una prueba de un mes.",
+      "answer": [
+        true
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: We could also run a trial for one month.",
+        "incorrect": "Revisa esto: Dice: We could also run a trial for one month."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv03",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "future-time-clauses"
+      ],
+      "est_seconds": 15,
+      "prompt": "El periodo de prueba dura un mes.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que dura tres meses.",
+        "incorrect": "Revisa esto: Dice que dura tres meses."
+      },
+      "review_of": "en-b1-u03-l02-ex03"
+    },
+    {
+      "id": "en-b2-u09-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "I suggest ___ a trial period.",
+      "options": [
+        "starting",
+        "to start",
+        "start to",
+        "of starting"
+      ],
+      "answer": [
+        "starting"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "I propose that we ___ recycling bins in every department.",
+      "options": [
+        "install",
+        "installs",
+        "installed",
+        "to install"
+      ],
+      "answer": [
+        "install"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! That + verbo base.",
+        "incorrect": "Revisa esto: That + verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "article-summary"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "El estudio sugiere que leer en papel mejora la comprensión, aunque los autores reconocen que la muestra era pequeña.",
+      "answer": [
+        "The study suggests that reading on paper improves comprehension, although the authors acknowledge that the sample was small.",
+        "The study suggests that reading on paper improves comprehension, though the authors acknowledge that the sample was small."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resumen.",
+        "incorrect": "Revisa esto: Resumen."
+      },
+      "review_of": "en-b2-u03-l05-ex17"
+    },
+    {
+      "id": "en-b2-u09-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "It would ___ for itself within six months.",
+      "options": [
+        "pay",
+        "cost",
+        "give",
+        "make"
+      ],
+      "answer": [
+        "pay"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pay for itself.",
+        "incorrect": "Revisa esto: Pay for itself."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "That's a fair ___ . I'll address it in my report.",
+      "options": [
+        "concern",
+        "concerned",
+        "concerning",
+        "concerns of"
+      ],
+      "answer": [
+        "concern"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Concern.",
+        "incorrect": "Revisa esto: Concern."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "comparing-choosing"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        ".",
+        "I",
+        "think"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "the",
+        "train",
+        "is",
+        "the",
+        "best",
+        "choice",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I think + frase con superlativo.",
+        "incorrect": "Revisa esto: I think + frase con superlativo."
+      },
+      "review_of": "en-a2-u03-l05-ex06"
+    },
+    {
+      "id": "en-b2-u09-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which sentence is the best opening for a proposal?",
+      "options": [
+        "I'd like to propose a plan to reduce waste in our office.",
+        "I have an idea.",
+        "Listen to me.",
+        "Waste is bad."
+      ],
+      "answer": [
+        "I'd like to propose a plan to reduce waste in our office."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apertura clara.",
+        "incorrect": "Revisa esto: Apertura clara."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "'To address that, we could appoint an eco-champion' means...",
+      "options": [
+        "Para resolver eso, podríamos nombrar a un responsable ambiental",
+        "Para olvidarlo, nos callamos",
+        "Para dirigirnos a él, escribimos",
+        "Para evitarlo, cerramos"
+      ],
+      "answer": [
+        "Para resolver eso, podríamos nombrar a un responsable ambiental"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! To address = abordar.",
+        "incorrect": "Revisa esto: To address = abordar."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 20,
+      "prompt": "Some may object ___ the cost is too high.",
+      "options": [
+        "that",
+        "to",
+        "for",
+        "of"
+      ],
+      "answer": [
+        "that"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Object that.",
+        "incorrect": "Revisa esto: Object that."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 25,
+      "prompt": "The initial ___ would be about €1,500. (inversión)",
+      "answer": [
+        "investment"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Investment.",
+        "incorrect": "Revisa esto: Investment."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd ___ launching an awareness campaign. (recomendaría)",
+      "answer": [
+        "recommend",
+        "suggest"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Recommend + -ing.",
+        "incorrect": "Revisa esto: Recommend + -ing."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "shopping-quantities"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cuánto es el total?",
+      "options": [
+        "£4.60",
+        "£4.06",
+        "£6.40",
+        "£14.60"
+      ],
+      "answer": [
+        "£4.60"
+      ],
+      "audio_text": "Two kilos of potatoes and a kilo of carrots. That's four pounds sixty, please.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'four pounds sixty'.",
+        "incorrect": "Revisa esto: Dice 'four pounds sixty'."
+      },
+      "audio_script_id": "en-b2-u09-l04-rv06-a",
+      "review_of": "en-a2-u04-l04-ex09"
+    },
+    {
+      "id": "en-b2-u09-l04-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hace frío en la sala. Ofreces cerrar la ventana:",
+      "options": [
+        "I'll close the window.",
+        "I close the window.",
+        "I'm going to the window.",
+        "I will to close the window."
+      ],
+      "answer": [
+        "I'll close the window."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Ofrecimiento: I'll + verbo.",
+        "incorrect": "Revisa esto: Ofrecimiento: I'll + verbo."
+      },
+      "review_of": "en-a2-u05-l03-ex02"
+    },
+    {
+      "id": "en-b2-u09-l04-rv08",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "just-already-yet"
+      ],
+      "est_seconds": 25,
+      "prompt": "I haven't bought the tickets ___.",
+      "answer": [
+        "yet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Yet = todavía, al final de la negativa.",
+        "incorrect": "Revisa esto: Yet = todavía, al final de la negativa."
+      },
+      "review_of": "en-a2-u08-l03-ex03"
+    },
+    {
+      "id": "en-b2-u09-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I suggest to install a water dispenser on each floor.",
+      "answer": [
+        "I suggest installing a water dispenser on each floor.",
+        "I suggest that we install a water dispenser on each floor."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing/that.",
+        "incorrect": "Revisa esto: Suggest + -ing/that."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I propose to you a new plan for the office.",
+      "answer": [
+        "I would like to propose a new plan for the office.",
+        "I propose a new plan for the office."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Propose a plan.",
+        "incorrect": "Revisa esto: Propose a plan."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We could to start a trial next month.",
+      "answer": [
+        "We could start a trial next month."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Could + verbo base.",
+        "incorrect": "Revisa esto: Could + verbo base."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex18",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué propone?",
+      "options": [
+        "Una semana laboral de cuatro días a prueba",
+        "Despedir a empleados",
+        "Subir sueldos",
+        "Trabajar los sábados"
+      ],
+      "answer": [
+        "Una semana laboral de cuatro días a prueba"
+      ],
+      "audio_text": "My proposal is to introduce a four-day working week for a six-month trial. This would reduce stress and could improve productivity. Some may object that clients will complain, but we can address that by keeping a skeleton team on Fridays.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: four-day working week for a six-month trial.",
+        "incorrect": "Revisa esto: Dice: four-day working week for a six-month trial."
+      },
+      "audio_script_id": "en-b2-u09-l04-ex18-a"
+    },
+    {
+      "id": "en-b2-u09-l04-ex19",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Presentas una propuesta a tu jefa.",
+      "turns": [
+        {
+          "speaker": "Boss",
+          "text": "You wanted to talk about the meeting room?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes. I'd like to propose turning the second meeting room into a quiet working area. At the moment, it is empty for most of the day.",
+            "Yes. The room is not used. Change it.",
+            "No."
+          ],
+          "best": 0,
+          "why_es": "Problema + propuesta."
+        },
+        {
+          "speaker": "Boss",
+          "text": "What about the cost?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "The initial investment would be about €500 for desks and lamps, and it would improve concentration. We could start with a one-month trial.",
+            "It costs a lot.",
+            "I don't know."
+          ],
+          "best": 0,
+          "why_es": "Coste + prueba."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b2-u09-l04-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "proposals"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mi propuesta es instalar contenedores de reciclaje; se amortizarían en seis meses.",
+      "answer": [
+        "My proposal is to install recycling bins; they would pay for themselves within six months.",
+        "My proposal is to install recycling bins; it would pay for itself within six months."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Propuesta.",
+        "incorrect": "Revisa esto: Propuesta."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'd like to propose …",
+      "My proposal is to …",
+      "It would pay for itself within …",
+      "That's a fair concern. To address it, we could …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-propose"
+    },
+    {
+      "type": "vocab",
+      "id": "en-waste"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reusable"
+    },
+    {
+      "type": "vocab",
+      "id": "en-water-dispenser"
+    },
+    {
+      "type": "vocab",
+      "id": "en-recycling-bin"
+    },
+    {
+      "type": "vocab",
+      "id": "en-initial-investment"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pay-for-itself"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cooperate"
+    },
+    {
+      "type": "vocab",
+      "id": "en-awareness-campaign"
+    },
+    {
+      "type": "vocab",
+      "id": "en-appoint"
+    },
+    {
+      "type": "grammar",
+      "id": "en-proposals"
+    }
+  ]
+}

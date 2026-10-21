@@ -1,0 +1,862 @@
+{
+  "id": "en-b2-u02-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 2,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "The modern workplace",
+    "es": "El lugar de trabajo actual"
+  },
+  "objective": "Al terminar hablas del mundo laboral actual (teletrabajo, automatización, cultura de empresa) con vocabulario de nivel B2.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "El trabajo cambia rápido: oficinas híbridas, inteligencia artificial, empleos que no existían hace diez años. Necesitas vocabulario preciso para opinar sobre ello."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Nadia",
+        "text": "Our company has gone hybrid: three days in the office, two at home. Honestly, I think it's the best of both worlds.",
+        "es": "Nuestra empresa ha pasado a un modelo híbrido: tres días en la oficina y dos en casa. Sinceramente, creo que es lo mejor de ambos mundos."
+      },
+      {
+        "speaker": "Tom",
+        "text": "It depends. I find it hard to switch off when I work from home. The boundary between work and private life gets blurred.",
+        "es": "Depende. A mí me cuesta desconectar cuando trabajo desde casa. El límite entre trabajo y vida privada se difumina."
+      },
+      {
+        "speaker": "Nadia",
+        "text": "That's a fair point. Burnout is becoming a serious problem, especially for people who answer emails late at night.",
+        "es": "Es un buen argumento. El agotamiento laboral se está convirtiendo en un problema serio, sobre todo para quienes contestan correos de madrugada."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Exactly. And with automation, some people worry that their jobs will become redundant.",
+        "es": "Exacto. Y con la automatización, algunos temen que sus puestos queden obsoletos."
+      },
+      {
+        "speaker": "Nadia",
+        "text": "I'm not so pessimistic. New technologies usually create new roles, although they require upskilling. My company offers training to help staff adapt.",
+        "es": "Yo no soy tan pesimista. Las nuevas tecnologías suelen crear nuevos puestos, aunque requieren formación. Mi empresa ofrece cursos para que el personal se adapte."
+      },
+      {
+        "speaker": "Tom",
+        "text": "That's encouraging. In mine, there's a lot of pressure to meet deadlines and hit targets, and the turnover is high.",
+        "es": "Eso es alentador. En la mía hay mucha presión por cumplir plazos y alcanzar objetivos, y la rotación es alta."
+      },
+      {
+        "speaker": "Nadia",
+        "text": "High turnover is usually a sign of poor management or a toxic culture. Have you thought about looking elsewhere?",
+        "es": "Una rotación alta suele ser señal de mala gestión o de una cultura tóxica. ¿Has pensado en buscar en otro sitio?"
+      },
+      {
+        "speaker": "Tom",
+        "text": "I have, actually. I'm considering a move to a company with a better work-life balance and more flexible hours.",
+        "es": "Sí, de hecho. Estoy pensando en irme a una empresa con mejor conciliación y horarios más flexibles."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-hybrid",
+        "lemma": "hybrid",
+        "pos": "adj",
+        "ipa": "/ˈhaɪbrɪd/",
+        "es": "híbrido",
+        "example": "A hybrid working model."
+      },
+      {
+        "id": "en-switch-off",
+        "lemma": "switch off",
+        "pos": "phrasal verb",
+        "ipa": "/swɪtʃ ɒf/",
+        "es": "desconectar",
+        "example": "I can't switch off."
+      },
+      {
+        "id": "en-blurred",
+        "lemma": "blurred",
+        "pos": "adj",
+        "ipa": "/blɜːd/",
+        "es": "difuso",
+        "example": "The line is blurred."
+      },
+      {
+        "id": "en-burnout",
+        "lemma": "burnout",
+        "pos": "noun",
+        "ipa": "/ˈbɜːnaʊt/",
+        "es": "agotamiento laboral",
+        "example": "Burnout is common."
+      },
+      {
+        "id": "en-redundant",
+        "lemma": "redundant",
+        "pos": "adj",
+        "ipa": "/rɪˈdʌndənt/",
+        "es": "despedido (por reestructuración)",
+        "example": "He was made redundant."
+      },
+      {
+        "id": "en-upskilling",
+        "lemma": "upskilling",
+        "pos": "noun",
+        "ipa": "/ʌpˈskɪlɪŋ/",
+        "es": "mejora de habilidades",
+        "example": "Upskilling is essential."
+      },
+      {
+        "id": "en-meet-a-deadline",
+        "lemma": "meet a deadline",
+        "pos": "phrase",
+        "ipa": "/miːt ə ˈdedlaɪn/",
+        "es": "cumplir un plazo",
+        "example": "We met the deadline."
+      },
+      {
+        "id": "en-target",
+        "lemma": "target",
+        "pos": "noun",
+        "ipa": "/ˈtɑːɡɪt/",
+        "es": "objetivo",
+        "example": "Sales targets."
+      },
+      {
+        "id": "en-turnover",
+        "lemma": "turnover",
+        "pos": "noun",
+        "ipa": "/ˈtɜːnˌəʊvə/",
+        "es": "rotación de personal",
+        "example": "High staff turnover."
+      },
+      {
+        "id": "en-toxic",
+        "lemma": "toxic",
+        "pos": "adj",
+        "ipa": "/ˈtɒksɪk/",
+        "es": "tóxico",
+        "example": "A toxic culture."
+      },
+      {
+        "id": "en-work-life-balance",
+        "lemma": "work-life balance",
+        "pos": "noun",
+        "ipa": "/ˌwɜːk laɪf ˈbæləns/",
+        "es": "conciliación",
+        "example": "Good work-life balance."
+      },
+      {
+        "id": "en-flexible-hours",
+        "lemma": "flexible hours",
+        "pos": "noun",
+        "ipa": "/ˈfleksəbl ˈaʊəz/",
+        "es": "horario flexible",
+        "example": "We have flexible hours."
+      }
+    ],
+    "audio_script_id": "en-b2-u02-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario del trabajo moderno**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Modelos | *remote, hybrid, freelance, gig economy, part-time, full-time* |\n| Contratos | *permanent / temporary contract, probation period, notice period* |\n| Salida | *resign, quit, be made redundant, be dismissed / sacked, retire* |\n| Condiciones | *salary, perks, benefits, bonus, paid leave, sick pay, pension* |\n| Estrés | *burnout, workload, pressure, tight deadline, overtime* |\n| Desarrollo | *upskilling, reskilling, mentoring, promotion, career ladder* |\n| Cultura | *team spirit, toxic culture, inclusive, micromanage* |\n\n**Colocaciones útiles**\n\n- *meet / miss a deadline* · *hit / reach a target* · *work overtime* · *take on responsibility* · *climb the career ladder* · *strike a balance*.\n- *be in charge of* (estar a cargo de) · *report to* (depender de) · *deal with* (ocuparse de).\n\n**Opinar con matiz**\n\n- *It depends on …* · *That's a fair point, but …* · *On the one hand … on the other …* · *I'm not so sure that …* · *In my experience …*.\n\n**Falsos amigos laborales**\n\n- *Career* = trayectoria profesional; *race* = carrera (de estudios en España, *degree*).\n- *Retire* = jubilarse, no 'retirar'.\n- *Actually* = en realidad / de hecho, no 'actualmente' (*currently*).\n- *Salary* (mensual/anual) ≠ *wage* (por hora o semana).\n\n**Ojo — se dice** *work* (incontable): *a lot of work*, no *works*; *a job* (contable): *I found a job*. ✘ *I have a lot of works.* ✔ *I have a lot of work.*\n\nPronunciación: *burnout* /ˈbɜːnaʊt/ · *redundant* /rɪˈdʌndənt/ · *turnover* /ˈtɜːnəʊvə/ · *pension* /ˈpenʃn/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have a lot of works.",
+        "right": "I have a lot of work.",
+        "note": "Work incontable."
+      },
+      {
+        "wrong": "Actually I work in a bank (ahora).",
+        "right": "Currently I work in a bank.",
+        "note": "Actually ≠ actualmente."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "actually",
+        "es_false": "actualmente",
+        "real": "en realidad",
+        "note": "Actualmente = currently."
+      },
+      {
+        "word": "retire",
+        "es_false": "retirar",
+        "real": "jubilarse",
+        "note": "Retirar = withdraw."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u02-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "burnout",
+          "right": "agotamiento laboral"
+        },
+        {
+          "left": "turnover",
+          "right": "rotación de personal"
+        },
+        {
+          "left": "upskilling",
+          "right": "mejora de habilidades"
+        },
+        {
+          "left": "deadline",
+          "right": "plazo"
+        },
+        {
+          "left": "perks",
+          "right": "ventajas laborales"
+        },
+        {
+          "left": "redundant",
+          "right": "despedido por reestructuración"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario laboral B2.",
+        "incorrect": "Revisa esto: Vocabulario laboral B2."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una ventaja o un problema en el trabajo?",
+      "categories": [
+        "Perk",
+        "Problem"
+      ],
+      "items": [
+        {
+          "text": "flexible hours",
+          "category": "Perk"
+        },
+        {
+          "text": "paid leave",
+          "category": "Perk"
+        },
+        {
+          "text": "mentoring",
+          "category": "Perk"
+        },
+        {
+          "text": "bonus",
+          "category": "Perk"
+        },
+        {
+          "text": "burnout",
+          "category": "Problem"
+        },
+        {
+          "text": "tight deadline",
+          "category": "Problem"
+        },
+        {
+          "text": "micromanagement",
+          "category": "Problem"
+        },
+        {
+          "text": "high turnover",
+          "category": "Problem"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por tono.",
+        "incorrect": "Revisa esto: Clasificar por tono."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo funciona la empresa de Nadia?",
+      "options": [
+        "Tres días en la oficina y dos en casa",
+        "Cinco días en casa",
+        "Cinco días en la oficina",
+        "Dos días en la oficina"
+      ],
+      "answer": [
+        "Tres días en la oficina y dos en casa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: three days in the office, two at home.",
+        "incorrect": "Revisa esto: Dice: three days in the office, two at home."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "for-since"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've lived here ___ five years.",
+      "answer": [
+        "for"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! For + periodo de tiempo.",
+        "incorrect": "Revisa esto: For + periodo de tiempo."
+      },
+      "review_of": "en-a2-u08-l05-ex01"
+    },
+    {
+      "id": "en-b2-u02-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le cuesta a Tom?",
+      "options": [
+        "Desconectar cuando trabaja en casa",
+        "Levantarse temprano",
+        "Hablar con clientes",
+        "Usar tecnología"
+      ],
+      "answer": [
+        "Desconectar cuando trabaja en casa"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: hard to switch off.",
+        "incorrect": "Revisa esto: Dice: hard to switch off."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué ofrece la empresa de Nadia para adaptarse a la tecnología?",
+      "options": [
+        "Formación",
+        "Dinero extra",
+        "Más vacaciones",
+        "Despidos"
+      ],
+      "answer": [
+        "Formación"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: My company offers training.",
+        "incorrect": "Revisa esto: Dice: My company offers training."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 15,
+      "prompt": "Nadia cree que la automatización destruirá todos los empleos.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que no es tan pesimista: las tecnologías crean nuevos puestos.",
+        "incorrect": "Revisa esto: Dice que no es tan pesimista: las tecnologías crean nuevos puestos."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "He was ___ redundant when the company closed its London office.",
+      "options": [
+        "made",
+        "done",
+        "got",
+        "put"
+      ],
+      "answer": [
+        "made"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be made redundant.",
+        "incorrect": "Revisa esto: Be made redundant."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "We have to ___ the deadline, or the client will cancel the contract.",
+      "options": [
+        "meet",
+        "do",
+        "keep up",
+        "reach to"
+      ],
+      "answer": [
+        "meet"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Meet a deadline.",
+        "incorrect": "Revisa esto: Meet a deadline."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-rv02",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 25,
+      "prompt": "Go ___ the bank and the café. (pase delante de)",
+      "answer": [
+        "past"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Go past = pasar delante de.",
+        "incorrect": "Revisa esto: Go past = pasar delante de."
+      },
+      "review_of": "en-a2-u12-l03-ex02"
+    },
+    {
+      "id": "en-b2-u02-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "when-while"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "While I walked, I was seeing a dog.",
+      "answer": [
+        "While I was walking, I saw a dog."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Larga en continuo, corta en simple.",
+        "incorrect": "Revisa esto: Larga en continuo, corta en simple."
+      },
+      "review_of": "en-a2-u09-l03-ex07"
+    },
+    {
+      "id": "en-b2-u02-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "A ___ is paid by the hour; a salary is usually paid monthly.",
+      "options": [
+        "wage",
+        "bonus",
+        "perk",
+        "pension"
+      ],
+      "answer": [
+        "wage"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Wage vs salary.",
+        "incorrect": "Revisa esto: Wage vs salary."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "second-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If she ___ here, she'd help us.",
+      "options": [
+        "were",
+        "will be",
+        "is",
+        "would be"
+      ],
+      "answer": [
+        "were"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! If + were.",
+        "incorrect": "Revisa esto: If + were."
+      },
+      "review_of": "en-b1-u06-l02-ex07"
+    },
+    {
+      "id": "en-b2-u02-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "She reports ___ the marketing director.",
+      "options": [
+        "to",
+        "at",
+        "for",
+        "with"
+      ],
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Report to.",
+        "incorrect": "Revisa esto: Report to."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "'Actually, I work at a bank' means...",
+      "options": [
+        "En realidad trabajo en un banco",
+        "Actualmente trabajo en un banco",
+        "Trabajaba en un banco",
+        "Trabajaré en un banco"
+      ],
+      "answer": [
+        "En realidad trabajo en un banco"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actually = en realidad.",
+        "incorrect": "Revisa esto: Actually = en realidad."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 20,
+      "prompt": "When you leave a company because you want to, you...",
+      "options": [
+        "resign",
+        "are made redundant",
+        "are sacked",
+        "are promoted"
+      ],
+      "answer": [
+        "resign"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Resign = dimitir.",
+        "incorrect": "Revisa esto: Resign = dimitir."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 25,
+      "prompt": "It's hard to ___ off when your office is your living room. (desconectar)",
+      "answer": [
+        "switch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Switch off.",
+        "incorrect": "Revisa esto: Switch off."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 25,
+      "prompt": "She is in ___ of a team of ten. (a cargo)",
+      "answer": [
+        "charge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! In charge of.",
+        "incorrect": "Revisa esto: In charge of."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have a lot of works to do this week.",
+      "answer": [
+        "I have a lot of work to do this week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Work incontable.",
+        "incorrect": "Revisa esto: Work incontable."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Actually I am working for a bank, but I am looking for something else.",
+      "answer": [
+        "Currently I am working for a bank, but I am looking for something else.",
+        "At the moment I am working for a bank, but I am looking for something else."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Actually ≠ actualmente (currently).",
+        "incorrect": "Revisa esto: Actually ≠ actualmente (currently)."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-rv05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "write-story"
+      ],
+      "est_seconds": 15,
+      "prompt": "El narrador no había entrenado antes de subir.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I had trained every weekend.",
+        "incorrect": "Revisa esto: Dice: I had trained every weekend."
+      },
+      "review_of": "en-b1-u12-l05-ex05"
+    },
+    {
+      "id": "en-b2-u02-l01-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "discussion-b1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'm agree with you.",
+      "answer": [
+        "I agree with you."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Agree sin be.",
+        "incorrect": "Revisa esto: Agree sin be."
+      },
+      "review_of": "en-b1-u09-l05-ex12"
+    },
+    {
+      "id": "en-b2-u02-l01-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo intenta equilibrar?",
+      "options": [
+        "Va a la oficina dos veces por semana",
+        "Trabaja menos horas",
+        "Cambia de empresa",
+        "Viaja más"
+      ],
+      "answer": [
+        "Va a la oficina dos veces por semana"
+      ],
+      "audio_text": "I've been working remotely for two years now. The flexibility is great, but I miss the team spirit and the small talk by the coffee machine. I try to strike a balance by going to the office twice a week.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: going to the office twice a week.",
+        "incorrect": "Revisa esto: Dice: going to the office twice a week."
+      },
+      "audio_script_id": "en-b2-u02-l01-ex17-a"
+    },
+    {
+      "id": "en-b2-u02-l01-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-workplace"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me cuesta desconectar y el límite entre el trabajo y la vida privada se difumina.",
+      "answer": [
+        "I find it hard to switch off and the line between work and private life gets blurred.",
+        "I find it hard to switch off, and the boundary between work and private life gets blurred."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Switch off + blurred.",
+        "incorrect": "Revisa esto: Switch off + blurred."
+      }
+    },
+    {
+      "id": "en-b2-u02-l01-ex19",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-workplace"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "burnout",
+          "ipa": "/ˈbɜːnaʊt/",
+          "tip_es": "Acento en 'burn'."
+        },
+        {
+          "text": "redundant",
+          "ipa": "/rɪˈdʌndənt/",
+          "tip_es": "Acento en 'dun'."
+        },
+        {
+          "text": "turnover",
+          "ipa": "/ˈtɜːnəʊvə/",
+          "tip_es": "Acento en 'turn'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "It depends on …",
+      "I find it hard to switch off.",
+      "meet a deadline · hit a target",
+      "be made redundant · resign"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-hybrid"
+    },
+    {
+      "type": "vocab",
+      "id": "en-switch-off"
+    },
+    {
+      "type": "vocab",
+      "id": "en-blurred"
+    },
+    {
+      "type": "vocab",
+      "id": "en-burnout"
+    },
+    {
+      "type": "vocab",
+      "id": "en-redundant"
+    },
+    {
+      "type": "vocab",
+      "id": "en-upskilling"
+    },
+    {
+      "type": "vocab",
+      "id": "en-meet-a-deadline"
+    },
+    {
+      "type": "vocab",
+      "id": "en-target"
+    },
+    {
+      "type": "vocab",
+      "id": "en-turnover"
+    },
+    {
+      "type": "vocab",
+      "id": "en-toxic"
+    },
+    {
+      "type": "grammar",
+      "id": "en-workplace-b2"
+    }
+  ]
+}

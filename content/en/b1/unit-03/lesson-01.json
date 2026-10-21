@@ -1,0 +1,791 @@
+{
+  "id": "en-b1-u03-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 3,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Jobs and skills",
+    "es": "Trabajos, habilidades y colocaciones"
+  },
+  "objective": "Al terminar hablas de tu trabajo, tus habilidades y tu experiencia con colocaciones naturales como apply for, be in charge of o meet a deadline.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Trabajo en una empresa' ya lo sabes decir. En B1 necesitas hablar de responsabilidades, plazos, ascensos y de lo que sabes hacer, con las palabras exactas."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "So, how's the new job going? Did you get the promotion in the end?",
+        "es": "¿Qué tal el nuevo trabajo? ¿Al final te dieron el ascenso?"
+      },
+      {
+        "speaker": "Marc",
+        "text": "Not yet, but I'm in charge of a small team now, and I'm responsible for the budget.",
+        "es": "Todavía no, pero ahora estoy a cargo de un pequeño equipo y soy responsable del presupuesto."
+      },
+      {
+        "speaker": "Lena",
+        "text": "That sounds stressful. Do you work overtime a lot?",
+        "es": "Suena estresante. ¿Haces muchas horas extra?"
+      },
+      {
+        "speaker": "Marc",
+        "text": "Sometimes, when we have to meet a tight deadline. But my boss is flexible, so I can work from home twice a week.",
+        "es": "A veces, cuando hay que cumplir un plazo ajustado. Pero mi jefa es flexible y puedo trabajar desde casa dos veces por semana."
+      },
+      {
+        "speaker": "Lena",
+        "text": "I'm looking for something different. I'm tired of working part-time in a shop.",
+        "es": "Yo busco algo distinto. Estoy harta de trabajar a tiempo parcial en una tienda."
+      },
+      {
+        "speaker": "Marc",
+        "text": "You should apply for the vacancy in my company. They're looking for someone experienced in customer service.",
+        "es": "Deberías presentarte a la vacante de mi empresa. Buscan a alguien con experiencia en atención al cliente."
+      },
+      {
+        "speaker": "Lena",
+        "text": "I'm qualified, and I'm good at dealing with people. What's the salary?",
+        "es": "Estoy cualificada y se me da bien tratar con la gente. ¿Cuál es el sueldo?"
+      },
+      {
+        "speaker": "Marc",
+        "text": "It's a decent salary, plus a bonus if you reach your targets.",
+        "es": "Es un buen sueldo, más una prima si alcanzas los objetivos."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-promotion",
+        "lemma": "promotion",
+        "pos": "noun",
+        "ipa": "/prəˈməʊʃn/",
+        "es": "ascenso",
+        "example": "She got a promotion."
+      },
+      {
+        "id": "en-be-in-charge-of",
+        "lemma": "be in charge of",
+        "pos": "phrase",
+        "ipa": "/biː ɪn tʃɑːdʒ əv/",
+        "es": "estar a cargo de",
+        "example": "He's in charge of the team."
+      },
+      {
+        "id": "en-be-responsible-for",
+        "lemma": "be responsible for",
+        "pos": "phrase",
+        "ipa": "/biː rɪˈspɒnsəbl fɔː/",
+        "es": "ser responsable de",
+        "example": "I'm responsible for sales."
+      },
+      {
+        "id": "en-budget",
+        "lemma": "budget",
+        "pos": "noun",
+        "ipa": "/ˈbʌdʒɪt/",
+        "es": "presupuesto",
+        "example": "We have a small budget."
+      },
+      {
+        "id": "en-overtime",
+        "lemma": "overtime",
+        "pos": "noun",
+        "ipa": "/ˈəʊvətaɪm/",
+        "es": "horas extra",
+        "example": "I worked overtime yesterday."
+      },
+      {
+        "id": "en-deadline",
+        "lemma": "deadline",
+        "pos": "noun",
+        "ipa": "/ˈdedlaɪn/",
+        "es": "plazo, fecha límite",
+        "example": "The deadline is Friday."
+      },
+      {
+        "id": "en-apply-for",
+        "lemma": "apply for",
+        "pos": "phrasal verb",
+        "ipa": "/əˈplaɪ fɔː/",
+        "es": "solicitar, presentarse a",
+        "example": "I applied for a job."
+      },
+      {
+        "id": "en-vacancy",
+        "lemma": "vacancy",
+        "pos": "noun",
+        "ipa": "/ˈveɪkənsi/",
+        "es": "vacante",
+        "example": "There's a vacancy in marketing."
+      },
+      {
+        "id": "en-experienced",
+        "lemma": "experienced",
+        "pos": "adj",
+        "ipa": "/ɪkˈspɪəriənst/",
+        "es": "con experiencia",
+        "example": "She's an experienced teacher."
+      },
+      {
+        "id": "en-qualified",
+        "lemma": "qualified",
+        "pos": "adj",
+        "ipa": "/ˈkwɒlɪfaɪd/",
+        "es": "cualificado, titulado",
+        "example": "He's qualified as an engineer."
+      },
+      {
+        "id": "en-salary",
+        "lemma": "salary",
+        "pos": "noun",
+        "ipa": "/ˈsæləri/",
+        "es": "sueldo (mensual)",
+        "example": "The salary is good."
+      },
+      {
+        "id": "en-bonus",
+        "lemma": "bonus",
+        "pos": "noun",
+        "ipa": "/ˈbəʊnəs/",
+        "es": "prima, bonificación",
+        "example": "We get a bonus in December."
+      },
+      {
+        "id": "en-target",
+        "lemma": "target",
+        "pos": "noun",
+        "ipa": "/ˈtɑːɡɪt/",
+        "es": "objetivo",
+        "example": "We reached our target."
+      },
+      {
+        "id": "en-full-time-part-time",
+        "lemma": "full-time / part-time",
+        "pos": "adj",
+        "ipa": "/ˌfʊl ˈtaɪm / ˌpɑːt ˈtaɪm/",
+        "es": "a tiempo completo / parcial",
+        "example": "I work part-time."
+      }
+    ],
+    "audio_script_id": "en-b1-u03-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Colocaciones de trabajo (verbo + sustantivo)**\n\n| Colocación | Significado |\n|---|---|\n| *apply for a job / a vacancy* | solicitar un puesto |\n| *get / be offered a promotion* | conseguir un ascenso |\n| *meet / miss a deadline* | cumplir / no cumplir un plazo |\n| *work overtime* | hacer horas extra |\n| *earn a salary / make a living* | ganarse la vida |\n| *be in charge of … · be responsible for …* | estar a cargo de · ser responsable de |\n| *deal with customers* | tratar con clientes |\n| *reach / hit a target* | alcanzar un objetivo |\n| *resign · be fired / sacked · be made redundant* | dimitir · ser despedido · quedarse sin empleo por recortes |\n\n**Contratos y horarios:** *full-time / part-time · permanent / temporary · flexible hours · work from home (WFH) · shift work.*\n\n**Describir tus habilidades**\n\n- *I'm good at + -ing* → *I'm good at solving problems.*\n- *I have experience in + sustantivo / -ing* → *I have experience in marketing.*\n- *I'm used to + -ing* → *I'm used to working under pressure.*\n- *I can + verbo / I'm able to + verbo* → *I'm able to learn quickly.*\n\n**Ojo:** *salary* es mensual o anual (empleados); *wage* es por hora o semana; *pay* es general. *Actually* no es 'actualmente' (es 'en realidad'); *currently* es 'actualmente'. *Career* es la trayectoria profesional (no 'carrera' universitaria: eso es *degree*).\n\nPronunciación: *deadline* /ˈdedlaɪn/ · *vacancy* /ˈveɪkənsi/ · *qualified* /ˈkwɒlɪfaɪd/ · *salary* /ˈsæləri/ (3 sílabas).",
+    "common_mistakes_es": [
+      {
+        "wrong": "I made a deadline.",
+        "right": "I met a deadline.",
+        "note": "Deadline = meet."
+      },
+      {
+        "wrong": "Experience on marketing.",
+        "right": "Experience in marketing.",
+        "note": "Experience in + sustantivo."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "actually",
+        "es_false": "actualmente",
+        "real": "en realidad",
+        "note": "'Actualmente' se dice currently o at the moment."
+      },
+      {
+        "word": "career",
+        "es_false": "carrera universitaria",
+        "real": "trayectoria profesional",
+        "note": "La carrera universitaria es degree."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u03-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada expresión con su significado.",
+      "pairs": [
+        {
+          "left": "apply for",
+          "right": "solicitar"
+        },
+        {
+          "left": "deadline",
+          "right": "plazo"
+        },
+        {
+          "left": "overtime",
+          "right": "horas extra"
+        },
+        {
+          "left": "promotion",
+          "right": "ascenso"
+        },
+        {
+          "left": "vacancy",
+          "right": "vacante"
+        },
+        {
+          "left": "budget",
+          "right": "presupuesto"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Son colocaciones básicas del trabajo.",
+        "incorrect": "Revisa esto: Son colocaciones básicas del trabajo."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es una buena noticia o una mala noticia en el trabajo?",
+      "categories": [
+        "Good news",
+        "Bad news"
+      ],
+      "items": [
+        {
+          "text": "get a promotion",
+          "category": "Good news"
+        },
+        {
+          "text": "get a bonus",
+          "category": "Good news"
+        },
+        {
+          "text": "reach a target",
+          "category": "Good news"
+        },
+        {
+          "text": "meet a deadline",
+          "category": "Good news"
+        },
+        {
+          "text": "be fired",
+          "category": "Bad news"
+        },
+        {
+          "text": "miss a deadline",
+          "category": "Bad news"
+        },
+        {
+          "text": "be made redundant",
+          "category": "Bad news"
+        },
+        {
+          "text": "work overtime",
+          "category": "Bad news"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar colocaciones por tono ayuda a recordarlas.",
+        "incorrect": "Revisa esto: Clasificar colocaciones por tono ayuda a recordarlas."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿De qué es responsable Marc?",
+      "options": [
+        "De un equipo pequeño y del presupuesto",
+        "De la limpieza de la oficina",
+        "De contratar personal",
+        "De los clientes de otra ciudad"
+      ],
+      "answer": [
+        "De un equipo pequeño y del presupuesto"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'm in charge of a small team and responsible for the budget.",
+        "incorrect": "Revisa esto: Dice: I'm in charge of a small team and responsible for the budget."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué vacante recomienda Marc a Lena?",
+      "options": [
+        "La de su empresa, de atención al cliente",
+        "Una en una tienda",
+        "Un trabajo en casa",
+        "Una de dirección"
+      ],
+      "answer": [
+        "La de su empresa, de atención al cliente"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Habla de the vacancy in my company: customer service.",
+        "incorrect": "Revisa esto: Habla de the vacancy in my company: customer service."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 15,
+      "prompt": "Marc nunca trabaja desde casa.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que puede trabajar desde casa dos veces por semana.",
+        "incorrect": "Revisa esto: Dice que puede trabajar desde casa dos veces por semana."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-wh-questions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "What did you did yesterday?",
+      "answer": [
+        "What did you do yesterday?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Después de did el verbo va en base: do.",
+        "incorrect": "Revisa esto: Después de did el verbo va en base: do."
+      },
+      "review_of": "en-a2-u02-l02-ex05"
+    },
+    {
+      "id": "en-b1-u03-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to finish this report today. It's a tight ___.",
+      "options": [
+        "deadline",
+        "salary",
+        "vacancy",
+        "bonus"
+      ],
+      "answer": [
+        "deadline"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deadline = plazo.",
+        "incorrect": "Revisa esto: Deadline = plazo."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "She's very good ___ solving problems.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "for"
+      ],
+      "answer": [
+        "at"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be good at + -ing.",
+        "incorrect": "Revisa esto: Be good at + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "He is ___ of the sales department. He manages ten people.",
+      "options": [
+        "in charge",
+        "responsible",
+        "good",
+        "used"
+      ],
+      "answer": [
+        "in charge"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be in charge of = estar a cargo de.",
+        "incorrect": "Revisa esto: Be in charge of = estar a cargo de."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 20,
+      "prompt": "My ___ is €2,000 a month before tax.",
+      "options": [
+        "salary",
+        "overtime",
+        "target",
+        "vacancy"
+      ],
+      "answer": [
+        "salary"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Salary = sueldo mensual.",
+        "incorrect": "Revisa esto: Salary = sueldo mensual."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-rv02",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "directions"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Dónde está el banco?",
+      "options": [
+        "On the left",
+        "On the right",
+        "Behind the lights",
+        "Opposite the station"
+      ],
+      "answer": [
+        "On the left"
+      ],
+      "audio_text": "Go straight on. Turn right at the traffic lights. The bank is on your left.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'The bank is on your left'.",
+        "incorrect": "Revisa esto: Dice 'The bank is on your left'."
+      },
+      "audio_script_id": "en-b1-u03-l01-rv02-a",
+      "review_of": "en-a1-u07-l03-ex07"
+    },
+    {
+      "id": "en-b1-u03-l01-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "recipes"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Corta la cebolla y fríela durante cinco minutos.",
+      "answer": [
+        "Chop the onion and fry it for five minutes.",
+        "Slice the onion and fry it for five minutes."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos imperativos y for five minutes.",
+        "incorrect": "Revisa esto: Dos imperativos y for five minutes."
+      },
+      "review_of": "en-a2-u04-l05-ex11"
+    },
+    {
+      "id": "en-b1-u03-l01-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 25,
+      "prompt": "I'd like to ___ for the job in marketing. (solicitar)",
+      "answer": [
+        "apply"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apply for a job.",
+        "incorrect": "Revisa esto: Apply for a job."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "dates"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My birthday is in the twenty-first of June.",
+      "answer": [
+        "My birthday is on the twenty-first of June."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con un día concreto se usa on.",
+        "incorrect": "Revisa esto: Con un día concreto se usa on."
+      },
+      "review_of": "en-a1-u10-l03-ex06"
+    },
+    {
+      "id": "en-b1-u03-l01-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 25,
+      "prompt": "We always work ___ at the end of the month. (horas extra)",
+      "answer": [
+        "overtime"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Overtime = horas extra.",
+        "incorrect": "Revisa esto: Overtime = horas extra."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I have experience on customer service.",
+      "answer": [
+        "I have experience in customer service."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Experience in + sustantivo.",
+        "incorrect": "Revisa esto: Experience in + sustantivo."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She made a deadline last week.",
+      "answer": [
+        "She met a deadline last week.",
+        "She met the deadline last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deadline se combina con meet.",
+        "incorrect": "Revisa esto: Deadline se combina con meet."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿De qué se encarga?",
+      "options": [
+        "De un equipo y del horario",
+        "Del presupuesto",
+        "De los pacientes de urgencias",
+        "De la formación"
+      ],
+      "answer": [
+        "De un equipo y del horario"
+      ],
+      "audio_text": "I've been a nurse for twelve years. At the moment I'm in charge of a team of eight people, and I'm responsible for the schedule.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: in charge of a team of eight people … responsible for the schedule.",
+        "incorrect": "Revisa esto: Dice: in charge of a team of eight people … responsible for the schedule."
+      },
+      "audio_script_id": "en-b1-u03-l01-ex14-a"
+    },
+    {
+      "id": "en-b1-u03-l01-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "work-collocations"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Estoy buscando un trabajo a tiempo completo con horario flexible.",
+      "answer": [
+        "I'm looking for a full-time job with flexible hours.",
+        "I am looking for a full-time job with flexible hours."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Full-time y flexible hours.",
+        "incorrect": "Revisa esto: Full-time y flexible hours."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-ex16",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "work-collocations"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "deadline",
+          "ipa": "/ˈdedlaɪn/",
+          "tip_es": "Acento en 'ded': DED-lain."
+        },
+        {
+          "text": "vacancy",
+          "ipa": "/ˈveɪkənsi/",
+          "tip_es": "Acento en 'vei'."
+        },
+        {
+          "text": "qualified",
+          "ipa": "/ˈkwɒlɪfaɪd/",
+          "tip_es": "Termina en -faid."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    },
+    {
+      "id": "en-b1-u03-l01-rv05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "life-story"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I am born in Córdoba.",
+      "answer": [
+        "I was born in Córdoba."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Be born: pasado, was born.",
+        "incorrect": "Revisa esto: Be born: pasado, was born."
+      },
+      "review_of": "en-a2-u10-l05-ex07"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "apply for a job · meet a deadline",
+      "be in charge of · be responsible for",
+      "I'm good at … · I have experience in …",
+      "full-time / part-time · flexible hours"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-promotion"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-in-charge-of"
+    },
+    {
+      "type": "vocab",
+      "id": "en-be-responsible-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-budget"
+    },
+    {
+      "type": "vocab",
+      "id": "en-overtime"
+    },
+    {
+      "type": "vocab",
+      "id": "en-deadline"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apply-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-vacancy"
+    },
+    {
+      "type": "vocab",
+      "id": "en-experienced"
+    },
+    {
+      "type": "vocab",
+      "id": "en-qualified"
+    },
+    {
+      "type": "grammar",
+      "id": "en-work-collocations"
+    }
+  ]
+}

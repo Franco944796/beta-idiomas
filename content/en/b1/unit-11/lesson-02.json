@@ -1,0 +1,799 @@
+{
+  "id": "en-b1-u11-l02",
+  "language": "en",
+  "level": "B1",
+  "unit": 11,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Get on, fall out, make up",
+    "es": "Phrasal verbs (1)"
+  },
+  "objective": "Al terminar usas phrasal verbs de relaciones (get on, fall out, make up, split up, look up to, count on) y entiendes su separabilidad.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Los phrasal verbs son esenciales en inglés cotidiano. Los de relaciones son de los más usados: llevarse bien, pelearse, reconciliarse, romper…"
+  },
+  "input": {
+    "type": "text",
+    "text": "My sister Laura and I have always got on well, but last year we fell out. We had an argument about money, and for months we didn't speak. I was really upset, because I look up to her. She is the one I count on when I have a problem. In the end, I called her and we made up. She said sorry first, and I told her it didn't matter. Now we get along better than ever. Her boyfriend, however, broke up with her last month. They had been going out for three years. She is still getting over it, but she says she's coming to terms with it. I'm trying to cheer her up. We often go out together, and I always ask her to tell me what's on her mind. Last night we stayed up until two talking and laughing. I think things are looking up.",
+    "es": "Mi hermana Laura y yo siempre nos hemos llevado bien, pero el año pasado nos peleamos. Tuvimos una discusión por dinero y durante meses no nos hablamos. Estaba muy disgustada porque la admiro. Es la persona con la que cuento cuando tengo un problema. Al final la llamé y nos reconciliamos. Ella pidió perdón primero y yo le dije que no importaba. Ahora nos llevamos mejor que nunca. Su novio, sin embargo, rompió con ella el mes pasado. Llevaban tres años saliendo. Todavía lo está superando, pero dice que lo va aceptando. Intento animarla. A menudo salimos juntas y siempre le pido que me cuente qué piensa. Anoche nos quedamos despiertas hasta las dos hablando y riendo. Creo que las cosas están mejorando.",
+    "glossary": [
+      {
+        "id": "en-get-on-get-along",
+        "lemma": "get on / get along",
+        "pos": "phrasal verb",
+        "ipa": "/ɡet ɒn/",
+        "es": "llevarse bien",
+        "example": "We get on well."
+      },
+      {
+        "id": "en-fall-out-with",
+        "lemma": "fall out (with)",
+        "pos": "phrasal verb",
+        "ipa": "/fɔːl aʊt/",
+        "es": "pelearse (con)",
+        "example": "I fell out with him."
+      },
+      {
+        "id": "en-argument",
+        "lemma": "argument",
+        "pos": "noun",
+        "ipa": "/ˈɑːɡjumənt/",
+        "es": "discusión",
+        "example": "We had an argument."
+      },
+      {
+        "id": "en-upset",
+        "lemma": "upset",
+        "pos": "adj",
+        "ipa": "/ʌpˈset/",
+        "es": "disgustado",
+        "example": "She was upset."
+      },
+      {
+        "id": "en-look-up-to",
+        "lemma": "look up to",
+        "pos": "phrasal verb",
+        "ipa": "/lʊk ʌp tə/",
+        "es": "admirar",
+        "example": "I look up to my sister."
+      },
+      {
+        "id": "en-count-on",
+        "lemma": "count on",
+        "pos": "phrasal verb",
+        "ipa": "/kaʊnt ɒn/",
+        "es": "contar con",
+        "example": "I can count on her."
+      },
+      {
+        "id": "en-make-up",
+        "lemma": "make up",
+        "pos": "phrasal verb",
+        "ipa": "/meɪk ʌp/",
+        "es": "reconciliarse",
+        "example": "We made up."
+      },
+      {
+        "id": "en-break-up-split-up",
+        "lemma": "break up / split up",
+        "pos": "phrasal verb",
+        "ipa": "/breɪk ʌp/",
+        "es": "romper (pareja)",
+        "example": "They broke up."
+      },
+      {
+        "id": "en-go-out-with",
+        "lemma": "go out (with)",
+        "pos": "phrasal verb",
+        "ipa": "/ɡəʊ aʊt/",
+        "es": "salir (con alguien)",
+        "example": "They went out for three years."
+      },
+      {
+        "id": "en-get-over",
+        "lemma": "get over",
+        "pos": "phrasal verb",
+        "ipa": "/ɡet ˈəʊvə/",
+        "es": "superar",
+        "example": "She got over it."
+      },
+      {
+        "id": "en-come-to-terms-with",
+        "lemma": "come to terms with",
+        "pos": "phrase",
+        "ipa": "/kʌm tə tɜːmz wɪð/",
+        "es": "aceptar, asumir",
+        "example": "She's coming to terms with it."
+      },
+      {
+        "id": "en-cheer-up",
+        "lemma": "cheer up",
+        "pos": "phrasal verb",
+        "ipa": "/tʃɪər ʌp/",
+        "es": "animar",
+        "example": "Let's cheer her up."
+      },
+      {
+        "id": "en-things-are-looking-up",
+        "lemma": "things are looking up",
+        "pos": "phrase",
+        "ipa": "/θɪŋz ɑː ˈlʊkɪŋ ʌp/",
+        "es": "las cosas mejoran",
+        "example": "Things are looking up."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Phrasal verbs de relaciones**\n\n| Phrasal verb | Significado | Ejemplo |\n|---|---|---|\n| *get on (well) with* | llevarse bien con | *I get on well with my sister.* |\n| *fall out with* | pelearse con | *I fell out with my friend.* |\n| *make up (with)* | reconciliarse | *We made up yesterday.* |\n| *break up / split up (with)* | romper | *They broke up last month.* |\n| *go out with* | salir con (pareja) | *He's going out with Ana.* |\n| *look up to* | admirar | *I look up to my teacher.* |\n| *look down on* | despreciar | *Don't look down on others.* |\n| *count on / rely on* | contar con | *You can count on me.* |\n| *get over* | superar | *She got over the flu.* |\n| *cheer (someone) up* | animar | *Let's cheer him up.* |\n| *let (someone) down* | defraudar | *Don't let me down.* |\n| *put up with* | aguantar | *I can't put up with the noise.* |\n\n**Separables e inseparables**\n\n- **Inseparables** (el complemento va **después**): *get on with, look up to, count on, put up with, get over*.\n  - ✔ *I look up to her.* · ✘ *I look her up to.*\n- **Separables** (el pronombre va **en medio**): *cheer up, let down, make up (inventar)*.\n  - ✔ *Cheer her up.* · ✔ *Cheer up your friend.* · ✘ *Cheer up her.*\n- **Intransitivos** (sin complemento): *We made up. They broke up. Things are looking up.*\n\n**Con -ing después de preposición:** *I'm used to getting up early. I'm looking forward to seeing you.*\n\n**Ojo:** *make up* tiene varios significados: reconciliarse, maquillar(se), inventar. *Break up* también significa 'terminar el curso'. *Fall out* ≠ *fall down*. *Go out with* implica relación; *go out* a secas es 'salir'.\n\nPronunciación: acento en la **partícula** en muchos phrasal verbs (*get ˈon, fall ˈout, make ˈup*) cuando son intransitivos.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I look her up to.",
+        "right": "I look up to her.",
+        "note": "Look up to es inseparable."
+      },
+      {
+        "wrong": "Cheer up her.",
+        "right": "Cheer her up.",
+        "note": "Pronombre en medio."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u11-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Por qué se pelearon Laura y su hermana?",
+      "options": [
+        "Por dinero",
+        "Por un novio",
+        "Por un trabajo",
+        "Por una herencia"
+      ],
+      "answer": [
+        "Por dinero"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: argument about money.",
+        "incorrect": "Revisa esto: Dice: argument about money."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Quién pidió perdón primero?",
+      "options": [
+        "Laura",
+        "La narradora",
+        "Su madre",
+        "Nadie"
+      ],
+      "answer": [
+        "Laura"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: She said sorry first.",
+        "incorrect": "Revisa esto: Dice: She said sorry first."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "have-got"
+      ],
+      "est_seconds": 25,
+      "prompt": "Tom ___ got two brothers.",
+      "answer": [
+        "has",
+        "'s"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con he: has got (he's got).",
+        "incorrect": "Revisa esto: Con he: has got (he's got)."
+      },
+      "review_of": "en-a1-u03-l04-ex02"
+    },
+    {
+      "id": "en-b1-u11-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pasó con el novio de Laura?",
+      "options": [
+        "Rompió con ella",
+        "Se casó",
+        "Se mudó",
+        "Se fue de viaje"
+      ],
+      "answer": [
+        "Rompió con ella"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: broke up with her.",
+        "incorrect": "Revisa esto: Dice: broke up with her."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 15,
+      "prompt": "La narradora y Laura todavía no se hablan.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: Now we get along better than ever.",
+        "incorrect": "Revisa esto: Dice: Now we get along better than ever."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "We had an argument, but we ___ the next day.",
+      "options": [
+        "made up",
+        "broke up",
+        "fell out",
+        "put up"
+      ],
+      "answer": [
+        "made up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make up = reconciliarse.",
+        "incorrect": "Revisa esto: Make up = reconciliarse."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "transport"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He goes to school by foot.",
+      "answer": [
+        "He goes to school on foot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A pie = on foot.",
+        "incorrect": "Revisa esto: A pie = on foot."
+      },
+      "review_of": "en-a1-u07-l06-ex06"
+    },
+    {
+      "id": "en-b1-u11-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I really ___ my grandmother. She is an amazing woman.",
+      "options": [
+        "look up to",
+        "look down on",
+        "put up with",
+        "get over"
+      ],
+      "answer": [
+        "look up to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look up to = admirar.",
+        "incorrect": "Revisa esto: Look up to = admirar."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "They've been together for years, but they ___ last week.",
+      "options": [
+        "split up",
+        "made up",
+        "got on",
+        "counted on"
+      ],
+      "answer": [
+        "split up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Split up = romper.",
+        "incorrect": "Revisa esto: Split up = romper."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv03",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "narrative-tenses"
+      ],
+      "est_seconds": 25,
+      "prompt": "We had dinner and ___ that we went for a walk. (después de)",
+      "answer": [
+        "after"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! After that = después de eso.",
+        "incorrect": "Revisa esto: After that = después de eso."
+      },
+      "review_of": "en-b1-u01-l05-ex09"
+    },
+    {
+      "id": "en-b1-u11-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "quantifiers-b1"
+      ],
+      "est_seconds": 20,
+      "prompt": "___ of the two restaurants is open on Monday. They're both closed.",
+      "options": [
+        "Neither",
+        "Either",
+        "Both",
+        "Each"
+      ],
+      "answer": [
+        "Neither"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither = ninguno de los dos.",
+        "incorrect": "Revisa esto: Neither = ninguno de los dos."
+      },
+      "review_of": "en-b1-u09-l02-ex06"
+    },
+    {
+      "id": "en-b1-u11-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "I can't ___ this noise any more.",
+      "options": [
+        "put up with",
+        "get on with",
+        "cheer up",
+        "count on"
+      ],
+      "answer": [
+        "put up with"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Put up with = aguantar.",
+        "incorrect": "Revisa esto: Put up with = aguantar."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "He looks sad. Let's ___ him ___ .",
+      "options": [
+        "cheer / up",
+        "cheer up / him",
+        "look / up",
+        "make / up"
+      ],
+      "answer": [
+        "cheer / up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Separable: cheer him up.",
+        "incorrect": "Revisa esto: Separable: cheer him up."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "trip-planning"
+      ],
+      "est_seconds": 20,
+      "prompt": "Make ___ you take your passport.",
+      "options": [
+        "sure",
+        "certain to",
+        "safe",
+        "right"
+      ],
+      "answer": [
+        "sure"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Make sure.",
+        "incorrect": "Revisa esto: Make sure."
+      },
+      "review_of": "en-b1-u06-l01-ex09"
+    },
+    {
+      "id": "en-b1-u11-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "I look up to her.",
+        "I look her up to.",
+        "I look up her to.",
+        "I up look to her."
+      ],
+      "answer": [
+        "I look up to her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Look up to es inseparable.",
+        "incorrect": "Revisa esto: Look up to es inseparable."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "will"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I will to call you tomorrow.",
+      "answer": [
+        "I'll call you tomorrow.",
+        "I will call you tomorrow."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Will + verbo base, sin to.",
+        "incorrect": "Revisa esto: Will + verbo base, sin to."
+      },
+      "review_of": "en-a2-u05-l06-ex06"
+    },
+    {
+      "id": "en-b1-u11-l02-rv07",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "ever-never"
+      ],
+      "est_seconds": 25,
+      "prompt": "I've ___ eaten sushi. (nunca)",
+      "answer": [
+        "never"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Nunca = never, entre have y el participio.",
+        "incorrect": "Revisa esto: Nunca = never, entre have y el participio."
+      },
+      "review_of": "en-a2-u08-l02-ex01"
+    },
+    {
+      "id": "en-b1-u11-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "Cheer her up.",
+        "Cheer up her.",
+        "Up cheer her.",
+        "Cheer to up her."
+      ],
+      "answer": [
+        "Cheer her up."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cheer up es separable.",
+        "incorrect": "Revisa esto: Cheer up es separable."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex12",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 25,
+      "prompt": "She took a long time to ___ over the break-up. (superar)",
+      "answer": [
+        "get"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get over.",
+        "incorrect": "Revisa esto: Get over."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex13",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 25,
+      "prompt": "You can always ___ on me. (contar)",
+      "answer": [
+        "count",
+        "rely",
+        "depend"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Count on.",
+        "incorrect": "Revisa esto: Count on."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I get on well her.",
+      "answer": [
+        "I get on well with her."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on with.",
+        "incorrect": "Revisa esto: Get on with."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Don't let down me.",
+      "answer": [
+        "Don't let me down."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pronombre en medio.",
+        "incorrect": "Revisa esto: Pronombre en medio."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-rv08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "connectors"
+      ],
+      "est_seconds": 20,
+      "prompt": "I was very tired, ___ I went to bed early.",
+      "options": [
+        "so",
+        "because",
+        "although",
+        "but"
+      ],
+      "answer": [
+        "so"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Result: so.",
+        "incorrect": "Revisa esto: Result: so."
+      },
+      "review_of": "en-a2-u10-l04-ex05"
+    },
+    {
+      "id": "en-b1-u11-l02-ex16",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "up",
+        "after",
+        "three",
+        "years",
+        ".",
+        "They",
+        "broke"
+      ],
+      "answer": [
+        "They",
+        "broke",
+        "up",
+        "after",
+        "three",
+        "years",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Break up.",
+        "incorrect": "Revisa esto: Break up."
+      }
+    },
+    {
+      "id": "en-b1-u11-l02-ex17",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hicieron ayer?",
+      "options": [
+        "Se reconciliaron",
+        "Se pelearon",
+        "Se mudaron",
+        "Rompieron"
+      ],
+      "answer": [
+        "Se reconciliaron"
+      ],
+      "audio_text": "I fell out with my flatmate last week because she never cleans up. We didn't speak for days, but yesterday we made up. I told her I can't put up with the mess, and she promised to help more.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: yesterday we made up.",
+        "incorrect": "Revisa esto: Dice: yesterday we made up."
+      },
+      "audio_script_id": "en-b1-u11-l02-ex17-a"
+    },
+    {
+      "id": "en-b1-u11-l02-ex18",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-1"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me llevo muy bien con mi hermana, pero nos peleamos a veces.",
+      "answer": [
+        "I get on very well with my sister, but we fall out sometimes.",
+        "I get along very well with my sister, but we fall out sometimes.",
+        "I get on really well with my sister, but we sometimes fall out."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Get on / fall out.",
+        "incorrect": "Revisa esto: Get on / fall out."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "get on with · fall out with",
+      "make up · break up · split up",
+      "look up to · count on · put up with",
+      "cheer her up · let me down"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-get-on-get-along"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fall-out-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-argument"
+    },
+    {
+      "type": "vocab",
+      "id": "en-upset"
+    },
+    {
+      "type": "vocab",
+      "id": "en-look-up-to"
+    },
+    {
+      "type": "vocab",
+      "id": "en-count-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-make-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-break-up-split-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-go-out-with"
+    },
+    {
+      "type": "vocab",
+      "id": "en-get-over"
+    },
+    {
+      "type": "grammar",
+      "id": "en-phrasal-verbs-1"
+    }
+  ]
+}

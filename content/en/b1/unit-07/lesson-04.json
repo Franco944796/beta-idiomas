@@ -1,0 +1,792 @@
+{
+  "id": "en-b1-u07-l04",
+  "language": "en",
+  "level": "B1",
+  "unit": 7,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Say, tell, ask, suggest",
+    "es": "Verbos de reporte"
+  },
+  "objective": "Al terminar eliges el verbo de reporte adecuado (say, tell, ask, suggest, promise, advise, warn…) y su estructura.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "No siempre se dice 'dijo que'. En inglés hay verbos precisos: sugerir, prometer, advertir, admitir… y cada uno exige su estructura."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Lia",
+        "text": "What happened at the meeting? Did the manager agree to the changes?",
+        "es": "¿Qué pasó en la reunión? ¿El director aceptó los cambios?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "He promised to look into them. He suggested having another meeting next week.",
+        "es": "Prometió estudiarlos. Sugirió tener otra reunión la semana que viene."
+      },
+      {
+        "speaker": "Lia",
+        "text": "Did Carol say anything?",
+        "es": "¿Dijo algo Carol?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "She admitted making a mistake with the figures and apologised for the delay.",
+        "es": "Admitió haberse equivocado con las cifras y se disculpó por el retraso."
+      },
+      {
+        "speaker": "Lia",
+        "text": "And what about the budget?",
+        "es": "¿Y el presupuesto?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "Mark warned us not to spend too much, and the director advised us to wait until January.",
+        "es": "Mark nos advirtió que no gastáramos demasiado y el director nos aconsejó esperar hasta enero."
+      },
+      {
+        "speaker": "Lia",
+        "text": "Did he refuse the new proposal?",
+        "es": "¿Rechazó la nueva propuesta?"
+      },
+      {
+        "speaker": "Sam",
+        "text": "No, he offered to read it and explained that he needed more time. He insisted on seeing the numbers.",
+        "es": "No, se ofreció a leerla y explicó que necesitaba más tiempo. Insistió en ver los números."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-promise",
+        "lemma": "promise",
+        "pos": "verb",
+        "ipa": "/ˈprɒmɪs/",
+        "es": "prometer",
+        "example": "He promised to help."
+      },
+      {
+        "id": "en-suggest",
+        "lemma": "suggest",
+        "pos": "verb",
+        "ipa": "/səˈdʒest/",
+        "es": "sugerir",
+        "example": "She suggested going out."
+      },
+      {
+        "id": "en-admit",
+        "lemma": "admit",
+        "pos": "verb",
+        "ipa": "/ədˈmɪt/",
+        "es": "admitir",
+        "example": "He admitted making a mistake."
+      },
+      {
+        "id": "en-apologise-for",
+        "lemma": "apologise for",
+        "pos": "phrasal verb",
+        "ipa": "/əˈpɒlədʒaɪz fɔː/",
+        "es": "disculparse por",
+        "example": "I apologised for being late."
+      },
+      {
+        "id": "en-warn",
+        "lemma": "warn",
+        "pos": "verb",
+        "ipa": "/wɔːn/",
+        "es": "advertir",
+        "example": "She warned him not to go."
+      },
+      {
+        "id": "en-advise",
+        "lemma": "advise",
+        "pos": "verb",
+        "ipa": "/ədˈvaɪz/",
+        "es": "aconsejar",
+        "example": "He advised me to wait."
+      },
+      {
+        "id": "en-refuse",
+        "lemma": "refuse",
+        "pos": "verb",
+        "ipa": "/rɪˈfjuːz/",
+        "es": "rechazar, negarse",
+        "example": "She refused to help."
+      },
+      {
+        "id": "en-offer",
+        "lemma": "offer",
+        "pos": "verb",
+        "ipa": "/ˈɒfə/",
+        "es": "ofrecer(se)",
+        "example": "He offered to drive."
+      },
+      {
+        "id": "en-insist-on",
+        "lemma": "insist on",
+        "pos": "phrasal verb",
+        "ipa": "/ɪnˈsɪst ɒn/",
+        "es": "insistir en",
+        "example": "She insisted on paying."
+      },
+      {
+        "id": "en-agree-to",
+        "lemma": "agree to",
+        "pos": "phrasal verb",
+        "ipa": "/əˈɡriː tə/",
+        "es": "aceptar (hacer)",
+        "example": "He agreed to come."
+      },
+      {
+        "id": "en-proposal",
+        "lemma": "proposal",
+        "pos": "noun",
+        "ipa": "/prəˈpəʊzl/",
+        "es": "propuesta",
+        "example": "I read the proposal."
+      },
+      {
+        "id": "en-figures",
+        "lemma": "figures",
+        "pos": "noun",
+        "ipa": "/ˈfɪɡəz/",
+        "es": "cifras",
+        "example": "Check the figures."
+      }
+    ],
+    "audio_script_id": "en-b1-u07-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Verbos de reporte y sus estructuras**\n\n| Estructura | Verbos | Ejemplo |\n|---|---|---|\n| **+ to + verbo** | *promise, offer, refuse, agree, threaten* | *He **promised to** look into it.* |\n| **+ persona + to + verbo** | *tell, ask, advise, warn, remind, invite, encourage* | *She **advised me to** wait.* |\n| **+ -ing** | *suggest, admit, deny, recommend* | *He **suggested having** another meeting.* · *She **admitted making** a mistake.* |\n| **+ that + cláusula** | *say, explain, claim, announce, add, reply* | *He **explained that** he needed more time.* |\n| **+ preposición + -ing** | *apologise for, insist on, accuse of, agree to* | *She **apologised for** being late.* · *He **insisted on** seeing it.* |\n\n**Suggest tiene dos estructuras**\n\n- *suggest + -ing*: *He suggested going out.*\n- *suggest (that) + sujeto + (should) + verbo*: *He suggested that we should wait.* · *He suggested we wait.*\n- ✘ *He suggested me to go* · ✘ *He suggested to go*.\n\n**Verbos de actitud:** *admit (admitir), deny (negar), claim (afirmar), complain (quejarse), threaten (amenazar), insist (insistir).*\n\n**Elegir bien suena más natural:** en vez de *He said that he would help*, usa *He **offered** to help*. En vez de *She said that she was sorry*, *She **apologised***.\n\n**Ojo:** *advice* (sustantivo, incontable) vs *advise* (verbo, /ədˈvaɪz/). ✘ *He suggested me* · ✘ *She advised to go* → ✔ *She advised **me** to go*.\n\nPronunciación: *suggest* /səˈdʒest/ · *admit* /ədˈmɪt/ · *refuse* /rɪˈfjuːz/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "He suggested me to go.",
+        "right": "He suggested going / that I go.",
+        "note": "Suggest no lleva persona + to."
+      },
+      {
+        "wrong": "She said me to wait.",
+        "right": "She told me to wait.",
+        "note": "Tell + persona + to."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u07-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué sugirió el director?",
+      "options": [
+        "Tener otra reunión la semana siguiente",
+        "Cancelar el proyecto",
+        "Despedir a Carol",
+        "Subir el presupuesto"
+      ],
+      "answer": [
+        "Tener otra reunión la semana siguiente"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: suggested having another meeting next week.",
+        "incorrect": "Revisa esto: Dice: suggested having another meeting next week."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué admitió Carol?",
+      "options": [
+        "Haberse equivocado con las cifras",
+        "Haber llegado tarde",
+        "No haber estudiado",
+        "Haber perdido el informe"
+      ],
+      "answer": [
+        "Haberse equivocado con las cifras"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: admitted making a mistake with the figures.",
+        "incorrect": "Revisa esto: Dice: admitted making a mistake with the figures."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué aconsejó el director sobre el presupuesto?",
+      "options": [
+        "Esperar hasta enero",
+        "Gastar ya",
+        "Cancelar todo",
+        "Pedir más dinero"
+      ],
+      "answer": [
+        "Esperar hasta enero"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: advised us to wait until January.",
+        "incorrect": "Revisa esto: Dice: advised us to wait until January."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 15,
+      "prompt": "El director rechazó la nueva propuesta sin leerla.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se ofreció a leerla.",
+        "incorrect": "Revisa esto: Se ofreció a leerla."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ to help me with my homework.",
+      "options": [
+        "offered",
+        "suggested",
+        "admitted",
+        "denied"
+      ],
+      "answer": [
+        "offered"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Offer + to + verbo.",
+        "incorrect": "Revisa esto: Offer + to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ breaking the window. (negó)",
+      "options": [
+        "denied",
+        "promised",
+        "offered",
+        "agreed"
+      ],
+      "answer": [
+        "denied"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deny + -ing.",
+        "incorrect": "Revisa esto: Deny + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "She suggested ___ to the cinema.",
+      "options": [
+        "going",
+        "to go",
+        "go",
+        "that go"
+      ],
+      "answer": [
+        "going"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest + -ing.",
+        "incorrect": "Revisa esto: Suggest + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ me not to go out alone at night.",
+      "options": [
+        "warned",
+        "suggested",
+        "denied",
+        "admitted"
+      ],
+      "answer": [
+        "warned"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Warn + persona + not to.",
+        "incorrect": "Revisa esto: Warn + persona + not to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Planes: presente continuo.",
+        "incorrect": "Revisa esto: Planes: presente continuo."
+      },
+      "review_of": "en-a1-u10-l06-ex08"
+    },
+    {
+      "id": "en-b1-u07-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ for being late.",
+      "options": [
+        "apologised",
+        "admitted",
+        "refused",
+        "agreed"
+      ],
+      "answer": [
+        "apologised"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apologise for + -ing.",
+        "incorrect": "Revisa esto: Apologise for + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is correct?",
+      "options": [
+        "She advised me to wait.",
+        "She advised me wait.",
+        "She advised to wait me.",
+        "She advised that I to wait."
+      ],
+      "answer": [
+        "She advised me to wait."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advise + persona + to.",
+        "incorrect": "Revisa esto: Advise + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 25,
+      "prompt": "He promised ___ call me the next day. (llamar)",
+      "answer": [
+        "to"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Promise + to.",
+        "incorrect": "Revisa esto: Promise + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "as-as-too-enough"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He isn't enough tall to play basketball.",
+      "answer": [
+        "He isn't tall enough to play basketball."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Enough después del adjetivo.",
+        "incorrect": "Revisa esto: Enough después del adjetivo."
+      },
+      "review_of": "en-a2-u03-l06-ex08"
+    },
+    {
+      "id": "en-b1-u07-l04-ex12",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 25,
+      "prompt": "She insisted ___ paying the bill. (en)",
+      "answer": [
+        "on"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Insist on.",
+        "incorrect": "Revisa esto: Insist on."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He suggested me to go home.",
+      "answer": [
+        "He suggested that I go home.",
+        "He suggested that I should go home.",
+        "He suggested going home.",
+        "He advised me to go home."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Suggest no lleva persona + to.",
+        "incorrect": "Revisa esto: Suggest no lleva persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-rv03",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like a ___ for last night; I couldn't sleep.",
+      "options": [
+        "refund",
+        "voucher",
+        "receipt",
+        "deposit"
+      ],
+      "answer": [
+        "refund"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Refund = reembolso.",
+        "incorrect": "Revisa esto: Refund = reembolso."
+      },
+      "review_of": "en-b1-u06-l04-ex08"
+    },
+    {
+      "id": "en-b1-u07-l04-ex14",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She said me to be quiet.",
+      "answer": [
+        "She told me to be quiet."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tell + persona + to.",
+        "incorrect": "Revisa esto: Tell + persona + to."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-ex15",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He admitted to make a mistake.",
+      "answer": [
+        "He admitted making a mistake."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Admit + -ing.",
+        "incorrect": "Revisa esto: Admit + -ing."
+      }
+    },
+    {
+      "id": "en-b1-u07-l04-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hobbies"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I listen music in the evening.",
+      "answer": [
+        "I listen to music in the evening."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Listen siempre lleva to.",
+        "incorrect": "Revisa esto: Listen siempre lleva to."
+      },
+      "review_of": "en-a1-u09-l01-ex06"
+    },
+    {
+      "id": "en-b1-u07-l04-rv05",
+      "type": "matching",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-regular"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada verbo con su pasado.",
+      "pairs": [
+        {
+          "left": "walk",
+          "right": "walked"
+        },
+        {
+          "left": "dance",
+          "right": "danced"
+        },
+        {
+          "left": "study",
+          "right": "studied"
+        },
+        {
+          "left": "stop",
+          "right": "stopped"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cada verbo sigue una regla de ortografía distinta.",
+        "incorrect": "Revisa esto: Cada verbo sigue una regla de ortografía distinta."
+      },
+      "review_of": "en-a2-u01-l02-ex04"
+    },
+    {
+      "id": "en-b1-u07-l04-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "play-go-do"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace por la tarde?",
+      "options": [
+        "Plays chess",
+        "Goes swimming",
+        "Does yoga",
+        "Goes hiking"
+      ],
+      "answer": [
+        "Plays chess"
+      ],
+      "audio_text": "On Saturdays I go swimming in the morning and I play chess with my dad in the afternoon.",
+      "feedback": {
+        "correct": "¡Correcto! Dice 'I play chess with my dad in the afternoon'.",
+        "incorrect": "Revisa esto: Dice 'I play chess with my dad in the afternoon'."
+      },
+      "audio_script_id": "en-b1-u07-l04-rv06-a",
+      "review_of": "en-a2-u13-l01-ex10"
+    },
+    {
+      "id": "en-b1-u07-l04-rv07",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "relative-defining"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The woman who she lives next door is a teacher.",
+      "answer": [
+        "The woman who lives next door is a teacher.",
+        "The woman that lives next door is a teacher."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! No se repite el sujeto con she.",
+        "incorrect": "Revisa esto: No se repite el sujeto con she."
+      },
+      "review_of": "en-b1-u02-l02-ex09"
+    },
+    {
+      "id": "en-b1-u07-l04-ex16",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué prometió?",
+      "options": [
+        "Revisar la situación en seis meses",
+        "Dar un aumento ya",
+        "Despedir a alguien",
+        "Cerrar la empresa"
+      ],
+      "answer": [
+        "Revisar la situación en seis meses"
+      ],
+      "audio_text": "The manager refused to give us a pay rise. He said that the company couldn't afford it, but he promised to review the situation in six months.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: promised to review the situation in six months.",
+        "incorrect": "Revisa esto: Dice: promised to review the situation in six months."
+      },
+      "audio_script_id": "en-b1-u07-l04-ex16-a"
+    },
+    {
+      "id": "en-b1-u07-l04-ex17",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "reporting-verbs"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Me aconsejó esperar y me advirtió que no gastara mucho.",
+      "answer": [
+        "He advised me to wait and warned me not to spend too much.",
+        "She advised me to wait and warned me not to spend too much.",
+        "He advised me to wait and warned me not to spend a lot."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Advise / warn + persona + to.",
+        "incorrect": "Revisa esto: Advise / warn + persona + to."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "promise / offer / refuse + to",
+      "advise / warn / remind + persona + to",
+      "suggest / admit / deny + -ing",
+      "apologise for · insist on"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-promise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-suggest"
+    },
+    {
+      "type": "vocab",
+      "id": "en-admit"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apologise-for"
+    },
+    {
+      "type": "vocab",
+      "id": "en-warn"
+    },
+    {
+      "type": "vocab",
+      "id": "en-advise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-refuse"
+    },
+    {
+      "type": "vocab",
+      "id": "en-offer"
+    },
+    {
+      "type": "vocab",
+      "id": "en-insist-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-agree-to"
+    },
+    {
+      "type": "grammar",
+      "id": "en-reporting-verbs"
+    }
+  ]
+}

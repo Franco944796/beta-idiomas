@@ -1,0 +1,838 @@
+{
+  "id": "en-b1-u04-l01",
+  "language": "en",
+  "level": "B1",
+  "unit": 4,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Healthy habits",
+    "es": "Hábitos saludables"
+  },
+  "objective": "Al terminar hablas de tus hábitos de comida, sueño, deporte y estrés con vocabulario natural y expresiones de frecuencia.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'Intento comer sano pero siempre acabo con una pizza.' Hablar de hábitos y de salud es una de las conversaciones más comunes con gente nueva."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "text": "You look tired, Sara. Are you sleeping enough these days?",
+        "es": "Te veo cansada, Sara. ¿Duermes lo suficiente estos días?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Not really. I stay up late scrolling on my phone and I only get about five hours of sleep.",
+        "es": "La verdad es que no. Me quedo hasta tarde con el móvil y solo duermo unas cinco horas."
+      },
+      {
+        "speaker": "Tom",
+        "text": "That's not healthy. I try to go to bed before eleven, and I never drink coffee after four.",
+        "es": "Eso no es sano. Yo intento acostarme antes de las once y nunca tomo café después de las cuatro."
+      },
+      {
+        "speaker": "Sara",
+        "text": "I eat badly too. I skip breakfast and then I snack on crisps all day.",
+        "es": "Yo también como mal. Me salto el desayuno y luego picoteo patatas fritas todo el día."
+      },
+      {
+        "speaker": "Tom",
+        "text": "Why don't you cook at home more often? I prepare my meals on Sundays, so I always have something healthy to eat.",
+        "es": "¿Por qué no cocinas más en casa? Yo preparo mis comidas los domingos, así siempre tengo algo sano."
+      },
+      {
+        "speaker": "Sara",
+        "text": "Maybe. I used to go to the gym, but I gave it up when I got busy.",
+        "es": "Quizá. Antes iba al gimnasio, pero lo dejé cuando me llené de trabajo."
+      },
+      {
+        "speaker": "Tom",
+        "text": "You don't need a gym. A thirty-minute walk every day makes a big difference, and it helps with stress.",
+        "es": "No necesitas un gimnasio. Un paseo de treinta minutos al día marca una gran diferencia y ayuda con el estrés."
+      },
+      {
+        "speaker": "Sara",
+        "text": "You're right. I'm going to cut down on sugar and start walking to work.",
+        "es": "Tienes razón. Voy a reducir el azúcar y empezar a ir andando al trabajo."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-stay-up-late",
+        "lemma": "stay up late",
+        "pos": "phrase",
+        "ipa": "/steɪ ʌp leɪt/",
+        "es": "acostarse tarde",
+        "example": "I stayed up late last night."
+      },
+      {
+        "id": "en-scroll",
+        "lemma": "scroll",
+        "pos": "verb",
+        "ipa": "/skrəʊl/",
+        "es": "desplazar la pantalla",
+        "example": "She scrolls through her phone."
+      },
+      {
+        "id": "en-skip",
+        "lemma": "skip",
+        "pos": "verb",
+        "ipa": "/skɪp/",
+        "es": "saltarse",
+        "example": "Don't skip breakfast."
+      },
+      {
+        "id": "en-snack-on",
+        "lemma": "snack on",
+        "pos": "phrasal verb",
+        "ipa": "/snæk ɒn/",
+        "es": "picar",
+        "example": "I snack on fruit."
+      },
+      {
+        "id": "en-crisps",
+        "lemma": "crisps",
+        "pos": "noun",
+        "ipa": "/krɪsps/",
+        "es": "patatas fritas (de bolsa)",
+        "example": "He ate a bag of crisps."
+      },
+      {
+        "id": "en-prepare-meals",
+        "lemma": "prepare meals",
+        "pos": "phrase",
+        "ipa": "/prɪˈpeə miːlz/",
+        "es": "preparar comidas",
+        "example": "I prepare meals on Sundays."
+      },
+      {
+        "id": "en-give-up",
+        "lemma": "give up",
+        "pos": "phrasal verb",
+        "ipa": "/ɡɪv ʌp/",
+        "es": "dejar, abandonar",
+        "example": "He gave up smoking."
+      },
+      {
+        "id": "en-make-a-difference",
+        "lemma": "make a difference",
+        "pos": "phrase",
+        "ipa": "/meɪk ə ˈdɪfrəns/",
+        "es": "marcar la diferencia",
+        "example": "Exercise makes a difference."
+      },
+      {
+        "id": "en-stress",
+        "lemma": "stress",
+        "pos": "noun",
+        "ipa": "/stres/",
+        "es": "estrés",
+        "example": "Work causes me stress."
+      },
+      {
+        "id": "en-cut-down-on",
+        "lemma": "cut down on",
+        "pos": "phrasal verb",
+        "ipa": "/kʌt daʊn ɒn/",
+        "es": "reducir el consumo de",
+        "example": "I'm cutting down on sugar."
+      },
+      {
+        "id": "en-healthy-unhealthy",
+        "lemma": "healthy / unhealthy",
+        "pos": "adj",
+        "ipa": "/ˈhelθi / ʌnˈhelθi/",
+        "es": "sano / poco sano",
+        "example": "Fruit is healthy."
+      },
+      {
+        "id": "en-habit",
+        "lemma": "habit",
+        "pos": "noun",
+        "ipa": "/ˈhæbɪt/",
+        "es": "hábito",
+        "example": "It's a good habit."
+      },
+      {
+        "id": "en-get-enough-sleep",
+        "lemma": "get enough sleep",
+        "pos": "phrase",
+        "ipa": "/ɡet ɪˈnʌf sliːp/",
+        "es": "dormir lo suficiente",
+        "example": "I need to get enough sleep."
+      }
+    ],
+    "audio_script_id": "en-b1-u04-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de hábitos y salud**\n\n| Hábito sano | Hábito poco sano |\n|---|---|\n| *get enough sleep* | *stay up late* |\n| *eat a balanced diet* | *skip meals · snack on junk food* |\n| *drink plenty of water* | *drink too much coffee / sugary drinks* |\n| *take regular exercise* | *spend hours on the sofa / phone* |\n| *relax · switch off* | *be under a lot of stress* |\n\n**Frases con phrasal verbs**\n\n- *give up + sustantivo / -ing* → *I gave up smoking.*\n- *cut down on + sustantivo* → *cut down on sugar.*\n- *take up + actividad* → *I took up yoga.*\n- *work out* → hacer ejercicio · *eat out* → comer fuera.\n\n**Frecuencia:** *always · usually · often · sometimes · hardly ever · never · once a week · twice a month · every day.*\n\n- Posición: *I **usually** eat at home.* · *She **is always** late.* · *Sometimes I walk to work.*\n- *Hardly ever* = casi nunca (ya es negativo, no uses *not*).\n\n**Intenciones y planes:** *I'm going to cut down on sugar. · I try to / I'm trying to + verbo. · I'd like to improve my diet.*\n\n**Ojo:** *diet* en inglés es 'dieta' pero también 'alimentación' en general: *a healthy diet*. *Sano* de fruta es *healthy*; de persona sana, *healthy* también. *Sensible* no es 'sensible' sino 'sensato'.\n\nPronunciación: *healthy* /ˈhelθi/ · *habit* /ˈhæbɪt/ · *stress* /stres/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I hardly never go.",
+        "right": "I hardly ever go.",
+        "note": "Hardly ya es negativo."
+      },
+      {
+        "wrong": "I always am late.",
+        "right": "I am always late.",
+        "note": "Con be el adverbio va después."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "diet",
+        "es_false": "dieta (solo para adelgazar)",
+        "real": "alimentación en general",
+        "note": "A healthy diet = alimentación sana."
+      },
+      {
+        "word": "sensible",
+        "es_false": "sensible",
+        "real": "sensato",
+        "note": "Sensible (inglés) = sensato; sensitive = sensible."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u04-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada expresión con su significado.",
+      "pairs": [
+        {
+          "left": "skip breakfast",
+          "right": "saltarse el desayuno"
+        },
+        {
+          "left": "give up",
+          "right": "dejar"
+        },
+        {
+          "left": "cut down on",
+          "right": "reducir"
+        },
+        {
+          "left": "stay up late",
+          "right": "acostarse tarde"
+        },
+        {
+          "left": "snack on",
+          "right": "picar"
+        },
+        {
+          "left": "habit",
+          "right": "hábito"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario clave de la unidad.",
+        "incorrect": "Revisa esto: Vocabulario clave de la unidad."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un hábito sano o poco sano?",
+      "categories": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "text": "get enough sleep",
+          "category": "Healthy"
+        },
+        {
+          "text": "drink plenty of water",
+          "category": "Healthy"
+        },
+        {
+          "text": "take regular exercise",
+          "category": "Healthy"
+        },
+        {
+          "text": "eat a balanced diet",
+          "category": "Healthy"
+        },
+        {
+          "text": "skip meals",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "stay up late every night",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "snack on junk food",
+          "category": "Unhealthy"
+        },
+        {
+          "text": "be under a lot of stress",
+          "category": "Unhealthy"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar ayuda a recordar el vocabulario.",
+        "incorrect": "Revisa esto: Clasificar ayuda a recordar el vocabulario."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántas horas duerme Sara?",
+      "options": [
+        "Unas cinco",
+        "Ocho",
+        "Siete",
+        "Diez"
+      ],
+      "answer": [
+        "Unas cinco"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I only get about five hours of sleep.",
+        "incorrect": "Revisa esto: Dice: I only get about five hours of sleep."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-rv01",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Tienen esto en una talla más grande?",
+      "answer": [
+        "Do you have this in a larger size?",
+        "Have you got this in a larger size?",
+        "Do you have this in a bigger size?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do you have … in a larger size?",
+        "incorrect": "Revisa esto: Do you have … in a larger size?"
+      },
+      "review_of": "en-a2-u11-l02-ex12"
+    },
+    {
+      "id": "en-b1-u04-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué hace Tom los domingos?",
+      "options": [
+        "Prepara sus comidas de la semana",
+        "Va al gimnasio",
+        "Duerme hasta tarde",
+        "Sale a cenar"
+      ],
+      "answer": [
+        "Prepara sus comidas de la semana"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I prepare my meals on Sundays.",
+        "incorrect": "Revisa esto: Dice: I prepare my meals on Sundays."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-rv02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "interview-answers"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Qué es mejor en una entrevista?",
+      "categories": [
+        "Good answer",
+        "Weak answer"
+      ],
+      "items": [
+        {
+          "text": "I'm very organised. For example, I led three projects.",
+          "category": "Good answer"
+        },
+        {
+          "text": "I have the right experience and learn quickly.",
+          "category": "Good answer"
+        },
+        {
+          "text": "My weakness is that I tend to be a perfectionist, but I set limits.",
+          "category": "Good answer"
+        },
+        {
+          "text": "I don't know.",
+          "category": "Weak answer"
+        },
+        {
+          "text": "My old boss was terrible.",
+          "category": "Weak answer"
+        },
+        {
+          "text": "Yes.",
+          "category": "Weak answer"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Las buenas respuestas incluyen ejemplos y son positivas.",
+        "incorrect": "Revisa esto: Las buenas respuestas incluyen ejemplos y son positivas."
+      },
+      "review_of": "en-b1-u03-l05-ex04"
+    },
+    {
+      "id": "en-b1-u04-l01-ex05",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 15,
+      "prompt": "Sara va todavía al gimnasio.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: I used to go to the gym, but I gave it up.",
+        "incorrect": "Revisa esto: Dice: I used to go to the gym, but I gave it up."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex06",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'm trying to cut ___ on sugar.",
+      "options": [
+        "down",
+        "off",
+        "up",
+        "out"
+      ],
+      "answer": [
+        "down"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut down on = reducir.",
+        "incorrect": "Revisa esto: Cut down on = reducir."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-rv03",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "plans"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Tomorrow I visit my parents.",
+      "answer": [
+        "Tomorrow I'm visiting my parents.",
+        "Tomorrow I am visiting my parents."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Planes: presente continuo.",
+        "incorrect": "Revisa esto: Planes: presente continuo."
+      },
+      "review_of": "en-a1-u10-l06-ex08"
+    },
+    {
+      "id": "en-b1-u04-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "He ___ smoking two years ago.",
+      "options": [
+        "gave up",
+        "cut down",
+        "took up",
+        "stayed up"
+      ],
+      "answer": [
+        "gave up"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Give up = dejar.",
+        "incorrect": "Revisa esto: Give up = dejar."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "I hardly ever eat fast food. It means...",
+      "options": [
+        "Casi nunca",
+        "A menudo",
+        "Siempre",
+        "A veces"
+      ],
+      "answer": [
+        "Casi nunca"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hardly ever = casi nunca.",
+        "incorrect": "Revisa esto: Hardly ever = casi nunca."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ late for work.",
+      "options": [
+        "is never",
+        "never is",
+        "does never",
+        "is not never"
+      ],
+      "answer": [
+        "is never"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con be, el adverbio va después.",
+        "incorrect": "Revisa esto: Con be, el adverbio va después."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-rv04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "timetable-routines"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I go to the library for buy books.",
+      "answer": [
+        "I go to the library to buy books."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Para expresar finalidad: to + verbo.",
+        "incorrect": "Revisa esto: Para expresar finalidad: to + verbo."
+      },
+      "review_of": "en-a2-u07-l03-ex08"
+    },
+    {
+      "id": "en-b1-u04-l01-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "I don't eat much sugar. I'm cutting ___ on it. (reduciendo)",
+      "answer": [
+        "down"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Cut down on.",
+        "incorrect": "Revisa esto: Cut down on."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 25,
+      "prompt": "You should drink plenty of ___. (agua)",
+      "answer": [
+        "water"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plenty of water.",
+        "incorrect": "Revisa esto: Plenty of water."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I hardly never go to the gym.",
+      "answer": [
+        "I hardly ever go to the gym.",
+        "I never go to the gym."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hardly ever, no hardly never.",
+        "incorrect": "Revisa esto: Hardly ever, no hardly never."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I always am tired in the morning.",
+      "answer": [
+        "I am always tired in the morning."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Con be: sujeto + be + adverbio.",
+        "incorrect": "Revisa esto: Con be: sujeto + be + adverbio."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-ex14",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué hace ahora?",
+      "options": [
+        "Cocina en casa y corre dos veces por semana",
+        "Come fuera cada día",
+        "No hace ejercicio",
+        "Va al gimnasio a diario"
+      ],
+      "answer": [
+        "Cocina en casa y corre dos veces por semana"
+      ],
+      "audio_text": "I used to eat out every day, but now I cook at home and I've cut down on fast food. I also go for a run twice a week.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: I cook at home … go for a run twice a week.",
+        "incorrect": "Revisa esto: Dice: I cook at home … go for a run twice a week."
+      },
+      "audio_script_id": "en-b1-u04-l01-ex14-a"
+    },
+    {
+      "id": "en-b1-u04-l01-rv05",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "adjective-order"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        ".",
+        "I'm",
+        "wearing"
+      ],
+      "answer": [
+        "I'm",
+        "wearing",
+        "a",
+        "dark",
+        "blue",
+        "jumper",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! wear + adjetivos de color + prenda.",
+        "incorrect": "Revisa esto: wear + adjetivos de color + prenda."
+      },
+      "review_of": "en-a2-u11-l01-ex08"
+    },
+    {
+      "id": "en-b1-u04-l01-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "lifestyle-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Intento dormir ocho horas y no tomar café después de las cuatro.",
+      "answer": [
+        "I try to sleep eight hours and not drink coffee after four.",
+        "I try to sleep eight hours and not to drink coffee after four.",
+        "I try to get eight hours of sleep and not to drink coffee after four."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Try to + verbo.",
+        "incorrect": "Revisa esto: Try to + verbo."
+      }
+    },
+    {
+      "id": "en-b1-u04-l01-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-continuous"
+      ],
+      "est_seconds": 25,
+      "prompt": "At nine I ___ (cook) dinner.",
+      "answer": [
+        "was cooking"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo: was + -ing.",
+        "incorrect": "Revisa esto: Pasado continuo: was + -ing."
+      },
+      "review_of": "en-a2-u09-l06-ex02"
+    },
+    {
+      "id": "en-b1-u04-l01-ex16",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "lifestyle-talk"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "healthy",
+          "ipa": "/ˈhelθi/",
+          "tip_es": "Acento en 'hel'; 'th' /θ/."
+        },
+        {
+          "text": "habit",
+          "ipa": "/ˈhæbɪt/",
+          "tip_es": "A abierta, acento en la primera."
+        },
+        {
+          "text": "stress",
+          "ipa": "/stres/",
+          "tip_es": "Una sílaba, 'e' abierta."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I try to … · I'm going to cut down on …",
+      "get enough sleep · stay up late",
+      "give up · take up · work out",
+      "hardly ever · once a week · every day"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-stay-up-late"
+    },
+    {
+      "type": "vocab",
+      "id": "en-scroll"
+    },
+    {
+      "type": "vocab",
+      "id": "en-skip"
+    },
+    {
+      "type": "vocab",
+      "id": "en-snack-on"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crisps"
+    },
+    {
+      "type": "vocab",
+      "id": "en-prepare-meals"
+    },
+    {
+      "type": "vocab",
+      "id": "en-give-up"
+    },
+    {
+      "type": "vocab",
+      "id": "en-make-a-difference"
+    },
+    {
+      "type": "vocab",
+      "id": "en-stress"
+    },
+    {
+      "type": "vocab",
+      "id": "en-cut-down-on"
+    },
+    {
+      "type": "grammar",
+      "id": "en-lifestyle-talk"
+    }
+  ]
+}

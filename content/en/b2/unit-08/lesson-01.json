@@ -1,0 +1,1002 @@
+{
+  "id": "en-b2-u08-l01",
+  "language": "en",
+  "level": "B2",
+  "unit": 8,
+  "order": 1,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Education today",
+    "es": "Educación, aprendizaje y sociedad"
+  },
+  "objective": "Al terminar hablas de educación y de problemas sociales con vocabulario de nivel B2 y opinas sobre el sistema educativo.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "La educación nos afecta a todos: colegios, universidades, deberes, exámenes, becas. Aquí aprendes el vocabulario para hablar de ella y de sus retos sociales con precisión."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Prof. Hale",
+        "text": "The biggest challenge in education today is inequality. Children from disadvantaged backgrounds often fall behind before they even start school.",
+        "es": "El mayor reto de la educación hoy es la desigualdad. Los niños de entornos desfavorecidos suelen quedarse atrás antes incluso de empezar el colegio."
+      },
+      {
+        "speaker": "Host",
+        "text": "What can be done about it?",
+        "es": "¿Qué se puede hacer?"
+      },
+      {
+        "speaker": "Prof. Hale",
+        "text": "Early intervention is crucial. Free nursery places, smaller class sizes and better-trained teachers all make a difference. Funding is the key issue.",
+        "es": "La intervención temprana es crucial. Plazas gratuitas en guardería, clases más reducidas y profesores mejor formados marcan la diferencia. La financiación es la cuestión clave."
+      },
+      {
+        "speaker": "Host",
+        "text": "Some people argue that exams put too much pressure on students.",
+        "es": "Algunos sostienen que los exámenes presionan demasiado a los estudiantes."
+      },
+      {
+        "speaker": "Prof. Hale",
+        "text": "There's some truth in that. High-stakes testing can lead to anxiety and a narrow curriculum, where teachers teach to the test. A more balanced assessment, including coursework and projects, would be fairer.",
+        "es": "Hay algo de cierto. Los exámenes de alto riesgo pueden causar ansiedad y un currículo estrecho, en el que los profesores enseñan para el examen. Una evaluación más equilibrada, con trabajos y proyectos, sería más justa."
+      },
+      {
+        "speaker": "Host",
+        "text": "And what about university? Tuition fees are rising.",
+        "es": "¿Y la universidad? Las matrículas están subiendo."
+      },
+      {
+        "speaker": "Prof. Hale",
+        "text": "That's another barrier. Many talented students drop out or never apply because they fear debt. Scholarships and grants can help, but they're limited.",
+        "es": "Esa es otra barrera. Muchos estudiantes con talento abandonan o ni siquiera se presentan por miedo a la deuda. Las becas y ayudas pueden ayudar, pero son limitadas."
+      },
+      {
+        "speaker": "Host",
+        "text": "Is technology the answer?",
+        "es": "¿Es la tecnología la respuesta?"
+      },
+      {
+        "speaker": "Prof. Hale",
+        "text": "It's a useful tool, but not a magic solution. Online learning widens access, yet it requires self-discipline and a reliable internet connection, which not everyone has.",
+        "es": "Es una herramienta útil, pero no una solución mágica. El aprendizaje en línea amplía el acceso, pero requiere autodisciplina y una conexión fiable a internet, que no todo el mundo tiene."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-inequality",
+        "lemma": "inequality",
+        "pos": "noun",
+        "ipa": "/ˌɪnɪˈkwɒləti/",
+        "es": "desigualdad",
+        "example": "Social inequality."
+      },
+      {
+        "id": "en-disadvantaged",
+        "lemma": "disadvantaged",
+        "pos": "adj",
+        "ipa": "/ˌdɪsədˈvɑːntɪdʒd/",
+        "es": "desfavorecido",
+        "example": "Disadvantaged families."
+      },
+      {
+        "id": "en-fall-behind",
+        "lemma": "fall behind",
+        "pos": "phrasal verb",
+        "ipa": "/fɔːl bɪˈhaɪnd/",
+        "es": "quedarse atrás",
+        "example": "Fall behind at school."
+      },
+      {
+        "id": "en-early-intervention",
+        "lemma": "early intervention",
+        "pos": "noun",
+        "ipa": "/ˈɜːli ˌɪntəˈvenʃn/",
+        "es": "intervención temprana",
+        "example": "Early intervention helps."
+      },
+      {
+        "id": "en-class-size",
+        "lemma": "class size",
+        "pos": "noun",
+        "ipa": "/klɑːs saɪz/",
+        "es": "tamaño de la clase",
+        "example": "Smaller class sizes."
+      },
+      {
+        "id": "en-curriculum",
+        "lemma": "curriculum",
+        "pos": "noun",
+        "ipa": "/kəˈrɪkjələm/",
+        "es": "currículo",
+        "example": "A narrow curriculum."
+      },
+      {
+        "id": "en-assessment",
+        "lemma": "assessment",
+        "pos": "noun",
+        "ipa": "/əˈsesmənt/",
+        "es": "evaluación",
+        "example": "Continuous assessment."
+      },
+      {
+        "id": "en-coursework",
+        "lemma": "coursework",
+        "pos": "noun",
+        "ipa": "/ˈkɔːswɜːk/",
+        "es": "trabajo de curso",
+        "example": "Coursework counts 40%."
+      },
+      {
+        "id": "en-tuition-fees",
+        "lemma": "tuition fees",
+        "pos": "noun",
+        "ipa": "/tjuˈɪʃn fiːz/",
+        "es": "matrícula",
+        "example": "Rising tuition fees."
+      },
+      {
+        "id": "en-drop-out",
+        "lemma": "drop out",
+        "pos": "phrasal verb",
+        "ipa": "/drɒp aʊt/",
+        "es": "abandonar los estudios",
+        "example": "Drop out of university."
+      },
+      {
+        "id": "en-scholarship",
+        "lemma": "scholarship",
+        "pos": "noun",
+        "ipa": "/ˈskɒləʃɪp/",
+        "es": "beca",
+        "example": "Win a scholarship."
+      },
+      {
+        "id": "en-self-discipline",
+        "lemma": "self-discipline",
+        "pos": "noun",
+        "ipa": "/self ˈdɪsəplɪn/",
+        "es": "autodisciplina",
+        "example": "Needs self-discipline."
+      }
+    ],
+    "audio_script_id": "en-b2-u08-l01-d01"
+  },
+  "explanation": {
+    "md_es": "**Vocabulario de educación y sociedad**\n\n| Ámbito | Palabras clave |\n|---|---|\n| Sistema | *state / private school, nursery, primary, secondary, university, vocational training, curriculum* |\n| Evaluación | *exam, assessment, coursework, grade, mark, pass / fail, resit, continuous assessment* |\n| Dinero | *tuition fees, scholarship, grant, student loan, funding, bursary* |\n| Personas | *pupil, student, lecturer, tutor, headteacher, graduate, dropout* |\n| Problemas | *inequality, bullying, truancy, peer pressure, overcrowded classrooms, dropout rate* |\n| Soluciones | *mentoring, inclusion, remedial classes, free school meals, tutoring* |\n\n**Colocaciones y phrasal verbs**\n\n- *sit / take an exam · pass / fail an exam · hand in an assignment · meet a deadline · drop out · fall behind · catch up · look up to · go in for · major in · graduate from*.\n- *a gap year · a degree course · a research project · lifelong learning · a skill gap*.\n\n**Sociedad: temas habituales**\n\n- *inequality · poverty · discrimination · social mobility · the welfare state · volunteering · community · integration · ageing population*.\n\n**Diferencias de uso**\n\n- *Teach* (enseñar) vs *learn* (aprender) vs *study* (estudiar). · *Lecture* = conferencia; *lesson* = clase. · *Mark* (UK) / *grade* (US) = nota. · *Pupil* (colegio) / *student* (universidad, aunque en US se usa para ambos).\n\n**Falsos amigos**\n\n- *College* (UK = instituto de FP; US = universidad) ≠ *colegio* (school). · *Lecture* ≠ *lectura* (reading). · *Career* = carrera profesional (no 'carrera' universitaria: *degree*). · *Subject* = asignatura; *course* = curso.\n\n**Errores típicos**\n\n- ✘ *I have a degree in the school.* → ✔ *I have a degree from university.*\n- ✘ *I made an exam.* → ✔ *I took / sat an exam.*\n- ✘ *She is studying a degree of Law.* → ✔ *She is studying for a degree in Law.*\n- ✘ *Homeworks* → ✔ *homework* (incontable).\n- ✘ *The education is important.* → ✔ *Education is important.*\n\n**Ojo:** *Education* es general; *the education system* es específico. *Information, knowledge, advice, homework, research* son incontables.\n\nPronunciación: *curriculum* /kəˈrɪkjələm/ · *scholarship* /ˈskɒləʃɪp/ · *assessment* /əˈsesmənt/ · *inequality* /ˌɪnɪˈkwɒləti/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "made an exam",
+        "right": "took an exam",
+        "note": "Colocación."
+      },
+      {
+        "wrong": "homeworks",
+        "right": "homework",
+        "note": "Incontable."
+      }
+    ],
+    "false_friends": [
+      {
+        "word": "college",
+        "es_false": "colegio",
+        "real": "instituto/universidad",
+        "note": "Colegio = school."
+      },
+      {
+        "word": "lecture",
+        "es_false": "lectura",
+        "real": "conferencia/clase",
+        "note": "Lectura = reading."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u08-l01-ex01",
+      "type": "matching",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 40,
+      "prompt": "Une cada palabra con su significado.",
+      "pairs": [
+        {
+          "left": "curriculum",
+          "right": "currículo"
+        },
+        {
+          "left": "scholarship",
+          "right": "beca"
+        },
+        {
+          "left": "tuition fees",
+          "right": "matrícula"
+        },
+        {
+          "left": "coursework",
+          "right": "trabajo de curso"
+        },
+        {
+          "left": "inequality",
+          "right": "desigualdad"
+        },
+        {
+          "left": "drop out",
+          "right": "abandonar los estudios"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario educativo B2.",
+        "incorrect": "Revisa esto: Vocabulario educativo B2."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex02",
+      "type": "categorize",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 45,
+      "prompt": "¿Es un problema o una solución en educación?",
+      "categories": [
+        "Problem",
+        "Solution"
+      ],
+      "items": [
+        {
+          "text": "overcrowded classrooms",
+          "category": "Problem"
+        },
+        {
+          "text": "bullying",
+          "category": "Problem"
+        },
+        {
+          "text": "high dropout rate",
+          "category": "Problem"
+        },
+        {
+          "text": "unequal funding",
+          "category": "Problem"
+        },
+        {
+          "text": "mentoring",
+          "category": "Solution"
+        },
+        {
+          "text": "free school meals",
+          "category": "Solution"
+        },
+        {
+          "text": "smaller classes",
+          "category": "Solution"
+        },
+        {
+          "text": "scholarships",
+          "category": "Solution"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Clasificar por tipo.",
+        "incorrect": "Revisa esto: Clasificar por tipo."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv01",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-2"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué le pasó al negocio este año?",
+      "options": [
+        "Despegó",
+        "Cerró",
+        "Fue vendido",
+        "Fue absorbido"
+      ],
+      "answer": [
+        "Despegó"
+      ],
+      "audio_text": "Our start-up nearly collapsed last year. A big investor pulled out, and the deal fell through. We had to cut back on costs, put off hiring and sort out our debts. But we kept going, and this year the business finally took off.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: the business finally took off.",
+        "incorrect": "Revisa esto: Dice: the business finally took off."
+      },
+      "audio_script_id": "en-b2-u08-l01-rv01-a",
+      "review_of": "en-b2-u07-l04-ex21"
+    },
+    {
+      "id": "en-b2-u08-l01-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál es el mayor reto de la educación según el profesor?",
+      "options": [
+        "La desigualdad",
+        "Los deberes",
+        "Los uniformes",
+        "La tecnología"
+      ],
+      "answer": [
+        "La desigualdad"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: The biggest challenge is inequality.",
+        "incorrect": "Revisa esto: Dice: The biggest challenge is inequality."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "phrasal-verbs-2"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "We will look the problem into.",
+      "answer": [
+        "We will look into the problem."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Inseparable.",
+        "incorrect": "Revisa esto: Inseparable."
+      },
+      "review_of": "en-b2-u07-l04-ex20"
+    },
+    {
+      "id": "en-b2-u08-l01-ex04",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema puede causar el examen de alto riesgo?",
+      "options": [
+        "Ansiedad y un currículo estrecho",
+        "Falta de tiempo",
+        "Exceso de libertad",
+        "Menos profesores"
+      ],
+      "answer": [
+        "Ansiedad y un currículo estrecho"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: anxiety and a narrow curriculum.",
+        "incorrect": "Revisa esto: Dice: anxiety and a narrow curriculum."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex05",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué requiere el aprendizaje en línea?",
+      "options": [
+        "Autodisciplina y buena conexión a internet",
+        "Un profesor presencial",
+        "Mucho dinero",
+        "Menos horas"
+      ],
+      "answer": [
+        "Autodisciplina y buena conexión a internet"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: self-discipline and a reliable internet connection.",
+        "incorrect": "Revisa esto: Dice: self-discipline and a reliable internet connection."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex06",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 15,
+      "prompt": "El profesor piensa que la tecnología es una solución mágica.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice: not a magic solution.",
+        "incorrect": "Revisa esto: Dice: not a magic solution."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "Students must ___ in their assignments by Friday.",
+      "options": [
+        "hand",
+        "give on",
+        "pass",
+        "take"
+      ],
+      "answer": [
+        "hand"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hand in.",
+        "incorrect": "Revisa esto: Hand in."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "She ___ her exams with distinction.",
+      "options": [
+        "passed",
+        "approved",
+        "made",
+        "did to"
+      ],
+      "answer": [
+        "passed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pass an exam.",
+        "incorrect": "Revisa esto: Pass an exam."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex09",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "He had to ___ out of university because of money problems.",
+      "options": [
+        "drop",
+        "fall",
+        "give",
+        "put"
+      ],
+      "answer": [
+        "drop"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Drop out.",
+        "incorrect": "Revisa esto: Drop out."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex10",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "I need to ___ up on the lessons I missed.",
+      "options": [
+        "catch",
+        "keep",
+        "make",
+        "fall"
+      ],
+      "answer": [
+        "catch"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Catch up.",
+        "incorrect": "Revisa esto: Catch up."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "Education ___ essential for every society.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answer": [
+        "is"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv03",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "zero-first-conditional"
+      ],
+      "est_seconds": 20,
+      "prompt": "If you feel ill, ___ a doctor.",
+      "options": [
+        "see",
+        "you will see",
+        "seeing",
+        "to see"
+      ],
+      "answer": [
+        "see"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Imperativo en la parte principal.",
+        "incorrect": "Revisa esto: Imperativo en la parte principal."
+      },
+      "review_of": "en-b1-u04-l02-ex08"
+    },
+    {
+      "id": "en-b2-u08-l01-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "I've got a lot of ___ to do tonight.",
+      "options": [
+        "homework",
+        "homeworks",
+        "a homework",
+        "homeworking"
+      ],
+      "answer": [
+        "homework"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Incontable.",
+        "incorrect": "Revisa esto: Incontable."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex13",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 20,
+      "prompt": "In English, 'college' in Britain usually means...",
+      "options": [
+        "a school for students aged 16–18 or vocational courses",
+        "a primary school",
+        "a kindergarten",
+        "a hospital"
+      ],
+      "answer": [
+        "a school for students aged 16–18 or vocational courses"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! College no es 'colegio'.",
+        "incorrect": "Revisa esto: College no es 'colegio'."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "so-neither"
+      ],
+      "est_seconds": 20,
+      "prompt": "'I can't swim.' — '___ .'",
+      "options": [
+        "Neither can I",
+        "So can I",
+        "I can't neither",
+        "So can't I"
+      ],
+      "answer": [
+        "Neither can I"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Neither + can + I.",
+        "incorrect": "Revisa esto: Neither + can + I."
+      },
+      "review_of": "en-b1-u12-l03-ex08"
+    },
+    {
+      "id": "en-b2-u08-l01-ex14",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 25,
+      "prompt": "They are saving up for ___ fees at university. (matrícula)",
+      "answer": [
+        "tuition"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tuition fees.",
+        "incorrect": "Revisa esto: Tuition fees."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 25,
+      "prompt": "She graduated ___ the University of Edinburgh. (en/por)",
+      "answer": [
+        "from"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Graduate from.",
+        "incorrect": "Revisa esto: Graduate from."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I made an exam yesterday, and I think it went well.",
+      "answer": [
+        "I took an exam yesterday, and I think it went well.",
+        "I sat an exam yesterday, and I think it went well.",
+        "I did an exam yesterday, and I think it went well."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Take / sit an exam.",
+        "incorrect": "Revisa esto: Take / sit an exam."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The teacher gave us a lot of homeworks.",
+      "answer": [
+        "The teacher gave us a lot of homework."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Homework incontable.",
+        "incorrect": "Revisa esto: Homework incontable."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "She is studying a degree of Law at the university.",
+      "answer": [
+        "She is studying for a degree in Law at university.",
+        "She is studying Law at university."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Degree in.",
+        "incorrect": "Revisa esto: Degree in."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "inversion"
+      ],
+      "est_seconds": 20,
+      "prompt": "Not only ___ the exam, but she also got the highest mark.",
+      "options": [
+        "did she pass",
+        "she passed",
+        "she did pass",
+        "passed she"
+      ],
+      "answer": [
+        "did she pass"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Not only did.",
+        "incorrect": "Revisa esto: Not only did."
+      },
+      "review_of": "en-b2-u06-l06-ex05"
+    },
+    {
+      "id": "en-b2-u08-l01-rv06",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "describe-data"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué porcentaje va en coche?",
+      "options": [
+        "Un 55 %",
+        "Un 25 %",
+        "Un 12 %",
+        "Un 80 %"
+      ],
+      "answer": [
+        "Un 55 %"
+      ],
+      "audio_text": "The pie chart shows how people travel to work. The majority, about 55 per cent, go by car. Public transport accounts for roughly a quarter, while cycling and walking together make up only 12 per cent.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: about 55 per cent.",
+        "incorrect": "Revisa esto: Dice: about 55 per cent."
+      },
+      "audio_script_id": "en-b2-u08-l01-rv06-a",
+      "review_of": "en-b2-u04-l05-ex19"
+    },
+    {
+      "id": "en-b2-u08-l01-ex19",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Cómo pudo volver a estudiar?",
+      "options": [
+        "Con una beca",
+        "Con un préstamo",
+        "Con la ayuda de sus padres",
+        "Trabajando de noche"
+      ],
+      "answer": [
+        "Con una beca"
+      ],
+      "audio_text": "I dropped out of university in my second year because I couldn't afford the tuition fees. Later I won a scholarship to study part-time, and now I'm about to graduate. My advice: never give up on your education.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: won a scholarship.",
+        "incorrect": "Revisa esto: Dice: won a scholarship."
+      },
+      "audio_script_id": "en-b2-u08-l01-ex19-a"
+    },
+    {
+      "id": "en-b2-u08-l01-rv07",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "giving-directions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "on",
+        "and",
+        "turn",
+        "left",
+        "at",
+        "the",
+        "traffic",
+        "lights",
+        ".",
+        "Go",
+        "straight"
+      ],
+      "answer": [
+        "Go",
+        "straight",
+        "on",
+        "and",
+        "turn",
+        "left",
+        "at",
+        "the",
+        "traffic",
+        "lights",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos imperativos unidos con and.",
+        "incorrect": "Revisa esto: Dos imperativos unidos con and."
+      },
+      "review_of": "en-a2-u12-l03-ex09"
+    },
+    {
+      "id": "en-b2-u08-l01-ex20",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "b2-society"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Muchos estudiantes con talento abandonan porque no pueden pagar la matrícula.",
+      "answer": [
+        "Many talented students drop out because they can't afford the tuition fees.",
+        "Many talented students drop out because they cannot afford the tuition fees."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Vocabulario educativo.",
+        "incorrect": "Revisa esto: Vocabulario educativo."
+      }
+    },
+    {
+      "id": "en-b2-u08-l01-rv08",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "reported-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "He denied to have taken the money.",
+      "answer": [
+        "He denied having taken the money.",
+        "He denied taking the money."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Deny + -ing.",
+        "incorrect": "Revisa esto: Deny + -ing."
+      },
+      "review_of": "en-b2-u07-l06-ex18"
+    },
+    {
+      "id": "en-b2-u08-l01-ex21",
+      "type": "pronunciation",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "pronunciation",
+        "b2-society"
+      ],
+      "est_seconds": 60,
+      "prompt": "Escucha y repite.",
+      "items": [
+        {
+          "text": "curriculum",
+          "ipa": "/kəˈrɪkjələm/",
+          "tip_es": "Acento en 'rik'."
+        },
+        {
+          "text": "scholarship",
+          "ipa": "/ˈskɒləʃɪp/",
+          "tip_es": "'ch' = /k/ en 'scho'."
+        },
+        {
+          "text": "inequality",
+          "ipa": "/ˌɪnɪˈkwɒləti/",
+          "tip_es": "Acento en 'kwol'."
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Repite en voz alta imitando el audio.",
+        "incorrect": "Revisa esto: Repite en voz alta imitando el audio."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "The biggest challenge is inequality.",
+      "take an exam · hand in an assignment",
+      "drop out · fall behind · catch up",
+      "Education is … (incontable)"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-inequality"
+    },
+    {
+      "type": "vocab",
+      "id": "en-disadvantaged"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fall-behind"
+    },
+    {
+      "type": "vocab",
+      "id": "en-early-intervention"
+    },
+    {
+      "type": "vocab",
+      "id": "en-class-size"
+    },
+    {
+      "type": "vocab",
+      "id": "en-curriculum"
+    },
+    {
+      "type": "vocab",
+      "id": "en-assessment"
+    },
+    {
+      "type": "vocab",
+      "id": "en-coursework"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tuition-fees"
+    },
+    {
+      "type": "vocab",
+      "id": "en-drop-out"
+    },
+    {
+      "type": "grammar",
+      "id": "en-education-b2"
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "id": "en-b1-u06-l05",
+  "language": "en",
+  "level": "B1",
+  "unit": 6,
+  "order": 5,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "A travel blog",
+    "es": "Un blog de viajes"
+  },
+  "objective": "Al terminar escribes un blog de viajes con descripción, tiempos narrativos, opiniones y consejos útiles para el lector.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "reading",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "Un buen blog de viajes mezcla historia personal, detalles sensoriales y consejos prácticos. Todo con un tono cercano."
+  },
+  "input": {
+    "type": "text",
+    "text": "Three days in Lisbon: what I loved (and what I'd skip)\n\nI arrived in Lisbon on a rainy Tuesday morning, tired after a long flight. But as soon as I stepped out of the station, the sun appeared, and the city looked golden. I'd read a lot about it, but nothing prepared me for the hills, the yellow trams and the smell of fresh pastries everywhere.\n\nMy favourite moment was the sunset at Miradouro da Senhora do Monte. While I was watching the red sky, a street musician started to play, and everybody stopped talking. It was magical.\n\nWhat to do: take tram 28 early in the morning; try the custard tarts at a local bakery; walk through Alfama. What to skip: the main square at midday, because it's crowded and overpriced.\n\nMy advice: wear comfortable shoes, because the streets are steep. I'd definitely go back. Next time, I'd stay a week.",
+    "es": "Tres días en Lisboa: lo que me encantó (y lo que me saltaría). Llegué a Lisboa un martes lluvioso por la mañana, cansada tras un largo vuelo. Pero en cuanto salí de la estación, apareció el sol y la ciudad se vio dorada. Había leído mucho sobre ella, pero nada me preparó para las colinas, los tranvías amarillos y el olor a pasteles recién hechos por todas partes. Mi momento favorito fue la puesta de sol en el mirador de Senhora do Monte. Mientras miraba el cielo rojo, un músico callejero empezó a tocar y todos dejaron de hablar. Fue mágico. Qué hacer: tomar el tranvía 28 temprano, probar los pasteles de nata en una panadería local y pasear por Alfama. Qué evitar: la plaza principal al mediodía, porque está abarrotada y es cara. Mi consejo: lleva zapatos cómodos porque las calles son empinadas. Sin duda volvería. La próxima vez, me quedaría una semana.",
+    "glossary": [
+      {
+        "id": "en-skip",
+        "lemma": "skip",
+        "pos": "verb",
+        "ipa": "/skɪp/",
+        "es": "saltarse, evitar",
+        "example": "I'd skip the main square."
+      },
+      {
+        "id": "en-step-out",
+        "lemma": "step out",
+        "pos": "phrasal verb",
+        "ipa": "/step aʊt/",
+        "es": "salir",
+        "example": "I stepped out of the station."
+      },
+      {
+        "id": "en-prepare",
+        "lemma": "prepare",
+        "pos": "verb",
+        "ipa": "/prɪˈpeə/",
+        "es": "preparar",
+        "example": "Nothing prepared me."
+      },
+      {
+        "id": "en-hill",
+        "lemma": "hill",
+        "pos": "noun",
+        "ipa": "/hɪl/",
+        "es": "colina",
+        "example": "The city has many hills."
+      },
+      {
+        "id": "en-tram",
+        "lemma": "tram",
+        "pos": "noun",
+        "ipa": "/træm/",
+        "es": "tranvía",
+        "example": "Take tram 28."
+      },
+      {
+        "id": "en-pastry",
+        "lemma": "pastry",
+        "pos": "noun",
+        "ipa": "/ˈpeɪstri/",
+        "es": "pastel, bollería",
+        "example": "I love fresh pastries."
+      },
+      {
+        "id": "en-viewpoint",
+        "lemma": "viewpoint",
+        "pos": "noun",
+        "ipa": "/ˈvjuːpɔɪnt/",
+        "es": "mirador",
+        "example": "The viewpoint is beautiful."
+      },
+      {
+        "id": "en-street-musician",
+        "lemma": "street musician",
+        "pos": "noun",
+        "ipa": "/striːt mjuˈzɪʃn/",
+        "es": "músico callejero",
+        "example": "A street musician played."
+      },
+      {
+        "id": "en-magical",
+        "lemma": "magical",
+        "pos": "adj",
+        "ipa": "/ˈmædʒɪkl/",
+        "es": "mágico",
+        "example": "It was magical."
+      },
+      {
+        "id": "en-crowded",
+        "lemma": "crowded",
+        "pos": "adj",
+        "ipa": "/ˈkraʊdɪd/",
+        "es": "abarrotado",
+        "example": "The square was crowded."
+      },
+      {
+        "id": "en-overpriced",
+        "lemma": "overpriced",
+        "pos": "adj",
+        "ipa": "/ˌəʊvəˈpraɪst/",
+        "es": "caro (de más)",
+        "example": "The café was overpriced."
+      },
+      {
+        "id": "en-steep",
+        "lemma": "steep",
+        "pos": "adj",
+        "ipa": "/stiːp/",
+        "es": "empinado",
+        "example": "The street is steep."
+      },
+      {
+        "id": "en-comfortable",
+        "lemma": "comfortable",
+        "pos": "adj",
+        "ipa": "/ˈkʌmftəbl/",
+        "es": "cómodo",
+        "example": "Wear comfortable shoes."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Estructura de un blog de viajes**\n\n| Parte | Contenido | Ejemplo |\n|---|---|---|\n| Título | gancho, promesa | *Three days in Lisbon: what I loved (and what I'd skip)* |\n| Introducción | llegada, primeras impresiones | *I arrived on a rainy Tuesday…* |\n| Momento favorito | anécdota con detalles | *While I was watching the sunset, a musician started to play.* |\n| Consejos | qué hacer / evitar | *What to do: … What to skip: …* |\n| Cierre | opinión y recomendación | *I'd definitely go back.* |\n\n**Tiempos narrativos**\n\n- Pasado simple: acciones (*I arrived, the sun appeared*).\n- Pasado continuo: escena de fondo (*While I was watching…*).\n- Pasado perfecto: lo anterior (*I'd read a lot about it*).\n- Presente / imperativo para consejos (*Wear comfortable shoes.*).\n\n**Conectores narrativos:** *as soon as · while · when · after that · then · finally · in the end · by the time.*\n\n**Adjetivos fuertes** (más naturales que *very* + adjetivo): *tiny (very small) · huge · delicious · freezing · exhausted · stunning · gorgeous.*\n\n**Consejos para escribir bien**\n\n1. Usa los cinco sentidos: *the smell of fresh pastries.*\n2. Evita lista aburrida: cuenta una escena.\n3. Termina con un consejo útil.\n\n**Ojo:** *nothing prepared me* (no *nothing prepared to me*). *Skip* ≠ 'skip' de una canción: aquí es 'evitar, saltarse'.\n\nPronunciación: *pastry* /ˈpeɪstri/ · *comfortable* /ˈkʌmftəbl/ (3 sílabas) · *gorgeous* /ˈɡɔːdʒəs/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "Nothing prepared to me.",
+        "right": "Nothing prepared me.",
+        "note": "Sin to."
+      },
+      {
+        "wrong": "When I arrived, it rained (de fondo).",
+        "right": "When I arrived, it was raining.",
+        "note": "Escena de fondo: continuo."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u06-l05-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cómo era el tiempo cuando llegó a Lisboa?",
+      "options": [
+        "Lluvioso",
+        "Soleado",
+        "Nevado",
+        "Ventoso"
+      ],
+      "answer": [
+        "Lluvioso"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: a rainy Tuesday morning.",
+        "incorrect": "Revisa esto: Dice: a rainy Tuesday morning."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuál fue su momento favorito?",
+      "options": [
+        "La puesta de sol en el mirador",
+        "El tranvía 28",
+        "Los pasteles",
+        "Alfama de noche"
+      ],
+      "answer": [
+        "La puesta de sol en el mirador"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: My favourite moment was the sunset.",
+        "incorrect": "Revisa esto: Dice: My favourite moment was the sunset."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué evitaría hacer?",
+      "options": [
+        "Ir a la plaza principal al mediodía",
+        "Ir a Alfama",
+        "Probar los pasteles",
+        "Tomar el tranvía"
+      ],
+      "answer": [
+        "Ir a la plaza principal al mediodía"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: skip the main square at midday.",
+        "incorrect": "Revisa esto: Dice: skip the main square at midday."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 15,
+      "prompt": "Se quedó una semana en Lisboa.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Se quedó tres días; la próxima vez una semana.",
+        "incorrect": "Revisa esto: Se quedó tres días; la próxima vez una semana."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-rv01",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "This street is ___ (noisy) than that one.",
+      "answer": [
+        "noisier"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dos sílabas en -y: -ier.",
+        "incorrect": "Revisa esto: Dos sílabas en -y: -ier."
+      },
+      "review_of": "en-a2-u03-l02-ex03"
+    },
+    {
+      "id": "en-b1-u06-l05-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "While I ___ the sunset, a musician started to play.",
+      "options": [
+        "was watching",
+        "watched",
+        "have watched",
+        "am watching"
+      ],
+      "answer": [
+        "was watching"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo para la escena de fondo.",
+        "incorrect": "Revisa esto: Pasado continuo para la escena de fondo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd ___ a lot about the city before I went.",
+      "options": [
+        "read",
+        "reading",
+        "been reading",
+        "to read"
+      ],
+      "answer": [
+        "read"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd read = had read.",
+        "incorrect": "Revisa esto: I'd read = had read."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "The food was ___ delicious. I loved it.",
+      "options": [
+        "really",
+        "much",
+        "too",
+        "enough"
+      ],
+      "answer": [
+        "really"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Really + adjetivo.",
+        "incorrect": "Revisa esto: Really + adjetivo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "My computer keeps to crash.",
+      "answer": [
+        "My computer keeps crashing."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Keep + -ing.",
+        "incorrect": "Revisa esto: Keep + -ing."
+      },
+      "review_of": "en-b1-u05-l01-ex12"
+    },
+    {
+      "id": "en-b1-u06-l05-rv03",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "numbers",
+        "questions"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?",
+        "How",
+        "many"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "people",
+        "are",
+        "in",
+        "the",
+        "class",
+        "?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! How many + sustantivo plural + are + lugar.",
+        "incorrect": "Revisa esto: How many + sustantivo plural + are + lugar."
+      },
+      "review_of": "en-a1-u08-l01-ex07"
+    },
+    {
+      "id": "en-b1-u06-l05-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which adjective is stronger than 'very small'?",
+      "options": [
+        "tiny",
+        "little",
+        "short",
+        "narrow"
+      ],
+      "answer": [
+        "tiny"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tiny = muy pequeño.",
+        "incorrect": "Revisa esto: Tiny = muy pequeño."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-rv04",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "tech-talk"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "No puedo iniciar sesión porque mi contraseña es incorrecta.",
+      "answer": [
+        "I can't log in because my password is wrong.",
+        "I can't log in because my password is incorrect.",
+        "I cannot log in because my password is wrong."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Log in / password.",
+        "incorrect": "Revisa esto: Log in / password."
+      },
+      "review_of": "en-b1-u05-l01-ex15"
+    },
+    {
+      "id": "en-b1-u06-l05-ex09",
+      "type": "multiple_choice",
+      "skill": "writing",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the best title?",
+      "options": [
+        "Three days in Lisbon: what I loved (and what I'd skip)",
+        "Lisbon",
+        "I went to Lisbon",
+        "Lisbon is a city"
+      ],
+      "answer": [
+        "Three days in Lisbon: what I loved (and what I'd skip)"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Un título con gancho.",
+        "incorrect": "Revisa esto: Un título con gancho."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex10",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 25,
+      "prompt": "As soon as I stepped out, the sun ___ . (apareció)",
+      "answer": [
+        "appeared"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado simple.",
+        "incorrect": "Revisa esto: Pasado simple."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex11",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 25,
+      "prompt": "Wear ___ shoes because the streets are steep. (cómodos)",
+      "answer": [
+        "comfortable"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Comfortable.",
+        "incorrect": "Revisa esto: Comfortable."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "double-comparatives"
+      ],
+      "est_seconds": 25,
+      "prompt": "The ___ I think about it, the more I like it. (más)",
+      "answer": [
+        "more"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! The more…, the more…",
+        "incorrect": "Revisa esto: The more…, the more…"
+      },
+      "review_of": "en-b1-u02-l04-ex08"
+    },
+    {
+      "id": "en-b1-u06-l05-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "When I arrived, it rained and I was tired because I fly all night.",
+      "answer": [
+        "When I arrived, it was raining and I was tired because I had flown all night.",
+        "When I arrived, it was raining and I was tired because I had been flying all night."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tiempos narrativos.",
+        "incorrect": "Revisa esto: Tiempos narrativos."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Nothing prepared to me for the hills.",
+      "answer": [
+        "Nothing prepared me for the hills."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Prepare + objeto directo.",
+        "incorrect": "Revisa esto: Prepare + objeto directo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-rv06",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "unless-conditions"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "I'll go unless it doesn't rain.",
+      "answer": [
+        "I'll go unless it rains.",
+        "I'll go if it doesn't rain."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Unless ya es negativo.",
+        "incorrect": "Revisa esto: Unless ya es negativo."
+      },
+      "review_of": "en-b1-u04-l06-ex15"
+    },
+    {
+      "id": "en-b1-u06-l05-ex14",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe una entrada de blog (8 a 10 frases) sobre un viaje o una ciudad que conozcas: llegada, un momento favorito, qué hacer, qué evitar y un consejo.",
+      "min_words": 64,
+      "self_check_es": [
+        "¿Hay llegada y primeras impresiones?",
+        "¿Usas pasado simple y continuo?",
+        "¿Das qué hacer y qué evitar?",
+        "¿Terminas con un consejo?"
+      ],
+      "model_answer": "I arrived in Seville on a hot Friday afternoon. As soon as I left the station, I could smell orange blossom everywhere. My favourite moment was a night walk by the river while a guitarist was playing. What to do: visit the Alcázar early in the morning and eat tapas in Triana. What to skip: the main street at midday, because it's crowded. My advice: carry water and wear a hat. I would definitely go back.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    },
+    {
+      "id": "en-b1-u06-l05-ex15",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "travel-blog"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Mientras miraba el cielo rojo, un músico empezó a tocar.",
+      "answer": [
+        "While I was watching the red sky, a musician started to play.",
+        "While I was looking at the red sky, a musician started to play."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo + pasado simple.",
+        "incorrect": "Revisa esto: Pasado continuo + pasado simple."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I arrived on … · As soon as …",
+      "While I was …, … started to …",
+      "What to do: … What to skip: …",
+      "I'd definitely go back."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-skip"
+    },
+    {
+      "type": "vocab",
+      "id": "en-step-out"
+    },
+    {
+      "type": "vocab",
+      "id": "en-prepare"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hill"
+    },
+    {
+      "type": "vocab",
+      "id": "en-tram"
+    },
+    {
+      "type": "vocab",
+      "id": "en-pastry"
+    },
+    {
+      "type": "vocab",
+      "id": "en-viewpoint"
+    },
+    {
+      "type": "vocab",
+      "id": "en-street-musician"
+    },
+    {
+      "type": "vocab",
+      "id": "en-magical"
+    },
+    {
+      "type": "vocab",
+      "id": "en-crowded"
+    },
+    {
+      "type": "grammar",
+      "id": "en-travel-blog"
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "id": "en-b1-u06-l04",
+  "language": "en",
+  "level": "B1",
+  "unit": 6,
+  "order": 4,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "Hotel problems",
+    "es": "Quejas y problemas en el hotel"
+  },
+  "objective": "Al terminar planteas quejas y problemas en un hotel de forma educada y firme, y propones soluciones.",
+  "est_minutes": 28,
+  "skills": [
+    "grammar",
+    "reading",
+    "speaking",
+    "vocab",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "'El aire no funciona', 'la habitación no es la que reservé', 'hay mucho ruido'. Saber quejarse con educación consigue más resultados que hacerlo con enfado."
+  },
+  "input": {
+    "type": "dialogue",
+    "lines": [
+      {
+        "speaker": "Guest",
+        "text": "Excuse me, I'm afraid there's a problem with my room.",
+        "es": "Disculpe, me temo que hay un problema con mi habitación."
+      },
+      {
+        "speaker": "Reception",
+        "text": "I'm sorry to hear that. What seems to be the problem?",
+        "es": "Lamento oírlo. ¿Cuál es el problema?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "The air conditioning doesn't work, and the room is very hot. Also, the room overlooks a noisy street. I asked for a quiet one.",
+        "es": "El aire acondicionado no funciona y la habitación está muy caliente. Además, da a una calle ruidosa. Pedí una tranquila."
+      },
+      {
+        "speaker": "Reception",
+        "text": "I do apologise. Let me check what we have available. Would you like to move to another room?",
+        "es": "Le pido disculpas. Voy a ver qué tenemos libre. ¿Le gustaría cambiar de habitación?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "Yes, please. Could I have one facing the garden? And the shower was cold this morning.",
+        "es": "Sí, por favor. ¿Podría ser una que dé al jardín? Y esta mañana la ducha estaba fría."
+      },
+      {
+        "speaker": "Reception",
+        "text": "I'll have the maintenance team look at it straight away. In the meantime, here's a voucher for a free breakfast.",
+        "es": "Haré que el equipo de mantenimiento lo revise enseguida. Mientras tanto, aquí tiene un vale para un desayuno gratis."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Thank you. I'd also like a refund for last night, since I couldn't sleep.",
+        "es": "Gracias. También me gustaría un reembolso de anoche, ya que no pude dormir."
+      },
+      {
+        "speaker": "Reception",
+        "text": "I'll speak to the manager. I'm sure we can offer you a discount.",
+        "es": "Hablaré con el director. Seguro que podemos ofrecerle un descuento."
+      }
+    ],
+    "glossary": [
+      {
+        "id": "en-i-m-afraid",
+        "lemma": "I'm afraid",
+        "pos": "phrase",
+        "ipa": "/aɪm əˈfreɪd/",
+        "es": "me temo que",
+        "example": "I'm afraid there's a problem."
+      },
+      {
+        "id": "en-air-conditioning",
+        "lemma": "air conditioning",
+        "pos": "noun",
+        "ipa": "/eə kənˈdɪʃnɪŋ/",
+        "es": "aire acondicionado",
+        "example": "The air conditioning is broken."
+      },
+      {
+        "id": "en-overlook",
+        "lemma": "overlook",
+        "pos": "verb",
+        "ipa": "/ˌəʊvəˈlʊk/",
+        "es": "dar a, tener vistas a",
+        "example": "The room overlooks the sea."
+      },
+      {
+        "id": "en-noisy-quiet",
+        "lemma": "noisy / quiet",
+        "pos": "adj",
+        "ipa": "/ˈnɔɪzi / ˈkwaɪət/",
+        "es": "ruidoso / tranquilo",
+        "example": "It's a noisy street."
+      },
+      {
+        "id": "en-apologise",
+        "lemma": "apologise",
+        "pos": "verb",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "es": "disculparse",
+        "example": "I do apologise."
+      },
+      {
+        "id": "en-available",
+        "lemma": "available",
+        "pos": "adj",
+        "ipa": "/əˈveɪləbl/",
+        "es": "disponible",
+        "example": "Is this room available?"
+      },
+      {
+        "id": "en-facing",
+        "lemma": "facing",
+        "pos": "adj",
+        "ipa": "/ˈfeɪsɪŋ/",
+        "es": "con vistas a",
+        "example": "A room facing the garden."
+      },
+      {
+        "id": "en-maintenance",
+        "lemma": "maintenance",
+        "pos": "noun",
+        "ipa": "/ˈmeɪntənəns/",
+        "es": "mantenimiento",
+        "example": "Call maintenance."
+      },
+      {
+        "id": "en-in-the-meantime",
+        "lemma": "in the meantime",
+        "pos": "phrase",
+        "ipa": "/ɪn ðə ˈmiːntaɪm/",
+        "es": "mientras tanto",
+        "example": "In the meantime, wait here."
+      },
+      {
+        "id": "en-voucher",
+        "lemma": "voucher",
+        "pos": "noun",
+        "ipa": "/ˈvaʊtʃə/",
+        "es": "vale",
+        "example": "Here's a voucher."
+      },
+      {
+        "id": "en-refund",
+        "lemma": "refund",
+        "pos": "noun",
+        "ipa": "/ˈriːfʌnd/",
+        "es": "reembolso",
+        "example": "I'd like a refund."
+      },
+      {
+        "id": "en-discount",
+        "lemma": "discount",
+        "pos": "noun",
+        "ipa": "/ˈdɪskaʊnt/",
+        "es": "descuento",
+        "example": "We offer a discount."
+      }
+    ],
+    "audio_script_id": "en-b1-u06-l04-d01"
+  },
+  "explanation": {
+    "md_es": "**Quejarse con educación**\n\n| Paso | Frase |\n|---|---|\n| Abrir | *Excuse me, I'm afraid there's a problem with …* |\n| Explicar | *The … doesn't work. · There's no hot water. · It's too noisy.* |\n| Recordar lo pedido | *I asked for … · I booked a … · It said on the website that …* |\n| Pedir solución | *Could you fix it? · Could I have another room? · I'd like a refund.* |\n| Cerrar | *Thank you for your help. · I'd appreciate it if you could …* |\n\n**Recepción: respuestas**\n\n- *I'm sorry to hear that. · I do apologise. · Let me look into it.*\n- *We'll send someone straight away. · I'll speak to the manager.*\n- *We can offer you a discount / a voucher / an upgrade.*\n\n**Problemas habituales:** *no hot water · the lift is out of order · the Wi-Fi isn't working · the room hasn't been cleaned · the bed is uncomfortable · the room smells of smoke · there are cockroaches.*\n\n**Tiempo para describir qué pasó:** presente (*The air conditioning doesn't work*), pasado (*The shower was cold this morning*), presente perfecto (*The room hasn't been cleaned yet*).\n\n**Tono:** *Could you…? / Would you mind + -ing? / I'd appreciate it if you could…* son más educados que *Fix it!*. *Excuse me* se usa para llamar la atención; *I'm sorry* para disculparte.\n\n**Ojo:** *Out of order* = no funciona (público). *Sensible* ≠ sensible. *Pretend* ≠ pretender (es 'fingir'). *Overlook* también significa 'pasar por alto'.\n\nPronunciación: *apologise* /əˈpɒlədʒaɪz/ · *refund* /ˈriːfʌnd/ · *maintenance* /ˈmeɪntənəns/.",
+    "common_mistakes_es": [
+      {
+        "wrong": "I have a problem in my room.",
+        "right": "I have a problem with my room.",
+        "note": "Problem with."
+      },
+      {
+        "wrong": "The air conditioning don't work.",
+        "right": "The air conditioning doesn't work.",
+        "note": "Singular."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b1-u06-l04-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué problema tiene el huésped con el aire acondicionado?",
+      "options": [
+        "No funciona",
+        "Está muy fuerte",
+        "Hace ruido",
+        "Está sucio"
+      ],
+      "answer": [
+        "No funciona"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: The air conditioning doesn't work.",
+        "incorrect": "Revisa esto: Dice: The air conditioning doesn't work."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué le ofrece la recepción mientras arreglan la ducha?",
+      "options": [
+        "Un vale de desayuno gratis",
+        "Una noche gratis",
+        "Una cena",
+        "Una suite"
+      ],
+      "answer": [
+        "Un vale de desayuno gratis"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: here's a voucher for a free breakfast.",
+        "incorrect": "Revisa esto: Dice: here's a voucher for a free breakfast."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-rv01",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "quantifiers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "How many sugar do you want?",
+      "answer": [
+        "How much sugar do you want?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Sugar es incontable: how much.",
+        "incorrect": "Revisa esto: Sugar es incontable: how much."
+      },
+      "review_of": "en-a2-u04-l06-ex07"
+    },
+    {
+      "id": "en-b1-u06-l04-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué pide al final el huésped?",
+      "options": [
+        "Un reembolso por la noche anterior",
+        "Otra habitación mayor",
+        "Un taxi",
+        "Un descuento en el spa"
+      ],
+      "answer": [
+        "Un reembolso por la noche anterior"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: I'd also like a refund for last night.",
+        "incorrect": "Revisa esto: Dice: I'd also like a refund for last night."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 15,
+      "prompt": "El huésped pidió una habitación ruidosa.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pidió una tranquila (quiet).",
+        "incorrect": "Revisa esto: Pidió una tranquila (quiet)."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex05",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "The lift is out of ___ . We have to use the stairs.",
+      "options": [
+        "order",
+        "use",
+        "time",
+        "date"
+      ],
+      "answer": [
+        "order"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Out of order = averiado.",
+        "incorrect": "Revisa esto: Out of order = averiado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex06",
+      "type": "multiple_choice",
+      "skill": "speaking",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which is the most polite way to complain?",
+      "options": [
+        "I'm afraid there's a problem with my room.",
+        "Your room is terrible!",
+        "Fix it now!",
+        "This hotel is a disaster."
+      ],
+      "answer": [
+        "I'm afraid there's a problem with my room."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Tono educado.",
+        "incorrect": "Revisa esto: Tono educado."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex07",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "The room ___ the sea, so we have a lovely view.",
+      "options": [
+        "overlooks",
+        "faces to",
+        "looks",
+        "sees"
+      ],
+      "answer": [
+        "overlooks"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Overlook = dar a.",
+        "incorrect": "Revisa esto: Overlook = dar a."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd like a ___ for last night; I couldn't sleep.",
+      "options": [
+        "refund",
+        "voucher",
+        "receipt",
+        "deposit"
+      ],
+      "answer": [
+        "refund"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Refund = reembolso.",
+        "incorrect": "Revisa esto: Refund = reembolso."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 20,
+      "prompt": "I'd appreciate it if you ___ fix it.",
+      "options": [
+        "could",
+        "can to",
+        "will",
+        "must"
+      ],
+      "answer": [
+        "could"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! I'd appreciate it if you could…",
+        "incorrect": "Revisa esto: I'd appreciate it if you could…"
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-rv02",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "pp-vs-ps"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la frase correcta.",
+      "options": [
+        "I saw her last week.",
+        "I have seen her last week.",
+        "I've seen her last week.",
+        "I have saw her last week."
+      ],
+      "answer": [
+        "I saw her last week."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Last week es tiempo terminado: pasado simple.",
+        "incorrect": "Revisa esto: Last week es tiempo terminado: pasado simple."
+      },
+      "review_of": "en-a2-u08-l06-ex07"
+    },
+    {
+      "id": "en-b1-u06-l04-ex10",
+      "type": "fill_blank",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "I do ___ for the inconvenience. (me disculpo)",
+      "answer": [
+        "apologise"
+      ],
+      "accepted_alternatives": [
+        "apologize"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Apologise = disculparse.",
+        "incorrect": "Revisa esto: Apologise = disculparse."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-rv03",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "past-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "She was angry because I ___ forgotten her birthday.",
+      "answer": [
+        "had"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Hecho anterior: had + participio.",
+        "incorrect": "Revisa esto: Hecho anterior: had + participio."
+      },
+      "review_of": "en-b1-u01-l06-ex08"
+    },
+    {
+      "id": "en-b1-u06-l04-ex11",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 25,
+      "prompt": "The room hasn't ___ cleaned yet. (ha sido)",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasivo.",
+        "incorrect": "Revisa esto: Present perfect pasivo."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-rv04",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "news-headlines"
+      ],
+      "est_seconds": 20,
+      "prompt": "'PM RESIGNS' is a headline in the ___ tense.",
+      "options": [
+        "present",
+        "past",
+        "future",
+        "perfect"
+      ],
+      "answer": [
+        "present"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente por pasado.",
+        "incorrect": "Revisa esto: Presente por pasado."
+      },
+      "review_of": "en-b1-u05-l04-ex06"
+    },
+    {
+      "id": "en-b1-u06-l04-rv05",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "present-perfect"
+      ],
+      "est_seconds": 25,
+      "prompt": "Have you ever ___ (be) to Japan?",
+      "answer": [
+        "been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio de be: been.",
+        "incorrect": "Revisa esto: Participio de be: been."
+      },
+      "review_of": "en-a2-u08-l01-ex04"
+    },
+    {
+      "id": "en-b1-u06-l04-rv06",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "past-simple-irregular"
+      ],
+      "est_seconds": 25,
+      "prompt": "She ___ (see) her friends on Sunday.",
+      "answer": [
+        "saw"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado irregular de see: saw.",
+        "incorrect": "Revisa esto: Pasado irregular de see: saw."
+      },
+      "review_of": "en-a2-u01-l03-ex04"
+    },
+    {
+      "id": "en-b1-u06-l04-ex12",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Excuse me, I have a problem in my room.",
+      "answer": [
+        "Excuse me, I have a problem with my room.",
+        "Excuse me, there's a problem with my room."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! A problem with.",
+        "incorrect": "Revisa esto: A problem with."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex13",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The air conditioning don't work.",
+      "answer": [
+        "The air conditioning doesn't work."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Air conditioning es incontable (singular).",
+        "incorrect": "Revisa esto: Air conditioning es incontable (singular)."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex14",
+      "type": "roleplay",
+      "skill": "speaking",
+      "difficulty": 2,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 90,
+      "situation_es": "Estás en recepción y hay un problema en tu habitación.",
+      "turns": [
+        {
+          "speaker": "Reception",
+          "text": "Good evening. How can I help you?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "I'm afraid there's a problem with my room: there's no hot water.",
+            "I have a problem in my room: no hot water is.",
+            "My room is terrible and has no water hot."
+          ],
+          "best": 0,
+          "why_es": "I'm afraid + there's."
+        },
+        {
+          "speaker": "Reception",
+          "text": "I'm very sorry. Would you like to change rooms?"
+        },
+        {
+          "speaker": "You",
+          "choices": [
+            "Yes, please. Could I have a room facing the garden?",
+            "Yes, I want a room that see the garden.",
+            "Yes please, give me room garden."
+          ],
+          "best": 0,
+          "why_es": "Could I have…?"
+        }
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Practica diciendo en voz alta tu parte.",
+        "incorrect": "Revisa esto: Practica diciendo en voz alta tu parte."
+      }
+    },
+    {
+      "id": "en-b1-u06-l04-ex15",
+      "type": "writing",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "hotel-complaints"
+      ],
+      "est_seconds": 180,
+      "prompt": "Escribe un email de queja (6 a 8 frases) a un hotel: qué reservaste, qué problemas hubo y qué solución pides.",
+      "min_words": 55,
+      "self_check_es": [
+        "¿Indicas qué reservaste?",
+        "¿Explicas los problemas con claridad?",
+        "¿Pides una solución?",
+        "¿Mantienes un tono educado y formal?"
+      ],
+      "model_answer": "Dear Sir or Madam, I stayed in your hotel from 5 to 8 May. I had booked a double room facing the sea, but I was given a room overlooking a noisy street. In addition, the air conditioning didn't work and there was no hot water. I would be grateful if you could offer me a partial refund. I look forward to your reply. Yours faithfully, Pablo Ruiz.",
+      "feedback": {
+        "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
+        "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."
+      }
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "I'm afraid there's a problem with …",
+      "doesn't work · out of order",
+      "Could I have …? · I'd like a refund.",
+      "I do apologise. · In the meantime …"
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-i-m-afraid"
+    },
+    {
+      "type": "vocab",
+      "id": "en-air-conditioning"
+    },
+    {
+      "type": "vocab",
+      "id": "en-overlook"
+    },
+    {
+      "type": "vocab",
+      "id": "en-noisy-quiet"
+    },
+    {
+      "type": "vocab",
+      "id": "en-apologise"
+    },
+    {
+      "type": "vocab",
+      "id": "en-available"
+    },
+    {
+      "type": "vocab",
+      "id": "en-facing"
+    },
+    {
+      "type": "vocab",
+      "id": "en-maintenance"
+    },
+    {
+      "type": "vocab",
+      "id": "en-in-the-meantime"
+    },
+    {
+      "type": "vocab",
+      "id": "en-voucher"
+    },
+    {
+      "type": "grammar",
+      "id": "en-hotel-complaints"
+    }
+  ]
+}

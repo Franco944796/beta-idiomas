@@ -1,0 +1,914 @@
+{
+  "id": "en-b2-u09-l02",
+  "language": "en",
+  "level": "B2",
+  "unit": 9,
+  "order": 2,
+  "kind": "lesson",
+  "version": 1,
+  "title": {
+    "target": "It has been done",
+    "es": "La pasiva avanzada"
+  },
+  "objective": "Al terminar usas la pasiva avanzada (con modales, perfecta, continua e infinitivos) para describir acciones y resultados con objetividad.",
+  "est_minutes": 29,
+  "skills": [
+    "grammar",
+    "listening",
+    "reading",
+    "writing"
+  ],
+  "warmup": {
+    "prompt_es": "En textos científicos, noticias y reportes la pasiva es la norma: 'Se han plantado diez mil árboles', 'Debe hacerse algo', 'Se está investigando'. Aquí consolidas todas las formas."
+  },
+  "input": {
+    "type": "text",
+    "text": "Forests are being cleared at an alarming rate. According to a recent report, an area the size of a football pitch is lost every six seconds. In response, a new reforestation programme has been launched, and over ten million trees have already been planted. However, much more needs to be done.\n\nThe project is being funded by several governments, and it is hoped that it will be completed by 2035. Local communities are being trained to manage the forests, and by next year, a monitoring system will have been installed. If nothing is done, the damage may never be reversed.\n\nIt has been argued that companies should be held responsible for the damage they cause. The new law, which was passed last month, requires them to be audited every year. Anyone who is found to have broken the rules can be fined or banned from operating. What is needed now is public support: awareness must be raised, and pressure must be put on governments to act.",
+    "es": "Los bosques se están talando a un ritmo alarmante. Según un informe reciente, se pierde una superficie del tamaño de un campo de fútbol cada seis segundos. En respuesta, se ha lanzado un nuevo programa de reforestación y ya se han plantado más de diez millones de árboles. Sin embargo, queda mucho por hacer. El proyecto está siendo financiado por varios gobiernos y se espera que esté terminado en 2035. Se está formando a las comunidades locales para gestionar los bosques y para el año que viene se habrá instalado un sistema de vigilancia. Si no se hace nada, puede que el daño nunca se revierta. Se ha argumentado que las empresas deberían ser consideradas responsables del daño que causan. La nueva ley, aprobada el mes pasado, exige que sean auditadas cada año. A cualquiera que se descubra incumpliendo las normas se le puede multar o prohibir operar. Lo que se necesita ahora es apoyo público: hay que concienciar y presionar a los gobiernos para que actúen.",
+    "glossary": [
+      {
+        "id": "en-clear",
+        "lemma": "clear",
+        "pos": "verb",
+        "ipa": "/klɪə/",
+        "es": "talar, despejar",
+        "example": "Forests are cleared."
+      },
+      {
+        "id": "en-alarming",
+        "lemma": "alarming",
+        "pos": "adj",
+        "ipa": "/əˈlɑːmɪŋ/",
+        "es": "alarmante",
+        "example": "An alarming rate."
+      },
+      {
+        "id": "en-football-pitch",
+        "lemma": "football pitch",
+        "pos": "noun",
+        "ipa": "/ˈfʊtbɔːl pɪtʃ/",
+        "es": "campo de fútbol",
+        "example": "The size of a pitch."
+      },
+      {
+        "id": "en-reforestation",
+        "lemma": "reforestation",
+        "pos": "noun",
+        "ipa": "/ˌriːfɒrɪˈsteɪʃn/",
+        "es": "reforestación",
+        "example": "A reforestation project."
+      },
+      {
+        "id": "en-launch",
+        "lemma": "launch",
+        "pos": "verb",
+        "ipa": "/lɔːntʃ/",
+        "es": "lanzar",
+        "example": "Launch a programme."
+      },
+      {
+        "id": "en-fund",
+        "lemma": "fund",
+        "pos": "verb",
+        "ipa": "/fʌnd/",
+        "es": "financiar",
+        "example": "The project is funded."
+      },
+      {
+        "id": "en-monitoring-system",
+        "lemma": "monitoring system",
+        "pos": "noun",
+        "ipa": "/ˈmɒnɪtərɪŋ ˈsɪstəm/",
+        "es": "sistema de vigilancia",
+        "example": "Install a monitoring system."
+      },
+      {
+        "id": "en-reverse",
+        "lemma": "reverse",
+        "pos": "verb",
+        "ipa": "/rɪˈvɜːs/",
+        "es": "revertir",
+        "example": "Reverse the damage."
+      },
+      {
+        "id": "en-hold-responsible",
+        "lemma": "hold responsible",
+        "pos": "phrase",
+        "ipa": "/həʊld rɪˈspɒnsəbl/",
+        "es": "considerar responsable",
+        "example": "Hold them responsible."
+      },
+      {
+        "id": "en-audit",
+        "lemma": "audit",
+        "pos": "verb",
+        "ipa": "/ˈɔːdɪt/",
+        "es": "auditar",
+        "example": "Be audited every year."
+      },
+      {
+        "id": "en-fine",
+        "lemma": "fine",
+        "pos": "verb",
+        "ipa": "/faɪn/",
+        "es": "multar",
+        "example": "Be fined."
+      },
+      {
+        "id": "en-ban",
+        "lemma": "ban",
+        "pos": "verb",
+        "ipa": "/bæn/",
+        "es": "prohibir",
+        "example": "Be banned."
+      }
+    ]
+  },
+  "explanation": {
+    "md_es": "**Pasiva avanzada: todas las formas**\n\n| Tiempo / forma | Estructura | Ejemplo |\n|---|---|---|\n| Presente simple | *am / is / are + participio* | *Trees **are planted** every year.* |\n| Presente continuo | *is / are being + participio* | *Forests **are being cleared**.* |\n| Pasado simple | *was / were + participio* | *The law **was passed** last month.* |\n| Pasado continuo | *was / were being + participio* | *The report **was being written**.* |\n| Present perfect | *has / have been + participio* | *Ten million trees **have been planted**.* |\n| Past perfect | *had been + participio* | *It **had been banned** before.* |\n| Futuro | *will be + participio* | *It **will be completed** by 2035.* |\n| Futuro perfecto | *will have been + participio* | *A system **will have been installed**.* |\n| Modal | *can / must / should / may be + participio* | *Something **must be done**.* |\n| Modal perfecto | *should / could / must have been + participio* | *It **should have been done** earlier.* |\n| Infinitivo | *to be + participio* | *It needs **to be done**.* |\n| Infinitivo perfecto | *to have been + participio* | *It is believed **to have been built** in 1900.* |\n| Gerundio | *being + participio* | *I hate **being told** what to do.* |\n\n**Pasiva con dos objetos**\n\n- *They gave her a prize.* → *She was given a prize.* / *A prize was given to her.* (preferible la persona como sujeto).\n- *Verbos:* give, send, offer, tell, show, teach, pay, lend.\n\n**Get passive (informal)**\n\n- *He got fined.* · *The window got broken.* · *She got promoted.* (algo que ocurre, a menudo inesperado).\n\n**Pasiva impersonal (repaso)**\n\n- *It is said that … · It has been argued that … · It is hoped that …*\n\n**Agente: cuándo usar by**\n\n- Se omite si es obvio, desconocido o sin importancia. Se incluye si es relevante: *The law was passed by Parliament.*\n\n**Errores típicos**\n\n- ✘ *The law passed last month.* → ✔ *The law was passed last month.*\n- ✘ *It has been built since 1900.* → ✔ *It was built in 1900.*\n- ✘ *Something must do.* → ✔ *Something must be done.*\n- ✘ *The house is being build.* → ✔ *The house is being built.*\n- ✘ *She was given a prize by me* (innecesario) → ✔ *I gave her a prize.*\n\n**Ojo:** verbos intransitivos no tienen pasiva (*happen, arrive, die, occur, appear*): ✘ *It was happened.* → ✔ *It happened.* Evita la pasiva si hace la frase confusa o impersonal sin necesidad.\n\nPronunciación: *planted* /ˈplɑːntɪd/ · *funded* /ˈfʌndɪd/ · *audited* /ˈɔːdɪtɪd/ (la 'ed' se pronuncia /ɪd/ tras t/d).",
+    "common_mistakes_es": [
+      {
+        "wrong": "The law passed.",
+        "right": "The law was passed.",
+        "note": "Pasiva."
+      },
+      {
+        "wrong": "was happened",
+        "right": "happened",
+        "note": "Sin pasiva."
+      }
+    ],
+    "false_friends": []
+  },
+  "exercises": [
+    {
+      "id": "en-b2-u09-l02-ex01",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cada cuánto se pierde una superficie del tamaño de un campo de fútbol?",
+      "options": [
+        "Cada seis segundos",
+        "Cada minuto",
+        "Cada hora",
+        "Cada día"
+      ],
+      "answer": [
+        "Cada seis segundos"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: every six seconds.",
+        "incorrect": "Revisa esto: Dice: every six seconds."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex02",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Cuántos árboles se han plantado ya?",
+      "options": [
+        "Más de diez millones",
+        "Mil",
+        "Cien mil",
+        "Dos millones"
+      ],
+      "answer": [
+        "Más de diez millones"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: over ten million trees have already been planted.",
+        "incorrect": "Revisa esto: Dice: over ten million trees have already been planted."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex03",
+      "type": "multiple_choice",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 30,
+      "prompt": "¿Qué exige la nueva ley?",
+      "options": [
+        "Que las empresas sean auditadas cada año",
+        "Que paguen un impuesto",
+        "Que cierren fábricas",
+        "Que planten árboles"
+      ],
+      "answer": [
+        "Que las empresas sean auditadas cada año"
+      ],
+      "refers_to_input": true,
+      "feedback": {
+        "correct": "¡Correcto! Dice: requires them to be audited every year.",
+        "incorrect": "Revisa esto: Dice: requires them to be audited every year."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex04",
+      "type": "true_false",
+      "skill": "reading",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 15,
+      "prompt": "El texto dice que ya se ha instalado el sistema de vigilancia.",
+      "answer": [
+        false
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Dice que by next year it will have been installed.",
+        "incorrect": "Revisa esto: Dice que by next year it will have been installed."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex05",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Forests ___ at an alarming rate right now.",
+      "options": [
+        "are being cleared",
+        "are cleared",
+        "have cleared",
+        "clear"
+      ],
+      "answer": [
+        "are being cleared"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Presente continuo pasivo.",
+        "incorrect": "Revisa esto: Presente continuo pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv01",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "used-to-get-used-to"
+      ],
+      "est_seconds": 20,
+      "prompt": "I ___ to smoke, but I gave up five years ago.",
+      "options": [
+        "used",
+        "am used",
+        "get used",
+        "was used"
+      ],
+      "answer": [
+        "used"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Used to.",
+        "incorrect": "Revisa esto: Used to."
+      },
+      "review_of": "en-b2-u01-l06-ex11"
+    },
+    {
+      "id": "en-b2-u09-l02-ex06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Ten million trees ___ so far.",
+      "options": [
+        "have been planted",
+        "are planted",
+        "were planting",
+        "has planted"
+      ],
+      "answer": [
+        "have been planted"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Present perfect pasivo.",
+        "incorrect": "Revisa esto: Present perfect pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "The project ___ by 2035.",
+      "options": [
+        "will have been completed",
+        "will complete",
+        "is completing",
+        "completed"
+      ],
+      "answer": [
+        "will have been completed"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Futuro perfecto pasivo.",
+        "incorrect": "Revisa esto: Futuro perfecto pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex08",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Something must ___ about pollution.",
+      "options": [
+        "be done",
+        "do",
+        "be doing",
+        "done"
+      ],
+      "answer": [
+        "be done"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal pasivo.",
+        "incorrect": "Revisa esto: Modal pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex09",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "The bridge ___ built in 1900.",
+      "options": [
+        "is believed to have been",
+        "believes to be",
+        "is believed to be having",
+        "believed"
+      ],
+      "answer": [
+        "is believed to have been"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Infinitivo perfecto pasivo.",
+        "incorrect": "Revisa esto: Infinitivo perfecto pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv02",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "contrast-linkers"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Despite of the rain, we played.",
+      "answer": [
+        "Despite the rain, we played.",
+        "In spite of the rain, we played."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Despite sin of.",
+        "incorrect": "Revisa esto: Despite sin of."
+      },
+      "review_of": "en-b1-u12-l02-ex15"
+    },
+    {
+      "id": "en-b2-u09-l02-rv03",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "dependent-prepositions"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Depende de si me dan vacaciones; estoy esperando una respuesta.",
+      "answer": [
+        "It depends on whether I get time off; I'm waiting for a reply.",
+        "It depends on whether I get leave; I'm waiting for an answer."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Preposiciones dependientes.",
+        "incorrect": "Revisa esto: Preposiciones dependientes."
+      },
+      "review_of": "en-b2-u06-l03-ex22"
+    },
+    {
+      "id": "en-b2-u09-l02-ex10",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "She was ___ a prize for her research.",
+      "options": [
+        "given",
+        "gave",
+        "give",
+        "giving"
+      ],
+      "answer": [
+        "given"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva con dos objetos.",
+        "incorrect": "Revisa esto: Pasiva con dos objetos."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv04",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "indefinite-pronouns"
+      ],
+      "est_seconds": 20,
+      "prompt": "I looked ___ but I couldn't find my keys.",
+      "options": [
+        "everywhere",
+        "somewhere",
+        "nowhere",
+        "anywhere"
+      ],
+      "answer": [
+        "everywhere"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Looked everywhere.",
+        "incorrect": "Revisa esto: Looked everywhere."
+      },
+      "review_of": "en-b1-u10-l04-ex11"
+    },
+    {
+      "id": "en-b2-u09-l02-ex11",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "I hate ___ told what to do.",
+      "options": [
+        "being",
+        "be",
+        "been",
+        "to being"
+      ],
+      "answer": [
+        "being"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Gerundio pasivo.",
+        "incorrect": "Revisa esto: Gerundio pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv05",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 2,
+      "tags": [
+        "trying-on"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "¿Tienen esto en una talla más grande?",
+      "answer": [
+        "Do you have this in a larger size?",
+        "Have you got this in a larger size?",
+        "Do you have this in a bigger size?"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Do you have … in a larger size?",
+        "incorrect": "Revisa esto: Do you have … in a larger size?"
+      },
+      "review_of": "en-a2-u11-l02-ex12"
+    },
+    {
+      "id": "en-b2-u09-l02-ex12",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "The report ___ when the power went out.",
+      "options": [
+        "was being written",
+        "was written",
+        "has been written",
+        "wrote"
+      ],
+      "answer": [
+        "was being written"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasado continuo pasivo.",
+        "incorrect": "Revisa esto: Pasado continuo pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex13",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 20,
+      "prompt": "Which verb cannot be passive?",
+      "options": [
+        "happen",
+        "build",
+        "destroy",
+        "plant"
+      ],
+      "answer": [
+        "happen"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Intransitivo.",
+        "incorrect": "Revisa esto: Intransitivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex14",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 25,
+      "prompt": "The new law ___ passed last month. (fue)",
+      "answer": [
+        "was"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva simple.",
+        "incorrect": "Revisa esto: Pasiva simple."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv06",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "future-forms"
+      ],
+      "est_seconds": 20,
+      "prompt": "Elige la mejor frase para un plan ya decidido.",
+      "options": [
+        "We're going to travel to Italy in July.",
+        "We will might travel to Italy.",
+        "We travel to going Italy.",
+        "We'll to travel to Italy."
+      ],
+      "answer": [
+        "We're going to travel to Italy in July."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Plan decidido: be going to.",
+        "incorrect": "Revisa esto: Plan decidido: be going to."
+      },
+      "review_of": "en-a2-u05-l06-ex05"
+    },
+    {
+      "id": "en-b2-u09-l02-ex15",
+      "type": "fill_blank",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 25,
+      "prompt": "The house is being ___ at the moment. (construida)",
+      "answer": [
+        "built"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Being built.",
+        "incorrect": "Revisa esto: Being built."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex16",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The law passed last month by Parliament.",
+      "answer": [
+        "The law was passed last month by Parliament."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva.",
+        "incorrect": "Revisa esto: Pasiva."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv07",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "difficulty": 1,
+      "tags": [
+        "linkers-b2"
+      ],
+      "est_seconds": 20,
+      "prompt": "Hurry up; ___ , you'll miss the bus.",
+      "options": [
+        "otherwise",
+        "although",
+        "however",
+        "despite"
+      ],
+      "answer": [
+        "otherwise"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Otherwise.",
+        "incorrect": "Revisa esto: Otherwise."
+      },
+      "review_of": "en-b2-u08-l06-ex11"
+    },
+    {
+      "id": "en-b2-u09-l02-ex17",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "Something must do about the pollution.",
+      "answer": [
+        "Something must be done about the pollution."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Must be done.",
+        "incorrect": "Revisa esto: Must be done."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex18",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The accident was happened yesterday.",
+      "answer": [
+        "The accident happened yesterday."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Happen no tiene pasiva.",
+        "incorrect": "Revisa esto: Happen no tiene pasiva."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex19",
+      "type": "error_correction",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "prompt": "Hay un error. Escribe la frase correcta.",
+      "text": "The house is being build next to the river.",
+      "answer": [
+        "The house is being built next to the river."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Participio.",
+        "incorrect": "Revisa esto: Participio."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex20",
+      "type": "word_order",
+      "skill": "grammar",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 30,
+      "prompt": "Ordena las palabras para formar la frase.",
+      "tokens": [
+        "law",
+        "was",
+        "passed",
+        "by",
+        "Parliament",
+        "last",
+        "month",
+        ".",
+        "The",
+        "new"
+      ],
+      "answer": [
+        "The",
+        "new",
+        "law",
+        "was",
+        "passed",
+        "by",
+        "Parliament",
+        "last",
+        "month",
+        "."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva simple.",
+        "incorrect": "Revisa esto: Pasiva simple."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex21",
+      "type": "listening",
+      "skill": "listening",
+      "difficulty": 2,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 40,
+      "prompt": "¿Qué se está construyendo en el lugar de la fábrica?",
+      "options": [
+        "Un parque",
+        "Un hospital",
+        "Un centro comercial",
+        "Un colegio"
+      ],
+      "answer": [
+        "Un parque"
+      ],
+      "audio_text": "The old factory was closed in 2005. Since then, the site has been cleaned, and a park is being built there. By next year, hundreds of trees will have been planted, and the lake will have been restored.",
+      "feedback": {
+        "correct": "¡Correcto! Dice: a park is being built there.",
+        "incorrect": "Revisa esto: Dice: a park is being built there."
+      },
+      "audio_script_id": "en-b2-u09-l02-ex21-a"
+    },
+    {
+      "id": "en-b2-u09-l02-ex22",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Se han plantado diez millones de árboles y se está formando a las comunidades locales.",
+      "answer": [
+        "Ten million trees have been planted and local communities are being trained.",
+        "Ten million trees have been planted, and the local communities are being trained."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Pasiva avanzada.",
+        "incorrect": "Revisa esto: Pasiva avanzada."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-ex23",
+      "type": "translation",
+      "skill": "writing",
+      "difficulty": 3,
+      "tags": [
+        "passive-advanced"
+      ],
+      "est_seconds": 35,
+      "direction": "es-en",
+      "prompt": "Hay que hacer algo antes de que el daño no pueda revertirse.",
+      "answer": [
+        "Something must be done before the damage can no longer be reversed.",
+        "Something has to be done before the damage can't be reversed."
+      ],
+      "feedback": {
+        "correct": "¡Correcto! Modal pasivo.",
+        "incorrect": "Revisa esto: Modal pasivo."
+      }
+    },
+    {
+      "id": "en-b2-u09-l02-rv08",
+      "type": "multiple_choice",
+      "skill": "vocab",
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "est_seconds": 20,
+      "prompt": "Your mother's mother is your…",
+      "options": [
+        "grandmother",
+        "sister",
+        "daughter",
+        "wife"
+      ],
+      "answer": [
+        "grandmother"
+      ],
+      "feedback": {
+        "correct": "¡Correcto! La madre de tu madre es tu abuela: grandmother.",
+        "incorrect": "Revisa esto: La madre de tu madre es tu abuela: grandmother."
+      },
+      "review_of": "en-a1-u03-l01-ex02"
+    }
+  ],
+  "summary": {
+    "key_phrases": [
+      "Forests are being cleared.",
+      "Ten million trees have been planted.",
+      "Something must be done.",
+      "It will have been completed by 2035."
+    ]
+  },
+  "srs_items": [
+    {
+      "type": "vocab",
+      "id": "en-clear"
+    },
+    {
+      "type": "vocab",
+      "id": "en-alarming"
+    },
+    {
+      "type": "vocab",
+      "id": "en-football-pitch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reforestation"
+    },
+    {
+      "type": "vocab",
+      "id": "en-launch"
+    },
+    {
+      "type": "vocab",
+      "id": "en-fund"
+    },
+    {
+      "type": "vocab",
+      "id": "en-monitoring-system"
+    },
+    {
+      "type": "vocab",
+      "id": "en-reverse"
+    },
+    {
+      "type": "vocab",
+      "id": "en-hold-responsible"
+    },
+    {
+      "type": "vocab",
+      "id": "en-audit"
+    },
+    {
+      "type": "grammar",
+      "id": "en-passive-advanced"
+    }
+  ]
+}
