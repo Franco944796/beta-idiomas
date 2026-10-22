@@ -28,7 +28,15 @@
     "glossary": []
   },
   "explanation": {
-    "md_es": "**Repaso de la unidad 11**\n\n- *found guilty · sentenced to · steal / rob · The police are …*\n- *You should have called. · I needn't have gone. · She can't have forgotten. · You could have told me!*\n- *You are required to … · Smoking is prohibited. · You mustn't / don't have to.*\n- *There isn't a single cause. · X leads to Y. · One possible solution is … · In the long run, …*\n- *I am writing in response to … · I therefore urge … to … · Yours faithfully.*",
+    "md_es": [
+      "**Repaso de la unidad 11**",
+      "",
+      "- *found guilty · sentenced to · steal / rob · The police are …*",
+      "- *You should have called. · I needn't have gone. · She can't have forgotten. · You could have told me!*",
+      "- *You are required to … · Smoking is prohibited. · You mustn't / don't have to.*",
+      "- *There isn't a single cause. · X leads to Y. · One possible solution is … · In the long run, …*",
+      "- *I am writing in response to … · I therefore urge … to … · Yours faithfully.*"
+    ],
     "common_mistakes_es": [],
     "false_friends": []
   },
@@ -838,7 +846,14 @@
         "¿Incluyes una concesión con Nevertheless?",
         "¿Cierras con I urge y firma correcta?"
       ],
-      "model_answer": "Dear Editor,\n\nI am writing in response to your article of 10 May about rising rents in our city. I read it with great concern. Many young people can no longer afford to live where they grew up, which leads to isolation and instability. I appreciate that landlords need to make a profit. Nevertheless, I would argue that excessive rents damage the whole community in the long run. I therefore urge the council to introduce limits on rent increases and to build more affordable housing.\n\nYours faithfully,\nLaura Gómez",
+      "model_answer": [
+        "Dear Editor,",
+        "",
+        "I am writing in response to your article of 10 May about rising rents in our city. I read it with great concern. Many young people can no longer afford to live where they grew up, which leads to isolation and instability. I appreciate that landlords need to make a profit. Nevertheless, I would argue that excessive rents damage the whole community in the long run. I therefore urge the council to introduce limits on rent increases and to build more affordable housing.",
+        "",
+        "Yours faithfully,",
+        "Laura Gómez"
+      ],
       "feedback": {
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."

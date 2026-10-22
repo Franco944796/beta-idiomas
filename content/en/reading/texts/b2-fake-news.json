@@ -1,1 +1,167 @@
-{"id":"b2-fake-news","level":"B2","title":"Why we fall for fake news","title_es":"Por qué caemos en las noticias falsas","topic":"Medios","glossary":[{"en":"striking","es":"llamativo, sorprendente"},{"en":"culprits","es":"culpables"},{"en":"novelty","es":"novedad"},{"en":"grabs","es":"atrapa, capta"},{"en":"outrage","es":"indignación"},{"en":"confirmation bias","es":"sesgo de confirmación"},{"en":"challenges","es":"desafía, cuestiona"},{"en":"headline","es":"titular"},{"en":"mistaken for","es":"confundido con"},{"en":"vulnerability","es":"vulnerabilidad"},{"en":"taken out of context","es":"sacado de contexto"},{"en":"amplify","es":"amplificar"}],"questions":[{"type":"mc","q":"What did the MIT researchers conclude?","options":["False news spread further and faster than true news","Bots shared most false news","True news was more popular","Twitter removed most false stories"],"answer":"False news spread further and faster than true news","why":"Dice: false news spread further, faster and more widely than true news."},{"type":"tf","q":"According to the study, automated accounts were the main reason false news spread.","answer":false,"why":"Los principales culpables eran usuarios humanos comunes."},{"type":"mc","q":"Why does novelty help false stories spread?","options":["Surprise grabs our attention","New stories are always true","People prefer old news","Novel stories are shorter"],"answer":"Surprise grabs our attention","why":"Dice: surprise grabs our attention."},{"type":"mc","q":"What is confirmation bias?","options":["Accepting information that supports our existing beliefs","Checking every source carefully","Trusting experts more than friends","Forgetting news quickly"],"answer":"Accepting information that supports our existing beliefs","why":"Definición del párrafo 3."},{"type":"mc","q":"Why can repetition be dangerous?","options":["Familiarity can be mistaken for truth","It makes stories shorter","It bores readers","It reduces emotions"],"answer":"Familiarity can be mistaken for truth","why":"Dice: familiarity can easily be mistaken for truth."},{"type":"mc","q":"Which question is NOT suggested before sharing a story?","options":["How many likes does it have?","Who published it?","Do other reliable sources report it?","Is the photo recent?"],"answer":"How many likes does it have?","why":"No aparece entre las preguntas sugeridas."},{"type":"mc","q":"What effect did a short reminder about accuracy have?","options":["People became less likely to share false headlines","People stopped using social media","It had no effect","People shared more news"],"answer":"People became less likely to share false headlines","why":"Dice: makes people noticeably less likely to share false headlines."},{"type":"mc","q":"What does the final sentence suggest?","options":["Human nature is what makes misinformation spread","Technology alone is to blame","Algorithms will solve the problem","Misinformation is harmless"],"answer":"Human nature is what makes misinformation spread","why":"Dice: it is our curiosity, our emotions… that give it wings."},{"type":"fill","q":"Find a word in paragraph 2 meaning 'a strong feeling of anger and shock': fear, disgust or ___.","answer":["outrage"],"why":"Outrage = indignación."}],"task":"Escribe 120–150 palabras: ¿alguna vez creíste o compartiste una noticia falsa? ¿Qué consejos darías para evitarlo?","words":303,"minutes":2,"paragraphs":["A few years ago, researchers at the Massachusetts Institute of Technology analysed thousands of stories shared on Twitter over more than a decade. Their conclusion was striking: false news spread further, faster and more widely than true news. False stories were around seventy per cent more likely to be shared, and the main culprits were not automated accounts, or \"bots\", but ordinary human users.","Why should this be the case? One explanation is novelty. False stories are often surprising, and surprise grabs our attention. They also tend to provoke strong emotions such as fear, disgust or outrage, which make us want to react and share immediately, before we have stopped to think.","Another factor is what psychologists call confirmation bias: our tendency to accept information that supports what we already believe and to reject information that challenges it. If a headline confirms our view of a politician we dislike, we are less likely to question it. Repetition plays a part too. The more often we see a claim, the more familiar it feels, and familiarity can easily be mistaken for truth.","The good news is that some simple habits can reduce our vulnerability. Before sharing a story, it helps to pause and ask a few questions. Who published it? Is the same information reported by other reliable sources? Does the headline match the content of the article, or is it designed to make me click? Is the photo recent, or has it been taken out of context? Researchers have found that even a short reminder to think about accuracy makes people noticeably less likely to share false headlines.","Ultimately, misinformation is not only a technological problem but a human one. Algorithms may amplify it, but it is our curiosity, our emotions and our desire to belong to a group that give it wings."]}
+{
+  "id": "b2-fake-news",
+  "level": "B2",
+  "title": "Why we fall for fake news",
+  "title_es": "Por qué caemos en las noticias falsas",
+  "topic": "Medios",
+  "glossary": [
+    {
+      "en": "striking",
+      "es": "llamativo, sorprendente"
+    },
+    {
+      "en": "culprits",
+      "es": "culpables"
+    },
+    {
+      "en": "novelty",
+      "es": "novedad"
+    },
+    {
+      "en": "grabs",
+      "es": "atrapa, capta"
+    },
+    {
+      "en": "outrage",
+      "es": "indignación"
+    },
+    {
+      "en": "confirmation bias",
+      "es": "sesgo de confirmación"
+    },
+    {
+      "en": "challenges",
+      "es": "desafía, cuestiona"
+    },
+    {
+      "en": "headline",
+      "es": "titular"
+    },
+    {
+      "en": "mistaken for",
+      "es": "confundido con"
+    },
+    {
+      "en": "vulnerability",
+      "es": "vulnerabilidad"
+    },
+    {
+      "en": "taken out of context",
+      "es": "sacado de contexto"
+    },
+    {
+      "en": "amplify",
+      "es": "amplificar"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What did the MIT researchers conclude?",
+      "options": [
+        "False news spread further and faster than true news",
+        "Bots shared most false news",
+        "True news was more popular",
+        "Twitter removed most false stories"
+      ],
+      "answer": "False news spread further and faster than true news",
+      "why": "Dice: false news spread further, faster and more widely than true news."
+    },
+    {
+      "type": "tf",
+      "q": "According to the study, automated accounts were the main reason false news spread.",
+      "answer": false,
+      "why": "Los principales culpables eran usuarios humanos comunes."
+    },
+    {
+      "type": "mc",
+      "q": "Why does novelty help false stories spread?",
+      "options": [
+        "Surprise grabs our attention",
+        "New stories are always true",
+        "People prefer old news",
+        "Novel stories are shorter"
+      ],
+      "answer": "Surprise grabs our attention",
+      "why": "Dice: surprise grabs our attention."
+    },
+    {
+      "type": "mc",
+      "q": "What is confirmation bias?",
+      "options": [
+        "Accepting information that supports our existing beliefs",
+        "Checking every source carefully",
+        "Trusting experts more than friends",
+        "Forgetting news quickly"
+      ],
+      "answer": "Accepting information that supports our existing beliefs",
+      "why": "Definición del párrafo 3."
+    },
+    {
+      "type": "mc",
+      "q": "Why can repetition be dangerous?",
+      "options": [
+        "Familiarity can be mistaken for truth",
+        "It makes stories shorter",
+        "It bores readers",
+        "It reduces emotions"
+      ],
+      "answer": "Familiarity can be mistaken for truth",
+      "why": "Dice: familiarity can easily be mistaken for truth."
+    },
+    {
+      "type": "mc",
+      "q": "Which question is NOT suggested before sharing a story?",
+      "options": [
+        "How many likes does it have?",
+        "Who published it?",
+        "Do other reliable sources report it?",
+        "Is the photo recent?"
+      ],
+      "answer": "How many likes does it have?",
+      "why": "No aparece entre las preguntas sugeridas."
+    },
+    {
+      "type": "mc",
+      "q": "What effect did a short reminder about accuracy have?",
+      "options": [
+        "People became less likely to share false headlines",
+        "People stopped using social media",
+        "It had no effect",
+        "People shared more news"
+      ],
+      "answer": "People became less likely to share false headlines",
+      "why": "Dice: makes people noticeably less likely to share false headlines."
+    },
+    {
+      "type": "mc",
+      "q": "What does the final sentence suggest?",
+      "options": [
+        "Human nature is what makes misinformation spread",
+        "Technology alone is to blame",
+        "Algorithms will solve the problem",
+        "Misinformation is harmless"
+      ],
+      "answer": "Human nature is what makes misinformation spread",
+      "why": "Dice: it is our curiosity, our emotions… that give it wings."
+    },
+    {
+      "type": "fill",
+      "q": "Find a word in paragraph 2 meaning 'a strong feeling of anger and shock': fear, disgust or ___.",
+      "answer": [
+        "outrage"
+      ],
+      "why": "Outrage = indignación."
+    }
+  ],
+  "task": "Escribe 120–150 palabras: ¿alguna vez creíste o compartiste una noticia falsa? ¿Qué consejos darías para evitarlo?",
+  "words": 303,
+  "minutes": 2,
+  "paragraphs": [
+    "A few years ago, researchers at the Massachusetts Institute of Technology analysed thousands of stories shared on Twitter over more than a decade. Their conclusion was striking: false news spread further, faster and more widely than true news. False stories were around seventy per cent more likely to be shared, and the main culprits were not automated accounts, or \"bots\", but ordinary human users.",
+    "Why should this be the case? One explanation is novelty. False stories are often surprising, and surprise grabs our attention. They also tend to provoke strong emotions such as fear, disgust or outrage, which make us want to react and share immediately, before we have stopped to think.",
+    "Another factor is what psychologists call confirmation bias: our tendency to accept information that supports what we already believe and to reject information that challenges it. If a headline confirms our view of a politician we dislike, we are less likely to question it. Repetition plays a part too. The more often we see a claim, the more familiar it feels, and familiarity can easily be mistaken for truth.",
+    "The good news is that some simple habits can reduce our vulnerability. Before sharing a story, it helps to pause and ask a few questions. Who published it? Is the same information reported by other reliable sources? Does the headline match the content of the article, or is it designed to make me click? Is the photo recent, or has it been taken out of context? Researchers have found that even a short reminder to think about accuracy makes people noticeably less likely to share false headlines.",
+    "Ultimately, misinformation is not only a technological problem but a human one. Algorithms may amplify it, but it is our curiosity, our emotions and our desire to belong to a group that give it wings."
+  ]
+}

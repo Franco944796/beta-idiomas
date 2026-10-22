@@ -23,7 +23,11 @@
   },
   "input": {
     "type": "text",
-    "text": "Original article (extract): 'Researchers at a European university have found that people who read printed books regularly retain more information than those who read on screens. The study, which involved 300 students, showed that participants who read a chapter on paper scored 12 per cent higher on a comprehension test than those who read the same chapter on a tablet. According to the lead researcher, screen reading encourages skimming, while paper makes readers slow down. However, the authors acknowledge that the sample was small and limited to one age group. They recommend that students use paper for complex material but add that digital texts are useful for quick searches and travel.'\n\nSummary: A European study of 300 students suggests that reading on paper improves comprehension. Participants who read a chapter in print scored 12 per cent higher than those who used a tablet, apparently because screens encourage skimming. The researchers warn, however, that the sample was small and limited to one age group. They conclude that paper is better for difficult texts, while digital reading remains practical for short or portable material.",
+    "text": [
+      "Original article (extract): 'Researchers at a European university have found that people who read printed books regularly retain more information than those who read on screens. The study, which involved 300 students, showed that participants who read a chapter on paper scored 12 per cent higher on a comprehension test than those who read the same chapter on a tablet. According to the lead researcher, screen reading encourages skimming, while paper makes readers slow down. However, the authors acknowledge that the sample was small and limited to one age group. They recommend that students use paper for complex material but add that digital texts are useful for quick searches and travel.'",
+      "",
+      "Summary: A European study of 300 students suggests that reading on paper improves comprehension. Participants who read a chapter in print scored 12 per cent higher than those who used a tablet, apparently because screens encourage skimming. The researchers warn, however, that the sample was small and limited to one age group. They conclude that paper is better for difficult texts, while digital reading remains practical for short or portable material."
+    ],
     "es": "Artículo original (fragmento): Investigadores de una universidad europea han descubierto que quienes leen libros impresos con regularidad retienen más información que quienes leen en pantalla. El estudio, en el que participaron 300 estudiantes, mostró que los participantes que leyeron un capítulo en papel obtuvieron un 12 % más en una prueba de comprensión que los que leyeron el mismo capítulo en una tableta. Según el investigador principal, leer en pantalla fomenta la lectura rápida, mientras que el papel obliga a leer más despacio. Sin embargo, los autores reconocen que la muestra era pequeña y limitada a un grupo de edad. Recomiendan que los estudiantes usen papel para material complejo pero añaden que los textos digitales son útiles para búsquedas rápidas y viajes. Resumen: Un estudio europeo con 300 estudiantes sugiere que leer en papel mejora la comprensión. Quienes leyeron un capítulo en papel obtuvieron un 12 % más que quienes usaron una tableta, al parecer porque las pantallas fomentan la lectura rápida. Los investigadores advierten, no obstante, que la muestra era pequeña y de un solo grupo de edad. Concluyen que el papel es mejor para textos difíciles, mientras que la lectura digital sigue siendo práctica para material corto o portátil.",
     "glossary": [
       {
@@ -117,7 +121,45 @@
     ]
   },
   "explanation": {
-    "md_es": "**Cómo resumir un artículo**\n\n| Paso | Qué hacer | Frase útil |\n|---|---|---|\n| **1. Entender** | lee el texto entero, subraya ideas principales | — |\n| **2. Idea principal** | una frase con tema + conclusión | *The study suggests that …* |\n| **3. Datos clave** | 2–3 hechos importantes | *Participants … scored … per cent higher …* |\n| **4. Matices** | límites, contra-argumentos | *However, the authors warn that …* |\n| **5. Conclusión** | recomendación o consecuencia | *They conclude that … · The article ends by …* |\n\n**Verbos para resumir (reporting verbs)**\n\n- *suggest, argue, claim, conclude, warn, point out, emphasise, acknowledge, recommend, reveal, show.*\n- Patrones: *suggest that + cláusula* · *recommend + -ing / that…* · *warn that …* · *acknowledge that …* · *conclude that …*.\n\n**Parafrasear (cambiar palabras y estructura)**\n\n- Sinónimos: *found → discovered, showed → revealed, higher → greater, because → since / due to.*\n- Cambia la voz: *Researchers found that … → It was found that …*\n- Cambia el orden: *Screen reading encourages skimming. → Skimming is encouraged by screen reading.*\n\n**Qué evitar**\n\n- Copiar frases literales (plagiarism). · Añadir tu opinión (en un resumen, no). · Detalles menores. · Citar demasiados números.\n\n**Longitud:** 20–25 % del original. Usa tiempo **presente** para resumir: *The article argues that …*\n\n**Errores típicos**\n\n- ✘ *The author say that …* → ✔ *The author says that …*\n- ✘ *The study suggests to read paper.* → ✔ *The study suggests that reading on paper helps.*\n- ✘ *In my opinion the article is bad.* (no en resumen).\n- ✘ *The article speaks about …* → ✔ *The article discusses …* / *is about …*\n\n**Ojo:** *sensible* ≠ *sensitive*; *conclude* (concluir) ≠ *include* (incluir). *Resume* (verbo) = reanudar; para resumir = *summarise*.\n\nPronunciación: *summarise* /ˈsʌməraɪz/ · *comprehension* /ˌkɒmprɪˈhenʃn/ · *acknowledge* /əkˈnɒlɪdʒ/.",
+    "md_es": [
+      "**Cómo resumir un artículo**",
+      "",
+      "| Paso | Qué hacer | Frase útil |",
+      "|---|---|---|",
+      "| **1. Entender** | lee el texto entero, subraya ideas principales | — |",
+      "| **2. Idea principal** | una frase con tema + conclusión | *The study suggests that …* |",
+      "| **3. Datos clave** | 2–3 hechos importantes | *Participants … scored … per cent higher …* |",
+      "| **4. Matices** | límites, contra-argumentos | *However, the authors warn that …* |",
+      "| **5. Conclusión** | recomendación o consecuencia | *They conclude that … · The article ends by …* |",
+      "",
+      "**Verbos para resumir (reporting verbs)**",
+      "",
+      "- *suggest, argue, claim, conclude, warn, point out, emphasise, acknowledge, recommend, reveal, show.*",
+      "- Patrones: *suggest that + cláusula* · *recommend + -ing / that…* · *warn that …* · *acknowledge that …* · *conclude that …*.",
+      "",
+      "**Parafrasear (cambiar palabras y estructura)**",
+      "",
+      "- Sinónimos: *found → discovered, showed → revealed, higher → greater, because → since / due to.*",
+      "- Cambia la voz: *Researchers found that … → It was found that …*",
+      "- Cambia el orden: *Screen reading encourages skimming. → Skimming is encouraged by screen reading.*",
+      "",
+      "**Qué evitar**",
+      "",
+      "- Copiar frases literales (plagiarism). · Añadir tu opinión (en un resumen, no). · Detalles menores. · Citar demasiados números.",
+      "",
+      "**Longitud:** 20–25 % del original. Usa tiempo **presente** para resumir: *The article argues that …*",
+      "",
+      "**Errores típicos**",
+      "",
+      "- ✘ *The author say that …* → ✔ *The author says that …*",
+      "- ✘ *The study suggests to read paper.* → ✔ *The study suggests that reading on paper helps.*",
+      "- ✘ *In my opinion the article is bad.* (no en resumen).",
+      "- ✘ *The article speaks about …* → ✔ *The article discusses …* / *is about …*",
+      "",
+      "**Ojo:** *sensible* ≠ *sensitive*; *conclude* (concluir) ≠ *include* (incluir). *Resume* (verbo) = reanudar; para resumir = *summarise*.",
+      "",
+      "Pronunciación: *summarise* /ˈsʌməraɪz/ · *comprehension* /ˌkɒmprɪˈhenʃn/ · *acknowledge* /əkˈnɒlɪdʒ/."
+    ],
     "common_mistakes_es": [
       {
         "wrong": "The author say that…",

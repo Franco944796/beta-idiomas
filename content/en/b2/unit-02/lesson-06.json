@@ -28,7 +28,15 @@
     "glossary": []
   },
   "explanation": {
-    "md_es": "**Repaso de la unidad 2**\n\n- *burnout · turnover · upskilling · meet a deadline · be made redundant*\n- *If I had known, I would have …* · *If I hadn't …, I wouldn't have …*\n- *If I had studied, I'd be … now.* · *If I were you, I'd have …* · *If it hadn't been for …*\n- *Sorry to interrupt, but … · I'd suggest + -ing · Could you clarify …?*\n- *I am writing to … · I would be grateful if you could … · Yours sincerely / faithfully.*",
+    "md_es": [
+      "**Repaso de la unidad 2**",
+      "",
+      "- *burnout · turnover · upskilling · meet a deadline · be made redundant*",
+      "- *If I had known, I would have …* · *If I hadn't …, I wouldn't have …*",
+      "- *If I had studied, I'd be … now.* · *If I were you, I'd have …* · *If it hadn't been for …*",
+      "- *Sorry to interrupt, but … · I'd suggest + -ing · Could you clarify …?*",
+      "- *I am writing to … · I would be grateful if you could … · Yours sincerely / faithfully.*"
+    ],
     "common_mistakes_es": [],
     "false_friends": []
   },
@@ -734,7 +742,14 @@
         "¿Das una razón concreta?",
         "¿Cierras con Yours sincerely?"
       ],
-      "model_answer": "Dear Mr Collins,\n\nI am writing to ask whether it would be possible to work from home two days a week. Since the new project began, I have found it difficult to concentrate in the open-plan office. I would be grateful if you could consider a trial period of three months. If I had known about this option earlier, I would have asked sooner. I am confident that I can maintain my current productivity and meet all deadlines. I would appreciate it if we could discuss this in a short meeting next week. Thank you for your time and consideration.\n\nYours sincerely,\nAna Pérez",
+      "model_answer": [
+        "Dear Mr Collins,",
+        "",
+        "I am writing to ask whether it would be possible to work from home two days a week. Since the new project began, I have found it difficult to concentrate in the open-plan office. I would be grateful if you could consider a trial period of three months. If I had known about this option earlier, I would have asked sooner. I am confident that I can maintain my current productivity and meet all deadlines. I would appreciate it if we could discuss this in a short meeting next week. Thank you for your time and consideration.",
+        "",
+        "Yours sincerely,",
+        "Ana Pérez"
+      ],
       "feedback": {
         "correct": "¡Correcto! Compara tu texto con el modelo y la lista de control.",
         "incorrect": "Revisa esto: Compara tu texto con el modelo y la lista de control."

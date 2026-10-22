@@ -1,1 +1,179 @@
-{"book":"jekyll-hyde","n":7,"title":"Incident at the Window","words":556,"summary_es":"Utterson y Enfield ven a Jekyll en una ventana. Mientras hablan, su rostro cambia a una expresión de terror absoluto y cierra la ventana. Los dos se alejan en silencio.","blocks":[{"t":"p","text":"It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the by-street; and that when they came in front of the door, both stopped to gaze on it."},{"t":"p","text":"\"Well,\" said Enfield, \"that story's at an end at least. We shall never see more of Mr. Hyde.\""},{"t":"p","text":"\"I hope not,\" said Utterson. \"Did I ever tell you that I once saw him, and shared your feeling of repulsion?\""},{"t":"p","text":"\"It was impossible to do the one without the other,\" returned Enfield. \"And by the way, what an ass you must have thought me, not to know that this was a back way to Dr. Jekyll's! It was partly your own fault that I found it out, even when I did.\""},{"t":"p","text":"\"So you found it out, did you?\" said Utterson. \"But if that be so, we may step into the court and take a look at the windows. To tell you the truth, I am uneasy about poor Jekyll; and even outside, I feel as if the presence of a friend might do him good.\""},{"t":"p","text":"The court was very cool and a little damp, and full of premature twilight, although the sky, high up overhead, was still bright with sunset. The middle one of the three windows was half-way open; and sitting close beside it, taking the air with an infinite sadness of mien, like some disconsolate prisoner, Utterson saw Dr. Jekyll."},{"t":"p","text":"\"What! Jekyll!\" he cried. \"I trust you are better.\""},{"t":"p","text":"\"I am very low, Utterson,\" replied the doctor drearily, \"very low. It will not last long, thank God.\""},{"t":"p","text":"\"You stay too much indoors,\" said the lawyer. \"You should be out, whipping up the circulation like Mr. Enfield and me. (This is my cousin—Mr. Enfield—Dr. Jekyll.) Come now; get your hat and take a quick turn with us.\""},{"t":"p","text":"\"You are very good,\" sighed the other. \"I should like to very much; but no, no, no, it is quite impossible; I dare not. But indeed, Utterson, I am very glad to see you; this is really a great pleasure; I would ask you and Mr. Enfield up, but the place is really not fit.\""},{"t":"p","text":"\"Why, then,\" said the lawyer, good-naturedly, \"the best thing we can do is to stay down here and speak with you from where we are.\""},{"t":"p","text":"\"That is just what I was about to venture to propose,\" returned the doctor with a smile. But the words were hardly uttered, before the smile was struck out of his face and succeeded by an expression of such abject terror and despair, as froze the very blood of the two gentlemen below. They saw it but for a glimpse for the window was instantly thrust down; but that glimpse had been sufficient, and they turned and left the court without a word. In silence, too, they traversed the by-street; and it was not until they had come into a neighbouring thoroughfare, where even upon a Sunday there were still some stirrings of life, that Mr. Utterson at last turned and looked at his companion. They were both pale; and there was an answering horror in their eyes."},{"t":"p","text":"\"God forgive us, God forgive us,\" said Mr. Utterson."},{"t":"p","text":"But Mr. Enfield only nodded his head very seriously, and walked on once more in silence."}],"glossary":[{"en":"chanced","es":"sucedió por casualidad"},{"en":"damp","es":"húmedo"},{"en":"disconsolate","es":"desconsolado"},{"en":"prisoner","es":"prisionero"},{"en":"indoors","es":"en casa, adentro"},{"en":"circulation","es":"circulación"},{"en":"abject","es":"abyecto, absoluto"},{"en":"terror","es":"terror"},{"en":"despair","es":"desesperación"},{"en":"froze","es":"heló"},{"en":"nodded","es":"asintió"},{"en":"thoroughfare","es":"calle principal"}],"questions":[{"type":"mc","q":"Where do Utterson and Enfield see Jekyll?","options":["At a window of his house","In the park","At church","In a restaurant"],"answer":"At a window of his house","why":"Está sentado junto a la ventana, como un prisionero."},{"type":"mc","q":"What do they invite Jekyll to do?","options":["Come out for a walk","Have dinner","Go to the theatre","Sign the will"],"answer":"Come out for a walk","why":"Le dicen que sale poco: You stay too much indoors."},{"type":"mc","q":"What happens to Jekyll's face?","options":["It suddenly shows abject terror and despair","He starts laughing","He falls asleep","He begins to cry"],"answer":"It suddenly shows abject terror and despair","why":"Probablemente empieza a transformarse."},{"type":"tf","q":"Utterson and Enfield discuss what they saw in detail.","answer":false,"why":"Se van en silencio; solo dicen 'God forgive us'."},{"type":"mc","q":"What has Enfield discovered about the door in chapter 1?","options":["It is the back door of Jekyll's house","It belongs to Lanyon","It has been demolished","It is a church door"],"answer":"It is the back door of Jekyll's house","why":"Ahora sabe que el edificio es el laboratorio de Jekyll."},{"type":"fill","q":"Complete: an expression of such abject terror and ___, as froze the very blood of the two gentlemen.","answer":["despair"],"why":"Despair = desesperación."}]}
+{
+  "book": "jekyll-hyde",
+  "n": 7,
+  "title": "Incident at the Window",
+  "words": 556,
+  "summary_es": "Utterson y Enfield ven a Jekyll en una ventana. Mientras hablan, su rostro cambia a una expresión de terror absoluto y cierra la ventana. Los dos se alejan en silencio.",
+  "blocks": [
+    {
+      "t": "p",
+      "text": "It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the by-street; and that when they came in front of the door, both stopped to gaze on it."
+    },
+    {
+      "t": "p",
+      "text": "\"Well,\" said Enfield, \"that story's at an end at least. We shall never see more of Mr. Hyde.\""
+    },
+    {
+      "t": "p",
+      "text": "\"I hope not,\" said Utterson. \"Did I ever tell you that I once saw him, and shared your feeling of repulsion?\""
+    },
+    {
+      "t": "p",
+      "text": "\"It was impossible to do the one without the other,\" returned Enfield. \"And by the way, what an ass you must have thought me, not to know that this was a back way to Dr. Jekyll's! It was partly your own fault that I found it out, even when I did.\""
+    },
+    {
+      "t": "p",
+      "text": "\"So you found it out, did you?\" said Utterson. \"But if that be so, we may step into the court and take a look at the windows. To tell you the truth, I am uneasy about poor Jekyll; and even outside, I feel as if the presence of a friend might do him good.\""
+    },
+    {
+      "t": "p",
+      "text": "The court was very cool and a little damp, and full of premature twilight, although the sky, high up overhead, was still bright with sunset. The middle one of the three windows was half-way open; and sitting close beside it, taking the air with an infinite sadness of mien, like some disconsolate prisoner, Utterson saw Dr. Jekyll."
+    },
+    {
+      "t": "p",
+      "text": "\"What! Jekyll!\" he cried. \"I trust you are better.\""
+    },
+    {
+      "t": "p",
+      "text": "\"I am very low, Utterson,\" replied the doctor drearily, \"very low. It will not last long, thank God.\""
+    },
+    {
+      "t": "p",
+      "text": "\"You stay too much indoors,\" said the lawyer. \"You should be out, whipping up the circulation like Mr. Enfield and me. (This is my cousin—Mr. Enfield—Dr. Jekyll.) Come now; get your hat and take a quick turn with us.\""
+    },
+    {
+      "t": "p",
+      "text": "\"You are very good,\" sighed the other. \"I should like to very much; but no, no, no, it is quite impossible; I dare not. But indeed, Utterson, I am very glad to see you; this is really a great pleasure; I would ask you and Mr. Enfield up, but the place is really not fit.\""
+    },
+    {
+      "t": "p",
+      "text": "\"Why, then,\" said the lawyer, good-naturedly, \"the best thing we can do is to stay down here and speak with you from where we are.\""
+    },
+    {
+      "t": "p",
+      "text": "\"That is just what I was about to venture to propose,\" returned the doctor with a smile. But the words were hardly uttered, before the smile was struck out of his face and succeeded by an expression of such abject terror and despair, as froze the very blood of the two gentlemen below. They saw it but for a glimpse for the window was instantly thrust down; but that glimpse had been sufficient, and they turned and left the court without a word. In silence, too, they traversed the by-street; and it was not until they had come into a neighbouring thoroughfare, where even upon a Sunday there were still some stirrings of life, that Mr. Utterson at last turned and looked at his companion. They were both pale; and there was an answering horror in their eyes."
+    },
+    {
+      "t": "p",
+      "text": "\"God forgive us, God forgive us,\" said Mr. Utterson."
+    },
+    {
+      "t": "p",
+      "text": "But Mr. Enfield only nodded his head very seriously, and walked on once more in silence."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "chanced",
+      "es": "sucedió por casualidad"
+    },
+    {
+      "en": "damp",
+      "es": "húmedo"
+    },
+    {
+      "en": "disconsolate",
+      "es": "desconsolado"
+    },
+    {
+      "en": "prisoner",
+      "es": "prisionero"
+    },
+    {
+      "en": "indoors",
+      "es": "en casa, adentro"
+    },
+    {
+      "en": "circulation",
+      "es": "circulación"
+    },
+    {
+      "en": "abject",
+      "es": "abyecto, absoluto"
+    },
+    {
+      "en": "terror",
+      "es": "terror"
+    },
+    {
+      "en": "despair",
+      "es": "desesperación"
+    },
+    {
+      "en": "froze",
+      "es": "heló"
+    },
+    {
+      "en": "nodded",
+      "es": "asintió"
+    },
+    {
+      "en": "thoroughfare",
+      "es": "calle principal"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "Where do Utterson and Enfield see Jekyll?",
+      "options": [
+        "At a window of his house",
+        "In the park",
+        "At church",
+        "In a restaurant"
+      ],
+      "answer": "At a window of his house",
+      "why": "Está sentado junto a la ventana, como un prisionero."
+    },
+    {
+      "type": "mc",
+      "q": "What do they invite Jekyll to do?",
+      "options": [
+        "Come out for a walk",
+        "Have dinner",
+        "Go to the theatre",
+        "Sign the will"
+      ],
+      "answer": "Come out for a walk",
+      "why": "Le dicen que sale poco: You stay too much indoors."
+    },
+    {
+      "type": "mc",
+      "q": "What happens to Jekyll's face?",
+      "options": [
+        "It suddenly shows abject terror and despair",
+        "He starts laughing",
+        "He falls asleep",
+        "He begins to cry"
+      ],
+      "answer": "It suddenly shows abject terror and despair",
+      "why": "Probablemente empieza a transformarse."
+    },
+    {
+      "type": "tf",
+      "q": "Utterson and Enfield discuss what they saw in detail.",
+      "answer": false,
+      "why": "Se van en silencio; solo dicen 'God forgive us'."
+    },
+    {
+      "type": "mc",
+      "q": "What has Enfield discovered about the door in chapter 1?",
+      "options": [
+        "It is the back door of Jekyll's house",
+        "It belongs to Lanyon",
+        "It has been demolished",
+        "It is a church door"
+      ],
+      "answer": "It is the back door of Jekyll's house",
+      "why": "Ahora sabe que el edificio es el laboratorio de Jekyll."
+    },
+    {
+      "type": "fill",
+      "q": "Complete: an expression of such abject terror and ___, as froze the very blood of the two gentlemen.",
+      "answer": [
+        "despair"
+      ],
+      "why": "Despair = desesperación."
+    }
+  ]
+}

@@ -25,8 +25,14 @@
   },
   "input": {
     "type": "text",
-    "text": "Informal: Hi Tom, Can you send me the report today? Thanks! Ana.\nFormal: Dear Ms Taylor, I am writing to ask about the job advertised on your website. I would be grateful if you could send me more information. I look forward to hearing from you. Yours sincerely, Laura Green.",
-    "es": "Informal: Hola Tom, ¿puedes enviarme el informe hoy? ¡Gracias! Ana.\nFormal: Estimada Sra. Taylor: Le escribo para preguntar por el puesto publicado en su sitio web. Le agradecería que pudiera enviarme más información. Quedo a la espera de su respuesta. Atentamente, Laura Green.",
+    "text": [
+      "Informal: Hi Tom, Can you send me the report today? Thanks! Ana.",
+      "Formal: Dear Ms Taylor, I am writing to ask about the job advertised on your website. I would be grateful if you could send me more information. I look forward to hearing from you. Yours sincerely, Laura Green."
+    ],
+    "es": [
+      "Informal: Hola Tom, ¿puedes enviarme el informe hoy? ¡Gracias! Ana.",
+      "Formal: Estimada Sra. Taylor: Le escribo para preguntar por el puesto publicado en su sitio web. Le agradecería que pudiera enviarme más información. Quedo a la espera de su respuesta. Atentamente, Laura Green."
+    ],
     "glossary": [
       {
         "id": "en-dear",
@@ -87,7 +93,29 @@
     ]
   },
   "explanation": {
-    "md_es": "**Correo informal vs formal**\n\n| | Informal (compañeros, amigos) | Formal (jefes, empresas, desconocidos) |\n|---|---|---|\n| Saludo | *Hi Tom,* | *Dear Ms Taylor,* / *Dear Mr Hill,* |\n| Pedido | *Can you send me …?* | *I would be grateful if you could send me …* · *Could you please …?* |\n| Motivo | *I'm writing about …* | *I am writing to ask about …* |\n| Cierre | *Thanks! · See you · Best wishes* | *I look forward to hearing from you.* |\n| Despedida | *Best, Ana* | *Yours sincerely,* (conoces el nombre) · *Yours faithfully,* (*Dear Sir or Madam*) |\n\n**Llamada telefónica**\n\n- *Hello, this is Laura Green. Could I speak to Mr Hill, please?*\n- *Speaking.* (soy yo) · *Who's calling?* (¿con quién hablo?) · *Hold on, please.* (espere) · *I'll put you through.* (le comunico)\n- *I'm afraid he isn't available. Can I take a message?* (lo siento, no está disponible)\n- *Could you ask him to call me back?* · *Could you spell your name, please?*\n- *Thank you for calling.*\n\n**Ojo:** *I am writing to + verbo* (para indicar el motivo): *I am writing to ask…* (no *for ask*).\n\nPronunciación: *grateful* /ˈɡreɪtfl/ · *sincerely* /sɪnˈsɪəli/.",
+    "md_es": [
+      "**Correo informal vs formal**",
+      "",
+      "| | Informal (compañeros, amigos) | Formal (jefes, empresas, desconocidos) |",
+      "|---|---|---|",
+      "| Saludo | *Hi Tom,* | *Dear Ms Taylor,* / *Dear Mr Hill,* |",
+      "| Pedido | *Can you send me …?* | *I would be grateful if you could send me …* · *Could you please …?* |",
+      "| Motivo | *I'm writing about …* | *I am writing to ask about …* |",
+      "| Cierre | *Thanks! · See you · Best wishes* | *I look forward to hearing from you.* |",
+      "| Despedida | *Best, Ana* | *Yours sincerely,* (conoces el nombre) · *Yours faithfully,* (*Dear Sir or Madam*) |",
+      "",
+      "**Llamada telefónica**",
+      "",
+      "- *Hello, this is Laura Green. Could I speak to Mr Hill, please?*",
+      "- *Speaking.* (soy yo) · *Who's calling?* (¿con quién hablo?) · *Hold on, please.* (espere) · *I'll put you through.* (le comunico)",
+      "- *I'm afraid he isn't available. Can I take a message?* (lo siento, no está disponible)",
+      "- *Could you ask him to call me back?* · *Could you spell your name, please?*",
+      "- *Thank you for calling.*",
+      "",
+      "**Ojo:** *I am writing to + verbo* (para indicar el motivo): *I am writing to ask…* (no *for ask*).",
+      "",
+      "Pronunciación: *grateful* /ˈɡreɪtfl/ · *sincerely* /sɪnˈsɪəli/."
+    ],
     "common_mistakes_es": [
       {
         "wrong": "Hi Mr Taylor, send me information.",

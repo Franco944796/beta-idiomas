@@ -1,1 +1,112 @@
-{"id":"a1-my-town","level":"A1","title":"My town","title_es":"Mi ciudad","topic":"La ciudad","glossary":[{"en":"quiet","es":"tranquilo"},{"en":"hills","es":"colinas"},{"en":"post office","es":"correo"},{"en":"bakery","es":"panadería"},{"en":"smells of","es":"huele a"},{"en":"opposite","es":"enfrente de"}],"questions":[{"type":"mc","q":"¿Dónde está Hayfield?","options":["En el norte de Inglaterra","En el sur de Inglaterra","En Escocia","En Londres"],"answer":"En el norte de Inglaterra","why":"Dice: in the north of England."},{"type":"tf","q":"Hay un cine en Hayfield.","answer":false,"why":"Dice: There isn't a cinema."},{"type":"mc","q":"¿Cuántas escuelas hay?","options":["Tres","Dos","Una","Ninguna"],"answer":"Tres","why":"Dice: There are three schools."},{"type":"mc","q":"¿Qué hay al lado de su casa?","options":["Una panadería","Un parque","Un pub","La estación"],"answer":"Una panadería","why":"Dice: next to the bakery."},{"type":"mc","q":"¿Qué hay enfrente de su casa?","options":["Un parque con un río","Un supermercado","Una biblioteca","Un cine"],"answer":"Un parque con un río","why":"Dice: Opposite my house there is a park with a river."},{"type":"tf","q":"Por la noche hay muchas cosas para hacer.","answer":false,"why":"Dice: There isn't a lot to do!"},{"type":"fill","q":"Completa: Every morning, the street smells of fresh ___.","answer":["bread"],"why":"Bread = pan."}],"task":"Describe tu ciudad o barrio en 5 frases usando there is / there are.","words":119,"minutes":1,"paragraphs":["I live in Hayfield, a small town in the north of England. It's a quiet and beautiful place, with hills all around it.","In the town centre there is a supermarket, a post office, two pubs and a small library. There isn't a cinema, but there is a big cinema in the next town. There are three schools and a train station.","My house is on Station Road, next to the bakery. Every morning, the street smells of fresh bread! Opposite my house there is a park with a river.","I like my town because the people are friendly and there are lots of places for walking. But at night it's very quiet. There isn't a lot to do!"]}
+{
+  "id": "a1-my-town",
+  "level": "A1",
+  "title": "My town",
+  "title_es": "Mi ciudad",
+  "topic": "La ciudad",
+  "glossary": [
+    {
+      "en": "quiet",
+      "es": "tranquilo"
+    },
+    {
+      "en": "hills",
+      "es": "colinas"
+    },
+    {
+      "en": "post office",
+      "es": "correo"
+    },
+    {
+      "en": "bakery",
+      "es": "panadería"
+    },
+    {
+      "en": "smells of",
+      "es": "huele a"
+    },
+    {
+      "en": "opposite",
+      "es": "enfrente de"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "¿Dónde está Hayfield?",
+      "options": [
+        "En el norte de Inglaterra",
+        "En el sur de Inglaterra",
+        "En Escocia",
+        "En Londres"
+      ],
+      "answer": "En el norte de Inglaterra",
+      "why": "Dice: in the north of England."
+    },
+    {
+      "type": "tf",
+      "q": "Hay un cine en Hayfield.",
+      "answer": false,
+      "why": "Dice: There isn't a cinema."
+    },
+    {
+      "type": "mc",
+      "q": "¿Cuántas escuelas hay?",
+      "options": [
+        "Tres",
+        "Dos",
+        "Una",
+        "Ninguna"
+      ],
+      "answer": "Tres",
+      "why": "Dice: There are three schools."
+    },
+    {
+      "type": "mc",
+      "q": "¿Qué hay al lado de su casa?",
+      "options": [
+        "Una panadería",
+        "Un parque",
+        "Un pub",
+        "La estación"
+      ],
+      "answer": "Una panadería",
+      "why": "Dice: next to the bakery."
+    },
+    {
+      "type": "mc",
+      "q": "¿Qué hay enfrente de su casa?",
+      "options": [
+        "Un parque con un río",
+        "Un supermercado",
+        "Una biblioteca",
+        "Un cine"
+      ],
+      "answer": "Un parque con un río",
+      "why": "Dice: Opposite my house there is a park with a river."
+    },
+    {
+      "type": "tf",
+      "q": "Por la noche hay muchas cosas para hacer.",
+      "answer": false,
+      "why": "Dice: There isn't a lot to do!"
+    },
+    {
+      "type": "fill",
+      "q": "Completa: Every morning, the street smells of fresh ___.",
+      "answer": [
+        "bread"
+      ],
+      "why": "Bread = pan."
+    }
+  ],
+  "task": "Describe tu ciudad o barrio en 5 frases usando there is / there are.",
+  "words": 119,
+  "minutes": 1,
+  "paragraphs": [
+    "I live in Hayfield, a small town in the north of England. It's a quiet and beautiful place, with hills all around it.",
+    "In the town centre there is a supermarket, a post office, two pubs and a small library. There isn't a cinema, but there is a big cinema in the next town. There are three schools and a train station.",
+    "My house is on Station Road, next to the bakery. Every morning, the street smells of fresh bread! Opposite my house there is a park with a river.",
+    "I like my town because the people are friendly and there are lots of places for walking. But at night it's very quiet. There isn't a lot to do!"
+  ]
+}

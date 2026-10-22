@@ -1,1 +1,167 @@
-{"id":"b2-habits","level":"B2","title":"The science of habits","title_es":"La ciencia de los hábitos","topic":"Psicología","glossary":[{"en":"resolutions","es":"propósitos"},{"en":"willpower","es":"fuerza de voluntad"},{"en":"conscious","es":"consciente"},{"en":"triggered by","es":"provocado/desencadenado por"},{"en":"loop","es":"ciclo, bucle"},{"en":"cue","es":"señal, disparador"},{"en":"reward","es":"recompensa"},{"en":"range","es":"rango, variación"},{"en":"encouragingly","es":"de manera alentadora"},{"en":"resist","es":"resistir"},{"en":"outcomes","es":"resultados"},{"en":"evidence","es":"prueba, evidencia"}],"questions":[{"type":"mc","q":"According to psychologists, why do most resolutions fail?","options":["People misunderstand how habits work","People lack willpower","January is too cold","Goals are too easy"],"answer":"People misunderstand how habits work","why":"Dice: not usually a lack of willpower, but a misunderstanding."},{"type":"mc","q":"What are the three parts of the habit loop?","options":["Cue, routine, reward","Goal, plan, result","Start, middle, end","Thought, decision, action"],"answer":"Cue, routine, reward","why":"Párrafo 2."},{"type":"tf","q":"The study at University College London confirmed the 21-day rule.","answer":false,"why":"Encontró un promedio de unos 66 días y gran variación."},{"type":"mc","q":"What did the study find about missing a day?","options":["It did not seriously damage the process","People had to start again","It doubled the time needed","It made the habit stronger"],"answer":"It did not seriously damage the process","why":"Dice: missing a single day did not seriously damage the process."},{"type":"mc","q":"Which strategy is an example of 'linking' habits?","options":["After I make coffee, I will read one page","Running a marathon","Leaving the phone in another room","Exercising for an hour"],"answer":"After I make coffee, I will read one page","why":"Es el ejemplo de vincular un hábito nuevo con uno existente."},{"type":"mc","q":"Why should rewards be immediate?","options":["The brain values instant pleasure more than distant benefits","Rewards are cheaper","It is easier to remember","Distant rewards don't exist"],"answer":"The brain values instant pleasure more than distant benefits","why":"Último punto del párrafo 4."},{"type":"mc","q":"What does focusing on 'identity' mean?","options":["Seeing yourself as the kind of person who does the habit","Changing your name","Setting bigger goals","Comparing yourself with others"],"answer":"Seeing yourself as the kind of person who does the habit","why":"Ejemplo: I am someone who runs."},{"type":"mc","q":"The word 'cue' in paragraph 2 is closest in meaning to…","options":["signal","line","reward","problem"],"answer":"signal","why":"Cue = señal que dispara la conducta."},{"type":"fill","q":"Find a word in paragraph 1 meaning 'the strength to control yourself': a lack of ___.","answer":["willpower"],"why":"Willpower = fuerza de voluntad."}],"task":"Diseña un hábito nuevo para ti en 120–150 palabras usando el modelo señal-rutina-recompensa y al menos dos estrategias del texto.","words":332,"minutes":3,"paragraphs":["Every January, millions of people promise themselves that this will be the year they exercise regularly, eat better or learn a language. By February, most of those resolutions have quietly disappeared. The problem, according to psychologists, is not usually a lack of willpower, but a misunderstanding of how habits actually work.","A habit is a behaviour that has become automatic: we do it with little conscious thought, triggered by a particular situation. Researchers often describe it as a loop. First comes a cue, such as arriving home or finishing a meal. Then comes the routine, the behaviour itself. Finally there is a reward, a pleasant feeling that makes the brain more likely to repeat the sequence next time.","How long does it take for a new behaviour to become automatic? A popular claim says twenty-one days, but there is little evidence for it. In a well-known study at University College London, volunteers chose a simple daily habit, such as drinking a glass of water after breakfast. On average it took around sixty-six days for the behaviour to become automatic, but the range was enormous, from under three weeks to the better part of a year. Encouragingly, missing a single day did not seriously damage the process.","This research suggests several practical strategies. Start small: two minutes of exercise you actually do are worth more than an hour you only plan. Link the new habit to an existing one (\"After I make coffee, I will read one page\"). Make the desired behaviour easy and the undesired one difficult; leaving your phone in another room is more effective than trying to resist checking it. And make the reward immediate, because the brain values instant pleasure far more than distant benefits.","Perhaps the most important lesson is to focus on identity rather than outcomes. Instead of \"I want to run a marathon\", try \"I am someone who runs\". Each small action becomes evidence for the kind of person you want to be."]}
+{
+  "id": "b2-habits",
+  "level": "B2",
+  "title": "The science of habits",
+  "title_es": "La ciencia de los hábitos",
+  "topic": "Psicología",
+  "glossary": [
+    {
+      "en": "resolutions",
+      "es": "propósitos"
+    },
+    {
+      "en": "willpower",
+      "es": "fuerza de voluntad"
+    },
+    {
+      "en": "conscious",
+      "es": "consciente"
+    },
+    {
+      "en": "triggered by",
+      "es": "provocado/desencadenado por"
+    },
+    {
+      "en": "loop",
+      "es": "ciclo, bucle"
+    },
+    {
+      "en": "cue",
+      "es": "señal, disparador"
+    },
+    {
+      "en": "reward",
+      "es": "recompensa"
+    },
+    {
+      "en": "range",
+      "es": "rango, variación"
+    },
+    {
+      "en": "encouragingly",
+      "es": "de manera alentadora"
+    },
+    {
+      "en": "resist",
+      "es": "resistir"
+    },
+    {
+      "en": "outcomes",
+      "es": "resultados"
+    },
+    {
+      "en": "evidence",
+      "es": "prueba, evidencia"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "According to psychologists, why do most resolutions fail?",
+      "options": [
+        "People misunderstand how habits work",
+        "People lack willpower",
+        "January is too cold",
+        "Goals are too easy"
+      ],
+      "answer": "People misunderstand how habits work",
+      "why": "Dice: not usually a lack of willpower, but a misunderstanding."
+    },
+    {
+      "type": "mc",
+      "q": "What are the three parts of the habit loop?",
+      "options": [
+        "Cue, routine, reward",
+        "Goal, plan, result",
+        "Start, middle, end",
+        "Thought, decision, action"
+      ],
+      "answer": "Cue, routine, reward",
+      "why": "Párrafo 2."
+    },
+    {
+      "type": "tf",
+      "q": "The study at University College London confirmed the 21-day rule.",
+      "answer": false,
+      "why": "Encontró un promedio de unos 66 días y gran variación."
+    },
+    {
+      "type": "mc",
+      "q": "What did the study find about missing a day?",
+      "options": [
+        "It did not seriously damage the process",
+        "People had to start again",
+        "It doubled the time needed",
+        "It made the habit stronger"
+      ],
+      "answer": "It did not seriously damage the process",
+      "why": "Dice: missing a single day did not seriously damage the process."
+    },
+    {
+      "type": "mc",
+      "q": "Which strategy is an example of 'linking' habits?",
+      "options": [
+        "After I make coffee, I will read one page",
+        "Running a marathon",
+        "Leaving the phone in another room",
+        "Exercising for an hour"
+      ],
+      "answer": "After I make coffee, I will read one page",
+      "why": "Es el ejemplo de vincular un hábito nuevo con uno existente."
+    },
+    {
+      "type": "mc",
+      "q": "Why should rewards be immediate?",
+      "options": [
+        "The brain values instant pleasure more than distant benefits",
+        "Rewards are cheaper",
+        "It is easier to remember",
+        "Distant rewards don't exist"
+      ],
+      "answer": "The brain values instant pleasure more than distant benefits",
+      "why": "Último punto del párrafo 4."
+    },
+    {
+      "type": "mc",
+      "q": "What does focusing on 'identity' mean?",
+      "options": [
+        "Seeing yourself as the kind of person who does the habit",
+        "Changing your name",
+        "Setting bigger goals",
+        "Comparing yourself with others"
+      ],
+      "answer": "Seeing yourself as the kind of person who does the habit",
+      "why": "Ejemplo: I am someone who runs."
+    },
+    {
+      "type": "mc",
+      "q": "The word 'cue' in paragraph 2 is closest in meaning to…",
+      "options": [
+        "signal",
+        "line",
+        "reward",
+        "problem"
+      ],
+      "answer": "signal",
+      "why": "Cue = señal que dispara la conducta."
+    },
+    {
+      "type": "fill",
+      "q": "Find a word in paragraph 1 meaning 'the strength to control yourself': a lack of ___.",
+      "answer": [
+        "willpower"
+      ],
+      "why": "Willpower = fuerza de voluntad."
+    }
+  ],
+  "task": "Diseña un hábito nuevo para ti en 120–150 palabras usando el modelo señal-rutina-recompensa y al menos dos estrategias del texto.",
+  "words": 332,
+  "minutes": 3,
+  "paragraphs": [
+    "Every January, millions of people promise themselves that this will be the year they exercise regularly, eat better or learn a language. By February, most of those resolutions have quietly disappeared. The problem, according to psychologists, is not usually a lack of willpower, but a misunderstanding of how habits actually work.",
+    "A habit is a behaviour that has become automatic: we do it with little conscious thought, triggered by a particular situation. Researchers often describe it as a loop. First comes a cue, such as arriving home or finishing a meal. Then comes the routine, the behaviour itself. Finally there is a reward, a pleasant feeling that makes the brain more likely to repeat the sequence next time.",
+    "How long does it take for a new behaviour to become automatic? A popular claim says twenty-one days, but there is little evidence for it. In a well-known study at University College London, volunteers chose a simple daily habit, such as drinking a glass of water after breakfast. On average it took around sixty-six days for the behaviour to become automatic, but the range was enormous, from under three weeks to the better part of a year. Encouragingly, missing a single day did not seriously damage the process.",
+    "This research suggests several practical strategies. Start small: two minutes of exercise you actually do are worth more than an hour you only plan. Link the new habit to an existing one (\"After I make coffee, I will read one page\"). Make the desired behaviour easy and the undesired one difficult; leaving your phone in another room is more effective than trying to resist checking it. And make the reward immediate, because the brain values instant pleasure far more than distant benefits.",
+    "Perhaps the most important lesson is to focus on identity rather than outcomes. Instead of \"I want to run a marathon\", try \"I am someone who runs\". Each small action becomes evidence for the kind of person you want to be."
+  ]
+}
