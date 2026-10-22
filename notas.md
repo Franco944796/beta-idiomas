@@ -30,6 +30,7 @@ N. Modificar la interfaz para que sea interactiva, como un "juego". (?)
 
 
 Implementar:
-- El diseno de los ejercicios proporcionados para CU y DTE, me gusta mas ese diseno para web que el que es tipo "juego", quizas eso lo implemente para la version app a futuro. Por ahora modifica la web de idiomas con ese estilo.
-- Que se puedan descargar en pdf los libros completos.
-- Apartado de notas para cada texto, y que se pueda "subrayar" o "marcar" palabras u oraciones, y que eso aparezca en las notas en forma de burbuja coloreada...Por ejemplo para seleccionar una oracion y luego agregar una aclaracion en dichas notas.
+- Modificar: El diseno de los ejercicios proporcionados para CU y DTE, me gusta mas ese diseno para web que el que es tipo "juego", quizas eso lo implemente para la version app a futuro. Por ahora modifica la web de idiomas con ese estilo.
+- Agregar: Que se puedan descargar en pdf los libros completos (seccion autoaprendizaje).
+- Agregar: Apartado de notas para cada texto, y que se pueda "subrayar" o "marcar" palabras u oraciones, y que eso aparezca en las notas en forma de burbuja coloreada...Por ejemplo para seleccionar una oracion y luego agregar una aclaracion en dichas notas.
+- Arreglar: En los textos del modo autoaprendizaje, al tocar una palabra para ver su definicion y traduccion...Tener en cuenta que el selector de idiomas debe afectar a dicha traduccion (estando con el selector en ruso, al seleccionar cualquier palabra me da la traduccion y significado en espanol, cosa que esta mal).
