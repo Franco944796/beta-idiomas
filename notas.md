@@ -27,3 +27,9 @@ N. Modificar la interfaz para que sea interactiva, como un "juego". (?)
 - Agregar una opcion para descargar la unidad o ejercicios, en pdf (en caso de que se quiera imprimir y realizar en papel).
 
 - Sugerir que se aplique mas contenido a medida que se sube de "nivel", ya que es evidente que los ejercicios de las nuevas unidades sumados a los ejercicios de unidades anteriores adicionales, dara un total superior que la unidad anterior.
+
+
+Implementar:
+- El diseno de los ejercicios proporcionados para CU y DTE, me gusta mas ese diseno para web que el que es tipo "juego", quizas eso lo implemente para la version app a futuro. Por ahora modifica la web de idiomas con ese estilo.
+- Que se puedan descargar en pdf los libros completos.
+- Apartado de notas para cada texto, y que se pueda "subrayar" o "marcar" palabras u oraciones, y que eso aparezca en las notas en forma de burbuja coloreada...Por ejemplo para seleccionar una oracion y luego agregar una aclaracion en dichas notas.
