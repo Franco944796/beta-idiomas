@@ -87,6 +87,56 @@
     const t = id && id.includes('-l') ? (ovL(id) || {}).title : ovU(id);
     return t && t !== target ? t : '';
   };
+  // Textos de los ejercicios (consignas, explicaciones, opciones en español…): los packs de
+  // traducción traen un diccionario "ex" {texto en español: texto traducido}.
+  const exTr = (s) => {
+    if (typeof s !== 'string' || !s) return s;
+    for (const lv in OV) {
+      const d = OV[lv].ex;
+      if (d && Object.prototype.hasOwnProperty.call(d, s)) return d[s];
+    }
+    return s;
+  };
+  const FB_PREFIX = /^(¡Correcto!|Revisa esto:)\s*/;
+  const fbTr = (x) => {
+    if (typeof x !== 'string') return x;
+    const m = x.match(FB_PREFIX);
+    return m ? m[1] + ' ' + exTr(x.slice(m[0].length)) : exTr(x);
+  };
+  // Copia traducida de un ejercicio (o tarea opcional). Las respuestas en inglés no cambian;
+  // las opciones en español se traducen igual en "options" y en "answer", así la corrección sigue
+  // funcionando.
+  function localizeEx(e) {
+    if (ES() || !e) return e;
+    const x = JSON.parse(JSON.stringify(e)),
+      list = (a) => (Array.isArray(a) ? a.map(exTr) : a);
+    x.prompt = exTr(x.prompt);
+    x.situation_es = exTr(x.situation_es);
+    if (x.feedback) {
+      x.feedback.correct = fbTr(x.feedback.correct);
+      x.feedback.incorrect = fbTr(x.feedback.incorrect);
+    }
+    x.self_check_es = list(x.self_check_es);
+    x.options = list(x.options);
+    if (Array.isArray(x.answer)) x.answer = x.answer.map(exTr);
+    (x.items || []).forEach((i) => {
+      if (i.tip_es) i.tip_es = exTr(i.tip_es);
+    });
+    (x.turns || []).forEach((t) => {
+      if (t.why_es) t.why_es = exTr(t.why_es);
+    });
+    (x.pairs || []).forEach((p) => {
+      p.right = exTr(p.right);
+    });
+    return x;
+  }
+  const localizeExam = (E) =>
+    ES()
+      ? E
+      : Object.assign({}, E, {
+          exercises: E.exercises.map(localizeEx),
+          optional_tasks: (E.optional_tasks || []).map(localizeEx),
+        });
   const meaning = (w) =>
     (ES() ? w.translation_es || w.es : ovV(w.id) || w.translation_es || w.es) || '';
   function localize(L) {
@@ -116,6 +166,12 @@
         );
       C.explanation.false_friends = []; // los falsos amigos son específicos del español
     } else C.title.es = '';
+    ((C.explanation && C.explanation.common_mistakes_es) || []).forEach((m) => {
+      m.wrong = exTr(m.wrong);
+      m.right = exTr(m.right);
+    });
+    C.exercises = (C.exercises || []).map(localizeEx);
+    if (C.summary && C.summary.key_phrases) C.summary.key_phrases = C.summary.key_phrases.map(exTr);
     return C;
   }
   const fbTxt = (x) =>
@@ -1579,14 +1635,18 @@
 
   async function exam(cefr) {
     const lv = LV.find((l) => l.cefr === cefr),
-      E = await J(lv.exam.file),
-      n = E.exercises.length,
+      Eraw = await J(lv.exam.file),
+      n = Eraw.exercises.length,
       wrong = {};
     let i = 0,
-      sc = 0;
+      sc = 0,
+      E = localizeExam(Eraw);
     const step = () => {
       if (i >= n) return result();
-      redraw = step;
+      redraw = () => {
+        E = localizeExam(Eraw);
+        step();
+      };
       const s = stepCard(`${T('examTitle', { l: cefr })} <small>${i + 1}/${n}</small>`, i, n);
       runEx(
         E.exercises[i],
@@ -1658,7 +1718,10 @@
     };
     const opt = (k) => {
       if (k >= E.optional_tasks.length) return home();
-      redraw = () => opt(k);
+      redraw = () => {
+        E = localizeExam(Eraw);
+        opt(k);
+      };
       const s = stepCard(T('optTask'), k, E.optional_tasks.length);
       runEx(E.optional_tasks[k], s, () => opt(k + 1), { optional: true });
     };
@@ -2055,7 +2118,7 @@
         };
         let parts;
         if (kind === 'exam') {
-          const E = await J(ent.exam.file);
+          const E = localizeExam(await J(ent.exam.file));
           parts = [
             {
               head: T('examTitle', { l: id }),

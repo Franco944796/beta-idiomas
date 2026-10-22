@@ -103,3 +103,20 @@ reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosar
 - Solo autores fallecidos hace más de 70 años (dominio público también en Argentina y la UE).
 - `build.py` valida todo (respuestas presentes en las opciones, palabras del glosario y respuestas de completar que aparecen en el texto) y lo regenera.
 - Tipos de pregunta: `mc` (opción múltiple), `tf` (verdadero/falso), `fill` (escribir una palabra del texto).
+
+## Formato y legibilidad
+
+- **JSON con sangría**: todos los archivos de `content/` se escriben con `indent=2` (un campo por línea),
+  nunca en una sola línea.
+- **Textos de varias líneas como lista**: los campos `md`, `md_es`, `text`, `es` y `model_answer` que
+  tienen saltos de línea se guardan como **lista de líneas** (`lib.to_lines`). El reproductor
+  (`trilex.js`) y el lector (`lector.js`) las vuelven a unir con `"\n"` al cargar el JSON
+  (`JSON.parse(texto, joinLines)`), y `i18n_build.py` hace lo mismo con `lib.from_lines`.
+  Estas claves nunca son listas por otro motivo, así que la conversión no es ambigua.
+- **Código Python**: formateado con Black (`black --unstable -l 100`), que también parte las cadenas largas.
+- **Lecturas graduadas** (`reading_graded.py`): los párrafos largos están partidos en varias líneas; una línea
+  que empieza con 4 espacios es continuación de la anterior y `_unwrap()` la vuelve a unir con un espacio.
+- **Traducciones** (`i18n/*.py`): una clave por línea y los textos largos partidos en trozos
+  (`("…" "…")`, concatenación implícita de Python).
+- **Web** (`ingles/*.js|css|html`): formateada con Prettier (ancho 100); las plantillas HTML largas están
+  partidas en trozos concatenados con `+` (mismo HTML resultante).
