@@ -131,6 +131,10 @@ reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosar
   que empieza con 4 espacios es continuación de la anterior y `_unwrap()` la vuelve a unir con un espacio.
 - **Traducciones** (`i18n/*.py`): una clave por línea y los textos largos partidos en trozos
   (`("…" "…")`, concatenación implícita de Python).
+- **Contenido de cada unidad** (`i18n/<nivel>_uNN.py`): `UNIT` (títulos de la unidad) y `L` (títulos, objetivos,
+  diálogos y explicaciones por lección) en en, fr, de, it, pt, ru y zh; el español es el original del curso.
+- **Vocabulario** (`i18n/<nivel>_vocab.py`): `{id de la palabra: {idioma: significado}}`; `en` es una glosa breve
+  en inglés sencillo.
 - **Textos de los ejercicios** (`i18n/<nivel>_ex_<grupo>.py`, grupos `u01`…`uNN` y `exam`): diccionario
   `EX = {texto en español: {idioma: traducción}}` con las consignas, opciones, comentarios, listas de
   control y errores comunes que están en español. `ex_strings.py` decide qué textos hay que traducir;

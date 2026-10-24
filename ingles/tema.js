@@ -1,17 +1,8 @@
-/* Trilex · Inglés — tema claro / oscuro.
-
-   Se carga en el <head> de cada página (antes de pintar) para que no haya un destello blanco.
-   - Elección guardada en localStorage 'trilexTheme': 'auto' (sigue al sistema), 'light' o 'dark'.
-   - Pone data-theme="light|dark" en <html>; los colores están en shared-topic.css y lector.css.
-   - Agrega un botón redondo junto al selector de idioma que rota Automático → Claro → Oscuro.
-   - Al imprimir se usa siempre el tema claro (tinta negra sobre papel blanco). */
-
 (function () {
   var KEY = 'trilexTheme';
   var CHOICES = ['auto', 'light', 'dark'];
   var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
 
-  // textos del botón en los 8 idiomas de la interfaz
   var LABELS = {
     en: { title: 'Theme', auto: 'Automatic', light: 'Light', dark: 'Dark' },
     es: { title: 'Tema', auto: 'Automático', light: 'Claro', dark: 'Oscuro' },
@@ -23,7 +14,6 @@
     zh: { title: '主题', auto: '自动', light: '浅色', dark: '深色' },
   };
 
-  // íconos: medio círculo (automático), sol (claro), luna (oscuro)
   var ICONS = {
     auto:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" ' +
@@ -96,11 +86,9 @@
       apply();
       paint();
     });
-    // entre el selector de idioma y el botón de volver
     var back = actions.querySelector('a.pill');
     actions.insertBefore(button, back);
     paint();
-    // el selector de idioma cambia los textos del botón
     var select = document.getElementById('languageSelect');
     if (select) {
       select.addEventListener('change', function () {
@@ -111,7 +99,6 @@
 
   apply();
 
-  // en automático, seguir al sistema si cambia mientras la página está abierta
   if (media) {
     var onSystem = function () {
       if (choice === 'auto') apply();
@@ -120,7 +107,6 @@
     else if (media.addListener) media.addListener(onSystem);
   }
 
-  // otra pestaña cambió el tema
   window.addEventListener('storage', function (e) {
     if (e.key !== KEY) return;
     choice = CHOICES.indexOf(e.newValue) < 0 ? 'auto' : e.newValue;

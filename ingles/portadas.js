@@ -1,7 +1,3 @@
-/* Trilex – textos de las portadas del inglés: ingles.html, autoaprendizaje, aprendizaje guiado
-   y curso. Cada página indica su clave en <body data-page="…">; los elementos con
-   data-translate="clave" toman el texto en el idioma elegido. El idioma se guarda en
-   localStorage 'selectedLanguage' (compartido con todo el sitio). */
 (() => {
   'use strict';
   const PAGES = {

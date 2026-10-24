@@ -1,6 +1,3 @@
-/* Trilex – Autoaprendizaje: lector de lecturas graduadas y libros completos.
-   Lee ../content/en/reading/*.json y guarda el progreso en localStorage (trilex_read_v1):
-   notas, palabras guardadas, borradores y por dónde ibas en cada libro. */
 (() => {
   'use strict';
   const C = '../content/en/',
@@ -40,7 +37,6 @@
       .replace(/\s+/g, ' ')
       .trim();
 
-  /* ---------- progreso ---------- */
   let P = {};
   try {
     P = JSON.parse(localStorage.getItem(K)) || {};
@@ -52,7 +48,6 @@
     } catch (e) {}
   };
 
-  /* el tiempo de lectura suma a la meta diaria del curso (misma clave que trilex.js) */
   const pad2 = (n) => String(n).padStart(2, '0');
   const dkey = (d) => d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
   let lastAct = 0,
@@ -79,7 +74,6 @@
   );
   window.addEventListener('pagehide', flushTime);
 
-  /* ---------- audio ---------- */
   const canSpeak = 'speechSynthesis' in window;
   const say = (t) => {
     if (!canSpeak) return;
@@ -89,7 +83,7 @@
     u.rate = P.rate;
     speechSynthesis.speak(u);
   };
-  let reading = null; // párrafos que se están leyendo en voz alta
+  let reading = null;
   const stopRead = () => {
     if (canSpeak) speechSynthesis.cancel();
     if (reading) reading.forEach((e) => e.classList.remove('rd-now'));
@@ -112,12 +106,9 @@
     speechSynthesis.speak(u);
   };
 
-  /* ---------- diccionario ----------
-     1) glosario del texto abierto (GLOSS: palabra → significado en español)
-     2) vocabulario del curso (VOC: lema → significado en español)
-     Para los demás idiomas, reading/i18n/<idioma>.json {gloss, vocab} (generado por
-     tools/i18n_build.py) da el significado en el idioma elegido; en.json es además una
-     definición breve en inglés sencillo. */
+  // Orden de búsqueda: glosario del texto, luego vocabulario del curso. Para otros idiomas
+  // el significado sale de reading/i18n/<idioma>.json (tools/i18n_build.py); en.json es la
+  // definición en inglés sencillo.
   let VOC = null,
     GLOSS = {};
   const DICT = {};
@@ -139,7 +130,6 @@
     }));
   const loadDict = (lg) =>
     DICT[lg] || (DICT[lg] = J(R + 'i18n/' + lg + '.json').catch(() => ({ gloss: {}, vocab: {} })));
-  // formas base probables de una palabra (plural, pasado, -ing, comparativos…)
   const forms = (w) => {
     const o = [w];
     const add = (x) => {
@@ -183,7 +173,7 @@
         base,
         es,
         tr: own || es,
-        fallback: !own && lg !== 'es', // no hay traducción en el idioma elegido: se muestra el español
+        fallback: !own && lg !== 'es',
         def: lg === 'en' ? null : en[kind][base] || null,
         src,
       };
@@ -192,10 +182,8 @@
     for (const f of forms(w)) if (voc[f]) return out(f, voc[f], 'curso');
     return { w, base: w, tr: null };
   }
-  // significado de una entrada del glosario en el idioma elegido (para la lista de palabras clave)
   const glossMeaning = (g, d) => (L() === 'es' ? g.es : (d && d.gloss[norm(g.en)]) || g.es);
 
-  /* ---------- ventana emergente de una palabra ---------- */
   const pop = document.createElement('div');
   pop.className = 'rd-pop';
   pop.hidden = true;
@@ -209,6 +197,24 @@
     el.style.width = pw + 'px';
     el.style.left = Math.max(12, Math.min(x - pw / 2, vw - pw - 12)) + 'px';
     el.style.top = y + window.scrollY + 14 + 'px';
+  };
+  // Barra de colores y significado no deben taparse: en pantallas anchas van lado a lado;
+  // en el celular no entran, así que solo se muestra la barra.
+  const NARROW = 700,
+    narrow = () => document.documentElement.clientWidth < NARROW,
+    barOpen = () => selbar && !selbar.hidden;
+  const pairUp = () => {
+    if (!barOpen() || pop.hidden || !selbar.anchor) return;
+    const vw = document.documentElement.clientWidth,
+      w = 300,
+      gap = 12,
+      a = selbar.anchor;
+    const left = Math.max(12, Math.min(a.x - w - gap / 2, vw - 2 * w - gap - 12));
+    pop.style.width = w + 'px';
+    pop.style.left = left + 'px';
+    pop.style.top = a.y + window.scrollY + 14 + 'px';
+    selbar.style.width = w + 'px';
+    selbar.style.left = left + w + gap + 'px';
   };
   const dictLinks = (w) => {
     const e = encodeURIComponent(w),
@@ -242,6 +248,7 @@
   async function showWord(word, x, y, ctx) {
     const r = await lookup(word);
     if (!r) return hidePop();
+    if (narrow() && barOpen()) return hidePop();
     const saved = P.words.some((s) => s.w === r.base);
     const src =
       T(r.src === 'glosario' ? 'popGloss' : 'popCourse') +
@@ -263,6 +270,7 @@
       `${T(saved ? 'savedWord' : 'saveWord')}</button>`;
     pop.hidden = false;
     place(pop, x, y, 300);
+    if (!narrow()) pairUp();
     pop.onclick = (e) => {
       const a = e.target.closest('[data-act],.rd-x');
       if (!a) return;
@@ -284,10 +292,11 @@
     };
   }
   document.addEventListener('click', (e) => {
-    if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('.rd-text')) hidePop();
+    // fuera del texto se cierra (la barra de selección no cuenta: su «Traducir» la abre)
+    if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('.rd-text, .rd-selbar'))
+      hidePop();
   });
 
-  // palabra bajo el dedo o el cursor, con la oración en la que aparece
   const wordAt = (x, y) => {
     let node, off;
     if (document.caretRangeFromPoint) {
@@ -321,9 +330,8 @@
     };
   };
 
-  /* ---------- subrayados y notas ----------
-     P.notes[id] = {title, href, level, general, marks: [{id, color, quote, note, at,
-     ranges: [{p, s, e}]}]}; p = número de párrafo, s/e = posición en su texto. */
+  // P.notes[id] = {title, href, level, general, marks: [{id, color, quote, note, at,
+  // ranges: [{p, s, e}]}]}; p = párrafo, s/e = posición dentro de su texto.
   const COLORS = ['yellow', 'green', 'blue', 'pink'];
   const doc = (o) =>
     P.notes[o.id] ||
@@ -332,14 +340,12 @@
     const d = P.notes[id];
     if (d && !d.general && !d.marks.length) delete P.notes[id];
   };
-  // posición de (node, off) dentro del texto de el
   const offsetIn = (el, node, off) => {
     const r = document.createRange();
     r.setStart(el, 0);
     r.setEnd(node, off);
     return r.toString().length;
   };
-  // tramos de la selección actual dentro de los párrafos de txt
   const selRanges = (txt) => {
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
@@ -357,7 +363,6 @@
     });
     return out.length ? { ranges: out, quote: String(rg).replace(/\s+/g, ' ').trim() } : null;
   };
-  // envuelve el texto [s, e) de un párrafo en <span class="rd-mk">
   const wrapRange = (el, s, e, color, id) => {
     const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT),
       parts = [];
@@ -382,7 +387,6 @@
     });
   };
 
-  /* ---------- piezas comunes ---------- */
   const tabs = (cur) =>
     `<nav class="rd-tabs" aria-label="${T('readTitle')}">` +
     [
@@ -414,7 +418,6 @@
   let INDEX = null;
   const index = () => INDEX || (INDEX = J(R + 'index.json'));
 
-  /* ---------- lecturas graduadas ---------- */
   async function textsView(filter) {
     const ix = await index();
     const lv = filter || P.lvl || 'A1';
@@ -457,7 +460,6 @@
       `</div>`;
   }
 
-  /* ---------- libros ---------- */
   async function booksView() {
     const ix = await index();
     app.innerHTML =
@@ -526,7 +528,6 @@
       `</ol><p class="rd-pdfnote"><small>${T('pdSource')}</small></p></section>`;
   }
 
-  /* ---------- lector (lectura graduada o capítulo) ---------- */
   // o: {kind, id, noteTitle, href, level, kicker, title, sub, paragraphs|blocks, glossary, questions, task,
   //     back, backLabel, prev, next, summary, prevBest, onScore}
   async function readerShell(o) {
@@ -586,7 +587,6 @@
     const art = app.querySelector('.rd-reader'),
       txt = app.querySelector('.rd-text'),
       hl = app.querySelector('#rd-hl');
-    // texto: párrafos + palabras clave resaltadas (opcional) + subrayados del usuario
     const glossRe = (() => {
       const keys = (o.glossary || [])
         .map((g) => g.en)
@@ -656,12 +656,10 @@
       };
     }
 
-    /* notas: panel lateral con burbujas de colores */
     const panel = app.querySelector('#rd-notes');
     const drawNotes = () => {
       const nd = P.notes[o.id],
         marks = nd ? nd.marks.slice() : [];
-      // en el orden en que aparecen en el texto
       marks.sort((a, b) => a.ranges[0].p - b.ranges[0].p || a.ranges[0].s - b.ranges[0].s);
       panel.innerHTML =
         `<div class="rd-notes-head"><span class="kicker blue">${T('notesH')}</span>` +
@@ -726,7 +724,6 @@
     };
     drawNotes();
 
-    // barra que aparece al seleccionar texto: colores, nota y traducción
     const sb = document.createElement('div');
     sb.className = 'rd-selbar';
     sb.hidden = true;
@@ -778,6 +775,9 @@
       sb.hidden = false;
       // debajo de la selección (en el móvil, arriba queda el menú del sistema)
       place(sb, rect.left + rect.width / 2, rect.bottom + 6, 300);
+      sb.anchor = { x: rect.left + rect.width / 2, y: rect.bottom + 6 };
+      if (narrow()) hidePop();
+      else pairUp();
       sb.onmousedown = (e) => e.preventDefault(); // no perder la selección al tocar la barra
       sb.onclick = (e) => {
         const c = e.target.closest('[data-color]');
@@ -794,7 +794,6 @@
       clearTimeout(selT);
       selT = setTimeout(showBar, 220);
     };
-    // tocar una palabra (sin seleccionar): su significado
     txt.addEventListener('click', (e) => {
       const sel = window.getSelection && String(window.getSelection()).trim();
       if (sel) return;
@@ -807,7 +806,6 @@
   }
   let selbar = null;
 
-  /* ---------- preguntas de comprensión (cuadrícula con corrección inmediata) ---------- */
   function quiz(box, o) {
     const qs = o.questions || [];
     if (!qs.length) {
@@ -998,7 +996,6 @@
         save();
       },
     });
-    // volver a donde se dejó de leer
     const txt = app.querySelector('.rd-text'),
       key = String(n),
       y0 = st.pos[key];
@@ -1021,7 +1018,6 @@
     };
   }
 
-  /* ---------- mis palabras ---------- */
   function wordsView() {
     app.innerHTML =
       head(
@@ -1068,7 +1064,6 @@
     };
   }
 
-  /* ---------- mis notas (todos los textos) ---------- */
   function notesView() {
     const ids = Object.keys(P.notes).sort((a, b) => {
       const last = (d) => Math.max(0, ...d.marks.map((m) => m.at));
@@ -1101,7 +1096,6 @@
         : `<p class="rd-empty">${T('noNotes')}</p>`);
   }
 
-  /* ---------- rutas ---------- */
   async function route() {
     stopRead();
     hidePop();

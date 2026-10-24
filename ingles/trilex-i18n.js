@@ -1,11 +1,7 @@
-/* Trilex – textos de la interfaz en 8 idiomas (el mismo selector que el resto del sitio).
-   Cada clave: [en, es, fr, de, it, pt, ru, zh]. Usa TXI.t('clave', {var: valor}).
-   El idioma se guarda en localStorage 'selectedLanguage' (compartido con las demás páginas). */
 (() => {
   'use strict';
   const LANGS = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh'];
   const D = {
-    /* ---------- páginas ---------- */
     backSelf: [
       '← Self-Learning',
       '← Autoaprendizaje',
@@ -173,7 +169,6 @@
       '中高级',
     ],
 
-    /* ---------- lector ---------- */
     tabTexts: [
       'Graded readings',
       'Lecturas por nivel',
@@ -722,7 +717,6 @@
     ],
   };
 
-  /* temas de las lecturas graduadas (clave = texto en español del contenido) */
   const TOPIC = {
     Presentaciones: [
       'Introductions',
@@ -969,8 +963,6 @@
   };
 })();
 
-/* Diseño editorial: claves comunes del curso y del lector (notas, PDF, práctica).
-   Cada clave: [en, es, fr, de, it, pt, ru, zh]. */
 TXI.add({
   selfK: [
     'Self-learning',

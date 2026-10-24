@@ -1,7 +1,3 @@
-/* Trilex – reproductor del curso de inglés.
-   Lee ../content/en/*.json y guarda el progreso en localStorage (trilex_en_v1).
-   Diseño editorial: mapa del curso en lista, lecciones en una sola página y ejercicios en
-   cuadrícula con corrección inmediata y panel de puntaje. */
 (() => {
   'use strict';
   const C = '../content/en/',
@@ -10,7 +6,6 @@
   const app = document.getElementById('app'),
     $ = (s) => app.querySelector(s);
 
-  /* ---------- utilidades ---------- */
   const day = () => Math.floor(Date.now() / 864e5);
   const esc = (s) =>
     String(s ?? '').replace(
@@ -39,7 +34,7 @@
   };
   const pad2 = (n) => String(n).padStart(2, '0');
   const pct = (x) => Math.round(x * 100) + ' %';
-  const fmt = (x) => String(Math.round(x * 10) / 10); // puntaje con un decimal como máximo
+  const fmt = (x) => String(Math.round(x * 10) / 10);
   const bar = (f) => `<span class="bar"><span style="width:${Math.round(f * 100)}%"></span></span>`;
 
   // Los textos de varias líneas vienen en el JSON como lista de líneas (archivos legibles);
@@ -58,7 +53,6 @@
   const T = (k, v) => (window.TXI ? TXI.t(k, v) : k),
     ES = () => !window.TXI || TXI.lang === 'es';
 
-  /* ---------- traducciones del contenido (content/en/i18n/<idioma>/<nivel>.json) ---------- */
   let OV = {},
     OVlang = null;
   const lvOf = (id) => (String(id).match(/^en-(a1|a2|b1|b2)/) || [])[1];
@@ -92,13 +86,11 @@
       });
     } catch (e) {}
   }
-  // título traducido de una unidad o lección (vacío si no hay o si es igual al inglés)
   const subTitle = (id, es, target) => {
     if (ES()) return es || '';
     const t = id && id.includes('-l') ? (ovL(id) || {}).title : ovU(id);
     return t && t !== target ? t : '';
   };
-  // Textos de los ejercicios: los packs traen un diccionario "ex" {texto en español: traducción}.
   const exTr = (s) => {
     if (typeof s !== 'string' || !s) return s;
     for (const lv in OV) {
@@ -148,7 +140,6 @@
         });
   const meaning = (w) =>
     (ES() ? w.translation_es || w.es : ovV(w.id) || w.translation_es || w.es) || '';
-  // copia de la lección con los textos traducidos (si existen)
   function localize(L) {
     if (ES()) return L;
     const o = ovL(L.id),
@@ -188,7 +179,6 @@
       .replace(/^¡Correcto!/, T('correctEx'))
       .replace(/^Revisa esto:/, T('reviewThis'));
 
-  /* ---------- progreso ---------- */
   const fresh = () => ({
     done: {},
     srs: {},
@@ -210,7 +200,6 @@
     } catch (e) {}
   };
 
-  /* ---------- constancia: minutos activos por día ---------- */
   const dkey = (d) => d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
   let lastAct = 0,
     lastSave = 0;
@@ -242,7 +231,6 @@
     return n;
   };
 
-  /* ---------- audio (Web Speech API) ---------- */
   const say = (t, slow) => {
     if (!('speechSynthesis' in window)) return;
     speechSynthesis.cancel();
@@ -262,7 +250,6 @@
     ` <button type="button" class="tx-btn tx-alt tx-say" data-slow="1" data-say="${esc(t)}">` +
     `🐢 ${T('speedSlow')}</button>`;
 
-  /* ---------- normalización de respuestas (ver README) ---------- */
   const norm = (s, cs) => {
     s = String(s).replace(/[’‘`]/g, "'").replace(/\s+/g, ' ').trim();
     if (!cs) s = s.toLowerCase();
@@ -272,7 +259,6 @@
       .trim();
   };
 
-  /* ---------- markdown mínimo: tablas, listas, **negrita**, *cursiva* ---------- */
   const md = (t) => {
     const I = (s) =>
       esc(s)
@@ -318,7 +304,6 @@
     return out;
   };
 
-  /* ---------- entrada de la lección (diálogo / texto / glosario) ---------- */
   const allTr = (g) => ES() || g.every((w) => ovV(w.id));
   const glossRow = (w, extra = '') =>
     `<tr><td>${sayBtn(w.lemma)}</td><td><b>${esc(w.lemma)}</b> <small>${esc(w.pos)}</small></td>` +
@@ -354,9 +339,7 @@
     return s + (plain ? '' : gloss(n.glossary));
   };
 
-  /* ---------- ejercicios ---------- */
   const R = {};
-  // tema que hay que repasar para una pregunta del examen (sin dar la respuesta)
   const reviewHTML = (e) => {
     const r = e.review;
     if (!r) return T('reviewTheory');
@@ -409,14 +392,12 @@
       const why = e.feedback ? e.feedback.incorrect.replace(/^Revisa esto:\s*/, '') : '';
       let head;
       if (o.exam) {
-        // examen: el tema a repasar, nunca la respuesta
         x = '';
         head =
           s >= 1
             ? '<b>' + esc(e.feedback ? fbTxt(e.feedback.correct) : T('correctEx')) + '</b>'
             : '<b>' + T('reviewThis') + '</b> ' + reviewHTML(e);
       } else if (selfCheck) head = why ? '<b>' + esc(why) + '</b>' : '';
-      // autoevaluación: sin veredicto
       else
         head = e.feedback
           ? '<b>' + esc(fbTxt(s >= 1 ? e.feedback.correct : e.feedback.incorrect)) + '</b>'
@@ -524,7 +505,6 @@
     });
   };
 
-  // unir pares: se elige a la izquierda y luego su pareja a la derecha
   R.matching = (e, b, fin) => {
     const cols = h('div', 'tx-cols'),
       l = h('div'),
@@ -567,7 +547,6 @@
     shuffle(e.pairs.map((p) => p.right)).forEach((t) => r.append(mk(t, 'r')));
   };
 
-  // clasificar: se elige un elemento y luego su categoría
   R.categorize = (e, b, fin) => {
     const cols = h('div', 'tx-cols'),
       l = h('div'),
@@ -689,7 +668,6 @@
     const need = e.min_words || 8;
     b.append(t, h('small', '', T('minWords', { n: need })), warn);
     ask(() => {
-      // mínimo de palabras reales y sin texto repetido
       const ws = t.value.split(/\s+/).filter((w) => /[A-Za-z]/.test(w)),
         uniq = new Set(ws.map((w) => w.toLowerCase().replace(/[^a-z']/g, ''))).size;
       if (ws.length < need || uniq < Math.max(3, Math.ceil(need / 3))) {
@@ -756,8 +734,6 @@
     step();
   };
 
-  /* ---------- práctica en cuadrícula con panel de puntaje ---------- */
-  // ejercicios que necesitan el ancho completo de la cuadrícula
   const WIDE = new Set(['matching', 'categorize', 'roleplay', 'writing', 'pronunciation']);
   // o: {input, exam, optional, noScore, onDone(puntaje, total, resultados)}
   function practice(root, list, o = {}) {
@@ -809,15 +785,13 @@
     paint();
   }
 
-  /* ---------- piezas de las vistas ---------- */
   let P,
     LV = [],
     flat = [];
-  let redraw = null; // vuelve a dibujar la pantalla actual (cambio de idioma)
+  let redraw = null;
   const lvName = (c) => T('lv_' + c);
   const lvTotal = (lv) => lv.units.reduce((a, u) => a + u.lessons.length, 0);
   const unitOf = (l) => LV.find((v) => v.cefr === l.cefr).units.find((u) => u.lessons.includes(l));
-  // cabecera de cada pantalla: rótulo, título, subtítulo y botones a la derecha
   const head = (kicker, title, lede = '', back = true) =>
     `<header class="ph"><div class="ph-row"><span class="kicker blue">${kicker}</span>` +
     (back ? `<button type="button" class="pill" data-go="home">${T('mapBack')}</button>` : '') +
@@ -826,7 +800,6 @@
     app.innerHTML = html;
     scrollTo(0, 0);
   };
-  // pantalla de un solo paso (prueba de nivel, repaso): cabecera con barra de avance
   const stepCard = (kicker, title, i, n) => {
     show(
       `<header class="ph"><div class="ph-row"><span class="kicker blue">${kicker}</span>` +
@@ -856,7 +829,6 @@
       (flat.filter((l) => l.cefr === lv.cefr).length === lvTotal(lv) &&
         flat.filter((l) => l.cefr === lv.cefr).every((l) => S.done[l.id])));
 
-  /* ---------- mapa del curso ---------- */
   function home() {
     redraw = home;
     const due = dueItems().length,
@@ -870,7 +842,6 @@
       stk = streak();
     let s = head(T('courseMap'), T('courseTitle'), T('courseLede'), false);
 
-    // panel de estado: progreso, minutos de hoy, racha y repaso
     s +=
       `<section class="tx-stats panel blue">` +
       `<div><span class="kicker blue">${T('progressH')}</span><b>${nDone} / ${flat.length}</b>` +
@@ -887,7 +858,6 @@
       `<small>${due ? T('pendingN', { n: due }) : T('nothingDue')}</small></div>` +
       `</section>`;
 
-    // herramientas
     s +=
       `<nav class="tx-tools" aria-label="${T('toolsH')}"><span class="kicker">${T('toolsH')}</span>` +
       `<button type="button" class="pill" data-go="placement">${T('placementT')}` +
@@ -899,7 +869,6 @@
       `<button type="button" class="pill" data-go="vocab">${T('vocabT')}</button>` +
       `<button type="button" class="pill" data-go="faq">${T('helpT')}</button></nav>`;
 
-    // siguiente lección
     if (nextL) {
       const u = unitOf(nextL);
       s +=
@@ -911,7 +880,6 @@
         `${T(nDone ? 'continueArrow' : 'startArrow')}</button></section>`;
     }
 
-    // niveles → unidades → lecciones
     LV.forEach((lv) => {
       const ls = flat.filter((l) => l.cefr === lv.cefr),
         nd = ls.filter((l) => S.done[l.id]).length,
@@ -1000,7 +968,6 @@
     };
   }
 
-  /* ---------- lección: una sola página ---------- */
   async function lesson(ent) {
     const raw = await J(ent.file),
       u = unitOf(ent),
@@ -1058,7 +1025,6 @@
         onDone: (sc) => finish(L, sc, n),
       });
     };
-    // al terminar todos los ejercicios: guardar y mostrar el resultado
     const finish = (L, sc, n) => {
       const p = sc / n,
         pass = (L.checkpoint && L.checkpoint.pass_score) || 0.7,
@@ -1107,7 +1073,6 @@
     draw();
   }
 
-  /* ---------- vocabulario por temas ---------- */
   const TOPIC_ES = {
     greetings: 'Saludos',
     alphabet: 'Alfabeto',
@@ -1238,7 +1203,6 @@
     draw();
   }
 
-  /* ---------- repaso espaciado (tarjetas) ---------- */
   async function review() {
     const Vs = await Promise.all(LV.map((l) => J('vocab/' + l.cefr.toLowerCase() + '.json'))),
       map = Object.fromEntries(Vs.flatMap((V) => V.items).map((v) => [v.id, v]));
@@ -1290,7 +1254,6 @@
     cardView();
   }
 
-  /* ---------- examen final del nivel ---------- */
   const examInstr = (E, lv) => {
     const n = E.exercises.length;
     return T('examInstr', { n, u: lv.units.length, l: lv.cefr, k: Math.ceil(E.pass_score * n) });
@@ -1319,7 +1282,6 @@
         before = S.exams[cefr];
       S.exams[cefr] = { pct: p, passed: ok || !!(before && before.passed), at: Date.now() };
       save();
-      // temas para repasar, agrupados, con los más fallados primero
       const wrong = {};
       E.exercises.forEach((e, i) => {
         if (res[i] >= 1) return;
@@ -1362,7 +1324,6 @@
     draw();
   }
 
-  /* ---------- prueba de nivel (adaptativa, una pregunta por pantalla) ---------- */
   async function placement() {
     const PT = await J('placement-test.json'),
       A = PT.algorithm,
@@ -1463,7 +1424,6 @@
     intro();
   }
 
-  /* ---------- preguntas frecuentes ---------- */
   const FAQ = [
     [
       '¿Se guarda mi progreso?',
@@ -1540,7 +1500,6 @@
     );
   }
 
-  /* ---------- imprimir / guardar como PDF ---------- */
   // orden "aleatorio" fijo por ejercicio, para que la hoja y la clave coincidan
   const seeded = (a, seed) => {
     let s = 0;
@@ -1797,7 +1756,6 @@
         `<p><small>${T('failHelp')}</small></p>`,
     );
 
-  /* ---------- navegación: botones con data-go="acción:id" ---------- */
   app.onclick = (ev) => {
     const t = ev.target.closest('[data-go]');
     if (!t || t.disabled) return;

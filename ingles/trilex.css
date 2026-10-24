@@ -1,7 +1,3 @@
-/* Trilex – curso guiado (estudiar.en.html) y piezas compartidas con el lector.
-   Usa las variables y piezas base de shared-topic.css. */
-
-/* ---------- cabecera de cada pantalla ---------- */
 .topbar {
   margin-bottom: 28px;
 }
@@ -19,7 +15,6 @@
   color: var(--muted);
 }
 
-/* barra de progreso */
 .bar {
   display: block;
   height: 6px;
@@ -35,7 +30,6 @@
   transition: width 0.3s;
 }
 
-/* ---------- botones ---------- */
 .tx-btn {
   display: inline-flex;
   align-items: center;
@@ -105,7 +99,6 @@
   margin-top: 16px;
 }
 
-/* ---------- mapa del curso ---------- */
 .tx-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -173,7 +166,6 @@
   color: var(--on-feature-muted);
 }
 
-/* nivel (desplegable) */
 .tx-level {
   border-top: 2px solid var(--ink);
   padding: 4px 0 28px;
@@ -231,7 +223,6 @@
   font-size: 0.9rem;
 }
 
-/* unidades: tarjetas con la lista de lecciones */
 .tx-units {
   display: grid;
   gap: 16px;
@@ -366,7 +357,6 @@
   color: var(--muted);
 }
 
-/* ---------- lección ---------- */
 .tx-meta {
   color: var(--muted);
   margin: -20px 0 28px;
@@ -443,7 +433,6 @@
   border-top: 1px solid var(--line);
 }
 
-/* tablas */
 .tx-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -476,7 +465,6 @@
   color: var(--muted);
 }
 
-/* ---------- práctica: panel de puntaje y cuadrícula ---------- */
 .tx-score {
   position: sticky;
   top: 8px;
@@ -539,7 +527,6 @@
   min-width: 0;
 }
 
-/* ---------- piezas de los ejercicios ---------- */
 .tx-q {
   color: var(--ink);
   font-weight: 500;
@@ -756,7 +743,6 @@
   max-width: 100%;
 }
 
-/* ---------- resultados ---------- */
 .tx-result {
   margin-top: 24px;
 }
@@ -783,7 +769,6 @@
   margin: 10px 0 0;
 }
 
-/* ---------- pasos sueltos (prueba de nivel, repaso) ---------- */
 .tx-step {
   max-width: 720px;
 }
@@ -798,7 +783,6 @@
   padding-top: 12px;
 }
 
-/* ---------- vocabulario y preguntas frecuentes ---------- */
 .tx-filters {
   display: flex;
   gap: 16px;
@@ -847,7 +831,7 @@
   max-width: 640px;
 }
 
-/* ---------- impresión: solo se imprime #tx-print ---------- */
+/* al imprimir solo se muestra #tx-print */
 #tx-print {
   display: none;
 }
@@ -955,7 +939,6 @@
   }
 }
 
-/* ---------- móvil ---------- */
 @media (max-width: 860px) {
   .tx-stats {
     grid-template-columns: repeat(2, 1fr);

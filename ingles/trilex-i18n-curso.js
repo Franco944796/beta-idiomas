@@ -1,5 +1,3 @@
-/* Trilex – textos de la interfaz del curso guiado en 8 idiomas: [en, es, fr, de, it, pt, ru, zh].
-   Requiere trilex-i18n.js. Los contenidos pedagógicos (explicaciones, glosarios) están escritos en español. */
 TXI.add({
   vocabH: [
     'Vocabulary',
@@ -1248,7 +1246,6 @@ TXI.add({
   ],
 });
 
-/* preguntas frecuentes: [pregunta, respuesta] por idioma */
 TXI.FAQ = {
   en: [
     [
@@ -1717,8 +1714,6 @@ TXI.FAQ = {
   ],
 };
 
-/* Diseño editorial (mapa en lista, lecciones en una página, práctica en cuadrícula).
-   Cada clave: [en, es, fr, de, it, pt, ru, zh]. */
 TXI.add({
   courseMap: [
     'Course map',

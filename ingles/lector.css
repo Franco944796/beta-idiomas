@@ -1,6 +1,3 @@
-/* Trilex – Autoaprendizaje: lector de textos y libros (lectura.en.html).
-   Se suma a shared-topic.css y trilex.css. */
-
 :root {
   --mk-yellow: #fff1b0;
   --mk-yellow-2: #e0b400;
@@ -29,7 +26,6 @@
   --note-line: rgba(255, 255, 255, 0.12);
 }
 
-/* ---------- pestañas ---------- */
 .rd-tabs {
   display: flex;
   gap: 4px;
@@ -89,7 +85,6 @@
   color: var(--on-ink-muted);
 }
 
-/* ---------- tarjetas de textos y libros ---------- */
 .rd-cards {
   display: grid;
   gap: 16px;
@@ -174,7 +169,6 @@ a.rd-card:hover,
   color: var(--text);
 }
 
-/* ---------- lector ---------- */
 .rd-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -271,7 +265,6 @@ a.rd-card:hover,
   background: var(--blue-soft);
   border-radius: 4px;
 }
-/* subrayados del usuario */
 .rd-mk {
   border-radius: 2px;
   transition: box-shadow 0.3s;
@@ -303,7 +296,6 @@ a.rd-card:hover,
   box-shadow: 0 0 0 3px var(--mk2);
 }
 
-/* panel de notas (al costado del texto) */
 .rd-notes {
   position: sticky;
   top: 12px;
@@ -404,7 +396,6 @@ a.rd-bubble:hover {
   color: var(--muted);
 }
 
-/* barra al seleccionar texto */
 .rd-selbar {
   position: absolute;
   z-index: 40;
@@ -429,7 +420,6 @@ a.rd-bubble:hover {
   height: 22px;
 }
 
-/* ventana de una palabra */
 .rd-pop {
   position: absolute;
   z-index: 50;
@@ -482,7 +472,6 @@ a.rd-bubble:hover {
   margin: 0 0 10px;
 }
 
-/* preguntas, tarea y paginación */
 .rd-quiz > h2 {
   margin: 6px 0;
 }
@@ -501,7 +490,6 @@ a.rd-bubble:hover {
   padding-top: 18px;
 }
 
-/* ---------- mis palabras y mis notas ---------- */
 .rd-words {
   list-style: none;
   margin: 0;
@@ -561,7 +549,6 @@ a.rd-bubble:hover {
   white-space: pre-line;
 }
 
-/* ---------- móvil ---------- */
 @media (max-width: 960px) {
   .rd-layout {
     grid-template-columns: minmax(0, 1fr);
