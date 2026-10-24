@@ -4,207 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English - Choose Your Path</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap"
+    />
     <link rel="stylesheet" href="shared-topic.css" />
+    <script src="tema.js"></script>
   </head>
 
-  <body>
-    <!-- Selector de idiomas -->
-    <div class="language-selector">
-      <select id="languageSelect">
-        <option value="en">🇬🇧 English</option>
-        <option value="es">🇪🇸 Español</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="de">🇩🇪 Deutsch</option>
-        <option value="it">🇮🇹 Italiano</option>
-        <option value="pt">🇵🇹 Português</option>
-        <option value="ru">🇷🇺 Русский</option>
-        <option value="zh">🇨🇳 中文</option>
-      </select>
-    </div>
-
-    <!-- Botón para volver a la página principal de idiomas -->
-    <div class="nav-top">
-      <div
-        class="btn-home"
-        data-translate="homeButton"
-        data-target="../index.html"
-        role="link"
-        tabindex="0"
-      >
-        ← Languages
-      </div>
-    </div>
-
-    <div class="container">
-      <h1 id="mainTitle">English</h1>
-      <p class="subtitle" id="subtitle">Choose your learning path</p>
-
-      <div class="bubbles-container path-container">
-        <!-- Puerta: Autoaprendizaje -->
-        <div
-          class="bubble bubble-path"
-          data-target="autoaprendizaje.en.html"
-          role="link"
-          tabindex="0"
-        >
-          <div class="bubble-icon">🧭</div>
-          <div class="bubble-title" data-translate="selfLearning">Self-Learning</div>
-          <div class="bubble-desc" data-translate="selfLearningDesc">
-            Read graded texts and full books at your own pace
+  <body data-page="ingles">
+    <main class="page">
+      <header class="ph">
+        <div class="ph-top">
+          <span class="kicker">Trilex · English</span>
+          <div class="ph-actions">
+            <label class="lang-select">
+              <select id="languageSelect" aria-label="Language">
+                <option value="en">🇬🇧 English</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="pt">🇵🇹 Português</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+              </select>
+            </label>
+            <a class="pill" href="../index.html" data-translate="homeButton">← Languages</a>
           </div>
         </div>
-
-        <!-- Puerta: Aprendizaje Guiado -->
-        <div
-          class="bubble bubble-path"
-          data-target="aprendizaje-guiado.en.html"
-          role="link"
-          tabindex="0"
-        >
-          <div class="bubble-icon">🎯</div>
-          <div class="bubble-title" data-translate="guidedLearning">Guided Learning</div>
-          <div class="bubble-desc" data-translate="guidedLearningDesc">
+        <h1 data-translate="mainTitle">English</h1>
+        <p class="lede" data-translate="subtitle">Choose your learning path</p>
+      </header>
+      <section class="paths">
+        <a class="path" href="autoaprendizaje.en.html">
+          <span class="num">01</span>
+          <h3 data-translate="selfLearning">Self-Learning</h3>
+          <p data-translate="selfLearningDesc">Read graded texts and full books at your own pace</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+        <a class="path dark" href="aprendizaje-guiado.en.html">
+          <span class="num">02</span>
+          <h3 data-translate="guidedLearning">Guided Learning</h3>
+          <p data-translate="guidedLearningDesc">
             Follow a structured course through every level, step by step
-          </div>
-        </div>
-      </div>
-    </div>
+          </p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+      </section>
+    </main>
+    <footer class="site-foot">
+      <span class="kicker">Trilex · English</span>
+      <span class="kicker">CEFR A1 – B2</span>
+    </footer>
 
-    <!-- Pie de página con atribución -->
-    <div class="footer">
-      <span data-translate="footerAttribution">
-        Night skyline of London, United Kingdom. Photo by Jesse Collins.
-      </span>
-      <span data-translate="licenseText">License:</span>
-      <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
-    </div>
-
-    <script>
-      // Traducciones para los elementos de la página
-      const translations = {
-        en: {
-          mainTitle: 'English',
-          subtitle: 'Choose your learning path',
-          homeButton: '← Languages',
-          footerAttribution: 'Night skyline of London, United Kingdom. Photo by Jesse Collins.',
-          licenseText: 'License:',
-          selfLearning: 'Self-Learning',
-          selfLearningDesc: 'Read graded texts and full books at your own pace',
-          guidedLearning: 'Guided Learning',
-          guidedLearningDesc: 'Follow a structured course through every level, step by step',
-        },
-        es: {
-          mainTitle: 'Inglés',
-          subtitle: 'Elige tu camino de aprendizaje',
-          homeButton: '← Idiomas',
-          footerAttribution: 'Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licencia:',
-          selfLearning: 'Autoaprendizaje',
-          selfLearningDesc: 'Lee textos por nivel y libros completos a tu ritmo',
-          guidedLearning: 'Aprendizaje Guiado',
-          guidedLearningDesc: 'Sigue un curso estructurado por todos los niveles, paso a paso',
-        },
-        fr: {
-          mainTitle: 'Anglais',
-          subtitle: "Choisissez votre parcours d'apprentissage",
-          homeButton: '← Langues',
-          footerAttribution: 'Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.',
-          licenseText: 'Licence:',
-          selfLearning: 'Autoformation',
-          selfLearningDesc: 'Lisez des textes par niveau et des livres complets à votre rythme',
-          guidedLearning: 'Apprentissage Guidé',
-          guidedLearningDesc:
-            'Suivez un cours structuré à travers tous les niveaux, étape par étape',
-        },
-        de: {
-          mainTitle: 'Englisch',
-          subtitle: 'Wählen Sie Ihren Lernweg',
-          homeButton: '← Sprachen',
-          footerAttribution:
-            'Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.',
-          licenseText: 'Lizenz:',
-          selfLearning: 'Selbstlernen',
-          selfLearningDesc: 'Lesen Sie Texte nach Niveau und ganze Bücher in Ihrem Tempo',
-          guidedLearning: 'Geführtes Lernen',
-          guidedLearningDesc:
-            'Folgen Sie einem strukturierten Kurs durch alle Niveaus, Schritt für Schritt',
-        },
-        it: {
-          mainTitle: 'Inglese',
-          subtitle: 'Scegli il tuo percorso di apprendimento',
-          homeButton: '← Lingue',
-          footerAttribution: 'Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.',
-          licenseText: 'Licenza:',
-          selfLearning: 'Autoapprendimento',
-          selfLearningDesc: 'Leggi testi per livello e libri completi al tuo ritmo',
-          guidedLearning: 'Apprendimento Guidato',
-          guidedLearningDesc:
-            'Segui un corso strutturato attraverso tutti i livelli, passo dopo passo',
-        },
-        pt: {
-          mainTitle: 'Inglês',
-          subtitle: 'Escolha seu caminho de aprendizagem',
-          homeButton: '← Idiomas',
-          footerAttribution: 'Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licença:',
-          selfLearning: 'Autoaprendizagem',
-          selfLearningDesc: 'Leia textos por nível e livros completos no seu ritmo',
-          guidedLearning: 'Aprendizagem Guiada',
-          guidedLearningDesc: 'Siga um curso estruturado por todos os níveis, passo a passo',
-        },
-        ru: {
-          mainTitle: 'Английский',
-          subtitle: 'Выберите свой путь обучения',
-          homeButton: '← Языки',
-          footerAttribution: 'Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.',
-          licenseText: 'Лицензия:',
-          selfLearning: 'Самостоятельное обучение',
-          selfLearningDesc: 'Читайте тексты по уровням и целые книги в своём темпе',
-          guidedLearning: 'Управляемое обучение',
-          guidedLearningDesc: 'Следуйте структурированному курсу через все уровни, шаг за шагом',
-        },
-        zh: {
-          mainTitle: '英语',
-          subtitle: '选择你的学习路径',
-          homeButton: '← 语言',
-          footerAttribution: '英国伦敦夜景天际线。摄影：Jesse Collins。',
-          licenseText: '许可证:',
-          selfLearning: '自主学习',
-          selfLearningDesc: '按自己的节奏阅读分级文章和整本书',
-          guidedLearning: '引导式学习',
-          guidedLearningDesc: '循序渐进地学习结构化课程，逐级提升',
-        },
-      };
-
-      // Función para cambiar el idioma
-      function changeLanguage(lang) {
-        const t = translations[lang];
-
-        document.getElementById('mainTitle').textContent = t.mainTitle;
-        document.getElementById('subtitle').textContent = t.subtitle;
-
-        document.querySelectorAll('[data-translate]').forEach((element) => {
-          const key = element.getAttribute('data-translate');
-          if (t[key]) {
-            element.textContent = t[key];
-          }
-        });
-
-        localStorage.setItem('selectedLanguage', lang);
-      }
-
-      document.getElementById('languageSelect').addEventListener('change', function () {
-        changeLanguage(this.value);
-      });
-
-      document.addEventListener('DOMContentLoaded', function () {
-        const savedLanguage = localStorage.getItem('selectedLanguage');
-        if (savedLanguage) {
-          document.getElementById('languageSelect').value = savedLanguage;
-          changeLanguage(savedLanguage);
-        }
-      });
-    </script>
-    <script src="../nav-links.js"></script>
+    <script src="portadas.js"></script>
   </body>
 </html>

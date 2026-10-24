@@ -34,3 +34,7 @@ Implementar:
 - Agregar: Que se puedan descargar en pdf los libros completos (seccion autoaprendizaje).
 - Agregar: Apartado de notas para cada texto, y que se pueda "subrayar" o "marcar" palabras u oraciones, y que eso aparezca en las notas en forma de burbuja coloreada...Por ejemplo para seleccionar una oracion y luego agregar una aclaracion en dichas notas.
 - Arreglar: En los textos del modo autoaprendizaje, al tocar una palabra para ver su definicion y traduccion...Tener en cuenta que el selector de idiomas debe afectar a dicha traduccion (estando con el selector en ruso, al seleccionar cualquier palabra me da la traduccion y significado en espanol, cosa que esta mal).
+
+
+Implementar (no hecho):
+- En el index inicial de la pagina con el selector del idioma a aprender, en el apartado de Social Media modificar por otra red social o contacto.

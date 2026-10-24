@@ -1,498 +1,481 @@
-/* =========================================================================
-   SHARED-TOPIC.CSS
-   Estilos compartidos por las páginas de tema del idioma inglés:
-   ingles.html (selector de ruta), autoaprendizaje.en.html,
-   aprendizaje-guiado.en.html y cualquier futura página del mismo nivel.
-   ========================================================================= */
+/* Trilex · Inglés — estilo base de todas las páginas (diseño editorial).
+   Tipografía IBM Plex, fondo blanco, títulos grandes alineados a la izquierda,
+   rótulos en mayúsculas monoespaciadas, tarjetas con borde fino y paneles de color suave. */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  color-scheme: light;
+  --ink: #1d2025;
+  --text: #2f333b;
+  --muted: #646b78;
+  --faint: #8b919c;
+  --line: #e1e4ea;
+  --line-2: #c9ced8;
+  --bg: #ffffff;
+  --grey: #f4f5f8;
+  --blue: #2e55c7;
+  --blue-soft: #e9effb;
+  --rust: #b5461f;
+  --rust-soft: #fbece6;
+  --ok: #1d7a4c;
+  --ok-soft: #e5f3eb;
+  --bad: #b3261e;
+  --bad-soft: #fcebea;
+  --half: #9a6700;
+  --half-soft: #fdf3dc;
+
+  /* superficies y contrastes que cambian con el tema */
+  --surface: #ffffff; /* tarjetas, campos y menús */
+  --on-ink: #ffffff; /* texto sobre fondo --ink (botón principal, pestaña activa) */
+  --on-ink-muted: #c3c8d1;
+  --ink-hover: #33373f;
+  --on-accent: #ffffff; /* texto sobre --rust o --blue */
+  --feature: #1d2025; /* tarjeta destacada oscura («Siguiente lección», «Curso») */
+  --feature-line: #1d2025;
+  --on-feature: #d9dce2;
+  --on-feature-strong: #ffffff;
+  --on-feature-muted: #c3c8d1;
+  --feature-accent: #9db4f2;
+  --light-btn: #ffffff; /* botón claro sobre la tarjeta destacada */
+  --light-btn-text: #1d2025;
+  --track: rgba(29, 32, 37, 0.1); /* fondo de las barras de progreso */
+  --done-line: #b9d8c6; /* borde de unidad o texto terminado */
+  --rust-line: rgba(181, 70, 31, 0.15);
+  --focus-ring: rgba(46, 85, 199, 0.15);
+  --shadow: 29, 32, 37; /* color de las sombras, se usa como rgba(var(--shadow), a) */
+
+  --radius: 12px;
+  --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
 }
 
+/* ---------- tema oscuro (grafito) ----------
+   tema.js pone data-theme="dark" en <html> según la elección guardada o el sistema. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #e6e8ec;
+  --text: #cfd3da;
+  --muted: #9aa1ad;
+  --faint: #737a86;
+  --line: #2c3038;
+  --line-2: #3b404a;
+  --bg: #16181c;
+  --grey: #1e2127;
+  --blue: #8fa9f0;
+  --blue-soft: #1c2640;
+  --rust: #e58a63;
+  --rust-soft: #3a2219;
+  --ok: #5cc58f;
+  --ok-soft: #16301f;
+  --bad: #f07a72;
+  --bad-soft: #3a1c1b;
+  --half: #e0b44a;
+  --half-soft: #352a12;
+
+  --surface: #1e2127;
+  --on-ink: #16181c;
+  --on-ink-muted: #4b515c;
+  --ink-hover: #c9cdd4;
+  --on-accent: #16181c;
+  --feature: #262a32;
+  --feature-line: #3b404a;
+  --on-feature: #cfd3da;
+  --on-feature-strong: #ffffff;
+  --on-feature-muted: #a3a9b4;
+  --feature-accent: #8fa9f0;
+  --light-btn: #e6e8ec;
+  --light-btn-text: #16181c;
+  --track: rgba(230, 232, 236, 0.12);
+  --done-line: #2f5a43;
+  --rust-line: rgba(229, 138, 99, 0.2);
+  --focus-ring: rgba(143, 169, 240, 0.25);
+  --shadow: 0, 0, 0;
+}
+
+/* ---------- base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
 body {
-    font-family: 'Arial', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-    color: #fff;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
 }
-
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.unsplash.com/photo-1745797967896-4919406ff5e2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    opacity: 1;
-    z-index: -1;
+h1,
+h2,
+h3,
+h4 {
+  color: var(--ink);
+  line-height: 1.15;
+  margin: 0 0 0.4em;
+  letter-spacing: -0.01em;
 }
-
-body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg,
-            rgba(140, 0, 0, 0.85) 0%,
-            rgba(30, 30, 80, 0.85) 100%);
-    z-index: -1;
-}
-
-.container {
-    max-width: 1200px;
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-    padding: 0 20px;
-}
-
 h1 {
-    font-size: 3rem;
-    color: #fff;
-    margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  font-weight: 600;
+}
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+p {
+  margin: 0 0 0.8em;
+}
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+/* sin subrayado al pasar el cursor en ningún enlace: las tarjetas y botones marcan el foco
+   con el borde, y los enlaces de texto con el color */
+a:hover {
+  text-decoration: none;
+}
+small {
+  font-size: 0.82em;
+  color: var(--muted);
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
 }
 
-.subtitle {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+/* ---------- página ---------- */
+.page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px 32px 72px;
+}
+.ph {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 28px;
+  margin-bottom: 36px;
+}
+.ph-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.ph-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+.ph h1 {
+  margin-bottom: 0.25em;
+}
+.lede {
+  font-size: 1.12rem;
+  color: var(--muted);
+  max-width: 46rem;
+  margin: 0;
 }
 
-/* Burbujas rectangulares (tarjetas de navegación) */
-.bubbles-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    max-width: 1300px;
-    margin: 0 auto;
-    width: 100%;
+/* rótulo: mayúsculas monoespaciadas con espaciado */
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.kicker.blue {
+  color: var(--blue);
+}
+.kicker.rust {
+  color: var(--rust);
 }
 
-.bubble {
-    cursor: pointer;
-    width: 100%;
-    height: 180px;
-    background: #fff;
-    border: 3px solid #8B0000;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #1E1E50;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
+/* selector de idioma y botón de volver */
+.lang-select select,
+.pill {
+  height: 36px;
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 0 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.pill:hover {
+  border-color: var(--ink);
+  text-decoration: none;
+}
+.lang-select select:hover {
+  border-color: var(--ink);
 }
 
-.bubble:hover,
-.bubble:focus-visible {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(30, 30, 80, 0.6);
-    background: #f8f8f8;
-    border-color: #1E1E50;
+/* botón de tema (lo agrega tema.js junto al selector de idioma) */
+.theme-btn {
+  width: 36px;
+  padding: 0;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
+}
+.theme-btn svg {
+  width: 17px;
+  height: 17px;
+  display: block;
 }
 
-.bubble:focus-visible {
-    outline: 3px solid #1E1E50;
-    outline-offset: 3px;
+/* ---------- piezas comunes ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+}
+.panel {
+  border-radius: 14px;
+  padding: 24px 26px;
+  background: var(--grey);
+}
+.panel.blue {
+  background: var(--blue-soft);
+}
+.panel.rust {
+  background: var(--rust-soft);
+}
+.panel.dark {
+  background: var(--feature);
+  border: 1px solid var(--feature-line);
+  color: var(--on-feature);
+}
+.panel.dark h2,
+.panel.dark h3,
+.panel.dark b {
+  color: var(--on-feature-strong);
+}
+.panel.dark .kicker {
+  color: var(--on-feature-muted);
+}
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.num {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--blue);
+  font-weight: 500;
+}
+.open-link {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--blue);
 }
 
-.bubble-icon {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: #8B0000;
+/* ---------- portadas: tarjetas de camino ---------- */
+.paths {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.path {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px 20px;
+  cursor: pointer;
+  min-height: 190px;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.path:hover,
+.path:focus-visible {
+  border-color: var(--ink);
+  box-shadow: 0 6px 18px rgba(var(--shadow), 0.07);
+}
+.path h3 {
+  margin: 4px 0 0;
+  font-size: 1.25rem;
+}
+.path p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+  flex: 1;
+}
+.path .open-link {
+  margin-top: 10px;
+}
+.path.dark {
+  background: var(--feature);
+  border-color: var(--feature-line);
+  color: var(--on-feature);
+}
+.path.dark h3 {
+  color: var(--on-feature-strong);
+}
+.path.dark p {
+  color: var(--on-feature-muted);
+}
+.path.dark .num,
+.path.dark .open-link {
+  color: var(--feature-accent);
+}
+.path.dark:hover {
+  border-color: var(--feature-accent);
+  box-shadow: 0 8px 22px rgba(var(--shadow), 0.25);
 }
 
-.bubble-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #1E1E50;
+/* bloque de texto con el rótulo a la izquierda y el texto a la derecha */
+.note {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 20px;
+  align-items: baseline;
+  background: var(--grey);
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin: 0 0 28px;
+}
+.note p {
+  margin: 0;
 }
 
-.bubble-desc {
-    font-size: 0.9rem;
-    color: #8B0000;
-    max-width: 90%;
-    line-height: 1.3;
+/* ---------- curso.en.html: niveles con pestañas ---------- */
+.section-title {
+  margin: 44px 0 14px;
 }
-
-.bubble::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(30, 30, 80, 0.1) 0%, transparent 70%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.bubble:hover::before {
-    opacity: 1;
-}
-
-/* ===== Variante "puerta de ruta" (2 opciones grandes: self-learning / guided) ===== */
-.path-container {
-    max-width: 760px;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.bubble-path {
-    height: 260px;
-}
-
-.bubble-path .bubble-icon {
-    font-size: 3.2rem;
-}
-
-.bubble-path .bubble-title {
-    font-size: 1.8rem;
-}
-
-.bubble-path .bubble-desc {
-    font-size: 1rem;
-    max-width: 85%;
-}
-
-/* ===== Curso guiado: intro + tabs de nivel (A1-B2) + temario ===== */
-.course-intro {
-    max-width: 700px;
-    margin: 0 auto 2.5rem;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-}
-
 .level-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 18px;
 }
-
 .level-tab-btn {
-    background: rgba(255, 255, 255, 0.12);
-    color: #fff;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    padding: 10px 22px;
-    border-radius: 8px;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.25s ease;
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-family: var(--mono);
+  font-weight: 500;
+  cursor: pointer;
 }
-
-.level-tab-btn:hover,
-.level-tab-btn:focus-visible {
-    border-color: #fff;
-    background: rgba(255, 255, 255, 0.22);
-}
-
 .level-tab-btn.active {
-    background: #fff;
-    color: #8B0000;
-    border-color: #fff;
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--on-ink);
 }
-
 .level-panel {
-    display: none;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
+  display: none;
 }
-
 .level-panel.active {
-    display: block;
-    animation: fadeInLevel 0.35s ease;
+  display: block;
 }
-
-@keyframes fadeInLevel {
-    from {
-        opacity: 0;
-        transform: translateY(6px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .level-can-do {
-    background: rgba(255, 255, 255, 0.1);
-    border-left: 4px solid #fff;
-    padding: 14px 18px;
-    border-radius: 6px;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: #fff;
+  background: var(--blue-soft);
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 16px;
 }
-
+.level-can-do strong {
+  color: var(--ink);
+}
 .topics-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
-
 .topic-card {
-    background: #fff;
-    border: 3px solid #8B0000;
-    border-radius: 15px;
-    padding: 20px 22px;
-    color: #1E1E50;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 22px;
 }
-
 .topic-card-title {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 1.15rem;
-    font-weight: bold;
-    color: #1E1E50;
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid rgba(139, 0, 0, 0.2);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 10px;
 }
-
 .topic-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  margin: 0;
+  padding-left: 1.1em;
 }
-
 .topic-list li {
-    font-size: 0.9rem;
-    color: #333;
-    padding-left: 16px;
-    position: relative;
-    line-height: 1.4;
+  margin: 0.25em 0;
 }
 
-.topic-list li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #8B0000;
+/* ---------- pie ---------- */
+.site-foot {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 18px 32px 40px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-/* Botón de navegación superior */
-.nav-top {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.btn-home {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 20px;
-    background: #fff;
-    color: #8B0000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    border: 2px solid #8B0000;
-}
-
-.btn-home:hover,
-.btn-home:focus-visible {
-    background: #8B0000;
-    color: #fff;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(30, 30, 80, 0.4);
-}
-
-/* Selector de idiomas */
-.language-selector {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.language-selector select {
-    border: none;
-    background: transparent;
-    font-size: 14px;
-    padding: 5px;
-    cursor: pointer;
-    outline: none;
-    font-weight: bold;
-    color: #8B0000;
-}
-
-.language-selector select option {
-    color: #333;
-}
-
-/* Pie de página con atribución */
-.footer {
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.7);
-    z-index: 10;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-}
-
-.footer a {
-    color: rgba(255, 255, 255, 0.9);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
-
-/* Diseño responsivo */
-@media (max-width: 1200px) {
-    .bubbles-container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
-    .bubble {
-        height: 170px;
-    }
-
-    .bubble-icon {
-        font-size: 2.2rem;
-    }
-
-    .bubble-title {
-        font-size: 1.4rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-    }
-
-    .bubbles-container {
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 15px;
-    }
-
-    .bubble {
-        height: 150px;
-        padding: 10px;
-    }
-
-    .bubble-path {
-        height: 200px;
-    }
-
-    .bubble-icon {
-        font-size: 2rem;
-        margin-bottom: 5px;
-    }
-
-    .bubble-title {
-        font-size: 1.2rem;
-        margin-bottom: 5px;
-    }
-
-    .bubble-desc {
-        font-size: 0.8rem;
-        line-height: 1.2;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
-    }
-
-    .nav-top {
-        top: 10px;
-        right: 10px;
-    }
-
-    .btn-home {
-        padding: 8px 15px;
-        font-size: 0.9rem;
-    }
-
-    .language-selector {
-        top: 10px;
-        left: 10px;
-    }
-
-    .footer {
-        font-size: 0.6rem;
-        padding: 3px;
-    }
-}
-
-/* ===== Tarjeta bloqueada ("próximamente") ===== */
-.bubble-soon {
-    cursor: not-allowed;
-    opacity: 0.7;
-    border-color: #777;
-}
-
-.bubble-soon:hover,
-.bubble-soon:focus-visible {
-    transform: none;
-    box-shadow: none;
-    background: #fff;
-    border-color: #777;
-}
-
-.bubble-soon::before {
-    display: none;
-}
-
-.bubble-soon .bubble-icon,
-.bubble-soon .bubble-desc {
-    color: #555;
-}
-
-.bubble-soon .bubble-desc {
-    font-weight: bold;
+/* ---------- móvil ---------- */
+@media (max-width: 720px) {
+  .page {
+    padding: 22px 16px 56px;
+  }
+  .ph {
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  .lede {
+    font-size: 1rem;
+  }
+  .card,
+  .panel {
+    padding: 18px;
+  }
+  .note {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 16px 18px;
+  }
+  .path {
+    min-height: 0;
+  }
+  .site-foot {
+    padding: 16px 16px 32px;
+  }
 }

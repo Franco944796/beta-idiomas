@@ -4,64 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English - Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap"
+    />
     <link rel="stylesheet" href="shared-topic.css" />
+    <script src="tema.js"></script>
   </head>
 
-  <body>
-    <!-- Selector de idiomas -->
-    <div class="language-selector">
-      <select id="languageSelect">
-        <option value="en">🇬🇧 English</option>
-        <option value="es">🇪🇸 Español</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="de">🇩🇪 Deutsch</option>
-        <option value="it">🇮🇹 Italiano</option>
-        <option value="pt">🇵🇹 Português</option>
-        <option value="ru">🇷🇺 Русский</option>
-        <option value="zh">🇨🇳 中文</option>
-      </select>
-    </div>
-
-    <!-- Botón para volver a Guided Learning -->
-    <div class="nav-top">
-      <div
-        class="btn-home"
-        data-translate="homeButton"
-        data-target="aprendizaje-guiado.en.html"
-        role="link"
-        tabindex="0"
-      >
-        ← Guided Learning
-      </div>
-    </div>
-
-    <div class="container">
-      <h1 id="mainTitle">Course</h1>
-      <p class="subtitle" id="subtitle">Study all levels, from your first words to fluent debate</p>
-      <p class="course-intro" data-translate="courseIntro">
-        The course is organized by CEFR level, from A1 to B2. Each level lists its grammar focus and
-        vocabulary focus. Course content stays in English regardless of your interface language,
-        since it's what you're here to practice.
-      </p>
-
-      <!-- Acceso al curso interactivo -->
-      <div class="bubbles-container path-container" style="margin-bottom: 2rem">
-        <div
-          class="bubble bubble-path"
-          data-target="estudiar.en.html"
-          role="link"
-          tabindex="0"
-          style="height: 190px"
-        >
-          <div class="bubble-icon">🚀</div>
-          <div class="bubble-title" data-translate="startCourse">Start the course</div>
-          <div class="bubble-desc" data-translate="startCourseDesc">
-            A1 to B2: 300 interactive lessons, placement test, review, printable sheets and final
-            exams
+  <body data-page="course">
+    <main class="page">
+      <header class="ph">
+        <div class="ph-top">
+          <span class="kicker">Trilex · English · Course</span>
+          <div class="ph-actions">
+            <label class="lang-select">
+              <select id="languageSelect" aria-label="Language">
+                <option value="en">🇬🇧 English</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="pt">🇵🇹 Português</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+              </select>
+            </label>
+            <a class="pill" href="aprendizaje-guiado.en.html" data-translate="homeButton">
+              ← Guided Learning
+            </a>
           </div>
         </div>
+        <h1 data-translate="mainTitle">Course</h1>
+        <p class="lede" data-translate="subtitle">
+          Study all levels, from your first words to fluent debate
+        </p>
+      </header>
+
+      <div class="note">
+        <span class="kicker">CEFR · A1 – B2</span>
+        <p data-translate="courseIntro">
+          The course is organized by CEFR level, from A1 to B2. Each level lists its grammar focus
+          and vocabulary focus. Course content stays in English regardless of your interface
+          language, since it's what you're here to practice.
+        </p>
       </div>
 
+      <section class="paths">
+        <a class="path dark" href="estudiar.en.html">
+          <span class="num">01</span>
+          <h3 data-translate="startCourse">Start the course</h3>
+          <p data-translate="startCourseDesc">
+            A1 to B2: 300 interactive lessons, placement test, review, printable sheets and final
+            exams
+          </p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+      </section>
+
+      <h2 class="section-title" data-translate="levelsTitle">Levels</h2>
       <!-- Tabs de nivel -->
       <div class="level-tabs">
         <button class="level-tab-btn active" data-level="a1">A1</button>
@@ -79,7 +82,7 @@
         </div>
         <div class="topics-grid">
           <div class="topic-card">
-            <div class="topic-card-title">✏️ Grammar Focus</div>
+            <div class="topic-card-title">Grammar focus</div>
             <ul class="topic-list">
               <li>The verb "to be" (am / is / are)</li>
               <li>Present simple, affirmative and negative</li>
@@ -89,7 +92,7 @@
             </ul>
           </div>
           <div class="topic-card">
-            <div class="topic-card-title">💬 Vocabulary Focus</div>
+            <div class="topic-card-title">Vocabulary focus</div>
             <ul class="topic-list">
               <li>Greetings and introductions</li>
               <li>Numbers, days, and months</li>
@@ -110,7 +113,7 @@
         </div>
         <div class="topics-grid">
           <div class="topic-card">
-            <div class="topic-card-title">✏️ Grammar Focus</div>
+            <div class="topic-card-title">Grammar focus</div>
             <ul class="topic-list">
               <li>Past simple, regular and irregular verbs</li>
               <li>Present continuous</li>
@@ -120,7 +123,7 @@
             </ul>
           </div>
           <div class="topic-card">
-            <div class="topic-card-title">💬 Vocabulary Focus</div>
+            <div class="topic-card-title">Vocabulary focus</div>
             <ul class="topic-list">
               <li>Daily routines</li>
               <li>Food and restaurants</li>
@@ -141,7 +144,7 @@
         </div>
         <div class="topics-grid">
           <div class="topic-card">
-            <div class="topic-card-title">✏️ Grammar Focus</div>
+            <div class="topic-card-title">Grammar focus</div>
             <ul class="topic-list">
               <li>Present perfect vs. past simple</li>
               <li>Future forms: will, going to, present continuous</li>
@@ -151,7 +154,7 @@
             </ul>
           </div>
           <div class="topic-card">
-            <div class="topic-card-title">💬 Vocabulary Focus</div>
+            <div class="topic-card-title">Vocabulary focus</div>
             <ul class="topic-list">
               <li>Work and studies</li>
               <li>Opinions and agreement/disagreement</li>
@@ -172,7 +175,7 @@
         </div>
         <div class="topics-grid">
           <div class="topic-card">
-            <div class="topic-card-title">✏️ Grammar Focus</div>
+            <div class="topic-card-title">Grammar focus</div>
             <ul class="topic-list">
               <li>Passive voice, all tenses</li>
               <li>Reported speech</li>
@@ -182,7 +185,7 @@
             </ul>
           </div>
           <div class="topic-card">
-            <div class="topic-card-title">💬 Vocabulary Focus</div>
+            <div class="topic-card-title">Vocabulary focus</div>
             <ul class="topic-list">
               <li>Media and current affairs</li>
               <li>Environment and sustainability</li>
@@ -193,139 +196,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="site-foot">
+      <span class="kicker">Trilex · English</span>
+      <span class="kicker">CEFR A1 – B2</span>
+    </footer>
 
-    <script>
-      const translations = {
-        en: {
-          startCourse: 'Start the course',
-          startCourseDesc:
-            'A1 to B2: 300 interactive lessons, placement test, review, printable sheets and final exams',
-          mainTitle: 'Course',
-          subtitle: 'Study all levels, from your first words to fluent debate',
-          homeButton: '← Guided Learning',
-          footerAttribution: 'Night skyline of London, United Kingdom. Photo by Jesse Collins.',
-          licenseText: 'License:',
-          courseIntro:
-            "The course is organized by CEFR level, from A1 to B2. Each level lists its grammar focus and vocabulary focus. Course content stays in English regardless of your interface language, since it's what you're here to practice.",
-        },
-        es: {
-          startCourse: 'Empezar el curso',
-          startCourseDesc:
-            'De A1 a B2: 300 lecciones interactivas, prueba de nivel, repaso, fichas imprimibles y exámenes finales',
-          mainTitle: 'Curso',
-          subtitle: 'Estudia todos los niveles, desde tus primeras palabras hasta el debate fluido',
-          homeButton: '← Aprendizaje Guiado',
-          footerAttribution: 'Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licencia:',
-          courseIntro:
-            'El curso está organizado por nivel del MCER, de A1 a B2. Cada nivel indica su foco gramatical y su foco de vocabulario. El contenido del curso se mantiene en inglés sin importar tu idioma de interfaz, ya que es lo que venís a practicar.',
-        },
-        fr: {
-          startCourse: 'Commencer le cours',
-          startCourseDesc:
-            'De A1 à B2 : 300 leçons interactives, test de niveau, révision, fiches imprimables et examens finaux',
-          mainTitle: 'Cours',
-          subtitle: 'Étudiez tous les niveaux, de vos premiers mots au débat fluide',
-          homeButton: '← Apprentissage Guidé',
-          footerAttribution: 'Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.',
-          licenseText: 'Licence:',
-          courseIntro:
-            "Le cours est organisé par niveau du CECR, de A1 à B2. Chaque niveau indique son focus grammatical et son focus lexical. Le contenu du cours reste en anglais quelle que soit votre langue d'interface, puisque c'est ce que vous venez pratiquer.",
-        },
-        de: {
-          startCourse: 'Kurs starten',
-          startCourseDesc:
-            'A1 bis B2: 300 interaktive Lektionen, Einstufungstest, Wiederholung, Druckblätter und Abschlussprüfungen',
-          mainTitle: 'Kurs',
-          subtitle: 'Studieren Sie alle Niveaus, von den ersten Worten bis zur fließenden Debatte',
-          homeButton: '← Geführtes Lernen',
-          footerAttribution:
-            'Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.',
-          licenseText: 'Lizenz:',
-          courseIntro:
-            'Der Kurs ist nach GER-Niveau von A1 bis B2 gegliedert. Jedes Niveau listet seinen Grammatik- und Wortschatzfokus auf. Die Kursinhalte bleiben unabhängig von Ihrer Interfacesprache auf Englisch, da Sie genau das üben möchten.',
-        },
-        it: {
-          startCourse: 'Inizia il corso',
-          startCourseDesc:
-            'Da A1 a B2: 300 lezioni interattive, test di livello, ripasso, schede stampabili ed esami finali',
-          mainTitle: 'Corso',
-          subtitle: 'Studia tutti i livelli, dalle prime parole al dibattito fluente',
-          homeButton: '← Apprendimento Guidato',
-          footerAttribution: 'Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.',
-          licenseText: 'Licenza:',
-          courseIntro:
-            "Il corso è organizzato per livello QCER, da A1 a B2. Ogni livello elenca il suo focus grammaticale e lessicale. I contenuti del corso restano in inglese indipendentemente dalla lingua dell'interfaccia, perché è ciò che sei qui a praticare.",
-        },
-        pt: {
-          startCourse: 'Começar o curso',
-          startCourseDesc:
-            'Do A1 ao B2: 300 lições interativas, teste de nível, revisão, fichas para imprimir e exames finais',
-          mainTitle: 'Curso',
-          subtitle: 'Estude todos os níveis, das primeiras palavras ao debate fluente',
-          homeButton: '← Aprendizagem Guiada',
-          footerAttribution: 'Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licença:',
-          courseIntro:
-            'O curso é organizado por nível do QECR, de A1 a B2. Cada nível lista seu foco gramatical e de vocabulário. O conteúdo do curso permanece em inglês independentemente do seu idioma de interface, já que é isso que você veio praticar.',
-        },
-        ru: {
-          startCourse: 'Начать курс',
-          startCourseDesc:
-            'От A1 до B2: 300 интерактивных уроков, тест на уровень, повторение, материалы для печати и итоговые экзамены',
-          mainTitle: 'Курс',
-          subtitle: 'Изучайте все уровни, от первых слов до свободной дискуссии',
-          homeButton: '← Управляемое обучение',
-          footerAttribution: 'Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.',
-          licenseText: 'Лицензия:',
-          courseIntro:
-            'Курс организован по уровням CEFR, от A1 до B2. Для каждого уровня указан грамматический и лексический фокус. Содержание курса остаётся на английском независимо от языка интерфейса, ведь именно его вы пришли практиковать.',
-        },
-        zh: {
-          startCourse: '开始课程',
-          startCourseDesc: 'A1 到 B2：300 节互动课、分级测试、复习、可打印讲义和结业考试',
-          mainTitle: '课程',
-          subtitle: '学习所有级别，从第一句话到流利辩论',
-          homeButton: '← 引导式学习',
-          footerAttribution: '英国伦敦夜景天际线。摄影：Jesse Collins。',
-          licenseText: '许可证:',
-          courseIntro:
-            '课程按欧洲语言共同参考框架（CEFR）等级组织，从 A1 到 B2。每个等级都列出语法重点和词汇重点。无论界面语言是什么，课程内容都保持英语，因为这正是你要练习的内容。',
-        },
-      };
-
-      function changeLanguage(lang) {
-        const t = translations[lang];
-
-        document.getElementById('mainTitle').textContent = t.mainTitle;
-        document.getElementById('subtitle').textContent = t.subtitle;
-
-        document.querySelectorAll('[data-translate]').forEach((element) => {
-          const key = element.getAttribute('data-translate');
-          if (t[key]) {
-            element.textContent = t[key];
-          }
-        });
-
-        localStorage.setItem('selectedLanguage', lang);
-      }
-
-      document.getElementById('languageSelect').addEventListener('change', function () {
-        changeLanguage(this.value);
-      });
-
-      document.addEventListener('DOMContentLoaded', function () {
-        const savedLanguage = localStorage.getItem('selectedLanguage');
-        if (savedLanguage) {
-          document.getElementById('languageSelect').value = savedLanguage;
-          changeLanguage(savedLanguage);
-        }
-      });
-    </script>
-
-    <!-- Controlador de tabs de nivel (reutilizado del proyecto) -->
     <script src="../level-tabs.js"></script>
-    <script src="../nav-links.js"></script>
+    <script src="portadas.js"></script>
   </body>
 </html>

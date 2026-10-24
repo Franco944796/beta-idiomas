@@ -103,6 +103,19 @@ reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosar
 - Solo autores fallecidos hace más de 70 años (dominio público también en Argentina y la UE).
 - `build.py` valida todo (respuestas presentes en las opciones, palabras del glosario y respuestas de completar que aparecen en el texto) y lo regenera.
 - Tipos de pregunta: `mc` (opción múltiple), `tf` (verdadero/falso), `fill` (escribir una palabra del texto).
+- **Diccionario del lector** (`reading/i18n/<idioma>.json`, lo genera `i18n_build.py`): `{"gloss": {palabra del
+  glosario: significado}, "vocab": {lema del curso: significado}}` en en, fr, de, it, pt, ru y zh. Fuente:
+  `tools/i18n/reading_gloss.py` (glosarios de lecturas y libros) y `tools/i18n/<nivel>_vocab.py` (vocabulario de
+  A1 a B2). `en.json` es una definición breve en inglés sencillo, que el lector muestra también como «significado».
+  `i18n_build.py` avisa si una palabra de un glosario no tiene traducción o si sobra alguna.
+- **Libros en PDF** (`reading/books/<id>/<id>.pdf`, `book_pdf.py`): portada, índice, capítulos y glosario de cada
+  capítulo en inglés sencillo, en A5 con la tipografía IBM Plex de `tools/fonts/` (licencia SIL OFL). Se generan con
+  Chromium (Playwright) y quedan en `tools/pdf_cache/` con un hash del contenido: solo se rehacen si cambia el libro,
+  su glosario o la plantilla (`TEMPLATE_VERSION`). Sin Playwright se usan los de la caché. `index.json` lleva el
+  tamaño (`pdf_kb`) para el botón «Descargar PDF».
+- **Notas y subrayados**: los guarda el navegador en `trilex_read_v1.notes` (`{id del texto: {title, href, level,
+  general, marks: [{id, color, quote, note, ranges: [{p, s, e}]}]}}`; `p` es el párrafo y `s`/`e` la posición del
+  subrayado dentro de su texto).
 
 ## Formato y legibilidad
 
@@ -118,5 +131,17 @@ reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosar
   que empieza con 4 espacios es continuación de la anterior y `_unwrap()` la vuelve a unir con un espacio.
 - **Traducciones** (`i18n/*.py`): una clave por línea y los textos largos partidos en trozos
   (`("…" "…")`, concatenación implícita de Python).
+- **Textos de los ejercicios** (`i18n/<nivel>_ex_<grupo>.py`, grupos `u01`…`uNN` y `exam`): diccionario
+  `EX = {texto en español: {idioma: traducción}}` con las consignas, opciones, comentarios, listas de
+  control y errores comunes que están en español. `ex_strings.py` decide qué textos hay que traducir;
+  `i18n_build.py` avisa de los que faltan y comprueba que las opciones traducidas sigan siendo distintas
+  entre sí. El reproductor los aplica con `localizeEx` (traducidos hoy: A1 y A2).
 - **Web** (`ingles/*.js|css|html`): formateada con Prettier (ancho 100); las plantillas HTML largas están
   partidas en trozos concatenados con `+` (mismo HTML resultante).
+- **Diseño** (editorial, igual en todas las páginas): `shared-topic.css` define los colores, la tipografía IBM Plex y
+  las piezas comunes (cabecera con rótulo, tarjetas, paneles); `trilex.css` el curso y `lector.css` el lector.
+  El curso muestra el mapa como lista (niveles → unidades → lecciones) y cada lección en una sola página: texto,
+  explicación y los ejercicios en cuadrícula, que se corrigen al instante, con el panel de puntaje y «Reiniciar».
+  El examen final usa la misma cuadrícula (sin dar la respuesta); la prueba de nivel y el repaso van de a una
+  pregunta. Los textos de las portadas (ingles.html, autoaprendizaje, aprendizaje guiado, curso) están en
+  `portadas.js`.

@@ -1,159 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English - Guided Learning</title>
-    <link rel="stylesheet" href="shared-topic.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link rel="stylesheet" href="shared-topic.css" />
+    <script src="tema.js"></script>
+  </head>
 
-<body>
-    <!-- Selector de idiomas -->
-    <div class="language-selector">
-        <select id="languageSelect">
-            <option value="en">🇬🇧 English</option>
-            <option value="es">🇪🇸 Español</option>
-            <option value="fr">🇫🇷 Français</option>
-            <option value="de">🇩🇪 Deutsch</option>
-            <option value="it">🇮🇹 Italiano</option>
-            <option value="pt">🇵🇹 Português</option>
-            <option value="ru">🇷🇺 Русский</option>
-            <option value="zh">🇨🇳 中文</option>
-        </select>
-    </div>
-
-    <!-- Botón para volver al selector de ruta -->
-    <div class="nav-top">
-        <div class="btn-home" data-translate="homeButton" data-target="ingles.html" role="link" tabindex="0">← English</div>
-    </div>
-
-    <div class="container">
-        <h1 id="mainTitle">Guided Learning</h1>
-        <p class="subtitle" id="subtitle">Follow a structured path through every level</p>
-
-        <div class="bubbles-container path-container" style="max-width: 380px;">
-            <!-- Burbuja para Curso con Temario -->
-            <div class="bubble" data-target="curso.en.html" role="link" tabindex="0">
-                <div class="bubble-icon">📚</div>
-                <div class="bubble-title" data-translate="course">Course</div>
-                <div class="bubble-desc" data-translate="courseDesc">Study all levels</div>
-            </div>
+  <body data-page="guided">
+    <main class="page">
+      <header class="ph">
+        <div class="ph-top">
+          <span class="kicker">Trilex · English · Guided learning</span>
+          <div class="ph-actions">
+            <label class="lang-select">
+              <select id="languageSelect" aria-label="Language">
+                <option value="en">🇬🇧 English</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="pt">🇵🇹 Português</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+              </select>
+            </label>
+            <a class="pill" href="ingles.html" data-translate="homeButton">← English</a>
+          </div>
         </div>
-    </div>
+        <h1 data-translate="mainTitle">Guided Learning</h1>
+        <p class="lede" data-translate="subtitle">Follow a structured path through every level</p>
+      </header>
+      <section class="paths">
+        <a class="path" href="curso.en.html">
+          <span class="num">01</span>
+          <h3 data-translate="course">Course</h3>
+          <p data-translate="courseDesc">Study all levels</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+      </section>
+    </main>
+    <footer class="site-foot">
+      <span class="kicker">Trilex · English</span>
+      <span class="kicker">CEFR A1 – B2</span>
+    </footer>
 
-    <!-- Pie de página con atribución -->
-    <div class="footer">
-        <span data-translate="footerAttribution">Night skyline of London, United Kingdom. Photo by Jesse Collins.</span>
-        <span data-translate="licenseText">License:</span>
-        <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
-    </div>
-
-    <script>
-        const translations = {
-            en: {
-                mainTitle: "Guided Learning",
-                subtitle: "Follow a structured path through every level",
-                homeButton: "← English",
-                footerAttribution: "Night skyline of London, United Kingdom. Photo by Jesse Collins.",
-                licenseText: "License:",
-                course: "Course",
-                courseDesc: "Study all levels"
-            },
-            es: {
-                mainTitle: "Aprendizaje Guiado",
-                subtitle: "Sigue un camino estructurado por todos los niveles",
-                homeButton: "← Inglés",
-                footerAttribution: "Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.",
-                licenseText: "Licencia:",
-                course: "Curso",
-                courseDesc: "Estudia todos los niveles"
-            },
-            fr: {
-                mainTitle: "Apprentissage Guidé",
-                subtitle: "Suivez un parcours structuré à travers tous les niveaux",
-                homeButton: "← Anglais",
-                footerAttribution: "Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.",
-                licenseText: "Licence:",
-                course: "Cours",
-                courseDesc: "Étudiez tous les niveaux"
-            },
-            de: {
-                mainTitle: "Geführtes Lernen",
-                subtitle: "Folgen Sie einem strukturierten Pfad durch alle Niveaus",
-                homeButton: "← Englisch",
-                footerAttribution: "Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.",
-                licenseText: "Lizenz:",
-                course: "Kurs",
-                courseDesc: "Studieren Sie alle Niveaus"
-            },
-            it: {
-                mainTitle: "Apprendimento Guidato",
-                subtitle: "Segui un percorso strutturato attraverso tutti i livelli",
-                homeButton: "← Inglese",
-                footerAttribution: "Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.",
-                licenseText: "Licenza:",
-                course: "Corso",
-                courseDesc: "Studia tutti i livelli"
-            },
-            pt: {
-                mainTitle: "Aprendizagem Guiada",
-                subtitle: "Siga um caminho estruturado por todos os níveis",
-                homeButton: "← Inglês",
-                footerAttribution: "Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.",
-                licenseText: "Licença:",
-                course: "Curso",
-                courseDesc: "Estude todos os níveis"
-            },
-            ru: {
-                mainTitle: "Управляемое обучение",
-                subtitle: "Следуйте структурированному пути через все уровни",
-                homeButton: "← Английский",
-                footerAttribution: "Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.",
-                licenseText: "Лицензия:",
-                course: "Курс",
-                courseDesc: "Изучайте все уровни"
-            },
-            zh: {
-                mainTitle: "引导式学习",
-                subtitle: "循序渐进，逐级学习",
-                homeButton: "← 英语",
-                footerAttribution: "英国伦敦夜景天际线。摄影：Jesse Collins。",
-                licenseText: "许可证:",
-                course: "课程",
-                courseDesc: "学习所有级别"
-            }
-        };
-
-        function changeLanguage(lang) {
-            const t = translations[lang];
-
-            document.getElementById('mainTitle').textContent = t.mainTitle;
-            document.getElementById('subtitle').textContent = t.subtitle;
-
-            document.querySelectorAll('[data-translate]').forEach(element => {
-                const key = element.getAttribute('data-translate');
-                if (t[key]) {
-                    element.textContent = t[key];
-                }
-            });
-
-            localStorage.setItem('selectedLanguage', lang);
-        }
-
-        document.getElementById('languageSelect').addEventListener('change', function () {
-            changeLanguage(this.value);
-        });
-
-        document.addEventListener('DOMContentLoaded', function () {
-            const savedLanguage = localStorage.getItem('selectedLanguage');
-            if (savedLanguage) {
-                document.getElementById('languageSelect').value = savedLanguage;
-                changeLanguage(savedLanguage);
-            }
-        });
-    </script>
-    <script src="../nav-links.js"></script>
-</body>
-
+    <script src="portadas.js"></script>
+  </body>
 </html>

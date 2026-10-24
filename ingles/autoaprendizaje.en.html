@@ -4,226 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English - Self-Learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap"
+    />
     <link rel="stylesheet" href="shared-topic.css" />
+    <script src="tema.js"></script>
   </head>
 
-  <body>
-    <!-- Selector de idiomas -->
-    <div class="language-selector">
-      <select id="languageSelect">
-        <option value="en">🇬🇧 English</option>
-        <option value="es">🇪🇸 Español</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="de">🇩🇪 Deutsch</option>
-        <option value="it">🇮🇹 Italiano</option>
-        <option value="pt">🇵🇹 Português</option>
-        <option value="ru">🇷🇺 Русский</option>
-        <option value="zh">🇨🇳 中文</option>
-      </select>
-    </div>
-
-    <!-- Botón para volver al selector de ruta -->
-    <div class="nav-top">
-      <div
-        class="btn-home"
-        data-translate="homeButton"
-        data-target="ingles.html"
-        role="link"
-        tabindex="0"
-      >
-        ← English
-      </div>
-    </div>
-
-    <div class="container">
-      <h1 id="mainTitle">Self-Learning</h1>
-      <p class="subtitle" id="subtitle">Learn at your own pace with free practice</p>
-
-      <div class="bubbles-container path-container">
-        <div
-          class="bubble bubble-path"
-          data-target="lectura.en.html#/textos"
-          role="link"
-          tabindex="0"
-        >
-          <div class="bubble-icon">📄</div>
-          <div class="bubble-title" data-translate="graded">Graded readings</div>
-          <div class="bubble-desc" data-translate="gradedDesc">
-            24 texts from A1 to B2 with comprehension questions
+  <body data-page="self">
+    <main class="page">
+      <header class="ph">
+        <div class="ph-top">
+          <span class="kicker">Trilex · English · Self-learning</span>
+          <div class="ph-actions">
+            <label class="lang-select">
+              <select id="languageSelect" aria-label="Language">
+                <option value="en">🇬🇧 English</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="pt">🇵🇹 Português</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+              </select>
+            </label>
+            <a class="pill" href="ingles.html" data-translate="homeButton">← English</a>
           </div>
         </div>
-        <div
-          class="bubble bubble-path"
-          data-target="lectura.en.html#/libros"
-          role="link"
-          tabindex="0"
-        >
-          <div class="bubble-icon">📚</div>
-          <div class="bubble-title" data-translate="books">Full books</div>
-          <div class="bubble-desc" data-translate="booksDesc">
-            7 classic books in English, chapter by chapter
-          </div>
-        </div>
-        <div
-          class="bubble bubble-path"
-          data-target="lectura.en.html#/palabras"
-          role="link"
-          tabindex="0"
-        >
-          <div class="bubble-icon">⭐</div>
-          <div class="bubble-title" data-translate="words">My words</div>
-          <div class="bubble-desc" data-translate="wordsDesc">
-            The words you saved while reading
-          </div>
-        </div>
-      </div>
-    </div>
+        <h1 data-translate="mainTitle">Self-Learning</h1>
+        <p class="lede" data-translate="subtitle">Learn at your own pace with free practice</p>
+      </header>
+      <section class="paths">
+        <a class="path" href="lectura.en.html#/textos">
+          <span class="num">01</span>
+          <h3 data-translate="graded">Graded readings</h3>
+          <p data-translate="gradedDesc">24 texts from A1 to B2 with comprehension questions</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+        <a class="path" href="lectura.en.html#/libros">
+          <span class="num">02</span>
+          <h3 data-translate="books">Full books</h3>
+          <p data-translate="booksDesc">7 classic books in English, chapter by chapter</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+        <a class="path" href="lectura.en.html#/palabras">
+          <span class="num">03</span>
+          <h3 data-translate="words">My words</h3>
+          <p data-translate="wordsDesc">The words you saved while reading</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+        <a class="path" href="lectura.en.html#/notas">
+          <span class="num">04</span>
+          <h3 data-translate="notes">My notes</h3>
+          <p data-translate="notesDesc">Your highlights and notes from every text, in one place</p>
+          <span class="open-link" data-translate="open">Open →</span>
+        </a>
+      </section>
+    </main>
+    <footer class="site-foot">
+      <span class="kicker">Trilex · English</span>
+      <span class="kicker">CEFR A1 – B2</span>
+    </footer>
 
-    <!-- Pie de página con atribución -->
-    <div class="footer">
-      <span data-translate="footerAttribution">
-        Night skyline of London, United Kingdom. Photo by Jesse Collins.
-      </span>
-      <span data-translate="licenseText">License:</span>
-      <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>
-    </div>
-
-    <script>
-      const translations = {
-        en: {
-          mainTitle: 'Self-Learning',
-          subtitle: 'Learn at your own pace with free practice',
-          homeButton: '← English',
-          footerAttribution: 'Night skyline of London, United Kingdom. Photo by Jesse Collins.',
-          licenseText: 'License:',
-          graded: 'Graded readings',
-          gradedDesc: '24 texts from A1 to B2 with comprehension questions',
-          books: 'Full books',
-          booksDesc: '7 classic books in English, chapter by chapter',
-          words: 'My words',
-          wordsDesc: 'The words you saved while reading',
-        },
-        es: {
-          mainTitle: 'Autoaprendizaje',
-          subtitle: 'Aprende a tu ritmo con práctica libre',
-          homeButton: '← Inglés',
-          footerAttribution: 'Skyline nocturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licencia:',
-          graded: 'Lecturas por nivel',
-          gradedDesc: '24 textos de A1 a B2 con preguntas de comprensión',
-          books: 'Libros completos',
-          booksDesc: '7 libros clásicos en inglés, capítulo a capítulo',
-          words: 'Mis palabras',
-          wordsDesc: 'Las palabras que guardaste al leer',
-        },
-        fr: {
-          mainTitle: 'Autoformation',
-          subtitle: 'Apprenez à votre rythme avec une pratique libre',
-          homeButton: '← Anglais',
-          footerAttribution: 'Silhouette nocturne de Londres, Royaume-Uni. Photo de Jesse Collins.',
-          licenseText: 'Licence:',
-          graded: 'Lectures par niveau',
-          gradedDesc: '24 textes de A1 à B2 avec questions de compréhension',
-          books: 'Livres complets',
-          booksDesc: '7 classiques en anglais, chapitre par chapitre',
-          words: 'Mes mots',
-          wordsDesc: 'Les mots que vous avez enregistrés en lisant',
-        },
-        de: {
-          mainTitle: 'Selbstlernen',
-          subtitle: 'Lernen Sie in Ihrem eigenen Tempo mit freiem Üben',
-          homeButton: '← Englisch',
-          footerAttribution:
-            'Nächtliche Skyline von London, Vereinigtes Königreich. Foto von Jesse Collins.',
-          licenseText: 'Lizenz:',
-          graded: 'Lesetexte nach Niveau',
-          gradedDesc: '24 Texte von A1 bis B2 mit Verständnisfragen',
-          books: 'Ganze Bücher',
-          booksDesc: '7 Klassiker auf Englisch, Kapitel für Kapitel',
-          words: 'Meine Wörter',
-          wordsDesc: 'Die Wörter, die Sie beim Lesen gespeichert haben',
-        },
-        it: {
-          mainTitle: 'Autoapprendimento',
-          subtitle: 'Impara al tuo ritmo con la pratica libera',
-          homeButton: '← Inglese',
-          footerAttribution: 'Skyline notturno di Londra, Regno Unito. Foto di Jesse Collins.',
-          licenseText: 'Licenza:',
-          graded: 'Letture per livello',
-          gradedDesc: '24 testi da A1 a B2 con domande di comprensione',
-          books: 'Libri completi',
-          booksDesc: '7 classici in inglese, capitolo per capitolo',
-          words: 'Le mie parole',
-          wordsDesc: 'Le parole che hai salvato leggendo',
-        },
-        pt: {
-          mainTitle: 'Autoaprendizagem',
-          subtitle: 'Aprenda no seu ritmo com prática livre',
-          homeButton: '← Inglês',
-          footerAttribution: 'Skyline noturno de Londres, Reino Unido. Foto de Jesse Collins.',
-          licenseText: 'Licença:',
-          graded: 'Leituras por nível',
-          gradedDesc: '24 textos de A1 a B2 com perguntas de compreensão',
-          books: 'Livros completos',
-          booksDesc: '7 clássicos em inglês, capítulo a capítulo',
-          words: 'Minhas palavras',
-          wordsDesc: 'As palavras que você salvou ao ler',
-        },
-        ru: {
-          mainTitle: 'Самостоятельное обучение',
-          subtitle: 'Учитесь в своём темпе со свободной практикой',
-          homeButton: '← Английский',
-          footerAttribution: 'Ночной силуэт Лондона, Великобритания. Фото Джесси Коллинза.',
-          licenseText: 'Лицензия:',
-          graded: 'Тексты по уровням',
-          gradedDesc: '24 текста от A1 до B2 с вопросами на понимание',
-          books: 'Книги целиком',
-          booksDesc: '7 классических книг на английском, глава за главой',
-          words: 'Мои слова',
-          wordsDesc: 'Слова, которые вы сохранили при чтении',
-        },
-        zh: {
-          mainTitle: '自主学习',
-          subtitle: '按自己的节奏自由练习',
-          homeButton: '← 英语',
-          footerAttribution: '英国伦敦夜景天际线。摄影：Jesse Collins。',
-          licenseText: '许可证:',
-          graded: '分级阅读',
-          gradedDesc: '从 A1 到 B2 的 24 篇短文，附阅读理解题',
-          books: '整本书',
-          booksDesc: '7 本英文经典，逐章阅读',
-          words: '我的单词',
-          wordsDesc: '你在阅读时保存的单词',
-        },
-      };
-      function changeLanguage(lang) {
-        const t = translations[lang];
-
-        document.getElementById('mainTitle').textContent = t.mainTitle;
-        document.getElementById('subtitle').textContent = t.subtitle;
-
-        document.querySelectorAll('[data-translate]').forEach((element) => {
-          const key = element.getAttribute('data-translate');
-          if (t[key]) {
-            element.textContent = t[key];
-          }
-        });
-
-        localStorage.setItem('selectedLanguage', lang);
-      }
-
-      document.getElementById('languageSelect').addEventListener('change', function () {
-        changeLanguage(this.value);
-      });
-
-      document.addEventListener('DOMContentLoaded', function () {
-        const savedLanguage = localStorage.getItem('selectedLanguage');
-        if (savedLanguage) {
-          document.getElementById('languageSelect').value = savedLanguage;
-          changeLanguage(savedLanguage);
-        }
-      });
-    </script>
-    <script src="../nav-links.js"></script>
+    <script src="portadas.js"></script>
   </body>
 </html>
