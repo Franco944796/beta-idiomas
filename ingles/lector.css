@@ -410,6 +410,10 @@ a.rd-bubble:hover {
   padding: 8px 12px;
   box-shadow: 0 8px 24px rgba(var(--shadow), 0.25);
 }
+.rd-sb-msg {
+  font-size: 0.88rem;
+  color: var(--on-feature-muted);
+}
 .rd-selbar .tx-link {
   color: var(--on-feature-strong);
   white-space: nowrap;

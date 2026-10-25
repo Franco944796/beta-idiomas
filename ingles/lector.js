@@ -29,6 +29,15 @@
   const fmt = (x) => String(Math.round(x * 10) / 10);
   const bar = (f) => `<span class="bar"><span style="width:${Math.round(f * 100)}%"></span></span>`;
   // misma normalización que tools/i18n_build.py (_norm) para buscar en los diccionarios
+  // mismo orden en la web y en la app (seededShuffle en util.dart)
+  const shuffled = (a, seed) => {
+    let s = 0;
+    for (let i = 0; i < seed.length; i++) s = (s * 31 + seed.charCodeAt(i)) >>> 0;
+    return a
+      .map((x) => [x, (s = (s * 1664525 + 1013904223) >>> 0)])
+      .sort((p, q) => p[1] - q[1])
+      .map((p) => p[0]);
+  };
   const norm = (s) =>
     String(s)
       .toLowerCase()
@@ -245,7 +254,7 @@
       .filter(Boolean)
       .join(' · ');
   };
-  async function showWord(word, x, y, ctx) {
+  async function showWord(word, x, y, ctx, onNote) {
     const r = await lookup(word);
     if (!r) return hidePop();
     if (narrow() && barOpen()) return hidePop();
@@ -267,7 +276,10 @@
         : `<p class="rd-src"><small>${T('popNotFound')}</small></p>`) +
       `<p class="rd-links"><small>${T('dictionary')}</small> ${dictLinks(r.w)}</p>` +
       `<button type="button" class="tx-btn tx-alt" data-act="keep" ${saved ? 'disabled' : ''}>` +
-      `${T(saved ? 'savedWord' : 'saveWord')}</button>`;
+      `${T(saved ? 'savedWord' : 'saveWord')}</button>` +
+      (onNote
+        ? ` <button type="button" class="tx-btn tx-alt" data-act="note">✎ ${T('seeNote')}</button>`
+        : '');
     pop.hidden = false;
     place(pop, x, y, 300);
     if (!narrow()) pairUp();
@@ -276,6 +288,10 @@
       if (!a) return;
       if (a.classList.contains('rd-x')) return hidePop();
       if (a.dataset.act === 'say') say(r.base);
+      if (a.dataset.act === 'note') {
+        hidePop();
+        onNote();
+      }
       if (a.dataset.act === 'keep') {
         P.words.unshift({
           w: r.base,
@@ -729,9 +745,20 @@
     sb.hidden = true;
     document.body.appendChild(sb);
     selbar = sb;
+    const overlaps = (ranges) =>
+      doc(o).marks.some((m) =>
+        m.ranges.some((a) => ranges.some((b) => a.p === b.p && a.s < b.e && b.s < a.e)),
+      );
+    const focusNote = (id) => {
+      const t = panel.querySelector(`[data-mk="${id}"] .rd-note-in`);
+      if (t) {
+        t.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        t.focus({ preventScroll: true });
+      }
+    };
     const addMark = (color, focus) => {
       const sr = selRanges(txt);
-      if (!sr) return;
+      if (!sr || overlaps(sr.ranges)) return;
       const m = {
         id: 'm' + Date.now().toString(36),
         color,
@@ -746,13 +773,7 @@
       sb.hidden = true;
       renderText();
       drawNotes();
-      if (focus) {
-        const t = panel.querySelector(`[data-mk="${m.id}"] .rd-note-in`);
-        if (t) {
-          t.scrollIntoView({ block: 'center', behavior: 'smooth' });
-          t.focus({ preventScroll: true });
-        }
-      }
+      if (focus) focusNote(m.id);
     };
     const showBar = () => {
       const sr = selRanges(txt);
@@ -761,13 +782,16 @@
         return;
       }
       const words = sr.quote.split(/\s+/).length;
+      const marked = overlaps(sr.ranges);
       sb.innerHTML =
-        `<span class="rd-dots">` +
-        COLORS.map(
-          (c) =>
-            `<button type="button" class="rd-dot c-${c}" data-color="${c}" aria-label="${T('markW')} · ${c}"></button>`,
-        ).join('') +
-        `</span><button type="button" class="tx-link" data-note>✎ ${T('noteAdd')}</button>` +
+        (marked
+          ? `<span class="rd-sb-msg">${T('alreadyMarked')}</span>`
+          : `<span class="rd-dots">` +
+            COLORS.map(
+              (c) =>
+                `<button type="button" class="rd-dot c-${c}" data-color="${c}" aria-label="${T('markW')} · ${c}"></button>`,
+            ).join('') +
+            `</span><button type="button" class="tx-link" data-note>✎ ${T('noteAdd')}</button>`) +
         (words <= 4
           ? `<button type="button" class="tx-link" data-tr>${T('translateW')}</button>`
           : '');
@@ -798,7 +822,8 @@
       const sel = window.getSelection && String(window.getSelection()).trim();
       if (sel) return;
       const r = wordAt(e.clientX, e.clientY);
-      if (r) showWord(r.w, e.clientX, e.clientY, r.ctx);
+      const mk = e.target.closest('.rd-mk');
+      if (r) showWord(r.w, e.clientX, e.clientY, r.ctx, mk && (() => focusNote(mk.dataset.mk)));
       else hidePop();
     });
 
@@ -885,7 +910,7 @@
                 [T('trueW'), true],
                 [T('falseW'), false],
               ]
-            : q.options.map((x) => [x, x]);
+            : shuffled(q.options, q.q).map((x) => [x, x]);
         a.innerHTML =
           `<div class="tx-opts">` +
           opts
