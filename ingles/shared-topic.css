@@ -171,6 +171,8 @@ textarea {
 .ph-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap; /* en el celular, un botón «volver» largo bajaba de línea fuera de la pantalla */
   gap: 8px;
   margin-left: auto;
 }
@@ -346,6 +348,51 @@ textarea {
   box-shadow: 0 8px 22px rgba(var(--shadow), 0.25);
 }
 
+/* Páginas de elección de camino (.page.hub): las secciones se reparten el alto y el ancho
+   disponibles, haya 1 o 6, en lugar de quedar amontonadas arriba */
+body:has(> .page.hub) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+body:has(> .page.hub) > .site-foot {
+  width: 100%;
+}
+.page.hub {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hub .paths {
+  flex: 1;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-auto-rows: minmax(220px, 1fr);
+  gap: 20px;
+}
+/* Filas parejas: con 4, 2 × 2; con 5 o más, 3 columnas (3 + 3 en lugar de 4 + 2) */
+.hub .paths:has(> .path:nth-child(4):last-child) {
+  grid-template-columns: repeat(2, 1fr);
+}
+.hub .paths:has(> .path:nth-child(5)) {
+  grid-template-columns: repeat(3, 1fr);
+}
+/* Con una sola, que no se estire a todo el ancho */
+.hub .paths:has(> .path:only-child) {
+  grid-template-columns: minmax(260px, 560px);
+  justify-content: center;
+}
+.hub .path {
+  padding: 28px 30px 26px;
+}
+.hub .path h3 {
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+}
+.hub .path p {
+  font-size: 1rem;
+}
+
 .note {
   display: grid;
   grid-template-columns: 170px 1fr;
@@ -458,6 +505,16 @@ textarea {
   }
   .path {
     min-height: 0;
+  }
+  .hub .paths,
+  .hub .paths:has(> .path:nth-child(4):last-child),
+  .hub .paths:has(> .path:nth-child(5)) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(160px, 1fr);
+    gap: 14px;
+  }
+  .hub .path {
+    padding: 22px 22px 20px;
   }
   .site-foot {
     padding: 16px 16px 32px;

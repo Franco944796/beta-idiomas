@@ -237,6 +237,7 @@ body {
     justify-content: center;
     font-size: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
     z-index: 2;
 }
 
@@ -277,12 +278,181 @@ body {
     pointer-events: none;
 }
 
-.lang-item.locked:hover .development-message {
+.lang-item.locked:hover .development-message,
+.lang-item.locked.denied .development-message {
     opacity: 1;
 }
 
+/* Al hacer clic en un idioma bloqueado: sacudida + insignia visible */
+.lang-item.locked.denied {
+    animation: lockedShake 0.4s ease;
+}
+
+.lang-item.locked.denied .lock-icon {
+    transform: scale(1.2);
+}
+
+@keyframes lockedShake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+/* Carrusel de idiomas (lo arma script.js). En pantallas grandes se ven todas las banderas en fila:
+   la estructura del carrusel no altera la fila y las flechas y los puntos se ocultan. */
+.ls-row,
+.ls-view {
+    display: contents;
+}
+
+.ls-arrow,
+.ls-dots {
+    display: none;
+}
+
+@keyframes lsFromRight {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes lsFromLeft {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: none; }
+}
+
+/* En el celular no entran todas: se ve un idioma por vez */
+@media (max-width: 576px) {
+    .ls-row {
+        display: flex;
+    }
+
+    .ls-view {
+        display: flex;
+    }
+
+    .ls-arrow {
+        display: block;
+    }
+
+    .ls-dots {
+        display: flex;
+    }
+
+    .language-switch.is-carousel {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 18px 12px;
+        border-radius: 28px;
+    }
+
+    .ls-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .ls-view {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        touch-action: pan-y; /* el deslizamiento horizontal lo maneja el carrusel */
+        user-select: none;
+    }
+
+    .is-carousel .lang-item {
+        display: none;
+        border-radius: 18px;
+        padding: 8px 14px 10px;
+    }
+
+    .is-carousel .lang-item.active {
+        display: flex;
+    }
+
+    .is-carousel .lang-item:hover {
+        transform: none;
+    }
+
+    .is-carousel .lang-icon {
+        width: 64px;
+        height: 64px;
+        -webkit-user-drag: none;
+    }
+
+    /* con un solo idioma a la vista, su nombre se ve siempre */
+    .is-carousel .lang-text {
+        position: static;
+        opacity: 1;
+        margin-top: 2px;
+    }
+
+    .is-carousel .development-message {
+        position: static;
+        transform: none;
+        opacity: 1;
+        margin-top: 6px;
+        font-size: 0.72rem;
+    }
+
+    .is-carousel .lock-icon {
+        top: 2px;
+        right: 6px;
+    }
+
+    .is-carousel .lang-item.from-right {
+        animation: lsFromRight 0.25s ease;
+    }
+
+    .is-carousel .lang-item.from-left {
+        animation: lsFromLeft 0.25s ease;
+    }
+
+    /* la sacudida de «en desarrollo» tiene prioridad sobre la animación de entrada */
+    .is-carousel .lang-item.locked.denied {
+        animation: lockedShake 0.4s ease;
+    }
+
+    .ls-arrow {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        background: rgba(255, 255, 255, 0.12);
+        color: white;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding-bottom: 3px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+
+    .ls-arrow:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    .ls-dots {
+        display: flex;
+        gap: 8px;
+    }
+
+    .ls-dot {
+        width: 8px;
+        height: 8px;
+        padding: 0;
+        border-radius: 50%;
+        border: none;
+        background: rgba(255, 255, 255, 0.35);
+        cursor: pointer;
+    }
+
+    .ls-dot.active {
+        background: white;
+    }
+}
+
 /* =========================================
-   SECCIÓN DE REDES SOCIALES
+   SECCIÓN DE CONTACTO
 ========================================= */
 .infos {
     position: absolute;
@@ -339,7 +509,15 @@ body {
     background: rgba(255, 255, 255, 0.15);
 }
 
-.ti-instagram {
+.contact-mail {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    justify-content: center;
+}
+
+.contact-icon {
     font-size: 1.2rem;
     /* Reducido de 1.4rem a 1.2rem */
 }
@@ -408,163 +586,6 @@ body {
 }
 
 /* =========================================
-   MODAL ESPACIAL (aviso de sección en desarrollo)
-========================================= */
-.spatial-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.spatial-modal.show {
-    opacity: 1;
-}
-
-.spatial-modal-content {
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
-    padding: 25px;
-    border-radius: 15px;
-    max-width: 380px;
-    width: 85%;
-    text-align: center;
-    box-shadow: 0 0 30px rgba(0, 57, 166, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    overflow: hidden;
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
-}
-
-.spatial-modal.show .spatial-modal-content {
-    transform: scale(1);
-}
-
-/* Efecto de estrellas en el fondo del modal */
-.spatial-modal-content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: radial-gradient(white 1px, transparent 1px);
-    background-size: 20px 20px;
-    opacity: 0.1;
-    z-index: -1;
-}
-
-/* Líneas espaciales decorativas */
-.spatial-modal-content::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, transparent 30%, rgba(0, 57, 166, 0.1) 50%, transparent 70%);
-    z-index: -1;
-    animation: spaceLines 8s linear infinite;
-}
-
-@keyframes spaceLines {
-    0% {
-        transform: translate(0, 0) rotate(0deg);
-    }
-
-    100% {
-        transform: translate(50%, 50%) rotate(360deg);
-    }
-}
-
-.spatial-modal-title {
-    color: #0039A6;
-    /* Azul ruso */
-    font-size: 1.6rem;
-    margin-bottom: 15px;
-    text-shadow: 0 0 10px rgba(0, 57, 166, 0.7);
-    position: relative;
-    display: inline-block;
-}
-
-/* Efecto de brillo para el título */
-.spatial-modal-title::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #0039A6, transparent);
-    animation: glow 2s ease-in-out infinite;
-}
-
-@keyframes glow {
-
-    0%,
-    100% {
-        opacity: 0.5;
-    }
-
-    50% {
-        opacity: 1;
-    }
-}
-
-.spatial-modal-message {
-    color: #ffffff;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    line-height: 1.4;
-}
-
-.spatial-modal-close {
-    background: linear-gradient(135deg, #0039A6 0%, #0052cc 100%);
-    /* Azul ruso */
-    color: white;
-    border: none;
-    padding: 8px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 0.95rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 57, 166, 0.4);
-    position: relative;
-    overflow: hidden;
-}
-
-.spatial-modal-close::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    transition: left 0.5s ease;
-}
-
-.spatial-modal-close:hover::before {
-    left: 100%;
-}
-
-.spatial-modal-close:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 57, 166, 0.6);
-}
-
-/* =========================================
    UTILIDADES
 ========================================= */
 .mb-4 {
@@ -585,6 +606,10 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .font-weight-normal {
@@ -896,9 +921,11 @@ body {
         padding: 6px;
     }
 
+    /* encima del pie de página: a este ancho el texto centrado del pie llega hasta el borde */
     .attribution {
         font-size: 0.6rem;
         padding: 4px 6px;
+        bottom: 30px;
     }
 }
 
@@ -928,12 +955,27 @@ body {
         border-width: 2px;
     }
 
-    .lang-text {
-        font-size: 0.8rem;
+    /* el nombre del idioma (solo visible al pasar el mouse) no debe ensanchar la fila de banderas:
+       sin esto, en un celular la fila se salía de la pantalla por los dos lados */
+    .lang-item {
+        padding: 6px;
     }
 
+    .lang-text {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 100%;
+        white-space: nowrap;
+        pointer-events: none;
+    }
+
+    /* Contacto arriba a la derecha: abajo ya están las banderas, el pie y la atribución */
     .infos {
-        display: none;
+        top: 10px;
+        bottom: auto;
+        right: 10px;
+        transform: scale(0.75);
+        transform-origin: top right;
     }
 
     .footer {

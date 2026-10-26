@@ -330,6 +330,39 @@
 .tx-unit footer {
   border-top: 1px solid var(--line);
   padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+}
+.tx-card-ex {
+  color: var(--muted);
+}
+.tx-gap {
+  color: var(--ink);
+  letter-spacing: 1px;
+}
+.tx-card-in .tx-in {
+  width: 100%;
+  max-width: 420px;
+}
+.tx-dg textarea {
+  margin-top: 12px;
+}
+.tx-dg-res {
+  margin-top: 12px;
+}
+.tx-dg-orig {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.tx-miss {
+  background: none;
+  color: var(--bad);
+  font-weight: 600;
+  text-decoration: underline wavy;
+  text-underline-offset: 3px;
 }
 .tx-exam {
   display: flex;

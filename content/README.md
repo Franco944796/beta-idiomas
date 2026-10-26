@@ -117,6 +117,18 @@ reading/books/<id>/ch-NN.json    texto original del capítulo + resumen + glosar
   general, marks: [{id, color, quote, note, ranges: [{p, s, e}]}]}}`; `p` es el párrafo y `s`/`e` la posición del
   subrayado dentro de su texto).
 
+## Datos escritos a mano (`content/en/extras.json`)
+
+No lo genera `build.py`: si se regenera `content/`, este archivo tiene que conservarse.
+
+- `summaries`: `{id de la lectura graduada: resumen modelo en inglés}` para el «Resumen guiado» del lector.
+- `unit_readings`: `{id de la unidad: id de la lectura graduada}` que el curso recomienda al pie de cada unidad.
+- `dictogloss`: `{id de la unidad: texto}` (30–60 palabras, con la gramática de la unidad) para el dictogloss.
+
+El progreso de las actividades nuevas lo guarda el navegador: en `trilex_read_v1`, `words[].box/due`
+(repaso espaciado de «Mis palabras»), `speed` (palabras por minuto por texto) y `sums` (borradores de
+resumen); en `trilex_en_v1`, `mixed` (último repaso mixto) y `dicto` (mejor resultado por unidad).
+
 ## Formato y legibilidad
 
 - **JSON con sangría**: todos los archivos de `content/` se escriben con `indent=2` (un campo por línea),

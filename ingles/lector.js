@@ -50,7 +50,10 @@
   try {
     P = JSON.parse(localStorage.getItem(K)) || {};
   } catch (e) {}
-  P = Object.assign({ t: {}, b: {}, words: [], drafts: {}, notes: {}, size: 1, rate: 0.9 }, P);
+  P = Object.assign(
+    { t: {}, b: {}, words: [], drafts: {}, notes: {}, speed: {}, sums: {}, size: 1, rate: 0.9 },
+    P,
+  );
   const save = () => {
     try {
       localStorage.setItem(K, JSON.stringify(P));
@@ -58,6 +61,24 @@
   };
 
   const pad2 = (n) => String(n).padStart(2, '0');
+  const today = () => Math.floor(Date.now() / 864e5);
+  const INT = [1, 3, 7, 14, 30, 60]; // mismos intervalos que el Repaso del curso
+  const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const clock = (sec) => {
+    const t = Math.max(0, Math.floor(sec));
+    return Math.floor(t / 60) + ':' + pad2(t % 60);
+  };
+  const wordCount = (v) => (v.match(/[A-Za-z’']+/g) || []).length;
+  // corta solo antes de mayúscula: «10 p.m. until» queda en una oración
+  const sentencesOf = (text) =>
+    String(text)
+      .replace(/\s+/g, ' ')
+      .split(/(?<=[.!?]["'”’)]?)\s+(?=["'“‘(]?[A-Z])/)
+      .map((x) => x.trim())
+      .filter((x) => /[A-Za-z]/.test(x));
+  // timers, grabaciones y barras fijas de la vista actual: route() los cierra al cambiar de vista
+  let leaving = [];
+  const onLeave = (fn) => leaving.push(fn);
   const dkey = (d) => d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
   let lastAct = 0,
     pend = 0;
@@ -84,13 +105,38 @@
   window.addEventListener('pagehide', flushTime);
 
   const canSpeak = 'speechSynthesis' in window;
-  const say = (t) => {
+  const say = (t, rate) => {
     if (!canSpeak) return;
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(t);
     u.lang = 'en-GB';
-    u.rate = P.rate;
+    u.rate = rate || P.rate;
     speechSynthesis.speak(u);
+  };
+  // la grabación queda en el dispositivo; devuelve una función que la detiene y da la URL del audio
+  const canRec = !!(
+    navigator.mediaDevices &&
+    navigator.mediaDevices.getUserMedia &&
+    window.MediaRecorder
+  );
+  const record = async () => {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true }),
+      mr = new MediaRecorder(stream),
+      chunks = [];
+    mr.ondataavailable = (e) => chunks.push(e.data);
+    mr.start();
+    let done = null;
+    const stop = () =>
+      done ||
+      (done = new Promise((res) => {
+        mr.onstop = () => {
+          stream.getTracks().forEach((t) => t.stop());
+          res(URL.createObjectURL(new Blob(chunks, { type: mr.mimeType || 'audio/webm' })));
+        };
+        mr.stop();
+      }));
+    onLeave(stop);
+    return stop;
   };
   let reading = null;
   const stopRead = () => {
@@ -119,7 +165,8 @@
   // el significado sale de reading/i18n/<idioma>.json (tools/i18n_build.py); en.json es la
   // definición en inglés sencillo.
   let VOC = null,
-    GLOSS = {};
+    GLOSS = {},
+    GLOSS1 = {}; // primera palabra de una frase del glosario → la frase (último recurso)
   const DICT = {};
   const loadVoc = () =>
     VOC ||
@@ -164,6 +211,31 @@
     if (/est$/.test(w)) add(w.slice(0, -3));
     return o;
   };
+  // Frases («got up», «having breakfast» → «get up», «have breakfast»): se prueba cada palabra
+  // en su forma base, una por vez. Los irregulares cubren los verbos de los phrasal verbs del curso.
+  const IRREG = {
+    am: 'be', is: 'be', are: 'be', was: 'be', were: 'be', been: 'be',
+    has: 'have', had: 'have', does: 'do', did: 'do', done: 'do',
+    got: 'get', gotten: 'get', went: 'go', gone: 'go', took: 'take', taken: 'take',
+    made: 'make', kept: 'keep', ran: 'run', came: 'come', gave: 'give', given: 'give',
+    brought: 'bring', found: 'find', felt: 'feel', left: 'leave', said: 'say', told: 'tell',
+    thought: 'think', fell: 'fall', fallen: 'fall', grew: 'grow', grown: 'grow',
+    broke: 'break', broken: 'break', caught: 'catch', held: 'hold', stood: 'stand',
+    wrote: 'write', written: 'write', saw: 'see', seen: 'see', knew: 'know', known: 'know',
+    paid: 'pay', sat: 'sit', spoke: 'speak', spoken: 'speak', woke: 'wake', woken: 'wake',
+  };
+  const phraseForms = (w) => {
+    const ws = w.split(' '),
+      o = [w];
+    ws.forEach((x, i) => {
+      [...forms(x).slice(1), IRREG[x]].forEach((f) => {
+        if (!f) return;
+        const v = ws.slice(0, i).concat(f, ws.slice(i + 1)).join(' ');
+        if (!o.includes(v)) o.push(v);
+      });
+    });
+    return o;
+  };
   // → {w, base, tr (significado en el idioma elegido), es, def (inglés sencillo), src, fallback}
   async function lookup(word) {
     const w = norm(word).replace(/^'+|'+$/g, '');
@@ -187,8 +259,13 @@
         src,
       };
     };
-    for (const f of forms(w)) if (GLOSS[f]) return out(f, GLOSS[f], 'glosario');
-    for (const f of forms(w)) if (voc[f]) return out(f, voc[f], 'curso');
+    const cands = w.includes(' ') ? phraseForms(w) : forms(w);
+    for (const f of cands) if (GLOSS[f]) return out(f, GLOSS[f], 'glosario');
+    for (const f of cands) if (voc[f]) return out(f, voc[f], 'curso');
+    // una palabra suelta que solo aparece como inicio de una frase del glosario: se muestra la
+    // frase completa («look» → «look after»), nunca su significado como si fuera el de la palabra
+    if (!w.includes(' '))
+      for (const f of cands) if (GLOSS1[f]) return out(GLOSS1[f], GLOSS[GLOSS1[f]], 'glosario');
     return { w, base: w, tr: null };
   }
   const glossMeaning = (g, d) => (L() === 'es' ? g.es : (d && d.gloss[norm(g.en)]) || g.es);
@@ -197,7 +274,11 @@
   pop.className = 'rd-pop';
   pop.hidden = true;
   document.body.appendChild(pop);
+  // no perder la selección del texto al tocar el diccionario (sus botones dependen de ella)
+  pop.addEventListener('mousedown', (e) => e.preventDefault());
+  let popSeq = 0;
   const hidePop = () => {
+    popSeq++; // descarta búsquedas que todavía no terminaron
     pop.hidden = true;
   };
   const place = (el, x, y, w) => {
@@ -255,7 +336,9 @@
       .join(' · ');
   };
   async function showWord(word, x, y, ctx, onNote) {
+    const seq = ++popSeq;
     const r = await lookup(word);
+    if (seq !== popSeq) return; // mientras tanto se seleccionó otra cosa
     if (!r) return hidePop();
     if (narrow() && barOpen()) return hidePop();
     const saved = P.words.some((s) => s.w === r.base);
@@ -436,7 +519,8 @@
 
   async function textsView(filter) {
     const ix = await index();
-    const lv = filter || P.lvl || 'A1';
+    const ok = (l) => ix.levels.includes(l),
+      lv = ok(filter) ? filter : ok(P.lvl) ? P.lvl : ix.levels[0];
     P.lvl = lv;
     save();
     const list = ix.texts.filter((t) => t.level === lv);
@@ -548,11 +632,12 @@
   //     back, backLabel, prev, next, summary, prevBest, onScore}
   async function readerShell(o) {
     GLOSS = {};
+    GLOSS1 = {};
     (o.glossary || []).forEach((g) => {
       const k = norm(g.en),
         first = k.split(' ')[0];
       GLOSS[k] = g.es;
-      if (first !== k && !GLOSS[first]) GLOSS[first] = g.es;
+      if (first !== k && !GLOSS1[first]) GLOSS1[first] = k;
     });
     const d = L() === 'es' ? null : await loadDict(L());
     const blocks = o.blocks || o.paragraphs.map((p) => ({ t: 'p', text: p }));
@@ -588,7 +673,11 @@
       `<p class="rd-tip">${T('tapTip')} ${T('markHint')}</p>` +
       `<div class="rd-text"></div></article>` +
       `<aside class="rd-notes" id="rd-notes"></aside></div>` +
+      (canSpeak ? `<section class="tx-sec" id="rd-shadow"></section>` : '') +
       `<section class="tx-sec rd-quiz" id="rd-quiz"></section>` +
+      `<section class="tx-sec" id="rd-cloze"></section>` +
+      (o.summaryModel ? `<section class="tx-sec" id="rd-sum"></section>` : '') +
+      `<section class="tx-sec" id="rd-flu"></section>` +
       (o.task
         ? `<section class="tx-sec rd-task"><span class="kicker blue">${T('afterReading')}</span>` +
           `<p>${esc(o.task)}</p><textarea class="tx-in tx-ta" id="rd-draft" rows="6" ` +
@@ -698,7 +787,8 @@
                   `</span><button type="button" class="tx-link" data-del-mk="${m.id}">${T('delete')}</button></div></div>`,
               )
               .join('')
-          : `<p class="rd-empty"><small>${T('markHint')}</small></p>`);
+          : `<p class="rd-empty"><small>${T('markHint')}</small></p>`) +
+        `<p class="rd-close-hint"><small>${T('closeHint')}</small></p>`;
       panel.querySelector('.rd-general textarea').oninput = (e) => {
         doc(o).general = e.target.value;
         tidyNotes(o.id);
@@ -775,10 +865,13 @@
       drawNotes();
       if (focus) focusNote(m.id);
     };
+    // La barra y el diccionario dependen solo de la selección: al cambiarla se actualizan
+    // los dos, y al deseleccionar (un toque en el texto) se cierran los dos.
     const showBar = () => {
       const sr = selRanges(txt);
       if (!sr) {
         sb.hidden = true;
+        if (txt.isConnected) hidePop();
         return;
       }
       const words = sr.quote.split(/\s+/).length;
@@ -792,44 +885,394 @@
                 `<button type="button" class="rd-dot c-${c}" data-color="${c}" aria-label="${T('markW')} · ${c}"></button>`,
             ).join('') +
             `</span><button type="button" class="tx-link" data-note>✎ ${T('noteAdd')}</button>`) +
-        (words <= 4
+        (words <= 4 && (words > 1 || narrow())
           ? `<button type="button" class="tx-link" data-tr>${T('translateW')}</button>`
-          : '');
-      const rect = window.getSelection().getRangeAt(0).getBoundingClientRect();
+          : '') +
+        `<button type="button" class="rd-x" data-close aria-label="${T('close')}">✕</button>`;
+      const rect = window.getSelection().getRangeAt(0).getBoundingClientRect(),
+        cx = rect.left + rect.width / 2;
+      // Junto al puntero, no debajo de toda la selección: con un párrafo entero la barra
+      // quedaba al final y a veces fuera de la pantalla.
+      const pt = selPoint() || { x: cx, y: rect.bottom + 6 };
       sb.hidden = false;
       // debajo de la selección (en el móvil, arriba queda el menú del sistema)
-      place(sb, rect.left + rect.width / 2, rect.bottom + 6, 300);
-      sb.anchor = { x: rect.left + rect.width / 2, y: rect.bottom + 6 };
+      place(sb, pt.x, pt.y, 300);
+      // si abajo no entra, va arriba del puntero
+      const h = sb.offsetHeight;
+      let top = pt.y + 14;
+      if (top + h > window.innerHeight - 8) {
+        top = Math.max(8, pt.y - h - 34);
+        sb.style.top = top + window.scrollY + 'px';
+      }
+      sb.anchor = { x: pt.x, y: top - 14 };
+      const openMeaning = () => {
+        const sel = window.getSelection(),
+          mk = sel.anchorNode && sel.anchorNode.parentElement.closest('.rd-mk'),
+          at = wordAt(cx, rect.top + rect.height / 2);
+        showWord(sr.quote, pt.x, sb.anchor.y, at ? at.ctx : '', mk && (() => focusNote(mk.dataset.mk)));
+      };
       if (narrow()) hidePop();
-      else pairUp();
+      // una sola palabra (doble clic): el significado se abre junto a la barra
+      else if (words === 1) openMeaning();
+      else if (words <= 4) {
+        // frase: se abre sola solo si está en el diccionario («get up», «nice to meet you»);
+        // si no, queda «Traducir» para ir a los diccionarios externos
+        hidePop();
+        lookup(sr.quote).then((r) => {
+          const now = selRanges(txt);
+          if (!r || !r.tr || !now || now.quote !== sr.quote) return;
+          const tr = sb.querySelector('[data-tr]');
+          if (tr) tr.remove();
+          openMeaning();
+        });
+      } else {
+        hidePop();
+      }
       sb.onmousedown = (e) => e.preventDefault(); // no perder la selección al tocar la barra
       sb.onclick = (e) => {
+        // su ✕ cierra solo la barra, igual que el ✕ del diccionario cierra solo el diccionario
+        if (e.target.closest('[data-close]')) return (sb.hidden = true);
         const c = e.target.closest('[data-color]');
         if (c) return addMark(c.dataset.color, false);
         if (e.target.closest('[data-note]')) return addMark('yellow', true);
         if (e.target.closest('[data-tr]')) {
           sb.hidden = true;
-          showWord(sr.quote, rect.left + rect.width / 2, rect.bottom + 6, '');
+          showWord(sr.quote, pt.x, sb.anchor.y, '');
         }
       };
+    };
+    // Dónde terminó la selección: donde se soltó el mouse, o (teclado / pantalla táctil)
+    // el extremo de la selección que se movió último.
+    let lastUp = null;
+    document.onmouseup = (e) => {
+      lastUp = { x: e.clientX, y: e.clientY, t: Date.now() };
+    };
+    const selPoint = () => {
+      if (lastUp && Date.now() - lastUp.t < 1000) return { x: lastUp.x, y: lastUp.y + 12 };
+      const sel = window.getSelection();
+      if (!sel.focusNode) return null;
+      const r = document.createRange();
+      try {
+        r.setStart(sel.focusNode, sel.focusOffset);
+      } catch {
+        return null;
+      }
+      const b = r.getClientRects()[0] || r.getBoundingClientRect();
+      return b && (b.top || b.bottom) ? { x: b.left, y: b.bottom + 6 } : null;
     };
     let selT = null;
     document.onselectionchange = () => {
       clearTimeout(selT);
       selT = setTimeout(showBar, 220);
     };
-    txt.addEventListener('click', (e) => {
-      const sel = window.getSelection && String(window.getSelection()).trim();
-      if (sel) return;
-      const r = wordAt(e.clientX, e.clientY);
-      const mk = e.target.closest('.rd-mk');
-      if (r) showWord(r.w, e.clientX, e.clientY, r.ctx, mk && (() => focusNote(mk.dataset.mk)));
-      else hidePop();
+    // tocar fuera o Esc deselecciona, así la barra y el diccionario se van juntos
+    const closeSel = () => {
+      window.getSelection().removeAllRanges();
+      sb.hidden = true;
+      hidePop();
+    };
+    document.onkeydown = (e) => {
+      if (e.key === 'Escape' && (!sb.hidden || !pop.hidden)) closeSel();
+    };
+    // un toque fuera del texto, la barra y el diccionario cierra los dos (tocar un botón o una
+    // zona no seleccionable no siempre borra la selección, y la barra quedaba abierta)
+    document.onmousedown = (e) => {
+      if (sb.hidden && pop.hidden) return;
+      if (!txt.contains(e.target) && !sb.contains(e.target) && !pop.contains(e.target)) closeSel();
+    };
+    // un toque en el texto no abre nada: solo cierra lo que estaba abierto de la selección anterior
+    txt.addEventListener('mousedown', () => {
+      sb.hidden = true;
+      hidePop();
     });
 
     quiz(app.querySelector('#rd-quiz'), o);
+    const sents = blocks.flatMap((b) => sentencesOf(b.text));
+    if (canSpeak) shadow(app.querySelector('#rd-shadow'), sents);
+    cloze(app.querySelector('#rd-cloze'), o, sents, d);
+    if (o.summaryModel) summary(app.querySelector('#rd-sum'), o);
+    fluency(app.querySelector('#rd-flu'), o, txt);
   }
   let selbar = null;
+
+  // Escuchar y repetir (shadowing), una oración por vez
+  function shadow(box, sents) {
+    let i = 0,
+      stopRec = null,
+      url = null;
+    const draw = () => {
+      box.innerHTML =
+        `<span class="kicker blue">${T('shH')}</span><p class="tx-sec-lede">${T('shLede')}</p>` +
+        `<div class="card rd-sh"><small>${T('shOf', { i: i + 1, n: sents.length })}</small>` +
+        `<p class="rd-sh-s">${esc(sents[i])}</p><div class="tx-row-btns">` +
+        `<button type="button" class="tx-btn" data-a="say">🔊 ${T('shListen')}</button>` +
+        `<button type="button" class="tx-btn tx-alt" data-a="slow">🐢 ${T('shSlow')}</button>` +
+        (canRec
+          ? `<button type="button" class="tx-btn tx-alt" data-a="rec">🎙 ${T('shRec')}</button>`
+          : '') +
+        `</div><audio controls ${url ? `src="${url}"` : 'hidden'}></audio>` +
+        `<div class="tx-row-btns rd-sh-nav">` +
+        `<button type="button" class="tx-btn tx-alt" data-a="prev" ${i ? '' : 'disabled'}>${T('shPrev')}</button>` +
+        `<button type="button" class="tx-btn tx-alt" data-a="next" ${i < sents.length - 1 ? '' : 'disabled'}>${T('shNext')}</button>` +
+        `</div></div>`;
+    };
+    const go = (k) => {
+      if (stopRec) return;
+      i = k;
+      if (url) URL.revokeObjectURL(url);
+      url = null;
+      draw();
+    };
+    box.onclick = async (e) => {
+      const b = e.target.closest('[data-a]');
+      if (!b) return;
+      const a = b.dataset.a;
+      if (a === 'say') say(sents[i]);
+      else if (a === 'slow') say(sents[i], 0.6);
+      else if (a === 'prev') go(i - 1);
+      else if (a === 'next') go(i + 1);
+      else if (a === 'rec') {
+        if (stopRec) {
+          const s = stopRec;
+          stopRec = null;
+          if (url) URL.revokeObjectURL(url);
+          url = await s();
+          draw();
+          return;
+        }
+        try {
+          stopRec = await record();
+        } catch (err) {
+          b.textContent = T('shNoMic');
+          b.disabled = true;
+          return;
+        }
+        b.textContent = '■ ' + T('rtStop');
+        const mine = stopRec;
+        setTimeout(() => {
+          if (stopRec === mine) b.click();
+        }, 15000);
+      }
+    };
+    draw();
+  }
+
+  // Completar huecos: oraciones del propio texto sin las palabras del glosario
+  function cloze(box, o, sents, d) {
+    const used = new Set(),
+      items = [];
+    (o.glossary || []).forEach((g) => {
+      if (items.length >= 6) return;
+      const re = new RegExp('\\b' + reEsc(g.en) + '\\b', 'i'),
+        k = sents.findIndex((x, n) => !used.has(n) && re.test(x));
+      if (k < 0) return;
+      used.add(k);
+      const m = sents[k].match(re);
+      items.push({ k, s: sents[k], at: m.index, a: m[0], base: g.en, hint: glossMeaning(g, d) });
+    });
+    if (items.length < 2) return box.remove();
+    items.sort((x, y) => x.k - y.k);
+    const draw = () => {
+      const res = new Array(items.length).fill(null);
+      box.innerHTML =
+        `<span class="kicker blue">${T('czH')}</span><p class="tx-sec-lede">${T('czLede')}</p>` +
+        `<div class="tx-grid">` +
+        items
+          .map(
+            (it, n) =>
+              `<article class="tx-ex" data-n="${n}"><span class="tx-ex-n">${n + 1}</span><div class="tx-ex-box">` +
+              `<div class="tx-q">${esc(it.s.slice(0, it.at))}<span class="tx-slot">` +
+              `<input class="tx-in" autocomplete="off" autocapitalize="off" spellcheck="false" ` +
+              `aria-label="${T('answerLabel')}"></span>${esc(it.s.slice(it.at + it.a.length))}</div>` +
+              `<small class="rd-hint">${esc(it.hint)}</small>` +
+              `<div class="tx-act"><button type="button" class="tx-btn">${T('check')}</button></div>` +
+              `<div class="tx-fb wait">${T('answerToSee')}</div></div></article>`,
+          )
+          .join('') +
+        `</div><div class="rd-cz-res"></div>`;
+      box.querySelectorAll('.tx-ex').forEach((ex) => {
+        const n = +ex.dataset.n,
+          it = items[n],
+          inp = ex.querySelector('input'),
+          b = ex.querySelector('button'),
+          fb = ex.querySelector('.tx-fb');
+        const check = () => {
+          if (!inp.value.trim()) return inp.focus();
+          const v = norm(inp.value),
+            ok = v === norm(it.a) || v === norm(it.base);
+          inp.disabled = b.disabled = true;
+          res[n] = ok;
+          fb.className = 'tx-fb ' + (ok ? 'ok' : 'bad');
+          fb.innerHTML = '<b>' + (ok ? T('correct') : T('answerIs') + ' ' + esc(it.a)) + '</b>';
+          if (res.every((x) => x !== null))
+            box.querySelector('.rd-cz-res').innerHTML =
+              `<div class="tx-row-btns"><b class="tx-big">${res.filter(Boolean).length}/${items.length}</b>` +
+              `<button type="button" class="tx-btn tx-alt">${T('restart')}</button></div>`;
+        };
+        b.onclick = check;
+        inp.onkeydown = (e) => {
+          if (e.key === 'Enter') check();
+        };
+      });
+    };
+    box.addEventListener('click', (e) => {
+      if (e.target.closest('.rd-cz-res button')) draw();
+    });
+    draw();
+  }
+
+  // Resumen guiado (solo lecturas graduadas: los modelos están en extras.json)
+  function summary(box, o) {
+    const [sn, need] = { A1: ['2–3', 15], A2: ['3–4', 25], B1: ['4–5', 35], B2: ['5–6', 45] }[
+      o.level
+    ] || ['3–5', 25];
+    box.innerHTML =
+      `<span class="kicker blue">${T('smH')}</span><p class="tx-sec-lede">${T('smLede', { s: sn })}</p>` +
+      `<textarea class="tx-in tx-ta" rows="5" placeholder="${T('writeHere')}">` +
+      `${esc(P.sums[o.id] || '')}</textarea><p><small class="rd-sm-wc"></small></p>` +
+      `<div class="tx-row-btns"><button type="button" class="tx-btn">${T('smCompare')}</button></div>` +
+      `<p class="tx-warn rd-sm-warn"></p><div class="rd-sm-res"></div>`;
+    const ta = box.querySelector('textarea'),
+      wc = box.querySelector('.rd-sm-wc'),
+      warn = box.querySelector('.rd-sm-warn');
+    const count = () => (wc.textContent = T('wordCount', { n: wordCount(ta.value) }));
+    count();
+    ta.oninput = () => {
+      P.sums[o.id] = ta.value;
+      save();
+      count();
+    };
+    box.querySelector('button').onclick = () => {
+      const w = wordCount(ta.value);
+      if (w < need) {
+        warn.textContent = T('smNeed', { n: need, w });
+        return ta.focus();
+      }
+      warn.textContent = '';
+      box.querySelector('.rd-sm-res').innerHTML =
+        `<div class="panel blue"><span class="kicker blue">${T('smModel')}</span>` +
+        `<p>${esc(o.summaryModel)}</p>` +
+        (canSpeak
+          ? `<button type="button" class="tx-btn tx-alt tx-say" data-sm-say>🔊</button>`
+          : '') +
+        `<p><b>${T('smCheckH')}</b></p><ul class="tx-check">` +
+        ['smC1', 'smC2', 'smC3', 'smC4']
+          .map((k) => `<li><label><input type="checkbox"> ${T(k)}</label></li>`)
+          .join('') +
+        `</ul></div>`;
+      const sb = box.querySelector('[data-sm-say]');
+      if (sb) sb.onclick = () => say(o.summaryModel);
+    };
+  }
+
+  // Fluidez: relectura cronometrada y volver a contarlo en 2:00 / 1:30 / 1:00
+  function fluency(box, o, txt) {
+    const ROUNDS = [120, 90, 60];
+    box.innerHTML =
+      `<span class="kicker blue">${T('fluH')}</span><div class="rd-flu">` +
+      `<article class="card"><h3>${T('tmH')}</h3><p class="rd-flu-lede">${T('tmLede')}</p>` +
+      `<div class="tx-row-btns"><button type="button" class="tx-btn" data-tm>${T('tmStart')}</button></div>` +
+      `<p class="rd-tm-res"></p></article>` +
+      `<article class="card"><h3>${T('rtH')}</h3><p class="rd-flu-lede">${T('rtLede')}</p>` +
+      (canRec ? '' : `<p><small>${T('rtNoMic')}</small></p>`) +
+      `<div class="rd-rt"></div></article></div>`;
+
+    const tmRes = box.querySelector('.rd-tm-res'),
+      tmBtn = box.querySelector('[data-tm]');
+    const showSpeed = (msg) => {
+      const hist = P.speed[o.id] || [];
+      if (!hist.length) return (tmRes.textContent = msg || '');
+      const last = hist[hist.length - 1].wpm,
+        first = hist[0].wpm;
+      tmRes.innerHTML =
+        (msg ? esc(msg) + ' ' : '') +
+        `<b>${T('tmRes', { w: last })}</b>` +
+        (hist.length > 1
+          ? ` · ${T('tmFirst', { w: first })} (${last >= first ? '+' : ''}${Math.round(((last - first) / first) * 100)} %)`
+          : '');
+    };
+    showSpeed();
+    tmBtn.onclick = () => {
+      const t0 = Date.now(),
+        bar = document.createElement('div');
+      bar.className = 'rd-timer';
+      bar.innerHTML = `<span>⏱ <b>0:00</b></span><button type="button" class="tx-btn">${T('tmStop')}</button>`;
+      document.body.appendChild(bar);
+      const iv = setInterval(() => {
+        bar.querySelector('b').textContent = clock((Date.now() - t0) / 1000);
+      }, 500);
+      const end = () => {
+        clearInterval(iv);
+        bar.remove();
+      };
+      onLeave(end);
+      tmBtn.disabled = true;
+      txt.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      bar.querySelector('button').onclick = () => {
+        end();
+        tmBtn.disabled = false;
+        const secs = (Date.now() - t0) / 1000,
+          wpm = Math.round(o.words / (secs / 60));
+        // más de 600 palabras por minuto no es leer: probablemente se apretó sin querer
+        if (!o.words || wpm > 600) return showSpeed(T('tmTooFast'));
+        (P.speed[o.id] = P.speed[o.id] || []).push({ wpm, at: Date.now() });
+        save();
+        showSpeed();
+        box.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      };
+    };
+
+    const rt = box.querySelector('.rd-rt');
+    let urls = [],
+      r = 0;
+    const drawRt = () => {
+      rt.innerHTML =
+        urls
+          .map(
+            (u, k) =>
+              `<p><small>${T('rtRec', { n: k + 1 })}</small><br><audio controls src="${u}"></audio></p>`,
+          )
+          .join('') +
+        (r < ROUNDS.length
+          ? `<div class="tx-row-btns"><button type="button" class="tx-btn" data-rt>` +
+            `${T('rtGo', { n: r + 1, t: clock(ROUNDS[r]) })}</button></div>`
+          : `<p class="tx-news">${T(urls.length ? 'rtDone' : 'rtDoneNoMic')}</p>` +
+            `<div class="tx-row-btns"><button type="button" class="tx-btn tx-alt" data-rt-again>${T('restart')}</button></div>`);
+    };
+    rt.onclick = async (e) => {
+      if (e.target.closest('[data-rt-again]')) {
+        urls.forEach((u) => URL.revokeObjectURL(u));
+        urls = [];
+        r = 0;
+        return drawRt();
+      }
+      if (!e.target.closest('[data-rt]')) return;
+      let stop = null;
+      if (canRec)
+        try {
+          stop = await record();
+        } catch (err) {}
+      let left = ROUNDS[r];
+      rt.innerHTML =
+        `<p class="rd-rt-clock">${clock(left)}</p><p><small>${T('roundN', { n: r + 1 })}</small></p>` +
+        `<div class="tx-row-btns"><button type="button" class="tx-btn tx-alt" data-rt-stop>■ ${T('rtStop')}</button></div>`;
+      const face = rt.querySelector('.rd-rt-clock');
+      const finish = async () => {
+        clearInterval(iv);
+        if (stop) urls.push(await stop());
+        r++;
+        drawRt();
+      };
+      const iv = setInterval(() => {
+        left--;
+        face.textContent = clock(left);
+        if (left <= 0) finish();
+      }, 1000);
+      onLeave(() => clearInterval(iv));
+      rt.querySelector('[data-rt-stop]').onclick = finish;
+    };
+    drawRt();
+  }
 
   function quiz(box, o) {
     const qs = o.questions || [];
@@ -879,6 +1322,7 @@
       if (ans.some((a) => a === null)) return;
       const s = ans.filter(Boolean).length / qs.length;
       o.onScore(s);
+      o.prevBest = Math.max(o.prevBest || 0, s); // «Reiniciar» muestra el mejor puntaje actualizado
       const msg = T(s === 1 ? 'msgPerfect' : s >= 0.75 ? 'msgGood' : s >= 0.5 ? 'msgOk' : 'msgLow');
       box.querySelector('.rd-result').innerHTML =
         `<div class="panel ${s >= 0.5 ? 'blue' : 'rust'} tx-result"><span class="kicker">${T('resultH')}</span>` +
@@ -952,8 +1396,10 @@
     });
   }
 
+  let EXTRAS = null;
+  const extras = () => EXTRAS || (EXTRAS = J(C + 'extras.json').catch(() => ({})));
   async function textView(id) {
-    const [t, ix] = await Promise.all([J(R + 'texts/' + id + '.json'), index()]);
+    const [t, ix, ex] = await Promise.all([J(R + 'texts/' + id + '.json'), index(), extras()]);
     const same = ix.texts.filter((x) => x.level === t.level),
       k = same.findIndex((x) => x.id === id);
     await readerShell({
@@ -968,6 +1414,8 @@
         (L() === 'es' ? esc(t.title_es) + ' · ' : '') +
         `${T('wordsN', { n: t.words })} · ~${T('minN', { n: t.minutes })}`,
       paragraphs: t.paragraphs,
+      words: t.words,
+      summaryModel: (ex.summaries || {})[id] || null,
       glossary: t.glossary,
       questions: t.questions,
       task: t.task,
@@ -1006,6 +1454,7 @@
       sub: `${esc(b.author)} · ${T('wordsN', { n: num(c.words) })}`,
       summary: L() === 'es' ? c.summary_es : '',
       blocks: c.blocks,
+      words: c.words,
       glossary: c.glossary,
       questions: c.questions,
       task: null,
@@ -1044,6 +1493,8 @@
   }
 
   function wordsView() {
+    GLOSS = {}; // el glosario del último texto abierto no vale para las palabras guardadas
+    GLOSS1 = {};
     app.innerHTML =
       head(
         T('selfK'),
@@ -1051,6 +1502,14 @@
         P.words.length ? T('myWordsNote', { n: P.words.length }) : '',
       ) +
       tabs('palabras') +
+      (P.words.length
+        ? (() => {
+            const n = P.words.filter(isDue).length;
+            return n
+              ? `<div class="tx-row-btns rd-rv-go"><a class="tx-btn" href="#/repaso">${T('rvBtn', { n })}</a></div>`
+              : `<p class="rd-rv-go"><small>${T('rvNone')}</small></p>`;
+          })()
+        : '') +
       (P.words.length
         ? `<ul class="rd-words">` +
           P.words
@@ -1089,6 +1548,84 @@
     };
   }
 
+  const isDue = (w) => (w.due ?? 0) <= today();
+  // Repaso espaciado de «Mis palabras»: se escribe la palabra a partir del significado (recordar
+  // produciendo retiene más que reconocer)
+  async function reviewView() {
+    const q = P.words.filter(isDue).sort(() => Math.random() - 0.5);
+    let i = 0,
+      ok = 0;
+    const card = async () => {
+      if (i >= q.length) {
+        app.innerHTML =
+          head(T('selfK'), T('rvH'), q.length ? T('rvResult', { o: ok, n: q.length }) : T('rvNone')) +
+          tabs('palabras') +
+          `<div class="tx-row-btns"><a class="tx-btn" href="#/palabras">${T('myWordsTitle')}</a></div>`;
+        return;
+      }
+      const w = q[i],
+        before = { box: w.box, due: w.due };
+      const meaning =
+        w.lg === L() ? w.tr : L() === 'es' ? w.es : ((await lookup(w.w)) || {}).tr || w.tr || w.es;
+      const re = new RegExp('\\b' + reEsc(w.w) + '\\b', 'i'),
+        ctx =
+          w.ctx && re.test(w.ctx)
+            ? esc(w.ctx).replace(new RegExp('\\b' + reEsc(esc(w.w)) + '\\b', 'i'), '<b class="tx-gap">_____</b>')
+            : '';
+      app.innerHTML =
+        head(T('selfK'), T('rvH'), T('rvLede')) +
+        tabs('palabras') +
+        `<div class="card rd-rv"><small>${i + 1} / ${q.length}</small>` +
+        `<p class="rd-rv-m">${esc(meaning || '—')}</p>` +
+        (ctx ? `<p class="rd-rv-ctx"><i>${ctx}</i></p>` : '') +
+        `<div class="rd-fill"><input class="tx-in" autocomplete="off" autocapitalize="off" spellcheck="false" ` +
+        `placeholder="${T('rvPh')}" aria-label="${T('rvPh')}"><button type="button" class="tx-btn">${T('check')}</button></div>` +
+        `<div class="tx-fb wait">${T('answerToSee')}</div><div class="tx-row-btns rd-rv-act"></div></div>`;
+      const inp = app.querySelector('.rd-rv input'),
+        b = app.querySelector('.rd-rv .rd-fill button'),
+        fb = app.querySelector('.rd-rv .tx-fb'),
+        act = app.querySelector('.rd-rv-act');
+      inp.focus();
+      const grade = (good) => {
+        const prev = before.box || 0;
+        w.box = good ? Math.min(INT.length, prev + 1) : 1;
+        w.due = today() + INT[w.box - 1];
+        save();
+      };
+      const next = () => {
+        i++;
+        card();
+      };
+      const check = () => {
+        if (!inp.value.trim()) return inp.focus();
+        const good = norm(inp.value) === norm(w.w);
+        inp.disabled = b.disabled = true;
+        grade(good);
+        if (good) ok++;
+        say(w.w);
+        fb.className = 'tx-fb ' + (good ? 'ok' : 'bad');
+        fb.innerHTML = '<b>' + (good ? T('correct') : T('answerIs') + ' ' + esc(w.w)) + '</b>';
+        act.innerHTML =
+          (good ? '' : `<button type="button" class="tx-btn tx-alt" data-typo>${T('rvTypo')}</button>`) +
+          `<button type="button" class="tx-btn" data-next>${T('rvNext')}</button>`;
+        const typo = act.querySelector('[data-typo]');
+        if (typo)
+          typo.onclick = () => {
+            grade(true);
+            ok++;
+            next();
+          };
+        act.querySelector('[data-next]').onclick = next;
+        act.querySelector('[data-next]').focus();
+      };
+      b.onclick = check;
+      inp.onkeydown = (e) => {
+        if (e.key === 'Enter') check();
+      };
+    };
+    await card();
+  }
+
   function notesView() {
     const ids = Object.keys(P.notes).sort((a, b) => {
       const last = (d) => Math.max(0, ...d.marks.map((m) => m.at));
@@ -1124,11 +1661,16 @@
   async function route() {
     stopRead();
     hidePop();
+    leaving.forEach((fn) => fn());
+    leaving = [];
     if (selbar) {
       selbar.remove();
       selbar = null;
     }
     document.onselectionchange = null;
+    document.onkeydown = null;
+    document.onmousedown = null;
+    document.onmouseup = null;
     window.onscroll = null;
     app.onclick = null;
     flushTime();
@@ -1139,6 +1681,7 @@
       else if (p[0] === 'libro' && p[2]) await chapterView(p[1], +p[2]);
       else if (p[0] === 'libro' && p[1]) await bookView(p[1]);
       else if (p[0] === 'palabras') wordsView();
+      else if (p[0] === 'repaso') await reviewView();
       else if (p[0] === 'notas') notesView();
       else await textsView(p[0] === 'textos' && p[1] ? p[1] : null);
     } catch (e) {

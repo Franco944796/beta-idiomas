@@ -787,7 +787,9 @@
 
   let P,
     LV = [],
-    flat = [];
+    flat = [],
+    EX = {}, // extras.json: lectura y dictogloss por unidad
+    RIX = { texts: [] }; // catálogo del lector, para el título de la lectura de cada unidad
   let redraw = null;
   const lvName = (c) => T('lv_' + c);
   const lvTotal = (lv) => lv.units.reduce((a, u) => a + u.lessons.length, 0);
@@ -866,6 +868,9 @@
       `<button type="button" class="pill" data-go="review" ${due ? '' : 'disabled'}>${T('reviewT')}` +
       (due ? ` <i class="tx-dot">${due}</i>` : '') +
       `</button>` +
+      `<button type="button" class="pill" data-go="mixed">${T('mxT')}` +
+      (mixedDue() ? ` <i class="tx-dot">!</i>` : '') +
+      `</button>` +
       `<button type="button" class="pill" data-go="vocab">${T('vocabT')}</button>` +
       `<button type="button" class="pill" data-go="faq">${T('helpT')}</button></nav>`;
 
@@ -926,8 +931,19 @@
               (cp ? ` <em>${T('checkpointTag')}</em>` : '') +
               `<small>${esc(subTitle(l.id, l.title_es, l.title_target))}</small></span>${state}</button></li>`;
           });
+          const rd = RIX.texts.find((t) => t.id === (EX.unit_readings || {})[u.id]),
+            dg = S.dicto && S.dicto[u.id];
           s +=
-            `</ol><footer><button type="button" class="tx-link" data-go="print:unit:${u.id}" ` +
+            `</ol><footer>` +
+            (rd
+              ? `<a class="tx-link" href="lectura.en.html#/texto/${rd.id}">📖 ${T('unitReading', { t: esc(rd.title) })}</a>`
+              : '') +
+            ((EX.dictogloss || {})[u.id]
+              ? `<button type="button" class="tx-link" data-go="dicto:${u.id}">🎧 ${T('dgT')}` +
+                (dg ? ` <small>· ${pct(dg)}</small>` : '') +
+                `</button>`
+              : '') +
+            `<button type="button" class="tx-link" data-go="print:unit:${u.id}" ` +
             `aria-label="${T('printUnitN', { n: u.order })}">${T('printUnit')}</button></footer></article>`;
         });
       const examTxt = ex
@@ -1203,6 +1219,22 @@
     draw();
   }
 
+  const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // respuestas aceptadas para un lema: «how do you spell...?», «fall out (with)», «a / an»…
+  const cardAnswers = (lemma) => {
+    const base = lemma.replace(/\.\.\.|…/g, ' ').replace(/\s+/g, ' ').trim(),
+      bare = base.replace(/\s*\([^)]*\)/g, '').trim(),
+      full = base.replace(/[()]/g, '');
+    return [base, bare, full, ...base.split(' / '), ...bare.split(' / ')];
+  };
+  const cardNorm = (x) =>
+    norm(x)
+      .replace(/[,;?]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  // Repaso escrito: se ve el significado y se escribe la palabra (recordar produciendo retiene más
+  // que reconocerla y marcar «la sabía»)
   async function review() {
     const Vs = await Promise.all(LV.map((l) => J('vocab/' + l.cefr.toLowerCase() + '.json'))),
       map = Object.fromEntries(Vs.flatMap((V) => V.items).map((v) => [v.id, v]));
@@ -1221,37 +1253,254 @@
       }
       const v = map[q[i]],
         it = S.srs[q[i]],
-        s = stepCard(T('reviewT') + ` · ${i + 1}/${q.length}`, esc(v.lemma), i, q.length);
-      s.innerHTML = `<p class="tx-flash">${sayBtn(v.lemma)} <span class="tx-ipa">${esc(v.ipa)}</span></p>`;
+        before = { box: it.box, lapses: it.lapses },
+        s = stepCard(T('reviewT') + ` · ${i + 1}/${q.length}`, esc(meaning(v)), i, q.length);
+      const ex =
+        v.example && !v.lemma.includes('/') && new RegExp('\\b' + reEsc(v.lemma) + '\\b', 'i').test(v.example)
+          ? esc(v.example).replace(
+              new RegExp('\\b' + reEsc(esc(v.lemma)) + '\\b', 'i'),
+              '<b class="tx-gap">_____</b>',
+            )
+          : '';
+      s.innerHTML =
+        `<p class="tx-note"><small>${T('cardHow')} · ${esc(v.pos || '')}</small></p>` +
+        (ex ? `<p class="tx-card-ex"><i>${ex}</i></p>` : '') +
+        `<div class="rd-fill tx-card-in"><input class="tx-in" autocomplete="off" autocapitalize="off" ` +
+        `spellcheck="false" aria-label="${T('yourAnswer')}"></div><div class="tx-act"></div><div class="tx-fb"></div>`;
+      const inp = s.querySelector('input'),
+        act = s.querySelector('.tx-act'),
+        fb = s.querySelector('.tx-fb');
       const grade = (good) => {
-        if (good) {
-          ok++;
-          it.box = Math.min(6, it.box + 1);
-        } else {
-          it.box = 1;
-          it.lapses++;
-        }
+        it.box = good ? Math.min(6, before.box + 1) : 1;
+        it.lapses = before.lapses + (good ? 0 : 1);
         it.due = day() + INT[it.box - 1];
         save();
+      };
+      const next = () => {
         i++;
         cardView();
       };
-      const reveal = btn(T('showAnswer'), () => {
-        reveal.remove();
-        s.insertAdjacentHTML(
-          'beforeend',
-          `<p class="tx-answer"><b>${esc(meaning(v))}</b><br><small>${esc(v.example)}</small></p>`,
+      const check = () => {
+        if (!inp.value.trim()) return inp.focus();
+        const good = cardAnswers(v.lemma).some((a) => cardNorm(a) === cardNorm(inp.value));
+        inp.disabled = true;
+        grade(good);
+        if (good) ok++;
+        say(v.lemma);
+        fb.className = 'tx-fb ' + (good ? 'ok' : 'bad');
+        fb.innerHTML =
+          `<b>${good ? T('correctEx') : T('answerIs')}</b> ${esc(v.lemma)} ` +
+          `<span class="tx-ipa">${esc(v.ipa)}</span> ${sayBtn(v.lemma)}` +
+          (v.example ? `<br><small>${esc(v.example)}</small>` : '');
+        act.replaceChildren(
+          ...(good
+            ? []
+            : [
+                btn(
+                  T('cardTypo'),
+                  () => {
+                    grade(true);
+                    ok++;
+                    next();
+                  },
+                  'tx-alt',
+                ),
+              ]),
+          btn(T('continue'), next),
         );
-        const row = h('div', 'tx-row-btns');
-        row.append(
-          btn(T('didntKnow'), () => grade(0), 'tx-alt'),
-          btn(T('knewIt'), () => grade(1)),
-        );
-        s.append(row);
-      });
-      s.append(reveal);
+        act.lastChild.focus();
+      };
+      act.append(btn(T('check'), check));
+      inp.onkeydown = (e) => {
+        if (e.key === 'Enter') check();
+      };
+      inp.focus();
     };
     cardView();
+  }
+
+  // Repaso mixto: ejercicios de lecciones ya hechas, de unidades distintas y mezclados
+  const MIXED_N = 30,
+    MIXED_TYPES = new Set([
+      'multiple_choice',
+      'fill_blank',
+      'error_correction',
+      'translation',
+      'word_order',
+      'matching',
+      'listening',
+      'categorize',
+      'dictation',
+    ]);
+  const mixedDue = () =>
+    Object.keys(S.done).length >= 2 && (!S.mixed || day() - Math.floor(S.mixed.at / 864e5) >= 7);
+  async function mixed() {
+    redraw = () => mixed().catch(fail);
+    const done = flat.filter((l) => S.done[l.id]);
+    if (done.length < 2) {
+      show(
+        head(T('toolsH'), T('mxT'), T('mxNeed')) +
+          `<div class="tx-row-btns"><button type="button" class="tx-btn" data-go="home">${T('mapBack')}</button></div>`,
+      );
+      return;
+    }
+    const picks = shuffle(done).slice(0, 15),
+      per = Math.ceil(MIXED_N / picks.length);
+    const lessons = await Promise.all(picks.map((ent) => J(ent.file).then((L) => [ent, localize(L)])));
+    const pool = lessons.flatMap(([ent, L]) =>
+      shuffle(
+        L.exercises.filter(
+          (e) => MIXED_TYPES.has(e.type) && !e.refers_to_input && !e.review_of,
+        ),
+      )
+        .slice(0, per)
+        .map((e) => Object.assign({}, e, { _lesson: ent })),
+    );
+    const list = shuffle(pool).slice(0, MIXED_N);
+    show(
+      head(T('toolsH'), T('mxT'), T('mxLede', { n: list.length })) +
+        `<section class="tx-sec"><div id="tx-ex"></div><div id="tx-result"></div></section>`,
+    );
+    practice($('#tx-ex'), list, {
+      onDone: (sc, n, res) => {
+        S.mixed = { at: Date.now(), pct: sc / n };
+        save();
+        const weak = [];
+        list.forEach((e, k) => {
+          if (res[k] < 1 && !weak.includes(e._lesson)) weak.push(e._lesson);
+        });
+        const box = $('#tx-result');
+        box.innerHTML =
+          `<div class="panel ${sc / n >= 0.7 ? 'blue' : 'rust'} tx-result">` +
+          `<span class="kicker">${T('resultH')}</span>` +
+          `<div class="tx-result-row"><b class="tx-big">${pct(sc / n)}</b><p>${T('mxNext')}</p></div></div>` +
+          (weak.length
+            ? `<div class="card tx-weak"><span class="kicker">${T('mxWeak')}</span><ul>` +
+              weak
+                .map(
+                  (l) =>
+                    `<li><span>${l.cefr} · ${T('unitN', { n: unitOf(l).order })} · ${esc(l.title_target)}</span>` +
+                    `<button type="button" class="tx-btn tx-alt" data-go="lesson:${l.id}">${T('goLesson')}</button></li>`,
+                )
+                .join('') +
+              '</ul></div>'
+            : '') +
+          `<div class="tx-row-btns"><button type="button" class="tx-btn" data-go="home">${T('mapBack')}</button></div>`;
+        box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      },
+    });
+  }
+
+  // Dictogloss: escuchar un texto, reconstruirlo y compararlo palabra por palabra
+  // «I'm» y «I am» valen lo mismo: cada palabra se compara por sus partes sin contraer
+  const S_PRON = new Set(['it', 'he', 'she', 'that', 'there', 'here', 'what', 'where', 'who', 'how', 'this']);
+  const parts = (w) => {
+    const x = w.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9']/g, '');
+    const irr = { "won't": ['will', 'not'], "can't": ['can', 'not'], "shan't": ['shall', 'not'], cannot: ['can', 'not'] };
+    if (irr[x]) return irr[x];
+    const m = x.match(/^(.+?)(n't|'m|'re|'ve|'ll|'d|'s)$/);
+    if (m) {
+      const end = { "n't": 'not', "'m": 'am', "'re": 'are', "'ve": 'have', "'ll": 'will', "'d": 'would' }[m[2]];
+      if (end) return [m[1], end];
+      if (S_PRON.has(m[1])) return [m[1], 'is'];
+    }
+    const k = x.replace(/'/g, '');
+    return k ? [k] : [];
+  };
+  const dgWords = (t) =>
+    t
+      .split(/\s+/)
+      .map((w) => ({ w, ks: parts(w) }))
+      .filter((x) => x.ks.length);
+  // subsecuencia común más larga: qué partes del original aparecen, en orden, en la versión escrita
+  const lcsMarks = (a, b) => {
+    const m = a.length,
+      n = b.length,
+      L = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let x = m - 1; x >= 0; x--)
+      for (let y = n - 1; y >= 0; y--)
+        L[x][y] = a[x] === b[y] ? L[x + 1][y + 1] + 1 : Math.max(L[x + 1][y], L[x][y + 1]);
+    const hit = new Array(m).fill(false);
+    for (let x = 0, y = 0; x < m && y < n; )
+      if (a[x] === b[y]) {
+        hit[x] = true;
+        x++;
+        y++;
+      } else if (L[x + 1][y] >= L[x][y + 1]) x++;
+      else y++;
+    return hit;
+  };
+  // una palabra del original cuenta como acertada si aparecen todas sus partes
+  const dgCompare = (orig, mine) => {
+    const flatO = orig.flatMap((x, i) => x.ks.map(() => i)),
+      hitK = lcsMarks(
+        orig.flatMap((x) => x.ks),
+        mine.flatMap((x) => x.ks),
+      ),
+      ok = orig.map(() => true);
+    flatO.forEach((i, k) => {
+      if (!hitK[k]) ok[i] = false;
+    });
+    return ok;
+  };
+  function dicto(uid) {
+    const u = LV.flatMap((l) => l.units).find((x) => x.id === uid),
+      lv = LV.find((l) => l.units.includes(u)),
+      text = (EX.dictogloss || {})[uid];
+    let plays = 0,
+      draft = '';
+    const draw = () => {
+      redraw = draw;
+      show(
+        head(`${lv.cefr} · ${T('unitN', { n: u.order })} · ${esc(u.title_target)}`, T('dgT'), T('dgLede')) +
+          `<section class="tx-sec"><div class="card tx-dg"><div class="tx-row-btns">` +
+          `<button type="button" class="tx-btn" data-dg="say">🔊 ${T('dgListen', { n: plays })}</button>` +
+          `<button type="button" class="tx-btn tx-alt" data-dg="slow">🐢 ${T('speedSlow')}</button></div>` +
+          `<textarea class="tx-in tx-ta" rows="6" placeholder="${T('dgPh')}" aria-label="${T('dgPh')}"></textarea>` +
+          `<p class="tx-warn"></p><div class="tx-row-btns"><button type="button" class="tx-btn" data-dg="cmp">` +
+          `${T('dgCompare')}</button></div></div><div id="tx-result"></div></section>`,
+      );
+      const ta = $('.tx-dg textarea'),
+        warn = $('.tx-dg .tx-warn');
+      ta.value = draft;
+      ta.oninput = () => (draft = ta.value);
+      $('.tx-dg').onclick = (e) => {
+        const b = e.target.closest('[data-dg]');
+        if (!b) return;
+        if (b.dataset.dg === 'say' || b.dataset.dg === 'slow') {
+          say(text, b.dataset.dg === 'slow');
+          if (b.dataset.dg === 'say') b.textContent = '🔊 ' + T('dgListen', { n: ++plays });
+          return;
+        }
+        const mine = dgWords(ta.value);
+        if (mine.length < 5) {
+          warn.textContent = T('dgNeed');
+          return ta.focus();
+        }
+        warn.textContent = '';
+        const orig = dgWords(text),
+          hit = dgCompare(orig, mine),
+          p = hit.filter(Boolean).length / orig.length;
+        S.dicto = S.dicto || {};
+        S.dicto[uid] = Math.max(S.dicto[uid] || 0, p);
+        save();
+        $('#tx-result').innerHTML =
+          `<div class="panel ${p >= 0.7 ? 'blue' : 'rust'} tx-result"><span class="kicker">${T('resultH')}</span>` +
+          `<div class="tx-result-row"><b class="tx-big">${pct(p)}</b><p>${T('dgScore')}</p></div></div>` +
+          `<div class="card tx-dg-res"><p class="tx-dg-orig">` +
+          orig.map((x, k) => (hit[k] ? esc(x.w) : `<mark class="tx-miss">${esc(x.w)}</mark>`)).join(' ') +
+          `</p><p><small>${T('dgLegend')}</small></p><div class="tx-row-btns">` +
+          `<button type="button" class="tx-btn tx-alt" data-dg-again>${T('restart')}</button>` +
+          `<button type="button" class="tx-btn" data-go="home">${T('mapBack')}</button></div></div>`;
+        $('[data-dg-again]').onclick = () => {
+          plays = 0;
+          draft = '';
+          draw();
+        };
+        $('#tx-result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+    };
+    draw();
   }
 
   const examInstr = (E, lv) => {
@@ -1765,6 +2014,8 @@
     else if (a === 'review') review().catch(fail);
     else if (a === 'vocab') vocab().catch(fail);
     else if (a === 'faq') faq();
+    else if (a === 'mixed') mixed().catch(fail);
+    else if (a === 'dicto') dicto(id);
     else if (a === 'print') printView(id, id2).catch(fail);
     else if (a === 'exam') exam(id).catch(fail);
     else if (a === 'placement') placement().catch(fail);
@@ -1791,7 +2042,15 @@
             .map((l) => Object.assign(l, { cefr: lv.cefr })),
         ),
       );
-      return loadOv().then(home);
+      return Promise.all([
+        J('extras.json').catch(() => ({})),
+        J('reading/index.json').catch(() => ({ texts: [] })),
+        loadOv(),
+      ]).then(([ex, rix]) => {
+        EX = ex;
+        RIX = rix;
+        home();
+      });
     })
     .catch(fail);
 })();

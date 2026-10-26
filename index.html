@@ -24,8 +24,7 @@
         <!-- Selector de idiomas -->
         <div class="language-switch">
             <!-- Inglés (disponible) -->
-            <div class="lang-item" data-target="ingles/ingles.html" role="link" tabindex="0" aria-label="English"
-                title="English/en">
+            <div class="lang-item" data-target="ingles/ingles.html" role="link" tabindex="0" aria-label="English">
                 <img src="imgs/reino-unido.png" alt="Inglés" class="lang-icon">
                 <span class="lang-text">English</span>
             </div>
@@ -63,17 +62,17 @@
             </div>
         </div>
 
-        <!-- Redes sociales -->
+        <!-- Contacto -->
         <div class="infos container mb-4 mb-md-2 socials-fixed">
-            <div class="socials text-right">
+            <div class="socials text-center">
                 <div class="row justify-content-between">
                     <div class="col">
-                        <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
+                        <h6 class="subtitle font-weight-normal mb-2">Contacto</h6>
                         <div class="social-links">
-                            <a href="https://www.instagram.com/fran_insu" target="_blank" class="link pr-1">
-                                <i class="ti-instagram"></i>
-                                fran_insu
-                            </a>
+                            <!-- La dirección se arma en script.js para que no quede escrita en el HTML -->
+                            <button type="button" class="link contact-mail" aria-label="Enviar un correo">
+                                <span class="contact-icon" aria-hidden="true">✉</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -91,12 +90,13 @@
     <!-- Atribución de iconos de banderas -->
     <div class="attribution">
         <!-- TODO: actualizar el link con la fuente real de imgs/china.png -->
-        Iconos de banderas: <a href="https://www.flaticon.es/" title="banderas iconos" target="_blank">Freepik -
+        Iconos de banderas: <a href="https://www.flaticon.es/" target="_blank">Freepik -
             Flaticon</a>
     </div>
 
     <script src="script.js"></script>
     <script src="nav-links.js"></script>
+    <script src="hide-links.js"></script>
 </body>
 
 </html>
