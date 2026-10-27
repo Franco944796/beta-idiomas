@@ -40,7 +40,10 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
 
 ## Pendiente
 - Preguntas frecuentes del curso (FAQ, 8 idiomas): no mencionan el repaso mixto ni el dictogloss.
-- Si se regenera `content/` con build.py, conservar `content/en/extras.json`.
+- Si se regenera `content/` con build.py, conservar `content/en/extras.json`, las lecturas y libros B1–B2
+  nuevos y las palabras nuevas del diccionario: sus fuentes están en `../trilex/tool/contenido/`
+  (`python3 tool/contenido/generar.py && python3 tool/contenido.py` desde `trilex/`).
+- PDF de los 4 libros nuevos sin generar.
 
 ## Archivos clave
 - Inicio: `index.html`, `style.css`, `script.js`, `nav-links.js`, `hide-links.js`.

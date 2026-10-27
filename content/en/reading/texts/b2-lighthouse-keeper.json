@@ -1,0 +1,143 @@
+{
+  "id": "b2-lighthouse-keeper",
+  "level": "B2",
+  "title": "The last keeper",
+  "title_es": "El último farero",
+  "topic": "Ficción",
+  "glossary": [
+    {
+      "en": "maritime",
+      "es": "marítima"
+    },
+    {
+      "en": "logbooks",
+      "es": "cuadernos de bitácora"
+    },
+    {
+      "en": "automated",
+      "es": "automatizado"
+    },
+    {
+      "en": "weather permitting",
+      "es": "si el tiempo lo permite"
+    },
+    {
+      "en": "gulls",
+      "es": "gaviotas"
+    },
+    {
+      "en": "beam",
+      "es": "haz de luz"
+    },
+    {
+      "en": "creaked",
+      "es": "crujía"
+    },
+    {
+      "en": "flickered",
+      "es": "parpadeó"
+    },
+    {
+      "en": "headland",
+      "es": "cabo, promontorio"
+    },
+    {
+      "en": "trawler",
+      "es": "barco pesquero de arrastre"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What did the letter from the maritime authority announce?",
+      "options": [
+        "The lighthouse would be automated",
+        "Arthur would receive a prize",
+        "A new keeper was coming",
+        "The lighthouse would be demolished"
+      ],
+      "answer": "The lighthouse would be automated",
+      "why": "Dice: The lighthouse on Carrick Point was to be automated."
+    },
+    {
+      "type": "fill",
+      "q": "The lighthouse on Carrick Point was to be ___ in the spring.",
+      "answer": [
+        "automated"
+      ],
+      "why": "Dice: was to be automated in the spring."
+    },
+    {
+      "type": "tf",
+      "q": "Arthur had many visitors at the lighthouse.",
+      "answer": false,
+      "why": "Dice: there was hardly anyone to tell."
+    },
+    {
+      "type": "mc",
+      "q": "What did the younger engineer say about the new system?",
+      "options": [
+        "It doesn't need sleep",
+        "It is more beautiful",
+        "It is cheaper",
+        "It needs Arthur's help"
+      ],
+      "answer": "It doesn't need sleep",
+      "why": "Dice: It doesn't need sleep."
+    },
+    {
+      "type": "mc",
+      "q": "What happened on Arthur's last night?",
+      "options": [
+        "The new system failed during a storm",
+        "The engineers came back",
+        "A boat crashed into the rocks",
+        "Arthur decided to stay for ever"
+      ],
+      "answer": "The new system failed during a storm",
+      "why": "Dice: the new system failed."
+    },
+    {
+      "type": "mc",
+      "q": "What did Arthur do?",
+      "options": [
+        "He lit the old lamp and turned it by hand until dawn",
+        "He called the engineers",
+        "He went to sleep",
+        "He sent a message to the boats"
+      ],
+      "answer": "He lit the old lamp and turned it by hand until dawn",
+      "why": "Lo cuenta el sexto párrafo."
+    },
+    {
+      "type": "tf",
+      "q": "A trawler captain thanked whoever was operating the light.",
+      "answer": true,
+      "why": "Dice: a trawler captain radioed to thank whoever was up there."
+    },
+    {
+      "type": "mc",
+      "q": "Where does Arthur live at the end of the story?",
+      "options": [
+        "In a small cottage in the village",
+        "Still in the lighthouse",
+        "On the mainland, in a city",
+        "On a fishing boat"
+      ],
+      "answer": "In a small cottage in the village",
+      "why": "Dice: Arthur moved to a small cottage in the village."
+    }
+  ],
+  "task": "Escribe la misma historia desde el punto de vista del capitán del pesquero (130–160 palabras). Usa el past continuous para la escena de la tormenta y el past perfect para lo que había pasado antes.",
+  "words": 336,
+  "minutes": 3,
+  "paragraphs": [
+    "When the letter from the maritime authority arrived, Arthur Penrose read it twice, folded it neatly and put it in the drawer where he kept the logbooks. The lighthouse on Carrick Point was to be automated in the spring. After forty-one years, the light would go on and off without him.",
+    "He did not tell anyone at first, partly because there was hardly anyone to tell. The supply boat came on Thursdays, weather permitting, and the young woman who brought the post rarely stayed long enough for a conversation. Arthur had never minded. He had grown used to the company of the wind, the gulls and the long, patient sweep of the beam across the water.",
+    "The engineers came in March: two cheerful men from the mainland with a van full of cables and a small grey box that, they explained, would do everything Arthur did, only better. \"No offence, sir,\" said the younger one. \"It doesn't need sleep.\"",
+    "Arthur showed them around anyway. He explained how the fog rolled in from the south-west without warning, how the old lens had to be cleaned by hand, and which step on the spiral staircase creaked. They nodded politely and took notes they would never need.",
+    "On his last night, a storm came in, the worst in years. Just after midnight, the new system failed. The beam flickered and died, and for a moment the whole headland was swallowed by darkness. Somewhere out there, Arthur knew, the fishing boats would be heading home.",
+    "He climbed the hundred and twelve steps faster than he had in a decade, lit the old emergency lamp and kept it turning by hand until dawn. In the morning, a trawler captain radioed to thank \"whoever was up there\".",
+    "The authority sent a polite letter of gratitude and, a month later, a technician to fix the fault. Arthur moved to a small cottage in the village. But on stormy nights, people say, he still sits by his window, watching the light, just in case."
+  ]
+}

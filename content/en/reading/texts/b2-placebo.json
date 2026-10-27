@@ -1,0 +1,142 @@
+{
+  "id": "b2-placebo",
+  "level": "B2",
+  "title": "The strange power of placebos",
+  "title_es": "El extraño poder de los placebos",
+  "topic": "Ciencia",
+  "glossary": [
+    {
+      "en": "noticeably",
+      "es": "notablemente"
+    },
+    {
+      "en": "active ingredient",
+      "es": "principio activo"
+    },
+    {
+      "en": "nausea",
+      "es": "náuseas"
+    },
+    {
+      "en": "fatigue",
+      "es": "cansancio, fatiga"
+    },
+    {
+      "en": "expectations",
+      "es": "expectativas"
+    },
+    {
+      "en": "pain-relieving",
+      "es": "analgésicos, que alivian el dolor"
+    },
+    {
+      "en": "trigger",
+      "es": "desencadenar"
+    },
+    {
+      "en": "puzzling",
+      "es": "desconcertante"
+    },
+    {
+      "en": "shrink",
+      "es": "reducir, encoger"
+    },
+    {
+      "en": "side effects",
+      "es": "efectos secundarios"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What is a placebo, according to the text?",
+      "options": [
+        "A pill with no active ingredient",
+        "A very strong painkiller",
+        "A new type of vaccine",
+        "A kind of surgery"
+      ],
+      "answer": "A pill with no active ingredient",
+      "why": "Contiene solo azúcar, sin principio activo."
+    },
+    {
+      "type": "mc",
+      "q": "When is a new drug considered effective?",
+      "options": [
+        "When it works clearly better than the placebo",
+        "When patients like its colour",
+        "When it is cheaper than a placebo",
+        "When doctors know who received it"
+      ],
+      "answer": "When it works clearly better than the placebo",
+      "why": "Lo explica el segundo párrafo."
+    },
+    {
+      "type": "tf",
+      "q": "Expensive-looking treatments tend to produce a stronger placebo effect.",
+      "answer": true,
+      "why": "Dice: expensive-looking treatments better than cheap ones."
+    },
+    {
+      "type": "mc",
+      "q": "Which explanation of the placebo effect is NOT mentioned?",
+      "options": [
+        "The sugar in the pill cures the illness",
+        "Expectations",
+        "Conditioning",
+        "The care of the doctor"
+      ],
+      "answer": "The sugar in the pill cures the illness",
+      "why": "El texto menciona las expectativas, el condicionamiento y la atención del médico."
+    },
+    {
+      "type": "mc",
+      "q": "What is surprising about open-label placebos?",
+      "options": [
+        "Patients improved even though they knew the pills were sugar",
+        "They are illegal",
+        "They only work on children",
+        "They contain a secret medicine"
+      ],
+      "answer": "Patients improved even though they knew the pills were sugar",
+      "why": "Dice: told honestly that they were receiving sugar pills, and yet many still reported improvements."
+    },
+    {
+      "type": "tf",
+      "q": "According to the text, placebos can cure infections.",
+      "answer": false,
+      "why": "Dice: Placebos cannot shrink tumours or cure infections."
+    },
+    {
+      "type": "fill",
+      "q": "People who expect side effects are more likely to report them: this is the ___ effect.",
+      "answer": [
+        "nocebo"
+      ],
+      "why": "Dice: the nocebo effect."
+    },
+    {
+      "type": "mc",
+      "q": "What general idea does the text end with?",
+      "options": [
+        "The mind and the body are closely connected",
+        "Medicine is useless",
+        "Doctors should only prescribe placebos",
+        "Research should stop using placebos"
+      ],
+      "answer": "The mind and the body are closely connected",
+      "why": "Es la idea del último párrafo."
+    }
+  ],
+  "task": "Explica en 130–160 palabras el efecto placebo a alguien que nunca oyó hablar de él, con un ejemplo. Usa al menos dos verbos en voz pasiva y una oración con although o even though.",
+  "words": 318,
+  "minutes": 2,
+  "paragraphs": [
+    "Imagine taking a pill that contains nothing but sugar and feeling noticeably better. It sounds like a trick, yet it happens so often that doctors have a name for it: the placebo effect.",
+    "Placebos play a central role in medical research. When a new drug is tested, some patients receive the real medicine while others receive an identical-looking pill with no active ingredient. Ideally, neither the patients nor the doctors know who has received what. Only if the real drug works clearly better than the placebo is it considered effective.",
+    "What surprises many people is how strong the placebo response can be, especially for symptoms such as pain, nausea or fatigue. Researchers have found that the details matter: two pills tend to work better than one, injections better than pills, and expensive-looking treatments better than cheap ones. Even the colour of a tablet can influence how patients feel.",
+    "How can an inactive substance have real effects? Part of the explanation lies in expectations. When we believe that we will get better, the brain can release its own pain-relieving chemicals. Conditioning also plays a role: if we have often felt relief after taking medicine, the ritual itself can trigger a response. The care and attention of a doctor seem to matter too.",
+    "Perhaps the most puzzling finding comes from studies of so-called open-label placebos. In some experiments, patients with chronic conditions were told honestly that they were receiving sugar pills, and yet many still reported improvements. Scientists are still debating why.",
+    "It is important not to exaggerate. Placebos cannot shrink tumours or cure infections, and they mostly affect how we experience symptoms rather than the disease itself. There is also an evil twin, the nocebo effect: people who expect side effects are more likely to report them. Still, the placebo effect is a powerful reminder that the mind and the body are more closely connected than we often assume."
+  ]
+}

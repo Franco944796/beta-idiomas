@@ -1,0 +1,142 @@
+{
+  "id": "b2-lab-meat",
+  "level": "B2",
+  "title": "Meat without animals",
+  "title_es": "Carne sin animales",
+  "topic": "Ciencia",
+  "glossary": [
+    {
+      "en": "verdict",
+      "es": "veredicto"
+    },
+    {
+      "en": "juicy",
+      "es": "jugoso"
+    },
+    {
+      "en": "cultivated",
+      "es": "cultivada"
+    },
+    {
+      "en": "a handful of",
+      "es": "un puñado de"
+    },
+    {
+      "en": "sample",
+      "es": "muestra"
+    },
+    {
+      "en": "tanks",
+      "es": "tanques"
+    },
+    {
+      "en": "multiply",
+      "es": "se multiplican"
+    },
+    {
+      "en": "greenhouse gas",
+      "es": "gases de efecto invernadero"
+    },
+    {
+      "en": "slaughter",
+      "es": "matanza, sacrificio"
+    },
+    {
+      "en": "hesitant",
+      "es": "dudoso, vacilante"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What was special about the hamburger tasted in 2013?",
+      "options": [
+        "It was grown in a laboratory from animal cells",
+        "It was made from plants",
+        "It was the cheapest burger ever",
+        "It came from a cloned cow"
+      ],
+      "answer": "It was grown in a laboratory from animal cells",
+      "why": "Dice: The meat had been grown in a laboratory from cells."
+    },
+    {
+      "type": "tf",
+      "q": "The journalists thought the burger was extremely juicy.",
+      "answer": false,
+      "why": "Dice: close to meat, but not very juicy."
+    },
+    {
+      "type": "fill",
+      "q": "In 2020, which country became the first to approve the sale of cultivated meat?",
+      "answer": [
+        "Singapore"
+      ],
+      "why": "Dice: In 2020, Singapore became the first country to approve its sale."
+    },
+    {
+      "type": "mc",
+      "q": "What happens inside a bioreactor?",
+      "options": [
+        "Cells are fed and multiply",
+        "Animals are kept and fed",
+        "Meat is cooked",
+        "Plants are grown"
+      ],
+      "answer": "Cells are fed and multiply",
+      "why": "Lo explica el tercer párrafo."
+    },
+    {
+      "type": "mc",
+      "q": "Which potential benefit is mentioned?",
+      "options": [
+        "It could need less land and water",
+        "It is cheaper than all other meat",
+        "It needs no energy",
+        "It tastes better than any other meat"
+      ],
+      "answer": "It could need less land and water",
+      "why": "Dice: could, in theory, require far less land and water."
+    },
+    {
+      "type": "mc",
+      "q": "Why do some scientists doubt the future of cultivated meat?",
+      "options": [
+        "Large-scale production is still very expensive",
+        "It is dangerous to eat",
+        "Nobody has ever tasted it",
+        "It cannot be shaped into burgers"
+      ],
+      "answer": "Large-scale production is still very expensive",
+      "why": "Dice: Producing cultivated meat on a large scale is still extremely expensive."
+    },
+    {
+      "type": "tf",
+      "q": "Italy banned cultivated meat partly to protect traditional farmers.",
+      "answer": true,
+      "why": "El texto lo menciona en el quinto párrafo."
+    },
+    {
+      "type": "mc",
+      "q": "According to the writer, what may decide the future of cultivated meat?",
+      "options": [
+        "What consumers are willing to eat",
+        "The weather",
+        "Football clubs",
+        "The price of cows"
+      ],
+      "answer": "What consumers are willing to eat",
+      "why": "Dice: may depend less on scientists than on what ends up on our plates."
+    }
+  ],
+  "task": "¿Comerías carne cultivada? Escribe 130–160 palabras con tu postura y argumentos a favor y en contra. Incluye al menos un condicional de segundo tipo (If it were..., I would...).",
+  "words": 341,
+  "minutes": 3,
+  "paragraphs": [
+    "In August 2013, a group of journalists in London tasted a hamburger that had cost around a quarter of a million pounds to produce. It was not made from a cow, at least not in the usual way. The meat had been grown in a laboratory from cells taken from a living animal. The verdict of the tasters was polite rather than enthusiastic: close to meat, but not very juicy.",
+    "More than a decade later, cultivated meat, as its producers prefer to call it, has moved from science fiction to the shelves of a handful of restaurants. In 2020, Singapore became the first country to approve its sale, and in 2023 two companies received permission to sell cultivated chicken in the United States.",
+    "The process begins with a small sample of cells taken from an animal, usually without harming it. These cells are placed in large steel tanks called bioreactors, where they are fed a nutrient-rich liquid and multiply. The result can then be shaped into products such as nuggets or burgers.",
+    "Supporters point to several potential benefits. Animal farming uses a large share of the world's agricultural land and produces significant greenhouse gas emissions. Growing meat from cells could, in theory, require far less land and water, and it would avoid the slaughter of billions of animals every year.",
+    "However, many obstacles remain. Producing cultivated meat on a large scale is still extremely expensive, and some scientists doubt that costs will ever fall enough to compete with conventional meat. Its environmental benefits also depend on how much energy the bioreactors consume and where that energy comes from. Meanwhile, some governments have taken the opposite direction: Italy, for instance, banned its production and sale in 2023, partly to protect traditional farmers.",
+    "Then there is the question of taste and trust. Surveys suggest that many consumers are curious but hesitant about eating something grown in a tank. Whether cultivated meat becomes an everyday food or remains an expensive curiosity may depend less on scientists than on what ends up on our plates."
+  ]
+}

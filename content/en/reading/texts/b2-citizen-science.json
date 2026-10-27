@@ -1,0 +1,142 @@
+{
+  "id": "b2-citizen-science",
+  "level": "B2",
+  "title": "Science by everyone",
+  "title_es": "Ciencia hecha por todos",
+  "topic": "Ciencia",
+  "glossary": [
+    {
+      "en": "galaxies",
+      "es": "galaxias"
+    },
+    {
+      "en": "lit up",
+      "es": "iluminada"
+    },
+    {
+      "en": "named after",
+      "es": "bautizada en honor a"
+    },
+    {
+      "en": "classify",
+      "es": "clasificar"
+    },
+    {
+      "en": "tutorial",
+      "es": "tutorial, guía"
+    },
+    {
+      "en": "track",
+      "es": "seguir, rastrear"
+    },
+    {
+      "en": "transcribe",
+      "es": "transcribir"
+    },
+    {
+      "en": "prohibitively",
+      "es": "prohibitivamente"
+    },
+    {
+      "en": "free labour",
+      "es": "mano de obra gratuita"
+    },
+    {
+      "en": "credit",
+      "es": "reconocimiento"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "Who was Hanny van Arkel?",
+      "options": [
+        "A schoolteacher who volunteered for Galaxy Zoo",
+        "A professional astronomer",
+        "A computer programmer",
+        "The founder of Galaxy Zoo"
+      ],
+      "answer": "A schoolteacher who volunteered for Galaxy Zoo",
+      "why": "Dice: a Dutch schoolteacher... She was not a professional scientist."
+    },
+    {
+      "type": "mc",
+      "q": "What did she discover?",
+      "options": [
+        "A cloud of gas lit up by a black hole",
+        "A new planet",
+        "A new type of bird",
+        "A comet"
+      ],
+      "answer": "A cloud of gas lit up by a black hole",
+      "why": "Lo explica el primer párrafo."
+    },
+    {
+      "type": "mc",
+      "q": "Why was Galaxy Zoo created?",
+      "options": [
+        "There were too many images for astronomers to classify",
+        "To teach children astronomy",
+        "To sell telescopes",
+        "Because computers were too expensive"
+      ],
+      "answer": "There were too many images for astronomers to classify",
+      "why": "Dice: had millions of images... and nowhere near enough people to classify them."
+    },
+    {
+      "type": "tf",
+      "q": "Citizen science only began with the internet.",
+      "answer": false,
+      "why": "Los voluntarios cuentan aves desde hace más de un siglo."
+    },
+    {
+      "type": "fill",
+      "q": "Smartphones allow people to ___ old documents from home.",
+      "answer": [
+        "transcribe"
+      ],
+      "why": "Dice: transcribe old documents from home."
+    },
+    {
+      "type": "mc",
+      "q": "What do volunteers gain, according to the text?",
+      "options": [
+        "Knowledge and a sense of purpose",
+        "A salary",
+        "A university degree",
+        "Free equipment"
+      ],
+      "answer": "Knowledge and a sense of purpose",
+      "why": "Dice: volunteers gain knowledge, a sense of purpose..."
+    },
+    {
+      "type": "mc",
+      "q": "How do projects reduce errors made by non-experts?",
+      "options": [
+        "Several volunteers classify the same item",
+        "Only experts are allowed to take part",
+        "Volunteers take an exam every week",
+        "Computers check every answer"
+      ],
+      "answer": "Several volunteers classify the same item",
+      "why": "Lo explica el quinto párrafo."
+    },
+    {
+      "type": "tf",
+      "q": "Critics warn that volunteers should receive credit and share the results.",
+      "answer": true,
+      "why": "Advierten contra usarlos solo como mano de obra gratuita."
+    }
+  ],
+  "task": "Busca (o imagina) un proyecto de ciencia ciudadana que te interese y escribe 130–160 palabras explicando qué hacen los voluntarios, para qué sirve y por qué participarías.",
+  "words": 337,
+  "minutes": 3,
+  "paragraphs": [
+    "In 2007, a Dutch schoolteacher called Hanny van Arkel was looking at pictures of galaxies on her computer when she noticed a strange green cloud that nobody had ever described. Astronomers later concluded that it was a cloud of gas lit up by a black hole, and it was named after her: Hanny's Voorwerp, Dutch for \"Hanny's object\". She was not a professional scientist. She was one of hundreds of thousands of volunteers taking part in a project called Galaxy Zoo.",
+    "Galaxy Zoo is an example of citizen science: research in which members of the public collect or analyse data. The project was created because astronomers had millions of images of galaxies and nowhere near enough people to classify them. Computers at the time were poor at the task, but human beings, it turned out, were very good at it, even after a short online tutorial.",
+    "Citizen science is not new. For more than a century, volunteers in North America have counted birds every winter, and their records have helped scientists track how populations change. What is new is the scale. Smartphones and the internet now allow millions of people to identify plants, measure air quality, listen for whales or transcribe old documents from home.",
+    "The benefits flow in both directions. Scientists gain data that would be impossible or prohibitively expensive to collect on their own, and volunteers gain knowledge, a sense of purpose and sometimes an unexpected place in history. Some projects have also strengthened trust between communities and researchers, for example when residents measure pollution in their own neighbourhoods.",
+    "There are, of course, concerns. Data collected by non-experts can contain errors, so projects usually ask several volunteers to classify the same item and compare their answers. Critics also warn against using volunteers simply as free labour, without giving them credit or sharing the results.",
+    "Still, the message of citizen science is an attractive one: curiosity is not reserved for people in laboratories, and anyone with a little time and attention can contribute to human knowledge."
+  ]
+}

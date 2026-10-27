@@ -1609,3 +1609,13 @@ TXI.add({
   shPrev: ['← Previous', '← Anterior', '← Précédente', '← Zurück', '← Precedente', '← Anterior', '← Назад', '← 上一句'],
   shNext: ['Next →', 'Siguiente →', 'Suivante →', 'Weiter →', 'Successiva →', 'Próxima →', 'Далее →', '下一句 →'],
 });
+
+// temas nuevos (tool/contenido/generar.py): inicio
+TXI.add({}, {
+    "Aprender idiomas": ["Learning languages", "Aprender idiomas", "Apprendre les langues", "Sprachen lernen", "Imparare le lingue", "Aprender idiomas", "Изучение языков", "学习语言"],
+    "Deporte": ["Sport", "Deporte", "Sport", "Sport", "Sport", "Esporte", "Спорт", "体育"],
+    "Consumo": ["Shopping and consumption", "Consumo", "Consommation", "Konsum", "Consumi", "Consumo", "Потребление", "消费"],
+    "Ciencia": ["Science", "Ciencia", "Science", "Wissenschaft", "Scienza", "Ciência", "Наука", "科学"],
+    "Arte": ["Art", "Arte", "Art", "Kunst", "Arte", "Arte", "Искусство", "艺术"],
+});
+// temas nuevos: fin

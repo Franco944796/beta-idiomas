@@ -1,0 +1,127 @@
+{
+  "book": "time-machine",
+  "n": 15,
+  "title": "The Time Traveller's Return",
+  "words": 480,
+  "summary_es": "El Viajero vuelve a su laboratorio. Nota que la máquina quedó en otro rincón, porque los morlocks la habían movido. Rengo y sucio, va al comedor donde lo esperan sus invitados.",
+  "blocks": [
+    {
+      "t": "p",
+      "text": "“So I came back. For a long time I must have been insensible upon the machine. The blinking succession of the days and nights was resumed, the sun got golden again, the sky blue. I breathed with greater freedom. The fluctuating contours of the land ebbed and flowed. The hands spun backward upon the dials. At last I saw again the dim shadows of houses, the evidences of decadent humanity. These, too, changed and passed, and others came. Presently, when the million dial was at zero, I slackened speed. I began to recognise our own pretty and familiar architecture, the thousands hand ran back to the starting-point, the night and day flapped slower and slower. Then the old walls of the laboratory came round me. Very gently, now, I slowed the mechanism down."
+    },
+    {
+      "t": "p",
+      "text": "“I saw one little thing that seemed odd to me. I think I have told you that when I set out, before my velocity became very high, Mrs. Watchett had walked across the room, travelling, as it seemed to me, like a rocket. As I returned, I passed again across that minute when she traversed the laboratory. But now her every motion appeared to be the exact inversion of her previous ones. The door at the lower end opened, and she glided quietly up the laboratory, back foremost, and disappeared behind the door by which she had previously entered. Just before that I seemed to see Hillyer for a moment; but he passed like a flash."
+    },
+    {
+      "t": "p",
+      "text": "“Then I stopped the machine, and saw about me again the old familiar laboratory, my tools, my appliances just as I had left them. I got off the thing very shakily, and sat down upon my bench. For several minutes I trembled violently. Then I became calmer. Around me was my old workshop again, exactly as it had been. I might have slept there, and the whole thing have been a dream."
+    },
+    {
+      "t": "p",
+      "text": "“And yet, not exactly! The thing had started from the south-east corner of the laboratory. It had come to rest again in the north-west, against the wall where you saw it. That gives you the exact distance from my little lawn to the pedestal of the White Sphinx, into which the Morlocks had carried my machine."
+    },
+    {
+      "t": "p",
+      "text": "“For a time my brain went stagnant. Presently I got up and came through the passage here, limping, because my heel was still painful, and feeling sorely begrimed. I saw the Pall Mall Gazette on the table by the door. I found the date was indeed today, and looking at the timepiece, saw the hour was almost eight o’clock. I heard your voices and the clatter of plates. I hesitated—I felt so sick and weak. Then I sniffed good wholesome meat, and opened the door on you. You know the rest. I washed, and dined, and now I am telling you the story."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "insensible",
+      "es": "inconsciente"
+    },
+    {
+      "en": "velocity",
+      "es": "velocidad"
+    },
+    {
+      "en": "appliances",
+      "es": "aparatos"
+    },
+    {
+      "en": "heel",
+      "es": "talón"
+    },
+    {
+      "en": "limping",
+      "es": "rengueando"
+    },
+    {
+      "en": "laboratory",
+      "es": "laboratorio"
+    },
+    {
+      "en": "tools",
+      "es": "herramientas"
+    },
+    {
+      "en": "begrimed",
+      "es": "mugriento"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What does he see Mrs. Watchett do on the way back?",
+      "options": [
+        "Walk backwards across the room",
+        "Shout at him",
+        "Open the window",
+        "Sleep in a chair"
+      ],
+      "answer": "Walk backwards across the room",
+      "why": "Sus movimientos son el inverso de los del principio."
+    },
+    {
+      "type": "tf",
+      "q": "The machine stops in exactly the same place where it started.",
+      "answer": false,
+      "why": "Partió del rincón sudeste y quedó en el noroeste."
+    },
+    {
+      "type": "fill",
+      "q": "It started in the south-east corner and stopped in the ___.",
+      "answer": [
+        "north-west"
+      ],
+      "why": "Dice: It had come to rest again in the north-west."
+    },
+    {
+      "type": "mc",
+      "q": "Why did the machine end up in a different corner?",
+      "options": [
+        "The Morlocks had moved it into the sphinx",
+        "He drove it badly",
+        "Mrs. Watchett pushed it",
+        "There was an earthquake"
+      ],
+      "answer": "The Morlocks had moved it into the sphinx",
+      "why": "La distancia corresponde a donde la habían puesto los morlocks."
+    },
+    {
+      "type": "mc",
+      "q": "Why is he limping?",
+      "options": [
+        "His heel is painful",
+        "He fell down the well",
+        "A Morlock bit him",
+        "He broke his leg"
+      ],
+      "answer": "His heel is painful",
+      "why": "Dice: limping, because my heel was still painful."
+    },
+    {
+      "type": "mc",
+      "q": "What does he do after getting off the machine?",
+      "options": [
+        "He goes to the dining room where the guests are",
+        "He goes to bed",
+        "He leaves the house",
+        "He calls a doctor"
+      ],
+      "answer": "He goes to the dining room where the guests are",
+      "why": "Va hacia el comedor y oye a sus invitados."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "b1-wrong-parcel",
+  "level": "B1",
+  "title": "The wrong parcel",
+  "title_es": "El paquete equivocado",
+  "topic": "Ficción",
+  "glossary": [
+    {
+      "en": "parcel",
+      "es": "paquete"
+    },
+    {
+      "en": "handed",
+      "es": "entregó"
+    },
+    {
+      "en": "leather",
+      "es": "de cuero"
+    },
+    {
+      "en": "ribbon",
+      "es": "cinta"
+    },
+    {
+      "en": "label",
+      "es": "etiqueta"
+    },
+    {
+      "en": "went quiet",
+      "es": "se quedó callado"
+    },
+    {
+      "en": "diary",
+      "es": "diario"
+    },
+    {
+      "en": "dialled",
+      "es": "marcó"
+    },
+    {
+      "en": "elderly",
+      "es": "anciano"
+    }
+  ],
+  "questions": [
+    {
+      "type": "mc",
+      "q": "What was Jamie expecting?",
+      "options": [
+        "New headphones",
+        "A notebook",
+        "A letter from his family",
+        "A key"
+      ],
+      "answer": "New headphones",
+      "why": "Dice: Jamie had been waiting for new headphones."
+    },
+    {
+      "type": "mc",
+      "q": "Who was the parcel addressed to?",
+      "options": [
+        "Mrs E. Hart",
+        "Jamie",
+        "Mr Okafor",
+        "S."
+      ],
+      "answer": "Mrs E. Hart",
+      "why": "Dice: For Mrs E. Hart."
+    },
+    {
+      "type": "tf",
+      "q": "Edith Hart was still living in the building.",
+      "answer": false,
+      "why": "Dice: She died last winter."
+    },
+    {
+      "type": "fill",
+      "q": "In the parcel there was a black and white photograph of a ___.",
+      "answer": [
+        "lighthouse"
+      ],
+      "why": "Dice: a black and white photograph of a lighthouse."
+    },
+    {
+      "type": "mc",
+      "q": "Where did the young woman in the diary work?",
+      "options": [
+        "In a lighthouse in Cornwall",
+        "In a library in London",
+        "In a post office",
+        "On a fishing boat"
+      ],
+      "answer": "In a lighthouse in Cornwall",
+      "why": "Dice: working in a lighthouse in Cornwall with her father."
+    },
+    {
+      "type": "mc",
+      "q": "Why had the man sent the parcel?",
+      "options": [
+        "So that Edith would know she had a brother",
+        "To ask Edith for money",
+        "To return a key he had borrowed",
+        "To sell the lighthouse"
+      ],
+      "answer": "So that Edith would know she had a brother",
+      "why": "Dice: so she would finally know she had a brother."
+    },
+    {
+      "type": "tf",
+      "q": "Jamie gave the parcel to the police.",
+      "answer": false,
+      "why": "Llamó al número y luego viajó a Cornwall."
+    },
+    {
+      "type": "mc",
+      "q": "How does the story end?",
+      "options": [
+        "Jamie travels to Cornwall to meet the man",
+        "Jamie throws the box away",
+        "Edith's brother visits Jamie in London",
+        "Mr Okafor takes the parcel"
+      ],
+      "answer": "Jamie travels to Cornwall to meet the man",
+      "why": "Dice: Jamie took the train to Cornwall with the box under his arm."
+    }
+  ],
+  "task": "Continúa la historia en 100–120 palabras: ¿qué pasa cuando Jamie llega a Cornwall? Usa diálogos y al menos dos tiempos del pasado.",
+  "words": 295,
+  "minutes": 2,
+  "paragraphs": [
+    "The parcel arrived on a rainy Tuesday. Jamie had been waiting for new headphones, so when the delivery driver handed him a box, he signed without looking and ran upstairs.",
+    "Inside there were no headphones. Instead, he found an old leather notebook, a key with a red ribbon and a black and white photograph of a lighthouse. The address on the label was his, but the name was not: \"For Mrs E. Hart\".",
+    "Jamie had lived in the flat for only three months. He went downstairs to ask his neighbour, Mr Okafor, who had lived in the building for thirty years. When he saw the name, the old man went quiet. \"Edith Hart lived in your flat before you,\" he said. \"She died last winter. She had no family. At least, none that we knew about.\"",
+    "That night, Jamie opened the notebook. It was a diary from 1968. The writer was a young woman working in a lighthouse in Cornwall with her father. On the last page, someone had written a phone number and a message: \"If you ever want to know the truth, call me. — S.\"",
+    "Jamie knew he should give the parcel to the police or send it back. But he couldn't stop thinking about it. After two days, he dialled the number. An elderly man answered. When Jamie mentioned Edith's name, there was a long silence. Then the man said, very softly, \"Did she get my parcel? I sent it so she would finally know she had a brother.\"",
+    "Jamie explained what had happened. The man began to cry. A month later, Jamie took the train to Cornwall with the box under his arm. He had a lot of questions, and for the first time, someone was ready to answer them."
+  ]
+}
