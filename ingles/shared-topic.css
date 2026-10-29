@@ -1,4 +1,6 @@
 :root {
+  --glow-rgb: 46, 85, 199;
+  --glow-hot: #8fa9f0;
   color-scheme: light;
   --ink: #1d2025;
   --text: #2f333b;
@@ -37,6 +39,8 @@
   --rust-line: rgba(181, 70, 31, 0.15);
   --focus-ring: rgba(46, 85, 199, 0.15);
   --shadow: 29, 32, 37; /* color de las sombras, se usa como rgba(var(--shadow), a) */
+  --glow-rgb: 46, 85, 199;
+  --glow-hi: #8fa9f0;
 
   --radius: 12px;
   --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -46,6 +50,8 @@
 
 /* tema.js pone data-theme="dark" en <html> */
 :root[data-theme='dark'] {
+  --glow-rgb: 143, 169, 240;
+  --glow-hot: #ffffff;
   color-scheme: dark;
   --ink: #e6e8ec;
   --text: #cfd3da;
@@ -84,6 +90,8 @@
   --rust-line: rgba(229, 138, 99, 0.2);
   --focus-ring: rgba(143, 169, 240, 0.25);
   --shadow: 0, 0, 0;
+  --glow-rgb: 143, 169, 240;
+  --glow-hi: #ffffff;
 }
 
 *,
@@ -226,6 +234,59 @@ textarea {
 }
 .lang-select select:hover {
   border-color: var(--ink);
+}
+
+/* Borde de luz que gira, como en la bandera de inglés de la portada: para lo que hay que hacer ahora
+   (siguiente lección, examen listo). Solo se ve el anillo; el centro lo recorta la máscara. */
+@property --orbit {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+.glow {
+  position: relative;
+  box-shadow: 0 0 22px rgba(var(--glow-rgb), 0.28);
+}
+.glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--orbit),
+    rgba(var(--glow-rgb), 0.12) 0deg,
+    rgb(var(--glow-rgb)) 50deg,
+    var(--glow-hi) 80deg,
+    #b48cff 110deg,
+    rgba(var(--glow-rgb), 0.12) 170deg,
+    rgba(var(--glow-rgb), 0.12) 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: glow-orbit 4s linear infinite;
+  pointer-events: none;
+}
+@keyframes glow-orbit {
+  to {
+    --orbit: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .glow::after {
+    animation: none;
+  }
+}
+@media print {
+  .glow {
+    box-shadow: none;
+  }
+  .glow::after {
+    display: none;
+  }
 }
 
 /* botón de tema (lo agrega tema.js junto al selector de idioma) */
@@ -520,3 +581,58 @@ body:has(> .page.hub) > .site-foot {
     padding: 16px 16px 32px;
   }
 }
+
+/* Borde de luz que gira (como la bandera de inglés de la portada): marca el siguiente paso.
+   Lo usan la tarjeta «siguiente lección», la lección actual del mapa y el examen listo para rendir. */
+@property --orbit {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+.glow {
+  position: relative;
+  box-shadow: 0 0 22px rgba(var(--glow-rgb), 0.28);
+}
+.glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--orbit),
+    rgba(var(--glow-rgb), 0.12) 0deg,
+    rgb(var(--glow-rgb)) 50deg,
+    var(--glow-hot) 80deg,
+    #b48cff 110deg,
+    rgba(var(--glow-rgb), 0.12) 170deg,
+    rgba(var(--glow-rgb), 0.12) 360deg
+  );
+  /* solo se ve el anillo: el centro se recorta con la máscara */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: orbit 4s linear infinite;
+  pointer-events: none;
+}
+@keyframes orbit {
+  to {
+    --orbit: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .glow::after {
+    animation: none;
+  }
+}
+@media print {
+  .glow {
+    box-shadow: none;
+  }
+  .glow::after {
+    display: none;
+  }
+}
+

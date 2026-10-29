@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trilex: Simul invicti</title>
+    <title>Trilex — Aprende idiomas</title>
+    <link rel="icon" href="imgs/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
+    <script src="ingles/tema.js"></script>
 </head>
 
 <body>
@@ -14,51 +20,58 @@
         <div class="overlay"></div>
         <div class="carousel">
             <div class="carousel-caption">
-                <h1 class="carousel-title d-flex flex-column align-items-center justify-content-center">
-                    Trilex
-                    <small class="mt-2">Aprende, explora, comunica</small>
+                <h1 class="carousel-title">
+                    <span class="brand">
+                        <!-- ∴ («por lo tanto»): el mismo símbolo que el ícono de la pestaña (imgs/favicon.svg) -->
+                        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+                            <circle cx="32" cy="15" r="8" />
+                            <circle cx="15" cy="45" r="8" />
+                            <circle cx="49" cy="45" r="8" />
+                        </svg>
+                        Trilex
+                    </span>
+                    <small>Aprende · explora · comunica</small>
                 </h1>
             </div>
         </div>
 
+        <!-- tema.js agrega acá el botón de tema claro / oscuro -->
+        <div class="ph-actions index-actions"></div>
         <!-- Selector de idiomas -->
         <div class="language-switch">
             <!-- Inglés (disponible) -->
-            <div class="lang-item" data-target="ingles/ingles.html" role="link" tabindex="0" aria-label="English">
+            <div class="lang-item featured" data-target="ingles/ingles.html" role="link" tabindex="0" aria-label="English">
                 <img src="imgs/reino-unido.png" alt="Inglés" class="lang-icon">
                 <span class="lang-text">English</span>
+                <span class="lang-cta">Empezar →</span>
             </div>
 
             <!-- Alemán (bloqueado) -->
             <div class="lang-item locked" data-lang="de">
                 <img src="imgs/alemania.png" alt="Alemán" class="lang-icon">
                 <span class="lang-text">Deutsch</span>
-                <span class="lock-icon">🔒</span>
-                <span class="development-message">In Entwicklung</span>
+                <span class="development-message">Bald verfügbar</span>
             </div>
 
             <!-- Ruso (bloqueado) -->
             <div class="lang-item locked" data-lang="ru">
                 <img src="imgs/rusia.png" alt="Ruso" class="lang-icon">
                 <span class="lang-text">Русский</span>
-                <span class="lock-icon">🔒</span>
-                <span class="development-message">В разработке</span>
+                <span class="development-message">Скоро</span>
             </div>
 
             <!-- Chino (bloqueado) -->
             <div class="lang-item locked" data-lang="zh">
                 <img src="imgs/china.png" alt="Chino" class="lang-icon">
                 <span class="lang-text">中文</span>
-                <span class="lock-icon">🔒</span>
-                <span class="development-message">开发中</span>
+                <span class="development-message">即将推出</span>
             </div>
 
             <!-- Castellano (bloqueado) -->
             <div class="lang-item locked" data-lang="es">
                 <img src="imgs/argentina.png" alt="Castellano" class="lang-icon">
                 <span class="lang-text">Castellano</span>
-                <span class="lock-icon">🔒</span>
-                <span class="development-message">En desarrollo</span>
+                <span class="development-message">Próximamente</span>
             </div>
         </div>
 

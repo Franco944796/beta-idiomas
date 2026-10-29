@@ -877,7 +877,7 @@
     if (nextL) {
       const u = unitOf(nextL);
       s +=
-        `<section class="panel dark tx-next"><div><span class="kicker">${T('nextH')} · ${nextL.cefr} · ` +
+        `<section class="panel dark tx-next glow"><div><span class="kicker">${T('nextH')} · ${nextL.cefr} · ` +
         `${T('unitN', { n: u.order })} · ${T('lessonN', { n: nextL.order })}</span>` +
         `<h2>${esc(nextL.title_target)}</h2>` +
         `<p>${esc(subTitle(nextL.id, nextL.title_es, nextL.title_target))}</p></div>` +
@@ -925,7 +925,7 @@
                 ? `<span class="tx-st lock">${T('lockedW')}</span>`
                 : `<span class="tx-st go">${T(cur ? 'startArrow' : 'openArrow')}</span>`;
             s +=
-              `<li><button type="button" class="tx-ls ${cur ? 'cur' : ''} ${dn ? 'done' : ''}" ` +
+              `<li><button type="button" class="tx-ls ${cur ? 'cur glow' : ''} ${dn ? 'done' : ''}" ` +
               `data-go="lesson:${l.id}" ${ok ? '' : 'disabled'}>` +
               `<span class="tx-ls-n">${pad2(l.order)}</span><span class="tx-ls-t">${esc(l.title_target)}` +
               (cp ? ` <em>${T('checkpointTag')}</em>` : '') +
@@ -954,7 +954,8 @@
             ? T('examQs', { n: lv.exam.items || 30 })
             : T('completeN', { n: tot });
       s +=
-        `</div><section class="panel rust tx-exam ${ex && ex.passed ? 'won' : ''}">` +
+        // el examen brilla cuando ya se terminaron las lecciones del nivel y todavía no se aprobó
+        `</div><section class="panel rust tx-exam ${ex && ex.passed ? 'won' : open && nd === ls.length ? 'glow' : ''}">` +
         `<div><span class="kicker rust">${T('finalExam', { l: lv.cefr })}</span>` +
         `<p class="tx-exam-txt">${examTxt}</p></div><div class="tx-row-btns">` +
         `<button type="button" class="tx-btn" data-go="exam:${lv.cefr}" ${open ? '' : 'disabled'}>` +

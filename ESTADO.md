@@ -62,6 +62,18 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
   comentarios no cambiaron. Antes la correcta era ≥ 30 % más larga en 432 preguntas; ahora en ninguna.
   Copiado a la app con `trilex/tool/contenido.py`.
 
+- 2026-10-28 Portada (`index.html`, `style.css`): «Trilex» en el celeste del modo oscuro (#8fa9f0) con sombra suave,
+  más grande y en IBM Plex Sans; la frase en IBM Plex Mono en mayúsculas; marca ∴ junto al nombre, que también es el
+  ícono de la pestaña en todas las páginas (`imgs/favicon.svg`, solo los 3 puntos, sin fondo). Inglés destacado (grande, «Empezar →» y borde de luz
+  que gira); los otros idiomas en gris con «Próximamente» en su idioma (sin candado rojo). Sin la línea brillante bajo
+  el lema; título de la pestaña «Trilex — Aprende idiomas»; botón de tema claro/oscuro arriba a la izquierda
+  (`ingles/tema.js`). Revisado en capturas (computadora, celular, tema claro).
+
+- 2026-10-28 Borde de luz que gira (clase `.glow` en `ingles/shared-topic.css`, como la bandera de inglés de la
+  portada) en el curso: tarjeta «Siguiente lección», la lección que toca en el mapa y el examen final del nivel cuando
+  ya se terminaron sus lecciones y falta aprobarlo. Celeste/violeta en oscuro, azul/celeste en claro; quieto si el
+  sistema pide menos movimiento; no se imprime. Revisado en capturas (oscuro y claro).
+
 ## En curso
 - Nada.
 
