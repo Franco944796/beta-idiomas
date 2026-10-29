@@ -143,9 +143,9 @@
       "prompt": "¿Cuál es el saludo más adecuado para un correo formal a la Sra. Taylor?",
       "options": [
         "Dear Ms Taylor,",
-        "Hi Taylor!",
-        "Hey Ms,",
-        "Yo Taylor,"
+        "Hi Ms Taylor!",
+        "Dear Taylor,",
+        "Dearest Ms Taylor,"
       ],
       "answer": [
         "Dear Ms Taylor,"
@@ -168,8 +168,8 @@
       "options": [
         "Yours faithfully,",
         "Yours sincerely,",
-        "See you!",
-        "Cheers,"
+        "Love from,",
+        "Yours lovingly,"
       ],
       "answer": [
         "Yours faithfully,"
@@ -218,9 +218,9 @@
       "prompt": "Quieres pedir algo a tu jefe con formalidad:",
       "options": [
         "I would be grateful if you could send me the document.",
-        "Send me the document.",
-        "Give me the document now.",
-        "You send the document."
+        "I would be grateful if you send me the document now.",
+        "I would be grateful that you could sent me the document.",
+        "I want that you send me the document, if possible."
       ],
       "answer": [
         "I would be grateful if you could send me the document."
@@ -457,7 +457,7 @@
         "To take a message",
         "To call back later",
         "To send an email",
-        "To wait"
+        "To wait on the line"
       ],
       "answer": [
         "To take a message"

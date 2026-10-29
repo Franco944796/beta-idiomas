@@ -1,0 +1,279 @@
+.pet-badge {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 55;
+  width: 68px;
+  height: 68px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 6px 18px rgba(var(--shadow), 0.18);
+  cursor: pointer;
+}
+.pet-badge:hover {
+  transform: translateY(-2px);
+}
+/* mientras se ve la mascota asomada en el título, la insignia de la esquina se esconde */
+.pet-badge.pet-away {
+  opacity: 0;
+  transform: translateY(16px);
+  pointer-events: none;
+}
+.pet-badge {
+  transition:
+    transform 0.2s,
+    opacity 0.2s;
+}
+.pet-peek {
+  position: absolute;
+  z-index: 5;
+  width: 84px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.pet-peek[hidden] {
+  display: none;
+}
+.pet-peek svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform-origin: 50% 100%;
+  animation: pet-peek-in 0.6s ease-out;
+  transition: transform 0.2s;
+}
+.pet-peek:hover svg {
+  transform: translateY(-3px) rotate(-3deg);
+}
+.pet-peek:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  border-radius: 8px;
+}
+@keyframes pet-peek-in {
+  from {
+    transform: translateY(70%);
+  }
+}
+.pet-badge:focus-visible {
+  outline: 3px solid var(--focus-ring);
+}
+.pet-badge svg,
+.pet-big svg,
+.pet-pick svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pet-up {
+  animation: pet-up 0.9s ease-out 2;
+}
+@keyframes pet-up {
+  0%,
+  100% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(-12px) scale(1.12);
+  }
+  60% {
+    transform: translateY(0) scale(0.96);
+  }
+}
+.pet-toast {
+  position: fixed;
+  left: 92px;
+  bottom: 34px;
+  z-index: 55;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--feature);
+  color: var(--on-feature-strong);
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(var(--shadow), 0.2);
+}
+.pet-toast[hidden],
+.pet-panel[hidden] {
+  display: none;
+}
+.pet-panel {
+  position: fixed;
+  left: 16px;
+  bottom: 94px;
+  z-index: 56;
+  width: min(340px, calc(100vw - 32px));
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 12px 32px rgba(var(--shadow), 0.22);
+  font-size: 0.92rem;
+}
+.pet-panel h3 {
+  margin: 4px 0 8px;
+  color: var(--ink);
+  font-size: 1.2rem;
+}
+.pet-x {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px;
+}
+.pet-lede,
+.pet-small {
+  color: var(--muted);
+  margin: 6px 0;
+  line-height: 1.45;
+}
+.pet-small {
+  font-size: 0.82rem;
+}
+.pet-mood {
+  margin: 10px 0 4px;
+  color: var(--ink);
+}
+.pet-head {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-right: 18px;
+}
+.pet-head > div:last-child {
+  flex: 1;
+  min-width: 0;
+}
+.pet-big {
+  width: 96px;
+  height: 96px;
+  flex: none;
+}
+.pet-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--track);
+  overflow: hidden;
+}
+.pet-bar span {
+  display: block;
+  height: 100%;
+  background: var(--blue);
+}
+.pet-pick {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+.pet-pick button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 4px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+.pet-pick button svg {
+  height: 110px;
+}
+.pet-pick button:hover,
+.pet-pick button.on,
+.pet-acc button.on {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+}
+.pet-acc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 4px;
+}
+.pet-acc button,
+.pet-change {
+  padding: 5px 10px;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.pet-acc button:disabled {
+  color: var(--faint);
+  cursor: default;
+}
+.pet-change {
+  margin-top: 12px;
+}
+.pet-slot {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.pet-slot-l {
+  flex: none;
+  width: 64px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.pet-slot .pet-acc {
+  margin: 4px 0;
+}
+.pet-test {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line-2);
+}
+.pet-test .pet-acc {
+  margin: 6px 0;
+}
+@media (max-width: 576px) {
+  /* deja lugar para la insignia: si no, tapa el pie de página al llegar al final */
+  body {
+    padding-bottom: 64px;
+  }
+  .pet-peek {
+    width: 64px;
+  }
+  .pet-badge {
+    width: 52px;
+    height: 52px;
+    left: 10px;
+    bottom: 10px;
+  }
+  .pet-panel {
+    left: 10px;
+    bottom: 72px;
+  }
+  .pet-toast {
+    left: 70px;
+    bottom: 22px;
+  }
+}
+@media print {
+  .pet-peek,
+  .pet-badge,
+  .pet-panel,
+  .pet-toast {
+    display: none;
+  }
+}

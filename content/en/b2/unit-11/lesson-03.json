@@ -208,9 +208,9 @@
       "prompt": "¿Cuándo deben pagar el alquiler los inquilinos?",
       "options": [
         "El primer día de cada mes o antes",
-        "El último día del mes",
-        "Cada semana",
-        "Cuando quieran"
+        "El último día de cada mes, como muy tarde",
+        "Cada semana, los lunes por la mañana",
+        "Cuando quieran, sin una fecha fija"
       ],
       "answer": [
         "El primer día de cada mes o antes"
@@ -233,9 +233,9 @@
       "prompt": "¿Qué está terminantemente prohibido?",
       "options": [
         "Fumar dentro del edificio",
-        "Cocinar",
-        "Recibir visitas",
-        "Ver la tele"
+        "Cocinar en la habitación",
+        "Recibir visitas por la noche",
+        "Ver la tele después de las once"
       ],
       "answer": [
         "Fumar dentro del edificio"
@@ -258,8 +258,8 @@
       "prompt": "¿Con cuánta antelación debe avisar el propietario para inspeccionar?",
       "options": [
         "Al menos 24 horas",
-        "Una semana",
-        "Un mes",
+        "Al menos una semana",
+        "Al menos un mes",
         "No necesita avisar nunca"
       ],
       "answer": [
@@ -604,9 +604,9 @@
       "prompt": "'Failure to pay may result in a fine' means...",
       "options": [
         "Si no pagas, puedes recibir una multa",
-        "Pagar es opcional",
-        "La multa es un premio",
-        "No hay sanción"
+        "Pagar es opcional si avisas",
+        "La multa es un premio por pagar",
+        "No hay ninguna sanción"
       ],
       "answer": [
         "Si no pagas, puedes recibir una multa"
@@ -769,9 +769,9 @@
       "prompt": "¿Quién no necesita asiento propio?",
       "options": [
         "Los niños menores de dos años",
-        "Los adultos",
-        "Los pilotos",
-        "Los pasajeros de negocios"
+        "Los adultos que viajan solos",
+        "Los pilotos y la tripulación",
+        "Los pasajeros de clase business"
       ],
       "answer": [
         "Los niños menores de dos años"
