@@ -78,6 +78,8 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
   esquinas sobre el fondo de siempre, más tenues en oscuro y blanco al imprimir. Se quitó una copia repetida del
   estilo `.glow` y en el lector ya no aparece una barra vertical en la fila de pestañas. Revisado en capturas.
 
+- 2026-10-29 Portada: el puntero queda como flecha sobre el texto (no se puede seleccionar); manito en lo clicable.
+
 ## En curso
 - Nada.
 

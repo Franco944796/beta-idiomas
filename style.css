@@ -18,6 +18,8 @@ body {
     line-height: 1.6;
     color: #333;
     overflow-x: hidden;
+    /* el texto no se puede seleccionar (script.js), así que tampoco se muestra el cursor de texto */
+    cursor: default;
 }
 
 /* =========================================
