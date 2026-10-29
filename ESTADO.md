@@ -74,6 +74,10 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
   ya se terminaron sus lecciones y falta aprobarlo. Celeste/violeta en oscuro, azul/celeste en claro; quieto si el
   sistema pide menos movimiento; no se imprime. Revisado en capturas (oscuro y claro).
 
+- 2026-10-28 Fondo «aurora» en las páginas de inglés (`ingles/shared-topic.css`): halos celeste y violeta en las
+  esquinas sobre el fondo de siempre, más tenues en oscuro y blanco al imprimir. Se quitó una copia repetida del
+  estilo `.glow` y en el lector ya no aparece una barra vertical en la fila de pestañas. Revisado en capturas.
+
 ## En curso
 - Nada.
 

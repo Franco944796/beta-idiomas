@@ -32,6 +32,8 @@
   border-bottom: 1px solid var(--line-2);
   margin: -12px 0 28px;
   overflow-x: auto;
+  /* el borde de cada pestaña baja 1 px sobre la línea: sin esto aparece una barra vertical */
+  overflow-y: hidden;
 }
 .rd-tabs a {
   padding: 10px 14px;
