@@ -489,6 +489,190 @@ body {
 }
 
 /* =========================================
+   APP PARA ANDROID
+========================================= */
+.app-promo {
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+    z-index: 15;
+}
+
+.app-promo-card {
+    position: relative;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 20px 20px 16px;
+    border-radius: 20px;
+    background: rgba(8, 14, 32, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 26px rgba(var(--sky-rgb), 0.22);
+    color: white;
+}
+
+/* el mismo borde de luz que la bandera de inglés (.lang-item.featured::before) */
+.app-promo-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1.5px;
+    border-radius: inherit;
+    background: conic-gradient(from var(--orbit),
+            rgba(var(--sky-rgb), 0.15) 0deg,
+            var(--sky) 50deg,
+            #ffffff 80deg,
+            #b48cff 110deg,
+            rgba(var(--sky-rgb), 0.15) 170deg,
+            rgba(var(--sky-rgb), 0.15) 360deg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: orbit 4s linear infinite;
+    animation-delay: -2s;
+    pointer-events: none;
+}
+
+.app-promo-badge {
+    padding: 2px 9px;
+    border-radius: 999px;
+    border: 1px solid rgba(var(--sky-rgb), 0.5);
+    color: var(--sky);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.app-promo-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--sky);
+    text-shadow: 0 0 14px rgba(var(--sky-rgb), 0.4);
+}
+
+.app-promo-text {
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.app-promo-btn {
+    align-self: stretch;
+    margin-top: 4px;
+    padding: 9px 12px;
+    border-radius: 999px;
+    background: var(--sky);
+    color: #0d1430;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 0 16px rgba(var(--sky-rgb), 0.45);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.app-promo-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 24px rgba(var(--sky-rgb), 0.7);
+}
+
+.app-promo-meta {
+    align-self: center;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.app-promo-help {
+    align-self: stretch;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 8px;
+    font-size: 0.8rem;
+}
+
+.app-promo-help summary {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.app-promo-help summary:hover {
+    color: var(--sky);
+}
+
+.app-promo-help ol {
+    margin: 6px 0 0 18px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.app-promo-help li + li {
+    margin-top: 3px;
+}
+
+.app-promo-tab {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .app-promo-card::before {
+        animation: none;
+    }
+}
+
+/* por debajo de este ancho la tarjeta pisa el título y las banderas */
+@media (max-width: 1180px) {
+    .app-promo {
+        right: 0;
+    }
+
+    .app-promo-tab {
+        display: block;
+        padding: 10px 8px 10px 10px;
+        border: 1px solid rgba(var(--sky-rgb), 0.5);
+        border-right: none;
+        border-radius: 14px 0 0 14px;
+        background: rgba(8, 14, 32, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: var(--sky);
+        font-family: 'IBM Plex Mono', ui-monospace, monospace;
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 0 16px rgba(var(--sky-rgb), 0.3);
+    }
+
+    .app-promo-card {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        width: min(260px, calc(100vw - 32px));
+        transform: translateY(-50%);
+        /* abierta queda encima del título: con el vidrio de escritorio se leían los dos textos mezclados */
+        background: rgba(8, 14, 32, 0.94);
+        display: none;
+    }
+
+    .app-promo.open .app-promo-card {
+        display: flex;
+    }
+
+    .app-promo.open .app-promo-tab {
+        visibility: hidden;
+    }
+}
+
+/* =========================================
    SECCIÓN DE CONTACTO
 ========================================= */
 .infos {

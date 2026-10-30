@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initLanguageCarousel();
     initLockedLanguages();
     initContactMail();
+    initAppPromo();
 });
 
 function initContentProtection() {
@@ -178,4 +179,21 @@ function initLanguageCarousel() {
 
     phone.addEventListener('change', () => show(current));
     show(0);
+}
+
+function initAppPromo() {
+    const promo = document.querySelector('.app-promo');
+    if (!promo) return;
+    const tab = promo.querySelector('.app-promo-tab');
+
+    tab.addEventListener('click', () => {
+        const open = promo.classList.toggle('open');
+        tab.setAttribute('aria-expanded', String(open));
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!promo.classList.contains('open') || promo.contains(e.target)) return;
+        promo.classList.remove('open');
+        tab.setAttribute('aria-expanded', 'false');
+    });
 }

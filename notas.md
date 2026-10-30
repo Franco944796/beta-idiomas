@@ -36,9 +36,5 @@ Implementar:
 - Arreglar: En los textos del modo autoaprendizaje, al tocar una palabra para ver su definicion y traduccion...Tener en cuenta que el selector de idiomas debe afectar a dicha traduccion (estando con el selector en ruso, al seleccionar cualquier palabra me da la traduccion y significado en espanol, cosa que esta mal).
 
 
-Implementar (no hecho):
-- En el index inicial de la pagina con el selector del idioma a aprender, en el apartado de Social Media modificar por otra red social o contacto.
-
 ### Recordatorios para mi (ignorar por ahora):
-    1. Cuando se le indique a claude, que modifique la web para que al entrar muestre en un costado (que se note) la opcion para descargar la app (futura, el apk es para probar).
-    2.Modificar la "mascota" de la web, agregar mas cosas al aspecto, es muy simple, y agregar otros.
+- ...

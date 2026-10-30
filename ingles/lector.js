@@ -525,6 +525,8 @@
     save();
     const list = ix.texts.filter((t) => t.level === lv);
     const doneN = (l) => ix.texts.filter((t) => t.level === l && P.t[t.id]).length;
+    // el camino: brilla la primera lectura del nivel que todavía no se hizo
+    const next = list.find((t) => !P.t[t.id]);
     app.innerHTML =
       head(T('selfK'), T('readTitle'), T('introTexts')) +
       tabs('textos') +
@@ -542,7 +544,7 @@
           const p = P.t[t.id],
             notes = P.notes['t:' + t.id];
           return (
-            `<a class="rd-card ${p ? 'done' : ''}" href="#/texto/${t.id}">` +
+            `<a class="rd-card ${p ? 'done' : ''} ${t === next ? 'glow' : ''}" href="#/texto/${t.id}">` +
             `<span class="num">${t.level} · ${pad2(i + 1)}</span><h3>${esc(t.title)}</h3>` +
             `<small>${L() === 'es' ? esc(t.title_es) + ' · ' : ''}${esc(TXI.topic(t.topic))}</small>` +
             `<p class="rd-meta">${T('wordsN', { n: t.words })} · ${T('minN', { n: t.minutes })} · ` +

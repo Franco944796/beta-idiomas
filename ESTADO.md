@@ -5,7 +5,7 @@ Web estática para aprender idiomas (por ahora solo inglés, A1–B2). Trabajo e
 basadas en investigación (repaso espaciado, fluidez, producción) al lector y al curso.
 
 ## Decisiones tomadas
-- Reglas de trabajo: `reglas-de-trabajo.md`.
+- Reglas de trabajo: `../reglas-de-trabajo.md` (se cargan solas por `../CLAUDE.md`).
 - Carrusel de idiomas del inicio: solo en celular (≤ 576 px); en escritorio, fila de banderas.
 - Contacto: solo ícono ✉ que abre Gmail a sudoanonimo@gmail.com, sin límite de clics.
 - Enlaces sin URL visible al pasar el mouse (`hide-links.js`); sin `title` en enlaces.
@@ -79,11 +79,19 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
   estilo `.glow` y en el lector ya no aparece una barra vertical en la fila de pestañas. Revisado en capturas.
 
 - 2026-10-29 Portada: el puntero queda como flecha sobre el texto (no se puede seleccionar); manito en lo clicable.
+- 2026-10-29 Portada: tarjeta «Trilex en tu celular» a la derecha, centrada en vertical (`index.html`, `style.css`,
+  `initAppPromo` en `script.js`), con el borde de luz de la bandera de inglés, «Descargar APK», versión y tamaño, y
+  desplegable «Cómo instalar» (5 pasos; incluye aceptar el análisis de Play Protect). Hasta 1180 px de ancho es una pestaña «⤓ App» en el borde derecho que la abre (si no,
+  pisa el título y las banderas). Revisado en capturas (1366, 900 y 390 px; abierta y cerrada).
+- 2026-10-30 Camino claro: en «Lecturas graduadas» brilla (`.glow`) la primera lectura sin hacer del nivel elegido
+  (`textsView` en `ingles/lector.js`). El curso ya resaltaba la lección siguiente. Probado en Firefox.
 
 ## En curso
 - Nada.
 
 ## Pendiente
+- Subir el APK como Release en github.com/Franco944796/app_trilex con el archivo llamado `trilex.apk` (el botón
+  apunta a `releases/latest/download/trilex.apk`). Al publicar otra versión, cambiar «v1.0.0 · 64 MB» en `index.html`.
 - Preguntas frecuentes del curso (FAQ, 8 idiomas): no mencionan el repaso mixto ni el dictogloss.
 - Si se regenera `content/` con build.py, conservar también las opciones reescritas de los ejercicios (2026-10-28) y `content/en/extras.json`, las lecturas y libros B1–B2
   nuevos y las palabras nuevas del diccionario: sus fuentes están en `../trilex/tool/contenido/`
@@ -97,5 +105,4 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
 - Contenido: `content/en/` (generado por tools/ fuera del repo, salvo `extras.json`).
 
 ## Problemas conocidos
-- `terminos.html` sección 6 muestra franco.insua3.0@gmail.com (no coincide con el contacto nuevo).
 - `ingles/textos.en.html` e `ingles/historia.en.html` no se enlazan desde ningún lado.
