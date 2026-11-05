@@ -6,7 +6,56 @@ document.addEventListener('DOMContentLoaded', () => {
     initLockedLanguages();
     initContactMail();
     initAppPromo();
+    initVisitCounter();
 });
+
+// El mismo contador (Abacus) está en el portafolio: Franco944796.github.io/script.js
+function initVisitCounter() {
+    const actions = document.querySelector('.index-actions');
+    if (!actions) return;
+
+    const WORDS = {
+        en: { one: 'visit', other: 'visits' },
+        es: { one: 'visita', other: 'visitas' },
+        fr: { one: 'visite', other: 'visites' },
+        de: { one: 'Besuch', other: 'Besuche' },
+        it: { one: 'visita', other: 'visite' },
+        pt: { one: 'visita', other: 'visitas' },
+        ru: { one: 'визит', few: 'визита', many: 'визитов', other: 'визита' },
+        zh: { other: '次访问' },
+    };
+    let lang = null;
+    try {
+        lang = localStorage.getItem('selectedLanguage');
+    } catch (e) { }
+    if (!WORDS[lang]) lang = WORDS[document.documentElement.lang] ? document.documentElement.lang : 'es';
+
+    // Abrir el archivo en local o con un servidor de prueba solo lee el total, sin sumar.
+    const published = /^https?:$/.test(location.protocol) &&
+        !/^(localhost|127\.|\[::1\])/.test(location.hostname);
+    const url = 'https://abacus.jasoncameron.dev/' + (published ? 'hit' : 'get') +
+        '/franco944796-trilex/inicio';
+
+    fetch(url)
+        .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+        .then(({ value }) => {
+            if (typeof value !== 'number') return;
+            const words = WORDS[lang];
+            const word = words[new Intl.PluralRules(lang).select(value)] || words.other;
+            const text = value.toLocaleString(lang) + ' ' + word;
+
+            const badge = document.createElement('span');
+            badge.className = 'visit-count';
+            badge.innerHTML =
+                '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" ' +
+                'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
+                '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/>' +
+                '<circle cx="12" cy="12" r="3"/></svg>';
+            badge.append(text);
+            actions.append(badge);
+        })
+        .catch(() => { });
+}
 
 function initContentProtection() {
     document.addEventListener('contextmenu', (e) => {

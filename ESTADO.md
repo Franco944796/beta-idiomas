@@ -85,6 +85,11 @@ basadas en investigación (repaso espaciado, fluidez, producción) al lector y a
   pisa el título y las banderas). Revisado en capturas (1366, 900 y 390 px; abierta y cerrada).
 - 2026-10-30 Camino claro: en «Lecturas graduadas» brilla (`.glow`) la primera lectura sin hacer del nivel elegido
   (`textsView` en `ingles/lector.js`). El curso ya resaltaba la lección siguiente. Probado en Firefox.
+- 2026-11-05 Contador de visitas en la portada, arriba a la izquierda junto al botón de tema («👁 1.234 visitas», en
+  los 8 idiomas según `selectedLanguage`; `initVisitCounter` en `script.js`). Solo cuenta la portada, cada carga o
+  recarga, no al pasar a otras secciones. Abacus: `abacus.jasoncameron.dev/hit/franco944796-trilex/inicio`; en
+  `file://` o localhost usa `/get` (solo lee). Si falla, no aparece. Vence a los 6 meses sin visitas. Mismo código en
+  el portafolio. Probado en Firefox (escritorio y celular).
 
 ## En curso
 - Nada.

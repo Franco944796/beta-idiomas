@@ -115,6 +115,34 @@ body {
     top: 16px;
     left: 16px;
     z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* contador de visitas (initVisitCounter en script.js) */
+.index-actions .visit-count {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    border-radius: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.index-actions .visit-count svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
 }
 
 .index-actions .theme-btn {
