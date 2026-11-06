@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initVisitCounter();
 });
 
-// El mismo contador (Abacus) está en el portafolio: Franco944796.github.io/script.js
+// El mismo contador (Abacus) está en el portafolio (script.js) y en carreras_uni (js/ui/visits.js)
 function initVisitCounter() {
     const actions = document.querySelector('.index-actions');
     if (!actions) return;
